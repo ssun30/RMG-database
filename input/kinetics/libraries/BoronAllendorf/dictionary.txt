@@ -20,7 +20,6 @@ NH3
 3 H u0 p0 c0 {1,S}
 4 H u0 p0 c0 {1,S}
 
-
 Cl2BNH2
 1 B u0 p0 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -39,6 +38,12 @@ Cl2BNH
 3 Cl u0 p3 c0 {1,S}
 4 Cl u0 p3 c0 {1,S}
 5 H u0 p0 c0 {2,S}
+
+ClBNH
+1 B u1 p0 c0 {2,S} {3,S}
+2 N u1 p1 c0 {1,S} {4,S} 
+3 Cl u0 p3 c0 {1,S}
+4 H u0 p0 c0 {2,S}
 
 ClB(NH2)2
 1 B u0 p0 c0 {2,S} {3,S} {8,S}
@@ -68,4 +73,12 @@ BCl2
 3 Cl u0 p3 c0 {1,S}
 
 BCl
-1 B u2 p0 c0 {2,S} 
+1 B u2 p0 c0 {2,S}
+2 Cl u0 p3 c0 {1,S}
+
+Cl
+1 Cl u1 p3 c0
+
+H
+1 H u1 p0 c0
+
