@@ -31,7 +31,7 @@ entry(
 
 entry(
     index = 4,
-    label = "Cl2BNH2 <=> Cl2BNH + HCl",
+    label = "Cl2BNH2 <=> ClBNH + HCl",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.89e+14, 's^-1'), n=0, Ea=(79.0, 'kcal/mol'), T0=(1, 'K')),
 )
