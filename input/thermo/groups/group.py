@@ -60166,30 +60166,55 @@ entry(
 )
 
 entry(
-    index = 2694,
-    label = "N5tc-C2tcH",
+    index = 2695,
+    label = "B",
     group = 
 """
-1 * N5tc u0 p0 c+1 {2,S} {3,T}
-2   H    u0 {1,S}
-3   C2tc u0 {1,T}
+1 * B u0 p0 c0 
 """,
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([12.7343,13.5174,12.8092,11.3862,9.34948,8.16044,7.91368],'J/(mol*K)','+|-',[1.74,1.70711,1.61395,1.53766,1.55891,1.63709,1.75585]),
-        H298 = (-24.5535,'kJ/mol','+|-',4.40534),
-        S298 = (64.8244,'J/(mol*K)','+|-',1.20562),
-    ),
-    shortDesc = """Group added & fitted from RMG thermo libraries by Hao-Wei Pang""",
+    thermo = 'BHN2',
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
     longDesc = 
 """
-Fitted from following species using Ridge regression
-
-[C-]#[NH+] (HNC) from thermo_DFT_CCSDTF12_BAC
-[C-]#[NH+] (HNC) from NitrogenCurran
-[C-]#[NH+] (HNC) from NOx2018
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
 """,
 )
+
+entry(
+    index = 2696,
+    label = "BHN2",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   N u0 p2 c0 {1,S}
+4   N u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([13., 21., 34],'J/(mol*K)'),
+        H298 = (77,'kJ/mol'),
+        S298 = (38,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+"""
+    L2: B
+        L3: BH3
+        L3: BH2R
+            L4: BH2Cs
+            L4: BH2Cd
+            L4: BH2N
+        L3: BHR2
+            L4: BHN2
+        L3: BR3
+        """
+
 
 tree(
 """
@@ -62888,6 +62913,15 @@ L1: R
             L4: N5ddc-N1dc
         L3: N5tc
             L4: N5tc-C2tcH
+    L2: B
+        L3: BH3
+        L3: BH2R
+            L4: BH2Cs
+            L4: BH2Cd
+            L4: BH2N
+        L3: BHR2
+            L4: BHN2
+        L3: BR3
 """
 )
 
