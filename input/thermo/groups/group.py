@@ -60166,13 +60166,47 @@ entry(
 )
 
 entry(
-    index = 2695,
-    label = "B",
+    index = 2694,
+    label = "N5tc-C2tcH",
     group = 
 """
-1 * B u0 p0 c0 
+1 * N5tc u0 p0 c+1 {2,S} {3,T}
+2   H    u0 {1,S}
+3   C2tc u0 {1,T}
 """,
-    thermo = 'BHN2',
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.7343,13.5174,12.8092,11.3862,9.34948,8.16044,7.91368],'J/(mol*K)','+|-',[1.74,1.70711,1.61395,1.53766,1.55891,1.63709,1.75585]),
+        H298 = (-24.5535,'kJ/mol','+|-',4.40534),
+        S298 = (64.8244,'J/(mol*K)','+|-',1.20562),
+    ),
+    shortDesc = """Group added & fitted from RMG thermo libraries by Hao-Wei Pang""",
+    longDesc = 
+"""
+Fitted from following species using Ridge regression
+
+[C-]#[NH+] (HNC) from thermo_DFT_CCSDTF12_BAC
+[C-]#[NH+] (HNC) from NitrogenCurran
+[C-]#[NH+] (HNC) from NOx2018
+""",
+)
+
+entry(
+    index = 2695,
+    label = "N3s-H2B",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   H   u0 {1,S}
+3   H   u0 {1,S}
+4   B   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([24, 33, 46],'J/(mol*K)'),
+        H298 = (-131,'kJ/mol'),
+        S298 = (114,'J/(mol*K)'),
+    ),
     shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
     longDesc = 
 """
@@ -60182,17 +60216,410 @@ Table 4 in Dalton Trans., 2022, 51, 15816-15829
 
 entry(
     index = 2696,
-    label = "BHN2",
+    label = "N3s-CsHB",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   H   u0 {1,S}
+4   B   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([18, 23, 33],'J/(mol*K)'),
+        H298 = (-79,'kJ/mol'),
+        S298 = (32,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2697,
+    label = "N3s-Cs2B",
+    group = 
+"""
+1 * N3s u0 {2,S} {3,S} {4,S}
+2   Cs  u0 {1,S}
+3   Cs  u0 {1,S}
+4   B   u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([15, 19, 24],'J/(mol*K)'),
+        H298 = (-34,'kJ/mol'),
+        S298 = (-57,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2698,
+    label = "B",
+    group = 
+"""
+1 * B u0 p0 c0 
+""",
+    thermo = 'BR3',
+    shortDesc = """""",
+    longDesc = 
+"""
+""",
+)
+
+entry(
+    index = 2699,
+    label = "BR3",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   R!H u0 {1,S}
+3   R!H u0 {1,S}
+4   R!H u0 {1,S}
+""",
+    thermo = 'BCs3',
+    shortDesc = """""",
+    longDesc = 
+"""
+""",
+)
+
+entry(
+    index = 2700,
+    label = "BCs3",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   Cs u0 p0 c0 {1,S}
+3   Cs u0 p0 c0 {1,S}
+4   Cs u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([15, 16, 16],'J/(mol*K)'),
+        H298 = (16,'kJ/mol'),
+        S298 = (-9,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2701,
+    label = "BCs2Cd",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   Cs u0 p0 c0 {1,S}
+3   Cs u0 p0 c0 {1,S}
+4   Cd u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([11, 12, 13],'J/(mol*K)'),
+        H298 = (12,'kJ/mol'),
+        S298 = (-6,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2702,
+    label = "BCsCd2",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   Cs u0 p0 c0 {1,S}
+3   Cd u0 p0 c0 {1,S}
+4   Cd u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([8, 8, 12],'J/(mol*K)'),
+        H298 = (8,'kJ/mol'),
+        S298 = (-1,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2703,
+    label = "BCd3",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   Cd u0 p0 c0 {1,S}
+3   Cd u0 p0 c0 {1,S}
+4   Cd u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([1, -2, 3],'J/(mol*K)'),
+        H298 = (2,'kJ/mol'),
+        S298 = (28,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2704,
+    label = "BCs2O",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   Cs u0 p0 c0 {1,S}
+3   Cs u0 p0 c0 {1,S}
+4   O u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([11, 15, 19],'J/(mol*K)'),
+        H298 = (42,'kJ/mol'),
+        S298 = (-32,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2705,
+    label = "BCsO2",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   Cs u0 p0 c0 {1,S}
+3   O u0 p2 c0 {1,S}
+4   O u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([13, 18, 23],'J/(mol*K)'),
+        H298 = (73,'kJ/mol'),
+        S298 = (-47,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2706,
+    label = "BCdO2",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   Cd u0 p0 c0 {1,S}
+3   O u0 p2 c0 {1,S}
+4   O u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([11, 15, 19],'J/(mol*K)'),
+        H298 = (74,'kJ/mol'),
+        S298 = (-36,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2707,
+    label = "BCs2N3s",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   Cs u0 p0 c0 {1,S}
+3   Cs u0 p2 c0 {1,S}
+4   N3s u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([9, 14, 18],'J/(mol*K)'),
+        H298 = (4,'kJ/mol'),
+        S298 = (-32,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2708,
+    label = "BCsF2",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   Cs u0 p0 c0 {1,S}
+3   F u0 p3 c0 {1,S}
+4   F u0 p3 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([31, 40, 50],'J/(mol*K)'),
+        H298 = (-766,'kJ/mol'),
+        S298 = (180,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2709,
+    label = "BCdF2",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   Cd u0 p0 c0 {1,S}
+3   F u0 p3 c0 {1,S}
+4   F u0 p3 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([31, 40, 50],'J/(mol*K)'),
+        H298 = (-766,'kJ/mol'),
+        S298 = (180,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2710,
+    label = "BHR2",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 {1,S}
+3   R!H u0 {1,S}
+4   R!H u0 {1,S}
+""",
+    thermo = 'BHN3s2',
+    shortDesc = """""",
+    longDesc = 
+"""
+""",
+)
+
+entry(
+    index = 2711,
+    label = "BHCs2",
     group = 
 """
 1 * B u0 p0 c0 {2,S} {3,S} {4,S}
 2   H u0 p0 c0 {1,S}
-3   N u0 p2 c0 {1,S}
-4   N u0 p2 c0 {1,S}
+3   Cs u0 p0 c0 {1,S}
+4   Cs u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([298,500,1000],'K'),
-        Cpdata = ([13., 21., 34],'J/(mol*K)'),
+        Cpdata = ([17, 20, 28],'J/(mol*K)'),
+        H298 = (45,'kJ/mol'),
+        S298 = (67,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2712,
+    label = "BHCsCd",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   Cs u0 p0 c0 {1,S}
+4   Cd u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([13, 19, 30],'J/(mol*K)'),
+        H298 = (36,'kJ/mol'),
+        S298 = (71,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2713,
+    label = "BHCd2",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   Cd u0 p0 c0 {1,S}
+4   Cd u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([9, 16, 29],'J/(mol*K)'),
+        H298 = (26,'kJ/mol'),
+        S298 = (69,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2714,
+    label = "BHN3s2",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   N3s u0 p2 c0 {1,S}
+4   N3s u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([13, 21, 34],'J/(mol*K)'),
         H298 = (77,'kJ/mol'),
         S298 = (38,'J/(mol*K)'),
     ),
@@ -60203,18 +60630,183 @@ Table 4 in Dalton Trans., 2022, 51, 15816-15829
 """,
 )
 
+entry(
+    index = 2715,
+    label = "BHO2",
+    group = 
 """
-    L2: B
-        L3: BH3
-        L3: BH2R
-            L4: BH2Cs
-            L4: BH2Cd
-            L4: BH2N
-        L3: BHR2
-            L4: BHN2
-        L3: BR3
-        """
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   O u0 p2 c0 {1,S}
+4   O u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([15, 25, 35],'J/(mol*K)'),
+        H298 = (102,'kJ/mol'),
+        S298 = (27,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
 
+entry(
+    index = 2716,
+    label = "BHCsN3s",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   Cs u0 p0 c0 {1,S}
+4   N3s u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([12, 20, 30],'J/(mol*K)'),
+        H298 = (26,'kJ/mol'),
+        S298 = (43,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2717,
+    label = "BHCsO",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   Cs u0 p0 c0 {1,S}
+4   O u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([14, 22, 35],'J/(mol*K)'),
+        H298 = (66,'kJ/mol'),
+        S298 = (43,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2718,
+    label = "BH2R",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 {1,S}
+3   H u0 {1,S}
+4   R!H u0 {1,S}
+""",
+    thermo = 'BH2N3s',
+    shortDesc = """""",
+    longDesc = 
+"""
+""",
+)
+
+entry(
+    index = 2719,
+    label = "BH2Cs",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   H u0 p0 c0 {1,S}
+4   Cs u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([21, 28, 41],'J/(mol*K)'),
+        H298 = (74,'kJ/mol'),
+        S298 = (134,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2719,
+    label = "BH2Cd",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   H u0 p0 c0 {1,S}
+4   Cd u0 p0 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([16, 25, 41],'J/(mol*K)'),
+        H298 = (65,'kJ/mol'),
+        S298 = (138,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2719,
+    label = "BH2N3s",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   H u0 p0 c0 {1,S}
+4   N3s u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([15, 26, 42],'J/(mol*K)'),
+        H298 = (49,'kJ/mol'),
+        S298 = (120,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
+
+entry(
+    index = 2719,
+    label = "BH2O",
+    group = 
+"""
+1 * B u0 p0 c0 {2,S} {3,S} {4,S}
+2   H u0 p0 c0 {1,S}
+3   H u0 p0 c0 {1,S}
+4   O u0 p2 c0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([298,500,1000],'K'),
+        Cpdata = ([18, 28, 46],'J/(mol*K)'),
+        H298 = (94,'kJ/mol'),
+        S298 = (113,'J/(mol*K)'),
+    ),
+    shortDesc = """Entered by hand from Dalton Trans., 2022, 51, 15816-15829""",
+    longDesc = 
+"""
+Table 4 in Dalton Trans., 2022, 51, 15816-15829
+""",
+)
 
 tree(
 """
@@ -62847,6 +63439,9 @@ L1: R
             L4: N3s-OsHH
                 L5: N3s-OsHH(Os)
             L4: N3s-HHH
+            L4: N3s-H2B
+            L4: N3s-CsHB
+            L4: N3s-Cs2B
         L3: N3d
             L4: N3dOd-C
                 L5: N3dOd-Cs
@@ -62914,14 +63509,31 @@ L1: R
         L3: N5tc
             L4: N5tc-C2tcH
     L2: B
-        L3: BH3
+        L3: BR3
+            L4: BCs3
+            L4: BCs2Cd
+            L4: BCsCd2
+            L4: BCd3
+            L4: BCs2O
+            L4: BCsO2
+            L4: BCdO2            
+            L4: BCs2N3s
+            L4: BCsF2
+            L4: BCdF2
+        L3: BHR2
+            L4: BHCs2
+            L4: BHCsCd
+            L4: BHCd2
+            L4: BHN3s2
+            L4: BHO2
+            L4: BHCsN3s
+            L4: BHCsO
         L3: BH2R
             L4: BH2Cs
             L4: BH2Cd
-            L4: BH2N
-        L3: BHR2
-            L4: BHN2
-        L3: BR3
+            L4: BH2N3s
+            L4: BH2O
+
 """
 )
 
