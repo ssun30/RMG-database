@@ -367,6 +367,21 @@ atom_energies = {
         'O': -74.97847534 + SOC['O'], 'S': -397.6571654 + SOC['S']
     },
 
+    # Calculated atomic energies for G4
+    "LevelOfTheory(method='g4',software='gaussian')": {
+        'H': -0.500004, 'N': -54.572250, 'O': -74.968901, 'C': -37.827717, 'Cl': -460.013636, 'B': -24.645233, 'F': -99.703566
+    },    
+
+    # Calculated atomic energies for G4MP2
+    "LevelOfTheory(method='g4mp2',software='gaussian')": {
+        'H': -0.499733, 'N': -54.530464, 'O': -75.030991, 'C': -37.827717, 'Cl': -459.701330, 'B': -24.607676 
+    }, 
+
+    # Calculated atomic energies for W1BD
+    "LevelOfTheory(method='w1bd',software='gaussian')": {
+        'H': -0.499994, 'N': -54.611188, 'O': -75.030991, 'C': -37.827717, 'Cl': -461.433680, 'B': -24.653730 
+    },       
+
 }
 
 # Petersson-type bond additivity correction parameters
