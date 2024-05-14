@@ -4,7 +4,7 @@
 name = "BoronAllendorf"
 shortDesc = u"Boron"
 longDesc = u"""
-Thermochemistry of Molecules in the B-N-Cl-H System: Ab Initio Predictions Using the BAC-MP4 Method', J. Phys. Chem., vol. 101, 2670-2680 (1997). 
+Thermochemistry of Molecules in the B-N-Cl-H System: Ab Initio Predictions Using the BAC-MP4 Method', J. Phys. Chem., vol. 101, 2670-2680 (1997).
 
 Experimental for Boron Nitride CVD reactions.
 """
@@ -26,7 +26,7 @@ entry(
     index = 3,
     label = "BCl3 + NH3 <=> Cl2BNH2 + HCl",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(4.21e+11, 's^-1'), n=0, Ea=(8.35, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(4.21e+11, 'cm^3/(mol*s)'), n=0, Ea=(8.35, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -40,14 +40,14 @@ entry(
     index = 5,
     label = "Cl2BNH2 + NH3 <=> ClB(NH2)2 + HCl",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.88e+11, 's^-1'), n=0, Ea=(18.5, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(3.88e+11, 'cm^3/(mol*s)'), n=0, Ea=(18.5, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 6,
     label = "ClB(NH2)2 + NH3 <=> B(NH2)3 + HCl",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.66e+12, 's^-1'), n=2, Ea=(19.9, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1.66e+12, 'cm^3/(mol*s)'), n=2, Ea=(19.9, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
@@ -68,14 +68,14 @@ entry(
     index = 9,
     label = "BCl3 + H <=> BCl2 + HCl",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.00e+14, 's^-1'), n=0, Ea=(12, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(1.00e+14, 'cm^3/(mol*s)'), n=0, Ea=(12, 'kcal/mol'), T0=(1, 'K')),
 )
 
 entry(
     index = 10,
     label = "BCl + HCl <=> BCl2 + H",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(7.23e+13, 's^-1'), n=0, Ea=(24.2, 'kcal/mol'), T0=(1, 'K')),
+    kinetics = Arrhenius(A=(7.23e+13, 'cm^3/(mol*s)'), n=0, Ea=(24.2, 'kcal/mol'), T0=(1, 'K')),
 )
 
 
