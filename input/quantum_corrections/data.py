@@ -410,6 +410,9 @@ atom_energies = {
         "C": -37.842468 + SOC["C"],
         "P": -341.246985 + SOC["P"],
         "S": -398.101240 + SOC["S"],
+        'Cl': -460.140693 + SOC['Cl'],
+        'F': -99.730200 + SOC['F'],
+        'Br': -2574.198266 + SOC['Br'],
     },
     "LevelOfTheory(method='g3',software='gaussian')": {
         "H": -0.5010030,
@@ -418,6 +421,28 @@ atom_energies = {
         "C": -37.827717,
         "P": -341.116432,
         "S": -397.961110,
+    },
+    # g4 atom energies taken from [J. Chem. Phys. 126, 084108 (2007); doi: 10.1063/1.2436888]
+    "LevelOfTheory(method='g4',software='gaussian')": {
+        'H': -0.50142,
+        'N': -54.57367,
+        'O': -75.04550,
+        'C': -37.83417,
+        'P': -341.13463,
+        'S': -397.98018,
+        'Cl': -460.01505,
+        'F': -99.70498,
+        'Br': -2573.58537,
+    },
+    # calculated using Gaussian 16 with GD3 dispersion
+    "LevelOfTheory(method='m062x-d3',basis='jun-cc-pvtz',software='gaussian')": {
+        'H': -0.49813588717679524,
+        'N': -54.587423613280166,
+        'O': -75.06579209968129 + SOC['O'],
+        'C': -37.84283423642995 + SOC['C'],
+        'Cl': -460.14102245588464 + SOC['Cl'],
+        'F': -99.73219425452456 + SOC['F'],
+        'Br': -2574.1981614882384 + SOC['Br'],
     },
     # * indicates that the grid size used in the [QChem] electronic
     # structure calculation utilized 75 radial points and 434 angular points
@@ -1764,6 +1789,42 @@ pbac = {
         "S-S": -1.3276149373182218,
         "S=S": -5.902725217701505,
     },
+    "LevelOfTheory(method='g4',software='gaussian')": {
+        'Br-Br': 0.5635,
+        'Br-C': 0.5283,
+        'Br-Cl': -0.5699,
+        'Br-O': 0.5636,
+        'C#C': -0.7806,
+        'C#N': -0.4384,
+        'C-C': 0.0824,
+        'C-Cl': -0.6351,
+        'C-F': -0.6744,
+        'C-H': -0.3155,
+        'C-N': -0.0066,
+        'C-O': 0.1099,
+        'C=C': -0.1923,
+        'C=N': -0.5257,
+        'C=O': -0.6293,
+        'Cl-Cl': -2.1081,
+        'Cl-F': -1.382,
+        'Cl-H': -1.8078,
+        'Cl-N': -1.6896,
+        'Cl-O': -1.3419,
+        'F-F': -2.2409,
+        'F-H': -1.1797,
+        'F-N': -0.8146,
+        'F-O': -1.2883,
+        'H-H': -0.9805,
+        'H-N': -0.6301,
+        'H-O': -0.9369,
+        'N#N': -1.0998,
+        'N-N': 0.0366,
+        'N-O': -0.0954,
+        'N=N': -0.3661,
+        'N=O': -0.8795,
+        'O-O': -0.7334,
+        'O=O': -1.3686,
+    },
 }
 
 # Melius-type bond additivity correction parameters
@@ -2394,6 +2455,7 @@ mbac = {
 #        [3] http://comp.chem.umn.edu/freqscale/190107_Database_of_Freq_Scale_Factors_v4.pdf
 #        [4] Calculated as described in 10.1021/ct100326h
 #        [5] J.A. Montgomery, M.J. Frisch, J. Chem. Phys. 1999, 110, 2822–2827, DOI: 10.1063/1.477924
+#        [6] J. Chem. Phys. 126, 084108 (2007); doi: 10.1063/1.2436888
 
 freq_dict = {"LevelOfTheory(method='hf',basis='sto3g')": 0.817,  # [2]
              "LevelOfTheory(method='hf',basis='631g')": 0.903,  # [2]
@@ -2452,4 +2514,5 @@ freq_dict = {"LevelOfTheory(method='hf',basis='sto3g')": 0.817,  # [2]
              "LevelOfTheory(method='ccsd(t)f12',basis='augccpvdz')": 0.997,  # [3], taken as 'CCSD(T)/cc-pVDZ'
              "LevelOfTheory(method='ccsd(t)f12',basis='augccpvtz')": 0.998,  # [3], taken as CCSD(T)-F12a/cc-pVTZ-F12
              "LevelOfTheory(method='ccsd(t)f12',basis='augccpvqz')": 0.998,  # [3], taken as 'CCSD(T)-F12b/VQZF12//CCSD(T)-F12a/TZF'
+             "LevelOfTheory(method='g4')": 0.9854,  # [6],
              }
