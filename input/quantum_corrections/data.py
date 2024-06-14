@@ -422,18 +422,31 @@ atom_energies = {
         "P": -341.116432,
         "S": -397.961110,
     },
-    # g4 atom energies taken from [J. Chem. Phys. 126, 084108 (2007); doi: 10.1063/1.2436888]
+    # calculated using Gaussian 16
     "LevelOfTheory(method='g4',software='gaussian')": {
-        'H': -0.50142,
-        'N': -54.57367,
-        'O': -75.04550,
+        'H': -0.500004,
+        'N': -54.572250,
+        'O': -74.968901,
         'C': -37.83417,
         'P': -341.13463,
         'S': -397.98018,
-        'Cl': -460.01505,
-        'F': -99.70498,
+        'Cl': -460.013636,
+        'F': -99.703566,
         'Br': -2573.58537,
+        'B': -24.645233,
     },
+    # g4 atom energies taken from [J. Chem. Phys. 126, 084108 (2007); doi: 10.1063/1.2436888]
+    # "LevelOfTheory(method='g4',software='gaussian')": {
+    #     'H': -0.50142,
+    #     'N': -54.57367,
+    #     'O': -75.04550,
+    #     'C': -37.83417,
+    #     'P': -341.13463,
+    #     'S': -397.98018,
+    #     'Cl': -460.01505,
+    #     'F': -99.70498,
+    #     'Br': -2573.58537,
+    #     'B': -24.64665,
     # calculated using Gaussian 16 with GD3 dispersion
     "LevelOfTheory(method='m062x-d3',basis='jun-cc-pvtz',software='gaussian')": {
         'H': -0.49813588717679524,
@@ -2507,5 +2520,5 @@ freq_dict = {"LevelOfTheory(method='hf',basis='sto3g')": 0.817,  # [2]
              "LevelOfTheory(method='ccsd(t)f12',basis='augccpvdz')": 0.997,  # [3], taken as 'CCSD(T)/cc-pVDZ'
              "LevelOfTheory(method='ccsd(t)f12',basis='augccpvtz')": 0.998,  # [3], taken as CCSD(T)-F12a/cc-pVTZ-F12
              "LevelOfTheory(method='ccsd(t)f12',basis='augccpvqz')": 0.998,  # [3], taken as 'CCSD(T)-F12b/VQZF12//CCSD(T)-F12a/TZF'
-             "LevelOfTheory(method='g4')": 0.9854,  # [6],
+            #  "LevelOfTheory(method='g4')": 0.9854,  # [6],
              }
