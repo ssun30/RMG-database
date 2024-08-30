@@ -247,38 +247,38 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 8,
-    label = 'BH2Ph',
-    molecule =
-"""
-1  B u0 p0 c0 {2,S} {8,S} {9,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,D}
-3  C u0 p0 c0 {2,S} {4,D} {10,S}
-4  C u0 p0 c0 {3,D} {5,S} {11,S}
-5  C u0 p0 c0 {4,S} {6,D} {12,S}
-6  C u0 p0 c0 {5,D} {7,S} {13,S}
-7  C u0 p0 c0 {2,D} {6,S} {14,S}
-8  H u0 p0 c0 {1,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {3,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {7,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([99.3239,133.668,163,187.058,222.293,245.6,277.175],'J/(mol*K)'),
-        H298 = (160.9,'kJ/mol'),
-        S298 = (313.9,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (328.422,'J/(mol*K)'),
-        E0 = (144.822,'kJ/mol'),
-    ),
-    shortDesc = u"""C6H7B""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 8,
+#     label = 'BH2Ph',
+#     molecule =
+# """
+# 1  B u0 p0 c0 {2,S} {8,S} {9,S}
+# 2  C u0 p0 c0 {1,S} {3,S} {7,D}
+# 3  C u0 p0 c0 {2,S} {4,D} {10,S}
+# 4  C u0 p0 c0 {3,D} {5,S} {11,S}
+# 5  C u0 p0 c0 {4,S} {6,D} {12,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {13,S}
+# 7  C u0 p0 c0 {2,D} {6,S} {14,S}
+# 8  H u0 p0 c0 {1,S}
+# 9  H u0 p0 c0 {1,S}
+# 10 H u0 p0 c0 {3,S}
+# 11 H u0 p0 c0 {4,S}
+# 12 H u0 p0 c0 {5,S}
+# 13 H u0 p0 c0 {6,S}
+# 14 H u0 p0 c0 {7,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([99.3239,133.668,163,187.058,222.293,245.6,277.175],'J/(mol*K)'),
+#         H298 = (160.9,'kJ/mol'),
+#         S298 = (313.9,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (328.422,'J/(mol*K)'),
+#         E0 = (144.822,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C6H7B""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 9,
@@ -371,41 +371,41 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 12,
-    label = 'BHMePh',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-2  B u0 p0 c0 {1,S} {3,S} {12,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,D}
-4  C u0 p0 c0 {3,S} {5,D} {13,S}
-5  C u0 p0 c0 {4,D} {6,S} {14,S}
-6  C u0 p0 c0 {5,S} {7,D} {15,S}
-7  C u0 p0 c0 {6,D} {8,S} {16,S}
-8  C u0 p0 c0 {3,D} {7,S} {17,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {4,S}
-14 H u0 p0 c0 {5,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([123.045,162.737,196.4,224.083,265.099,292.8,331.654],'J/(mol*K)'),
-        H298 = (91.8,'kJ/mol'),
-        S298 = (364.6,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (399.095,'J/(mol*K)'),
-        E0 = (72.1756,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H9B""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 12,
+#     label = 'BHMePh',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {12,S}
+# 3  C u0 p0 c0 {2,S} {4,S} {8,D}
+# 4  C u0 p0 c0 {3,S} {5,D} {13,S}
+# 5  C u0 p0 c0 {4,D} {6,S} {14,S}
+# 6  C u0 p0 c0 {5,S} {7,D} {15,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {16,S}
+# 8  C u0 p0 c0 {3,D} {7,S} {17,S}
+# 9  H u0 p0 c0 {1,S}
+# 10 H u0 p0 c0 {1,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {2,S}
+# 13 H u0 p0 c0 {4,S}
+# 14 H u0 p0 c0 {5,S}
+# 15 H u0 p0 c0 {6,S}
+# 16 H u0 p0 c0 {7,S}
+# 17 H u0 p0 c0 {8,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([123.045,162.737,196.4,224.083,265.099,292.8,331.654],'J/(mol*K)'),
+#         H298 = (91.8,'kJ/mol'),
+#         S298 = (364.6,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (399.095,'J/(mol*K)'),
+#         E0 = (72.1756,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H9B""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 13,
@@ -506,42 +506,42 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 16,
-    label = 'BHPhVi',
-    molecule =
-"""
-1  C u0 p0 c0 {2,D} {10,S} {11,S}
-2  C u0 p0 c0 {1,D} {3,S} {12,S}
-3  B u0 p0 c0 {2,S} {4,S} {13,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,D}
-5  C u0 p0 c0 {4,S} {6,D} {14,S}
-6  C u0 p0 c0 {5,D} {7,S} {15,S}
-7  C u0 p0 c0 {6,S} {8,D} {16,S}
-8  C u0 p0 c0 {7,D} {9,S} {17,S}
-9  C u0 p0 c0 {4,D} {8,S} {18,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {2,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {5,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([133.024,176.417,213.2,243.447,288.232,318.4,360.337],'J/(mol*K)'),
-        H298 = (195,'kJ/mol'),
-        S298 = (377.3,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (424.038,'J/(mol*K)'),
-        E0 = (174.148,'kJ/mol'),
-    ),
-    shortDesc = u"""C8H9B""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 16,
+#     label = 'BHPhVi',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,D} {10,S} {11,S}
+# 2  C u0 p0 c0 {1,D} {3,S} {12,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {13,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {9,D}
+# 5  C u0 p0 c0 {4,S} {6,D} {14,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {15,S}
+# 7  C u0 p0 c0 {6,S} {8,D} {16,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {17,S}
+# 9  C u0 p0 c0 {4,D} {8,S} {18,S}
+# 10 H u0 p0 c0 {1,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {2,S}
+# 13 H u0 p0 c0 {3,S}
+# 14 H u0 p0 c0 {5,S}
+# 15 H u0 p0 c0 {6,S}
+# 16 H u0 p0 c0 {7,S}
+# 17 H u0 p0 c0 {8,S}
+# 18 H u0 p0 c0 {9,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([133.024,176.417,213.2,243.447,288.232,318.4,360.337],'J/(mol*K)'),
+#         H298 = (195,'kJ/mol'),
+#         S298 = (377.3,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (424.038,'J/(mol*K)'),
+#         E0 = (174.148,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C8H9B""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 17,
@@ -584,48 +584,48 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 18,
-    label = 'BHPh2',
-    molecule =
-"""
-1  B u0 p0 c0 {2,S} {8,S} {14,S}
-2  C u0 p0 c0 {1,S} {3,S} {7,D}
-3  C u0 p0 c0 {2,S} {4,D} {15,S}
-4  C u0 p0 c0 {3,D} {5,S} {16,S}
-5  C u0 p0 c0 {4,S} {6,D} {17,S}
-6  C u0 p0 c0 {5,D} {7,S} {18,S}
-7  C u0 p0 c0 {2,D} {6,S} {19,S}
-8  C u0 p0 c0 {1,S} {9,S} {13,D}
-9  C u0 p0 c0 {8,S} {10,D} {20,S}
-10 C u0 p0 c0 {9,D} {11,S} {21,S}
-11 C u0 p0 c0 {10,S} {12,D} {22,S}
-12 C u0 p0 c0 {11,D} {13,S} {23,S}
-13 C u0 p0 c0 {8,D} {12,S} {24,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {3,S}
-16 H u0 p0 c0 {4,S}
-17 H u0 p0 c0 {5,S}
-18 H u0 p0 c0 {6,S}
-19 H u0 p0 c0 {7,S}
-20 H u0 p0 c0 {9,S}
-21 H u0 p0 c0 {10,S}
-22 H u0 p0 c0 {11,S}
-23 H u0 p0 c0 {12,S}
-24 H u0 p0 c0 {13,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([177.743,240.343,292.5,334.634,395.508,435.3,488.645],'J/(mol*K)'),
-        H298 = (229.8,'kJ/mol'),
-        S298 = (425.1,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (573.699,'J/(mol*K)'),
-        E0 = (204.247,'kJ/mol'),
-    ),
-    shortDesc = u"""C12H11B""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 18,
+#     label = 'BHPh2',
+#     molecule =
+# """
+# 1  B u0 p0 c0 {2,S} {8,S} {14,S}
+# 2  C u0 p0 c0 {1,S} {3,S} {7,D}
+# 3  C u0 p0 c0 {2,S} {4,D} {15,S}
+# 4  C u0 p0 c0 {3,D} {5,S} {16,S}
+# 5  C u0 p0 c0 {4,S} {6,D} {17,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {18,S}
+# 7  C u0 p0 c0 {2,D} {6,S} {19,S}
+# 8  C u0 p0 c0 {1,S} {9,S} {13,D}
+# 9  C u0 p0 c0 {8,S} {10,D} {20,S}
+# 10 C u0 p0 c0 {9,D} {11,S} {21,S}
+# 11 C u0 p0 c0 {10,S} {12,D} {22,S}
+# 12 C u0 p0 c0 {11,D} {13,S} {23,S}
+# 13 C u0 p0 c0 {8,D} {12,S} {24,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {3,S}
+# 16 H u0 p0 c0 {4,S}
+# 17 H u0 p0 c0 {5,S}
+# 18 H u0 p0 c0 {6,S}
+# 19 H u0 p0 c0 {7,S}
+# 20 H u0 p0 c0 {9,S}
+# 21 H u0 p0 c0 {10,S}
+# 22 H u0 p0 c0 {11,S}
+# 23 H u0 p0 c0 {12,S}
+# 24 H u0 p0 c0 {13,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([177.743,240.343,292.5,334.634,395.508,435.3,488.645],'J/(mol*K)'),
+#         H298 = (229.8,'kJ/mol'),
+#         S298 = (425.1,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (573.699,'J/(mol*K)'),
+#         E0 = (204.247,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C12H11B""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 19,
@@ -727,86 +727,86 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 22,
-    label = 'BMe2Ph',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
-2  B u0 p0 c0 {1,S} {3,S} {4,S}
-3  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
-4  C u0 p0 c0 {2,S} {5,S} {9,D}
-5  C u0 p0 c0 {4,S} {6,D} {16,S}
-6  C u0 p0 c0 {5,D} {7,S} {17,S}
-7  C u0 p0 c0 {6,S} {8,D} {18,S}
-8  C u0 p0 c0 {7,D} {9,S} {19,S}
-9  C u0 p0 c0 {4,D} {8,S} {20,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {3,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {6,S}
-18 H u0 p0 c0 {7,S}
-19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([147.337,191.197,228.6,259.825,307.339,340.6,389.361],'J/(mol*K)'),
-        H298 = (26.1,'kJ/mol'),
-        S298 = (404.4,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (469.768,'J/(mol*K)'),
-        E0 = (2.4578,'kJ/mol'),
-    ),
-    shortDesc = u"""C8H11B""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 22,
+#     label = 'BMe2Ph',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {4,S}
+# 3  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+# 4  C u0 p0 c0 {2,S} {5,S} {9,D}
+# 5  C u0 p0 c0 {4,S} {6,D} {16,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {17,S}
+# 7  C u0 p0 c0 {6,S} {8,D} {18,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {19,S}
+# 9  C u0 p0 c0 {4,D} {8,S} {20,S}
+# 10 H u0 p0 c0 {1,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {3,S}
+# 14 H u0 p0 c0 {3,S}
+# 15 H u0 p0 c0 {3,S}
+# 16 H u0 p0 c0 {5,S}
+# 17 H u0 p0 c0 {6,S}
+# 18 H u0 p0 c0 {7,S}
+# 19 H u0 p0 c0 {8,S}
+# 20 H u0 p0 c0 {9,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([147.337,191.197,228.6,259.825,307.339,340.6,389.361],'J/(mol*K)'),
+#         H298 = (26.1,'kJ/mol'),
+#         S298 = (404.4,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (469.768,'J/(mol*K)'),
+#         E0 = (2.4578,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C8H11B""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 23,
-    label = 'BEtMePh',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
-3  B u0 p0 c0 {2,S} {4,S} {5,S}
-4  C u0 p0 c0 {3,S} {16,S} {17,S} {18,S}
-5  C u0 p0 c0 {3,S} {6,S} {10,D}
-6  C u0 p0 c0 {5,S} {7,D} {19,S}
-7  C u0 p0 c0 {6,D} {8,S} {20,S}
-8  C u0 p0 c0 {7,S} {9,D} {21,S}
-9  C u0 p0 c0 {8,D} {10,S} {22,S}
-10 C u0 p0 c0 {5,D} {9,S} {23,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {2,S}
-15 H u0 p0 c0 {2,S}
-16 H u0 p0 c0 {4,S}
-17 H u0 p0 c0 {4,S}
-18 H u0 p0 c0 {4,S}
-19 H u0 p0 c0 {6,S}
-20 H u0 p0 c0 {7,S}
-21 H u0 p0 c0 {8,S}
-22 H u0 p0 c0 {9,S}
-23 H u0 p0 c0 {10,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([165.268,215.423,258.5,294.742,350.458,389.9,448.344],'J/(mol*K)'),
-        H298 = (16.1,'kJ/mol'),
-        S298 = (459.1,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (540.441,'J/(mol*K)'),
-        E0 = (-9.90865,'kJ/mol'),
-    ),
-    shortDesc = u"""C9H13B""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 23,
+#     label = 'BEtMePh',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+# 2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {5,S}
+# 4  C u0 p0 c0 {3,S} {16,S} {17,S} {18,S}
+# 5  C u0 p0 c0 {3,S} {6,S} {10,D}
+# 6  C u0 p0 c0 {5,S} {7,D} {19,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {20,S}
+# 8  C u0 p0 c0 {7,S} {9,D} {21,S}
+# 9  C u0 p0 c0 {8,D} {10,S} {22,S}
+# 10 C u0 p0 c0 {5,D} {9,S} {23,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {2,S}
+# 15 H u0 p0 c0 {2,S}
+# 16 H u0 p0 c0 {4,S}
+# 17 H u0 p0 c0 {4,S}
+# 18 H u0 p0 c0 {4,S}
+# 19 H u0 p0 c0 {6,S}
+# 20 H u0 p0 c0 {7,S}
+# 21 H u0 p0 c0 {8,S}
+# 22 H u0 p0 c0 {9,S}
+# 23 H u0 p0 c0 {10,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([165.268,215.423,258.5,294.742,350.458,389.9,448.344],'J/(mol*K)'),
+#         H298 = (16.1,'kJ/mol'),
+#         S298 = (459.1,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (540.441,'J/(mol*K)'),
+#         E0 = (-9.90865,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C9H13B""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 24,
@@ -842,91 +842,91 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 25,
-    label = 'BMePhVi',
-    molecule =
-"""
-1  C u0 p0 c0 {2,D} {11,S} {12,S}
-2  C u0 p0 c0 {1,D} {3,S} {13,S}
-3  B u0 p0 c0 {2,S} {4,S} {5,S}
-4  C u0 p0 c0 {3,S} {14,S} {15,S} {16,S}
-5  C u0 p0 c0 {3,S} {6,S} {10,D}
-6  C u0 p0 c0 {5,S} {7,D} {17,S}
-7  C u0 p0 c0 {6,D} {8,S} {18,S}
-8  C u0 p0 c0 {7,S} {9,D} {19,S}
-9  C u0 p0 c0 {8,D} {10,S} {20,S}
-10 C u0 p0 c0 {5,D} {9,S} {21,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {2,S}
-14 H u0 p0 c0 {4,S}
-15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {4,S}
-17 H u0 p0 c0 {6,S}
-18 H u0 p0 c0 {7,S}
-19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {9,S}
-21 H u0 p0 c0 {10,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([160.006,206.767,246.2,278.849,328.104,362.3,412.058],'J/(mol*K)'),
-        H298 = (133.7,'kJ/mol'),
-        S298 = (426.2,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (494.711,'J/(mol*K)'),
-        E0 = (108.259,'kJ/mol'),
-    ),
-    shortDesc = u"""C9H11B""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 25,
+#     label = 'BMePhVi',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,D} {11,S} {12,S}
+# 2  C u0 p0 c0 {1,D} {3,S} {13,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {5,S}
+# 4  C u0 p0 c0 {3,S} {14,S} {15,S} {16,S}
+# 5  C u0 p0 c0 {3,S} {6,S} {10,D}
+# 6  C u0 p0 c0 {5,S} {7,D} {17,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {18,S}
+# 8  C u0 p0 c0 {7,S} {9,D} {19,S}
+# 9  C u0 p0 c0 {8,D} {10,S} {20,S}
+# 10 C u0 p0 c0 {5,D} {9,S} {21,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {2,S}
+# 14 H u0 p0 c0 {4,S}
+# 15 H u0 p0 c0 {4,S}
+# 16 H u0 p0 c0 {4,S}
+# 17 H u0 p0 c0 {6,S}
+# 18 H u0 p0 c0 {7,S}
+# 19 H u0 p0 c0 {8,S}
+# 20 H u0 p0 c0 {9,S}
+# 21 H u0 p0 c0 {10,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([160.006,206.767,246.2,278.849,328.104,362.3,412.058],'J/(mol*K)'),
+#         H298 = (133.7,'kJ/mol'),
+#         S298 = (426.2,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (494.711,'J/(mol*K)'),
+#         E0 = (108.259,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C9H11B""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 26,
-    label = 'BMePh2',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {15,S} {16,S} {17,S}
-2  B u0 p0 c0 {1,S} {3,S} {9,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,D}
-4  C u0 p0 c0 {3,S} {5,D} {18,S}
-5  C u0 p0 c0 {4,D} {6,S} {19,S}
-6  C u0 p0 c0 {5,S} {7,D} {20,S}
-7  C u0 p0 c0 {6,D} {8,S} {21,S}
-8  C u0 p0 c0 {3,D} {7,S} {22,S}
-9  C u0 p0 c0 {2,S} {10,S} {14,D}
-10 C u0 p0 c0 {9,S} {11,D} {23,S}
-11 C u0 p0 c0 {10,D} {12,S} {24,S}
-12 C u0 p0 c0 {11,S} {13,D} {25,S}
-13 C u0 p0 c0 {12,D} {14,S} {26,S}
-14 C u0 p0 c0 {9,D} {13,S} {27,S}
-15 H u0 p0 c0 {1,S}
-16 H u0 p0 c0 {1,S}
-17 H u0 p0 c0 {1,S}
-18 H u0 p0 c0 {4,S}
-19 H u0 p0 c0 {5,S}
-20 H u0 p0 c0 {6,S}
-21 H u0 p0 c0 {7,S}
-22 H u0 p0 c0 {8,S}
-23 H u0 p0 c0 {10,S}
-24 H u0 p0 c0 {11,S}
-25 H u0 p0 c0 {12,S}
-26 H u0 p0 c0 {13,S}
-27 H u0 p0 c0 {14,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([202.254,269.871,326.4,372.481,440.183,485.5,548.212],'J/(mol*K)'),
-        H298 = (163.3,'kJ/mol'),
-        S298 = (469.9,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (644.372,'J/(mol*K)'),
-        E0 = (133.882,'kJ/mol'),
-    ),
-    shortDesc = u"""C13H13B""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 26,
+#     label = 'BMePh2',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {15,S} {16,S} {17,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {9,S}
+# 3  C u0 p0 c0 {2,S} {4,S} {8,D}
+# 4  C u0 p0 c0 {3,S} {5,D} {18,S}
+# 5  C u0 p0 c0 {4,D} {6,S} {19,S}
+# 6  C u0 p0 c0 {5,S} {7,D} {20,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {21,S}
+# 8  C u0 p0 c0 {3,D} {7,S} {22,S}
+# 9  C u0 p0 c0 {2,S} {10,S} {14,D}
+# 10 C u0 p0 c0 {9,S} {11,D} {23,S}
+# 11 C u0 p0 c0 {10,D} {12,S} {24,S}
+# 12 C u0 p0 c0 {11,S} {13,D} {25,S}
+# 13 C u0 p0 c0 {12,D} {14,S} {26,S}
+# 14 C u0 p0 c0 {9,D} {13,S} {27,S}
+# 15 H u0 p0 c0 {1,S}
+# 16 H u0 p0 c0 {1,S}
+# 17 H u0 p0 c0 {1,S}
+# 18 H u0 p0 c0 {4,S}
+# 19 H u0 p0 c0 {5,S}
+# 20 H u0 p0 c0 {6,S}
+# 21 H u0 p0 c0 {7,S}
+# 22 H u0 p0 c0 {8,S}
+# 23 H u0 p0 c0 {10,S}
+# 24 H u0 p0 c0 {11,S}
+# 25 H u0 p0 c0 {12,S}
+# 26 H u0 p0 c0 {13,S}
+# 27 H u0 p0 c0 {14,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([202.254,269.871,326.4,372.481,440.183,485.5,548.212],'J/(mol*K)'),
+#         H298 = (163.3,'kJ/mol'),
+#         S298 = (469.9,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (644.372,'J/(mol*K)'),
+#         E0 = (133.882,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C13H13B""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 27,
@@ -1096,93 +1096,93 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 32,
-    label = 'BPhVi2',
-    molecule =
-"""
-1  C u0 p0 c0 {2,D} {12,S} {13,S}
-2  C u0 p0 c0 {1,D} {3,S} {14,S}
-3  B u0 p0 c0 {2,S} {4,S} {6,S}
-4  C u0 p0 c0 {3,S} {5,D} {15,S}
-5  C u0 p0 c0 {4,D} {16,S} {17,S}
-6  C u0 p0 c0 {3,S} {7,S} {11,D}
-7  C u0 p0 c0 {6,S} {8,D} {18,S}
-8  C u0 p0 c0 {7,D} {9,S} {19,S}
-9  C u0 p0 c0 {8,S} {10,D} {20,S}
-10 C u0 p0 c0 {9,D} {11,S} {21,S}
-11 C u0 p0 c0 {6,D} {10,S} {22,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {2,S}
-15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {5,S}
-18 H u0 p0 c0 {7,S}
-19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {9,S}
-21 H u0 p0 c0 {10,S}
-22 H u0 p0 c0 {11,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([172.933,225.341,268.9,304.37,356.61,391.8,441.089],'J/(mol*K)'),
-        H298 = (242.1,'kJ/mol'),
-        S298 = (431.9,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (519.654,'J/(mol*K)'),
-        E0 = (215.423,'kJ/mol'),
-    ),
-    shortDesc = u"""C10H11B""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 32,
+#     label = 'BPhVi2',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,D} {12,S} {13,S}
+# 2  C u0 p0 c0 {1,D} {3,S} {14,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {6,S}
+# 4  C u0 p0 c0 {3,S} {5,D} {15,S}
+# 5  C u0 p0 c0 {4,D} {16,S} {17,S}
+# 6  C u0 p0 c0 {3,S} {7,S} {11,D}
+# 7  C u0 p0 c0 {6,S} {8,D} {18,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {19,S}
+# 9  C u0 p0 c0 {8,S} {10,D} {20,S}
+# 10 C u0 p0 c0 {9,D} {11,S} {21,S}
+# 11 C u0 p0 c0 {6,D} {10,S} {22,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {2,S}
+# 15 H u0 p0 c0 {4,S}
+# 16 H u0 p0 c0 {5,S}
+# 17 H u0 p0 c0 {5,S}
+# 18 H u0 p0 c0 {7,S}
+# 19 H u0 p0 c0 {8,S}
+# 20 H u0 p0 c0 {9,S}
+# 21 H u0 p0 c0 {10,S}
+# 22 H u0 p0 c0 {11,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([172.933,225.341,268.9,304.37,356.61,391.8,441.089],'J/(mol*K)'),
+#         H298 = (242.1,'kJ/mol'),
+#         S298 = (431.9,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (519.654,'J/(mol*K)'),
+#         E0 = (215.423,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C10H11B""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 33,
-    label = 'BPh2Vi',
-    molecule =
-"""
-1  C u0 p0 c0 {2,D} {16,S} {17,S}
-2  C u0 p0 c0 {1,D} {3,S} {18,S}
-3  B u0 p0 c0 {2,S} {4,S} {10,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,D}
-5  C u0 p0 c0 {4,S} {6,D} {19,S}
-6  C u0 p0 c0 {5,D} {7,S} {20,S}
-7  C u0 p0 c0 {6,S} {8,D} {21,S}
-8  C u0 p0 c0 {7,D} {9,S} {22,S}
-9  C u0 p0 c0 {4,D} {8,S} {23,S}
-10 C u0 p0 c0 {3,S} {11,S} {15,D}
-11 C u0 p0 c0 {10,S} {12,D} {24,S}
-12 C u0 p0 c0 {11,D} {13,S} {25,S}
-13 C u0 p0 c0 {12,S} {14,D} {26,S}
-14 C u0 p0 c0 {13,D} {15,S} {27,S}
-15 C u0 p0 c0 {10,D} {14,S} {28,S}
-16 H u0 p0 c0 {1,S}
-17 H u0 p0 c0 {1,S}
-18 H u0 p0 c0 {2,S}
-19 H u0 p0 c0 {5,S}
-20 H u0 p0 c0 {6,S}
-21 H u0 p0 c0 {7,S}
-22 H u0 p0 c0 {8,S}
-23 H u0 p0 c0 {9,S}
-24 H u0 p0 c0 {11,S}
-25 H u0 p0 c0 {12,S}
-26 H u0 p0 c0 {13,S}
-27 H u0 p0 c0 {14,S}
-28 H u0 p0 c0 {15,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([215.142,286.693,346.3,394.753,465.674,512.9,577.651],'J/(mol*K)'),
-        H298 = (268.4,'kJ/mol'),
-        S298 = (480.5,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (669.315,'J/(mol*K)'),
-        E0 = (237.294,'kJ/mol'),
-    ),
-    shortDesc = u"""C14H13B""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 33,
+#     label = 'BPh2Vi',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,D} {16,S} {17,S}
+# 2  C u0 p0 c0 {1,D} {3,S} {18,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {10,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {9,D}
+# 5  C u0 p0 c0 {4,S} {6,D} {19,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {20,S}
+# 7  C u0 p0 c0 {6,S} {8,D} {21,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {22,S}
+# 9  C u0 p0 c0 {4,D} {8,S} {23,S}
+# 10 C u0 p0 c0 {3,S} {11,S} {15,D}
+# 11 C u0 p0 c0 {10,S} {12,D} {24,S}
+# 12 C u0 p0 c0 {11,D} {13,S} {25,S}
+# 13 C u0 p0 c0 {12,S} {14,D} {26,S}
+# 14 C u0 p0 c0 {13,D} {15,S} {27,S}
+# 15 C u0 p0 c0 {10,D} {14,S} {28,S}
+# 16 H u0 p0 c0 {1,S}
+# 17 H u0 p0 c0 {1,S}
+# 18 H u0 p0 c0 {2,S}
+# 19 H u0 p0 c0 {5,S}
+# 20 H u0 p0 c0 {6,S}
+# 21 H u0 p0 c0 {7,S}
+# 22 H u0 p0 c0 {8,S}
+# 23 H u0 p0 c0 {9,S}
+# 24 H u0 p0 c0 {11,S}
+# 25 H u0 p0 c0 {12,S}
+# 26 H u0 p0 c0 {13,S}
+# 27 H u0 p0 c0 {14,S}
+# 28 H u0 p0 c0 {15,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([215.142,286.693,346.3,394.753,465.674,512.9,577.651],'J/(mol*K)'),
+#         H298 = (268.4,'kJ/mol'),
+#         S298 = (480.5,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (669.315,'J/(mol*K)'),
+#         E0 = (237.294,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C14H13B""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 34,
@@ -1320,58 +1320,58 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 37,
-    label = 'BPh3',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {19,D} {20,S}
-2  C u0 p0 c0 {1,S} {3,D} {21,S}
-3  C u0 p0 c0 {2,D} {4,S} {22,S}
-4  C u0 p0 c0 {3,S} {5,S} {18,D}
-5  B u0 p0 c0 {4,S} {6,S} {12,S}
-6  C u0 p0 c0 {5,S} {7,S} {11,D}
-7  C u0 p0 c0 {6,S} {8,D} {23,S}
-8  C u0 p0 c0 {7,D} {9,S} {24,S}
-9  C u0 p0 c0 {8,S} {10,D} {25,S}
-10 C u0 p0 c0 {9,D} {11,S} {26,S}
-11 C u0 p0 c0 {6,D} {10,S} {27,S}
-12 C u0 p0 c0 {5,S} {13,S} {17,D}
-13 C u0 p0 c0 {12,S} {14,D} {28,S}
-14 C u0 p0 c0 {13,D} {15,S} {29,S}
-15 C u0 p0 c0 {14,S} {16,D} {30,S}
-16 C u0 p0 c0 {15,D} {17,S} {31,S}
-17 C u0 p0 c0 {12,D} {16,S} {32,S}
-18 C u0 p0 c0 {4,D} {19,S} {33,S}
-19 C u0 p0 c0 {1,D} {18,S} {34,S}
-20 H u0 p0 c0 {1,S}
-21 H u0 p0 c0 {2,S}
-22 H u0 p0 c0 {3,S}
-23 H u0 p0 c0 {7,S}
-24 H u0 p0 c0 {8,S}
-25 H u0 p0 c0 {9,S}
-26 H u0 p0 c0 {10,S}
-27 H u0 p0 c0 {11,S}
-28 H u0 p0 c0 {13,S}
-29 H u0 p0 c0 {14,S}
-30 H u0 p0 c0 {15,S}
-31 H u0 p0 c0 {16,S}
-32 H u0 p0 c0 {17,S}
-33 H u0 p0 c0 {18,S}
-34 H u0 p0 c0 {19,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([258.335,348.143,422.9,483.545,571.968,630.5,710.004],'J/(mol*K)'),
-        H298 = (293.3,'kJ/mol'),
-        S298 = (517.2,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (818.975,'J/(mol*K)'),
-        E0 = (257.435,'kJ/mol'),
-    ),
-    shortDesc = u"""C18H15B""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 37,
+#     label = 'BPh3',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {19,D} {20,S}
+# 2  C u0 p0 c0 {1,S} {3,D} {21,S}
+# 3  C u0 p0 c0 {2,D} {4,S} {22,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {18,D}
+# 5  B u0 p0 c0 {4,S} {6,S} {12,S}
+# 6  C u0 p0 c0 {5,S} {7,S} {11,D}
+# 7  C u0 p0 c0 {6,S} {8,D} {23,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {24,S}
+# 9  C u0 p0 c0 {8,S} {10,D} {25,S}
+# 10 C u0 p0 c0 {9,D} {11,S} {26,S}
+# 11 C u0 p0 c0 {6,D} {10,S} {27,S}
+# 12 C u0 p0 c0 {5,S} {13,S} {17,D}
+# 13 C u0 p0 c0 {12,S} {14,D} {28,S}
+# 14 C u0 p0 c0 {13,D} {15,S} {29,S}
+# 15 C u0 p0 c0 {14,S} {16,D} {30,S}
+# 16 C u0 p0 c0 {15,D} {17,S} {31,S}
+# 17 C u0 p0 c0 {12,D} {16,S} {32,S}
+# 18 C u0 p0 c0 {4,D} {19,S} {33,S}
+# 19 C u0 p0 c0 {1,D} {18,S} {34,S}
+# 20 H u0 p0 c0 {1,S}
+# 21 H u0 p0 c0 {2,S}
+# 22 H u0 p0 c0 {3,S}
+# 23 H u0 p0 c0 {7,S}
+# 24 H u0 p0 c0 {8,S}
+# 25 H u0 p0 c0 {9,S}
+# 26 H u0 p0 c0 {10,S}
+# 27 H u0 p0 c0 {11,S}
+# 28 H u0 p0 c0 {13,S}
+# 29 H u0 p0 c0 {14,S}
+# 30 H u0 p0 c0 {15,S}
+# 31 H u0 p0 c0 {16,S}
+# 32 H u0 p0 c0 {17,S}
+# 33 H u0 p0 c0 {18,S}
+# 34 H u0 p0 c0 {19,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([258.335,348.143,422.9,483.545,571.968,630.5,710.004],'J/(mol*K)'),
+#         H298 = (293.3,'kJ/mol'),
+#         S298 = (517.2,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (818.975,'J/(mol*K)'),
+#         E0 = (257.435,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C18H15B""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 38,
@@ -1500,39 +1500,39 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 43,
-    label = 'BH2(OPh)',
-    molecule =
-"""
-1  B u0 p0 c0 {2,S} {9,S} {10,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,D}
-4  C u0 p0 c0 {3,S} {5,D} {11,S}
-5  C u0 p0 c0 {4,D} {6,S} {12,S}
-6  C u0 p0 c0 {5,S} {7,D} {13,S}
-7  C u0 p0 c0 {6,D} {8,S} {14,S}
-8  C u0 p0 c0 {3,D} {7,S} {15,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {7,S}
-15 H u0 p0 c0 {8,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([113.583,150.251,181,205.929,242.045,265.7,297.468],'J/(mol*K)'),
-        H298 = (-121.3,'kJ/mol'),
-        S298 = (344.5,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (349.208,'J/(mol*K)'),
-        E0 = (-139.575,'kJ/mol'),
-    ),
-    shortDesc = u"""C6H7BO""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 43,
+#     label = 'BH2(OPh)',
+#     molecule =
+# """
+# 1  B u0 p0 c0 {2,S} {9,S} {10,S}
+# 2  O u0 p2 c0 {1,S} {3,S}
+# 3  C u0 p0 c0 {2,S} {4,S} {8,D}
+# 4  C u0 p0 c0 {3,S} {5,D} {11,S}
+# 5  C u0 p0 c0 {4,D} {6,S} {12,S}
+# 6  C u0 p0 c0 {5,S} {7,D} {13,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {14,S}
+# 8  C u0 p0 c0 {3,D} {7,S} {15,S}
+# 9  H u0 p0 c0 {1,S}
+# 10 H u0 p0 c0 {1,S}
+# 11 H u0 p0 c0 {4,S}
+# 12 H u0 p0 c0 {5,S}
+# 13 H u0 p0 c0 {6,S}
+# 14 H u0 p0 c0 {7,S}
+# 15 H u0 p0 c0 {8,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([113.583,150.251,181,205.929,242.045,265.7,297.468],'J/(mol*K)'),
+#         H298 = (-121.3,'kJ/mol'),
+#         S298 = (344.5,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (349.208,'J/(mol*K)'),
+#         E0 = (-139.575,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C6H7BO""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 44,
@@ -1591,39 +1591,39 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 46,
-    label = 'BHPh(OH)',
-    molecule =
-"""
-1  O u0 p2 c0 {2,S} {9,S}
-2  B u0 p0 c0 {1,S} {3,S} {10,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,D}
-4  C u0 p0 c0 {3,S} {5,D} {11,S}
-5  C u0 p0 c0 {4,D} {6,S} {12,S}
-6  C u0 p0 c0 {5,S} {7,D} {13,S}
-7  C u0 p0 c0 {6,D} {8,S} {14,S}
-8  C u0 p0 c0 {3,D} {7,S} {15,S}
-9  H u0 p0 c0 {1,S}
-10 H u0 p0 c0 {2,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {7,S}
-15 H u0 p0 c0 {8,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([112.8,150.226,181.5,206.712,242.9,266.3,297.203],'J/(mol*K)'),
-        H298 = (-210.6,'kJ/mol'),
-        S298 = (345.1,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (349.208,'J/(mol*K)'),
-        E0 = (-228.532,'kJ/mol'),
-    ),
-    shortDesc = u"""C6H7BO""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 46,
+#     label = 'BHPh(OH)',
+#     molecule =
+# """
+# 1  O u0 p2 c0 {2,S} {9,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {10,S}
+# 3  C u0 p0 c0 {2,S} {4,S} {8,D}
+# 4  C u0 p0 c0 {3,S} {5,D} {11,S}
+# 5  C u0 p0 c0 {4,D} {6,S} {12,S}
+# 6  C u0 p0 c0 {5,S} {7,D} {13,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {14,S}
+# 8  C u0 p0 c0 {3,D} {7,S} {15,S}
+# 9  H u0 p0 c0 {1,S}
+# 10 H u0 p0 c0 {2,S}
+# 11 H u0 p0 c0 {4,S}
+# 12 H u0 p0 c0 {5,S}
+# 13 H u0 p0 c0 {6,S}
+# 14 H u0 p0 c0 {7,S}
+# 15 H u0 p0 c0 {8,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([112.8,150.226,181.5,206.712,242.9,266.3,297.203],'J/(mol*K)'),
+#         H298 = (-210.6,'kJ/mol'),
+#         S298 = (345.1,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (349.208,'J/(mol*K)'),
+#         E0 = (-228.532,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C6H7BO""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 47,
@@ -1688,42 +1688,42 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 49,
-    label = 'BHPh(OMe)',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  B u0 p0 c0 {2,S} {4,S} {13,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,D}
-5  C u0 p0 c0 {4,S} {6,D} {14,S}
-6  C u0 p0 c0 {5,D} {7,S} {15,S}
-7  C u0 p0 c0 {6,S} {8,D} {16,S}
-8  C u0 p0 c0 {7,D} {9,S} {17,S}
-9  C u0 p0 c0 {4,D} {8,S} {18,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {5,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([134.204,176.722,213,243.079,288.139,318.9,362.174],'J/(mol*K)'),
-        H298 = (-182,'kJ/mol'),
-        S298 = (384,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (419.881,'J/(mol*K)'),
-        E0 = (-203.334,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H9BO""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 49,
+#     label = 'BHPh(OMe)',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+# 2  O u0 p2 c0 {1,S} {3,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {13,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {9,D}
+# 5  C u0 p0 c0 {4,S} {6,D} {14,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {15,S}
+# 7  C u0 p0 c0 {6,S} {8,D} {16,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {17,S}
+# 9  C u0 p0 c0 {4,D} {8,S} {18,S}
+# 10 H u0 p0 c0 {1,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {3,S}
+# 14 H u0 p0 c0 {5,S}
+# 15 H u0 p0 c0 {6,S}
+# 16 H u0 p0 c0 {7,S}
+# 17 H u0 p0 c0 {8,S}
+# 18 H u0 p0 c0 {9,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([134.204,176.722,213,243.079,288.139,318.9,362.174],'J/(mol*K)'),
+#         H298 = (-182,'kJ/mol'),
+#         S298 = (384,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (419.881,'J/(mol*K)'),
+#         E0 = (-203.334,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H9BO""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 50,
@@ -1821,82 +1821,82 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 53,
-    label = 'BMePh(OH)',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
-2  B u0 p0 c0 {1,S} {3,S} {4,S}
-3  O u0 p2 c0 {2,S} {13,S}
-4  C u0 p0 c0 {2,S} {5,S} {9,D}
-5  C u0 p0 c0 {4,S} {6,D} {14,S}
-6  C u0 p0 c0 {5,D} {7,S} {15,S}
-7  C u0 p0 c0 {6,S} {8,D} {16,S}
-8  C u0 p0 c0 {7,D} {9,S} {17,S}
-9  C u0 p0 c0 {4,D} {8,S} {18,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {3,S}
-14 H u0 p0 c0 {5,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([136.909,179.221,214.6,243.419,285.708,314,353.282],'J/(mol*K)'),
-        H298 = (-278.2,'kJ/mol'),
-        S298 = (387,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (419.881,'J/(mol*K)'),
-        E0 = (-299.899,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H9BO""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 53,
+#     label = 'BMePh(OH)',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {4,S}
+# 3  O u0 p2 c0 {2,S} {13,S}
+# 4  C u0 p0 c0 {2,S} {5,S} {9,D}
+# 5  C u0 p0 c0 {4,S} {6,D} {14,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {15,S}
+# 7  C u0 p0 c0 {6,S} {8,D} {16,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {17,S}
+# 9  C u0 p0 c0 {4,D} {8,S} {18,S}
+# 10 H u0 p0 c0 {1,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {3,S}
+# 14 H u0 p0 c0 {5,S}
+# 15 H u0 p0 c0 {6,S}
+# 16 H u0 p0 c0 {7,S}
+# 17 H u0 p0 c0 {8,S}
+# 18 H u0 p0 c0 {9,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([136.909,179.221,214.6,243.419,285.708,314,353.282],'J/(mol*K)'),
+#         H298 = (-278.2,'kJ/mol'),
+#         S298 = (387,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (419.881,'J/(mol*K)'),
+#         E0 = (-299.899,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H9BO""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 54,
-    label = 'BMePh(OMe)',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  B u0 p0 c0 {2,S} {4,S} {5,S}
-4  C u0 p0 c0 {3,S} {14,S} {15,S} {16,S}
-5  C u0 p0 c0 {3,S} {6,S} {10,D}
-6  C u0 p0 c0 {5,S} {7,D} {17,S}
-7  C u0 p0 c0 {6,D} {8,S} {18,S}
-8  C u0 p0 c0 {7,S} {9,D} {19,S}
-9  C u0 p0 c0 {8,D} {10,S} {20,S}
-10 C u0 p0 c0 {5,D} {9,S} {21,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {4,S}
-15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {4,S}
-17 H u0 p0 c0 {6,S}
-18 H u0 p0 c0 {7,S}
-19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {9,S}
-21 H u0 p0 c0 {10,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([155.258,200.171,238.7,271.148,321.165,356.7,409.551],'J/(mol*K)'),
-        H298 = (-244.6,'kJ/mol'),
-        S298 = (430.8,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (490.554,'J/(mol*K)'),
-        E0 = (-269.665,'kJ/mol'),
-    ),
-    shortDesc = u"""C8H11BO""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 54,
+#     label = 'BMePh(OMe)',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+# 2  O u0 p2 c0 {1,S} {3,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {5,S}
+# 4  C u0 p0 c0 {3,S} {14,S} {15,S} {16,S}
+# 5  C u0 p0 c0 {3,S} {6,S} {10,D}
+# 6  C u0 p0 c0 {5,S} {7,D} {17,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {18,S}
+# 8  C u0 p0 c0 {7,S} {9,D} {19,S}
+# 9  C u0 p0 c0 {8,D} {10,S} {20,S}
+# 10 C u0 p0 c0 {5,D} {9,S} {21,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {4,S}
+# 15 H u0 p0 c0 {4,S}
+# 16 H u0 p0 c0 {4,S}
+# 17 H u0 p0 c0 {6,S}
+# 18 H u0 p0 c0 {7,S}
+# 19 H u0 p0 c0 {8,S}
+# 20 H u0 p0 c0 {9,S}
+# 21 H u0 p0 c0 {10,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([155.258,200.171,238.7,271.148,321.165,356.7,409.551],'J/(mol*K)'),
+#         H298 = (-244.6,'kJ/mol'),
+#         S298 = (430.8,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (490.554,'J/(mol*K)'),
+#         E0 = (-269.665,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C8H11BO""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 55,
@@ -2470,242 +2470,242 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 72,
-    label = 'BPh(OH)2',
-    molecule =
-"""
-1  O u0 p2 c0 {2,S} {10,S}
-2  B u0 p0 c0 {1,S} {3,S} {4,S}
-3  O u0 p2 c0 {2,S} {11,S}
-4  C u0 p0 c0 {2,S} {5,S} {9,D}
-5  C u0 p0 c0 {4,S} {6,D} {12,S}
-6  C u0 p0 c0 {5,D} {7,S} {13,S}
-7  C u0 p0 c0 {6,S} {8,D} {14,S}
-8  C u0 p0 c0 {7,D} {9,S} {15,S}
-9  C u0 p0 c0 {4,D} {8,S} {16,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {3,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {7,S}
-15 H u0 p0 c0 {8,S}
-16 H u0 p0 c0 {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([126.154,165.689,198.2,224.134,260.984,284.6,315.588],'J/(mol*K)'),
-        H298 = (-572.6,'kJ/mol'),
-        S298 = (382,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (369.994,'J/(mol*K)'),
-        E0 = (-592.593,'kJ/mol'),
-    ),
-    shortDesc = u"""C6H7BO2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 72,
+#     label = 'BPh(OH)2',
+#     molecule =
+# """
+# 1  O u0 p2 c0 {2,S} {10,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {4,S}
+# 3  O u0 p2 c0 {2,S} {11,S}
+# 4  C u0 p0 c0 {2,S} {5,S} {9,D}
+# 5  C u0 p0 c0 {4,S} {6,D} {12,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {13,S}
+# 7  C u0 p0 c0 {6,S} {8,D} {14,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {15,S}
+# 9  C u0 p0 c0 {4,D} {8,S} {16,S}
+# 10 H u0 p0 c0 {1,S}
+# 11 H u0 p0 c0 {3,S}
+# 12 H u0 p0 c0 {5,S}
+# 13 H u0 p0 c0 {6,S}
+# 14 H u0 p0 c0 {7,S}
+# 15 H u0 p0 c0 {8,S}
+# 16 H u0 p0 c0 {9,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([126.154,165.689,198.2,224.134,260.984,284.6,315.588],'J/(mol*K)'),
+#         H298 = (-572.6,'kJ/mol'),
+#         S298 = (382,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (369.994,'J/(mol*K)'),
+#         E0 = (-592.593,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C6H7BO2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 73,
-    label = 'BPh(OH)(OMe)',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  B u0 p0 c0 {2,S} {4,S} {5,S}
-4  O u0 p2 c0 {3,S} {14,S}
-5  C u0 p0 c0 {3,S} {6,S} {10,D}
-6  C u0 p0 c0 {5,S} {7,D} {15,S}
-7  C u0 p0 c0 {6,D} {8,S} {16,S}
-8  C u0 p0 c0 {7,S} {9,D} {17,S}
-9  C u0 p0 c0 {8,D} {10,S} {18,S}
-10 C u0 p0 c0 {5,D} {9,S} {19,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {4,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {10,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([146.234,189.644,226,255.789,299.986,330,372.432],'J/(mol*K)'),
-        H298 = (-539.8,'kJ/mol'),
-        S298 = (418.2,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (440.667,'J/(mol*K)'),
-        E0 = (-563.136,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H9BO2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 73,
+#     label = 'BPh(OH)(OMe)',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+# 2  O u0 p2 c0 {1,S} {3,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {5,S}
+# 4  O u0 p2 c0 {3,S} {14,S}
+# 5  C u0 p0 c0 {3,S} {6,S} {10,D}
+# 6  C u0 p0 c0 {5,S} {7,D} {15,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {16,S}
+# 8  C u0 p0 c0 {7,S} {9,D} {17,S}
+# 9  C u0 p0 c0 {8,D} {10,S} {18,S}
+# 10 C u0 p0 c0 {5,D} {9,S} {19,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {4,S}
+# 15 H u0 p0 c0 {6,S}
+# 16 H u0 p0 c0 {7,S}
+# 17 H u0 p0 c0 {8,S}
+# 18 H u0 p0 c0 {9,S}
+# 19 H u0 p0 c0 {10,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([146.234,189.644,226,255.789,299.986,330,372.432],'J/(mol*K)'),
+#         H298 = (-539.8,'kJ/mol'),
+#         S298 = (418.2,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (440.667,'J/(mol*K)'),
+#         E0 = (-563.136,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H9BO2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 74,
-    label = 'BPh(OMe)2',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  B u0 p0 c0 {2,S} {4,S} {6,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  C u0 p0 c0 {4,S} {15,S} {16,S} {17,S}
-6  C u0 p0 c0 {3,S} {7,S} {11,D}
-7  C u0 p0 c0 {6,S} {8,D} {18,S}
-8  C u0 p0 c0 {7,D} {9,S} {19,S}
-9  C u0 p0 c0 {8,S} {10,D} {20,S}
-10 C u0 p0 c0 {9,D} {11,S} {21,S}
-11 C u0 p0 c0 {6,D} {10,S} {22,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {5,S}
-18 H u0 p0 c0 {7,S}
-19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {9,S}
-21 H u0 p0 c0 {10,S}
-22 H u0 p0 c0 {11,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([170.295,216.624,256.2,289.595,341.39,378.5,434.119],'J/(mol*K)'),
-        H298 = (-497.6,'kJ/mol'),
-        S298 = (448.1,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (511.34,'J/(mol*K)'),
-        E0 = (-525.315,'kJ/mol'),
-    ),
-    shortDesc = u"""C8H11BO2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 74,
+#     label = 'BPh(OMe)2',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+# 2  O u0 p2 c0 {1,S} {3,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {6,S}
+# 4  O u0 p2 c0 {3,S} {5,S}
+# 5  C u0 p0 c0 {4,S} {15,S} {16,S} {17,S}
+# 6  C u0 p0 c0 {3,S} {7,S} {11,D}
+# 7  C u0 p0 c0 {6,S} {8,D} {18,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {19,S}
+# 9  C u0 p0 c0 {8,S} {10,D} {20,S}
+# 10 C u0 p0 c0 {9,D} {11,S} {21,S}
+# 11 C u0 p0 c0 {6,D} {10,S} {22,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {5,S}
+# 16 H u0 p0 c0 {5,S}
+# 17 H u0 p0 c0 {5,S}
+# 18 H u0 p0 c0 {7,S}
+# 19 H u0 p0 c0 {8,S}
+# 20 H u0 p0 c0 {9,S}
+# 21 H u0 p0 c0 {10,S}
+# 22 H u0 p0 c0 {11,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([170.295,216.624,256.2,289.595,341.39,378.5,434.119],'J/(mol*K)'),
+#         H298 = (-497.6,'kJ/mol'),
+#         S298 = (448.1,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (511.34,'J/(mol*K)'),
+#         E0 = (-525.315,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C8H11BO2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 75,
-    label = 'B(p-Tol)(OH)2',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-2  C u0 p0 c0 {1,S} {3,S} {10,D}
-3  C u0 p0 c0 {2,S} {4,D} {14,S}
-4  C u0 p0 c0 {3,D} {5,S} {15,S}
-5  C u0 p0 c0 {4,S} {6,S} {9,D}
-6  B u0 p0 c0 {5,S} {7,S} {8,S}
-7  O u0 p2 c0 {6,S} {16,S}
-8  O u0 p2 c0 {6,S} {17,S}
-9  C u0 p0 c0 {5,D} {10,S} {18,S}
-10 C u0 p0 c0 {2,D} {9,S} {19,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {3,S}
-15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {10,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([148.066,192.852,230.1,260.362,304.689,334.3,375.288],'J/(mol*K)'),
-        H298 = (-605.8,'kJ/mol'),
-        S298 = (420.3,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (440.667,'J/(mol*K)'),
-        E0 = (-629.145,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H9BO2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 75,
+#     label = 'B(p-Tol)(OH)2',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+# 2  C u0 p0 c0 {1,S} {3,S} {10,D}
+# 3  C u0 p0 c0 {2,S} {4,D} {14,S}
+# 4  C u0 p0 c0 {3,D} {5,S} {15,S}
+# 5  C u0 p0 c0 {4,S} {6,S} {9,D}
+# 6  B u0 p0 c0 {5,S} {7,S} {8,S}
+# 7  O u0 p2 c0 {6,S} {16,S}
+# 8  O u0 p2 c0 {6,S} {17,S}
+# 9  C u0 p0 c0 {5,D} {10,S} {18,S}
+# 10 C u0 p0 c0 {2,D} {9,S} {19,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {3,S}
+# 15 H u0 p0 c0 {4,S}
+# 16 H u0 p0 c0 {7,S}
+# 17 H u0 p0 c0 {8,S}
+# 18 H u0 p0 c0 {9,S}
+# 19 H u0 p0 c0 {10,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([148.066,192.852,230.1,260.362,304.689,334.3,375.288],'J/(mol*K)'),
+#         H298 = (-605.8,'kJ/mol'),
+#         S298 = (420.3,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (440.667,'J/(mol*K)'),
+#         E0 = (-629.145,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H9BO2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 76,
-    label = 'B(p-Tol)(OH)(OMe)',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  B u0 p0 c0 {2,S} {4,S} {5,S}
-4  O u0 p2 c0 {3,S} {15,S}
-5  C u0 p0 c0 {3,S} {6,S} {11,D}
-6  C u0 p0 c0 {5,S} {7,D} {16,S}
-7  C u0 p0 c0 {6,D} {8,S} {17,S}
-8  C u0 p0 c0 {7,S} {9,S} {10,D}
-9  C u0 p0 c0 {8,S} {18,S} {19,S} {20,S}
-10 C u0 p0 c0 {8,D} {11,S} {21,S}
-11 C u0 p0 c0 {5,D} {10,S} {22,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {6,S}
-17 H u0 p0 c0 {7,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {9,S}
-20 H u0 p0 c0 {9,S}
-21 H u0 p0 c0 {10,S}
-22 H u0 p0 c0 {11,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([167.843,216.361,257.4,291.527,343.323,379.5,432.29],'J/(mol*K)'),
-        H298 = (-572.9,'kJ/mol'),
-        S298 = (457.9,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (511.34,'J/(mol*K)'),
-        E0 = (-599.575,'kJ/mol'),
-    ),
-    shortDesc = u"""C8H11BO2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 76,
+#     label = 'B(p-Tol)(OH)(OMe)',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+# 2  O u0 p2 c0 {1,S} {3,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {5,S}
+# 4  O u0 p2 c0 {3,S} {15,S}
+# 5  C u0 p0 c0 {3,S} {6,S} {11,D}
+# 6  C u0 p0 c0 {5,S} {7,D} {16,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {17,S}
+# 8  C u0 p0 c0 {7,S} {9,S} {10,D}
+# 9  C u0 p0 c0 {8,S} {18,S} {19,S} {20,S}
+# 10 C u0 p0 c0 {8,D} {11,S} {21,S}
+# 11 C u0 p0 c0 {5,D} {10,S} {22,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {4,S}
+# 16 H u0 p0 c0 {6,S}
+# 17 H u0 p0 c0 {7,S}
+# 18 H u0 p0 c0 {9,S}
+# 19 H u0 p0 c0 {9,S}
+# 20 H u0 p0 c0 {9,S}
+# 21 H u0 p0 c0 {10,S}
+# 22 H u0 p0 c0 {11,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([167.843,216.361,257.4,291.527,343.323,379.5,432.29],'J/(mol*K)'),
+#         H298 = (-572.9,'kJ/mol'),
+#         S298 = (457.9,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (511.34,'J/(mol*K)'),
+#         E0 = (-599.575,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C8H11BO2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 77,
-    label = 'B(p-Tol)(OMe)2',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  B u0 p0 c0 {2,S} {4,S} {6,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  C u0 p0 c0 {4,S} {16,S} {17,S} {18,S}
-6  C u0 p0 c0 {3,S} {7,S} {12,D}
-7  C u0 p0 c0 {6,S} {8,D} {19,S}
-8  C u0 p0 c0 {7,D} {9,S} {20,S}
-9  C u0 p0 c0 {8,S} {10,S} {11,D}
-10 C u0 p0 c0 {9,S} {21,S} {22,S} {23,S}
-11 C u0 p0 c0 {9,D} {12,S} {24,S}
-12 C u0 p0 c0 {6,D} {11,S} {25,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {1,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {5,S}
-18 H u0 p0 c0 {5,S}
-19 H u0 p0 c0 {7,S}
-20 H u0 p0 c0 {8,S}
-21 H u0 p0 c0 {10,S}
-22 H u0 p0 c0 {10,S}
-23 H u0 p0 c0 {10,S}
-24 H u0 p0 c0 {11,S}
-25 H u0 p0 c0 {12,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([188.53,241.248,286.4,324.59,383.997,426.7,490.968],'J/(mol*K)'),
-        H298 = (-530.4,'kJ/mol'),
-        S298 = (487.4,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (582.013,'J/(mol*K)'),
-        E0 = (-560.471,'kJ/mol'),
-    ),
-    shortDesc = u"""C9H13BO2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 77,
+#     label = 'B(p-Tol)(OMe)2',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+# 2  O u0 p2 c0 {1,S} {3,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {6,S}
+# 4  O u0 p2 c0 {3,S} {5,S}
+# 5  C u0 p0 c0 {4,S} {16,S} {17,S} {18,S}
+# 6  C u0 p0 c0 {3,S} {7,S} {12,D}
+# 7  C u0 p0 c0 {6,S} {8,D} {19,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {20,S}
+# 9  C u0 p0 c0 {8,S} {10,S} {11,D}
+# 10 C u0 p0 c0 {9,S} {21,S} {22,S} {23,S}
+# 11 C u0 p0 c0 {9,D} {12,S} {24,S}
+# 12 C u0 p0 c0 {6,D} {11,S} {25,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {1,S}
+# 16 H u0 p0 c0 {5,S}
+# 17 H u0 p0 c0 {5,S}
+# 18 H u0 p0 c0 {5,S}
+# 19 H u0 p0 c0 {7,S}
+# 20 H u0 p0 c0 {8,S}
+# 21 H u0 p0 c0 {10,S}
+# 22 H u0 p0 c0 {10,S}
+# 23 H u0 p0 c0 {10,S}
+# 24 H u0 p0 c0 {11,S}
+# 25 H u0 p0 c0 {12,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([188.53,241.248,286.4,324.59,383.997,426.7,490.968],'J/(mol*K)'),
+#         H298 = (-530.4,'kJ/mol'),
+#         S298 = (487.4,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (582.013,'J/(mol*K)'),
+#         E0 = (-560.471,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C9H13BO2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 78,
@@ -2762,41 +2762,41 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 80,
-    label = 'B(OH)2(OPh)',
-    molecule =
-"""
-1  O u0 p2 c0 {2,S} {11,S}
-2  B u0 p0 c0 {1,S} {3,S} {4,S}
-3  O u0 p2 c0 {2,S} {12,S}
-4  O u0 p2 c0 {2,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,D}
-6  C u0 p0 c0 {5,S} {7,D} {13,S}
-7  C u0 p0 c0 {6,D} {8,S} {14,S}
-8  C u0 p0 c0 {7,S} {9,D} {15,S}
-9  C u0 p0 c0 {8,D} {10,S} {16,S}
-10 C u0 p0 c0 {5,D} {9,S} {17,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {3,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {7,S}
-15 H u0 p0 c0 {8,S}
-16 H u0 p0 c0 {9,S}
-17 H u0 p0 c0 {10,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([140.022,186.534,223.2,251.039,287.667,308.7,332.317],'J/(mol*K)'),
-        H298 = (-842.9,'kJ/mol'),
-        S298 = (398.7,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (390.78,'J/(mol*K)'),
-        E0 = (-863.727,'kJ/mol'),
-    ),
-    shortDesc = u"""C6H7BO3""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 80,
+#     label = 'B(OH)2(OPh)',
+#     molecule =
+# """
+# 1  O u0 p2 c0 {2,S} {11,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {4,S}
+# 3  O u0 p2 c0 {2,S} {12,S}
+# 4  O u0 p2 c0 {2,S} {5,S}
+# 5  C u0 p0 c0 {4,S} {6,S} {10,D}
+# 6  C u0 p0 c0 {5,S} {7,D} {13,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {14,S}
+# 8  C u0 p0 c0 {7,S} {9,D} {15,S}
+# 9  C u0 p0 c0 {8,D} {10,S} {16,S}
+# 10 C u0 p0 c0 {5,D} {9,S} {17,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {3,S}
+# 13 H u0 p0 c0 {6,S}
+# 14 H u0 p0 c0 {7,S}
+# 15 H u0 p0 c0 {8,S}
+# 16 H u0 p0 c0 {9,S}
+# 17 H u0 p0 c0 {10,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([140.022,186.534,223.2,251.039,287.667,308.7,332.317],'J/(mol*K)'),
+#         H298 = (-842.9,'kJ/mol'),
+#         S298 = (398.7,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (390.78,'J/(mol*K)'),
+#         E0 = (-863.727,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C6H7BO3""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 81,
@@ -2830,44 +2830,44 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 82,
-    label = 'B(OH)(OMe)(OPh)',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  B u0 p0 c0 {2,S} {4,S} {5,S}
-4  O u0 p2 c0 {3,S} {15,S}
-5  O u0 p2 c0 {3,S} {6,S}
-6  C u0 p0 c0 {5,S} {7,S} {11,D}
-7  C u0 p0 c0 {6,S} {8,D} {16,S}
-8  C u0 p0 c0 {7,D} {9,S} {17,S}
-9  C u0 p0 c0 {8,S} {10,D} {18,S}
-10 C u0 p0 c0 {9,D} {11,S} {19,S}
-11 C u0 p0 c0 {6,D} {10,S} {20,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {4,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-18 H u0 p0 c0 {9,S}
-19 H u0 p0 c0 {10,S}
-20 H u0 p0 c0 {11,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([161.699,207.603,245.4,275.995,320.82,350.9,392.963],'J/(mol*K)'),
-        H298 = (-809.2,'kJ/mol'),
-        S298 = (442.8,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (461.453,'J/(mol*K)'),
-        E0 = (-834.903,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H9BO3""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 82,
+#     label = 'B(OH)(OMe)(OPh)',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+# 2  O u0 p2 c0 {1,S} {3,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {5,S}
+# 4  O u0 p2 c0 {3,S} {15,S}
+# 5  O u0 p2 c0 {3,S} {6,S}
+# 6  C u0 p0 c0 {5,S} {7,S} {11,D}
+# 7  C u0 p0 c0 {6,S} {8,D} {16,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {17,S}
+# 9  C u0 p0 c0 {8,S} {10,D} {18,S}
+# 10 C u0 p0 c0 {9,D} {11,S} {19,S}
+# 11 C u0 p0 c0 {6,D} {10,S} {20,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {4,S}
+# 16 H u0 p0 c0 {7,S}
+# 17 H u0 p0 c0 {8,S}
+# 18 H u0 p0 c0 {9,S}
+# 19 H u0 p0 c0 {10,S}
+# 20 H u0 p0 c0 {11,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([161.699,207.603,245.4,275.995,320.82,350.9,392.963],'J/(mol*K)'),
+#         H298 = (-809.2,'kJ/mol'),
+#         S298 = (442.8,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (461.453,'J/(mol*K)'),
+#         E0 = (-834.903,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H9BO3""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 83,
@@ -2942,47 +2942,47 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 85,
-    label = 'B(OMe)2(OPh)',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  B u0 p0 c0 {2,S} {4,S} {6,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  C u0 p0 c0 {4,S} {16,S} {17,S} {18,S}
-6  O u0 p2 c0 {3,S} {7,S}
-7  C u0 p0 c0 {6,S} {8,S} {12,D}
-8  C u0 p0 c0 {7,S} {9,D} {19,S}
-9  C u0 p0 c0 {8,D} {10,S} {20,S}
-10 C u0 p0 c0 {9,S} {11,D} {21,S}
-11 C u0 p0 c0 {10,D} {12,S} {22,S}
-12 C u0 p0 c0 {7,D} {11,S} {23,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {1,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {5,S}
-18 H u0 p0 c0 {5,S}
-19 H u0 p0 c0 {8,S}
-20 H u0 p0 c0 {9,S}
-21 H u0 p0 c0 {10,S}
-22 H u0 p0 c0 {11,S}
-23 H u0 p0 c0 {12,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([180.085,230.204,272.2,306.947,359.517,396.2,449.842],'J/(mol*K)'),
-        H298 = (-775.5,'kJ/mol'),
-        S298 = (484.2,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (532.126,'J/(mol*K)'),
-        E0 = (-804.16,'kJ/mol'),
-    ),
-    shortDesc = u"""C8H11BO3""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 85,
+#     label = 'B(OMe)2(OPh)',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+# 2  O u0 p2 c0 {1,S} {3,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {6,S}
+# 4  O u0 p2 c0 {3,S} {5,S}
+# 5  C u0 p0 c0 {4,S} {16,S} {17,S} {18,S}
+# 6  O u0 p2 c0 {3,S} {7,S}
+# 7  C u0 p0 c0 {6,S} {8,S} {12,D}
+# 8  C u0 p0 c0 {7,S} {9,D} {19,S}
+# 9  C u0 p0 c0 {8,D} {10,S} {20,S}
+# 10 C u0 p0 c0 {9,S} {11,D} {21,S}
+# 11 C u0 p0 c0 {10,D} {12,S} {22,S}
+# 12 C u0 p0 c0 {7,D} {11,S} {23,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {1,S}
+# 16 H u0 p0 c0 {5,S}
+# 17 H u0 p0 c0 {5,S}
+# 18 H u0 p0 c0 {5,S}
+# 19 H u0 p0 c0 {8,S}
+# 20 H u0 p0 c0 {9,S}
+# 21 H u0 p0 c0 {10,S}
+# 22 H u0 p0 c0 {11,S}
+# 23 H u0 p0 c0 {12,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([180.085,230.204,272.2,306.947,359.517,396.2,449.842],'J/(mol*K)'),
+#         H298 = (-775.5,'kJ/mol'),
+#         S298 = (484.2,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (532.126,'J/(mol*K)'),
+#         E0 = (-804.16,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C8H11BO3""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 86,
@@ -3025,54 +3025,54 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 87,
-    label = 'B(OMe)(OPh)2',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {18,S} {19,S} {20,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  B u0 p0 c0 {2,S} {4,S} {11,S}
-4  O u0 p2 c0 {3,S} {5,S}
-5  C u0 p0 c0 {4,S} {6,S} {10,D}
-6  C u0 p0 c0 {5,S} {7,D} {21,S}
-7  C u0 p0 c0 {6,D} {8,S} {22,S}
-8  C u0 p0 c0 {7,S} {9,D} {23,S}
-9  C u0 p0 c0 {8,D} {10,S} {24,S}
-10 C u0 p0 c0 {5,D} {9,S} {25,S}
-11 O u0 p2 c0 {3,S} {12,S}
-12 C u0 p0 c0 {11,S} {13,S} {17,D}
-13 C u0 p0 c0 {12,S} {14,D} {26,S}
-14 C u0 p0 c0 {13,D} {15,S} {27,S}
-15 C u0 p0 c0 {14,S} {16,D} {28,S}
-16 C u0 p0 c0 {15,D} {17,S} {29,S}
-17 C u0 p0 c0 {12,D} {16,S} {30,S}
-18 H u0 p0 c0 {1,S}
-19 H u0 p0 c0 {1,S}
-20 H u0 p0 c0 {1,S}
-21 H u0 p0 c0 {6,S}
-22 H u0 p0 c0 {7,S}
-23 H u0 p0 c0 {8,S}
-24 H u0 p0 c0 {9,S}
-25 H u0 p0 c0 {10,S}
-26 H u0 p0 c0 {13,S}
-27 H u0 p0 c0 {14,S}
-28 H u0 p0 c0 {15,S}
-29 H u0 p0 c0 {16,S}
-30 H u0 p0 c0 {17,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([244.59,317.22,376.5,424.187,493.612,539.9,604.179],'J/(mol*K)'),
-        H298 = (-652.5,'kJ/mol'),
-        S298 = (559.8,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (706.73,'J/(mol*K)'),
-        E0 = (-688.859,'kJ/mol'),
-    ),
-    shortDesc = u"""C13H13BO3""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 87,
+#     label = 'B(OMe)(OPh)2',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {18,S} {19,S} {20,S}
+# 2  O u0 p2 c0 {1,S} {3,S}
+# 3  B u0 p0 c0 {2,S} {4,S} {11,S}
+# 4  O u0 p2 c0 {3,S} {5,S}
+# 5  C u0 p0 c0 {4,S} {6,S} {10,D}
+# 6  C u0 p0 c0 {5,S} {7,D} {21,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {22,S}
+# 8  C u0 p0 c0 {7,S} {9,D} {23,S}
+# 9  C u0 p0 c0 {8,D} {10,S} {24,S}
+# 10 C u0 p0 c0 {5,D} {9,S} {25,S}
+# 11 O u0 p2 c0 {3,S} {12,S}
+# 12 C u0 p0 c0 {11,S} {13,S} {17,D}
+# 13 C u0 p0 c0 {12,S} {14,D} {26,S}
+# 14 C u0 p0 c0 {13,D} {15,S} {27,S}
+# 15 C u0 p0 c0 {14,S} {16,D} {28,S}
+# 16 C u0 p0 c0 {15,D} {17,S} {29,S}
+# 17 C u0 p0 c0 {12,D} {16,S} {30,S}
+# 18 H u0 p0 c0 {1,S}
+# 19 H u0 p0 c0 {1,S}
+# 20 H u0 p0 c0 {1,S}
+# 21 H u0 p0 c0 {6,S}
+# 22 H u0 p0 c0 {7,S}
+# 23 H u0 p0 c0 {8,S}
+# 24 H u0 p0 c0 {9,S}
+# 25 H u0 p0 c0 {10,S}
+# 26 H u0 p0 c0 {13,S}
+# 27 H u0 p0 c0 {14,S}
+# 28 H u0 p0 c0 {15,S}
+# 29 H u0 p0 c0 {16,S}
+# 30 H u0 p0 c0 {17,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([244.59,317.22,376.5,424.187,493.612,539.9,604.179],'J/(mol*K)'),
+#         H298 = (-652.5,'kJ/mol'),
+#         S298 = (559.8,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (706.73,'J/(mol*K)'),
+#         E0 = (-688.859,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C13H13BO3""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 88,
@@ -3118,362 +3118,362 @@ entry(
     longDesc = u"""Calculated with W1X-1""",
 )
 
-entry(
-    index = 89,
-    label = 'C6H4O2BH',
-    molecule =
-"""
-1  B u0 p0 c0 {2,S} {9,S} {10,S}
-2  O u0 p2 c0 {1,S} {3,S}
-3  C u0 p0 c0 {2,S} {4,S} {8,D}
-4  C u0 p0 c0 {3,S} {5,D} {11,S}
-5  C u0 p0 c0 {4,D} {6,S} {12,S}
-6  C u0 p0 c0 {5,S} {7,D} {13,S}
-7  C u0 p0 c0 {6,D} {8,S} {14,S}
-8  C u0 p0 c0 {3,D} {7,S} {9,S}
-9  O u0 p2 c0 {1,S} {8,S}
-10 H u0 p0 c0 {1,S}
-11 H u0 p0 c0 {4,S}
-12 H u0 p0 c0 {5,S}
-13 H u0 p0 c0 {6,S}
-14 H u0 p0 c0 {7,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([105.095,142.317,173.2,197.772,232.239,253.8,281.024],'J/(mol*K)'),
-        H298 = (-409.1,'kJ/mol'),
-        S298 = (322,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (332.579,'J/(mol*K)'),
-        E0 = (-425.486,'kJ/mol'),
-    ),
-    shortDesc = u"""C6H5BO2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 89,
+#     label = 'C6H4O2BH',
+#     molecule =
+# """
+# 1  B u0 p0 c0 {2,S} {9,S} {10,S}
+# 2  O u0 p2 c0 {1,S} {3,S}
+# 3  C u0 p0 c0 {2,S} {4,S} {8,D}
+# 4  C u0 p0 c0 {3,S} {5,D} {11,S}
+# 5  C u0 p0 c0 {4,D} {6,S} {12,S}
+# 6  C u0 p0 c0 {5,S} {7,D} {13,S}
+# 7  C u0 p0 c0 {6,D} {8,S} {14,S}
+# 8  C u0 p0 c0 {3,D} {7,S} {9,S}
+# 9  O u0 p2 c0 {1,S} {8,S}
+# 10 H u0 p0 c0 {1,S}
+# 11 H u0 p0 c0 {4,S}
+# 12 H u0 p0 c0 {5,S}
+# 13 H u0 p0 c0 {6,S}
+# 14 H u0 p0 c0 {7,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([105.095,142.317,173.2,197.772,232.239,253.8,281.024],'J/(mol*K)'),
+#         H298 = (-409.1,'kJ/mol'),
+#         S298 = (322,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (332.579,'J/(mol*K)'),
+#         E0 = (-425.486,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C6H5BO2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 90,
-    label = 'C6H4O2BMe',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-2  B u0 p0 c0 {1,S} {3,S} {10,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {9,D}
-5  C u0 p0 c0 {4,S} {6,D} {14,S}
-6  C u0 p0 c0 {5,D} {7,S} {15,S}
-7  C u0 p0 c0 {6,S} {8,D} {16,S}
-8  C u0 p0 c0 {7,D} {9,S} {17,S}
-9  C u0 p0 c0 {4,D} {8,S} {10,S}
-10 O u0 p2 c0 {2,S} {9,S}
-11 H u0 p0 c0 {1,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {5,S}
-15 H u0 p0 c0 {6,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([128.704,170.928,206.2,234.745,276.081,303.2,339.846],'J/(mol*K)'),
-        H298 = (-482.9,'kJ/mol'),
-        S298 = (371.8,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (403.252,'J/(mol*K)'),
-        E0 = (-502.985,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H7BO2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 90,
+#     label = 'C6H4O2BMe',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {10,S}
+# 3  O u0 p2 c0 {2,S} {4,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {9,D}
+# 5  C u0 p0 c0 {4,S} {6,D} {14,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {15,S}
+# 7  C u0 p0 c0 {6,S} {8,D} {16,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {17,S}
+# 9  C u0 p0 c0 {4,D} {8,S} {10,S}
+# 10 O u0 p2 c0 {2,S} {9,S}
+# 11 H u0 p0 c0 {1,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {5,S}
+# 15 H u0 p0 c0 {6,S}
+# 16 H u0 p0 c0 {7,S}
+# 17 H u0 p0 c0 {8,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([128.704,170.928,206.2,234.745,276.081,303.2,339.846],'J/(mol*K)'),
+#         H298 = (-482.9,'kJ/mol'),
+#         S298 = (371.8,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (403.252,'J/(mol*K)'),
+#         E0 = (-502.985,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H7BO2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 91,
-    label = '3-C6H3FO2BMe',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
-2  B u0 p0 c0 {1,S} {3,S} {11,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {10,D}
-5  C u0 p0 c0 {4,S} {6,D} {15,S}
-6  C u0 p0 c0 {5,D} {7,S} {16,S}
-7  C u0 p0 c0 {6,S} {8,D} {17,S}
-8  C u0 p0 c0 {7,D} {9,S} {10,S}
-9  F u0 p3 c0 {8,S}
-10 C u0 p0 c0 {4,D} {8,S} {11,S}
-11 O u0 p2 c0 {2,S} {10,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {6,S}
-17 H u0 p0 c0 {7,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([141.007,182.828,217.2,244.784,284.51,310.5,345.588],'J/(mol*K)'),
-        H298 = (-662.3,'kJ/mol'),
-        S298 = (390.4,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (403.252,'J/(mol*K)'),
-        E0 = (-684.749,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H6BFO2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 91,
+#     label = '3-C6H3FO2BMe',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {11,S}
+# 3  O u0 p2 c0 {2,S} {4,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {10,D}
+# 5  C u0 p0 c0 {4,S} {6,D} {15,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {16,S}
+# 7  C u0 p0 c0 {6,S} {8,D} {17,S}
+# 8  C u0 p0 c0 {7,D} {9,S} {10,S}
+# 9  F u0 p3 c0 {8,S}
+# 10 C u0 p0 c0 {4,D} {8,S} {11,S}
+# 11 O u0 p2 c0 {2,S} {10,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {5,S}
+# 16 H u0 p0 c0 {6,S}
+# 17 H u0 p0 c0 {7,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([141.007,182.828,217.2,244.784,284.51,310.5,345.588],'J/(mol*K)'),
+#         H298 = (-662.3,'kJ/mol'),
+#         S298 = (390.4,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (403.252,'J/(mol*K)'),
+#         E0 = (-684.749,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H6BFO2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 92,
-    label = '4-C6H3FO2BMe',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
-2  B u0 p0 c0 {1,S} {3,S} {11,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {10,D}
-5  C u0 p0 c0 {4,S} {6,D} {15,S}
-6  C u0 p0 c0 {5,D} {7,S} {16,S}
-7  C u0 p0 c0 {6,S} {8,S} {9,D}
-8  F u0 p3 c0 {7,S}
-9  C u0 p0 c0 {7,D} {10,S} {17,S}
-10 C u0 p0 c0 {4,D} {9,S} {11,S}
-11 O u0 p2 c0 {2,S} {10,S}
-12 H u0 p0 c0 {1,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {5,S}
-16 H u0 p0 c0 {6,S}
-17 H u0 p0 c0 {9,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([141.312,183.334,217.8,245.394,284.999,310.8,345.459],'J/(mol*K)'),
-        H298 = (-673.1,'kJ/mol'),
-        S298 = (389.5,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (403.252,'J/(mol*K)'),
-        E0 = (-695.547,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H6BFO2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 92,
+#     label = '4-C6H3FO2BMe',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {11,S}
+# 3  O u0 p2 c0 {2,S} {4,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {10,D}
+# 5  C u0 p0 c0 {4,S} {6,D} {15,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {16,S}
+# 7  C u0 p0 c0 {6,S} {8,S} {9,D}
+# 8  F u0 p3 c0 {7,S}
+# 9  C u0 p0 c0 {7,D} {10,S} {17,S}
+# 10 C u0 p0 c0 {4,D} {9,S} {11,S}
+# 11 O u0 p2 c0 {2,S} {10,S}
+# 12 H u0 p0 c0 {1,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {5,S}
+# 16 H u0 p0 c0 {6,S}
+# 17 H u0 p0 c0 {9,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([141.312,183.334,217.8,245.394,284.999,310.8,345.459],'J/(mol*K)'),
+#         H298 = (-673.1,'kJ/mol'),
+#         S298 = (389.5,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (403.252,'J/(mol*K)'),
+#         E0 = (-695.547,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H6BFO2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 93,
-    label = '3,4-C6H2F2O2BMe',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
-2  B u0 p0 c0 {1,S} {3,S} {12,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {11,D}
-5  C u0 p0 c0 {4,S} {6,D} {16,S}
-6  C u0 p0 c0 {5,D} {7,S} {17,S}
-7  C u0 p0 c0 {6,S} {8,S} {9,D}
-8  F u0 p3 c0 {7,S}
-9  C u0 p0 c0 {7,D} {10,S} {11,S}
-10 F u0 p3 c0 {9,S}
-11 C u0 p0 c0 {4,D} {9,S} {12,S}
-12 O u0 p2 c0 {2,S} {11,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {1,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {6,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([153.608,194.916,228.3,254.865,292.933,317.8,351.404],'J/(mol*K)'),
-        H298 = (-834.8,'kJ/mol'),
-        S298 = (409.4,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (403.252,'J/(mol*K)'),
-        E0 = (-859.695,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H5BF2O2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 93,
+#     label = '3,4-C6H2F2O2BMe',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {12,S}
+# 3  O u0 p2 c0 {2,S} {4,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {11,D}
+# 5  C u0 p0 c0 {4,S} {6,D} {16,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {17,S}
+# 7  C u0 p0 c0 {6,S} {8,S} {9,D}
+# 8  F u0 p3 c0 {7,S}
+# 9  C u0 p0 c0 {7,D} {10,S} {11,S}
+# 10 F u0 p3 c0 {9,S}
+# 11 C u0 p0 c0 {4,D} {9,S} {12,S}
+# 12 O u0 p2 c0 {2,S} {11,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {1,S}
+# 16 H u0 p0 c0 {5,S}
+# 17 H u0 p0 c0 {6,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([153.608,194.916,228.3,254.865,292.933,317.8,351.404],'J/(mol*K)'),
+#         H298 = (-834.8,'kJ/mol'),
+#         S298 = (409.4,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (403.252,'J/(mol*K)'),
+#         E0 = (-859.695,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H5BF2O2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 94,
-    label = '3,6-C6H2F2O2BMe',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
-2  B u0 p0 c0 {1,S} {3,S} {12,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {11,D}
-5  C u0 p0 c0 {4,S} {6,S} {7,D}
-6  F u0 p3 c0 {5,S}
-7  C u0 p0 c0 {5,D} {8,S} {16,S}
-8  C u0 p0 c0 {7,S} {9,D} {17,S}
-9  C u0 p0 c0 {8,D} {10,S} {11,S}
-10 F u0 p3 c0 {9,S}
-11 C u0 p0 c0 {4,D} {9,S} {12,S}
-12 O u0 p2 c0 {2,S} {11,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {1,S}
-16 H u0 p0 c0 {7,S}
-17 H u0 p0 c0 {8,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([153.508,194.808,228.2,254.781,292.892,317.8,351.476],'J/(mol*K)'),
-        H298 = (-836.9,'kJ/mol'),
-        S298 = (408.5,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (403.252,'J/(mol*K)'),
-        E0 = (-861.781,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H5BF2O2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 94,
+#     label = '3,6-C6H2F2O2BMe',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {12,S}
+# 3  O u0 p2 c0 {2,S} {4,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {11,D}
+# 5  C u0 p0 c0 {4,S} {6,S} {7,D}
+# 6  F u0 p3 c0 {5,S}
+# 7  C u0 p0 c0 {5,D} {8,S} {16,S}
+# 8  C u0 p0 c0 {7,S} {9,D} {17,S}
+# 9  C u0 p0 c0 {8,D} {10,S} {11,S}
+# 10 F u0 p3 c0 {9,S}
+# 11 C u0 p0 c0 {4,D} {9,S} {12,S}
+# 12 O u0 p2 c0 {2,S} {11,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {1,S}
+# 16 H u0 p0 c0 {7,S}
+# 17 H u0 p0 c0 {8,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([153.508,194.808,228.2,254.781,292.892,317.8,351.476],'J/(mol*K)'),
+#         H298 = (-836.9,'kJ/mol'),
+#         S298 = (408.5,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (403.252,'J/(mol*K)'),
+#         E0 = (-861.781,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H5BF2O2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 95,
-    label = '4,5-C6H2F2O2BMe',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
-2  B u0 p0 c0 {1,S} {3,S} {12,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {11,D}
-5  C u0 p0 c0 {4,S} {6,D} {16,S}
-6  C u0 p0 c0 {5,D} {7,S} {8,S}
-7  F u0 p3 c0 {6,S}
-8  C u0 p0 c0 {6,S} {9,S} {10,D}
-9  F u0 p3 c0 {8,S}
-10 C u0 p0 c0 {8,D} {11,S} {17,S}
-11 C u0 p0 c0 {4,D} {10,S} {12,S}
-12 O u0 p2 c0 {2,S} {11,S}
-13 H u0 p0 c0 {1,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {1,S}
-16 H u0 p0 c0 {5,S}
-17 H u0 p0 c0 {10,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([153.911,195.355,228.8,255.37,293.358,318.1,351.42],'J/(mol*K)'),
-        H298 = (-845.2,'kJ/mol'),
-        S298 = (407.6,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (403.252,'J/(mol*K)'),
-        E0 = (-870.113,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H5BF2O2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 95,
+#     label = '4,5-C6H2F2O2BMe',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {12,S}
+# 3  O u0 p2 c0 {2,S} {4,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {11,D}
+# 5  C u0 p0 c0 {4,S} {6,D} {16,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {8,S}
+# 7  F u0 p3 c0 {6,S}
+# 8  C u0 p0 c0 {6,S} {9,S} {10,D}
+# 9  F u0 p3 c0 {8,S}
+# 10 C u0 p0 c0 {8,D} {11,S} {17,S}
+# 11 C u0 p0 c0 {4,D} {10,S} {12,S}
+# 12 O u0 p2 c0 {2,S} {11,S}
+# 13 H u0 p0 c0 {1,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {1,S}
+# 16 H u0 p0 c0 {5,S}
+# 17 H u0 p0 c0 {10,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([153.911,195.355,228.8,255.37,293.358,318.1,351.42],'J/(mol*K)'),
+#         H298 = (-845.2,'kJ/mol'),
+#         S298 = (407.6,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (403.252,'J/(mol*K)'),
+#         E0 = (-870.113,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H5BF2O2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 96,
-    label = '3,4,5-C6H2F2O2BMe',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {14,S} {15,S} {16,S}
-2  B u0 p0 c0 {1,S} {3,S} {13,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {12,D}
-5  C u0 p0 c0 {4,S} {6,D} {17,S}
-6  C u0 p0 c0 {5,D} {7,S} {8,S}
-7  F u0 p3 c0 {6,S}
-8  C u0 p0 c0 {6,S} {9,S} {10,D}
-9  F u0 p3 c0 {8,S}
-10 C u0 p0 c0 {8,D} {11,S} {12,S}
-11 F u0 p3 c0 {10,S}
-12 C u0 p0 c0 {4,D} {10,S} {13,S}
-13 O u0 p2 c0 {2,S} {12,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {1,S}
-16 H u0 p0 c0 {1,S}
-17 H u0 p0 c0 {5,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([166.306,206.977,239.3,264.82,301.268,325.1,357.439],'J/(mol*K)'),
-        H298 = (-1004.3,'kJ/mol'),
-        S298 = (428.7,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (403.252,'J/(mol*K)'),
-        E0 = (-1031.69,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H4BF3O2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 96,
+#     label = '3,4,5-C6H2F2O2BMe',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {14,S} {15,S} {16,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {13,S}
+# 3  O u0 p2 c0 {2,S} {4,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {12,D}
+# 5  C u0 p0 c0 {4,S} {6,D} {17,S}
+# 6  C u0 p0 c0 {5,D} {7,S} {8,S}
+# 7  F u0 p3 c0 {6,S}
+# 8  C u0 p0 c0 {6,S} {9,S} {10,D}
+# 9  F u0 p3 c0 {8,S}
+# 10 C u0 p0 c0 {8,D} {11,S} {12,S}
+# 11 F u0 p3 c0 {10,S}
+# 12 C u0 p0 c0 {4,D} {10,S} {13,S}
+# 13 O u0 p2 c0 {2,S} {12,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {1,S}
+# 16 H u0 p0 c0 {1,S}
+# 17 H u0 p0 c0 {5,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([166.306,206.977,239.3,264.82,301.268,325.1,357.439],'J/(mol*K)'),
+#         H298 = (-1004.3,'kJ/mol'),
+#         S298 = (428.7,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (403.252,'J/(mol*K)'),
+#         E0 = (-1031.69,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H4BF3O2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 97,
-    label = '3,4,6-C6H2F2O2BMe',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {14,S} {15,S} {16,S}
-2  B u0 p0 c0 {1,S} {3,S} {13,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {12,D}
-5  C u0 p0 c0 {4,S} {6,S} {7,D}
-6  F u0 p3 c0 {5,S}
-7  C u0 p0 c0 {5,D} {8,S} {17,S}
-8  C u0 p0 c0 {7,S} {9,S} {10,D}
-9  F u0 p3 c0 {8,S}
-10 C u0 p0 c0 {8,D} {11,S} {12,S}
-11 F u0 p3 c0 {10,S}
-12 C u0 p0 c0 {4,D} {10,S} {13,S}
-13 O u0 p2 c0 {2,S} {12,S}
-14 H u0 p0 c0 {1,S}
-15 H u0 p0 c0 {1,S}
-16 H u0 p0 c0 {1,S}
-17 H u0 p0 c0 {7,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([166.107,206.829,239.2,264.758,301.251,325.1,357.438],'J/(mol*K)'),
-        H298 = (-1006.8,'kJ/mol'),
-        S298 = (427.6,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (403.252,'J/(mol*K)'),
-        E0 = (-1034.15,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H4BF3O2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 97,
+#     label = '3,4,6-C6H2F2O2BMe',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {14,S} {15,S} {16,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {13,S}
+# 3  O u0 p2 c0 {2,S} {4,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {12,D}
+# 5  C u0 p0 c0 {4,S} {6,S} {7,D}
+# 6  F u0 p3 c0 {5,S}
+# 7  C u0 p0 c0 {5,D} {8,S} {17,S}
+# 8  C u0 p0 c0 {7,S} {9,S} {10,D}
+# 9  F u0 p3 c0 {8,S}
+# 10 C u0 p0 c0 {8,D} {11,S} {12,S}
+# 11 F u0 p3 c0 {10,S}
+# 12 C u0 p0 c0 {4,D} {10,S} {13,S}
+# 13 O u0 p2 c0 {2,S} {12,S}
+# 14 H u0 p0 c0 {1,S}
+# 15 H u0 p0 c0 {1,S}
+# 16 H u0 p0 c0 {1,S}
+# 17 H u0 p0 c0 {7,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([166.107,206.829,239.2,264.758,301.251,325.1,357.438],'J/(mol*K)'),
+#         H298 = (-1006.8,'kJ/mol'),
+#         S298 = (427.6,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (403.252,'J/(mol*K)'),
+#         E0 = (-1034.15,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H4BF3O2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
-entry(
-    index = 98,
-    label = 'C6F4O2BMe',
-    molecule =
-"""
-1  C u0 p0 c0 {2,S} {15,S} {16,S} {17,S}
-2  B u0 p0 c0 {1,S} {3,S} {14,S}
-3  O u0 p2 c0 {2,S} {4,S}
-4  C u0 p0 c0 {3,S} {5,S} {13,D}
-5  C u0 p0 c0 {4,S} {6,S} {7,D}
-6  F u0 p3 c0 {5,S}
-7  C u0 p0 c0 {5,D} {8,S} {9,S}
-8  F u0 p3 c0 {7,S}
-9  C u0 p0 c0 {7,S} {10,S} {11,D}
-10 F u0 p3 c0 {9,S}
-11 C u0 p0 c0 {9,D} {12,S} {13,S}
-12 F u0 p3 c0 {11,S}
-13 C u0 p0 c0 {4,D} {11,S} {14,S}
-14 O u0 p2 c0 {2,S} {13,S}
-15 H u0 p0 c0 {1,S}
-16 H u0 p0 c0 {1,S}
-17 H u0 p0 c0 {1,S}
-""",
-    thermo = ThermoData(
-        Tdata = ([300,400,500,600,800,1000,1500],'K'),
-        Cpdata = ([178.698,218.532,249.7,274.166,309.114,332.1,363.603],'J/(mol*K)'),
-        H298 = (-1159.1,'kJ/mol'),
-        S298 = (448.5,'J/(mol*K)'),
-        Cp0 = (33.2579,'J/(mol*K)'),
-        CpInf = (403.252,'J/(mol*K)'),
-        E0 = (-1189,'kJ/mol'),
-    ),
-    shortDesc = u"""C7H3BF4O2""",
-    longDesc = u"""Calculated with W1X-1""",
-)
+# entry(
+#     index = 98,
+#     label = 'C6F4O2BMe',
+#     molecule =
+# """
+# 1  C u0 p0 c0 {2,S} {15,S} {16,S} {17,S}
+# 2  B u0 p0 c0 {1,S} {3,S} {14,S}
+# 3  O u0 p2 c0 {2,S} {4,S}
+# 4  C u0 p0 c0 {3,S} {5,S} {13,D}
+# 5  C u0 p0 c0 {4,S} {6,S} {7,D}
+# 6  F u0 p3 c0 {5,S}
+# 7  C u0 p0 c0 {5,D} {8,S} {9,S}
+# 8  F u0 p3 c0 {7,S}
+# 9  C u0 p0 c0 {7,S} {10,S} {11,D}
+# 10 F u0 p3 c0 {9,S}
+# 11 C u0 p0 c0 {9,D} {12,S} {13,S}
+# 12 F u0 p3 c0 {11,S}
+# 13 C u0 p0 c0 {4,D} {11,S} {14,S}
+# 14 O u0 p2 c0 {2,S} {13,S}
+# 15 H u0 p0 c0 {1,S}
+# 16 H u0 p0 c0 {1,S}
+# 17 H u0 p0 c0 {1,S}
+# """,
+#     thermo = ThermoData(
+#         Tdata = ([300,400,500,600,800,1000,1500],'K'),
+#         Cpdata = ([178.698,218.532,249.7,274.166,309.114,332.1,363.603],'J/(mol*K)'),
+#         H298 = (-1159.1,'kJ/mol'),
+#         S298 = (448.5,'J/(mol*K)'),
+#         Cp0 = (33.2579,'J/(mol*K)'),
+#         CpInf = (403.252,'J/(mol*K)'),
+#         E0 = (-1189,'kJ/mol'),
+#     ),
+#     shortDesc = u"""C7H3BF4O2""",
+#     longDesc = u"""Calculated with W1X-1""",
+# )
 
 entry(
     index = 99,
