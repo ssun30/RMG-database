@@ -30,10 +30,10 @@ entry(
     index = 2,
     label = "C-H_Bidentate;VacantSite",
     kinetics = SurfaceArrheniusBEP(
-        A = (7.250e16, 'm^2/(mol*s)'), 
+        A = (1.36e18, 'm^2/(mol*s)'),
         n = 0.0,
-        alpha = 0.961, 
-        E0 = (22.37, 'kcal/mol'), 
+        alpha = 0.85,
+        E0 = (65.61, 'kJ/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -139,84 +139,4 @@ entry(
 E0 and alpha are taken from Table 5 for all metals from Sutton and Vlachos, "Ethanol Activation on closed-packed surfaces", Industrial & Engineering Chemistry Research, 2015, 54, 4213-4225, DOI: 10.1021/ie5043374.
 Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 2.39e-9 mol cm^-2 (surface site density of Pt(111)
     """
-)
-
-entry(
-    index = 8,
-    label = "CH2;VacantSite",
-    kinetics = SurfaceArrheniusBEP(
-        A = (2.09e17, 'm^2/(mol*s)'),
-        n = 0,
-        alpha =0.57,
-        E0 = (75.3, 'kJ/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Default""",
-    longDesc = u"""
-E0 and alpha are taken from Table 5 for all metals from Sutton and Vlachos, "Ethanol Activation on closed-packed surfaces", Industrial & Engineering Chemistry Research, 2015, 54, 4213-4225, DOI: 10.1021/ie5043374.
-Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 2.39e-9 mol cm^-2 (surface site density of Pt(111)
-A divided by 2 because of reaction path degeneracy for CH2
-"""
-)
-
-entry(
-    index = 9,
-    label = "CH3;VacantSite",
-    kinetics = SurfaceArrheniusBEP(
-        A = (1.39e17, 'm^2/(mol*s)'),
-        n = 0,
-        alpha =0.57,
-        E0 = (75.3, 'kJ/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Default""",
-    longDesc = u"""
-E0 and alpha are taken from Table 5 for all metals from Sutton and Vlachos, "Ethanol Activation on closed-packed surfaces", Industrial & Engineering Chemistry Research, 2015, 54, 4213-4225, DOI: 10.1021/ie5043374.
-Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 2.39e-9 mol cm^-2 (surface site density of Pt(111)
-A divided by 3 because of reaction path degeneracy for CH3
-"""
-)
-
-entry(
-    index = 10,
-    label = "CH2R;VacantSite",
-    kinetics = SurfaceArrheniusBEP(
-        A = (2.09e17, 'm^2/(mol*s)'),
-        n = 0,
-        alpha =0.57,
-        E0 = (75.3, 'kJ/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Default""",
-    longDesc = u"""
-E0 and alpha are taken from Table 5 for all metals from Sutton and Vlachos, "Ethanol Activation on closed-packed surfaces", Industrial & Engineering Chemistry Research, 2015, 54, 4213-4225, DOI: 10.1021/ie5043374.
-Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 2.39e-9 mol cm^-2 (surface site density of Pt(111)
-A divided by 2 because of reaction path degeneracy for X-CH2-R (Abstraction of the alpha H atom)
-"""
-)
-
-entry(
-    index = 11,
-    label = "CHR;VacantSite",
-    kinetics = SurfaceArrheniusBEP(
-        A = (4.18e17, 'm^2/(mol*s)'),
-        n = 0,
-        alpha =0.57,
-        E0 = (75.3, 'kJ/mol'),
-        Tmin = (200, 'K'),
-        Tmax = (3000, 'K'),
-    ),
-    rank = 0,
-    shortDesc = u"""Default""",
-    longDesc = u"""
-E0 and alpha are taken from Table 5 for all metals from Sutton and Vlachos, "Ethanol Activation on closed-packed surfaces", Industrial & Engineering Chemistry Research, 2015, 54, 4213-4225, DOI: 10.1021/ie5043374.
-Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 2.39e-9 mol cm^-2 (surface site density of Pt(111)
-A divided by 2 because of reaction path degeneracy for X-CH2-R (Abstraction of the alpha H atom)
-"""
 )
