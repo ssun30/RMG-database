@@ -424,16 +424,16 @@ atom_energies = {
     },
     # calculated using Gaussian 16
     "LevelOfTheory(method='g4',software='gaussian')": {
-        "H": -0.500004,
-        "N": -54.572250,
-        "O": -74.968901,
-        "C": -37.83417,
+        "H": -0.5014205,
+        "N": -54.5736662,
+        "O": -74.9703172,
+        "C": -37.8341684,
         "P": -341.13463,
         "S": -397.98018,
-        "Cl": -460.013636,
-        "F": -99.703566,
+        "Cl": -460.0150522,
+        "F": -99.7049823,
         "Br": -2573.58537,
-        "B": -24.645233,
+        "B": -24.6466498,
     },
     # g4 atom energies taken from [J. Chem. Phys. 126, 084108 (2007); doi: 10.1063/1.2436888]
     # "LevelOfTheory(method='g4',software='gaussian')": {
