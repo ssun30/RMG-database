@@ -26,7 +26,7 @@ entry(
         Ea = (6224, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou (Molina Sendt TST) 2009
 """,
@@ -42,7 +42,7 @@ entry(
         Ea = (49100, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -77,7 +77,7 @@ entry(
         Ea = (11369, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 MOUHEM13
 """,
@@ -93,7 +93,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 H2S+SO=HSO+SH                        5.4E03  3.209    26824 !
 Zhou TST (2009) rv too fast
@@ -126,7 +126,7 @@ entry(
         Ea = (37810, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Haynes BS J PHYS CHEM A 109 8180-8186 2005
 """,
@@ -142,7 +142,7 @@ entry(
         Ea = (33530, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Haynes BS JPCA 109 8180-8186 2005
 """,
@@ -158,7 +158,7 @@ entry(
         Ea = (17300, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -175,7 +175,7 @@ entry(
         Ea = (30450, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Haynes BS J PHYS CHEM A 109 8180-8186 2005
 """,
@@ -191,7 +191,7 @@ entry(
         Ea = (34010, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Haynes BS J PHYS CHEM A 109 8180-8186 2005
 """,
@@ -208,7 +208,7 @@ entry(
         Ea = (22681, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Haynes BS J PHYS CHEM A 109 8180-8186 2005
 """,
@@ -238,7 +238,7 @@ entry(
         Ea = (-1027, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Haynes BS PROC COMBUST INST 31 257-265 2007
 alongd comment: valid only at 1 atm, taken from Table 4 in 10.1016/j.proci.2006.08.067
@@ -255,7 +255,7 @@ entry(
         Ea = (7400, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est
 """,
@@ -271,7 +271,7 @@ entry(
         Ea = (-2169, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou TST (2009)
 """,
@@ -287,7 +287,7 @@ entry(
         Ea = (-2071, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou (Molina Sendt TST) (2009)
 """,
@@ -303,7 +303,7 @@ entry(
         Ea = (11020, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 pw (PM 1606)
 SH+O2=H+SO2                          6.5E11  0.000    15000 !
@@ -337,7 +337,7 @@ entry(
         Ea = (556, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ATKTRO04
 """,
@@ -353,7 +353,7 @@ entry(
         Ea = (-29, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou QRRK (2009)
 """,
@@ -369,7 +369,7 @@ entry(
         Ea = (25000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -385,7 +385,7 @@ entry(
         Ea = (11000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -401,7 +401,7 @@ entry(
         Ea = (14250, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -417,7 +417,7 @@ entry(
         Ea = (46000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -433,7 +433,7 @@ entry(
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -449,7 +449,7 @@ entry(
         Ea = (32000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -465,7 +465,7 @@ entry(
         Ea = (36000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -481,7 +481,7 @@ entry(
         Ea = (32000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -498,7 +498,7 @@ entry(
         Ea = (33000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -536,7 +536,7 @@ entry(
         Ea = (-1361, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Haynes BS Proc Combust Inst 2007, 31, 257-265
 """,
@@ -552,7 +552,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Ballester MY VArandas, AJC IJCK 40 533-540 2008
 """,
@@ -568,7 +568,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -584,7 +584,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Atkinson R Baulch DL Cox RA Crowley JN Hampson RF Hynes RG Jenkin ME Rossi MJ Troe J Atmos Chem Phys 2004 4 1461-1738.
 """,
@@ -600,7 +600,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -616,7 +616,7 @@ entry(
         Ea = (2325, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Atkinson R Baulch DL Cox RA Crowley JN Hampson RF Hynes RG Jenkin ME Rossi MJ Troe J Atmos Chem Phys 2004 4 1461-1738.
 """,
@@ -635,7 +635,7 @@ entry(
         ),
         efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1.5},
     ),
-    longDesc = 
+    longDesc =
 u"""
 est as SO+O+M
 """,
@@ -651,7 +651,7 @@ entry(
         Ea = (4320, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 est
 Zhou est (2009)
@@ -706,7 +706,7 @@ entry(
         T1 = (1e+30, 'K'),
         efficiencies = {'O=S=O': 5, 'O': 5, 'N#N': 1},
     ),
-    longDesc = 
+    longDesc =
 u"""
 MA Blitz KJ Hughes MJ Pilling J Phys Chem A 107 (2003) 1971-1978
 """,
@@ -722,7 +722,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -738,7 +738,7 @@ entry(
         Ea = (14000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 JPL 02 upper limit Zhou (2009)
 """,
@@ -754,7 +754,7 @@ entry(
         Ea = (75000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 L HindiyArti P GlArborg P MArshall J. Phys. Chem. A 111 (2007) 3984-3991
 """,
@@ -770,7 +770,7 @@ entry(
         Ea = (50300, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -786,7 +786,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -802,7 +802,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Rasmussen CL GlArborg P MArshall P Proc Combust Inst 2007, 31, 339-347 est
 """,
@@ -818,7 +818,7 @@ entry(
         Ea = (4000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -835,7 +835,7 @@ entry(
         Ea = (920, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -851,7 +851,7 @@ entry(
         Ea = (1560, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -867,7 +867,7 @@ entry(
         Ea = (-340, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -884,7 +884,7 @@ entry(
         Ea = (50, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 alongd comment: Differs by O(3) than the R-Rec rate [H_rad;S2sJ]
@@ -901,7 +901,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -920,7 +920,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -936,7 +936,7 @@ entry(
         Ea = (5340, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -952,7 +952,7 @@ entry(
         Ea = (300, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -969,7 +969,7 @@ entry(
         Ea = (3170, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 alongd comment: Differs by O(3) than the R-Rec rate Average of [H_rad;Y_rad + S_rad;Y_rad + Ct_rad;Y_rad + O_rad;Y_rad + O2_birad;Y_rad + Cd_rad;Y_rad + Cb_rad;Y_rad + CO_rad;Y_rad + Cs_rad;Y_rad + N3_rad;Y_rad + N5_rad;Y_rad + Y_rad;H_rad + Y_rad;S_rad + Y_rad;Ct_rad + Y_rad;O_rad + Y_rad;O2_birad + Y_rad;Cd_rad + Y_rad;Cb_rad + Y_rad;CO_rad + Y_rad;Cs_rad + Y_rad;N3_rad + Y_rad;N5_rad]
@@ -986,7 +986,7 @@ entry(
         Ea = (3750, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -1002,7 +1002,7 @@ entry(
         Ea = (470, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -1018,7 +1018,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1034,7 +1034,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1075,7 +1075,7 @@ entry(
         Ea = (6575, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou TST (2009)
 """,
@@ -1091,7 +1091,7 @@ entry(
         Ea = (2230, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ATKTRO04, LEEWAN94
 """,
@@ -1107,7 +1107,7 @@ entry(
         Ea = (2230, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ATKTRO04, LEEWAN94
 """,
@@ -1123,7 +1123,7 @@ entry(
         Ea = (7191, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 pw (PM 151027)
 """,
@@ -1139,7 +1139,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1155,7 +1155,7 @@ entry(
         Ea = (3000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1171,7 +1171,7 @@ entry(
         Ea = (24601, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Haynes BS Proc Combust Inst 2007, 31, 257-265
 """,
@@ -1187,7 +1187,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1203,7 +1203,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1219,7 +1219,7 @@ entry(
         Ea = (6575, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1235,7 +1235,7 @@ entry(
         Ea = (1000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1251,7 +1251,7 @@ entry(
         Ea = (13000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1268,7 +1268,7 @@ entry(
         Ea = (54500, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -1285,7 +1285,7 @@ entry(
         Ea = (86500, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -1301,7 +1301,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1317,7 +1317,7 @@ entry(
         Ea = (26000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1333,7 +1333,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1349,7 +1349,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1365,7 +1365,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1384,7 +1384,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -1400,7 +1400,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 X Hu P MArshall, poster presented at the 18th International Symposium on Gas Kinetics, Bristol, UK, August, 7-12, 2004
 """,
@@ -1416,7 +1416,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1432,7 +1432,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1448,7 +1448,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1464,7 +1464,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1480,7 +1480,7 @@ entry(
         Ea = (-262, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 X Hu P MArshall, poster presented at the 18th International Symposium on Gas Kinetics, Bristol, UK, August, 7-12, 2004
 """,
@@ -1496,7 +1496,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1512,7 +1512,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1528,7 +1528,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1544,7 +1544,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 est
 """,
@@ -1560,7 +1560,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1576,7 +1576,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1592,7 +1592,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1608,7 +1608,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1624,7 +1624,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1640,7 +1640,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1656,7 +1656,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1673,7 +1673,7 @@ entry(
         Ea = (71700, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -1690,7 +1690,7 @@ entry(
         Ea = (59500, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -1707,7 +1707,7 @@ entry(
         Ea = (106300, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -1723,7 +1723,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 P GlArborg D Kubel K Dam-Johansen H-M Chiang JW Bozzelli Int J Chem Kinet 28 (1996) 773-790
 """,
@@ -1739,7 +1739,7 @@ entry(
         Ea = (-1408, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Jazbec M Haynes BS PCI 29:2439-2446  2002
 """,
@@ -1755,7 +1755,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1771,7 +1771,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1787,7 +1787,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1803,7 +1803,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1819,7 +1819,7 @@ entry(
         Ea = (26000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1835,7 +1835,7 @@ entry(
         Ea = (1204, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002
 """,
@@ -1851,7 +1851,7 @@ entry(
         Ea = (-1480, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002
 """,
@@ -1867,7 +1867,7 @@ entry(
         Ea = (15000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1883,7 +1883,7 @@ entry(
         Ea = (19000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1899,7 +1899,7 @@ entry(
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1915,7 +1915,7 @@ entry(
         Ea = (2000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -1934,7 +1934,7 @@ entry(
         ),
         efficiencies = {'S': 1.1, '[Ar]': 0.88},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002
 """,
@@ -2022,7 +2022,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2038,7 +2038,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2054,7 +2054,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2070,7 +2070,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2086,7 +2086,7 @@ entry(
         Ea = (26000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2102,7 +2102,7 @@ entry(
         Ea = (7071, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 pw (PM 2015)
 """,
@@ -2118,7 +2118,7 @@ entry(
         Ea = (7071, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou (Molina Sendt TST) (2009)
 """,
@@ -2134,7 +2134,7 @@ entry(
         Ea = (-600, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002
 """,
@@ -2150,7 +2150,7 @@ entry(
         Ea = (-1105, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002
 """,
@@ -2166,7 +2166,7 @@ entry(
         Ea = (14900, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2182,7 +2182,7 @@ entry(
         Ea = (10000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2198,7 +2198,7 @@ entry(
         Ea = (7000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2214,7 +2214,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2230,7 +2230,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2246,7 +2246,7 @@ entry(
         Ea = (-1672, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Jazbec M Haynes BS PCI 29:2439-2446 2002
 """,
@@ -2277,7 +2277,7 @@ entry(
         arrheniusLow = Arrhenius(A=(1.9e+21, 'cm^6/(mol^2*s)'), n=-2.8, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou (2009) est O+O+M
 """,
@@ -2293,7 +2293,7 @@ entry(
         Ea = (-231, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou TST (2009)
 Singleton DL Cvetanovic RJ JPCRD 17:1377 1988  7.0E12 0 0
@@ -2310,7 +2310,7 @@ entry(
         Ea = (34376, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou TST (2009)
 """,
@@ -2326,7 +2326,7 @@ entry(
         Ea = (30440, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou TST (2009)
 """,
@@ -2345,7 +2345,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2364,7 +2364,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2383,7 +2383,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou (2009) est HSO+M
 """,
@@ -2399,7 +2399,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2415,7 +2415,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Singleton DL Cvetanovic RJ JPCRD 17:1377 1988
 S2O+OH=S2+HO2                        1.0E13   0.000   40000 !
@@ -2433,7 +2433,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2449,7 +2449,7 @@ entry(
         Ea = (5000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2465,7 +2465,7 @@ entry(
         Ea = (8000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2481,7 +2481,7 @@ entry(
         Ea = (21450, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2497,7 +2497,7 @@ entry(
         Ea = (20000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2513,7 +2513,7 @@ entry(
         Ea = (32000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 S2O+S2=S3+SO                         1.0E14   0.000   18000 !
@@ -2531,7 +2531,7 @@ entry(
         Ea = (2600, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2547,7 +2547,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2563,7 +2563,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2579,7 +2579,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2595,7 +2595,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2611,7 +2611,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2627,7 +2627,7 @@ entry(
         Ea = (27000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2643,7 +2643,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2659,7 +2659,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2675,7 +2675,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2691,7 +2691,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2707,7 +2707,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2723,7 +2723,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2747,7 +2747,7 @@ entry(
         T1 = (7442, 'K'),
         efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1},
     ),
-    longDesc = 
+    longDesc =
 u"""
 est 10 x SO2+O+M
 SSO2+M=S+SO2+M                       1.0E15   0.000   30000 !
@@ -2765,7 +2765,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 est pw
 """,
@@ -2781,7 +2781,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 est pw
 """,
@@ -2797,7 +2797,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 est pw
 """,
@@ -2813,7 +2813,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2832,7 +2832,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou TST (2009)
 """,
@@ -2848,7 +2848,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2864,7 +2864,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2880,7 +2880,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2896,7 +2896,7 @@ entry(
         Ea = (12570, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2912,7 +2912,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2928,7 +2928,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2944,7 +2944,7 @@ entry(
         Ea = (11350, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2960,7 +2960,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2976,7 +2976,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -2992,7 +2992,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -3008,7 +3008,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -3024,7 +3024,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -3040,7 +3040,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -3057,7 +3057,7 @@ entry(
         Ea = (33700, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -3073,7 +3073,7 @@ entry(
         Ea = (3740, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Haynes BS J PHYS CHEM A 109 8180-8186 2005
 """,
@@ -3089,7 +3089,7 @@ entry(
         Ea = (14290, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Sendt K Haynes BS J PHYS CHEM A 109 8180-8186 2005
 """,
@@ -3106,7 +3106,7 @@ entry(
         Ea = (25000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -3125,7 +3125,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -3144,7 +3144,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -3160,7 +3160,7 @@ entry(
         Ea = (16000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -3179,7 +3179,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,
@@ -3198,7 +3198,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Zhou est (2009)
 """,

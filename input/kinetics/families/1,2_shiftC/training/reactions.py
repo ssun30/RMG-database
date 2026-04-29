@@ -14,7 +14,7 @@ entry(
     kinetics = Arrhenius(A=(3.53e+06, 's^-1'), n=1.73, Ea=(58.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product7 <=> product18
 """,
@@ -27,7 +27,7 @@ entry(
     kinetics = Arrhenius(A=(6.59e+09, 's^-1'), n=0.99, Ea=(43.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product31 <=> product32
 """,
@@ -40,7 +40,7 @@ entry(
     kinetics = Arrhenius(A=(1.33e+08, 's^-1'), n=1.36, Ea=(37.6, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product18 <=> product7
 """,
@@ -53,7 +53,7 @@ entry(
     kinetics = Arrhenius(A=(4.745e+09, 's^-1'), n=1.06, Ea=(49.6, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product32 <=> product31
 """,
@@ -74,7 +74,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
 The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
@@ -96,9 +96,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -119,9 +119,9 @@ entry(
         pages = '8940-8952',
         year = '2011',
     ),
-    referenceType = "theory",   
+    referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).

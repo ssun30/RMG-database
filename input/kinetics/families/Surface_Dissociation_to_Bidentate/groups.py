@@ -6,9 +6,9 @@ shortDesc = u""
 longDesc = u"""
 A monodentate species becomes bidentate as H dissociates from it and both form a new bond with the surface instead.
 
- *1--*2--*3                   *1--*2    *3 
+ *1--*2--*3                   *1--*2    *3
   |                  ---->     |   |     |
-~*4~ + ~*5~ + ~*6            ~*4~~*5 + ~*6~~ 
+~*4~ + ~*5~ + ~*6            ~*4~~*5 + ~*6~~
 
 The rate, which should be in mol/m2/s,
 will be given by k * (mol/m2) * (mol/m2) * (mol/m2)

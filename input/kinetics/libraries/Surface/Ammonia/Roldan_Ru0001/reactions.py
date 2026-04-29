@@ -4,8 +4,8 @@
 name = "Roldan_Ru0001"
 shortDesc = u""
 longDesc = u"""
-Based primarily on 
-"Kinetic and mechanistic analysis of NH3 decomposition 
+Based primarily on
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -16,15 +16,15 @@ entry(
     index = 1,
     label = "NH3_X <=> NH3 + X",
     kinetics = SurfaceArrhenius(
-        A = (1.29E8, '1/s'),  
+        A = (1.29E8, '1/s'),
         n = 0.0,
-        Ea = (72149.60, 'J/mol'),  
+        Ea = (72149.60, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Surface_Adsorption_vdW""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -41,7 +41,7 @@ entry(
     index = 2,
     label = "NH3_X + X <=> NH2_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (4.14E21, 'cm^2/(mol*s)'), 
+        A = (4.14E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (117240.82, 'J/mol'),
         Tmin = (200, 'K'),
@@ -49,7 +49,7 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation_vdW""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -70,7 +70,7 @@ entry(
     index = 3,
     label = "NH2_X + X <=> NH_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (1.52E21, 'cm^2/(mol*s)'), 
+        A = (1.52E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (62155.01, 'J/mol'),
         Tmin = (200, 'K'),
@@ -78,7 +78,7 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -99,7 +99,7 @@ entry(
     index = 4,
     label = "NH_X + X <=> N_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (2.71E21, 'cm^2/(mol*s)'), 
+        A = (2.71E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (99817.13, 'J/mol'),
         Tmin = (200, 'K'),
@@ -107,7 +107,7 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -128,7 +128,7 @@ entry(
     index = 5,
     label = "N_X + N_X <=> N2_X + X",
     kinetics = SurfaceArrhenius(
-        A = (4.03E21, 'cm^2/(mol*s)'), 
+        A = (4.03E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (233750.36, 'J/mol'),
         Tmin = (200, 'K'),
@@ -136,7 +136,7 @@ entry(
     ),
     shortDesc = u"""""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -152,21 +152,21 @@ This is R7 in Table 3
 )
 
 #skip R8 (reverse reaction of R7)
-#skip D2 (reverse reaction of A2) 
+#skip D2 (reverse reaction of A2)
 
 entry(
     index = 6,
     label = "N2 + X <=> N2_X",
     kinetics = SurfaceArrhenius(
-        A = (1.29E8, 'cm^3/(mol*s)'),  
+        A = (1.29E8, 'cm^3/(mol*s)'),
         n = 0.0,
-        Ea = (24482.97, 'J/mol'),  
+        Ea = (24482.97, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Surface_Adsorption_vdW""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -183,7 +183,7 @@ entry(
     index = 7,
     label = "H_X + H_X <=> H2_X + X",
     kinetics = SurfaceArrhenius(
-        A = (5.48E21, 'cm^2/(mol*s)'), 
+        A = (5.48E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (52021.02, 'J/mol'),
         Tmin = (200, 'K'),
@@ -191,7 +191,7 @@ entry(
     ),
     shortDesc = u"""""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -206,22 +206,22 @@ This is R9 in Table 3
     facet = "0001",
 )
 
-#skip R10 (reverse reaction of R9) 
-#skip A3 (reverse reaction of D3) 
+#skip R10 (reverse reaction of R9)
+#skip A3 (reverse reaction of D3)
 
 entry(
     index = 8,
     label = "H2_X <=> H2 + X",
     kinetics = SurfaceArrhenius(
-        A = (1.29E8, '1/s'),  
+        A = (1.29E8, '1/s'),
         n = 0.0,
-        Ea = (24482.97, 'J/mol'),  
+        Ea = (24482.97, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""H2 Surface_Adsorption_vdW""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b

@@ -28,7 +28,7 @@ entry(
     referenceType = "theory",
     rank = 10,
     shortDesc = u"""CFG VTST calculations at RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level
 using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
@@ -50,7 +50,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_S;C_pri_rad_intra;OOH
 """,
@@ -70,7 +70,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_S;C_pri_rad_intra;OOR
 """,
@@ -90,7 +90,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_S;C_sec_rad_intra;OOH
 """,
@@ -110,7 +110,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_S;C_sec_rad_intra;OOR
 """,
@@ -130,7 +130,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_S;C_ter_rad_intra;OOR
 """,
@@ -150,7 +150,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_S;C_ter_rad_intra;OOH
 """,
@@ -170,7 +170,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OO_SS;C_pri_rad_intra;OOH
 """,
@@ -190,7 +190,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OO_SS;C_pri_rad_intra;OOR
 """,
@@ -210,7 +210,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OO_SS;C_sec_rad_intra;OOH
 """,
@@ -230,7 +230,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OO_SS;C_sec_rad_intra;OOR
 """,
@@ -250,7 +250,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OO_SS;C_ter_rad_intra;OOR
 """,
@@ -270,7 +270,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OO_SS;C_ter_rad_intra;OOH
 """,
@@ -290,7 +290,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OO_SSS;C_pri_rad_intra;OOR
 """,
@@ -310,7 +310,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OO_SSS;C_pri_rad_intra;OOH
 """,
@@ -330,7 +330,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OO_SSS;C_sec_rad_intra;OOR
 """,
@@ -350,7 +350,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OO_SSS;C_sec_rad_intra;OOH
 """,
@@ -370,7 +370,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OO_SSS;C_ter_rad_intra;OOR
 """,
@@ -390,7 +390,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 and BH&HLYP calculations (Catherina Wijaya & Sumathy Raman). Including treatment of hindered rotor.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OO_SSS;C_ter_rad_intra;OOH
 """,
@@ -410,7 +410,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_S;Cs_rad_intra;OOR
 """,
@@ -430,7 +430,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_S;Cs_rad_intra;OOH
 """,
@@ -450,7 +450,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OO_SS;Cs_rad_intra;OOR
 """,
@@ -470,7 +470,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OO_SS;Cs_rad_intra;OOH
 """,
@@ -490,7 +490,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OO_SSS;Cs_rad_intra;OOR
 """,
@@ -510,7 +510,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OO_SSS;Cs_rad_intra;OOH
 """,
@@ -530,7 +530,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5OO_SSSS;Cs_rad_intra;OOH
 """,
@@ -550,7 +550,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation in reaction type 19, QOOH = cyclic ether + OH""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5OO_SSSS;Cs_rad_intra;OOR
 """,
@@ -570,7 +570,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""CBS-QB3 Including treatment of hindered rotor (SSM)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5OO_SSSSCO;Cs_rad_intra;OOR
 """,
@@ -590,7 +590,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""CBS-QB3 Including treatment of hindered rotor (SSM)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R5OO_SSSSCO;Cs_rad_intra;OOH
 """,
@@ -610,7 +610,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""CBS-QB3 Including treatment for hindered rotor, QTST Calculation (CFG & JWA)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_SCO;Cs_rad_intra;OOR
 """,
@@ -630,7 +630,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""CBS-QB3 Including treatment for hindered rotor, QTST Calculation (CFG & JWA)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_SCO;Cs_rad_intra;OOH
 """,
@@ -650,7 +650,7 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Estimate (Same as 5 memebered ring)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OO_SSSCO;Cs_rad_intra;OOR
 """,
@@ -670,7 +670,7 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Estimate (Same as 5 memebered ring)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OO_SSSCO;Cs_rad_intra;OOH
 """,
@@ -690,7 +690,7 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Estimate (Same as 5 memebered ring)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OO_SSCO;Cs_rad_intra;OOH
 """,
@@ -710,7 +710,7 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Estimate (Same as 5 memebered ring)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OO_SSCO;Cs_rad_intra;OOR
 """,
@@ -730,7 +730,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_S;C_pri_rad_intra;OOJ
 """,
@@ -750,7 +750,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""AG Vandeputte, BMK/cbsb7""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_S;C_rad/H/NonDeC_intra;OOJ
 """,

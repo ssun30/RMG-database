@@ -21,7 +21,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations from CAC, energy from F12a""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Od_Cd/unsub;H_SH
 """,
@@ -41,7 +41,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations from CAC, energy from F12a""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Od_Cd/H/Nd;H_SH
 """,
@@ -61,7 +61,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CBS-QB3 by CAC""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Od_Cd/H/Cb;H_SH
 """,
@@ -81,7 +81,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/unsub_Cd/unsub;H_SH
 """,
@@ -101,7 +101,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H2_Cd/H/Nd;H_SH
 """,
@@ -121,7 +121,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H2_Cd/Cs2;H_SH
 """,
@@ -141,7 +141,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/unsub_Cd/unsub;H_SCs(HHH)
 """,
@@ -161,7 +161,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H2_Cd/H/Nd;H_SCs(HHH)
 """,
@@ -181,7 +181,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H2_Cd/Cs2;H_SCs(HHH)
 """,
@@ -201,7 +201,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H2_Cd/Cs2;H_SCs(CsCsCs)
 """,
@@ -221,7 +221,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by AGV""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/unsub_Cd/unsub;H_SCs(CsHH)
 """,
@@ -241,7 +241,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""CBS-QB3 by CAC, 1dhr""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd/H/Nd_Cd/H/Os;H_SH
 """,
@@ -261,7 +261,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by CAC with 1d-hr, F12a energies""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Od_Cd/CsCs;H_SH
 """,
@@ -281,7 +281,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by CAC with 1d-hr, F12a energies""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Od_Cd/CsOs;H_SH
 """,
@@ -301,7 +301,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 by CAC with 1d-hr, F12a energies""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Od_Cdd;H_SH
 """,
@@ -321,7 +321,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 1d-hr by CAC, F12a energy""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Od_Cd/H/Cd;H_SH
 """,

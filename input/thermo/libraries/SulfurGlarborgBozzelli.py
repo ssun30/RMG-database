@@ -18,7 +18,7 @@ Comments refer to references from that paper
 entry(
     index = 0,
     label = "S",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u2 p2 c0
@@ -30,7 +30,7 @@ multiplicity 3
         S298 = (40.09,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [34]
 """,
@@ -39,7 +39,7 @@ from [34]
 entry(
     index = 1,
     label = "S2",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,D}
 2 S u0 p2 c0 {1,D}
@@ -51,7 +51,7 @@ entry(
         S298 = (54.5,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [34]
 """,
@@ -60,7 +60,7 @@ from [34]
 entry(
     index = 2,
     label = "SH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p2 c0 {2,S}
@@ -73,7 +73,7 @@ multiplicity 2
         S298 = (46.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [34]
 """,
@@ -82,7 +82,7 @@ from [34]
 entry(
     index = 3,
     label = "H2S",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -95,7 +95,7 @@ entry(
         S298 = (49.14,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [34]
 """,
@@ -104,7 +104,7 @@ from [34]
 entry(
     index = 4,
     label = "SO",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u1 p2 c0 {2,S}
@@ -117,7 +117,7 @@ multiplicity 3
         S298 = (53.01,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [34]
 """,
@@ -126,7 +126,7 @@ from [34]
 entry(
     index = 5,
     label = "SO2",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,D} {3,D}
 2 O u0 p2 c0 {1,D}
@@ -139,7 +139,7 @@ entry(
         S298 = (59.29,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [34]
 """,
@@ -148,7 +148,7 @@ from [34]
 entry(
     index = 6,
     label = "SO3",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 S u0 p0 c0 {1,D} {3,D} {4,D}
@@ -162,7 +162,7 @@ entry(
         S298 = (61.34,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [34]
 """,
@@ -171,7 +171,7 @@ from [34]
 entry(
     index = 7,
     label = "HSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p1 c0 {2,S} {3,D}
@@ -185,7 +185,7 @@ multiplicity 2
         S298 = (57.8,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [35]
 """,
@@ -194,7 +194,7 @@ from [35]
 entry(
     index = 8,
     label = "HOS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -208,7 +208,7 @@ multiplicity 2
         S298 = (57.15,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [35]
 """,
@@ -217,7 +217,7 @@ from [35]
 entry(
     index = 9,
     label = "HSOH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {4,S}
@@ -231,7 +231,7 @@ entry(
         S298 = (58.66,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [35]
 """,
@@ -240,7 +240,7 @@ from [35]
 entry(
     index = 10,
     label = "H2SO",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -254,7 +254,7 @@ entry(
         S298 = (57.26,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [35]
 """,
@@ -263,7 +263,7 @@ from [35]
 entry(
     index = 11,
     label = "HOSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -278,7 +278,7 @@ multiplicity 2
         S298 = (64.62,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [35]
 """,
@@ -287,7 +287,7 @@ from [35]
 entry(
     index = 12,
     label = "HSO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p1 c0 {2,S} {3,D} {4,S}
@@ -302,7 +302,7 @@ multiplicity 2
         S298 = (63.68,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [35]
 """,
@@ -311,7 +311,7 @@ from [35]
 entry(
     index = 13,
     label = "HOSHO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {4,S}
 2 S u0 p1 c0 {1,S} {3,D} {5,S}
@@ -326,7 +326,7 @@ entry(
         S298 = (64.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [35]
 """,
@@ -335,7 +335,7 @@ from [35]
 entry(
     index = 14,
     label = "HOSO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,D}
@@ -351,7 +351,7 @@ multiplicity 2
         S298 = (70.72,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 from [35]
 """,

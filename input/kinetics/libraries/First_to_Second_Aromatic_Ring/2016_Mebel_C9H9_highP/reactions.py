@@ -6,8 +6,8 @@ shortDesc = u""
 longDesc = u"""
 TST calculations on C9H9 PES (G3(MP2,CC)//B3LYP/6-311G**) of:
 
-Mebel, A. M.; Georgievskii, Y.; Jasper, A. W.; Klippenstein, S. J., 
-Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene. 
+Mebel, A. M.; Georgievskii, Y.; Jasper, A. W.; Klippenstein, S. J.,
+Pressure-dependent rate constants for PAH growth: formation of indene and its conversion to naphthalene.
 Faraday Discuss. 2016, 195, 637-670.
 
 PES connects all of the following to Indene + H formation:

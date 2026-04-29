@@ -9,7 +9,7 @@ longDesc = """
 entry(
     index = 0,
     label = "[Li]CC",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -32,7 +32,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 1, 'C-H': 5, 'C-C': 1}
 1D rotors:
@@ -56,7 +56,7 @@ H      -1.78974867    0.48532223   -0.00011267
 entry(
     index = 1,
     label = "[Li]C[C]C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -82,7 +82,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 1, 'C-H': 7, 'C-C': 2}
 1D rotors:
@@ -120,7 +120,7 @@ H       1.35003872   -0.51751959   -1.18335651
 entry(
     index = 2,
     label = "[Li]C[C][C]C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -149,7 +149,7 @@ entry(
         CpInf = (320.107,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 9, 'C-Li': 1, 'C-C': 3}
 1D rotors:
@@ -199,7 +199,7 @@ H       2.17688202   -0.17164625   -0.04587023
 entry(
     index = 3,
     label = "[Li]C=C",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,D} {3,S} {4,S}
 2 C  u0 p0 c0 {1,D} {5,S} {6,S}
@@ -220,7 +220,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 1, 'C-H': 3, 'C=C': 1}
 
@@ -239,7 +239,7 @@ H      -1.84829458    0.24536071    0.00000000
 entry(
     index = 4,
     label = "[Li]C[C]=C",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C  u0 p0 c0 {1,S} {3,D} {7,S}
@@ -263,7 +263,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 1, 'C-H': 5, 'C=C': 1, 'C-C': 1}
 1D rotors:
@@ -290,7 +290,7 @@ H       0.63423709   -1.75537551   -0.00378542
 entry(
     index = 5,
     label = "[Li]CtC",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,T} {3,S}
 2 C  u0 p0 c0 {1,T} {4,S}
@@ -309,7 +309,7 @@ entry(
         CpInf = (78.9875,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C#C': 1, 'C-H': 1, 'C-Li': 1}
 
@@ -326,7 +326,7 @@ H       0.00005191   -0.00021293   -2.04255193
 entry(
     index = 6,
     label = "[Li]OCO",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {3,S} {4,S}
 2 O  u0 p2 c0 {3,S} {7,S}
@@ -348,7 +348,7 @@ entry(
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 2, 'H-O': 1, 'C-H': 2, 'Li-O': 1}
 1D rotors:
@@ -372,7 +372,7 @@ H       1.88194102    0.26781907    0.29074813
 entry(
     index = 7,
     label = "[Li]OCN",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N  u0 p1 c0 {1,S} {6,S} {7,S}
@@ -395,7 +395,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 1, 'H-N': 2, 'C-H': 2, 'Li-O': 1, 'C-N': 1}
 1D rotors:
@@ -420,7 +420,7 @@ H       1.71323168   -0.04938896   -0.81632012
 entry(
     index = 8,
     label = "[Li]OC=N",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {3,S} {4,S}
 2 N  u0 p1 c0 {3,D} {6,S}
@@ -441,7 +441,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-N': 1, 'C-H': 1, 'C=N': 1, 'Li-O': 1, 'C-O': 1}
 1D rotors:
@@ -463,7 +463,7 @@ H       1.94883938    0.34726104   -0.00000145
 entry(
     index = 9,
     label = "[Li]OCC",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -487,7 +487,7 @@ entry(
         CpInf = (199.547,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 5, 'Li-O': 1, 'C-C': 1, 'C-O': 1}
 1D rotors:
@@ -513,7 +513,7 @@ H      -2.34945561    0.03586853    0.00197986
 entry(
     index = 10,
     label = "[Li]OC[C]C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -540,7 +540,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 7, 'C-C': 2, 'Li-O': 1, 'C-O': 1}
 1D rotors:
@@ -570,7 +570,7 @@ H       1.90243832    1.30306468   -0.11970275
 entry(
     index = 11,
     label = "[Li]OC[C][C]C",
-    molecule = 
+    molecule =
 """
 1  O  u0 p2 c0 {2,S} {6,S}
 2  C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -600,7 +600,7 @@ entry(
         CpInf = (345.051,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 9, 'C-C': 3, 'Li-O': 1, 'C-O': 1}
 1D rotors:
@@ -634,7 +634,7 @@ H      -0.25551169   -1.89183175    1.03932454
 entry(
     index = 12,
     label = "[Li]OCtC",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {2,S} {4,S}
 2 C  u0 p0 c0 {1,S} {3,T}
@@ -654,7 +654,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-O': 1, 'C-H': 1, 'C-O': 1, 'C#C': 1}
 
@@ -672,7 +672,7 @@ H       2.30248490    0.24706598   -0.00001198
 entry(
     index = 13,
     label = "[Li]ON",
-    molecule = 
+    molecule =
 """
 1 N  u0 p1 c0 {2,S} {3,S} {4,S}
 2 O  u0 p2 c0 {1,S} {5,S}
@@ -692,7 +692,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'N-O': 1, 'Li-O': 1, 'H-N': 2}
 1D rotors:
@@ -713,7 +713,7 @@ H       1.22805234    0.06840637   -0.80830535
 entry(
     index = 14,
     label = "[Li]ONC",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N  u0 p1 c0 {1,S} {3,S} {7,S}
@@ -736,7 +736,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-N': 1, 'C-H': 3, 'Li-O': 1, 'N-O': 1, 'C-N': 1}
 1D rotors:
@@ -761,7 +761,7 @@ H      -1.54469616    1.06855863   -0.01782818
 entry(
     index = 15,
     label = "[Li]ON[C]C",
-    molecule = 
+    molecule =
 """
 1  O  u0 p2 c0 {2,S} {5,S}
 2  N  u0 p1 c0 {1,S} {3,S} {4,S}
@@ -787,7 +787,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 6, 'C-N': 2, 'Li-O': 1, 'N-O': 1}
 1D rotors:
@@ -816,7 +816,7 @@ H       0.69877246    1.24084738    1.21014755
 entry(
     index = 16,
     label = "[Li]ONO",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {3,S} {4,S}
 2 O  u0 p2 c0 {3,S} {6,S}
@@ -837,12 +837,12 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'N-O': 2, 'H-N': 1, 'H-O': 1, 'Li-O': 1}
 1D rotors:
 * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: Another conformer for [Li]ONO exists which is 21.71 kJ/mol lower.
-* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 6], invalidation reason: 
+* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 6], invalidation reason:
 
 
 External symmetry: 1, optical isomers: 2
@@ -860,7 +860,7 @@ H      -1.70006600   -0.29064700   -0.46647500
 entry(
     index = 17,
     label = "[Li]ON=O",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {3,S} {4,S}
 2 O  u0 p2 c0 {3,D}
@@ -879,7 +879,7 @@ entry(
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'N-O': 1, 'Li-O': 1, 'N=O': 1}
 1D rotors:
@@ -899,7 +899,7 @@ O       1.04916772   -0.00343814    0.00000000
 entry(
     index = 18,
     label = "[Li]N",
-    molecule = 
+    molecule =
 """
 1 N  u0 p1 c0 {2,S} {3,S} {4,S}
 2 Li u0 p0 c0 {1,S}
@@ -918,7 +918,7 @@ entry(
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-N': 1, 'H-N': 2}
 
@@ -935,7 +935,7 @@ H       0.95111847   -0.80020635    0.00061242
 entry(
     index = 19,
     label = "[Li]NC",
-    molecule = 
+    molecule =
 """
 1 N  u0 p1 c0 {2,S} {3,S} {7,S}
 2 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
@@ -957,7 +957,7 @@ entry(
         CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-N': 1, 'C-H': 3, 'Li-N': 1, 'C-N': 1}
 1D rotors:
@@ -985,7 +985,7 @@ H      -0.93480561   -1.26068913    0.00480503
 entry(
     index = 20,
     label = "[Li]NCC",
-    molecule = 
+    molecule =
 """
 1  N  u0 p1 c0 {2,S} {4,S} {10,S}
 2  C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
@@ -1010,7 +1010,7 @@ entry(
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-N': 1, 'C-H': 5, 'Li-N': 1, 'C-C': 1, 'C-N': 1}
 1D rotors:
@@ -1039,7 +1039,7 @@ H      -2.27680449   -0.11034948   -0.00015054
 entry(
     index = 21,
     label = "[Li]NC[C]C",
-    molecule = 
+    molecule =
 """
 1  N  u0 p1 c0 {2,S} {5,S} {13,S}
 2  C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
@@ -1067,7 +1067,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-N': 1, 'C-H': 7, 'C-C': 2, 'Li-N': 1, 'C-N': 1}
 1D rotors:
@@ -1098,7 +1098,7 @@ H       0.24749137   -1.45363215   -1.10468196
 entry(
     index = 22,
     label = "[Li]NC[C][C]C",
-    molecule = 
+    molecule =
 """
 1  N  u0 p1 c0 {2,S} {6,S} {16,S}
 2  C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -1129,7 +1129,7 @@ entry(
         CpInf = (365.837,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 9, 'H-N': 1, 'C-C': 3, 'Li-N': 1, 'C-N': 1}
 1D rotors:
@@ -1166,7 +1166,7 @@ H       0.40759704   -2.12061238   -0.36029317
 entry(
     index = 23,
     label = "[Li]NO",
-    molecule = 
+    molecule =
 """
 1 N  u0 p1 c0 {2,S} {3,S} {4,S}
 2 O  u0 p2 c0 {1,S} {5,S}
@@ -1186,7 +1186,7 @@ entry(
         CpInf = (103.931,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'N-O': 1, 'Li-N': 1, 'H-N': 1, 'H-O': 1}
 1D rotors:
@@ -1211,7 +1211,7 @@ H       1.13381725    0.58321059    0.62267065
 entry(
     index = 24,
     label = "[Li]N=O",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {2,D}
 2 N  u0 p1 c0 {1,D} {3,S}
@@ -1229,7 +1229,7 @@ entry(
         CpInf = (54.0441,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-N': 1, 'N=O': 1}
 
@@ -1245,7 +1245,7 @@ O       0.00000000   -0.00006820   -0.95188386
 entry(
     index = 25,
     label = "[Li]N=C",
-    molecule = 
+    molecule =
 """
 1 N  u0 p1 c0 {2,D} {3,S}
 2 C  u0 p0 c0 {1,D} {4,S} {5,S}
@@ -1265,7 +1265,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=N': 1, 'Li-N': 1, 'C-H': 2}
 
@@ -1283,7 +1283,7 @@ H      -1.52429411   -0.92539737   -0.00046062
 entry(
     index = 26,
     label = "[Li]S",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {2,S} {3,S}
 2 Li u0 p0 c0 {1,S}
@@ -1301,7 +1301,7 @@ entry(
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 1, 'H-S': 1}
 
@@ -1317,7 +1317,7 @@ H      -0.56302646   -1.22984230    0.00000000
 entry(
     index = 27,
     label = "[Li]SCO",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {3,S} {4,S}
 2 O  u0 p2 c0 {3,S} {7,S}
@@ -1339,7 +1339,7 @@ entry(
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 1, 'H-O': 1, 'C-H': 2, 'C-S': 1, 'C-O': 1}
 1D rotors:
@@ -1363,7 +1363,7 @@ H       2.34843195    0.14509441    0.00125362
 entry(
     index = 28,
     label = "[Li]SCC",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {2,S} {4,S}
 2 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
@@ -1387,7 +1387,7 @@ entry(
         CpInf = (199.547,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 1, 'C-H': 5, 'C-C': 1, 'C-S': 1}
 1D rotors:
@@ -1418,7 +1418,7 @@ H       1.55759998   -0.95750393    0.89343991
 entry(
     index = 29,
     label = "[Li]SC[C]C",
-    molecule = 
+    molecule =
 """
 1  S  u0 p2 c0 {2,S} {5,S}
 2  C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
@@ -1445,7 +1445,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 1, 'C-H': 7, 'C-C': 2, 'C-S': 1}
 1D rotors:
@@ -1480,7 +1480,7 @@ H      -1.79867568   -1.72460592    0.29254400
 entry(
     index = 30,
     label = "[Li]SC[C][C]C",
-    molecule = 
+    molecule =
 """
 1  S  u0 p2 c0 {2,S} {6,S}
 2  C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -1510,7 +1510,7 @@ entry(
         CpInf = (345.051,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 9, 'Li-S': 1, 'C-C': 3, 'C-S': 1}
 1D rotors:
@@ -1546,7 +1546,7 @@ H      -2.17074730    0.14399217   -1.25855422
 entry(
     index = 31,
     label = "[Li]SC=C",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {2,S} {4,S}
 2 C  u0 p0 c0 {1,S} {3,D} {5,S}
@@ -1568,7 +1568,7 @@ entry(
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 1, 'C-H': 3, 'C=C': 1, 'C-S': 1}
 1D rotors:
@@ -1591,7 +1591,7 @@ H       1.60359184   -0.80227916    0.99431113
 entry(
     index = 32,
     label = "[Li]SN",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {2,S} {3,S}
 2 N  u0 p1 c0 {1,S} {4,S} {5,S}
@@ -1611,7 +1611,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 1, 'H-N': 2, 'N-S': 1}
 1D rotors:
@@ -1632,7 +1632,7 @@ H      -1.41661900    0.10568800   -0.23413900
 entry(
     index = 33,
     label = "[Li]SN=C",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {2,S} {4,S}
 2 N  u0 p1 c0 {1,S} {3,D}
@@ -1653,7 +1653,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 1, 'C-H': 2, 'N-S': 1, 'C=N': 1}
 1D rotors:
@@ -1675,7 +1675,7 @@ H       2.57736986   -0.34316397    0.00046950
 entry(
     index = 34,
     label = "[Li]OF",
-    molecule = 
+    molecule =
 """
 1 F  u0 p3 c0 {2,S}
 2 O  u0 p2 c0 {1,S} {3,S}
@@ -1693,7 +1693,7 @@ entry(
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'F-O': 1, 'Li-O': 1}
 
@@ -1709,7 +1709,7 @@ F       0.74813147    0.13498904    0.00000000
 entry(
     index = 35,
     label = "[Li]SF",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {2,S} {3,S}
 2 F  u0 p3 c0 {1,S}
@@ -1727,7 +1727,7 @@ entry(
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 1, 'F-S': 1}
 
@@ -1743,7 +1743,7 @@ F       0.97609576    0.45192224    0.00000000
 entry(
     index = 36,
     label = "[Li]CF",
-    molecule = 
+    molecule =
 """
 1 F  u0 p3 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -1763,7 +1763,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 2, 'C-Li': 1, 'C-F': 1}
 
@@ -1781,7 +1781,7 @@ H      -1.29297777    0.23239105   -0.87950541
 entry(
     index = 37,
     label = "[Li]NF",
-    molecule = 
+    molecule =
 """
 1 F  u0 p3 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,S} {4,S}
@@ -1800,7 +1800,7 @@ entry(
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'F-N': 1, 'Li-N': 1, 'H-N': 1}
 
@@ -1817,7 +1817,7 @@ H      -1.14747481    0.75907386   -0.54888403
 entry(
     index = 38,
     label = "[Li]OCl",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 O  u0 p2 c0 {1,S} {3,S}
@@ -1835,7 +1835,7 @@ entry(
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-O': 1, 'Cl-O': 1}
 
@@ -1851,7 +1851,7 @@ Cl     -0.66455821   -0.05825920    0.00000000
 entry(
     index = 39,
     label = "[Li]SCl",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 S  u0 p2 c0 {1,S} {3,S}
@@ -1869,7 +1869,7 @@ entry(
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 1, 'Cl-S': 1}
 
@@ -1885,7 +1885,7 @@ Cl      1.03481837    0.13141394    0.00000000
 entry(
     index = 40,
     label = "[Li]CCl",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -1905,7 +1905,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 2, 'C-Cl': 1, 'C-Li': 1}
 
@@ -1923,7 +1923,7 @@ H      -1.33061347    0.93519383   -0.87826379
 entry(
     index = 41,
     label = "[Li]NCl",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 N  u0 p1 c0 {1,S} {3,S} {4,S}
@@ -1942,7 +1942,7 @@ entry(
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-N': 1, 'H-N': 1, 'Cl-N': 1}
 
@@ -1959,7 +1959,7 @@ H       0.96968632    1.44815314    0.01792993
 entry(
     index = 42,
     label = "[Li]Cl",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 Li u0 p0 c0 {1,S}
@@ -1976,7 +1976,7 @@ entry(
         CpInf = (37.4151,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Cl-Li': 1}
 
@@ -1991,7 +1991,7 @@ Cl      0.00000000    0.00000000   -0.30505318
 entry(
     index = 43,
     label = "[Li][H]",
-    molecule = 
+    molecule =
 """
 1 Li u0 p0 c0 {2,S}
 2 H  u0 p0 c0 {1,S}
@@ -2008,7 +2008,7 @@ entry(
         CpInf = (37.4151,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-Li': 1}
 
@@ -2023,7 +2023,7 @@ H       0.00000000    0.00000000   -1.20440546
 entry(
     index = 44,
     label = "[Li]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Li u1 p0 c0
@@ -2040,7 +2040,7 @@ multiplicity 2
         CpInf = (20.7862,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 External symmetry: 1, optical isomers: 1
 
@@ -2052,7 +2052,7 @@ Li      0.00000000    0.00000000    0.00000000
 entry(
     index = 45,
     label = "[Li]OC[=O]OCCOC[=O]O[Li]",
-    molecule = 
+    molecule =
 """
 1  O  u0 p2 c0 {7,S} {9,S}
 2  O  u0 p2 c0 {8,S} {10,S}
@@ -2083,17 +2083,17 @@ entry(
         CpInf = (382.466,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 6, 'C-H': 4, 'C-C': 1, 'C=O': 2, 'Li-O': 2}
 1D rotors:
-* Invalidated! pivots: [1, 9], dihedral: [7, 1, 9, 3], invalidation reason: 
-* Invalidated! pivots: [1, 7], dihedral: [9, 1, 7, 8], invalidation reason: 
-* Invalidated! pivots: [2, 8], dihedral: [10, 2, 8, 7], invalidation reason: 
-* Invalidated! pivots: [2, 10], dihedral: [8, 2, 10, 4], invalidation reason: 
-* Invalidated! pivots: [3, 9], dihedral: [11, 3, 9, 1], invalidation reason: 
-* Invalidated! pivots: [4, 10], dihedral: [12, 4, 10, 2], invalidation reason: 
-* Invalidated! pivots: [7, 8], dihedral: [1, 7, 8, 2], invalidation reason: 
+* Invalidated! pivots: [1, 9], dihedral: [7, 1, 9, 3], invalidation reason:
+* Invalidated! pivots: [1, 7], dihedral: [9, 1, 7, 8], invalidation reason:
+* Invalidated! pivots: [2, 8], dihedral: [10, 2, 8, 7], invalidation reason:
+* Invalidated! pivots: [2, 10], dihedral: [8, 2, 10, 4], invalidation reason:
+* Invalidated! pivots: [3, 9], dihedral: [11, 3, 9, 1], invalidation reason:
+* Invalidated! pivots: [4, 10], dihedral: [12, 4, 10, 2], invalidation reason:
+* Invalidated! pivots: [7, 8], dihedral: [1, 7, 8, 2], invalidation reason:
 
 
 External symmetry: 2, optical isomers: 2
@@ -2121,7 +2121,7 @@ H      -1.18964718   -2.00435397    0.10006128
 entry(
     index = 46,
     label = "COC[C]=O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -2147,7 +2147,7 @@ multiplicity 2
         CpInf = (220.334,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'C-O': 2, 'C-H': 5, 'C-C': 1}
 1D rotors:
@@ -2175,7 +2175,7 @@ H       0.17739724    1.28353065   -1.18093063
 entry(
     index = 47,
     label = "COOC",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {3,S}
 2  O u0 p2 c0 {1,S} {4,S}
@@ -2200,7 +2200,7 @@ entry(
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'O-O': 1, 'C-H': 6, 'C-O': 2}
 1D rotors:
@@ -2228,7 +2228,7 @@ H       2.39852656    0.26798682    0.62032549
 entry(
     index = 48,
     label = "CC=NN=C=C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,D} {10,S}
@@ -2255,7 +2255,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'N-N': 1, 'C=C': 1, 'C=N': 2, 'C-H': 6, 'C-C': 1}
 1D rotors:
@@ -2284,7 +2284,7 @@ H      -3.51288964   -0.52605713    0.93644405
 entry(
     index = 49,
     label = "[Li]C[=[N]]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2307,7 +2307,7 @@ multiplicity 2
         CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 1, 'C=N': 1, 'C-H': 3, 'C-C': 1}
 1D rotors:
@@ -2332,7 +2332,7 @@ H      -1.79251501    0.58334495    0.87878357
 entry(
     index = 50,
     label = "[Li]N=C[C[=N[Li]]C]C",
-    molecule = 
+    molecule =
 """
 1  N  u0 p1 c0 {5,D} {7,S}
 2  N  u0 p1 c0 {6,D} {8,S}
@@ -2361,7 +2361,7 @@ entry(
         CpInf = (324.264,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-N': 2, 'C=N': 2, 'C-H': 6, 'C-C': 3}
 1D rotors:
@@ -2393,7 +2393,7 @@ H       1.69817150   -2.04709017   -0.00024671
 entry(
     index = 51,
     label = "O=C1OC[F]C[C2OC[=O]OC2F]O1",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {11,S}
 2  F u0 p3 c0 {12,S}
@@ -2426,7 +2426,7 @@ entry(
         CpInf = (428.195,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 8, 'C-H': 4, 'C=O': 2, 'C-C': 3, 'C-F': 2}
 1D rotors:
@@ -2460,7 +2460,7 @@ H      -1.04209052   -1.72647225   -1.20530797
 entry(
     index = 52,
     label = "[Li]OC[C][OC]OC",
-    molecule = 
+    molecule =
 """
 1  O  u0 p2 c0 {4,S} {6,S}
 2  O  u0 p2 c0 {4,S} {7,S}
@@ -2492,7 +2492,7 @@ entry(
         CpInf = (407.409,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 5, 'C-H': 9, 'Li-O': 1, 'C-C': 1}
 1D rotors:
@@ -2530,7 +2530,7 @@ H       2.26032900    1.04116100    1.23084300
 entry(
     index = 53,
     label = "CCOCOC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -2561,7 +2561,7 @@ entry(
         CpInf = (365.837,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 4, 'C-H': 10, 'C-C': 1}
 1D rotors:
@@ -2599,7 +2599,7 @@ H       2.77206062   -1.47106564   -0.49011292
 entry(
     index = 54,
     label = "[Li]C[C]O",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2623,7 +2623,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-O': 1, 'C-Li': 1, 'C-O': 1, 'C-H': 4, 'C-C': 1}
 1D rotors:
@@ -2649,7 +2649,7 @@ H       0.80638236   -1.44815506    0.03473798
 entry(
     index = 55,
     label = "[CH2]OCOCC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
@@ -2680,7 +2680,7 @@ multiplicity 2
         CpInf = (336.736,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 4, 'C-H': 9, 'C-C': 1}
 1D rotors:
@@ -2726,7 +2726,7 @@ H      -2.35944392   -1.36895354    0.69578330
 entry(
     index = 56,
     label = "COCC[C]O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -2757,7 +2757,7 @@ entry(
         CpInf = (361.68,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-O': 1, 'C-O': 3, 'C-H': 9, 'C-C': 2}
 1D rotors:
@@ -2795,7 +2795,7 @@ H       0.30450855   -1.79146657    0.06270154
 entry(
     index = 57,
     label = "[Li]OCCO[Li]",
-    molecule = 
+    molecule =
 """
 1  O  u0 p2 c0 {3,S} {5,S}
 2  O  u0 p2 c0 {4,S} {6,S}
@@ -2820,7 +2820,7 @@ entry(
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 2, 'C-H': 4, 'Li-O': 2, 'C-C': 1}
 1D rotors:
@@ -2848,7 +2848,7 @@ H      -1.25748487    1.57484231   -0.42933755
 entry(
     index = 58,
     label = "[Li]COCCOC",
-    molecule = 
+    molecule =
 """
 1  O  u0 p2 c0 {3,S} {5,S}
 2  O  u0 p2 c0 {4,S} {6,S}
@@ -2879,7 +2879,7 @@ entry(
         CpInf = (369.994,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 1, 'C-O': 4, 'C-H': 9, 'C-C': 1}
 1D rotors:
@@ -2951,7 +2951,7 @@ H       2.87939124   -1.16997625    0.60225699
 entry(
     index = 59,
     label = "CCCOC",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {5,S}
 2  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
@@ -2981,7 +2981,7 @@ entry(
         CpInf = (340.893,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 2, 'C-H': 10, 'C-C': 2}
 1D rotors:
@@ -3015,7 +3015,7 @@ H      -2.74601647   -1.07183224   -0.45850366
 entry(
     index = 60,
     label = "[Li]OC[=O]O[C]1OCCO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O  u0 p2 c0 {6,S} {8,S}
@@ -3045,7 +3045,7 @@ multiplicity 2
         CpInf = (324.264,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 7, 'C-H': 4, 'C=O': 1, 'Li-O': 1, 'C-C': 1}
 1D rotors:
@@ -3082,7 +3082,7 @@ H      -2.91941690    1.12097629    0.83925110
 entry(
     index = 61,
     label = "O=C1OOC2[OCCO2]O1",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,S} {8,S}
 2  O u0 p2 c0 {7,S} {9,S}
@@ -3111,7 +3111,7 @@ entry(
         CpInf = (332.579,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 8, 'C-H': 4, 'C-C': 1, 'C=O': 1, 'O-O': 1}
 
@@ -3138,7 +3138,7 @@ H      -2.59010415    1.24832368   -0.80888572
 entry(
     index = 62,
     label = "[Li]CCO[Li]",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {2,S} {5,S}
 2 C  u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -3162,7 +3162,7 @@ entry(
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 1, 'C-O': 1, 'C-H': 4, 'Li-O': 1, 'C-C': 1}
 1D rotors:
@@ -3188,7 +3188,7 @@ H       0.04387112    1.49620902    0.75103210
 entry(
     index = 63,
     label = "[Li]O[C]1OOC[=O]O1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O  u0 p2 c0 {6,S} {7,S}
@@ -3212,7 +3212,7 @@ multiplicity 2
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 5, 'C=O': 1, 'Li-O': 1, 'O-O': 1}
 1D rotors:
@@ -3236,7 +3236,7 @@ O       0.11445811    0.91282922   -0.12271464
 entry(
     index = 64,
     label = "[Li]C[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O  u1 p2 c0 {2,S}
@@ -3257,7 +3257,7 @@ multiplicity 2
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 2, 'C-Li': 1, 'C-O': 1}
 
@@ -3275,7 +3275,7 @@ H      -1.27702849    0.34378938    0.92756868
 entry(
     index = 65,
     label = "[Li]OCO[Li]",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {3,S} {4,S}
 2 O  u0 p2 c0 {3,S} {5,S}
@@ -3297,7 +3297,7 @@ entry(
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 2, 'C-H': 2, 'Li-O': 2}
 1D rotors:
@@ -3321,7 +3321,7 @@ H       0.00066184   -1.45252493    0.80083185
 entry(
     index = 66,
     label = "[Li]OC1[[Li]]OCCO1",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
 2  C  u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
@@ -3348,11 +3348,11 @@ entry(
         CpInf = (282.692,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 5, 'C-Li': 1, 'Li-O': 1, 'C-H': 4, 'C-C': 1}
 1D rotors:
-* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: 
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason:
 
 
 External symmetry: 1, optical isomers: 1
@@ -3376,7 +3376,7 @@ H      -1.70172542    1.16396761   -1.17823063
 entry(
     index = 67,
     label = "[Li]OC[=O]OCC[Li]",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C  u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -3403,14 +3403,14 @@ entry(
         CpInf = (282.692,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 3, 'C-Li': 1, 'Li-O': 1, 'C-H': 4, 'C-C': 1, 'C=O': 1}
 1D rotors:
-* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: 
-* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: 
-* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: 
-* Invalidated! pivots: [5, 7], dihedral: [4, 5, 7, 8], invalidation reason: 
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason:
+* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason:
+* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason:
+* Invalidated! pivots: [5, 7], dihedral: [4, 5, 7, 8], invalidation reason:
 
 
 External symmetry: 1, optical isomers: 1
@@ -3434,7 +3434,7 @@ H       1.09266132   -0.97580464    0.87926955
 entry(
     index = 68,
     label = "[Li]C[Li]",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 Li u0 p0 c0 {1,S}
@@ -3454,7 +3454,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 2, 'C-Li': 2}
 
@@ -3472,7 +3472,7 @@ H      -0.00002043    0.97451388   -0.88402812
 entry(
     index = 69,
     label = "[Li]C[[Li]][Li]",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 Li u0 p0 c0 {1,S}
@@ -3492,7 +3492,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 3, 'C-H': 1}
 
@@ -3510,7 +3510,7 @@ H      -0.00190835   -0.00168746   -1.29946586
 entry(
     index = 70,
     label = "[Li]C[[Li]][[Li]][Li]",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 Li u0 p0 c0 {1,S}
@@ -3530,7 +3530,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 4}
 
@@ -3548,7 +3548,7 @@ Li     -1.17511714   -0.96572486   -1.09598861
 entry(
     index = 71,
     label = "[Li]CC[Li]",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -3571,7 +3571,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 4, 'C-C': 1, 'C-Li': 2}
 1D rotors:
@@ -3595,7 +3595,7 @@ H       0.42398634   -1.24168260    0.89981364
 entry(
     index = 72,
     label = "[Li]OO[Li]",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {2,S} {3,S}
 2 O  u0 p2 c0 {1,S} {4,S}
@@ -3614,7 +3614,7 @@ entry(
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-O': 2, 'O-O': 1}
 1D rotors:
@@ -3634,7 +3634,7 @@ Li     -1.54954280   -0.00150729   -0.00277754
 entry(
     index = 73,
     label = "[Li]OC[C][O[Li]]O[Li]",
-    molecule = 
+    molecule =
 """
 1  O  u0 p2 c0 {4,S} {6,S}
 2  O  u0 p2 c0 {4,S} {7,S}
@@ -3660,7 +3660,7 @@ entry(
         CpInf = (253.591,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 3, 'C-H': 3, 'C-C': 1, 'Li-O': 3}
 1D rotors:
@@ -3690,7 +3690,7 @@ H       1.15260455   -0.15667864   -1.94932936
 entry(
     index = 74,
     label = "[Li]N[Li]",
-    molecule = 
+    molecule =
 """
 1 N  u0 p1 c0 {2,S} {3,S} {4,S}
 2 Li u0 p0 c0 {1,S}
@@ -3709,7 +3709,7 @@ entry(
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-N': 1, 'Li-N': 2}
 
@@ -3726,7 +3726,7 @@ H       0.00001630    1.24653648   -0.00066453
 entry(
     index = 75,
     label = "[Li]N[[Li]][Li]",
-    molecule = 
+    molecule =
 """
 1 N  u0 p1 c0 {2,S} {3,S} {4,S}
 2 Li u0 p0 c0 {1,S}
@@ -3745,7 +3745,7 @@ entry(
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-N': 3}
 
@@ -3762,7 +3762,7 @@ Li      0.41938166   -1.67812095   -0.00020233
 entry(
     index = 76,
     label = "[Li]NC[Li]",
-    molecule = 
+    molecule =
 """
 1 N  u0 p1 c0 {2,S} {4,S} {7,S}
 2 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
@@ -3784,7 +3784,7 @@ entry(
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-N': 1, 'H-N': 1, 'Li-N': 1, 'C-H': 2, 'C-Li': 1}
 1D rotors:
@@ -3807,7 +3807,7 @@ H      -0.77879163   -1.39832203    0.45592429
 entry(
     index = 77,
     label = "[Li]NN[Li]",
-    molecule = 
+    molecule =
 """
 1 N  u0 p1 c0 {2,S} {3,S} {5,S}
 2 N  u0 p1 c0 {1,S} {4,S} {6,S}
@@ -3828,7 +3828,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'N-N': 1, 'H-N': 2, 'Li-N': 2}
 1D rotors:
@@ -3850,7 +3850,7 @@ H       0.00038708   -1.10781361    1.05561295
 entry(
     index = 78,
     label = "[Li]NCN[Li]",
-    molecule = 
+    molecule =
 """
 1 N  u0 p1 c0 {3,S} {4,S} {8,S}
 2 N  u0 p1 c0 {3,S} {5,S} {9,S}
@@ -3874,7 +3874,7 @@ entry(
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-N': 2, 'H-N': 2, 'Li-N': 2, 'C-H': 2}
 1D rotors:
@@ -3900,7 +3900,7 @@ H      -2.02675195    0.32300068    0.00122037
 entry(
     index = 79,
     label = "[Li]NCCN[Li]",
-    molecule = 
+    molecule =
 """
 1  N  u0 p1 c0 {3,S} {5,S} {11,S}
 2  N  u0 p1 c0 {4,S} {6,S} {12,S}
@@ -3927,7 +3927,7 @@ entry(
         CpInf = (282.692,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-N': 2, 'C-H': 4, 'C-C': 1, 'H-N': 2, 'Li-N': 2}
 1D rotors:
@@ -3957,7 +3957,7 @@ H      -2.32213903   -0.44707674    0.18402267
 entry(
     index = 80,
     label = "[Li]S[Li]",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {2,S} {3,S}
 2 Li u0 p0 c0 {1,S}
@@ -3975,7 +3975,7 @@ entry(
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 2}
 
@@ -3991,7 +3991,7 @@ Li     -1.96885897    0.00000000    0.49067031
 entry(
     index = 81,
     label = "[Li]SS[Li]",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {2,S} {3,S}
 2 S  u0 p2 c0 {1,S} {4,S}
@@ -4010,7 +4010,7 @@ entry(
         CpInf = (78.9875,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 2, 'S-S': 1}
 1D rotors:
@@ -4036,7 +4036,7 @@ Li      0.00086573    1.69526994   -0.79772806
 entry(
     index = 82,
     label = "[Li]SN[Li]",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {2,S} {4,S}
 2 N  u0 p1 c0 {1,S} {3,S} {5,S}
@@ -4056,7 +4056,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-N': 1, 'Li-N': 1, 'N-S': 1, 'Li-S': 1}
 1D rotors:
@@ -4077,7 +4077,7 @@ H       1.28468331   -0.00044342    1.18805124
 entry(
     index = 83,
     label = "[Li]SC[Li]",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 S  u0 p2 c0 {1,S} {6,S}
@@ -4098,7 +4098,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-S': 1, 'Li-S': 1, 'C-H': 2, 'C-Li': 1}
 1D rotors:
@@ -4120,7 +4120,7 @@ H       1.58159986   -0.38461997    0.91711563
 entry(
     index = 84,
     label = "SC[[Li]][Li]",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 S  u0 p2 c0 {1,S} {6,S}
@@ -4141,7 +4141,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 2, 'C-S': 1, 'H-S': 1, 'C-H': 1}
 1D rotors:
@@ -4163,7 +4163,7 @@ H       1.07850670   -0.57214257   -1.23819525
 entry(
     index = 85,
     label = "S=C[[Li]][Li]",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {2,D}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
@@ -4182,7 +4182,7 @@ entry(
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 2, 'C=S': 1}
 
@@ -4199,7 +4199,7 @@ Li      1.88665347    0.54586383    0.00000000
 entry(
     index = 86,
     label = "[Li]SCS[Li]",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {3,S} {4,S}
 2 S  u0 p2 c0 {3,S} {5,S}
@@ -4221,7 +4221,7 @@ entry(
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-S': 2, 'Li-S': 2, 'C-H': 2}
 1D rotors:
@@ -4245,7 +4245,7 @@ H       0.00014566    1.59631477    0.87477448
 entry(
     index = 87,
     label = "[Li]CC=C",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C  u0 p0 c0 {1,S} {3,D} {7,S}
@@ -4269,7 +4269,7 @@ entry(
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=C': 1, 'C-H': 5, 'C-C': 1, 'C-Li': 1}
 1D rotors:
@@ -4294,7 +4294,7 @@ H       2.15065213    0.50044451    0.13466794
 entry(
     index = 88,
     label = "C=CCC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -4324,13 +4324,13 @@ multiplicity 2
         CpInf = (332.579,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=C': 1, 'C-H': 9, 'C-C': 3}
 1D rotors:
-* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: 
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason:
 * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: Another conformer for C=CCC[CH2] exists which is 0.52 kJ/mol lower.
-* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 13], invalidation reason: 
+* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 13], invalidation reason:
 
 
 External symmetry: 1, optical isomers: 2
@@ -4356,7 +4356,7 @@ H      -2.39468600   -0.62952200    1.46817100
 entry(
     index = 89,
     label = "C=CCCC[Li]",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C  u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -4386,7 +4386,7 @@ entry(
         CpInf = (357.522,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=C': 1, 'C-H': 9, 'C-C': 3, 'C-Li': 1}
 1D rotors:
@@ -4419,7 +4419,7 @@ H       2.15009296   -1.07111693    0.87907053
 entry(
     index = 90,
     label = "[Li]CC=O",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C  u0 p0 c0 {1,S} {6,D} {7,S}
@@ -4441,7 +4441,7 @@ entry(
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'C-H': 3, 'C-C': 1, 'C-Li': 1}
 1D rotors:
@@ -4464,7 +4464,7 @@ H      -0.05699558    1.51710839    0.63386112
 entry(
     index = 91,
     label = "[Li]CC=N",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C  u0 p0 c0 {1,S} {3,D} {7,S}
@@ -4487,7 +4487,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-N': 1, 'C-H': 3, 'C-C': 1, 'C=N': 1, 'C-Li': 1}
 1D rotors:
@@ -4511,7 +4511,7 @@ H       1.95853196    0.52707591    0.01526644
 entry(
     index = 92,
     label = "O=C",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -4530,7 +4530,7 @@ entry(
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'C-H': 2}
 
@@ -4547,7 +4547,7 @@ H      -0.93959977    0.00000000   -1.10994430
 entry(
     index = 93,
     label = "N=C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {5,S}
 2 C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -4567,7 +4567,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 2, 'C=N': 1, 'H-N': 1}
 
@@ -4585,7 +4585,7 @@ H      -1.06786980   -1.01049236    0.00000000
 entry(
     index = 94,
     label = "O=CCC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p2 c0 {5,D}
@@ -4613,7 +4613,7 @@ multiplicity 2
         CpInf = (282.692,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 3, 'C-H': 7, 'C=O': 1}
 1D rotors:
@@ -4646,7 +4646,7 @@ H      -2.65993508    0.89418234    0.37346169
 entry(
     index = 95,
     label = "[Li]NC=C",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,D} {4,S}
 2 N  u0 p1 c0 {1,S} {5,S} {6,S}
@@ -4669,7 +4669,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-N': 1, 'C-H': 3, 'C=C': 1, 'C-N': 1, 'H-N': 1}
 1D rotors:
@@ -4693,7 +4693,7 @@ H       1.34253578   -0.77748661   -0.88694979
 entry(
     index = 96,
     label = "NtCCC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p1 c0 {5,T}
@@ -4720,12 +4720,12 @@ multiplicity 2
         CpInf = (257.749,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 3, 'C-H': 6, 'C#N': 1}
 1D rotors:
 * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: Another conformer for NtCCC[CH2] exists which is 0.69 kJ/mol lower.
-* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 10], invalidation reason: 
+* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 10], invalidation reason:
 
 
 External symmetry: 1, optical isomers: 2
@@ -4748,7 +4748,7 @@ H      -2.97888900   -0.41024200    0.79081700
 entry(
     index = 97,
     label = "O=COC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -4774,7 +4774,7 @@ multiplicity 2
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C-H': 5, 'C-O': 2, 'C=O': 1}
 1D rotors:
@@ -4804,7 +4804,7 @@ H      -2.47124308    1.01921707    0.28191976
 entry(
     index = 98,
     label = "O=CCC[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4830,7 +4830,7 @@ multiplicity 2
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 2, 'C-H': 5, 'C=O': 1, 'C-O': 1}
 1D rotors:
@@ -4857,7 +4857,7 @@ H      -1.16099541   -0.31935013    1.43872418
 entry(
     index = 99,
     label = "O=CCO[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -4883,7 +4883,7 @@ multiplicity 2
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C-H': 5, 'C-O': 2, 'C=O': 1}
 1D rotors:
@@ -4917,7 +4917,7 @@ H       1.61314430    0.92243160    1.19711272
 entry(
     index = 100,
     label = "N=CCC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -4945,7 +4945,7 @@ multiplicity 2
         CpInf = (282.692,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 2, 'C-H': 5, 'H-N': 2, 'C-N': 1, 'C=N': 1}
 1D rotors:
@@ -4977,7 +4977,7 @@ H       2.71582425   -0.91894564    0.39171437
 entry(
     index = 101,
     label = "N=CCN[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -5005,7 +5005,7 @@ multiplicity 2
         CpInf = (282.692,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C-H': 5, 'C-N': 2, 'H-N': 2, 'C=N': 1}
 1D rotors:
@@ -5048,7 +5048,7 @@ H      -2.80945203   -1.12509391    0.02703176
 entry(
     index = 102,
     label = "O=S[=O][C]CC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  S u0 p0 c0 {2,D} {3,D} {4,S} {6,S}
@@ -5080,7 +5080,7 @@ multiplicity 2
         CpInf = (382.466,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 2, 'C-H': 9, 'C-S': 2, 'O=S': 2}
 1D rotors:
@@ -5119,7 +5119,7 @@ H      -4.08485675   -0.22431074    0.36989524
 entry(
     index = 103,
     label = "[Li]OS[=O][=C]C",
-    molecule = 
+    molecule =
 """
 1  S  u0 p0 c0 {2,S} {3,D} {4,S} {5,D}
 2  O  u0 p2 c0 {1,S} {6,S}
@@ -5145,7 +5145,7 @@ entry(
         CpInf = (257.749,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 5, 'C=S': 1, 'C-S': 1, 'O-S': 1, 'Li-O': 1, 'O=S': 1}
 1D rotors:
@@ -5173,7 +5173,7 @@ H      -2.21864315    0.84537908   -0.15323430
 entry(
     index = 104,
     label = "CCOC=C",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {4,S}
 2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -5201,7 +5201,7 @@ entry(
         CpInf = (307.635,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C-H': 8, 'C-O': 2, 'C=C': 1}
 1D rotors:
@@ -5234,7 +5234,7 @@ H      -3.11770253    0.53096337    0.00000043
 entry(
     index = 105,
     label = "CCOC[=O]OCC",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {8,S}
 2  O u0 p2 c0 {5,S} {8,S}
@@ -5267,7 +5267,7 @@ entry(
         CpInf = (432.353,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 2, 'C-H': 10, 'C-O': 4, 'C=O': 1}
 1D rotors:
@@ -5306,7 +5306,7 @@ H      -4.39927408   -0.27144558   -0.00032557
 entry(
     index = 106,
     label = "COC[CH]OC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
@@ -5337,7 +5337,7 @@ multiplicity 2
         CpInf = (336.736,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 4, 'C-H': 9, 'C-C': 1}
 1D rotors:
@@ -5377,7 +5377,7 @@ H      -3.14507867    0.48638583   -0.14296880
 entry(
     index = 107,
     label = "[O-][Np][=O]O[Li]",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {4,S} {5,S}
 2 O  u0 p3 c-1 {4,S}
@@ -5397,7 +5397,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-O': 1, 'N=O': 1, 'N-O': 2}
 1D rotors:
@@ -5418,7 +5418,7 @@ Li      1.97168509    0.00024782    0.00003756
 entry(
     index = 108,
     label = "[Li]SSSSSS[Li]",
-    molecule = 
+    molecule =
 """
 1 S  u0 p2 c0 {2,S} {3,S}
 2 S  u0 p2 c0 {1,S} {4,S}
@@ -5441,7 +5441,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 2, 'S-S': 5}
 1D rotors:
@@ -5469,7 +5469,7 @@ Li      0.14957097    1.84195652   -1.03805980
 entry(
     index = 109,
     label = "[Li]SS[S]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S  u0 p2 c0 {2,S} {4,S}
@@ -5489,7 +5489,7 @@ multiplicity 2
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-S': 1, 'S-S': 2}
 1D rotors:
@@ -5509,7 +5509,7 @@ S       1.64043728   -0.25736778    0.00006951
 entry(
     index = 110,
     label = "O=C1O[C][F]C[F]O1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {6,S}
@@ -5534,7 +5534,7 @@ multiplicity 2
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-F': 2, 'C-O': 4, 'C=O': 1, 'C-H': 1, 'C-C': 1}
 
@@ -5556,7 +5556,7 @@ H       1.30790394    0.79265665   -1.29432730
 entry(
     index = 111,
     label = "O=C[OC]O[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p2 c0 {4,S} {5,S}
@@ -5583,7 +5583,7 @@ multiplicity 2
         CpInf = (241.12,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 4, 'C=O': 1, 'C-H': 5}
 1D rotors:
@@ -5620,7 +5620,7 @@ H      -2.38023833   -1.03409239   -0.05711663
 entry(
     index = 112,
     label = "[CH2]CtN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,T}
@@ -5641,7 +5641,7 @@ multiplicity 2
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C#N': 1, 'C-H': 2, 'C-C': 1}
 
@@ -5659,7 +5659,7 @@ H      -0.93626596    0.00000000    1.72908334
 entry(
     index = 113,
     label = "[Li]N=[C]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -5682,7 +5682,7 @@ multiplicity 2
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-N': 1, 'C-H': 3, 'C-C': 1, 'C=N': 1}
 1D rotors:
@@ -5705,7 +5705,7 @@ H       1.95588321    0.88363931   -0.51986697
 entry(
     index = 114,
     label = "[Li]N=CC",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C  u0 p0 c0 {1,S} {3,D} {7,S}
@@ -5728,7 +5728,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-N': 1, 'C-H': 4, 'C-C': 1, 'C=N': 1}
 1D rotors:
@@ -5752,7 +5752,7 @@ H      -1.16649739   -1.38892503    0.00003147
 entry(
     index = 115,
     label = "[Li]OC[=O]OCCO[C]1OCCO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O  u0 p2 c0 {8,S} {11,S}
@@ -5789,7 +5789,7 @@ multiplicity 2
         CpInf = (507.183,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-O': 1, 'C-O': 9, 'C-C': 2, 'C=O': 1, 'C-H': 8}
 1D rotors:
@@ -5831,7 +5831,7 @@ H      -4.49982055   -1.39251146    0.62475375
 entry(
     index = 116,
     label = "O=[C]OC[F]C[F]O[Li]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F  u0 p3 c0 {6,S}
@@ -5858,14 +5858,14 @@ multiplicity 2
         CpInf = (257.749,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'C-C': 1, 'C-H': 2, 'C-F': 2, 'C-O': 3, 'Li-O': 1}
 1D rotors:
-* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: 
+* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason:
 * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: Another conformer for O=[C]OC[F]C[F]O[Li] exists which is 0.94 kJ/mol lower.
 * Invalidated! pivots: [4, 6], dihedral: [3, 4, 6, 7], invalidation reason: Another conformer for O=[C]OC[F]C[F]O[Li] exists which is 6.23 kJ/mol lower. But unable to propose troubleshooting methods.
-* Invalidated! pivots: [6, 8], dihedral: [4, 6, 8, 9], invalidation reason: 
+* Invalidated! pivots: [6, 8], dihedral: [4, 6, 8, 9], invalidation reason:
 
 
 External symmetry: 1, optical isomers: 2
@@ -5888,7 +5888,7 @@ H       2.24595864    0.69415361   -0.73291377
 entry(
     index = 117,
     label = "[CH3]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -5908,7 +5908,7 @@ multiplicity 2
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 3}
 
@@ -5925,7 +5925,7 @@ H      -0.53976690   -0.93490370    0.00000000
 entry(
     index = 118,
     label = "[Li]OC[=O]OC",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {4,S} {5,S}
 2 O  u0 p2 c0 {5,S} {6,S}
@@ -5949,7 +5949,7 @@ entry(
         CpInf = (199.547,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 3, 'C-O': 3, 'Li-O': 1, 'C=O': 1}
 1D rotors:
@@ -5976,7 +5976,7 @@ H      -2.80117178    0.46706031   -0.00022479
 entry(
     index = 119,
     label = "CC=O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -5998,7 +5998,7 @@ entry(
         CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C-H': 4, 'C=O': 1}
 1D rotors:
@@ -6021,7 +6021,7 @@ H      -0.31081906    1.50446595    0.00052493
 entry(
     index = 120,
     label = "O=C[[Li]]O[Li]",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {3,S} {5,S}
 2 O  u0 p2 c0 {3,D}
@@ -6041,7 +6041,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'C-Li': 1, 'Li-O': 1, 'C-O': 1}
 1D rotors:
@@ -6062,7 +6062,7 @@ Li     -0.90443243   -1.36406578    0.00005362
 entry(
     index = 121,
     label = "CCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -6088,7 +6088,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 2, 'C-H': 8}
 1D rotors:
@@ -6116,7 +6116,7 @@ H      -1.30919298   -0.88126682    0.90457183
 entry(
     index = 122,
     label = "C[CH]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -6142,7 +6142,7 @@ multiplicity 2
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 2, 'C-H': 7}
 1D rotors:
@@ -6173,7 +6173,7 @@ H       0.71430070   -1.02392781   -1.31222296
 entry(
     index = 123,
     label = "CC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -6196,7 +6196,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C-H': 6}
 1D rotors:
@@ -6220,7 +6220,7 @@ H       0.50836772    0.88051872   -1.15914066
 entry(
     index = 124,
     label = "CC[C]C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -6249,7 +6249,7 @@ entry(
         CpInf = (320.107,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 3, 'C-H': 10}
 1D rotors:
@@ -6281,7 +6281,7 @@ H       1.83766133   -1.16083308    0.26537226
 entry(
     index = 125,
     label = "C[C][C]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -6310,7 +6310,7 @@ multiplicity 2
         CpInf = (295.164,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 3, 'C-H': 9}
 1D rotors:
@@ -6341,7 +6341,7 @@ H      -1.86033912    1.03897366    0.43614190
 entry(
     index = 126,
     label = "[Li]CCOC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -6368,7 +6368,7 @@ entry(
         CpInf = (282.692,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 1, 'C-C': 1, 'C-H': 7, 'C-O': 2}
 1D rotors:
@@ -6398,7 +6398,7 @@ H       2.03951684    0.71176874   -0.88770484
 entry(
     index = 127,
     label = "O=C[[Li]]OCCO[Li]",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C  u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -6425,7 +6425,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'C-Li': 1, 'C-C': 1, 'C-H': 4, 'C-O': 3, 'Li-O': 1}
 1D rotors:
@@ -6466,7 +6466,7 @@ H      -2.43582689   -1.47645220   -0.19008551
 entry(
     index = 128,
     label = "[Li]C",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 Li u0 p0 c0 {1,S}
@@ -6486,7 +6486,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 3, 'C-Li': 1}
 
@@ -6504,7 +6504,7 @@ H       0.81685584    0.90950728   -0.43964241
 entry(
     index = 129,
     label = "[Li]O",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {2,S} {3,S}
 2 Li u0 p0 c0 {1,S}
@@ -6522,7 +6522,7 @@ entry(
         CpInf = (54.0441,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-O': 1, 'H-O': 1}
 
@@ -6538,7 +6538,7 @@ H       0.00000000   -0.00040212   -1.26461597
 entry(
     index = 130,
     label = "[Li]OC",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {2,S} {3,S}
 2 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
@@ -6559,7 +6559,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 3, 'Li-O': 1, 'C-O': 1}
 1D rotors:
@@ -6581,7 +6581,7 @@ H       1.35166500   -0.97255448   -0.30519035
 entry(
     index = 131,
     label = "[Li]OC=O",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {3,S} {4,S}
 2 O  u0 p2 c0 {3,D}
@@ -6601,7 +6601,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'Li-O': 1, 'C-H': 1, 'C-O': 1}
 1D rotors:
@@ -6622,7 +6622,7 @@ H      -0.00034105    1.67443662    0.00000000
 entry(
     index = 132,
     label = "[Li]OC=C",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,D} {3,S} {4,S}
 2 C  u0 p0 c0 {1,D} {5,S} {6,S}
@@ -6644,7 +6644,7 @@ entry(
         CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 3, 'Li-O': 1, 'C=C': 1, 'C-O': 1}
 1D rotors:
@@ -6669,7 +6669,7 @@ H      -2.40046950    0.06168265    0.00002845
 entry(
     index = 133,
     label = "[Li]F",
-    molecule = 
+    molecule =
 """
 1 F  u0 p3 c0 {2,S}
 2 Li u0 p0 c0 {1,S}
@@ -6686,7 +6686,7 @@ entry(
         CpInf = (37.4151,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'F-Li': 1}
 
@@ -6701,7 +6701,7 @@ F       0.00000000    0.00000000   -0.39337832
 entry(
     index = 134,
     label = "O=C1OCCO1",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {6,S}
 2  O u0 p2 c0 {5,S} {6,S}
@@ -6726,7 +6726,7 @@ entry(
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 4, 'C-H': 4, 'C=O': 1, 'C-C': 1}
 
@@ -6749,7 +6749,7 @@ H       1.11929351   -1.03811369   -1.58265706
 entry(
     index = 135,
     label = "[Li]OC[=O]OC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C  u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
@@ -6776,7 +6776,7 @@ multiplicity 2
         CpInf = (257.749,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C-H': 4, 'C-O': 3, 'Li-O': 1, 'C=O': 1}
 1D rotors:
@@ -6810,7 +6810,7 @@ H      -3.62722312   -0.38762000    0.05708010
 entry(
     index = 136,
     label = "C=C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -6831,7 +6831,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 4, 'C=C': 1}
 
@@ -6850,7 +6850,7 @@ H      -1.22953344   -0.92300818    0.00000000
 entry(
     index = 137,
     label = "CC[=N]N=C=C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,D}
@@ -6877,7 +6877,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C-H': 5, 'C=C': 1, 'C=N': 2, 'H-N': 1, 'C-N': 1}
 1D rotors:
@@ -6907,7 +6907,7 @@ H       3.15581166   -0.84329251   -0.26558605
 entry(
     index = 138,
     label = "[Li]N=C[C][Li]",
-    molecule = 
+    molecule =
 """
 1 N  u0 p1 c0 {3,D} {5,S}
 2 C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
@@ -6930,7 +6930,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 1, 'C-C': 1, 'C-H': 3, 'C=N': 1, 'Li-N': 1}
 1D rotors:
@@ -6954,7 +6954,7 @@ H      -2.11778691    0.01882583   -0.87518739
 entry(
     index = 139,
     label = "O=C1OC[F]C[F]O1",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {6,S}
 2  F u0 p3 c0 {7,S}
@@ -6979,7 +6979,7 @@ entry(
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'C-C': 1, 'C-H': 2, 'C-F': 2, 'C-O': 4}
 
@@ -7002,7 +7002,7 @@ H       1.25824692   -0.69526148   -1.46572027
 entry(
     index = 140,
     label = "COC[=O]OC",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {6,S}
 2  O u0 p2 c0 {5,S} {6,S}
@@ -7029,7 +7029,7 @@ entry(
         CpInf = (266.063,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 6, 'C-O': 4, 'C=O': 1}
 1D rotors:
@@ -7060,7 +7060,7 @@ H      -3.08706365    0.78306903   -0.00564580
 entry(
     index = 141,
     label = "[Li]CO[Li]",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {2,S} {4,S}
 2 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
@@ -7081,7 +7081,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 1, 'Li-O': 1, 'C-H': 2, 'C-Li': 1}
 1D rotors:
@@ -7103,7 +7103,7 @@ H       0.41863360   -1.21978630    0.91092871
 entry(
     index = 142,
     label = "[Li]OCCOC",
-    molecule = 
+    molecule =
 """
 1  O  u0 p2 c0 {3,S} {5,S}
 2  O  u0 p2 c0 {4,S} {6,S}
@@ -7131,7 +7131,7 @@ entry(
         CpInf = (295.164,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C-H': 7, 'Li-O': 1, 'C-O': 3}
 1D rotors:
@@ -7169,7 +7169,7 @@ H       2.70793547   -1.01957840   -0.30863091
 entry(
     index = 143,
     label = "O=C1OCC[F]O1",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {6,S}
 2  O u0 p2 c0 {5,S} {7,S}
@@ -7194,7 +7194,7 @@ entry(
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'C-C': 1, 'C-H': 3, 'C-F': 1, 'C-O': 4}
 
@@ -7217,7 +7217,7 @@ H      -1.67764289   -0.38709985   -1.33001777
 entry(
     index = 144,
     label = "[Li]C[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7240,7 +7240,7 @@ multiplicity 2
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 1, 'C-C': 1, 'C-H': 4}
 1D rotors:
@@ -7263,7 +7263,7 @@ H       1.25066000    0.48864615   -0.91513703
 entry(
     index = 145,
     label = "[Li]CCO",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -7287,7 +7287,7 @@ entry(
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-Li': 1, 'C-C': 1, 'C-H': 4, 'H-O': 1, 'C-O': 1}
 1D rotors:
@@ -7313,7 +7313,7 @@ H       1.96830926    0.38839126   -0.00909126
 entry(
     index = 146,
     label = "[Li]OC[=O]O[Li]",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {4,S} {5,S}
 2 O  u0 p2 c0 {4,S} {6,S}
@@ -7334,7 +7334,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 2, 'Li-O': 2, 'C=O': 1}
 1D rotors:
@@ -7357,7 +7357,7 @@ Li     -1.81495072   -0.88075442   -0.00001058
 entry(
     index = 147,
     label = "C[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7380,7 +7380,7 @@ multiplicity 2
         CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C-H': 5}
 1D rotors:
@@ -7403,7 +7403,7 @@ H       1.34752102    0.03693598    0.92593771
 entry(
     index = 148,
     label = "[Li]O[Li]",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {2,S} {3,S}
 2 Li u0 p0 c0 {1,S}
@@ -7421,7 +7421,7 @@ entry(
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-O': 2}
 
@@ -7437,7 +7437,7 @@ Li     -1.61582311    0.00000000    0.00056511
 entry(
     index = 149,
     label = "[Li]N=C=C",
-    molecule = 
+    molecule =
 """
 1 N  u0 p1 c0 {3,D} {4,S}
 2 C  u0 p0 c0 {3,D} {5,S} {6,S}
@@ -7458,7 +7458,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'Li-N': 1, 'C-H': 2, 'C=C': 1, 'C=N': 1}
 
@@ -7477,7 +7477,7 @@ H       1.75614259    0.25843064   -0.91378741
 entry(
     index = 150,
     label = "[Li]OO",
-    molecule = 
+    molecule =
 """
 1 O  u0 p2 c0 {2,S} {3,S}
 2 O  u0 p2 c0 {1,S} {4,S}
@@ -7496,7 +7496,7 @@ entry(
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'O-O': 1, 'H-O': 1, 'Li-O': 1}
 1D rotors:
@@ -7516,7 +7516,7 @@ H       1.20180683    0.39642320    0.58672388
 entry(
     index = 151,
     label = "[Li]O[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O  u0 p2 c0 {2,S} {3,S}
@@ -7535,7 +7535,7 @@ multiplicity 2
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'O-O': 1, 'Li-O': 1}
 
@@ -7551,7 +7551,7 @@ O       0.66445417    0.25009976    0.00000000
 entry(
     index = 152,
     label = "O=C1OC[F][CH]O1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -7576,7 +7576,7 @@ multiplicity 2
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'C-C': 1, 'C-H': 2, 'C-F': 1, 'C-O': 4}
 
@@ -7598,7 +7598,7 @@ H      -1.16697667    2.10577654    0.06835142
 entry(
     index = 153,
     label = "CCtN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,T}
 2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -7619,7 +7619,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C#N': 1, 'C-H': 3}
 
@@ -7638,7 +7638,7 @@ H      -0.51199838    0.88680721   -1.54630205
 entry(
     index = 154,
     label = "COCCOC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {6,S} {9,S} {10,S}
@@ -7669,7 +7669,7 @@ entry(
         CpInf = (361.68,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C-H': 10, 'C-O': 4}
 1D rotors:
@@ -7705,7 +7705,7 @@ H      -3.09651417    0.74145409    0.89029278
 entry(
     index = 155,
     label = "[Li]O[C]1OCCO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C  u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
@@ -7732,7 +7732,7 @@ multiplicity 2
         CpInf = (257.749,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 1, 'C-H': 4, 'C-O': 5, 'Li-O': 1}
 1D rotors:
@@ -7759,7 +7759,7 @@ H      -1.81496743    0.80807388    1.08461155
 entry(
     index = 156,
     label = "[Li]O[C][OC]OC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O  u0 p2 c0 {4,S} {6,S}
@@ -7788,7 +7788,7 @@ multiplicity 2
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 6, 'C-O': 5, 'Li-O': 1}
 1D rotors:

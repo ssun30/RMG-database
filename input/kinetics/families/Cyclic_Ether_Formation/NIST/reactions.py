@@ -31,7 +31,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016872
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016872/rk00000002.xml
@@ -66,7 +66,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016872
 
@@ -101,7 +101,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016872
 

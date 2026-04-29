@@ -5,9 +5,9 @@ name = "Vlachos_Ru0001"
 shortDesc = u""
 longDesc = u"""
 Primarily based on:
-"The role of adsorbate–adsorbate interactions in the rate controlling step 
+"The role of adsorbate–adsorbate interactions in the rate controlling step
 and the most abundant reaction intermediate of NH3 decomposition on Ru"
-D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 """
 
@@ -23,9 +23,9 @@ entry(
     ),
     shortDesc = u"""H2 Surface_Adsorption_Dissociative""",
     longDesc = u"""
-"The role of adsorbate–adsorbate interactions in the rate controlling step 
+"The role of adsorbate–adsorbate interactions in the rate controlling step
 and the most abundant reaction intermediate of NH3 decomposition on Ru"
-D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 This is R1 in Table 2 (set A)
@@ -39,7 +39,7 @@ This is R1 in Table 2 (set A)
 #     index = 2,
 #     label = "H_X + H_X <=> H2 + X + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (4.18E19, 'cm^2/(mol*s)'), 
+#         A = (4.18E19, 'cm^2/(mol*s)'),
 #         n = 0,
 #         Ea = (19.6, 'kcal/mol'),
 #         Tmin = (200, 'K'),
@@ -48,9 +48,9 @@ This is R1 in Table 2 (set A)
 #     ),
 #     shortDesc = u"""H2 Surface_Adsorption_Dissociative""",
 #     longDesc = u"""
-# "The role of adsorbate–adsorbate interactions in the rate controlling step 
+# "The role of adsorbate–adsorbate interactions in the rate controlling step
 # and the most abundant reaction intermediate of NH3 decomposition on Ru"
-# D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+# D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 # https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 # This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
@@ -75,9 +75,9 @@ entry(
     ),
     shortDesc = u"""N2 Surface_Adsorption_Dissociative""",
     longDesc = u"""
-"The role of adsorbate–adsorbate interactions in the rate controlling step 
+"The role of adsorbate–adsorbate interactions in the rate controlling step
 and the most abundant reaction intermediate of NH3 decomposition on Ru"
-D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 This is R3 in Table 2 (set A)
@@ -91,7 +91,7 @@ This is R3 in Table 2 (set A)
 #     index = 4,
 #     label = "N_X + N_X <=> N2 + X + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (6.46E20, 'cm^2/(mol*s)'), 
+#         A = (6.46E20, 'cm^2/(mol*s)'),
 #         n = 0,
 #         Ea = (51.0, 'kcal/mol'),
 #         Tmin = (200, 'K'),
@@ -100,9 +100,9 @@ This is R3 in Table 2 (set A)
 #     ),
 #     shortDesc = u"""H2 Surface_Adsorption_Dissociative""",
 #     longDesc = u"""
-# "The role of adsorbate–adsorbate interactions in the rate controlling step 
+# "The role of adsorbate–adsorbate interactions in the rate controlling step
 # and the most abundant reaction intermediate of NH3 decomposition on Ru"
-# D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+# D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 # https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 # This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
@@ -118,7 +118,7 @@ entry(
     index = 5,
     label = "NH_X + X <=> N_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (7.22E20, 'cm^2/(mol*s)'), 
+        A = (7.22E20, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (5.3, 'kcal/mol'),
         Tmin = (200, 'K'),
@@ -128,9 +128,9 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
-"The role of adsorbate–adsorbate interactions in the rate controlling step 
+"The role of adsorbate–adsorbate interactions in the rate controlling step
 and the most abundant reaction intermediate of NH3 decomposition on Ru"
-D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
@@ -147,7 +147,7 @@ This is R5 in Table 2 (set A)
 #     index = 6,
 #     label = "N_X + H_X <=> NH_X + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (2.89E18, 'cm^2/(mol*s)'), 
+#         A = (2.89E18, 'cm^2/(mol*s)'),
 #         n = 0.0,
 #         Ea = (37.6, 'kcal/mol'),
 #         Tmin = (200, 'K'),
@@ -157,9 +157,9 @@ This is R5 in Table 2 (set A)
 #     ),
 #     shortDesc = u"""Surface_Dissociation""",
 #     longDesc = u"""
-# "The role of adsorbate–adsorbate interactions in the rate controlling step 
+# "The role of adsorbate–adsorbate interactions in the rate controlling step
 # and the most abundant reaction intermediate of NH3 decomposition on Ru"
-# D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+# D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 # https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 # This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
@@ -175,7 +175,7 @@ entry(
     index = 7,
     label = "NH2_X + X <=> NH_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (7.60E20, 'cm^2/(mol*s)'), 
+        A = (7.60E20, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (20.1, 'kcal/mol'),
         Tmin = (200, 'K'),
@@ -184,9 +184,9 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
-"The role of adsorbate–adsorbate interactions in the rate controlling step 
+"The role of adsorbate–adsorbate interactions in the rate controlling step
 and the most abundant reaction intermediate of NH3 decomposition on Ru"
-D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
@@ -203,7 +203,7 @@ This is R7 in Table 2 (set A)
 #     index = 8,
 #     label = "NH_X + H_X <=> NH2_X + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (5.32E18, 'cm^2/(mol*s)'), 
+#         A = (5.32E18, 'cm^2/(mol*s)'),
 #         n = 0.0,
 #         Ea = (15.9, 'kcal/mol'),
 #         Tmin = (200, 'K'),
@@ -212,9 +212,9 @@ This is R7 in Table 2 (set A)
 #     ),
 #     shortDesc = u"""Surface_Dissociation""",
 #     longDesc = u"""
-# "The role of adsorbate–adsorbate interactions in the rate controlling step 
+# "The role of adsorbate–adsorbate interactions in the rate controlling step
 # and the most abundant reaction intermediate of NH3 decomposition on Ru"
-# D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+# D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 # https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 # This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
@@ -230,7 +230,7 @@ entry(
     index = 9,
     label = "NH3_X + X <=> NH2_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (7.60E20, 'cm^2/(mol*s)'), 
+        A = (7.60E20, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (18.7, 'kcal/mol'),
         Tmin = (200, 'K'),
@@ -239,9 +239,9 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation_vdW""",
     longDesc = u"""
-"The role of adsorbate–adsorbate interactions in the rate controlling step 
+"The role of adsorbate–adsorbate interactions in the rate controlling step
 and the most abundant reaction intermediate of NH3 decomposition on Ru"
-D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
@@ -258,7 +258,7 @@ This is R9 in Table 2 (set A)
 #     index = 10,
 #     label = "NH2_X + H_X <=> NH3_X + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (1.29E19, 'cm^2/(mol*s)'), 
+#         A = (1.29E19, 'cm^2/(mol*s)'),
 #         n = 0.0,
 #         Ea = (11.6, 'kcal/mol'),
 #         Tmin = (200, 'K'),
@@ -267,9 +267,9 @@ This is R9 in Table 2 (set A)
 #     ),
 #     shortDesc = u"""Surface_Dissociation_vdW""",
 #     longDesc = u"""
-# "The role of adsorbate–adsorbate interactions in the rate controlling step 
+# "The role of adsorbate–adsorbate interactions in the rate controlling step
 # and the most abundant reaction intermediate of NH3 decomposition on Ru"
-# D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+# D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 # https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 # This reaction used RMG's surface site density of Ru0001 = 2.630E-9(mol/cm^2) to calculate the A factor.
@@ -293,9 +293,9 @@ entry(
     ),
     shortDesc = u"""Surface_Adsorption_vdW""",
     longDesc = u"""
-"The role of adsorbate–adsorbate interactions in the rate controlling step 
+"The role of adsorbate–adsorbate interactions in the rate controlling step
 and the most abundant reaction intermediate of NH3 decomposition on Ru"
-D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 This is R11 in Table 2 (set A)
@@ -309,17 +309,17 @@ This is R11 in Table 2 (set A)
 #     index = 12,
 #     label = "NH3_X <=> NH3 + X",
 #     kinetics = SurfaceArrhenius(
-#         A = (8.1E11, '1/s'),  
+#         A = (8.1E11, '1/s'),
 #         n = 0.0,
-#         Ea = (17.7, 'kcal/mol'),  
+#         Ea = (17.7, 'kcal/mol'),
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
 #     shortDesc = u"""Surface_Adsorption_vdW""",
 #     longDesc = u"""
-# "The role of adsorbate–adsorbate interactions in the rate controlling step 
+# "The role of adsorbate–adsorbate interactions in the rate controlling step
 # and the most abundant reaction intermediate of NH3 decomposition on Ru"
-# D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22. 
+# D.G. Vlachos et al. (2004). Catalysis Letters 96, 13–22.
 # https://doi.org/10.1023/B:CATL.0000029523.22277.e1
 
 # This is R12 in Table 2 (set A)

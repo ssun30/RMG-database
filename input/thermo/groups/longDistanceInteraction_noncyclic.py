@@ -14,14 +14,14 @@ For gauche interaction, we apply the simple counting scheme as it is in the old 
     T-T: 2 (except T-T-T, which is 5 total)
     T-Q: 4
     Q-Q: 6
-        A single gauche correction is worth 0.8 kcal/mol for alkanes and 0.5 kcal/mol for ethers 
+        A single gauche correction is worth 0.8 kcal/mol for alkanes and 0.5 kcal/mol for ethers
         (cf. Benson, Thermochemical Kinetics: Methods for the Estimation of Thermochemical Data and Rate Parameters, 2nd Edition, 1976. and Cohen and Benson, Chem. Rev. 93 (1993) 2419)
         For alkenes, the value of 0.5 kcal/mol is used and the counting scheme discussed in Benson, Cruickshank, Golden, Haugen, O'Neal, Rodgers, Shaw, and Walsh, Chemical Reviews, 1969, 69, 279, was used
 For 1,5 interaction, values used are 1976 values (1.5 kcal/mol per 1,5 interaction in alkanes and 3.5 per 1,5 interaction in ethers)
 
 Watch out:  if the groups on the two labeled atoms are identical, it's value should be halved because it'll be counted twice.
-            For example, the value of the entry CsCS-QQ is (6 * 0.8 / 2)= 2.4, 
-            because Q-Q is counted as 6 gauche corrections, one gauche worth 0.8 kcal/mol, 
+            For example, the value of the entry CsCS-QQ is (6 * 0.8 / 2)= 2.4,
+            because Q-Q is counted as 6 gauche corrections, one gauche worth 0.8 kcal/mol,
             then divided by 2 since it'll be counted in both {'*1': atom1, '*2'atom2} and {'*2': atom1, '*1'atom2}.
             It should be claimed in the 'longDesc' if a entry was halved.
 
@@ -42,7 +42,7 @@ April-6-2021
 entry(
     index = 0,
     label = "R",
-    group = 
+    group =
 """
 1 *1 R u0
 """,
@@ -53,7 +53,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62,7 +62,7 @@ entry(
 entry(
     index = 1,
     label = "intVal7",
-    group = 
+    group =
 """
 1 *1 C    u0 {2,[S,D]} {3,S}
 2 *2 C    u0 {1,[S,D]}
@@ -75,7 +75,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -84,7 +84,7 @@ entry(
 entry(
     index = 2,
     label = "Cs(Val7)3-Cs(Val7)3",
-    group = 
+    group =
 """
 1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
@@ -102,7 +102,7 @@ entry(
         S298 = (-0.176822,'cal/(mol*K)','+|-',0.455204),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -113,7 +113,7 @@ CHOFBr_G4 |         5
 entry(
     index = 3,
     label = "Cs(Cl)3-Cs(Cl)3",
-    group = 
+    group =
 """
 1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
@@ -131,7 +131,7 @@ entry(
         S298 = (-0.156532,'cal/(mol*K)','+|-',0.99868),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -142,7 +142,7 @@ CHOCl_G4 |         1
 entry(
     index = 4,
     label = "Cs(F)3-Cs(F)3",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs  u0 {1,S} {4,S} {6,S} {8,S}
@@ -160,7 +160,7 @@ entry(
         S298 = (-0.47869,'cal/(mol*K)','+|-',0.992282),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -171,7 +171,7 @@ CHOF_G4 |         1
 entry(
     index = 5,
     label = "Cs(Br)3-Cs(Br)3",
-    group = 
+    group =
 """
 1 *1 Cs   u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs   u0 {1,S} {4,S} {6,S} {8,S}
@@ -184,7 +184,7 @@ entry(
 """,
     thermo = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -193,7 +193,7 @@ entry(
 entry(
     index = 6,
     label = "Cs(Val7)3-Cs(Val7)2",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -211,7 +211,7 @@ entry(
         S298 = (1.14309,'cal/(mol*K)','+|-',0.294442),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -225,7 +225,7 @@ CHOClBr_G4  |         11
 entry(
     index = 7,
     label = "Cs(Cl)3-Cs(Cl)2",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -243,7 +243,7 @@ entry(
         S298 = (-1.18895,'cal/(mol*K)','+|-',0.402403),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -254,7 +254,7 @@ CHOCl_G4 |         40
 entry(
     index = 8,
     label = "Cs(F)3-Cs(F)2",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -272,7 +272,7 @@ entry(
         S298 = (0.294573,'cal/(mol*K)','+|-',0.38012),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -283,7 +283,7 @@ CHOF_G4 |         41
 entry(
     index = 9,
     label = "Cs(Br)3-Cs(Br)2",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -301,7 +301,7 @@ entry(
         S298 = (1.97556,'cal/(mol*K)','+|-',1.96669),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -312,7 +312,7 @@ CHOBr_G4 |         1
 entry(
     index = 10,
     label = "Cs(Val7)3-C(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 [Cs,Cd] u0 {1,S} {6,S}
@@ -328,7 +328,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -337,7 +337,7 @@ entry(
 entry(
     index = 11,
     label = "Cs(Val7)3-Cs(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -355,7 +355,7 @@ entry(
         S298 = (0.866909,'cal/(mol*K)','+|-',0.220146),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -369,7 +369,7 @@ CHOClBr_G4  |         21
 entry(
     index = 12,
     label = "Cs(Cl)3-Cs(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -387,7 +387,7 @@ entry(
         S298 = (-0.527892,'cal/(mol*K)','+|-',0.322973),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -398,7 +398,7 @@ CHOCl_G4 |         60
 entry(
     index = 13,
     label = "Cs(F)3-Cs(F)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -416,7 +416,7 @@ entry(
         S298 = (-0.204809,'cal/(mol*K)','+|-',0.303717),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -428,7 +428,7 @@ CHOFBr_G4 |         2
 entry(
     index = 14,
     label = "Cs(Br)3-Cs(Br)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -446,7 +446,7 @@ entry(
         S298 = (0.843711,'cal/(mol*K)','+|-',0.754168),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -458,7 +458,7 @@ CHOFBr_G4 |         1
 entry(
     index = 15,
     label = "Cs(Val7)3-Cds(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd        u0 {1,S} {6,S} {7,D}
@@ -475,7 +475,7 @@ entry(
         S298 = (0.00354833,'cal/(mol*K)','+|-',0.381258),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -489,7 +489,7 @@ CHOClBr_G4  |         6
 entry(
     index = 16,
     label = "Cs(Cl)3-Cds(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd        u0 {1,S} {6,S} {7,D}
@@ -506,7 +506,7 @@ entry(
         S298 = (-0.636933,'cal/(mol*K)','+|-',0.565692),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -517,7 +517,7 @@ CHOCl_G4 |         19
 entry(
     index = 17,
     label = "Cs(F)3-Cds(F)",
-    group = 
+    group =
 """
 1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd        u0 {1,S} {6,S} {7,D}
@@ -534,7 +534,7 @@ entry(
         S298 = (0.385536,'cal/(mol*K)','+|-',0.558476),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -545,7 +545,7 @@ CHOF_G4 |         19
 entry(
     index = 18,
     label = "Cs(Br)3-Cds(Br)",
-    group = 
+    group =
 """
 1 *1 Cs        u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd        u0 {1,S} {6,S} {7,D}
@@ -562,7 +562,7 @@ entry(
         S298 = (-0.37642,'cal/(mol*K)','+|-',1.43821),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -574,7 +574,7 @@ CHOFBr_G4 |         1
 entry(
     index = 19,
     label = "Cs(Val7)2-Cs(Val7)2",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -592,7 +592,7 @@ entry(
         S298 = (0.67956,'cal/(mol*K)','+|-',0.116932),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -606,7 +606,7 @@ CHOClBr_G4  |         18
 entry(
     index = 20,
     label = "Cs(Cl)2-Cs(Cl)2",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -624,7 +624,7 @@ entry(
         S298 = (-0.560854,'cal/(mol*K)','+|-',0.159047),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -635,7 +635,7 @@ CHOCl_G4 |         55
 entry(
     index = 21,
     label = "Cs(F)2-Cs(F)2",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -653,7 +653,7 @@ entry(
         S298 = (0.383691,'cal/(mol*K)','+|-',0.147714),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -665,7 +665,7 @@ CHOFBr_G4 |         2
 entry(
     index = 22,
     label = "Cs(Br)2-Cs(Br)2",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -683,7 +683,7 @@ entry(
         S298 = (0.532593,'cal/(mol*K)','+|-',0.386775),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -695,7 +695,7 @@ CHOFBr_G4 |         1
 entry(
     index = 23,
     label = "Cs(Val7)2-C(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 [Cs,Cd]     u0 {1,S} {6,S}
@@ -711,7 +711,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -720,7 +720,7 @@ entry(
 entry(
     index = 24,
     label = "Cs(Val7)2-Cs(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -738,7 +738,7 @@ entry(
         S298 = (0.601587,'cal/(mol*K)','+|-',0.129627),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -752,7 +752,7 @@ CHOClBr_G4  |         88
 entry(
     index = 25,
     label = "Cs(Cl)2-Cs(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -770,7 +770,7 @@ entry(
         S298 = (-0.747445,'cal/(mol*K)','+|-',0.195564),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -783,7 +783,7 @@ CHOClBr_G4 |         4
 entry(
     index = 26,
     label = "Cs(F)2-Cs(F)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -801,7 +801,7 @@ entry(
         S298 = (0.193894,'cal/(mol*K)','+|-',0.180559),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -814,7 +814,7 @@ CHOFBr_G4 |         31
 entry(
     index = 27,
     label = "Cs(Br)2-Cs(Br)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -832,7 +832,7 @@ entry(
         S298 = (-0.368531,'cal/(mol*K)','+|-',0.25552),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -845,7 +845,7 @@ CHOClBr_G4 |         6
 entry(
     index = 28,
     label = "Cs(Val7)2-Cds(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd          u0 {1,S} {6,S} {7,D}
@@ -862,7 +862,7 @@ entry(
         S298 = (0.449729,'cal/(mol*K)','+|-',0.247856),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -876,7 +876,7 @@ CHOClBr_G4  |         25
 entry(
     index = 29,
     label = "Cs(Cl)2-Cds(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd          u0 {1,S} {6,S} {7,D}
@@ -893,7 +893,7 @@ entry(
         S298 = (-1.18741,'cal/(mol*K)','+|-',0.384763),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -906,7 +906,7 @@ CHOClBr_G4 |         3
 entry(
     index = 30,
     label = "Cs(F)2-Cds(F)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd          u0 {1,S} {6,S} {7,D}
@@ -923,7 +923,7 @@ entry(
         S298 = (-0.0682301,'cal/(mol*K)','+|-',0.371038),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -935,7 +935,7 @@ CHOFBr_G4 |         6
 entry(
     index = 31,
     label = "Cs(Br)2-Cds(Br)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd          u0 {1,S} {6,S} {7,D}
@@ -952,7 +952,7 @@ entry(
         S298 = (-0.0247292,'cal/(mol*K)','+|-',0.497043),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -965,7 +965,7 @@ CHOClBr_G4 |         2
 entry(
     index = 32,
     label = "C(Val7)-C(Val7)",
-    group = 
+    group =
 """
 1 *1 [Cs,Cd] u0 {2,S} {3,S}
 2 *2 [Cs,Cd] u0 {1,S} {4,S}
@@ -979,7 +979,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -988,7 +988,7 @@ entry(
 entry(
     index = 33,
     label = "Cs(Val7)-Cs(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -1006,7 +1006,7 @@ entry(
         S298 = (0.409324,'cal/(mol*K)','+|-',0.0860265),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1020,7 +1020,7 @@ CHOClBr_G4  |         53
 entry(
     index = 34,
     label = "Cs(Cl)-Cs(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -1038,7 +1038,7 @@ entry(
         S298 = (-0.127883,'cal/(mol*K)','+|-',0.113841),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -1051,7 +1051,7 @@ CHOClBr_G4 |         19
 entry(
     index = 35,
     label = "Cs(F)-Cs(F)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -1069,7 +1069,7 @@ entry(
         S298 = (-0.00541025,'cal/(mol*K)','+|-',0.102237),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1083,7 +1083,7 @@ CHOFBr_G4   |         46
 entry(
     index = 36,
     label = "Cs(Br)-Cs(Br)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          u0 {1,S} {4,S} {6,S} {8,S}
@@ -1101,7 +1101,7 @@ entry(
         S298 = (-0.292531,'cal/(mol*K)','+|-',0.116474),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1115,7 +1115,7 @@ CHOClBr_G4  |         13
 entry(
     index = 37,
     label = "Cs(Val7)-Cds(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd          u0 {1,S} {6,S} {7,D}
@@ -1132,7 +1132,7 @@ entry(
         S298 = (0.867885,'cal/(mol*K)','+|-',0.263534),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1146,7 +1146,7 @@ CHOClBr_G4  |         22
 entry(
     index = 38,
     label = "Cs(Cl)-Cds(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd          u0 {1,S} {6,S} {7,D}
@@ -1163,7 +1163,7 @@ entry(
         S298 = (-0.292118,'cal/(mol*K)','+|-',0.347863),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -1176,7 +1176,7 @@ CHOClBr_G4 |         8
 entry(
     index = 39,
     label = "Cs(F)-Cds(F)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd          u0 {1,S} {6,S} {7,D}
@@ -1193,7 +1193,7 @@ entry(
         S298 = (0.154638,'cal/(mol*K)','+|-',0.328725),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1207,7 +1207,7 @@ CHOFBr_G4   |         16
 entry(
     index = 40,
     label = "Cs(Br)-Cds(Br)",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd          u0 {1,S} {6,S} {7,D}
@@ -1224,7 +1224,7 @@ entry(
         S298 = (-0.18706,'cal/(mol*K)','+|-',0.336278),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1238,7 +1238,7 @@ CHOClBr_G4  |         8
 entry(
     index = 41,
     label = "Cds(Val7)-Cds(Val7)",
-    group = 
+    group =
 """
 1 *1 Cd        u0 {2,S} {3,S} {5,D}
 2 *2 Cd        u0 {1,S} {4,S} {6,D}
@@ -1254,7 +1254,7 @@ entry(
         S298 = (-0.231313,'cal/(mol*K)','+|-',0.303725),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1268,7 +1268,7 @@ CHOClBr_G4  |         5
 entry(
     index = 42,
     label = "Cds(Cl)-Cds(Cl)",
-    group = 
+    group =
 """
 1 *1 Cd        u0 {2,S} {3,S} {5,D}
 2 *2 Cd        u0 {1,S} {4,S} {6,D}
@@ -1284,7 +1284,7 @@ entry(
         S298 = (0.0777874,'cal/(mol*K)','+|-',0.466985),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -1297,7 +1297,7 @@ CHOClBr_G4 |         3
 entry(
     index = 43,
     label = "Cds(F)-Cds(F)",
-    group = 
+    group =
 """
 1 *1 Cd        u0 {2,S} {3,S} {5,D}
 2 *2 Cd        u0 {1,S} {4,S} {6,D}
@@ -1313,7 +1313,7 @@ entry(
         S298 = (0.0504908,'cal/(mol*K)','+|-',0.424464),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1327,7 +1327,7 @@ CHOFBr_G4   |         4
 entry(
     index = 44,
     label = "Cds(Br)-Cds(Br)",
-    group = 
+    group =
 """
 1 *1 Cd        u0 {2,S} {3,S} {5,D}
 2 *2 Cd        u0 {1,S} {4,S} {6,D}
@@ -1343,7 +1343,7 @@ entry(
         S298 = (-0.54781,'cal/(mol*K)','+|-',0.454533),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1357,7 +1357,7 @@ CHOClBr_G4  |         3
 entry(
     index = 45,
     label = "Cds(Val7)=Cds(Val7)",
-    group = 
+    group =
 """
 1 *1 Cd          u0 {2,D} {3,S} {5,S}
 2 *2 Cd          u0 {1,D} {4,S} {6,S}
@@ -1373,7 +1373,7 @@ entry(
         S298 = (-0.0266367,'cal/(mol*K)','+|-',0.117913),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1387,7 +1387,7 @@ CHOClBr_G4  |         36
 entry(
     index = 46,
     label = "Cds(Cl)=Cds(Cl)",
-    group = 
+    group =
 """
 1 *1 Cd          u0 {2,D} {3,S} {5,S}
 2 *2 Cd          u0 {1,D} {4,S} {6,S}
@@ -1403,7 +1403,7 @@ entry(
         S298 = (-0.0825674,'cal/(mol*K)','+|-',0.160809),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -1416,7 +1416,7 @@ CHOClBr_G4 |         16
 entry(
     index = 47,
     label = "Cds(F)=Cds(F)",
-    group = 
+    group =
 """
 1 *1 Cd          u0 {2,D} {3,S} {5,S}
 2 *2 Cd          u0 {1,D} {4,S} {6,S}
@@ -1432,7 +1432,7 @@ entry(
         S298 = (0.192645,'cal/(mol*K)','+|-',0.136851),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1446,7 +1446,7 @@ CHOFBr_G4   |         38
 entry(
     index = 48,
     label = "Cds(Br)=Cds(Br)",
-    group = 
+    group =
 """
 1 *1 Cd          u0 {2,D} {3,S} {5,S}
 2 *2 Cd          u0 {1,D} {4,S} {6,S}
@@ -1462,7 +1462,7 @@ entry(
         S298 = (-0.385388,'cal/(mol*K)','+|-',0.185554),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1476,7 +1476,7 @@ CHOClBr_G4  |         7
 entry(
     index = 49,
     label = "Cds(Val7)2=Cds(Val7)",
-    group = 
+    group =
 """
 1 *1 Cd          u0 {2,D} {3,S} {5,S}
 2 *2 Cd          u0 {1,D} {4,S} {6,S}
@@ -1492,7 +1492,7 @@ entry(
         S298 = (-0.337495,'cal/(mol*K)','+|-',0.230914),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1506,7 +1506,7 @@ CHOClBr_G4  |         32
 entry(
     index = 50,
     label = "Cds(Cl)2=Cds(Cl)",
-    group = 
+    group =
 """
 1 *1 Cd          u0 {2,D} {3,S} {5,S}
 2 *2 Cd          u0 {1,D} {4,S} {6,S}
@@ -1522,7 +1522,7 @@ entry(
         S298 = (-0.667323,'cal/(mol*K)','+|-',0.39573),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -1534,7 +1534,7 @@ CHOClBr_G4 |         3
 entry(
     index = 51,
     label = "Cds(F)2=Cds(F)",
-    group = 
+    group =
 """
 1 *1 Cd          u0 {2,D} {3,S} {5,S}
 2 *2 Cd          u0 {1,D} {4,S} {6,S}
@@ -1550,7 +1550,7 @@ entry(
         S298 = (0.332072,'cal/(mol*K)','+|-',0.344651),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -1563,7 +1563,7 @@ CHOFBr_G4 |         12
 entry(
     index = 52,
     label = "Cds(Br)2=Cds(Br)",
-    group = 
+    group =
 """
 1 *1 Cd          u0 {2,D} {3,S} {5,S}
 2 *2 Cd          u0 {1,D} {4,S} {6,S}
@@ -1579,7 +1579,7 @@ entry(
         S298 = (-1.39141,'cal/(mol*K)','+|-',0.52978),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -1592,7 +1592,7 @@ CHOClBr_G4 |         1
 entry(
     index = 53,
     label = "Cds(Val7)2=Cds(Val7)2",
-    group = 
+    group =
 """
 1 *1 Cd   u0 {2,D} {3,S} {5,S}
 2 *2 Cd   u0 {1,D} {4,S} {6,S}
@@ -1608,7 +1608,7 @@ entry(
         S298 = (0.0547857,'cal/(mol*K)','+|-',0.301892),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1622,7 +1622,7 @@ CHOClBr_G4  |         3
 entry(
     index = 54,
     label = "Cds(Cl)2=Cds(Cl)2",
-    group = 
+    group =
 """
 1 *1 Cd   u0 {2,D} {3,S} {5,S}
 2 *2 Cd   u0 {1,D} {4,S} {6,S}
@@ -1638,7 +1638,7 @@ entry(
         S298 = (0.282064,'cal/(mol*K)','+|-',0.995597),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -1649,7 +1649,7 @@ CHOCl_G4 |         1
 entry(
     index = 55,
     label = "Cds(F)2=Cds(F)2",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {5,S}
 2 *2 Cd  u0 {1,D} {4,S} {6,S}
@@ -1665,7 +1665,7 @@ entry(
         S298 = (0.390778,'cal/(mol*K)','+|-',0.987017),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -1676,7 +1676,7 @@ CHOF_G4 |         1
 entry(
     index = 56,
     label = "Cds(Br)2=Cds(Br)2",
-    group = 
+    group =
 """
 1 *1 Cd   u0 {2,D} {3,S} {5,S}
 2 *2 Cd   u0 {1,D} {4,S} {6,S}
@@ -1692,7 +1692,7 @@ entry(
         S298 = (0.085912,'cal/(mol*K)','+|-',1.00862),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -1703,7 +1703,7 @@ CHOBr_G4 |         1
 entry(
     index = 57,
     label = "Cd(Val7)-CO",
-    group = 
+    group =
 """
 1 *1 Cd   u0 {2,S} {3,S}
 2 *2 CO   u0 {1,S} {4,D}
@@ -1712,7 +1712,7 @@ entry(
 """,
     thermo = None,
     shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1721,7 +1721,7 @@ entry(
 entry(
     index = 58,
     label = "Cd(F)-CO",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,S} {3,S}
 2 *2 CO  u0 {1,S} {4,D}
@@ -1735,7 +1735,7 @@ entry(
         S298 = (-0.618867,'cal/(mol*K)','+|-',0.696472),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -1748,7 +1748,7 @@ CHOFBr_G4 |         3
 entry(
     index = 59,
     label = "Cd(Cl)-CO",
-    group = 
+    group =
 """
 1 *1 Cd   u0 {2,S} {3,S}
 2 *2 CO   u0 {1,S} {4,D}
@@ -1762,7 +1762,7 @@ entry(
         S298 = (-0.336434,'cal/(mol*K)','+|-',0.663324),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1776,7 +1776,7 @@ CHOClBr_G4  |         2
 entry(
     index = 60,
     label = "Cd(Br)-CO",
-    group = 
+    group =
 """
 1 *1 Cd   u0 {2,S} {3,S}
 2 *2 CO   u0 {1,S} {4,D}
@@ -1790,7 +1790,7 @@ entry(
         S298 = (-1.53298,'cal/(mol*K)','+|-',0.606486),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1804,7 +1804,7 @@ CHOClBr_G4  |         4
 entry(
     index = 61,
     label = "Cs(Val7)3-CO",
-    group = 
+    group =
 """
 1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 CO   u0 {1,S} {6,D}
@@ -1820,7 +1820,7 @@ entry(
         S298 = (1.08441,'cal/(mol*K)','+|-',0.350777),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1834,7 +1834,7 @@ CHOClBr_G4  |         8
 entry(
     index = 62,
     label = "Cs(F)3-CO",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 CO  u0 {1,S} {6,D}
@@ -1850,7 +1850,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """CsCOFFF""",
-    longDesc = 
+    longDesc =
 """
 CsCOFFF group accounts for this interaction
 """,
@@ -1859,7 +1859,7 @@ CsCOFFF group accounts for this interaction
 entry(
     index = 63,
     label = "Cs(Cl)3-CO",
-    group = 
+    group =
 """
 1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 CO   u0 {1,S} {6,D}
@@ -1875,7 +1875,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """CsClClClCO""",
-    longDesc = 
+    longDesc =
 """
 CsClClClCO group accounts for this interaction
 """,
@@ -1884,7 +1884,7 @@ CsClClClCO group accounts for this interaction
 entry(
     index = 64,
     label = "Cs(Br)3-CO",
-    group = 
+    group =
 """
 1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 CO   u0 {1,S} {6,D}
@@ -1900,7 +1900,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """CsBrBrBrCO""",
-    longDesc = 
+    longDesc =
 """
 CsBrBrBrCO group accounts for this interaction
 """,
@@ -1909,7 +1909,7 @@ CsBrBrBrCO group accounts for this interaction
 entry(
     index = 65,
     label = "Cs(Val7)2-CO",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          u0 {1,S} {6,D}
@@ -1925,7 +1925,7 @@ entry(
         S298 = (0.145431,'cal/(mol*K)','+|-',0.288405),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -1939,7 +1939,7 @@ CHOClBr_G4  |         12
 entry(
     index = 66,
     label = "Cs(F)2-CO",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          u0 {1,S} {6,D}
@@ -1955,7 +1955,7 @@ entry(
         S298 = (0.213347,'cal/(mol*K)','+|-',0.363116),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -1968,7 +1968,7 @@ CHOFBr_G4 |         9
 entry(
     index = 67,
     label = "Cs(Cl)2-CO",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          u0 {1,S} {6,D}
@@ -1984,7 +1984,7 @@ entry(
         S298 = (-1.1699,'cal/(mol*K)','+|-',0.388968),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -1997,7 +1997,7 @@ CHOClBr_G4 |         5
 entry(
     index = 68,
     label = "Cs(Br)2-CO",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          u0 {1,S} {6,D}
@@ -2013,7 +2013,7 @@ entry(
         S298 = (-0.795188,'cal/(mol*K)','+|-',0.430296),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -2026,7 +2026,7 @@ CHOClBr_G4 |         3
 entry(
     index = 69,
     label = "Cs(Val7)-CO",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          u0 {1,S} {6,D}
@@ -2037,7 +2037,7 @@ entry(
 """,
     thermo = None,
     shortDesc = """Derived from Chlorine species in thermo libraries""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2046,7 +2046,7 @@ entry(
 entry(
     index = 70,
     label = "Cs(F)-CO",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          u0 {1,S} {6,D}
@@ -2062,7 +2062,7 @@ entry(
         S298 = (-0.388485,'cal/(mol*K)','+|-',0.31971),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -2076,7 +2076,7 @@ CHOFBr_G4   |         13
 entry(
     index = 71,
     label = "Cs(Cl)-CO",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          u0 {1,S} {6,D}
@@ -2092,7 +2092,7 @@ entry(
         S298 = (0.00170779,'cal/(mol*K)','+|-',0.330943),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -2106,7 +2106,7 @@ CHOClBr_G4  |         9
 entry(
     index = 72,
     label = "Cs(Br)-CO",
-    group = 
+    group =
 """
 1 *1 Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          u0 {1,S} {6,D}
@@ -2122,7 +2122,7 @@ entry(
         S298 = (-0.453872,'cal/(mol*K)','+|-',0.319716),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -2136,7 +2136,7 @@ CHOClBr_G4  |         9
 entry(
     index = 73,
     label = "Cs(Val7)3-COs",
-    group = 
+    group =
 """
 1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 C    u0 {1,S} {6,S}
@@ -2147,7 +2147,7 @@ entry(
 """,
     thermo = None,
     shortDesc = """Derived from chlorine species in thermo libraries""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2156,7 +2156,7 @@ entry(
 entry(
     index = 74,
     label = "Cs(Val7)3-CsOs",
-    group = 
+    group =
 """
 1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs   u0 {1,S} {6,S}
@@ -2172,7 +2172,7 @@ entry(
         S298 = (-1.57257,'cal/(mol*K)','+|-',0.291835),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -2186,7 +2186,7 @@ CHOClBr_G4  |         12
 entry(
     index = 75,
     label = "Cs(F)3-CsOs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs  u0 {1,S} {6,S}
@@ -2202,7 +2202,7 @@ entry(
         S298 = (-1.22528,'cal/(mol*K)','+|-',0.3987),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -2215,7 +2215,7 @@ CHOFBr_G4 |         6
 entry(
     index = 76,
     label = "Cs(Cl)3-CsOs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs  u0 {1,S} {6,S}
@@ -2231,7 +2231,7 @@ entry(
         S298 = (-0.964637,'cal/(mol*K)','+|-',0.44221),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -2243,7 +2243,7 @@ CHOClBr_G4 |         1
 entry(
     index = 77,
     label = "Cs(Br)3-CsOs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs  u0 {1,S} {6,S}
@@ -2259,7 +2259,7 @@ entry(
         S298 = (-1.51255,'cal/(mol*K)','+|-',0.655449),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -2271,7 +2271,7 @@ CHOFBr_G4 |         1
 entry(
     index = 78,
     label = "Cs(Val7)3-CdOs",
-    group = 
+    group =
 """
 1 *1 Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd   u0 {1,S} {6,S}
@@ -2287,7 +2287,7 @@ entry(
         S298 = (-0.193804,'cal/(mol*K)','+|-',0.501749),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -2301,7 +2301,7 @@ CHOClBr_G4  |         4
 entry(
     index = 79,
     label = "Cs(F)3-CdOs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd  u0 {1,S} {6,S}
@@ -2317,7 +2317,7 @@ entry(
         S298 = (-0.0115696,'cal/(mol*K)','+|-',0.795472),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -2329,7 +2329,7 @@ CHOFBr_G4 |         1
 entry(
     index = 80,
     label = "Cs(Cl)3-CdOs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd  u0 {1,S} {6,S}
@@ -2345,7 +2345,7 @@ entry(
         S298 = (-1.41611,'cal/(mol*K)','+|-',0.802255),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -2357,7 +2357,7 @@ CHOClBr_G4 |         1
 entry(
     index = 81,
     label = "Cs(Br)3-CdOs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd  u0 {1,S} {6,S}
@@ -2373,7 +2373,7 @@ entry(
         S298 = (0.371415,'cal/(mol*K)','+|-',1.42736),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -2385,7 +2385,7 @@ CHOFBr_G4 |         1
 entry(
     index = 82,
     label = "Cd(Val7)2=CdOs",
-    group = 
+    group =
 """
 1 *1 Cd   u0 {2,D} {3,S} {4,S}
 2 *2 Cd   u0 {1,D} {5,S}
@@ -2400,7 +2400,7 @@ entry(
         S298 = (1.70899,'cal/(mol*K)','+|-',0.33045),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -2414,7 +2414,7 @@ CHOClBr_G4  |         11
 entry(
     index = 83,
     label = "Cd(F)2=CdOs",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S}
@@ -2429,7 +2429,7 @@ entry(
         S298 = (1.94891,'cal/(mol*K)','+|-',0.368314),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -2442,7 +2442,7 @@ CHOFBr_G4 |         14
 entry(
     index = 84,
     label = "Cd(Cl)2=CdOs",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S}
@@ -2457,7 +2457,7 @@ entry(
         S298 = (1.85519,'cal/(mol*K)','+|-',0.452945),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library    | Number of Species
@@ -2469,7 +2469,7 @@ CHOClBr_G4 |         6
 entry(
     index = 85,
     label = "Cd(Br)2=CdOs",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S}
@@ -2484,7 +2484,7 @@ entry(
         S298 = (0.572499,'cal/(mol*K)','+|-',0.589987),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2495,7 +2495,7 @@ CHOBr_G4 |         14
 entry(
     index = 86,
     label = "Cd(Val7)=CdOs",
-    group = 
+    group =
 """
 1 *1 Cd          u0 {2,D} {3,S} {4,S}
 2 *2 Cd          u0 {1,D} {5,S}
@@ -2505,7 +2505,7 @@ entry(
 """,
     thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library| Number of Species
@@ -2515,7 +2515,7 @@ Library| Number of Species
 entry(
     index = 87,
     label = "Cd(F)=CdOs",
-    group = 
+    group =
 """
 1 *1 Cd          u0 {2,D} {3,S} {4,S}
 2 *2 Cd          u0 {1,D} {5,S}
@@ -2530,7 +2530,7 @@ entry(
         S298 = (1.49382,'cal/(mol*K)','+|-',0.24891),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -2544,7 +2544,7 @@ CHOFBr_G4   |         29
 entry(
     index = 88,
     label = "Cd(Cl)=CdOs",
-    group = 
+    group =
 """
 1 *1 Cd          u0 {2,D} {3,S} {4,S}
 2 *2 Cd          u0 {1,D} {5,S}
@@ -2559,7 +2559,7 @@ entry(
         S298 = (1.4257,'cal/(mol*K)','+|-',0.28784),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -2573,7 +2573,7 @@ CHOClBr_G4  |         19
 entry(
     index = 89,
     label = "Cd(Br)=CdOs",
-    group = 
+    group =
 """
 1 *1 Cd          u0 {2,D} {3,S} {4,S}
 2 *2 Cd          u0 {1,D} {5,S}
@@ -2588,7 +2588,7 @@ entry(
         S298 = (1.25761,'cal/(mol*K)','+|-',0.323667),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -2602,7 +2602,7 @@ CHOClBr_G4  |         7
 entry(
     index = 90,
     label = "intRVal7",
-    group = 
+    group =
 """
 1 *1 [Cs,Cd,CO] u0 {2,[S,D]} {4,S}
 2    R!H        ux {1,[S,D]} {3,[S,D]}
@@ -2616,7 +2616,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2625,7 +2625,7 @@ entry(
 entry(
     index = 91,
     label = "Cs(Val7)3-R-Cs(Val7)3",
-    group = 
+    group =
 """
 1  *1 Cs   u0 {3,S} {4,S} {6,S} {8,S}
 2  *2 Cs   u0 {3,S} {5,S} {7,S} {9,S}
@@ -2645,7 +2645,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """H298 average of children""",
-    longDesc = 
+    longDesc =
 """
 H298 = (Cs(F)3-R-Cs(F)3 + Cs(Cl)3-R-Cs(Cl)3) / 2
 H298 = (1.96 + 5.36) / 2 =  3.66 kcal/mol
@@ -2655,7 +2655,7 @@ H298 = (1.96 + 5.36) / 2 =  3.66 kcal/mol
 entry(
     index = 92,
     label = "Cs(F)3-R-Cs(F)3",
-    group = 
+    group =
 """
 1  *1 Cs  u0 {3,S} {4,S} {6,S} {8,S}
 2  *2 Cs  u0 {3,S} {5,S} {7,S} {9,S}
@@ -2675,7 +2675,7 @@ entry(
         S298 = (-0.438496,'cal/(mol*K)','+|-',0.208349),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -2686,7 +2686,7 @@ CHOF_G4 |         14
 entry(
     index = 93,
     label = "Cs(Cl)3-R-Cs(Cl)3",
-    group = 
+    group =
 """
 1  *1 Cs  u0 {3,S} {4,S} {6,S} {8,S}
 2  *2 Cs  u0 {3,S} {5,S} {7,S} {9,S}
@@ -2706,7 +2706,7 @@ entry(
         S298 = (-0.607011,'cal/(mol*K)','+|-',0.213507),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2717,7 +2717,7 @@ CHOCl_G4 |         14
 entry(
     index = 94,
     label = "Cs(Br)3-R-Cs(Br)3",
-    group = 
+    group =
 """
 1  *1 Cs  u0 {3,S} {4,S} {6,S} {8,S}
 2  *2 Cs  u0 {3,S} {5,S} {7,S} {9,S}
@@ -2732,7 +2732,7 @@ entry(
 """,
     thermo = None,
     shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2741,7 +2741,7 @@ entry(
 entry(
     index = 95,
     label = "Cs(Val7)3-R-Cs(Val7)2",
-    group = 
+    group =
 """
 1  *1 Cs          u0 {3,S} {4,S} {6,S} {8,S}
 2  *2 Cs          u0 {3,S} {5,S} {7,S} {9,S}
@@ -2761,7 +2761,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """H298 average of children""",
-    longDesc = 
+    longDesc =
 """
 H298 = (Cs(F)3-R-Cs(F)2+ Cs(Cl)3-R-Cs(Cl)2) / 2
 H298 = (2.87 + 6.30) / 2 =  4.56 kcal/mol
@@ -2771,7 +2771,7 @@ H298 = (2.87 + 6.30) / 2 =  4.56 kcal/mol
 entry(
     index = 96,
     label = "Cs(F)3-R-Cs(F)2",
-    group = 
+    group =
 """
 1  *1 Cs          u0 {3,S} {4,S} {6,S} {8,S}
 2  *2 Cs          u0 {3,S} {5,S} {7,S} {9,S}
@@ -2791,7 +2791,7 @@ entry(
         S298 = (-0.57787,'cal/(mol*K)','+|-',0.342779),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -2802,7 +2802,7 @@ CHOF_G4 |         26
 entry(
     index = 97,
     label = "Cs(Cl)3-R-Cs(Cl)2",
-    group = 
+    group =
 """
 1  *1 Cs          u0 {3,S} {4,S} {6,S} {8,S}
 2  *2 Cs          u0 {3,S} {5,S} {7,S} {9,S}
@@ -2822,7 +2822,7 @@ entry(
         S298 = (-1.14435,'cal/(mol*K)','+|-',0.34677),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2833,7 +2833,7 @@ CHOCl_G4 |         26
 entry(
     index = 98,
     label = "Cs(Br)3-R-Cs(Br)2",
-    group = 
+    group =
 """
 1  *1 Cs          u0 {3,S} {4,S} {6,S} {8,S}
 2  *2 Cs          u0 {3,S} {5,S} {7,S} {9,S}
@@ -2848,7 +2848,7 @@ entry(
 """,
     thermo = None,
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2859,7 +2859,7 @@ CHOBr_G4 |         2
 entry(
     index = 99,
     label = "Cs(Val7)3-R-C(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs      u0 {2,[S,D]} {4,S} {5,S} {6,S}
 2    R!H     ux {1,[S,D]} {3,[S,D]}
@@ -2876,7 +2876,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2885,7 +2885,7 @@ entry(
 entry(
     index = 100,
     label = "Cs(Val7)3-R-Cds(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs        u0 {3,S} {4,S} {5,S} {6,S}
 2 *2 Cd        u0 {3,[S,D]} {7,S} {8,[S,D]}
@@ -2903,7 +2903,7 @@ entry(
         S298 = (-0.0269484,'cal/(mol*K)','+|-',0.371108),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -2916,7 +2916,7 @@ CHOClBr_G4  |         9
 entry(
     index = 101,
     label = "Cs(F)3-R-Cds(F)",
-    group = 
+    group =
 """
 1 *1 Cs        u0 {3,S} {4,S} {5,S} {6,S}
 2 *2 Cd        u0 {3,[S,D]} {7,S} {8,[S,D]}
@@ -2934,7 +2934,7 @@ entry(
         S298 = (0.496026,'cal/(mol*K)','+|-',0.440478),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -2945,7 +2945,7 @@ CHOF_G4 |         24
 entry(
     index = 102,
     label = "Cs(Cl)3-R-Cds(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs        u0 {3,S} {4,S} {5,S} {6,S}
 2 *2 Cd        u0 {3,[S,D]} {7,S} {8,[S,D]}
@@ -2963,7 +2963,7 @@ entry(
         S298 = (-0.282986,'cal/(mol*K)','+|-',0.444979),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2974,7 +2974,7 @@ CHOCl_G4 |         24
 entry(
     index = 103,
     label = "Cs(Br)3-R-Cds(Br)",
-    group = 
+    group =
 """
 1 *1 Cs        u0 {3,S} {4,S} {5,S} {6,S}
 2 *2 Cd        u0 {3,[S,D]} {7,S} {8,[S,D]}
@@ -2987,7 +2987,7 @@ entry(
 """,
     thermo = None,
     shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2996,7 +2996,7 @@ entry(
 entry(
     index = 104,
     label = "Cs(Val7)3-R-Cds(Val7)2",
-    group = 
+    group =
 """
 1 *1 Cs   u0 {3,S} {4,S} {5,S} {6,S}
 2 *2 Cd   u0 {3,D} {7,S} {8,S}
@@ -3014,7 +3014,7 @@ entry(
         S298 = (0.955431,'cal/(mol*K)','+|-',1.0048),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -3025,7 +3025,7 @@ CHOFBr_G4 |         4
 entry(
     index = 105,
     label = "Cs(F)3-R-Cds(F)2",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {3,S} {4,S} {5,S} {6,S}
 2 *2 Cd  u0 {3,D} {7,S} {8,S}
@@ -3043,7 +3043,7 @@ entry(
         S298 = (-0.60312,'cal/(mol*K)','+|-',0.655286),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -3054,7 +3054,7 @@ CHOF_G4 |         8
 entry(
     index = 106,
     label = "Cs(Cl)3-R-Cds(Cl)2",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {3,S} {4,S} {5,S} {6,S}
 2 *2 Cd  u0 {3,D} {7,S} {8,S}
@@ -3072,7 +3072,7 @@ entry(
         S298 = (-1.6841,'cal/(mol*K)','+|-',0.664368),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3083,7 +3083,7 @@ CHOCl_G4 |         8
 entry(
     index = 107,
     label = "Cs(Br)3-R-Cds(Br)2",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {3,S} {4,S} {5,S} {6,S}
 2 *2 Cd  u0 {3,D} {7,S} {8,S}
@@ -3096,7 +3096,7 @@ entry(
 """,
     thermo = None,
     shortDesc = """Derived from halogen species in CHOClBr_wb97xd3 thermo libraries""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3105,7 +3105,7 @@ entry(
 entry(
     index = 108,
     label = "Cs(Val7)3-R-CO",
-    group = 
+    group =
 """
 1 *1 Cs   u0 {2,[S,D]} {4,S} {5,S} {6,S}
 2    R!H  ux {1,[S,D]} {3,[S,D]}
@@ -3122,7 +3122,7 @@ entry(
         S298 = (-1.13676,'cal/(mol*K)','+|-',0.450622),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library     | Number of Species
@@ -3136,7 +3136,7 @@ CHOClBr_G4  |         4
 entry(
     index = 109,
     label = "Cs(F)3-R-CO",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,[S,D]} {4,S} {5,S} {6,S}
 2    R!H ux {1,[S,D]} {3,[S,D]}
@@ -3153,7 +3153,7 @@ entry(
         S298 = (-0.362821,'cal/(mol*K)','+|-',0.616718),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library   | Number of Species
@@ -3165,7 +3165,7 @@ CHOFBr_G4 |         3
 entry(
     index = 110,
     label = "Cs(Cl)3-R-CO",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,[S,D]} {4,S} {5,S} {6,S}
 2    R!H ux {1,[S,D]} {3,[S,D]}
@@ -3182,7 +3182,7 @@ entry(
         S298 = (-0.961934,'cal/(mol*K)','+|-',0.723023),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3193,7 +3193,7 @@ CHOCl_G4 |         8
 entry(
     index = 111,
     label = "Cs(Br)3-R-CO",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,[S,D]} {4,S} {5,S} {6,S}
 2    R!H ux {1,[S,D]} {3,[S,D]}
@@ -3210,7 +3210,7 @@ entry(
         S298 = (-1.47554,'cal/(mol*K)','+|-',1.39012),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3221,7 +3221,7 @@ CHOBr_G4 |         2
 entry(
     index = 112,
     label = "int14_gauche",
-    group = 
+    group =
 """
 1 *1 [Cs,O2s,Cd,S2s] u0 {2,S}
 2 *2 Cs              u0 {1,S}
@@ -3233,7 +3233,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3242,7 +3242,7 @@ entry(
 entry(
     index = 113,
     label = "CsCs",
-    group = 
+    group =
 """
 1 *1 Cs u0 {2,S}
 2 *2 Cs u0 {1,S}
@@ -3254,7 +3254,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3263,7 +3263,7 @@ entry(
 entry(
     index = 114,
     label = "CsCs-P",
-    group = 
+    group =
 """
 1 *1 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                          u0 {1,S}
@@ -3278,7 +3278,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """Lumped PP/PS/PT/PQ, because they all counted as 0 as long as the first carbon is primary carbon""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3287,7 +3287,7 @@ entry(
 entry(
     index = 115,
     label = "CsCs-S",
-    group = 
+    group =
 """
 1 *1 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                          u0 {1,S}
@@ -3302,7 +3302,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3311,7 +3311,7 @@ entry(
 entry(
     index = 116,
     label = "CsCs-SS",
-    group = 
+    group =
 """
 1 *1 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                          u0 {1,S} {6,S} {7,S} {8,S}
@@ -3329,7 +3329,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3338,7 +3338,7 @@ entry(
 entry(
     index = 117,
     label = "CsCs-ST",
-    group = 
+    group =
 """
 1 *1 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                          u0 {1,S} {6,S} {7,S} {8,S}
@@ -3356,7 +3356,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3365,7 +3365,7 @@ entry(
 entry(
     index = 118,
     label = "CsCs-SQ",
-    group = 
+    group =
 """
 1 *1 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                          u0 {1,S} {6,S} {7,S} {8,S}
@@ -3383,7 +3383,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3392,7 +3392,7 @@ entry(
 entry(
     index = 119,
     label = "CsCs-T",
-    group = 
+    group =
 """
 1 *1 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                          u0 {1,S}
@@ -3407,7 +3407,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3416,7 +3416,7 @@ entry(
 entry(
     index = 120,
     label = "CsCs-TT",
-    group = 
+    group =
 """
 1 *1 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                          u0 {1,S} {6,S} {7,S} {8,S}
@@ -3434,7 +3434,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Half Value!!!
 """,
@@ -3443,7 +3443,7 @@ Half Value!!!
 entry(
     index = 121,
     label = "CsCs-T(TTP)",
-    group = 
+    group =
 """
 1  *1 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2  *2 Cs                          u0 {1,S} {6,S} {7,S} {8,S}
@@ -3467,7 +3467,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (2 GI)/2 + (1 GI)/2 The additional 1 GI is for TTT structure!!!
 """,
@@ -3476,7 +3476,7 @@ entry(
 entry(
     index = 122,
     label = "CsCs-T(TTS)",
-    group = 
+    group =
 """
 1  *1 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2  *2 Cs                          u0 {1,S} {6,S} {7,S} {8,S}
@@ -3500,7 +3500,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (2 GI)/2 + (1 GI)/2 The additional 1 GI is for TTT structure!!!
 """,
@@ -3509,7 +3509,7 @@ entry(
 entry(
     index = 123,
     label = "CsCs-T(TTT)",
-    group = 
+    group =
 """
 1  *1 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2  *2 Cs                          u0 {1,S} {6,S} {7,S} {8,S}
@@ -3533,7 +3533,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (2 GI) / 2 + (1 GI) / 3 The additional 1 GI is for TTT structure!!!
 """,
@@ -3542,7 +3542,7 @@ entry(
 entry(
     index = 124,
     label = "CsCs-T(TTQ)",
-    group = 
+    group =
 """
 1  *1 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2  *2 Cs                          u0 {1,S} {6,S} {7,S} {8,S}
@@ -3566,7 +3566,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (2 GI)/2 + (1 GI)/2 The additional 1 GI is for TTT structure!!!
 """,
@@ -3575,7 +3575,7 @@ entry(
 entry(
     index = 125,
     label = "CsCs-TQ",
-    group = 
+    group =
 """
 1 *1 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                          u0 {1,S} {6,S} {7,S} {8,S}
@@ -3593,7 +3593,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3602,7 +3602,7 @@ entry(
 entry(
     index = 126,
     label = "CsCs-Q",
-    group = 
+    group =
 """
 1 *1 Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs u0 {1,S}
@@ -3617,7 +3617,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3626,7 +3626,7 @@ entry(
 entry(
     index = 127,
     label = "CsCs-QQ",
-    group = 
+    group =
 """
 1 *1 Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs u0 {1,S} {6,S} {7,S} {8,S}
@@ -3644,7 +3644,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Half Value!!!
 """,
@@ -3653,7 +3653,7 @@ Half Value!!!
 entry(
     index = 128,
     label = "OsCs",
-    group = 
+    group =
 """
 1 *1 O2s u0 {2,S}
 2 *2 Cs  u0 {1,S}
@@ -3665,7 +3665,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3674,7 +3674,7 @@ entry(
 entry(
     index = 129,
     label = "OsCs-P",
-    group = 
+    group =
 """
 1 *1 O2s                         u0 {2,S} {3,S}
 2 *2 Cs                          u0 {1,S}
@@ -3687,7 +3687,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3696,7 +3696,7 @@ entry(
 entry(
     index = 130,
     label = "OsCs-S",
-    group = 
+    group =
 """
 1 *1 O2s u0 {2,S} {3,S}
 2 *2 Cs  u0 {1,S}
@@ -3709,7 +3709,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3718,7 +3718,7 @@ entry(
 entry(
     index = 131,
     label = "OsCs-SP",
-    group = 
+    group =
 """
 1 *2 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 O2s                         u0 {1,S} {6,S}
@@ -3734,7 +3734,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3743,7 +3743,7 @@ entry(
 entry(
     index = 132,
     label = "OsCs-SS",
-    group = 
+    group =
 """
 1 *2 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 O2s                         u0 {1,S} {6,S}
@@ -3759,7 +3759,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3768,7 +3768,7 @@ entry(
 entry(
     index = 133,
     label = "OsCs-ST",
-    group = 
+    group =
 """
 1 *1 O2s                         u0 {2,S} {3,S}
 2 *2 Cs                          u0 {1,S} {4,S} {5,S} {6,S}
@@ -3784,7 +3784,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3793,7 +3793,7 @@ entry(
 entry(
     index = 134,
     label = "OsCs-SQ",
-    group = 
+    group =
 """
 1 *1 O2s u0 {2,S} {3,S}
 2 *2 Cs  u0 {1,S} {4,S} {5,S} {6,S}
@@ -3809,7 +3809,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3818,7 +3818,7 @@ entry(
 entry(
     index = 135,
     label = "CdCs",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,D} {3,S}
 2    Cd u0 {1,D}
@@ -3831,7 +3831,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3840,7 +3840,7 @@ entry(
 entry(
     index = 136,
     label = "CdCs-P",
-    group = 
+    group =
 """
 1 *1 Cd                          u0 {2,D} {3,S} {4,S}
 2    Cd                          u0 {1,D}
@@ -3854,7 +3854,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3863,7 +3863,7 @@ entry(
 entry(
     index = 137,
     label = "CdCs-S",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,D} {3,S} {4,S}
 2    Cd u0 {1,D}
@@ -3877,7 +3877,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3886,7 +3886,7 @@ entry(
 entry(
     index = 138,
     label = "CdCs-SP",
-    group = 
+    group =
 """
 1 *2 Cs                          u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 Cd                          u0 {1,S} {6,D} {7,S}
@@ -3903,7 +3903,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3912,7 +3912,7 @@ entry(
 entry(
     index = 139,
     label = "CdCs-SS",
-    group = 
+    group =
 """
 1 *1 Cd                          u0 {2,D} {3,S} {4,S}
 2    Cd                          u0 {1,D}
@@ -3929,7 +3929,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3938,7 +3938,7 @@ entry(
 entry(
     index = 140,
     label = "CdCs-ST",
-    group = 
+    group =
 """
 1 *1 Cd                          u0 {2,D} {3,S} {4,S}
 2    Cd                          u0 {1,D}
@@ -3955,7 +3955,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3964,7 +3964,7 @@ entry(
 entry(
     index = 141,
     label = "CdCs-SQ",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,D} {3,S} {4,S}
 2    Cd u0 {1,D}
@@ -3981,7 +3981,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3990,7 +3990,7 @@ entry(
 entry(
     index = 142,
     label = "int15",
-    group = 
+    group =
 """
 1 *1 Cs           u0 {2,S} {4,S} {5,S}
 2    [Cs,O2s,S2s] u0 {1,S} {3,S}
@@ -4008,7 +4008,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4017,7 +4017,7 @@ entry(
 entry(
     index = 143,
     label = "CsCsCs",
-    group = 
+    group =
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S}
 2    Cs u0 {1,S} {3,S}
@@ -4035,7 +4035,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4044,7 +4044,7 @@ entry(
 entry(
     index = 144,
     label = "CsCsCs-TQ",
-    group = 
+    group =
 """
 1 *1 Cs                          u0 {2,S} {4,S} {5,S} {9,S}
 2    Cs                          u0 {1,S} {3,S}
@@ -4063,7 +4063,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4072,7 +4072,7 @@ entry(
 entry(
     index = 145,
     label = "CsCsCs-QQ",
-    group = 
+    group =
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}
 2    Cs u0 {1,S} {3,S}
@@ -4091,7 +4091,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Half Value!!!
 """,
@@ -4100,7 +4100,7 @@ Half Value!!!
 entry(
     index = 146,
     label = "CsOsCs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {4,S} {5,S}
 2    O2s u0 {1,S} {3,S}
@@ -4118,7 +4118,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4127,7 +4127,7 @@ entry(
 entry(
     index = 147,
     label = "CsOsCs-TQ",
-    group = 
+    group =
 """
 1 *1 Cs                          u0 {2,S} {4,S} {5,S} {9,S}
 2    O2s                         u0 {1,S} {3,S}
@@ -4146,7 +4146,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4155,7 +4155,7 @@ entry(
 entry(
     index = 148,
     label = "CsOsCs-QQ",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2    O2s u0 {1,S} {3,S}
@@ -4174,7 +4174,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Half Value!!!
 """,
@@ -4183,7 +4183,7 @@ Half Value!!!
 entry(
     index = 149,
     label = "CsSsCs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {4,S} {5,S}
 2    S2s u0 {1,S} {3,S}
@@ -4201,7 +4201,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4210,7 +4210,7 @@ entry(
 entry(
     index = 150,
     label = "CsSsCs-TQ",
-    group = 
+    group =
 """
 1 *1 Cs                          u0 {2,S} {4,S} {5,S} {9,S}
 2    S2s                         u0 {1,S} {3,S}
@@ -4229,7 +4229,7 @@ entry(
         S298 = (-1.9,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4238,7 +4238,7 @@ entry(
 entry(
     index = 151,
     label = "CsSsCs-QQ",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2    S2s u0 {1,S} {3,S}
@@ -4257,7 +4257,7 @@ entry(
         S298 = (-0.85,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Half Value!!!
 """,
@@ -4266,7 +4266,7 @@ Half Value!!!
 entry(
     index = 152,
     label = "Cs(Val7)2-Cs(Val7)2-Cs(Val7)2",
-    group = 
+    group =
 """
 1  *1 Cs   u0 {3,S} {4,S} {6,S}
 2  *2 Cs   ux {3,S} {5,S} {7,S}
@@ -4280,7 +4280,7 @@ entry(
 """,
     thermo = "CsF2-CsF2-CsF2",
     shortDesc = """heavy halogen interaction""",
-    longDesc = 
+    longDesc =
 """
 """,
 )
@@ -4288,7 +4288,7 @@ entry(
 entry(
     index = 153,
     label = "CsF2-CsF2-CsF2",
-    group = 
+    group =
 """
 1  *1 Cs   u0 {3,S} {4,S} {6,S}
 2  *2 Cs   ux {3,S} {5,S} {7,S}
@@ -4307,7 +4307,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """heavy fluorine interaction""",
-    longDesc = 
+    longDesc =
 """
 Estimated from burcat thermo (http://garfield.chem.elte.hu/Burcat/BURCAT.THR)
 H298 in kcal/mol
@@ -4321,7 +4321,7 @@ molecule | burcat | GAV before | GAV after
 entry(
     index = 154,
     label = "Cs(Val7)3-Cd-Cd-Cs(Val7)3",
-    group = 
+    group =
 """
 1     Val7 u0 {2,S}
 2     C u0 {1,S} {3,S} {4,S} {5,S}
@@ -4340,7 +4340,7 @@ entry(
 """,
     thermo = "Cs(Val7)3-Cs(Val7)3",
     shortDesc = """cis C(Val3)C=CC(Val3) correction""",
-    longDesc = 
+    longDesc =
 """
 """,
 )
@@ -4348,7 +4348,7 @@ entry(
 entry(
     index = 155,
     label = "Cs(F)3-Cd-Cd-Cs(F)3",
-    group = 
+    group =
 """
 1     F1s u0 {2,S}
 2     C u0 {1,S} {3,S} {4,S} {5,S}
@@ -4367,7 +4367,7 @@ entry(
 """,
     thermo = "Cs(F)3-Cs(F)3",
     shortDesc = """cis CF3C=CCF3 correction""",
-    longDesc = 
+    longDesc =
 """
 """,
 )
@@ -4375,7 +4375,7 @@ entry(
 entry(
     index = 156,
     label = "Cs(Cl)3-Cd-Cd-Cs(Cl)3",
-    group = 
+    group =
 """
 1     Cl1s u0 {2,S}
 2     C u0 {1,S} {3,S} {4,S} {5,S}
@@ -4394,7 +4394,7 @@ entry(
 """,
     thermo = "Cs(Cl)3-Cs(Cl)3",
     shortDesc = """cis CCl3C=CCCl3 correction""",
-    longDesc = 
+    longDesc =
 """
 """,
 )
@@ -4402,7 +4402,7 @@ entry(
 entry(
     index = 157,
     label = "Cs(Br)3-Cd-Cd-Cs(Br)3",
-    group = 
+    group =
 """
 1     Br1s u0 {2,S}
 2     C u0 {1,S} {3,S} {4,S} {5,S}
@@ -4421,7 +4421,7 @@ entry(
 """,
     thermo = "Cs(Br)3-Cs(Br)3",
     shortDesc = """cis CBr3C=CCBr3 correction""",
-    longDesc = 
+    longDesc =
 """
 """,
 )
@@ -4429,7 +4429,7 @@ entry(
 entry(
     index = 158,
     label = "Cs(Val7)2-CdOs",
-    group = 
+    group =
 """
 1 *1 Cs   u0 {2,S} {3,S} {4,S}
 2 *2 Cd   u0 {1,S} {5,S}
@@ -4444,7 +4444,7 @@ entry(
         S298 = (1.17126,'cal/(mol*K)','+|-',0.652469),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 """,
 )
@@ -4452,7 +4452,7 @@ entry(
 entry(
     index = 159,
     label = "Cs(F)2-CdOs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S}
 2 *2 Cd  u0 {1,S} {5,S}
@@ -4467,7 +4467,7 @@ entry(
         S298 = (-0.442431,'cal/(mol*K)','+|-',1.06548),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 """,
 )
@@ -4475,7 +4475,7 @@ entry(
 entry(
     index = 160,
     label = "Cs(Cl)2-CdOs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S}
 2 *2 Cd  u0 {1,S} {5,S}
@@ -4490,7 +4490,7 @@ entry(
         S298 = (0.0727935,'cal/(mol*K)','+|-',0.92273),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 """,
 )
@@ -4498,7 +4498,7 @@ entry(
 entry(
     index = 161,
     label = "Cs(Br)2-CdOs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S} {4,S}
 2 *2 Cd  u0 {1,S} {5,S}
@@ -4513,7 +4513,7 @@ entry(
         S298 = (-0.272353,'cal/(mol*K)','+|-',0.753406),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 """,
 )
@@ -4521,7 +4521,7 @@ entry(
 entry(
     index = 162,
     label = "Cs(F)-CdOs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S}
 2 *2 Cd  u0 {1,S} {4,S}
@@ -4535,7 +4535,7 @@ entry(
         S298 = (-0.697202,'cal/(mol*K)','+|-',1.06548),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 """,
 )
@@ -4543,7 +4543,7 @@ entry(
 entry(
     index = 163,
     label = "Cs(Cl)-CdOs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S}
 2 *2 Cd  u0 {1,S} {4,S}
@@ -4557,7 +4557,7 @@ entry(
         S298 = (-0.592268,'cal/(mol*K)','+|-',0.753406),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 """,
 )
@@ -4565,7 +4565,7 @@ entry(
 entry(
     index = 164,
     label = "Cs(Br)-CdOs",
-    group = 
+    group =
 """
 1 *1 Cs  u0 {2,S} {3,S}
 2 *2 Cd  u0 {1,S} {4,S}
@@ -4579,7 +4579,7 @@ entry(
         S298 = (-0.450161,'cal/(mol*K)','+|-',0.583586),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 """,
 )

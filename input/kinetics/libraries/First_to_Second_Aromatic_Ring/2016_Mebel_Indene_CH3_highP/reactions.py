@@ -7,9 +7,9 @@ longDesc = u"""
 PES for methylation of indene, calculated using
 G3(MP2,CC)//B3LYP+TST. Taken from:
 
-Mebel, A. M.; Georgievskii, Y.; Jasper, A. W.; Klippenstein, S. J., 
-Pressure-dependent rate constants for PAH growth: 
-formation of indene and its conversion to naphthalene. 
+Mebel, A. M.; Georgievskii, Y.; Jasper, A. W.; Klippenstein, S. J.,
+Pressure-dependent rate constants for PAH growth:
+formation of indene and its conversion to naphthalene.
 Faraday Discuss. 2016, 195, 637-670.
 """
 entry(

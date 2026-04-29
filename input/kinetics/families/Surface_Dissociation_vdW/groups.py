@@ -211,7 +211,7 @@ entry(
     group =
 """
 multiplicity [1]
-1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S} 
+1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2    C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
 3 *2 H u0 p0 c0 {1,S}
 4    H u0 p0 c0 {1,S}
@@ -256,7 +256,7 @@ L1: Combined
         L3: N-H
     L2: C-R
         L3: C-C
-        L3: C-OH       
+        L3: C-OH
 L1: VacantSite
 """
 )

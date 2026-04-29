@@ -14,7 +14,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root
 Total Standard Deviation in ln(k): 11.540182761524994

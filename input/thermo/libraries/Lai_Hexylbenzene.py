@@ -31,7 +31,7 @@ the error in enthalpy of formation by CBS-QB3 calculations to be + or - 2.4kcal/
 entry(
     index = 0,
     label = "Hexylbenzene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
@@ -76,7 +76,7 @@ entry(
         CpInf = (706.73,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Hexylbenzene calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
@@ -86,7 +86,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
 entry(
     index = 1,
     label = "Styrene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {3,B} {4,S}
 2  C u0 p0 c0 {1,B} {5,B} {10,S}
@@ -117,7 +117,7 @@ entry(
         CpInf = (378.308,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Styrene calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
@@ -127,7 +127,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
 entry(
     index = 2,
     label = "HexylbenzylRad1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {15,S} {16,S}
@@ -172,7 +172,7 @@ multiplicity 2
         CpInf = (685.944,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Hexylbenzene Radical calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals
@@ -182,7 +182,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals
 entry(
     index = 3,
     label = "Butyl Radical",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -211,7 +211,7 @@ multiplicity 2
         CpInf = (295.164,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Butyl Radical calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Aliphatic Radicals
@@ -221,7 +221,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Aliphatic Radicals
 entry(
     index = 4,
     label = "Ethylbenzene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
@@ -254,7 +254,7 @@ entry(
         CpInf = (424.038,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Ethylbenzene calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
@@ -264,7 +264,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
 entry(
     index = 5,
     label = "Ethylbenzyl Radical1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -297,7 +297,7 @@ multiplicity 2
         CpInf = (403.252,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Ethylbenzyl Radical1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals
@@ -307,7 +307,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals
 entry(
     index = 6,
     label = "Propylbenzene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
@@ -343,7 +343,7 @@ entry(
         CpInf = (494.711,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Propylbenzene calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
@@ -353,7 +353,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
 entry(
     index = 7,
     label = "Propylbenzyl Radical1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
@@ -389,7 +389,7 @@ multiplicity 2
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Propylbenzyl Radical1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals
@@ -399,7 +399,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals
 entry(
     index = 8,
     label = "Butylbenzene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -438,7 +438,7 @@ entry(
         CpInf = (565.384,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Butylbenzene calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
@@ -448,7 +448,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
 entry(
     index = 9,
     label = "Butylbenzyl Radical1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
@@ -487,7 +487,7 @@ multiplicity 2
         CpInf = (544.598,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Butylbenzyl Radical1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals
@@ -497,7 +497,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals
 entry(
     index = 10,
     label = "Pentylbenzene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {4,S} {16,S} {17,S}
@@ -539,7 +539,7 @@ entry(
         CpInf = (636.057,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Pentylbenzene calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
@@ -549,7 +549,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
 entry(
     index = 11,
     label = "Pentylbenzyl Radical1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
@@ -591,7 +591,7 @@ multiplicity 2
         CpInf = (615.271,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Pentylbenzyl Radical1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals
@@ -601,7 +601,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals
 entry(
     index = 12,
     label = "Benzyl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
@@ -631,7 +631,7 @@ multiplicity 2
         CpInf = (332.579,'J/(mol*K)'),
     ),
     shortDesc = u"""Calculation for Benzyl done by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals
@@ -641,7 +641,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals
 entry(
     index = 13,
     label = "Toluene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,B} {4,B}
@@ -671,7 +671,7 @@ entry(
         CpInf = (353.365,'J/(mol*K)'),
     ),
     shortDesc = u"""Calculation for Toluene done by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
@@ -681,7 +681,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzenes
 entry(
     index = 14,
     label = "Indane",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
@@ -715,7 +715,7 @@ entry(
         CpInf = (457.296,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Indane calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclics/Indanes
@@ -725,7 +725,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclics/Indanes
 entry(
     index = 15,
     label = "IndaneRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
@@ -761,7 +761,7 @@ multiplicity 2
         CpInf = (482.239,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Indane Radical calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7 with 1D rotors B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/Polycyclics/Indanes
@@ -771,7 +771,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/Polycyclics/Indanes
 entry(
     index = 16,
     label = "Ethyltetralin",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {13,S}
 2  C u0 p0 c0 {1,S} {4,S} {16,S} {17,S}
@@ -814,7 +814,7 @@ entry(
         CpInf = (673.472,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Ethyltetralin calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/Polycyclics/Tetralins
@@ -824,7 +824,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/Polycyclics/Tetralins
 entry(
     index = 17,
     label = "EthyltetralinRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {13,S}
@@ -869,7 +869,7 @@ multiplicity 2
         CpInf = (698.416,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Ethyltetralin Radical calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/Polycyclics/Tetralins
@@ -879,7 +879,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/Polycyclics/Tetralins
 entry(
     index = 18,
     label = "1-PentylRadical",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -911,7 +911,7 @@ multiplicity 2
         CpInf = (365.837,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Ethyltetralin Radical calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Aliphatic Radicals
@@ -921,7 +921,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Aliphatic Radicals
 entry(
     index = 19,
     label = "HexylbenzeneRad2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {15,S} {16,S}
@@ -966,7 +966,7 @@ multiplicity 2
         CpInf = (681.787,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Hexylbenzene Radical 2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals/Hexylbenzene Radicals
@@ -976,7 +976,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals/
 entry(
     index = 20,
     label = "HexylbenzeneRad3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {13,S} {14,S}
@@ -1021,7 +1021,7 @@ multiplicity 2
         CpInf = (681.787,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Hexylbenzene Radical 3 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals/Hexylbenzene Radicals
@@ -1031,7 +1031,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals/
 entry(
     index = 21,
     label = "HexylbenzeneRad4",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {13,S} {14,S}
@@ -1076,7 +1076,7 @@ multiplicity 2
         CpInf = (681.787,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Hexylbenzene Radical 4 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals/Hexylbenzene Radicals
@@ -1086,7 +1086,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals/
 entry(
     index = 22,
     label = "HexylbenzeneRad5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
@@ -1131,7 +1131,7 @@ multiplicity 2
         CpInf = (681.787,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Hexylbenzene Radical 5 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals/Hexylbenzene Radicals
@@ -1141,7 +1141,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals/
 entry(
     index = 23,
     label = "HexylbenzeneRad6",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {15,S} {16,S}
@@ -1186,7 +1186,7 @@ multiplicity 2
         CpInf = (681.787,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Hexylbenzene Radical 6 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals/Hexylbenzene Radicals
@@ -1196,7 +1196,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Alkylbenzene Radicals/
 entry(
     index = 24,
     label = "ToluenePlusHOrtho",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
@@ -1228,7 +1228,7 @@ multiplicity 2
         CpInf = (378.308,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for ToluenePlusHOrtho calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/Toluene Plus H
@@ -1238,7 +1238,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/T
 entry(
     index = 25,
     label = "ToluenePlusHMeta",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
@@ -1270,7 +1270,7 @@ multiplicity 2
         CpInf = (378.308,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for ToluenePlusHMeta calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/Toluene Plus H
@@ -1280,7 +1280,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/T
 entry(
     index = 26,
     label = "ToluenePlusHPara",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
@@ -1312,7 +1312,7 @@ multiplicity 2
         CpInf = (378.308,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for ToluenePlusHPara calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/Toluene Plus H
@@ -1322,7 +1322,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/T
 entry(
     index = 27,
     label = "ToluenePlusHSub",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
@@ -1354,7 +1354,7 @@ multiplicity 2
         CpInf = (378.308,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for ToluenePlusHSub calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/Toluene Plus H
@@ -1364,7 +1364,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/T
 entry(
     index = 28,
     label = "HexylbenzenePlusHOrtho",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
@@ -1411,7 +1411,7 @@ multiplicity 2
         CpInf = (731.674,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for HexylbenzenePlusHOrtho calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/Hexylbenzene Plus H
@@ -1421,7 +1421,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/H
 entry(
     index = 29,
     label = "HexylbenzenePlusHMeta",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
@@ -1468,7 +1468,7 @@ multiplicity 2
         CpInf = (731.674,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for HexylbenzenePlusHMeta calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/Aromatic Pi Radicals/Hexylbenzene Plus H
@@ -1478,7 +1478,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/Aromatic Pi Radicals/Hexylb
 entry(
     index = 30,
     label = "HexylbenzenePlusHPara",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
@@ -1525,7 +1525,7 @@ multiplicity 2
         CpInf = (731.674,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for HexylbenzenePlusHPara calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/Aromatic Pi Radicals/Hexylbenzene Plus H
@@ -1535,7 +1535,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/Aromatic Pi Radicals/Hexylb
 entry(
     index = 31,
     label = "HexylbenzenePlusHSub",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {13,S}
@@ -1582,7 +1582,7 @@ multiplicity 2
         CpInf = (731.674,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for HexylbenzenePlusHSub calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/Aromatic Pi Radicals/Hexylbenzene Plus H
@@ -1592,7 +1592,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/Aromatic Pi Radicals/Hexylb
 entry(
     index = 32,
     label = "s2_5_6_diene_0_2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
@@ -1628,7 +1628,7 @@ entry(
         CpInf = (507.183,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CCC2CCCC2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycylics/2_5_6_Dienes
@@ -1638,7 +1638,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycylics/2_5_6_Diene
 entry(
     index = 33,
     label = "s2_5_6_diene_0_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {8,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
@@ -1674,7 +1674,7 @@ entry(
         CpInf = (507.183,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C=1CC=C2CCCC2C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycylics/2_5_6_Dienes
@@ -1684,7 +1684,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycylics/2_5_6_Diene
 entry(
     index = 34,
     label = "s2_5_6_diene_1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {11,S}
@@ -1720,7 +1720,7 @@ entry(
         CpInf = (507.183,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC2CCCC2C=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycylics/2_5_6_Dienes
@@ -1730,7 +1730,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycylics/2_5_6_Diene
 entry(
     index = 35,
     label = "s2_6_6_diene_0_2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
@@ -1769,7 +1769,7 @@ entry(
         CpInf = (582.013,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CCC2CCCCC2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycylics/2_6_6_Dienes
@@ -1779,7 +1779,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycylics/2_6_6_Diene
 entry(
     index = 36,
     label = "s2_6_6_diene_0_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,S} {9,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
@@ -1818,7 +1818,7 @@ entry(
         CpInf = (582.013,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C=1CC=C2CCCCC2C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycylics/2_6_6_Dienes
@@ -1828,7 +1828,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycylics/2_6_6_Diene
 entry(
     index = 37,
     label = "s2_6_6_diene_1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {12,S}
@@ -1867,7 +1867,7 @@ entry(
         CpInf = (582.013,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C=1C=CC2CCCCC2C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycylics/2_6_6_Dienes
@@ -1877,7 +1877,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycylics/2_6_6_Diene
 entry(
     index = 38,
     label = "ToluenePlusCH3Ortho",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
@@ -1912,7 +1912,7 @@ multiplicity 2
         CpInf = (448.981,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CC=C[CH]C1C calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/Toluene Plus CH3
@@ -1922,7 +1922,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/T
 entry(
     index = 39,
     label = "ToluenePlusCH3Meta",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {9,S}
@@ -1957,7 +1957,7 @@ multiplicity 2
         CpInf = (448.981,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1[CH]C(C)C=CC=1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/Toluene Plus CH3
@@ -1967,7 +1967,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/T
 entry(
     index = 40,
     label = "ToluenePlusCH3Para",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {9,S}
@@ -2002,7 +2002,7 @@ multiplicity 2
         CpInf = (448.981,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1C=CC(C)[CH]C=1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/Toluene Plus CH3
@@ -2012,7 +2012,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/T
 entry(
     index = 41,
     label = "ToluenePlusCH3Sub",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2047,7 +2047,7 @@ multiplicity 2
         CpInf = (448.981,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1(C)[CH]C=CC=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/Toluene Plus CH3
@@ -2057,7 +2057,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals/T
 entry(
     index = 42,
     label = "MethylindaneRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {11,S}
@@ -2096,7 +2096,7 @@ multiplicity 2
         CpInf = (552.912,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CCC2=CC=C[CH]C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/IndaneRads
@@ -2106,7 +2106,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 43,
     label = "EthylindaneRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {12,S}
@@ -2148,7 +2148,7 @@ multiplicity 2
         CpInf = (623.585,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CCC2=CC=C[CH]C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/IndaneRads
@@ -2158,7 +2158,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 44,
     label = "PropylindaneRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {13,S}
@@ -2203,7 +2203,7 @@ multiplicity 2
         CpInf = (694.258,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCCC1CCC2=CC=C[CH]C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/IndaneRads
@@ -2213,7 +2213,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 45,
     label = "Methylindane",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
@@ -2250,7 +2250,7 @@ entry(
         CpInf = (527.969,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Indanes
@@ -2260,7 +2260,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 46,
     label = "Ethylindane",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {12,S}
 2  C u0 p0 c0 {1,S} {4,S} {15,S} {16,S}
@@ -2300,7 +2300,7 @@ entry(
         CpInf = (598.642,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Indanes
@@ -2310,7 +2310,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 47,
     label = "Propylindane",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {13,S}
 2  C u0 p0 c0 {1,S} {4,S} {16,S} {17,S}
@@ -2353,7 +2353,7 @@ entry(
         CpInf = (669.315,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCCC1CCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Indanes
@@ -2363,7 +2363,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 48,
     label = "IndeneRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -2397,7 +2397,7 @@ multiplicity 2
         CpInf = (432.353,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CC[CH]C2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/IndeneRads
@@ -2407,7 +2407,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 49,
     label = "MethylindeneRadFar",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
@@ -2444,7 +2444,7 @@ multiplicity 2
         CpInf = (503.026,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1C[CH]C2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/IndeneRads
@@ -2454,7 +2454,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 50,
     label = "MethylindeneRadNear",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
@@ -2491,7 +2491,7 @@ multiplicity 2
         CpInf = (503.026,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C[C]1CCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/IndeneRads
@@ -2501,7 +2501,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 51,
     label = "EthylindeneRadFar",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {12,S}
@@ -2541,7 +2541,7 @@ multiplicity 2
         CpInf = (573.699,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1C[CH]C2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/IndeneRads
@@ -2551,7 +2551,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 52,
     label = "EthylindeneRadNear",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {14,S} {15,S}
@@ -2591,7 +2591,7 @@ multiplicity 2
         CpInf = (577.856,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC[C]1CCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/IndeneRads
@@ -2601,7 +2601,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 53,
     label = "PropylindeneRadFar",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {13,S}
@@ -2644,7 +2644,7 @@ multiplicity 2
         CpInf = (644.372,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCCC1C[CH]C2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/IndeneRads
@@ -2654,7 +2654,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 54,
     label = "PropylindeneRadNear",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {13,S} {14,S}
@@ -2697,7 +2697,7 @@ multiplicity 2
         CpInf = (648.529,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC[C]1CCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/IndeneRads
@@ -2707,7 +2707,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 55,
     label = "Indene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,B} {5,B}
@@ -2739,7 +2739,7 @@ entry(
         CpInf = (407.409,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CC=CC2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Indenes
@@ -2749,7 +2749,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 56,
     label = "MethylindeneFar",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {11,S}
 2  C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
@@ -2784,7 +2784,7 @@ entry(
         CpInf = (478.082,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1C=CC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Indenes
@@ -2794,7 +2794,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 57,
     label = "MethylindeneNear",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {11,S} {12,S}
 2  C u0 p0 c0 {4,S} {13,S} {14,S} {15,S}
@@ -2829,7 +2829,7 @@ entry(
         CpInf = (478.082,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Indenes
@@ -2839,7 +2839,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 58,
     label = "EthylindeneFar",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {12,S}
 2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
@@ -2877,7 +2877,7 @@ entry(
         CpInf = (548.755,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1C=CC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Indenes
@@ -2887,7 +2887,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 59,
     label = "EthylindeneNear",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {12,S} {13,S}
 2  C u0 p0 c0 {5,S} {7,S} {14,S} {15,S}
@@ -2925,7 +2925,7 @@ entry(
         CpInf = (548.755,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1=CCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Indenes
@@ -2935,7 +2935,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 60,
     label = "PropylindeneFar",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
@@ -2976,7 +2976,7 @@ entry(
         CpInf = (619.428,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCCC1C=CC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Indenes
@@ -2986,7 +2986,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 61,
     label = "PropylindeneNear",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {5,S} {15,S} {16,S}
@@ -3027,7 +3027,7 @@ entry(
         CpInf = (619.428,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCCC1=CCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Indenes
@@ -3037,7 +3037,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/I
 entry(
     index = 62,
     label = "TetralinRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {11,S}
@@ -3076,7 +3076,7 @@ multiplicity 2
         CpInf = (557.07,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCCC2[CH]1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/TetralinRads
@@ -3086,7 +3086,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/T
 entry(
     index = 63,
     label = "MethyltetralinRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {12,S}
@@ -3128,7 +3128,7 @@ multiplicity 2
         CpInf = (627.743,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CCCC2=CC=C[CH]C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/TetralinRads
@@ -3138,7 +3138,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/T
 entry(
     index = 64,
     label = "Tetralin",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {4,S} {13,S} {14,S}
@@ -3175,7 +3175,7 @@ entry(
         CpInf = (532.126,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCCC2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Tetralins
@@ -3185,7 +3185,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/T
 entry(
     index = 65,
     label = "Methyltetralin",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {12,S}
 2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
@@ -3225,7 +3225,7 @@ entry(
         CpInf = (602.799,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CCCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Tetralins
@@ -3235,7 +3235,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/T
 entry(
     index = 66,
     label = "DihydronaphthaleneRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
@@ -3272,7 +3272,7 @@ multiplicity 2
         CpInf = (507.183,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCC[CH]C2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/DihydronaphthaleneRads
@@ -3282,7 +3282,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/D
 entry(
     index = 67,
     label = "MethyldihydronaphthaleneRadFar",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
@@ -3322,7 +3322,7 @@ multiplicity 2
         CpInf = (577.856,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C[C]1CCCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/DihydronaphthaleneRads
@@ -3332,7 +3332,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/D
 entry(
     index = 68,
     label = "MethyldihydronaphthaleneRadNear",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {12,S}
@@ -3372,7 +3372,7 @@ multiplicity 2
         CpInf = (577.856,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CC[CH]C2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/DihydronaphthaleneRads
@@ -3382,7 +3382,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/D
 entry(
     index = 69,
     label = "EthyldihydronaphthaleneRadFar",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {13,S} {14,S}
@@ -3425,7 +3425,7 @@ multiplicity 2
         CpInf = (652.686,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC[C]1CCCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/DihydronaphthaleneRads
@@ -3435,7 +3435,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/D
 entry(
     index = 70,
     label = "EthyldihydronaphthaleneRadNear",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {13,S}
@@ -3478,7 +3478,7 @@ multiplicity 2
         CpInf = (652.686,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CC[CH]C2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/DihydronaphthaleneRads
@@ -3488,7 +3488,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/D
 entry(
     index = 71,
     label = "Dihydronaphthalene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {5,S} {13,S} {14,S}
@@ -3523,7 +3523,7 @@ entry(
         CpInf = (482.239,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCC=CC2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Dihydronaphthalenes
@@ -3533,7 +3533,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/D
 entry(
     index = 72,
     label = "MethyldihydronaphthaleneFar",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {7,S} {12,S} {13,S}
@@ -3571,7 +3571,7 @@ entry(
         CpInf = (552.912,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CCCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Dihydronaphthalenes
@@ -3581,7 +3581,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/D
 entry(
     index = 73,
     label = "MethyldihydronaphthaleneNear",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {12,S}
 2  C u0 p0 c0 {1,S} {6,S} {13,S} {14,S}
@@ -3619,7 +3619,7 @@ entry(
         CpInf = (552.912,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CC=CC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Dihydronaphthalenes
@@ -3629,7 +3629,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/D
 entry(
     index = 74,
     label = "EthyldihydronaphthaleneFar",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {17,S} {18,S}
 2  C u0 p0 c0 {4,S} {5,S} {13,S} {14,S}
@@ -3670,7 +3670,7 @@ entry(
         CpInf = (627.743,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1=CCCC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Dihydronaphthalenes
@@ -3680,7 +3680,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/D
 entry(
     index = 75,
     label = "EthyldihydronaphthaleneNear",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {13,S}
 2  C u0 p0 c0 {1,S} {4,S} {14,S} {15,S}
@@ -3721,7 +3721,7 @@ entry(
         CpInf = (627.743,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CC=CC2=CC=CC=C21 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Dihydronaphthalenes
@@ -3731,7 +3731,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/D
 entry(
     index = 76,
     label = "NaphthaleneRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
@@ -3766,7 +3766,7 @@ multiplicity 2
         CpInf = (457.296,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2C=C[CH]CC2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/NaphthaleneRads
@@ -3776,7 +3776,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 77,
     label = "MethylnaphthaleneRadFar",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {12,S}
@@ -3814,7 +3814,7 @@ multiplicity 2
         CpInf = (527.969,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1[CH]C=CC2=CC=CC=C12 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/NaphthaleneRads
@@ -3824,7 +3824,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 78,
     label = "MethylnaphthaleneRadNear",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {6,S} {12,S} {13,S}
@@ -3862,7 +3862,7 @@ multiplicity 2
         CpInf = (527.969,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=C[CH]CC2=CC=CC=C12 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/NaphthaleneRads
@@ -3872,7 +3872,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 79,
     label = "EthylnaphthaleneRadFar",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {13,S}
@@ -3913,7 +3913,7 @@ multiplicity 2
         CpInf = (602.799,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1[CH]C=CC2=CC=CC=C12 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/NaphthaleneRads
@@ -3923,7 +3923,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 80,
     label = "EthylnaphthaleneRadNear",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {13,S} {14,S}
@@ -3964,7 +3964,7 @@ multiplicity 2
         CpInf = (598.642,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1=C[CH]CC2=CC=CC=C12 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/NaphthaleneRads
@@ -3974,7 +3974,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 81,
     label = "Naphthalene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {3,B} {4,B}
 2  C u0 p0 c0 {1,B} {5,B} {6,B}
@@ -4007,7 +4007,7 @@ entry(
         CpInf = (432.353,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2C=CC=CC2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Naphthalenes
@@ -4017,7 +4017,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 82,
     label = "Methylnaphthalene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,B} {5,B}
@@ -4053,7 +4053,7 @@ entry(
         CpInf = (503.026,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CC=CC2=CC=CC=C12 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Naphthalenes
@@ -4063,7 +4063,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 83,
     label = "Ethylnaphthalene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {15,S} {16,S} {17,S}
@@ -4102,7 +4102,7 @@ entry(
         CpInf = (577.856,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1=CC=CC2=CC=CC=C12 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/Naphthalenes
@@ -4112,7 +4112,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 84,
     label = "Rad2PM_Stable_1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,S} {13,S}
@@ -4157,7 +4157,7 @@ entry(
         CpInf = (715.045,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCCCC1CC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4167,7 +4167,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 85,
     label = "Rad3PM_Stable_1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,S} {13,S}
@@ -4212,7 +4212,7 @@ entry(
         CpInf = (719.202,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCCC1CCC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4222,7 +4222,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 86,
     label = "Rad4PM_Stable_1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,S} {13,S}
@@ -4267,7 +4267,7 @@ entry(
         CpInf = (723.359,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CCCC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4277,7 +4277,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 87,
     label = "Rad5PM_Stable_1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {13,S}
@@ -4322,7 +4322,7 @@ entry(
         CpInf = (727.516,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CCCCC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4332,7 +4332,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 88,
     label = "Rad2PM_Stable_1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {9,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,S} {13,S}
@@ -4377,7 +4377,7 @@ entry(
         CpInf = (715.045,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCCCC1CC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4387,7 +4387,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 89,
     label = "Rad3PM_Stable_1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,S} {13,S}
@@ -4432,7 +4432,7 @@ entry(
         CpInf = (719.202,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCCC1CCC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4442,7 +4442,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 90,
     label = "Rad4PM_Stable_1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,S} {13,S}
@@ -4487,7 +4487,7 @@ entry(
         CpInf = (723.359,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CCCC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4497,7 +4497,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 91,
     label = "Rad5PM_Stable_1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {13,S}
@@ -4542,7 +4542,7 @@ entry(
         CpInf = (727.516,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CCCCC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4552,7 +4552,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 92,
     label = "Rad2PM_Stable_1_4_Propyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,S} {12,S}
@@ -4594,7 +4594,7 @@ entry(
         CpInf = (644.372,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCCC1CC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4604,7 +4604,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 93,
     label = "Rad2PM_Stable_1_4_Ethyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,S} {11,S}
@@ -4643,7 +4643,7 @@ entry(
         CpInf = (573.699,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4653,7 +4653,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 94,
     label = "Rad2PM_Stable_1_4_Methyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {5,S} {10,S}
@@ -4689,7 +4689,7 @@ entry(
         CpInf = (503.026,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4699,7 +4699,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 95,
     label = "Rad2PM_Stable_1_4_Ring",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -4732,7 +4732,7 @@ entry(
         CpInf = (432.353,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1CC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4742,7 +4742,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 96,
     label = "Rad2PM_Stable_1_3_Propyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,S} {12,S}
@@ -4784,7 +4784,7 @@ entry(
         CpInf = (644.372,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCCC1CC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4794,7 +4794,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 97,
     label = "Rad2PM_Stable_1_3_Ethyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,S} {11,S}
@@ -4833,7 +4833,7 @@ entry(
         CpInf = (573.699,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4843,7 +4843,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 98,
     label = "Rad2PM_Stable_1_3_Methyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {5,S} {10,S}
@@ -4879,7 +4879,7 @@ entry(
         CpInf = (503.026,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4889,7 +4889,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 99,
     label = "Rad2PM_Stable_1_3_Ring",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -4922,7 +4922,7 @@ entry(
         CpInf = (432.353,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1CC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4932,7 +4932,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 100,
     label = "Rad3PM_Stable_1_4_Ethyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,S} {12,S}
@@ -4974,7 +4974,7 @@ entry(
         CpInf = (648.529,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CCC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -4984,7 +4984,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 101,
     label = "Rad3PM_Stable_1_4_Methyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {11,S}
@@ -5023,7 +5023,7 @@ entry(
         CpInf = (577.856,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CCC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -5033,7 +5033,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 102,
     label = "Rad3PM_Stable_1_4_Ring",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
@@ -5069,7 +5069,7 @@ entry(
         CpInf = (507.183,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1CCC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -5079,7 +5079,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 103,
     label = "Rad3PM_Stable_1_3_Ethyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,S} {12,S}
@@ -5121,7 +5121,7 @@ entry(
         CpInf = (648.529,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CCC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -5131,7 +5131,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 104,
     label = "Rad3PM_Stable_1_3_Methyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {11,S}
@@ -5170,7 +5170,7 @@ entry(
         CpInf = (577.856,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CCC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -5180,7 +5180,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 105,
     label = "Rad3PM_Stable_1_3_Ring",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
@@ -5216,7 +5216,7 @@ entry(
         CpInf = (507.183,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1CCC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -5226,7 +5226,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 106,
     label = "Rad4PM_Stable_1_4_Methyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {12,S}
@@ -5268,7 +5268,7 @@ entry(
         CpInf = (652.686,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CCCC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -5278,7 +5278,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 107,
     label = "Rad4PM_Stable_1_4_Ring",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -5317,7 +5317,7 @@ entry(
         CpInf = (582.013,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1CCCC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -5327,7 +5327,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 108,
     label = "Rad4PM_Stable_1_3_Methyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {12,S}
@@ -5369,7 +5369,7 @@ entry(
         CpInf = (652.686,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CCCC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -5379,7 +5379,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 109,
     label = "Rad4PM_Stable_1_3_Ring",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -5418,7 +5418,7 @@ entry(
         CpInf = (582.013,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1CCCC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -5428,7 +5428,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 110,
     label = "Rad5PM_Stable_1_4_Ring",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
@@ -5470,7 +5470,7 @@ entry(
         CpInf = (656.843,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1CCCCC12C=CCC=C2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -5480,7 +5480,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 111,
     label = "Rad5PM_Stable_1_3_Ring",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
@@ -5522,7 +5522,7 @@ entry(
         CpInf = (656.843,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1CCCCC12C=CC=CC2 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
@@ -5532,7 +5532,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/PhenylMigrationStables
 entry(
     index = 112,
     label = "NaphthaleneRad-2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {11,S} {12,S}
@@ -5567,7 +5567,7 @@ multiplicity 2
         CpInf = (457.296,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2C=CC[CH]C2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/NaphthaleneRads
@@ -5577,7 +5577,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 113,
     label = "MethylnaphthaleneRadFar-2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {6,S} {12,S} {13,S}
@@ -5615,7 +5615,7 @@ multiplicity 2
         CpInf = (527.969,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C[C]1CC=CC2=CC=CC=C12 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/NaphthaleneRads
@@ -5625,7 +5625,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 114,
     label = "MethylnaphthaleneRadNear-2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {6,S} {7,S} {12,S} {13,S}
@@ -5663,7 +5663,7 @@ multiplicity 2
         CpInf = (527.969,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CC[CH]C2=CC=CC=C12 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/NaphthaleneRads
@@ -5673,7 +5673,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 115,
     label = "EthylnaphthaleneRadFar-2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {13,S} {14,S}
@@ -5714,7 +5714,7 @@ multiplicity 2
         CpInf = (598.642,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC[C]1CC=CC2=CC=CC=C12 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/NaphthaleneRads
@@ -5724,7 +5724,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 116,
     label = "EthylnaphthaleneRadNear-2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {13,S} {14,S}
@@ -5765,7 +5765,7 @@ multiplicity 2
         CpInf = (598.642,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1=CC[CH]C2=CC=CC=C12 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/NaphthaleneRads
@@ -5775,7 +5775,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/Indenes_Naphthalenes/N
 entry(
     index = 117,
     label = "ToluenePlusC2H5Ortho",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
@@ -5813,7 +5813,7 @@ multiplicity 2
         CpInf = (519.654,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1[CH]C=CC=C1C calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -5823,7 +5823,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 118,
     label = "ToluenePlusC2H5Meta",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {10,S}
@@ -5861,7 +5861,7 @@ multiplicity 2
         CpInf = (519.654,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1[CH]C(C)=CC=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -5871,7 +5871,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 119,
     label = "ToluenePlusC2H5Para",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {10,S}
@@ -5909,7 +5909,7 @@ multiplicity 2
         CpInf = (519.654,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1[CH]C=C(C)C=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -5919,7 +5919,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 120,
     label = "ToluenePlusC2H5Sub",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -5957,7 +5957,7 @@ multiplicity 2
         CpInf = (519.654,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1(C)[CH]C=CC=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -5967,7 +5967,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 121,
     label = "ToluenePlusBenzylOrtho",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {15,S}
@@ -6012,7 +6012,7 @@ multiplicity 2
         CpInf = (702.573,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CC=C[CH]C1Cc1ccccc1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6022,7 +6022,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 122,
     label = "ToluenePlusBenzylMeta",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {15,S}
@@ -6067,7 +6067,7 @@ multiplicity 2
         CpInf = (694.258,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1[CH]C(C=CC=1)Cc1ccccc1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6077,7 +6077,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 123,
     label = "ToluenePlusBenzylPara",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {15,S}
@@ -6122,7 +6122,7 @@ multiplicity 2
         CpInf = (698.416,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1C=CC([CH]C=1)Cc1ccccc1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6132,7 +6132,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 124,
     label = "ToluenePlusBenzylSub",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -6177,7 +6177,7 @@ multiplicity 2
         CpInf = (694.258,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1([CH]C=CC=C1)Cc1ccccc1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6187,7 +6187,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 125,
     label = "ToluenePlusEBenzylOrtho",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {16,S}
@@ -6235,7 +6235,7 @@ multiplicity 2
         CpInf = (773.246,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CC=C[CH]C1C(C)c1ccccc1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6245,7 +6245,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 126,
     label = "ToluenePlusEBenzylMeta",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {16,S}
@@ -6293,7 +6293,7 @@ multiplicity 2
         CpInf = (769.089,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1[CH]C(C=CC=1)C(C)c1ccccc1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6303,7 +6303,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 127,
     label = "ToluenePlusEBenzylPara",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {16,S}
@@ -6351,7 +6351,7 @@ multiplicity 2
         CpInf = (769.089,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1C=CC([CH]C=1)C(C)c1ccccc1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6361,7 +6361,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 128,
     label = "ToluenePlusEBenzylSub",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -6409,7 +6409,7 @@ multiplicity 2
         CpInf = (769.089,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC(c1ccccc1)C1(C)[CH]C=CC=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6419,7 +6419,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 129,
     label = "ToluenePlusHParaSub1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
 2  C u0 p0 c0 {6,S} {7,S} {9,S} {10,S}
@@ -6451,7 +6451,7 @@ entry(
         CpInf = (403.252,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1C=CCC=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6461,7 +6461,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 130,
     label = "ToluenePlusHMetaPara1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
@@ -6493,7 +6493,7 @@ entry(
         CpInf = (403.252,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1C=CCCC=1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6503,7 +6503,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 131,
     label = "ToluenePlusCH3Ortho_1_3_first",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
 2  C u0 p0 c0 {1,S} {6,S} {10,S} {11,S}
@@ -6538,7 +6538,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CC=CCC1C calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6548,7 +6548,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 132,
     label = "ToluenePlusHOrthoMeta1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -6580,7 +6580,7 @@ entry(
         CpInf = (403.252,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CC=CCC1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6590,7 +6590,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 133,
     label = "ToluenePlusCH3Ortho_1_3_second",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {10,S}
@@ -6625,7 +6625,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1C=CC=CC1C calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6635,7 +6635,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 134,
     label = "ToluenePlusHOrthoMeta1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {7,S} {10,S} {11,S}
 2  C u0 p0 c0 {5,S} {6,S} {8,S} {9,S}
@@ -6667,7 +6667,7 @@ entry(
         CpInf = (403.252,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CCC=CC1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6677,7 +6677,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 135,
     label = "ToluenePlusCH3Ortho_1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {7,S} {9,S}
 2  C u0 p0 c0 {6,S} {8,S} {10,S} {11,S}
@@ -6712,7 +6712,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CCC=CC1C calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6722,7 +6722,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 136,
     label = "ToluenePlusHOrthoSub1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
@@ -6754,7 +6754,7 @@ entry(
         CpInf = (403.252,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1C=CC=CC1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6764,7 +6764,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 137,
     label = "ToluenePlusCH3Meta_1_3_first",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
 2  C u0 p0 c0 {1,S} {7,S} {10,S} {11,S}
@@ -6799,7 +6799,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CC(C)CC=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6809,7 +6809,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 138,
     label = "ToluenePlusCH3Meta_1_3_second",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
 2  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
@@ -6844,7 +6844,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1CC(C)C=CC=1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6854,7 +6854,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 139,
     label = "ToluenePlusCH3Meta_1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {9,S}
 2  C u0 p0 c0 {5,S} {8,S} {10,S} {11,S}
@@ -6889,7 +6889,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1=CC(C)C=CC1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6899,7 +6899,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 140,
     label = "ToluenePlusCH3Para_1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
 2  C u0 p0 c0 {1,S} {7,S} {10,S} {11,S}
@@ -6934,7 +6934,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1C=CC(C)CC=1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6944,7 +6944,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 141,
     label = "ToluenePlusCH3Para_1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
 2  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
@@ -6979,7 +6979,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1C=CC(C)C=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -6989,7 +6989,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 142,
     label = "ToluenePlusCH3Sub_1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {9,S} {10,S}
@@ -7024,7 +7024,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1(C)CC=CC=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -7034,7 +7034,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 143,
     label = "ToluenePlusCH3Sub_1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {7,S} {8,S} {9,S} {10,S}
@@ -7069,7 +7069,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CC1(C)C=CCC=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -7079,7 +7079,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 144,
     label = "ToluenePlusC2H5Ortho_1_3_first",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -7117,7 +7117,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CC=CC=C1C calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -7127,7 +7127,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 145,
     label = "ToluenePlusC2H5Ortho_1_3_second",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {11,S}
@@ -7165,7 +7165,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1C=CC=CC1C calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -7175,7 +7175,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 146,
     label = "ToluenePlusC2H5Ortho_1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -7213,7 +7213,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1C=CCC=C1C calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -7223,7 +7223,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 147,
     label = "ToluenePlusC2H5Meta_1_3_first",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -7261,7 +7261,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CC(C)=CC=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -7271,7 +7271,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 148,
     label = "ToluenePlusC2H5Meta_1_3_second",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -7309,7 +7309,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1C=C(C)C=CC1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -7319,7 +7319,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 149,
     label = "ToluenePlusC2H5Meta_1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -7357,7 +7357,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1C=C(C)CC=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -7367,7 +7367,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 150,
     label = "ToluenePlusC2H5Para_1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -7405,7 +7405,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1CC=C(C)C=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -7415,7 +7415,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 151,
     label = "ToluenePlusC2H5Para_1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
 2  C u0 p0 c0 {4,S} {7,S} {8,S} {11,S}
@@ -7453,7 +7453,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1C=CC(C)C=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -7463,7 +7463,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 152,
     label = "ToluenePlusC2H5Sub_1_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
@@ -7501,7 +7501,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1(C)CC=CC=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -7511,7 +7511,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 153,
     label = "ToluenePlusC2H5Sub_1_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
@@ -7549,7 +7549,7 @@ entry(
         CpInf = (473.925,'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1(C)C=CCC=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
@@ -7559,7 +7559,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing
 entry(
     index = 154,
     label = "",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {6,S} {13,S}
 2  C u0 p0 c0 {1,D} {3,S} {14,S}
@@ -7604,7 +7604,7 @@ entry(
         CpInf = (527.969, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C(C=C1)C1C=CC=CC=1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -7614,7 +7614,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 155,
     label = "EthylbiphenylRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {6,S} {16,S}
@@ -7667,7 +7667,7 @@ multiplicity 2
         CpInf = (698.416, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for CCC1([CH]C=CC=C1)C1C=CC=CC=1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -7677,7 +7677,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 156,
     label = "PhenylRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {6,S} {7,S}
@@ -7712,7 +7712,7 @@ multiplicity 2
         CpInf = (257.749, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=CC=[C]1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -7723,7 +7723,7 @@ This value deviates relatively far from other sources. Please use caution when u
 entry(
     index = 157,
     label = "EthylRadical",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -7754,7 +7754,7 @@ multiplicity 2
         CpInf = (153.818, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C[CH2] calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -7764,7 +7764,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 158,
     label = "cyclo13hexadiene5methyleneEnergy",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,D} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -7802,7 +7802,7 @@ entry(
         CpInf = (357.522, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C=1C=CC=(C)CC1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -7812,7 +7812,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 159,
     label = "cyclo14hexadiene3methyleneEnergy",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,D} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -7850,7 +7850,7 @@ entry(
         CpInf = (357.522, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C=1C=(C)C=CCC1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -7860,7 +7860,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 160,
     label = "Benzene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {6,S} {7,S}
 2  C u0 p0 c0 {1,D} {3,S} {8,S}
@@ -7895,7 +7895,7 @@ entry(
         CpInf = (282.692, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for Benzene calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -7905,7 +7905,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 161,
     label = "MethylRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -7933,7 +7933,7 @@ multiplicity 2
         CpInf = (83.1447, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for [CH3] calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -7943,7 +7943,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 162,
     label = "s2_6_7_diene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {11,S} {12,S}
 2  C u0 p0 c0 {1,D} {3,S} {13,S}
@@ -7993,7 +7993,7 @@ entry(
         CpInf = (656.843, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCCCC2C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -8003,7 +8003,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 163,
     label = "BenzocyclohepteneRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {11,S} {13,S}
@@ -8053,7 +8053,7 @@ multiplicity 2
         CpInf = (631.9, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCCCC2[CH]1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -8063,7 +8063,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 164,
     label = "MethylbenzocyclohepteneRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {12,S} {14,S}
@@ -8116,7 +8116,7 @@ multiplicity 2
         CpInf = (702.573, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCCC(C)C2[CH]1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -8126,7 +8126,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 165,
     label = "Benzocycloheptene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {11,S} {12,S}
 2  C u0 p0 c0 {1,D} {3,S} {13,S}
@@ -8174,7 +8174,7 @@ entry(
         CpInf = (606.956, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCCCC2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -8184,7 +8184,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 166,
     label = "BenzocycloheptadieneRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {12,S} {13,S}
@@ -8232,7 +8232,7 @@ multiplicity 2
         CpInf = (582.013, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCC[CH]C2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -8242,7 +8242,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 167,
     label = "Benzocycloheptadiene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {11,S} {12,S}
 2  C u0 p0 c0 {1,D} {3,S} {13,S}
@@ -8288,7 +8288,7 @@ entry(
         CpInf = (557.07, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CCCC=CC2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -8298,7 +8298,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 168,
     label = "BenzocycloheptatrieneRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {12,S} {13,S}
@@ -8344,7 +8344,7 @@ multiplicity 2
         CpInf = (532.126, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CC[CH]C=CC2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -8354,7 +8354,7 @@ Location of calculations Pharos/home/laitcl/Gaussian/2019/
 entry(
     index = 169,
     label = "Benzocycloheptatriene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {11,S} {12,S}
 2  C u0 p0 c0 {1,D} {3,S} {13,S}
@@ -8398,7 +8398,7 @@ entry(
         CpInf = (507.183, 'J/(mol*K)'),
     ),
     shortDesc = u"""library value for C1=CC=C2CC=CC=CC2=C1 calculated by Lawrence Lai""",
-    longDesc = 
+    longDesc =
 u"""
 Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2019/

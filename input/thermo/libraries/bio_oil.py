@@ -9,7 +9,7 @@ longDesc = u"""
 entry(
     index = 0,
     label = "BENZENE",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
 2  C u0 p0 c0 {1,B} {3,B} {8,S}
@@ -31,7 +31,7 @@ entry(
         S298 = (64.32,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -40,7 +40,7 @@ u"""
 entry(
     index = 1,
     label = "FULVENE",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,D}
 2  C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -62,7 +62,7 @@ entry(
         S298 = (70.29,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -71,7 +71,7 @@ u"""
 entry(
     index = 2,
     label = "FURAN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,S} {7,S}
@@ -90,7 +90,7 @@ entry(
         S298 = (63.87,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -99,7 +99,7 @@ u"""
 entry(
     index = 3,
     label = "Benzaldehyde",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,D} {9,S}
 2  C u0 p0 c0 {1,S} {3,B} {7,B}
@@ -123,7 +123,7 @@ entry(
         S298 = (80.3,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -132,7 +132,7 @@ u"""
 entry(
     index = 4,
     label = "styrene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {9,S} {10,S}
 2  C u0 p0 c0 {1,D} {3,S} {11,S}
@@ -158,7 +158,7 @@ entry(
         S298 = (82.39,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -167,7 +167,7 @@ u"""
 entry(
     index = 5,
     label = "phenol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
 2  C u0 p0 c0 {1,B} {3,B} {8,S}
@@ -190,7 +190,7 @@ entry(
         S298 = (75.33,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -199,7 +199,7 @@ u"""
 entry(
     index = 6,
     label = "Phenoxy",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u1 p2 c0 {2,S}
@@ -222,7 +222,7 @@ multiplicity 2
         S298 = (74.53,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -231,7 +231,7 @@ u"""
 entry(
     index = 7,
     label = "TOLUENE",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
 2  C u0 p0 c0 {1,B} {3,B} {8,S}
@@ -256,7 +256,7 @@ entry(
         S298 = (76.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -265,7 +265,7 @@ u"""
 entry(
     index = 8,
     label = "PHENYL",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {3,B} {8,S}
@@ -287,7 +287,7 @@ multiplicity 2
         S298 = (68.36,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -296,7 +296,7 @@ u"""
 entry(
     index = 9,
     label = "FULVENYL",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,D}
@@ -318,7 +318,7 @@ multiplicity 2
         S298 = (73.39,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -327,7 +327,7 @@ u"""
 entry(
     index = 10,
     label = "BENZYL",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
@@ -352,7 +352,7 @@ multiplicity 2
         S298 = (76.05,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -361,7 +361,7 @@ u"""
 entry(
     index = 11,
     label = "EthBenzene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
@@ -389,7 +389,7 @@ entry(
         S298 = (84.53,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -398,7 +398,7 @@ u"""
 entry(
     index = 12,
     label = "Naphthalene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {4,B} {5,B}
 2  C u0 p0 c0 {1,B} {3,B} {6,B}
@@ -426,7 +426,7 @@ entry(
         S298 = (79.64,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -435,7 +435,7 @@ u"""
 entry(
     index = 13,
     label = "CPD",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {5,S} {6,S}
 2  C u0 p0 c0 {1,D} {3,S} {7,S}
@@ -456,7 +456,7 @@ entry(
         S298 = (65.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -465,7 +465,7 @@ u"""
 entry(
     index = 14,
     label = "CPDYL",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -486,7 +486,7 @@ multiplicity 2
         S298 = (66.79,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -495,7 +495,7 @@ u"""
 entry(
     index = 15,
     label = "StyreneRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,D} {9,S}
@@ -521,7 +521,7 @@ multiplicity 2
         S298 = (82.3,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -530,7 +530,7 @@ u"""
 entry(
     index = 16,
     label = "EthBenzRad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -558,7 +558,7 @@ multiplicity 2
         S298 = (87.15,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat Third Millenium Database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -567,7 +567,7 @@ u"""
 entry(
     index = 17,
     label = "Anisole",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
 2  C u0 p0 c0 {1,B} {3,B} {9,S}
@@ -593,7 +593,7 @@ entry(
         S298 = (84.01,'cal/(mol*K)'),
     ),
     shortDesc = u"""Estimated using Group additivity methods""",
-    longDesc = 
+    longDesc =
 u"""
 Pecullan, M. Brezinsky, K. Glassman, I. "Pyrolysis and Oxidation of Anisole near 100K". J Phys Chem A. 1997 101, 3305-3316
 """,
@@ -602,7 +602,7 @@ Pecullan, M. Brezinsky, K. Glassman, I. "Pyrolysis and Oxidation of Anisole near
 entry(
     index = 18,
     label = "C6H5OCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
@@ -628,7 +628,7 @@ multiplicity 2
         S298 = (88.28,'cal/(mol*K)'),
     ),
     shortDesc = u"""Estimated using Group additivity methods""",
-    longDesc = 
+    longDesc =
 u"""
 Pecullan, M. Brezinsky, K. Glassman, I. "Pyrolysis and Oxidation of Anisole near 100K". J Phys Chem A. 1997 101, 3305-3316
 """,

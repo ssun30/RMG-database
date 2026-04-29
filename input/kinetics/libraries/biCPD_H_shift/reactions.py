@@ -6,7 +6,7 @@ shortDesc = u"CBS-QB3"
 longDesc = u"""
 Sigmatropic 1,5-Hydrogen shifts among various biCPD isomers.
 
-Calculated by A. Vandeputte and S. Merchant using CBS-QB3+TST as part of the pathway from 
+Calculated by A. Vandeputte and S. Merchant using CBS-QB3+TST as part of the pathway from
 CPD'yl recombination to naphthalene.
 """
 entry(

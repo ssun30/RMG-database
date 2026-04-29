@@ -8,14 +8,14 @@ Calculated at the CBS-QB3 level
 
 Citation:
 
-Aaron G. Vandeputte, Shamel S. Merchant, Marko R. Djokic, Kevin M. Van Geem, 
-Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in the 
+Aaron G. Vandeputte, Shamel S. Merchant, Marko R. Djokic, Kevin M. Van Geem,
+Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in the
 presence of ethene: realistic pathways from C5H5 to naphthalene." (2016)
 """
 entry(
     index = 0,
     label = "biCPD3ene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {4,S}
 2  C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -43,7 +43,7 @@ entry(
         S298 = (87.33,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -52,7 +52,7 @@ u"""
 entry(
     index = 1,
     label = "adducta",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
@@ -82,7 +82,7 @@ multiplicity 2
         S298 = (91.96,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -91,7 +91,7 @@ u"""
 entry(
     index = 2,
     label = "adductb",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
@@ -121,7 +121,7 @@ multiplicity 2
         S298 = (90.05,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -130,7 +130,7 @@ u"""
 entry(
     index = 3,
     label = "adductc",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {11,S} {12,S}
@@ -160,7 +160,7 @@ multiplicity 2
         S298 = (90.47,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -169,7 +169,7 @@ u"""
 entry(
     index = 4,
     label = "prod1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -199,7 +199,7 @@ multiplicity 2
         S298 = (87.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -208,7 +208,7 @@ u"""
 entry(
     index = 5,
     label = "prod2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -238,7 +238,7 @@ multiplicity 2
         S298 = (88.71,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -247,7 +247,7 @@ u"""
 entry(
     index = 6,
     label = "prod4",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
@@ -277,7 +277,7 @@ multiplicity 2
         S298 = (86.42,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -286,7 +286,7 @@ u"""
 entry(
     index = 7,
     label = "prod5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,B} {4,B}
@@ -316,7 +316,7 @@ multiplicity 2
         S298 = (94.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -325,7 +325,7 @@ u"""
 entry(
     index = 8,
     label = "naphthalene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {4,B} {5,B}
 2  C u0 p0 c0 {1,B} {3,B} {6,B}
@@ -353,7 +353,7 @@ entry(
         S298 = (79.49,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -362,7 +362,7 @@ u"""
 entry(
     index = 9,
     label = "prod3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -392,7 +392,7 @@ multiplicity 2
         S298 = (85.86,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -401,7 +401,7 @@ u"""
 entry(
     index = 10,
     label = "biCPD_1",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {12,S}
@@ -431,7 +431,7 @@ entry(
         S298 = (91.52,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -440,7 +440,7 @@ u"""
 entry(
     index = 11,
     label = "biCPD_2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {11,S}
 2  C u0 p0 c0 {3,S} {6,S} {12,S} {13,S}
@@ -470,7 +470,7 @@ entry(
         S298 = (92.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -479,7 +479,7 @@ u"""
 entry(
     index = 12,
     label = "biCPD_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {11,S}
 2  C u0 p0 c0 {4,S} {7,S} {12,S} {13,S}
@@ -509,7 +509,7 @@ entry(
         S298 = (92.04,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -518,7 +518,7 @@ u"""
 entry(
     index = 13,
     label = "biCPD_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
 2  C u0 p0 c0 {4,S} {6,S} {13,S} {14,S}
@@ -548,7 +548,7 @@ entry(
         S298 = (87.94,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -557,7 +557,7 @@ u"""
 entry(
     index = 14,
     label = "biCPD_5",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {11,S} {12,S}
 2  C u0 p0 c0 {5,S} {7,S} {13,S} {14,S}
@@ -587,7 +587,7 @@ entry(
         S298 = (91.04,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -596,7 +596,7 @@ u"""
 entry(
     index = 15,
     label = "biCPD_6",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {5,S} {7,S} {11,S} {12,S}
 2  C u0 p0 c0 {6,S} {8,S} {13,S} {14,S}
@@ -626,7 +626,7 @@ entry(
         S298 = (89.76,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

@@ -8,8 +8,8 @@ Calculated at the CBS-QB3 level
 
 Citation:
 
-Aaron G. Vandeputte, Shamel S. Merchant, Marko R. Djokic, Kevin M. Van Geem, 
-Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in the 
+Aaron G. Vandeputte, Shamel S. Merchant, Marko R. Djokic, Kevin M. Van Geem,
+Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in the
 presence of ethene: realistic pathways from C5H5 to naphthalene." (2016)
 """
 entry(
@@ -100,7 +100,7 @@ entry(
     label = "product4 <=> product9",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.11e+09, 's^-1'), n=1.34, Ea=(47.7, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / htrans6 too strained 0 rate
 / htrans7 too strained 0 rate
@@ -112,7 +112,7 @@ entry(
     label = "addA <=> product1",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.69e+11, 's^-1'), n=0.24, Ea=(4.6, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / ts1 to ts20
 """,
@@ -256,7 +256,7 @@ entry(
     label = "product4 <=> product16",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.03e+10, 's^-1'), n=1.1, Ea=(37, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / prod4 bscis CC & CH
 """,
@@ -274,7 +274,7 @@ entry(
     label = "addC <=> CPD + C2H3",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.89e+12, 's^-1'), n=0.87, Ea=(45, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / ts21 to ts45
 """,
@@ -390,7 +390,7 @@ entry(
     label = "product22 <=> product29",
     degeneracy = 1,
     kinetics = Arrhenius(A=(8.11e+10, 's^-1'), n=0.18, Ea=(66.6, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / same as product 11 = product 12
 /product27 = product28			1.39E+11	0.30	24.0  0.0 0.0 0.0
@@ -411,7 +411,7 @@ entry(
     label = "FULVENE + CH3 <=> product32",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2790, 'cm^3/(mol*s)'), n=2.91, Ea=(1.3, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / rev of product 23 = product24
 /product30 = product24			1.19E+11	0.82	22.4  0.0 0.0 0.0
@@ -437,7 +437,7 @@ entry(
     label = "product33 <=> product34",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.56e+13, 's^-1'), n=0, Ea=(43.5, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / no ts for ts45
 / ts46 to ts61
@@ -491,7 +491,7 @@ entry(
     label = "product37 <=> product13 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.03e+10, 's^-1'), n=1.22, Ea=(40.9, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / ts 53 currently estimated
 """,
@@ -544,7 +544,7 @@ entry(
     label = "product44 <=> product41",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.08e+06, 's^-1'), n=1.99, Ea=(25.2, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / Estimate for H shift
 """,
@@ -562,7 +562,7 @@ entry(
     label = "product45 <=> product56",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.72e+08, 's^-1'), n=0.21, Ea=(17, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / Closing down 1,3 addition /1E4 of RMG estimate
 """,

@@ -67,9 +67,9 @@ entry(
     index = 3,
     label = "NH3_X +O_X <=> NH2_X + OH_X",
     kinetics = SurfaceArrhenius(
-        A = (1.93E21, 'cm^2/(mol*s)'), 
+        A = (1.93E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (39560.9, 'J/mol'),   
+        Ea = (39560.9, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -94,9 +94,9 @@ entry(
     index = 4,
     label = "NH2_X +O_X <=> NH_X + OH_X",
     kinetics = SurfaceArrhenius(
-        A = (2.05E21, 'cm^2/(mol*s)'), 
+        A = (2.05E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (104209.2, 'J/mol'),   
+        Ea = (104209.2, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -121,9 +121,9 @@ entry(
     index = 5,
     label = "NH_X + O_X <=> N_X + OH_X",
     kinetics = SurfaceArrhenius(
-        A = (2.9E21, 'cm^2/(mol*s)'), 
+        A = (2.9E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (23157.6, 'J/mol'),   
+        Ea = (23157.6, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -148,9 +148,9 @@ entry(
     index = 6,
     label = "NH3_X + OH_X <=> NH2_X + H2O_X",
     kinetics = SurfaceArrhenius(
-        A = (1.82E22, 'cm^2/(mol*s)'), 
+        A = (1.82E22, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (70437.7, 'J/mol'),   
+        Ea = (70437.7, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -175,9 +175,9 @@ entry(
     index = 7,
     label = "NH2_X + OH_X <=> NH_X + H2O_X",
     kinetics = SurfaceArrhenius(
-        A = (5.58E21, 'cm^2/(mol*s)'), 
+        A = (5.58E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (73332.4, 'J/mol'),  
+        Ea = (73332.4, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -202,9 +202,9 @@ entry(
     index = 8,
     label = "NH_X + OH_X <=> N_X + H2O_X",
     kinetics = SurfaceArrhenius(
-        A = (2.19E21, 'cm^2/(mol*s)'), 
+        A = (2.19E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (41490.7, 'J/mol'),  
+        Ea = (41490.7, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -229,9 +229,9 @@ entry(
     index = 9,
     label = "OH_X + OH_X <=> O_X + H2O_X",
     kinetics = SurfaceArrhenius(
-        A = (1.15E20, 'cm^2/(mol*s)'),  
+        A = (1.15E20, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (71402.6, 'J/mol'),  
+        Ea = (71402.6, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -260,7 +260,7 @@ This is reaction (9) in Table S2
 #     kinetics = SurfaceArrhenius(
 #         A = (3.7E15, '1/s'),
 #         n = 0.0,
-#         Ea = (30876.8, 'J/mol'),  
+#         Ea = (30876.8, 'J/mol'),
 #         Tmin = (200, 'K'),
 #         Tmax = (3000, 'K'),
 #     ),
@@ -271,7 +271,7 @@ This is reaction (9) in Table S2
 # Journal of Catalysis 383 (2020) 322–330
 # https://doi.org/10.1016/j.jcat.2020.01.029
 #
-# A factor from Schneider_Pt211 library 
+# A factor from Schneider_Pt211 library
 #
 # Ea = 0.32eV = 30876.8J/mol
 #
@@ -287,7 +287,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (3.42E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (119647.6, 'J/mol'),  
+        Ea = (119647.6, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -312,9 +312,9 @@ entry(
     index = 12,
     label = "N_X + O_X <=> NO_X + X",
     kinetics = SurfaceArrhenius(
-        A = (3.09E21, 'cm^2/(mol*s)'),  
+        A = (3.09E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (82981.4, 'J/mol'),  
+        Ea = (82981.4, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -339,9 +339,9 @@ entry(
     index = 13,
     label = "NO_X <=> NO + X",
     kinetics = SurfaceArrhenius(
-        A = (6.55E13, '1/s'),  
+        A = (6.55E13, '1/s'),
         n = 0.0,
-        Ea = (225786.6, 'J/mol'),  
+        Ea = (225786.6, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -367,9 +367,9 @@ entry(
     index = 14,
     label = "N_X + NO_X <=> N2O_X + X",
     kinetics = SurfaceArrhenius(
-        A = (1.6E20, 'cm^2/(mol*s)'),   
+        A = (1.6E20, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (191050.2, 'J/mol'), 
+        Ea = (191050.2, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -396,7 +396,7 @@ entry(
     kinetics = SurfaceArrhenius(
         A = (1.5E13, '1/s'),
         n = 0.0,
-        Ea = (36666.2, 'J/mol'),  
+        Ea = (36666.2, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -422,7 +422,7 @@ entry(
     index = 16,
     label = "NH3_X + X <=> NH2_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (3.52E20, 'cm^2/(mol*s)'), 
+        A = (3.52E20, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (97454.9, 'J/mol'),
         Tmin = (200, 'K'),
@@ -448,7 +448,7 @@ entry(
     index = 17,
     label = "NH2_X + X <=> NH_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (3.19E21, 'cm^2/(mol*s)'), 
+        A = (3.19E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (152454.2, 'J/mol'),
         Tmin = (200, 'K'),
@@ -475,7 +475,7 @@ entry(
     index = 18,
     label = "NH_X + X <=> N_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (3.35E21, 'cm^2/(mol*s)'), 
+        A = (3.35E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (118682.7, 'J/mol'),
         Tmin = (200, 'K'),
@@ -502,7 +502,7 @@ entry(
     index = 19,
     label = "H_X + O_X <=> OH_X + X",
     kinetics = SurfaceArrhenius(
-        A = (1.18E21, 'cm^2/(mol*s)'), 
+        A = (1.18E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (123507.2, 'J/mol'),
         Tmin = (200, 'K'),
@@ -529,7 +529,7 @@ entry(
     index = 20,
     label = "H_X + OH_X <=> H2O_X + X",
     kinetics = SurfaceArrhenius(
-        A = (1.88E21, 'cm^2/(mol*s)'), 
+        A = (1.88E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (91665.5, 'J/mol'),
         Tmin = (200, 'K'),

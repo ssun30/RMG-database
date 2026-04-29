@@ -5,7 +5,7 @@ name = "Duan_Ni211"
 shortDesc = u""
 longDesc = u"""
 This library is built to import training reactions, based on:
-"Structure sensitivity of ammonia decomposition 
+"Structure sensitivity of ammonia decomposition
 over Ni catalysts: A computational and experimental study"
 Duan et al. Fuel Processing Technology 108 (2013) 112–117
 https://doi.org/10.1016/j.fuproc.2012.05.030
@@ -15,7 +15,7 @@ entry(
     index = 1,
     label = "NH3_X + X <=> NH2_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (5.52E19, 'cm^2/(mol*s)'), 
+        A = (5.52E19, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (63683.4, 'J/mol'),
         Tmin = (200, 'K'),
@@ -23,7 +23,7 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation_vdW""",
     longDesc = u"""
-"Structure sensitivity of ammonia decomposition 
+"Structure sensitivity of ammonia decomposition
 over Ni catalysts: A computational and experimental study"
 Duan et al. Fuel Processing Technology 108 (2013) 112–117
 https://doi.org/10.1016/j.fuproc.2012.05.030
@@ -44,7 +44,7 @@ entry(
     index = 2,
     label = "NH2_X + X <=> NH_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (2.31E20, 'cm^2/(mol*s)'), 
+        A = (2.31E20, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (86841, 'J/mol'),
         Tmin = (200, 'K'),
@@ -52,7 +52,7 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
-"Structure sensitivity of ammonia decomposition 
+"Structure sensitivity of ammonia decomposition
 over Ni catalysts: A computational and experimental study"
 Duan et al. Fuel Processing Technology 108 (2013) 112–117
 https://doi.org/10.1016/j.fuproc.2012.05.030
@@ -63,7 +63,7 @@ A = k/exp(-Ea/RT) = 4.91E6(1/s)/exp(-86841(J/mol)/8.314(J/mol/K)/873K) = 7.71E11
 
 Ea = 0.9eV = 86841J/mol
 
-This is reaction 2 from Table 2  
+This is reaction 2 from Table 2
 """,
     metal = "Ni",
     facet = "211",
@@ -73,7 +73,7 @@ entry(
     index = 3,
     label = "NH_X + X <=> N_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (3.36E21, 'cm^2/(mol*s)'), 
+        A = (3.36E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (100349.6, 'J/mol'),
         Tmin = (200, 'K'),
@@ -81,7 +81,7 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
-"Structure sensitivity of ammonia decomposition 
+"Structure sensitivity of ammonia decomposition
 over Ni catalysts: A computational and experimental study"
 Duan et al. Fuel Processing Technology 108 (2013) 112–117
 https://doi.org/10.1016/j.fuproc.2012.05.030
@@ -92,7 +92,7 @@ A = k/exp(-Ea/RT) = 1.11E7(1/s)/exp(-100349.6(J/mol)/8.314(J/mol/K)/873K) = 1.12
 
 Ea = 1.04eV = 100349.6J/mol
 
-This is reaction 3 from Table 2  
+This is reaction 3 from Table 2
 """,
     metal = "Ni",
     facet = "211",
@@ -102,15 +102,15 @@ entry(
     index = 4,
     label = "N_X + N_X <=> N2 + X + X",
     kinetics = SurfaceArrhenius(
-        A = (4.90E20, 'cm^2/(mol*s)'),  
+        A = (4.90E20, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (285610.4, 'J/mol'),  
+        Ea = (285610.4, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""N2 Surface_Adsorption_Dissociative""",
     longDesc = u"""
-"Structure sensitivity of ammonia decomposition 
+"Structure sensitivity of ammonia decomposition
 over Ni catalysts: A computational and experimental study"
 Duan et al. Fuel Processing Technology 108 (2013) 112–117
 https://doi.org/10.1016/j.fuproc.2012.05.030
@@ -121,7 +121,7 @@ A = k/exp(-Ea/RT) = 1.33E-5(1/s)/exp(-285610.4(J/mol)/8.314(J/mol/K)/873K) =  1.
 
 Ea = 2.96eV = 285610.4J/mol
 
-This is reaction 4 from Table 2   
+This is reaction 4 from Table 2
 """,
     metal = "Ni",
     facet = "211",

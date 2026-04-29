@@ -4,20 +4,20 @@
 name = "GRI-Mech 3.0"
 shortDesc = u"An optimized detailed reaction mechanism for natural gas combustion in flames and ignition."
 longDesc = u"""
-The thermodynamic and kinetic parameters in the GRI-Mech 3.0 mechanism have 
-been collectively estimated from literature search and then optimized to a set 
+The thermodynamic and kinetic parameters in the GRI-Mech 3.0 mechanism have
+been collectively estimated from literature search and then optimized to a set
 of representative experimental targets. For this reason you should generally
 use GRI-Mech in its entirety, and generally should not tweak any of its
 parameter values.
 
 GRI-Mech is the result of collaborative research of the Gas Research Institute
-and carried out at The University of California at Berkeley, Stanford 
+and carried out at The University of California at Berkeley, Stanford
 University, The University of Texas at Austin, and SRI International.
 """
 entry(
     index = 0,
     label = "O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -33,7 +33,7 @@ multiplicity 3
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -42,7 +42,7 @@ u"""
 entry(
     index = 1,
     label = "O2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -59,7 +59,7 @@ multiplicity 3
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -68,7 +68,7 @@ u"""
 entry(
     index = 2,
     label = "H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -84,7 +84,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -93,7 +93,7 @@ u"""
 entry(
     index = 3,
     label = "H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -109,7 +109,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -118,7 +118,7 @@ u"""
 entry(
     index = 4,
     label = "OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -135,7 +135,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -144,7 +144,7 @@ u"""
 entry(
     index = 5,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -161,7 +161,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -170,7 +170,7 @@ u"""
 entry(
     index = 6,
     label = "HO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -188,7 +188,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -197,7 +197,7 @@ u"""
 entry(
     index = 7,
     label = "H2O2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -215,7 +215,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -224,7 +224,7 @@ u"""
 entry(
     index = 8,
     label = "C(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p1 c0
@@ -240,7 +240,7 @@ multiplicity 3
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -249,7 +249,7 @@ u"""
 entry(
     index = 9,
     label = "CH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p1 c0 {2,S}
@@ -266,7 +266,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -275,7 +275,7 @@ u"""
 entry(
     index = 10,
     label = "CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -293,7 +293,7 @@ multiplicity 3
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -302,7 +302,7 @@ u"""
 entry(
     index = 11,
     label = "CH2(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -319,7 +319,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -328,7 +328,7 @@ u"""
 entry(
     index = 12,
     label = "CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -347,7 +347,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -356,7 +356,7 @@ u"""
 entry(
     index = 13,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -375,7 +375,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -384,7 +384,7 @@ u"""
 entry(
     index = 14,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
@@ -400,7 +400,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -409,7 +409,7 @@ u"""
 entry(
     index = 15,
     label = "CO2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -426,7 +426,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -435,7 +435,7 @@ u"""
 entry(
     index = 16,
     label = "HCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -453,7 +453,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -462,7 +462,7 @@ u"""
 entry(
     index = 17,
     label = "CH2O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -480,7 +480,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -489,7 +489,7 @@ u"""
 entry(
     index = 18,
     label = "CH2OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -509,7 +509,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -518,7 +518,7 @@ u"""
 entry(
     index = 19,
     label = "CH3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -538,7 +538,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required
@@ -551,7 +551,7 @@ to 298K.
 entry(
     index = 20,
     label = "CH3OH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -571,7 +571,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -580,7 +580,7 @@ u"""
 entry(
     index = 21,
     label = "C2H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,T}
@@ -598,7 +598,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -607,7 +607,7 @@ u"""
 entry(
     index = 22,
     label = "C2H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -625,7 +625,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -634,7 +634,7 @@ u"""
 entry(
     index = 23,
     label = "C2H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -654,7 +654,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -663,7 +663,7 @@ u"""
 entry(
     index = 24,
     label = "C2H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -683,7 +683,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -692,7 +692,7 @@ u"""
 entry(
     index = 25,
     label = "C2H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -714,7 +714,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -723,7 +723,7 @@ u"""
 entry(
     index = 26,
     label = "C2H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -745,7 +745,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -754,7 +754,7 @@ u"""
 entry(
     index = 27,
     label = "CH2CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,D}
@@ -773,7 +773,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -782,7 +782,7 @@ u"""
 entry(
     index = 28,
     label = "HCCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {4,S}
@@ -801,7 +801,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required
@@ -814,7 +814,7 @@ to 298K.
 entry(
     index = 29,
     label = "HCCOH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -833,7 +833,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required
@@ -846,7 +846,7 @@ to 298K.
 entry(
     index = 30,
     label = "H2CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -865,7 +865,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required
@@ -878,7 +878,7 @@ to 298K.
 entry(
     index = 31,
     label = "HCN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 N u0 p1 c0 {1,T}
@@ -895,7 +895,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -904,7 +904,7 @@ u"""
 entry(
     index = 32,
     label = "HNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 O u0 p2 c0 {1,D}
@@ -921,7 +921,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -930,7 +930,7 @@ u"""
 entry(
     index = 33,
     label = "N",
-    molecule = 
+    molecule =
 """
 multiplicity 4
 1 N u3 p1 c0
@@ -946,7 +946,7 @@ multiplicity 4
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -955,7 +955,7 @@ u"""
 entry(
     index = 34,
     label = "NNH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -973,7 +973,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -982,7 +982,7 @@ u"""
 entry(
     index = 35,
     label = "N2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 N u0 p0 c+1 {1,D} {3,D}
@@ -999,7 +999,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1008,7 +1008,7 @@ u"""
 entry(
     index = 36,
     label = "NH",
-    molecule = 
+    molecule =
 """
 1 N u2 p1 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -1024,7 +1024,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1033,7 +1033,7 @@ u"""
 entry(
     index = 37,
     label = "NH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,S} {3,S}
@@ -1051,7 +1051,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1060,7 +1060,7 @@ u"""
 entry(
     index = 38,
     label = "NH3",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 H u0 p0 c0 {1,S}
@@ -1078,7 +1078,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1087,7 +1087,7 @@ u"""
 entry(
     index = 39,
     label = "NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -1104,7 +1104,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1113,7 +1113,7 @@ u"""
 entry(
     index = 40,
     label = "NO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,D} {3,S}
@@ -1131,7 +1131,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1140,7 +1140,7 @@ u"""
 entry(
     index = 41,
     label = "HCNO",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u1 p0 c0 {2,D} {4,S}
@@ -1159,7 +1159,7 @@ multiplicity 3
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required
@@ -1172,7 +1172,7 @@ to 298K.
 entry(
     index = 42,
     label = "HOCN",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {4,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -1190,7 +1190,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required
@@ -1203,7 +1203,7 @@ to 298K.
 entry(
     index = 43,
     label = "HNCO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {4,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -1221,7 +1221,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required
@@ -1234,7 +1234,7 @@ to 298K.
 entry(
     index = 44,
     label = "NCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -1252,7 +1252,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1261,7 +1261,7 @@ u"""
 entry(
     index = 45,
     label = "CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,T}
@@ -1278,7 +1278,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1287,7 +1287,7 @@ u"""
 entry(
     index = 46,
     label = "HCNN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p1 c0 {2,S} {4,S}
@@ -1306,7 +1306,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required
@@ -1319,7 +1319,7 @@ to 298K.
 entry(
     index = 47,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -1335,7 +1335,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required
@@ -1348,7 +1348,7 @@ to 298K.
 entry(
     index = 48,
     label = "Ar",
-    molecule = 
+    molecule =
 """
 1 Ar u0 p4 c0
 """,
@@ -1363,7 +1363,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required
@@ -1376,7 +1376,7 @@ to 298K.
 entry(
     index = 49,
     label = "C3H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -1401,7 +1401,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required
@@ -1414,7 +1414,7 @@ to 298K.
 entry(
     index = 50,
     label = "C3H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {4,S} {5,S}
@@ -1439,7 +1439,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required
@@ -1452,7 +1452,7 @@ to 298K.
 entry(
     index = 51,
     label = "CH3CHO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -1473,7 +1473,7 @@ entry(
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1482,7 +1482,7 @@ u"""
 entry(
     index = 52,
     label = "CH2CHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {4,S} {5,S}
@@ -1503,7 +1503,7 @@ multiplicity 2
     reference = Reference(authors=['G. P. Smith', 'D. M. Golden', 'M. Frenklach', 'N. W. Moriarty', 'B. Eiteneer', 'M. Goldenberg', 'C. T. Bowman', 'R. K. Hanson', 'S. Song', 'W. C. Gardiner, Jr.', 'V. V. Lissianski', 'Z. Qin.'], title='GRI-Mech 3.0.', year='1999', url='http://www.me.berkeley.edu/gri-mech/version30/text30.html'),
     referenceType = "review",
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
 This prevents it from being used to evaluate the standard properties at 298K as required

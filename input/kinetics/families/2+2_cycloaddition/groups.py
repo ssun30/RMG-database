@@ -26,7 +26,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *1 [Cd,Cdd,CO,CS]         u0 {2,D}
 2 *2 [Cd,Cdd,CO,CS,O2d,S2d] u0 {1,D}
@@ -39,7 +39,7 @@ entry(
 entry(
     index = 1,
     label = "Root_1COCSCdCdd->Cd",
-    group = 
+    group =
 """
 1 *1 Cd                  u0 {2,D}
 2 *2 Cd                  u0 {1,D}
@@ -52,7 +52,7 @@ entry(
 entry(
     index = 2,
     label = "Root_1COCSCdCdd->Cd_3COCSCdCdd->CO",
-    group = 
+    group =
 """
 1 *1 Cd  u0 r0 {2,D}
 2 *2 Cd  u0 r0 {1,D}
@@ -65,7 +65,7 @@ entry(
 entry(
     index = 3,
     label = "Root_1COCSCdCdd->Cd_N-3COCSCdCdd->CO",
-    group = 
+    group =
 """
 1 *1 Cd                  u0 {2,D}
 2 *2 Cd                  u0 {1,D}
@@ -78,7 +78,7 @@ entry(
 entry(
     index = 4,
     label = "Root_1COCSCdCdd->Cd_N-3COCSCdCdd->CO_3CSCd->Cd",
-    group = 
+    group =
 """
 1 *1 Cd                  u0 r0 {2,D}
 2 *2 Cd                  u0 r0 {1,D}
@@ -91,7 +91,7 @@ entry(
 entry(
     index = 5,
     label = "Root_1COCSCdCdd->Cd_N-3COCSCdCdd->CO_N-3CSCd->Cd",
-    group = 
+    group =
 """
 1 *1 Cd                  u0 r0 {2,D}
 2 *2 Cd                  u0 r0 {1,D}
@@ -104,7 +104,7 @@ entry(
 entry(
     index = 6,
     label = "Root_N-1COCSCdCdd->Cd",
-    group = 
+    group =
 """
 1 *1 [CO,Cdd,CS]            u0 r0 {2,D}
 2 *2 [Cd,Cdd,CO,CS,O2d,S2d] u0 r0 {1,D}
@@ -128,7 +128,7 @@ L1: Root
 
 forbidden(
     label = "benzene_db",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,D} {6,S}
 2 *2 Cd u0 {1,D} {3,S}
@@ -138,7 +138,7 @@ forbidden(
 6    Cd ux {1,S} {5,D}
 """,
     shortDesc = """Benzene doublebond *1 *2""",
-    longDesc = 
+    longDesc =
 """
 Banning the doublebond within Benzene from reacting in 2+2 cycloaddition.
 """,
@@ -146,7 +146,7 @@ Banning the doublebond within Benzene from reacting in 2+2 cycloaddition.
 
 forbidden(
     label = "benzene_doublebond",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {6,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -156,7 +156,7 @@ forbidden(
 6    Cd ux {1,S} {5,D}
 """,
     shortDesc = """Benzene doublebond *3 *4""",
-    longDesc = 
+    longDesc =
 """
 Banning the doublebond within Benzene from reacting in 2+2 cycloaddition.
 """,
@@ -164,7 +164,7 @@ Banning the doublebond within Benzene from reacting in 2+2 cycloaddition.
 
 forbidden(
     label = "2+2_cycloaddition_CdCd_product",
-    group = 
+    group =
 """
 1  *4 C u0 p0 c0 {2,S} {3,S}
 2  *3 C u0 p0 c0 {1,S} {4,S}
@@ -172,7 +172,7 @@ forbidden(
 4  *1 C u0 p0 c0 {2,S} {3,S}
 """,
     shortDesc = """2+2_cycloaddition_CdCd""",
-    longDesc = 
+    longDesc =
 """
 Banning the 2pi + 2pi cycloaddition, as it is thermally forbidden
 """
@@ -180,7 +180,7 @@ Banning the 2pi + 2pi cycloaddition, as it is thermally forbidden
 
 forbidden(
     label = "2+2_cycloaddition_CdCd_reactant",
-    group = 
+    group =
 """
 1  *4 Cd u0 p0 c0 {2,D}
 2  *3 Cd u0 p0 c0 {1,D}
@@ -188,7 +188,7 @@ forbidden(
 4  *1 Cd u0 p0 c0 {3,D}
 """,
     shortDesc = """2+2_cycloaddition_CdCd""",
-    longDesc = 
+    longDesc =
 """
 Banning the 2pi + 2pi cycloaddition, as it is thermally forbidden
 """

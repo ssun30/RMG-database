@@ -4,28 +4,28 @@
 name = "Spiekermann_refining_elementary_reactions"
 shortDesc = "Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann."
 longDesc = """
-This library is made by Kevin Spiekermann and contains the thermochemistry for a subset of the species from 
-Spiekermann, K. A.; Pattanaik, L.; Green, W. H. 
+This library is made by Kevin Spiekermann and contains the thermochemistry for a subset of the species from
+Spiekermann, K. A.; Pattanaik, L.; Green, W. H.
 High accuracy barrier heights, enthalpies, and rate coefficients for chemical reactions.
 Sci. data 9, 1-12 (2022).
 https://www.nature.com/articles/s41597-022-01529-6
 
-This published work reports nearly 12,000 reactions, with over 1,000 reactions matching RMG templates. 
+This published work reports nearly 12,000 reactions, with over 1,000 reactions matching RMG templates.
 The species included in this file represent a subset of the species participating in these RMG reactions.
 All species were calculated with multiplicity 1 and charge 0 using CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP i.e.
 Optimization and frequency calculations were done at wB97X-D3/def2-TZVP with QChem.
 High level single point calculations were done with CCSD(T)-F12a/cc-pVDZ-F12 with MOLPRO.
 
-Many of the geometry optimizations and frequency calculations were originally done by Grambow et al. in 
-Grambow, C. A., Pattanaik, L. & Green, W. H. 
+Many of the geometry optimizations and frequency calculations were originally done by Grambow et al. in
+Grambow, C. A., Pattanaik, L. & Green, W. H.
 Reactants, products, and transition states of elementary chemical reactions based on quantum chemistry.
 Sci. data 7, 1–8 (2020).
 https://www.nature.com/articles/s41597-020-0460-4
 
-Note that neither the published work from Spiekermann et al. nor from Grambow et al. included a systematic conformer search. 
+Note that neither the published work from Spiekermann et al. nor from Grambow et al. included a systematic conformer search.
 Here, a thorough conformer search was done for all species included in this file, so many values are an improvement from those in the originally published work.
-If the species has rotatable bonds, a conformer search was done with the Automated Conformer Search (ACS) software developed by Oscar Wu and Xiaorui Dong and modified by Kevin Spiekermann (qchem branch). 
-The lowest energy conformer was then used when calculating thermochemistry values. 
+If the species has rotatable bonds, a conformer search was done with the Automated Conformer Search (ACS) software developed by Oscar Wu and Xiaorui Dong and modified by Kevin Spiekermann (qchem branch).
+The lowest energy conformer was then used when calculating thermochemistry values.
 Although transition states are not included in this file, a conformer search was done on the TS as well since this is relevant for the kinetics of the training reactions added to the corresponding reaction families.
 Species were chosen so that ring conformers did not need to be explored i.e. any rings present in a species are planar (either aromatic or 3-membered).
 The relevant settings in ACS were:
@@ -44,7 +44,7 @@ Disclaimer: The number of significant figures displayed does not reflect the acc
 After fitting the Petersson BACs, the enthalpy values at the coupled cluster level have an MAE (RMSE) of 0.52 (0.83) kcal/mol relative to our reference set.
 These values are similar to those from other published works:
 - Bischoff, F. A., Wolfsegger, S., Tew, D. P. & Klopper, W. Assessment of basis sets for f12 explicitly-correlated molecular electronic-structure methodfs. Mol. Phys. 107, 963–975 (2009).
-- Knizia, G., Adler, T. B. & Werner, H.-J. Simplified ccsd (t)-f12 methods: Theory and benchmarks. The J. chemical physics 130, 054104 (2009). 
+- Knizia, G., Adler, T. B. & Werner, H.-J. Simplified ccsd (t)-f12 methods: Theory and benchmarks. The J. chemical physics 130, 054104 (2009).
 - Adler, T. B., Knizia, G. & Werner, H.-J. A simple and efficient ccsd(t)-f12 approximation (2007).
 - Pfeiffer, F., Rauhut, G., Feller, D. & Peterson, K. A. Anharmonic zero point vibrational energies: Tipping the scales in accurate thermochemistry calculations? The J. chemical physics 138, 044311 (2013).
 - Shang, Y., Ning, H., Shi, J., Wang, H. & Luo, S.-N. Chemical kinetics of h-abstractions from dimethyl amine by h, ch 3, oh, and ho 2 radicals with multi-structural torsional anharmonicity. Phys. Chem. Chem. Phys. 21, 12685–12696 (2019).
@@ -52,7 +52,7 @@ These values are similar to those from other published works:
 entry(
     index = 0,
     label = "p000017",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,D}
 2 N u0 p1 c0 {5,S} {6,S} {7,S}
@@ -76,7 +76,7 @@ entry(
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -85,7 +85,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 1,
     label = "p000049",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {12,S}
 2  N u0 p1 c0 {4,S} {5,D}
@@ -112,7 +112,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -121,7 +121,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 2,
     label = "p000208",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {4,S}
 2 O u0 p2 c0 {5,S} {9,S}
@@ -145,7 +145,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -154,7 +154,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 3,
     label = "p000314",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {6,S}
 2 O u0 p2 c0 {4,D}
@@ -178,7 +178,7 @@ entry(
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -187,7 +187,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 4,
     label = "p000399",
-    molecule = 
+    molecule =
 """
 1 O u0 p3 c-1 {6,S}
 2 N u0 p0 c+1 {5,D} {6,S} {8,S}
@@ -211,7 +211,7 @@ entry(
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -220,7 +220,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 5,
     label = "p000401",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,D}
 2 N u0 p1 c0 {3,S} {5,S} {7,S}
@@ -244,7 +244,7 @@ entry(
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -253,7 +253,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 6,
     label = "p000634",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {10,S}
 2  N u0 p1 c0 {3,S} {4,D}
@@ -279,7 +279,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -288,7 +288,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 7,
     label = "p000721",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {11,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -315,7 +315,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -324,7 +324,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 8,
     label = "p000726",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {11,S}
 2  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
@@ -351,7 +351,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -360,7 +360,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 9,
     label = "p000744",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {11,S}
 2  N u0 p1 c0 {6,T}
@@ -386,7 +386,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -395,7 +395,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 10,
     label = "p000813",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {6,S}
 2  O u0 p2 c0 {6,S} {12,S}
@@ -423,7 +423,7 @@ entry(
         CpInf = (291.007,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -432,7 +432,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 11,
     label = "p000842",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,D}
 2  N u0 p1 c0 {1,D} {3,S}
@@ -459,7 +459,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -468,7 +468,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 12,
     label = "p001050",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {5,S}
 2  O u0 p2 c0 {6,S} {12,S}
@@ -495,7 +495,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -504,7 +504,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 13,
     label = "p001085",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {9,S}
 2  O u0 p2 c0 {6,D}
@@ -529,7 +529,7 @@ entry(
         CpInf = (220.334,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -538,7 +538,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 14,
     label = "p001088",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {6,S}
 2  O u0 p2 c0 {6,D}
@@ -563,7 +563,7 @@ entry(
         CpInf = (220.334,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -572,7 +572,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 15,
     label = "p001089",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {10,S}
 2  O u0 p2 c0 {5,D}
@@ -597,7 +597,7 @@ entry(
         CpInf = (220.334,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -606,7 +606,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 16,
     label = "p001091_0",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 N u0 p1 c0 {3,D} {4,S}
@@ -625,7 +625,7 @@ entry(
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -634,7 +634,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 17,
     label = "p001091_1",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {5,S}
 2 N u0 p1 c0 {3,D} {6,S}
@@ -655,7 +655,7 @@ entry(
         CpInf = (128.874,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -664,7 +664,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 18,
     label = "p001147",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {13,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -692,7 +692,7 @@ entry(
         CpInf = (295.164,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -701,7 +701,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 19,
     label = "p001169",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {7,S}
 2 O u0 p2 c0 {5,D}
@@ -724,7 +724,7 @@ entry(
         CpInf = (174.604,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -733,7 +733,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 20,
     label = "p001235",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -756,7 +756,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -765,7 +765,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 21,
     label = "p001357",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {15,S}
 2  N u0 p1 c0 {3,S} {6,D}
@@ -795,7 +795,7 @@ entry(
         CpInf = (340.893,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -804,7 +804,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 22,
     label = "p001387",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {14,S}
 2  C u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
@@ -833,7 +833,7 @@ entry(
         CpInf = (324.264,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -842,7 +842,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 23,
     label = "p001388",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {14,S}
 2  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
@@ -871,7 +871,7 @@ entry(
         CpInf = (324.264,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -880,7 +880,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 24,
     label = "p001614",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {11,S}
 2  O u0 p2 c0 {5,D}
@@ -906,7 +906,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -915,7 +915,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 25,
     label = "p001615",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {11,S}
 2  O u0 p2 c0 {6,D}
@@ -941,7 +941,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -950,7 +950,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 26,
     label = "p001627",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {5,S}
 2  O u0 p2 c0 {6,S} {10,S}
@@ -976,7 +976,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -985,7 +985,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 27,
     label = "p001956_0",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {5,S}
 2 C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -1005,7 +1005,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1014,7 +1014,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 28,
     label = "p001958",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,D}
 2 O u0 p2 c0 {5,D}
@@ -1037,7 +1037,7 @@ entry(
         CpInf = (174.604,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1046,7 +1046,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 29,
     label = "p002203",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {13,S}
 2  N u0 p1 c0 {3,S} {5,S} {12,S}
@@ -1074,7 +1074,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1083,7 +1083,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 30,
     label = "p002204",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {13,S}
 2  N u0 p1 c0 {3,S} {4,S} {10,S}
@@ -1111,7 +1111,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1120,7 +1120,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 31,
     label = "p002312",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {13,S}
 2  N u0 p1 c0 {3,S} {6,D}
@@ -1148,7 +1148,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1157,7 +1157,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 32,
     label = "p002395_0",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
@@ -1180,7 +1180,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1189,7 +1189,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 33,
     label = "p002513",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {5,S}
 2 O u0 p2 c0 {6,D}
@@ -1211,7 +1211,7 @@ entry(
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1220,7 +1220,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 34,
     label = "p002594",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {5,S}
 2  O u0 p2 c0 {5,S} {9,S}
@@ -1245,7 +1245,7 @@ entry(
         CpInf = (220.334,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1254,7 +1254,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 35,
     label = "p002675",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {11,S}
 2  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
@@ -1280,7 +1280,7 @@ entry(
         CpInf = (253.591,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1289,7 +1289,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 36,
     label = "p002689",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {11,S}
 2  N u0 p1 c0 {6,T}
@@ -1315,7 +1315,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1324,7 +1324,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 37,
     label = "p002760",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {9,S}
 2 O u0 p2 c0 {5,D}
@@ -1348,7 +1348,7 @@ entry(
         CpInf = (199.547,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1357,7 +1357,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 38,
     label = "p002774",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,D}
 2 N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -1379,7 +1379,7 @@ entry(
         CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1388,7 +1388,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 39,
     label = "p002801",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {5,S}
 2  O u0 p2 c0 {6,S} {12,S}
@@ -1415,7 +1415,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1424,7 +1424,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 40,
     label = "p002874",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {8,S}
 2 C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -1448,7 +1448,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1457,7 +1457,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 41,
     label = "p002881",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {12,S}
 2  O u0 p2 c0 {4,D}
@@ -1484,7 +1484,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1493,7 +1493,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 42,
     label = "p003070",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {9,S}
 2  N u0 p1 c0 {5,D} {10,S}
@@ -1518,7 +1518,7 @@ entry(
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1527,7 +1527,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 43,
     label = "p003183",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {6,S}
 2 N u0 p1 c0 {3,D} {7,S}
@@ -1550,7 +1550,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1559,7 +1559,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 44,
     label = "p003195",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {10,S}
 2  O u0 p2 c0 {5,S} {9,S}
@@ -1584,7 +1584,7 @@ entry(
         CpInf = (220.334,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1593,7 +1593,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 45,
     label = "p003323",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {8,S}
 2 N u0 p1 c0 {5,T}
@@ -1616,7 +1616,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1625,7 +1625,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 46,
     label = "p003344",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {11,S}
 2  N u0 p1 c0 {5,S} {9,S} {10,S}
@@ -1651,7 +1651,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1660,7 +1660,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 47,
     label = "p003346",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {10,S}
 2  N u0 p1 c0 {4,S} {5,S} {9,S}
@@ -1686,7 +1686,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1695,7 +1695,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 48,
     label = "p003348",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -1717,7 +1717,7 @@ entry(
         CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1726,7 +1726,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 49,
     label = "p003431",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {11,S}
 2  O u0 p2 c0 {5,D}
@@ -1752,7 +1752,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1761,7 +1761,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 50,
     label = "p003437",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {12,S}
 2  N u0 p1 c0 {6,D} {13,S}
@@ -1789,7 +1789,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1798,7 +1798,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 51,
     label = "p003440",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {13,S}
 2  N u0 p1 c0 {6,S} {11,S} {12,S}
@@ -1826,7 +1826,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1835,7 +1835,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 52,
     label = "p003454",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {11,S}
 2  N u0 p1 c0 {4,S} {5,S} {6,S}
@@ -1862,7 +1862,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1871,7 +1871,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 53,
     label = "p003718",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {12,S}
 2  C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
@@ -1898,7 +1898,7 @@ entry(
         CpInf = (278.535,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1907,7 +1907,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 54,
     label = "p003937",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {10,S}
 2  N u0 p1 c0 {4,S} {5,D}
@@ -1932,7 +1932,7 @@ entry(
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1941,7 +1941,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 55,
     label = "p003958",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {15,S}
 2  N u0 p1 c0 {4,S} {6,D}
@@ -1971,7 +1971,7 @@ entry(
         CpInf = (340.893,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -1980,7 +1980,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 54,
     label = "p004006",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {6,D}
 2 N u0 p1 c0 {5,S} {6,S} {7,S}
@@ -2003,7 +2003,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2012,7 +2012,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 57,
     label = "p004007",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {6,D}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -2035,7 +2035,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2044,7 +2044,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 58,
     label = "p004142",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {5,D} {9,S}
@@ -2068,7 +2068,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2077,7 +2077,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 59,
     label = "p004295",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,D}
 2  N u0 p1 c0 {4,S} {5,S} {7,S}
@@ -2102,7 +2102,7 @@ entry(
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2111,7 +2111,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 60,
     label = "p004414",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {11,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -2138,7 +2138,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2147,7 +2147,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 61,
     label = "p004467",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {11,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -2174,7 +2174,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2183,7 +2183,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 62,
     label = "p004505",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {11,S}
 2  N u0 p1 c0 {6,T}
@@ -2209,7 +2209,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2218,7 +2218,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 63,
     label = "p004547",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {13,S}
 2  N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -2246,7 +2246,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2255,7 +2255,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 64,
     label = "p004625",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,S} {9,S}
 2 N u0 p1 c0 {5,S} {6,S} {7,S}
@@ -2279,7 +2279,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2288,7 +2288,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 65,
     label = "p004630_0",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -2309,7 +2309,7 @@ entry(
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2318,7 +2318,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 66,
     label = "p004630_1",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {6,S}
 2  C u0 p0 c0 {1,S} {4,D} {5,S}
@@ -2343,7 +2343,7 @@ entry(
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2352,7 +2352,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 67,
     label = "p004643",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {8,S}
 2 N u0 p1 c0 {5,T}
@@ -2375,7 +2375,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2384,7 +2384,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 68,
     label = "p004717",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {6,S}
 2 O u0 p2 c0 {5,D}
@@ -2407,7 +2407,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2416,7 +2416,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 69,
     label = "p004719",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {6,S}
 2 O u0 p3 c-1 {5,S}
@@ -2439,7 +2439,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2448,7 +2448,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 70,
     label = "p004749",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {9,S}
 2  N u0 p1 c0 {5,S} {6,S} {7,S}
@@ -2474,7 +2474,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2483,7 +2483,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 71,
     label = "p004778",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {12,S}
 2  N u0 p1 c0 {3,S} {4,S} {9,S}
@@ -2510,7 +2510,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2519,7 +2519,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 72,
     label = "p004794",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {15,S}
 2  N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -2549,7 +2549,7 @@ entry(
         CpInf = (340.893,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2558,7 +2558,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 73,
     label = "p004852",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {12,S}
 2  O u0 p2 c0 {6,D}
@@ -2585,7 +2585,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2594,7 +2594,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 74,
     label = "p005032",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {8,S}
 2 O u0 p2 c0 {5,D}
@@ -2617,7 +2617,7 @@ entry(
         CpInf = (174.604,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2626,7 +2626,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 75,
     label = "p005102",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,D}
 2 N u0 p1 c0 {3,S} {5,S} {7,S}
@@ -2650,7 +2650,7 @@ entry(
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2659,7 +2659,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 76,
     label = "p005118",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {6,S}
 2  O u0 p2 c0 {6,S} {13,S}
@@ -2687,7 +2687,7 @@ entry(
         CpInf = (291.007,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2696,7 +2696,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 77,
     label = "p005148",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {5,S}
 2 O u0 p2 c0 {5,S} {8,S}
@@ -2719,7 +2719,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2728,7 +2728,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 78,
     label = "p005196",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {10,S}
 2  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -2753,7 +2753,7 @@ entry(
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2762,7 +2762,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 79,
     label = "p005308",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {14,S}
 2  N u0 p1 c0 {4,S} {6,S} {13,S}
@@ -2791,7 +2791,7 @@ entry(
         CpInf = (315.95,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2800,7 +2800,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 80,
     label = "p005356",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {11,S}
 2  O u0 p2 c0 {6,S} {12,S}
@@ -2827,7 +2827,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2836,7 +2836,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 81,
     label = "p005432",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {9,S}
 2  O u0 p2 c0 {5,D}
@@ -2861,7 +2861,7 @@ entry(
         CpInf = (220.334,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2870,7 +2870,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 82,
     label = "p005491",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {10,S}
 2  N u0 p1 c0 {3,S} {4,S} {8,S}
@@ -2895,7 +2895,7 @@ entry(
         CpInf = (228.648,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2904,7 +2904,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 83,
     label = "p005546",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,D}
 2  N u0 p1 c0 {3,S} {4,S} {7,S}
@@ -2929,7 +2929,7 @@ entry(
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2938,7 +2938,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 84,
     label = "p005588",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,S} {8,S}
 2 N u0 p1 c0 {4,S} {5,D}
@@ -2962,7 +2962,7 @@ entry(
         CpInf = (199.547,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2971,7 +2971,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 85,
     label = "p005591_0",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -2989,7 +2989,7 @@ entry(
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -2998,7 +2998,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 86,
     label = "p005763",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,D}
 2 N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -3021,7 +3021,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3030,7 +3030,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 87,
     label = "p005826",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {7,S}
 2 N u0 p1 c0 {4,S} {5,S} {6,S}
@@ -3053,7 +3053,7 @@ entry(
         CpInf = (174.604,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3062,7 +3062,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 88,
     label = "p005998",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {13,S}
 2  N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -3090,7 +3090,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3099,7 +3099,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 89,
     label = "p006089",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {13,S}
 2  N u0 p1 c0 {3,S} {5,S} {11,S}
@@ -3127,7 +3127,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3136,7 +3136,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 90,
     label = "p006263",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {14,S}
 2  C u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
@@ -3165,7 +3165,7 @@ entry(
         CpInf = (324.264,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3174,7 +3174,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 91,
     label = "p006320",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {6,S}
 2 O u0 p2 c0 {4,S} {9,S}
@@ -3198,7 +3198,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3207,7 +3207,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 92,
     label = "p006396",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {6,S}
 2  O u0 p2 c0 {4,S} {7,S}
@@ -3237,7 +3237,7 @@ entry(
         CpInf = (336.736,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3246,7 +3246,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 93,
     label = "p006798",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {12,S}
 2  O u0 p2 c0 {7,D}
@@ -3273,7 +3273,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3282,7 +3282,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 94,
     label = "p007269",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {4,S} {5,S} {6,S}
 2  N u0 p1 c0 {6,D} {10,S}
@@ -3307,7 +3307,7 @@ entry(
         CpInf = (228.648,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3316,7 +3316,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 95,
     label = "p007773",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,S} {12,S}
 2  N u0 p1 c0 {4,S} {7,S} {11,S}
@@ -3343,7 +3343,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3352,7 +3352,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 96,
     label = "p007777",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,S} {12,S}
 2  N u0 p1 c0 {6,S} {7,S} {11,S}
@@ -3379,7 +3379,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3388,7 +3388,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 97,
     label = "p007945",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  N u0 p1 c0 {5,S} {7,S} {8,S}
@@ -3413,7 +3413,7 @@ entry(
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3422,7 +3422,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 98,
     label = "p008426_1",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {11,S}
 2  C u0 p0 c0 {3,S} {4,D} {7,S}
@@ -3448,7 +3448,7 @@ entry(
         CpInf = (257.749,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3457,7 +3457,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 99,
     label = "p008828",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,D}
 2  N u0 p1 c0 {3,S} {5,S} {13,S}
@@ -3485,7 +3485,7 @@ entry(
         CpInf = (303.478,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3494,7 +3494,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 100,
     label = "p009289",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {14,S}
 2  C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
@@ -3524,7 +3524,7 @@ entry(
         CpInf = (345.051,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3533,7 +3533,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 101,
     label = "p009379",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {9,S}
 2  N u0 p1 c0 {6,T}
@@ -3558,7 +3558,7 @@ entry(
         CpInf = (228.648,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3567,7 +3567,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 102,
     label = "p009513",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {7,S}
 2  O u0 p2 c0 {7,D}
@@ -3594,7 +3594,7 @@ entry(
         CpInf = (278.535,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3603,7 +3603,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 103,
     label = "p009772",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {12,S}
 2  O u0 p2 c0 {5,S} {13,S}
@@ -3631,7 +3631,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3640,7 +3640,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 104,
     label = "p009945",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {11,S}
 2  O u0 p2 c0 {5,D}
@@ -3666,7 +3666,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3675,7 +3675,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 105,
     label = "p010048_0",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {4,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
@@ -3703,7 +3703,7 @@ entry(
         CpInf = (295.164,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3712,7 +3712,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 106,
     label = "p010048_1",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 O u0 p2 c0 {3,D}
@@ -3730,7 +3730,7 @@ entry(
         CpInf = (54.0441,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3739,7 +3739,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 107,
     label = "p010345",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,S} {14,S}
 2  N u0 p1 c0 {4,S} {5,S} {13,S}
@@ -3769,7 +3769,7 @@ entry(
         CpInf = (345.051,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3778,7 +3778,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 108,
     label = "p010419",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,D}
 2  N u0 p1 c0 {5,S} {7,S} {13,S}
@@ -3806,7 +3806,7 @@ entry(
         CpInf = (303.478,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3815,7 +3815,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 109,
     label = "p010564",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {5,S}
 2  O u0 p2 c0 {7,S} {13,S}
@@ -3844,7 +3844,7 @@ entry(
         CpInf = (320.107,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3853,7 +3853,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 110,
     label = "p011399",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {7,S}
 2  O u0 p2 c0 {7,S} {10,S}
@@ -3878,7 +3878,7 @@ entry(
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3887,7 +3887,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 111,
     label = "p011443",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,D}
 2  N u0 p1 c0 {6,S} {7,S} {8,S}
@@ -3913,7 +3913,7 @@ entry(
         CpInf = (253.591,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3922,7 +3922,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 112,
     label = "p011506",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,D}
 2  N u0 p1 c0 {4,S} {5,S} {8,S}
@@ -3948,7 +3948,7 @@ entry(
         CpInf = (257.749,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3957,7 +3957,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 113,
     label = "p011937",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,D}
 2  N u0 p1 c0 {5,S} {7,S} {10,S}
@@ -3984,7 +3984,7 @@ entry(
         CpInf = (278.535,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -3993,7 +3993,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 114,
     label = "r000017",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,S} {9,S}
 2 N u0 p1 c0 {4,S} {5,S} {7,S}
@@ -4017,7 +4017,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4026,7 +4026,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 115,
     label = "r000049",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  N u0 p1 c0 {5,S} {6,S} {10,S}
@@ -4053,7 +4053,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4062,7 +4062,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 116,
     label = "r000208",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {4,S}
 2 O u0 p2 c0 {5,D}
@@ -4086,7 +4086,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4095,7 +4095,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 117,
     label = "r000314",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {6,S}
 2 O u0 p2 c0 {4,S} {9,S}
@@ -4119,7 +4119,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4128,7 +4128,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 118,
     label = "r000399",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,S} {9,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -4152,7 +4152,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4161,7 +4161,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 119,
     label = "r000634",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,D}
 2  N u0 p1 c0 {3,S} {4,S} {9,S}
@@ -4187,7 +4187,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4196,7 +4196,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 120,
     label = "r000721",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,D}
 2  C u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
@@ -4223,7 +4223,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4232,7 +4232,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 121,
     label = "r000744",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  N u0 p1 c0 {6,T}
@@ -4258,7 +4258,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4267,7 +4267,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 122,
     label = "r000813",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {6,S}
 2  O u0 p2 c0 {6,D}
@@ -4295,7 +4295,7 @@ entry(
         CpInf = (291.007,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4304,7 +4304,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 123,
     label = "r000842",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {12,S}
 2  N u0 p1 c0 {1,S} {5,D}
@@ -4331,7 +4331,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4340,7 +4340,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 124,
     label = "r001050",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {4,S}
 2  O u0 p2 c0 {6,D}
@@ -4367,7 +4367,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4376,7 +4376,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 125,
     label = "r001085",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  O u0 p2 c0 {6,D}
@@ -4401,7 +4401,7 @@ entry(
         CpInf = (220.334,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4410,7 +4410,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 126,
     label = "r001147",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -4438,7 +4438,7 @@ entry(
         CpInf = (295.164,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4447,7 +4447,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 127,
     label = "r001169",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,D}
 2 O u0 p2 c0 {5,D}
@@ -4470,7 +4470,7 @@ entry(
         CpInf = (174.604,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4479,7 +4479,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 128,
     label = "r001235",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {3,S} {4,D}
@@ -4502,7 +4502,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4511,7 +4511,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 129,
     label = "r001357",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  N u0 p1 c0 {3,S} {6,S} {14,S}
@@ -4541,7 +4541,7 @@ entry(
         CpInf = (340.893,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4550,7 +4550,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 130,
     label = "r001387",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
@@ -4579,7 +4579,7 @@ entry(
         CpInf = (324.264,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4588,7 +4588,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 131,
     label = "r001614",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  O u0 p2 c0 {6,D}
@@ -4614,7 +4614,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4623,7 +4623,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 132,
     label = "r001627",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {5,S}
 2  O u0 p2 c0 {6,D}
@@ -4649,7 +4649,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4658,7 +4658,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 133,
     label = "r001958",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {5,S}
 2 O u0 p2 c0 {5,D}
@@ -4681,7 +4681,7 @@ entry(
         CpInf = (174.604,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4690,7 +4690,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 134,
     label = "r002203",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  N u0 p1 c0 {3,S} {4,S} {13,S}
@@ -4718,7 +4718,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4727,7 +4727,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 135,
     label = "r002312",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  N u0 p1 c0 {3,S} {6,S} {12,S}
@@ -4755,7 +4755,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4764,7 +4764,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 136,
     label = "r002395",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {6,S}
 2  O u0 p2 c0 {6,D}
@@ -4790,7 +4790,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4799,7 +4799,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 137,
     label = "r002513",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {5,S}
 2 O u0 p2 c0 {6,S} {7,S}
@@ -4821,7 +4821,7 @@ entry(
         CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4830,7 +4830,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 138,
     label = "r002594",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {5,S}
 2  O u0 p2 c0 {5,D}
@@ -4855,7 +4855,7 @@ entry(
         CpInf = (220.334,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4864,7 +4864,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 139,
     label = "r002675",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -4890,7 +4890,7 @@ entry(
         CpInf = (253.591,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4899,7 +4899,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 140,
     label = "r002689",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  N u0 p1 c0 {6,T}
@@ -4925,7 +4925,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4934,7 +4934,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 141,
     label = "r002760",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,D}
 2 O u0 p2 c0 {5,D}
@@ -4958,7 +4958,7 @@ entry(
         CpInf = (199.547,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4967,7 +4967,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 142,
     label = "r002774",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {5,S}
 2 N u0 p1 c0 {3,S} {4,D}
@@ -4989,7 +4989,7 @@ entry(
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -4998,7 +4998,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 143,
     label = "r002801",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {4,S}
 2  O u0 p2 c0 {6,D}
@@ -5025,7 +5025,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5034,7 +5034,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 144,
     label = "r002874",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
@@ -5058,7 +5058,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5067,7 +5067,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 145,
     label = "r002881",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  O u0 p2 c0 {6,D}
@@ -5094,7 +5094,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5103,7 +5103,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 146,
     label = "r003070",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  N u0 p1 c0 {5,S} {9,S} {10,S}
@@ -5128,7 +5128,7 @@ entry(
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5137,7 +5137,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 147,
     label = "r003183",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -5160,7 +5160,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5169,7 +5169,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 148,
     label = "r003195",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {10,S}
 2  O u0 p2 c0 {5,D}
@@ -5194,7 +5194,7 @@ entry(
         CpInf = (220.334,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5203,7 +5203,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 149,
     label = "r003323",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,D}
 2 N u0 p1 c0 {5,T}
@@ -5226,7 +5226,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5235,7 +5235,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 150,
     label = "r003344",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  N u0 p1 c0 {4,S} {5,S} {9,S}
@@ -5261,7 +5261,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5270,7 +5270,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 151,
     label = "r003348",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -5292,7 +5292,7 @@ entry(
         CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5301,7 +5301,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 152,
     label = "r003431",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  O u0 p2 c0 {6,D}
@@ -5327,7 +5327,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5336,7 +5336,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 153,
     label = "r003437",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  N u0 p1 c0 {6,S} {12,S} {13,S}
@@ -5364,7 +5364,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5373,7 +5373,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 154,
     label = "r003454",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  N u0 p1 c0 {4,S} {5,S} {6,S}
@@ -5400,7 +5400,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5409,7 +5409,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 155,
     label = "r003718",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,D}
 2  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
@@ -5436,7 +5436,7 @@ entry(
         CpInf = (278.535,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5445,7 +5445,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 156,
     label = "r003937",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  N u0 p1 c0 {4,S} {5,S} {9,S}
@@ -5470,7 +5470,7 @@ entry(
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5479,7 +5479,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 157,
     label = "r003958",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  N u0 p1 c0 {4,S} {6,S} {14,S}
@@ -5509,7 +5509,7 @@ entry(
         CpInf = (340.893,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5518,7 +5518,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 158,
     label = "r004006",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {6,S} {8,S}
 2 N u0 p1 c0 {3,S} {5,S} {7,S}
@@ -5541,7 +5541,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5550,7 +5550,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 159,
     label = "r004142",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {4,S} {5,D}
@@ -5574,7 +5574,7 @@ entry(
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5583,7 +5583,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 160,
     label = "r004202",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {4,S}
 2 N u0 p1 c0 {4,D} {5,S}
@@ -5605,7 +5605,7 @@ entry(
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5614,7 +5614,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 161,
     label = "r004295",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {10,S}
 2  N u0 p1 c0 {4,S} {5,S} {8,S}
@@ -5639,7 +5639,7 @@ entry(
         CpInf = (228.648,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5648,7 +5648,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 162,
     label = "r004414",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,D}
 2  C u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
@@ -5675,7 +5675,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5684,7 +5684,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 163,
     label = "r004467",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,D}
 2  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
@@ -5711,7 +5711,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5720,7 +5720,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 164,
     label = "r004505",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  N u0 p1 c0 {6,T}
@@ -5746,7 +5746,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5755,7 +5755,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 165,
     label = "r004547",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -5783,7 +5783,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5792,7 +5792,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 166,
     label = "r004630",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -5823,7 +5823,7 @@ entry(
         CpInf = (382.466,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5832,7 +5832,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 167,
     label = "r004643",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,D}
 2 N u0 p1 c0 {5,T}
@@ -5855,7 +5855,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5864,7 +5864,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 168,
     label = "r004717",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {6,S}
 2 O u0 p2 c0 {5,S} {8,S}
@@ -5887,7 +5887,7 @@ entry(
         CpInf = (178.761,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5896,7 +5896,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 169,
     label = "r004749",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  N u0 p1 c0 {5,S} {6,S} {7,S}
@@ -5922,7 +5922,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5931,7 +5931,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 170,
     label = "r004778",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  N u0 p1 c0 {3,S} {5,S} {12,S}
@@ -5958,7 +5958,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -5967,7 +5967,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 171,
     label = "r004794",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  N u0 p1 c0 {3,S} {4,S} {6,S}
@@ -5997,7 +5997,7 @@ entry(
         CpInf = (340.893,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6006,7 +6006,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 172,
     label = "r004852",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  O u0 p2 c0 {6,D}
@@ -6033,7 +6033,7 @@ entry(
         CpInf = (270.22,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6042,7 +6042,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 173,
     label = "r005102",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,S} {9,S}
 2 N u0 p1 c0 {3,S} {4,S} {8,S}
@@ -6066,7 +6066,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6075,7 +6075,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 174,
     label = "r005118",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {6,S}
 2  O u0 p2 c0 {6,D}
@@ -6103,7 +6103,7 @@ entry(
         CpInf = (291.007,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6112,7 +6112,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 175,
     label = "r005148",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {5,S}
 2 O u0 p2 c0 {5,D}
@@ -6135,7 +6135,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6144,7 +6144,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 176,
     label = "r005196",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,D}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -6169,7 +6169,7 @@ entry(
         CpInf = (224.491,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6178,7 +6178,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 177,
     label = "r005308",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  N u0 p1 c0 {4,S} {6,S} {14,S}
@@ -6207,7 +6207,7 @@ entry(
         CpInf = (315.95,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6216,7 +6216,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 178,
     label = "r005356",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {12,S}
 2  O u0 p2 c0 {6,D}
@@ -6243,7 +6243,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6252,7 +6252,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 179,
     label = "r005432",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  O u0 p2 c0 {6,D}
@@ -6277,7 +6277,7 @@ entry(
         CpInf = (220.334,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6286,7 +6286,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 180,
     label = "r005491",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  N u0 p1 c0 {3,S} {4,S} {9,S}
@@ -6311,7 +6311,7 @@ entry(
         CpInf = (228.648,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6320,7 +6320,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 181,
     label = "r005546",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {10,S}
 2  N u0 p1 c0 {3,S} {6,S} {9,S}
@@ -6345,7 +6345,7 @@ entry(
         CpInf = (228.648,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6354,7 +6354,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 182,
     label = "r005588",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,D}
 2 N u0 p1 c0 {4,S} {5,S} {6,S}
@@ -6378,7 +6378,7 @@ entry(
         CpInf = (199.547,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6387,7 +6387,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 183,
     label = "r005763",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {5,S}
 2 N u0 p1 c0 {4,S} {5,D}
@@ -6410,7 +6410,7 @@ entry(
         CpInf = (182.918,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6419,7 +6419,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 184,
     label = "r005826",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,D}
 2 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -6442,7 +6442,7 @@ entry(
         CpInf = (174.604,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6451,7 +6451,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 185,
     label = "r005998",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -6479,7 +6479,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6488,7 +6488,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 186,
     label = "r006089",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  N u0 p1 c0 {3,S} {4,S} {12,S}
@@ -6516,7 +6516,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6525,7 +6525,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 187,
     label = "r006263",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  C u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
@@ -6554,7 +6554,7 @@ entry(
         CpInf = (324.264,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6563,7 +6563,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 188,
     label = "r006320",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,S} {6,S}
 2 O u0 p2 c0 {5,D}
@@ -6587,7 +6587,7 @@ entry(
         CpInf = (207.862,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6596,7 +6596,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 189,
     label = "r006396",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {5,S}
 2  O u0 p2 c0 {6,S} {7,S}
@@ -6626,7 +6626,7 @@ entry(
         CpInf = (336.736,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6635,7 +6635,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 190,
     label = "r006798",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,D}
 2  O u0 p2 c0 {7,D}
@@ -6662,7 +6662,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6671,7 +6671,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 191,
     label = "r007269",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {4,S} {5,S} {9,S}
 2  N u0 p1 c0 {4,D} {6,S}
@@ -6696,7 +6696,7 @@ entry(
         CpInf = (232.805,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6705,7 +6705,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 192,
     label = "r007773",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,D}
 2  N u0 p1 c0 {6,S} {7,S} {11,S}
@@ -6732,7 +6732,7 @@ entry(
         CpInf = (278.535,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6741,7 +6741,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 193,
     label = "r007945",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {10,S}
 2  N u0 p1 c0 {5,D} {7,S}
@@ -6766,7 +6766,7 @@ entry(
         CpInf = (228.648,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6775,7 +6775,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 194,
     label = "r008426",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {17,S}
 2  C u0 p0 c0 {3,S} {4,S} {9,S} {10,S}
@@ -6807,7 +6807,7 @@ entry(
         CpInf = (403.252,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6816,7 +6816,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 195,
     label = "r008828",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,S} {13,S}
 2  N u0 p1 c0 {3,S} {5,S} {12,S}
@@ -6844,7 +6844,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6853,7 +6853,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 196,
     label = "r009033",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {4,S}
 2  C u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
@@ -6885,7 +6885,7 @@ entry(
         CpInf = (403.252,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6894,7 +6894,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 197,
     label = "r009289",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  C u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
@@ -6924,7 +6924,7 @@ entry(
         CpInf = (345.051,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6933,7 +6933,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 198,
     label = "r009379",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,D}
 2  N u0 p1 c0 {6,T}
@@ -6958,7 +6958,7 @@ entry(
         CpInf = (228.648,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -6967,7 +6967,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 199,
     label = "r009513",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {7,S}
 2  O u0 p2 c0 {7,S} {12,S}
@@ -6994,7 +6994,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -7003,7 +7003,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 200,
     label = "r009772",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {13,S}
 2  O u0 p2 c0 {5,D}
@@ -7031,7 +7031,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -7040,7 +7040,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 201,
     label = "r009945",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  O u0 p2 c0 {6,D}
@@ -7066,7 +7066,7 @@ entry(
         CpInf = (245.277,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -7075,7 +7075,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 202,
     label = "r010048",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {7,S}
 2  O u0 p2 c0 {7,D}
@@ -7106,7 +7106,7 @@ entry(
         CpInf = (361.68,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -7115,7 +7115,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 203,
     label = "r010345",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,D}
 2  N u0 p1 c0 {4,S} {5,S} {13,S}
@@ -7145,7 +7145,7 @@ entry(
         CpInf = (345.051,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -7154,7 +7154,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 204,
     label = "r010419",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,S} {13,S}
 2  N u0 p1 c0 {6,S} {7,S} {12,S}
@@ -7182,7 +7182,7 @@ entry(
         CpInf = (299.321,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -7191,7 +7191,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 205,
     label = "r010564",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {5,S}
 2  O u0 p2 c0 {7,D}
@@ -7220,7 +7220,7 @@ entry(
         CpInf = (320.107,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -7229,7 +7229,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 206,
     label = "r011399",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {7,S}
 2  O u0 p2 c0 {7,D}
@@ -7254,7 +7254,7 @@ entry(
         CpInf = (228.648,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -7263,7 +7263,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 207,
     label = "r011443",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,S} {11,S}
 2  N u0 p1 c0 {5,S} {7,S} {8,S}
@@ -7289,7 +7289,7 @@ entry(
         CpInf = (249.434,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -7298,7 +7298,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 208,
     label = "r011506",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {7,S}
 2  N u0 p1 c0 {5,D} {6,S}
@@ -7324,7 +7324,7 @@ entry(
         CpInf = (257.749,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -7333,7 +7333,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 209,
     label = "r011937",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {7,S} {12,S}
 2  N u0 p1 c0 {6,S} {7,S} {9,S}
@@ -7360,7 +7360,7 @@ entry(
         CpInf = (274.378,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,

@@ -21,7 +21,7 @@ entry(
         arrheniusLow = Arrhenius(A=(2.5e+14, 'cm^3/(mol*s)'), n=0, Ea=(61400, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 OYAMAT94
 """,
@@ -37,7 +37,7 @@ entry(
         Ea = (5584, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 SAHSHA12
 """,
@@ -80,7 +80,7 @@ entry(
         Ea = (7385, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 pw
 """,
@@ -96,7 +96,7 @@ entry(
         Ea = (16040, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 SAHSHA12 (fit graph)
 """,
@@ -112,7 +112,7 @@ entry(
         Ea = (32000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 estimated kinetics
 """,
@@ -128,7 +128,7 @@ entry(
         Ea = (2345, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 LULIN06
 """,
@@ -155,7 +155,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 0.66 atm  LULIN06
 """,
@@ -171,7 +171,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 estimated kinetics
 """,
@@ -187,7 +187,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 LULIN06
 """,
@@ -203,7 +203,7 @@ entry(
         Ea = (37700, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 see text
 """,
@@ -219,7 +219,7 @@ entry(
         Ea = (34376, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Ryan Zhou/Haynes G3 barrier
 """,
@@ -235,7 +235,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Ryan Zhou/Haynes BSH NIST
 """,
@@ -249,7 +249,7 @@ entry(
         arrheniusLow = Arrhenius(A=(5.6e+20, 'cm^6/(mol^2*s)'), n=-2.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 ATKTRO04
 """,
@@ -265,7 +265,7 @@ entry(
         Ea = (4100, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ATKTRO04
 """,
@@ -281,7 +281,7 @@ entry(
         Ea = (1860, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ATKTRO04
 """,
@@ -297,7 +297,7 @@ entry(
         Ea = (-1377, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ATKTRO04
 """,
@@ -316,7 +316,7 @@ entry(
         ),
         efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1.5},
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 SHI/MAT98
 """,
@@ -332,7 +332,7 @@ entry(
         Ea = (904, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 PEN/MAR99
 """,
@@ -348,7 +348,7 @@ entry(
         Ea = (2900, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 GOU/MAR95
 """,
@@ -364,7 +364,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 TYN/RAV91
 """,
@@ -380,7 +380,7 @@ entry(
         Ea = (38200, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 MON/HAY05
 """,
@@ -396,7 +396,7 @@ entry(
         Ea = (7400, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 SHI/MAT96
 """,
@@ -412,7 +412,7 @@ entry(
         Ea = (37740, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 *          SEN/HAY05
 """,
@@ -428,7 +428,7 @@ entry(
         Ea = (33910, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 *          SEN/HAY05
 """,
@@ -442,7 +442,7 @@ entry(
         arrheniusLow = Arrhenius(A=(6.2e+16, 'cm^6/(mol^2*s)'), n=-0.6, Ea=(0, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02 estimated kinetics
 """,
@@ -458,7 +458,7 @@ entry(
         Ea = (19300, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 SHI/MAT98
 """,
@@ -474,7 +474,7 @@ entry(
         Ea = (-1027, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 *          SEN/HAY07
 """,
@@ -500,7 +500,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 *          SEN/HAY07
 """,
@@ -516,7 +516,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 GLA/BOZ96
 """,
@@ -532,7 +532,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 GLA/BOZ96
 """,
@@ -548,7 +548,7 @@ entry(
         Ea = (17925, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 TSU/MAT97
 """,
@@ -569,7 +569,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 GOU/MAR05
 alongd comments:
@@ -593,7 +593,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 estimated kinetics
 """,
@@ -609,7 +609,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 estimated kinetics
 """,
@@ -625,7 +625,7 @@ entry(
         Ea = (-1361, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 *          SEN/HAY07
 """,
@@ -641,7 +641,7 @@ entry(
         Ea = (-1450, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 LU/LIN04
 """,
@@ -655,7 +655,7 @@ entry(
         arrheniusLow = Arrhenius(A=(4e+14, 'cm^3/(mol*s)'), n=0, Ea=(107000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 PLA/TRO84
 """,
@@ -674,7 +674,7 @@ entry(
         ),
         efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1.5},
     ),
-    longDesc = 
+    longDesc =
 u"""
 PM ab initio
 """,
@@ -693,7 +693,7 @@ entry(
         ),
         efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1.5},
     ),
-    longDesc = 
+    longDesc =
 u"""
 LULIN03
 """,
@@ -709,7 +709,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 BLI/PIL00
 """,
@@ -730,7 +730,7 @@ entry(
         ),
         efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1.5},
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 GOU/MAR99
 """,
@@ -746,7 +746,7 @@ entry(
         Ea = (7660, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07
 """,
@@ -762,7 +762,7 @@ entry(
         Ea = (2970, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 TSU/MAT97
 """,
@@ -821,7 +821,7 @@ entry(
         T1 = (2191, 'K'),
         efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1},
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 BLI/ROB05
 """,
@@ -850,7 +850,7 @@ entry(
         T1 = (3995, 'K'),
         efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1},
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 BLI/ROB05
 """,
@@ -874,7 +874,7 @@ entry(
         T1 = (7442, 'K'),
         efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 0},
     ),
-    longDesc = 
+    longDesc =
 u"""
 HIN/MAR06 NAI/MAR04 (Ar)
 """,
@@ -897,7 +897,7 @@ entry(
         T1 = (7442, 'K'),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 HIN/MAR06 YIL/MAR05
 """,
@@ -921,7 +921,7 @@ entry(
         T1 = (1e+30, 'K'),
         efficiencies = {'O=S=O': 5, 'O': 5, 'N#N': 1},
     ),
-    longDesc = 
+    longDesc =
 u"""
 HIN/MAR06 BLI/PIL03
 """,
@@ -937,7 +937,7 @@ entry(
         Ea = (76000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -953,7 +953,7 @@ entry(
         Ea = (65900, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 BAC/MAC05
 """,
@@ -969,7 +969,7 @@ entry(
         Ea = (9600, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 MUR/MAT03
 """,
@@ -985,7 +985,7 @@ entry(
         Ea = (75000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 HIN/MAR06 estimated kinetics
 """,
@@ -1001,7 +1001,7 @@ entry(
         Ea = (3320, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 HIN/MAR06
 """,
@@ -1017,7 +1017,7 @@ entry(
         Ea = (50300, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 HIN/MAR06 GLA/BOZ96
 """,
@@ -1033,7 +1033,7 @@ entry(
         Ea = (29200, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 HIN/MAR06
 """,
@@ -1049,7 +1049,7 @@ entry(
         Ea = (27250, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 HIN/MAR06
 """,
@@ -1063,7 +1063,7 @@ entry(
         arrheniusLow = Arrhenius(A=(5.8e+11, 'cm^3/(mol*s)'), n=0, Ea=(32720, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {'N#N': 0},
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY07 (Ar)
 """,
@@ -1079,7 +1079,7 @@ entry(
         Ea = (24600, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY07
 """,
@@ -1128,7 +1128,7 @@ entry(
         Ea = (920, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1144,7 +1144,7 @@ entry(
         Ea = (1560, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1160,7 +1160,7 @@ entry(
         Ea = (-340, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1177,7 +1177,7 @@ entry(
         Ea = (50, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1193,7 +1193,7 @@ entry(
         Ea = (10400, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1209,7 +1209,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 estimated kinetics
 """,
@@ -1228,7 +1228,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1244,7 +1244,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1263,7 +1263,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1279,7 +1279,7 @@ entry(
         Ea = (5340, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1295,7 +1295,7 @@ entry(
         Ea = (300, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1312,7 +1312,7 @@ entry(
         Ea = (3170, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1328,7 +1328,7 @@ entry(
         Ea = (3750, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1344,7 +1344,7 @@ entry(
         Ea = (470, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96 see reverse
 """,
@@ -1360,7 +1360,7 @@ entry(
         Ea = (11312, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07
 """,
@@ -1377,7 +1377,7 @@ entry(
         Ea = (75200, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1394,7 +1394,7 @@ entry(
         Ea = (54500, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1411,7 +1411,7 @@ entry(
         Ea = (86500, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1435,7 +1435,7 @@ entry(
         T1 = (1e+30, 'K'),
         efficiencies = {'O=S=O': 10, 'O': 10, 'N#N': 1},
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GOU/MAR99
 """,
@@ -1454,7 +1454,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1470,7 +1470,7 @@ entry(
         Ea = (-1286, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 HU/MAR05
 """,
@@ -1486,7 +1486,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 HU/MAR05
 Original reaction: HOSO + H <=> SO(S) + H2O
@@ -1503,7 +1503,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 rough estimated kinetics
 """,
@@ -1519,7 +1519,7 @@ entry(
         Ea = (-10130, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 (T>400K)
 """,
@@ -1535,7 +1535,7 @@ entry(
         Ea = (-262, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 HU/MAR05
 """,
@@ -1551,7 +1551,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 ALZ/GLA01 estimated kinetics
 """,
@@ -1567,7 +1567,7 @@ entry(
         Ea = (-235, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 ab initio
 """,
@@ -1584,7 +1584,7 @@ entry(
         Ea = (71700, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1601,7 +1601,7 @@ entry(
         Ea = (73800, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1618,7 +1618,7 @@ entry(
         Ea = (59500, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1634,7 +1634,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1650,7 +1650,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1666,7 +1666,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1683,7 +1683,7 @@ entry(
         Ea = (106300, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1700,7 +1700,7 @@ entry(
         Ea = (54900, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1716,7 +1716,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1732,7 +1732,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1748,7 +1748,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 GLA/BOZ96
 """,
@@ -1764,7 +1764,7 @@ entry(
         Ea = (656, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 RAS/MAR07 ATK/TRO92
 """,
@@ -1778,7 +1778,7 @@ entry(
         arrheniusLow = Arrhenius(A=(4.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(77000, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 HIG/MUR80
 alongd comment: HIG/MUR80 is https://doi.org/10.1246/bcsj.53.15; Rate determined at 4500-6000 K
@@ -1798,7 +1798,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02
 """,
@@ -1814,7 +1814,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 SIN/CVE88
 """,
@@ -1840,7 +1840,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02
 """,
@@ -1856,7 +1856,7 @@ entry(
         Ea = (-1105, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02
 """,
@@ -1872,7 +1872,7 @@ entry(
         Ea = (6326, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02
 """,
@@ -1888,7 +1888,7 @@ entry(
         Ea = (2900, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 estimated kinetics h2s+o
 """,
@@ -1904,7 +1904,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 estimated kinetics h2s+oh
 """,
@@ -1920,7 +1920,7 @@ entry(
         Ea = (-600, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02
 """,
@@ -1936,7 +1936,7 @@ entry(
         Ea = (-1105, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02
 """,
@@ -1952,7 +1952,7 @@ entry(
         Ea = (-1672, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02
 """,
@@ -1966,7 +1966,7 @@ entry(
         arrheniusLow = Arrhenius(A=(6.9e+14, 'cm^3/(mol*s)'), n=1, Ea=(57030, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02
 """,
@@ -1982,7 +1982,7 @@ entry(
         Ea = (-1408, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02
 """,
@@ -1998,7 +1998,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02
 """,
@@ -2014,7 +2014,7 @@ entry(
         Ea = (2900, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 estimated kinetics h2s+o
 """,
@@ -2030,7 +2030,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 estimated kinetics h2s+oh
 """,
@@ -2046,7 +2046,7 @@ entry(
         Ea = (1204, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02
 """,
@@ -2062,7 +2062,7 @@ entry(
         Ea = (-1480, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 SEN/HAY02
 """,

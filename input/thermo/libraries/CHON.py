@@ -14,7 +14,7 @@ Contains only molecules with only carbon, hydrogen, oxygen, and nitrogen compoun
 entry(
     index = 0,
     label = "CH3NO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -30,7 +30,7 @@ entry(
         S298 = (59.437,'cal/(mol*K)'),
     ),
     shortDesc = u"""formamide""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -39,7 +39,7 @@ u"""
 entry(
     index = 1,
     label = "CH3NO2a",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p0 c+1 {1,S} {6,D} {7,S}
@@ -56,7 +56,7 @@ entry(
         S298 = (65.794,'cal/(mol*K)'),
     ),
     shortDesc = u"""nitromethane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -65,7 +65,7 @@ u"""
 entry(
     index = 2,
     label = "CH3NO2b",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -82,7 +82,7 @@ entry(
         S298 = (68.119,'cal/(mol*K)'),
     ),
     shortDesc = u"""methyl nitrite""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -91,7 +91,7 @@ u"""
 entry(
     index = 3,
     label = "CH3NO3",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -109,7 +109,7 @@ entry(
         S298 = (72.272,'cal/(mol*K)'),
     ),
     shortDesc = u"""methyl nitrate""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -118,7 +118,7 @@ u"""
 entry(
     index = 4,
     label = "C2H3NO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -135,7 +135,7 @@ entry(
         S298 = (64.871,'cal/(mol*K)'),
     ),
     shortDesc = u"""methyl isocyanate""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -144,7 +144,7 @@ u"""
 entry(
     index = 5,
     label = "C2H5NOa",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,S} {7,D}
@@ -163,7 +163,7 @@ entry(
         S298 = (68.03,'cal/(mol*K)'),
     ),
     shortDesc = u"""acetamide""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -172,7 +172,7 @@ u"""
 entry(
     index = 6,
     label = "C2H5NOb",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -191,7 +191,7 @@ entry(
         S298 = (67.148,'cal/(mol*K)'),
     ),
     shortDesc = u"""N-methylformamide""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -200,7 +200,7 @@ u"""
 entry(
     index = 7,
     label = "C2H5NO2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  H u0 p0 c0 {1,S}
@@ -220,7 +220,7 @@ entry(
         S298 = (75.711,'cal/(mol*K)'),
     ),
     shortDesc = u"""nitroethane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -229,7 +229,7 @@ u"""
 entry(
     index = 8,
     label = "C2H5NO3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  H u0 p0 c0 {1,S}
@@ -250,7 +250,7 @@ entry(
         S298 = (83.383,'cal/(mol*K)'),
     ),
     shortDesc = u"""ethyl nitrate""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -259,7 +259,7 @@ u"""
 entry(
     index = 9,
     label = "C2H7NOa",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -280,7 +280,7 @@ entry(
         S298 = (76.647,'cal/(mol*K)'),
     ),
     shortDesc = u"""monoethanolamine""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -289,7 +289,7 @@ u"""
 entry(
     index = 10,
     label = "C2H7NOb",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -310,7 +310,7 @@ entry(
         S298 = (76.643,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-aminoethanol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -319,7 +319,7 @@ u"""
 entry(
     index = 11,
     label = "C3H5NOa",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,D}
 2  C u0 p0 c0 {1,S} {3,D} {6,S}
@@ -339,7 +339,7 @@ entry(
         S298 = (71.805,'cal/(mol*K)'),
     ),
     shortDesc = u"""acrylamide""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -348,7 +348,7 @@ u"""
 entry(
     index = 12,
     label = "C3H5NOb",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -368,7 +368,7 @@ entry(
         S298 = (79.18,'cal/(mol*K)'),
     ),
     shortDesc = u"""hydracrylonitrile""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -377,7 +377,7 @@ u"""
 entry(
     index = 13,
     label = "C3H5NOc",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -397,7 +397,7 @@ entry(
         S298 = (97.617,'cal/(mol*K)'),
     ),
     shortDesc = u"""lactonitrile""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -406,7 +406,7 @@ u"""
 entry(
     index = 14,
     label = "C3H7NOa",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -428,7 +428,7 @@ entry(
         S298 = (78.034,'cal/(mol*K)'),
     ),
     shortDesc = u"""N,N-dimethylformamide""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -437,7 +437,7 @@ u"""
 entry(
     index = 15,
     label = "C3H7NOb",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -459,7 +459,7 @@ entry(
         S298 = (76.666,'cal/(mol*K)'),
     ),
     shortDesc = u"""N-methylacetamide""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -468,7 +468,7 @@ u"""
 entry(
     index = 16,
     label = "C3H7NO2a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -491,7 +491,7 @@ entry(
         S298 = (83.783,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitropropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -500,7 +500,7 @@ u"""
 entry(
     index = 17,
     label = "C3H7NO2b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -523,7 +523,7 @@ entry(
         S298 = (82.26,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-nitropropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -532,7 +532,7 @@ u"""
 entry(
     index = 18,
     label = "C3H7NO3a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -556,7 +556,7 @@ entry(
         S298 = (92.241,'cal/(mol*K)'),
     ),
     shortDesc = u"""propyl nitrate""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -565,7 +565,7 @@ u"""
 entry(
     index = 19,
     label = "C3H7NO3b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -589,7 +589,7 @@ entry(
         S298 = (89.355,'cal/(mol*K)'),
     ),
     shortDesc = u"""isopropyl nitrate""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -598,7 +598,7 @@ u"""
 entry(
     index = 20,
     label = "C3H9NOb",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -622,7 +622,7 @@ entry(
         S298 = (87.854,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-amino-1-propanol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -631,7 +631,7 @@ u"""
 entry(
     index = 21,
     label = "C3H9NOd",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -655,7 +655,7 @@ entry(
         S298 = (85.742,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-amino-1-propanol, ()""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -664,7 +664,7 @@ u"""
 entry(
     index = 22,
     label = "C4H5NO2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,T} {3,S}
 2  N u0 p1 c0 {1,T}
@@ -686,7 +686,7 @@ entry(
         S298 = (91.358,'cal/(mol*K)'),
     ),
     shortDesc = u"""methyl cyanoacetate""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -695,7 +695,7 @@ u"""
 entry(
     index = 23,
     label = "C4H7NOa",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -718,7 +718,7 @@ entry(
         S298 = (80.414,'cal/(mol*K)'),
     ),
     shortDesc = u"""acetone cyanohydrin""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -727,7 +727,7 @@ u"""
 entry(
     index = 24,
     label = "C4H7NOb",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -750,7 +750,7 @@ entry(
         S298 = (86.37,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-methacrylamide""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -759,7 +759,7 @@ u"""
 entry(
     index = 25,
     label = "C4H7NOc",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -782,7 +782,7 @@ entry(
         S298 = (87.092,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-methoxypropionitrile""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -791,7 +791,7 @@ u"""
 entry(
     index = 26,
     label = "C4H7NOd",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -814,7 +814,7 @@ entry(
         S298 = (72.088,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-pyrrolidone""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -823,7 +823,7 @@ u"""
 entry(
     index = 27,
     label = "C4H9NOa",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {12,S} {13,S} {14,S}
@@ -848,7 +848,7 @@ entry(
         S298 = (84.015,'cal/(mol*K)'),
     ),
     shortDesc = u"""N,N-dimethylacetamide""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -857,7 +857,7 @@ u"""
 entry(
     index = 28,
     label = "C4H9NOb",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {5,S} {9,S} {10,S}
@@ -882,7 +882,7 @@ entry(
         S298 = (55.556,'cal/(mol*K)'),
     ),
     shortDesc = u"""morpholine""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -891,7 +891,7 @@ u"""
 entry(
     index = 29,
     label = "C4H9NO2a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -917,7 +917,7 @@ entry(
         S298 = (90.574,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitrobutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -926,7 +926,7 @@ u"""
 entry(
     index = 30,
     label = "C4H9NO2b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -952,7 +952,7 @@ entry(
         S298 = (87.928,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-nitrobutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -961,7 +961,7 @@ u"""
 entry(
     index = 31,
     label = "C4H9NO2c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -987,7 +987,7 @@ entry(
         S298 = (91.423,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitro-2-methylpropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -996,7 +996,7 @@ u"""
 entry(
     index = 32,
     label = "C4H9NO2d",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1022,7 +1022,7 @@ entry(
         S298 = (86.565,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-nitro-2-methylpropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1031,7 +1031,7 @@ u"""
 entry(
     index = 33,
     label = "C4H11NOa",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -1058,7 +1058,7 @@ entry(
         S298 = (91.919,'cal/(mol*K)'),
     ),
     shortDesc = u"""dimethylethanolamine""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1067,7 +1067,7 @@ u"""
 entry(
     index = 34,
     label = "C4H11NOb",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -1094,7 +1094,7 @@ entry(
         S298 = (91.921,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-amino-1-butanol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1103,7 +1103,7 @@ u"""
 entry(
     index = 35,
     label = "C4H11NOc",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {8,S}
@@ -1130,7 +1130,7 @@ entry(
         S298 = (91.921,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-amino-2-butanol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1139,7 +1139,7 @@ u"""
 entry(
     index = 36,
     label = "C4H11NOd",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -1166,7 +1166,7 @@ entry(
         S298 = (91.918,'cal/(mol*K)'),
     ),
     shortDesc = u"""4-amino-1-butanol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1175,7 +1175,7 @@ u"""
 entry(
     index = 37,
     label = "C4H11NOe",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -1202,7 +1202,7 @@ entry(
         S298 = (91.92,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-amino-1-butanol, ()-""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1211,7 +1211,7 @@ u"""
 entry(
     index = 38,
     label = "C4H11NOf",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1238,7 +1238,7 @@ entry(
         S298 = (91.921,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-amino-2-methyl-1-propanol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1247,7 +1247,7 @@ u"""
 entry(
     index = 39,
     label = "C4H11NOg",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
 2  C u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
@@ -1274,7 +1274,7 @@ entry(
         S298 = (91.92,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-(ethylamino)ethanol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1283,7 +1283,7 @@ u"""
 entry(
     index = 40,
     label = "C4H11NOh",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -1310,7 +1310,7 @@ entry(
         S298 = (91.921,'cal/(mol*K)'),
     ),
     shortDesc = u"""4-amino-2-butanol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1319,7 +1319,7 @@ u"""
 entry(
     index = 41,
     label = "C4H11NOi",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -1346,7 +1346,7 @@ entry(
         S298 = (91.92,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-amino-2-butanol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1355,7 +1355,7 @@ u"""
 entry(
     index = 42,
     label = "C4H11NO2a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
 2  C u0 p0 c0 {4,S} {5,S} {10,S} {11,S}
@@ -1383,7 +1383,7 @@ entry(
         S298 = (102.645,'cal/(mol*K)'),
     ),
     shortDesc = u"""diethanolamine""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1392,7 +1392,7 @@ u"""
 entry(
     index = 43,
     label = "C4H11NO2b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {10,S}
 2  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
@@ -1420,7 +1420,7 @@ entry(
         S298 = (106.493,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-aminoethoxyethanol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1429,7 +1429,7 @@ u"""
 entry(
     index = 44,
     label = "C4H11NO2c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
@@ -1457,7 +1457,7 @@ entry(
         S298 = (102.642,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-amino-2-methyl-1,3-propanediol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1466,7 +1466,7 @@ u"""
 entry(
     index = 45,
     label = "C4H11NO2d",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
@@ -1494,7 +1494,7 @@ entry(
         S298 = (102.643,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-methylamino-1,2-propanediol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1503,7 +1503,7 @@ u"""
 entry(
     index = 46,
     label = "C4H12N2O",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
@@ -1532,7 +1532,7 @@ entry(
         S298 = (107.016,'cal/(mol*K)'),
     ),
     shortDesc = u"""N-aminoethyl ethanolamine""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1541,7 +1541,7 @@ u"""
 entry(
     index = 47,
     label = "C5H7NO2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,T} {3,S}
 2  N u0 p1 c0 {1,T}
@@ -1566,7 +1566,7 @@ entry(
         S298 = (98.813,'cal/(mol*K)'),
     ),
     shortDesc = u"""ethyl cyanoacetate""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1575,7 +1575,7 @@ u"""
 entry(
     index = 48,
     label = "C5H9NOa",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -1601,7 +1601,7 @@ entry(
         S298 = (91.43,'cal/(mol*K)'),
     ),
     shortDesc = u"""butyl isocyanate""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1610,7 +1610,7 @@ u"""
 entry(
     index = 49,
     label = "C5H9NOb",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
@@ -1636,7 +1636,7 @@ entry(
         S298 = (81.003,'cal/(mol*K)'),
     ),
     shortDesc = u"""N-methyl-2-pyrrolidone""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1645,7 +1645,7 @@ u"""
 entry(
     index = 50,
     label = "C5H9NOc",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -1671,7 +1671,7 @@ entry(
         S298 = (91.432,'cal/(mol*K)'),
     ),
     shortDesc = u"""isobutyl isocyanate""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1680,7 +1680,7 @@ u"""
 entry(
     index = 51,
     label = "C5H9NOd",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -1706,7 +1706,7 @@ entry(
         S298 = (91.422,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-isocyanato-2-methylpropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1715,7 +1715,7 @@ u"""
 entry(
     index = 52,
     label = "C5H9NO4",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {13,S}
@@ -1744,7 +1744,7 @@ entry(
         S298 = (117.644,'cal/(mol*K)'),
     ),
     shortDesc = u"""L-glutamic acid""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1753,7 +1753,7 @@ u"""
 entry(
     index = 53,
     label = "C5H11NO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -1781,7 +1781,7 @@ entry(
         S298 = (89.763,'cal/(mol*K)'),
     ),
     shortDesc = u"""tert-butylformamide""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1790,7 +1790,7 @@ u"""
 entry(
     index = 54,
     label = "C5H11NO2a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -1819,7 +1819,7 @@ entry(
         S298 = (103.006,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitropentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1828,7 +1828,7 @@ u"""
 entry(
     index = 55,
     label = "C5H11NO2b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
@@ -1857,7 +1857,7 @@ entry(
         S298 = (100.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-nitropentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1866,7 +1866,7 @@ u"""
 entry(
     index = 56,
     label = "C5H11NO2c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -1895,7 +1895,7 @@ entry(
         S298 = (100.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-nitropentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1904,7 +1904,7 @@ u"""
 entry(
     index = 57,
     label = "C5H11NO2d",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -1933,7 +1933,7 @@ entry(
         S298 = (100.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitro-2-methylbutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1942,7 +1942,7 @@ u"""
 entry(
     index = 58,
     label = "C5H11NO2e",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -1971,7 +1971,7 @@ entry(
         S298 = (100.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitro-3-methylbutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1980,7 +1980,7 @@ u"""
 entry(
     index = 59,
     label = "C5H11NO2f",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -2009,7 +2009,7 @@ entry(
         S298 = (119.167,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-nitro-2-methylbutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2018,7 +2018,7 @@ u"""
 entry(
     index = 60,
     label = "C5H11NO2g",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
@@ -2047,7 +2047,7 @@ entry(
         S298 = (98.453,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-nitro-3-methylbutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2056,7 +2056,7 @@ u"""
 entry(
     index = 61,
     label = "C5H11NO2h",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2085,7 +2085,7 @@ entry(
         S298 = (93.715,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitro-2,2-dimethylpropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2094,7 +2094,7 @@ u"""
 entry(
     index = 62,
     label = "C5H13NO2a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
 2  C u0 p0 c0 {4,S} {6,S} {11,S} {12,S}
@@ -2125,7 +2125,7 @@ entry(
         S298 = (112.641,'cal/(mol*K)'),
     ),
     shortDesc = u"""methyl diethanolamine""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2134,7 +2134,7 @@ u"""
 entry(
     index = 63,
     label = "C5H13NO2b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
@@ -2165,7 +2165,7 @@ entry(
         S298 = (112.649,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-amino-2-ethyl-1,3-propanediol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2174,7 +2174,7 @@ u"""
 entry(
     index = 64,
     label = "C6H4N2O4a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,B} {5,B} {7,S}
 2  C u0 p0 c0 {3,B} {4,B} {8,S}
@@ -2200,7 +2200,7 @@ entry(
         S298 = (89.966,'cal/(mol*K)'),
     ),
     shortDesc = u"""m-dinitrobenzene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2209,7 +2209,7 @@ u"""
 entry(
     index = 65,
     label = "C6H4N2O4b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {4,B} {7,S}
 2  C u0 p0 c0 {1,B} {3,B} {8,S}
@@ -2235,7 +2235,7 @@ entry(
         S298 = (77.141,'cal/(mol*K)'),
     ),
     shortDesc = u"""o-dinitrobenzene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2244,7 +2244,7 @@ u"""
 entry(
     index = 66,
     label = "C6H4N2O4c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,B} {6,B} {7,S}
 2  C u0 p0 c0 {4,B} {5,B} {8,S}
@@ -2270,7 +2270,7 @@ entry(
         S298 = (89.967,'cal/(mol*K)'),
     ),
     shortDesc = u"""p-dinitrobenzene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2279,7 +2279,7 @@ u"""
 entry(
     index = 67,
     label = "C6H5NO2",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {2,D} {3,S} {4,S}
 2  O u0 p2 c0 {1,D}
@@ -2303,7 +2303,7 @@ entry(
         S298 = (85.763,'cal/(mol*K)'),
     ),
     shortDesc = u"""nitrobenzene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2312,7 +2312,7 @@ u"""
 entry(
     index = 68,
     label = "C6H6N2O2a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,B} {5,B} {7,S}
 2  C u0 p0 c0 {3,B} {4,B} {8,S}
@@ -2338,7 +2338,7 @@ entry(
         S298 = (91.327,'cal/(mol*K)'),
     ),
     shortDesc = u"""m-nitroaniline""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2347,7 +2347,7 @@ u"""
 entry(
     index = 69,
     label = "C6H6N2O2b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {4,B} {7,S}
 2  C u0 p0 c0 {1,B} {3,B} {8,S}
@@ -2373,7 +2373,7 @@ entry(
         S298 = (91.567,'cal/(mol*K)'),
     ),
     shortDesc = u"""o-nitroaniline""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2382,7 +2382,7 @@ u"""
 entry(
     index = 70,
     label = "C6H6N2O2c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,B} {6,B} {7,S}
 2  C u0 p0 c0 {4,B} {5,B} {8,S}
@@ -2408,7 +2408,7 @@ entry(
         S298 = (90.525,'cal/(mol*K)'),
     ),
     shortDesc = u"""p-nitroaniline""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2417,7 +2417,7 @@ u"""
 entry(
     index = 71,
     label = "C6H8N2O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,T} {3,S}
 2  N u0 p1 c0 {1,T}
@@ -2444,7 +2444,7 @@ entry(
         S298 = (100.368,'cal/(mol*K)'),
     ),
     shortDesc = u"""bis(cyanoethyl) ether""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2453,7 +2453,7 @@ u"""
 entry(
     index = 72,
     label = "C6H11NOa",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -2482,7 +2482,7 @@ entry(
         S298 = (87.054,'cal/(mol*K)'),
     ),
     shortDesc = u"""epsiloN-caprolactam""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2491,7 +2491,7 @@ u"""
 entry(
     index = 73,
     label = "C6H11NOb",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -2520,7 +2520,7 @@ entry(
         S298 = (90.252,'cal/(mol*K)'),
     ),
     shortDesc = u"""cyclohexanone oxime""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2529,7 +2529,7 @@ u"""
 entry(
     index = 74,
     label = "C6H13NO2a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
@@ -2561,7 +2561,7 @@ entry(
         S298 = (112.313,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitrohexane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2570,7 +2570,7 @@ u"""
 entry(
     index = 75,
     label = "C6H13NO2b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
@@ -2602,7 +2602,7 @@ entry(
         S298 = (110.037,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-nitrohexane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2611,7 +2611,7 @@ u"""
 entry(
     index = 76,
     label = "C6H13NO2c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -2643,7 +2643,7 @@ entry(
         S298 = (110.037,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-nitrohexane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2652,7 +2652,7 @@ u"""
 entry(
     index = 77,
     label = "C6H13NO2d",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
@@ -2684,7 +2684,7 @@ entry(
         S298 = (110.037,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitro-2-methylpentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2693,7 +2693,7 @@ u"""
 entry(
     index = 78,
     label = "C6H13NO2e",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -2725,7 +2725,7 @@ entry(
         S298 = (110.037,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitro-3-methylpentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2734,7 +2734,7 @@ u"""
 entry(
     index = 79,
     label = "C6H13NO2f",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -2766,7 +2766,7 @@ entry(
         S298 = (110.037,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitro-4-methyl pentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2775,7 +2775,7 @@ u"""
 entry(
     index = 80,
     label = "C6H13NO2g",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
@@ -2807,7 +2807,7 @@ entry(
         S298 = (103.022,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-nitro-2-methylpentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2816,7 +2816,7 @@ u"""
 entry(
     index = 81,
     label = "C6H13NO2h",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {9,S}
@@ -2848,7 +2848,7 @@ entry(
         S298 = (107.76,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-nitro-3-methylpentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2857,7 +2857,7 @@ u"""
 entry(
     index = 82,
     label = "C6H13NO2i",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
 2  C u0 p0 c0 {3,S} {6,S} {7,S} {9,S}
@@ -2889,7 +2889,7 @@ entry(
         S298 = (107.76,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-nitro-4-methylpentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2898,7 +2898,7 @@ u"""
 entry(
     index = 83,
     label = "C6H13NO2j",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {7,S} {9,S}
@@ -2930,7 +2930,7 @@ entry(
         S298 = (107.76,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-nitro-2-methylpentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2939,7 +2939,7 @@ u"""
 entry(
     index = 84,
     label = "C6H13NO2k",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -2971,7 +2971,7 @@ entry(
         S298 = (103.022,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-nitro-3-methylpentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2980,7 +2980,7 @@ u"""
 entry(
     index = 85,
     label = "C6H13NO2l",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
@@ -3012,7 +3012,7 @@ entry(
         S298 = (103.022,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitro-2,2-dimethylbutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3021,7 +3021,7 @@ u"""
 entry(
     index = 86,
     label = "C6H13NO2m",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
@@ -3053,7 +3053,7 @@ entry(
         S298 = (107.76,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitro-2,3-dimethylbutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3062,7 +3062,7 @@ u"""
 entry(
     index = 87,
     label = "C6H13NO2n",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -3094,7 +3094,7 @@ entry(
         S298 = (103.022,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitro-3,3-dimethylbutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3103,7 +3103,7 @@ u"""
 entry(
     index = 88,
     label = "C6H13NO2o",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
@@ -3135,7 +3135,7 @@ entry(
         S298 = (100.746,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-nitro-2,3-dimethylbutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3144,7 +3144,7 @@ u"""
 entry(
     index = 89,
     label = "C6H13NO2p",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -3176,7 +3176,7 @@ entry(
         S298 = (100.746,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-nitro-3,3-dimethylbutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3185,7 +3185,7 @@ u"""
 entry(
     index = 90,
     label = "C6H13NO2q",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
@@ -3217,7 +3217,7 @@ entry(
         S298 = (110.037,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-nitro-2-ethylbutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3226,7 +3226,7 @@ u"""
 entry(
     index = 91,
     label = "C6H14N2O2",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {13,S}
@@ -3260,7 +3260,7 @@ entry(
         S298 = (126.872,'cal/(mol*K)'),
     ),
     shortDesc = u"""lysine""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3269,7 +3269,7 @@ u"""
 entry(
     index = 92,
     label = "C6H15NO2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,S} {12,S}
@@ -3303,7 +3303,7 @@ entry(
         S298 = (122.798,'cal/(mol*K)'),
     ),
     shortDesc = u"""diisopropanolamine""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3312,7 +3312,7 @@ u"""
 entry(
     index = 93,
     label = "C6H15NO3",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {5,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
@@ -3347,7 +3347,7 @@ entry(
         S298 = (128.756,'cal/(mol*K)'),
     ),
     shortDesc = u"""triethanolamine""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

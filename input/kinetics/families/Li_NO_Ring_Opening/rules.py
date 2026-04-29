@@ -14,7 +14,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 5 training reactions at node Root
 Total Standard Deviation in ln(k): 7.319393776850598""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 5 training reactions at node Root
 Total Standard Deviation in ln(k): 7.319393776850598
@@ -29,7 +29,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 4 training reactions at node Root_1NO->O
 Total Standard Deviation in ln(k): 11.023135587423338""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 4 training reactions at node Root_1NO->O
 Total Standard Deviation in ln(k): 11.023135587423338
@@ -44,7 +44,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-1NO->O
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-1NO->O
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -59,7 +59,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_1NO->O_Ext-2R-R
 Total Standard Deviation in ln(k): 14.09361454656864""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_1NO->O_Ext-2R-R
 Total Standard Deviation in ln(k): 14.09361454656864
@@ -74,7 +74,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_1NO->O_Ext-2R-R_Ext-5R!H-R_Ext-6R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_1NO->O_Ext-2R-R_Ext-5R!H-R_Ext-6R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -89,7 +89,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_1NO->O_Ext-2R-R_Ext-5R!H-R_Ext-3R-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_1NO->O_Ext-2R-R_Ext-5R!H-R_Ext-3R-R
 Total Standard Deviation in ln(k): 11.540182761524994

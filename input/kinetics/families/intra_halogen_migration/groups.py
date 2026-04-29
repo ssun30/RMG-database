@@ -31,7 +31,7 @@ boundaryAtoms = ["*1", "*2"]
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *2 R!H             u0 {2,S}
 2 *3 [F1s,Cl1s,Br1s] u0 {1,S}
@@ -43,7 +43,7 @@ entry(
 entry(
     index = 1,
     label = "F",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,S}
 2 *3 F1s u0 {1,S}
@@ -55,7 +55,7 @@ entry(
 entry(
     index = 2,
     label = "R2F",
-    group = 
+    group =
 """
 1 *2 C   u0 {2,[S,D,T,B]} {3,S}
 2 *1 C   u1 {1,[S,D,T,B]}
@@ -67,7 +67,7 @@ entry(
 entry(
     index = 3,
     label = "R2F_Ext-1R!H-R",
-    group = 
+    group =
 """
 1 *2 C   u0 {2,[S,D,T,B]} {3,S} {4,S}
 2 *1 C   u1 {1,[S,D,T,B]}
@@ -80,7 +80,7 @@ entry(
 entry(
     index = 4,
     label = "R2F_Ext-1R!H-R_4R!H->C",
-    group = 
+    group =
 """
 1 *2 C   u0 {2,[S,D,T,B]} {3,S} {4,S}
 2 *1 C   u1 {1,[S,D,T,B]}
@@ -93,7 +93,7 @@ entry(
 entry(
     index = 5,
     label = "R2F_Ext-1R!H-R_N-4R!H->C",
-    group = 
+    group =
 """
 1 *2 C   u0 {2,[S,D,T,B]} {3,S} {4,S}
 2 *1 C   u1 {1,[S,D,T,B]}
@@ -106,7 +106,7 @@ entry(
 entry(
     index = 6,
     label = "R2F_Ext-1R!H-R_N-4R!H->C_Ext-2R!H-R",
-    group = 
+    group =
 """
 1 *2 C   u0 {2,[S,D,T,B]} {3,S} {4,S}
 2 *1 C   u1 {1,[S,D,T,B]} {5,S}
@@ -120,7 +120,7 @@ entry(
 entry(
     index = 7,
     label = "R2F_Ext-1R!H-R_N-4R!H->C_Ext-2R!H-R_5R!H->C",
-    group = 
+    group =
 """
 1 *2 C   u0 {2,[S,D,T,B]} {3,S} {4,S}
 2 *1 C   u1 {1,[S,D,T,B]} {5,S}
@@ -134,7 +134,7 @@ entry(
 entry(
     index = 8,
     label = "R2F_Ext-1R!H-R_N-4R!H->C_Ext-2R!H-R_N-5R!H->C",
-    group = 
+    group =
 """
 1 *2 C   u0 {2,[S,D,T,B]} {3,S} {4,S}
 2 *1 C   u1 {1,[S,D,T,B]} {5,S}
@@ -148,7 +148,7 @@ entry(
 entry(
     index = 9,
     label = "R2F_Ext-2R!H-R",
-    group = 
+    group =
 """
 1 *2 C   u0 {2,[S,D,T,B]} {3,S}
 2 *1 C   u1 {1,[S,D,T,B]} {4,[S,D,T,B,Q]}
@@ -161,7 +161,7 @@ entry(
 entry(
     index = 10,
     label = "R3F",
-    group = 
+    group =
 """
 1    R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *2 R!H u0 {1,[S,D,T,B]} {4,S}
@@ -174,7 +174,7 @@ entry(
 entry(
     index = 11,
     label = "R4F",
-    group = 
+    group =
 """
 1    C   ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2    C   ux {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -188,7 +188,7 @@ entry(
 entry(
     index = 12,
     label = "R4F_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    C   u0 r0 {2,S} {3,S}
 2    C   u0 r0 {1,S} {4,S}
@@ -203,7 +203,7 @@ entry(
 entry(
     index = 13,
     label = "R4F_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    C   ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2    C   ux {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -218,7 +218,7 @@ entry(
 entry(
     index = 14,
     label = "R5nF",
-    group = 
+    group =
 """
 1    R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2    R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -233,7 +233,7 @@ entry(
 entry(
     index = 15,
     label = "Cl",
-    group = 
+    group =
 """
 1 *2 R!H  u0 {2,S}
 2 *3 Cl1s u0 {1,S}
@@ -245,7 +245,7 @@ entry(
 entry(
     index = 16,
     label = "R2Cl",
-    group = 
+    group =
 """
 1 *2 R!H  u0 {2,[S,D,T,B]} {3,S}
 2 *1 R!H  u1 {1,[S,D,T,B]}
@@ -257,7 +257,7 @@ entry(
 entry(
     index = 17,
     label = "R3Cl",
-    group = 
+    group =
 """
 1    R!H  ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *2 R!H  u0 {1,[S,D,T,B]} {4,S}
@@ -270,7 +270,7 @@ entry(
 entry(
     index = 18,
     label = "R4Cl",
-    group = 
+    group =
 """
 1    R!H  ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2    R!H  ux {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -284,7 +284,7 @@ entry(
 entry(
     index = 19,
     label = "R5nCl",
-    group = 
+    group =
 """
 1    R!H  ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2    R!H  ux {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -299,7 +299,7 @@ entry(
 entry(
     index = 20,
     label = "Br",
-    group = 
+    group =
 """
 1 *2 R!H  u0 {2,S}
 2 *3 Br1s u0 {1,S}
@@ -311,7 +311,7 @@ entry(
 entry(
     index = 21,
     label = "R3Br",
-    group = 
+    group =
 """
 1    R!H  ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2 *2 R!H  u0 {1,[S,D,T,B]} {4,S}
@@ -324,7 +324,7 @@ entry(
 entry(
     index = 22,
     label = "R4Br",
-    group = 
+    group =
 """
 1    R!H  ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2    R!H  ux {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -338,7 +338,7 @@ entry(
 entry(
     index = 23,
     label = "R5nBr",
-    group = 
+    group =
 """
 1    R!H  ux {2,[S,D,T,B]} {3,[S,D,T,B]}
 2    R!H  ux {1,[S,D,T,B]} {4,[S,D,T,B]}
@@ -381,7 +381,7 @@ L1: Root
 
 forbidden(
     label = "H_mig_7_membered_ring_3_4",
-    group = 
+    group =
 """
 1    R!H             u0 {2,S} {7,S}
 2    R!H             u0 {1,S} {3,S}
@@ -394,7 +394,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -402,7 +402,7 @@ forbidden(
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res1",
-    group = 
+    group =
 """
 1 *1 R!H             u1 {2,[S,D,T]}
 2    Cb              u0 {1,[S,D,T]} {3,B} {4,B}
@@ -414,7 +414,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {7,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 1.
@@ -423,7 +423,7 @@ because the TS would be far too strained. Resonance form 1.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res2",
-    group = 
+    group =
 """
 1    C               u0 {3,S} {4,D} {7,[S,D,T]}
 2 *2 C               u0 {3,D} {5,S} {8,S}
@@ -435,7 +435,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 2.
@@ -444,7 +444,7 @@ because the TS would be far too strained. Resonance form 2.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res3",
-    group = 
+    group =
 """
 1    C               u0 {3,D} {4,S} {7,[S,D,T]}
 2 *2 C               u0 {3,S} {5,D} {8,S}
@@ -456,7 +456,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 3.
@@ -465,7 +465,7 @@ because the TS would be far too strained. Resonance form 3.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res1",
-    group = 
+    group =
 """
 1    R!H             u0 {2,[S,D,T]} {3,[S,D,T]}
 2    Cb              u0 {1,[S,D,T]} {4,B} {5,B}
@@ -478,7 +478,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {7,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 1.
@@ -487,7 +487,7 @@ because the TS would be far too strained. Resonance form 1.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res2",
-    group = 
+    group =
 """
 1    C               u0 {3,D} {4,S} {7,[S,D,T]}
 2 *2 C               u0 {3,S} {5,D} {8,S}
@@ -500,7 +500,7 @@ forbidden(
 9 *1 R!H             u1 {7,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 2.
@@ -509,7 +509,7 @@ because the TS would be far too strained. Resonance form 2.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res3",
-    group = 
+    group =
 """
 1    C               u0 {3,S} {4,D} {7,[S,D,T]}
 2 *2 C               u0 {3,D} {5,S} {8,S}
@@ -522,7 +522,7 @@ forbidden(
 9 *1 R!H             u1 {7,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 3.
@@ -531,7 +531,7 @@ because the TS would be far too strained. Resonance form 3.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res1",
-    group = 
+    group =
 """
 1     R!H             u0 {2,[S,D,T]} {3,[S,D,T]}
 2     Cb              u0 {1,[S,D,T]} {4,B} {5,B}
@@ -545,7 +545,7 @@ forbidden(
 10 *1 R!H             u1 {3,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 1.
@@ -554,7 +554,7 @@ because the TS would be far too strained. Resonance form 1.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res2",
-    group = 
+    group =
 """
 1     C               u0 {3,S} {4,D} {5,[S,D,T]}
 2  *2 C               u0 {3,D} {6,S} {9,S}
@@ -568,7 +568,7 @@ forbidden(
 10 *1 R!H             u1 {8,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 2.
@@ -577,7 +577,7 @@ because the TS would be far too strained. Resonance form 2.
 
 forbidden(
     label = "H_mig_from_m_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res3",
-    group = 
+    group =
 """
 1     C               u0 {3,D} {4,S} {5,[S,D,T]}
 2  *2 C               u0 {3,S} {6,D} {9,S}
@@ -591,7 +591,7 @@ forbidden(
 10 *1 R!H             u1 {8,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
 because the TS would be far too strained. Resonance form 3.
@@ -600,7 +600,7 @@ because the TS would be far too strained. Resonance form 3.
 
 forbidden(
     label = "H_mig_from_p_position_of_cyc6_sidegroup_to_1_position_of_double_bonded_sidechain_dir_1",
-    group = 
+    group =
 """
 1    R!H             u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {7,D}
 2 *2 R!H             u0 {5,[S,D,T,B]} {6,[S,D,T,B]} {8,S}
@@ -612,7 +612,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical double-bonded to a 6-membered ring from abstracting an H the para position
 """,
@@ -620,7 +620,7 @@ Forbid a radical double-bonded to a 6-membered ring from abstracting an H the pa
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res1",
-    group = 
+    group =
 """
 1 *1 R!H             u1 {2,[S,D,T]}
 2    Cb              u0 {1,[S,D,T]} {3,B} {4,B}
@@ -632,7 +632,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {5,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 1.
@@ -641,7 +641,7 @@ because the TS would be far too strained. Resonance form 1.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res2",
-    group = 
+    group =
 """
 1    C               u0 {3,D} {4,S} {7,[S,D,T]}
 2 *2 C               u0 {5,D} {6,S} {8,S}
@@ -653,7 +653,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 2.
@@ -662,7 +662,7 @@ because the TS would be far too strained. Resonance form 2.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res3",
-    group = 
+    group =
 """
 1    C               u0 {3,S} {4,D} {7,[S,D,T]}
 2 *2 C               u0 {5,S} {6,D} {8,S}
@@ -674,7 +674,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 3.
@@ -683,7 +683,7 @@ because the TS would be far too strained. Resonance form 3.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res1",
-    group = 
+    group =
 """
 1    R!H             u0 {2,[S,D,T]} {3,[S,D,T]}
 2    Cb              u0 {1,[S,D,T]} {4,B} {5,B}
@@ -696,7 +696,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {6,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 1.
@@ -705,7 +705,7 @@ because the TS would be far too strained. Resonance form 1.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res2",
-    group = 
+    group =
 """
 1    C               u0 {3,D} {4,S} {7,[S,D,T]}
 2 *2 C               u0 {5,D} {6,S} {8,S}
@@ -718,7 +718,7 @@ forbidden(
 9 *1 R!H             u1 {7,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 2.
@@ -727,7 +727,7 @@ because the TS would be far too strained. Resonance form 2.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res3",
-    group = 
+    group =
 """
 1    C               u0 {3,S} {4,D} {7,[S,D,T]}
 2 *2 C               u0 {5,S} {6,D} {8,S}
@@ -740,7 +740,7 @@ forbidden(
 9 *1 R!H             u1 {7,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 3.
@@ -749,7 +749,7 @@ because the TS would be far too strained. Resonance form 3.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res1",
-    group = 
+    group =
 """
 1     R!H             u0 {2,[S,D,T]} {3,[S,D,T]}
 2     Cb              u0 {1,[S,D,T]} {4,B} {5,B}
@@ -763,7 +763,7 @@ forbidden(
 10 *1 R!H             u1 {3,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 1.
@@ -772,7 +772,7 @@ because the TS would be far too strained. Resonance form 1.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res2",
-    group = 
+    group =
 """
 1     C               u0 {3,S} {4,D} {7,[S,D,T]}
 2  *2 C               u0 {5,S} {6,D} {9,S}
@@ -786,7 +786,7 @@ forbidden(
 10 *1 R!H             u1 {8,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 2.
@@ -795,7 +795,7 @@ because the TS would be far too strained. Resonance form 2.
 
 forbidden(
     label = "H_mig_from_p_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res3",
-    group = 
+    group =
 """
 1     C               u0 {3,D} {4,S} {7,[S,D,T]}
 2  *2 C               u0 {5,D} {6,S} {9,S}
@@ -809,7 +809,7 @@ forbidden(
 10 *1 R!H             u1 {8,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
 because the TS would be far too strained. Resonance form 3.
@@ -818,7 +818,7 @@ because the TS would be far too strained. Resonance form 3.
 
 forbidden(
     label = "[CH2]C1=CC(C)CC=C1_1",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {3,S} {8,S}
 2 *2 C               u0 {1,S} {9,S}
@@ -831,7 +831,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {2,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -839,7 +839,7 @@ forbidden(
 
 forbidden(
     label = "[CH2]C1=CC(C)CC=C1_2",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {3,S} {8,S}
 2    C               u0 {1,S}
@@ -852,7 +852,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -860,7 +860,7 @@ forbidden(
 
 forbidden(
     label = "[CH2]C1=CC(C)CC=C1_3",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {3,S} {8,S}
 2    C               u0 {1,S}
@@ -873,7 +873,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -881,7 +881,7 @@ forbidden(
 
 forbidden(
     label = "aromatic_ring_1_3_res1",
-    group = 
+    group =
 """
 1 *2 C               u0 p0 c0 {2,[D,B]} {6,[S,B]} {7,S}
 2    C               u0 p0 c0 {1,[D,B]} {3,[S,B]}
@@ -892,7 +892,7 @@ forbidden(
 7 *3 [F1s,Cl1s,Br1s] u0 p0 c0 {1,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid H migration from ortho position on an aromatic ring to the para position or vice versa
 """,
@@ -900,7 +900,7 @@ Forbid H migration from ortho position on an aromatic ring to the para position 
 
 forbidden(
     label = "aromatic_ring_1_3_res2",
-    group = 
+    group =
 """
 1 *2 C               u0 p0 c0 {2,S} {6,D} {7,S}
 2    C               u0 p0 c0 {1,S} {3,D}
@@ -911,7 +911,7 @@ forbidden(
 7 *3 [F1s,Cl1s,Br1s] u0 p0 c0 {1,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid H migration from ortho position on an aromatic ring to the para position or vice versa
 """,
@@ -919,7 +919,7 @@ Forbid H migration from ortho position on an aromatic ring to the para position 
 
 forbidden(
     label = "bridged56_1243",
-    group = 
+    group =
 """
 1    C               u0 {3,S} {4,S} {6,S}
 2    C               u0 {4,S} {5,S} {7,S}
@@ -931,7 +931,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -939,7 +939,7 @@ forbidden(
 
 forbidden(
     label = "bridged56_1254",
-    group = 
+    group =
 """
 1    C               u0 {3,S} {4,S} {6,S}
 2    C               u0 {4,S} {5,S} {7,S}
@@ -951,7 +951,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -959,7 +959,7 @@ forbidden(
 
 forbidden(
     label = "bridged56_1257",
-    group = 
+    group =
 """
 1    C               u0 {3,S} {4,S} {5,S}
 2    C               u0 {3,S} {6,S} {7,S}
@@ -971,7 +971,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -979,7 +979,7 @@ forbidden(
 
 forbidden(
     label = "bridged56_1623",
-    group = 
+    group =
 """
 1    C               u0 {3,S} {4,S} {6,S}
 2    C               u0 {4,S} {5,S} {7,S}
@@ -991,7 +991,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -999,7 +999,7 @@ forbidden(
 
 forbidden(
     label = "bridged56_1627",
-    group = 
+    group =
 """
 1    C               u0 {3,S} {4,S} {5,S}
 2    C               u0 {3,S} {6,S} {7,S}
@@ -1011,7 +1011,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1019,7 +1019,7 @@ forbidden(
 
 forbidden(
     label = "bridged56_1634",
-    group = 
+    group =
 """
 1    C               u0 {3,S} {4,S} {6,S}
 2    C               u0 {4,S} {5,S} {7,S}
@@ -1031,7 +1031,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1039,7 +1039,7 @@ forbidden(
 
 forbidden(
     label = "bridged56_7521",
-    group = 
+    group =
 """
 1    C               u0 {3,S} {4,S} {6,S}
 2    C               u0 {4,S} {5,S} {7,S}
@@ -1051,7 +1051,7 @@ forbidden(
 8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1059,7 +1059,7 @@ forbidden(
 
 forbidden(
     label = "fulvene_H_mig_ring_edge_to_tail",
-    group = 
+    group =
 """
 1    C               u0 {3,D} {4,S} {6,S}
 2 *2 C               u0 {3,S} {5,S} {7,S}
@@ -1070,7 +1070,7 @@ forbidden(
 7 *3 [F1s,Cl1s,Br1s] u0 {2,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Prevents the fulvene + H radical with radical site on the tail from abstracting an H
 from the far edge of the ring
@@ -1079,7 +1079,7 @@ from the far edge of the ring
 
 forbidden(
     label = "fulvene_H_mig_tail_to_ring_edge",
-    group = 
+    group =
 """
 1 *2 C               u1 {2,S} {7,S}
 2    C               u0 {1,S} {3,D} {4,S}
@@ -1090,7 +1090,7 @@ forbidden(
 7 *3 [F1s,Cl1s,Br1s] u0 {1,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Prevents the fulvene + H radical with radical site on the ring-edge from abstracting an H
 from the end of the tail
@@ -1099,7 +1099,7 @@ from the end of the tail
 
 forbidden(
     label = "fused55_212",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {3,S} {4,S}
 2    C               u0 {1,S} {5,S} {6,S}
@@ -1112,7 +1112,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1120,7 +1120,7 @@ forbidden(
 
 forbidden(
     label = "fused55_2123",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {5,S} {6,S}
 2    C               u0 {1,S} {4,S} {7,S}
@@ -1133,7 +1133,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1141,7 +1141,7 @@ forbidden(
 
 forbidden(
     label = "fused55_2132",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {3,S} {4,S}
 2    C               u0 {1,S} {5,S} {6,S}
@@ -1154,7 +1154,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1162,7 +1162,7 @@ forbidden(
 
 forbidden(
     label = "fused55_2134",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {3,S} {4,S}
 2    C               u0 {1,S} {5,S} {6,S}
@@ -1175,7 +1175,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1183,7 +1183,7 @@ forbidden(
 
 forbidden(
     label = "fused55_2143",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {5,S} {6,S}
 2    C               u0 {1,S} {4,S} {7,S}
@@ -1196,7 +1196,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1204,7 +1204,7 @@ forbidden(
 
 forbidden(
     label = "fused55_2154",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {3,S} {4,S}
 2    C               u0 {1,S} {5,S} {6,S}
@@ -1217,7 +1217,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1225,7 +1225,7 @@ forbidden(
 
 forbidden(
     label = "fused55_2312",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {5,S}
 2    C               u0 {1,S} {3,S} {8,S}
@@ -1238,7 +1238,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {7,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1246,7 +1246,7 @@ forbidden(
 
 forbidden(
     label = "fused55_2332",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {3,S} {4,S}
 2    C               u0 {1,S} {5,S} {6,S}
@@ -1259,7 +1259,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1267,7 +1267,7 @@ forbidden(
 
 forbidden(
     label = "fused55_2334",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {3,S} {4,S}
 2    C               u0 {1,S} {5,S} {6,S}
@@ -1280,7 +1280,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1288,7 +1288,7 @@ forbidden(
 
 forbidden(
     label = "fused55_2343",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {5,S} {6,S}
 2    C               u0 {1,S} {4,S} {7,S}
@@ -1301,7 +1301,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1309,7 +1309,7 @@ forbidden(
 
 forbidden(
     label = "fused55_2354",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {3,S} {4,S}
 2    C               u0 {1,S} {5,S} {6,S}
@@ -1322,7 +1322,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1330,7 +1330,7 @@ forbidden(
 
 forbidden(
     label = "fused55_3223",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {5,S} {6,S}
 2    C               u0 {1,S} {4,S} {7,S}
@@ -1343,7 +1343,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1351,7 +1351,7 @@ forbidden(
 
 forbidden(
     label = "fused55_3245",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {5,S} {6,S}
 2    C               u0 {1,S} {4,S} {7,S}
@@ -1364,7 +1364,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1372,7 +1372,7 @@ forbidden(
 
 forbidden(
     label = "fused55_3423",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {5,S} {6,S}
 2    C               u0 {1,S} {4,S} {7,S}
@@ -1385,7 +1385,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1393,7 +1393,7 @@ forbidden(
 
 forbidden(
     label = "fused55_3443",
-    group = 
+    group =
 """
 1    C               u0 {2,S} {5,S} {6,S}
 2    C               u0 {1,S} {4,S} {7,S}
@@ -1406,7 +1406,7 @@ forbidden(
 9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1414,7 +1414,7 @@ forbidden(
 
 forbidden(
     label = "fused56D_1",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {5,S}
 2     C               u0 {1,S} {3,S} {9,S}
@@ -1428,7 +1428,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {7,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1436,7 +1436,7 @@ forbidden(
 
 forbidden(
     label = "fused56D_2",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {5,S}
 2     C               u0 {1,S} {3,S} {9,S}
@@ -1450,7 +1450,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {5,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1458,7 +1458,7 @@ forbidden(
 
 forbidden(
     label = "fused56_212",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {3,S} {4,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1472,7 +1472,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1480,7 +1480,7 @@ forbidden(
 
 forbidden(
     label = "fused56_2123",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {4,S} {7,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1494,7 +1494,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1502,7 +1502,7 @@ forbidden(
 
 forbidden(
     label = "fused56_2132",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {5,S}
 2     C               u0 {1,S} {3,S} {9,S}
@@ -1516,7 +1516,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {6,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1524,7 +1524,7 @@ forbidden(
 
 forbidden(
     label = "fused56_2134",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {4,S} {6,S}
 2     C               u0 {1,S} {5,S} {7,S}
@@ -1538,7 +1538,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1546,7 +1546,7 @@ forbidden(
 
 forbidden(
     label = "fused56_2143",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {4,S} {7,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1560,7 +1560,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1568,7 +1568,7 @@ forbidden(
 
 forbidden(
     label = "fused56_2145",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {3,S} {4,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1582,7 +1582,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1590,7 +1590,7 @@ forbidden(
 
 forbidden(
     label = "fused56_2154",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {4,S} {6,S}
 2     C               u0 {1,S} {5,S} {7,S}
@@ -1604,7 +1604,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1612,7 +1612,7 @@ forbidden(
 
 forbidden(
     label = "fused56_2165",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {3,S} {4,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1626,7 +1626,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1634,7 +1634,7 @@ forbidden(
 
 forbidden(
     label = "fused56_2312",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {5,S}
 2     C               u0 {1,S} {3,S} {9,S}
@@ -1648,7 +1648,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {6,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1656,7 +1656,7 @@ forbidden(
 
 forbidden(
     label = "fused56_2323",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {4,S} {7,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1670,7 +1670,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1678,7 +1678,7 @@ forbidden(
 
 forbidden(
     label = "fused56_2343",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {4,S} {7,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1692,7 +1692,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1700,7 +1700,7 @@ forbidden(
 
 forbidden(
     label = "fused56_2354",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {4,S} {6,S}
 2     C               u0 {1,S} {5,S} {7,S}
@@ -1714,7 +1714,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1722,7 +1722,7 @@ forbidden(
 
 forbidden(
     label = "fused56_2365",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {3,S} {4,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1736,7 +1736,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1744,7 +1744,7 @@ forbidden(
 
 forbidden(
     label = "fused56_3212",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {3,S} {4,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1758,7 +1758,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1766,7 +1766,7 @@ forbidden(
 
 forbidden(
     label = "fused56_3223",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {4,S} {7,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1780,7 +1780,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1788,7 +1788,7 @@ forbidden(
 
 forbidden(
     label = "fused56_3243",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {4,S} {7,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1802,7 +1802,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1810,7 +1810,7 @@ forbidden(
 
 forbidden(
     label = "fused56_3412",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {3,S} {4,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1824,7 +1824,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1832,7 +1832,7 @@ forbidden(
 
 forbidden(
     label = "fused56_3432",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {3,S} {4,S}
 2     C               u0 {1,S} {5,S} {6,S}
@@ -1846,7 +1846,7 @@ forbidden(
 10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1854,7 +1854,7 @@ forbidden(
 
 forbidden(
     label = "linked55_2112",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {5,S}
 2     C               u0 {1,S} {3,S}
@@ -1869,7 +1869,7 @@ forbidden(
 11 *3 [F1s,Cl1s,Br1s] u0 {7,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1877,7 +1877,7 @@ forbidden(
 
 forbidden(
     label = "linked55_2123",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {5,S}
 2     C               u0 {1,S} {3,S}
@@ -1892,7 +1892,7 @@ forbidden(
 11 *3 [F1s,Cl1s,Br1s] u0 {8,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1900,7 +1900,7 @@ forbidden(
 
 forbidden(
     label = "linked55_2133",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {5,S}
 2     C               u0 {1,S} {3,S}
@@ -1915,7 +1915,7 @@ forbidden(
 11 *3 [F1s,Cl1s,Br1s] u0 {8,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1923,7 +1923,7 @@ forbidden(
 
 forbidden(
     label = "linked55_2333",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {5,S}
 2     C               u0 {1,S} {3,S}
@@ -1938,7 +1938,7 @@ forbidden(
 11 *3 [F1s,Cl1s,Br1s] u0 {8,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1946,7 +1946,7 @@ forbidden(
 
 forbidden(
     label = "linked55_3223",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {5,S}
 2     C               u0 {1,S} {3,S}
@@ -1961,7 +1961,7 @@ forbidden(
 11 *3 [F1s,Cl1s,Br1s] u0 {8,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1969,7 +1969,7 @@ forbidden(
 
 forbidden(
     label = "linked55_3323",
-    group = 
+    group =
 """
 1     C               u0 {2,S} {5,S}
 2     C               u0 {1,S} {3,S}
@@ -1984,7 +1984,7 @@ forbidden(
 11 *3 [F1s,Cl1s,Br1s] u0 {8,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,

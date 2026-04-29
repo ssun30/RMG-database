@@ -310,7 +310,7 @@ L1: Adsorbate
     L2: N
         L3: N-C
         L3: N-H
-    L2: C	
+    L2: C
     	L3: C-H
 	    L4: CH4
 	    L4: C2H6

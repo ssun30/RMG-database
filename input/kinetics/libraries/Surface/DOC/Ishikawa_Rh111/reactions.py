@@ -16,9 +16,9 @@ entry(
     index = 1,
     label = "NO_X + X <=> N_X + O_X",
     kinetics = SurfaceArrhenius(
-        A = (8.19E19, 'cm^2/(mol*s)'),  
+        A = (8.19E19, 'cm^2/(mol*s)'),
         n = 1.009,
-        Ea = (76196, 'J/mol'),  
+        Ea = (76196, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -31,9 +31,9 @@ J. Phys. Chem. C 2018, 122, 30, 17378–17388
 https://doi.org/10.1021/acs.jpcc.8b05906
 
 This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
-The modified Arrhenius parameters is calculed from 
-Table 2. Activation Energy (Ea) 
-and 
+The modified Arrhenius parameters is calculed from
+Table 2. Activation Energy (Ea)
+and
 Table S3. Reaction rate constant at different temperatures
 """,
     metal = "Rh",
@@ -44,9 +44,9 @@ entry(
     index = 2,
     label = "NO_X + O_X <=> NO2_X + X",
     kinetics = SurfaceArrhenius(
-        A = (6.52E19, 'cm^2/(mol*s)'),  
+        A = (6.52E19, 'cm^2/(mol*s)'),
         n = 1.015,
-        Ea = (155285, 'J/mol'),  
+        Ea = (155285, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -59,9 +59,9 @@ J. Phys. Chem. C 2018, 122, 30, 17378–17388
 https://doi.org/10.1021/acs.jpcc.8b05906
 
 This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
-The modified Arrhenius parameters is calculed from 
-Table 2. Activation Energy (Ea) 
-and 
+The modified Arrhenius parameters is calculed from
+Table 2. Activation Energy (Ea)
+and
 Table S3. Reaction rate constant at different temperatures
 """,
     metal = "Rh",
@@ -72,9 +72,9 @@ entry(
     index = 3,
     label = "N_X + N_X <=> N2 + X + X",
     kinetics = SurfaceArrhenius(
-        A = (1.43E20, 'cm^2/(mol*s)'),  
+        A = (1.43E20, 'cm^2/(mol*s)'),
         n = 1.012,
-        Ea = (171681, 'J/mol'),  
+        Ea = (171681, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -87,9 +87,9 @@ J. Phys. Chem. C 2018, 122, 30, 17378–17388
 https://doi.org/10.1021/acs.jpcc.8b05906
 
 This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
-The modified Arrhenius parameters is calculed from 
-Table 2. Activation Energy (Ea) 
-and 
+The modified Arrhenius parameters is calculed from
+Table 2. Activation Energy (Ea)
+and
 Table S3. Reaction rate constant at different temperatures
 """,
     metal = "Rh",
@@ -115,9 +115,9 @@ J. Phys. Chem. C 2018, 122, 30, 17378–17388
 https://doi.org/10.1021/acs.jpcc.8b05906
 
 This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
-The modified Arrhenius parameters is calculed from 
-Table 2. Activation Energy (Ea) 
-and 
+The modified Arrhenius parameters is calculed from
+Table 2. Activation Energy (Ea)
+and
 Table S3. Reaction rate constant at different temperatures
 """,
     metal = "Rh",
@@ -143,9 +143,9 @@ J. Phys. Chem. C 2018, 122, 30, 17378–17388
 https://doi.org/10.1021/acs.jpcc.8b05906
 
 This reaction used RMG's surface site density of Rh111 = 2.656E-09(mol/cm^2) to calculate the A factor.
-The modified Arrhenius parameters is calculed from 
-Table 2. Activation Energy (Ea) 
-and 
+The modified Arrhenius parameters is calculed from
+Table 2. Activation Energy (Ea)
+and
 Table S3. Reaction rate constant at different temperatures
 """,
     metal = "Rh",

@@ -14,7 +14,7 @@ entry(
     kinetics = Arrhenius(A=(2.01526e+12,'s^-1'), n=0.18834, Ea=(147.694,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.10613, dn = +|- 0.0132522, dEa = +|- 0.0721181 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CF2CF2CHO <=> CF3CFCHO
@@ -40,7 +40,7 @@ entry(
     kinetics = Arrhenius(A=(0.000550858,'s^-1'), n=4.50663, Ea=(210.996,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 35.7263, dn = +|- 0.4698, dEa = +|- 2.55664 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CF2CH2CH2CH2F <=> CH2CH2CH2CF3
@@ -70,7 +70,7 @@ entry(
     kinetics = Arrhenius(A=(3.36622e+11,'s^-1'), n=0.48217, Ea=(122.23,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.17845, dn = +|- 0.0215722, dEa = +|- 0.117395 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CF2CH2F <=> CH2CF3
@@ -94,7 +94,7 @@ entry(
     kinetics = Arrhenius(A=(6.00221e+06,'s^-1'), n=1.90111, Ea=(169.648,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.59483, dn = +|- 0.061324, dEa = +|- 0.333723 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CH2CH2CH2Cl <=> CH2CH2CH2Cl
@@ -121,7 +121,7 @@ entry(
     kinetics = Arrhenius(A=(0.00930803,'s^-1'), n=4.16824, Ea=(227.637,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 33.1868, dn = +|- 0.460113, dEa = +|- 2.50392 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CH2CH2CH2F <=> CH2CH2CH2F
@@ -148,7 +148,7 @@ entry(
     kinetics = Arrhenius(A=(2.50247e+07,'s^-1'), n=1.58353, Ea=(156.188,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.34324, dn = +|- 0.0387684, dEa = +|- 0.210976 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CH2CH2CH2CH2Cl <=> CH2CH2CH2CH2Cl
@@ -178,7 +178,7 @@ entry(
     kinetics = Arrhenius(A=(9.62119e+10,'s^-1'), n=0.157944, Ea=(121.704,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06787, dn = +|- 0.00862677, dEa = +|- 0.0469466 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CH2CH2CH2CH2Br <=> CH2CH2CH2CH2Br
@@ -208,7 +208,7 @@ entry(
     kinetics = Arrhenius(A=(6.31151e+11,'s^-1'), n=0.116194, Ea=(135.383,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06904, dn = +|- 0.00877084, dEa = +|- 0.0477306 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CH2CH2F <=> CH2CH2F
@@ -232,7 +232,7 @@ entry(
     kinetics = Arrhenius(A=(1.03108e+13,'s^-1'), n=-0.0707693, Ea=(47.2642,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01008, dn = +|- 0.00131731, dEa = +|- 0.00716878 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CH2CH2Cl <=> CH2CH2Cl
@@ -256,7 +256,7 @@ entry(
     kinetics = Arrhenius(A=(5.2885e+08,'s^-1'), n=1.30127, Ea=(134.618,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.11448, dn = +|- 0.0142406, dEa = +|- 0.0774968 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CH2CH2CH2Br <=> CH2CH2CH2Br
@@ -283,7 +283,7 @@ entry(
     kinetics = Arrhenius(A=(6.35274e-11,'s^-1'), n=6.31569, Ea=(202.311,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 193.49, dn = +|- 0.691746, dEa = +|- 3.76445 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CH2CH2CH2CH2F <=> CH2CH2CH2CH2F
@@ -313,7 +313,7 @@ entry(
     kinetics = Arrhenius(A=(1.28412e+12,'s^-1'), n=0.253035, Ea=(209.151,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.14701, dn = +|- 0.0180193, dEa = +|- 0.0980605 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CF3CF2 <=> CF3CF2
@@ -337,7 +337,7 @@ entry(
     kinetics = Arrhenius(A=(1.68639e+09,'s^-1'), n=0.389834, Ea=(137.78,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.23187, dn = +|- 0.0273974, dEa = +|- 0.149096 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CH2CH2CH2CH2CH2Br <=> CH2CH2CH2CH2CH2Br
@@ -370,7 +370,7 @@ entry(
     kinetics = Arrhenius(A=(4.11837e-16,'s^-1'), n=7.45351, Ea=(118.459,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 301.9, dn = +|- 0.750193, dEa = +|- 4.08252 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CH2CH2CH2CH2CH2Cl <=> CH2CH2CH2CH2CH2Cl
@@ -403,7 +403,7 @@ entry(
     kinetics = Arrhenius(A=(1.64853e+07,'s^-1'), n=1.15307, Ea=(198.221,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.79242, dn = +|- 0.0766688, dEa = +|- 0.417229 kJ/mol"""),
     rank = 3,
     shortDesc = """M062X-D3/jun-cc-pVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/intra_halogen_migration
 Original entry: CH2CH2CH2CH2CH2F <=> CH2CH2CH2CH2CH2F

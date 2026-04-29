@@ -18,7 +18,7 @@ entry(
         Ea = (3.498, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -29,7 +29,7 @@ entry(
     label = "s1 <=> acetylene + naph",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.258e+11, 's^-1'), n=0.958, Ea=(46.969, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,

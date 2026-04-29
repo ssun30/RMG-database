@@ -31,7 +31,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""High or low pressure extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011720
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011720/rk00000001.xml
@@ -64,7 +64,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011720
 Bath gas: He
@@ -106,7 +106,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011720
 Pressure dependence: Rate constant is pressure dependent
@@ -138,7 +138,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016504
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016504/rk00000001.xml
@@ -179,7 +179,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00012692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012692/rk00000001.xml
@@ -219,7 +219,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011861
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml
@@ -250,7 +250,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011861
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011861/rk00000001.xml

@@ -30,7 +30,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *4 [Cd,S4d,S6d,N3d,N5dc]                                                 u0 {2,S} {3,D}
 2 *5 [Cd,S4d,S6d,N3d,N5dc]                                                 u0 {1,S} {4,D}
@@ -45,7 +45,7 @@ entry(
 entry(
     index = 1,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd",
-    group = 
+    group =
 """
 1 *4 Cd u0 {2,S} {3,D}
 2 *5 Cd u0 {1,S} {4,D}
@@ -60,7 +60,7 @@ entry(
 entry(
     index = 2,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_1CdN3dN5dcS4dS6d-inRing",
-    group = 
+    group =
 """
 1 *4 Cd u0 r1 {2,S} {3,D}
 2 *5 Cd u0 {1,S} {4,D}
@@ -75,7 +75,7 @@ entry(
 entry(
     index = 3,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing",
-    group = 
+    group =
 """
 1 *4 Cd u0 r0 {2,S} {3,D}
 2 *5 Cd u0 {1,S} {4,D}
@@ -90,7 +90,7 @@ entry(
 entry(
     index = 4,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R",
-    group = 
+    group =
 """
 1 *4 Cd  u0 r0 {2,S} {3,D}
 2 *5 Cd  u0 {1,S} {4,D}
@@ -106,7 +106,7 @@ entry(
 entry(
     index = 5,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R",
-    group = 
+    group =
 """
 1 *4 Cd u0 r0 {2,S} {3,D}
 2 *5 Cd u0 {1,S} {4,D}
@@ -123,7 +123,7 @@ entry(
 entry(
     index = 6,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
-    group = 
+    group =
 """
 1 *4 Cd u0 r0 {2,S} {3,D}
 2 *5 Cd u0 {1,S} {4,D}
@@ -141,7 +141,7 @@ entry(
 entry(
     index = 7,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1  *4 Cd  u0 r0 {2,S} {3,D}
 2  *5 Cd  u0 {1,S} {4,D}
@@ -160,7 +160,7 @@ entry(
 entry(
     index = 8,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-5Cd-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1 *4 Cd  u0 r0 {2,S} {3,D}
 2 *5 Cd  u0 {1,S} {4,D}
@@ -178,7 +178,7 @@ entry(
 entry(
     index = 9,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
-    group = 
+    group =
 """
 1 *4 Cd u0 r0 {2,S} {3,D}
 2 *5 Cd u0 {1,S} {4,D}
@@ -195,7 +195,7 @@ entry(
 entry(
     index = 10,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1 *4 Cd  u0 r0 {2,S} {3,D}
 2 *5 Cd  u0 r0 {1,S} {4,D}
@@ -213,7 +213,7 @@ entry(
 entry(
     index = 11,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-3Cd-R_Ext-4Cd-R",
-    group = 
+    group =
 """
 1 *4 Cd  u0 r0 {2,S} {3,D}
 2 *5 Cd  u0 {1,S} {4,D}
@@ -230,7 +230,7 @@ entry(
 entry(
     index = 12,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-1CdN3dN5dcS4dS6d-R",
-    group = 
+    group =
 """
 1 *4 Cd u0 r0 {2,S} {3,D} {7,S}
 2 *5 Cd u0 {1,S} {4,D}
@@ -246,7 +246,7 @@ entry(
 entry(
     index = 13,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-1CdN3dN5dcS4dS6d-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
-    group = 
+    group =
 """
 1 *4 Cd  u0 r0 {2,S} {3,D} {7,S}
 2 *5 Cd  u0 r0 {1,S} {4,D}
@@ -263,7 +263,7 @@ entry(
 entry(
     index = 14,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-2CdN3dN5dcS4dS6d-R",
-    group = 
+    group =
 """
 1 *4 Cd u0 r0 {2,S} {3,D}
 2 *5 Cd u0 {1,S} {4,D} {7,S}
@@ -279,7 +279,7 @@ entry(
 entry(
     index = 15,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-2CdN3dN5dcS4dS6d-R_Ext-5Cd-R",
-    group = 
+    group =
 """
 1 *4 Cd  u0 r0 {2,S} {3,D}
 2 *5 Cd  u0 r0 {1,S} {4,D} {7,S}
@@ -296,7 +296,7 @@ entry(
 entry(
     index = 16,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R",
-    group = 
+    group =
 """
 1 *4 Cd u0 r0 {2,S} {3,D}
 2 *5 Cd u0 {1,S} {4,D}
@@ -312,7 +312,7 @@ entry(
 entry(
     index = 17,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
-    group = 
+    group =
 """
 1 *4 Cd u0 r0 {2,S} {3,D}
 2 *5 Cd u0 {1,S} {4,D}
@@ -329,7 +329,7 @@ entry(
 entry(
     index = 18,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-5Cd-R_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *4 Cd  u0 r0 {2,S} {3,D}
 2 *5 Cd  u0 {1,S} {4,D}
@@ -347,7 +347,7 @@ entry(
 entry(
     index = 19,
     label = "Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-1CdN3dN5dcS4dS6d-inRing_Ext-6COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt-R",
-    group = 
+    group =
 """
 1 *4 Cd  u0 r0 {2,S} {3,D}
 2 *5 Cd  u0 {1,S} {4,D}
@@ -363,7 +363,7 @@ entry(
 entry(
     index = 20,
     label = "Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd",
-    group = 
+    group =
 """
 1 *4 Cd                                                                    u0 {2,S} {3,D}
 2 *5 Cd                                                                    u0 {1,S} {4,D}
@@ -378,7 +378,7 @@ entry(
 entry(
     index = 21,
     label = "Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct",
-    group = 
+    group =
 """
 1 *4 Cd                                                                    u0 r0 {2,S} {3,D}
 2 *5 Cd                                                                    u0 r0 {1,S} {4,D}
@@ -393,7 +393,7 @@ entry(
 entry(
     index = 22,
     label = "Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct",
-    group = 
+    group =
 """
 1 *4 Cd                                                                    u0 {2,S} {3,D}
 2 *5 Cd                                                                    u0 {1,S} {4,D}
@@ -408,7 +408,7 @@ entry(
 entry(
     index = 23,
     label = "Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct_5COCdd->Cdd",
-    group = 
+    group =
 """
 1 *4 Cd                                                                    u0 {2,S} {3,D}
 2 *5 Cd                                                                    u0 {1,S} {4,D}
@@ -423,7 +423,7 @@ entry(
 entry(
     index = 24,
     label = "Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd_N-5COCSCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Ct_N-5COCdd->Cdd",
-    group = 
+    group =
 """
 1 *4 Cd                                                                    u0 {2,S} {3,D}
 2 *5 Cd                                                                    u0 {1,S} {4,D}
@@ -467,7 +467,7 @@ L1: Root
 
 forbidden(
     label = "benzene_diene1",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {6,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -477,7 +477,7 @@ forbidden(
 6    Cd ux {1,S} {5,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -485,7 +485,7 @@ forbidden(
 
 forbidden(
     label = "benzene_diene2",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {6,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -495,7 +495,7 @@ forbidden(
 6 *7 Cd ux {1,S} {5,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -503,7 +503,7 @@ forbidden(
 
 forbidden(
     label = "benzene_diene_partial1",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {6,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -513,7 +513,7 @@ forbidden(
 6    Cd ux {1,S} {5,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -521,7 +521,7 @@ forbidden(
 
 forbidden(
     label = "benzene_diene_partial2",
-    group = 
+    group =
 """
 1 *5 Cd u0 {2,D} {6,S}
 2 *6 Cd u0 {1,D} {3,S}
@@ -531,7 +531,7 @@ forbidden(
 6    Cd ux {1,S} {5,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -539,7 +539,7 @@ forbidden(
 
 forbidden(
     label = "benzene_ene",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,D} {6,S}
 2 *2 Cd u0 {1,D} {3,S}
@@ -549,7 +549,7 @@ forbidden(
 6    Cd ux {1,S} {5,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -557,7 +557,7 @@ forbidden(
 
 forbidden(
     label = "benzene_monoSub1",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {6,S} {7,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -569,7 +569,7 @@ forbidden(
 8 *9 R  ux {4,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -577,7 +577,7 @@ forbidden(
 
 forbidden(
     label = "benzene_monoSub2",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {5,S} {6,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -589,7 +589,7 @@ forbidden(
 8 *9 Cd ux {4,S} {6,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -597,7 +597,7 @@ forbidden(
 
 forbidden(
     label = "benzene_twoSub1",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {5,S} {6,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -609,7 +609,7 @@ forbidden(
 8 *9 Cd ux {4,S} {6,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -617,7 +617,7 @@ forbidden(
 
 forbidden(
     label = "benzene_twoSub2",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {5,S} {6,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -629,7 +629,7 @@ forbidden(
 8 *9 Cd ux {4,S} {6,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -637,7 +637,7 @@ forbidden(
 
 forbidden(
     label = "benzyl_isomer1",
-    group = 
+    group =
 """
 1 C u0 {2,D}
 2 C u0 {1,D} {3,S} {7,S}
@@ -648,7 +648,7 @@ forbidden(
 7 C u0 {2,S} {6,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -656,7 +656,7 @@ forbidden(
 
 forbidden(
     label = "benzyl_isomer2",
-    group = 
+    group =
 """
 1 C u0 {2,D}
 2 C u0 {1,D} {3,S} {7,S}
@@ -667,7 +667,7 @@ forbidden(
 7 C u0 {2,S} {6,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -675,7 +675,7 @@ forbidden(
 
 forbidden(
     label = "threeMemberedRing_2342",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D}
 2 *4 Cd u0 {1,D} {3,S} {4,S}
@@ -683,7 +683,7 @@ forbidden(
 4 *6 Cd u0 {2,S} {3,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -691,7 +691,7 @@ forbidden(
 
 forbidden(
     label = "threeMemberedRing_3213",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,D} {3,S}
 2 *4 Cd u0 {1,D} {3,S}
@@ -699,7 +699,7 @@ forbidden(
 4 *6 Cd u0 {3,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,

@@ -14,7 +14,7 @@ The Tb contributions are from table 13 of Joback's thesis.
 entry(
     index = 0,
     label = "R_ring",
-    group = 
+    group =
 """
 1 * R ux
 """,
@@ -26,7 +26,7 @@ entry(
 entry(
     index = 0,
     label = "C_centered_ring",
-    group = 
+    group =
 """
 1 * C ux
 """,
@@ -38,7 +38,7 @@ entry(
 entry(
     index = 1,
     label = "CsringH2R2",
-    group = 
+    group =
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H u0 {1,S}
@@ -60,7 +60,7 @@ entry(
 entry(
     index = 2,
     label = "CsringHR3",
-    group = 
+    group =
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H u0 {1,S}
@@ -82,7 +82,7 @@ entry(
 entry(
     index = 3,
     label = "CsringR4",
-    group = 
+    group =
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H u0 {1,S}
@@ -104,7 +104,7 @@ entry(
 entry(
     index = 5,
     label = "CdringR3",
-    group = 
+    group =
 """
 1 * C   u0 {2,D} {3,S} {4,S}
 2   R!H u0 {1,D}
@@ -125,7 +125,7 @@ entry(
 entry(
     index = 7,
     label = "Ketone_ring",
-    group = 
+    group =
 """
 1 * C   u0 {2,D} {3,S} {4,S}
 2   O   u0 {1,D}
@@ -146,7 +146,7 @@ entry(
 entry(
     index = 4,
     label = "CdringHR2",
-    group = 
+    group =
 """
 1 * C   u0 {2,D} {3,S} {4,S}
 2   R!H u0 {1,D}
@@ -167,7 +167,7 @@ entry(
 entry(
     index = 9,
     label = "Cddring",
-    group = 
+    group =
 """
 1 * C   u0 {2,D} {3,D}
 2   R!H u0 {1,D}
@@ -181,7 +181,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""Made up value for R=C=R in ring""",
-    longDesc = 
+    longDesc =
 u"""
 Made up value for R=C=R in a ring.
 Without this existing, we crash.
@@ -193,7 +193,7 @@ I'm copying R=CH-R in a ring.
 entry(
     index = 10,
     label = "Ctring",
-    group = 
+    group =
 """
 1 * C   u0 {2,T}
 2   R!H u0 {1,T}
@@ -206,7 +206,7 @@ entry(
         structureIndex = 1,
     ),
     shortDesc = u"""Made up value for C#R (triple bond) in ring""",
-    longDesc = 
+    longDesc =
 u"""
 Made up value for triple bond in a ring.
 Without this existing, we crash.
@@ -218,7 +218,7 @@ I'm copying R=CH-R in a ring.
 entry(
     index = 0,
     label = "O_centered_ring",
-    group = 
+    group =
 """
 1 * O ux
 """,
@@ -230,7 +230,7 @@ entry(
 entry(
     index = 6,
     label = "Ether_ring",
-    group = 
+    group =
 """
 1 * O   u0 {2,S} {3,S}
 2   R!H u0 {1,S}
@@ -250,7 +250,7 @@ entry(
 entry(
     index = 0,
     label = "S_centered_ring",
-    group = 
+    group =
 """
 1 * S ux
 """,
@@ -262,7 +262,7 @@ entry(
 entry(
     index = 8,
     label = "Thioether_ring",
-    group = 
+    group =
 """
 1 * S   u0 {2,S} {3,S}
 2   R!H u0 {1,S}

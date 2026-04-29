@@ -44,7 +44,7 @@ Reference legend:
 [Baulch2009] D.L. Baulch et al., Journal of Physical and Chemical Reference Data, 2009
 [Bozzelli1994] J.W. Bozzelli, A.Y. Chang, A.M. Dean, Symp. (Int.) Comb., 1994, 25(1), 965-974, doi: 10.1016/S0082-0784(06)80733-2
 [Bozzelli1996] P. Glarborg, D. Kubel, K. Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
-[Bozzelli2010] R. Asatryan, J.W. Bozzelli, G. da Silva, S. Swinnen, M.T. Nguyen, J. Phys. Chem. A 2010, 114, 6235-6249, doi: 10.1021/jp101640p 
+[Bozzelli2010] R. Asatryan, J.W. Bozzelli, G. da Silva, S. Swinnen, M.T. Nguyen, J. Phys. Chem. A 2010, 114, 6235-6249, doi: 10.1021/jp101640p
 [Carl2002] S.A. Carl, Q. Sun, L. Vereecken, J. Peeters, J. Phys. Chem. A 2002, 106(51), 12242-12247, doi: 10.1021/jp014135i
 [Cavallotti2023] A. Stagni, C. Cavallotti, Proc. Comb. Inst. 2023, 39(1), 633-641, doi: 10.1016/j.proci.2022.08.024
 [Cohen1991] N. Cohen, K. R. Westberg, Journal of Physical and Chemical Reference Data, 1991, 20, 1211, doi: 10.1063/1.555901
@@ -1714,15 +1714,15 @@ entry(
     shortDesc=u"""[Glarborg2021]""",
     longDesc=
 u"""
-Reaction 2, Table 2, Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
-[Altinay&Macdonald2015]. Original values taken from [Klippenstein2009a], computed with the CCSD(T) method employing 
-either the aug-cc-pvdz or aug-cc-pvtz basis set, adopted by [Glarborg2021] and calculated the relative third-body 
-efficiencies of Ar, O2, and NH3 and selected other collision partners compared to N2 for the reaction.  The interaction 
-potentials were trained against large data sets of ab initio (counterpoise corrected MP2 with cc-pVTZ and cc-pVQZ 
-complete basis set extrapolations) energies. [Altinay&Macdonald2015] indicate that the reaction is sufficiently fast at 
-a pressure of 560 Torr and should be taken into account. Previously taken from [Hanson1984c] it's part of the "NHx" 
+Reaction 2, Table 2, Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from
+[Altinay&Macdonald2015]. Original values taken from [Klippenstein2009a], computed with the CCSD(T) method employing
+either the aug-cc-pvdz or aug-cc-pvtz basis set, adopted by [Glarborg2021] and calculated the relative third-body
+efficiencies of Ar, O2, and NH3 and selected other collision partners compared to N2 for the reaction.  The interaction
+potentials were trained against large data sets of ab initio (counterpoise corrected MP2 with cc-pVTZ and cc-pVQZ
+complete basis set extrapolations) energies. [Altinay&Macdonald2015] indicate that the reaction is sufficiently fast at
+a pressure of 560 Torr and should be taken into account. Previously taken from [Hanson1984c] it's part of the "NHx"
 subset R1 in Table 1, p. 521 T range: 2200-2800 K Shock Tube. The competing reaction "NH3 <=> NH + H2" is spin-hindered,
-and is ~40 times lower in rate, and can be neglected. 
+and is ~40 times lower in rate, and can be neglected.
 """,
 )
 
@@ -1973,18 +1973,18 @@ u"""
 T range: 1100-2500 K, computed for Ar as bath gas
 
 Also available from [Glarborg2021]:
-Reaction 3, Table 2 taken form [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
-[Altinay&Macdonald2015]. Original values taken from [Klippenstein2009a], computed with the CCSD(T) method employing 
-either the aug-cc-pvdz or aug-cc-pvtz basis set, adopted by [Glarborg2021] and calculated the relative third-body 
-efficiencies of Ar, O2, and NH3 and selected other collision partners compared to N2 for the reaction. 
+Reaction 3, Table 2 taken form [Glarborg2021]. Experimental work re-interpreted using direct measurements from
+[Altinay&Macdonald2015]. Original values taken from [Klippenstein2009a], computed with the CCSD(T) method employing
+either the aug-cc-pvdz or aug-cc-pvtz basis set, adopted by [Glarborg2021] and calculated the relative third-body
+efficiencies of Ar, O2, and NH3 and selected other collision partners compared to N2 for the reaction.
 Previously taken from [Lin2014b] as the reverse reaction: "N2H4 <=> NH2 + NH2"
-Part of the "N2H4 + N2O4" subset p. 264 Bath gas: Ar calculations done at the RCCSD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p) 
+Part of the "N2H4 + N2O4" subset p. 264 Bath gas: Ar calculations done at the RCCSD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p)
 level of theory Only High Pressure Limit rate was taken; low limit and 1 atm rate are also available from the same source
-Also available from [Klippenstein2009a]: 
+Also available from [Klippenstein2009a]:
     label = "NH2 + NH2 <=> N2H4",
      kinetics = Troe(
-       arrheniusHigh = Arrhenius(A=(9.33e-10, 'cm^3/(mol*s)'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), 
-       Tmax=(2500, 'K')), 
+       arrheniusHigh = Arrhenius(A=(9.33e-10, 'cm^3/(mol*s)'), n=-0.414, Ea=(66, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'),
+       Tmax=(2500, 'K')),
        arrheniusLow = Arrhenius(A=(2.7e+10, 'cm^6/(mol^2*s)'), n=-5.49, Ea=(1987, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K')
        , Tmax=(2500, 'K')),
        alpha=0.31, T3=(1e-30, 'K'), T1=(1e+30, 'K'), efficiencies={}),
@@ -2674,11 +2674,11 @@ entry(
 u"""
 Reaction 5a, Table 2
 Experimental work re-interpreted using direct measurements from [Altinay&Macdonald2015].
-Original information taken from [Song&Golden2001] Shock tube experiments were  
-performed behind reflected shockwaves in a stainless steel shock tube. Rates were calculated using their branching 
+Original information taken from [Song&Golden2001] Shock tube experiments were
+performed behind reflected shockwaves in a stainless steel shock tube. Rates were calculated using their branching
 ratio results data and the overall rate coefficient.
 
-Previously taken from [Lin1999a] 
+Previously taken from [Lin1999a]
 
 Reaction part of the "Thermal de-NOx" mechanism k1a T range: 300-2500 K
 """,
@@ -2829,7 +2829,7 @@ entry(
 u"""
 Reaction 4, Table 1
 CCSD(T)/aug-cc-pVTZ//M06-2X/aug-cc-pVTZ
-    
+
 Previously taken from [Klippenstein2009a].
 
 Part of the "Thermal de-NOx" mechanism Table 3, p. 10245
@@ -3042,12 +3042,12 @@ entry(
     kinetics=Arrhenius(A=(6.4e+05, 'cm^3/(mol*s)'), n=2.390, Ea=(10171, 'cal/mol'), T0=(1, 'K')),
     shortDesc=u"""[Glarborg2021]""",
     longDesc=
-u"""Reaction 10, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
-[Altinay&Macdonald2015]. Pre modified data taken from [Klemm1986] which measured the rate constant by the flash 
+u"""Reaction 10, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from
+[Altinay&Macdonald2015]. Pre modified data taken from [Klemm1986] which measured the rate constant by the flash
 photolysis-shock tube technique using atomic resonance absorption to monitor [H]t.
-        
+
 Previously taken from [Staton2019]
-        
+
 Part of the "Thermal de-NOx" mechanism
 k1_theo on p. 229
 T range: 300-2500 K
@@ -3066,12 +3066,12 @@ entry(
     kinetics=Arrhenius(A=(2.0e+06, 'cm^3/(mol*s)'), n=2.040, Ea=(566, 'cal/mol'), T0=(1, 'K')),
     shortDesc= u"""[Glarborg2021]""",
     longDesc=
-u"""Reaction 12, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from 
+u"""Reaction 12, Table 2,Source: [Glarborg2021]. Experimental work re-interpreted using direct measurements from
 [Altinay&Macdonald2015]. Original information by [Salimian1984] with shock tube experiments, NH3 concentration profiles
 were monitored by infrared emission spectroscopy.
 
 Previously taken from [Lin1999b]
-        
+
 Part of the "Thermal de-NOx" mechanism
         k4 on p. 233
         T range: 300-5000 K
@@ -3188,8 +3188,8 @@ Part of the "Thermal de-NOx" mechanism
 
 Reaction 67, Table 9, Source:[Glarborg2018]. Thermochemistry updated using the Active Thermochemical Tables (ATcT) approach.
 Rate parameters for the gas-phase reaction is surveyed, based on available information from experiments and high-level of theory.
-Also was evaluated against experimental data. 
-        
+Also was evaluated against experimental data.
+
 Also available from [Marshall2013]
 k1a 3 on p. 9019
 T range: 300-2000 K
@@ -3212,8 +3212,8 @@ Part of the "Thermal de-NOx" mechanism
 
 Reaction 68, Table 9, Source:[Glarborg2018]. Thermochemistry updated using the Active Thermochemical Tables (ATcT) approach.
 Rate parameters for the gas-phase reaction is surveyed, based on available information from experiments and high-level of theory.
-Also was evaluated against experimental data. 
-        
+Also was evaluated against experimental data.
+
 Also available from [Marshall2013]
 k1a 3 on p. 9019
 T range: 300-2000 K
@@ -3554,7 +3554,7 @@ entry(
         arrheniusLow=Arrhenius(A=(1.13e+50, 'cm^3/(mol*s)'), n=-13.16, Ea=(44241, 'cal/mol'), T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(2000, 'K'))),
     arrheniusLow (k1a,1atm) was given in s^-1 units, here multiplied by P/RT where P=1bar to get to cm^3/(mol*s) units
     P/RT = 12.0e+03 cm^3/(mol*K) / T
-    
+
     """,
 )
 
@@ -3878,7 +3878,7 @@ Experimental data (though old) agree with the [Miller1992] rate.
 NOx2018 suggest a different rate, similar to ours but lower above 1100 K, we can consider shifting to that:
 NH+O2=HNO+O                          2.4E13   0.000   13850
 ! Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
-! Final value used in P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein, Prog. Energy Combust. Sci. 67 (2018) 31-68 
+! Final value used in P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein, Prog. Energy Combust. Sci. 67 (2018) 31-68
 """,
 )
 
@@ -4775,7 +4775,7 @@ entry(
 u"""
 Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1,
 Molecular electronic structure calculations were carried out to characterize the transition states for reactions between
-radicals and H2NN and from them the corresponding rate parameters. Semi-empirical calculations with the PM3 method 
+radicals and H2NN and from them the corresponding rate parameters. Semi-empirical calculations with the PM3 method
 indicate transition states and A-factors similar to radical addition reactions.
 """,
 )
@@ -4790,7 +4790,7 @@ entry(
 u"""
 Reaction taken from Gas-Phase combustion chemistry W.C. Gardiner, Jr. 2000 edition p. 243 d k30d1,
 Molecular electronic structure calculations were carried out to characterize the transition states for reactions between
-radicals and H2NN and from them the corresponding rate parameters. Semi-empirical calculations with the PM3 method 
+radicals and H2NN and from them the corresponding rate parameters. Semi-empirical calculations with the PM3 method
 indicate transition states and A-factors similar to radical addition reactions.
 """,
 )
@@ -4808,7 +4808,7 @@ CASPT2/CBS//CASPT2/cc-pVTZ-F12
 
 Also available from [Glarborg2021]:
 kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0.0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-Reaction 1b, Table 2. Experimental work re-interpreted using direct measurements from 
+Reaction 1b, Table 2. Experimental work re-interpreted using direct measurements from
 [Altinay&Macdonald2015]. Estimation by theoretical study of the singlet surface and previews studies of the three
 important branching reactions.
 """,
@@ -5754,7 +5754,7 @@ entry(
     Part of the "NOx" subset
     k3
     BAC-MP4
-    
+
     Also studied by 10.1021/jp902527a
     """,
 )
@@ -6335,7 +6335,7 @@ entry(
     u"""
     x85
     CCSD(T)-F12/cc-pVTZ-F12//B2PLYPD3/Def2TZVP
-    ** include, JIM MILLER ESTIMATED, USED BY S.J. Klippenstein et al. 
+    ** include, JIM MILLER ESTIMATED, USED BY S.J. Klippenstein et al.
     """,
 )
 
@@ -7054,9 +7054,9 @@ entry(
     shortDesc=u"""[Glarborg2021]""",
     longDesc=
 u"""
-Reaction 7, Table 2, Source: [Glarborg2021], Experimental work re-interpreted using direct measurments from 
-[Altinay&Macdonald2015]. New parameters obtained with the predicted rate expressions by [ShuchengXu & M.C.Lin2009] 
-the potential energy surface of this reaction has been computed by single-point calculations at the 
+Reaction 7, Table 2, Source: [Glarborg2021], Experimental work re-interpreted using direct measurments from
+[Altinay&Macdonald2015]. New parameters obtained with the predicted rate expressions by [ShuchengXu & M.C.Lin2009]
+the potential energy surface of this reaction has been computed by single-point calculations at the
 CCSD(T)/6-311+G(3df,2p) level based on geometries optimized at the CCSD/6-311++G(d,p) level.
 Previously taken from [Lin1996a] in reverse.
 Reaction Part of the "Thermal de-NOx" mechanism

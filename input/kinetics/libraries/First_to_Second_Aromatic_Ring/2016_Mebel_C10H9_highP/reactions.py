@@ -12,8 +12,8 @@ C10H9 PES that includes naphthalene + H formation through:
 
 Taken from:
 
-Mebel, A. M.; Georgievskii, Y.; Jasper, A. W.; Klippenstein, S. J., Pressure-dependent rate constants for PAH growth: 
-ormation of indene and its conversion to naphthalene. Faraday Discuss. 2016, 195, 637-670. 
+Mebel, A. M.; Georgievskii, Y.; Jasper, A. W.; Klippenstein, S. J., Pressure-dependent rate constants for PAH growth:
+ormation of indene and its conversion to naphthalene. Faraday Discuss. 2016, 195, 637-670.
 """
 entry(
     index = 1,

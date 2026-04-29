@@ -4,8 +4,8 @@
 name = "Popa_Rh111"
 shortDesc = u""
 longDesc = u"""
-Based primarily on 
-"Ab initio density-functional theory study of 
+Based primarily on
+"Ab initio density-functional theory study of
 NHx dehydrogenation and reverse reactions on the Rh(111) surface"
 C. Popa, W. K. Offermans, R. A. van Santen, and A. P. J. Jansen
 American Physical Society 2006, Vol. 74, Iss. 15—15
@@ -13,7 +13,7 @@ https://doi.org/10.1103/PhysRevB.74.155428
 
 and
 
-"Density-functional theory study of NHx oxidation 
+"Density-functional theory study of NHx oxidation
 and reverse reactions on the Rh (111) surface."
 C. Popa, R. A. van Santen, and A. P. J. JansenJ.
 Phys. Chem. C 2007, 111, 9839– 9852.
@@ -25,7 +25,7 @@ entry(
     index = 1,
     label = "NH3_X + X <=> NH2_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (8.21E21, 'cm^2/(mol*s)'), 
+        A = (8.21E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (109033.7, 'J/mol'),
         Tmin = (200, 'K'),
@@ -33,7 +33,7 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation_vdW""",
     longDesc = u"""
-Based primarily on "Ab initio density-functional theory study of 
+Based primarily on "Ab initio density-functional theory study of
 NHx dehydrogenation and reverse reactions on the Rh(111) surface"
 C. Popa, W. K. Offermans, R. A. van Santen, and A. P. J. Jansen
 American Physical Society Vol. 74, Iss. 15—15, 2006
@@ -55,7 +55,7 @@ entry(
     index = 2,
     label = "NH2_X + X <=> NH_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (6.33E21, 'cm^2/(mol*s)'), 
+        A = (6.33E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (92630.4, 'J/mol'),
         Tmin = (200, 'K'),
@@ -63,7 +63,7 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
-Based primarily on "Ab initio density-functional theory study of 
+Based primarily on "Ab initio density-functional theory study of
 NHx dehydrogenation and reverse reactions on the Rh(111) surface"
 C. Popa, W. K. Offermans, R. A. van Santen, and A. P. J. Jansen
 American Physical Society Vol. 74, Iss. 15—15, 2006
@@ -85,7 +85,7 @@ entry(
     index = 3,
     label = "NH_X + X <=> N_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (7.94E21, 'cm^2/(mol*s)'), 
+        A = (7.94E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (97454.9, 'J/mol'),
         Tmin = (200, 'K'),
@@ -93,7 +93,7 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
-Based primarily on "Ab initio density-functional theory study of 
+Based primarily on "Ab initio density-functional theory study of
 NHx dehydrogenation and reverse reactions on the Rh(111) surface"
 C. Popa, W. K. Offermans, R. A. van Santen, and A. P. J. Jansen
 American Physical Society Vol. 74, Iss. 15—15, 2006
@@ -115,16 +115,16 @@ entry(
     index = 4,
     label = "NH3_X +O_X <=> NH2_X + OH_X",
     kinetics = SurfaceArrhenius(
-        A=(6.40E20, 'cm^2/(mol*s)'), 
+        A=(6.40E20, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (92630.4, 'J/mol'),   
+        Ea = (92630.4, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
-Based primarily on 
-"Density-functional theory study of NHx oxidation 
+Based primarily on
+"Density-functional theory study of NHx oxidation
 and reverse reactions on the Rh (111) surface."
 C. Popa, R. A. van Santen, and A. P. J. JansenJ.
 Phys. Chem. C 2007, 111, 9839– 9852.
@@ -154,8 +154,8 @@ entry(
     ),
     shortDesc = u"""Surface_Abstraction""",
     longDesc = u"""
-Based primarily on 
-"Density-functional theory study of NHx oxidation 
+Based primarily on
+"Density-functional theory study of NHx oxidation
 and reverse reactions on the Rh (111) surface."
 C. Popa, R. A. van Santen, and A. P. J. JansenJ.
 Phys. Chem. C 2007, 111, 9839– 9852.
@@ -185,8 +185,8 @@ entry(
     ),
     shortDesc = u"""Surface_Abstraction""",
     longDesc = u"""
-Based primarily on 
-"Density-functional theory study of NHx oxidation 
+Based primarily on
+"Density-functional theory study of NHx oxidation
 and reverse reactions on the Rh (111) surface."
 C. Popa, R. A. van Santen, and A. P. J. JansenJ.
 Phys. Chem. C 2007, 111, 9839– 9852.
@@ -210,14 +210,14 @@ entry(
     kinetics = SurfaceArrhenius(
         A=(7.27E20, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (23157.6, 'J/mol'), 
+        Ea = (23157.6, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Surface_Abstraction_Single_vdW""",
     longDesc = u"""
-Based primarily on 
-"Density-functional theory study of NHx oxidation 
+Based primarily on
+"Density-functional theory study of NHx oxidation
 and reverse reactions on the Rh (111) surface."
 C. Popa, R. A. van Santen, and A. P. J. JansenJ.
 Phys. Chem. C 2007, 111, 9839– 9852.
@@ -241,14 +241,14 @@ entry(
     kinetics = SurfaceArrhenius(
         A=(1.50E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (13508.6, 'J/mol'), 
+        Ea = (13508.6, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
-Based primarily on 
-"Density-functional theory study of NHx oxidation 
+Based primarily on
+"Density-functional theory study of NHx oxidation
 and reverse reactions on the Rh (111) surface."
 C. Popa, R. A. van Santen, and A. P. J. JansenJ.
 Phys. Chem. C 2007, 111, 9839– 9852.
@@ -278,8 +278,8 @@ entry(
     ),
     shortDesc = u"""Surface_Abstraction_vdW""",
     longDesc = u"""
-Based primarily on 
-"Density-functional theory study of NHx oxidation 
+Based primarily on
+"Density-functional theory study of NHx oxidation
 and reverse reactions on the Rh (111) surface."
 C. Popa, R. A. van Santen, and A. P. J. JansenJ.
 Phys. Chem. C 2007, 111, 9839– 9852.
@@ -303,14 +303,14 @@ entry(
     kinetics = SurfaceArrhenius(
         A=(1.69E22, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (147629.7, 'J/mol'), 
+        Ea = (147629.7, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
     longDesc = u"""
-Based primarily on 
-"Density-functional theory study of NHx oxidation 
+Based primarily on
+"Density-functional theory study of NHx oxidation
 and reverse reactions on the Rh (111) surface."
 C. Popa, R. A. van Santen, and A. P. J. JansenJ.
 Phys. Chem. C 2007, 111, 9839– 9852.

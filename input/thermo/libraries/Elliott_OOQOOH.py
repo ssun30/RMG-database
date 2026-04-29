@@ -17,7 +17,7 @@ because RMG can only handle one thermo entry per species for a given library.
 entry(
     index = 0,
     label = "aC2H4O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -41,7 +41,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -64,7 +64,7 @@ CBH reference scheme: cbh2
 entry(
     index = 1,
     label = "aNC3H6O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -91,7 +91,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -114,7 +114,7 @@ CBH reference scheme: cbh2
 entry(
     index = 2,
     label = "aNC3H6O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -141,7 +141,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -164,7 +164,7 @@ CBH reference scheme: cbh2
 entry(
     index = 3,
     label = "aIC3H6O2H1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -191,7 +191,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -214,7 +214,7 @@ CBH reference scheme: cbh2
 entry(
     index = 4,
     label = "aNBT1O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
@@ -244,7 +244,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -267,7 +267,7 @@ CBH reference scheme: cbh2
 entry(
     index = 5,
     label = "aNBT1O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
@@ -297,7 +297,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -320,7 +320,7 @@ CBH reference scheme: cbh2
 entry(
     index = 6,
     label = "aNBT1O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
@@ -350,7 +350,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -373,7 +373,7 @@ CBH reference scheme: cbh2
 entry(
     index = 7,
     label = "aNBT2O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -403,7 +403,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -426,7 +426,7 @@ CBH reference scheme: cbh2
 entry(
     index = 8,
     label = "aNBT2O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
@@ -456,7 +456,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -479,7 +479,7 @@ CBH reference scheme: cbh2
 entry(
     index = 9,
     label = "aNBT2O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -509,7 +509,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -532,7 +532,7 @@ CBH reference scheme: cbh2
 entry(
     index = 10,
     label = "aIBT1O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -562,7 +562,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -585,7 +585,7 @@ CBH reference scheme: cbh2
 entry(
     index = 11,
     label = "aIBT1O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
@@ -615,7 +615,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -638,7 +638,7 @@ CBH reference scheme: cbh2
 entry(
     index = 12,
     label = "aIBT2O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -668,7 +668,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -691,7 +691,7 @@ CBH reference scheme: cbh2
 entry(
     index = 13,
     label = "aNPT1O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {9,S}
@@ -724,7 +724,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -747,7 +747,7 @@ CBH reference scheme: cbh2
 entry(
     index = 14,
     label = "aNPT1O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {9,S}
@@ -780,7 +780,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -803,7 +803,7 @@ CBH reference scheme: cbh2
 entry(
     index = 15,
     label = "aNPT1O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {9,S}
@@ -836,7 +836,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -859,7 +859,7 @@ CBH reference scheme: cbh2
 entry(
     index = 16,
     label = "aNPT1O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
@@ -892,7 +892,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -915,7 +915,7 @@ CBH reference scheme: cbh2
 entry(
     index = 17,
     label = "aNPT2O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {9,S}
@@ -948,7 +948,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -971,7 +971,7 @@ CBH reference scheme: cbh2
 entry(
     index = 18,
     label = "aNPT2O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {9,S}
@@ -1004,7 +1004,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1027,7 +1027,7 @@ CBH reference scheme: cbh2
 entry(
     index = 19,
     label = "aNPT2O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
@@ -1060,7 +1060,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1083,7 +1083,7 @@ CBH reference scheme: cbh2
 entry(
     index = 20,
     label = "aNPT2O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {9,S}
@@ -1116,7 +1116,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1139,7 +1139,7 @@ CBH reference scheme: cbh2
 entry(
     index = 21,
     label = "aNPT3O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
@@ -1172,7 +1172,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1195,7 +1195,7 @@ CBH reference scheme: cbh2
 entry(
     index = 22,
     label = "aNPT3O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
@@ -1228,7 +1228,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1251,7 +1251,7 @@ CBH reference scheme: cbh2
 entry(
     index = 23,
     label = "aIPT1O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -1284,7 +1284,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1307,7 +1307,7 @@ CBH reference scheme: cbh2
 entry(
     index = 24,
     label = "aIPT1O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
@@ -1340,7 +1340,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1363,7 +1363,7 @@ CBH reference scheme: cbh2
 entry(
     index = 25,
     label = "aIPT1O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
@@ -1396,7 +1396,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1419,7 +1419,7 @@ CBH reference scheme: cbh2
 entry(
     index = 26,
     label = "aIPT1O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
@@ -1452,7 +1452,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1475,7 +1475,7 @@ CBH reference scheme: cbh2
 entry(
     index = 27,
     label = "aIPT2O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -1508,7 +1508,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1531,7 +1531,7 @@ CBH reference scheme: cbh2
 entry(
     index = 28,
     label = "aIPT2O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -1564,7 +1564,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1587,7 +1587,7 @@ CBH reference scheme: cbh2
 entry(
     index = 29,
     label = "aIPT2O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1620,7 +1620,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1643,7 +1643,7 @@ CBH reference scheme: cbh2
 entry(
     index = 30,
     label = "aIPT3O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
@@ -1676,7 +1676,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1699,7 +1699,7 @@ CBH reference scheme: cbh2
 entry(
     index = 31,
     label = "aIPT3O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -1732,7 +1732,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1755,7 +1755,7 @@ CBH reference scheme: cbh2
 entry(
     index = 32,
     label = "aIPT3O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
@@ -1788,7 +1788,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1811,7 +1811,7 @@ CBH reference scheme: cbh2
 entry(
     index = 33,
     label = "aIPT4O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {9,S}
@@ -1844,7 +1844,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1867,7 +1867,7 @@ CBH reference scheme: cbh2
 entry(
     index = 34,
     label = "aIPT4O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -1900,7 +1900,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1923,7 +1923,7 @@ CBH reference scheme: cbh2
 entry(
     index = 35,
     label = "aIPT4O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
@@ -1956,7 +1956,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -1979,7 +1979,7 @@ CBH reference scheme: cbh2
 entry(
     index = 36,
     label = "aNEOPTO2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2012,7 +2012,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2035,7 +2035,7 @@ CBH reference scheme: cbh2
 entry(
     index = 37,
     label = "aNHX1O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {8,S} {10,S}
@@ -2071,7 +2071,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2094,7 +2094,7 @@ CBH reference scheme: cbh2
 entry(
     index = 38,
     label = "aNHX1O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {10,S}
@@ -2130,7 +2130,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2153,7 +2153,7 @@ CBH reference scheme: cbh2
 entry(
     index = 39,
     label = "aNHX1O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {10,S}
@@ -2189,7 +2189,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2212,7 +2212,7 @@ CBH reference scheme: cbh2
 entry(
     index = 40,
     label = "aNHX1O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {8,S} {10,S}
@@ -2248,7 +2248,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2271,7 +2271,7 @@ CBH reference scheme: cbh2
 entry(
     index = 41,
     label = "aNHX1O2H-6O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
@@ -2307,7 +2307,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2330,7 +2330,7 @@ CBH reference scheme: cbh2
 entry(
     index = 42,
     label = "aNHX2O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {10,S}
@@ -2366,7 +2366,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2389,7 +2389,7 @@ CBH reference scheme: cbh2
 entry(
     index = 43,
     label = "aNHX2O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {11,S}
@@ -2425,7 +2425,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2448,7 +2448,7 @@ CBH reference scheme: cbh2
 entry(
     index = 44,
     label = "aNHX2O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {8,S} {11,S}
@@ -2484,7 +2484,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2507,7 +2507,7 @@ CBH reference scheme: cbh2
 entry(
     index = 45,
     label = "aNHX2O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {7,S} {10,S}
@@ -2543,7 +2543,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2566,7 +2566,7 @@ CBH reference scheme: cbh2
 entry(
     index = 46,
     label = "aNHX2O2H-6O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {10,S}
@@ -2602,7 +2602,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2625,7 +2625,7 @@ CBH reference scheme: cbh2
 entry(
     index = 47,
     label = "aNHX3O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {10,S}
@@ -2661,7 +2661,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2684,7 +2684,7 @@ CBH reference scheme: cbh2
 entry(
     index = 48,
     label = "aNHX3O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {11,S}
@@ -2720,7 +2720,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2743,7 +2743,7 @@ CBH reference scheme: cbh2
 entry(
     index = 49,
     label = "aNHX3O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {10,S}
@@ -2779,7 +2779,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2802,7 +2802,7 @@ CBH reference scheme: cbh2
 entry(
     index = 50,
     label = "aNHX3O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {10,S}
@@ -2838,7 +2838,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2861,7 +2861,7 @@ CBH reference scheme: cbh2
 entry(
     index = 51,
     label = "aNHX3O2H-6O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {10,S}
@@ -2897,7 +2897,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2920,7 +2920,7 @@ CBH reference scheme: cbh2
 entry(
     index = 52,
     label = "a2MPT1O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -2956,7 +2956,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -2979,7 +2979,7 @@ CBH reference scheme: cbh2
 entry(
     index = 53,
     label = "a2MPT1O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
@@ -3015,7 +3015,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3038,7 +3038,7 @@ CBH reference scheme: cbh2
 entry(
     index = 54,
     label = "a2MPT1O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {10,S}
@@ -3074,7 +3074,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3097,7 +3097,7 @@ CBH reference scheme: cbh2
 entry(
     index = 55,
     label = "a2MPT1O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
@@ -3133,7 +3133,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3156,7 +3156,7 @@ CBH reference scheme: cbh2
 entry(
     index = 56,
     label = "a2MPT1O2H-6O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
@@ -3192,7 +3192,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3215,7 +3215,7 @@ CBH reference scheme: cbh2
 entry(
     index = 57,
     label = "a2MPT2O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -3251,7 +3251,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3274,7 +3274,7 @@ CBH reference scheme: cbh2
 entry(
     index = 58,
     label = "aMPT2O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -3310,7 +3310,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3333,7 +3333,7 @@ CBH reference scheme: cbh2
 entry(
     index = 59,
     label = "a2MPT2O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
@@ -3369,7 +3369,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3392,7 +3392,7 @@ CBH reference scheme: cbh2
 entry(
     index = 60,
     label = "a2MPT2O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -3428,7 +3428,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3451,7 +3451,7 @@ CBH reference scheme: cbh2
 entry(
     index = 61,
     label = "a2MPT3O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
@@ -3487,7 +3487,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3510,7 +3510,7 @@ CBH reference scheme: cbh2
 entry(
     index = 62,
     label = "a2MPT3O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -3546,7 +3546,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3569,7 +3569,7 @@ CBH reference scheme: cbh2
 entry(
     index = 63,
     label = "a2MPT3O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
@@ -3605,7 +3605,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3628,7 +3628,7 @@ CBH reference scheme: cbh2
 entry(
     index = 64,
     label = "a2MPT4O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {10,S}
@@ -3664,7 +3664,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3687,7 +3687,7 @@ CBH reference scheme: cbh2
 entry(
     index = 65,
     label = "a2MPT4O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
@@ -3723,7 +3723,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3746,7 +3746,7 @@ CBH reference scheme: cbh2
 entry(
     index = 66,
     label = "a2MPT4O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
@@ -3782,7 +3782,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3805,7 +3805,7 @@ CBH reference scheme: cbh2
 entry(
     index = 67,
     label = "a2MPT4O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
@@ -3841,7 +3841,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3864,7 +3864,7 @@ CBH reference scheme: cbh2
 entry(
     index = 68,
     label = "a2MPT5O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
@@ -3900,7 +3900,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3923,7 +3923,7 @@ CBH reference scheme: cbh2
 entry(
     index = 69,
     label = "a2MPT5O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {8,S}
@@ -3959,7 +3959,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -3982,7 +3982,7 @@ CBH reference scheme: cbh2
 entry(
     index = 70,
     label = "a2MPT5O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
@@ -4018,7 +4018,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4041,7 +4041,7 @@ CBH reference scheme: cbh2
 entry(
     index = 71,
     label = "a2MPT5O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
@@ -4077,7 +4077,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4100,7 +4100,7 @@ CBH reference scheme: cbh2
 entry(
     index = 72,
     label = "a3MPT1O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {10,S}
@@ -4136,7 +4136,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4159,7 +4159,7 @@ CBH reference scheme: cbh2
 entry(
     index = 73,
     label = "a3MPT1O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -4195,7 +4195,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4218,7 +4218,7 @@ CBH reference scheme: cbh2
 entry(
     index = 74,
     label = "a3MPT1O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {10,S}
@@ -4254,7 +4254,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4277,7 +4277,7 @@ CBH reference scheme: cbh2
 entry(
     index = 75,
     label = "a3MPT1O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {10,S}
@@ -4313,7 +4313,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4336,7 +4336,7 @@ CBH reference scheme: cbh2
 entry(
     index = 76,
     label = "a3MPT1O2H-6O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
@@ -4372,7 +4372,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4395,7 +4395,7 @@ CBH reference scheme: cbh2
 entry(
     index = 77,
     label = "a3MPT2O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {10,S}
@@ -4431,7 +4431,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4454,7 +4454,7 @@ CBH reference scheme: cbh2
 entry(
     index = 78,
     label = "a3MPT2O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
@@ -4490,7 +4490,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4513,7 +4513,7 @@ CBH reference scheme: cbh2
 entry(
     index = 79,
     label = "a3MPT2O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
@@ -4549,7 +4549,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4572,7 +4572,7 @@ CBH reference scheme: cbh2
 entry(
     index = 80,
     label = "a3MPT2O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {10,S}
@@ -4608,7 +4608,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4631,7 +4631,7 @@ CBH reference scheme: cbh2
 entry(
     index = 81,
     label = "a3MPT2O2H-6O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
@@ -4667,7 +4667,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4690,7 +4690,7 @@ CBH reference scheme: cbh2
 entry(
     index = 82,
     label = "a3MPT3O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -4726,7 +4726,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4749,7 +4749,7 @@ CBH reference scheme: cbh2
 entry(
     index = 83,
     label = "a3MPT3O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -4785,7 +4785,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4808,7 +4808,7 @@ CBH reference scheme: cbh2
 entry(
     index = 84,
     label = "a3MPT3O2H-6O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -4844,7 +4844,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4867,7 +4867,7 @@ CBH reference scheme: cbh2
 entry(
     index = 85,
     label = "a3MPT6O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
@@ -4903,7 +4903,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4926,7 +4926,7 @@ CBH reference scheme: cbh2
 entry(
     index = 86,
     label = "a3MPT6O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
@@ -4962,7 +4962,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -4985,7 +4985,7 @@ CBH reference scheme: cbh2
 entry(
     index = 87,
     label = "a3MPT6O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
@@ -5021,7 +5021,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5044,7 +5044,7 @@ CBH reference scheme: cbh2
 entry(
     index = 88,
     label = "aNHPT1O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {9,S} {11,S}
@@ -5083,7 +5083,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5106,7 +5106,7 @@ CBH reference scheme: cbh2
 entry(
     index = 89,
     label = "aNHPT1O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {9,S} {11,S}
@@ -5145,7 +5145,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5168,7 +5168,7 @@ CBH reference scheme: cbh2
 entry(
     index = 90,
     label = "aNHPT1O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {11,S}
@@ -5207,7 +5207,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5230,7 +5230,7 @@ CBH reference scheme: cbh2
 entry(
     index = 91,
     label = "aNHPT1O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {9,S} {11,S}
@@ -5269,7 +5269,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5292,7 +5292,7 @@ CBH reference scheme: cbh2
 entry(
     index = 92,
     label = "aNHPT1O2H-6O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {9,S} {11,S}
@@ -5331,7 +5331,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5354,7 +5354,7 @@ CBH reference scheme: cbh2
 entry(
     index = 93,
     label = "aNHPT1O2H-7O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
@@ -5393,7 +5393,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5416,7 +5416,7 @@ CBH reference scheme: cbh2
 entry(
     index = 94,
     label = "aNHPT2O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {8,S} {11,S}
@@ -5455,7 +5455,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5478,7 +5478,7 @@ CBH reference scheme: cbh2
 entry(
     index = 95,
     label = "aNHPT2O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {12,S}
@@ -5517,7 +5517,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5540,7 +5540,7 @@ CBH reference scheme: cbh2
 entry(
     index = 96,
     label = "aNHPT2O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {9,S} {12,S}
@@ -5579,7 +5579,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5602,7 +5602,7 @@ CBH reference scheme: cbh2
 entry(
     index = 97,
     label = "aNHPT2O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {9,S} {12,S}
@@ -5641,7 +5641,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5664,7 +5664,7 @@ CBH reference scheme: cbh2
 entry(
     index = 98,
     label = "aNHPT2O2H-6O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {6,S} {8,S} {11,S}
@@ -5703,7 +5703,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5726,7 +5726,7 @@ CBH reference scheme: cbh2
 entry(
     index = 99,
     label = "aNHPT2O2H-7O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {11,S}
@@ -5765,7 +5765,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5788,7 +5788,7 @@ CBH reference scheme: cbh2
 entry(
     index = 100,
     label = "aNHPT3O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {11,S}
@@ -5827,7 +5827,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5850,7 +5850,7 @@ CBH reference scheme: cbh2
 entry(
     index = 101,
     label = "aNHPT3O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {12,S}
@@ -5889,7 +5889,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5912,7 +5912,7 @@ CBH reference scheme: cbh2
 entry(
     index = 102,
     label = "aNHPT3O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {11,S}
@@ -5951,7 +5951,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -5974,7 +5974,7 @@ CBH reference scheme: cbh2
 entry(
     index = 103,
     label = "aNHPT3O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {8,S} {11,S}
@@ -6013,7 +6013,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6036,7 +6036,7 @@ CBH reference scheme: cbh2
 entry(
     index = 104,
     label = "aNHPT3O2H-6O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {8,S} {11,S}
@@ -6075,7 +6075,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6098,7 +6098,7 @@ CBH reference scheme: cbh2
 entry(
     index = 105,
     label = "aNHPT3O2H-7O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {11,S}
@@ -6137,7 +6137,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6160,7 +6160,7 @@ CBH reference scheme: cbh2
 entry(
     index = 106,
     label = "aNHPT4O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {11,S}
@@ -6199,7 +6199,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6222,7 +6222,7 @@ CBH reference scheme: cbh2
 entry(
     index = 107,
     label = "aNHPT4O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {8,S} {12,S}
@@ -6261,7 +6261,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6284,7 +6284,7 @@ CBH reference scheme: cbh2
 entry(
     index = 108,
     label = "aNHPT4O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {12,S}
@@ -6323,7 +6323,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6346,7 +6346,7 @@ CBH reference scheme: cbh2
 entry(
     index = 109,
     label = "a22DMB1O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6382,7 +6382,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6405,7 +6405,7 @@ CBH reference scheme: cbh2
 entry(
     index = 110,
     label = "a22DMB1O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -6441,7 +6441,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6464,7 +6464,7 @@ CBH reference scheme: cbh2
 entry(
     index = 111,
     label = "a22DMB1O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6500,7 +6500,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6523,7 +6523,7 @@ CBH reference scheme: cbh2
 entry(
     index = 112,
     label = "a22DMB3O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6559,7 +6559,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6582,7 +6582,7 @@ CBH reference scheme: cbh2
 entry(
     index = 113,
     label = "a22DMB3O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -6618,7 +6618,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6641,7 +6641,7 @@ CBH reference scheme: cbh2
 entry(
     index = 114,
     label = "a22DMB4O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -6677,7 +6677,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6700,7 +6700,7 @@ CBH reference scheme: cbh2
 entry(
     index = 115,
     label = "a22DMB4O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -6736,7 +6736,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6759,7 +6759,7 @@ CBH reference scheme: cbh2
 entry(
     index = 116,
     label = "a23DMB1O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
@@ -6795,7 +6795,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6818,7 +6818,7 @@ CBH reference scheme: cbh2
 entry(
     index = 117,
     label = "a23DMB1O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -6854,7 +6854,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6877,7 +6877,7 @@ CBH reference scheme: cbh2
 entry(
     index = 118,
     label = "a23DMB1O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
@@ -6913,7 +6913,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6936,7 +6936,7 @@ CBH reference scheme: cbh2
 entry(
     index = 119,
     label = "a23DMB1O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
@@ -6972,7 +6972,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -6995,7 +6995,7 @@ CBH reference scheme: cbh2
 entry(
     index = 120,
     label = "a23DMB2O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
@@ -7031,7 +7031,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7054,7 +7054,7 @@ CBH reference scheme: cbh2
 entry(
     index = 121,
     label = "a23DMB2O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -7090,7 +7090,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7113,7 +7113,7 @@ CBH reference scheme: cbh2
 entry(
     index = 122,
     label = "a23DMB2O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -7149,7 +7149,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7172,7 +7172,7 @@ CBH reference scheme: cbh2
 entry(
     index = 123,
     label = "a24DMP1O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {9,S}
@@ -7211,7 +7211,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7234,7 +7234,7 @@ CBH reference scheme: cbh2
 entry(
     index = 124,
     label = "a24DMP1O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {12,S}
@@ -7273,7 +7273,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7296,7 +7296,7 @@ CBH reference scheme: cbh2
 entry(
     index = 125,
     label = "a24DMP1O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
@@ -7335,7 +7335,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7358,7 +7358,7 @@ CBH reference scheme: cbh2
 entry(
     index = 126,
     label = "a24DMP1O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {11,S}
@@ -7397,7 +7397,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7420,7 +7420,7 @@ CBH reference scheme: cbh2
 entry(
     index = 127,
     label = "a24DMP1O2H-6O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {12,S}
@@ -7459,7 +7459,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7482,7 +7482,7 @@ CBH reference scheme: cbh2
 entry(
     index = 128,
     label = "a24DMP2O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
@@ -7521,7 +7521,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7544,7 +7544,7 @@ CBH reference scheme: cbh2
 entry(
     index = 129,
     label = "a24DMP2O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
@@ -7583,7 +7583,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7606,7 +7606,7 @@ CBH reference scheme: cbh2
 entry(
     index = 130,
     label = "a24DMP2O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
@@ -7645,7 +7645,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7668,7 +7668,7 @@ CBH reference scheme: cbh2
 entry(
     index = 131,
     label = "a24DMP2O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {8,S}
@@ -7707,7 +7707,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7730,7 +7730,7 @@ CBH reference scheme: cbh2
 entry(
     index = 132,
     label = "a24DMP3O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {12,S}
@@ -7769,7 +7769,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7792,7 +7792,7 @@ CBH reference scheme: cbh2
 entry(
     index = 133,
     label = "a24DMP3O2H-2O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {9,S}
@@ -7831,7 +7831,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7854,7 +7854,7 @@ CBH reference scheme: cbh2
 entry(
     index = 134,
     label = "a2MPT3O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
@@ -7890,7 +7890,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7913,7 +7913,7 @@ CBH reference scheme: cbh2
 entry(
     index = 135,
     label = "aTMP1O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -7955,7 +7955,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -7978,7 +7978,7 @@ CBH reference scheme: cbh2
 entry(
     index = 136,
     label = "aTMP1O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -8020,7 +8020,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -8043,7 +8043,7 @@ CBH reference scheme: cbh2
 entry(
     index = 137,
     label = "aTMP1O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
@@ -8085,7 +8085,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -8108,7 +8108,7 @@ CBH reference scheme: cbh2
 entry(
     index = 138,
     label = "aTMP1O2H-6O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -8150,7 +8150,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -8173,7 +8173,7 @@ CBH reference scheme: cbh2
 entry(
     index = 139,
     label = "aTMP3O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -8215,7 +8215,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -8238,7 +8238,7 @@ CBH reference scheme: cbh2
 entry(
     index = 140,
     label = "aTMP3O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -8280,7 +8280,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -8303,7 +8303,7 @@ CBH reference scheme: cbh2
 entry(
     index = 141,
     label = "aTMP3O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -8345,7 +8345,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -8368,7 +8368,7 @@ CBH reference scheme: cbh2
 entry(
     index = 142,
     label = "aTMP4O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -8410,7 +8410,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -8433,7 +8433,7 @@ CBH reference scheme: cbh2
 entry(
     index = 143,
     label = "aTMP4O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -8475,7 +8475,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -8498,7 +8498,7 @@ CBH reference scheme: cbh2
 entry(
     index = 144,
     label = "aTMP4O2H-5O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -8540,7 +8540,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -8563,7 +8563,7 @@ CBH reference scheme: cbh2
 entry(
     index = 145,
     label = "aTMP5O2H-1O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
@@ -8605,7 +8605,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -8628,7 +8628,7 @@ CBH reference scheme: cbh2
 entry(
     index = 146,
     label = "aTMP5O2H-3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -8670,7 +8670,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -8693,7 +8693,7 @@ CBH reference scheme: cbh2
 entry(
     index = 147,
     label = "aTMP5O2H-4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -8735,7 +8735,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.
@@ -8758,7 +8758,7 @@ CBH reference scheme: cbh2
 entry(
     index = 148,
     label = "aTMP5O2H-8O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
@@ -8800,7 +8800,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Elliott SN, Mulvihill CR, Ghosh MK, Curran HJ, Klippenstein SJ.
 Systematic exploration of the thermochemistry for a set of peroxy hydroperoxy-alkyl radicals.

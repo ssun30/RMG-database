@@ -24,7 +24,7 @@ boundaryAtoms = ["*1", "*3"]
 entry(
     index = 0,
     label = "cCCJ",
-    group = 
+    group =
 """
 1 *1 C u0 c0 {2,S}
 2 *2 C u0 {1,S} {3,S}
@@ -36,7 +36,7 @@ entry(
 entry(
     index = 1,
     label = "CJ",
-    group = 
+    group =
 """
 1 *3 C u1
 """,
@@ -46,7 +46,7 @@ entry(
 entry(
     index = 2,
     label = "C",
-    group = 
+    group =
 """
 1 *1 C u0 c0
 """,
@@ -56,7 +56,7 @@ entry(
 entry(
     index = 3,
     label = "cCsCJ",
-    group = 
+    group =
 """
 1 *1 C  u0 c0 {2,S}
 2 *2 Cs u0 {1,S} {3,S}
@@ -68,7 +68,7 @@ entry(
 entry(
     index = 4,
     label = "cCs(-HH)CJ",
-    group = 
+    group =
 """
 1 *1 C  u0 c0 {2,S}
 2 *2 Cs u0 {1,S} {3,S} {4,S} {5,S}
@@ -82,7 +82,7 @@ entry(
 entry(
     index = 5,
     label = "cCs(-HR!H)CJ",
-    group = 
+    group =
 """
 1 *1 C   u0 c0 {2,S}
 2 *2 Cs  u0 {1,S} {3,S} {4,S} {5,S}
@@ -96,7 +96,7 @@ entry(
 entry(
     index = 6,
     label = "cCs(-R!HR!H)CJ",
-    group = 
+    group =
 """
 1 *1 C   u0 c0 {2,S}
 2 *2 Cs  u0 {1,S} {3,S} {4,S} {5,S}
@@ -110,7 +110,7 @@ entry(
 entry(
     index = 7,
     label = "cCdCJ",
-    group = 
+    group =
 """
 1 *1 C  u0 c0 {2,S}
 2 *2 Cd u0 {1,S} {3,S}
@@ -122,7 +122,7 @@ entry(
 entry(
     index = 8,
     label = "CdsJ",
-    group = 
+    group =
 """
 1 *3 Cd u1 {2,D}
 2    C  u0 {1,D}
@@ -133,7 +133,7 @@ entry(
 entry(
     index = 9,
     label = "CsJ",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    R  u0 {1,S}
@@ -145,7 +145,7 @@ entry(
 entry(
     index = 10,
     label = "CsJ-HH",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -157,7 +157,7 @@ entry(
 entry(
     index = 11,
     label = "CsJ-CsH",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    Cs u0 {1,S}
@@ -169,7 +169,7 @@ entry(
 entry(
     index = 12,
     label = "CsJ-CsCs",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    Cs u0 {1,S}
@@ -181,7 +181,7 @@ entry(
 entry(
     index = 13,
     label = "CsJ-SsH",
-    group = 
+    group =
 """
 1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
@@ -193,7 +193,7 @@ entry(
 entry(
     index = 14,
     label = "CsJ-SsSs",
-    group = 
+    group =
 """
 1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
@@ -205,7 +205,7 @@ entry(
 entry(
     index = 15,
     label = "CsJ-CsSs",
-    group = 
+    group =
 """
 1 *3 Cs  u1 {2,S} {3,S}
 2    Cs  u0 {1,S}
@@ -217,7 +217,7 @@ entry(
 entry(
     index = 16,
     label = "CsJ-TwoDe",
-    group = 
+    group =
 """
 1 *3 Cs               u1 {2,S} {3,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -229,7 +229,7 @@ entry(
 entry(
     index = 17,
     label = "CsJ-CdCd",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    Cd u0 {1,S}
@@ -241,7 +241,7 @@ entry(
 entry(
     index = 18,
     label = "CsJ-OneDe",
-    group = 
+    group =
 """
 1 *3 Cs               u1 {2,S} {3,S}
 2    R                u0 {1,S}
@@ -253,7 +253,7 @@ entry(
 entry(
     index = 19,
     label = "CsJ-OneDeH",
-    group = 
+    group =
 """
 1 *3 Cs               u1 {2,S} {3,S}
 2    H                u0 {1,S}
@@ -265,7 +265,7 @@ entry(
 entry(
     index = 20,
     label = "CsJ-(CdCdCd)H",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -279,7 +279,7 @@ entry(
 entry(
     index = 21,
     label = "CsJ-CdH",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -291,7 +291,7 @@ entry(
 entry(
     index = 22,
     label = "CsJ-OneDeCs",
-    group = 
+    group =
 """
 1 *3 Cs               u1 {2,S} {3,S}
 2    Cs               u0 {1,S}
@@ -303,7 +303,7 @@ entry(
 entry(
     index = 23,
     label = "CsJ-CdCs",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    Cs u0 {1,S}
@@ -315,7 +315,7 @@ entry(
 entry(
     index = 24,
     label = "CsJ-OneDeSs",
-    group = 
+    group =
 """
 1 *3 Cs            u1 {2,S} {3,S}
 2    S2s           u0 {1,S}
@@ -327,7 +327,7 @@ entry(
 entry(
     index = 25,
     label = "CsJ-CdSs",
-    group = 
+    group =
 """
 1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
@@ -339,7 +339,7 @@ entry(
 entry(
     index = 26,
     label = "CH3",
-    group = 
+    group =
 """
 1 *1 C u0 c0 {2,S} {3,S} {4,S}
 2    H u0 {1,S}
@@ -352,7 +352,7 @@ entry(
 entry(
     index = 27,
     label = "cCs(-HC)CJ",
-    group = 
+    group =
 """
 1 *1 C   u0 c0 {2,S}
 2 *2 Cs  u0 {1,S} {3,S} {4,S} {5,S}
@@ -366,7 +366,7 @@ entry(
 entry(
     index = 28,
     label = "CO",
-    group = 
+    group =
 """
 1 *1 CO u0 c0
 """,
@@ -376,7 +376,7 @@ entry(
 entry(
     index = 29,
     label = "CO_O",
-    group = 
+    group =
 """
 1 *1 CO u0 c0 {2,S}
 2    O  u0 c0 {1,S}

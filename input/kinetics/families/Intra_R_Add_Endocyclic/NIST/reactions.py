@@ -30,7 +30,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011188
 Uncertainty: 5.0
@@ -64,7 +64,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011188
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011188/rk00000001.xml
@@ -95,7 +95,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00012751
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012751/rk00000001.xml
@@ -130,7 +130,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""RRK(M) extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013098
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013098/rk00000001.xml
@@ -162,7 +162,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013098
 Pressure dependence: Rate constant is high pressure limit
@@ -194,7 +194,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013098
 Pressure dependence: Rate constant is high pressure limit
@@ -228,7 +228,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013098
 Uncertainty: 5.0
@@ -263,7 +263,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""RRK(M) extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013098
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013098/rk00000001.xml
@@ -295,7 +295,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013098
 Pressure dependence: Rate constant is high pressure limit
@@ -327,7 +327,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015692
 Pressure dependence: Rate constant is high pressure limit
@@ -361,7 +361,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015692/rk00000001.xml
@@ -394,7 +394,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00017190
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017190/rk00000001.xml

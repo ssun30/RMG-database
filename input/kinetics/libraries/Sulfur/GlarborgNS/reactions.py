@@ -23,7 +23,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [265,266],rv
 """,
@@ -39,7 +39,7 @@ entry(
         Ea = (6280, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated as O2 + N
 """,
@@ -55,7 +55,7 @@ entry(
         Ea = (27000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [267]
 """,
@@ -71,7 +71,7 @@ entry(
         Ea = (20000, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated as SO2 + O
 """,
@@ -95,7 +95,7 @@ entry(
         T1 = (1e+30, 'K'),
         T2 = (1e+30, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 https://doi.org/10.1063/1.1806419
 """,
@@ -137,7 +137,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [265], rv
 """,
@@ -153,7 +153,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -169,7 +169,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -185,7 +185,7 @@ entry(
         Ea = (0, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 See text
 

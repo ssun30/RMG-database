@@ -16,7 +16,7 @@ Thermo data of species relevant for S/N systems which are not already present in
 entry(
     index = 0,
     label = "TrinitroMethane",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {8,S} {11,S}
 2  N u0 p0 c+1 {1,S} {3,D} {4,S}
@@ -39,7 +39,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T09/10""",
-    longDesc = 
+    longDesc =
 u"""
 517-25-9
 CH(NO2)3 Tri-Nitro Methane STATWT = 1 SYMNO = 3  IA = 50.830948  IB = 68.4055572
@@ -54,7 +54,7 @@ Lst Sq Error Cp @ 1300 K 0.50%
 entry(
     index = 1,
     label = "CNH2",
-    molecule = 
+    molecule =
 """
 multiplicity 4
 1 C u3 p0 c0 {2,S}
@@ -71,7 +71,7 @@ multiplicity 4
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""triradical  T 2/12""",
-    longDesc = 
+    longDesc =
 u"""
 35430-17-2
 CNH2  triradical  SIGMA=2.  STATWT=2.  IA=0.2456  IB=2.2408  IC=2.4865
@@ -84,7 +84,7 @@ CNH2  triradical  T 2/12C  1.H  2.N  1.   0.G   200.000  6000.000  B  28.03332 1
 entry(
     index = 2,
     label = "NH2CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -102,7 +102,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""H2N-C*=O  T09/09""",
-    longDesc = 
+    longDesc =
 u"""
 3858-51-7
 CH2NO  H2N-C(*)=O RADICAL   STATWT=2  SIGMA=2  IA=0.6788  IB=7.7562  IC=8.4350
@@ -117,7 +117,7 @@ Max Lst Sq Error Cp @ 6000 K 0.36%.
 entry(
     index = 3,
     label = "CH2ONO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -137,7 +137,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""RADICAL   T05/98""",
-    longDesc = 
+    longDesc =
 u"""
 38082-43-8 ??
 *CH2ONO2  METHYL-NITRATE-RADICAL   STATWT = 2  SYMNO = 1  IA = 6.5230882
@@ -151,7 +151,7 @@ REF = Melius Database 1988 P73BJ  Max Lst Sq Error Cp @ 1300 K 0.56%
 entry(
     index = 4,
     label = "NH2CN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 C u0 p0 c0 {1,S} {5,T}
@@ -168,7 +168,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""H2N-CN      T09/09""",
-    longDesc = 
+    longDesc =
 u"""
 420-04-2
 CH2N2  CYANAMIDE H2N-CN  SIGMA=2 STATWT=1    IA=0.2746   IB=8.3336  IC=8.5352
@@ -181,7 +181,7 @@ N62Z}  Max Lst Sq Error Cp @ 6000 K 0.36%
 entry(
     index = 5,
     label = "NHCNH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -198,7 +198,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Carbodiimi  T09/09""",
-    longDesc = 
+    longDesc =
 u"""
 151-51-9
 CH2N2 CARBODIIMIDE HN=C=NH   SIGMA=2  STATWT=1  IA=0.2286  IB=8.1420  IC=8.1433
@@ -211,7 +211,7 @@ Sq Error Cp @ 6000 K 0.33%
 entry(
     index = 6,
     label = "cCH2NN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -228,7 +228,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""cyc-CH2-N  T01/07""",
-    longDesc = 
+    longDesc =
 u"""
 157-22-2
 CH2N2 CYCLO DIAZIRINE H2(CN=N)  STATWT=1  SIGMA=2  IA=2.0465   IB=3.5255
@@ -242,7 +242,7 @@ Swihart J. Prop & Power 18,(2002),1242}   MAX LST SQ ERROR CP @ 200 K 0.73%
 entry(
     index = 7,
     label = "cCHNNH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {3,S} {5,S}
@@ -259,7 +259,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""c(-CH=N-NH)T01/07""",
-    longDesc = 
+    longDesc =
 u"""
 157-23-3
 CH2N2 1H-Diazirine Cyclo H(-C=N-NH-)  SIGMA=1  STATWT=1  IA=2.1104  IB=3.7455
@@ -272,7 +272,7 @@ Power 18,(2002),1242}  Max Lst Sq Error Cp @ 200 K 0.51%.
 entry(
     index = 8,
     label = "CH2N2O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -290,7 +290,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""H2C=N-N=O T05/08""",
-    longDesc = 
+    longDesc =
 u"""
 90251-09-5
 CH2N2O   H2C=N-N=O   SIGMA=2  STATWT=1  Ia=1.5340  Ib=15.3036  Ic=16.7906
@@ -303,7 +303,7 @@ REF=Burcat G3B3 calc.  {HF298=      REF=Pitz and Westbrook Proc. Comb. Inst
 entry(
     index = 9,
     label = "CH2N2O2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -322,7 +322,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""H2C=N-N  T05/08""",
-    longDesc = 
+    longDesc =
 u"""
 647700-85-2
 CH2N2O2   H2C=N-NO2  SIGMA=2  STATWT=1  IA=6.9821  IB=16.6633  IC=23.5617
@@ -336,7 +336,7 @@ Lst Sq Error Cp @ 1300 K 0.48%.
 entry(
     index = 10,
     label = "CH2N4",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -355,12 +355,12 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Cy Tetrazol T 8/14""",
-    longDesc = 
+    longDesc =
 u"""
 288-94-8
 CH2N4 Cy 1H-Tetrazol  SIGMA=1  STATWT=1  IA=7.9934  IB=8.1428  IC=16.1362
 Nu=563,690,737,848,969,1011,1046,1069,1151,1273,1300,1466,1518,3311,3654
-REF=Burcat B3LYP/6-31G(d)  HF298=320.+/-3. kJ  REF=Balepin Lebedev et al 
+REF=Burcat B3LYP/6-31G(d)  HF298=320.+/-3. kJ  REF=Balepin Lebedev et al
 Svoistva Veshchestv Str. Mol. 1977 93-98.  HF298(sol)=236.+/-0.4 kJ  REF=IBID.
 Max Lst Sq Error Cp @ 200 K ***1.1%*** @ 6000 K 0.49%.
 """,
@@ -369,7 +369,7 @@ Max Lst Sq Error Cp @ 200 K ***1.1%*** @ 6000 K 0.49%.
 entry(
     index = 11,
     label = "HCNH2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -387,7 +387,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Aminomethy  T10/14""",
-    longDesc = 
+    longDesc =
 u"""
 35430-17-2
 HCNH2 Aminomethylene  SIGMA=1  STATWT=3  IA=0.3748  IB=2.9137  IC=3.0035
@@ -400,7 +400,7 @@ Max Lst Sq Error Cp @ 6000 K 0.39%
 entry(
     index = 12,
     label = "CH2NOH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -418,7 +418,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""C2H=NO  T12/09""",
-    longDesc = 
+    longDesc =
 u"""
 75-17-2
 CH3NO  FORMALDEHYDE-OXIME  CH2=N-OH   SIGMA=2  STATWT=1   A0=2.258  B0=0.396
@@ -432,7 +432,7 @@ Error Cp @ 200 K 0.63%
 entry(
     index = 13,
     label = "cCHNHNH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -451,7 +451,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""(-CH*N=NH-T01/07""",
-    longDesc = 
+    longDesc =
 u"""
 133473-39-9
 CH3N2 Diaziridine C Radical,   cyclo(-CH*-NH-NH-) SIGMA=2  STATWT=2  IA=2.8583
@@ -464,7 +464,7 @@ IB=3.4835  IC=5.6503  Nu=3427,3390,3147,1396,1298,1259,1184,1126,1026,883,855,
 entry(
     index = 14,
     label = "cNNHCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -483,7 +483,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""(-CH2N=N*-T01/07""",
-    longDesc = 
+    longDesc =
 u"""
 127843-62-3
 CH3N2 Diaziridine N Radical  Cyclo(-CH2-NH-N*-)  SIGMA=1  STATWT=2  IA=2.8352
@@ -496,7 +496,7 @@ IB=3.4685  IC=5.5084  Nu=3412,3199,3108,1546,1325,1230,1130,1094,1018,974,891,
 entry(
     index = 15,
     label = "OHCH2NNO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -518,7 +518,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""rad     T05/08""",
-    longDesc = 
+    longDesc =
 u"""
 CH3N2O3 radical  H2C(OH)-N*NO2  SIGMA=1  STATWT=2  IA=11.8164  IB=28.3471
 IC=32.4371  Ir(NO2)=4.93279  ROSYM=2  V(3)=811. cm-1  Ir(OH)=0.18219  ROSYM=1
@@ -532,7 +532,7 @@ Max Lst Sq Error Cp @ 6000 K 0.48%
 entry(
     index = 16,
     label = "CH3N3O4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
 2  N u0 p1 c0 {1,S} {3,S} {6,S}
@@ -555,7 +555,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""CH3N(NO2)2T 4/13""",
-    longDesc = 
+    longDesc =
 u"""
 25346-05-8
 CH3N3O4  MethylDinitramine  CH3-N(NO2)2  SIGMA=2  STATWT=1  IA=24.1959
@@ -564,7 +564,7 @@ ROSYM=2  V(3)=270. cm-1]x2  Nu=3218,3183,3091,1757,1707,1516,1512,1469,1373,
 1307,1189,1182.5,1114,864,831,776,746,715,607,451,414,380,271,243
 HF298=95.793+/-8. kJ  REF=Burcat G3B3  {HF298=43.1+/-6.3 kJ REF=Korsunskii et al
 Bull Acad Sci USSR Div Chem Sci (1989),710; also Keshavarz et al. Indian J Mater.
-Sci 13,(2006),542; HF298=53.5+/-0.8 kJ  REF=Miroshnichenko et al Dokl Akad Nauk 
+Sci 13,(2006),542; HF298=53.5+/-0.8 kJ  REF=Miroshnichenko et al Dokl Akad Nauk
 SSSR 295,(1987),419}  Max Lst Sq Error Cp @ 6000 K 0.53%.
 """,
 )
@@ -572,7 +572,7 @@ SSSR 295,(1987),419}  Max Lst Sq Error Cp @ 6000 K 0.53%.
 entry(
     index = 17,
     label = "NH2CHNH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -591,7 +591,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""NH=CH-NH2 T02/16""",
-    longDesc = 
+    longDesc =
 u"""
 77269-36-4 or 155835-45-3
 CH4N2  AminoMethen-Imine  NH=CH-NH2  SIGMA=1  STATWT=1  IA=1.2688  IB=7.8067
@@ -604,7 +604,7 @@ HF298=11.893+/-2. kcal  REF=Burcat G3B3  Max Lst Sq Error cp @ 6000 K 0.47%
 entry(
     index = 18,
     label = "cCH2NHNH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {3,S} {6,S}
@@ -623,7 +623,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""c-CH2-N  T01/07""",
-    longDesc = 
+    longDesc =
 u"""
 41977-52-0 or 41977-53-1 or 76612-78-7
 CH4N2  Diaziridine-trans  Cy(-H2C-NH-NH-)  SIGMA=2  STATWT=1  IA=3.5188
@@ -638,7 +638,7 @@ HF298=58.12 kcal trans-G3 HF298=56.1 kcal trans-G2  REF=Gessner & Ball THEOCHEM,
 entry(
     index = 19,
     label = "urea",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -658,7 +658,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Urea (NH2  T 2/06""",
-    longDesc = 
+    longDesc =
 u"""
 57-13-6
 CH4N2O  Urea  (NH2)2C=O  SIGMA=1  STATWT=1  IA=7.5773 IB=8.1422  IC=15.5603
@@ -672,7 +672,7 @@ kJ  REF=Burcat G3B3  {HF298=-235.5 kJ  REF=Dorofeeva & Tolmach Thermochim. Acta
 entry(
     index = 20,
     label = "NH2CNHNHNO2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,D}
 2  N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -695,7 +695,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""ogua  T 2/06""",
-    longDesc = 
+    longDesc =
 u"""
 556-88-7
 CH4N4O2 NITROGUANIDINE (PICRITE) NH2C(NH-NO2)=NH SIGMA=1 STATWT=1  IA=13.9665
@@ -713,7 +713,7 @@ Cp @ 6000 K 0.47%
 entry(
     index = 21,
     label = "NH2CNH2NNO2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,D}
 2  N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -736,7 +736,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u""")2CNNOT 2/06""",
-    longDesc = 
+    longDesc =
 u"""
 CH4N4O2 NITROGUANIDINE  (NH2)2C=N-NO2  SIGMA=1  STATWT=1  IA=13.7657  IB=42.1226
 IC=55.7429  (Ir(NH2)=0.27642  ROSYM=1  V(3)=1980 cm-1)x2  Ir(NO2)=4.8768
@@ -749,7 +749,7 @@ HF0=73.410 kJ   REF=Burcat G3B3  Max Lst Sq Error Cp @ 1300 K 0.46%
 entry(
     index = 22,
     label = "CH3NNH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -770,7 +770,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""CH3N*NH2  T02/07""",
-    longDesc = 
+    longDesc =
 u"""
 51891-74-8
 CH5N2  METHYL HYDRAZINE RADICAL CH3N*NH2  SIGMA=1  STATWT=2  IA=1.8218 IB=8.0247
@@ -785,7 +785,7 @@ REF=C.MELIUS DATABASE  N86A}   Max Lst Sq Error Cp @ 6000 K 0.46%
 entry(
     index = 23,
     label = "CH2NHNH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -806,7 +806,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""2*NHNH2  T02/07""",
-    longDesc = 
+    longDesc =
 u"""
 442197-99-1
 CH5N2  METHENYL HYDRAZINE RADICAL CH2*NH-NH2  SIGMA=1  STATWT=2  IA=1.8334
@@ -821,7 +821,7 @@ Orlov et al J. Mol Struct 608,(2002),109}   Max Lst Sq Error Cp @ 6000 K 0.39%
 entry(
     index = 24,
     label = "NHC(NH2)2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -842,7 +842,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""guanidinT 2/06""",
-    longDesc = 
+    longDesc =
 u"""
 113-00-8
 CH5N3 GUANIDINE  (NH2)2C=NH  SIGMA=1 STATWT=1  IA=8.0205  IB=8.2786  IC=16.0571
@@ -856,7 +856,7 @@ Thermochim. Acta 240, (1994),47-66.}   Max Lst Sq Error Cp @ 6000 K  0.37%
 entry(
     index = 25,
     label = "cC(NO)",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -872,7 +872,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""cyclo     T 8/12""",
-    longDesc = 
+    longDesc =
 u"""
 228850-18-8
 C(NO)  cyclo radical  SIGMA=1  STATWT=2  IA=1.9035  IB=2.5928  IC=4.4963
@@ -884,7 +884,7 @@ Nu=564,960,1477   REF=Burcat G3B3  HF298=451.47+/-1.64 kJ  REF=ATcT C 2011
 entry(
     index = 26,
     label = "CON3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,D}
@@ -902,7 +902,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Radical    T 1/13""",
-    longDesc = 
+    longDesc =
 u"""
 *C(O)N3  Formil Azide Radical SIGMA=1  STATWT=2  IA=4.6661  IB=20.4976
 IC=25.1637  Nu=2270,1885,1140,918,812,576,453,239,154  REF=Burcat G3B3
@@ -914,7 +914,7 @@ HF298=352.1+/-3.3 kJ  REF=Maroshkin & Dorofeeva  Comp Theor. Chem 991,(2012),182
 entry(
     index = 27,
     label = "CS",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c+1 {2,T}
 2 C u0 p1 c-1 {1,T}
@@ -928,7 +928,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g11/01""",
-    longDesc = 
+    longDesc =
 u"""
 2944-05-0
 CS  CARBON SULFIDE  SIGMA=1  Be=0.820046  WE=1285.08  WEXE=6.44  WEYE=-.00077
@@ -950,7 +950,7 @@ JCP 94,(1991),3563  {HF298=279.9+/-0.85 kJ  REF=Denis J Sulfur Chem 29,(2008),
 entry(
     index = 28,
     label = "HCCN(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -966,7 +966,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T04/09""",
-    longDesc = 
+    longDesc =
 u"""
 2612-62-6
 HCCN  singlet HC**-CN  STATWT=1  SIGMA=1  [IA=0.1513  IB=7.6445  IC=7.6765]
@@ -979,7 +979,7 @@ al JPC A 106,(2002),1073}  Max Lst Sq Error Cp @ 6000 K 0.32%.
 entry(
     index = 29,
     label = "HCCN(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -996,7 +996,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T04/09""",
-    longDesc = 
+    longDesc =
 u"""
 2612-62-6
 C2HN Triplet  HC*=C=N*  SIGMA=1  STATWT=3  IA=0.0320  IB=7.6445  IC=7.6765
@@ -1009,7 +1009,7 @@ Nu=3406,1800,1248,475,452,389 HF298=113.876+/-2. kcal  REF=Burcat G3B3 calc
 entry(
     index = 30,
     label = "NCCHO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -1026,7 +1026,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T06/04""",
-    longDesc = 
+    longDesc =
 u"""
 4471-47-0
 C2HNO  CYANOKETENE  NC-CHO  SIGMA=1  STATWT=1  IA=1.2675  IB=16.7941  IC=18.0617
@@ -1038,7 +1038,7 @@ REF=Burcat G2B3 Calc   Max Lst Sq Error Cp @ 1300 K 0.48%
 entry(
     index = 31,
     label = "HCCNO2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {6,S}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -1056,7 +1056,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""A 1/05""",
-    longDesc = 
+    longDesc =
 u"""
 32038-80-5
 C2HNO2  Nitroacetylene  HCC-NO2  SIGMA=1  STATWT=1  IA=6.4119  IB=18.5936
@@ -1069,7 +1069,7 @@ B3LYP calc  HF298=66.6 kcal  G3B3 calc  REF=Politzer Lane Concha JPC A 108,
 entry(
     index = 32,
     label = "NO2CHCNO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -1091,7 +1091,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""1  T 3/08""",
-    longDesc = 
+    longDesc =
 u"""
 244294-17-5 for 1,1-Dinitroetylene radical)
 C2H(NO2)2 1,2-Dinitroethylene-trans radical NO2-HC=C*NO2  SIGMA=1  STATWT=2
@@ -1105,7 +1105,7 @@ kcal  REF=Burcat G3B3 calc  Max Lst Sq Error Cp @ 1300 K 0.44%
 entry(
     index = 33,
     label = "C2HN7O2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,D} {7,S}
 2  C u0 p0 c0 {4,S} {5,S} {6,D}
@@ -1129,7 +1129,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""5-Azido  T 5/13""",
-    longDesc = 
+    longDesc =
 u"""
 53566-50-0
 C2HN7O2  Cy  5-Azido-2-nitrotriazole  SIGMA=1  STATWT=1  IA=18.0999  IB=148.8712
@@ -1144,7 +1144,7 @@ B3LYP/6-31G(d)  HF298=121.6+/-3 kcal  REF=Osmont Catoire et al C&F 151,(2007),
 entry(
     index = 34,
     label = "NCCH2O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,T}
@@ -1163,7 +1163,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""RADICAL  T06/04""",
-    longDesc = 
+    longDesc =
 u"""
 350610-21-8
 C2H2NO  Cyanoethoxy Radical  NCCH2O*  SIGMA=1  STATWT=2  IA=2.0417  IB=17.2593
@@ -1176,7 +1176,7 @@ HF298=41.974 kcal  HF0=43.312 kcal  REF=Burcat G3B3 calc Max Lst Sq Error Cp
 entry(
     index = 35,
     label = "NCCH2OO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,T}
@@ -1196,7 +1196,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""HF298  T06/04""",
-    longDesc = 
+    longDesc =
 u"""
 119437-64-8
 C2H2NO2  Cyanoethylperoxy Radical NC-CH2-O-O*  SIGMA=1  STATWT=2  IA=2.4622
@@ -1209,7 +1209,7 @@ Max Lst Sq Error Cp @ 6000 K 0.46%.
 entry(
     index = 36,
     label = "C2H2(NO2)2",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {2,S} {3,D} {4,S}
 2  O u0 p3 c-1 {1,S}
@@ -1231,7 +1231,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""DI-N  A 5/05""",
-    longDesc = 
+    longDesc =
 u"""
 88055-17-8
 C2H2(NO2)2 Di-Nitroethylene-trans(E)    SYMNO = 2  STATWT = 1   IA = 13.5875
@@ -1245,7 +1245,7 @@ NU=3398,3290,1732,1652,1644,1399,1398(2),1277,1217,1004,972.5(2),900,789,767,
 entry(
     index = 37,
     label = "cCH2NCH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,D} {6,S}
@@ -1263,7 +1263,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Haziridin T12/14""",
-    longDesc = 
+    longDesc =
 u"""
 157-16-4
 C2H3N 2-H azeridine cy(-CH2-CH=N-)  SIGMA=1  STATWT=1  IA=2.3518  IB=3.7663
@@ -1275,7 +1275,7 @@ kcal  REF=Burcat G3B3  Max Lst Sq Error Cp @ 200 K 0.84%.
 entry(
     index = 38,
     label = "NCCH2OH",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -1294,7 +1294,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T06/04""",
-    longDesc = 
+    longDesc =
 u"""
 107-16-4
 C2H3NO  CYANOMETHANOL  NC-CH2-OH  STATWT=1  SIGMA=1  IA=2.3575  IB=17.4351
@@ -1307,7 +1307,7 @@ kcal  REF=Burcat G3B3 calc. Max Lst sq Error Cp @ 6000 K 0.44%.
 entry(
     index = 39,
     label = "NCCH2OOH",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -1327,7 +1327,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""A08/04""",
-    longDesc = 
+    longDesc =
 u"""
 180330-47-6
 C2H3NO2  CYANOMETHYLPEROXIDE  NC-CH2-O-OH  SIGMA=1  STATWT=1  IA=2.5577
@@ -1341,7 +1341,7 @@ Max Lst Sq Error Cp @ 6000 K 0.43%
 entry(
     index = 40,
     label = "CH3C(O)ONO2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -1363,7 +1363,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T10/05""",
-    longDesc = 
+    longDesc =
 u"""
 591-09-3
 C2H3NO4  Acetyl-Nitrate CH3C(O)-O-NO2  SIGMA=1  STATWT=1  IA=14.2331  IB=46.1172
@@ -1378,7 +1378,7 @@ REF=Thergas, Benson; -90.66 kcal Yoneda}  Max Lst Sq Error Cp @ 1300 K 0.59%
 entry(
     index = 41,
     label = "CH3C(O)OONO2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -1401,7 +1401,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T10/05""",
-    longDesc = 
+    longDesc =
 u"""
 2278-22-0
 C2H3NO5 Peroxy-Acetyl Nitrate  CH3C(O)-OO-NO2  SIGMA=1  STATWT=1  IA=16.7510
@@ -1416,7 +1416,7 @@ G3B3 calc  {HF298=-60.3 kcal  REF=NIST 94} Max Lst Sq Error Cp @ 1300 K 0.57%.
 entry(
     index = 42,
     label = "C2H3NS",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -1435,12 +1435,12 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""HS-CH2-CN T 3/16""",
-    longDesc = 
+    longDesc =
 u"""
 54524-31-1
-C2H3NS  MercaptoAcetonitrile  HS-CH2-CN  SIGMA=1  STATWT=1  IA=3.6302  
+C2H3NS  MercaptoAcetonitrile  HS-CH2-CN  SIGMA=1  STATWT=1  IA=3.6302
 IB=27.6468  IC=30.3265  Ir(SH)=0.55764  ROSYM=1  V(3)=13001. cm-1  Nu=3135.5,
-3085,2687.5,2368,1466,1287,1221,1019,947,796,696,491,379,217,[176 intern. rotat] 
+3085,2687.5,2368,1466,1287,1221,1019,947,796,696,491,379,217,[176 intern. rotat]
 HF298=31.181+/-2. kcal  REF=Burcat G3B3  {HF298=2.36 kcal?  REF=RMG Greene 2013}  Max Lst Sq Error Cp @ 6000 K 0.43%.
 """,
 )
@@ -1448,7 +1448,7 @@ HF298=31.181+/-2. kcal  REF=Burcat G3B3  {HF298=2.36 kcal?  REF=RMG Greene 2013}
 entry(
     index = 43,
     label = "C(O)CH2NH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -1469,7 +1469,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 1/13""",
-    longDesc = 
+    longDesc =
 u"""
 C2H4ON  *C(O)CH2NH2  Radical  SIGMA=1  STATWT=2  IA=1.9786  IB=19.7527
 IC=20.9831  Ir(NH2)=0.3219  ROSYM=2  V(3)=1106 cm-1  Ir(-CO)=1.9145  ROSYM=1
@@ -1482,7 +1482,7 @@ Dorofeeva  Comp Theor Chem 991,(2012),182  Max Lst Sq Error Cp @ 6000 K 0.43%.
 entry(
     index = 44,
     label = "C2H4(NO2)2",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {2,S} {3,D} {4,S}
 2  O u0 p3 c-1 {1,S}
@@ -1506,7 +1506,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 4/12""",
-    longDesc = 
+    longDesc =
 u"""
 7570-26-5
 1,2-C2H4(NO2)2 1,2-DinitroEthane  SIGMA=1  STATWT=1  IA=14.2459  IB=83.5171
@@ -1522,7 +1522,7 @@ REF=Miroshnichenko et al ibid.  Max Lst Sq Error Cp @ 6000 K 0.57%.
 entry(
     index = 45,
     label = "C2H4S4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,D}
 2  S u0 p2 c0 {1,S} {7,S}
@@ -1544,11 +1544,11 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""(HS)2C=C(  T 5/14""",
-    longDesc = 
+    longDesc =
 u"""
 95241-02-4
-C2H4S4 Ethylenetetrathiol  2(HS)C=C(SH)2  SIGMA=4  STATWT=1  IA=50.7592  
-IB=61.5320  IC=111.3179  [Ir(SH)=0.55764  ROSYM=1  V(3)=1100. cm-1]x4  
+C2H4S4 Ethylenetetrathiol  2(HS)C=C(SH)2  SIGMA=4  STATWT=1  IA=50.7592
+IB=61.5320  IC=111.3179  [Ir(SH)=0.55764  ROSYM=1  V(3)=1100. cm-1]x4
 Nu=2664.5(2),2659,1581.5,1033,1000,975,927,905.5,848,685,523,421.5,362,326,301,
 277,240,228  HF298=38.091+/-2. kcal  REF=Burcat G3B3  Max Lst Sq Error Cp @
 6000 K 0.27%.
@@ -1558,7 +1558,7 @@ Nu=2664.5(2),2659,1581.5,1033,1000,975,927,905.5,848,685,523,421.5,362,326,301,
 entry(
     index = 46,
     label = "Glycine",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,D}
@@ -1580,7 +1580,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""NH2-CH2  T06/10""",
-    longDesc = 
+    longDesc =
 u"""
 56-70-6
 C2H5NO2  Glycine  NH2-CH2-C(O)OH  SIGMA=1  STATWT=1  IA=8.1465  IB=21.2300
@@ -1596,7 +1596,7 @@ Lst Sq Error Cp @ 6000 K 0.43%
 entry(
     index = 47,
     label = "CH3OC(O)NH2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {4,S} {8,D}
@@ -1618,7 +1618,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""H  T07/12""",
-    longDesc = 
+    longDesc =
 u"""
 598-55-0
 C2H5NO2  Methyl Carbamate CH3-O-C(O)-NH2  SIGMA=1  STATWT=1  IA=7.9098
@@ -1634,7 +1634,7 @@ Thermochim Acta 16,(1976),267;  HF298=-439.8 kJ  REF=Zeng et al Ind Eng Chem Res
 entry(
     index = 48,
     label = "C2H5N3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -1656,7 +1656,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""EthylAzyd  A12/04""",
-    longDesc = 
+    longDesc =
 u"""
 871-31-8
 C2H5N3  Ethyl Azide   SIGMA=1  STATWT=1  IA=6.1562    IB=25.6515    IC=29.3530
@@ -1671,7 +1671,7 @@ Max Lst Sq Error Cp @ 6000 K 0.69%
 entry(
     index = 49,
     label = "C2H5N3O5",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {5,S} {11,S}
 2  N u0 p0 c+1 {1,S} {3,S} {4,D}
@@ -1698,16 +1698,16 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""NENA    T 4/14""",
-    longDesc = 
+    longDesc =
 u"""
 41719-24-8
 C2H5N3O5  NENA  Nitrato Ethyl NitrAmide  HN(NO2)CH2CH2ONO2  SIGMA=1 STATWT=1
 IA=18.5  IB=171.1916  IC=177.1192  [Ir(NO2)=5.96  ROSYM=2  V(3)=280. cm-1]x2
 Nu=3600,3169,3137,3099,3084,1765,1706,1544,1503,1458,1437.5,1393,1632,1345,1325,
 1258,1174,1128,1090,1033,965,876,831,777,761,734,709,649,582,531,379.5,325,282,
-180,158.6,113,77.6  REF=Burcat B3LYP/6-31G(d)  HF298=-75.07+/-3. kJ  REF=Turker 
+180,158.6,113,77.6  REF=Burcat B3LYP/6-31G(d)  HF298=-75.07+/-3. kJ  REF=Turker
 & Atalar  J.Hazardous Materials 162,(2009),193 cis  {HF298=-13.2 kcal  REF=Therm 94
-very rough approx.}  HF298=-64.09+/-3 kJ  trans  REF=Turker & Atalar IBID   Max 
+very rough approx.}  HF298=-64.09+/-3 kJ  trans  REF=Turker & Atalar IBID   Max
 Lst Sq Error Cp @ 6000 K 0.55%.
 """,
 )
@@ -1715,7 +1715,7 @@ Lst Sq Error Cp @ 6000 K 0.55%.
 entry(
     index = 50,
     label = "CH2NHCH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -1737,7 +1737,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""A09/04""",
-    longDesc = 
+    longDesc =
 u"""
 31277-24-4
 C2H6N  Methyl-Methylen-Amine Radical *CH2-NH-CH3  SIGMA=1  STATWT=2  Ia=1.9758
@@ -1752,7 +1752,7 @@ REF=Janoschek & Rossi Int. J. Chem Kin. 36,(2004),     Max Lst Sq Error Cp @
 entry(
     index = 51,
     label = "(CH3)2N-NH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -1776,7 +1776,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""A10/04""",
-    longDesc = 
+    longDesc =
 u"""
 40613-93-2
 (CH3)2N-NH* UNSYMETRICAL DIMETHYL HYDRAZINE RADICAL    SIGMA=2  STATWT=2
@@ -1791,7 +1791,7 @@ REF=Bozzelli & Ritter}   Max Lst Sq Error Cp @ 6000 K 0.64%.
 entry(
     index = 52,
     label = "CH2(CH3)NNH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -1815,7 +1815,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 2/07""",
-    longDesc = 
+    longDesc =
 u"""
 760115-05-7 ??
 C2H7N2  UNSYMETRICAL METHYL METHENYL HYDRAZINE RADICAL *CH2(CH3)N-NH2  STATWT=2
@@ -1830,7 +1830,7 @@ REF=Burcat G3B3 calc  Max Lst Sq Error Cp @ 6000 K 0.46%.
 entry(
     index = 53,
     label = "CH3NHNHCH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -1854,7 +1854,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Sy  T 2/07""",
-    longDesc = 
+    longDesc =
 u"""
 540-73-8
 CH3NH-NHCH3 SYMETRICAL DIMETHYL HYDRAZINE SIGMA=1 IA=2.9954    IB=20.2056
@@ -1869,7 +1869,7 @@ BAC/MP4 Calculations, Private Communication}  Max Lst Sq Error Cp @ 1300 K 0.61%
 entry(
     index = 54,
     label = "CCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,T}
@@ -1885,7 +1885,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Radical      ATcT/A""",
-    longDesc = 
+    longDesc =
 u"""
 4120-02-9
 CCN RADICAL  SIGMA=1  STATWT=2  B0=0.398  NU=1923,324(2),1051
@@ -1902,7 +1902,7 @@ Error Cp @ 1300 K 0.34%.
 entry(
     index = 55,
     label = "C2N2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,D}
@@ -1919,7 +1919,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Isocyanogen  T 2/12""",
-    longDesc = 
+    longDesc =
 u"""
 83951-85-3
 C2N2 Isocyanogen  linear?  *C=N-CN  SIGMA=1  STATWT=1  IB=16.3131  Nu=2404,2139,
@@ -1931,7 +1931,7 @@ REF=ATcT C 2011  Max Lst Sq Error Cp @ 1300 K 0.39%.
 entry(
     index = 56,
     label = "C2(NO2)6",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {2,S} {3,D} {4,S}
 2  O u0 p3 c-1 {1,S}
@@ -1963,7 +1963,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""HexaNit  T 4/12""",
-    longDesc = 
+    longDesc =
 u"""
 918-37-6
 C2N6O12 HEXANITROETHANE C2(NO2)6 SIGMA=6 IAIBIC=6364500.E-117  [IR(NO2)=5.96]x6
@@ -1973,7 +1973,7 @@ IR(C(NO2)3)=68.4  V(2)-NO2=28 cm-1  V(3)-C(NO2)3=1000 cm-1   NU=1627,1353,
 642,774  REF= Olga Dorofeeva Unpublished Results 1999   HF298=142.256+/-0.84 kJ
 REF= Miroshnichenko et al  Russ Chem Bull Int Ed 59,(2010),890  {HF298=179.
 +/-5.9 kJ  REF= Pepekin Miroshnichenko, Lebedev, Aspin Rus J. Phys. Chem. Eng.
-Trans. 42,(1968),1583-1584;  HF298=179.0 kJ  REF=Keshavarz et al  Indian J Eng 
+Trans. 42,(1968),1583-1584;  HF298=179.0 kJ  REF=Keshavarz et al  Indian J Eng
 Mater Sci 13,(2006),542}  HF298(liq)=80.333+/-0.42 kJ  REF=Miroshnichenko et
 al ibid.  Max Lst Sq Error Cp @ 1300 K 0.64%
 """,
@@ -1982,7 +1982,7 @@ al ibid.  Max Lst Sq Error Cp @ 1300 K 0.64%
 entry(
     index = 57,
     label = "C2S2",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -1998,7 +1998,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g 6/01""",
-    longDesc = 
+    longDesc =
 u"""
 83917-77-5
 C2S2  Dicarbon Disulfide  S=C=C=S From original TRC(6/01) data to 2000 extrapo-
@@ -2010,7 +2010,7 @@ Max Lst Sq Error Cp @ 5500 K 0.40%
 entry(
     index = 58,
     label = "CHCHCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,D}
@@ -2029,7 +2029,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""CH=CHCN    A12/04""",
-    longDesc = 
+    longDesc =
 u"""
 203455-97-4
 C3H2N CYANO-ETHYLENE RADICAL HC*=CH-CN  SIGMA=1  STATWT=2 IA=1.2735  IB=16.6759
@@ -2043,7 +2043,7 @@ Cp @ 6000 0.43%
 entry(
     index = 59,
     label = "cCH2NCH2CH2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 C u0 p0 c0 {1,D} {3,S} {6,S}
@@ -2062,10 +2062,10 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""azete T12/14""",
-    longDesc = 
+    longDesc =
 u"""
 287-24-1
-C3H3N Cy azete Cy(-CH=CH-CH=N-)  SIGMA=1  STATWT=1  IA=4.5445  IB=6.2531  
+C3H3N Cy azete Cy(-CH=CH-CH=N-)  SIGMA=1  STATWT=1  IA=4.5445  IB=6.2531
 IC=10.7977  Nu=3262,3226,3161,1661,1647,1283,1191,1111,961,881,874,854,690,634,
 491  HF298=110.1495 kcal  REF=Burcat G3B3  Max Lst Sq Error Cp @ 200 K 0.76%
 """,
@@ -2074,7 +2074,7 @@ IC=10.7977  Nu=3262,3226,3161,1661,1647,1283,1191,1111,961,881,874,854,690,634,
 entry(
     index = 60,
     label = "CH3CHCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -2095,7 +2095,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""CH3CH*-CN A01/05""",
-    longDesc = 
+    longDesc =
 u"""
 3264-99-1
 C3H4N 2-PROPIONITRILE RADICAL CH3-CH*CN  STATWT=2  SIGMA=1  IA=2.1315 IB=18.4528
@@ -2109,7 +2109,7 @@ Max Lst Sq Error Cp @ 6000 K 0.49%
 entry(
     index = 61,
     label = "Nitroglycerin",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {12,S} {16,S} {17,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {18,S}
@@ -2141,7 +2141,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T05/98""",
-    longDesc = 
+    longDesc =
 u"""
 55-63-0
 C3H5N3O9 NG  Nitroglycerine      STATWT = 1  SYMNO = 2     IA = 113.023087
@@ -2158,7 +2158,7 @@ REF=Byrd & Rice JPC A 110,(2006),1005   Max Lst Sq Error Cp @ 1300 K 0.59%
 entry(
     index = 62,
     label = "NO2CH2CH2CH2NO2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -2185,15 +2185,15 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T10/15""",
-    longDesc = 
+    longDesc =
 u"""
 6125-21-9
 C3H6N2O4  1,3-DiNitroPropane  O2N-(CH2)3-NO2  SIGMA=2  STATWT=1  IA=18.7057
 IB=119.5001  IC=125.4863  [Ir(NO2)=5.97  ROSYM=2  V(3)=270. cm-1]x2  Nu=3164,
 3150,3139,3096(2),3087,1675.3(2),1490,1486,1481,1437,1431,1400,1369,1327,1316,
 1262,1221,1118,1112,1016,941,893,888,801,709,632,592,583,553,478.5,321,255,201,
-127,58.68,[32.49,21.93  int.rot]  REF=Burcat B3LYP/6-31G(d)  HF298=-33.7 kcal  
-REF=NIST 94  {HF298=-19.0 kcal  HF298(liq)=-207.+/-0.8 kJ REF=Lebedeva Rayadenko 
+127,58.68,[32.49,21.93  int.rot]  REF=Burcat B3LYP/6-31G(d)  HF298=-33.7 kcal
+REF=NIST 94  {HF298=-19.0 kcal  HF298(liq)=-207.+/-0.8 kJ REF=Lebedeva Rayadenko
 Russ JPC 42,(1968)1125 Engl.    Max Lst Sq Error Cp @ 6000 K 0.59%
 """,
 )
@@ -2201,7 +2201,7 @@ Russ JPC 42,(1968)1125 Engl.    Max Lst Sq Error Cp @ 6000 K 0.59%
 entry(
     index = 63,
     label = "C3H6(NO2)2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -2228,17 +2228,17 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""1,1 d  T10/15""",
-    longDesc = 
+    longDesc =
 u"""
 601-76-3
 C3H6N2O4  1,1-Dinitropropane C2H5CH(NO2)2  SIGMA=1  STATWT=1  IA=39.8209
 IB=54.3284  IC=78.4356  Ir(CH3)=0.51666  ROSYM=3  V(3)=1200. cm-1  [Ir(NO2)=5.96
 ROSYM=2  V(3)=580. cm-1]x2   Nu=3165,3145,3140,3123,3092,3063,1696,1683,1534,
-1529,1506,1452,1443,1393,1387,1340,1307,1282.5,1174,1123,1054,972.5,918,901,837,      
+1529,1506,1452,1443,1393,1387,1340,1307,1282.5,1174,1123,1054,972.5,918,901,837,
 807,713,682,574,474,436,357,296,210,197,181,[90.2,62.5,24.83  int. rot.]
 REF=Burcat B3LYP/6-31G(d)  HF298=-25.0 kcal  REF=NIST 94  {HF298=-19.0 kcal
 REF=Indian J. Eng. Material Sci 13(6),2006,542}  HF298(liq)=-163+/-1 kJ
-REF=Lebedeva Rayadenko Russ JPC 42,(1968)1125 Engl.    Max Lst Sq Error Cp @ 
+REF=Lebedeva Rayadenko Russ JPC 42,(1968)1125 Engl.    Max Lst Sq Error Cp @
 1300 K 0.57%
 """,
 )
@@ -2246,7 +2246,7 @@ REF=Lebedeva Rayadenko Russ JPC 42,(1968)1125 Engl.    Max Lst Sq Error Cp @
 entry(
     index = 64,
     label = "C(CH3)2(NO2)2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2273,11 +2273,11 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 9/14""",
-    longDesc = 
+    longDesc =
 u"""
 595-49-3
 C3H6N2O4  DiMethyl-DiNitro-Methan  (CH3)2C(NO2)2  SIGMA=2  STATWT=1  IA=36.6249
-IB=55.3949  IC=59.0722  [Ir(CH3)=0.51926  ROSYM=3  V(3)=273. cm-1]x2 
+IB=55.3949  IC=59.0722  [Ir(CH3)=0.51926  ROSYM=3  V(3)=273. cm-1]x2
 [Ir(NO2)=5.97  ROSYM=2  V(3)=1200. cm-1]x2  Nu=3187(2),3164,3159,3086,3082,1690,
 1678,1530,1519,1503(2),1465,1430,1415,1389,1276,1222,1198,1037,972,959,860,855,
 756,729,659,555,476,429,350,339,297,268  REF=Burcat B3LYP/6-31G(d)  HF298=-19.0
@@ -2289,7 +2289,7 @@ Lst Sq Error Cp @ 6000 K 0.53%.
 entry(
     index = 65,
     label = "CH3CH2CH2S",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -2313,7 +2313,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T12/08""",
-    longDesc = 
+    longDesc =
 u"""
 4985-58-4
 C3H7S Propylthiol Radical C2H5CH2S*  SIGMA=1  STATWT=2  IA=3.1580  IB=35.6361
@@ -2327,7 +2327,7 @@ kcal {HF298=17.3 kcal  REF=NIST 94}  Max Lst Sq Error Cp @ 6000 K 0.56%.
 entry(
     index = 66,
     label = "C3N2O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -2345,7 +2345,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""NC-CO-CN   T 6/03""",
-    longDesc = 
+    longDesc =
 u"""
 1115-12-4
 C3N2O  Oxopropandinitrile NC-CO-CN  SIGMA=2  STATWT=1  IAIBIC=14666. E-117
@@ -2358,7 +2358,7 @@ Cp @ 1300 K  0.45%
 entry(
     index = 67,
     label = "NCCHCHCN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -2378,7 +2378,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Fumaroni T05/04""",
-    longDesc = 
+    longDesc =
 u"""
 764-42-1
 C4H2N2  FUMARONITRILE trans-NC-CH=CH-CN SIGMA=2  STATWT=1  IA=1.7899  IB=56.8850
@@ -2392,7 +2392,7 @@ IC=58.6750  Nu=3213,3207,2357,2340,1680,1334,1304,1034(2),982,864,566,539,537,
 entry(
     index = 68,
     label = "Pyrazine",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {6,S} {7,S}
 2  C u0 p0 c0 {1,D} {5,S} {8,S}
@@ -2414,7 +2414,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 9/96""",
-    longDesc = 
+    longDesc =
 u"""
 290-37-9
 C4H4N2 PYRAZINE (SIX MEMBERED RING WITH N IN PARA POSITION)   SIGMA=4  STATWT=1
@@ -2428,7 +2428,7 @@ Max Lst Sq Error Cp @ 200 K **1.06 %**.
 entry(
     index = 69,
     label = "Pyrimidine",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {7,S}
 2  C u0 p0 c0 {1,D} {5,S} {8,S}
@@ -2450,7 +2450,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 9/96""",
-    longDesc = 
+    longDesc =
 u"""
 289-95-2
 C4H4N2 PYRIMIDINE (SIX MEMBERED RING WITH N IN meta POSITION) SIGMA=2  STATWT=1
@@ -2464,7 +2464,7 @@ Max Lst Sq Error Cp @ 200 K **1.08 %**.
 entry(
     index = 70,
     label = "Uracil",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,D}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -2488,7 +2488,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T07/12""",
-    longDesc = 
+    longDesc =
 u"""
 66-22-8 ?
 C4H4N2O2 Uracil (DNA/RNA Nucleobase) SIGMA=1  STATWT=1  IA=21.5490  IB=41.6282
@@ -2504,7 +2504,7 @@ Error Cp @ 1300 K 0.49%
 entry(
     index = 71,
     label = "Thiophene",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,D} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -2525,7 +2525,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T11/08""",
-    longDesc = 
+    longDesc =
 u"""
 110-02-1
 C4H4S THIOPHENE (CY)  SIGMA=2 IA=10.5311  IB=15.6737  IC=26.2048   NU=3126,3125,
@@ -2540,7 +2540,7 @@ Error Cp @ 200 K 0.99%
 entry(
     index = 72,
     label = "Pyrrolidine",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -2566,7 +2566,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 3/95""",
-    longDesc = 
+    longDesc =
 u"""
 123-75-1
 C4H9N PYRROLIDINE (TETRAHYDROPYRROLE, TETRAMETHYLENEIMINE)  IAIBIC=3330.5
@@ -2580,7 +2580,7 @@ IR=1.119  ROSYM=2. V(2)=280. cm-1    NU=3367,2970(2),2882(4),2818(2),1480(2),
 entry(
     index = 73,
     label = "C4H9SH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -2607,7 +2607,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T02/13""",
-    longDesc = 
+    longDesc =
 u"""
 109-79-5
 C4H10S  1-Butanethiol  C4H9SH  SIGMA=1  STATWT=1  IA=5.2637  IB=63.8326
@@ -2623,7 +2623,7 @@ Max Lst Sq Error Cp @ 200 K & 6000 K 0.57%.
 entry(
     index = 74,
     label = "C4N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -2641,7 +2641,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g 6/01""",
-    longDesc = 
+    longDesc =
 u"""
 1071-98-3
 C4N2  CARBON SUBNITRID (2-BUTYNEDINITRILE)  SIGMA=2  STATWT=1  B0=0.044891 cm-1
@@ -2654,7 +2654,7 @@ REF=TRC 12/93  Max Lst Sq Error Cp @ 1300 K 0.43%
 entry(
     index = 75,
     label = "CPD-triNT",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {11,S} {15,S}
 2  N u0 p0 c+1 {1,S} {3,D} {4,S}
@@ -2683,7 +2683,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""7/14""",
-    longDesc = 
+    longDesc =
 u"""
 C5H2N3O6  1,3,4-triNitro-2,4-Cyclopentadiene-1-yl  C5H2(NO2)3  SIGMA=2  STATWT=2
 A=3.6246  B=1.6655  C=1.1890  [Ir(NO2)=5.96  ROSYM=2  V(3)=600. cm-1]x3
@@ -2697,7 +2697,7 @@ Westbrook  Proc. Comb. Inst. 31,(2007),2343  Max Lst Sq Error Cp @ 1300 K 0.53%
 entry(
     index = 76,
     label = "NCCHCHCCH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {7,S}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -2718,7 +2718,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""A01/05""",
-    longDesc = 
+    longDesc =
 u"""
 13086-68-5
 C5H3N  CYANO VINYL ACETYLENE HCC-CH=CH-CN  SIGMA=1  STATWT=1  IA=1.7817
@@ -2732,7 +2732,7 @@ HF0=426.538 kJ  REF=Burcat G3B3 calc   {HF298=416.3 kJ REF=MACKIE & COLKET
 entry(
     index = 77,
     label = "CHCHCHCHCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,D}
@@ -2755,7 +2755,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""A 4/05""",
-    longDesc = 
+    longDesc =
 u"""
 189230-13-5
 C5H4N 1,3-Butadiene-4-cyano-1-yl RADICAL  *CH=CH-CH=CH-CN   SIGMA=1   STATWT=2
@@ -2770,7 +2770,7 @@ REF=Mackie & Colket, 22 COMB. Symp 1990}.  Max Lst Sq Error Cp @ 6000 K 0.45%.
 entry(
     index = 78,
     label = "OroticAcid",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {7,S}
 2  C u0 p0 c0 {1,D} {4,S} {11,S}
@@ -2797,7 +2797,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""O  T 5/13""",
-    longDesc = 
+    longDesc =
 u"""
 65-86-1
 C5H4N2O4  Orotic acid  1,2,3,6-Tetrahydro-2,6-dioxo-4-pyrimidinecarboxylic acid
@@ -2812,7 +2812,7 @@ HF298=-128.8 kcal  REF=NIST 94  Max Lst Sq Error Cp @ 1300 K 0.47%.
 entry(
     index = 79,
     label = "Pyridine",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {7,S}
 2  C u0 p0 c0 {1,D} {4,S} {8,S}
@@ -2835,7 +2835,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 5/10""",
-    longDesc = 
+    longDesc =
 u"""
 110-86-1
 C5H5N PYRIDINE (AZINE) SIGMA=2  STATWT=1  IA=13.9036  IB=14.4578  IV=28.3613
@@ -2850,7 +2850,7 @@ NU=3094.2,3086.9,3072.8,3042.4,3030.1,1583.9,1580.5,1483.4,1441.9,1362.3,1227,
 entry(
     index = 80,
     label = "nitPDE",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
 2  N u0 p0 c+1 {1,S} {3,D} {4,S}
@@ -2875,7 +2875,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 4/13""",
-    longDesc = 
+    longDesc =
 u"""
 58683-60-6
 C5H5NO2 1-NitroCyclo-2,4-Pentadiene  SIGMA=2  STATWT=1  IA=18.2725  IB=48.4822
@@ -2889,7 +2889,7 @@ REF=Burcat G3B3  Max Lst Sq Error Cp @ 200 K 0.84%
 entry(
     index = 81,
     label = "Glutamine",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,D}
 2  C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -2921,7 +2921,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 2/15""",
-    longDesc = 
+    longDesc =
 u"""
 56-85-9
 C5H10N2O3 Glutamine (amino acid) H2N-C(O)-CH2CH2CH(NH2)COOH SIGMA=1  STATWT=1
@@ -2938,7 +2938,7 @@ Martin et al Theor Chem Acc 133,(2014),1453  Max Lst Sq Error Cp @ 1300 K 0.52%.
 entry(
     index = 82,
     label = "C5N4",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -2959,7 +2959,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""C(CN)4      T 6/14""",
-    longDesc = 
+    longDesc =
 u"""
 24331-09-7
 C5N4  MethaneTetraCarboNitrile C(CN)4  SIGMA=12  STATWT=1  A=B=C=0.051 cm-1
@@ -2973,7 +2973,7 @@ Error Cp @ 1300 K ).42%.
 entry(
     index = 83,
     label = "C6H3N2O4",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p3 c-1 {5,S}
@@ -3001,7 +3001,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""1,3-Di  T 4/13""",
-    longDesc = 
+    longDesc =
 u"""
 118903-54-1
 C6H3(NO2)2  1,3-DiNitro-5-yl Benzen Radical SIGMA=2  STATWT=2  IA=40.7663
@@ -3017,7 +3017,7 @@ IB=137.762  IC=178.5283  [Ir(NO2)=5.96  ROSYM=2  V(3)=280. cm-1]x2  Nu=3280,
 entry(
     index = 84,
     label = "TriNitroBenzen",
-    molecule = 
+    molecule =
 """
 1  O u0 p3 c-1 {7,S}
 2  O u0 p3 c-1 {8,S}
@@ -3047,7 +3047,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 5/98""",
-    longDesc = 
+    longDesc =
 u"""
 99-35-4
 C6H3(NO2)3    1,3,5-Tri-Nitro-Benzene   SYMNO = 6  STATWT = 1  IA = 111.42859
@@ -3063,7 +3063,7 @@ REF=Byrd & Rice JPC A 110,(2006),1005 Max Lst Sq Error Cp @ 1300 K 0.53%
 entry(
     index = 85,
     label = "C6H3N3O7",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {14,S} {19,S}
 2  O u0 p3 c-1 {8,S}
@@ -3094,7 +3094,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""PicricaciT02/12""",
-    longDesc = 
+    longDesc =
 u"""
 88-89-1
 C6H3N3O7 2,4,6-TriNitroPhenol (Picric Acid)  SIGMA=2  STATWT=1  IA=149.7947
@@ -3111,7 +3111,7 @@ Sq Error Cp @ 1300 K 0.53%.
 entry(
     index = 86,
     label = "SOH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -3127,7 +3127,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T04/07""",
-    longDesc = 
+    longDesc =
 u"""
 62803-12-7
 S-OH RADICAL  STATWT=2  SIGMA=1  IA=0.1222028  IB=5.0098556  IC=5.132059
@@ -3141,7 +3141,7 @@ S8  Problematic specie!}  Max Lst Sq Error Cp @ 400 K 0.35%
 entry(
     index = 87,
     label = "HSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p1 c0 {2,S} {3,D}
@@ -3157,7 +3157,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""HS=O         T04/07""",
-    longDesc = 
+    longDesc =
 u"""
 62470-71-7
 HS=O RADICAL   STATWT=2  SIGMA=1  IA=0.272571  IB=4.331163   IC=4.603734
@@ -3172,7 +3172,7 @@ S9; HF298=5.0 kcal  REF=Benson 1979  Problematic specie}  Max Lst Sq Error Cp @
 entry(
     index = 88,
     label = "SH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p2 c0 {2,S}
@@ -3187,7 +3187,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU2/03""",
-    longDesc = 
+    longDesc =
 u"""
 13940-21-1
 SH  T0(STATWT)=0(2), Be=9.461  WE=2711.6  WEXE=59.0  ALFAE=0.27   T0=376.96(2)
@@ -3203,7 +3203,7 @@ REF=Denis J Sulfur Chem 29,(2008),327}  Max Lst Sq Error Cp @ 400 K 0.47%.
 entry(
     index = 89,
     label = "HOSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -3220,7 +3220,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""HO-SO Rad  T09/10""",
-    longDesc = 
+    longDesc =
 u"""
 12306-07-9
 HSO2 HOSO RADICAL STATWT=2 SIGMA=1 IA=2.397408  IB=8.7861523  IC=11.010938
@@ -3234,7 +3234,7 @@ Lst Sq Error Cp @ 6000 K 0.20%
 entry(
     index = 90,
     label = "HSO3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -3252,7 +3252,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T10/10""",
-    longDesc = 
+    longDesc =
 u"""
 104267-22-3
 HSO3 HO-SO2 RADICAL STATWT=2  SIGMA=1 IA=9.4168978  IB=9.7757253  IC=16.401348
@@ -3267,7 +3267,7 @@ Cp @ 6000 K 0.18%.
 entry(
     index = 91,
     label = "HSS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p2 c0 {2,S} {3,S}
@@ -3283,7 +3283,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""RRHO         T 4/02""",
-    longDesc = 
+    longDesc =
 u"""
 14541-24-3
 HS2 HYDROTHIOSULFENO RADICAL RRHO SIGMA=1  STATWT=2  A0=9.9261912 B0=0.2643802
@@ -3296,7 +3296,7 @@ J Sulfur Chem 29,(2008),327}  Max Lst Sq Error Cp @ 6000 K 0.29%
 entry(
     index = 92,
     label = "H2S",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -3311,7 +3311,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""anharmonic    g 4/01""",
-    longDesc = 
+    longDesc =
 u"""
 7783-06-4
 H2S  anharmonic  SIGMA=2  STATWT=1  A0=10.3613  B0=9.0162  C0=4.7314
@@ -3329,7 +3329,7 @@ Lst Sq Error Cp @ 6000 K 0.37%
 entry(
     index = 93,
     label = "H2SO4",
-    molecule = 
+    molecule =
 """
 1 S u0 p0 c0 {2,D} {3,D} {4,S} {5,S}
 2 O u0 p2 c0 {1,D}
@@ -3348,7 +3348,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 8/03""",
-    longDesc = 
+    longDesc =
 u"""
 7664-93-9
 H2SO4  SULFURIC ACID  SIGMA=2  STATWT=1  IAIBIC=4669.95E-117  NU=3563,1216,1136,
@@ -3361,7 +3361,7 @@ Cp @ 6000 K 0.25%. Calculated from original tables.
 entry(
     index = 94,
     label = "HSSH",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {4,S}
@@ -3377,7 +3377,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""H-S-S-  T 3/03""",
-    longDesc = 
+    longDesc =
 u"""
 63344-86-5
 H2S2 HS-SH  DISULFANE  SIGMA=2  STATWT=1  Ia=0.5381381  Ib=10.4557619 Ic=10.9939
@@ -3391,7 +3391,7 @@ Error Cp @ 6000 0.37%
 entry(
     index = 95,
     label = "H2NN(S)",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
 2 H u0 p0 c0 {1,S}
@@ -3407,7 +3407,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Isodiazene   T 9/11""",
-    longDesc = 
+    longDesc =
 u"""
 28647-38-3
 N2H2 Isodiazene  H2NN  SIGMA=2  STATWT=1  IA=0.2514  IB=2.1721  IC=2.4235
@@ -3420,7 +3420,7 @@ REF=ATcT C 2011  {HF298=301.984+/-8. kJ  REF=Burcat G3B3}  Max Lst Sq Error Cp
 entry(
     index = 96,
     label = "cONN",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -3435,7 +3435,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""cyclo O(NN)  T10/11""",
-    longDesc = 
+    longDesc =
 u"""
 227934-45-4
 N2O cyclo O(NN)  SIGMA=2  STATWT=1  IA=1.6309  IB=3.3758  IC=5.0067  Nu=1911,
@@ -3447,7 +3447,7 @@ N2O cyclo O(NN)  SIGMA=2  STATWT=1  IA=1.6309  IB=3.3758  IC=5.0067  Nu=1911,
 entry(
     index = 97,
     label = "HN3O4",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {8,S}
 2 N u0 p0 c+1 {1,S} {3,D} {4,S}
@@ -3467,7 +3467,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""HN(NO2)2   T 3/13""",
-    longDesc = 
+    longDesc =
 u"""
 114045-20-4
 HN3O4  Dinitramin  HN(NO2)2  SIGMA=2  STATWT=1  IA=13.4731  IB=40.9517
@@ -3481,7 +3481,7 @@ REF=Burcat G3B3  {HF298=19. kcal  REF=Politzer, Seminario, Concha J Mol Struct
 entry(
     index = 98,
     label = "N4chain",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 N u1 p1 c0 {2,D}
@@ -3498,11 +3498,11 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T12/14""",
-    longDesc = 
+    longDesc =
 u"""
 147363-92-6
 N4 chain  N=N-N=N  SIGMA=2  STATWT=1  IA=1.3970  IB=39.9081  IC=41.3049
-Nu=2458(2),61.2,25.4,24,11.5  REF=Burcat G3B3  HF298=686.6+/-7.6 kJ 
+Nu=2458(2),61.2,25.4,24,11.5  REF=Burcat G3B3  HF298=686.6+/-7.6 kJ
 REF=Glukhovtsev Laiter JPC 100(5),(1996),1569  G2  Max Lst Sq Cp @ 6000 K 0.24%
 """,
 )
@@ -3510,7 +3510,7 @@ REF=Glukhovtsev Laiter JPC 100(5),(1996),1569  G2  Max Lst Sq Cp @ 6000 K 0.24%
 entry(
     index = 99,
     label = "cN4",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {4,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -3526,12 +3526,12 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T12/14""",
-    longDesc = 
+    longDesc =
 u"""
 42851-09-2
 N4 cyclo  (N=N)2  SIGMA=8  STATWT=1  IA=2.8419  IB=IC=64.17  Nu=2458(2),23(2),
-17.23,8.11 REF=Burcat G3B3  HF298=763.55+/-2.3 kJ  REF=Ruscic ATcT C 2011  
-{HF298=746.5+/-7.6 kJ  REF=Glukhovtsev Laiter JPC 100(5),(1996),1569}  Max Lst 
+17.23,8.11 REF=Burcat G3B3  HF298=763.55+/-2.3 kJ  REF=Ruscic ATcT C 2011
+{HF298=746.5+/-7.6 kJ  REF=Glukhovtsev Laiter JPC 100(5),(1996),1569}  Max Lst
 Sq Error Cp @ 6000. K 0.24%
 """,
 )
@@ -3539,7 +3539,7 @@ Sq Error Cp @ 6000. K 0.24%
 entry(
     index = 100,
     label = "tetrahedralN4",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -3555,7 +3555,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 1/11""",
-    longDesc = 
+    longDesc =
 u"""
 12596-63-3
 N4 Terahedral  SIGMA=12  STATWT=1  IA=AB=IC=4.90485  Nu=1372,82(3),765(2)
@@ -3570,7 +3570,7 @@ REF=Elke Goos G3B3;  HF298=732.5+/-8. kJ  REF=Glukhovtsev Laiter JPC 100(5),
 entry(
     index = 101,
     label = "O3",
-    molecule = 
+    molecule =
 """
 1 O u0 p1 c+1 {2,S} {3,D}
 2 O u0 p3 c-1 {1,S}
@@ -3585,7 +3585,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 5/90""",
-    longDesc = 
+    longDesc =
 u"""
 10028-15-6
 O3  OZONE  SIGMA=2  STATWT=1   A0=3.553664  B0=.4452762  C0=.394758   NU=1103,
@@ -3605,7 +3605,7 @@ W1U  REF=Janoschek & Fabian J. Mol Struct 780/1,(2006),80}
 entry(
     index = 102,
     label = "cO3",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -3620,7 +3620,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T10/11""",
-    longDesc = 
+    longDesc =
 u"""
 153851-84-4
 O3  Cyclo  O(OO)  SIGMA=6  STATWT=1  IA=2.7471  IB=2.7473  IC=5.4944  Nu=1211,
@@ -3632,7 +3632,7 @@ kJ  REF=BUrcat G3B3 }  Max Lst Sq Error Cp @ 400 K 0.49%.
 entry(
     index = 103,
     label = "cO4",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {4,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -3648,7 +3648,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 1/11""",
-    longDesc = 
+    longDesc =
 u"""
 852461-27-9
 O4 cyclo  SIGMA=8  STATWT=1  IA=5.7309  IB=5.7319  IC=10.8665  Nu=997,917,847,
@@ -3660,7 +3660,7 @@ K 0.53%
 entry(
     index = 104,
     label = "SO",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u1 p2 c0 {2,S}
@@ -3675,7 +3675,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""tpis89""",
-    longDesc = 
+    longDesc =
 u"""
 13827-32-2
 SO Calculated from Original Tables of Gurvich by B.McBride  HF298=4.76+/-0.18 kJ
@@ -3695,7 +3695,7 @@ Chem 29,(2008),327}  Max Lst Sq Error Cp @ 400 K 0.22%.
 entry(
     index = 105,
     label = "SO2",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,D} {3,D}
 2 O u0 p2 c0 {1,D}
@@ -3710,7 +3710,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""tpis89""",
-    longDesc = 
+    longDesc =
 u"""
 7446-09-5
 SO2     O-S-O     SIGMA=2  STATWT=1  Calculated by B. McBride from Gurvich's
@@ -3723,7 +3723,7 @@ Max Lst Sq Error Cp @ 1300 K 0.31%.
 entry(
     index = 106,
     label = "SO4",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u0 p0 c0 {2,D} {3,D} {4,S} {5,S}
@@ -3741,11 +3741,11 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Sulfate radi  T 6/16""",
-    longDesc = 
+    longDesc =
 u"""
 12772-98-4
 SO4 Sulfate Radical  SIGMA=4  STATWT=1  IA=11.89035  IB=15.6268  IC=20.8268
-Nu=1398,1229,939,697,669,461,456.5,452,289.5  HF298=-57.630+/-2. kcal  
+Nu=1398,1229,939,697,669,461,456.5,452,289.5  HF298=-57.630+/-2. kcal
 REF=Burcat G3B3  Max Lst Sq Error Cp @ 1300 K 0.35%
 """,
 )
@@ -3753,7 +3753,7 @@ REF=Burcat G3B3  Max Lst Sq Error Cp @ 1300 K 0.35%
 entry(
     index = 107,
     label = "cS2O",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -3768,10 +3768,10 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""SOS Cyclo   T 4/15""",
-    longDesc = 
+    longDesc =
 u"""
 488092-02-0
-S2O  SOS Cyclo Oxadithiirane  SIGMA=2  STATWT=1  IA=4.1516  IB=11.4251  
+S2O  SOS Cyclo Oxadithiirane  SIGMA=2  STATWT=1  IA=4.1516  IB=11.4251
 IC=15.5767  Nu=807,589,528  REF=Burcat B3LYP/63-1G(d)  HF298=32.1+/-1. kcal
 REF=Denis  Molecular Physics 108,(2010),171  Max Lst Sq Error Cp @ 1200 K 0.16%.
 """,
@@ -3780,7 +3780,7 @@ REF=Denis  Molecular Physics 108,(2010),171  Max Lst Sq Error Cp @ 1200 K 0.16%.
 entry(
     index = 108,
     label = "S3",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,D} {3,D}
 2 S u0 p2 c0 {1,D}
@@ -3795,7 +3795,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""tpis89""",
-    longDesc = 
+    longDesc =
 u"""
 12597-03-4
 S3  Trisulphur  SIGMA=2  STATWT=1  IAIBIC=4200.  Nu=656,575,256  HF0=146+/-4. kJ

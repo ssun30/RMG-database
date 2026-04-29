@@ -31,7 +31,7 @@ entry(
 entry(
     index = 1,
     label = "cyclohexene_1inring",
-    group = 
+    group =
 """
 1  *1 R!H u0 c0 {2,S} {6,S} {8,S} {9,S}
 2  *2 R!H u0 c0 {1,S} {3,D}
@@ -50,7 +50,7 @@ entry(
 entry(
     index = 2,
     label = "cyclohexene_2inring",
-    group = 
+    group =
 """
 1  *1 R!H u0 c0 {2,S} {6,S} {9,S} {10,S}
 2  *2 R!H u0 c0 {1,S} {3,D}
@@ -70,7 +70,7 @@ entry(
 entry(
     index = 3,
     label = "cyclohexene_3inring",
-    group = 
+    group =
 """
 1  *1 R!H u0 c0 {2,S} {6,S} {10,S} {11,S}
 2  *2 R!H u0 c0 {1,S} {3,D}
@@ -91,7 +91,7 @@ entry(
 entry(
     index = 4,
     label = "cyclohexene_4inring",
-    group = 
+    group =
 """
 1  *1 R!H u0 c0 {2,S} {6,S} {11,S} {12,S}
 2  *2 R!H u0 c0 {1,S} {3,D}
@@ -122,7 +122,7 @@ L1: cyclohexene
 
 forbidden(
     label = "bicyclohepta13diene",
-    group = 
+    group =
 """
 1 *3 R!H u0 {2,[D,T]} {4,S}
 2 *2 R!H u0 {1,[D,T]} {3,S} {6,S}
@@ -133,7 +133,7 @@ forbidden(
 7 *6 R!H u0 {3,S} {5,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -141,7 +141,7 @@ u"""
 
 forbidden(
     label = "bicyclohepta13diene_prod",
-    group = 
+    group =
 """
 1 *3 R!H u0 {2,S} {4,[D,T]}
 2 *2 R!H u0 {1,S} {3,[D,T]} {6,S}
@@ -152,7 +152,7 @@ forbidden(
 7 *6 R!H u0 {5,[D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -160,7 +160,7 @@ u"""
 
 forbidden(
     label = "bicyclohepta13diene_rad",
-    group = 
+    group =
 """
 1 *3 R!H u0 {2,[D,T]} {4,S}
 2 *2 R!H u0 {1,[D,T]} {3,S} {6,S}
@@ -171,7 +171,7 @@ forbidden(
 7 *6 R!H u0 {3,S} {5,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -179,7 +179,7 @@ u"""
 
 forbidden(
     label = "bicyclohepta13diene_rad_prod",
-    group = 
+    group =
 """
 1 *3 R!H u0 {2,S} {4,[D,T]}
 2 *2 R!H u0 {1,S} {3,[D,T]} {6,S}
@@ -190,7 +190,7 @@ forbidden(
 7 *6 R!H u0 {5,[D,T]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -198,7 +198,7 @@ u"""
 
 forbidden(
     label = "two5rings",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S} {5,S} {10,S}
 2  *4 C u0 {1,S} {3,S} {16,S}
@@ -218,7 +218,7 @@ forbidden(
 16    H u0 {2,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

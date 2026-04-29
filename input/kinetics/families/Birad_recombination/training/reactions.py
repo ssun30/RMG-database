@@ -14,7 +14,7 @@ entry(
     kinetics = Arrhenius(A=(2e+12,'s^-1'), n=0, Ea=(7.5312,'kJ/mol'), T0=(1,'K'), Tmin=(550,'K'), Tmax=(650,'K')),
     rank = 10,
     shortDesc = """[186] Benson et al.""",
-    longDesc = 
+    longDesc =
 """
 [186] Benson, S.W. J. Chem. Phys. 1967, 46, 4920.
 
@@ -38,9 +38,9 @@ entry(
     kinetics = Arrhenius(A=(1.62e+12,'s^-1'), n=-0.305, Ea=(8.28432,'kJ/mol'), T0=(1,'K'), Tmin=(600,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """[x] Sirjean et al.""",
-    longDesc = 
+    longDesc =
 """
-[x] Sirjean, B.; Glaude, P. A.; Ruiz-Lopez, M. F.; Fournet, R.; J. Phys. Chem. A. 2006, 110, 12693-12704. 
+[x] Sirjean, B.; Glaude, P. A.; Ruiz-Lopez, M. F.; Fournet, R.; J. Phys. Chem. A. 2006, 110, 12693-12704.
 http://dx.doi.org/10.1021/jp0651081
 .CH2CH2CH2CH2CH2. -> cyclopentane (k4-1 in Scheme 5/Table 7)
 
@@ -59,9 +59,9 @@ entry(
     kinetics = Arrhenius(A=(7.76e+09,'s^-1'), n=0.311, Ea=(7.1128,'kJ/mol'), T0=(1,'K'), Tmin=(600,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """[x] Sirjean et al.""",
-    longDesc = 
+    longDesc =
 """
-[x] Sirjean, B.; Glaude, P. A.; Ruiz-Lopez, M. F.; Fournet, R.; J. Phys. Chem. A. 2006, 110, 12693-12704. 
+[x] Sirjean, B.; Glaude, P. A.; Ruiz-Lopez, M. F.; Fournet, R.; J. Phys. Chem. A. 2006, 110, 12693-12704.
 http://dx.doi.org/10.1021/jp0651081
 .CH2CH2CH2CH2CH2CH2. -> cyclohexane (k5-1+k5-2 in Scheme 7/Table 10) (includes formation of both boat and chair conformations)
 
@@ -82,7 +82,7 @@ entry(
     kinetics = Arrhenius(A=(3.21e+10,'s^-1'), n=0.137, Ea=(8.87008,'kJ/mol'), T0=(1,'K'), Tmin=(600,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """[x] Sirjean et al.""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSSSS;C_rad_out_2H;Cpri_rad_out_2H
 """,
@@ -95,7 +95,7 @@ entry(
     kinetics = Arrhenius(A=(2.18e+16,'s^-1'), n=0, Ea=(2.9288,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """A.G. Vandeputte""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R3_SS;S_rad;Spri_rad
 """,
@@ -112,7 +112,7 @@ entry(
         T0 = (1, 'K')),
     rank = 5,
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -129,7 +129,7 @@ entry(
         T0 = (1, 'K')),
     rank = 5,
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -147,7 +147,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,

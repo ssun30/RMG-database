@@ -11,7 +11,7 @@ Watch out:  if the groups on the two labeled atoms are identical, it's value sho
             it'll be counted in both {'*1': atom1, '*2'atom2} and {'*2': atom1, '*1'atom2}.
             It should be claimed in the 'longDesc' if a entry was halved.
 
-Source: 
+Source:
 For aromatic molecule: [1] Ince et al., AIChE 2015, DOI 10.1002/aic.15008
 For aromatic radical: [2] Ince et al., AIChE 2016, DOI 10.1002/aic.15588
 
@@ -20,7 +20,7 @@ Jan-23-2017 PZ
 entry(
     index = 0,
     label = "R",
-    group = 
+    group =
 """
 1 *1 R ux
 """,
@@ -31,7 +31,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """ROOT""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40,7 +40,7 @@ entry(
 entry(
     index = 1,
     label = "aromatic-ortho",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B}
 2 *2 Cb u0 {1,B}
@@ -52,7 +52,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """Aromatics NNI correction for ortho position.""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61,7 +61,7 @@ entry(
 entry(
     index = 2,
     label = "o_OH",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -75,7 +75,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -84,7 +84,7 @@ entry(
 entry(
     index = 3,
     label = "o_OH_OH",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {5,S}
@@ -100,7 +100,7 @@ entry(
         S298 = (-0.67,'cal/(mol*K)'),
     ),
     shortDesc = """Half value. This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -109,7 +109,7 @@ entry(
 entry(
     index = 4,
     label = "o_OH_MeO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {5,S}
@@ -128,7 +128,7 @@ entry(
         S298 = (-1.34,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -137,7 +137,7 @@ entry(
 entry(
     index = 5,
     label = "o_OH_vinyl",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {5,S}
@@ -156,7 +156,7 @@ entry(
         S298 = (-0.79,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -165,7 +165,7 @@ entry(
 entry(
     index = 6,
     label = "o_OH_CHO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {5,S}
@@ -182,7 +182,7 @@ entry(
         S298 = (-5.09,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -191,7 +191,7 @@ entry(
 entry(
     index = 7,
     label = "o_CHO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -206,7 +206,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -215,7 +215,7 @@ entry(
 entry(
     index = 8,
     label = "o_CHO_CHO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {5,S}
@@ -233,7 +233,7 @@ entry(
         S298 = (0.76,'cal/(mol*K)'),
     ),
     shortDesc = """Half value. This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -242,7 +242,7 @@ entry(
 entry(
     index = 9,
     label = "o_CHO_vinyl",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {6,S}
@@ -262,7 +262,7 @@ entry(
         S298 = (-0.62,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -271,7 +271,7 @@ entry(
 entry(
     index = 10,
     label = "o_CHO_CH3",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {6,S}
@@ -290,7 +290,7 @@ entry(
         S298 = (-0.57,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -299,7 +299,7 @@ entry(
 entry(
     index = 11,
     label = "o_CHO_C2H5",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {6,S}
@@ -321,7 +321,7 @@ entry(
         S298 = (-0.57,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -330,7 +330,7 @@ entry(
 entry(
     index = 12,
     label = "o_CHO_MeO",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {6,S}
@@ -350,7 +350,7 @@ entry(
         S298 = (-0.41,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -359,7 +359,7 @@ entry(
 entry(
     index = 13,
     label = "o_vinyl",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -376,7 +376,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -385,7 +385,7 @@ entry(
 entry(
     index = 14,
     label = "o_vinyl_vinyl",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {6,S}
@@ -407,7 +407,7 @@ entry(
         S298 = (-0.27,'cal/(mol*K)'),
     ),
     shortDesc = """Half value. This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -416,7 +416,7 @@ entry(
 entry(
     index = 15,
     label = "o_vinyl_CH3",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {8,S}
@@ -437,7 +437,7 @@ entry(
         S298 = (-1.36,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -446,7 +446,7 @@ entry(
 entry(
     index = 16,
     label = "o_vinyl_C2H5",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {8,S}
@@ -470,7 +470,7 @@ entry(
         S298 = (-1.36,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -479,7 +479,7 @@ entry(
 entry(
     index = 17,
     label = "o_MeO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -496,7 +496,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -505,7 +505,7 @@ entry(
 entry(
     index = 18,
     label = "o_MeO_MeO",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {8,S}
@@ -527,7 +527,7 @@ entry(
         S298 = (0.93,'cal/(mol*K)'),
     ),
     shortDesc = """Half value. This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -536,7 +536,7 @@ entry(
 entry(
     index = 19,
     label = "o_MeO_vinyl",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {5,S}
@@ -558,7 +558,7 @@ entry(
         S298 = (-0.79,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -567,7 +567,7 @@ entry(
 entry(
     index = 20,
     label = "o_CH3",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -583,7 +583,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -592,7 +592,7 @@ entry(
 entry(
     index = 21,
     label = "o_CH3_CH3",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {7,S}
@@ -612,7 +612,7 @@ entry(
         S298 = (-0.79,'cal/(mol*K)'),
     ),
     shortDesc = """Half value. This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -621,7 +621,7 @@ entry(
 entry(
     index = 22,
     label = "o_CH3_C2H5",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {7,S}
@@ -644,7 +644,7 @@ entry(
         S298 = (-1.58,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -653,7 +653,7 @@ entry(
 entry(
     index = 23,
     label = "o_C2H5",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -672,7 +672,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -681,7 +681,7 @@ entry(
 entry(
     index = 24,
     label = "o_C2H5_C2H5",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {7,S}
@@ -707,7 +707,7 @@ entry(
         S298 = (-0.79,'cal/(mol*K)'),
     ),
     shortDesc = """Half value. This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -716,7 +716,7 @@ entry(
 entry(
     index = 25,
     label = "o_Oj",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -729,7 +729,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -738,7 +738,7 @@ entry(
 entry(
     index = 26,
     label = "o_Oj_OH",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {4,S}
@@ -753,7 +753,7 @@ entry(
         S298 = (-2.53,'cal/(mol*K)'),
     ),
     shortDesc = """NNI4. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -762,7 +762,7 @@ entry(
 entry(
     index = 27,
     label = "o_Oj_OCH3",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {4,S}
@@ -780,7 +780,7 @@ entry(
         S298 = (-0.1,'cal/(mol*K)'),
     ),
     shortDesc = """NNI5. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -789,7 +789,7 @@ entry(
 entry(
     index = 28,
     label = "o_Oj_CHO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {4,S}
@@ -805,7 +805,7 @@ entry(
         S298 = (-0.1,'cal/(mol*K)'),
     ),
     shortDesc = """NNI8. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -814,7 +814,7 @@ entry(
 entry(
     index = 29,
     label = "o_Oj_C=C",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {4,S}
@@ -832,7 +832,7 @@ entry(
         S298 = (-0.88,'cal/(mol*K)'),
     ),
     shortDesc = """NNI10. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -841,7 +841,7 @@ entry(
 entry(
     index = 30,
     label = "o_Oj_Cs",
-    group = 
+    group =
 """
 1 *1 Cb     u0 {2,B} {3,S}
 2 *2 Cb     u0 {1,B} {4,S}
@@ -858,7 +858,7 @@ entry(
         S298 = (0.26,'cal/(mol*K)'),
     ),
     shortDesc = """NNI12. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -867,7 +867,7 @@ entry(
 entry(
     index = 31,
     label = "o_OCH2j",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -883,7 +883,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -892,7 +892,7 @@ entry(
 entry(
     index = 32,
     label = "o_OCH2j_CHO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {7,S}
@@ -911,7 +911,7 @@ entry(
         S298 = (-1.15,'cal/(mol*K)'),
     ),
     shortDesc = """NNI2. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -920,7 +920,7 @@ entry(
 entry(
     index = 33,
     label = "o_OCH2j_OCH3",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {7,S}
@@ -941,7 +941,7 @@ entry(
         S298 = (0.29,'cal/(mol*K)'),
     ),
     shortDesc = """NNI3. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -950,7 +950,7 @@ entry(
 entry(
     index = 34,
     label = "o_Cj=O",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -964,7 +964,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -973,7 +973,7 @@ entry(
 entry(
     index = 35,
     label = "o_Cj=O_OH",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {5,S}
@@ -989,7 +989,7 @@ entry(
         S298 = (-4.57,'cal/(mol*K)'),
     ),
     shortDesc = """NNI14. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -998,7 +998,7 @@ entry(
 entry(
     index = 36,
     label = "o_Cj=O_OCH3",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {5,S}
@@ -1017,7 +1017,7 @@ entry(
         S298 = (0.57,'cal/(mol*K)'),
     ),
     shortDesc = """NNI16. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1026,7 +1026,7 @@ entry(
 entry(
     index = 37,
     label = "o_Cj=O_C=C",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {5,S}
@@ -1045,7 +1045,7 @@ entry(
         S298 = (-1.39,'cal/(mol*K)'),
     ),
     shortDesc = """NNI19. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1054,7 +1054,7 @@ entry(
 entry(
     index = 38,
     label = "o_C=Cj",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -1070,7 +1070,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1079,7 +1079,7 @@ entry(
 entry(
     index = 39,
     label = "o_C=Cj_OH",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {7,S}
@@ -1097,7 +1097,7 @@ entry(
         S298 = (-4.21,'cal/(mol*K)'),
     ),
     shortDesc = """NNI20. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1106,7 +1106,7 @@ entry(
 entry(
     index = 40,
     label = "o_C=Cj_CHO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {7,S}
@@ -1125,7 +1125,7 @@ entry(
         S298 = (-1.29,'cal/(mol*K)'),
     ),
     shortDesc = """NNI21. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1134,7 +1134,7 @@ entry(
 entry(
     index = 41,
     label = "o_C=Cj_C=C",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {3,S}
 2  *2 Cb u0 {1,B} {7,S}
@@ -1155,7 +1155,7 @@ entry(
         S298 = (-1.31,'cal/(mol*K)'),
     ),
     shortDesc = """NNI22. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1164,7 +1164,7 @@ entry(
 entry(
     index = 42,
     label = "o_C=Cj_Cs",
-    group = 
+    group =
 """
 1  *1 Cb     u0 {2,B} {3,S}
 2  *2 Cb     u0 {1,B} {7,S}
@@ -1184,7 +1184,7 @@ entry(
         S298 = (-0.91,'cal/(mol*K)'),
     ),
     shortDesc = """NNI23. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1193,7 +1193,7 @@ entry(
 entry(
     index = 43,
     label = "o_Csj",
-    group = 
+    group =
 """
 1 *1 Cb     u0 {2,B} {3,S}
 2 *2 Cb     u0 {1,B}
@@ -1208,7 +1208,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1217,7 +1217,7 @@ entry(
 entry(
     index = 44,
     label = "o_Csj_C=C",
-    group = 
+    group =
 """
 1  *1 Cb     u0 {2,B} {3,S}
 2  *2 Cb     u0 {1,B} {6,S}
@@ -1237,7 +1237,7 @@ entry(
         S298 = (-0.12,'cal/(mol*K)'),
     ),
     shortDesc = """NNI26. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1246,7 +1246,7 @@ entry(
 entry(
     index = 45,
     label = "o_Csj_CHO",
-    group = 
+    group =
 """
 1 *1 Cb     u0 {2,B} {3,S}
 2 *2 Cb     u0 {1,B} {6,S}
@@ -1264,7 +1264,7 @@ entry(
         S298 = (0.45,'cal/(mol*K)'),
     ),
     shortDesc = """NNI28. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1273,7 +1273,7 @@ entry(
 entry(
     index = 46,
     label = "o_Csj_Cs",
-    group = 
+    group =
 """
 1 *1 Cb     u0 {2,B} {3,S}
 2 *2 Cb     u0 {1,B} {6,S}
@@ -1292,7 +1292,7 @@ entry(
         S298 = (-0.86,'cal/(mol*K)'),
     ),
     shortDesc = """NNI29. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1301,7 +1301,7 @@ entry(
 entry(
     index = 47,
     label = "aromatic-meta",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B}
 2    Cb u0 {1,B} {3,B}
@@ -1314,7 +1314,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """Aromatics NNI correction for meta position""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1323,7 +1323,7 @@ entry(
 entry(
     index = 48,
     label = "m_CHO_CHO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {4,S}
 2    Cb u0 {1,B} {3,B}
@@ -1342,7 +1342,7 @@ entry(
         S298 = (0.01,'cal/(mol*K)'),
     ),
     shortDesc = """Half value. Aromatics NNI correction.""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1351,7 +1351,7 @@ entry(
 entry(
     index = 49,
     label = "m_Oj_OCH3",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {4,S}
 2    Cb u0 {1,B} {3,B}
@@ -1370,7 +1370,7 @@ entry(
         S298 = (-1,'cal/(mol*K)'),
     ),
     shortDesc = """NNI6. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1379,7 +1379,7 @@ entry(
 entry(
     index = 50,
     label = "m_Oj_CHO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {4,S}
 2    Cb u0 {1,B} {3,B}
@@ -1396,7 +1396,7 @@ entry(
         S298 = (0.86,'cal/(mol*K)'),
     ),
     shortDesc = """NNI9. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1405,7 +1405,7 @@ entry(
 entry(
     index = 51,
     label = "m_Cj=O_CHO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {4,S}
 2    Cb u0 {1,B} {3,B}
@@ -1423,7 +1423,7 @@ entry(
         S298 = (0.81,'cal/(mol*K)'),
     ),
     shortDesc = """NNI17. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1432,7 +1432,7 @@ entry(
 entry(
     index = 52,
     label = "aromatic-para",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B}
 2    Cb u0 {1,B} {3,B}
@@ -1446,7 +1446,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """Aromatics NNI correction for para position.""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1455,7 +1455,7 @@ entry(
 entry(
     index = 53,
     label = "p_OH",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -1471,7 +1471,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1480,7 +1480,7 @@ entry(
 entry(
     index = 54,
     label = "p_OH_OH",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -1498,7 +1498,7 @@ entry(
         S298 = (0.48,'cal/(mol*K)'),
     ),
     shortDesc = """Half value. This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1507,7 +1507,7 @@ entry(
 entry(
     index = 55,
     label = "p_OH_MeO",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {5,S}
 2     Cb u0 {1,B} {3,B}
@@ -1528,7 +1528,7 @@ entry(
         S298 = (0.96,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1537,7 +1537,7 @@ entry(
 entry(
     index = 56,
     label = "p_OH_CHO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -1556,7 +1556,7 @@ entry(
         S298 = (-0.19,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1565,7 +1565,7 @@ entry(
 entry(
     index = 57,
     label = "p_MeO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -1584,7 +1584,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1593,7 +1593,7 @@ entry(
 entry(
     index = 58,
     label = "p_MeO_MeO",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {5,S}
 2     Cb u0 {1,B} {3,B}
@@ -1617,7 +1617,7 @@ entry(
         S298 = (0.48,'cal/(mol*K)'),
     ),
     shortDesc = """Half value. This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1626,7 +1626,7 @@ entry(
 entry(
     index = 59,
     label = "p_MeO_CHO",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {5,S}
 2     Cb u0 {1,B} {3,B}
@@ -1648,7 +1648,7 @@ entry(
         S298 = (-0.19,'cal/(mol*K)'),
     ),
     shortDesc = """This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1657,7 +1657,7 @@ entry(
 entry(
     index = 60,
     label = "p_CHO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -1674,7 +1674,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1683,7 +1683,7 @@ entry(
 entry(
     index = 61,
     label = "p_CHO_CHO",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {5,S}
 2     Cb u0 {1,B} {3,B}
@@ -1703,7 +1703,7 @@ entry(
         S298 = (-0.1,'cal/(mol*K)'),
     ),
     shortDesc = """Half value. This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1712,7 +1712,7 @@ entry(
 entry(
     index = 62,
     label = "p_Oj",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -1727,7 +1727,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1736,7 +1736,7 @@ entry(
 entry(
     index = 63,
     label = "p_Oj_OH",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -1753,7 +1753,7 @@ entry(
         S298 = (-0.67,'cal/(mol*K)'),
     ),
     shortDesc = """NNI7. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1762,7 +1762,7 @@ entry(
 entry(
     index = 64,
     label = "p_Oj_OCH3",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {5,S}
 2     Cb u0 {1,B} {3,B}
@@ -1782,7 +1782,7 @@ entry(
         S298 = (-0.67,'cal/(mol*K)'),
     ),
     shortDesc = """NNI7. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1791,7 +1791,7 @@ entry(
 entry(
     index = 65,
     label = "p_Oj_C=C",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {5,S}
 2     Cb u0 {1,B} {3,B}
@@ -1811,7 +1811,7 @@ entry(
         S298 = (-0.72,'cal/(mol*K)'),
     ),
     shortDesc = """NNI11. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1820,7 +1820,7 @@ entry(
 entry(
     index = 66,
     label = "p_Oj_Cs",
-    group = 
+    group =
 """
 1 *1 Cb     u0 {2,B} {5,S}
 2    Cb     u0 {1,B} {3,B}
@@ -1839,7 +1839,7 @@ entry(
         S298 = (0.07,'cal/(mol*K)'),
     ),
     shortDesc = """NNI13. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1848,7 +1848,7 @@ entry(
 entry(
     index = 67,
     label = "p_OCH2j",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -1866,7 +1866,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1875,7 +1875,7 @@ entry(
 entry(
     index = 68,
     label = "p_OCH2j_OH",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {5,S}
 2     Cb u0 {1,B} {3,B}
@@ -1895,7 +1895,7 @@ entry(
         S298 = (0.91,'cal/(mol*K)'),
     ),
     shortDesc = """NNI1. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1904,7 +1904,7 @@ entry(
 entry(
     index = 69,
     label = "p_OCH2j_OCH3",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {5,S}
 2     Cb u0 {1,B} {3,B}
@@ -1927,7 +1927,7 @@ entry(
         S298 = (0.91,'cal/(mol*K)'),
     ),
     shortDesc = """NNI1. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1936,7 +1936,7 @@ entry(
 entry(
     index = 70,
     label = "p_Cj=O",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -1952,7 +1952,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1961,7 +1961,7 @@ entry(
 entry(
     index = 71,
     label = "p_Cj=O_OH",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -1979,7 +1979,7 @@ entry(
         S298 = (-0.88,'cal/(mol*K)'),
     ),
     shortDesc = """NNI15. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1988,7 +1988,7 @@ entry(
 entry(
     index = 72,
     label = "p_Cj=O_OCH3",
-    group = 
+    group =
 """
 1  *1 Cb u0 {2,B} {5,S}
 2     Cb u0 {1,B} {3,B}
@@ -2009,7 +2009,7 @@ entry(
         S298 = (-0.88,'cal/(mol*K)'),
     ),
     shortDesc = """NNI15. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2018,7 +2018,7 @@ entry(
 entry(
     index = 73,
     label = "p_Cj=O_CHO",
-    group = 
+    group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -2037,7 +2037,7 @@ entry(
         S298 = (3.25,'cal/(mol*K)'),
     ),
     shortDesc = """NNI18. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2046,7 +2046,7 @@ entry(
 entry(
     index = 74,
     label = "p_Csj",
-    group = 
+    group =
 """
 1 *1 Cb     u0 {2,B} {5,S}
 2    Cb     u0 {1,B} {3,B}
@@ -2063,7 +2063,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2072,7 +2072,7 @@ entry(
 entry(
     index = 75,
     label = "p_Csj_C=C",
-    group = 
+    group =
 """
 1  *1 Cb     u0 {2,B} {5,S}
 2     Cb     u0 {1,B} {3,B}
@@ -2094,7 +2094,7 @@ entry(
         S298 = (-0.88,'cal/(mol*K)'),
     ),
     shortDesc = """NNI25. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2103,7 +2103,7 @@ entry(
 entry(
     index = 76,
     label = "p_Csj_CHO",
-    group = 
+    group =
 """
 1  *1 Cb     u0 {2,B} {5,S}
 2     Cb     u0 {1,B} {3,B}
@@ -2123,7 +2123,7 @@ entry(
         S298 = (0.14,'cal/(mol*K)'),
     ),
     shortDesc = """NNI27. This is NNI correction from Ince & Reyniers, AIChE 2016, reviewing""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2132,7 +2132,7 @@ entry(
 entry(
     index = 77,
     label = "intVal7",
-    group = 
+    group =
 """
 1 *1 C    ux {2,[S,D]} {3,S}
 2 *2 C    ux {1,[S,D]}
@@ -2145,7 +2145,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2154,7 +2154,7 @@ entry(
 entry(
     index = 78,
     label = "Cs(Val7)2-Cs(Val7)2",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          ux {1,S} {4,S} {6,S} {8,S}
@@ -2172,7 +2172,7 @@ entry(
         S298 = (0.427255,'cal/(mol*K)','+|-',0.175449),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2181,7 +2181,7 @@ entry(
 entry(
     index = 79,
     label = "Cs(Cl)2-Cs(Cl)2",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          ux {1,S} {4,S} {6,S} {8,S}
@@ -2199,7 +2199,7 @@ entry(
         S298 = (0.391358,'cal/(mol*K)','+|-',0.326017),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2210,7 +2210,7 @@ CHOCl_G4 |         7
 entry(
     index = 80,
     label = "Cs(F)2-Cs(F)2",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          ux {1,S} {4,S} {6,S} {8,S}
@@ -2228,7 +2228,7 @@ entry(
         S298 = (0.363172,'cal/(mol*K)','+|-',0.330829),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -2239,7 +2239,7 @@ CHOF_G4 |         6
 entry(
     index = 81,
     label = "Cs(Br)2-Cs(Br)2",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {5,S} {7,S}
 2 *2 Cs          ux {1,S} {4,S} {6,S} {8,S}
@@ -2257,7 +2257,7 @@ entry(
         S298 = (0.527235,'cal/(mol*K)','+|-',0.319191),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2268,7 +2268,7 @@ CHOBr_G4 |         7
 entry(
     index = 82,
     label = "3ring-Cs(Val7)2-Cs(Val7)2",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
 2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
@@ -2285,7 +2285,7 @@ entry(
         S298 = (0.662505,'cal/(mol*K)','+|-',0.67801),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2294,7 +2294,7 @@ entry(
 entry(
     index = 83,
     label = "3ring-Cs(Cl)2-Cs(Cl)2",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
 2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
@@ -2311,7 +2311,7 @@ entry(
         S298 = (0.48576,'cal/(mol*K)','+|-',0.299771),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2322,7 +2322,7 @@ CHOCl_G4 |         10
 entry(
     index = 84,
     label = "3ring-Cs(F)2-Cs(F)2",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
 2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
@@ -2339,7 +2339,7 @@ entry(
         S298 = (0.448396,'cal/(mol*K)','+|-',0.201903),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -2350,7 +2350,7 @@ CHOF_G4 |         12
 entry(
     index = 85,
     label = "3ring-Cs(Br)2-Cs(Br)2",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
 2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
@@ -2367,7 +2367,7 @@ entry(
         S298 = (1.05336,'cal/(mol*K)','+|-',0.363895),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2378,7 +2378,7 @@ CHOBr_G4 |         7
 entry(
     index = 86,
     label = "Cs(Val7)2-C(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S}
 2 *2 [Cs,Cd]     ux {1,S} {5,S}
@@ -2393,7 +2393,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2402,7 +2402,7 @@ entry(
 entry(
     index = 87,
     label = "3ring-Cs(Val7)2-C(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 [Cs,Cd]     ux {1,S} {3,[S,D]} {6,S}
@@ -2418,7 +2418,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2427,7 +2427,7 @@ entry(
 entry(
     index = 88,
     label = "3ring-Cs(Val7)2-Cs(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
 2 *2 Cs          ux {1,S} {3,S} {5,S}
@@ -2443,7 +2443,7 @@ entry(
         S298 = (0.97775,'cal/(mol*K)','+|-',1.16591),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2452,7 +2452,7 @@ entry(
 entry(
     index = 89,
     label = "3ring-Cs(Cl)2-Cs(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
 2 *2 Cs          ux {1,S} {3,S} {5,S}
@@ -2468,7 +2468,7 @@ entry(
         S298 = (0.779937,'cal/(mol*K)','+|-',0.289002),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2479,7 +2479,7 @@ CHOCl_G4 |         23
 entry(
     index = 90,
     label = "3ring-Cs(F)2-Cs(F)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
 2 *2 Cs          ux {1,S} {3,S} {5,S}
@@ -2495,7 +2495,7 @@ entry(
         S298 = (0.519444,'cal/(mol*K)','+|-',0.330863),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -2506,7 +2506,7 @@ CHOF_G4 |         25
 entry(
     index = 91,
     label = "3ring-Cs(Br)2-Cs(Br)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
 2 *2 Cs          ux {1,S} {3,S} {5,S}
@@ -2522,7 +2522,7 @@ entry(
         S298 = (1.63387,'cal/(mol*K)','+|-',0.394706),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2533,7 +2533,7 @@ CHOBr_G4 |         18
 entry(
     index = 92,
     label = "3ring-Cs(Val7)2-Cds(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs        ux {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd        ux {1,S} {3,D} {6,S}
@@ -2549,7 +2549,7 @@ entry(
         S298 = (0.951725,'cal/(mol*K)','+|-',0.180036),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2558,7 +2558,7 @@ entry(
 entry(
     index = 93,
     label = "3ring-Cs(Cl)2-Cds(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs        ux {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd        ux {1,S} {3,D} {6,S}
@@ -2574,7 +2574,7 @@ entry(
         S298 = (0.961768,'cal/(mol*K)','+|-',0.5967),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2585,7 +2585,7 @@ CHOCl_G4 |         5
 entry(
     index = 94,
     label = "3ring-Cs(F)2-Cds(F)",
-    group = 
+    group =
 """
 1 *1 Cs        ux {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd        ux {1,S} {3,D} {6,S}
@@ -2601,7 +2601,7 @@ entry(
         S298 = (0.857106,'cal/(mol*K)','+|-',0.704816),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -2612,7 +2612,7 @@ CHOF_G4 |         6
 entry(
     index = 95,
     label = "3ring-Cs(Br)2-Cds(Br)",
-    group = 
+    group =
 """
 1 *1 Cs        ux {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd        ux {1,S} {3,D} {6,S}
@@ -2628,7 +2628,7 @@ entry(
         S298 = (1.0363,'cal/(mol*K)','+|-',0.706551),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2639,7 +2639,7 @@ CHOBr_G4 |         6
 entry(
     index = 96,
     label = "Cs(Val7)2-Cs(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {5,S}
 2 *2 Cs          ux {1,S} {4,S}
@@ -2654,7 +2654,7 @@ entry(
         S298 = (0.610029,'cal/(mol*K)','+|-',0.631676),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2663,7 +2663,7 @@ entry(
 entry(
     index = 97,
     label = "Cs(Cl)2-Cs(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {5,S}
 2 *2 Cs          ux {1,S} {4,S}
@@ -2678,7 +2678,7 @@ entry(
         S298 = (0.422834,'cal/(mol*K)','+|-',0.366404),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2689,7 +2689,7 @@ CHOCl_G4 |         15
 entry(
     index = 98,
     label = "Cs(F)2-Cs(F)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {5,S}
 2 *2 Cs          ux {1,S} {4,S}
@@ -2704,7 +2704,7 @@ entry(
         S298 = (0.432569,'cal/(mol*K)','+|-',0.367869),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -2715,7 +2715,7 @@ CHOF_G4 |         16
 entry(
     index = 99,
     label = "Cs(Br)2-Cs(Br)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {5,S}
 2 *2 Cs          ux {1,S} {4,S}
@@ -2730,7 +2730,7 @@ entry(
         S298 = (0.974684,'cal/(mol*K)','+|-',0.355447),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2741,7 +2741,7 @@ CHOBr_G4 |         15
 entry(
     index = 100,
     label = "Cs(Val7)2-Cds(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd          ux {1,S} {6,S} {7,D}
@@ -2758,7 +2758,7 @@ entry(
         S298 = (0.280982,'cal/(mol*K)','+|-',0.852722),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2767,7 +2767,7 @@ entry(
 entry(
     index = 101,
     label = "Cs(Cl)2-Cds(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd          ux {1,S} {6,S} {7,D}
@@ -2784,7 +2784,7 @@ entry(
         S298 = (0.687245,'cal/(mol*K)','+|-',0.765806),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2795,7 +2795,7 @@ CHOCl_G4 |         6
 entry(
     index = 102,
     label = "Cs(F)2-Cds(F)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd          ux {1,S} {6,S} {7,D}
@@ -2812,7 +2812,7 @@ entry(
         S298 = (0.318676,'cal/(mol*K)','+|-',0.835031),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -2823,7 +2823,7 @@ CHOF_G4 |         6
 entry(
     index = 103,
     label = "Cs(Br)2-Cds(Br)",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 Cd          ux {1,S} {6,S} {7,D}
@@ -2840,7 +2840,7 @@ entry(
         S298 = (-0.162974,'cal/(mol*K)','+|-',0.807376),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2851,7 +2851,7 @@ CHOBr_G4 |         5
 entry(
     index = 104,
     label = "Cs(Val7)-Cs(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs   ux {2,S} {3,S}
 2 *2 Cs   ux {1,S} {4,S}
@@ -2865,7 +2865,7 @@ entry(
         S298 = (1.02642,'cal/(mol*K)','+|-',0.0413935),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2874,7 +2874,7 @@ entry(
 entry(
     index = 105,
     label = "Cs(Cl)-Cs(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs   ux {2,S} {3,S}
 2 *2 Cs   ux {1,S} {4,S}
@@ -2888,7 +2888,7 @@ entry(
         S298 = (1.04433,'cal/(mol*K)','+|-',0.0891348),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2899,7 +2899,7 @@ CHOCl_G4 |         71
 entry(
     index = 106,
     label = "Cs(F)-Cs(F)",
-    group = 
+    group =
 """
 1 *1 Cs  ux {2,S} {3,S}
 2 *2 Cs  ux {1,S} {4,S}
@@ -2913,7 +2913,7 @@ entry(
         S298 = (1.03116,'cal/(mol*K)','+|-',0.0948765),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -2924,7 +2924,7 @@ CHOF_G4 |         75
 entry(
     index = 107,
     label = "Cs(Br)-Cs(Br)",
-    group = 
+    group =
 """
 1 *1 Cs   ux {2,S} {3,S}
 2 *2 Cs   ux {1,S} {4,S}
@@ -2938,7 +2938,7 @@ entry(
         S298 = (1.00376,'cal/(mol*K)','+|-',0.0981293),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2949,7 +2949,7 @@ CHOBr_G4 |         66
 entry(
     index = 108,
     label = "Cs(Val7)-Cds(Val7)",
-    group = 
+    group =
 """
 1 *1 Cs   ux {2,S} {3,S}
 2 *2 Cd   ux {1,S} {4,S}
@@ -2963,7 +2963,7 @@ entry(
         S298 = (1.5755,'cal/(mol*K)','+|-',0.785398),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2972,7 +2972,7 @@ entry(
 entry(
     index = 109,
     label = "Cs(Cl)-Cds(Cl)",
-    group = 
+    group =
 """
 1 *1 Cs ux {2,S} {3,S}
 2 *2 Cd ux {1,S} {4,S}
@@ -2986,7 +2986,7 @@ entry(
         S298 = (1.89004,'cal/(mol*K)','+|-',0.325874),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -2997,7 +2997,7 @@ CHOCl_G4 |         21
 entry(
     index = 110,
     label = "Cs(F)-Cds(F)",
-    group = 
+    group =
 """
 1 *1 Cs ux {2,S} {3,S}
 2 *2 Cd ux {1,S} {4,S}
@@ -3011,7 +3011,7 @@ entry(
         S298 = (1.7011,'cal/(mol*K)','+|-',0.376443),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -3022,7 +3022,7 @@ CHOF_G4 |         22
 entry(
     index = 111,
     label = "Cs(Br)-Cds(Br)",
-    group = 
+    group =
 """
 1 *1 Cs ux {2,S} {3,S}
 2 *2 Cd ux {1,S} {4,S}
@@ -3036,7 +3036,7 @@ entry(
         S298 = (1.13537,'cal/(mol*K)','+|-',0.366003),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3047,7 +3047,7 @@ CHOBr_G4 |         19
 entry(
     index = 112,
     label = "Cds(Val7)-Cds(Val7)",
-    group = 
+    group =
 """
 1 *1 Cd   ux {2,S} {3,S}
 2 *2 Cd   ux {1,S} {4,S}
@@ -3061,7 +3061,7 @@ entry(
         S298 = (0.014271,'cal/(mol*K)','+|-',0.628843),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3070,7 +3070,7 @@ entry(
 entry(
     index = 113,
     label = "Cds(Cl)-Cds(Cl)",
-    group = 
+    group =
 """
 1 *1 Cd   ux {2,S} {3,S}
 2 *2 Cd   ux {1,S} {4,S}
@@ -3084,7 +3084,7 @@ entry(
         S298 = (0.115151,'cal/(mol*K)','+|-',0.416828),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3095,7 +3095,7 @@ CHOCl_G4 |         3
 entry(
     index = 114,
     label = "Cds(F)-Cds(F)",
-    group = 
+    group =
 """
 1 *1 Cd  ux {2,S} {3,S}
 2 *2 Cd  ux {1,S} {4,S}
@@ -3109,7 +3109,7 @@ entry(
         S298 = (0.265871,'cal/(mol*K)','+|-',0.642653),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -3120,7 +3120,7 @@ CHOF_G4 |         2
 entry(
     index = 115,
     label = "Cds(Br)-Cds(Br)",
-    group = 
+    group =
 """
 1 *1 Cd   ux {2,S} {3,S}
 2 *2 Cd   ux {1,S} {4,S}
@@ -3134,7 +3134,7 @@ entry(
         S298 = (-0.338209,'cal/(mol*K)','+|-',0.414229),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3145,7 +3145,7 @@ CHOBr_G4 |         3
 entry(
     index = 116,
     label = "Cds(Val7)=Cds(Val7)",
-    group = 
+    group =
 """
 1 *1 Cd   ux {2,D} {3,S}
 2 *2 Cd   ux {1,D} {4,S}
@@ -3159,7 +3159,7 @@ entry(
         S298 = (0.175868,'cal/(mol*K)','+|-',0.259889),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3168,7 +3168,7 @@ entry(
 entry(
     index = 117,
     label = "Cds(Cl)=Cds(Cl)",
-    group = 
+    group =
 """
 1 *1 Cd   ux {2,D} {3,S}
 2 *2 Cd   ux {1,D} {4,S}
@@ -3182,7 +3182,7 @@ entry(
         S298 = (0.260454,'cal/(mol*K)','+|-',0.22835),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3193,7 +3193,7 @@ CHOCl_G4 |         27
 entry(
     index = 118,
     label = "Cds(F)=Cds(F)",
-    group = 
+    group =
 """
 1 *1 Cd  ux {2,D} {3,S}
 2 *2 Cd  ux {1,D} {4,S}
@@ -3207,7 +3207,7 @@ entry(
         S298 = (0.0262459,'cal/(mol*K)','+|-',0.22051),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -3218,7 +3218,7 @@ CHOF_G4 |         25
 entry(
     index = 119,
     label = "Cds(Br)=Cds(Br)",
-    group = 
+    group =
 """
 1 *1 Cd   ux {2,D} {3,S}
 2 *2 Cd   ux {1,D} {4,S}
@@ -3232,7 +3232,7 @@ entry(
         S298 = (0.240903,'cal/(mol*K)','+|-',0.218487),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3243,7 +3243,7 @@ CHOBr_G4 |         25
 entry(
     index = 120,
     label = "Cd(Val7)-CO",
-    group = 
+    group =
 """
 1 *1 Cd   ux {2,S} {3,S}
 2 *2 CO   ux {1,S} {4,D}
@@ -3257,7 +3257,7 @@ entry(
         S298 = (1.68793,'cal/(mol*K)','+|-',1.31358),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3266,7 +3266,7 @@ entry(
 entry(
     index = 121,
     label = "Cd(F)-CO",
-    group = 
+    group =
 """
 1 *1 Cd  ux {2,S} {3,S}
 2 *2 CO  ux {1,S} {4,D}
@@ -3280,7 +3280,7 @@ entry(
         S298 = (2.32778,'cal/(mol*K)','+|-',2.03625),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -3291,7 +3291,7 @@ CHOF_G4 |         2
 entry(
     index = 122,
     label = "Cd(Cl)-CO",
-    group = 
+    group =
 """
 1 *1 Cd   ux {2,S} {3,S}
 2 *2 CO   ux {1,S} {4,D}
@@ -3305,7 +3305,7 @@ entry(
         S298 = (1.72059,'cal/(mol*K)','+|-',2.0397),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3316,7 +3316,7 @@ CHOCl_G4 |         2
 entry(
     index = 123,
     label = "Cd(Br)-CO",
-    group = 
+    group =
 """
 1 *1 Cd   ux {2,S} {3,S}
 2 *2 CO   ux {1,S} {4,D}
@@ -3330,7 +3330,7 @@ entry(
         S298 = (1.01542,'cal/(mol*K)','+|-',2.03538),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3341,7 +3341,7 @@ CHOBr_G4 |         2
 entry(
     index = 124,
     label = "Cs(Val7)3-CO",
-    group = 
+    group =
 """
 1 *1 Cs   ux {2,S} {3,S} {4,S} {5,S}
 2 *2 CO   ux {1,S} {6,D}
@@ -3357,7 +3357,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3366,7 +3366,7 @@ entry(
 entry(
     index = 125,
     label = "Cs(F)3-CO",
-    group = 
+    group =
 """
 1 *1 Cs  ux {2,S} {3,S} {4,S} {5,S}
 2 *2 CO  ux {1,S} {6,D}
@@ -3382,7 +3382,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """CsCOFFF""",
-    longDesc = 
+    longDesc =
 """
 CsCOFFF group accounts for this interaction
 """,
@@ -3391,7 +3391,7 @@ CsCOFFF group accounts for this interaction
 entry(
     index = 126,
     label = "Cs(Cl)3-CO",
-    group = 
+    group =
 """
 1 *1 Cs   ux {2,S} {3,S} {4,S} {5,S}
 2 *2 CO   ux {1,S} {6,D}
@@ -3407,7 +3407,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """CsClClClCO""",
-    longDesc = 
+    longDesc =
 """
 CsClClClCO group accounts for this interaction
 """,
@@ -3416,7 +3416,7 @@ CsClClClCO group accounts for this interaction
 entry(
     index = 127,
     label = "Cs(Br)3-CO",
-    group = 
+    group =
 """
 1 *1 Cs   ux {2,S} {3,S} {4,S} {5,S}
 2 *2 CO   ux {1,S} {6,D}
@@ -3432,7 +3432,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = """CsBrBrBrCO""",
-    longDesc = 
+    longDesc =
 """
 CsBrBrBrCO group accounts for this interaction
 """,
@@ -3441,7 +3441,7 @@ CsBrBrBrCO group accounts for this interaction
 entry(
     index = 128,
     label = "Cs(Val7)2-CO",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          ux {1,S} {6,D}
@@ -3457,7 +3457,7 @@ entry(
         S298 = (1.5235,'cal/(mol*K)','+|-',1.20033),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3466,7 +3466,7 @@ entry(
 entry(
     index = 129,
     label = "Cs(F)2-CO",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          ux {1,S} {6,D}
@@ -3482,7 +3482,7 @@ entry(
         S298 = (2.20275,'cal/(mol*K)','+|-',1.9021),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -3493,7 +3493,7 @@ CHOF_G4 |         4
 entry(
     index = 130,
     label = "Cs(Cl)2-CO",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          ux {1,S} {6,D}
@@ -3509,7 +3509,7 @@ entry(
         S298 = (1.30289,'cal/(mol*K)','+|-',1.95428),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3520,7 +3520,7 @@ CHOCl_G4 |         4
 entry(
     index = 131,
     label = "Cs(Br)2-CO",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          ux {1,S} {6,D}
@@ -3536,7 +3536,7 @@ entry(
         S298 = (1.06487,'cal/(mol*K)','+|-',1.98716),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3547,7 +3547,7 @@ CHOBr_G4 |         4
 entry(
     index = 132,
     label = "Cs(Val7)-CO",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          ux {1,S} {6,D}
@@ -3563,7 +3563,7 @@ entry(
         S298 = (1.83386,'cal/(mol*K)','+|-',0.667673),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3572,7 +3572,7 @@ entry(
 entry(
     index = 133,
     label = "Cs(F)-CO",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          ux {1,S} {6,D}
@@ -3588,7 +3588,7 @@ entry(
         S298 = (2.07831,'cal/(mol*K)','+|-',1.41616),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -3599,7 +3599,7 @@ CHOF_G4 |         4
 entry(
     index = 134,
     label = "Cs(Cl)-CO",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          ux {1,S} {6,D}
@@ -3615,7 +3615,7 @@ entry(
         S298 = (1.96977,'cal/(mol*K)','+|-',1.41648),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3626,7 +3626,7 @@ CHOCl_G4 |         4
 entry(
     index = 135,
     label = "Cs(Br)-CO",
-    group = 
+    group =
 """
 1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
 2 *2 CO          ux {1,S} {6,D}
@@ -3642,7 +3642,7 @@ entry(
         S298 = (1.45351,'cal/(mol*K)','+|-',1.42286),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3653,7 +3653,7 @@ CHOBr_G4 |         4
 entry(
     index = 136,
     label = "Cd(Val7)=CdOs",
-    group = 
+    group =
 """
 1 *1 Cd          ux {2,D} {3,S} {4,S}
 2 *2 Cd          ux {1,D} {5,S}
@@ -3668,7 +3668,7 @@ entry(
         S298 = (1.36782,'cal/(mol*K)','+|-',0.334722),
     ),
     shortDesc = """Average of children""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3677,7 +3677,7 @@ entry(
 entry(
     index = 137,
     label = "Cd(F)=CdOs",
-    group = 
+    group =
 """
 1 *1 Cd          ux {2,D} {3,S} {4,S}
 2 *2 Cd          ux {1,D} {5,S}
@@ -3692,7 +3692,7 @@ entry(
         S298 = (1.17775,'cal/(mol*K)','+|-',0.827054),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library | Number of Species
@@ -3703,7 +3703,7 @@ CHOF_G4 |         7
 entry(
     index = 138,
     label = "Cd(Cl)=CdOs",
-    group = 
+    group =
 """
 1 *1 Cd          ux {2,D} {3,S} {4,S}
 2 *2 Cd          ux {1,D} {5,S}
@@ -3718,7 +3718,7 @@ entry(
         S298 = (1.4931,'cal/(mol*K)','+|-',0.767592),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species
@@ -3729,7 +3729,7 @@ CHOCl_G4 |         7
 entry(
     index = 139,
     label = "Cd(Br)=CdOs",
-    group = 
+    group =
 """
 1 *1 Cd          ux {2,D} {3,S} {4,S}
 2 *2 Cd          ux {1,D} {5,S}
@@ -3744,7 +3744,7 @@ entry(
         S298 = (1.43261,'cal/(mol*K)','+|-',0.990625),
     ),
     shortDesc = """Derived from RMG Thermo Libraries""",
-    longDesc = 
+    longDesc =
 """
 Fitted using sklearn Ridge regression with alpha = 1e-06
 Library  | Number of Species

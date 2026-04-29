@@ -14,7 +14,7 @@ entry(
     kinetics = Arrhenius(A=(6.32e+10,'s^-1'), n=0.35, Ea=(10.3,'kcal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = """Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry: product38 <=> product39
 """,
@@ -27,7 +27,7 @@ entry(
     kinetics = Arrhenius(A=(2.95e+12,'s^-1'), n=0.12, Ea=(3,'kcal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = """Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry: product39 <=> product37
 """,
@@ -40,7 +40,7 @@ entry(
     kinetics = Arrhenius(A=(6.69e+11,'s^-1'), n=0.22, Ea=(40,'kcal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = """Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry: pdt18 <=> pdt19
 """,
@@ -53,7 +53,7 @@ entry(
     kinetics = Arrhenius(A=(1.19e+11,'s^-1'), n=0.08, Ea=(16.7,'kcal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = """Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry: pdt14 <=> pdt23
 """,
@@ -66,7 +66,7 @@ entry(
     kinetics = Arrhenius(A=(2.02e+11,'s^-1'), n=0.79, Ea=(35.3,'kcal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = """Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry: pdt55 <=> pdt58
 """,
@@ -79,7 +79,7 @@ entry(
     kinetics = Arrhenius(A=(1.3e+12,'s^-1'), n=0.45, Ea=(25.6,'kcal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = """Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry: prod2 <=> prod5
 """,
@@ -100,7 +100,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP
@@ -114,7 +114,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.992e+11,'s^-1'), n=0.67, Ea=(58.336,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Effective rate for an adduct of phenyl radical + diacetylene to form either benzofulvenyl or 2-naphthyl radical.
 Rate-limiting step is trans-cis isomerization of the adduct, calculated by Zach Buras using CBS-QB3.
@@ -138,7 +138,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP
@@ -160,7 +160,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP
@@ -182,7 +182,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP
@@ -204,7 +204,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP
@@ -226,7 +226,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP
@@ -248,7 +248,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C9H9_highP
@@ -270,7 +270,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP
@@ -292,7 +292,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP
@@ -314,7 +314,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP
@@ -336,7 +336,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP
@@ -358,7 +358,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP
@@ -380,7 +380,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H5_C4H4_highP
@@ -402,7 +402,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 """
 Calculations done at CCSD(T)-F12a/cc-pVTZ-F12//M08SO/MG3S level of theory
 From kinetics library: 2015_Buras_C2H3_C4H6_highP
@@ -424,7 +424,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP
@@ -446,7 +446,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2017_Buras_C6H5_C3H6_highP
@@ -468,7 +468,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at G3(MP2,CC)//B3LYP/6-311G** level of theory
 From kinetics library: First_to_Second_Aromatic_Ring/2017_Mebel_C6H4C2H_C2H2_highP
@@ -491,7 +491,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at CBS-QB3 level of theory
 From kinetics library: naphthalene_H
@@ -514,7 +514,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at CBS-QB3 level of theory
 From kinetics library: C10H11
@@ -537,7 +537,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at CBS-QB3 level of theory
 From kinetics library: C10H11
@@ -560,7 +560,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Calculations done at CBS-QB3 level of theory
 From kinetics library: vinylCPD_H
@@ -574,7 +574,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.51e+10,'s^-1'), n=0, Ea=(28.6604,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_2H_pri;radadd_intra_cs2H
 """,
@@ -586,7 +586,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+10,'s^-1'), n=0, Ea=(108.156,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_2H_pri;radadd_intra_csHDe
 """,
@@ -598,7 +598,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+10,'s^-1'), n=0, Ea=(196.02,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra;radadd_intra_cs
 """,
@@ -610,7 +610,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+10,'s^-1'), n=0, Ea=(196.02,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSM_D;doublebond_intra;radadd_intra_cs
 """,
@@ -622,7 +622,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1e+10,'s^-1'), n=0, Ea=(196.02,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SD_D;doublebond_intra_HNd_pri;radadd_intra_csHNd
 """,
@@ -635,7 +635,7 @@ entry(
     kinetics = Arrhenius(A=(2.724e+10,'s^-1','*|/',3), n=0.478, Ea=(122.043,'kJ/mol'), T0=(1,'K'), Tmin=(600,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """MRH CBS-QB3 calculations with 1d h.r. corrections""",
-    longDesc = 
+    longDesc =
 """
 MRH CBS-QB3 calculations for the reaction CH2=CH-CH2-OO => *CH2-cycle(CH-CH2-O-O)
 
@@ -664,7 +664,7 @@ entry(
     kinetics = Arrhenius(A=(1e+11,'s^-1'), n=0.21, Ea=(125.52,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Guess""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSM;multiplebond_intra;radadd_intra
 """,
@@ -677,7 +677,7 @@ entry(
     kinetics = Arrhenius(A=(1e+11,'s^-1'), n=0.21, Ea=(167.36,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Guess""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMM;multiplebond_intra;radadd_intra
 """,
@@ -690,7 +690,7 @@ entry(
     kinetics = Arrhenius(A=(1e+11,'s^-1'), n=0.21, Ea=(125.52,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Guess""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_MSMS;multiplebond_intra;radadd_intra
 """,
@@ -703,7 +703,7 @@ entry(
     kinetics = Arrhenius(A=(1e+11,'s^-1'), n=0.21, Ea=(167.36,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Guess""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SMSM;multiplebond_intra;radadd_intra
 """,
@@ -716,7 +716,7 @@ entry(
     kinetics = Arrhenius(A=(1e+11,'s^-1'), n=0.21, Ea=(125.52,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Guess""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_MMSR;multiplebond_intra;radadd_intra
 """,
@@ -729,7 +729,7 @@ entry(
     kinetics = Arrhenius(A=(1e+11,'s^-1'), n=0.21, Ea=(167.36,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Guess""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_RSMM;multiplebond_intra;radadd_intra
 """,
@@ -742,7 +742,7 @@ entry(
     kinetics = Arrhenius(A=(1e+11,'s^-1'), n=0.21, Ea=(188.28,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Guess""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SMMS;multiplebond_intra;radadd_intra
 """,
@@ -755,7 +755,7 @@ entry(
     kinetics = Arrhenius(A=(5.41e+10,'s^-1'), n=0.21, Ea=(53.5552,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 6,
     shortDesc = """BMK/cbsb7 + 1D-HR""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_DS_D;doublebond_intra_2H_pri;radadd_intra_cdsingleH
 """,
@@ -768,7 +768,7 @@ entry(
     kinetics = Arrhenius(A=(8.73e+09,'s^-1'), n=0.21, Ea=(16.736,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 6,
     shortDesc = """BMK/cbsb7 + 1D-HR""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_DSS_D;doublebond_intra_2H_pri;radadd_intra_cdsingleH
 """,
@@ -781,7 +781,7 @@ entry(
     kinetics = Arrhenius(A=(5.41e+10,'s^-1'), n=0.21, Ea=(53.5552,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Guess, i.e. 821""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_MS;multiplebond_intra;radadd_intra_cdsingle
 """,
@@ -794,7 +794,7 @@ entry(
     kinetics = Arrhenius(A=(8.73e+09,'s^-1'), n=0.21, Ea=(16.736,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Guess, i.e. 822""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_MSR;multiplebond_intra;radadd_intra_cdsingle
 """,
@@ -807,7 +807,7 @@ entry(
     kinetics = Arrhenius(A=(3.35e+09,'s^-1'), n=0.21, Ea=(31.4218,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_2H_pri;radadd_intra_csHNd
 """,
@@ -820,7 +820,7 @@ entry(
     kinetics = Arrhenius(A=(1.05e+09,'s^-1'), n=0.21, Ea=(29.6227,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_2H_pri;radadd_intra_csNdNd
 """,
@@ -833,7 +833,7 @@ entry(
     kinetics = Arrhenius(A=(7.08e+09,'s^-1'), n=0.21, Ea=(65.647,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_2H_pri;radadd_intra_csHCd
 """,
@@ -846,7 +846,7 @@ entry(
     kinetics = Arrhenius(A=(1.04e+09,'s^-1'), n=0.21, Ea=(68.1992,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_2H_pri;radadd_intra_csNdCd
 """,
@@ -859,7 +859,7 @@ entry(
     kinetics = Arrhenius(A=(2.45e+09,'s^-1'), n=0.21, Ea=(54.392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_2H_pri;radadd_intra_csHCt
 """,
@@ -872,7 +872,7 @@ entry(
     kinetics = Arrhenius(A=(2.57e+09,'s^-1'), n=0.21, Ea=(58.6597,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_2H_pri;radadd_intra_csNdCt
 """,
@@ -885,7 +885,7 @@ entry(
     kinetics = Arrhenius(A=(9.68e+09,'s^-1'), n=0.21, Ea=(19.7485,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_2H_pri;radadd_intra_cdsingleH
 """,
@@ -898,7 +898,7 @@ entry(
     kinetics = Arrhenius(A=(5.26e+09,'s^-1'), n=0.21, Ea=(29.9574,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HNd_pri;radadd_intra_cs2H
 """,
@@ -911,7 +911,7 @@ entry(
     kinetics = Arrhenius(A=(3.52e+10,'s^-1'), n=0.21, Ea=(30.8779,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HNd_pri;radadd_intra_csHNd
 """,
@@ -924,7 +924,7 @@ entry(
     kinetics = Arrhenius(A=(1.1e+10,'s^-1'), n=0.21, Ea=(29.0788,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HNd_pri;radadd_intra_csNdNd
 """,
@@ -937,7 +937,7 @@ entry(
     kinetics = Arrhenius(A=(7.44e+10,'s^-1'), n=0.21, Ea=(65.103,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HNd_pri;radadd_intra_csHCd
 """,
@@ -950,7 +950,7 @@ entry(
     kinetics = Arrhenius(A=(1.09e+10,'s^-1'), n=0.21, Ea=(67.6553,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HNd_pri;radadd_intra_csNdCd
 """,
@@ -963,7 +963,7 @@ entry(
     kinetics = Arrhenius(A=(2.57e+10,'s^-1'), n=0.21, Ea=(53.8481,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HNd_pri;radadd_intra_csHCt
 """,
@@ -976,7 +976,7 @@ entry(
     kinetics = Arrhenius(A=(2.7e+10,'s^-1'), n=0.21, Ea=(58.1158,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HNd_pri;radadd_intra_csNdCt
 """,
@@ -989,7 +989,7 @@ entry(
     kinetics = Arrhenius(A=(1.02e+11,'s^-1'), n=0.21, Ea=(19.2046,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HNd_pri;radadd_intra_cdsingleH
 """,
@@ -1002,7 +1002,7 @@ entry(
     kinetics = Arrhenius(A=(8.81e+09,'s^-1'), n=0.21, Ea=(28.8278,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdNd_pri;radadd_intra_cs2H
 """,
@@ -1015,7 +1015,7 @@ entry(
     kinetics = Arrhenius(A=(5.89e+10,'s^-1'), n=0.21, Ea=(29.7482,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdNd_pri;radadd_intra_csHNd
 """,
@@ -1028,7 +1028,7 @@ entry(
     kinetics = Arrhenius(A=(1.85e+10,'s^-1'), n=0.21, Ea=(27.9491,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdNd_pri;radadd_intra_csNdNd
 """,
@@ -1041,7 +1041,7 @@ entry(
     kinetics = Arrhenius(A=(1.25e+11,'s^-1'), n=0.21, Ea=(63.9315,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdNd_pri;radadd_intra_csHCd
 """,
@@ -1054,7 +1054,7 @@ entry(
     kinetics = Arrhenius(A=(1.83e+10,'s^-1'), n=0.21, Ea=(66.4838,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdNd_pri;radadd_intra_csNdCd
 """,
@@ -1067,7 +1067,7 @@ entry(
     kinetics = Arrhenius(A=(4.31e+10,'s^-1'), n=0.21, Ea=(52.7184,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdNd_pri;radadd_intra_csHCt
 """,
@@ -1080,7 +1080,7 @@ entry(
     kinetics = Arrhenius(A=(4.53e+10,'s^-1'), n=0.21, Ea=(56.9442,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdNd_pri;radadd_intra_csNdCt
 """,
@@ -1093,7 +1093,7 @@ entry(
     kinetics = Arrhenius(A=(1.71e+11,'s^-1'), n=0.21, Ea=(18.0749,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdNd_pri;radadd_intra_cdsingleH
 """,
@@ -1106,7 +1106,7 @@ entry(
     kinetics = Arrhenius(A=(3.04e+09,'s^-1'), n=0.21, Ea=(17.1544,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCd_pri;radadd_intra_cs2H
 """,
@@ -1119,7 +1119,7 @@ entry(
     kinetics = Arrhenius(A=(2.04e+10,'s^-1'), n=0.21, Ea=(18.0749,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCd_pri;radadd_intra_csHNd
 """,
@@ -1132,7 +1132,7 @@ entry(
     kinetics = Arrhenius(A=(6.38e+09,'s^-1'), n=0.21, Ea=(16.2758,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCd_pri;radadd_intra_csNdNd
 """,
@@ -1145,7 +1145,7 @@ entry(
     kinetics = Arrhenius(A=(4.31e+10,'s^-1'), n=0.21, Ea=(52.3,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCd_pri;radadd_intra_csHCd
 """,
@@ -1158,7 +1158,7 @@ entry(
     kinetics = Arrhenius(A=(6.33e+09,'s^-1'), n=0.21, Ea=(54.8522,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCd_pri;radadd_intra_csNdCd
 """,
@@ -1171,7 +1171,7 @@ entry(
     kinetics = Arrhenius(A=(1.49e+10,'s^-1'), n=0.21, Ea=(41.045,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCd_pri;radadd_intra_csHCt
 """,
@@ -1184,7 +1184,7 @@ entry(
     kinetics = Arrhenius(A=(1.57e+10,'s^-1'), n=0.21, Ea=(45.3127,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCd_pri;radadd_intra_csNdCt
 """,
@@ -1197,7 +1197,7 @@ entry(
     kinetics = Arrhenius(A=(5.89e+10,'s^-1'), n=0.21, Ea=(6.40152,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCd_pri;radadd_intra_cdsingleH
 """,
@@ -1210,7 +1210,7 @@ entry(
     kinetics = Arrhenius(A=(3.65e+09,'s^-1'), n=0.21, Ea=(18.1586,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCd_pri;radadd_intra_cs2H
 """,
@@ -1223,7 +1223,7 @@ entry(
     kinetics = Arrhenius(A=(2.44e+10,'s^-1'), n=0.21, Ea=(19.079,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCd_pri;radadd_intra_csHNd
 """,
@@ -1236,7 +1236,7 @@ entry(
     kinetics = Arrhenius(A=(7.65e+09,'s^-1'), n=0.21, Ea=(17.2799,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCd_pri;radadd_intra_csNdNd
 """,
@@ -1249,7 +1249,7 @@ entry(
     kinetics = Arrhenius(A=(5.16e+10,'s^-1'), n=0.21, Ea=(53.2623,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCd_pri;radadd_intra_csHCd
 """,
@@ -1262,7 +1262,7 @@ entry(
     kinetics = Arrhenius(A=(7.58e+09,'s^-1'), n=0.21, Ea=(55.8146,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCd_pri;radadd_intra_csNdCd
 """,
@@ -1275,7 +1275,7 @@ entry(
     kinetics = Arrhenius(A=(1.78e+10,'s^-1'), n=0.21, Ea=(42.0492,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCd_pri;radadd_intra_csHCt
 """,
@@ -1288,7 +1288,7 @@ entry(
     kinetics = Arrhenius(A=(1.88e+10,'s^-1'), n=0.21, Ea=(46.275,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCd_pri;radadd_intra_csNdCt
 """,
@@ -1301,7 +1301,7 @@ entry(
     kinetics = Arrhenius(A=(7.06e+10,'s^-1'), n=0.21, Ea=(7.40568,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCd_pri;radadd_intra_cdsingleH
 """,
@@ -1314,7 +1314,7 @@ entry(
     kinetics = Arrhenius(A=(6.6e+09,'s^-1'), n=0.21, Ea=(16.4431,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCt_pri;radadd_intra_cs2H
 """,
@@ -1327,7 +1327,7 @@ entry(
     kinetics = Arrhenius(A=(4.41e+10,'s^-1'), n=0.21, Ea=(17.3636,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCt_pri;radadd_intra_csHNd
 """,
@@ -1340,7 +1340,7 @@ entry(
     kinetics = Arrhenius(A=(1.38e+10,'s^-1'), n=0.21, Ea=(15.5645,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCt_pri;radadd_intra_csNdNd
 """,
@@ -1353,7 +1353,7 @@ entry(
     kinetics = Arrhenius(A=(9.34e+10,'s^-1'), n=0.21, Ea=(51.5469,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCt_pri;radadd_intra_csHCd
 """,
@@ -1366,7 +1366,7 @@ entry(
     kinetics = Arrhenius(A=(1.37e+10,'s^-1'), n=0.21, Ea=(54.0991,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCt_pri;radadd_intra_csNdCd
 """,
@@ -1379,7 +1379,7 @@ entry(
     kinetics = Arrhenius(A=(3.22e+10,'s^-1'), n=0.21, Ea=(40.3338,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCt_pri;radadd_intra_csHCt
 """,
@@ -1392,7 +1392,7 @@ entry(
     kinetics = Arrhenius(A=(3.39e+10,'s^-1'), n=0.21, Ea=(44.5596,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCt_pri;radadd_intra_csNdCt
 """,
@@ -1405,7 +1405,7 @@ entry(
     kinetics = Arrhenius(A=(1.28e+11,'s^-1'), n=0.21, Ea=(5.69024,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_HCt_pri;radadd_intra_cdsingleH
 """,
@@ -1418,7 +1418,7 @@ entry(
     kinetics = Arrhenius(A=(3.84e+09,'s^-1'), n=0.21, Ea=(17.6146,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCt_pri;radadd_intra_cs2H
 """,
@@ -1431,7 +1431,7 @@ entry(
     kinetics = Arrhenius(A=(2.57e+10,'s^-1'), n=0.21, Ea=(18.5351,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCt_pri;radadd_intra_csHNd
 """,
@@ -1444,7 +1444,7 @@ entry(
     kinetics = Arrhenius(A=(8.06e+09,'s^-1'), n=0.21, Ea=(16.736,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCt_pri;radadd_intra_csNdNd
 """,
@@ -1457,7 +1457,7 @@ entry(
     kinetics = Arrhenius(A=(5.44e+10,'s^-1'), n=0.21, Ea=(52.7602,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCt_pri;radadd_intra_csHCd
 """,
@@ -1470,7 +1470,7 @@ entry(
     kinetics = Arrhenius(A=(7.99e+09,'s^-1'), n=0.21, Ea=(55.3125,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCt_pri;radadd_intra_csNdCd
 """,
@@ -1483,7 +1483,7 @@ entry(
     kinetics = Arrhenius(A=(1.88e+10,'s^-1'), n=0.21, Ea=(41.5053,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCt_pri;radadd_intra_csHCt
 """,
@@ -1496,7 +1496,7 @@ entry(
     kinetics = Arrhenius(A=(1.98e+10,'s^-1'), n=0.21, Ea=(45.773,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCt_pri;radadd_intra_csNdCt
 """,
@@ -1509,7 +1509,7 @@ entry(
     kinetics = Arrhenius(A=(7.44e+10,'s^-1'), n=0.21, Ea=(6.86176,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SSS_D;doublebond_intra_NdCt_pri;radadd_intra_cdsingleH
 """,
@@ -1522,7 +1522,7 @@ entry(
     kinetics = Arrhenius(A=(3.84e+10,'s^-1'), n=0.21, Ea=(36.7355,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_2H_pri;radadd_intra_cs2H
 """,
@@ -1535,7 +1535,7 @@ entry(
     kinetics = Arrhenius(A=(2.57e+11,'s^-1'), n=0.21, Ea=(37.656,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_2H_pri;radadd_intra_csHNd
 """,
@@ -1548,7 +1548,7 @@ entry(
     kinetics = Arrhenius(A=(8.06e+10,'s^-1'), n=0.21, Ea=(35.8569,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_2H_pri;radadd_intra_csNdNd
 """,
@@ -1561,7 +1561,7 @@ entry(
     kinetics = Arrhenius(A=(5.44e+11,'s^-1'), n=0.21, Ea=(71.8811,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_2H_pri;radadd_intra_csHCd
 """,
@@ -1574,7 +1574,7 @@ entry(
     kinetics = Arrhenius(A=(7.99e+10,'s^-1'), n=0.21, Ea=(74.4334,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_2H_pri;radadd_intra_csNdCd
 """,
@@ -1587,7 +1587,7 @@ entry(
     kinetics = Arrhenius(A=(1.88e+11,'s^-1'), n=0.21, Ea=(60.6262,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_2H_pri;radadd_intra_csHCt
 """,
@@ -1600,7 +1600,7 @@ entry(
     kinetics = Arrhenius(A=(1.98e+11,'s^-1'), n=0.21, Ea=(64.8938,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_2H_pri;radadd_intra_csNdCt
 """,
@@ -1613,7 +1613,7 @@ entry(
     kinetics = Arrhenius(A=(7.44e+11,'s^-1'), n=0.21, Ea=(25.9826,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_2H_pri;radadd_intra_cdsingleH
 """,
@@ -1626,7 +1626,7 @@ entry(
     kinetics = Arrhenius(A=(4.04e+11,'s^-1'), n=0.21, Ea=(36.1916,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HNd_pri;radadd_intra_cs2H
 """,
@@ -1639,7 +1639,7 @@ entry(
     kinetics = Arrhenius(A=(2.7e+12,'s^-1'), n=0.21, Ea=(37.1121,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HNd_pri;radadd_intra_csHNd
 """,
@@ -1652,7 +1652,7 @@ entry(
     kinetics = Arrhenius(A=(8.47e+11,'s^-1'), n=0.21, Ea=(35.313,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HNd_pri;radadd_intra_csNdNd
 """,
@@ -1665,7 +1665,7 @@ entry(
     kinetics = Arrhenius(A=(5.72e+12,'s^-1'), n=0.21, Ea=(71.3372,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HNd_pri;radadd_intra_csHCd
 """,
@@ -1678,7 +1678,7 @@ entry(
     kinetics = Arrhenius(A=(8.39e+11,'s^-1'), n=0.21, Ea=(73.8894,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HNd_pri;radadd_intra_csNdCd
 """,
@@ -1691,7 +1691,7 @@ entry(
     kinetics = Arrhenius(A=(1.97e+12,'s^-1'), n=0.21, Ea=(60.0822,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HNd_pri;radadd_intra_csHCt
 """,
@@ -1704,7 +1704,7 @@ entry(
     kinetics = Arrhenius(A=(2.08e+12,'s^-1'), n=0.21, Ea=(64.3499,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HNd_pri;radadd_intra_csNdCt
 """,
@@ -1717,7 +1717,7 @@ entry(
     kinetics = Arrhenius(A=(7.81e+12,'s^-1'), n=0.21, Ea=(25.4387,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HNd_pri;radadd_intra_cdsingleH
 """,
@@ -1730,7 +1730,7 @@ entry(
     kinetics = Arrhenius(A=(6.77e+11,'s^-1'), n=0.21, Ea=(35.0619,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdNd_pri;radadd_intra_cs2H
 """,
@@ -1743,7 +1743,7 @@ entry(
     kinetics = Arrhenius(A=(4.53e+12,'s^-1'), n=0.21, Ea=(35.9824,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdNd_pri;radadd_intra_csHNd
 """,
@@ -1756,7 +1756,7 @@ entry(
     kinetics = Arrhenius(A=(1.42e+12,'s^-1'), n=0.21, Ea=(34.1833,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdNd_pri;radadd_intra_csNdNd
 """,
@@ -1769,7 +1769,7 @@ entry(
     kinetics = Arrhenius(A=(9.58e+12,'s^-1'), n=0.21, Ea=(70.1657,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdNd_pri;radadd_intra_csHCd
 """,
@@ -1782,7 +1782,7 @@ entry(
     kinetics = Arrhenius(A=(1.41e+12,'s^-1'), n=0.21, Ea=(72.7179,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdNd_pri;radadd_intra_csNdCd
 """,
@@ -1795,7 +1795,7 @@ entry(
     kinetics = Arrhenius(A=(3.31e+12,'s^-1'), n=0.21, Ea=(58.9526,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdNd_pri;radadd_intra_csHCt
 """,
@@ -1808,7 +1808,7 @@ entry(
     kinetics = Arrhenius(A=(3.48e+12,'s^-1'), n=0.21, Ea=(63.1784,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdNd_pri;radadd_intra_csNdCt
 """,
@@ -1821,7 +1821,7 @@ entry(
     kinetics = Arrhenius(A=(1.31e+13,'s^-1'), n=0.21, Ea=(24.309,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdNd_pri;radadd_intra_cdsingleH
 """,
@@ -1834,7 +1834,7 @@ entry(
     kinetics = Arrhenius(A=(2.34e+11,'s^-1'), n=0.21, Ea=(23.3886,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCd_pri;radadd_intra_cs2H
 """,
@@ -1847,7 +1847,7 @@ entry(
     kinetics = Arrhenius(A=(1.56e+12,'s^-1'), n=0.21, Ea=(24.309,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCd_pri;radadd_intra_csHNd
 """,
@@ -1860,7 +1860,7 @@ entry(
     kinetics = Arrhenius(A=(4.9e+11,'s^-1'), n=0.21, Ea=(22.5099,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCd_pri;radadd_intra_csNdNd
 """,
@@ -1873,7 +1873,7 @@ entry(
     kinetics = Arrhenius(A=(3.31e+12,'s^-1'), n=0.21, Ea=(58.5342,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCd_pri;radadd_intra_csHCd
 """,
@@ -1886,7 +1886,7 @@ entry(
     kinetics = Arrhenius(A=(4.86e+11,'s^-1'), n=0.21, Ea=(61.0864,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCd_pri;radadd_intra_csNdCd
 """,
@@ -1899,7 +1899,7 @@ entry(
     kinetics = Arrhenius(A=(1.14e+12,'s^-1'), n=0.21, Ea=(47.2792,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCd_pri;radadd_intra_csHCt
 """,
@@ -1912,7 +1912,7 @@ entry(
     kinetics = Arrhenius(A=(1.2e+12,'s^-1'), n=0.21, Ea=(51.5469,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCd_pri;radadd_intra_csNdCt
 """,
@@ -1925,7 +1925,7 @@ entry(
     kinetics = Arrhenius(A=(4.52e+12,'s^-1'), n=0.21, Ea=(12.6357,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCd_pri;radadd_intra_cdsingleH
 """,
@@ -1938,7 +1938,7 @@ entry(
     kinetics = Arrhenius(A=(2.8e+11,'s^-1'), n=0.21, Ea=(24.3927,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCd_pri;radadd_intra_cs2H
 """,
@@ -1951,7 +1951,7 @@ entry(
     kinetics = Arrhenius(A=(1.87e+12,'s^-1'), n=0.21, Ea=(25.3132,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCd_pri;radadd_intra_csHNd
 """,
@@ -1964,7 +1964,7 @@ entry(
     kinetics = Arrhenius(A=(5.88e+11,'s^-1'), n=0.21, Ea=(23.5141,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCd_pri;radadd_intra_csNdNd
 """,
@@ -1977,7 +1977,7 @@ entry(
     kinetics = Arrhenius(A=(3.97e+12,'s^-1'), n=0.21, Ea=(59.4965,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCd_pri;radadd_intra_csHCd
 """,
@@ -1990,7 +1990,7 @@ entry(
     kinetics = Arrhenius(A=(5.82e+11,'s^-1'), n=0.21, Ea=(62.0487,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCd_pri;radadd_intra_csNdCd
 """,
@@ -2003,7 +2003,7 @@ entry(
     kinetics = Arrhenius(A=(1.37e+12,'s^-1'), n=0.21, Ea=(48.2834,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCd_pri;radadd_intra_csHCt
 """,
@@ -2016,7 +2016,7 @@ entry(
     kinetics = Arrhenius(A=(1.44e+12,'s^-1'), n=0.21, Ea=(52.5092,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCd_pri;radadd_intra_csNdCt
 """,
@@ -2029,7 +2029,7 @@ entry(
     kinetics = Arrhenius(A=(5.42e+12,'s^-1'), n=0.21, Ea=(13.6398,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCd_pri;radadd_intra_cdsingleH
 """,
@@ -2042,7 +2042,7 @@ entry(
     kinetics = Arrhenius(A=(5.07e+11,'s^-1'), n=0.21, Ea=(22.6773,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCt_pri;radadd_intra_cs2H
 """,
@@ -2055,7 +2055,7 @@ entry(
     kinetics = Arrhenius(A=(3.39e+12,'s^-1'), n=0.21, Ea=(23.5978,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCt_pri;radadd_intra_csHNd
 """,
@@ -2068,7 +2068,7 @@ entry(
     kinetics = Arrhenius(A=(1.06e+12,'s^-1'), n=0.21, Ea=(21.7986,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCt_pri;radadd_intra_csNdNd
 """,
@@ -2081,7 +2081,7 @@ entry(
     kinetics = Arrhenius(A=(7.17e+12,'s^-1'), n=0.21, Ea=(57.781,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCt_pri;radadd_intra_csHCd
 """,
@@ -2094,7 +2094,7 @@ entry(
     kinetics = Arrhenius(A=(1.05e+12,'s^-1'), n=0.21, Ea=(60.3333,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCt_pri;radadd_intra_csNdCd
 """,
@@ -2107,7 +2107,7 @@ entry(
     kinetics = Arrhenius(A=(2.48e+12,'s^-1'), n=0.21, Ea=(46.5679,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCt_pri;radadd_intra_csHCt
 """,
@@ -2120,7 +2120,7 @@ entry(
     kinetics = Arrhenius(A=(2.61e+12,'s^-1'), n=0.21, Ea=(50.7938,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCt_pri;radadd_intra_csNdCt
 """,
@@ -2133,7 +2133,7 @@ entry(
     kinetics = Arrhenius(A=(9.81e+12,'s^-1'), n=0.21, Ea=(11.9244,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_HCt_pri;radadd_intra_cdsingleH
 """,
@@ -2146,7 +2146,7 @@ entry(
     kinetics = Arrhenius(A=(2.95e+11,'s^-1'), n=0.21, Ea=(23.8488,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCt_pri;radadd_intra_cs2H
 """,
@@ -2159,7 +2159,7 @@ entry(
     kinetics = Arrhenius(A=(1.97e+12,'s^-1'), n=0.21, Ea=(24.7693,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCt_pri;radadd_intra_csHNd
 """,
@@ -2172,7 +2172,7 @@ entry(
     kinetics = Arrhenius(A=(6.19e+11,'s^-1'), n=0.21, Ea=(22.9702,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCt_pri;radadd_intra_csNdNd
 """,
@@ -2185,7 +2185,7 @@ entry(
     kinetics = Arrhenius(A=(4.18e+12,'s^-1'), n=0.21, Ea=(58.9944,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCt_pri;radadd_intra_csHCd
 """,
@@ -2198,7 +2198,7 @@ entry(
     kinetics = Arrhenius(A=(6.13e+11,'s^-1'), n=0.21, Ea=(61.5466,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCt_pri;radadd_intra_csNdCd
 """,
@@ -2211,7 +2211,7 @@ entry(
     kinetics = Arrhenius(A=(1.44e+12,'s^-1'), n=0.21, Ea=(47.7394,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCt_pri;radadd_intra_csHCt
 """,
@@ -2224,7 +2224,7 @@ entry(
     kinetics = Arrhenius(A=(1.52e+12,'s^-1'), n=0.21, Ea=(52.0071,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCt_pri;radadd_intra_csNdCt
 """,
@@ -2237,7 +2237,7 @@ entry(
     kinetics = Arrhenius(A=(5.71e+12,'s^-1'), n=0.21, Ea=(13.0959,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R4_S_D;doublebond_intra_NdCt_pri;radadd_intra_cdsingleH
 """,
@@ -2250,7 +2250,7 @@ entry(
     kinetics = Arrhenius(A=(1.52e+10,'s^-1'), n=0.21, Ea=(71.0862,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_2H_pri;radadd_intra_cs2H
 """,
@@ -2263,7 +2263,7 @@ entry(
     kinetics = Arrhenius(A=(1.02e+11,'s^-1'), n=0.21, Ea=(72.0066,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_2H_pri;radadd_intra_csHNd
 """,
@@ -2276,7 +2276,7 @@ entry(
     kinetics = Arrhenius(A=(3.19e+10,'s^-1'), n=0.21, Ea=(70.2075,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_2H_pri;radadd_intra_csNdNd
 """,
@@ -2289,7 +2289,7 @@ entry(
     kinetics = Arrhenius(A=(2.15e+11,'s^-1'), n=0.21, Ea=(106.232,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_2H_pri;radadd_intra_csHCd
 """,
@@ -2302,7 +2302,7 @@ entry(
     kinetics = Arrhenius(A=(3.16e+10,'s^-1'), n=0.21, Ea=(108.784,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_2H_pri;radadd_intra_csNdCd
 """,
@@ -2315,7 +2315,7 @@ entry(
     kinetics = Arrhenius(A=(7.43e+10,'s^-1'), n=0.21, Ea=(94.9768,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_2H_pri;radadd_intra_csHCt
 """,
@@ -2328,7 +2328,7 @@ entry(
     kinetics = Arrhenius(A=(7.82e+10,'s^-1'), n=0.21, Ea=(99.2445,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_2H_pri;radadd_intra_csNdCt
 """,
@@ -2341,7 +2341,7 @@ entry(
     kinetics = Arrhenius(A=(2.94e+11,'s^-1'), n=0.21, Ea=(60.3333,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_2H_pri;radadd_intra_cdsingleH
 """,
@@ -2354,7 +2354,7 @@ entry(
     kinetics = Arrhenius(A=(1.6e+11,'s^-1'), n=0.21, Ea=(70.5422,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HNd_pri;radadd_intra_cs2H
 """,
@@ -2367,7 +2367,7 @@ entry(
     kinetics = Arrhenius(A=(1.07e+12,'s^-1'), n=0.21, Ea=(71.4627,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HNd_pri;radadd_intra_csHNd
 """,
@@ -2380,7 +2380,7 @@ entry(
     kinetics = Arrhenius(A=(3.35e+11,'s^-1'), n=0.21, Ea=(69.6636,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HNd_pri;radadd_intra_csNdNd
 """,
@@ -2393,7 +2393,7 @@ entry(
     kinetics = Arrhenius(A=(2.26e+12,'s^-1'), n=0.21, Ea=(105.688,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HNd_pri;radadd_intra_csHCd
 """,
@@ -2406,7 +2406,7 @@ entry(
     kinetics = Arrhenius(A=(3.32e+11,'s^-1'), n=0.21, Ea=(108.24,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HNd_pri;radadd_intra_csNdCd
 """,
@@ -2419,7 +2419,7 @@ entry(
     kinetics = Arrhenius(A=(7.81e+11,'s^-1'), n=0.21, Ea=(94.4329,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HNd_pri;radadd_intra_csHCt
 """,
@@ -2432,7 +2432,7 @@ entry(
     kinetics = Arrhenius(A=(8.22e+11,'s^-1'), n=0.21, Ea=(98.7006,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HNd_pri;radadd_intra_csNdCt
 """,
@@ -2445,7 +2445,7 @@ entry(
     kinetics = Arrhenius(A=(3.09e+12,'s^-1'), n=0.21, Ea=(59.7894,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HNd_pri;radadd_intra_cdsingleH
 """,
@@ -2458,7 +2458,7 @@ entry(
     kinetics = Arrhenius(A=(2.68e+11,'s^-1'), n=0.21, Ea=(69.4126,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdNd_pri;radadd_intra_cs2H
 """,
@@ -2471,7 +2471,7 @@ entry(
     kinetics = Arrhenius(A=(1.79e+12,'s^-1'), n=0.21, Ea=(70.333,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdNd_pri;radadd_intra_csHNd
 """,
@@ -2484,7 +2484,7 @@ entry(
     kinetics = Arrhenius(A=(5.62e+11,'s^-1'), n=0.21, Ea=(68.5339,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdNd_pri;radadd_intra_csNdNd
 """,
@@ -2497,7 +2497,7 @@ entry(
     kinetics = Arrhenius(A=(3.79e+12,'s^-1'), n=0.21, Ea=(104.516,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdNd_pri;radadd_intra_csHCd
 """,
@@ -2510,7 +2510,7 @@ entry(
     kinetics = Arrhenius(A=(5.57e+11,'s^-1'), n=0.21, Ea=(107.069,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdNd_pri;radadd_intra_csNdCd
 """,
@@ -2523,7 +2523,7 @@ entry(
     kinetics = Arrhenius(A=(1.31e+12,'s^-1'), n=0.21, Ea=(93.3032,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdNd_pri;radadd_intra_csHCt
 """,
@@ -2536,7 +2536,7 @@ entry(
     kinetics = Arrhenius(A=(1.38e+12,'s^-1'), n=0.21, Ea=(97.529,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdNd_pri;radadd_intra_csNdCt
 """,
@@ -2549,7 +2549,7 @@ entry(
     kinetics = Arrhenius(A=(5.18e+12,'s^-1'), n=0.21, Ea=(58.6597,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdNd_pri;radadd_intra_cdsingleH
 """,
@@ -2562,7 +2562,7 @@ entry(
     kinetics = Arrhenius(A=(9.25e+10,'s^-1'), n=0.21, Ea=(57.7392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCd_pri;radadd_intra_cs2H
 """,
@@ -2575,7 +2575,7 @@ entry(
     kinetics = Arrhenius(A=(6.19e+11,'s^-1'), n=0.21, Ea=(58.6597,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCd_pri;radadd_intra_csHNd
 """,
@@ -2588,7 +2588,7 @@ entry(
     kinetics = Arrhenius(A=(1.94e+11,'s^-1'), n=0.21, Ea=(56.8606,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCd_pri;radadd_intra_csNdNd
 """,
@@ -2601,7 +2601,7 @@ entry(
     kinetics = Arrhenius(A=(1.31e+12,'s^-1'), n=0.21, Ea=(92.843,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCd_pri;radadd_intra_csHCd
 """,
@@ -2614,7 +2614,7 @@ entry(
     kinetics = Arrhenius(A=(1.92e+11,'s^-1'), n=0.21, Ea=(95.437,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCd_pri;radadd_intra_csNdCd
 """,
@@ -2627,7 +2627,7 @@ entry(
     kinetics = Arrhenius(A=(4.52e+11,'s^-1'), n=0.21, Ea=(81.6298,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCd_pri;radadd_intra_csHCt
 """,
@@ -2640,7 +2640,7 @@ entry(
     kinetics = Arrhenius(A=(4.76e+11,'s^-1'), n=0.21, Ea=(85.8975,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCd_pri;radadd_intra_csNdCt
 """,
@@ -2653,7 +2653,7 @@ entry(
     kinetics = Arrhenius(A=(1.79e+12,'s^-1'), n=0.21, Ea=(46.9863,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCd_pri;radadd_intra_cdsingleH
 """,
@@ -2666,7 +2666,7 @@ entry(
     kinetics = Arrhenius(A=(1.11e+11,'s^-1'), n=0.21, Ea=(58.7434,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCd_pri;radadd_intra_cs2H
 """,
@@ -2679,7 +2679,7 @@ entry(
     kinetics = Arrhenius(A=(7.41e+11,'s^-1'), n=0.21, Ea=(59.6638,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCd_pri;radadd_intra_csHNd
 """,
@@ -2692,7 +2692,7 @@ entry(
     kinetics = Arrhenius(A=(2.32e+11,'s^-1'), n=0.21, Ea=(57.8647,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCd_pri;radadd_intra_csNdNd
 """,
@@ -2705,7 +2705,7 @@ entry(
     kinetics = Arrhenius(A=(1.57e+12,'s^-1'), n=0.21, Ea=(93.8471,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCd_pri;radadd_intra_csHCd
 """,
@@ -2718,7 +2718,7 @@ entry(
     kinetics = Arrhenius(A=(2.3e+11,'s^-1'), n=0.21, Ea=(96.3994,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCd_pri;radadd_intra_csNdCd
 """,
@@ -2731,7 +2731,7 @@ entry(
     kinetics = Arrhenius(A=(5.42e+11,'s^-1'), n=0.21, Ea=(82.634,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCd_pri;radadd_intra_csHCt
 """,
@@ -2744,7 +2744,7 @@ entry(
     kinetics = Arrhenius(A=(5.7e+11,'s^-1'), n=0.21, Ea=(86.8598,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCd_pri;radadd_intra_csNdCt
 """,
@@ -2757,7 +2757,7 @@ entry(
     kinetics = Arrhenius(A=(2.14e+12,'s^-1'), n=0.21, Ea=(47.9905,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCd_pri;radadd_intra_cdsingleH
 """,
@@ -2770,7 +2770,7 @@ entry(
     kinetics = Arrhenius(A=(2.01e+11,'s^-1'), n=0.21, Ea=(57.0279,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCt_pri;radadd_intra_cs2H
 """,
@@ -2783,7 +2783,7 @@ entry(
     kinetics = Arrhenius(A=(1.34e+12,'s^-1'), n=0.21, Ea=(57.9484,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCt_pri;radadd_intra_csHNd
 """,
@@ -2796,7 +2796,7 @@ entry(
     kinetics = Arrhenius(A=(4.21e+11,'s^-1'), n=0.21, Ea=(56.1493,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCt_pri;radadd_intra_csNdNd
 """,
@@ -2809,7 +2809,7 @@ entry(
     kinetics = Arrhenius(A=(2.84e+12,'s^-1'), n=0.21, Ea=(92.1317,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCt_pri;radadd_intra_csHCd
 """,
@@ -2822,7 +2822,7 @@ entry(
     kinetics = Arrhenius(A=(4.17e+11,'s^-1'), n=0.21, Ea=(94.6839,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCt_pri;radadd_intra_csNdCd
 """,
@@ -2835,7 +2835,7 @@ entry(
     kinetics = Arrhenius(A=(9.8e+11,'s^-1'), n=0.21, Ea=(80.9186,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCt_pri;radadd_intra_csHCt
 """,
@@ -2848,7 +2848,7 @@ entry(
     kinetics = Arrhenius(A=(1.03e+12,'s^-1'), n=0.21, Ea=(85.1444,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCt_pri;radadd_intra_csNdCt
 """,
@@ -2861,7 +2861,7 @@ entry(
     kinetics = Arrhenius(A=(3.88e+12,'s^-1'), n=0.21, Ea=(46.275,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_HCt_pri;radadd_intra_cdsingleH
 """,
@@ -2874,7 +2874,7 @@ entry(
     kinetics = Arrhenius(A=(1.17e+11,'s^-1'), n=0.21, Ea=(58.1994,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCt_pri;radadd_intra_cs2H
 """,
@@ -2887,7 +2887,7 @@ entry(
     kinetics = Arrhenius(A=(7.81e+11,'s^-1'), n=0.21, Ea=(59.1199,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCt_pri;radadd_intra_csHNd
 """,
@@ -2900,7 +2900,7 @@ entry(
     kinetics = Arrhenius(A=(2.45e+11,'s^-1'), n=0.21, Ea=(57.3208,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCt_pri;radadd_intra_csNdNd
 """,
@@ -2913,7 +2913,7 @@ entry(
     kinetics = Arrhenius(A=(1.65e+12,'s^-1'), n=0.21, Ea=(93.3032,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCt_pri;radadd_intra_csHCd
 """,
@@ -2926,7 +2926,7 @@ entry(
     kinetics = Arrhenius(A=(2.43e+11,'s^-1'), n=0.21, Ea=(95.8973,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCt_pri;radadd_intra_csNdCd
 """,
@@ -2939,7 +2939,7 @@ entry(
     kinetics = Arrhenius(A=(5.71e+11,'s^-1'), n=0.21, Ea=(82.0901,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCt_pri;radadd_intra_csHCt
 """,
@@ -2952,7 +2952,7 @@ entry(
     kinetics = Arrhenius(A=(6.01e+11,'s^-1'), n=0.21, Ea=(86.3159,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCt_pri;radadd_intra_csNdCt
 """,
@@ -2965,7 +2965,7 @@ entry(
     kinetics = Arrhenius(A=(2.26e+12,'s^-1'), n=0.21, Ea=(47.4466,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R5_SS_D;doublebond_intra_NdCt_pri;radadd_intra_cdsingleH
 """,
@@ -2978,7 +2978,7 @@ entry(
     kinetics = Arrhenius(A=(1.69e+10,'s^-1'), n=0.21, Ea=(91.6714,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_2H_pri;radadd_intra_cs2H
 """,
@@ -2991,7 +2991,7 @@ entry(
     kinetics = Arrhenius(A=(1.13e+11,'s^-1'), n=0.21, Ea=(92.5919,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_2H_pri;radadd_intra_csHNd
 """,
@@ -3004,7 +3004,7 @@ entry(
     kinetics = Arrhenius(A=(3.55e+10,'s^-1'), n=0.21, Ea=(90.7928,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_2H_pri;radadd_intra_csNdNd
 """,
@@ -3017,7 +3017,7 @@ entry(
     kinetics = Arrhenius(A=(2.4e+11,'s^-1'), n=0.21, Ea=(126.775,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_2H_pri;radadd_intra_csHCd
 """,
@@ -3030,7 +3030,7 @@ entry(
     kinetics = Arrhenius(A=(3.52e+10,'s^-1'), n=0.21, Ea=(129.327,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_2H_pri;radadd_intra_csNdCd
 """,
@@ -3043,7 +3043,7 @@ entry(
     kinetics = Arrhenius(A=(8.27e+10,'s^-1'), n=0.21, Ea=(115.562,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_2H_pri;radadd_intra_csHCt
 """,
@@ -3056,7 +3056,7 @@ entry(
     kinetics = Arrhenius(A=(8.7e+10,'s^-1'), n=0.21, Ea=(119.788,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_2H_pri;radadd_intra_csNdCt
 """,
@@ -3069,7 +3069,7 @@ entry(
     kinetics = Arrhenius(A=(3.27e+11,'s^-1'), n=0.21, Ea=(80.9186,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_2H_pri;radadd_intra_cdsingleH
 """,
@@ -3082,7 +3082,7 @@ entry(
     kinetics = Arrhenius(A=(1.78e+11,'s^-1'), n=0.21, Ea=(91.1275,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HNd_pri;radadd_intra_cs2H
 """,
@@ -3095,7 +3095,7 @@ entry(
     kinetics = Arrhenius(A=(1.19e+12,'s^-1'), n=0.21, Ea=(92.048,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HNd_pri;radadd_intra_csHNd
 """,
@@ -3108,7 +3108,7 @@ entry(
     kinetics = Arrhenius(A=(3.73e+11,'s^-1'), n=0.21, Ea=(90.2489,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HNd_pri;radadd_intra_csNdNd
 """,
@@ -3121,7 +3121,7 @@ entry(
     kinetics = Arrhenius(A=(2.52e+12,'s^-1'), n=0.21, Ea=(126.231,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HNd_pri;radadd_intra_csHCd
 """,
@@ -3134,7 +3134,7 @@ entry(
     kinetics = Arrhenius(A=(3.69e+11,'s^-1'), n=0.21, Ea=(128.784,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HNd_pri;radadd_intra_csNdCd
 """,
@@ -3147,7 +3147,7 @@ entry(
     kinetics = Arrhenius(A=(8.69e+11,'s^-1'), n=0.21, Ea=(115.018,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HNd_pri;radadd_intra_csHCt
 """,
@@ -3160,7 +3160,7 @@ entry(
     kinetics = Arrhenius(A=(9.14e+11,'s^-1'), n=0.21, Ea=(119.244,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HNd_pri;radadd_intra_csNdCt
 """,
@@ -3173,7 +3173,7 @@ entry(
     kinetics = Arrhenius(A=(3.44e+12,'s^-1'), n=0.21, Ea=(80.3746,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HNd_pri;radadd_intra_cdsingleH
 """,
@@ -3186,7 +3186,7 @@ entry(
     kinetics = Arrhenius(A=(2.98e+11,'s^-1'), n=0.21, Ea=(89.956,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdNd_pri;radadd_intra_cs2H
 """,
@@ -3199,7 +3199,7 @@ entry(
     kinetics = Arrhenius(A=(1.99e+12,'s^-1'), n=0.21, Ea=(90.8765,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdNd_pri;radadd_intra_csHNd
 """,
@@ -3212,7 +3212,7 @@ entry(
     kinetics = Arrhenius(A=(6.25e+11,'s^-1'), n=0.21, Ea=(89.0774,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdNd_pri;radadd_intra_csNdNd
 """,
@@ -3225,7 +3225,7 @@ entry(
     kinetics = Arrhenius(A=(4.22e+12,'s^-1'), n=0.21, Ea=(125.102,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdNd_pri;radadd_intra_csHCd
 """,
@@ -3238,7 +3238,7 @@ entry(
     kinetics = Arrhenius(A=(6.19e+11,'s^-1'), n=0.21, Ea=(127.654,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdNd_pri;radadd_intra_csNdCd
 """,
@@ -3251,7 +3251,7 @@ entry(
     kinetics = Arrhenius(A=(1.46e+12,'s^-1'), n=0.21, Ea=(113.847,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdNd_pri;radadd_intra_csHCt
 """,
@@ -3264,7 +3264,7 @@ entry(
     kinetics = Arrhenius(A=(1.53e+12,'s^-1'), n=0.21, Ea=(118.114,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdNd_pri;radadd_intra_csNdCt
 """,
@@ -3277,7 +3277,7 @@ entry(
     kinetics = Arrhenius(A=(5.77e+12,'s^-1'), n=0.21, Ea=(79.2031,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdNd_pri;radadd_intra_cdsingleH
 """,
@@ -3290,7 +3290,7 @@ entry(
     kinetics = Arrhenius(A=(1.03e+11,'s^-1'), n=0.21, Ea=(78.2826,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCd_pri;radadd_intra_cs2H
 """,
@@ -3303,7 +3303,7 @@ entry(
     kinetics = Arrhenius(A=(6.88e+11,'s^-1'), n=0.21, Ea=(79.2031,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCd_pri;radadd_intra_csHNd
 """,
@@ -3316,7 +3316,7 @@ entry(
     kinetics = Arrhenius(A=(2.16e+11,'s^-1'), n=0.21, Ea=(77.404,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCd_pri;radadd_intra_csNdNd
 """,
@@ -3329,7 +3329,7 @@ entry(
     kinetics = Arrhenius(A=(1.46e+12,'s^-1'), n=0.21, Ea=(113.428,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCd_pri;radadd_intra_csHCd
 """,
@@ -3342,7 +3342,7 @@ entry(
     kinetics = Arrhenius(A=(2.14e+11,'s^-1'), n=0.21, Ea=(115.98,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCd_pri;radadd_intra_csNdCd
 """,
@@ -3355,7 +3355,7 @@ entry(
     kinetics = Arrhenius(A=(5.03e+11,'s^-1'), n=0.21, Ea=(102.173,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCd_pri;radadd_intra_csHCt
 """,
@@ -3368,7 +3368,7 @@ entry(
     kinetics = Arrhenius(A=(5.29e+11,'s^-1'), n=0.21, Ea=(106.441,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCd_pri;radadd_intra_csNdCt
 """,
@@ -3381,7 +3381,7 @@ entry(
     kinetics = Arrhenius(A=(1.99e+12,'s^-1'), n=0.21, Ea=(67.5298,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCd_pri;radadd_intra_cdsingleH
 """,
@@ -3394,7 +3394,7 @@ entry(
     kinetics = Arrhenius(A=(1.23e+11,'s^-1'), n=0.21, Ea=(79.2868,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCd_pri;radadd_intra_cs2H
 """,
@@ -3407,7 +3407,7 @@ entry(
     kinetics = Arrhenius(A=(8.25e+11,'s^-1'), n=0.21, Ea=(80.2073,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCd_pri;radadd_intra_csHNd
 """,
@@ -3420,7 +3420,7 @@ entry(
     kinetics = Arrhenius(A=(2.59e+11,'s^-1'), n=0.21, Ea=(78.4082,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCd_pri;radadd_intra_csNdNd
 """,
@@ -3433,7 +3433,7 @@ entry(
     kinetics = Arrhenius(A=(1.75e+12,'s^-1'), n=0.21, Ea=(114.432,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCd_pri;radadd_intra_csHCd
 """,
@@ -3446,7 +3446,7 @@ entry(
     kinetics = Arrhenius(A=(2.56e+11,'s^-1'), n=0.21, Ea=(116.985,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCd_pri;radadd_intra_csNdCd
 """,
@@ -3459,7 +3459,7 @@ entry(
     kinetics = Arrhenius(A=(6.03e+11,'s^-1'), n=0.21, Ea=(103.177,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCd_pri;radadd_intra_csHCt
 """,
@@ -3472,7 +3472,7 @@ entry(
     kinetics = Arrhenius(A=(6.34e+11,'s^-1'), n=0.21, Ea=(107.445,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCd_pri;radadd_intra_csNdCt
 """,
@@ -3485,7 +3485,7 @@ entry(
     kinetics = Arrhenius(A=(2.39e+12,'s^-1'), n=0.21, Ea=(68.5339,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCd_pri;radadd_intra_cdsingleH
 """,
@@ -3498,7 +3498,7 @@ entry(
     kinetics = Arrhenius(A=(2.23e+11,'s^-1'), n=0.21, Ea=(77.5714,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCt_pri;radadd_intra_cs2H
 """,
@@ -3511,7 +3511,7 @@ entry(
     kinetics = Arrhenius(A=(1.49e+12,'s^-1'), n=0.21, Ea=(78.4918,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCt_pri;radadd_intra_csHNd
 """,
@@ -3524,7 +3524,7 @@ entry(
     kinetics = Arrhenius(A=(4.68e+11,'s^-1'), n=0.21, Ea=(76.6927,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCt_pri;radadd_intra_csNdNd
 """,
@@ -3537,7 +3537,7 @@ entry(
     kinetics = Arrhenius(A=(3.16e+12,'s^-1'), n=0.21, Ea=(112.717,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCt_pri;radadd_intra_csHCd
 """,
@@ -3550,7 +3550,7 @@ entry(
     kinetics = Arrhenius(A=(4.64e+11,'s^-1'), n=0.21, Ea=(115.269,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCt_pri;radadd_intra_csNdCd
 """,
@@ -3563,7 +3563,7 @@ entry(
     kinetics = Arrhenius(A=(1.09e+12,'s^-1'), n=0.21, Ea=(101.462,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCt_pri;radadd_intra_csHCt
 """,
@@ -3576,7 +3576,7 @@ entry(
     kinetics = Arrhenius(A=(1.15e+12,'s^-1'), n=0.21, Ea=(105.73,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCt_pri;radadd_intra_csNdCt
 """,
@@ -3589,7 +3589,7 @@ entry(
     kinetics = Arrhenius(A=(4.32e+12,'s^-1'), n=0.21, Ea=(66.8185,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_HCt_pri;radadd_intra_cdsingleH
 """,
@@ -3602,7 +3602,7 @@ entry(
     kinetics = Arrhenius(A=(1.3e+11,'s^-1'), n=0.21, Ea=(78.7429,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCt_pri;radadd_intra_cs2H
 """,
@@ -3615,7 +3615,7 @@ entry(
     kinetics = Arrhenius(A=(8.69e+11,'s^-1'), n=0.21, Ea=(79.6634,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCt_pri;radadd_intra_csHNd
 """,
@@ -3628,7 +3628,7 @@ entry(
     kinetics = Arrhenius(A=(2.73e+11,'s^-1'), n=0.21, Ea=(77.8642,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCt_pri;radadd_intra_csNdNd
 """,
@@ -3641,7 +3641,7 @@ entry(
     kinetics = Arrhenius(A=(1.84e+12,'s^-1'), n=0.21, Ea=(113.888,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCt_pri;radadd_intra_csHCd
 """,
@@ -3654,7 +3654,7 @@ entry(
     kinetics = Arrhenius(A=(2.7e+11,'s^-1'), n=0.21, Ea=(116.441,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCt_pri;radadd_intra_csNdCd
 """,
@@ -3667,7 +3667,7 @@ entry(
     kinetics = Arrhenius(A=(6.35e+11,'s^-1'), n=0.21, Ea=(102.634,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCt_pri;radadd_intra_csHCt
 """,
@@ -3680,7 +3680,7 @@ entry(
     kinetics = Arrhenius(A=(6.68e+11,'s^-1'), n=0.21, Ea=(106.901,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCt_pri;radadd_intra_csNdCt
 """,
@@ -3693,7 +3693,7 @@ entry(
     kinetics = Arrhenius(A=(2.51e+12,'s^-1'), n=0.21, Ea=(67.99,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R6_SMS_D;doublebond_intra_NdCt_pri;radadd_intra_cdsingleH
 """,
@@ -3706,7 +3706,7 @@ entry(
     kinetics = Arrhenius(A=(1.71e+09,'s^-1'), n=0.21, Ea=(36.61,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_2H_pri;radadd_intra_cs2H
 """,
@@ -3719,7 +3719,7 @@ entry(
     kinetics = Arrhenius(A=(1.14e+10,'s^-1'), n=0.21, Ea=(37.5305,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_2H_pri;radadd_intra_csHNd
 """,
@@ -3732,7 +3732,7 @@ entry(
     kinetics = Arrhenius(A=(3.59e+09,'s^-1'), n=0.21, Ea=(35.7314,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_2H_pri;radadd_intra_csNdNd
 """,
@@ -3745,7 +3745,7 @@ entry(
     kinetics = Arrhenius(A=(2.42e+10,'s^-1'), n=0.21, Ea=(71.7556,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_2H_pri;radadd_intra_csHCd
 """,
@@ -3758,7 +3758,7 @@ entry(
     kinetics = Arrhenius(A=(3.56e+09,'s^-1'), n=0.21, Ea=(74.3078,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_2H_pri;radadd_intra_csNdCd
 """,
@@ -3771,7 +3771,7 @@ entry(
     kinetics = Arrhenius(A=(8.36e+09,'s^-1'), n=0.21, Ea=(60.5006,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_2H_pri;radadd_intra_csHCt
 """,
@@ -3784,7 +3784,7 @@ entry(
     kinetics = Arrhenius(A=(8.8e+09,'s^-1'), n=0.21, Ea=(64.7683,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_2H_pri;radadd_intra_csNdCt
 """,
@@ -3797,7 +3797,7 @@ entry(
     kinetics = Arrhenius(A=(3.31e+10,'s^-1'), n=0.21, Ea=(25.8571,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_2H_pri;radadd_intra_cdsingleH
 """,
@@ -3810,7 +3810,7 @@ entry(
     kinetics = Arrhenius(A=(1.8e+10,'s^-1'), n=0.21, Ea=(36.0661,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HNd_pri;radadd_intra_cs2H
 """,
@@ -3823,7 +3823,7 @@ entry(
     kinetics = Arrhenius(A=(1.2e+11,'s^-1'), n=0.21, Ea=(36.9866,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HNd_pri;radadd_intra_csHNd
 """,
@@ -3836,7 +3836,7 @@ entry(
     kinetics = Arrhenius(A=(3.77e+10,'s^-1'), n=0.21, Ea=(35.1874,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HNd_pri;radadd_intra_csNdNd
 """,
@@ -3849,7 +3849,7 @@ entry(
     kinetics = Arrhenius(A=(2.54e+11,'s^-1'), n=0.21, Ea=(71.2117,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HNd_pri;radadd_intra_csHCd
 """,
@@ -3862,7 +3862,7 @@ entry(
     kinetics = Arrhenius(A=(3.74e+10,'s^-1'), n=0.21, Ea=(73.7639,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HNd_pri;radadd_intra_csNdCd
 """,
@@ -3875,7 +3875,7 @@ entry(
     kinetics = Arrhenius(A=(8.78e+10,'s^-1'), n=0.21, Ea=(59.9567,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HNd_pri;radadd_intra_csHCt
 """,
@@ -3888,7 +3888,7 @@ entry(
     kinetics = Arrhenius(A=(9.24e+10,'s^-1'), n=0.21, Ea=(64.2244,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HNd_pri;radadd_intra_csNdCt
 """,
@@ -3901,7 +3901,7 @@ entry(
     kinetics = Arrhenius(A=(3.48e+11,'s^-1'), n=0.21, Ea=(25.3132,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HNd_pri;radadd_intra_cdsingleH
 """,
@@ -3914,7 +3914,7 @@ entry(
     kinetics = Arrhenius(A=(3.01e+10,'s^-1'), n=0.21, Ea=(34.9364,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdNd_pri;radadd_intra_cs2H
 """,
@@ -3927,7 +3927,7 @@ entry(
     kinetics = Arrhenius(A=(2.01e+11,'s^-1'), n=0.21, Ea=(35.8569,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdNd_pri;radadd_intra_csHNd
 """,
@@ -3940,7 +3940,7 @@ entry(
     kinetics = Arrhenius(A=(6.32e+10,'s^-1'), n=0.21, Ea=(34.0578,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdNd_pri;radadd_intra_csNdNd
 """,
@@ -3953,7 +3953,7 @@ entry(
     kinetics = Arrhenius(A=(4.26e+11,'s^-1'), n=0.21, Ea=(70.0402,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdNd_pri;radadd_intra_csHCd
 """,
@@ -3966,7 +3966,7 @@ entry(
     kinetics = Arrhenius(A=(6.26e+10,'s^-1'), n=0.21, Ea=(72.5924,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdNd_pri;radadd_intra_csNdCd
 """,
@@ -3979,7 +3979,7 @@ entry(
     kinetics = Arrhenius(A=(1.47e+11,'s^-1'), n=0.21, Ea=(58.827,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdNd_pri;radadd_intra_csHCt
 """,
@@ -3992,7 +3992,7 @@ entry(
     kinetics = Arrhenius(A=(1.55e+11,'s^-1'), n=0.21, Ea=(63.0529,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdNd_pri;radadd_intra_csNdCt
 """,
@@ -4005,7 +4005,7 @@ entry(
     kinetics = Arrhenius(A=(5.83e+11,'s^-1'), n=0.21, Ea=(24.1835,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdNd_pri;radadd_intra_cdsingleH
 """,
@@ -4018,7 +4018,7 @@ entry(
     kinetics = Arrhenius(A=(1.04e+10,'s^-1'), n=0.21, Ea=(23.263,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCd_pri;radadd_intra_cs2H
 """,
@@ -4031,7 +4031,7 @@ entry(
     kinetics = Arrhenius(A=(6.96e+10,'s^-1'), n=0.21, Ea=(24.1835,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCd_pri;radadd_intra_csHNd
 """,
@@ -4044,7 +4044,7 @@ entry(
     kinetics = Arrhenius(A=(2.18e+10,'s^-1'), n=0.21, Ea=(22.3844,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCd_pri;radadd_intra_csNdNd
 """,
@@ -4057,7 +4057,7 @@ entry(
     kinetics = Arrhenius(A=(1.47e+11,'s^-1'), n=0.21, Ea=(58.3668,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCd_pri;radadd_intra_csHCd
 """,
@@ -4070,7 +4070,7 @@ entry(
     kinetics = Arrhenius(A=(2.16e+10,'s^-1'), n=0.21, Ea=(60.9609,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCd_pri;radadd_intra_csNdCd
 """,
@@ -4083,7 +4083,7 @@ entry(
     kinetics = Arrhenius(A=(5.08e+10,'s^-1'), n=0.21, Ea=(47.1537,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCd_pri;radadd_intra_csHCt
 """,
@@ -4096,7 +4096,7 @@ entry(
     kinetics = Arrhenius(A=(5.35e+10,'s^-1'), n=0.21, Ea=(51.4214,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCd_pri;radadd_intra_csNdCt
 """,
@@ -4109,7 +4109,7 @@ entry(
     kinetics = Arrhenius(A=(2.01e+11,'s^-1'), n=0.21, Ea=(12.5102,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCd_pri;radadd_intra_cdsingleH
 """,
@@ -4122,7 +4122,7 @@ entry(
     kinetics = Arrhenius(A=(1.25e+10,'s^-1'), n=0.21, Ea=(24.2672,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCd_pri;radadd_intra_cs2H
 """,
@@ -4135,7 +4135,7 @@ entry(
     kinetics = Arrhenius(A=(8.34e+10,'s^-1'), n=0.21, Ea=(25.1877,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCd_pri;radadd_intra_csHNd
 """,
@@ -4148,7 +4148,7 @@ entry(
     kinetics = Arrhenius(A=(2.62e+10,'s^-1'), n=0.21, Ea=(23.3886,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCd_pri;radadd_intra_csNdNd
 """,
@@ -4161,7 +4161,7 @@ entry(
     kinetics = Arrhenius(A=(1.77e+11,'s^-1'), n=0.21, Ea=(59.371,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCd_pri;radadd_intra_csHCd
 """,
@@ -4174,7 +4174,7 @@ entry(
     kinetics = Arrhenius(A=(2.59e+10,'s^-1'), n=0.21, Ea=(61.9232,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCd_pri;radadd_intra_csNdCd
 """,
@@ -4187,7 +4187,7 @@ entry(
     kinetics = Arrhenius(A=(6.09e+10,'s^-1'), n=0.21, Ea=(48.1578,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCd_pri;radadd_intra_csHCt
 """,
@@ -4200,7 +4200,7 @@ entry(
     kinetics = Arrhenius(A=(6.41e+10,'s^-1'), n=0.21, Ea=(52.3837,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCd_pri;radadd_intra_csNdCt
 """,
@@ -4213,7 +4213,7 @@ entry(
     kinetics = Arrhenius(A=(2.41e+11,'s^-1'), n=0.21, Ea=(13.5143,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCd_pri;radadd_intra_cdsingleH
 """,
@@ -4226,7 +4226,7 @@ entry(
     kinetics = Arrhenius(A=(2.26e+10,'s^-1'), n=0.21, Ea=(22.5518,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCt_pri;radadd_intra_cs2H
 """,
@@ -4239,7 +4239,7 @@ entry(
     kinetics = Arrhenius(A=(1.51e+11,'s^-1'), n=0.21, Ea=(23.4722,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCt_pri;radadd_intra_csHNd
 """,
@@ -4252,7 +4252,7 @@ entry(
     kinetics = Arrhenius(A=(4.73e+10,'s^-1'), n=0.21, Ea=(21.6731,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCt_pri;radadd_intra_csNdNd
 """,
@@ -4265,7 +4265,7 @@ entry(
     kinetics = Arrhenius(A=(3.19e+11,'s^-1'), n=0.21, Ea=(57.6555,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCt_pri;radadd_intra_csHCd
 """,
@@ -4278,7 +4278,7 @@ entry(
     kinetics = Arrhenius(A=(4.69e+10,'s^-1'), n=0.21, Ea=(60.2078,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCt_pri;radadd_intra_csNdCd
 """,
@@ -4291,7 +4291,7 @@ entry(
     kinetics = Arrhenius(A=(1.1e+11,'s^-1'), n=0.21, Ea=(46.4424,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCt_pri;radadd_intra_csHCt
 """,
@@ -4304,7 +4304,7 @@ entry(
     kinetics = Arrhenius(A=(1.16e+11,'s^-1'), n=0.21, Ea=(50.6682,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCt_pri;radadd_intra_csNdCt
 """,
@@ -4317,7 +4317,7 @@ entry(
     kinetics = Arrhenius(A=(4.37e+11,'s^-1'), n=0.21, Ea=(11.7989,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_HCt_pri;radadd_intra_cdsingleH
 """,
@@ -4330,7 +4330,7 @@ entry(
     kinetics = Arrhenius(A=(1.31e+10,'s^-1'), n=0.21, Ea=(23.7233,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCt_pri;radadd_intra_cs2H
 """,
@@ -4343,7 +4343,7 @@ entry(
     kinetics = Arrhenius(A=(8.79e+10,'s^-1'), n=0.21, Ea=(24.6438,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCt_pri;radadd_intra_csHNd
 """,
@@ -4356,7 +4356,7 @@ entry(
     kinetics = Arrhenius(A=(2.76e+10,'s^-1'), n=0.21, Ea=(22.8446,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCt_pri;radadd_intra_csNdNd
 """,
@@ -4369,7 +4369,7 @@ entry(
     kinetics = Arrhenius(A=(1.86e+11,'s^-1'), n=0.21, Ea=(58.827,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCt_pri;radadd_intra_csHCd
 """,
@@ -4382,7 +4382,7 @@ entry(
     kinetics = Arrhenius(A=(2.73e+10,'s^-1'), n=0.21, Ea=(61.4211,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCt_pri;radadd_intra_csNdCd
 """,
@@ -4395,7 +4395,7 @@ entry(
     kinetics = Arrhenius(A=(6.42e+10,'s^-1'), n=0.21, Ea=(47.6139,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCt_pri;radadd_intra_csHCt
 """,
@@ -4408,7 +4408,7 @@ entry(
     kinetics = Arrhenius(A=(6.76e+10,'s^-1'), n=0.21, Ea=(51.8816,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCt_pri;radadd_intra_csNdCt
 """,
@@ -4421,7 +4421,7 @@ entry(
     kinetics = Arrhenius(A=(2.54e+11,'s^-1'), n=0.21, Ea=(12.9704,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 0,
     shortDesc = """Aaron Vandeputte small GA method""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: R7_SSSS_D;doublebond_intra_NdCt_pri;radadd_intra_cdsingleH
 """,
@@ -4442,7 +4442,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
 The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861-1869,
@@ -4465,7 +4465,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
 The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 18611869,
@@ -4488,7 +4488,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 All species reported here are studied using the G3SX composite theoretical methodology. This method uses B3LYP/6-31G(2df,p) optimized geometries, vibrational
 frequencies and scaled zero point energies, with higher-level wavefunction theory calculations for accurate energies (along with empirical scaling corrections).
@@ -4512,7 +4512,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 """
 Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -4537,7 +4537,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 """
 Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -4562,7 +4562,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 """
 Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -4587,7 +4587,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 """
 Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -4612,7 +4612,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 """
 Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -4637,7 +4637,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 """
 Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -4662,7 +4662,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 """
 Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -4687,7 +4687,7 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of theory""",
-    longDesc = 
+    longDesc =
 """
 Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749
 Location of calculations Pharos/home/laitcl/Gaussian/2019/
@@ -4712,10 +4712,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -4736,10 +4736,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -4760,10 +4760,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -4784,10 +4784,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling" Trans conformation of pentenyl.
 """,
 )
@@ -4808,10 +4808,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -4832,10 +4832,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -4856,10 +4856,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -4880,10 +4880,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -4904,10 +4904,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -4928,10 +4928,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -4952,10 +4952,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -4976,10 +4976,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling" Trans conformation of hexenyl.
 """,
 )
@@ -5000,10 +5000,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5024,10 +5024,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5048,10 +5048,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5072,10 +5072,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5096,10 +5096,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5120,10 +5120,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5144,10 +5144,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5168,10 +5168,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5192,10 +5192,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5216,10 +5216,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling" Trans conformation of heptenyl.
 """,
 )
@@ -5240,10 +5240,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5264,10 +5264,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5288,10 +5288,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5312,10 +5312,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5336,10 +5336,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5360,10 +5360,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5384,10 +5384,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5408,10 +5408,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5432,10 +5432,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5456,10 +5456,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5480,10 +5480,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5504,10 +5504,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling" Trans conformation of octenyl.
 """,
 )
@@ -5528,10 +5528,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5552,10 +5552,10 @@ entry(
     referenceType = "theory",
     rank = 5,
     shortDesc = """CBS-QB3 calculation with 1-d rotor treatment at B3LYP/6-31G(d)""",
-    longDesc = 
+    longDesc =
 """
-Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at 
-B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate 
+Quantum chemistry calculations CBS-QB3 calculation with 1-d rotor treatment at
+B3LYP/6-31G(d) using Gaussian 03 and Gaussian 09. High-pressure-limit rate
 coefficient computed using TST with Eckart Tunnelling"
 """,
 )
@@ -5566,7 +5566,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.08e+10,'s^-1'), n=0.67, Ea=(28.56,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
 Original entry: 2-Phenylvinyl <=> W4
@@ -5579,7 +5579,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.08e+10,'s^-1'), n=0.67, Ea=(28.56,'kcal/mol'), T0=(1,'K')),
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 Tokmakov and Lin, J. AM. CHEM. SOC. 2003, 125, 11397-11408.
 Original entry: 2-Phenylvinyl <=> W4
@@ -5593,7 +5593,7 @@ entry(
     kinetics = Arrhenius(A=(2.5578e+10,'s^-1'), n=0.210583, Ea=(78.2741,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03863, dn = +|- 0.00502888, dEa = +|- 0.0259315 kJ/mol"""),
     rank = 4,
     shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
 """
 Calculated by Kevin Spiekermann
 opt, freq: wB97X-D3/def2-TZVP

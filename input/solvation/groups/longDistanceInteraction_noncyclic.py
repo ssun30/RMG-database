@@ -3,23 +3,23 @@
 
 name = "longDistanceInteraction_noncyclic"
 shortDesc = u""
-longDesc = u""" 
+longDesc = u"""
 All groups are fitted using experimental solute parameter data unless written otherwise.
-See Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+See Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """
 
 entry(
 	index = -1,
 	label = "R",
-	group = 
+	group =
 """
 1 *1 R u0
 """,
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28,7 +28,7 @@ u"""
 entry(
 	index = 1,
 	label = "int14_gauche",
-	group = 
+	group =
 """
 1 *1 [Cs,O2s,Cd,S2s] u0 {2,S}
 2 *2 Cs u0 {1,S}
@@ -36,7 +36,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -45,7 +45,7 @@ u"""
 entry(
 	index = 2,
 	label = "CsCs",
-	group = 
+	group =
 """
 1 *1 Cs u0 {2,S}
 2 *2 Cs u0 {1,S}
@@ -53,7 +53,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -62,7 +62,7 @@ u"""
 entry(
 	index = 3,
 	label = "CsCs-P",
-	group = 
+	group =
 """
 1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                         u0 {1,S}
@@ -86,7 +86,7 @@ entry(
 		A = 3240,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -95,7 +95,7 @@ u"""
 entry(
 	index = 4,
 	label = "CsCs-S",
-	group = 
+	group =
 """
 1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                         u0 {1,S}
@@ -119,7 +119,7 @@ entry(
 		A = 2169,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -128,7 +128,7 @@ u"""
 entry(
 	index = 5,
 	label = "CsCs-SS",
-	group = 
+	group =
 """
 1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
@@ -155,7 +155,7 @@ entry(
 		A = 1410,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -164,7 +164,7 @@ u"""
 entry(
 	index = 6,
 	label = "CsCs-ST",
-	group = 
+	group =
 """
 1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
@@ -191,7 +191,7 @@ entry(
 		A = 268,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -200,7 +200,7 @@ u"""
 entry(
 	index = 7,
 	label = "CsCs-SQ",
-	group = 
+	group =
 """
 1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
@@ -227,7 +227,7 @@ entry(
 		A = 51,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -236,7 +236,7 @@ u"""
 entry(
 	index = 8,
 	label = "CsCs-T",
-	group = 
+	group =
 """
 1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                         u0 {1,S}
@@ -260,7 +260,7 @@ entry(
 		A = 567,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -269,7 +269,7 @@ u"""
 entry(
 	index = 9,
 	label = "CsCs-TT",
-	group = 
+	group =
 """
 1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
@@ -296,7 +296,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -305,7 +305,7 @@ u"""
 entry(
 	index = 10,
 	label = "CsCs-T(TTP)",
-	group = 
+	group =
 """
 1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
@@ -338,7 +338,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -347,7 +347,7 @@ u"""
 entry(
 	index = 11,
 	label = "CsCs-T(TTS)",
-	group = 
+	group =
 """
 1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
@@ -380,7 +380,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -389,7 +389,7 @@ u"""
 entry(
 	index = 12,
 	label = "CsCs-TQ",
-	group = 
+	group =
 """
 1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
@@ -416,7 +416,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -425,7 +425,7 @@ u"""
 entry(
 	index = 13,
 	label = "CsCs-Q",
-	group = 
+	group =
 """
 1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                         u0 {1,S}
@@ -449,7 +449,7 @@ entry(
 		A = 75,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -458,7 +458,7 @@ u"""
 entry(
 	index = 14,
 	label = "CsCs-QQ",
-	group = 
+	group =
 """
 1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
 2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
@@ -485,7 +485,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -494,7 +494,7 @@ u"""
 entry(
 	index = 15,
 	label = "OsCs",
-	group = 
+	group =
 """
 1 *1 O2s u0 {2,S}
 2 *2 Cs u0 {1,S}
@@ -502,7 +502,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -511,7 +511,7 @@ u"""
 entry(
 	index = 16,
 	label = "OsCs-P",
-	group = 
+	group =
 """
 1 *1 O2s                         u0 {2,S} {3,S}
 2 *2 Cs                         u0 {1,S}
@@ -532,7 +532,7 @@ entry(
 		A = 1622,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -541,7 +541,7 @@ u"""
 entry(
 	index = 17,
 	label = "OsCs-S",
-	group = 
+	group =
 """
 1 *1 O2s                         u0 {2,S} {3,S}
 2 *2 Cs                         u0 {1,S}
@@ -562,7 +562,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -571,7 +571,7 @@ u"""
 entry(
 	index = 18,
 	label = "OsCs-SP",
-	group = 
+	group =
 """
 1 *1 O2s                         u0 {2,S} {3,S}
 2 *2 Cs                         u0 {1,S} {4,S} {5,S} {6,S}
@@ -595,7 +595,7 @@ entry(
 		A = 204,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -604,7 +604,7 @@ u"""
 entry(
 	index = 19,
 	label = "OsCs-SS",
-	group = 
+	group =
 """
 1 *1 O2s                         u0 {2,S} {3,S}
 2 *2 Cs                         u0 {1,S} {4,S} {5,S} {6,S}
@@ -628,7 +628,7 @@ entry(
 		A = 251,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -637,7 +637,7 @@ u"""
 entry(
 	index = 20,
 	label = "OsCs-ST",
-	group = 
+	group =
 """
 1 *1 O2s                         u0 {2,S} {3,S}
 2 *2 Cs                         u0 {1,S} {4,S} {5,S} {6,S}
@@ -661,7 +661,7 @@ entry(
 		A = 39,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -670,7 +670,7 @@ u"""
 entry(
 	index = 21,
 	label = "OsCs-SQ",
-	group = 
+	group =
 """
 1 *1 O2s                         u0 {2,S} {3,S}
 2 *2 Cs                         u0 {1,S} {4,S} {5,S} {6,S}
@@ -694,7 +694,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -703,7 +703,7 @@ u"""
 entry(
 	index = 22,
 	label = "CdCs",
-	group = 
+	group =
 """
 1 *1 Cd u0 {2,D} {3,S}
 2   Cd u0 {1,D}
@@ -712,7 +712,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -721,7 +721,7 @@ u"""
 entry(
 	index = 23,
 	label = "CdCs-P",
-	group = 
+	group =
 """
 1 *1 Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -743,7 +743,7 @@ entry(
 		A = 513,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -752,7 +752,7 @@ u"""
 entry(
 	index = 24,
 	label = "CdCs-S",
-	group = 
+	group =
 """
 1 *1 Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -774,7 +774,7 @@ entry(
 		A = 0,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -783,7 +783,7 @@ u"""
 entry(
 	index = 25,
 	label = "CdCs-SP",
-	group = 
+	group =
 """
 1 *1 Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -808,7 +808,7 @@ entry(
 		A = 155,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -817,7 +817,7 @@ u"""
 entry(
 	index = 26,
 	label = "CdCs-SS",
-	group = 
+	group =
 """
 1 *1 Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -842,7 +842,7 @@ entry(
 		A = 46,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -851,7 +851,7 @@ u"""
 entry(
 	index = 27,
 	label = "CdCs-ST",
-	group = 
+	group =
 """
 1 *1 Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -876,7 +876,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -885,7 +885,7 @@ u"""
 entry(
 	index = 28,
 	label = "CdCs-SQ",
-	group = 
+	group =
 """
 1 *1 Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -910,7 +910,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -919,7 +919,7 @@ u"""
 entry(
 	index = 29,
 	label = "int15",
-	group = 
+	group =
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S}
 2    [Cs,O2s,S2s] u0 {1,S} {3,S}
@@ -933,7 +933,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -942,7 +942,7 @@ u"""
 entry(
 	index = 30,
 	label = "CsCsCs",
-	group = 
+	group =
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S}
 2    Cs u0 {1,S} {3,S}
@@ -956,7 +956,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -965,7 +965,7 @@ u"""
 entry(
 	index = 31,
 	label = "CsCsCs-TQ",
-	group = 
+	group =
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S} {9,S}
 2    Cs u0 {1,S} {3,S}
@@ -992,7 +992,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1001,7 +1001,7 @@ u"""
 entry(
 	index = 32,
 	label = "CsCsCs-QQ",
-	group = 
+	group =
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}
 2    Cs u0 {1,S} {3,S}
@@ -1028,7 +1028,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1037,7 +1037,7 @@ u"""
 entry(
 	index = 33,
 	label = "CsOsCs",
-	group = 
+	group =
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S}
 2    O2s u0 {1,S} {3,S}
@@ -1051,7 +1051,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1060,7 +1060,7 @@ u"""
 entry(
 	index = 34,
 	label = "CsOsCs-TQ",
-	group = 
+	group =
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S} {9,S}
 2    O2s u0 {1,S} {3,S}
@@ -1087,7 +1087,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1096,7 +1096,7 @@ u"""
 entry(
 	index = 35,
 	label = "CsOsCs-QQ",
-	group = 
+	group =
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}
 2    O2s u0 {1,S} {3,S}
@@ -1123,7 +1123,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1132,7 +1132,7 @@ u"""
 entry(
 	index = 36,
 	label = "CsSsCs",
-	group = 
+	group =
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S}
 2    S2s u0 {1,S} {3,S}
@@ -1146,7 +1146,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1155,7 +1155,7 @@ u"""
 entry(
 	index = 37,
 	label = "CsSsCs-QQ",
-	group = 
+	group =
 """
 1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}
 2    S2s u0 {1,S} {3,S}
@@ -1182,7 +1182,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,

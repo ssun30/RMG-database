@@ -4,8 +4,8 @@
 name = "2-BTP/full"
 shortDesc = "2-BTP"
 longDesc = """
-Burgess, D. R., Babushok, V. I., Linteris, G. T., & Manion, J. A. (2015). 
-A Chemical Kinetic Mechanism for 2-Bromo-3,3,3-trifluoropropene (2-BTP) Flame Inhibition. 
+Burgess, D. R., Babushok, V. I., Linteris, G. T., & Manion, J. A. (2015).
+A Chemical Kinetic Mechanism for 2-Bromo-3,3,3-trifluoropropene (2-BTP) Flame Inhibition.
 International Journal of Chemical Kinetics, 47(9), 533?563. https://doi.org/10.1002/kin.20923
 Obtained from https://onlinelibrary.wiley.com/doi/full/10.1002/kin.20923
 """

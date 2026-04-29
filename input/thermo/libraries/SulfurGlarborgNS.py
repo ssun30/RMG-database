@@ -15,7 +15,7 @@ DOI: 10.1016/j.proci.2006.08.119
 entry(
     index = 0,
     label = "NS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -28,7 +28,7 @@ multiplicity 2
         S298 = (222.2,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -37,7 +37,7 @@ u"""
 entry(
     index = 1,
     label = "SNO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,D}
@@ -51,7 +51,7 @@ multiplicity 2
         S298 = (257.9,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -60,7 +60,7 @@ u"""
 entry(
     index = 2,
     label = "NSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p1 c0 {2,D} {3,D}
@@ -74,7 +74,7 @@ multiplicity 2
         S298 = (262.6,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -83,7 +83,7 @@ u"""
 entry(
     index = 3,
     label = "HSNO",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {4,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -97,7 +97,7 @@ entry(
         S298 = (267.8,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

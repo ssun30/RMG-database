@@ -19,7 +19,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: I <=> II
 """,
@@ -37,7 +37,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P_reverse""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: II <=> I
 """,
@@ -51,7 +51,7 @@ entry(
     kinetics = Arrhenius(A=(2.214e+09, 's^-1'), n=0.749, Ea=(47.859, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W1 <=> W4
 """,
@@ -65,7 +65,7 @@ entry(
     kinetics = Arrhenius(A=(3.213e+11, 's^-1'), n=0.07, Ea=(18.329, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W4 <=> W1
 """,
@@ -79,7 +79,7 @@ entry(
     kinetics = Arrhenius(A=(4.484e+11, 's^-1'), n=0.032, Ea=(50.631, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W2 <=> W3
 """,
@@ -93,7 +93,7 @@ entry(
     kinetics = Arrhenius(A=(3.626e+11, 's^-1'), n=0.119, Ea=(18.066, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W3 <=> W2
 """,
@@ -108,9 +108,9 @@ entry(
         n = 0.725968,
         Ea = (102.12, 'kJ/mol'),
         T0 = (1, 'K')),
-    rank = 5, 
+    rank = 5,
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 Calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,

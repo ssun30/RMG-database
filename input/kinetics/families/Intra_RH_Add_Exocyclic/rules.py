@@ -18,10 +18,10 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 0,
-    longDesc = 
+    longDesc =
 u"""
-To make this family possible, rate parameters of head node groups are estimated from typical threshold amounts of 
-A (10^9 - 10^13 s^-1) and E0 (5-50 kcal/mol) in unimolecular gas-phase reactions. 
+To make this family possible, rate parameters of head node groups are estimated from typical threshold amounts of
+A (10^9 - 10^13 s^-1) and E0 (5-50 kcal/mol) in unimolecular gas-phase reactions.
 Definitely better kinetic parameters are needed to fill this database.
 """,
 )

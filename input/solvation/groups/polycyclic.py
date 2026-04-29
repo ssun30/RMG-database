@@ -3,16 +3,16 @@
 
 name = "polycyclic"
 shortDesc = u""
-longDesc = u""" 
+longDesc = u"""
 All groups are fitted using experimental solute parameter data unless written otherwise.
-See Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+See Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """
 
 entry(
 	index = 1,
 	label = "PolycyclicRing",
-	group = 
+	group =
 """
 1 * R u0
 """,
@@ -31,7 +31,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -44,7 +44,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -53,7 +53,7 @@ u"""
 entry(
 	index = 3,
 	label = "Strychnine_general",
-	group = 
+	group =
 """
 1  * R!H u0 {9,[S,D,B]} {16,[S,D,B]}
 2  R!H u0 {7,[S,D,B]} {13,[S,D,B]} {15,[S,D,B]}
@@ -83,7 +83,7 @@ entry(
 	solute = u'Strychnine',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -92,7 +92,7 @@ u"""
 entry(
 	index = 4,
 	label = "Strychnine",
-	group = 
+	group =
 """
 1  * O u0 {9,S} {16,S}
 2  N u0 {7,S} {13,S} {15,S}
@@ -134,7 +134,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -149,7 +149,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -158,7 +158,7 @@ u"""
 entry(
 	index = 6,
 	label = "Porphyrin",
-	group = 
+	group =
 """
 1  * N u0 {7,[S,D]} {8,[S,D]}
 2  N u0 {5,[S,D]} {6,[S,D]}
@@ -200,7 +200,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -209,7 +209,7 @@ u"""
 entry(
 	index = 7,
 	label = "Morphine_general",
-	group = 
+	group =
 """
 1  * R!H u0 {6,[S,D,B]} {15,[S,D,B]}
 2  R!H u0 {5,[S,D,B]} {12,[S,D,B]}
@@ -233,7 +233,7 @@ entry(
 	solute = u'Dihydro-normorphine,3-desoxy-',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -242,7 +242,7 @@ u"""
 entry(
 	index = 8,
 	label = "Dihydro-normorphine,3-desoxy-",
-	group = 
+	group =
 """
 1  * O u0 {6,S} {15,S}
 2  N u0 {5,S} {12,S}
@@ -278,7 +278,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -287,7 +287,7 @@ u"""
 entry(
 	index = 9,
 	label = "Morphine",
-	group = 
+	group =
 """
 1  * O u0 {6,S} {15,S}
 2  N u0 {5,S} {12,S}
@@ -323,7 +323,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -332,7 +332,7 @@ u"""
 entry(
 	index = 10,
 	label = "Dihydromorphine",
-	group = 
+	group =
 """
 1  * O u0 {6,S} {15,S}
 2  N u0 {5,S} {12,S}
@@ -368,7 +368,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -377,7 +377,7 @@ u"""
 entry(
 	index = 11,
 	label = "Benzo[e]pyrene_general",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {6,[S,D,B]} {8,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {5,[S,D,B]} {7,[S,D,B]}
@@ -403,7 +403,7 @@ entry(
 	solute = u'Benzo[e]pyrene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -412,7 +412,7 @@ u"""
 entry(
 	index = 12,
 	label = "Benzo[e]pyrene",
-	group = 
+	group =
 """
 1  * C u0 {2,B} {6,B} {8,B}
 2  C u0 {1,B} {5,B} {7,B}
@@ -450,7 +450,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -459,7 +459,7 @@ u"""
 entry(
 	index = 13,
 	label = "Benzo[a]pyrene_general",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {4,[S,D,B]} {6,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {7,[S,D,B]} {8,[S,D,B]}
@@ -485,7 +485,7 @@ entry(
 	solute = u'Benzo[a]pyrene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -494,7 +494,7 @@ u"""
 entry(
 	index = 14,
 	label = "Benzo[a]pyrene",
-	group = 
+	group =
 """
 1  * C u0 {2,B} {4,B} {6,B}
 2  C u0 {1,B} {7,B} {8,B}
@@ -532,7 +532,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -541,7 +541,7 @@ u"""
 entry(
 	index = 15,
 	label = "Fluoran_general",
-	group = 
+	group =
 """
 1  * R!H u0 {3,[S,D,B]} {4,[S,D,B]}
 2  R!H u0 {9,[S,D,B]} {10,[S,D,B]}
@@ -569,7 +569,7 @@ entry(
 	solute = u'Fluoran',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -578,7 +578,7 @@ u"""
 entry(
 	index = 16,
 	label = "Fluoran",
-	group = 
+	group =
 """
 1  * O u0 {3,S} {4,S}
 2  O u0 {9,S} {10,S}
@@ -618,7 +618,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -627,7 +627,7 @@ u"""
 entry(
 	index = 17,
 	label = "Picene_general",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {4,[S,D,B]} {9,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {3,[S,D,B]} {20,[S,D,B]}
@@ -655,7 +655,7 @@ entry(
 	solute = u'Picene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -664,7 +664,7 @@ u"""
 entry(
 	index = 18,
 	label = "Picene",
-	group = 
+	group =
 """
 1  * C u0 {2,B} {4,B} {9,B}
 2  C u0 {1,B} {3,B} {20,B}
@@ -704,7 +704,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -713,7 +713,7 @@ u"""
 entry(
 	index = 19,
 	label = "Icosahydropicene",
-	group = 
+	group =
 """
 1  * C u0 {2,S} {4,S} {9,S}
 2  C u0 {1,S} {3,S} {20,S}
@@ -753,7 +753,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -762,7 +762,7 @@ u"""
 entry(
 	index = 20,
 	label = "1H-Cyclopenta[a]chrysene_general",
-	group = 
+	group =
 """
 1  * R!H u0 {3,[S,D,B]} {7,[S,D,B]} {9,[S,D,B]}
 2  R!H u0 {3,[S,D,B]} {6,[S,D,B]} {12,[S,D,B]}
@@ -789,7 +789,7 @@ entry(
 	solute = u'1H-Cyclopenta[a]chrysene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -798,7 +798,7 @@ u"""
 entry(
 	index = 21,
 	label = "1H-Cyclopenta[a]chrysene",
-	group = 
+	group =
 """
 1  * C u0 {3,S} {7,S} {9,S}
 2  C u0 {3,S} {6,S} {12,S}
@@ -837,7 +837,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -846,7 +846,7 @@ u"""
 entry(
 	index = 22,
 	label = "Benzo[ghi]fluoranthene_general",
-	group = 
+	group =
 """
 1  * R!H u0 {3,[S,D,B]} {4,[S,D,B]} {6,[S,D,B]}
 2  R!H u0 {3,[S,D,B]} {5,[S,D,B]} {8,[S,D,B]}
@@ -870,7 +870,7 @@ entry(
 	solute = u'Benzo[ghi]fluoranthene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -879,7 +879,7 @@ u"""
 entry(
 	index = 23,
 	label = "Benzo[ghi]fluoranthene",
-	group = 
+	group =
 """
 1  * C u0 {3,B} {4,B} {6,B}
 2  C u0 {3,B} {5,B} {8,B}
@@ -915,7 +915,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -924,7 +924,7 @@ u"""
 entry(
 	index = 24,
 	label = "Cholanthrene_general",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {4,[S,D,B]}
@@ -944,13 +944,13 @@ entry(
 16 R!H u0 {7,[S,D,B]} {20,[S,D,B]}
 17 R!H u0 {10,[S,D,B]} {18,[S,D,B]}
 18 R!H u0 {12,[S,D,B]} {17,[S,D,B]}
-19 R!H u0 {15,[S,D,B]} {20,[S,D,B]} 
+19 R!H u0 {15,[S,D,B]} {20,[S,D,B]}
 20 R!H u0 {16,[S,D,B]} {19,[S,D,B]}
 """,
 	solute = u'Cholanthrene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -959,7 +959,7 @@ u"""
 entry(
 	index = 25,
 	label = "Cholanthrene",
-	group = 
+	group =
 """
 1  * C u0 {2,S} {3,S}
 2  C u0 {1,S} {4,S}
@@ -979,7 +979,7 @@ entry(
 16 C u0 {7,B} {20,B}
 17 C u0 {10,B} {18,B}
 18 C u0 {12,B} {17,B}
-19 C u0 {15,B} {20,B} 
+19 C u0 {15,B} {20,B}
 20 C u0 {16,B} {19,B}
 """,
 	solute = SoluteData(
@@ -997,7 +997,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1006,7 +1006,7 @@ u"""
 entry(
 	index = 26,
 	label = "5fused_r6_r6_r6_r5_r5",
-	group = 
+	group =
 """
 1  * R!H u0 {9,[S,D,B]} {16,[S,D,B]}
 2  R!H u0 {8,[S,D,B]} {16,[S,D,B]}
@@ -1032,7 +1032,7 @@ entry(
 	solute = u'5fused_r6_diene_r6_r6_r5_r5_dioxo',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1041,7 +1041,7 @@ u"""
 entry(
 	index = 27,
 	label = "5fused_r6_diene_r6_r6_r5_r5_dioxo",
-	group = 
+	group =
 """
 1  * O u0 {9,S} {16,S}
 2  O u0 {8,S} {16,S}
@@ -1079,7 +1079,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1093,7 +1093,7 @@ s2_6_6_s2_6_6_s2_6_6_A, s2_6_6_s2_6_6_s2_6_6_B, s2_6_5_s2_5_9_s3_9_6, s2_6_7_s2_
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1102,7 +1102,7 @@ u"""
 entry(
 	index = 29,
 	label = "Artemether_general",
-	group = 
+	group =
 """
 1  * R!H u0 {14,[S,D,B]} {15,[S,D,B]}
 2  R!H u0 {14,[S,D,B]} {16,[S,D,B]}
@@ -1124,7 +1124,7 @@ entry(
 	solute = u'Artemether',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1133,7 +1133,7 @@ u"""
 entry(
 	index = 30,
 	label = "Artemether",
-	group = 
+	group =
 """
 1  * O u0 {14,S} {15,S}
 2  O u0 {14,S} {16,S}
@@ -1167,7 +1167,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1176,7 +1176,7 @@ u"""
 entry(
 	index = 31,
 	label = "Fluoranthene_general",
-	group = 
+	group =
 """
 1  * R!H u0 {4,[S,D,B]} {5,[S,D,B]} {6,[S,D,B]}
 2  R!H u0 {3,[S,D,B]} {5,[S,D,B]} {7,[S,D,B]}
@@ -1191,14 +1191,14 @@ entry(
 11 R!H u0 {6,[S,D,B]} {16,[S,D,B]}
 12 R!H u0 {5,[S,D,B]} {16,[S,D,B]}
 13 R!H u0 {8,[S,D,B]} {14,[S,D,B]}
-14 R!H u0 {7,[S,D,B]} {13,[S,D,B]} 
+14 R!H u0 {7,[S,D,B]} {13,[S,D,B]}
 15 R!H u0 {9,[S,D,B]} {10,[S,D,B]}
 16 R!H u0 {11,[S,D,B]} {12,[S,D,B]}
 """,
 	solute = u'Fluoranthene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1207,7 +1207,7 @@ u"""
 entry(
 	index = 32,
 	label = "Fluoranthene",
-	group = 
+	group =
 """
 1  * C u0 {4,B} {5,B} {6,B}
 2  C u0 {3,B} {5,S} {7,B}
@@ -1241,7 +1241,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1250,7 +1250,7 @@ u"""
 entry(
 	index = 33,
 	label = "s3_6_6_s3_6_6_s3_6_6",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {6,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {4,[S,D,B]} {5,[S,D,B]}
@@ -1272,7 +1272,7 @@ entry(
 	solute = u's3_6_6_s3_6_6_s3_6_6_pyrene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1281,7 +1281,7 @@ u"""
 entry(
 	index = 34,
 	label = "s3_6_6_s3_6_6_s3_6_6_pyrene",
-	group = 
+	group =
 """
 1  * C u0 {2,B} {3,B} {6,B}
 2  C u0 {1,B} {4,B} {5,B}
@@ -1315,7 +1315,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1324,7 +1324,7 @@ u"""
 entry(
 	index = 35,
 	label = "s2_5_6_s2_6_6_s2_6_6",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {17,[S,D,B]}
 2    R!H u0 {1,[S,D,B]} {3,[S,D,B]}
@@ -1359,7 +1359,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1368,7 +1368,7 @@ u"""
 entry(
 	index = 36,
 	label = "s2_5_6_s2_6_6_s2_6_6_ben",
-	group = 
+	group =
 """
 1  * Cb  u0 {2,B} {17,B}
 2    Cb  u0 {1,B} {3,B}
@@ -1391,7 +1391,7 @@ entry(
 	solute = u's2_5_6_s2_6_6_s2_6_6_ben_onlyC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1400,7 +1400,7 @@ u"""
 entry(
 	index = 37,
 	label = "s2_5_6_s2_6_6_s2_6_6_ben_onlyC",
-	group = 
+	group =
 """
 1  * Cb  u0 {2,B} {17,B}
 2    Cb  u0 {1,B} {3,B}
@@ -1435,7 +1435,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1444,7 +1444,7 @@ u"""
 entry(
 	index = 38,
 	label = "s2_5_6_s2_6_6_s2_6_6_ane",
-	group = 
+	group =
 """
 1  * R!H u0 {2,S} {17,S}
 2    R!H u0 {1,S} {3,S}
@@ -1467,7 +1467,7 @@ entry(
 	solute = u's2_5_6_s2_6_6_s2_6_6_ane_onlyC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1476,7 +1476,7 @@ u"""
 entry(
 	index = 39,
 	label = "s2_5_6_s2_6_6_s2_6_6_ane_onlyC",
-	group = 
+	group =
 """
 1  * C  u0 {2,S} {17,S}
 2    C  u0 {1,S} {3,S}
@@ -1511,7 +1511,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1520,7 +1520,7 @@ u"""
 entry(
 	index = 40,
 	label = "s2_5_6_s2_6_6_s2_6_6_ane_onlyC(=O)",
-	group = 
+	group =
 """
 1  * CO u0 {2,S} {17,S}
 2    C  u0 {1,S} {3,S}
@@ -1555,7 +1555,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1564,7 +1564,7 @@ u"""
 entry(
 	index = 41,
 	label = "s2_5_6_s2_6_6_s2_6_6_ene_2",
-	group = 
+	group =
 """
 1  * R!H u0 {2,S} {17,S}
 2    R!H u0 {1,S} {3,D}
@@ -1587,7 +1587,7 @@ entry(
 	solute = u's2_5_6_s2_6_6_s2_6_6_ene_2_onlyC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1596,7 +1596,7 @@ u"""
 entry(
 	index = 42,
 	label = "s2_5_6_s2_6_6_s2_6_6_ene_2_onlyC",
-	group = 
+	group =
 """
 1  * C  u0 {2,S} {17,S}
 2    C  u0 {1,S} {3,D}
@@ -1619,7 +1619,7 @@ entry(
 	solute = u's2_5_6_s2_6_6_s2_6_6_ene_2_onlyC(=O)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1628,7 +1628,7 @@ u"""
 entry(
 	index = 43,
 	label = "s2_5_6_s2_6_6_s2_6_6_ene_2_onlyC(=O)",
-	group = 
+	group =
 """
 1  * CO u0 {2,S} {17,S}
 2    C  u0 {1,S} {3,D}
@@ -1663,7 +1663,7 @@ entry(
 		A = 63,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1672,7 +1672,7 @@ u"""
 entry(
 	index = 44,
 	label = "s2_5_6_s2_6_6_s2_6_6_ene_3",
-	group = 
+	group =
 """
 1  * R!H u0 {2,S} {17,S}
 2    R!H u0 {1,S} {3,S}
@@ -1695,7 +1695,7 @@ entry(
 	solute = u's2_5_6_s2_6_6_s2_6_6_ene_3_onlyC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1704,7 +1704,7 @@ u"""
 entry(
 	index = 45,
 	label = "s2_5_6_s2_6_6_s2_6_6_ene_3_onlyC",
-	group = 
+	group =
 """
 1  * C  u0 {2,S} {17,S}
 2    C  u0 {1,S} {3,S}
@@ -1739,7 +1739,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1748,7 +1748,7 @@ u"""
 entry(
 	index = 46,
 	label = "s2_5_6_s2_6_6_s2_6_6_diene_2_16",
-	group = 
+	group =
 """
 1  * R!H u0 {2,S} {17,S}
 2    R!H u0 {1,S} {3,D}
@@ -1771,7 +1771,7 @@ entry(
 	solute = u's2_5_6_s2_6_6_s2_6_6_diene_2_16_onlyC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1780,7 +1780,7 @@ u"""
 entry(
 	index = 47,
 	label = "s2_5_6_s2_6_6_s2_6_6_diene_2_16_onlyC",
-	group = 
+	group =
 """
 1  * C  u0 {2,S} {17,S}
 2    C  u0 {1,S} {3,D}
@@ -1803,7 +1803,7 @@ entry(
 	solute = u's2_5_6_s2_6_6_s2_6_6_diene_2_16_onlyC(=O)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1812,7 +1812,7 @@ u"""
 entry(
 	index = 48,
 	label = "s2_5_6_s2_6_6_s2_6_6_diene_2_16_onlyC(=O)",
-	group = 
+	group =
 """
 1  * CO u0 {2,S} {17,S}
 2    C  u0 {1,S} {3,D}
@@ -1847,7 +1847,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1856,7 +1856,7 @@ u"""
 entry(
 	index = 49,
 	label = "s2_5_6_s2_6_6_s2_6_6_diene_2_4",
-	group = 
+	group =
 """
 1  * R!H u0 {2,S} {17,S}
 2    R!H u0 {1,S} {3,D}
@@ -1879,7 +1879,7 @@ entry(
 	solute = u's2_5_6_s2_6_6_s2_6_6_diene_2_4_onlyC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1888,7 +1888,7 @@ u"""
 entry(
 	index = 50,
 	label = "s2_5_6_s2_6_6_s2_6_6_diene_2_4_onlyC",
-	group = 
+	group =
 """
 1  * C u0 {2,S} {17,S}
 2    C u0 {1,S} {3,D}
@@ -1911,7 +1911,7 @@ entry(
 	solute = u's2_5_6_s2_6_6_s2_6_6_diene_2_4_onlyC(=O)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1920,7 +1920,7 @@ u"""
 entry(
 	index = 51,
 	label = "s2_5_6_s2_6_6_s2_6_6_diene_2_4_onlyC(=O)",
-	group = 
+	group =
 """
 1  * CO u0 {2,S} {17,S}
 2    C u0 {1,S} {3,D}
@@ -1955,7 +1955,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1964,7 +1964,7 @@ u"""
 entry(
 	index = 52,
 	label = "s2_5_6_s2_6_6_s2_6_6_triene_2_12_14",
-	group = 
+	group =
 """
 1  * R!H u0 {2,S} {17,S}
 2    R!H u0 {1,S} {3,D}
@@ -1987,7 +1987,7 @@ entry(
 	solute = u's2_5_6_s2_6_6_s2_6_6_triene_2_12_14_onlyC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1996,7 +1996,7 @@ u"""
 entry(
 	index = 53,
 	label = "s2_5_6_s2_6_6_s2_6_6_triene_2_12_14_onlyC",
-	group = 
+	group =
 """
 1  * C u0 {2,S} {17,S}
 2    C u0 {1,S} {3,D}
@@ -2031,7 +2031,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2040,7 +2040,7 @@ u"""
 entry(
 	index = 54,
 	label = "s2_6_6_s2_6_6_s2_6_6",
-	group = 
+	group =
 """
 1  R!H u0 {2,[S,D,B]} {4,[S,D,B]} {7,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {6,[S,D,B]} {14,[S,D,B]}
@@ -2064,7 +2064,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_s2_6_6_aromatic',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2079,7 +2079,7 @@ s2_6_6_s2_6_6_s2_6_6_benzacridine5}",
 	solute = u's2_6_6_s2_6_6_s2_6_6_benz[a]anthracene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2088,7 +2088,7 @@ u"""
 entry(
 	index = 56,
 	label = "s2_6_6_s2_6_6_s2_6_6_benzacridine1",
-	group = 
+	group =
 """
 1  N u0 {6,D} {7,S}
 2  C u0 {3,S} {4,B} {9,B}
@@ -2112,7 +2112,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_s2_6_6_benzacridine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
 """,
@@ -2121,7 +2121,7 @@ this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
 entry(
 	index = 57,
 	label = "s2_6_6_s2_6_6_s2_6_6_benzacridine2",
-	group = 
+	group =
 """
 1  N u0 {6,S} {7,D}
 2  C u0 {3,B} {4,B} {12,B}
@@ -2145,7 +2145,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_s2_6_6_benzacridine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
 """,
@@ -2154,7 +2154,7 @@ this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
 entry(
 	index = 58,
 	label = "s2_6_6_s2_6_6_s2_6_6_benzacridine3",
-	group = 
+	group =
 """
 1  N u0 {6,D} {7,S}
 2  C u0 {3,B} {6,S} {12,B}
@@ -2170,7 +2170,7 @@ entry(
 12 C u0 {2,B} {17,B}
 13 C u0 {3,B} {18,B}
 14 C u0 {7,B} {15,B}
-15 C u0 {14,B} {16,B} 
+15 C u0 {14,B} {16,B}
 16 C u0 {9,B} {15,B}
 17 * C u0 {12,B} {18,B}
 18 C u0 {13,B} {17,B}
@@ -2178,7 +2178,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_s2_6_6_benzacridine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
 """,
@@ -2187,7 +2187,7 @@ this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
 entry(
 	index = 59,
 	label = "s2_6_6_s2_6_6_s2_6_6_benzacridine4",
-	group = 
+	group =
 """
 1  N u0 {6,D} {7,S}
 2  C u0 {3,B} {6,S} {9,B}
@@ -2211,7 +2211,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_s2_6_6_benzacridine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
 """,
@@ -2220,7 +2220,7 @@ this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
 entry(
 	index = 60,
 	label = "s2_6_6_s2_6_6_s2_6_6_benzacridine5",
-	group = 
+	group =
 """
 1  N u0 {6,S} {7,D}
 2  C u0 {3,B} {6,B} {12,B}
@@ -2244,7 +2244,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_s2_6_6_benzacridine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
 """,
@@ -2253,7 +2253,7 @@ this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
 entry(
 	index = 61,
 	label = "s2_6_6_s2_6_6_s2_6_6_benz[a]anthracene",
-	group = 
+	group =
 """
 1  C u0 {2,B} {4,B} {7,B}
 2  C u0 {1,B} {6,B} {14,B}
@@ -2289,7 +2289,7 @@ entry(
 		A = 18,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2298,7 +2298,7 @@ u"""
 entry(
 	index = 62,
 	label = "s2_6_6_s2_6_6_s2_6_6_benzacridine",
-	group = 
+	group =
 """
 1  R!H u0 {2,[S,D,B]} {4,[S,D,B]} {7,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {6,[S,D,B]} {14,[S,D,B]}
@@ -2334,7 +2334,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 dummy group to put all s2_6_6_s2_6_6_s2_6_6_benzacridine groups (s2_6_6_s2_6_6_s2_6_6_benzacridine1-5) together
 """,
@@ -2343,7 +2343,7 @@ dummy group to put all s2_6_6_s2_6_6_s2_6_6_benzacridine groups (s2_6_6_s2_6_6_s
 entry(
 	index = 63,
 	label = "s2_6_6_s2_6_6_s2_6_6_A",
-	group = 
+	group =
 """
 1  * R!H u0 {4,[S,D,B]} {5,[S,D,B]} {7,[S,D,B]}
 2  R!H u0 {3,[S,D,B]} {4,[S,D,B]} {10,[S,D,B]}
@@ -2367,7 +2367,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_s2_6_6_A_chrysene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2376,7 +2376,7 @@ u"""
 entry(
 	index = 64,
 	label = "s2_6_6_s2_6_6_s2_6_6_A_chrysene",
-	group = 
+	group =
 """
 1  * C u0 {4,B} {5,B} {7,B}
 2  C u0 {3,B} {4,B} {10,B}
@@ -2412,7 +2412,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2421,7 +2421,7 @@ u"""
 entry(
 	index = 65,
 	label = "s2_6_6_s2_6_6_s2_6_6_B",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {4,[S,D,B]} {5,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {6,[S,D,B]} {12,[S,D,B]}
@@ -2445,7 +2445,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_s2_6_6_B_ben_diene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2454,7 +2454,7 @@ u"""
 entry(
 	index = 66,
 	label = "s2_6_6_s2_6_6_s2_6_6_B_tetracene",
-	group = 
+	group =
 """
 1  * C u0 {2,B} {4,B} {5,B}
 2  C u0 {1,B} {6,B} {12,B}
@@ -2490,7 +2490,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2499,7 +2499,7 @@ u"""
 entry(
 	index = 67,
 	label = "s2_6_6_s2_6_6_s2_6_6_B_1,2,3,4,6,11-hexahydrotetracene",
-	group = 
+	group =
 """
 1  C u0 {2,S} {3,S}
 2  C u0 {1,S} {4,S}
@@ -2535,7 +2535,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2544,7 +2544,7 @@ u"""
 entry(
 	index = 68,
 	label = "s2_6_6_s2_6_6_s2_6_6_B_ben_diene",
-	group = 
+	group =
 """
 1  * C u0 {2,S} {4,S} {5,S}
 2  C u0 {1,S} {6,S} {12,S}
@@ -2580,7 +2580,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2589,7 +2589,7 @@ u"""
 entry(
 	index = 69,
 	label = "s2_6_5_s2_5_9_s3_9_6",
-	group = 
+	group =
 """
 1  * R!H u0 {7,[S,D,B]} {8,[S,D,B]} {9,[S,D,B]}
 2  R!H u0 {13,[S,D,B]} {15,[S,D,B]}
@@ -2614,7 +2614,7 @@ entry(
 	solute = u's2_6_5_ben_ene_s2_5_9_s3_9_6_hetero',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2623,7 +2623,7 @@ u"""
 entry(
 	index = 70,
 	label = "s2_6_5_ben_ene_s2_5_9_s3_9_6_hetero",
-	group = 
+	group =
 """
 1  * N u0 {7,S} {8,S} {9,S}
 2  N u0 {13,S} {15,S}
@@ -2660,7 +2660,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2669,7 +2669,7 @@ u"""
 entry(
 	index = 71,
 	label = "s2_6_7_s2_7_6_s2_7_6",
-	group = 
+	group =
 """
 1  * R!H u0 {10,[S,D,B]} {11,[S,D,B]}
 2  R!H u0 {6,[S,D,B]} {7,[S,D,B]}
@@ -2706,7 +2706,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2715,7 +2715,7 @@ u"""
 entry(
 	index = 72,
 	label = "s2_6_7_ben_s2_7_6_ben_s2_7_6_piperidine",
-	group = 
+	group =
 """
 1  * O u0 {10,S} {11,S}
 2  N u0 {6,S} {7,S}
@@ -2752,7 +2752,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2761,7 +2761,7 @@ u"""
 entry(
 	index = 73,
 	label = "Quadricyclane_general",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {4,[S,D,B]} {5,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
@@ -2774,7 +2774,7 @@ entry(
 	solute = u'Quadricyclane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2783,7 +2783,7 @@ u"""
 entry(
 	index = 74,
 	label = "Quadricyclane",
-	group = 
+	group =
 """
 1  * C u0 {2,S} {4,S} {5,S}
 2  C u0 {1,S} {3,S} {5,S}
@@ -2808,7 +2808,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2822,7 +2822,7 @@ s2_5_7_s2_7_3, Nortricyclene_general, s3_6_3_s3_3_6, Acenaphthene_general, s2_5_
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2831,7 +2831,7 @@ u"""
 entry(
 	index = 76,
 	label = "Adamantane_general",
-	group = 
+	group =
 """
 1  * R!H u0 {5,[S,D,B]} {6,[S,D,B]} {9,[S,D,B]}
 2  R!H u0 {6,[S,D,B]} {7,[S,D,B]} {10,[S,D,B]}
@@ -2847,7 +2847,7 @@ entry(
 	solute = u'Adamantane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2856,7 +2856,7 @@ u"""
 entry(
 	index = 77,
 	label = "Adamantane",
-	group = 
+	group =
 """
 1  * C u0 {5,S} {6,S} {9,S}
 2  C u0 {6,S} {7,S} {10,S}
@@ -2884,7 +2884,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2893,7 +2893,7 @@ u"""
 entry(
 	index = 78,
 	label = "s2_6_7_s2_7_6",
-	group = 
+	group =
 """
 1  * R!H u0 {6,[S,D,B]} {7,[S,D,B]}
 2  R!H u0 {3,[S,D,B]} {4,[S,D,B]}
@@ -2914,7 +2914,7 @@ entry(
 	solute = u's2_6_7_ben_s2_7_6_ben_ene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2927,7 +2927,7 @@ entry(
 	solute = u's2_6_7_ben_s2_7_6_ben',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2941,7 +2941,7 @@ s2_6_7_ben_s2_7_6_ben_iminodibenzyl4, s2_6_7_ben_s2_7_6_ben_iminodibenzyl5, s2_6
 	solute = u's2_6_7_ben_s2_7_6_ben_iminodibenzyl',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2950,7 +2950,7 @@ u"""
 entry(
 	index = 81,
 	label = "s2_6_7_ben_s2_7_6_ben_iminodibenzyl1",
-	group = 
+	group =
 """
 1  N u0 {6,S} {7,S}
 2  C u0 {3,S} {4,S}
@@ -2971,7 +2971,7 @@ entry(
 	solute = u's2_6_7_ben_s2_7_6_ben_iminodibenzyl',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
 """,
@@ -2980,7 +2980,7 @@ this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
 entry(
 	index = 82,
 	label = "s2_6_7_ben_s2_7_6_ben_iminodibenzyl2",
-	group = 
+	group =
 """
 1  [C,N] u0 {4,S} {7,S}
 2  N     u0 {6,S} {8,S}
@@ -3001,7 +3001,7 @@ entry(
 	solute = u's2_6_7_ben_s2_7_6_ben_iminodibenzyl',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
 """,
@@ -3010,7 +3010,7 @@ this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
 entry(
 	index = 83,
 	label = "s2_6_7_ben_s2_7_6_ben_iminodibenzyl3",
-	group = 
+	group =
 """
 1  [C,N] u0 {5,S} {7,S}
 2  N     u0 {8,S} {9,S}
@@ -3031,7 +3031,7 @@ entry(
 	solute = u's2_6_7_ben_s2_7_6_ben_iminodibenzyl',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
 """,
@@ -3040,7 +3040,7 @@ this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
 entry(
 	index = 84,
 	label = "s2_6_7_ben_s2_7_6_ben_iminodibenzyl4",
-	group = 
+	group =
 """
 1  [C,N] u0 {5,S} {7,S}
 2  N     u0 {8,S} {9,S}
@@ -3061,7 +3061,7 @@ entry(
 	solute = u's2_6_7_ben_s2_7_6_ben_iminodibenzyl',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
 """,
@@ -3070,7 +3070,7 @@ this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
 entry(
 	index = 85,
 	label = "s2_6_7_ben_s2_7_6_ben_iminodibenzyl5",
-	group = 
+	group =
 """
 1  [C,N] u0 {5,S} {7,S}
 2  N     u0 {8,S} {9,S}
@@ -3091,7 +3091,7 @@ entry(
 	solute = u's2_6_7_ben_s2_7_6_ben_iminodibenzyl',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
 """,
@@ -3100,7 +3100,7 @@ this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
 entry(
 	index = 86,
 	label = "s2_6_7_ben_s2_7_6_ben_iminodibenzyl6",
-	group = 
+	group =
 """
 1  [C,N] u0 {4,S} {7,S}
 2  N     u0 {6,S} {8,S}
@@ -3121,7 +3121,7 @@ entry(
 	solute = u's2_6_7_ben_s2_7_6_ben_iminodibenzyl',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
 """,
@@ -3130,7 +3130,7 @@ this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
 entry(
 	index = 87,
 	label = "s2_6_7_ben_s2_7_6_ben_iminodibenzyl",
-	group = 
+	group =
 """
 1  R!H u0 {6,[S,D,B]} {7,[S,D,B]}
 2  R!H u0 {3,[S,D,B]} {4,[S,D,B]}
@@ -3163,7 +3163,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 dummy groups to put all s2_6_7_ben_s2_7_6_ben_iminodibenzyl groups (s2_6_7_ben_s2_7_6_ben_iminodibenzyl1-6) together
 """,
@@ -3172,7 +3172,7 @@ dummy groups to put all s2_6_7_ben_s2_7_6_ben_iminodibenzyl groups (s2_6_7_ben_s
 entry(
 	index = 88,
 	label = "s2_6_7_ben_s2_7_6_ben",
-	group = 
+	group =
 """
 1  * R!H u0 {6,S} {7,S}
 2  R!H u0 {3,S} {4,S}
@@ -3205,7 +3205,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3214,7 +3214,7 @@ u"""
 entry(
 	index = 89,
 	label = "s2_6_7_ben_s2_7_6_ben_ene",
-	group = 
+	group =
 """
 1  * R!H u0 {6,S} {7,S}
 2  R!H u0 {3,D} {4,S}
@@ -3247,7 +3247,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3256,7 +3256,7 @@ u"""
 entry(
 	index = 90,
 	label = "s2_6_6_s2_6_5",
-	group = 
+	group =
 """
 1  * R!H u0 {3,[S,D,B]} {6,[S,D,B]}
 2  R!H u0 {7,[S,D,B]} {13,[S,D,B]}
@@ -3287,7 +3287,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3296,7 +3296,7 @@ u"""
 entry(
 	index = 91,
 	label = "s2_6_6_s2_6_5_ben_ene",
-	group = 
+	group =
 """
 1  * R!H u0 {3,S} {6,S}
 2  R!H u0 {7,S} {13,S}
@@ -3327,7 +3327,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3336,7 +3336,7 @@ u"""
 entry(
 	index = 92,
 	label = "s2_6_6_s2_6_5_ben_diene",
-	group = 
+	group =
 """
 1  * R!H u0 {3,S} {6,S}
 2  R!H u0 {7,S} {13,S}
@@ -3355,7 +3355,7 @@ entry(
 	solute = u's2_6_6_s2_6_5_ben_diene_psoralen',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3364,7 +3364,7 @@ u"""
 entry(
 	index = 93,
 	label = "s2_6_6_s2_6_5_ben_diene_psoralen",
-	group = 
+	group =
 """
 1  * O u0 {3,S} {6,S}
 2  O u0 {7,S} {13,S}
@@ -3395,7 +3395,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3404,7 +3404,7 @@ u"""
 entry(
 	index = 94,
 	label = "s2_6_6_s2_6_6",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
 2    R!H u0 {1,[S,D,B]} {4,[S,D,B]} {10,[S,D,B]}
@@ -3436,7 +3436,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3449,7 +3449,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_all_ben',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3458,7 +3458,7 @@ u"""
 entry(
 	index = 96,
 	label = "s2_6_6_s2_6_6_aromatic1",
-	group = 
+	group =
 """
 1  * [C,N]  u0 {2,[S,B]} {3,B} {5,B}
 2    [C,N]  u0 {1,[S,B]} {4,B} {10,B}
@@ -3478,7 +3478,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_heteroaromatic',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 the heterocyclic form belongs to s2_6_6_s2_6_6_heteroaromatic
 """,
@@ -3487,7 +3487,7 @@ the heterocyclic form belongs to s2_6_6_s2_6_6_heteroaromatic
 entry(
 	index = 97,
 	label = "s2_6_6_s2_6_6_aromatic2",
-	group = 
+	group =
 """
 1  * [C,N]  u0 {2,[S,B]} {3,[D,B]} {5,[S,B]}
 2    [C,N]  u0 {1,[S,B]} {4,[D,B]} {10,[S,B]}
@@ -3507,7 +3507,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_heteroaromatic',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 the heterocyclic form belongs to s2_6_6_s2_6_6_heteroaromatic
 """,
@@ -3516,7 +3516,7 @@ the heterocyclic form belongs to s2_6_6_s2_6_6_heteroaromatic
 entry(
 	index = 98,
 	label = "s2_6_6_s2_6_6_aromatic3",
-	group = 
+	group =
 """
 1  * [C,N]  u0 {2,[S,B]} {3,[D,B]} {5,[S,B]}
 2    [C,N]  u0 {1,[S,B]} {4,[S,B]} {10,[D,B]}
@@ -3536,7 +3536,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_heteroaromatic',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 the heterocyclic form belongs to s2_6_6_s2_6_6_heteroaromatic
 """,
@@ -3545,7 +3545,7 @@ the heterocyclic form belongs to s2_6_6_s2_6_6_heteroaromatic
 entry(
 	index = 99,
 	label = "s2_6_6_s2_6_6_aromatic4",
-	group = 
+	group =
 """
 1  * [C,N]  u0 {2,[S,B]} {3,[S,B]} {5,[D,B]}
 2    [C,N]  u0 {1,[S,B]} {4,[S,B]} {10,[D,B]}
@@ -3565,7 +3565,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_heteroaromatic',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 the heterocyclic form belongs to s2_6_6_s2_6_6_heteroaromatic
 """,
@@ -3574,7 +3574,7 @@ the heterocyclic form belongs to s2_6_6_s2_6_6_heteroaromatic
 entry(
 	index = 100,
 	label = "s2_6_6_s2_6_6_all_ben",
-	group = 
+	group =
 """
 1  * C  u0 {2,B} {3,B} {5,B}
 2    C  u0 {1,B} {4,B} {10,B}
@@ -3606,7 +3606,7 @@ entry(
 		A = 25,
 	),
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 dummy group to put all aromatic s2_6_6_s2_6_6_aromatic groups (s2_6_6_s2_6_6_aromatic1-4) together
 """,
@@ -3615,7 +3615,7 @@ dummy group to put all aromatic s2_6_6_s2_6_6_aromatic groups (s2_6_6_s2_6_6_aro
 entry(
 	index = 101,
 	label = "s2_6_6_s2_6_6_heteroaromatic",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
 2    R!H u0 {1,[S,D,B]} {4,[S,D,B]} {10,[S,D,B]}
@@ -3647,7 +3647,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 dummy group to put all heterocyclic s2_6_6_s2_6_6_aromatic groups (s2_6_6_s2_6_6_aromatic1-4) together
 """,
@@ -3656,7 +3656,7 @@ dummy group to put all heterocyclic s2_6_6_s2_6_6_aromatic groups (s2_6_6_s2_6_6
 entry(
 	index = 102,
 	label = "s2_6_6_ben_s2_6_6_ben",
-	group = 
+	group =
 """
 1  * C   u0 {2,S} {3,B} {5,B}
 2    C   u0 {1,S} {4,B} {10,B}
@@ -3688,7 +3688,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3697,7 +3697,7 @@ u"""
 entry(
 	index = 103,
 	label = "s2_6_6_ene_s2_6_6_ene",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {14,S}
 2    R!H u0 {1,S} {3,S}
@@ -3729,7 +3729,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3738,7 +3738,7 @@ u"""
 entry(
 	index = 104,
 	label = "s2_6_6_ben_s2_6_6_ane",
-	group = 
+	group =
 """
 1   R!H u0 {2,B} {6,B}
 2   R!H u0 {1,B} {3,B}
@@ -3770,7 +3770,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3779,7 +3779,7 @@ u"""
 entry(
 	index = 105,
 	label = "s2_6_6_s2_6_6_A",
-	group = 
+	group =
 """
 1  R!H u0 {4,[S,D,B]} {5,[S,D,B]} {7,[S,D,B]}
 2  * R!H u0 {3,[S,D,B]} {5,[S,D,B]} {8,[S,D,B]}
@@ -3811,7 +3811,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3824,7 +3824,7 @@ entry(
 	solute = u's2_6_6_s2_6_6_A_anthracene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3833,7 +3833,7 @@ u"""
 entry(
 	index = 107,
 	label = "s2_6_6_s2_6_6_A_anthracene",
-	group = 
+	group =
 """
 1 * C u0 {4,B} {5,B} {7,B}
 2   C u0 {3,B} {5,B} {8,B}
@@ -3865,7 +3865,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3874,7 +3874,7 @@ u"""
 entry(
 	index = 108,
 	label = "s2_6_6_s2_6_6_A_acridine",
-	group = 
+	group =
 """
 1  N u0 {4,S} {5,D}
 2  * C u0 {4,B} {6,S} {7,B}
@@ -3906,7 +3906,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3915,7 +3915,7 @@ u"""
 entry(
 	index = 109,
 	label = "s2_6_6_ben_s2_6_6_ben_A",
-	group = 
+	group =
 """
 1    R!H u0 {5,S} {6,S}
 2    R!H u0 {3,S} {4,S}
@@ -3947,7 +3947,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3956,7 +3956,7 @@ u"""
 entry(
 	index = 110,
 	label = "s2_6_6_ben_s2_6_6_ben_A_anthraquinone",
-	group = 
+	group =
 """
 1    CO  u0 {5,S} {6,S}
 2    CO  u0 {3,S} {4,S}
@@ -3988,7 +3988,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3997,7 +3997,7 @@ u"""
 entry(
 	index = 111,
 	label = "s2_6_6_ben_s2_6_6_ben_A_phenothiazine",
-	group = 
+	group =
 """
 1    N   u0 {5,S} {6,S}
 2    S   u0 {3,S} {4,S}
@@ -4029,7 +4029,7 @@ entry(
 		A = 21,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4038,7 +4038,7 @@ u"""
 entry(
 	index = 112,
 	label = "s2_6_6_ben_s2_6_6_ben_A_9H-xanthene",
-	group = 
+	group =
 """
 1    O   u0 {5,S} {6,S}
 2    C   u0 {3,S} {4,S}
@@ -4070,7 +4070,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4079,7 +4079,7 @@ u"""
 entry(
 	index = 113,
 	label = "s2_6_5_s2_5_6",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {6,[S,D,B]}
 2    R!H u0 {1,[S,D,B]} {3,[S,D,B]}
@@ -4110,7 +4110,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4119,7 +4119,7 @@ u"""
 entry(
 	index = 114,
 	label = "s2_6_5_ben_s2_5_6_ben",
-	group = 
+	group =
 """
 1  * Cb  u0 {2,B} {6,B}
 2    Cb  u0 {1,B} {3,B}
@@ -4138,7 +4138,7 @@ entry(
 	solute = u's2_6_5_s2_5_6_dibenzothiophene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4147,7 +4147,7 @@ u"""
 entry(
 	index = 115,
 	label = "s2_6_5_s2_5_6_fluorene",
-	group = 
+	group =
 """
 1  * Cb  u0 {2,B} {6,B}
 2    Cb  u0 {1,B} {3,B}
@@ -4178,7 +4178,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4187,7 +4187,7 @@ u"""
 entry(
 	index = 116,
 	label = "s2_6_5_s2_5_6_carbazole",
-	group = 
+	group =
 """
 1  * Cb  u0 {2,B} {6,B}
 2    Cb  u0 {1,B} {3,B}
@@ -4218,7 +4218,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4227,7 +4227,7 @@ u"""
 entry(
 	index = 117,
 	label = "s2_6_5_s2_5_6_dibenzofuran",
-	group = 
+	group =
 """
 1  * Cb  u0 {2,B} {6,B}
 2    Cb  u0 {1,B} {3,B}
@@ -4258,7 +4258,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4267,7 +4267,7 @@ u"""
 entry(
 	index = 118,
 	label = "s2_6_5_s2_5_6_dibenzothiophene",
-	group = 
+	group =
 """
 1  * Cb  u0 {2,B} {6,B}
 2    Cb  u0 {1,B} {3,B}
@@ -4298,7 +4298,7 @@ entry(
 		A = 46,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4307,7 +4307,7 @@ u"""
 entry(
 	index = 119,
 	label = "s2_6_5_ben_s2_5_6",
-	group = 
+	group =
 """
 1  * Cb  u0 {2,B} {6,B}
 2    Cb  u0 {1,B} {3,B}
@@ -4326,7 +4326,7 @@ entry(
 	solute = u's2_6_5_ben_s2_5_6_hetero',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4335,7 +4335,7 @@ u"""
 entry(
 	index = 120,
 	label = "s2_6_5_ben_s2_5_6_hetero",
-	group = 
+	group =
 """
 1  * Cb  u0 {2,B} {6,B}
 2    Cb  u0 {1,B} {3,B}
@@ -4366,7 +4366,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4375,7 +4375,7 @@ u"""
 entry(
 	index = 121,
 	label = "s2_5_6_s2_6_6",
-	group = 
+	group =
 """
 1  * R!H u0 {5,[S,D,B]} {13,[S,D,B]}
 2    R!H u0 {3,[S,D,B]} {4,[S,D,B]} {6,[S,D,B]}
@@ -4394,7 +4394,7 @@ entry(
 	solute = u's2_5_6_ben_s2_6_6_ben',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4403,7 +4403,7 @@ u"""
 entry(
 	index = 122,
 	label = "s2_5_6_ben_s2_6_6_ben",
-	group = 
+	group =
 """
 1  * R!H u0 {5,S} {13,[S,D]}
 2    C   u0 {3,B} {4,B} {6,B}
@@ -4422,7 +4422,7 @@ entry(
 	solute = u's2_5_6_s2_6_6_naphtho[2,1-b]thiophene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4431,7 +4431,7 @@ u"""
 entry(
 	index = 123,
 	label = "s2_5_6_s2_6_6_naphtho[2,1-b]thiophene",
-	group = 
+	group =
 """
 1  * S   u0 {5,S} {13,S}
 2    C   u0 {3,B} {4,B} {6,B}
@@ -4462,7 +4462,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4471,7 +4471,7 @@ u"""
 entry(
 	index = 124,
 	label = "s2_5_6_s2_6_6_benzo[g][1]benzothiole",
-	group = 
+	group =
 """
 1  * C   u0 {5,S} {13,D}
 2    C   u0 {3,B} {4,B} {6,B}
@@ -4502,7 +4502,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4511,9 +4511,9 @@ u"""
 entry(
 	index = 125,
 	label = "s2_5_7_s2_7_3",
-	group = 
+	group =
 """
-1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]} 
+1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {4,[S,D,B]} {8,[S,D,B]}
 3  R!H u0 {1,[S,D,B]} {5,[S,D,B]} {7,[S,D,B]}
 4  R!H u0 {2,[S,D,B]} {6,[S,D,B]} {9,[S,D,B]}
@@ -4528,7 +4528,7 @@ entry(
 	solute = u's2_5_7_s2_7_3_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4537,9 +4537,9 @@ u"""
 entry(
 	index = 126,
 	label = "s2_5_7_s2_7_3_ane",
-	group = 
+	group =
 """
-1  * R!H u0 {2,S} {3,S} {5,S} 
+1  * R!H u0 {2,S} {3,S} {5,S}
 2  R!H u0 {1,S} {4,S} {8,S}
 3  R!H u0 {1,S} {5,S} {7,S}
 4  R!H u0 {2,S} {6,S} {9,S}
@@ -4554,7 +4554,7 @@ entry(
 	solute = u's2_5_7_s2_7_3_ane_side_ene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4563,9 +4563,9 @@ u"""
 entry(
 	index = 127,
 	label = "s2_5_7_s2_7_3_ane_side_ene",
-	group = 
+	group =
 """
-1  * R!H u0 {2,S} {3,S} {5,S} 
+1  * R!H u0 {2,S} {3,S} {5,S}
 2  R!H u0 {1,S} {4,S} {8,S}
 3  R!H u0 {1,S} {5,S} {7,S}
 4  R!H u0 {2,S} {6,S} {9,S}
@@ -4593,7 +4593,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4602,9 +4602,9 @@ u"""
 entry(
 	index = 128,
 	label = "s2_5_7_s2_7_3_ene",
-	group = 
+	group =
 """
-1  * R!H u0 {2,S} {3,S} {5,S} 
+1  * R!H u0 {2,S} {3,S} {5,S}
 2  R!H u0 {1,S} {4,S} {8,D}
 3  R!H u0 {1,S} {5,S} {7,S}
 4  R!H u0 {2,S} {6,S} {9,S}
@@ -4631,7 +4631,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4640,7 +4640,7 @@ u"""
 entry(
 	index = 129,
 	label = "Nortricyclene_general",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {6,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
@@ -4653,7 +4653,7 @@ entry(
 	solute = u'Nortricyclene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4662,7 +4662,7 @@ u"""
 entry(
 	index = 130,
 	label = "Nortricyclene",
-	group = 
+	group =
 """
 1  * C u0 {2,S} {3,S} {6,S}
 2  C u0 {1,S} {3,S} {5,S}
@@ -4687,7 +4687,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4696,7 +4696,7 @@ u"""
 entry(
 	index = 131,
 	label = "s3_6_3_s3_3_6",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {4,[S,D,B]} {6,[S,D,B]}
@@ -4712,7 +4712,7 @@ entry(
 	solute = u's3_6_3_s3_3_6_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4721,7 +4721,7 @@ u"""
 entry(
 	index = 132,
 	label = "s3_6_3_s3_3_6_ane",
-	group = 
+	group =
 """
 1  * C u0 {2,S} {3,S} {5,S}
 2  C u0 {1,S} {4,S} {6,S}
@@ -4749,7 +4749,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4758,7 +4758,7 @@ u"""
 entry(
 	index = 133,
 	label = "s3_6_3_s3_3_6_ene",
-	group = 
+	group =
 """
 1  * C u0 {2,S} {3,S} {5,S}
 2  C u0 {1,S} {4,S} {6,S}
@@ -4786,7 +4786,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4795,7 +4795,7 @@ u"""
 entry(
 	index = 134,
 	label = "Acenaphthene_general",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {4,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {3,[S,D,B]}
@@ -4813,7 +4813,7 @@ entry(
 	solute = u'Acenaphthene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4822,7 +4822,7 @@ u"""
 entry(
 	index = 135,
 	label = "Acenaphthene",
-	group = 
+	group =
 """
 1  * C u0 {2,S} {4,S}
 2  C u0 {1,S} {3,S}
@@ -4852,7 +4852,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4861,7 +4861,7 @@ u"""
 entry(
 	index = 136,
 	label = "Acenaphthylene",
-	group = 
+	group =
 """
 1  * C u0 {2,D} {4,S}
 2  C u0 {1,D} {3,S}
@@ -4891,7 +4891,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4900,7 +4900,7 @@ u"""
 entry(
 	index = 137,
 	label = "s2_5_5_s2_5_5_ane",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {4,S} {9,S}
 2    R!H u0 {1,S} {3,S} {8,S}
@@ -4928,7 +4928,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4937,7 +4937,7 @@ u"""
 entry(
 	index = 138,
 	label = "s1_3_6",
-	group = 
+	group =
 """
 1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
 2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
@@ -4951,7 +4951,7 @@ entry(
 	solute = u's1_3_6_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4960,7 +4960,7 @@ u"""
 entry(
 	index = 139,
 	label = "s1_3_6_ane",
-	group = 
+	group =
 """
 1   R!H u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H u0 {1,S} {3,S}
@@ -4986,7 +4986,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4995,7 +4995,7 @@ u"""
 entry(
 	index = 140,
 	label = "s1_5_5",
-	group = 
+	group =
 """
 1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
 2 * R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
@@ -5010,7 +5010,7 @@ entry(
 	solute = u's1_5_5_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5019,7 +5019,7 @@ u"""
 entry(
 	index = 141,
 	label = "s1_5_5_ane",
-	group = 
+	group =
 """
 1   R!H u0 {2,S} {3,S} {4,S} {5,S}
 2 * R!H u0 {1,S} {9,S}
@@ -5046,7 +5046,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5055,7 +5055,7 @@ u"""
 entry(
 	index = 142,
 	label = "s1_5_6",
-	group = 
+	group =
 """
 1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
 2    R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
@@ -5071,7 +5071,7 @@ entry(
 	solute = u's1_5_6_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5080,7 +5080,7 @@ u"""
 entry(
 	index = 143,
 	label = "s1_5_6_ane",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {4,S} {5,S}
 2    R!H u0 {1,S} {7,S}
@@ -5108,7 +5108,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5121,7 +5121,7 @@ entry(
 	solute = u's1_5_6_ene_1',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5130,7 +5130,7 @@ u"""
 entry(
 	index = 145,
 	label = "s1_5_6_ene_1",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {4,S} {5,S}
 2    R!H u0 {1,S} {6,S}
@@ -5158,7 +5158,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5167,7 +5167,7 @@ u"""
 entry(
 	index = 146,
 	label = "s1_5_6_ene_2",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {4,S} {5,S}
 2    R!H u0 {1,S} {6,S}
@@ -5195,7 +5195,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5204,7 +5204,7 @@ u"""
 entry(
 	index = 147,
 	label = "s1_5_6_ene_7",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {4,S} {5,S}
 2    R!H u0 {1,S} {7,S}
@@ -5232,7 +5232,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5241,7 +5241,7 @@ u"""
 entry(
 	index = 148,
 	label = "s1_5_6_ene_8",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {4,S} {5,S}
 2    R!H u0 {1,S} {7,S}
@@ -5269,7 +5269,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5278,7 +5278,7 @@ u"""
 entry(
 	index = 149,
 	label = "s1_6_6",
-	group = 
+	group =
 """
 1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
 2    R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
@@ -5295,7 +5295,7 @@ entry(
 	solute = u's1_6_6_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5304,7 +5304,7 @@ u"""
 entry(
 	index = 150,
 	label = "s1_6_6_ane",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {4,S} {5,S}
 2    R!H u0 {1,S} {8,S}
@@ -5321,7 +5321,7 @@ entry(
 	solute = u's1_6_6_ane_2,4,8,10-Tetraoxa-3,9-diphosphaspiro-3,9-dioxide',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5330,7 +5330,7 @@ u"""
 entry(
 	index = 151,
 	label = "s1_6_6_ane_2,4,8,10-Tetraoxa-3,9-diphosphaspiro-3,9-dioxide",
-	group = 
+	group =
 """
 1    C   u0 {2,S} {3,S} {4,S} {5,S}
 2    C   u0 {1,S} {8,S}
@@ -5361,7 +5361,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5370,7 +5370,7 @@ u"""
 entry(
 	index = 152,
 	label = "s2_3_5",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {5,[S,D,T,B]}
 2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]}
@@ -5382,7 +5382,7 @@ entry(
 	solute = u's2_3_5_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5395,7 +5395,7 @@ entry(
 	solute = u's2_3_5_ene_1',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5404,7 +5404,7 @@ u"""
 entry(
 	index = 154,
 	label = "s2_3_5_ene_1",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {3,S} {5,S}
 2   R!H u0 {1,S} {3,S} {4,S}
@@ -5428,7 +5428,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5437,7 +5437,7 @@ u"""
 entry(
 	index = 155,
 	label = "s2_3_5_ene_side",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {4,S} {6,S}
 2   R!H u0 {1,S} {4,S} {5,S}
@@ -5462,7 +5462,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5471,7 +5471,7 @@ u"""
 entry(
 	index = 156,
 	label = "s2_3_5_ane",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {3,S} {5,S}
 2   R!H u0 {1,S} {3,S} {4,S}
@@ -5495,7 +5495,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5504,7 +5504,7 @@ u"""
 entry(
 	index = 157,
 	label = "s2_3_6",
-	group = 
+	group =
 """
 1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {5,[S,D,T,B]}
 2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]}
@@ -5517,7 +5517,7 @@ entry(
 	solute = u's2_3_6_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5526,7 +5526,7 @@ u"""
 entry(
 	index = 158,
 	label = "s2_3_6_ane",
-	group = 
+	group =
 """
 1   R!H u0 {2,S} {3,S} {5,S}
 2   R!H u0 {1,S} {3,S} {4,S}
@@ -5551,7 +5551,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5564,7 +5564,7 @@ entry(
 	solute = u's2_3_6_ene_1',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5573,7 +5573,7 @@ u"""
 entry(
 	index = 160,
 	label = "s2_3_6_ene_1",
-	group = 
+	group =
 """
 1   R!H u0 {2,S} {3,S} {4,S}
 2   R!H u0 {1,S} {3,S} {5,S}
@@ -5598,7 +5598,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5607,7 +5607,7 @@ u"""
 entry(
 	index = 161,
 	label = "s2_3_6_ene_2",
-	group = 
+	group =
 """
 1   R!H u0 {2,S} {3,S} {4,S}
 2   R!H u0 {1,S} {3,S} {5,S}
@@ -5632,7 +5632,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5641,7 +5641,7 @@ u"""
 entry(
 	index = 162,
 	label = "s2_3_8",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {5,[S,D,T,B]}
 2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]}
@@ -5656,7 +5656,7 @@ entry(
 	solute = u's2_3_8_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5665,7 +5665,7 @@ u"""
 entry(
 	index = 163,
 	label = "s2_3_8_ane",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {3,S} {5,S}
 2   R!H u0 {1,S} {3,S} {4,S}
@@ -5680,7 +5680,7 @@ entry(
 	solute = u's2_3_6_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5689,7 +5689,7 @@ u"""
 entry(
 	index = 164,
 	label = "s2_4_5",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {5,[S,D,T,B]}
 2   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {6,[S,D,T,B]}
@@ -5702,7 +5702,7 @@ entry(
 	solute = u's2_4_5_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5711,7 +5711,7 @@ u"""
 entry(
 	index = 165,
 	label = "s2_4_5_ane",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {3,S} {5,S}
 2   R!H u0 {1,S} {4,S} {6,S}
@@ -5736,7 +5736,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5745,7 +5745,7 @@ u"""
 entry(
 	index = 166,
 	label = "s2_4_5_ane_hetero_N_S",
-	group = 
+	group =
 """
 1 * C   u0 {2,S} {3,S} {5,S}
 2   N   u0 {1,S} {4,S} {6,S}
@@ -5770,7 +5770,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5779,7 +5779,7 @@ u"""
 entry(
 	index = 167,
 	label = "s2_4_6",
-	group = 
+	group =
 """
 1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
 2   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
@@ -5793,7 +5793,7 @@ entry(
 	solute = u's2_4_6_ene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5806,7 +5806,7 @@ entry(
 	solute = u's2_4_6_ene_1',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5815,7 +5815,7 @@ u"""
 entry(
 	index = 169,
 	label = "s2_4_6_ene_1",
-	group = 
+	group =
 """
 1   R!H u0 {2,S} {3,S} {5,S}
 2   R!H u0 {1,S} {4,S} {6,S}
@@ -5841,7 +5841,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5850,7 +5850,7 @@ u"""
 entry(
 	index = 170,
 	label = "s2_5_5",
-	group = 
+	group =
 """
 1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {5,[S,D,T,B]}
 2   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {6,[S,D,T,B]}
@@ -5864,7 +5864,7 @@ entry(
 	solute = u's2_5_5_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5873,7 +5873,7 @@ u"""
 entry(
 	index = 171,
 	label = "s2_5_5_ane",
-	group = 
+	group =
 """
 1   R!H u0 {2,S} {3,S} {5,S}
 2   R!H u0 {1,S} {4,S} {6,S}
@@ -5899,7 +5899,7 @@ entry(
 		A = 23,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5912,7 +5912,7 @@ entry(
 	solute = u's2_5_5_ene_1',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5921,7 +5921,7 @@ u"""
 entry(
 	index = 173,
 	label = "s2_5_5_ene_0",
-	group = 
+	group =
 """
 1   R!H u0 {2,S} {3,S} {4,S}
 2   R!H u0 {1,S} {5,D} {6,S}
@@ -5947,7 +5947,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5956,7 +5956,7 @@ u"""
 entry(
 	index = 174,
 	label = "s2_5_5_ene_1",
-	group = 
+	group =
 """
 1   R!H u0 {2,S} {4,S} {5,S}
 2   R!H u0 {1,S} {3,S} {6,S}
@@ -5982,7 +5982,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5995,7 +5995,7 @@ entry(
 	solute = u's2_5_5_diene_0_4',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6004,7 +6004,7 @@ u"""
 entry(
 	index = 176,
 	label = "s2_5_5_diene_0_2",
-	group = 
+	group =
 """
 1   R!H u0 {2,S} {3,S} {4,S}
 2   R!H u0 {1,S} {5,S} {6,D}
@@ -6018,7 +6018,7 @@ entry(
 	solute = u's2_5_5_diene_0_4',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6027,7 +6027,7 @@ u"""
 entry(
 	index = 177,
 	label = "s2_5_5_diene_0_4",
-	group = 
+	group =
 """
 1   R!H u0 {2,S} {3,D} {4,S}
 2   R!H u0 {1,S} {5,D} {6,S}
@@ -6053,7 +6053,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6062,7 +6062,7 @@ u"""
 entry(
 	index = 178,
 	label = "s2_5_6",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
 2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
@@ -6077,7 +6077,7 @@ entry(
 	solute = u's2_5_6_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6086,7 +6086,7 @@ u"""
 entry(
 	index = 179,
 	label = "s2_5_6_ane",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {4,S} {5,S}
 2   R!H u0 {1,S} {3,S} {6,S}
@@ -6113,7 +6113,7 @@ entry(
 		A = 28,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6126,7 +6126,7 @@ entry(
 	solute = u's2_5_6_ene_m',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6135,7 +6135,7 @@ u"""
 entry(
 	index = 181,
 	label = "s2_5_6_ene_0",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {3,S} {5,S}
 2   R!H u0 {1,S} {4,D} {6,S}
@@ -6162,7 +6162,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6171,7 +6171,7 @@ u"""
 entry(
 	index = 182,
 	label = "s2_5_6_ene_1",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {4,S} {6,S}
 2   R!H u0 {1,S} {3,S} {5,S}
@@ -6198,7 +6198,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6207,7 +6207,7 @@ u"""
 entry(
 	index = 183,
 	label = "s2_5_6_ene_m",
-	group = 
+	group =
 """
 1 * R!H u0 {2,D} {5,S} {6,S}
 2   R!H u0 {1,D} {3,S} {4,S}
@@ -6234,7 +6234,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6243,7 +6243,7 @@ u"""
 entry(
 	index = 184,
 	label = "s2_5_6_ene_2",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {5,S} {6,S}
 2   R!H u0 {1,S} {3,S} {4,S}
@@ -6258,7 +6258,7 @@ entry(
 	solute = u's2_5_6_ene_0',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6267,7 +6267,7 @@ u"""
 entry(
 	index = 185,
 	label = "s2_5_6_ene_5",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {3,D} {6,S}
 2   R!H u0 {1,S} {4,S} {5,S}
@@ -6294,7 +6294,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6307,7 +6307,7 @@ entry(
 	solute = u's2_5_6_diene_m_7',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6316,7 +6316,7 @@ u"""
 entry(
 	index = 187,
 	label = "s2_5_6_diene_m_2",
-	group = 
+	group =
 """
 1 * R!H u0 {2,D} {3,S} {6,S}
 2   R!H u0 {1,D} {4,S} {5,S}
@@ -6331,7 +6331,7 @@ entry(
 	solute = u's2_5_6_diene_m_7',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6340,7 +6340,7 @@ u"""
 entry(
 	index = 188,
 	label = "s2_5_6_diene_m_7",
-	group = 
+	group =
 """
 1 * R!H u0 {2,D} {3,S} {5,S}
 2   R!H u0 {1,D} {4,S} {6,S}
@@ -6367,7 +6367,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6376,7 +6376,7 @@ u"""
 entry(
 	index = 189,
 	label = "s2_5_6_diene_m_7_hetero",
-	group = 
+	group =
 """
 1 * C   u0 {2,D} {3,S} {5,S}
 2   C   u0 {1,D} {4,S} {6,S}
@@ -6391,7 +6391,7 @@ entry(
 	solute = u's2_5_6_diene_xanthine',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6400,7 +6400,7 @@ u"""
 entry(
 	index = 190,
 	label = "s2_5_6_diene_xanthine",
-	group = 
+	group =
 """
 1 * C   u0 {2,D} {3,S} {5,S}
 2   C   u0 {1,D} {4,S} {6,S}
@@ -6427,7 +6427,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6440,7 +6440,7 @@ entry(
 	solute = u's2_5_6_triene_m_1_7',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6449,7 +6449,7 @@ u"""
 entry(
 	index = 192,
 	label = "s2_5_6_triene_m_1_7",
-	group = 
+	group =
 """
 1 * R!H u0 {2,D} {3,S} {6,S}
 2   R!H u0 {1,D} {4,S} {5,S}
@@ -6476,7 +6476,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6489,7 +6489,7 @@ entry(
 	solute = u's2_5_6_tetraene_1_3_5_7',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6498,7 +6498,7 @@ u"""
 entry(
 	index = 194,
 	label = "s2_5_6_tetraene_1_3_5_7",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {4,S} {5,D}
 2   R!H u0 {1,S} {3,S} {6,S}
@@ -6525,7 +6525,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6534,7 +6534,7 @@ u"""
 entry(
 	index = 195,
 	label = "s2_5_6_tetraene_1_3_5_8",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {5,S} {6,D}
 2   R!H u0 {1,S} {3,S} {4,D}
@@ -6561,7 +6561,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6570,7 +6570,7 @@ u"""
 entry(
 	index = 196,
 	label = "s2_5_6_ben",
-	group = 
+	group =
 """
 1 * R!H u0 {2,B} {3,S} {5,B}
 2   R!H u0 {1,B} {4,S} {6,B}
@@ -6597,7 +6597,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6606,7 +6606,7 @@ u"""
 entry(
 	index = 197,
 	label = "s2_5_6_ben_onlyC",
-	group = 
+	group =
 """
 1 * C u0 {2,B} {3,S} {5,B}
 2   C u0 {1,B} {4,S} {6,B}
@@ -6633,7 +6633,7 @@ entry(
 		A = 29,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6642,7 +6642,7 @@ u"""
 entry(
 	index = 198,
 	label = "s2_5_6_phthalan",
-	group = 
+	group =
 """
 1 * C u0 {2,B} {3,S} {5,B}
 2   C u0 {1,B} {4,S} {6,B}
@@ -6669,7 +6669,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6678,7 +6678,7 @@ u"""
 entry(
 	index = 199,
 	label = "s2_5_6_2,3-dihydrobenzofuran",
-	group = 
+	group =
 """
 1 * C u0 {2,B} {3,S} {5,B}
 2   C u0 {1,B} {4,S} {6,B}
@@ -6705,7 +6705,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6714,7 +6714,7 @@ u"""
 entry(
 	index = 200,
 	label = "s2_5_6_indoline",
-	group = 
+	group =
 """
 1 * C u0 {2,B} {3,S} {5,B}
 2   C u0 {1,B} {4,S} {6,B}
@@ -6741,7 +6741,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6750,7 +6750,7 @@ u"""
 entry(
 	index = 201,
 	label = "s2_5_6_isatin",
-	group = 
+	group =
 """
 1 * C u0 {2,B} {3,S} {5,B}
 2   C u0 {1,B} {4,S} {6,B}
@@ -6777,7 +6777,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6786,7 +6786,7 @@ u"""
 entry(
 	index = 202,
 	label = "s2_5_6_oxindole",
-	group = 
+	group =
 """
 1 * C u0 {2,B} {3,S} {5,B}
 2   C u0 {1,B} {4,S} {6,B}
@@ -6813,7 +6813,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6822,7 +6822,7 @@ u"""
 entry(
 	index = 203,
 	label = "s2_5_6_isoindoline",
-	group = 
+	group =
 """
 1 * C u0 {2,B} {3,S} {5,B}
 2   C u0 {1,B} {4,S} {6,B}
@@ -6849,7 +6849,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6858,7 +6858,7 @@ u"""
 entry(
 	index = 204,
 	label = "s2_5_6_isoindole-1,3-dione",
-	group = 
+	group =
 """
 1 * C  u0 {2,B} {3,S} {5,B}
 2   C  u0 {1,B} {4,S} {6,B}
@@ -6885,7 +6885,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6894,7 +6894,7 @@ u"""
 entry(
 	index = 205,
 	label = "s2_5_6_1,3-benzodioxole",
-	group = 
+	group =
 """
 1 * C u0 {2,B} {3,S} {5,B}
 2   C u0 {1,B} {4,S} {6,B}
@@ -6921,7 +6921,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6930,7 +6930,7 @@ u"""
 entry(
 	index = 206,
 	label = "s2_5_6_2,3-dihydrobenzothiophene",
-	group = 
+	group =
 """
 1 * C u0 {2,B} {3,S} {5,B}
 2   C u0 {1,B} {4,S} {6,B}
@@ -6957,7 +6957,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6970,7 +6970,7 @@ entry(
 	solute = u's2_5_6_purine_general',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6979,7 +6979,7 @@ u"""
 entry(
 	index = 208,
 	label = "s2_5_6_heteroaromatic1",
-	group = 
+	group =
 """
 1  [C,N,S] u0 {5,S} {9,S}
 2  [C,N,S] u0 {4,S} {7,S}
@@ -6994,7 +6994,7 @@ entry(
 	solute = u's2_5_6_heteroaromatic',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_heteroaromatic
 """,
@@ -7003,7 +7003,7 @@ this is one of the groups that belong to s2_5_6_heteroaromatic
 entry(
 	index = 209,
 	label = "s2_5_6_heteroaromatic2",
-	group = 
+	group =
 """
 1  [C,N,S] u0 {5,S} {9,D}
 2  [C,N,S] u0 {4,D} {7,S}
@@ -7018,7 +7018,7 @@ entry(
 	solute = u's2_5_6_heteroaromatic',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_heteroaromatic
 """,
@@ -7027,7 +7027,7 @@ this is one of the groups that belong to s2_5_6_heteroaromatic
 entry(
 	index = 210,
 	label = "s2_5_6_heteroaromatic3",
-	group = 
+	group =
 """
 1  [C,N,S] u0 {4,S} {7,S}
 2  [C,N,S] u0 {4,S} {9,D}
@@ -7042,7 +7042,7 @@ entry(
 	solute = u's2_5_6_heteroaromatic',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_heteroaromatic
 """,
@@ -7056,7 +7056,7 @@ s2_5_6_purine7, s2_5_6_purine8, s2_5_6_hypoxanthine_general}",
 	solute = u's2_5_6_purine',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7065,7 +7065,7 @@ u"""
 entry(
 	index = 212,
 	label = "s2_5_6_purine1",
-	group = 
+	group =
 """
 1 * C u0 {2,S} {3,S} {5,D}
 2   C u0 {1,S} {4,S} {6,D}
@@ -7080,7 +7080,7 @@ entry(
 	solute = u's2_5_6_purine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_purine
 """,
@@ -7089,7 +7089,7 @@ this is one of the groups that belong to s2_5_6_purine
 entry(
 	index = 213,
 	label = "s2_5_6_purine2",
-	group = 
+	group =
 """
 1 * C u0 {2,D} {3,S} {5,S}
 2   C u0 {1,D} {4,S} {6,S}
@@ -7104,7 +7104,7 @@ entry(
 	solute = u's2_5_6_purine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_purine
 """,
@@ -7113,7 +7113,7 @@ this is one of the groups that belong to s2_5_6_purine
 entry(
 	index = 214,
 	label = "s2_5_6_purine3",
-	group = 
+	group =
 """
 1 * C u0 {2,S} {3,S} {5,D}
 2   C u0 {1,S} {4,S} {6,D}
@@ -7128,7 +7128,7 @@ entry(
 	solute = u's2_5_6_purine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_purine
 """,
@@ -7137,7 +7137,7 @@ this is one of the groups that belong to s2_5_6_purine
 entry(
 	index = 215,
 	label = "s2_5_6_purine4",
-	group = 
+	group =
 """
 1  N u0 {5,S} {8,S}
 2  N u0 {6,S} {8,D}
@@ -7152,7 +7152,7 @@ entry(
 	solute = u's2_5_6_purine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_purine
 """,
@@ -7161,7 +7161,7 @@ this is one of the groups that belong to s2_5_6_purine
 entry(
 	index = 216,
 	label = "s2_5_6_purine5",
-	group = 
+	group =
 """
 1  N u0 {5,S} {7,S}
 2  N u0 {6,S} {7,D}
@@ -7176,7 +7176,7 @@ entry(
 	solute = u's2_5_6_purine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_purine
 """,
@@ -7185,7 +7185,7 @@ this is one of the groups that belong to s2_5_6_purine
 entry(
 	index = 217,
 	label = "s2_5_6_purine6",
-	group = 
+	group =
 """
 1  N u0 {7,S} {8,S}
 2  N u0 {5,S} {9,D}
@@ -7200,7 +7200,7 @@ entry(
 	solute = u's2_5_6_purine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_purine
 """,
@@ -7209,7 +7209,7 @@ this is one of the groups that belong to s2_5_6_purine
 entry(
 	index = 218,
 	label = "s2_5_6_purine7",
-	group = 
+	group =
 """
 1  N u0 {6,S} {9,S}
 2  N u0 {7,S} {8,S}
@@ -7224,7 +7224,7 @@ entry(
 	solute = u's2_5_6_purine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_purine
 """,
@@ -7233,7 +7233,7 @@ this is one of the groups that belong to s2_5_6_purine
 entry(
 	index = 219,
 	label = "s2_5_6_purine8",
-	group = 
+	group =
 """
 1  N u0 {5,S} {8,S}
 2  N u0 {7,S} {9,S}
@@ -7248,7 +7248,7 @@ entry(
 	solute = u's2_5_6_purine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_purine
 """,
@@ -7257,7 +7257,7 @@ this is one of the groups that belong to s2_5_6_purine
 entry(
 	index = 220,
 	label = "s2_5_6_purine",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
 2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
@@ -7284,7 +7284,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 dummy group to put all s2_5_6_purine groups (s2_5_6_purine1-8) together
 """,
@@ -7297,7 +7297,7 @@ entry(
 	solute = u's2_5_6_hypoxanthine',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7306,7 +7306,7 @@ u"""
 entry(
 	index = 222,
 	label = "s2_5_6_hypoxanthine1",
-	group = 
+	group =
 """
 1  N  u0 {6,S} {9,S}
 2  N  u0 {7,S} {8,S}
@@ -7321,7 +7321,7 @@ entry(
 	solute = u's2_5_6_hypoxanthine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_hypoxanthine
 """,
@@ -7330,7 +7330,7 @@ this is one of the groups that belong to s2_5_6_hypoxanthine
 entry(
 	index = 223,
 	label = "s2_5_6_hypoxanthine2",
-	group = 
+	group =
 """
 1  N u0 {5,S} {8,S}
 2  N u0 {7,S} {9,S}
@@ -7345,7 +7345,7 @@ entry(
 	solute = u's2_5_6_hypoxanthine',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_5_6_hypoxanthine
 """,
@@ -7354,7 +7354,7 @@ this is one of the groups that belong to s2_5_6_hypoxanthine
 entry(
 	index = 224,
 	label = "s2_5_6_hypoxanthine",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
 2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
@@ -7381,7 +7381,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 dummy group to put all s2_5_6_hypoxanthine groups (s2_5_6_hypoxanthine1-2) together
 """,
@@ -7390,7 +7390,7 @@ dummy group to put all s2_5_6_hypoxanthine groups (s2_5_6_hypoxanthine1-2) toget
 entry(
 	index = 225,
 	label = "s2_5_6_heteroaromatic",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
 2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
@@ -7417,7 +7417,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 dummy group to put all s2_5_6_heteroaromatic groups (s2_5_6_heteroaromatic1-3) together
 """,
@@ -7426,7 +7426,7 @@ dummy group to put all s2_5_6_heteroaromatic groups (s2_5_6_heteroaromatic1-3) t
 entry(
 	index = 226,
 	label = "s2_5_6_indene_general",
-	group = 
+	group =
 """
 1 * R!H u0 {2,B} {3,S} {4,B}
 2   R!H u0 {1,B} {5,S} {6,B}
@@ -7441,7 +7441,7 @@ entry(
 	solute = u's2_5_6_indene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7450,7 +7450,7 @@ u"""
 entry(
 	index = 227,
 	label = "s2_5_6_indene",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,B} {3,S} {4,B}
 2   Cb  u0 {1,B} {5,S} {6,B}
@@ -7477,7 +7477,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7486,7 +7486,7 @@ u"""
 entry(
 	index = 228,
 	label = "s2_5_6_indole",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,B} {3,S} {4,B}
 2   Cb  u0 {1,B} {5,S} {6,B}
@@ -7513,7 +7513,7 @@ entry(
 		A = 42,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7522,7 +7522,7 @@ u"""
 entry(
 	index = 229,
 	label = "s2_5_6_benzimidazole",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,B} {3,S} {4,B}
 2   Cb  u0 {1,B} {5,S} {6,B}
@@ -7549,7 +7549,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7558,7 +7558,7 @@ u"""
 entry(
 	index = 230,
 	label = "s2_5_6_indazole",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,B} {3,S} {4,B}
 2   Cb  u0 {1,B} {5,S} {6,B}
@@ -7585,7 +7585,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7594,7 +7594,7 @@ u"""
 entry(
 	index = 231,
 	label = "s2_5_6_benzofuran",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,B} {3,S} {4,B}
 2   Cb  u0 {1,B} {5,S} {6,B}
@@ -7621,7 +7621,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7630,7 +7630,7 @@ u"""
 entry(
 	index = 232,
 	label = "s2_5_6_benzothiophene",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,B} {3,S} {4,B}
 2   Cb  u0 {1,B} {5,S} {6,B}
@@ -7657,7 +7657,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7666,7 +7666,7 @@ u"""
 entry(
 	index = 233,
 	label = "s2_5_6_benzoxazole",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,B} {3,S} {4,B}
 2   Cb  u0 {1,B} {5,S} {6,B}
@@ -7693,7 +7693,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7702,7 +7702,7 @@ u"""
 entry(
 	index = 234,
 	label = "s2_5_6_benzisoxazole",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,B} {3,S} {4,B}
 2   Cb  u0 {1,B} {5,S} {6,B}
@@ -7729,7 +7729,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7738,7 +7738,7 @@ u"""
 entry(
 	index = 235,
 	label = "s2_5_6_benzothiazole",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,B} {3,S} {4,B}
 2   Cb  u0 {1,B} {5,S} {6,B}
@@ -7765,7 +7765,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7774,7 +7774,7 @@ u"""
 entry(
 	index = 236,
 	label = "s2_5_6_benzotriazole",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,B} {3,S} {4,B}
 2   Cb  u0 {1,B} {5,S} {6,B}
@@ -7801,7 +7801,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7810,7 +7810,7 @@ u"""
 entry(
 	index = 237,
 	label = "s2_5_7",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
 2    R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
@@ -7838,7 +7838,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7847,14 +7847,14 @@ u"""
 entry(
 	index = 238,
 	label = "s2_5_7_azulene",
-	group = 
+	group =
 """
 1  * C u0 {2,S} {3,D} {4,S}
 2  C u0 {1,S} {5,D} {6,S}
 3  C u0 {1,D} {8,S}
 4  C u0 {1,S} {9,D}
 5  C u0 {2,D} {9,S}
-6  C u0 {2,S} {10,D} 
+6  C u0 {2,S} {10,D}
 7  C u0 {8,D} {10,S}
 8  C u0 {3,S} {7,D}
 9  C u0 {4,D} {5,S}
@@ -7875,7 +7875,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7884,7 +7884,7 @@ u"""
 entry(
 	index = 239,
 	label = "s2_5_7_ene_1",
-	group = 
+	group =
 """
 1  * C u0 {2,D} {4,S} {5,S}
 2    C u0 {1,D} {3,S} {6,S}
@@ -7912,7 +7912,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7921,7 +7921,7 @@ u"""
 entry(
 	index = 240,
 	label = "s2_5_7_ene_2",
-	group = 
+	group =
 """
 1  * C u0 {2,S} {4,D} {5,S}
 2    C u0 {1,S} {3,S} {6,S}
@@ -7949,7 +7949,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7958,7 +7958,7 @@ u"""
 entry(
 	index = 241,
 	label = "s2_6_6",
-	group = 
+	group =
 """
 1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
 2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
@@ -7986,7 +7986,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7995,7 +7995,7 @@ u"""
 entry(
 	index = 242,
 	label = "s2_6_6_ane",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {6,S}
 2    R!H u0 {1,S} {4,S} {5,S}
@@ -8023,7 +8023,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8036,7 +8036,7 @@ entry(
 	solute = u's2_6_6_ene_1',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8045,7 +8045,7 @@ u"""
 entry(
 	index = 244,
 	label = "s2_6_6_ene_0",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {5,S}
 2    R!H u0 {1,S} {4,D} {6,S}
@@ -8073,7 +8073,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8082,7 +8082,7 @@ u"""
 entry(
 	index = 245,
 	label = "s2_6_6_ene_1",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {5,S}
 2    R!H u0 {1,S} {4,S} {6,S}
@@ -8110,7 +8110,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8119,7 +8119,7 @@ u"""
 entry(
 	index = 246,
 	label = "s2_6_6_ene_2",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {4,S}
 2    R!H u0 {1,S} {5,S} {6,S}
@@ -8147,7 +8147,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8156,7 +8156,7 @@ u"""
 entry(
 	index = 247,
 	label = "s2_6_6_ene_m",
-	group = 
+	group =
 """
 1    R!H u0 {2,D} {5,S} {6,S}
 2    R!H u0 {1,D} {3,S} {4,S}
@@ -8172,7 +8172,7 @@ entry(
 	solute = u's2_6_6_ene_0',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8185,7 +8185,7 @@ entry(
 	solute = u's2_6_6_diene_0_8',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8194,7 +8194,7 @@ u"""
 entry(
 	index = 249,
 	label = "s2_6_6_diene_0_2",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {5,S}
 2    R!H u0 {1,S} {4,S} {6,D}
@@ -8222,7 +8222,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8231,7 +8231,7 @@ u"""
 entry(
 	index = 250,
 	label = "s2_6_6_diene_0_3",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {4,S} {6,D}
 2    R!H u0 {1,S} {3,S} {5,S}
@@ -8259,7 +8259,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8268,7 +8268,7 @@ u"""
 entry(
 	index = 251,
 	label = "s2_6_6_diene_0_6",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {5,S} {6,D}
 2    R!H u0 {1,S} {3,S} {4,S}
@@ -8296,7 +8296,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8305,7 +8305,7 @@ u"""
 entry(
 	index = 252,
 	label = "s2_6_6_diene_0_8",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {4,S} {6,D}
 2    R!H u0 {1,S} {3,S} {5,S}
@@ -8333,7 +8333,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8342,7 +8342,7 @@ u"""
 entry(
 	index = 253,
 	label = "s2_6_6_diene_1_6",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {5,S} {6,S}
 2    R!H u0 {1,S} {3,S} {4,S}
@@ -8370,7 +8370,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8379,7 +8379,7 @@ u"""
 entry(
 	index = 254,
 	label = "s2_6_6_diene_1_7",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {4,S} {6,S}
 2    R!H u0 {1,S} {3,S} {5,S}
@@ -8407,7 +8407,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8420,7 +8420,7 @@ entry(
 	solute = u's2_6_6_tetraene_0_2_6_8',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8429,7 +8429,7 @@ u"""
 entry(
 	index = 256,
 	label = "s2_6_6_tetraene_0_2_4_7",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {4,D}
 2    R!H u0 {1,S} {5,D} {6,S}
@@ -8457,7 +8457,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8466,7 +8466,7 @@ u"""
 entry(
 	index = 257,
 	label = "s2_6_6_tetraene_0_2_6_8",
-	group = 
+	group =
 """
 1    R!H u0 {2,S} {3,S} {6,S}
 2    R!H u0 {1,S} {4,D} {5,S}
@@ -8494,7 +8494,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8503,7 +8503,7 @@ u"""
 entry(
 	index = 258,
 	label = "s2_6_6_ben",
-	group = 
+	group =
 """
 1    R!H u0 {2,B} {3,B} {5,S}
 2    R!H u0 {1,B} {4,B} {6,S}
@@ -8531,7 +8531,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8540,7 +8540,7 @@ u"""
 entry(
 	index = 259,
 	label = "s2_6_6_ben_onlyC",
-	group = 
+	group =
 """
 1    C u0 {2,B} {3,B} {5,S}
 2    C u0 {1,B} {4,B} {6,S}
@@ -8568,7 +8568,7 @@ entry(
 		A = 25,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8577,7 +8577,7 @@ u"""
 entry(
 	index = 260,
 	label = "s2_6_6_ben_chromane",
-	group = 
+	group =
 """
 1    C u0 {2,B} {3,B} {5,S}
 2    C u0 {1,B} {4,B} {6,S}
@@ -8605,7 +8605,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8614,7 +8614,7 @@ u"""
 entry(
 	index = 261,
 	label = "s2_6_6_ben_1,4-dioxane",
-	group = 
+	group =
 """
 1    C u0 {2,B} {3,B} {5,S}
 2    C u0 {1,B} {4,B} {6,S}
@@ -8642,7 +8642,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8655,7 +8655,7 @@ entry(
 	solute = u's2_6_6_ben_ene_1',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8664,7 +8664,7 @@ u"""
 entry(
 	index = 263,
 	label = "s2_6_6_ben_ene_1",
-	group = 
+	group =
 """
 1    R!H u0 {2,B} {3,S} {4,B}
 2    R!H u0 {1,B} {5,B} {6,S}
@@ -8692,7 +8692,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8701,7 +8701,7 @@ u"""
 entry(
 	index = 264,
 	label = "s2_6_6_ben_ene_1_2-Benzothiazine-1,1-dioxide",
-	group = 
+	group =
 """
 1    C    u0 {2,B} {3,S} {4,B}
 2    C    u0 {1,B} {5,B} {6,S}
@@ -8731,7 +8731,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8740,7 +8740,7 @@ u"""
 entry(
 	index = 265,
 	label = "s2_6_6_ben_ene_1_coumarin",
-	group = 
+	group =
 """
 1    C  u0 {2,B} {3,S} {4,B}
 2    C  u0 {1,B} {5,B} {6,S}
@@ -8768,7 +8768,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8777,7 +8777,7 @@ u"""
 entry(
 	index = 266,
 	label = "s2_6_6_ben_ene_2",
-	group = 
+	group =
 """
 1    R!H u0 {2,B} {4,B} {5,S}
 2    R!H u0 {1,B} {3,S} {6,B}
@@ -8805,7 +8805,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8814,7 +8814,7 @@ u"""
 entry(
 	index = 267,
 	label = "s2_6_6_chromen-4-one",
-	group = 
+	group =
 """
 1    Cb  u0 {2,B} {4,B} {5,S}
 2    Cb  u0 {1,B} {3,S} {6,B}
@@ -8842,7 +8842,7 @@ entry(
 		A = 86,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8856,7 +8856,7 @@ s2_6_6_isoquinoline_general, s2_6_6_quinoline_general}",
 	solute = u's2_6_6_quinoline_general',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8865,7 +8865,7 @@ u"""
 entry(
 	index = 269,
 	label = "s2_6_6_ben_heteroaromatic1",
-	group = 
+	group =
 """
 1  * [C,N] u0 {9,D} {10,S}
 2  [C,N] u0 {3,B} {5,B} {6,S}
@@ -8881,7 +8881,7 @@ entry(
 	solute = u's2_6_6_ben_heteroaromatic',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_ben_heteroaromatic
 """,
@@ -8890,7 +8890,7 @@ this is one of the groups that belong to s2_6_6_ben_heteroaromatic
 entry(
 	index = 270,
 	label = "s2_6_6_ben_heteroaromatic2",
-	group = 
+	group =
 """
 1  [C,N] u0 {3,S} {9,D}
 2  [C,N] u0 {4,S} {10,D}
@@ -8906,7 +8906,7 @@ entry(
 	solute = u's2_6_6_ben_heteroaromatic',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_ben_heteroaromatic
 """,
@@ -8915,7 +8915,7 @@ this is one of the groups that belong to s2_6_6_ben_heteroaromatic
 entry(
 	index = 271,
 	label = "s2_6_6_ben_heteroaromatic3",
-	group = 
+	group =
 """
 1  [C,N] u0 p1 c0 {9,S} {10,D}
 2  [C,N] u0 p0 c0 {3,S} {4,S} {6,D}
@@ -8931,7 +8931,7 @@ entry(
 	solute = u's2_6_6_ben_heteroaromatic',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_ben_heteroaromatic
 """,
@@ -8940,7 +8940,7 @@ this is one of the groups that belong to s2_6_6_ben_heteroaromatic
 entry(
 	index = 272,
 	label = "s2_6_6_ben_heteroaromatic4",
-	group = 
+	group =
 """
 1  [C,N] u0 {5,S} {8,S}
 2  [C,N] u0 {5,S} {10,D}
@@ -8956,7 +8956,7 @@ entry(
 	solute = u's2_6_6_ben_heteroaromatic',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_ben_heteroaromatic
 """,
@@ -8969,7 +8969,7 @@ entry(
 	solute = u's2_6_6_quinoline',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8978,7 +8978,7 @@ u"""
 entry(
 	index = 274,
 	label = "s2_6_6_quinoline1",
-	group = 
+	group =
 """
 1    Cb  u0 {2,B} {4,B} {5,S}
 2    Cb  u0 {1,B} {3,S} {6,B}
@@ -8994,7 +8994,7 @@ entry(
 	solute = u's2_6_6_quinoline',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_quinoline
 """,
@@ -9003,7 +9003,7 @@ this is one of the groups that belong to s2_6_6_quinoline
 entry(
 	index = 275,
 	label = "s2_6_6_quinoline2",
-	group = 
+	group =
 """
 1  N u0 {3,D} {10,S}
 2  C u0 {3,S} {4,D} {5,S}
@@ -9019,7 +9019,7 @@ entry(
 	solute = u's2_6_6_quinoline',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_quinoline
 """,
@@ -9032,7 +9032,7 @@ entry(
 	solute = u's2_6_6_8-Hydroxyquinoline',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9041,7 +9041,7 @@ u"""
 entry(
 	index = 277,
 	label = "s2_6_6_8-Hydroxyquinoline1",
-	group = 
+	group =
 """
 1    Cb  u0 {2,B} {4,B} {5,S}
 2    Cb  u0 {1,B} {3,S} {6,B}
@@ -9059,7 +9059,7 @@ entry(
 	solute = u's2_6_6_8-Hydroxyquinoline',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_8-Hydroxyquinoline
 """,
@@ -9068,7 +9068,7 @@ this is one of the groups that belong to s2_6_6_8-Hydroxyquinoline
 entry(
 	index = 278,
 	label = "s2_6_6_8-Hydroxyquinoline2",
-	group = 
+	group =
 """
 1  N u0 {3,D} {10,S}
 2  C u0 {3,S} {4,D} {5,S}
@@ -9086,7 +9086,7 @@ entry(
 	solute = u's2_6_6_8-Hydroxyquinoline',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_8-Hydroxyquinoline
 """,
@@ -9095,7 +9095,7 @@ this is one of the groups that belong to s2_6_6_8-Hydroxyquinoline
 entry(
 	index = 279,
 	label = "s2_6_6_8-Hydroxyquinoline",
-	group = 
+	group =
 """
 1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
 2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
@@ -9123,7 +9123,7 @@ entry(
 		A = 40,
 	),
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 dummy group to put all s2_6_6_8-Hydroxyquinoline groups (s2_6_6_8-Hydroxyquinoline1-2) together
 """,
@@ -9136,7 +9136,7 @@ entry(
 	solute = u's2_6_6_quinoline_nitro',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9145,7 +9145,7 @@ u"""
 entry(
 	index = 281,
 	label = "s2_6_6_quinoline_nitro1",
-	group = 
+	group =
 """
 1    Cb  u0 {2,B} {4,B} {5,S}
 2    Cb  u0 {1,B} {3,S} {6,B}
@@ -9161,7 +9161,7 @@ entry(
 	solute = u's2_6_6_quinoline_nitro',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_quinoline_nitro
 """,
@@ -9170,7 +9170,7 @@ this is one of the groups that belong to s2_6_6_quinoline_nitro
 entry(
 	index = 282,
 	label = "s2_6_6_quinoline_nitro2",
-	group = 
+	group =
 """
 1  N5dc u0 {3,D} {10,S}
 2  C u0 {3,S} {4,D} {5,S}
@@ -9186,7 +9186,7 @@ entry(
 	solute = u's2_6_6_quinoline_nitro',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_quinoline_nitro
 """,
@@ -9195,7 +9195,7 @@ this is one of the groups that belong to s2_6_6_quinoline_nitro
 entry(
 	index = 283,
 	label = "s2_6_6_quinoline_nitro",
-	group = 
+	group =
 """
 1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
 2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
@@ -9223,7 +9223,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 dummy group to put all s2_6_6_quinoline_nitro groups (s2_6_6_quinoline_nitro1-2) together
 """,
@@ -9232,7 +9232,7 @@ dummy group to put all s2_6_6_quinoline_nitro groups (s2_6_6_quinoline_nitro1-2)
 entry(
 	index = 284,
 	label = "s2_6_6_quinoline",
-	group = 
+	group =
 """
 1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
 2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
@@ -9260,7 +9260,7 @@ entry(
 		A = 41,
 	),
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 dummy group to put all s2_6_6_quinoline groups (s2_6_6_quinoline1-2) together
 """,
@@ -9273,7 +9273,7 @@ entry(
 	solute = u's2_6_6_isoquinoline',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9282,7 +9282,7 @@ u"""
 entry(
 	index = 286,
 	label = "s2_6_6_isoquinoline1",
-	group = 
+	group =
 """
 1  * N u0 {9,D} {10,S}
 2  C u0 {3,B} {5,B} {6,S}
@@ -9298,7 +9298,7 @@ entry(
 	solute = u's2_6_6_isoquinoline',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_isoquinoline
 """,
@@ -9307,7 +9307,7 @@ this is one of the groups that belong to s2_6_6_isoquinoline
 entry(
 	index = 287,
 	label = "s2_6_6_isoquinoline2",
-	group = 
+	group =
 """
 1  * N u0 {9,S} {10,D}
 2  C u0 {3,S} {4,S} {6,D}
@@ -9323,7 +9323,7 @@ entry(
 	solute = u's2_6_6_isoquinoline',
 	dataCount = None,
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 this is one of the groups that belong to s2_6_6_isoquinoline
 """,
@@ -9332,7 +9332,7 @@ this is one of the groups that belong to s2_6_6_isoquinoline
 entry(
 	index = 288,
 	label = "s2_6_6_isoquinoline",
-	group = 
+	group =
 """
 1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
 2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
@@ -9360,7 +9360,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 dummy group to put all s2_6_6_isoquinoline groups (s2_6_6_isoquinoline1-2) together
 """,
@@ -9369,7 +9369,7 @@ dummy group to put all s2_6_6_isoquinoline groups (s2_6_6_isoquinoline1-2) toget
 entry(
 	index = 289,
 	label = "s2_6_6_ben_heteroaromatic",
-	group = 
+	group =
 """
 1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
 2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
@@ -9397,7 +9397,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""special solvation polycyclic group""",
-	longDesc = 
+	longDesc =
 u"""
 dummy group to put all s2_6_6_ben_heteroaromatic groups (s2_6_6_ben_heteroaromatic1-4) together
 """,
@@ -9406,7 +9406,7 @@ dummy group to put all s2_6_6_ben_heteroaromatic groups (s2_6_6_ben_heteroaromat
 entry(
 	index = 290,
 	label = "s2_6_6_naphthalene",
-	group = 
+	group =
 """
 1    R!H u0 {2,B} {3,B} {4,B}
 2    R!H u0 {1,B} {5,B} {6,B}
@@ -9434,7 +9434,7 @@ entry(
 		A = 235,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9443,7 +9443,7 @@ u"""
 entry(
 	index = 291,
 	label = "s2_6_7",
-	group = 
+	group =
 """
 1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
 2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
@@ -9472,7 +9472,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9481,7 +9481,7 @@ u"""
 entry(
 	index = 292,
 	label = "s2_6_7_ben",
-	group = 
+	group =
 """
 1    R!H u0 {2,B} {3,B} {6,[S,D,T,B]}
 2    R!H u0 {1,B} {4,B} {5,[S,D,T,B]}
@@ -9510,7 +9510,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9523,7 +9523,7 @@ entry(
 	solute = u's2_6_7_ben_ene_1',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9532,7 +9532,7 @@ u"""
 entry(
 	index = 294,
 	label = "s2_6_7_ben_ene_1",
-	group = 
+	group =
 """
 1    R!H u0 {2,B} {3,B} {6,[S,D,T,B]}
 2    R!H u0 {1,B} {4,B} {5,[S,D,T,B]}
@@ -9561,7 +9561,7 @@ entry(
 		A = 31,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9570,7 +9570,7 @@ u"""
 entry(
 	index = 295,
 	label = "s2_6_7_ben_diene_1_3",
-	group = 
+	group =
 """
 1    R!H u0 {2,B} {3,B} {6,[S,D,T,B]}
 2    R!H u0 {1,B} {4,B} {5,[S,D,T,B]}
@@ -9599,7 +9599,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9608,7 +9608,7 @@ u"""
 entry(
 	index = 296,
 	label = "s2_9_4",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D,B]} {4,[S,D,B]} {6,[S,D,B]}
 2  R!H u0 {1,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
@@ -9625,7 +9625,7 @@ entry(
 	solute = u's2_9_4_ene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9634,7 +9634,7 @@ u"""
 entry(
 	index = 297,
 	label = "s2_9_4_ene",
-	group = 
+	group =
 """
 1  * R!H u0 {2,S} {4,S} {6,S}
 2  R!H u0 {1,S} {3,S} {5,S}
@@ -9663,7 +9663,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9672,7 +9672,7 @@ u"""
 entry(
 	index = 298,
 	label = "s3_4_4",
-	group = 
+	group =
 """
 1   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
 2   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
@@ -9683,7 +9683,7 @@ entry(
 	solute = u's3_4_4_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9692,7 +9692,7 @@ u"""
 entry(
 	index = 299,
 	label = "s3_4_4_ane",
-	group = 
+	group =
 """
 1   R!H u0 {3,S} {4,S} {5,S}
 2   R!H u0 {3,S} {4,S} {5,S}
@@ -9715,7 +9715,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9724,7 +9724,7 @@ u"""
 entry(
 	index = 300,
 	label = "s3_4_6",
-	group = 
+	group =
 """
 1   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {6,[S,D,T,B]}
 2   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
@@ -9737,7 +9737,7 @@ entry(
 	solute = u's3_4_6_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9746,7 +9746,7 @@ u"""
 entry(
 	index = 301,
 	label = "s3_4_6_ane",
-	group = 
+	group =
 """
 1   R!H u0 {3,S} {4,S} {6,S}
 2   R!H u0 {3,S} {4,S} {5,S}
@@ -9771,7 +9771,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9784,7 +9784,7 @@ entry(
 	solute = u's3_4_6_ene_1',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9793,7 +9793,7 @@ u"""
 entry(
 	index = 303,
 	label = "s3_4_6_ene_1",
-	group = 
+	group =
 """
 1   R!H u0 {3,S} {4,S} {6,S}
 2   R!H u0 {3,S} {4,S} {5,S}
@@ -9818,7 +9818,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9827,7 +9827,7 @@ u"""
 entry(
 	index = 304,
 	label = "s3_5_5",
-	group = 
+	group =
 """
 1   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
 2   R!H u0 {3,[S,D,T,B]} {6,[S,D,T,B]} {7,[S,D,T,B]}
@@ -9840,7 +9840,7 @@ entry(
 	solute = u's3_5_5_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9853,7 +9853,7 @@ entry(
 	solute = u's3_5_5_ene_1',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9862,7 +9862,7 @@ u"""
 entry(
 	index = 306,
 	label = "s3_5_5_ene_1",
-	group = 
+	group =
 """
 1   R!H u0 {3,S} {5,S} {6,S}
 2   R!H u0 {3,S} {4,S} {7,S}
@@ -9887,7 +9887,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9896,7 +9896,7 @@ u"""
 entry(
 	index = 307,
 	label = "s3_5_5_ene_side",
-	group = 
+	group =
 """
 1   R!H u0 {3,S} {4,S} {6,S}
 2   R!H u0 {4,S} {5,S} {7,S}
@@ -9922,7 +9922,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9931,7 +9931,7 @@ u"""
 entry(
 	index = 308,
 	label = "s3_5_5_ene_side_norcamphor",
-	group = 
+	group =
 """
 1   C  u0 {3,S} {4,S} {6,S}
 2   C  u0 {4,S} {5,S} {7,S}
@@ -9957,7 +9957,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9966,7 +9966,7 @@ u"""
 entry(
 	index = 309,
 	label = "s3_5_5_ane",
-	group = 
+	group =
 """
 1   R!H u0 {3,S} {4,S} {5,S}
 2   R!H u0 {3,S} {6,S} {7,S}
@@ -9991,7 +9991,7 @@ entry(
 		A = 23,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10004,7 +10004,7 @@ entry(
 	solute = u's3_5_5_diene_1_4',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10013,7 +10013,7 @@ u"""
 entry(
 	index = 311,
 	label = "s3_5_5_diene_1_4",
-	group = 
+	group =
 """
 1   R!H u0 {3,S} {6,S} {7,S}
 2   R!H u0 {3,S} {4,S} {5,S}
@@ -10038,7 +10038,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10047,7 +10047,7 @@ u"""
 entry(
 	index = 312,
 	label = "s3_5_6",
-	group = 
+	group =
 """
 1   R!H u0 {3,[S,D,T,B]} {5,[S,D,T,B]} {6,[S,D,T,B]}
 2   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {7,[S,D,T,B]}
@@ -10061,7 +10061,7 @@ entry(
 	solute = u's3_5_6_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10070,7 +10070,7 @@ u"""
 entry(
 	index = 313,
 	label = "s3_5_6_ane",
-	group = 
+	group =
 """
 1   R!H u0 {3,S} {5,S} {6,S}
 2   R!H u0 {3,S} {4,S} {7,S}
@@ -10096,7 +10096,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10105,7 +10105,7 @@ u"""
 entry(
 	index = 314,
 	label = "s3_5_6_ane_tropane",
-	group = 
+	group =
 """
 1   C u0 {3,S} {5,S} {6,S}
 2   C u0 {3,S} {4,S} {7,S}
@@ -10131,7 +10131,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10144,7 +10144,7 @@ entry(
 	solute = u's3_5_6_ene_1',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10153,7 +10153,7 @@ u"""
 entry(
 	index = 316,
 	label = "s3_5_6_ene_1",
-	group = 
+	group =
 """
 1   R!H u0 {3,S} {4,S} {7,S}
 2   R!H u0 {3,S} {5,S} {6,S}
@@ -10179,7 +10179,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10188,7 +10188,7 @@ u"""
 entry(
 	index = 317,
 	label = "s3_5_7",
-	group = 
+	group =
 """
 1 * R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {7,[S,D,T,B]}
 2   R!H u0 {3,[S,D,T,B]} {5,[S,D,T,B]} {6,[S,D,T,B]}
@@ -10203,7 +10203,7 @@ entry(
 	solute = u's3_5_7_ane_0',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10212,7 +10212,7 @@ u"""
 entry(
 	index = 318,
 	label = "s3_5_7_ane_0",
-	group = 
+	group =
 """
 1 * R!H u0 {3,S} {4,S} {7,S}
 2   R!H u0 {3,S} {5,S} {6,S}
@@ -10239,7 +10239,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10248,7 +10248,7 @@ u"""
 entry(
 	index = 319,
 	label = "s3_6_6",
-	group = 
+	group =
 """
 1   R!H u0 {3,[S,D,T,B]} {6,[S,D,T,B]} {7,[S,D,T,B]}
 2   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
@@ -10263,7 +10263,7 @@ entry(
 	solute = u's3_6_6_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10272,7 +10272,7 @@ u"""
 entry(
 	index = 320,
 	label = "s3_6_6_ane",
-	group = 
+	group =
 """
 1   R!H u0 {3,S} {6,S} {7,S}
 2   R!H u0 {3,S} {4,S} {5,S}
@@ -10299,7 +10299,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10308,7 +10308,7 @@ u"""
 entry(
 	index = 321,
 	label = "s4_6_6",
-	group = 
+	group =
 """
 1 * R!H u0 {3,[S,D,T,B]} {6,[S,D,T,B]} {8,[S,D,T,B]}
 2   R!H u0 {4,[S,D,T,B]} {5,[S,D,T,B]} {7,[S,D,T,B]}
@@ -10322,7 +10322,7 @@ entry(
 	solute = u's4_6_6_ane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10331,7 +10331,7 @@ u"""
 entry(
 	index = 322,
 	label = "s4_6_6_ane",
-	group = 
+	group =
 """
 1 * R!H u0 {3,S} {6,S} {8,S}
 2   R!H u0 {4,S} {5,S} {7,S}
@@ -10357,7 +10357,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,

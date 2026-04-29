@@ -9,13 +9,13 @@ longDesc = u"""
 entry(
     index = -3,
     label = "R",
-    group = 
+    group =
 """
 1 * R u0
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -24,13 +24,13 @@ u"""
 entry(
     index = -2,
     label = "CO",
-    group = 
+    group =
 """
 1 * CO u0
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -39,7 +39,7 @@ u"""
 entry(
     index = 1,
     label = "Oss(CdsOd)",
-    group = 
+    group =
 """
 1 * CO                         u0 {2,S} {3,S} {4,D}
 2   O2s                         u0 {1,S} {5,S}
@@ -55,7 +55,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 43 non-cyclic ester""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -73,7 +73,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts group 44 lactone""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -82,7 +82,7 @@ u"""
 entry(
     index = 16,
     label = "Lac3",
-    group = 
+    group =
 """
 1   O2d  u0 {2,D}
 2 * CO  u0 {1,D} {3,S} {4,S}
@@ -91,7 +91,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""lactone, 3 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -100,7 +100,7 @@ u"""
 entry(
     index = 17,
     label = "Lac4",
-    group = 
+    group =
 """
 1   O2d  u0 {2,D}
 2 * CO  u0 {1,D} {3,S} {5,S}
@@ -110,7 +110,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""lactone, 4 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -119,7 +119,7 @@ u"""
 entry(
     index = 18,
     label = "Lac5",
-    group = 
+    group =
 """
 1   O2d  u0 {2,D}
 2 * CO  u0 {1,D} {3,S} {6,S}
@@ -130,7 +130,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""lactone, 5 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -139,7 +139,7 @@ u"""
 entry(
     index = 19,
     label = "Lac6",
-    group = 
+    group =
 """
 1   O2d  u0 {2,D}
 2 * CO  u0 {1,D} {3,S} {7,S}
@@ -151,7 +151,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""lactone, 6 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -160,7 +160,7 @@ u"""
 entry(
     index = 2,
     label = "Oss(CdsOd)Oss",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   O2s  u0 {1,S} {5,S}
@@ -177,7 +177,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 46 carbonate""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -186,7 +186,7 @@ u"""
 entry(
     index = 3,
     label = "OssH(CdsOd)",
-    group = 
+    group =
 """
 1 * CO                         u0 {2,S} {3,S} {4,D}
 2   O2s                         u0 {1,S} {5,S}
@@ -202,7 +202,7 @@ entry(
         A = 0.243,
     ),
     shortDesc = u"""Platts fragment 47 carboxylic acid""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -211,7 +211,7 @@ u"""
 entry(
     index = 5,
     label = "Cd(O2d)Cd=CdCd(O2d)",
-    group = 
+    group =
 """
 1  * CO u0 {2,D} {3,S} {4,S}
 2    O2d u0 {1,D}
@@ -232,7 +232,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 55 quinone""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -241,7 +241,7 @@ u"""
 entry(
     index = 20,
     label = "Cd(O2d)N",
-    group = 
+    group =
 """
 1 * CO        u0 {2,D} {3,S}
 2   O2d        u0 {1,D}
@@ -255,7 +255,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts group 49 noncyclic aliphatic amide""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -273,7 +273,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts group 50 lactam""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -282,7 +282,7 @@ u"""
 entry(
     index = 22,
     label = "Lactam4",
-    group = 
+    group =
 """
 1   O2d u0 {2,D}
 2 * CO u0 {1,D} {3,S} {5,S}
@@ -292,7 +292,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""lactam, 4 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -301,7 +301,7 @@ u"""
 entry(
     index = 23,
     label = "Lactam5",
-    group = 
+    group =
 """
 1   O2d u0 {2,D}
 2 * CO u0 {1,D} {3,S} {6,S}
@@ -312,7 +312,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""lactam, 5 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -321,7 +321,7 @@ u"""
 entry(
     index = 24,
     label = "Lactam6",
-    group = 
+    group =
 """
 1   O2d u0 {2,D}
 2 * CO u0 {1,D} {3,S} {7,S}
@@ -333,7 +333,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""lactam, 6 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -342,7 +342,7 @@ u"""
 entry(
     index = 25,
     label = "Lactam7",
-    group = 
+    group =
 """
 1   O2d u0 {2,D}
 2 * CO u0 {1,D} {3,S} {8,S}
@@ -355,7 +355,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""lactam, 7 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -364,7 +364,7 @@ u"""
 entry(
     index = 27,
     label = "NCd(O2d)N",
-    group = 
+    group =
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
@@ -379,7 +379,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts group 52 urea""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -388,7 +388,7 @@ u"""
 entry(
     index = 28,
     label = "OsCd(O2d)N",
-    group = 
+    group =
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
@@ -403,7 +403,7 @@ entry(
         A = -0.105,
     ),
     shortDesc = u"""Platts group 53 carbamate (fragment 16 for A)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -412,7 +412,7 @@ u"""
 entry(
     index = 29,
     label = "Cd(O2d)NCd(O2d)",
-    group = 
+    group =
 """
 1 * CO  u0 {2,D} {3,S}
 2   O2d  u0 {1,D}
@@ -428,7 +428,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts group 54 imide""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -437,7 +437,7 @@ u"""
 entry(
     index = 4,
     label = "Cs(OssH)Cs(OssH)",
-    group = 
+    group =
 """
 1  * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2    R  u0 {1,S}
@@ -458,7 +458,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 68 1,2 diol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -467,7 +467,7 @@ u"""
 entry(
     index = 6,
     label = "CbCsOssH",
-    group = 
+    group =
 """
 1 * Cb u0 {2,S}
 2   Cs u0 {1,S} {3,S}
@@ -482,7 +482,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 79 benzyl alcohol""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -491,7 +491,7 @@ u"""
 entry(
     index = 8,
     label = "OssH",
-    group = 
+    group =
 """
 1 * O2s                 u0 {2,S} {3,S}
 2   H                  u0 {1,S}
@@ -505,7 +505,7 @@ entry(
         A = 0.345,
     ),
     shortDesc = u"""-OH (connected to aliphatic) correction for A""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -514,7 +514,7 @@ u"""
 entry(
     index = 7,
     label = "phenol",
-    group = 
+    group =
 """
 1 * O2s       u0 {2,S} {3,S}
 2   H        u0 {1,S}
@@ -528,7 +528,7 @@ entry(
         A = 0.543,
     ),
     shortDesc = u"""phenol correction for A""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -546,7 +546,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Correction for an Oss group in a ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -555,7 +555,7 @@ u"""
 entry(
     index = 10,
     label = "OxR3",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   R!H u0 {1,S} {3,[S,D,B]}
@@ -563,7 +563,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""O in a 3 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -572,7 +572,7 @@ u"""
 entry(
     index = 11,
     label = "OxR4",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {4,S}
 2   R!H u0 {1,S} {3,[S,D,B]}
@@ -581,7 +581,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""O in a 4 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -590,7 +590,7 @@ u"""
 entry(
     index = 12,
     label = "OxR5",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {5,S}
 2   R!H u0 {1,S} {3,[S,D,B]}
@@ -600,7 +600,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""O in a 5 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -609,7 +609,7 @@ u"""
 entry(
     index = 13,
     label = "OxR6",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {6,S}
 2   R!H u0 {1,S} {3,[S,D,B]}
@@ -620,7 +620,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""O in a 6 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -629,7 +629,7 @@ u"""
 entry(
     index = 14,
     label = "OxR7",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {7,S}
 2   R!H u0 {1,S} {3,[S,D,B]}
@@ -641,7 +641,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""O in a 7 membered ring""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -650,7 +650,7 @@ u"""
 entry(
     index = 26,
     label = "SdOdOdN",
-    group = 
+    group =
 """
 1 * S6dd u0 {2,D} {3,D} {4,S}
 2   O2d   u0 {1,D}
@@ -665,7 +665,7 @@ entry(
         A = 0.356,
     ),
     shortDesc = u"""Platts group 51 sulfonamide -S(O)(O)N- (and fragment 13 for A)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -674,7 +674,7 @@ u"""
 entry(
     index = 30,
     label = "N3sH2-benz",
-    group = 
+    group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   H   u0 {1,S}
@@ -694,7 +694,7 @@ entry(
         A = 0.247,
     ),
     shortDesc = u"""aniline correction for A (fragment 4)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -703,7 +703,7 @@ u"""
 entry(
     index = 31,
     label = "Cd(O2d)NH2",
-    group = 
+    group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   H   u0 {1,S}
@@ -719,7 +719,7 @@ entry(
         A = 0.275,
     ),
     shortDesc = u"""primary amide correction for A (fragment 10)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -728,7 +728,7 @@ u"""
 entry(
     index = 32,
     label = "Cd(O2d)NHR",
-    group = 
+    group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   H   u0 {1,S}
@@ -744,7 +744,7 @@ entry(
         A = 0.281,
     ),
     shortDesc = u"""secondary amide correction for A (fragment 11)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -753,7 +753,7 @@ u"""
 entry(
     index = 33,
     label = "Cd(O2d)NH-arom",
-    group = 
+    group =
 """
 1 * N3s      u0 {2,S} {3,S} {4,S}
 2   H        u0 {1,S}
@@ -769,7 +769,7 @@ entry(
         A = -0.091,
     ),
     shortDesc = u"""aromatic amide correction for A (fragment 12)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -778,7 +778,7 @@ u"""
 entry(
     index = 34,
     label = "N3sHCd(O2d)N3sH",
-    group = 
+    group =
 """
 1 * N3s u0 {2,S} {3,S}
 2   H   u0 {1,S}
@@ -795,7 +795,7 @@ entry(
         A = -0.0825,
     ),
     shortDesc = u"""urea correction for A (fragment 14)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -804,7 +804,7 @@ u"""
 entry(
     index = 35,
     label = "N3sCd(O2d)N3sH",
-    group = 
+    group =
 """
 1 * N3s u0 {2,S} {3,S} {7,S}
 2   R!H u0 {1,S}
@@ -822,7 +822,7 @@ entry(
         A = -0.119,
     ),
     shortDesc = u"""urea correction for A (fragment 15)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -831,7 +831,7 @@ u"""
 entry(
     index = 36,
     label = "CdsNdNsNs",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D} {5,S}
@@ -851,7 +851,7 @@ entry(
         A = 0.17,
     ),
     shortDesc = u"""guanidine correction for A (fragment 17)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -874,7 +874,7 @@ L1: R
             L4: Lactam4
             L4: Lactam5
             L4: Lactam6
-            L4: Lactam7        
+            L4: Lactam7
         L3: Cd(O2d)N
             L4: NCd(O2d)N
             L4: OsCd(O2d)N

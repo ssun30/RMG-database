@@ -30,7 +30,7 @@ entry(
 entry(
     index = 1,
     label = "R5JJ",
-    group = 
+    group =
 """
 1 *1 R!H u1 c0 {2,[S,D]} {5,S}
 2 *2 R!H u0 {1,[S,D]} {3,S}
@@ -44,7 +44,7 @@ entry(
 entry(
     index = 2,
     label = "R5JJ_Cd",
-    group = 
+    group =
 """
 1 *1 R!H u1 c0 {2,[S,D]} {5,S}
 2 *2 R!H u0 {1,[S,D]} {3,S}
@@ -59,7 +59,7 @@ entry(
 entry(
     index = 3,
     label = "R6JJ",
-    group = 
+    group =
 """
 1 *1 R!H u1 c0 {2,[S,D]} {5,S}
 2 *2 R!H u0 {1,[S,D]} {3,S}
@@ -74,7 +74,7 @@ entry(
 entry(
     index = 4,
     label = "R7JJ",
-    group = 
+    group =
 """
 1 *1 R!H u1 c0 {2,[S,D]} {5,S}
 2 *2 R!H u0 {1,[S,D]} {3,S}

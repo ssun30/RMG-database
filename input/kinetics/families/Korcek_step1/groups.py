@@ -22,7 +22,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "RCH(OOH)CH2C(O)R'",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S} {7,S} {9,S}
 2     C u0 {1,S} {3,S} {11,S} {12,S}

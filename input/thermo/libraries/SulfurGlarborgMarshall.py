@@ -15,7 +15,7 @@ DOI: 10.1002/kin.20778
 entry(
     index = 0,
     label = "Ar",
-    molecule = 
+    molecule =
 """
 1 Ar u0 p4 c0
 """,
@@ -28,7 +28,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302 L 6/88
 """,
@@ -37,7 +37,7 @@ BUR0302 L 6/88
 entry(
     index = 1,
     label = "H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -51,7 +51,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302 L 6/94
 """,
@@ -60,7 +60,7 @@ BUR0302 L 6/94
 entry(
     index = 2,
     label = "H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -74,7 +74,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 121286
 LI/DRY04 (v6.1)
@@ -84,7 +84,7 @@ LI/DRY04 (v6.1)
 entry(
     index = 3,
     label = "O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -98,7 +98,7 @@ multiplicity 3
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 120186
 LI/DRY04 (v6.1)
@@ -108,7 +108,7 @@ LI/DRY04 (v6.1)
 entry(
     index = 4,
     label = "O2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -123,7 +123,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302 RUS 89
 """,
@@ -132,7 +132,7 @@ BUR0302 RUS 89
 entry(
     index = 5,
     label = "OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -147,7 +147,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 S 9/01
 LI/DRY04 (v6.1)
@@ -157,7 +157,7 @@ LI/DRY04 (v6.1)
 entry(
     index = 6,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -172,7 +172,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 20387
 LI/DRY04 (v6.1)
@@ -182,7 +182,7 @@ LI/DRY04 (v6.1)
 entry(
     index = 7,
     label = "HO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -198,7 +198,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 L 5/89
 LI/DRY04 (v6.1)
@@ -208,7 +208,7 @@ LI/DRY04 (v6.1)
 entry(
     index = 8,
     label = "H2O2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -224,7 +224,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 120186
 LI/DRY04 (v6.1)
@@ -234,7 +234,7 @@ LI/DRY04 (v6.1)
 entry(
     index = 9,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
@@ -248,7 +248,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302 RUS 79
 """,
@@ -257,7 +257,7 @@ BUR0302 RUS 79
 entry(
     index = 10,
     label = "CO2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -272,7 +272,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302 L 7/88
 """,
@@ -281,7 +281,7 @@ BUR0302 L 7/88
 entry(
     index = 11,
     label = "HOCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -298,7 +298,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Hydroxyoxomethyl radical""",
-    longDesc = 
+    longDesc =
 u"""
 CLR est L 7/88
 CLR est based on CO2 data and SANDIA
@@ -310,7 +310,7 @@ S298= 60.00 cal/mol/K
 entry(
     index = 12,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -324,7 +324,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302 G 8/02
 """,
@@ -333,7 +333,7 @@ BUR0302 G 8/02
 entry(
     index = 13,
     label = "S",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u2 p2 c0
@@ -347,7 +347,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302     J 9/82
 """,
@@ -356,7 +356,7 @@ BUR0302     J 9/82
 entry(
     index = 14,
     label = "S2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u1 p2 c0 {2,S}
@@ -371,7 +371,7 @@ multiplicity 3
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Sulfur dimer (S=S)""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302     J 9/77
 """,
@@ -380,7 +380,7 @@ BUR0302     J 9/77
 entry(
     index = 15,
     label = "SH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p2 c0 {2,S}
@@ -395,7 +395,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Mercapto radical (H-S*)""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302     s06/01
 """,
@@ -404,7 +404,7 @@ BUR0302     s06/01
 entry(
     index = 16,
     label = "H2S",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -419,7 +419,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Hydrogen sulfide (H-S-H)""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302     RUS 89
 """,
@@ -428,7 +428,7 @@ BUR0302     RUS 89
 entry(
     index = 17,
     label = "HS2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p1 c0 {2,D} {3,S}
@@ -444,7 +444,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""H-S=S""",
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01   burc01
 """,
@@ -453,7 +453,7 @@ ALZ/GLA01   burc01
 entry(
     index = 18,
     label = "H2S2",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {4,S}
@@ -469,7 +469,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302    S 1/01
 """,
@@ -478,7 +478,7 @@ BUR0302    S 1/01
 entry(
     index = 19,
     label = "SO",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u1 p2 c0 {2,S}
@@ -493,7 +493,7 @@ multiplicity 3
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Sulfur monoxide (triplet) (S=O) ground state""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302     J 6/77
 """,
@@ -502,7 +502,7 @@ BUR0302     J 6/77
 entry(
     index = 20,
     label = "SO(S)",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,D}
 2 O u0 p2 c0 {1,D}
@@ -516,7 +516,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Sulfur monoxide (singlet) (S=O) excited state""",
-    longDesc = 
+    longDesc =
 u"""
 SO+deltaH
 S298 = 50.89 cal/mol/K
@@ -526,7 +526,7 @@ S298 = 50.89 cal/mol/K
 entry(
     index = 21,
     label = "SO2",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,D} {3,D}
 2 O u0 p2 c0 {1,D}
@@ -541,7 +541,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Sulfur dioxide (O=S=O)""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302     J 6/61
 """,
@@ -550,7 +550,7 @@ BUR0302     J 6/61
 entry(
     index = 22,
     label = "SO3",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 S u0 p0 c0 {1,D} {3,D} {4,D}
@@ -566,7 +566,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""Sulfur trioxide (O=S(=O)=O)""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302     J 9/65
 """,
@@ -575,7 +575,7 @@ BUR0302     J 9/65
 entry(
     index = 23,
     label = "HSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p1 c0 {2,S} {3,D}
@@ -591,7 +591,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""H-S*=O""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302     T 4/93
 BURCAT
@@ -601,7 +601,7 @@ BURCAT
 entry(
     index = 24,
     label = "HOS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -617,7 +617,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""HO-S*""",
-    longDesc = 
+    longDesc =
 u"""
 BUR0302     T 4/93
 """,
@@ -626,7 +626,7 @@ BUR0302     T 4/93
 entry(
     index = 25,
     label = "HSOH",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -642,7 +642,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""HS-OH""",
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01   BOZ/R
 """,
@@ -651,7 +651,7 @@ ALZ/GLA01   BOZ/R
 entry(
     index = 26,
     label = "HOSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -668,7 +668,7 @@ multiplicity 2
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""HO-S*=O""",
-    longDesc = 
+    longDesc =
 u"""
 DAG/GLA03 GOU/MAR99
 """,
@@ -677,7 +677,7 @@ DAG/GLA03 GOU/MAR99
 entry(
     index = 27,
     label = "HSO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p0 c0 {2,S} {3,D} {4,D}
@@ -694,7 +694,7 @@ multiplicity 2
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""H-S*(=O)=O""",
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 GOU/MAR99
 """,
@@ -703,7 +703,7 @@ ALZ/GLA01 GOU/MAR99
 entry(
     index = 28,
     label = "H2SO",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -719,7 +719,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""H2S=O""",
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01   BOZ/R
 """,
@@ -728,7 +728,7 @@ ALZ/GLA01   BOZ/R
 entry(
     index = 29,
     label = "HOSOH",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -743,7 +743,7 @@ entry(
         S298 = (64.94,'cal/(mol*K)'),
     ),
     shortDesc = u"""HO-S-OH""",
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01  BOZ/R
 """,
@@ -752,7 +752,7 @@ ALZ/GLA01  BOZ/R
 entry(
     index = 30,
     label = "HOSHO",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,S} {3,D} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -769,7 +769,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""HO-SH=O""",
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01   BOZ/R
 """,
@@ -778,7 +778,7 @@ ALZ/GLA01   BOZ/R
 entry(
     index = 31,
     label = "HOSO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -796,7 +796,7 @@ multiplicity 2
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""HO-S*(=O)=O""",
-    longDesc = 
+    longDesc =
 u"""
 leeds
 """,
@@ -805,7 +805,7 @@ leeds
 entry(
     index = 32,
     label = "CS2",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -820,7 +820,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 g 6/95
 Burcat 2006
@@ -830,7 +830,7 @@ Burcat 2006
 entry(
     index = 33,
     label = "CS",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c+1 {2,T}
 2 C u0 p1 c-1 {1,T}
@@ -844,7 +844,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 g11/01
 Burcat 2006
@@ -854,7 +854,7 @@ Burcat 2006
 entry(
     index = 34,
     label = "OCS",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -869,7 +869,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 g 5/01
 Burcat 2006
@@ -879,7 +879,7 @@ Burcat 2006
 entry(
     index = 35,
     label = "OCS2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -895,7 +895,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 1210
 MC Lin, pw
@@ -905,7 +905,7 @@ MC Lin, pw
 entry(
     index = 36,
     label = "S2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 S u0 p1 c0 {1,D} {3,D}
@@ -920,7 +920,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 haynes
 """,

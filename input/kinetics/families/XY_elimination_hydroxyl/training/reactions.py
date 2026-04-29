@@ -23,7 +23,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -56,7 +56,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -89,7 +89,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -120,7 +120,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -153,7 +153,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -186,7 +186,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -217,7 +217,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -250,7 +250,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -281,7 +281,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -318,7 +318,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -353,7 +353,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -387,7 +387,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -420,7 +420,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):
@@ -454,7 +454,7 @@ entry(
     ),
     rank = 5,
     shortDesc = """M062XD3/JUN-CC-PVTZ RRHO""",
-    longDesc = 
+    longDesc =
 """
 Calculated at DFT level (M062XD3/JUN-CC-PVTZ) with Gaussian 16 with RRHO approx
 # Coordinates for TS in Input Orientation (angstroms):

@@ -3964,7 +3964,7 @@ entry(
     label = "C3H2 + O <=> C2H2 + CO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 /doi:10.1016/S0010-2180(99)00070-X atrributes this to [estimated]!
 """,

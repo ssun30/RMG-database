@@ -17,7 +17,7 @@ entry(
         Ea = (18.6, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -33,7 +33,7 @@ entry(
         Ea = (9.83, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -49,7 +49,7 @@ entry(
         Ea = (0.73, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -65,7 +65,7 @@ entry(
         Ea = (18.6, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -81,7 +81,7 @@ entry(
         Ea = (9.83, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -97,7 +97,7 @@ entry(
         Ea = (0.73, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -113,7 +113,7 @@ entry(
         Ea = (18.9, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -129,7 +129,7 @@ entry(
         Ea = (9.83, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -145,7 +145,7 @@ entry(
         Ea = (0.73, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,

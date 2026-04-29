@@ -22,7 +22,7 @@ species.
 entry(
     index = 0,
     label = "OCC(Cl)(Br)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -50,7 +50,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.28 kcal/mol
 S298: 98.81 cal/mol/K
@@ -83,7 +83,7 @@ Frequencies (cm^-1) = 152.0,168.8,221.1,263.6,277.8,331.5,440.1,551.8,584.6,708.
 entry(
     index = 1,
     label = "[CH]DC(F)CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -111,7 +111,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 13.76 kcal/mol
 S298: 95.70 cal/mol/K
@@ -141,7 +141,7 @@ Frequencies (cm^-1) = 42.3,87.9,135.7,203.6,231.7,310.4,430.9,454.2,472.1,634.8,
 entry(
     index = 2,
     label = "FCDCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -166,7 +166,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -82.27 kcal/mol
 S298: 91.44 cal/mol/K
@@ -195,7 +195,7 @@ Frequencies (cm^-1) = 169.6,180.8,205.5,291.2,313.5,359.1,412.5,459.2,721.1,769.
 entry(
     index = 3,
     label = "CC(Br)[C](Cl)CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -225,7 +225,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -37.96 kcal/mol
 S298: 101.57 cal/mol/K
@@ -260,7 +260,7 @@ Frequencies (cm^-1) = 110.3,175.2,216.3,232.3,325.9,393.3,409.7,534.9,671.5,932.
 entry(
     index = 4,
     label = "CC(Cl)(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -287,7 +287,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -78.09 kcal/mol
 S298: 95.01 cal/mol/K
@@ -319,7 +319,7 @@ Frequencies (cm^-1) = 143.0,198.2,234.9,255.1,291.1,326.8,387.6,445.1,612.1,718.
 entry(
     index = 5,
     label = "FC[C](Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -346,7 +346,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -29.36 kcal/mol
 S298: 94.27 cal/mol/K
@@ -377,7 +377,7 @@ Frequencies (cm^-1) = 106.0,232.8,319.2,337.8,408.7,452.8,703.8,859.4,982.7,1013
 entry(
     index = 6,
     label = "FC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {4,S}
@@ -401,7 +401,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.68 kcal/mol
 S298: 82.14 cal/mol/K
@@ -429,7 +429,7 @@ Frequencies (cm^-1) = 164.9,235.2,376.1,458.6,637.6,749.2,858.6,1007.6,1141.9,11
 entry(
     index = 7,
     label = "FC(F)DC[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -454,7 +454,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -51.91 kcal/mol
 S298: 91.44 cal/mol/K
@@ -481,7 +481,7 @@ Frequencies (cm^-1) = 62.3,138.1,140.5,223.2,246.0,307.0,360.2,469.4,564.4,699.8
 entry(
     index = 8,
     label = "OC#CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -505,7 +505,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -23.67 kcal/mol
 S298: 94.34 cal/mol/K
@@ -533,7 +533,7 @@ Frequencies (cm^-1) = 78.1,97.5,201.9,292.0,304.8,337.6,390.1,450.6,475.7,557.3,
 entry(
     index = 9,
     label = "CC(Cl)(Br)O[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -561,7 +561,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -60.99 kcal/mol
 S298: 95.92 cal/mol/K
@@ -594,7 +594,7 @@ Frequencies (cm^-1) = 153.9,214.0,266.8,307.4,318.4,399.6,530.9,579.9,624.7,892.
 entry(
     index = 10,
     label = "F[CH]C(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -621,7 +621,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -25.08 kcal/mol
 S298: 90.17 cal/mol/K
@@ -652,7 +652,7 @@ Frequencies (cm^-1) = 161.7,208.5,239.2,306.7,493.3,560.3,618.8,649.6,874.5,936.
 entry(
     index = 11,
     label = "CDC(F)C(Cl)DC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {8,S}
 2  Cl u0 p3 c0 {6,S}
@@ -678,7 +678,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -19.86 kcal/mol
 S298: 97.79 cal/mol/K
@@ -707,7 +707,7 @@ Frequencies (cm^-1) = 55.4,74.7,144.1,202.1,210.7,240.7,275.5,355.8,405.8,517.4,
 entry(
     index = 12,
     label = "[CH2]OC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -735,7 +735,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -57.86 kcal/mol
 S298: 95.57 cal/mol/K
@@ -765,7 +765,7 @@ Frequencies (cm^-1) = 65.2,95.0,145.3,179.6,212.1,252.2,315.9,370.6,571.3,573.0,
 entry(
     index = 13,
     label = "OC(OBr)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {7,S}
@@ -789,7 +789,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.93 kcal/mol
 S298: 94.59 cal/mol/K
@@ -818,7 +818,7 @@ Frequencies (cm^-1) = 105.2,168.3,213.0,289.4,352.0,429.2,475.2,538.4,664.7,757.
 entry(
     index = 14,
     label = "ODC(Br)CC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -844,7 +844,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -99.96 kcal/mol
 S298: 96.50 cal/mol/K
@@ -875,7 +875,7 @@ Frequencies (cm^-1) = 112.2,205.0,292.7,347.9,379.1,452.5,501.1,648.6,834.3,881.
 entry(
     index = 15,
     label = "F[C]DC(Cl)C#CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -899,7 +899,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 94.17 kcal/mol
 S298: 91.45 cal/mol/K
@@ -925,7 +925,7 @@ Frequencies (cm^-1) = 68.6,99.4,161.2,251.5,271.1,320.5,367.5,487.7,528.3,621.7,
 entry(
     index = 16,
     label = "CD[C]C(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -953,7 +953,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 7.76 kcal/mol
 S298: 95.46 cal/mol/K
@@ -985,7 +985,7 @@ Frequencies (cm^-1) = 136.0,165.9,220.0,317.5,345.6,390.5,435.6,587.7,622.7,683.
 entry(
     index = 17,
     label = "CO[C](Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -1013,7 +1013,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -59.36 kcal/mol
 S298: 97.30 cal/mol/K
@@ -1045,7 +1045,7 @@ Frequencies (cm^-1) = 67.2,132.2,161.1,238.1,337.9,402.6,473.9,497.9,605.9,660.0
 entry(
     index = 18,
     label = "F[CH]C(Cl)CCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -1075,7 +1075,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.19 kcal/mol
 S298: 98.57 cal/mol/K
@@ -1110,7 +1110,7 @@ Frequencies (cm^-1) = 174.9,224.0,265.6,309.6,366.4,548.9,564.7,594.4,651.9,785.
 entry(
     index = 19,
     label = "FC(Cl)C#CCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {4,S}
@@ -1136,7 +1136,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -0.78 kcal/mol
 S298: 97.50 cal/mol/K
@@ -1166,7 +1166,7 @@ Frequencies (cm^-1) = 70.0,101.7,150.7,304.3,353.8,402.0,449.8,561.0,616.2,729.7
 entry(
     index = 20,
     label = "OC(DCF)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -1192,7 +1192,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -76.22 kcal/mol
 S298: 94.33 cal/mol/K
@@ -1223,7 +1223,7 @@ Frequencies (cm^-1) = 148.7,166.2,203.7,262.5,301.0,473.3,514.6,571.9,690.9,746.
 entry(
     index = 21,
     label = "F[C]DC(Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -1248,7 +1248,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 30.09 kcal/mol
 S298: 98.79 cal/mol/K
@@ -1276,7 +1276,7 @@ Frequencies (cm^-1) = 96.5,134.5,150.9,177.4,296.2,318.7,469.9,583.9,636.2,656.4
 entry(
     index = 22,
     label = "CO[CH]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -1304,7 +1304,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -54.37 kcal/mol
 S298: 100.98 cal/mol/K
@@ -1337,7 +1337,7 @@ Frequencies (cm^-1) = 148.1,176.6,242.7,267.6,324.8,387.9,424.4,543.5,588.4,810.
 entry(
     index = 23,
     label = "CC(F)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -1364,7 +1364,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -73.45 kcal/mol
 S298: 94.17 cal/mol/K
@@ -1396,7 +1396,7 @@ Frequencies (cm^-1) = 158.8,171.2,228.1,230.5,267.7,364.8,387.1,476.6,516.2,745.
 entry(
     index = 24,
     label = "CC(CBr)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -1426,7 +1426,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -35.78 kcal/mol
 S298: 99.28 cal/mol/K
@@ -1461,7 +1461,7 @@ Frequencies (cm^-1) = 138.1,183.6,211.9,338.4,411.7,486.2,496.4,611.2,684.5,832.
 entry(
     index = 25,
     label = "F[C](Cl)CC(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -1488,7 +1488,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -20.57 kcal/mol
 S298: 103.90 cal/mol/K
@@ -1519,7 +1519,7 @@ Frequencies (cm^-1) = 94.9,157.8,212.1,284.9,350.4,407.9,444.4,562.5,636.2,693.1
 entry(
     index = 26,
     label = "F[CH]C(Cl)OCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -1547,7 +1547,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -55.29 kcal/mol
 S298: 98.33 cal/mol/K
@@ -1580,7 +1580,7 @@ Frequencies (cm^-1) = 191.0,206.2,302.5,324.1,459.4,482.3,530.5,588.4,593.9,931.
 entry(
     index = 27,
     label = "C[C](Br)C(F)(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -1607,7 +1607,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -82.50 kcal/mol
 S298: 97.61 cal/mol/K
@@ -1638,7 +1638,7 @@ Frequencies (cm^-1) = 128.3,177.9,275.3,301.2,361.1,390.3,410.3,514.2,625.1,711.
 entry(
     index = 28,
     label = "CDC(F)C(Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -1666,7 +1666,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -38.34 kcal/mol
 S298: 102.91 cal/mol/K
@@ -1697,7 +1697,7 @@ Frequencies (cm^-1) = 25.8,74.9,121.5,132.1,160.8,224.1,253.0,353.2,400.4,474.8,
 entry(
     index = 29,
     label = "CCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -1724,7 +1724,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -72.52 kcal/mol
 S298: 87.45 cal/mol/K
@@ -1756,7 +1756,7 @@ Frequencies (cm^-1) = 183.1,229.9,276.3,309.9,394.3,476.4,521.1,670.2,823.2,922.
 entry(
     index = 30,
     label = "CDCC(Br)(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -1784,7 +1784,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 4.22 kcal/mol
 S298: 104.37 cal/mol/K
@@ -1814,7 +1814,7 @@ Frequencies (cm^-1) = 55.6,80.8,111.0,139.1,168.9,205.6,231.6,259.5,361.3,400.6,
 entry(
     index = 31,
     label = "[CH]DCC(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -1842,7 +1842,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 9.89 kcal/mol
 S298: 94.39 cal/mol/K
@@ -1872,7 +1872,7 @@ Frequencies (cm^-1) = 59.6,82.6,142.7,218.2,290.6,302.0,394.3,439.5,470.4,574.3,
 entry(
     index = 32,
     label = "F[C](F)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -1896,7 +1896,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -107.16 kcal/mol
 S298: 92.47 cal/mol/K
@@ -1923,7 +1923,7 @@ Frequencies (cm^-1) = 127.3,179.7,211.3,286.8,320.6,416.2,496.7,561.1,606.9,719.
 entry(
     index = 33,
     label = "CC(F)(OCl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {4,S}
@@ -1949,7 +1949,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -85.54 kcal/mol
 S298: 93.49 cal/mol/K
@@ -1981,7 +1981,7 @@ Frequencies (cm^-1) = 177.7,212.5,324.0,364.4,385.0,559.6,584.6,693.2,746.4,856.
 entry(
     index = 34,
     label = "OC(Br)(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {6,S}
@@ -2006,7 +2006,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -96.26 kcal/mol
 S298: 98.11 cal/mol/K
@@ -2036,7 +2036,7 @@ Frequencies (cm^-1) = 130.0,148.1,190.6,227.1,317.6,330.4,395.9,519.7,551.3,670.
 entry(
     index = 35,
     label = "FC(Cl)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Br u0 p3 c0 {7,S}
@@ -2060,7 +2060,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -56.51 kcal/mol
 S298: 96.22 cal/mol/K
@@ -2088,7 +2088,7 @@ Frequencies (cm^-1) = 125.7,139.7,186.2,206.3,221.0,262.5,365.8,433.1,535.1,671.
 entry(
     index = 36,
     label = "OC[CH]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -2116,7 +2116,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.12 kcal/mol
 S298: 97.60 cal/mol/K
@@ -2146,7 +2146,7 @@ Frequencies (cm^-1) = 54.4,60.8,165.9,204.8,223.1,270.1,293.0,378.7,386.1,480.3,
 entry(
     index = 37,
     label = "CDCC(F)(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {5,S}
@@ -2174,7 +2174,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -51.57 kcal/mol
 S298: 98.53 cal/mol/K
@@ -2205,7 +2205,7 @@ Frequencies (cm^-1) = 59.6,86.2,137.5,196.0,205.9,251.8,294.5,303.1,359.4,399.5,
 entry(
     index = 38,
     label = "[C]#CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -2228,7 +2228,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 92.97 kcal/mol
 S298: 86.34 cal/mol/K
@@ -2253,7 +2253,7 @@ Frequencies (cm^-1) = 103.5,140.1,207.5,290.3,354.2,398.9,458.5,584.5,676.2,964.
 entry(
     index = 39,
     label = "CC(F)OC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -2281,7 +2281,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -110.26 kcal/mol
 S298: 89.94 cal/mol/K
@@ -2315,7 +2315,7 @@ Frequencies (cm^-1) = 156.8,208.9,276.3,328.0,416.0,548.5,553.6,642.3,715.0,855.
 entry(
     index = 40,
     label = "[O]OC(Cl)(Br)CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -2341,7 +2341,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -45.04 kcal/mol
 S298: 92.71 cal/mol/K
@@ -2369,7 +2369,7 @@ Frequencies (cm^-1) = 91.3,117.1,162.5,199.7,240.4,297.7,331.9,339.7,555.4,620.3
 entry(
     index = 41,
     label = "FC[CH]C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -2396,7 +2396,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -23.81 kcal/mol
 S298: 101.99 cal/mol/K
@@ -2427,7 +2427,7 @@ Frequencies (cm^-1) = 137.9,181.7,195.5,244.0,261.1,350.2,377.4,434.6,536.1,622.
 entry(
     index = 42,
     label = "C[CH]C(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -2457,7 +2457,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.01 kcal/mol
 S298: 102.48 cal/mol/K
@@ -2492,7 +2492,7 @@ Frequencies (cm^-1) = 148.6,168.4,211.5,285.7,302.8,390.0,537.9,609.8,664.7,725.
 entry(
     index = 43,
     label = "[CH2]C(F)CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -2522,7 +2522,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -30.75 kcal/mol
 S298: 98.42 cal/mol/K
@@ -2554,7 +2554,7 @@ Frequencies (cm^-1) = 56.0,96.2,130.9,139.3,201.0,240.3,297.4,395.4,447.1,468.1,
 entry(
     index = 44,
     label = "FCCC(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Br u0 p3 c0 {7,S}
@@ -2581,7 +2581,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -58.40 kcal/mol
 S298: 98.73 cal/mol/K
@@ -2613,7 +2613,7 @@ Frequencies (cm^-1) = 113.2,160.7,201.2,238.6,274.9,298.1,351.6,552.0,650.1,701.
 entry(
     index = 45,
     label = "C#CC(F)(Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -2639,7 +2639,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 7.45 kcal/mol
 S298: 100.25 cal/mol/K
@@ -2668,7 +2668,7 @@ Frequencies (cm^-1) = 53.4,111.8,128.4,157.7,168.1,235.7,265.1,322.3,380.9,454.4
 entry(
     index = 46,
     label = "[CH2]C(F)(Cl)C(O)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -2696,7 +2696,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -67.20 kcal/mol
 S298: 93.89 cal/mol/K
@@ -2726,7 +2726,7 @@ Frequencies (cm^-1) = 73.8,160.0,223.9,232.0,251.4,293.2,321.4,360.8,417.5,462.8
 entry(
     index = 47,
     label = "CC(Br)(CBr)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -2756,7 +2756,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.41 kcal/mol
 S298: 106.21 cal/mol/K
@@ -2788,7 +2788,7 @@ Frequencies (cm^-1) = 57.7,69.7,101.3,120.7,199.8,217.1,236.4,256.6,294.1,381.2,
 entry(
     index = 48,
     label = "CC(Br)(Br)C(Cl)DCF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Br u0 p3 c0 {5,S}
@@ -2816,7 +2816,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -39.29 kcal/mol
 S298: 101.54 cal/mol/K
@@ -2847,7 +2847,7 @@ Frequencies (cm^-1) = 41.3,110.2,153.3,180.2,218.1,251.0,273.4,284.4,302.2,311.6
 entry(
     index = 49,
     label = "F[C](Cl)C#CCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -2873,7 +2873,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 34.77 kcal/mol
 S298: 97.96 cal/mol/K
@@ -2902,7 +2902,7 @@ Frequencies (cm^-1) = 55.1,102.5,202.4,295.8,311.3,375.0,420.5,511.8,528.9,605.7
 entry(
     index = 50,
     label = "FC(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {5,S}
@@ -2926,7 +2926,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -67.23 kcal/mol
 S298: 90.16 cal/mol/K
@@ -2954,7 +2954,7 @@ Frequencies (cm^-1) = 131.3,209.5,279.9,305.2,359.8,416.4,703.3,738.6,784.0,1044
 entry(
     index = 51,
     label = "[CH2]CC(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -2984,7 +2984,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -33.06 kcal/mol
 S298: 97.12 cal/mol/K
@@ -3016,7 +3016,7 @@ Frequencies (cm^-1) = 68.3,109.1,132.3,141.4,216.3,285.0,306.6,386.4,410.5,472.1
 entry(
     index = 52,
     label = "[O]OC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -3039,7 +3039,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -39.19 kcal/mol
 S298: 85.38 cal/mol/K
@@ -3065,7 +3065,7 @@ Frequencies (cm^-1) = 191.1,242.7,299.3,327.5,410.9,546.0,584.2,801.5,902.6,1187
 entry(
     index = 53,
     label = "[CH2]C(F)(Cl)C(C)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -3095,7 +3095,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -35.73 kcal/mol
 S298: 95.40 cal/mol/K
@@ -3127,7 +3127,7 @@ Frequencies (cm^-1) = 75.9,141.4,222.5,236.4,247.5,260.3,292.7,340.2,373.2,380.2
 entry(
     index = 54,
     label = "CC(Br)(Br)C(Cl)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -3157,7 +3157,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -26.87 kcal/mol
 S298: 105.74 cal/mol/K
@@ -3189,7 +3189,7 @@ Frequencies (cm^-1) = 63.2,82.9,122.4,150.1,175.1,218.6,246.4,275.8,279.5,303.3,
 entry(
     index = 55,
     label = "CC(Br)[C]DC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -3217,7 +3217,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 11.01 kcal/mol
 S298: 100.27 cal/mol/K
@@ -3249,7 +3249,7 @@ Frequencies (cm^-1) = 81.2,100.8,233.0,290.3,371.4,420.1,474.8,534.3,580.6,640.8
 entry(
     index = 56,
     label = "[CH]DC(F)C(C)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -3277,7 +3277,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 12.46 kcal/mol
 S298: 93.09 cal/mol/K
@@ -3307,7 +3307,7 @@ Frequencies (cm^-1) = 74.1,153.8,198.6,238.4,274.9,283.2,309.6,394.6,417.3,518.7
 entry(
     index = 57,
     label = "CDC(F)OC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -3333,7 +3333,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -119.53 kcal/mol
 S298: 95.65 cal/mol/K
@@ -3362,7 +3362,7 @@ Frequencies (cm^-1) = 37.2,86.1,136.9,199.5,288.0,309.4,346.3,379.8,437.7,542.3,
 entry(
     index = 58,
     label = "F[C]DC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -3384,7 +3384,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 33.83 kcal/mol
 S298: 79.73 cal/mol/K
@@ -3408,7 +3408,7 @@ Frequencies (cm^-1) = 144.1,221.7,256.2,402.7,443.3,543.7,862.9,1164.3,1759.5
 entry(
     index = 59,
     label = "[CH]DC(O)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -3434,7 +3434,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -17.82 kcal/mol
 S298: 92.41 cal/mol/K
@@ -3462,7 +3462,7 @@ Frequencies (cm^-1) = 79.3,152.8,191.2,231.6,269.9,300.5,338.9,388.1,488.4,531.7
 entry(
     index = 60,
     label = "CC(Br)(Br)[C](Cl)CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -3492,7 +3492,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -30.63 kcal/mol
 S298: 108.93 cal/mol/K
@@ -3524,7 +3524,7 @@ Frequencies (cm^-1) = 25.0,41.1,106.0,141.4,186.9,205.1,247.8,259.0,287.4,313.3,
 entry(
     index = 61,
     label = "FC(Cl)[C]DCCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -3552,7 +3552,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 10.20 kcal/mol
 S298: 100.47 cal/mol/K
@@ -3584,7 +3584,7 @@ Frequencies (cm^-1) = 108.4,146.1,252.8,282.5,357.3,494.9,534.8,609.0,674.5,789.
 entry(
     index = 62,
     label = "OC(Cl)(Br)[C](F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -3609,7 +3609,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -104.72 kcal/mol
 S298: 95.01 cal/mol/K
@@ -3638,7 +3638,7 @@ Frequencies (cm^-1) = 124.3,180.6,207.9,284.4,332.7,413.6,499.5,533.3,581.1,670.
 entry(
     index = 63,
     label = "FOC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -3661,7 +3661,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.31 kcal/mol
 S298: 85.77 cal/mol/K
@@ -3689,7 +3689,7 @@ Frequencies (cm^-1) = 179.8,254.9,355.3,428.6,547.9,697.2,785.1,927.7,1021.6,110
 entry(
     index = 64,
     label = "ODCOC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -3713,7 +3713,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -126.94 kcal/mol
 S298: 91.97 cal/mol/K
@@ -3742,7 +3742,7 @@ Frequencies (cm^-1) = 153.7,212.4,309.4,321.6,396.6,419.3,546.1,800.3,808.9,997.
 entry(
     index = 65,
     label = "CC(Cl)(Br)C(F)F",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -3769,7 +3769,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -123.48 kcal/mol
 S298: 92.74 cal/mol/K
@@ -3801,7 +3801,7 @@ Frequencies (cm^-1) = 155.7,200.0,259.2,286.0,291.2,355.5,415.3,556.4,695.8,725.
 entry(
     index = 66,
     label = "FC#C[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -3824,7 +3824,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 57.98 kcal/mol
 S298: 87.83 cal/mol/K
@@ -3849,7 +3849,7 @@ Frequencies (cm^-1) = 81.3,127.5,181.6,217.5,338.8,342.4,406.6,495.3,838.9,948.4
 entry(
     index = 67,
     label = "[O]C(Br)CDC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -3875,7 +3875,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -25.28 kcal/mol
 S298: 95.48 cal/mol/K
@@ -3903,7 +3903,7 @@ Frequencies (cm^-1) = 27.9,93.6,146.6,179.1,265.7,373.0,433.6,456.9,539.2,541.6,
 entry(
     index = 68,
     label = "COC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -3929,7 +3929,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -113.57 kcal/mol
 S298: 94.44 cal/mol/K
@@ -3961,7 +3961,7 @@ Frequencies (cm^-1) = 159.3,235.6,274.6,352.3,409.2,522.3,597.4,622.8,776.7,914.
 entry(
     index = 69,
     label = "CDC(C)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -3989,7 +3989,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -48.16 kcal/mol
 S298: 94.00 cal/mol/K
@@ -4022,7 +4022,7 @@ Frequencies (cm^-1) = 158.2,192.8,243.0,297.2,374.3,390.4,453.1,488.7,582.3,669.
 entry(
     index = 70,
     label = "CC(F)(Cl)[C](O)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -4050,7 +4050,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -74.49 kcal/mol
 S298: 97.15 cal/mol/K
@@ -4083,7 +4083,7 @@ Frequencies (cm^-1) = 140.1,187.8,281.6,316.6,336.9,370.5,426.5,477.9,529.7,643.
 entry(
     index = 71,
     label = "CDCDC(F)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Br u0 p3 c0 {5,S}
@@ -4109,7 +4109,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 11.05 kcal/mol
 S298: 99.49 cal/mol/K
@@ -4138,7 +4138,7 @@ Frequencies (cm^-1) = 49.5,125.5,129.0,143.8,202.5,204.1,244.3,283.5,352.7,392.5
 entry(
     index = 72,
     label = "FC(Cl)DCCOBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {7,S}
@@ -4164,7 +4164,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -44.52 kcal/mol
 S298: 95.76 cal/mol/K
@@ -4195,7 +4195,7 @@ Frequencies (cm^-1) = 165.7,216.1,275.1,396.0,492.5,500.9,541.4,576.9,682.5,846.
 entry(
     index = 73,
     label = "[CH2]C(OBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -4223,7 +4223,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -30.27 kcal/mol
 S298: 96.16 cal/mol/K
@@ -4253,7 +4253,7 @@ Frequencies (cm^-1) = 48.6,90.2,162.0,195.0,201.4,318.4,374.6,392.7,439.2,528.6,
 entry(
     index = 74,
     label = "[CH2]C(F)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -4280,7 +4280,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -12.53 kcal/mol
 S298: 99.13 cal/mol/K
@@ -4309,7 +4309,7 @@ Frequencies (cm^-1) = 87.3,140.1,143.6,160.4,189.7,210.6,237.1,301.3,383.4,458.5
 entry(
     index = 75,
     label = "CC(Br)D[C]C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -4337,7 +4337,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 6.83 kcal/mol
 S298: 100.23 cal/mol/K
@@ -4369,7 +4369,7 @@ Frequencies (cm^-1) = 84.8,93.8,233.4,306.9,364.6,376.7,430.2,472.8,554.6,723.1,
 entry(
     index = 76,
     label = "CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -4393,7 +4393,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -66.81 kcal/mol
 S298: 80.57 cal/mol/K
@@ -4421,7 +4421,7 @@ Frequencies (cm^-1) = 208.0,265.5,306.8,357.0,408.6,544.2,684.6,944.1,1091.3,111
 entry(
     index = 77,
     label = "FC(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {5,S}
@@ -4445,7 +4445,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -117.44 kcal/mol
 S298: 84.60 cal/mol/K
@@ -4473,7 +4473,7 @@ Frequencies (cm^-1) = 144.3,224.8,322.0,408.4,409.9,554.6,651.0,770.8,879.5,932.
 entry(
     index = 78,
     label = "FCDCDCDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -4497,7 +4497,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 39.25 kcal/mol
 S298: 90.15 cal/mol/K
@@ -4524,7 +4524,7 @@ Frequencies (cm^-1) = 64.5,107.3,167.3,220.7,244.5,379.6,388.1,481.6,541.6,638.5
 entry(
     index = 79,
     label = "OCC(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -4552,7 +4552,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -66.18 kcal/mol
 S298: 98.07 cal/mol/K
@@ -4584,7 +4584,7 @@ Frequencies (cm^-1) = 60.9,92.4,157.1,193.6,276.8,349.4,415.8,458.0,491.6,698.7,
 entry(
     index = 80,
     label = "FC(F)C(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -4611,7 +4611,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -122.74 kcal/mol
 S298: 92.69 cal/mol/K
@@ -4643,7 +4643,7 @@ Frequencies (cm^-1) = 120.6,199.6,291.6,369.2,400.9,512.8,580.8,611.6,747.1,892.
 entry(
     index = 81,
     label = "FC(Cl)CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -4670,7 +4670,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.63 kcal/mol
 S298: 96.23 cal/mol/K
@@ -4702,7 +4702,7 @@ Frequencies (cm^-1) = 110.9,181.8,238.8,282.4,380.7,414.4,487.2,625.5,675.5,806.
 entry(
     index = 82,
     label = "FC(Cl)[C](Br)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -4729,7 +4729,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -24.51 kcal/mol
 S298: 104.74 cal/mol/K
@@ -4760,7 +4760,7 @@ Frequencies (cm^-1) = 84.4,136.6,260.6,295.8,353.5,405.3,412.3,495.3,668.0,701.5
 entry(
     index = 83,
     label = "C[C]DC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -4788,7 +4788,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 10.97 kcal/mol
 S298: 99.64 cal/mol/K
@@ -4820,7 +4820,7 @@ Frequencies (cm^-1) = 115.9,124.3,185.5,222.3,263.4,336.8,547.2,606.3,668.1,730.
 entry(
     index = 84,
     label = "[C]#CCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -4846,7 +4846,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 75.80 kcal/mol
 S298: 92.28 cal/mol/K
@@ -4874,7 +4874,7 @@ Frequencies (cm^-1) = 68.7,110.4,200.8,237.8,276.0,313.7,349.2,389.2,506.3,521.3
 entry(
     index = 85,
     label = "C[C](O)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -4902,7 +4902,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -70.39 kcal/mol
 S298: 101.34 cal/mol/K
@@ -4935,7 +4935,7 @@ Frequencies (cm^-1) = 72.5,131.6,188.7,226.0,326.6,382.9,423.9,464.8,499.0,624.7
 entry(
     index = 86,
     label = "CC(Br)DCC(F)(Cl)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -4963,7 +4963,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -52.66 kcal/mol
 S298: 100.83 cal/mol/K
@@ -4994,7 +4994,7 @@ Frequencies (cm^-1) = 21.2,75.7,147.9,151.6,218.1,242.5,319.7,326.3,363.2,387.7,
 entry(
     index = 87,
     label = "FC(Cl)DCOOBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {7,S}
@@ -5018,7 +5018,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -19.13 kcal/mol
 S298: 93.52 cal/mol/K
@@ -5047,7 +5047,7 @@ Frequencies (cm^-1) = 163.3,225.5,292.4,395.2,486.2,510.3,546.7,554.3,702.8,807.
 entry(
     index = 88,
     label = "FCDCC(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -5072,7 +5072,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -38.58 kcal/mol
 S298: 94.25 cal/mol/K
@@ -5101,7 +5101,7 @@ Frequencies (cm^-1) = 155.3,170.6,206.9,216.0,275.7,315.0,385.8,404.6,639.8,672.
 entry(
     index = 89,
     label = "FCC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -5128,7 +5128,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -112.49 kcal/mol
 S298: 93.02 cal/mol/K
@@ -5160,7 +5160,7 @@ Frequencies (cm^-1) = 161.8,198.5,224.9,296.3,357.7,388.0,599.1,708.6,798.2,882.
 entry(
     index = 90,
     label = "OC(OBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -5186,7 +5186,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -114.99 kcal/mol
 S298: 94.19 cal/mol/K
@@ -5218,7 +5218,7 @@ Frequencies (cm^-1) = 130.8,219.1,270.2,300.3,392.4,577.4,633.3,739.9,825.4,900.
 entry(
     index = 91,
     label = "FC(Cl)D[C]C(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -5243,7 +5243,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 29.23 kcal/mol
 S298: 100.96 cal/mol/K
@@ -5271,7 +5271,7 @@ Frequencies (cm^-1) = 66.5,78.8,148.5,243.5,315.0,385.1,487.1,539.1,583.0,592.1,
 entry(
     index = 92,
     label = "CC(Br)DC(Cl)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -5299,7 +5299,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -53.16 kcal/mol
 S298: 100.79 cal/mol/K
@@ -5330,7 +5330,7 @@ Frequencies (cm^-1) = 41.5,74.9,142.1,157.7,175.3,225.5,282.8,336.5,368.6,411.0,
 entry(
     index = 93,
     label = "FC(Cl)DCDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {5,S}
@@ -5353,7 +5353,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 4.49 kcal/mol
 S298: 93.46 cal/mol/K
@@ -5379,7 +5379,7 @@ Frequencies (cm^-1) = 67.0,85.7,99.1,197.9,306.3,394.1,413.6,461.3,552.0,567.3,7
 entry(
     index = 94,
     label = "FCC(Cl)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -5404,7 +5404,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -76.01 kcal/mol
 S298: 94.36 cal/mol/K
@@ -5434,7 +5434,7 @@ Frequencies (cm^-1) = 137.4,173.1,248.8,296.6,357.7,390.7,490.3,539.3,681.6,799.
 entry(
     index = 95,
     label = "C[C](F)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -5461,7 +5461,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -16.53 kcal/mol
 S298: 104.87 cal/mol/K
@@ -5492,7 +5492,7 @@ Frequencies (cm^-1) = 108.7,133.5,158.1,192.1,230.2,298.7,359.6,418.2,433.1,510.
 entry(
     index = 96,
     label = "CDC([C](F)Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -5520,7 +5520,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -17.03 kcal/mol
 S298: 102.35 cal/mol/K
@@ -5550,7 +5550,7 @@ Frequencies (cm^-1) = 20.3,80.2,137.9,161.1,203.1,270.9,322.7,344.6,407.2,460.7,
 entry(
     index = 97,
     label = "FC(Cl)DC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {5,S}
@@ -5572,7 +5572,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.62 kcal/mol
 S298: 84.63 cal/mol/K
@@ -5597,7 +5597,7 @@ Frequencies (cm^-1) = 110.0,158.5,214.2,286.2,305.4,406.7,505.3,559.6,786.6,944.
 entry(
     index = 98,
     label = "CC(F)DC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -5625,7 +5625,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -51.39 kcal/mol
 S298: 95.69 cal/mol/K
@@ -5658,7 +5658,7 @@ Frequencies (cm^-1) = 97.9,151.5,235.6,323.8,352.5,437.8,454.7,514.2,644.3,660.5
 entry(
     index = 99,
     label = "FC#CC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {4,S}
@@ -5684,7 +5684,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 13.52 kcal/mol
 S298: 93.59 cal/mol/K
@@ -5714,7 +5714,7 @@ Frequencies (cm^-1) = 105.6,139.2,171.9,228.0,360.2,398.8,465.0,503.0,624.3,702.
 entry(
     index = 100,
     label = "OC[C](Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -5742,7 +5742,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.85 kcal/mol
 S298: 96.75 cal/mol/K
@@ -5772,7 +5772,7 @@ Frequencies (cm^-1) = 51.4,72.9,114.3,176.8,233.1,306.6,355.0,391.4,420.7,547.0,
 entry(
     index = 101,
     label = "[CH]DC(OBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -5798,7 +5798,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 13.22 kcal/mol
 S298: 94.89 cal/mol/K
@@ -5826,7 +5826,7 @@ Frequencies (cm^-1) = 52.2,65.9,145.0,191.3,280.1,318.7,398.9,505.0,547.3,588.1,
 entry(
     index = 102,
     label = "CC(F)C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {6,S}
@@ -5854,7 +5854,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -80.70 kcal/mol
 S298: 95.56 cal/mol/K
@@ -5888,7 +5888,7 @@ Frequencies (cm^-1) = 158.1,183.8,236.9,334.5,422.1,448.8,557.5,664.2,723.7,859.
 entry(
     index = 103,
     label = "FCC(Cl)OOBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -5914,7 +5914,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -54.17 kcal/mol
 S298: 97.31 cal/mol/K
@@ -5946,7 +5946,7 @@ Frequencies (cm^-1) = 186.9,226.4,302.6,365.2,431.9,543.7,592.7,769.4,858.9,906.
 entry(
     index = 104,
     label = "ODC(F)C(O)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -5970,7 +5970,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -134.34 kcal/mol
 S298: 91.27 cal/mol/K
@@ -5999,7 +5999,7 @@ Frequencies (cm^-1) = 136.4,184.0,231.6,278.7,364.2,411.7,535.4,617.5,716.9,797.
 entry(
     index = 105,
     label = "CDCDCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {4,S}
@@ -6025,7 +6025,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -4.17 kcal/mol
 S298: 92.95 cal/mol/K
@@ -6055,7 +6055,7 @@ Frequencies (cm^-1) = 140.1,196.4,228.7,285.0,331.2,355.1,393.5,438.7,555.3,756.
 entry(
     index = 106,
     label = "CDC(CF)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -6083,7 +6083,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -44.18 kcal/mol
 S298: 94.83 cal/mol/K
@@ -6116,7 +6116,7 @@ Frequencies (cm^-1) = 156.5,175.6,211.3,313.8,351.6,472.3,570.1,611.9,692.2,778.
 entry(
     index = 107,
     label = "FC(Cl)[CH]C(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -6143,7 +6143,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -19.02 kcal/mol
 S298: 102.25 cal/mol/K
@@ -6172,7 +6172,7 @@ Frequencies (cm^-1) = 21.2,31.3,127.3,169.6,182.0,256.9,327.7,364.8,485.0,537.0,
 entry(
     index = 108,
     label = "ODCC(Cl)(Br)CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -6198,7 +6198,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -85.46 kcal/mol
 S298: 92.60 cal/mol/K
@@ -6229,7 +6229,7 @@ Frequencies (cm^-1) = 155.0,212.1,235.8,266.8,297.0,387.5,516.2,631.0,684.6,989.
 entry(
     index = 109,
     label = "F[CH]C(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -6256,7 +6256,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -70.27 kcal/mol
 S298: 94.74 cal/mol/K
@@ -6287,7 +6287,7 @@ Frequencies (cm^-1) = 133.3,198.1,235.1,291.1,329.4,428.0,530.2,547.3,606.8,687.
 entry(
     index = 110,
     label = "CC(Cl)(CF)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -6315,7 +6315,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -82.24 kcal/mol
 S298: 94.14 cal/mol/K
@@ -6349,7 +6349,7 @@ Frequencies (cm^-1) = 168.5,222.8,291.4,326.4,338.1,412.5,454.9,660.2,697.2,834.
 entry(
     index = 111,
     label = "[CH2]C(DCF)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -6377,7 +6377,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -55.69 kcal/mol
 S298: 97.90 cal/mol/K
@@ -6407,7 +6407,7 @@ Frequencies (cm^-1) = 34.6,127.3,188.0,210.1,260.6,281.4,299.8,342.8,396.1,493.5
 entry(
     index = 112,
     label = "OC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -6432,7 +6432,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -105.05 kcal/mol
 S298: 87.46 cal/mol/K
@@ -6462,7 +6462,7 @@ Frequencies (cm^-1) = 157.1,246.7,293.6,320.7,402.4,575.0,685.5,783.4,944.1,1100
 entry(
     index = 113,
     label = "[CH2]C(F)DCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -6490,7 +6490,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -14.58 kcal/mol
 S298: 95.41 cal/mol/K
@@ -6520,7 +6520,7 @@ Frequencies (cm^-1) = 36.9,85.0,157.9,199.9,262.9,322.6,430.1,502.7,538.6,590.0,
 entry(
     index = 114,
     label = "FC[C](Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -6547,7 +6547,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -20.34 kcal/mol
 S298: 104.83 cal/mol/K
@@ -6578,7 +6578,7 @@ Frequencies (cm^-1) = 97.5,134.3,140.7,190.9,343.2,366.5,425.8,509.0,616.3,755.3
 entry(
     index = 115,
     label = "F[C](F)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -6602,7 +6602,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -52.56 kcal/mol
 S298: 98.57 cal/mol/K
@@ -6629,7 +6629,7 @@ Frequencies (cm^-1) = 116.5,136.7,176.7,198.9,228.2,311.0,398.5,503.1,567.7,626.
 entry(
     index = 116,
     label = "F[CH]OC(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -6654,7 +6654,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -49.21 kcal/mol
 S298: 95.92 cal/mol/K
@@ -6683,7 +6683,7 @@ Frequencies (cm^-1) = 135.7,199.7,215.5,269.1,321.1,394.4,412.0,604.8,687.3,835.
 entry(
     index = 117,
     label = "ODC(Br)C(Cl)DCF",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {5,S}
@@ -6707,7 +6707,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.38 kcal/mol
 S298: 89.82 cal/mol/K
@@ -6735,7 +6735,7 @@ Frequencies (cm^-1) = 164.0,208.5,213.6,241.0,352.2,434.1,500.4,662.0,677.4,730.
 entry(
     index = 118,
     label = "FCC(Cl)COBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -6763,7 +6763,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -74.65 kcal/mol
 S298: 98.95 cal/mol/K
@@ -6797,7 +6797,7 @@ Frequencies (cm^-1) = 185.4,209.1,302.2,370.7,402.5,531.8,583.1,704.8,893.0,982.
 entry(
     index = 119,
     label = "FC(Cl)DCC(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Br u0 p3 c0 {5,S}
@@ -6822,7 +6822,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.70 kcal/mol
 S298: 96.23 cal/mol/K
@@ -6851,7 +6851,7 @@ Frequencies (cm^-1) = 87.8,119.3,162.3,238.7,333.6,427.2,435.2,535.6,625.7,668.8
 entry(
     index = 120,
     label = "[CH2]C(F)(CCl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -6881,7 +6881,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.50 kcal/mol
 S298: 98.00 cal/mol/K
@@ -6913,7 +6913,7 @@ Frequencies (cm^-1) = 64.4,68.0,100.6,111.5,201.2,244.4,307.0,372.0,432.7,465.0,
 entry(
     index = 121,
     label = "C[C](F)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -6940,7 +6940,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -71.69 kcal/mol
 S298: 98.11 cal/mol/K
@@ -6971,7 +6971,7 @@ Frequencies (cm^-1) = 113.6,181.1,207.1,251.4,314.5,385.2,409.5,492.5,525.2,624.
 entry(
     index = 122,
     label = "[CH2]CDCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -6999,7 +6999,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -13.29 kcal/mol
 S298: 93.99 cal/mol/K
@@ -7029,7 +7029,7 @@ Frequencies (cm^-1) = 59.4,147.1,173.9,202.4,277.7,283.8,343.8,388.1,427.8,551.9
 entry(
     index = 123,
     label = "ODC(CBr)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -7055,7 +7055,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -53.80 kcal/mol
 S298: 93.87 cal/mol/K
@@ -7083,7 +7083,7 @@ Frequencies (cm^-1) = 52.8,67.2,149.4,198.9,288.0,331.9,428.2,499.4,580.0,628.4,
 entry(
     index = 124,
     label = "FC(Cl)CCOBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {7,S}
@@ -7111,7 +7111,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -76.41 kcal/mol
 S298: 99.35 cal/mol/K
@@ -7145,7 +7145,7 @@ Frequencies (cm^-1) = 162.8,265.8,313.3,371.6,425.7,575.4,625.3,697.2,794.8,926.
 entry(
     index = 125,
     label = "CDC(Br)C(Cl)(Cl)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -7173,7 +7173,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -3.77 kcal/mol
 S298: 101.21 cal/mol/K
@@ -7203,7 +7203,7 @@ Frequencies (cm^-1) = 49.3,85.6,135.5,157.0,206.5,248.4,279.4,319.7,376.1,406.1,
 entry(
     index = 126,
     label = "FC(Cl)D[C]OCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -7229,7 +7229,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -8.07 kcal/mol
 S298: 97.78 cal/mol/K
@@ -7259,7 +7259,7 @@ Frequencies (cm^-1) = 136.6,211.1,276.8,397.2,471.4,487.1,537.7,611.0,671.5,933.
 entry(
     index = 127,
     label = "F[C]DCC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -7287,7 +7287,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 12.50 kcal/mol
 S298: 97.51 cal/mol/K
@@ -7319,7 +7319,7 @@ Frequencies (cm^-1) = 129.6,183.0,232.2,272.6,375.8,468.9,619.2,644.4,732.3,813.
 entry(
     index = 128,
     label = "OC(O)(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {7,S}
@@ -7345,7 +7345,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -149.92 kcal/mol
 S298: 93.97 cal/mol/K
@@ -7377,7 +7377,7 @@ Frequencies (cm^-1) = 145.9,208.1,269.2,290.0,315.6,386.4,478.5,605.5,683.6,779.
 entry(
     index = 129,
     label = "OC(CF)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -7405,7 +7405,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -107.51 kcal/mol
 S298: 95.80 cal/mol/K
@@ -7439,7 +7439,7 @@ Frequencies (cm^-1) = 173.0,200.6,204.7,241.7,402.9,468.7,581.0,678.8,731.8,857.
 entry(
     index = 130,
     label = "CC(Br)CDC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {7,S}
@@ -7467,7 +7467,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -48.89 kcal/mol
 S298: 94.70 cal/mol/K
@@ -7500,7 +7500,7 @@ Frequencies (cm^-1) = 101.1,147.7,252.5,298.1,375.8,436.4,487.9,536.4,588.8,681.
 entry(
     index = 131,
     label = "FC(Cl)(Cl)COBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {7,S}
@@ -7525,7 +7525,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -73.70 kcal/mol
 S298: 97.31 cal/mol/K
@@ -7555,7 +7555,7 @@ Frequencies (cm^-1) = 184.8,194.2,286.9,330.7,390.3,403.5,460.6,583.5,626.8,828.
 entry(
     index = 132,
     label = "F[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -7576,7 +7576,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -10.46 kcal/mol
 S298: 75.59 cal/mol/K
@@ -7599,7 +7599,7 @@ Frequencies (cm^-1) = 222.3,322.3,432.1,524.7,837.6,1203.0
 entry(
     index = 133,
     label = "OC(Br)(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -7624,7 +7624,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -52.07 kcal/mol
 S298: 99.68 cal/mol/K
@@ -7652,7 +7652,7 @@ Frequencies (cm^-1) = 54.1,105.8,140.1,176.8,235.5,273.9,321.8,411.0,439.8,513.7
 entry(
     index = 134,
     label = "FCOC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -7677,7 +7677,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -95.70 kcal/mol
 S298: 91.50 cal/mol/K
@@ -7707,7 +7707,7 @@ Frequencies (cm^-1) = 198.6,220.2,293.7,452.4,552.9,639.4,729.0,970.1,1083.1,114
 entry(
     index = 135,
     label = "ODC(Br)[C](Cl)CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -7733,7 +7733,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -58.61 kcal/mol
 S298: 96.31 cal/mol/K
@@ -7761,7 +7761,7 @@ Frequencies (cm^-1) = 14.2,70.3,143.2,207.9,250.9,279.0,359.8,471.8,579.9,608.6,
 entry(
     index = 136,
     label = "FC(Cl)D[C]CCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -7789,7 +7789,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 11.18 kcal/mol
 S298: 100.89 cal/mol/K
@@ -7821,7 +7821,7 @@ Frequencies (cm^-1) = 84.4,154.5,209.4,339.4,409.1,477.6,523.9,598.8,687.3,747.4
 entry(
     index = 137,
     label = "OC(Br)C(Cl)D[C]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -7847,7 +7847,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -17.64 kcal/mol
 S298: 96.20 cal/mol/K
@@ -7877,7 +7877,7 @@ Frequencies (cm^-1) = 106.8,163.4,199.7,297.0,313.7,399.7,520.1,597.5,631.0,660.
 entry(
     index = 138,
     label = "FC(Cl)(Cl)OOBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {7,S}
@@ -7900,7 +7900,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -54.09 kcal/mol
 S298: 95.09 cal/mol/K
@@ -7928,7 +7928,7 @@ Frequencies (cm^-1) = 184.6,230.3,250.6,371.9,398.6,450.0,470.6,595.0,714.8,821.
 entry(
     index = 139,
     label = "[CH2]C(CF)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -7958,7 +7958,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -29.30 kcal/mol
 S298: 95.84 cal/mol/K
@@ -7990,7 +7990,7 @@ Frequencies (cm^-1) = 58.5,90.9,122.0,171.6,196.4,212.1,256.3,397.7,432.2,480.0,
 entry(
     index = 140,
     label = "FC(Cl)DC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -8015,7 +8015,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -44.45 kcal/mol
 S298: 94.17 cal/mol/K
@@ -8044,7 +8044,7 @@ Frequencies (cm^-1) = 97.8,129.2,208.7,297.2,355.9,373.8,442.9,552.1,634.9,653.5
 entry(
     index = 141,
     label = "C[CH]CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -8074,7 +8074,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.69 kcal/mol
 S298: 100.27 cal/mol/K
@@ -8109,7 +8109,7 @@ Frequencies (cm^-1) = 173.0,197.7,278.4,304.5,328.5,398.8,435.9,459.0,576.4,771.
 entry(
     index = 142,
     label = "OCD[C]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -8135,7 +8135,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -19.52 kcal/mol
 S298: 95.83 cal/mol/K
@@ -8165,7 +8165,7 @@ Frequencies (cm^-1) = 123.2,164.6,214.8,227.1,269.4,386.6,436.4,482.8,610.7,657.
 entry(
     index = 143,
     label = "FC(Cl)(Br)CBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Br u0 p3 c0 {6,S}
@@ -8189,7 +8189,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -57.11 kcal/mol
 S298: 91.21 cal/mol/K
@@ -8217,7 +8217,7 @@ Frequencies (cm^-1) = 127.5,192.3,248.3,301.9,318.1,413.0,559.6,654.1,770.2,886.
 entry(
     index = 144,
     label = "FC[C]DC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -8245,7 +8245,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 10.47 kcal/mol
 S298: 101.22 cal/mol/K
@@ -8277,7 +8277,7 @@ Frequencies (cm^-1) = 94.2,121.9,186.1,298.5,402.8,472.4,520.0,599.4,639.4,851.7
 entry(
     index = 145,
     label = "FC(Cl)DC[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -8302,7 +8302,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -10.94 kcal/mol
 S298: 93.81 cal/mol/K
@@ -8329,7 +8329,7 @@ Frequencies (cm^-1) = 59.4,122.5,130.6,211.2,246.7,301.2,302.8,436.3,459.6,633.7
 entry(
     index = 146,
     label = "F[CH]C(CCl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -8357,7 +8357,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -29.28 kcal/mol
 S298: 100.17 cal/mol/K
@@ -8390,7 +8390,7 @@ Frequencies (cm^-1) = 166.6,193.4,246.0,302.8,363.4,495.1,530.6,650.5,766.6,842.
 entry(
     index = 147,
     label = "CDC(F)C(F)DC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {8,S}
 2  Cl u0 p3 c0 {8,S}
@@ -8416,7 +8416,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -57.86 kcal/mol
 S298: 93.65 cal/mol/K
@@ -8445,7 +8445,7 @@ Frequencies (cm^-1) = 47.2,92.7,156.4,223.1,233.7,307.2,353.6,400.7,469.1,522.4,
 entry(
     index = 148,
     label = "[O]C(Br)C(F)(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -8470,7 +8470,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -100.41 kcal/mol
 S298: 91.00 cal/mol/K
@@ -8497,7 +8497,7 @@ Frequencies (cm^-1) = 60.7,139.2,181.1,261.8,294.6,358.8,418.2,482.9,566.5,627.4
 entry(
     index = 149,
     label = "FCDC(F)[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -8522,7 +8522,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -45.72 kcal/mol
 S298: 91.12 cal/mol/K
@@ -8549,7 +8549,7 @@ Frequencies (cm^-1) = 78.1,140.1,161.4,217.9,258.0,258.1,342.0,431.6,567.3,643.6
 entry(
     index = 150,
     label = "FC(Cl)COOBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -8575,7 +8575,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -53.66 kcal/mol
 S298: 97.44 cal/mol/K
@@ -8607,7 +8607,7 @@ Frequencies (cm^-1) = 155.5,287.7,355.7,423.7,431.2,553.7,583.0,676.2,854.5,987.
 entry(
     index = 151,
     label = "[O]C(Cl)(CF)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -8633,7 +8633,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -49.83 kcal/mol
 S298: 93.03 cal/mol/K
@@ -8661,7 +8661,7 @@ Frequencies (cm^-1) = 41.6,106.7,153.8,226.3,246.5,349.0,403.3,522.3,560.3,641.5
 entry(
     index = 152,
     label = "CC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -8688,7 +8688,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -71.46 kcal/mol
 S298: 89.99 cal/mol/K
@@ -8720,7 +8720,7 @@ Frequencies (cm^-1) = 162.1,204.0,228.9,364.2,423.3,509.3,642.8,773.2,852.1,955.
 entry(
     index = 153,
     label = "C#CC(F)(F)[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -8746,7 +8746,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -7.12 kcal/mol
 S298: 98.24 cal/mol/K
@@ -8774,7 +8774,7 @@ Frequencies (cm^-1) = 33.1,93.1,155.1,192.5,212.9,243.0,320.6,382.8,464.4,500.0,
 entry(
     index = 154,
     label = "F[CH]CC(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -8801,7 +8801,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -13.24 kcal/mol
 S298: 101.15 cal/mol/K
@@ -8832,7 +8832,7 @@ Frequencies (cm^-1) = 144.5,160.2,206.0,231.5,258.2,311.8,403.4,469.6,517.0,662.
 entry(
     index = 155,
     label = "F[C](Cl)C(Br)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -8856,7 +8856,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -0.10 kcal/mol
 S298: 102.47 cal/mol/K
@@ -8882,7 +8882,7 @@ Frequencies (cm^-1) = 51.5,99.1,117.2,153.9,158.5,186.3,250.4,315.9,431.0,447.5,
 entry(
     index = 156,
     label = "FCDCC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {4,S}
@@ -8910,7 +8910,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.43 kcal/mol
 S298: 95.79 cal/mol/K
@@ -8943,7 +8943,7 @@ Frequencies (cm^-1) = 135.1,184.1,234.8,255.0,381.2,488.1,623.2,664.4,744.3,814.
 entry(
     index = 157,
     label = "CDC(F)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Br u0 p3 c0 {5,S}
@@ -8968,7 +8968,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -27.23 kcal/mol
 S298: 92.91 cal/mol/K
@@ -8997,7 +8997,7 @@ Frequencies (cm^-1) = 136.9,141.9,199.5,207.1,246.9,334.0,405.8,511.3,526.4,705.
 entry(
     index = 158,
     label = "[O]C(F)C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -9023,7 +9023,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.40 kcal/mol
 S298: 92.68 cal/mol/K
@@ -9051,7 +9051,7 @@ Frequencies (cm^-1) = 61.3,100.5,162.7,215.2,252.1,301.8,375.1,567.5,635.0,718.0
 entry(
     index = 159,
     label = "OOCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -9077,7 +9077,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -80.47 kcal/mol
 S298: 93.81 cal/mol/K
@@ -9106,7 +9106,7 @@ Frequencies (cm^-1) = 55.4,144.3,166.4,188.0,195.5,282.3,315.9,346.3,422.5,490.0
 entry(
     index = 160,
     label = "CC(Cl)(Br)[C]DCF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -9134,7 +9134,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 13.72 kcal/mol
 S298: 99.33 cal/mol/K
@@ -9166,7 +9166,7 @@ Frequencies (cm^-1) = 87.0,176.8,200.9,237.1,264.1,340.9,409.1,471.6,593.7,650.4
 entry(
     index = 161,
     label = "FCDCCDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -9192,7 +9192,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -19.01 kcal/mol
 S298: 90.22 cal/mol/K
@@ -9222,7 +9222,7 @@ Frequencies (cm^-1) = 102.1,162.6,200.9,256.9,333.0,430.3,531.3,577.4,751.5,811.
 entry(
     index = 162,
     label = "[CH2]OCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -9250,7 +9250,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -52.66 kcal/mol
 S298: 95.00 cal/mol/K
@@ -9280,7 +9280,7 @@ Frequencies (cm^-1) = 66.4,126.6,162.2,199.2,248.1,273.2,309.6,353.5,413.9,465.9
 entry(
     index = 163,
     label = "CC(Cl)(Br)CD[C]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -9308,7 +9308,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 13.23 kcal/mol
 S298: 94.58 cal/mol/K
@@ -9340,7 +9340,7 @@ Frequencies (cm^-1) = 176.3,203.9,215.7,269.4,307.4,357.3,432.1,499.5,622.4,751.
 entry(
     index = 164,
     label = "CDC(F)C(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -9366,7 +9366,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -96.25 kcal/mol
 S298: 95.77 cal/mol/K
@@ -9395,7 +9395,7 @@ Frequencies (cm^-1) = 46.1,86.8,142.0,183.1,234.4,329.0,365.8,392.9,420.8,522.4,
 entry(
     index = 165,
     label = "FCDC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -9420,7 +9420,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.79 kcal/mol
 S298: 93.20 cal/mol/K
@@ -9449,7 +9449,7 @@ Frequencies (cm^-1) = 110.3,170.0,193.7,245.8,314.8,361.0,568.6,668.9,702.0,731.
 entry(
     index = 166,
     label = "CDC(OBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -9475,7 +9475,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.46 kcal/mol
 S298: 93.95 cal/mol/K
@@ -9506,7 +9506,7 @@ Frequencies (cm^-1) = 156.9,204.9,284.7,341.8,401.9,527.5,607.0,688.9,717.4,768.
 entry(
     index = 167,
     label = "[CH]DC(CF)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -9534,7 +9534,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 15.59 kcal/mol
 S298: 96.12 cal/mol/K
@@ -9564,7 +9564,7 @@ Frequencies (cm^-1) = 50.3,69.2,153.8,171.5,208.0,280.7,337.8,462.4,565.1,612.6,
 entry(
     index = 168,
     label = "C[C](Br)C(F)(Cl)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -9591,7 +9591,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -35.04 kcal/mol
 S298: 100.44 cal/mol/K
@@ -9622,7 +9622,7 @@ Frequencies (cm^-1) = 135.9,180.9,206.1,277.5,310.4,341.7,382.3,412.0,566.0,651.
 entry(
     index = 169,
     label = "FC(F)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Br u0 p3 c0 {7,S}
@@ -9646,7 +9646,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -101.77 kcal/mol
 S298: 93.88 cal/mol/K
@@ -9674,7 +9674,7 @@ Frequencies (cm^-1) = 139.5,144.9,191.2,210.4,234.8,311.4,393.7,531.5,589.8,758.
 entry(
     index = 170,
     label = "FCCCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -9704,7 +9704,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -74.48 kcal/mol
 S298: 99.97 cal/mol/K
@@ -9740,7 +9740,7 @@ Frequencies (cm^-1) = 149.0,213.7,268.3,345.8,378.2,534.0,545.4,738.8,779.5,868.
 entry(
     index = 171,
     label = "CDCC(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {4,S}
@@ -9768,7 +9768,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -49.30 kcal/mol
 S298: 94.58 cal/mol/K
@@ -9801,7 +9801,7 @@ Frequencies (cm^-1) = 150.1,218.2,269.8,273.5,371.7,395.6,539.5,613.8,652.7,754.
 entry(
     index = 172,
     label = "ODCC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {6,S}
@@ -9825,7 +9825,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -91.26 kcal/mol
 S298: 92.04 cal/mol/K
@@ -9854,7 +9854,7 @@ Frequencies (cm^-1) = 138.7,237.8,246.6,341.5,371.7,420.5,623.7,642.7,762.6,898.
 entry(
     index = 173,
     label = "OCC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -9882,7 +9882,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -108.93 kcal/mol
 S298: 96.59 cal/mol/K
@@ -9916,7 +9916,7 @@ Frequencies (cm^-1) = 143.3,186.9,250.3,302.7,382.3,413.5,589.1,659.2,715.0,954.
 entry(
     index = 174,
     label = "COOC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -9942,7 +9942,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.70 kcal/mol
 S298: 94.10 cal/mol/K
@@ -9974,7 +9974,7 @@ Frequencies (cm^-1) = 180.8,205.1,311.4,322.4,372.8,435.2,440.2,685.4,834.4,882.
 entry(
     index = 175,
     label = "ODC(Br)[C]DC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -9998,7 +9998,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -5.60 kcal/mol
 S298: 93.89 cal/mol/K
@@ -10024,7 +10024,7 @@ Frequencies (cm^-1) = 18.3,79.1,148.7,162.6,330.5,374.2,428.9,563.7,627.6,643.6,
 entry(
     index = 176,
     label = "OCC(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {7,S}
@@ -10050,7 +10050,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -74.34 kcal/mol
 S298: 95.70 cal/mol/K
@@ -10081,7 +10081,7 @@ Frequencies (cm^-1) = 108.8,165.8,200.5,264.4,305.6,409.4,481.8,569.9,629.1,767.
 entry(
     index = 177,
     label = "FCC(Cl)DCOBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {6,S}
@@ -10107,7 +10107,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -44.04 kcal/mol
 S298: 97.69 cal/mol/K
@@ -10138,7 +10138,7 @@ Frequencies (cm^-1) = 106.3,195.5,213.7,314.7,387.2,432.0,531.8,639.3,732.1,902.
 entry(
     index = 178,
     label = "FCDCDC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -10164,7 +10164,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -1.12 kcal/mol
 S298: 94.34 cal/mol/K
@@ -10194,7 +10194,7 @@ Frequencies (cm^-1) = 102.1,106.1,162.8,291.3,305.6,450.7,495.5,580.7,647.4,672.
 entry(
     index = 179,
     label = "FCDC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {5,S}
@@ -10219,7 +10219,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -39.27 kcal/mol
 S298: 88.38 cal/mol/K
@@ -10248,7 +10248,7 @@ Frequencies (cm^-1) = 111.2,204.7,305.2,322.8,469.9,610.7,626.9,654.4,859.0,879.
 entry(
     index = 180,
     label = "F[CH]C(Cl)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -10273,7 +10273,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -27.25 kcal/mol
 S298: 99.22 cal/mol/K
@@ -10302,7 +10302,7 @@ Frequencies (cm^-1) = 124.4,180.9,232.0,281.0,352.7,388.1,403.6,474.1,519.4,595.
 entry(
     index = 181,
     label = "FCC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {5,S}
@@ -10327,7 +10327,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -71.02 kcal/mol
 S298: 89.20 cal/mol/K
@@ -10357,7 +10357,7 @@ Frequencies (cm^-1) = 159.8,221.8,343.3,398.8,420.9,663.9,743.9,915.0,1081.9,109
 entry(
     index = 182,
     label = "OD[C]OC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -10381,7 +10381,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -83.03 kcal/mol
 S298: 91.15 cal/mol/K
@@ -10409,7 +10409,7 @@ Frequencies (cm^-1) = 144.1,215.1,303.4,327.6,377.1,438.4,543.8,688.4,801.2,1031
 entry(
     index = 183,
     label = "FCDC(Cl)[CH]Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -10434,7 +10434,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -4.69 kcal/mol
 S298: 86.09 cal/mol/K
@@ -10461,7 +10461,7 @@ Frequencies (cm^-1) = 120.4,144.3,220.2,240.2,279.1,456.6,571.0,587.1,680.5,706.
 entry(
     index = 184,
     label = "[O]C(O)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -10487,7 +10487,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -91.07 kcal/mol
 S298: 92.86 cal/mol/K
@@ -10515,7 +10515,7 @@ Frequencies (cm^-1) = 83.0,140.0,187.1,200.0,225.0,305.8,322.3,393.0,468.3,542.2
 entry(
     index = 185,
     label = "O[C](Br)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -10540,7 +10540,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -54.63 kcal/mol
 S298: 98.09 cal/mol/K
@@ -10567,7 +10567,7 @@ Frequencies (cm^-1) = 47.3,111.5,168.4,181.7,249.3,278.8,307.6,358.5,403.5,447.8
 entry(
     index = 186,
     label = "CDC(OBr)C(F)(Cl)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -10593,7 +10593,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -52.05 kcal/mol
 S298: 97.36 cal/mol/K
@@ -10622,7 +10622,7 @@ Frequencies (cm^-1) = 41.7,68.7,131.8,192.5,215.4,248.0,362.8,374.9,400.8,469.0,
 entry(
     index = 187,
     label = "CDC(F)CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -10650,7 +10650,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -48.33 kcal/mol
 S298: 95.62 cal/mol/K
@@ -10683,7 +10683,7 @@ Frequencies (cm^-1) = 130.1,202.8,231.8,357.4,391.7,483.6,539.8,669.4,713.3,755.
 entry(
     index = 188,
     label = "FC(Cl)OOCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -10709,7 +10709,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -82.69 kcal/mol
 S298: 96.66 cal/mol/K
@@ -10741,7 +10741,7 @@ Frequencies (cm^-1) = 217.5,315.5,326.0,416.0,432.0,581.6,639.8,812.3,860.2,932.
 entry(
     index = 189,
     label = "CC(F)(Cl)C([O])Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -10769,7 +10769,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.98 kcal/mol
 S298: 93.65 cal/mol/K
@@ -10800,7 +10800,7 @@ Frequencies (cm^-1) = 70.0,136.6,210.5,241.1,307.5,328.2,382.2,405.6,470.3,619.0
 entry(
     index = 190,
     label = "CDCDC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {4,S}
@@ -10826,7 +10826,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 0.37 kcal/mol
 S298: 94.02 cal/mol/K
@@ -10856,7 +10856,7 @@ Frequencies (cm^-1) = 131.4,136.2,187.7,236.6,287.8,392.3,532.8,602.6,645.4,677.
 entry(
     index = 191,
     label = "CDC(CBr)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Br u0 p3 c0 {6,S}
@@ -10884,7 +10884,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -40.28 kcal/mol
 S298: 103.22 cal/mol/K
@@ -10915,7 +10915,7 @@ Frequencies (cm^-1) = 23.8,68.6,135.9,157.5,193.1,207.9,296.3,365.6,383.2,433.4,
 entry(
     index = 192,
     label = "OC(DCF)[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -10941,7 +10941,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -44.87 kcal/mol
 S298: 92.62 cal/mol/K
@@ -10970,7 +10970,7 @@ Frequencies (cm^-1) = 86.9,146.7,164.2,222.4,257.9,279.6,345.3,436.8,567.4,589.1
 entry(
     index = 193,
     label = "FCD[C]C(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -10998,7 +10998,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 13.35 kcal/mol
 S298: 98.49 cal/mol/K
@@ -11030,7 +11030,7 @@ Frequencies (cm^-1) = 96.4,146.1,222.0,233.4,319.3,513.3,576.9,634.8,680.8,804.5
 entry(
     index = 194,
     label = "CC(D[C]F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -11058,7 +11058,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 12.88 kcal/mol
 S298: 96.20 cal/mol/K
@@ -11090,7 +11090,7 @@ Frequencies (cm^-1) = 145.9,158.3,201.5,246.5,308.4,410.3,478.1,548.5,653.2,712.
 entry(
     index = 195,
     label = "FC(Cl)C(Br)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Br u0 p3 c0 {7,S}
@@ -11117,7 +11117,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -66.70 kcal/mol
 S298: 96.56 cal/mol/K
@@ -11149,7 +11149,7 @@ Frequencies (cm^-1) = 105.3,172.6,238.2,293.6,363.2,393.7,532.0,574.1,649.0,753.
 entry(
     index = 196,
     label = "FCD[C]C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -11174,7 +11174,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 33.35 kcal/mol
 S298: 101.18 cal/mol/K
@@ -11202,7 +11202,7 @@ Frequencies (cm^-1) = 82.0,95.3,152.3,187.5,226.0,284.3,311.6,407.2,507.4,638.9,
 entry(
     index = 197,
     label = "FCCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -11229,7 +11229,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -113.92 kcal/mol
 S298: 94.08 cal/mol/K
@@ -11261,7 +11261,7 @@ Frequencies (cm^-1) = 124.0,207.5,268.9,297.2,328.9,375.6,430.6,644.0,750.6,807.
 entry(
     index = 198,
     label = "[CH2]C(F)(Cl)COBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -11289,7 +11289,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.42 kcal/mol
 S298: 96.45 cal/mol/K
@@ -11319,7 +11319,7 @@ Frequencies (cm^-1) = 53.6,110.7,140.5,208.3,246.9,277.2,322.1,371.0,424.1,477.5
 entry(
     index = 199,
     label = "F[C](Cl)COBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -11344,7 +11344,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -24.88 kcal/mol
 S298: 92.49 cal/mol/K
@@ -11373,7 +11373,7 @@ Frequencies (cm^-1) = 206.1,255.9,368.3,389.4,463.7,558.7,758.0,950.9,1001.9,109
 entry(
     index = 200,
     label = "COC(Cl)(Br)CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -11401,7 +11401,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -103.61 kcal/mol
 S298: 84.88 cal/mol/K
@@ -11435,7 +11435,7 @@ Frequencies (cm^-1) = 160.6,197.0,243.2,274.7,340.7,354.4,482.3,593.8,732.1,900.
 entry(
     index = 201,
     label = "F[C](Cl)C(Br)DCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -11460,7 +11460,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 1.66 kcal/mol
 S298: 96.24 cal/mol/K
@@ -11487,7 +11487,7 @@ Frequencies (cm^-1) = 78.6,104.7,108.7,148.0,252.0,265.4,321.9,445.3,471.9,549.8
 entry(
     index = 202,
     label = "OC(Cl)(Br)C#CF",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -11511,7 +11511,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -15.50 kcal/mol
 S298: 92.05 cal/mol/K
@@ -11539,7 +11539,7 @@ Frequencies (cm^-1) = 79.4,103.7,203.5,295.1,323.0,343.9,395.9,448.3,471.0,574.2
 entry(
     index = 203,
     label = "FCC(CCl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -11569,7 +11569,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.04 kcal/mol
 S298: 96.18 cal/mol/K
@@ -11605,7 +11605,7 @@ Frequencies (cm^-1) = 160.8,210.6,232.6,366.2,423.9,518.2,609.1,736.7,825.6,857.
 entry(
     index = 204,
     label = "[CH]DC(F)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -11630,7 +11630,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -21.24 kcal/mol
 S298: 90.99 cal/mol/K
@@ -11657,7 +11657,7 @@ Frequencies (cm^-1) = 76.3,149.9,182.6,222.8,300.8,327.8,393.4,516.8,553.9,590.0
 entry(
     index = 205,
     label = "CC(DCBr)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -11685,7 +11685,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -16.08 kcal/mol
 S298: 94.32 cal/mol/K
@@ -11716,7 +11716,7 @@ Frequencies (cm^-1) = 110.1,120.0,137.8,207.9,285.0,341.3,410.3,446.2,492.1,626.
 entry(
     index = 206,
     label = "CC(F)C(O)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -11744,7 +11744,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -113.88 kcal/mol
 S298: 95.20 cal/mol/K
@@ -11778,7 +11778,7 @@ Frequencies (cm^-1) = 163.1,189.1,224.7,309.6,325.0,402.7,455.2,507.8,552.8,731.
 entry(
     index = 207,
     label = "FC(F)DCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -11803,7 +11803,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -86.13 kcal/mol
 S298: 92.08 cal/mol/K
@@ -11832,7 +11832,7 @@ Frequencies (cm^-1) = 102.3,154.6,202.0,280.1,364.9,478.4,569.5,629.9,658.1,736.
 entry(
     index = 208,
     label = "[CH2]C(F)(Cl)OOBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -11858,7 +11858,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -13.78 kcal/mol
 S298: 95.18 cal/mol/K
@@ -11886,7 +11886,7 @@ Frequencies (cm^-1) = 64.4,81.8,186.4,213.8,224.8,273.8,372.9,408.8,435.2,535.7,
 entry(
     index = 209,
     label = "CDC(F)C(Cl)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {5,S}
@@ -11914,7 +11914,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -52.77 kcal/mol
 S298: 98.51 cal/mol/K
@@ -11945,7 +11945,7 @@ Frequencies (cm^-1) = 61.9,82.1,120.3,178.4,215.9,259.0,299.8,324.8,409.0,453.4,
 entry(
     index = 210,
     label = "C[C]DCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -11973,7 +11973,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 8.14 kcal/mol
 S298: 98.30 cal/mol/K
@@ -12005,7 +12005,7 @@ Frequencies (cm^-1) = 117.4,202.0,227.8,270.6,279.9,305.6,386.4,478.6,587.0,698.
 entry(
     index = 211,
     label = "CC(Br)(Br)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -12032,7 +12032,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -56.60 kcal/mol
 S298: 104.17 cal/mol/K
@@ -12062,7 +12062,7 @@ Frequencies (cm^-1) = 61.0,111.8,148.7,183.7,200.2,204.5,258.6,264.2,288.6,293.1
 entry(
     index = 212,
     label = "[C]#CC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -12088,7 +12088,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 80.35 kcal/mol
 S298: 92.86 cal/mol/K
@@ -12116,7 +12116,7 @@ Frequencies (cm^-1) = 63.0,114.4,162.6,212.8,218.3,303.3,328.8,498.7,611.4,664.7
 entry(
     index = 213,
     label = "ODC(Br)C(Cl)CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -12142,7 +12142,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -95.03 kcal/mol
 S298: 95.68 cal/mol/K
@@ -12173,7 +12173,7 @@ Frequencies (cm^-1) = 139.9,181.4,220.8,344.5,382.7,484.0,513.0,630.9,818.5,902.
 entry(
     index = 214,
     label = "OC(F)(Cl)COBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -12199,7 +12199,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -116.94 kcal/mol
 S298: 96.75 cal/mol/K
@@ -12231,7 +12231,7 @@ Frequencies (cm^-1) = 189.2,235.8,341.6,368.8,416.3,473.3,572.8,608.9,652.8,878.
 entry(
     index = 215,
     label = "CCDC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -12259,7 +12259,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -49.23 kcal/mol
 S298: 96.59 cal/mol/K
@@ -12292,7 +12292,7 @@ Frequencies (cm^-1) = 125.2,186.5,203.7,294.9,328.5,409.2,467.2,516.7,718.4,726.
 entry(
     index = 216,
     label = "OD[C]C(Cl)(Br)CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -12318,7 +12318,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.68 kcal/mol
 S298: 96.27 cal/mol/K
@@ -12348,7 +12348,7 @@ Frequencies (cm^-1) = 139.1,186.5,205.7,299.8,330.8,408.9,478.7,576.9,696.4,816.
 entry(
     index = 217,
     label = "FCOC(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {7,S}
@@ -12373,7 +12373,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -96.70 kcal/mol
 S298: 96.21 cal/mol/K
@@ -12403,7 +12403,7 @@ Frequencies (cm^-1) = 176.2,193.3,228.3,279.0,291.5,399.6,477.5,565.3,698.7,830.
 entry(
     index = 218,
     label = "F[C](Cl)C(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -12430,7 +12430,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -35.10 kcal/mol
 S298: 96.64 cal/mol/K
@@ -12460,7 +12460,7 @@ Frequencies (cm^-1) = 70.6,122.8,156.2,205.6,228.7,401.0,488.2,509.7,551.7,621.0
 entry(
     index = 219,
     label = "F[CH]C(Cl)(Br)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -12485,7 +12485,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -16.04 kcal/mol
 S298: 101.77 cal/mol/K
@@ -12514,7 +12514,7 @@ Frequencies (cm^-1) = 110.7,161.0,191.3,242.0,295.4,359.4,402.3,459.2,487.8,621.
 entry(
     index = 220,
     label = "[O]C(Br)CC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -12542,7 +12542,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.06 kcal/mol
 S298: 95.32 cal/mol/K
@@ -12572,7 +12572,7 @@ Frequencies (cm^-1) = 50.0,87.0,129.4,212.9,261.7,331.1,370.0,401.7,483.6,538.9,
 entry(
     index = 221,
     label = "CDC(F)C(C)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {4,S}
@@ -12600,7 +12600,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -48.28 kcal/mol
 S298: 93.43 cal/mol/K
@@ -12633,7 +12633,7 @@ Frequencies (cm^-1) = 154.8,187.9,235.7,280.4,332.4,369.6,510.8,517.1,571.5,703.
 entry(
     index = 222,
     label = "[CH2]C(CBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -12663,7 +12663,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.16 kcal/mol
 S298: 95.35 cal/mol/K
@@ -12695,7 +12695,7 @@ Frequencies (cm^-1) = 63.8,79.9,98.3,132.8,192.7,252.3,363.1,373.4,407.9,507.4,5
 entry(
     index = 223,
     label = "CCC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {6,S}
@@ -12723,7 +12723,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -88.10 kcal/mol
 S298: 94.90 cal/mol/K
@@ -12757,7 +12757,7 @@ Frequencies (cm^-1) = 147.7,208.2,280.8,352.8,411.8,466.9,491.0,647.7,682.9,799.
 entry(
     index = 224,
     label = "CDCCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -12785,7 +12785,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.36 kcal/mol
 S298: 93.60 cal/mol/K
@@ -12818,7 +12818,7 @@ Frequencies (cm^-1) = 156.4,208.8,273.4,298.0,347.8,378.7,436.5,556.3,682.9,772.
 entry(
     index = 225,
     label = "CDC(O)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -12844,7 +12844,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.77 kcal/mol
 S298: 93.46 cal/mol/K
@@ -12875,7 +12875,7 @@ Frequencies (cm^-1) = 159.5,189.2,237.1,287.5,356.3,391.8,507.1,557.5,587.7,718.
 entry(
     index = 226,
     label = "FC(Cl)DC[C](Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -12900,7 +12900,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 1.11 kcal/mol
 S298: 96.63 cal/mol/K
@@ -12927,7 +12927,7 @@ Frequencies (cm^-1) = 53.1,107.5,128.3,166.9,238.5,257.4,289.8,434.3,454.3,577.5
 entry(
     index = 227,
     label = "FCDC(Cl)OOBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -12951,7 +12951,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -20.85 kcal/mol
 S298: 93.35 cal/mol/K
@@ -12980,7 +12980,7 @@ Frequencies (cm^-1) = 188.7,200.9,240.4,406.0,449.4,479.1,556.1,643.9,689.4,697.
 entry(
     index = 228,
     label = "[CH2]C(F)DC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -13008,7 +13008,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -17.95 kcal/mol
 S298: 94.72 cal/mol/K
@@ -13038,7 +13038,7 @@ Frequencies (cm^-1) = 46.9,82.8,119.5,239.5,328.2,335.6,436.3,464.6,496.0,608.5,
 entry(
     index = 229,
     label = "OC(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -13061,7 +13061,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -68.08 kcal/mol
 S298: 85.98 cal/mol/K
@@ -13088,7 +13088,7 @@ Frequencies (cm^-1) = 131.4,164.0,260.4,347.3,356.1,412.7,535.1,636.0,773.0,1141
 entry(
     index = 230,
     label = "[CH2]C(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -13113,7 +13113,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -4.88 kcal/mol
 S298: 85.63 cal/mol/K
@@ -13140,7 +13140,7 @@ Frequencies (cm^-1) = 84.0,178.4,264.0,268.7,336.8,426.4,477.1,510.0,609.5,723.4
 entry(
     index = 231,
     label = "ODCC(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {7,S}
@@ -13164,7 +13164,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -57.02 kcal/mol
 S298: 88.37 cal/mol/K
@@ -13192,7 +13192,7 @@ Frequencies (cm^-1) = 115.9,169.8,184.7,279.4,317.2,412.7,522.8,595.5,608.8,833.
 entry(
     index = 232,
     label = "FCDC(Cl)COBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {6,S}
@@ -13218,7 +13218,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -44.14 kcal/mol
 S298: 94.45 cal/mol/K
@@ -13249,7 +13249,7 @@ Frequencies (cm^-1) = 180.9,203.4,239.8,366.9,422.9,513.0,580.0,652.3,678.0,868.
 entry(
     index = 233,
     label = "F[CH]CC(Cl)DCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -13277,7 +13277,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -0.10 kcal/mol
 S298: 99.57 cal/mol/K
@@ -13309,7 +13309,7 @@ Frequencies (cm^-1) = 169.0,190.4,197.1,274.1,369.4,405.4,533.5,632.3,704.1,726.
 entry(
     index = 234,
     label = "C[C](C)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -13339,7 +13339,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -37.04 kcal/mol
 S298: 101.03 cal/mol/K
@@ -13374,7 +13374,7 @@ Frequencies (cm^-1) = 127.3,178.3,222.9,239.8,324.8,361.3,407.1,435.4,532.2,610.
 entry(
     index = 235,
     label = "F[C](F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -13398,7 +13398,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -63.98 kcal/mol
 S298: 89.28 cal/mol/K
@@ -13425,7 +13425,7 @@ Frequencies (cm^-1) = 119.5,188.9,203.8,379.4,462.8,550.8,589.7,764.2,879.4,1142
 entry(
     index = 236,
     label = "F[CH]C(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -13452,7 +13452,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.90 kcal/mol
 S298: 96.41 cal/mol/K
@@ -13483,7 +13483,7 @@ Frequencies (cm^-1) = 156.4,172.0,215.5,277.8,307.5,391.1,549.5,612.2,669.4,728.
 entry(
     index = 237,
     label = "FC[CH]C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -13511,7 +13511,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.19 kcal/mol
 S298: 101.97 cal/mol/K
@@ -13544,7 +13544,7 @@ Frequencies (cm^-1) = 121.4,207.9,271.7,354.5,368.7,508.0,533.0,624.4,682.0,917.
 entry(
     index = 238,
     label = "OC(CBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {7,S}
@@ -13572,7 +13572,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -111.45 kcal/mol
 S298: 95.12 cal/mol/K
@@ -13606,7 +13606,7 @@ Frequencies (cm^-1) = 147.9,178.9,251.9,333.3,397.8,458.7,561.9,738.8,777.8,850.
 entry(
     index = 239,
     label = "FC(Cl)DCBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {4,S}
@@ -13628,7 +13628,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -30.87 kcal/mol
 S298: 77.86 cal/mol/K
@@ -13653,7 +13653,7 @@ Frequencies (cm^-1) = 163.0,172.3,272.4,432.2,564.1,742.3,775.3,807.3,1097.2,128
 entry(
     index = 240,
     label = "CC(O)(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -13681,7 +13681,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -71.07 kcal/mol
 S298: 97.87 cal/mol/K
@@ -13713,7 +13713,7 @@ Frequencies (cm^-1) = 73.4,81.3,131.2,210.6,254.0,325.1,410.8,421.4,431.6,512.7,
 entry(
     index = 241,
     label = "FC[C](CCl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -13743,7 +13743,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -34.45 kcal/mol
 S298: 105.76 cal/mol/K
@@ -13778,7 +13778,7 @@ Frequencies (cm^-1) = 107.3,168.7,250.3,337.9,352.4,481.1,526.2,624.3,803.4,875.
 entry(
     index = 242,
     label = "ODC([CH]F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -13804,7 +13804,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -48.38 kcal/mol
 S298: 92.84 cal/mol/K
@@ -13832,7 +13832,7 @@ Frequencies (cm^-1) = 58.5,129.2,151.3,202.1,212.0,312.3,390.8,531.8,578.5,667.0
 entry(
     index = 243,
     label = "CDC(F)C(Cl)(Br)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Br u0 p3 c0 {6,S}
@@ -13860,7 +13860,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -39.39 kcal/mol
 S298: 100.64 cal/mol/K
@@ -13891,7 +13891,7 @@ Frequencies (cm^-1) = 69.7,90.4,121.9,160.3,189.5,215.2,267.4,289.5,357.2,511.2,
 entry(
     index = 244,
     label = "CC(Br)DCDC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -13917,7 +13917,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -2.91 kcal/mol
 S298: 94.05 cal/mol/K
@@ -13947,7 +13947,7 @@ Frequencies (cm^-1) = 73.6,94.8,114.6,241.0,333.9,386.9,413.0,494.7,544.7,585.1,
 entry(
     index = 245,
     label = "F[CH]OC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -13973,7 +13973,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -62.10 kcal/mol
 S298: 96.49 cal/mol/K
@@ -14004,7 +14004,7 @@ Frequencies (cm^-1) = 162.6,231.2,327.4,420.9,542.4,598.2,653.5,824.1,949.3,990.
 entry(
     index = 246,
     label = "CC(F)(Cl)C(O)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {5,S}
@@ -14032,7 +14032,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -116.70 kcal/mol
 S298: 93.28 cal/mol/K
@@ -14066,7 +14066,7 @@ Frequencies (cm^-1) = 157.0,221.8,262.4,328.9,334.9,374.9,427.2,555.5,587.4,688.
 entry(
     index = 247,
     label = "FC(F)DC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -14088,7 +14088,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -73.27 kcal/mol
 S298: 82.06 cal/mol/K
@@ -14113,7 +14113,7 @@ Frequencies (cm^-1) = 147.3,165.1,217.2,305.1,358.7,451.2,614.4,619.7,923.5,1047
 entry(
     index = 248,
     label = "OC(Cl)(Br)CCF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -14141,7 +14141,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -111.34 kcal/mol
 S298: 94.62 cal/mol/K
@@ -14175,7 +14175,7 @@ Frequencies (cm^-1) = 148.9,212.9,267.1,308.1,318.9,400.1,495.2,560.7,621.3,812.
 entry(
     index = 249,
     label = "CC(F)DCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -14203,7 +14203,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -50.30 kcal/mol
 S298: 95.53 cal/mol/K
@@ -14236,7 +14236,7 @@ Frequencies (cm^-1) = 94.8,156.9,199.0,271.6,339.8,418.3,507.7,551.9,653.5,731.7
 entry(
     index = 250,
     label = "FC#CCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -14262,7 +14262,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 13.38 kcal/mol
 S298: 94.26 cal/mol/K
@@ -14292,7 +14292,7 @@ Frequencies (cm^-1) = 77.9,207.5,211.3,256.7,325.5,383.9,424.2,470.5,567.0,731.6
 entry(
     index = 251,
     label = "FC(Cl)(Br)C(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {7,S}
@@ -14316,7 +14316,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.72 kcal/mol
 S298: 101.19 cal/mol/K
@@ -14344,7 +14344,7 @@ Frequencies (cm^-1) = 108.6,139.7,156.7,189.3,225.5,299.9,338.9,442.2,565.1,621.
 entry(
     index = 252,
     label = "[O]OC(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -14368,7 +14368,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -8.91 kcal/mol
 S298: 90.09 cal/mol/K
@@ -14394,7 +14394,7 @@ Frequencies (cm^-1) = 87.9,110.2,154.0,204.5,276.3,335.5,402.5,534.6,550.2,583.0
 entry(
     index = 253,
     label = "[CH]DC(CBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -14422,7 +14422,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 11.26 kcal/mol
 S298: 96.18 cal/mol/K
@@ -14452,7 +14452,7 @@ Frequencies (cm^-1) = 42.1,68.3,141.2,172.1,209.7,326.6,403.7,478.6,545.1,673.9,
 entry(
     index = 254,
     label = "FCC#CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -14478,7 +14478,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 3.22 kcal/mol
 S298: 97.93 cal/mol/K
@@ -14508,7 +14508,7 @@ Frequencies (cm^-1) = 75.8,99.4,163.4,220.9,270.0,395.0,461.2,539.5,626.2,699.9,
 entry(
     index = 255,
     label = "F[C]DC(Cl)OOBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -14532,7 +14532,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 42.73 kcal/mol
 S298: 95.13 cal/mol/K
@@ -14560,7 +14560,7 @@ Frequencies (cm^-1) = 169.0,190.8,241.0,379.3,435.7,468.4,552.1,629.3,677.7,686.
 entry(
     index = 256,
     label = "FC#CC(Cl)[CH]Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -14586,7 +14586,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 58.94 kcal/mol
 S298: 95.69 cal/mol/K
@@ -14615,7 +14615,7 @@ Frequencies (cm^-1) = 88.5,109.0,216.9,287.6,325.3,364.3,442.1,456.6,482.4,566.6
 entry(
     index = 257,
     label = "FCC(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -14642,7 +14642,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -118.28 kcal/mol
 S298: 91.54 cal/mol/K
@@ -14674,7 +14674,7 @@ Frequencies (cm^-1) = 143.3,211.7,292.0,314.5,347.9,432.3,456.0,673.7,717.8,842.
 entry(
     index = 258,
     label = "FC(F)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {7,S}
@@ -14698,7 +14698,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -113.63 kcal/mol
 S298: 89.77 cal/mol/K
@@ -14726,7 +14726,7 @@ Frequencies (cm^-1) = 152.9,164.9,222.8,231.4,258.3,391.7,397.1,535.9,597.9,805.
 entry(
     index = 259,
     label = "F[C](Cl)C(Br)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -14753,7 +14753,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -24.40 kcal/mol
 S298: 100.35 cal/mol/K
@@ -14783,7 +14783,7 @@ Frequencies (cm^-1) = 68.5,90.6,121.3,136.9,208.8,387.8,400.2,434.9,503.0,616.5,
 entry(
     index = 260,
     label = "C#CC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {5,S}
@@ -14807,7 +14807,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -4.62 kcal/mol
 S298: 90.47 cal/mol/K
@@ -14835,7 +14835,7 @@ Frequencies (cm^-1) = 122.8,155.1,194.8,352.8,391.0,415.0,447.0,552.3,659.0,675.
 entry(
     index = 261,
     label = "F[C]DC(Cl)COBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -14861,7 +14861,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 16.32 kcal/mol
 S298: 96.25 cal/mol/K
@@ -14891,7 +14891,7 @@ Frequencies (cm^-1) = 173.4,176.3,242.9,356.9,399.5,496.4,578.2,625.3,659.4,954.
 entry(
     index = 262,
     label = "CC(Cl)([CH]F)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -14919,7 +14919,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -33.04 kcal/mol
 S298: 99.14 cal/mol/K
@@ -14952,7 +14952,7 @@ Frequencies (cm^-1) = 145.8,218.5,270.8,322.8,351.2,388.6,439.0,471.5,523.7,670.
 entry(
     index = 263,
     label = "CC(Br)C(Cl)CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -14982,7 +14982,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.44 kcal/mol
 S298: 95.23 cal/mol/K
@@ -15018,7 +15018,7 @@ Frequencies (cm^-1) = 157.3,192.6,221.3,294.0,373.7,457.9,494.8,575.1,746.9,863.
 entry(
     index = 264,
     label = "CC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {6,S}
@@ -15045,7 +15045,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -73.90 kcal/mol
 S298: 89.58 cal/mol/K
@@ -15077,7 +15077,7 @@ Frequencies (cm^-1) = 154.9,234.1,273.4,316.3,402.1,530.8,666.8,734.1,901.3,1011
 entry(
     index = 265,
     label = "FC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -15101,7 +15101,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -113.15 kcal/mol
 S298: 84.98 cal/mol/K
@@ -15129,7 +15129,7 @@ Frequencies (cm^-1) = 153.1,207.8,289.1,359.3,390.2,564.4,718.8,791.9,1059.7,112
 entry(
     index = 266,
     label = "FC(F)CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -15156,7 +15156,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -122.68 kcal/mol
 S298: 93.73 cal/mol/K
@@ -15188,7 +15188,7 @@ Frequencies (cm^-1) = 125.5,202.2,279.8,298.7,441.5,497.7,545.9,591.6,757.3,883.
 entry(
     index = 267,
     label = "FC(Cl)C(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -15215,7 +15215,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.48 kcal/mol
 S298: 94.81 cal/mol/K
@@ -15247,7 +15247,7 @@ Frequencies (cm^-1) = 117.9,171.9,296.7,317.5,370.8,442.3,491.7,600.1,721.1,812.
 entry(
     index = 268,
     label = "F[CH]CC(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -15274,7 +15274,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -25.21 kcal/mol
 S298: 98.40 cal/mol/K
@@ -15305,7 +15305,7 @@ Frequencies (cm^-1) = 159.6,191.9,221.6,249.4,311.2,325.2,435.1,476.0,564.8,693.
 entry(
     index = 269,
     label = "OC(Br)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {7,S}
@@ -15330,7 +15330,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -96.19 kcal/mol
 S298: 96.85 cal/mol/K
@@ -15360,7 +15360,7 @@ Frequencies (cm^-1) = 126.4,183.7,192.1,257.0,302.2,327.2,404.1,522.8,547.1,639.
 entry(
     index = 270,
     label = "CDCC(F)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -15388,7 +15388,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -89.37 kcal/mol
 S298: 96.21 cal/mol/K
@@ -15419,7 +15419,7 @@ Frequencies (cm^-1) = 71.7,87.3,151.7,188.8,227.8,285.2,298.2,305.8,382.0,453.5,
 entry(
     index = 271,
     label = "F[CH]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -15443,7 +15443,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -58.55 kcal/mol
 S298: 89.18 cal/mol/K
@@ -15470,7 +15470,7 @@ Frequencies (cm^-1) = 180.0,194.1,281.5,295.6,353.4,428.7,543.4,607.7,800.2,992.
 entry(
     index = 272,
     label = "FOC(Cl)COBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -15496,7 +15496,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.27 kcal/mol
 S298: 97.52 cal/mol/K
@@ -15528,7 +15528,7 @@ Frequencies (cm^-1) = 182.8,221.8,352.8,402.8,455.4,576.1,595.3,706.5,899.1,983.
 entry(
     index = 273,
     label = "CDC(Br)CDC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {7,S}
@@ -15554,7 +15554,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -17.27 kcal/mol
 S298: 93.39 cal/mol/K
@@ -15584,7 +15584,7 @@ Frequencies (cm^-1) = 121.8,153.3,236.5,325.6,378.6,439.1,494.8,590.8,628.7,692.
 entry(
     index = 274,
     label = "CDC(F)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -15609,7 +15609,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -38.98 kcal/mol
 S298: 91.68 cal/mol/K
@@ -15638,7 +15638,7 @@ Frequencies (cm^-1) = 148.3,175.9,224.1,233.2,285.0,368.2,405.9,521.7,568.6,719.
 entry(
     index = 275,
     label = "CDCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {4,S}
@@ -15663,7 +15663,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -38.70 kcal/mol
 S298: 86.48 cal/mol/K
@@ -15692,7 +15692,7 @@ Frequencies (cm^-1) = 200.5,239.7,266.6,304.0,376.9,411.4,593.4,668.6,800.2,971.
 entry(
     index = 276,
     label = "FC(Cl)DC(Br)CBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Br u0 p3 c0 {6,S}
@@ -15717,7 +15717,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -33.13 kcal/mol
 S298: 96.76 cal/mol/K
@@ -15746,7 +15746,7 @@ Frequencies (cm^-1) = 92.8,108.7,185.3,272.3,312.8,350.6,438.0,550.1,610.5,638.8
 entry(
     index = 277,
     label = "[CH2]C(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -15771,7 +15771,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.37 kcal/mol
 S298: 90.45 cal/mol/K
@@ -15800,7 +15800,7 @@ Frequencies (cm^-1) = 152.3,259.4,317.7,373.7,394.5,504.3,541.4,627.1,688.7,896.
 entry(
     index = 278,
     label = "OC(Cl)(CF)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -15828,7 +15828,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -114.31 kcal/mol
 S298: 93.22 cal/mol/K
@@ -15862,7 +15862,7 @@ Frequencies (cm^-1) = 164.2,183.0,295.5,344.7,349.7,395.5,515.5,620.1,721.8,849.
 entry(
     index = 279,
     label = "CC(F)(CCl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {7,S}
@@ -15890,7 +15890,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -87.83 kcal/mol
 S298: 95.75 cal/mol/K
@@ -15924,7 +15924,7 @@ Frequencies (cm^-1) = 128.0,223.4,254.3,323.3,397.1,500.7,585.0,640.3,761.5,817.
 entry(
     index = 280,
     label = "[O]COC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -15950,7 +15950,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -87.18 kcal/mol
 S298: 92.51 cal/mol/K
@@ -15978,7 +15978,7 @@ Frequencies (cm^-1) = 60.4,107.9,185.2,217.3,279.7,298.5,383.3,460.6,509.5,645.4
 entry(
     index = 281,
     label = "FC(Cl)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {5,S}
@@ -16002,7 +16002,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -70.04 kcal/mol
 S298: 88.62 cal/mol/K
@@ -16030,7 +16030,7 @@ Frequencies (cm^-1) = 136.7,213.8,267.3,339.1,383.4,435.1,611.7,653.3,785.6,889.
 entry(
     index = 282,
     label = "[CH2]CC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -16060,7 +16060,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -28.36 kcal/mol
 S298: 96.95 cal/mol/K
@@ -16092,7 +16092,7 @@ Frequencies (cm^-1) = 36.3,107.4,142.1,165.5,201.3,220.8,274.4,319.1,449.7,504.7
 entry(
     index = 283,
     label = "ODC(Br)C[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -16118,7 +16118,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -55.27 kcal/mol
 S298: 98.33 cal/mol/K
@@ -16148,7 +16148,7 @@ Frequencies (cm^-1) = 115.8,187.2,323.7,335.8,405.1,453.7,463.6,634.2,770.8,892.
 entry(
     index = 284,
     label = "FC(Cl)(Cl)[CH]CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -16175,7 +16175,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.32 kcal/mol
 S298: 99.91 cal/mol/K
@@ -16206,7 +16206,7 @@ Frequencies (cm^-1) = 148.6,233.5,269.7,307.3,381.3,389.1,408.8,428.0,631.6,670.
 entry(
     index = 285,
     label = "CC(CBr)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -16234,7 +16234,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -50.43 kcal/mol
 S298: 92.80 cal/mol/K
@@ -16267,7 +16267,7 @@ Frequencies (cm^-1) = 106.4,163.4,232.8,339.8,352.2,420.7,458.8,550.2,629.7,663.
 entry(
     index = 286,
     label = "CC(Br)O[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -16295,7 +16295,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -64.07 kcal/mol
 S298: 99.97 cal/mol/K
@@ -16328,7 +16328,7 @@ Frequencies (cm^-1) = 151.9,231.1,283.1,377.4,426.2,441.4,550.7,620.6,801.3,896.
 entry(
     index = 287,
     label = "OC(Cl)(Br)CDCF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -16354,7 +16354,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.85 kcal/mol
 S298: 92.37 cal/mol/K
@@ -16385,7 +16385,7 @@ Frequencies (cm^-1) = 172.9,182.8,205.8,280.9,330.5,359.3,405.3,464.8,669.6,728.
 entry(
     index = 288,
     label = "CC(Br)(Br)C(Cl)D[C]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -16413,7 +16413,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 19.99 kcal/mol
 S298: 103.45 cal/mol/K
@@ -16443,7 +16443,7 @@ Frequencies (cm^-1) = 48.4,103.5,128.2,163.8,191.0,251.8,271.5,282.2,290.1,312.2
 entry(
     index = 289,
     label = "C[CH]C(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -16473,7 +16473,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -37.01 kcal/mol
 S298: 99.99 cal/mol/K
@@ -16508,7 +16508,7 @@ Frequencies (cm^-1) = 135.0,208.5,234.6,283.5,326.1,381.8,530.9,567.6,599.9,673.
 entry(
     index = 290,
     label = "[CH2]C(F)C(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -16538,7 +16538,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.07 kcal/mol
 S298: 97.03 cal/mol/K
@@ -16570,7 +16570,7 @@ Frequencies (cm^-1) = 68.4,87.1,122.5,175.1,201.6,297.9,348.2,371.0,462.7,503.0,
 entry(
     index = 291,
     label = "F[C]DC(Cl)CDCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -16596,7 +16596,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 43.52 kcal/mol
 S298: 91.85 cal/mol/K
@@ -16625,7 +16625,7 @@ Frequencies (cm^-1) = 107.2,124.1,172.6,241.9,309.7,381.2,478.1,608.6,630.0,771.
 entry(
     index = 292,
     label = "CDC[C](F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -16653,7 +16653,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -13.24 kcal/mol
 S298: 94.87 cal/mol/K
@@ -16683,7 +16683,7 @@ Frequencies (cm^-1) = 49.3,100.3,171.6,194.1,235.9,267.6,351.9,452.6,548.4,635.3
 entry(
     index = 293,
     label = "CC(OBr)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -16711,7 +16711,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -35.52 kcal/mol
 S298: 98.10 cal/mol/K
@@ -16744,7 +16744,7 @@ Frequencies (cm^-1) = 167.5,188.7,211.4,328.6,390.8,534.2,563.7,606.4,656.6,893.
 entry(
     index = 294,
     label = "FC(Cl)DC[C]DCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -16770,7 +16770,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 29.48 kcal/mol
 S298: 94.88 cal/mol/K
@@ -16798,7 +16798,7 @@ Frequencies (cm^-1) = 49.0,63.3,147.5,220.4,317.6,342.8,398.8,424.8,568.1,584.8,
 entry(
     index = 295,
     label = "C[C](Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -16825,7 +16825,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.22 kcal/mol
 S298: 93.12 cal/mol/K
@@ -16856,7 +16856,7 @@ Frequencies (cm^-1) = 125.3,212.3,269.4,333.1,399.2,401.2,599.1,710.4,917.0,1008
 entry(
     index = 296,
     label = "OCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -16881,7 +16881,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -101.29 kcal/mol
 S298: 87.27 cal/mol/K
@@ -16911,7 +16911,7 @@ Frequencies (cm^-1) = 195.8,208.8,304.9,310.9,352.9,434.6,566.7,809.7,935.6,1016
 entry(
     index = 297,
     label = "FC(F)D[C]C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -16936,7 +16936,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -22.35 kcal/mol
 S298: 97.02 cal/mol/K
@@ -16964,7 +16964,7 @@ Frequencies (cm^-1) = 78.2,103.3,191.6,239.9,362.8,476.7,541.5,619.2,622.8,674.7
 entry(
     index = 298,
     label = "FC[CH]OC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -16992,7 +16992,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -55.28 kcal/mol
 S298: 99.17 cal/mol/K
@@ -17025,7 +17025,7 @@ Frequencies (cm^-1) = 167.9,210.9,269.2,347.6,375.2,520.2,575.0,641.2,720.8,880.
 entry(
     index = 299,
     label = "CC(Cl)(Br)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -17052,7 +17052,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -24.83 kcal/mol
 S298: 92.46 cal/mol/K
@@ -17083,7 +17083,7 @@ Frequencies (cm^-1) = 132.4,198.8,232.2,278.0,328.8,360.3,449.4,586.0,715.3,917.
 entry(
     index = 300,
     label = "ODC(Br)OC(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {6,S}
@@ -17107,7 +17107,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -135.29 kcal/mol
 S298: 92.55 cal/mol/K
@@ -17136,7 +17136,7 @@ Frequencies (cm^-1) = 163.3,242.3,375.7,396.8,414.6,534.7,648.4,759.6,855.9,993.
 entry(
     index = 301,
     label = "CC(DCF)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -17164,7 +17164,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -90.98 kcal/mol
 S298: 97.58 cal/mol/K
@@ -17195,7 +17195,7 @@ Frequencies (cm^-1) = 48.8,137.4,144.0,174.1,214.8,276.5,297.0,321.7,335.2,376.1
 entry(
     index = 302,
     label = "OC(Cl)(Br)COF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -17221,7 +17221,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -66.41 kcal/mol
 S298: 98.23 cal/mol/K
@@ -17253,7 +17253,7 @@ Frequencies (cm^-1) = 171.5,193.7,276.4,337.3,363.1,411.1,477.7,551.3,764.7,894.
 entry(
     index = 303,
     label = "FC(Cl)(Br)OOBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Br u0 p3 c0 {6,S}
@@ -17276,7 +17276,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -41.22 kcal/mol
 S298: 98.11 cal/mol/K
@@ -17304,7 +17304,7 @@ Frequencies (cm^-1) = 165.7,205.4,225.9,317.5,364.6,406.0,452.0,586.5,694.6,818.
 entry(
     index = 304,
     label = "[CH]DCC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -17332,7 +17332,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 12.96 kcal/mol
 S298: 94.79 cal/mol/K
@@ -17362,7 +17362,7 @@ Frequencies (cm^-1) = 63.2,74.7,172.6,193.0,225.7,303.4,335.7,391.6,587.5,661.2,
 entry(
     index = 305,
     label = "[O]C(Br)C(F)(Cl)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -17387,7 +17387,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -53.41 kcal/mol
 S298: 93.69 cal/mol/K
@@ -17414,7 +17414,7 @@ Frequencies (cm^-1) = 61.2,137.2,180.6,198.9,272.9,283.2,376.8,415.7,542.8,569.9
 entry(
     index = 306,
     label = "CC(Br)C(F)(Cl)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -17441,7 +17441,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -78.39 kcal/mol
 S298: 95.28 cal/mol/K
@@ -17473,7 +17473,7 @@ Frequencies (cm^-1) = 147.5,207.0,213.1,278.2,296.5,377.0,416.7,508.2,574.7,616.
 entry(
     index = 307,
     label = "[O]CC(Cl)(Br)CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -17501,7 +17501,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -54.19 kcal/mol
 S298: 93.66 cal/mol/K
@@ -17531,7 +17531,7 @@ Frequencies (cm^-1) = 92.4,122.0,158.5,193.4,223.1,285.0,316.6,334.7,543.3,591.0
 entry(
     index = 308,
     label = "FC(F)[CH]C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -17558,7 +17558,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -74.41 kcal/mol
 S298: 100.49 cal/mol/K
@@ -17589,7 +17589,7 @@ Frequencies (cm^-1) = 146.7,186.3,224.1,308.5,412.8,423.6,512.7,544.1,709.4,779.
 entry(
     index = 309,
     label = "C#C[C](F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -17615,7 +17615,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 36.13 kcal/mol
 S298: 94.97 cal/mol/K
@@ -17643,7 +17643,7 @@ Frequencies (cm^-1) = 42.2,118.3,129.4,195.0,263.4,308.9,378.3,441.3,465.6,561.5
 entry(
     index = 310,
     label = "FCCDC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {7,S}
@@ -17669,7 +17669,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -45.72 kcal/mol
 S298: 96.62 cal/mol/K
@@ -17700,7 +17700,7 @@ Frequencies (cm^-1) = 138.0,150.8,216.5,336.3,383.2,456.8,480.6,671.7,759.3,862.
 entry(
     index = 311,
     label = "FC(Cl)CCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {5,S}
@@ -17727,7 +17727,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -72.61 kcal/mol
 S298: 87.99 cal/mol/K
@@ -17759,7 +17759,7 @@ Frequencies (cm^-1) = 150.6,204.6,335.7,375.3,539.3,653.3,750.4,772.2,910.4,985.
 entry(
     index = 312,
     label = "CC(Br)DC[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -17787,7 +17787,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -15.65 kcal/mol
 S298: 94.31 cal/mol/K
@@ -17818,7 +17818,7 @@ Frequencies (cm^-1) = 59.1,124.3,158.8,225.4,293.6,325.9,373.2,450.3,485.5,570.9
 entry(
     index = 313,
     label = "[CH2]C(F)CDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -17846,7 +17846,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 1.94 kcal/mol
 S298: 96.89 cal/mol/K
@@ -17876,7 +17876,7 @@ Frequencies (cm^-1) = 46.1,98.5,137.7,186.1,214.1,274.8,351.4,411.6,448.6,500.9,
 entry(
     index = 314,
     label = "CC(Br)(OBr)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -17904,7 +17904,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.97 kcal/mol
 S298: 104.28 cal/mol/K
@@ -17934,7 +17934,7 @@ Frequencies (cm^-1) = 55.5,75.5,104.0,154.3,215.7,225.9,247.3,268.8,308.3,359.1,
 entry(
     index = 315,
     label = "OC(Cl)(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -17959,7 +17959,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -64.13 kcal/mol
 S298: 96.84 cal/mol/K
@@ -17987,7 +17987,7 @@ Frequencies (cm^-1) = 58.5,107.6,180.2,194.8,267.2,284.5,394.3,419.4,448.3,520.3
 entry(
     index = 316,
     label = "FC(Cl)DCCBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {6,S}
@@ -18012,7 +18012,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -40.51 kcal/mol
 S298: 88.25 cal/mol/K
@@ -18041,7 +18041,7 @@ Frequencies (cm^-1) = 112.8,215.9,306.3,420.3,501.7,537.4,593.0,659.8,859.0,875.
 entry(
     index = 317,
     label = "FCOC(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Br u0 p3 c0 {7,S}
@@ -18066,7 +18066,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -84.24 kcal/mol
 S298: 99.13 cal/mol/K
@@ -18096,7 +18096,7 @@ Frequencies (cm^-1) = 144.1,185.9,202.1,232.7,262.5,391.1,418.8,557.7,658.0,815.
 entry(
     index = 318,
     label = "OC(Cl)([CH]F)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -18124,7 +18124,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.34 kcal/mol
 S298: 97.02 cal/mol/K
@@ -18157,7 +18157,7 @@ Frequencies (cm^-1) = 124.9,181.7,228.8,270.4,317.0,370.1,523.1,571.6,612.1,643.
 entry(
     index = 319,
     label = "CCDC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -18185,7 +18185,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.68 kcal/mol
 S298: 96.78 cal/mol/K
@@ -18218,7 +18218,7 @@ Frequencies (cm^-1) = 107.0,168.8,196.9,252.4,281.0,353.8,570.2,652.2,682.0,735.
 entry(
     index = 320,
     label = "F[CH]CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -18245,7 +18245,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -22.79 kcal/mol
 S298: 93.26 cal/mol/K
@@ -18276,7 +18276,7 @@ Frequencies (cm^-1) = 171.3,213.8,302.4,339.6,492.8,517.3,569.1,752.2,888.2,967.
 entry(
     index = 321,
     label = "[CH2]OC(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -18304,7 +18304,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -63.05 kcal/mol
 S298: 94.95 cal/mol/K
@@ -18334,7 +18334,7 @@ Frequencies (cm^-1) = 71.5,115.3,132.4,214.4,236.6,288.3,351.8,381.5,420.1,521.0
 entry(
     index = 322,
     label = "FC(Cl)OCBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {5,S}
@@ -18359,7 +18359,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -99.55 kcal/mol
 S298: 88.26 cal/mol/K
@@ -18389,7 +18389,7 @@ Frequencies (cm^-1) = 203.9,324.7,376.4,429.9,554.5,606.3,728.3,925.8,1042.1,112
 entry(
     index = 323,
     label = "F[C]DC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -18414,7 +18414,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -15.10 kcal/mol
 S298: 93.66 cal/mol/K
@@ -18442,7 +18442,7 @@ Frequencies (cm^-1) = 137.8,145.6,188.6,247.6,305.2,469.8,530.8,548.0,672.0,736.
 entry(
     index = 324,
     label = "CC(Br)(Br)O[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -18470,7 +18470,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -56.19 kcal/mol
 S298: 106.60 cal/mol/K
@@ -18500,7 +18500,7 @@ Frequencies (cm^-1) = 15.0,54.7,114.3,163.1,203.4,259.1,272.3,277.7,334.2,391.2,
 entry(
     index = 325,
     label = "OC(Br)DCC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -18526,7 +18526,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -81.96 kcal/mol
 S298: 95.26 cal/mol/K
@@ -18557,7 +18557,7 @@ Frequencies (cm^-1) = 98.0,126.4,294.9,365.9,383.1,393.5,489.3,516.8,609.5,710.9
 entry(
     index = 326,
     label = "FCD[C]C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -18582,7 +18582,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 22.02 kcal/mol
 S298: 96.96 cal/mol/K
@@ -18610,7 +18610,7 @@ Frequencies (cm^-1) = 88.4,103.0,195.1,198.4,257.7,286.6,390.2,418.9,521.9,666.9
 entry(
     index = 327,
     label = "CC(D[C]F)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -18638,7 +18638,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -29.35 kcal/mol
 S298: 99.16 cal/mol/K
@@ -18668,7 +18668,7 @@ Frequencies (cm^-1) = 28.9,139.7,172.2,195.6,200.1,271.6,295.7,312.4,340.6,410.7
 entry(
     index = 328,
     label = "FC(Cl)(Br)COBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Br u0 p3 c0 {5,S}
@@ -18693,7 +18693,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.06 kcal/mol
 S298: 99.60 cal/mol/K
@@ -18723,7 +18723,7 @@ Frequencies (cm^-1) = 162.3,179.1,246.7,313.2,332.4,390.9,447.1,566.1,590.9,813.
 entry(
     index = 329,
     label = "CC(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -18750,7 +18750,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -30.77 kcal/mol
 S298: 91.25 cal/mol/K
@@ -18780,7 +18780,7 @@ Frequencies (cm^-1) = 68.1,104.4,201.7,229.1,346.2,406.6,444.6,510.3,623.7,948.0
 entry(
     index = 330,
     label = "[CH]DC(F)C(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -18808,7 +18808,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 14.30 kcal/mol
 S298: 94.70 cal/mol/K
@@ -18838,7 +18838,7 @@ Frequencies (cm^-1) = 57.6,78.1,117.8,193.1,273.4,316.7,417.2,538.9,548.3,599.1,
 entry(
     index = 331,
     label = "CDCC(Cl)(Br)[C](F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -18866,7 +18866,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.67 kcal/mol
 S298: 98.65 cal/mol/K
@@ -18896,7 +18896,7 @@ Frequencies (cm^-1) = 66.0,84.3,143.8,161.1,221.3,237.4,256.2,307.6,411.7,494.1,
 entry(
     index = 332,
     label = "FCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -18920,7 +18920,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.57 kcal/mol
 S298: 82.69 cal/mol/K
@@ -18948,7 +18948,7 @@ Frequencies (cm^-1) = 188.3,214.6,308.7,399.6,659.4,706.7,998.9,1069.8,1106.2,11
 entry(
     index = 333,
     label = "C[CH]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -18975,7 +18975,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -26.78 kcal/mol
 S298: 93.73 cal/mol/K
@@ -19006,7 +19006,7 @@ Frequencies (cm^-1) = 174.5,220.8,242.1,265.6,392.9,454.1,496.2,547.2,650.6,908.
 entry(
     index = 334,
     label = "[CH]DC(C)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -19034,7 +19034,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 10.25 kcal/mol
 S298: 94.03 cal/mol/K
@@ -19064,7 +19064,7 @@ Frequencies (cm^-1) = 64.1,156.1,166.1,191.9,235.6,297.0,344.2,388.3,445.0,480.9
 entry(
     index = 335,
     label = "CDC(CBr)C(F)(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -19092,7 +19092,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -100.12 kcal/mol
 S298: 97.57 cal/mol/K
@@ -19123,7 +19123,7 @@ Frequencies (cm^-1) = 35.6,64.0,152.4,185.4,214.0,324.9,359.3,399.2,454.5,517.8,
 entry(
     index = 336,
     label = "CDC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {4,S}
@@ -19148,7 +19148,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -38.58 kcal/mol
 S298: 88.38 cal/mol/K
@@ -19177,7 +19177,7 @@ Frequencies (cm^-1) = 151.2,191.4,221.4,346.1,513.9,568.7,692.5,735.5,756.8,894.
 entry(
     index = 337,
     label = "OOC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {7,S}
@@ -19203,7 +19203,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -83.64 kcal/mol
 S298: 93.30 cal/mol/K
@@ -19232,7 +19232,7 @@ Frequencies (cm^-1) = 66.2,112.0,134.4,162.8,254.0,296.3,334.8,412.8,471.6,541.3
 entry(
     index = 338,
     label = "CC(F)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Br u0 p3 c0 {7,S}
@@ -19259,7 +19259,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.54 kcal/mol
 S298: 96.98 cal/mol/K
@@ -19291,7 +19291,7 @@ Frequencies (cm^-1) = 142.7,152.6,192.2,212.5,239.7,304.2,385.9,456.4,513.9,698.
 entry(
     index = 339,
     label = "F[C]DC(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -19316,7 +19316,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 20.80 kcal/mol
 S298: 96.17 cal/mol/K
@@ -19344,7 +19344,7 @@ Frequencies (cm^-1) = 125.4,137.9,161.5,232.2,296.5,403.1,467.9,512.3,620.4,697.
 entry(
     index = 340,
     label = "FCDC(CCl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {4,S}
@@ -19372,7 +19372,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -48.29 kcal/mol
 S298: 93.69 cal/mol/K
@@ -19405,7 +19405,7 @@ Frequencies (cm^-1) = 128.6,192.0,248.6,306.0,361.4,499.5,595.8,612.8,720.6,848.
 entry(
     index = 341,
     label = "F[C](Cl)OCOBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -19431,7 +19431,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -64.09 kcal/mol
 S298: 98.17 cal/mol/K
@@ -19462,7 +19462,7 @@ Frequencies (cm^-1) = 164.8,331.7,373.0,441.0,486.4,575.5,648.4,679.0,1018.9,103
 entry(
     index = 342,
     label = "F[C](Cl)CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -19489,7 +19489,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.12 kcal/mol
 S298: 101.12 cal/mol/K
@@ -19520,7 +19520,7 @@ Frequencies (cm^-1) = 100.4,200.7,269.3,288.3,363.2,417.9,456.7,566.4,648.9,762.
 entry(
     index = 343,
     label = "CCOC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -19548,7 +19548,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -105.51 kcal/mol
 S298: 96.70 cal/mol/K
@@ -19582,7 +19582,7 @@ Frequencies (cm^-1) = 163.0,208.3,292.5,296.9,327.2,404.0,532.2,589.5,731.1,818.
 entry(
     index = 344,
     label = "F[C]DCDCDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -19606,7 +19606,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 94.98 kcal/mol
 S298: 93.67 cal/mol/K
@@ -19632,7 +19632,7 @@ Frequencies (cm^-1) = 33.6,102.9,175.0,207.4,302.5,314.8,364.1,416.8,419.4,561.0
 entry(
     index = 345,
     label = "FCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -19656,7 +19656,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -106.32 kcal/mol
 S298: 86.77 cal/mol/K
@@ -19684,7 +19684,7 @@ Frequencies (cm^-1) = 172.6,206.2,310.9,312.6,347.2,433.6,578.5,818.6,948.2,1077
 entry(
     index = 346,
     label = "FC[C](Cl)COBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -19712,7 +19712,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.29 kcal/mol
 S298: 102.60 cal/mol/K
@@ -19745,7 +19745,7 @@ Frequencies (cm^-1) = 150.5,218.2,235.4,345.0,412.2,523.8,574.6,700.5,890.2,954.
 entry(
     index = 347,
     label = "FC(F)DC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -19770,7 +19770,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -85.59 kcal/mol
 S298: 91.83 cal/mol/K
@@ -19799,7 +19799,7 @@ Frequencies (cm^-1) = 103.6,156.8,210.8,307.2,365.5,452.4,556.6,581.4,669.3,679.
 entry(
     index = 348,
     label = "FCC(Cl)(Br)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {5,S}
@@ -19824,7 +19824,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -63.62 kcal/mol
 S298: 97.23 cal/mol/K
@@ -19854,7 +19854,7 @@ Frequencies (cm^-1) = 119.9,168.8,209.1,270.0,324.1,366.2,471.9,490.4,659.0,791.
 entry(
     index = 349,
     label = "F[C]DC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -19877,7 +19877,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 29.36 kcal/mol
 S298: 89.25 cal/mol/K
@@ -19903,7 +19903,7 @@ Frequencies (cm^-1) = 116.2,172.7,275.5,357.2,412.8,558.1,624.6,639.0,1093.0,125
 entry(
     index = 350,
     label = "OC(Br)DC(Cl)CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -19929,7 +19929,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -80.74 kcal/mol
 S298: 93.25 cal/mol/K
@@ -19960,7 +19960,7 @@ Frequencies (cm^-1) = 137.3,177.2,196.1,268.9,342.5,363.5,470.9,586.6,663.9,720.
 entry(
     index = 351,
     label = "CDC(F)C(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {5,S}
@@ -19988,7 +19988,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -50.05 kcal/mol
 S298: 99.54 cal/mol/K
@@ -20019,7 +20019,7 @@ Frequencies (cm^-1) = 41.2,85.2,128.6,139.4,188.3,218.4,283.2,327.9,428.7,552.2,
 entry(
     index = 352,
     label = "CDCC(F)(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -20047,7 +20047,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -97.05 kcal/mol
 S298: 96.57 cal/mol/K
@@ -20078,7 +20078,7 @@ Frequencies (cm^-1) = 56.3,76.0,151.6,194.1,212.9,280.5,292.3,357.7,412.0,539.9,
 entry(
     index = 353,
     label = "[C]#CC(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -20104,7 +20104,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 78.92 kcal/mol
 S298: 92.78 cal/mol/K
@@ -20132,7 +20132,7 @@ Frequencies (cm^-1) = 81.5,106.8,138.7,166.4,302.4,347.5,375.5,444.2,518.1,598.7
 entry(
     index = 354,
     label = "CDC(F)CDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -20158,7 +20158,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -17.17 kcal/mol
 S298: 91.65 cal/mol/K
@@ -20188,7 +20188,7 @@ Frequencies (cm^-1) = 149.2,151.4,233.7,244.1,355.0,448.1,510.7,622.9,701.6,729.
 entry(
     index = 355,
     label = "O[CH]OC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -20214,7 +20214,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -94.54 kcal/mol
 S298: 94.42 cal/mol/K
@@ -20242,7 +20242,7 @@ Frequencies (cm^-1) = 42.3,87.8,177.9,217.2,268.7,289.5,406.0,425.1,475.5,523.9,
 entry(
     index = 356,
     label = "CC(Br)(Br)[CH]C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -20272,7 +20272,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -28.58 kcal/mol
 S298: 109.10 cal/mol/K
@@ -20304,7 +20304,7 @@ Frequencies (cm^-1) = 17.7,50.3,125.1,142.0,192.1,250.9,255.7,279.5,309.5,315.6,
 entry(
     index = 357,
     label = "OCDC(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -20330,7 +20330,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.64 kcal/mol
 S298: 92.73 cal/mol/K
@@ -20359,7 +20359,7 @@ Frequencies (cm^-1) = 61.1,157.7,159.1,195.7,241.5,267.7,393.0,436.6,514.0,575.6
 entry(
     index = 358,
     label = "ODC(Br)C(F)(Cl)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {6,S}
@@ -20382,7 +20382,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -89.99 kcal/mol
 S298: 92.83 cal/mol/K
@@ -20409,7 +20409,7 @@ Frequencies (cm^-1) = 136.2,152.4,233.6,317.1,357.9,378.5,432.8,484.5,601.3,804.
 entry(
     index = 359,
     label = "F[CH]C#CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -20435,7 +20435,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 39.24 kcal/mol
 S298: 98.43 cal/mol/K
@@ -20464,7 +20464,7 @@ Frequencies (cm^-1) = 70.9,102.8,171.7,224.4,276.2,396.1,449.0,559.6,580.7,604.8
 entry(
     index = 360,
     label = "O[C](CBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -20492,7 +20492,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -72.50 kcal/mol
 S298: 98.33 cal/mol/K
@@ -20522,7 +20522,7 @@ Frequencies (cm^-1) = 36.6,60.1,121.4,162.8,236.5,282.3,353.0,396.0,498.2,512.3,
 entry(
     index = 361,
     label = "[CH2]OC(F)DC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -20548,7 +20548,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -20.33 kcal/mol
 S298: 94.55 cal/mol/K
@@ -20576,7 +20576,7 @@ Frequencies (cm^-1) = 64.3,121.0,140.6,213.1,262.6,294.2,299.8,370.1,446.1,511.5
 entry(
     index = 362,
     label = "CDC(F)C(Cl)DC(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {8,S}
 2  Br u0 p3 c0 {8,S}
@@ -20602,7 +20602,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -8.02 kcal/mol
 S298: 100.55 cal/mol/K
@@ -20631,7 +20631,7 @@ Frequencies (cm^-1) = 55.5,63.9,137.4,170.7,197.7,211.0,261.6,316.8,386.1,490.2,
 entry(
     index = 363,
     label = "CC(Cl)(Br)[C](F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -20658,7 +20658,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -74.90 kcal/mol
 S298: 95.07 cal/mol/K
@@ -20689,7 +20689,7 @@ Frequencies (cm^-1) = 121.9,179.7,210.2,258.5,300.7,395.9,447.1,524.5,566.4,643.
 entry(
     index = 364,
     label = "FC(Cl)[C](Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -20716,7 +20716,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -36.80 kcal/mol
 S298: 100.67 cal/mol/K
@@ -20747,7 +20747,7 @@ Frequencies (cm^-1) = 97.9,155.0,276.2,318.8,376.4,410.3,464.2,500.9,675.9,736.2
 entry(
     index = 365,
     label = "CDC(F)C(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {4,S}
@@ -20775,7 +20775,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -48.10 kcal/mol
 S298: 95.90 cal/mol/K
@@ -20808,7 +20808,7 @@ Frequencies (cm^-1) = 155.5,178.6,272.4,327.8,402.1,485.1,548.8,696.8,711.6,758.
 entry(
     index = 366,
     label = "FC(Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {6,S}
@@ -20832,7 +20832,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -55.60 kcal/mol
 S298: 92.79 cal/mol/K
@@ -20860,7 +20860,7 @@ Frequencies (cm^-1) = 131.0,158.1,192.2,238.0,383.5,530.8,642.4,699.8,776.9,953.
 entry(
     index = 367,
     label = "ODC(F)C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {6,S}
@@ -20884,7 +20884,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -101.00 kcal/mol
 S298: 94.44 cal/mol/K
@@ -20913,7 +20913,7 @@ Frequencies (cm^-1) = 136.4,199.1,295.5,363.0,496.5,558.6,625.8,692.1,802.2,905.
 entry(
     index = 368,
     label = "OC(O)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -20939,7 +20939,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -146.34 kcal/mol
 S298: 93.88 cal/mol/K
@@ -20971,7 +20971,7 @@ Frequencies (cm^-1) = 172.6,189.2,228.7,305.1,337.5,415.8,495.8,546.0,606.3,829.
 entry(
     index = 369,
     label = "OC(Br)C(Cl)DCF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -20997,7 +20997,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.52 kcal/mol
 S298: 94.27 cal/mol/K
@@ -21028,7 +21028,7 @@ Frequencies (cm^-1) = 108.5,194.7,236.0,274.0,313.1,418.7,481.3,607.8,641.5,733.
 entry(
     index = 370,
     label = "C[C](F)C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -21056,7 +21056,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -34.29 kcal/mol
 S298: 101.67 cal/mol/K
@@ -21089,7 +21089,7 @@ Frequencies (cm^-1) = 120.5,143.1,234.6,325.8,359.1,410.6,428.1,483.1,696.5,823.
 entry(
     index = 371,
     label = "F[C]DC(CCl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -21117,7 +21117,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 11.82 kcal/mol
 S298: 95.26 cal/mol/K
@@ -21149,7 +21149,7 @@ Frequencies (cm^-1) = 129.1,191.7,213.0,312.1,356.6,489.8,591.6,612.3,706.4,834.
 entry(
     index = 372,
     label = "FCD[C]CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -21177,7 +21177,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 13.56 kcal/mol
 S298: 100.73 cal/mol/K
@@ -21209,7 +21209,7 @@ Frequencies (cm^-1) = 144.3,148.7,219.1,254.6,347.9,447.6,604.7,672.5,686.0,864.
 entry(
     index = 373,
     label = "F[C]DCC(Cl)DCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -21235,7 +21235,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 41.69 kcal/mol
 S298: 90.61 cal/mol/K
@@ -21264,7 +21264,7 @@ Frequencies (cm^-1) = 105.7,158.1,196.1,284.1,286.0,379.7,541.6,606.6,645.3,751.
 entry(
     index = 374,
     label = "CCC(Cl)(Br)CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -21294,7 +21294,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.28 kcal/mol
 S298: 95.75 cal/mol/K
@@ -21330,7 +21330,7 @@ Frequencies (cm^-1) = 157.5,209.6,241.4,303.9,317.7,342.1,420.5,605.2,688.0,809.
 entry(
     index = 375,
     label = "F[CH]CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -21357,7 +21357,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -68.56 kcal/mol
 S298: 96.59 cal/mol/K
@@ -21388,7 +21388,7 @@ Frequencies (cm^-1) = 171.6,206.1,248.2,307.1,331.9,406.4,468.0,494.1,585.7,775.
 entry(
     index = 376,
     label = "F[C](F)OC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -21413,7 +21413,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -100.08 kcal/mol
 S298: 97.13 cal/mol/K
@@ -21442,7 +21442,7 @@ Frequencies (cm^-1) = 139.5,211.7,307.4,366.1,495.4,566.2,637.2,697.1,725.5,983.
 entry(
     index = 377,
     label = "C#COC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -21466,7 +21466,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -17.74 kcal/mol
 S298: 91.05 cal/mol/K
@@ -21494,7 +21494,7 @@ Frequencies (cm^-1) = 127.9,209.6,284.3,309.6,359.2,405.0,438.9,557.4,565.2,594.
 entry(
     index = 378,
     label = "CDC(Br)C(Cl)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -21520,7 +21520,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -20.34 kcal/mol
 S298: 98.48 cal/mol/K
@@ -21549,7 +21549,7 @@ Frequencies (cm^-1) = 33.4,99.7,134.0,141.0,207.2,305.3,330.3,378.6,444.6,501.6,
 entry(
     index = 379,
     label = "FC(Cl)DCDCDCBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {4,S}
@@ -21573,7 +21573,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 37.07 kcal/mol
 S298: 90.22 cal/mol/K
@@ -21600,7 +21600,7 @@ Frequencies (cm^-1) = 52.4,104.1,155.6,193.8,316.9,430.7,473.1,535.3,543.2,632.3
 entry(
     index = 380,
     label = "CDCC(F)(Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -21628,7 +21628,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -40.13 kcal/mol
 S298: 101.31 cal/mol/K
@@ -21659,7 +21659,7 @@ Frequencies (cm^-1) = 54.1,81.9,131.3,159.3,188.9,222.7,262.7,295.5,355.1,397.0,
 entry(
     index = 381,
     label = "FC(Cl)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {6,S}
@@ -21683,7 +21683,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -68.27 kcal/mol
 S298: 93.51 cal/mol/K
@@ -21711,7 +21711,7 @@ Frequencies (cm^-1) = 137.2,158.4,206.0,230.7,250.2,339.7,370.2,438.8,538.9,731.
 entry(
     index = 382,
     label = "FCDCDCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {4,S}
@@ -21737,7 +21737,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 1.09 kcal/mol
 S298: 93.92 cal/mol/K
@@ -21767,7 +21767,7 @@ Frequencies (cm^-1) = 96.0,165.9,204.4,209.9,313.7,393.8,443.2,618.1,655.0,736.1
 entry(
     index = 383,
     label = "F[CH]CC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -21795,7 +21795,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.53 kcal/mol
 S298: 100.97 cal/mol/K
@@ -21828,7 +21828,7 @@ Frequencies (cm^-1) = 156.5,203.8,281.4,306.7,396.8,412.7,581.2,628.4,678.5,907.
 entry(
     index = 384,
     label = "FCDCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {4,S}
@@ -21853,7 +21853,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -37.98 kcal/mol
 S298: 87.34 cal/mol/K
@@ -21882,7 +21882,7 @@ Frequencies (cm^-1) = 157.4,197.0,220.9,325.2,460.0,568.5,684.6,791.9,821.8,951.
 entry(
     index = 385,
     label = "CDCC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -21910,7 +21910,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -44.22 kcal/mol
 S298: 96.66 cal/mol/K
@@ -21943,7 +21943,7 @@ Frequencies (cm^-1) = 171.1,189.4,223.5,302.2,334.1,378.2,584.1,666.8,721.7,736.
 entry(
     index = 386,
     label = "FC[CH]C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -21970,7 +21970,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -12.67 kcal/mol
 S298: 105.29 cal/mol/K
@@ -22001,7 +22001,7 @@ Frequencies (cm^-1) = 120.1,156.1,176.2,219.6,242.2,303.9,342.1,394.8,536.2,565.
 entry(
     index = 387,
     label = "CD[C]C(F)(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -22029,7 +22029,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 5.66 kcal/mol
 S298: 101.25 cal/mol/K
@@ -22059,7 +22059,7 @@ Frequencies (cm^-1) = 57.0,84.6,136.8,153.3,205.3,213.2,291.9,301.2,372.1,380.3,
 entry(
     index = 388,
     label = "C#CC(F)(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {5,S}
@@ -22085,7 +22085,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -3.97 kcal/mol
 S298: 97.52 cal/mol/K
@@ -22114,7 +22114,7 @@ Frequencies (cm^-1) = 59.1,114.9,138.6,165.1,208.9,268.5,300.7,325.6,381.6,456.3
 entry(
     index = 389,
     label = "FCCC(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -22141,7 +22141,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -70.43 kcal/mol
 S298: 95.81 cal/mol/K
@@ -22173,7 +22173,7 @@ Frequencies (cm^-1) = 131.5,204.2,216.8,261.0,285.2,356.9,376.2,557.7,653.0,757.
 entry(
     index = 390,
     label = "FCDCDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -22196,7 +22196,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 9.42 kcal/mol
 S298: 86.00 cal/mol/K
@@ -22222,7 +22222,7 @@ Frequencies (cm^-1) = 87.0,125.7,220.5,268.9,375.6,440.0,492.5,655.2,795.4,877.8
 entry(
     index = 391,
     label = "ODC(OBr)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -22246,7 +22246,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.17 kcal/mol
 S298: 91.64 cal/mol/K
@@ -22272,7 +22272,7 @@ Frequencies (cm^-1) = 84.9,88.2,120.8,195.0,205.5,345.2,393.1,481.8,665.6,707.9,
 entry(
     index = 392,
     label = "FCDCC(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Br u0 p3 c0 {5,S}
@@ -22297,7 +22297,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -26.76 kcal/mol
 S298: 95.31 cal/mol/K
@@ -22326,7 +22326,7 @@ Frequencies (cm^-1) = 138.2,166.9,173.0,201.0,248.8,288.2,338.5,389.1,637.7,642.
 entry(
     index = 393,
     label = "F[C](Cl)CCCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -22356,7 +22356,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -34.69 kcal/mol
 S298: 100.93 cal/mol/K
@@ -22391,7 +22391,7 @@ Frequencies (cm^-1) = 140.3,271.4,354.5,364.2,406.2,499.1,564.3,606.2,789.8,867.
 entry(
     index = 394,
     label = "O[C](Br)C(F)(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -22416,7 +22416,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -113.64 kcal/mol
 S298: 92.16 cal/mol/K
@@ -22443,7 +22443,7 @@ Frequencies (cm^-1) = 53.8,138.0,176.4,288.8,303.9,352.5,382.7,389.0,482.5,524.1
 entry(
     index = 395,
     label = "FC(Cl)D[C]C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -22468,7 +22468,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 18.13 kcal/mol
 S298: 99.28 cal/mol/K
@@ -22496,7 +22496,7 @@ Frequencies (cm^-1) = 72.8,88.2,181.0,248.4,370.1,425.7,430.1,534.7,620.1,657.7,
 entry(
     index = 396,
     label = "[CH2]OC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -22521,7 +22521,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -50.22 kcal/mol
 S298: 91.10 cal/mol/K
@@ -22550,7 +22550,7 @@ Frequencies (cm^-1) = 192.9,242.7,294.9,333.8,406.0,490.0,506.5,607.2,745.3,1028
 entry(
     index = 397,
     label = "CC(F)(Cl)OCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -22578,7 +22578,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -111.93 kcal/mol
 S298: 96.61 cal/mol/K
@@ -22612,7 +22612,7 @@ Frequencies (cm^-1) = 206.9,227.3,299.9,370.0,411.0,440.9,566.5,609.4,665.2,852.
 entry(
     index = 398,
     label = "FCCC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -22642,7 +22642,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -78.34 kcal/mol
 S298: 98.15 cal/mol/K
@@ -22678,7 +22678,7 @@ Frequencies (cm^-1) = 178.3,198.2,243.2,354.6,377.6,529.8,618.1,666.0,813.6,852.
 entry(
     index = 399,
     label = "CD[C]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -22703,7 +22703,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 19.36 kcal/mol
 S298: 89.64 cal/mol/K
@@ -22731,7 +22731,7 @@ Frequencies (cm^-1) = 141.6,198.6,276.6,305.2,367.1,403.2,483.3,570.7,677.7,929.
 entry(
     index = 400,
     label = "C[C](F)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -22758,7 +22758,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -28.09 kcal/mol
 S298: 102.11 cal/mol/K
@@ -22789,7 +22789,7 @@ Frequencies (cm^-1) = 112.7,140.2,168.3,220.3,272.0,325.6,387.5,421.9,435.9,537.
 entry(
     index = 401,
     label = "FC(Cl)DCDC(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {6,S}
@@ -22812,7 +22812,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 15.75 kcal/mol
 S298: 94.91 cal/mol/K
@@ -22838,7 +22838,7 @@ Frequencies (cm^-1) = 59.7,82.8,92.3,155.7,265.2,378.0,383.4,434.8,547.2,555.8,7
 entry(
     index = 402,
     label = "FC(Cl)DCDCCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {6,S}
@@ -22864,7 +22864,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -0.02 kcal/mol
 S298: 94.95 cal/mol/K
@@ -22894,7 +22894,7 @@ Frequencies (cm^-1) = 89.8,127.9,154.0,281.8,384.6,450.8,519.2,534.4,610.7,674.9
 entry(
     index = 403,
     label = "[O]CC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -22920,7 +22920,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -60.50 kcal/mol
 S298: 93.34 cal/mol/K
@@ -22948,7 +22948,7 @@ Frequencies (cm^-1) = 51.4,110.6,162.1,220.1,309.4,336.4,365.5,426.5,433.8,590.6
 entry(
     index = 404,
     label = "FC#CC(Cl)DCBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {4,S}
@@ -22972,7 +22972,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 42.14 kcal/mol
 S298: 89.44 cal/mol/K
@@ -22999,7 +22999,7 @@ Frequencies (cm^-1) = 62.3,162.5,177.5,189.6,261.4,384.8,409.9,483.4,585.9,636.6
 entry(
     index = 405,
     label = "F[CH]C(OCl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -23025,7 +23025,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -23.90 kcal/mol
 S298: 97.08 cal/mol/K
@@ -23055,7 +23055,7 @@ Frequencies (cm^-1) = 84.5,170.2,197.0,238.5,395.1,426.3,479.0,538.1,661.0,693.6
 entry(
     index = 406,
     label = "CDC([C](F)Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -23083,7 +23083,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -5.66 kcal/mol
 S298: 103.96 cal/mol/K
@@ -23113,7 +23113,7 @@ Frequencies (cm^-1) = 17.2,76.5,124.0,152.5,164.0,224.3,326.6,326.9,399.4,457.5,
 entry(
     index = 407,
     label = "FC(Cl)DC(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {6,S}
@@ -23135,7 +23135,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -21.04 kcal/mol
 S298: 87.39 cal/mol/K
@@ -23160,7 +23160,7 @@ Frequencies (cm^-1) = 105.0,137.9,169.7,276.1,283.6,358.9,461.6,558.8,778.2,893.
 entry(
     index = 408,
     label = "CC(Br)CC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {7,S}
@@ -23190,7 +23190,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -82.23 kcal/mol
 S298: 95.73 cal/mol/K
@@ -23226,7 +23226,7 @@ Frequencies (cm^-1) = 121.0,258.1,288.0,316.7,377.6,459.8,489.7,537.2,661.8,913.
 entry(
     index = 409,
     label = "F[C]DCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -23251,7 +23251,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -21.24 kcal/mol
 S298: 93.41 cal/mol/K
@@ -23279,7 +23279,7 @@ Frequencies (cm^-1) = 165.1,196.6,212.5,278.6,322.8,400.3,447.7,507.4,708.9,817.
 entry(
     index = 410,
     label = "FCDCCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -23307,7 +23307,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -45.36 kcal/mol
 S298: 97.26 cal/mol/K
@@ -23340,7 +23340,7 @@ Frequencies (cm^-1) = 160.8,185.0,226.7,293.7,395.5,538.3,613.9,676.2,697.7,795.
 entry(
     index = 411,
     label = "CC([CH]F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -23370,7 +23370,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -29.21 kcal/mol
 S298: 100.93 cal/mol/K
@@ -23405,7 +23405,7 @@ Frequencies (cm^-1) = 173.8,207.1,231.0,297.2,335.5,363.7,523.2,606.5,669.9,754.
 entry(
     index = 412,
     label = "CC(Cl)(Br)C[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -23435,7 +23435,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -33.12 kcal/mol
 S298: 98.50 cal/mol/K
@@ -23470,7 +23470,7 @@ Frequencies (cm^-1) = 179.8,196.6,269.2,304.8,313.3,367.2,473.0,487.4,533.0,694.
 entry(
     index = 413,
     label = "FC(F)(Cl)[CH]CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -23497,7 +23497,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.51 kcal/mol
 S298: 99.27 cal/mol/K
@@ -23528,7 +23528,7 @@ Frequencies (cm^-1) = 175.1,255.6,307.8,336.0,411.2,423.3,471.7,565.0,640.2,733.
 entry(
     index = 414,
     label = "CCDCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -23556,7 +23556,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.14 kcal/mol
 S298: 95.01 cal/mol/K
@@ -23589,7 +23589,7 @@ Frequencies (cm^-1) = 163.6,171.4,204.6,291.8,302.8,348.4,393.0,430.0,691.1,749.
 entry(
     index = 415,
     label = "CDC(F)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -23614,7 +23614,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -82.63 kcal/mol
 S298: 90.49 cal/mol/K
@@ -23643,7 +23643,7 @@ Frequencies (cm^-1) = 147.6,185.3,226.7,300.6,344.8,394.1,512.9,549.5,589.5,739.
 entry(
     index = 416,
     label = "ODC(Br)O[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -23667,7 +23667,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -87.18 kcal/mol
 S298: 95.25 cal/mol/K
@@ -23695,7 +23695,7 @@ Frequencies (cm^-1) = 145.6,227.8,369.2,404.7,417.8,528.4,637.5,717.5,834.2,1055
 entry(
     index = 417,
     label = "[CH2]C(F)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -23722,7 +23722,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -24.42 kcal/mol
 S298: 96.42 cal/mol/K
@@ -23751,7 +23751,7 @@ Frequencies (cm^-1) = 87.4,149.5,156.4,166.8,222.3,229.3,263.2,364.9,385.3,477.2
 entry(
     index = 418,
     label = "F[C](Cl)COCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -23779,7 +23779,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.04 kcal/mol
 S298: 79.00 cal/mol/K
@@ -23812,7 +23812,7 @@ Frequencies (cm^-1) = 143.8,292.0,323.4,389.4,416.5,565.1,594.6,670.6,883.9,926.
 entry(
     index = 419,
     label = "CDCDC(F)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -23838,7 +23838,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -0.47 kcal/mol
 S298: 98.08 cal/mol/K
@@ -23867,7 +23867,7 @@ Frequencies (cm^-1) = 50.1,129.6,139.2,175.5,217.5,235.3,279.2,295.8,384.7,397.0
 entry(
     index = 420,
     label = "FC(Cl)CDCCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {4,S}
@@ -23895,7 +23895,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.84 kcal/mol
 S298: 99.00 cal/mol/K
@@ -23928,7 +23928,7 @@ Frequencies (cm^-1) = 75.6,191.2,233.9,350.6,388.0,439.7,499.3,603.3,723.0,854.5
 entry(
     index = 421,
     label = "CC(Br)C[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -23958,7 +23958,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -36.51 kcal/mol
 S298: 100.10 cal/mol/K
@@ -23993,7 +23993,7 @@ Frequencies (cm^-1) = 123.1,229.9,278.5,349.8,375.9,419.0,431.3,534.6,755.3,887.
 entry(
     index = 422,
     label = "[CH]DCCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -24021,7 +24021,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 11.33 kcal/mol
 S298: 94.16 cal/mol/K
@@ -24051,7 +24051,7 @@ Frequencies (cm^-1) = 68.3,82.9,172.5,220.6,256.3,306.3,361.0,398.0,471.7,528.6,
 entry(
     index = 423,
     label = "CC(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {4,S}
@@ -24078,7 +24078,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.33 kcal/mol
 S298: 88.10 cal/mol/K
@@ -24110,7 +24110,7 @@ Frequencies (cm^-1) = 155.6,223.3,300.4,361.5,395.6,463.3,621.9,680.9,830.9,868.
 entry(
     index = 424,
     label = "FC(Cl)CC(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Br u0 p3 c0 {7,S}
@@ -24137,7 +24137,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -66.00 kcal/mol
 S298: 98.65 cal/mol/K
@@ -24169,7 +24169,7 @@ Frequencies (cm^-1) = 105.7,158.7,216.4,284.2,375.2,390.9,489.8,565.1,664.7,681.
 entry(
     index = 425,
     label = "CC(F)(Cl)CCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {4,S}
@@ -24199,7 +24199,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -84.50 kcal/mol
 S298: 95.93 cal/mol/K
@@ -24235,7 +24235,7 @@ Frequencies (cm^-1) = 134.4,185.4,301.0,310.0,381.5,405.4,506.1,592.0,677.4,766.
 entry(
     index = 426,
     label = "COC(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {7,S}
@@ -24261,7 +24261,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -64.09 kcal/mol
 S298: 94.64 cal/mol/K
@@ -24292,7 +24292,7 @@ Frequencies (cm^-1) = 111.5,162.0,199.7,260.6,350.4,412.8,464.1,574.5,632.7,784.
 entry(
     index = 427,
     label = "FC(Cl)[CH]OCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -24320,7 +24320,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -56.77 kcal/mol
 S298: 103.53 cal/mol/K
@@ -24353,7 +24353,7 @@ Frequencies (cm^-1) = 183.2,255.9,302.3,347.2,477.1,483.0,557.0,589.1,627.6,928.
 entry(
     index = 428,
     label = "FC[C]DCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -24381,7 +24381,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 13.29 kcal/mol
 S298: 101.81 cal/mol/K
@@ -24413,7 +24413,7 @@ Frequencies (cm^-1) = 87.1,195.8,250.8,258.7,285.7,344.5,567.2,630.8,727.5,823.7
 entry(
     index = 429,
     label = "F[CH]OC(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -24438,7 +24438,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -36.92 kcal/mol
 S298: 98.33 cal/mol/K
@@ -24467,7 +24467,7 @@ Frequencies (cm^-1) = 122.3,168.2,191.2,232.9,299.7,327.4,408.0,588.9,641.8,824.
 entry(
     index = 430,
     label = "F[C](F)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -24491,7 +24491,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -64.19 kcal/mol
 S298: 94.22 cal/mol/K
@@ -24518,7 +24518,7 @@ Frequencies (cm^-1) = 122.7,164.4,206.0,214.0,259.1,386.4,405.1,518.9,575.2,646.
 entry(
     index = 431,
     label = "C[C](F)OC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -24546,7 +24546,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -62.28 kcal/mol
 S298: 99.17 cal/mol/K
@@ -24579,7 +24579,7 @@ Frequencies (cm^-1) = 142.7,198.7,275.6,334.4,409.7,489.4,540.6,612.9,801.0,860.
 entry(
     index = 432,
     label = "CC(Br)(Br)C[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -24609,7 +24609,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -30.68 kcal/mol
 S298: 106.23 cal/mol/K
@@ -24641,7 +24641,7 @@ Frequencies (cm^-1) = 32.0,62.3,116.0,150.7,210.5,256.2,271.1,288.7,306.5,357.3,
 entry(
     index = 433,
     label = "FC[C](Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -24668,7 +24668,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.65 kcal/mol
 S298: 102.37 cal/mol/K
@@ -24699,7 +24699,7 @@ Frequencies (cm^-1) = 106.5,154.4,170.1,225.3,360.0,381.2,428.2,520.9,653.7,810.
 entry(
     index = 434,
     label = "CDC(CF)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -24727,7 +24727,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -89.29 kcal/mol
 S298: 97.28 cal/mol/K
@@ -24758,7 +24758,7 @@ Frequencies (cm^-1) = 51.6,73.8,152.9,174.2,212.2,296.5,319.0,363.2,383.6,470.6,
 entry(
     index = 435,
     label = "OCCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -24786,7 +24786,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -106.67 kcal/mol
 S298: 95.69 cal/mol/K
@@ -24820,7 +24820,7 @@ Frequencies (cm^-1) = 176.5,208.0,266.6,313.1,354.9,403.4,456.3,585.4,756.6,850.
 entry(
     index = 436,
     label = "OC(Br)C(F)(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {7,S}
@@ -24845,7 +24845,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -155.81 kcal/mol
 S298: 91.97 cal/mol/K
@@ -24875,7 +24875,7 @@ Frequencies (cm^-1) = 147.4,210.2,276.3,325.7,364.1,411.7,489.9,581.8,643.0,719.
 entry(
     index = 437,
     label = "CC(Br)DCC(F)(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -24903,7 +24903,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -100.71 kcal/mol
 S298: 98.47 cal/mol/K
@@ -24934,7 +24934,7 @@ Frequencies (cm^-1) = 31.4,85.2,151.8,184.6,224.1,296.2,339.1,340.5,410.2,429.3,
 entry(
     index = 438,
     label = "CC(Br)C(C)(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -24964,7 +24964,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -85.15 kcal/mol
 S298: 95.19 cal/mol/K
@@ -25000,7 +25000,7 @@ Frequencies (cm^-1) = 163.5,222.5,249.9,283.1,327.8,378.1,448.8,497.6,591.3,651.
 entry(
     index = 439,
     label = "FC(Cl)DCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -25025,7 +25025,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -43.92 kcal/mol
 S298: 94.86 cal/mol/K
@@ -25054,7 +25054,7 @@ Frequencies (cm^-1) = 95.2,131.6,200.5,274.3,362.0,439.2,446.6,537.7,638.3,688.9
 entry(
     index = 440,
     label = "FC(F)(Cl)OOBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {7,S}
@@ -25077,7 +25077,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -103.32 kcal/mol
 S298: 90.13 cal/mol/K
@@ -25105,7 +25105,7 @@ Frequencies (cm^-1) = 207.7,239.7,335.2,393.5,452.4,541.3,577.3,626.1,831.3,841.
 entry(
     index = 441,
     label = "F[C](F)C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -25130,7 +25130,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -72.17 kcal/mol
 S298: 96.51 cal/mol/K
@@ -25159,7 +25159,7 @@ Frequencies (cm^-1) = 143.0,151.3,232.2,322.8,434.7,542.9,575.4,653.4,709.9,879.
 entry(
     index = 442,
     label = "CDC(CBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -25187,7 +25187,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.76 kcal/mol
 S298: 96.12 cal/mol/K
@@ -25220,7 +25220,7 @@ Frequencies (cm^-1) = 154.6,191.3,217.8,343.0,423.2,484.8,544.7,659.6,724.2,787.
 entry(
     index = 443,
     label = "F[C]DCCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -25248,7 +25248,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 14.07 kcal/mol
 S298: 98.87 cal/mol/K
@@ -25280,7 +25280,7 @@ Frequencies (cm^-1) = 168.5,179.4,227.8,277.9,375.2,463.9,623.8,664.3,694.1,803.
 entry(
     index = 444,
     label = "OC(Br)C(Cl)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -25308,7 +25308,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -64.82 kcal/mol
 S298: 97.39 cal/mol/K
@@ -25341,7 +25341,7 @@ Frequencies (cm^-1) = 134.2,202.2,237.1,312.5,326.1,419.0,439.3,570.0,652.5,731.
 entry(
     index = 445,
     label = "F[CH]COC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -25369,7 +25369,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -52.61 kcal/mol
 S298: 100.89 cal/mol/K
@@ -25402,7 +25402,7 @@ Frequencies (cm^-1) = 166.8,208.4,260.1,326.3,428.8,475.7,567.3,625.0,693.9,851.
 entry(
     index = 446,
     label = "FC(F)(Cl)COBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {7,S}
@@ -25427,7 +25427,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -121.20 kcal/mol
 S298: 93.33 cal/mol/K
@@ -25456,7 +25456,7 @@ Frequencies (cm^-1) = 66.9,186.7,227.9,323.0,380.0,414.6,434.2,565.5,584.6,795.8
 entry(
     index = 447,
     label = "[CH2]CCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -25486,7 +25486,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -28.62 kcal/mol
 S298: 98.22 cal/mol/K
@@ -25518,7 +25518,7 @@ Frequencies (cm^-1) = 43.8,91.6,133.9,186.6,224.4,234.3,304.7,365.5,401.7,459.5,
 entry(
     index = 448,
     label = "FC(Cl)[CH]C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -25545,7 +25545,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -30.09 kcal/mol
 S298: 104.82 cal/mol/K
@@ -25576,7 +25576,7 @@ Frequencies (cm^-1) = 119.1,184.9,232.1,299.1,330.3,380.5,432.7,499.2,562.2,684.
 entry(
     index = 449,
     label = "[CH2]C(F)C(O)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -25604,7 +25604,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -64.47 kcal/mol
 S298: 96.08 cal/mol/K
@@ -25634,7 +25634,7 @@ Frequencies (cm^-1) = 74.5,116.5,157.5,185.0,229.4,274.6,299.2,350.9,411.4,445.0
 entry(
     index = 450,
     label = "FC(Cl)[CH]CCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -25664,7 +25664,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.54 kcal/mol
 S298: 103.60 cal/mol/K
@@ -25699,7 +25699,7 @@ Frequencies (cm^-1) = 166.8,257.3,297.3,340.3,401.6,516.8,554.4,630.0,658.5,789.
 entry(
     index = 451,
     label = "[O]C(Br)C(Cl)CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -25727,7 +25727,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -54.64 kcal/mol
 S298: 95.50 cal/mol/K
@@ -25757,7 +25757,7 @@ Frequencies (cm^-1) = 45.7,101.4,140.6,199.1,222.5,291.8,346.3,395.0,474.2,628.3
 entry(
     index = 452,
     label = "F[C](Cl)CDCCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -25785,7 +25785,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -15.62 kcal/mol
 S298: 97.40 cal/mol/K
@@ -25816,7 +25816,7 @@ Frequencies (cm^-1) = 58.9,150.4,211.9,273.3,331.8,404.9,423.0,483.8,532.6,687.7
 entry(
     index = 453,
     label = "ODC(CBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -25842,7 +25842,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -88.70 kcal/mol
 S298: 96.31 cal/mol/K
@@ -25873,7 +25873,7 @@ Frequencies (cm^-1) = 152.5,167.1,203.0,348.4,473.8,523.8,536.8,725.5,745.3,815.
 entry(
     index = 454,
     label = "FC#C[CH]C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -25899,7 +25899,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 50.54 kcal/mol
 S298: 97.07 cal/mol/K
@@ -25928,7 +25928,7 @@ Frequencies (cm^-1) = 93.2,191.4,198.5,244.6,311.6,334.6,355.7,439.6,516.1,679.2
 entry(
     index = 455,
     label = "FC(F)(Cl)CCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -25955,7 +25955,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -126.24 kcal/mol
 S298: 92.03 cal/mol/K
@@ -25987,7 +25987,7 @@ Frequencies (cm^-1) = 133.5,185.4,314.0,329.4,416.8,445.7,561.9,657.6,689.1,772.
 entry(
     index = 456,
     label = "C[C](CBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -26017,7 +26017,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -38.60 kcal/mol
 S298: 103.31 cal/mol/K
@@ -26052,7 +26052,7 @@ Frequencies (cm^-1) = 127.9,178.2,299.6,330.8,373.5,397.6,470.3,545.5,660.1,809.
 entry(
     index = 457,
     label = "FCD[C]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -26077,7 +26077,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -21.05 kcal/mol
 S298: 95.01 cal/mol/K
@@ -26105,7 +26105,7 @@ Frequencies (cm^-1) = 96.2,116.8,197.6,274.7,286.0,332.7,431.1,509.1,578.0,719.3
 entry(
     index = 458,
     label = "FC(Cl)[CH]COBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -26133,7 +26133,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -29.71 kcal/mol
 S298: 104.24 cal/mol/K
@@ -26166,7 +26166,7 @@ Frequencies (cm^-1) = 189.4,254.4,291.3,359.1,431.3,475.7,571.1,621.5,675.2,906.
 entry(
     index = 459,
     label = "[CH]DC(F)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -26191,7 +26191,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 34.09 kcal/mol
 S298: 94.98 cal/mol/K
@@ -26218,7 +26218,7 @@ Frequencies (cm^-1) = 82.2,136.1,138.3,187.0,206.6,238.8,309.8,407.8,475.1,511.4
 entry(
     index = 460,
     label = "CDC(F)OC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -26244,7 +26244,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -71.82 kcal/mol
 S298: 93.72 cal/mol/K
@@ -26275,7 +26275,7 @@ Frequencies (cm^-1) = 153.7,207.3,320.0,328.8,451.2,558.1,622.2,645.1,733.4,829.
 entry(
     index = 461,
     label = "OOC(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {7,S}
@@ -26299,7 +26299,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.89 kcal/mol
 S298: 92.97 cal/mol/K
@@ -26326,7 +26326,7 @@ Frequencies (cm^-1) = 68.1,108.0,151.5,191.9,203.0,267.1,359.7,417.6,490.9,581.4
 entry(
     index = 462,
     label = "CDC(Br)C(Cl)D[C]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -26352,7 +26352,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 43.09 kcal/mol
 S298: 91.00 cal/mol/K
@@ -26381,7 +26381,7 @@ Frequencies (cm^-1) = 121.0,204.8,207.1,265.0,340.4,400.9,518.9,563.1,639.8,664.
 entry(
     index = 463,
     label = "FC(F)(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {7,S}
@@ -26405,7 +26405,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -168.43 kcal/mol
 S298: 88.60 cal/mol/K
@@ -26433,7 +26433,7 @@ Frequencies (cm^-1) = 154.1,194.0,222.3,303.9,358.8,516.2,549.5,664.0,707.1,793.
 entry(
     index = 464,
     label = "CCC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -26463,7 +26463,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.19 kcal/mol
 S298: 97.35 cal/mol/K
@@ -26499,7 +26499,7 @@ Frequencies (cm^-1) = 159.8,184.8,231.0,268.1,361.9,391.6,589.1,665.6,736.5,807.
 entry(
     index = 465,
     label = "[CH2]C(F)(Cl)C(DO)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -26525,7 +26525,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -49.23 kcal/mol
 S298: 93.68 cal/mol/K
@@ -26553,7 +26553,7 @@ Frequencies (cm^-1) = 52.9,141.4,202.4,219.4,245.6,320.8,358.9,369.9,437.0,501.0
 entry(
     index = 466,
     label = "[O]C(F)C(O)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -26579,7 +26579,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -94.87 kcal/mol
 S298: 91.60 cal/mol/K
@@ -26607,7 +26607,7 @@ Frequencies (cm^-1) = 83.9,164.3,175.3,225.6,303.2,316.4,368.1,425.8,477.4,579.0
 entry(
     index = 467,
     label = "F[C](F)C(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -26634,7 +26634,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -75.90 kcal/mol
 S298: 94.75 cal/mol/K
@@ -26665,7 +26665,7 @@ Frequencies (cm^-1) = 133.7,160.7,224.6,230.0,470.3,553.6,559.2,604.6,665.5,771.
 entry(
     index = 468,
     label = "FC(F)(Cl)OCBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {6,S}
@@ -26690,7 +26690,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -151.86 kcal/mol
 S298: 92.89 cal/mol/K
@@ -26720,7 +26720,7 @@ Frequencies (cm^-1) = 196.4,260.5,354.2,377.5,434.3,533.8,604.5,623.5,724.3,926.
 entry(
     index = 469,
     label = "F[CH]C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -26744,7 +26744,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -16.05 kcal/mol
 S298: 92.05 cal/mol/K
@@ -26771,7 +26771,7 @@ Frequencies (cm^-1) = 162.0,188.4,215.7,259.3,296.8,397.1,470.1,523.0,605.4,832.
 entry(
     index = 470,
     label = "FC#CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -26794,7 +26794,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -18.52 kcal/mol
 S298: 89.86 cal/mol/K
@@ -26820,7 +26820,7 @@ Frequencies (cm^-1) = 79.3,104.5,205.2,296.5,311.7,343.0,397.8,449.7,482.2,567.1
 entry(
     index = 471,
     label = "OCDCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -26846,7 +26846,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.45 kcal/mol
 S298: 93.48 cal/mol/K
@@ -26877,7 +26877,7 @@ Frequencies (cm^-1) = 177.7,205.5,253.4,285.1,326.4,361.2,406.7,460.7,706.0,766.
 entry(
     index = 472,
     label = "FC[C](F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -26904,7 +26904,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -66.96 kcal/mol
 S298: 99.89 cal/mol/K
@@ -26935,7 +26935,7 @@ Frequencies (cm^-1) = 106.8,179.5,205.8,244.3,331.4,414.8,438.0,589.1,751.0,854.
 entry(
     index = 473,
     label = "C[CH]OC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -26963,7 +26963,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.08 kcal/mol
 S298: 98.42 cal/mol/K
@@ -26996,7 +26996,7 @@ Frequencies (cm^-1) = 152.9,208.8,291.3,298.4,331.6,408.2,496.0,545.4,603.1,737.
 entry(
     index = 474,
     label = "F[CH]CDC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -27024,7 +27024,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -17.05 kcal/mol
 S298: 95.69 cal/mol/K
@@ -27056,7 +27056,7 @@ Frequencies (cm^-1) = 119.5,156.5,216.5,313.4,394.9,409.8,525.2,575.1,672.2,767.
 entry(
     index = 475,
     label = "F[C](Cl)COOBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -27082,7 +27082,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -9.15 kcal/mol
 S298: 100.37 cal/mol/K
@@ -27113,7 +27113,7 @@ Frequencies (cm^-1) = 137.1,292.3,335.4,392.9,431.4,555.4,605.6,680.6,841.8,893.
 entry(
     index = 476,
     label = "CC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {5,S}
@@ -27138,7 +27138,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -82.64 kcal/mol
 S298: 86.07 cal/mol/K
@@ -27168,7 +27168,7 @@ Frequencies (cm^-1) = 159.2,276.5,318.9,384.3,418.0,519.4,647.3,683.8,897.9,960.
 entry(
     index = 477,
     label = "CC(F)(Cl)COBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -27196,7 +27196,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -81.38 kcal/mol
 S298: 96.20 cal/mol/K
@@ -27230,7 +27230,7 @@ Frequencies (cm^-1) = 118.7,206.1,297.4,306.7,377.0,405.8,480.5,617.0,751.4,844.
 entry(
     index = 478,
     label = "FC(Cl)CDCOBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -27256,7 +27256,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.75 kcal/mol
 S298: 96.96 cal/mol/K
@@ -27287,7 +27287,7 @@ Frequencies (cm^-1) = 104.0,238.2,252.1,341.7,392.0,485.1,548.6,653.3,715.5,840.
 entry(
     index = 479,
     label = "CC([O])(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -27315,7 +27315,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -64.89 kcal/mol
 S298: 95.85 cal/mol/K
@@ -27347,7 +27347,7 @@ Frequencies (cm^-1) = 166.2,204.9,226.8,276.4,312.9,431.4,432.2,586.2,663.1,741.
 entry(
     index = 480,
     label = "CDC(Br)C(Cl)DC(F)F",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -27373,7 +27373,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.50 kcal/mol
 S298: 95.66 cal/mol/K
@@ -27402,7 +27402,7 @@ Frequencies (cm^-1) = 38.5,112.5,150.7,161.4,213.3,309.9,375.1,438.4,498.3,543.5
 entry(
     index = 481,
     label = "OOC(Cl)(Br)CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -27428,7 +27428,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -82.22 kcal/mol
 S298: 92.16 cal/mol/K
@@ -27457,7 +27457,7 @@ Frequencies (cm^-1) = 95.0,154.3,160.2,203.7,247.8,292.4,315.8,351.5,363.8,435.1
 entry(
     index = 482,
     label = "F[C](Cl)CCOBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -27485,7 +27485,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.59 kcal/mol
 S298: 102.24 cal/mol/K
@@ -27518,7 +27518,7 @@ Frequencies (cm^-1) = 144.3,292.1,357.1,367.4,412.5,542.5,586.9,610.6,852.4,910.
 entry(
     index = 483,
     label = "CDC(F)C(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -27546,7 +27546,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -88.95 kcal/mol
 S298: 97.36 cal/mol/K
@@ -27577,7 +27577,7 @@ Frequencies (cm^-1) = 43.8,71.9,124.6,203.7,241.5,260.5,292.7,340.5,461.5,527.3,
 entry(
     index = 484,
     label = "FCCC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {6,S}
@@ -27605,7 +27605,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.35 kcal/mol
 S298: 95.88 cal/mol/K
@@ -27639,7 +27639,7 @@ Frequencies (cm^-1) = 175.3,209.5,282.7,394.0,410.3,519.6,618.4,673.2,851.9,917.
 entry(
     index = 485,
     label = "CDC(F)OC(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -27665,7 +27665,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -59.46 kcal/mol
 S298: 99.06 cal/mol/K
@@ -27694,7 +27694,7 @@ Frequencies (cm^-1) = 38.6,108.2,120.6,175.0,194.6,232.8,289.3,292.1,350.2,504.6
 entry(
     index = 486,
     label = "CC(F)(Cl)OOBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -27720,7 +27720,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -64.22 kcal/mol
 S298: 94.92 cal/mol/K
@@ -27752,7 +27752,7 @@ Frequencies (cm^-1) = 207.8,226.2,297.8,376.3,410.5,455.4,567.6,608.0,688.2,861.
 entry(
     index = 487,
     label = "[CH2]C(F)C(Cl)DCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -27780,7 +27780,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -0.08 kcal/mol
 S298: 96.31 cal/mol/K
@@ -27810,7 +27810,7 @@ Frequencies (cm^-1) = 54.9,123.6,140.0,148.4,199.2,254.7,303.4,438.0,503.9,593.9
 entry(
     index = 488,
     label = "CC(F)C(C)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -27840,7 +27840,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -81.83 kcal/mol
 S298: 95.37 cal/mol/K
@@ -27876,7 +27876,7 @@ Frequencies (cm^-1) = 163.8,193.8,237.8,289.0,307.6,389.6,415.6,498.8,530.2,720.
 entry(
     index = 489,
     label = "FC(Cl)DCDCOBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {6,S}
@@ -27900,7 +27900,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -0.46 kcal/mol
 S298: 92.56 cal/mol/K
@@ -27928,7 +27928,7 @@ Frequencies (cm^-1) = 60.7,101.7,231.1,316.8,364.8,488.5,528.7,555.0,591.4,762.8
 entry(
     index = 490,
     label = "FC(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -27949,7 +27949,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -56.23 kcal/mol
 S298: 79.28 cal/mol/K
@@ -27973,7 +27973,7 @@ Frequencies (cm^-1) = 197.4,211.3,296.0,331.6,387.8,493.4,755.1,795.7,1135.8
 entry(
     index = 491,
     label = "CC(D[C]F)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -28001,7 +28001,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 22.85 kcal/mol
 S298: 104.54 cal/mol/K
@@ -28031,7 +28031,7 @@ Frequencies (cm^-1) = 50.9,112.8,120.7,157.7,169.6,194.6,225.7,258.8,310.2,315.6
 entry(
     index = 492,
     label = "CCDC(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -28059,7 +28059,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -12.86 kcal/mol
 S298: 95.51 cal/mol/K
@@ -28089,7 +28089,7 @@ Frequencies (cm^-1) = 67.2,77.9,145.9,168.1,199.4,255.1,272.3,394.4,470.3,475.3,
 entry(
     index = 493,
     label = "CDC(C(F)F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -28117,7 +28117,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -96.23 kcal/mol
 S298: 97.46 cal/mol/K
@@ -28148,7 +28148,7 @@ Frequencies (cm^-1) = 37.8,68.6,130.6,181.8,212.5,292.8,341.6,388.1,465.7,534.3,
 entry(
     index = 494,
     label = "CC(O)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -28176,7 +28176,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -110.42 kcal/mol
 S298: 96.29 cal/mol/K
@@ -28210,7 +28210,7 @@ Frequencies (cm^-1) = 172.5,190.9,231.4,303.3,331.2,402.5,428.2,516.3,546.6,793.
 entry(
     index = 495,
     label = "OC(Br)OC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {7,S}
@@ -28236,7 +28236,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -143.83 kcal/mol
 S298: 95.50 cal/mol/K
@@ -28268,7 +28268,7 @@ Frequencies (cm^-1) = 149.2,240.3,296.4,376.4,428.0,488.7,584.1,677.4,832.1,997.
 entry(
     index = 496,
     label = "[O]C(OBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -28294,7 +28294,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -59.39 kcal/mol
 S298: 95.11 cal/mol/K
@@ -28322,7 +28322,7 @@ Frequencies (cm^-1) = 42.8,64.0,128.4,185.5,312.5,334.1,396.4,419.9,610.1,673.3,
 entry(
     index = 497,
     label = "FC(F)(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {6,S}
@@ -28346,7 +28346,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -118.09 kcal/mol
 S298: 93.26 cal/mol/K
@@ -28374,7 +28374,7 @@ Frequencies (cm^-1) = 142.5,169.5,210.5,289.6,335.6,419.4,439.0,572.7,621.1,745.
 entry(
     index = 498,
     label = "OC(Br)C[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -28402,7 +28402,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -67.64 kcal/mol
 S298: 98.81 cal/mol/K
@@ -28435,7 +28435,7 @@ Frequencies (cm^-1) = 168.0,244.1,302.9,325.5,385.9,408.1,520.9,575.0,792.6,886.
 entry(
     index = 499,
     label = "F[CH]CC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -28465,7 +28465,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.02 kcal/mol
 S298: 102.08 cal/mol/K
@@ -28500,7 +28500,7 @@ Frequencies (cm^-1) = 174.3,188.6,241.7,344.2,371.0,514.8,593.0,620.4,677.0,821.
 entry(
     index = 500,
     label = "F[CH]CCDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -28528,7 +28528,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 1.52 kcal/mol
 S298: 100.35 cal/mol/K
@@ -28560,7 +28560,7 @@ Frequencies (cm^-1) = 125.8,159.2,235.2,300.1,422.6,432.8,481.6,526.1,645.9,808.
 entry(
     index = 501,
     label = "F[C](Cl)OCDCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -28586,7 +28586,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -30.15 kcal/mol
 S298: 97.64 cal/mol/K
@@ -28616,7 +28616,7 @@ Frequencies (cm^-1) = 93.3,200.2,366.5,395.6,455.4,542.9,593.7,662.0,732.0,751.6
 entry(
     index = 502,
     label = "[CH2]C(DCF)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -28644,7 +28644,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 0.93 kcal/mol
 S298: 102.34 cal/mol/K
@@ -28674,7 +28674,7 @@ Frequencies (cm^-1) = 24.4,124.1,139.9,191.0,199.6,249.1,262.0,264.5,325.4,392.1
 entry(
     index = 503,
     label = "CC(DC(F)Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -28702,7 +28702,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -49.79 kcal/mol
 S298: 101.38 cal/mol/K
@@ -28733,7 +28733,7 @@ Frequencies (cm^-1) = 39.9,80.1,132.7,149.0,173.3,196.1,256.3,302.3,384.0,414.5,
 entry(
     index = 504,
     label = "CC(Br)DC(Cl)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -28761,7 +28761,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -14.51 kcal/mol
 S298: 93.53 cal/mol/K
@@ -28793,7 +28793,7 @@ Frequencies (cm^-1) = 82.9,164.3,239.8,272.9,275.6,310.9,493.8,498.1,639.2,661.7
 entry(
     index = 505,
     label = "FCDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -28815,7 +28815,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -28.19 kcal/mol
 S298: 77.84 cal/mol/K
@@ -28840,7 +28840,7 @@ Frequencies (cm^-1) = 170.5,230.6,268.8,431.5,455.8,563.5,852.6,923.4,1186.2,131
 entry(
     index = 506,
     label = "[CH2]C(DC)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -28868,7 +28868,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -11.40 kcal/mol
 S298: 92.79 cal/mol/K
@@ -28898,7 +28898,7 @@ Frequencies (cm^-1) = 45.4,159.6,194.5,245.5,300.4,368.5,395.2,457.8,503.2,523.6
 entry(
     index = 507,
     label = "FCC(OCl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {4,S}
@@ -28924,7 +28924,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -71.38 kcal/mol
 S298: 94.74 cal/mol/K
@@ -28956,7 +28956,7 @@ Frequencies (cm^-1) = 168.8,229.4,245.5,412.0,477.7,570.1,667.1,727.7,894.6,1002
 entry(
     index = 508,
     label = "CC(Br)(Br)C(F)(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -28983,7 +28983,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -116.85 kcal/mol
 S298: 98.99 cal/mol/K
@@ -29013,7 +29013,7 @@ Frequencies (cm^-1) = 70.6,130.8,152.3,201.8,225.7,271.8,277.9,291.6,304.3,385.9
 entry(
     index = 509,
     label = "FC#CC(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -29036,7 +29036,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 24.56 kcal/mol
 S298: 91.25 cal/mol/K
@@ -29062,7 +29062,7 @@ Frequencies (cm^-1) = 78.6,92.1,200.2,210.1,268.7,314.3,370.3,405.4,474.1,486.6,
 entry(
     index = 510,
     label = "CC(CF)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -29092,7 +29092,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -75.27 kcal/mol
 S298: 97.21 cal/mol/K
@@ -29128,7 +29128,7 @@ Frequencies (cm^-1) = 155.7,192.3,215.3,278.2,352.2,435.7,533.9,620.2,734.0,846.
 entry(
     index = 511,
     label = "CC(Br)C(Cl)DCF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {6,S}
@@ -29156,7 +29156,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.65 kcal/mol
 S298: 95.04 cal/mol/K
@@ -29189,7 +29189,7 @@ Frequencies (cm^-1) = 110.0,192.7,208.5,265.6,307.6,410.1,522.7,596.3,611.9,662.
 entry(
     index = 512,
     label = "CDC(CF)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -29217,7 +29217,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -44.98 kcal/mol
 S298: 99.45 cal/mol/K
@@ -29248,7 +29248,7 @@ Frequencies (cm^-1) = 55.9,71.2,156.2,166.8,212.9,222.9,276.6,337.3,369.6,382.1,
 entry(
     index = 513,
     label = "F[C](Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -29272,7 +29272,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -22.08 kcal/mol
 S298: 84.45 cal/mol/K
@@ -29298,7 +29298,7 @@ Frequencies (cm^-1) = 78.1,100.7,335.2,371.3,406.1,453.6,662.4,866.7,1041.4,1153
 entry(
     index = 514,
     label = "CC(F)(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -29325,7 +29325,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -125.49 kcal/mol
 S298: 93.35 cal/mol/K
@@ -29357,7 +29357,7 @@ Frequencies (cm^-1) = 158.5,200.7,227.1,296.4,343.3,432.1,468.1,573.1,685.4,768.
 entry(
     index = 515,
     label = "CDC(F)C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -29383,7 +29383,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.17 kcal/mol
 S298: 93.91 cal/mol/K
@@ -29414,7 +29414,7 @@ Frequencies (cm^-1) = 127.7,234.9,321.7,379.6,428.5,455.1,564.9,672.0,750.9,791.
 entry(
     index = 516,
     label = "FCDC(Cl)[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -29439,7 +29439,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -8.29 kcal/mol
 S298: 93.45 cal/mol/K
@@ -29466,7 +29466,7 @@ Frequencies (cm^-1) = 52.6,147.7,165.4,209.6,239.7,254.4,318.0,369.9,489.5,634.1
 entry(
     index = 517,
     label = "FCDC[C]DC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -29492,7 +29492,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 32.93 kcal/mol
 S298: 94.94 cal/mol/K
@@ -29521,7 +29521,7 @@ Frequencies (cm^-1) = 79.4,85.6,216.4,283.1,331.5,412.9,464.7,474.8,681.6,716.4,
 entry(
     index = 518,
     label = "F[C]DC(CCl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -29547,7 +29547,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 17.59 kcal/mol
 S298: 97.92 cal/mol/K
@@ -29577,7 +29577,7 @@ Frequencies (cm^-1) = 114.4,183.2,227.1,274.1,357.7,513.6,592.7,665.0,707.5,858.
 entry(
     index = 519,
     label = "CC(C)(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {7,S}
@@ -29607,7 +29607,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -83.14 kcal/mol
 S298: 94.71 cal/mol/K
@@ -29643,7 +29643,7 @@ Frequencies (cm^-1) = 159.6,232.5,250.4,288.1,296.1,354.9,395.4,527.5,591.9,733.
 entry(
     index = 520,
     label = "OD[C]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -29666,7 +29666,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -38.92 kcal/mol
 S298: 87.78 cal/mol/K
@@ -29692,7 +29692,7 @@ Frequencies (cm^-1) = 173.6,198.9,222.8,309.6,394.1,510.5,564.9,715.5,839.3,1160
 entry(
     index = 521,
     label = "C[C](F)C(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -29722,7 +29722,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -37.84 kcal/mol
 S298: 99.23 cal/mol/K
@@ -29757,7 +29757,7 @@ Frequencies (cm^-1) = 126.2,154.6,198.3,239.3,382.0,401.5,473.9,550.2,630.1,753.
 entry(
     index = 522,
     label = "F[CH]C(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -29784,7 +29784,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -27.56 kcal/mol
 S298: 97.91 cal/mol/K
@@ -29815,7 +29815,7 @@ Frequencies (cm^-1) = 122.4,172.5,201.6,239.7,291.5,364.0,537.3,558.1,579.3,636.
 entry(
     index = 523,
     label = "FCCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -29842,7 +29842,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -69.35 kcal/mol
 S298: 89.37 cal/mol/K
@@ -29874,7 +29874,7 @@ Frequencies (cm^-1) = 174.1,217.3,310.2,347.7,494.6,553.9,745.8,856.4,909.6,1067
 entry(
     index = 524,
     label = "CC(Br)(Br)[C]DC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -29902,7 +29902,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 18.94 kcal/mol
 S298: 107.46 cal/mol/K
@@ -29932,7 +29932,7 @@ Frequencies (cm^-1) = 7.5,65.2,80.6,145.7,228.8,260.7,263.6,284.1,314.5,362.7,44
 entry(
     index = 525,
     label = "FCOC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {7,S}
@@ -29957,7 +29957,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -143.61 kcal/mol
 S298: 93.25 cal/mol/K
@@ -29987,7 +29987,7 @@ Frequencies (cm^-1) = 188.8,219.5,277.0,306.1,387.0,468.9,521.1,643.4,760.7,1025
 entry(
     index = 526,
     label = "CC(Br)C(Cl)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -30017,7 +30017,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -33.33 kcal/mol
 S298: 97.39 cal/mol/K
@@ -30052,7 +30052,7 @@ Frequencies (cm^-1) = 141.9,195.5,227.8,280.9,311.4,379.6,485.2,556.4,596.5,675.
 entry(
     index = 527,
     label = "FC[C](Cl)OCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -30080,7 +30080,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -59.39 kcal/mol
 S298: 97.06 cal/mol/K
@@ -30113,7 +30113,7 @@ Frequencies (cm^-1) = 162.9,233.8,308.2,376.0,467.8,569.9,578.9,667.9,895.2,946.
 entry(
     index = 528,
     label = "F[C](Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -30137,7 +30137,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -23.36 kcal/mol
 S298: 90.93 cal/mol/K
@@ -30163,7 +30163,7 @@ Frequencies (cm^-1) = 59.3,108.2,163.7,194.7,356.3,434.3,439.9,497.0,623.3,817.6
 entry(
     index = 529,
     label = "OD[C]CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -30189,7 +30189,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -51.94 kcal/mol
 S298: 93.08 cal/mol/K
@@ -30219,7 +30219,7 @@ Frequencies (cm^-1) = 126.6,214.4,270.8,308.8,352.4,397.1,489.8,588.2,671.8,830.
 entry(
     index = 530,
     label = "F[CH]C(DCCl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -30245,7 +30245,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -10.22 kcal/mol
 S298: 94.70 cal/mol/K
@@ -30275,7 +30275,7 @@ Frequencies (cm^-1) = 146.4,168.2,231.3,248.3,415.3,483.8,594.4,612.5,639.6,715.
 entry(
     index = 531,
     label = "ODC(Br)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {7,S}
@@ -30298,7 +30298,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.18 kcal/mol
 S298: 96.41 cal/mol/K
@@ -30325,7 +30325,7 @@ Frequencies (cm^-1) = 130.2,176.7,188.3,261.0,307.2,349.3,423.1,515.3,611.8,694.
 entry(
     index = 532,
     label = "[CH]DCC(F)DC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -30351,7 +30351,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 43.94 kcal/mol
 S298: 90.39 cal/mol/K
@@ -30379,7 +30379,7 @@ Frequencies (cm^-1) = 96.6,141.1,147.2,223.4,263.8,324.2,347.9,445.3,548.4,626.4
 entry(
     index = 533,
     label = "CDC(OBr)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -30405,7 +30405,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -10.78 kcal/mol
 S298: 95.64 cal/mol/K
@@ -30434,7 +30434,7 @@ Frequencies (cm^-1) = 84.4,163.4,206.4,315.1,343.3,423.6,453.1,503.4,518.0,646.4
 entry(
     index = 534,
     label = "F[C](Cl)OOCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -30460,7 +30460,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -34.36 kcal/mol
 S298: 97.26 cal/mol/K
@@ -30489,7 +30489,7 @@ Frequencies (cm^-1) = 23.6,83.3,225.4,283.8,369.3,410.2,502.7,544.8,606.2,682.7,
 entry(
     index = 535,
     label = "CC(DCF)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -30517,7 +30517,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -35.73 kcal/mol
 S298: 102.98 cal/mol/K
@@ -30548,7 +30548,7 @@ Frequencies (cm^-1) = 45.3,109.7,136.8,155.4,178.7,202.7,240.1,286.8,307.8,316.9
 entry(
     index = 536,
     label = "COCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -30576,7 +30576,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -95.40 kcal/mol
 S298: 96.04 cal/mol/K
@@ -30610,7 +30610,7 @@ Frequencies (cm^-1) = 173.4,201.7,267.0,307.0,352.7,410.2,452.3,626.7,786.5,912.
 entry(
     index = 537,
     label = "CDC(C(F)Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -30638,7 +30638,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -38.81 kcal/mol
 S298: 103.48 cal/mol/K
@@ -30669,7 +30669,7 @@ Frequencies (cm^-1) = 25.0,46.3,121.0,154.3,174.1,220.1,300.8,364.8,383.9,463.4,
 entry(
     index = 538,
     label = "O[C]DC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -30695,7 +30695,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -25.30 kcal/mol
 S298: 94.52 cal/mol/K
@@ -30723,7 +30723,7 @@ Frequencies (cm^-1) = 51.4,118.3,140.0,149.2,278.4,330.3,370.9,437.7,477.3,522.1
 entry(
     index = 539,
     label = "F[C](Cl)OCCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -30751,7 +30751,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.06 kcal/mol
 S298: 100.09 cal/mol/K
@@ -30784,7 +30784,7 @@ Frequencies (cm^-1) = 152.2,299.5,365.4,432.7,446.0,558.7,589.3,664.0,847.1,947.
 entry(
     index = 540,
     label = "FCDC[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -30809,7 +30809,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -6.17 kcal/mol
 S298: 86.60 cal/mol/K
@@ -30836,7 +30836,7 @@ Frequencies (cm^-1) = 134.1,139.9,187.9,226.6,328.8,348.5,396.4,682.1,725.0,853.
 entry(
     index = 541,
     label = "FCCOC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -30864,7 +30864,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -98.98 kcal/mol
 S298: 98.15 cal/mol/K
@@ -30898,7 +30898,7 @@ Frequencies (cm^-1) = 173.8,208.9,271.0,332.3,428.4,546.7,627.2,707.1,850.5,911.
 entry(
     index = 542,
     label = "F[CH]C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -30922,7 +30922,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -14.60 kcal/mol
 S298: 86.11 cal/mol/K
@@ -30949,7 +30949,7 @@ Frequencies (cm^-1) = 175.0,202.8,309.3,378.0,430.7,574.6,798.0,1064.9,1157.6,11
 entry(
     index = 543,
     label = "CC(Br)C(F)(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -30976,7 +30976,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -125.92 kcal/mol
 S298: 93.00 cal/mol/K
@@ -31008,7 +31008,7 @@ Frequencies (cm^-1) = 146.7,205.1,271.3,292.1,373.0,413.4,481.3,550.0,620.2,711.
 entry(
     index = 544,
     label = "FCDC(CCl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -31034,7 +31034,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -43.48 kcal/mol
 S298: 95.50 cal/mol/K
@@ -31065,7 +31065,7 @@ Frequencies (cm^-1) = 143.9,186.0,234.0,305.1,395.4,493.9,571.6,619.9,744.6,858.
 entry(
     index = 545,
     label = "[CH2]C(C)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -31095,7 +31095,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.55 kcal/mol
 S298: 96.69 cal/mol/K
@@ -31127,7 +31127,7 @@ Frequencies (cm^-1) = 85.8,117.2,158.1,194.9,218.1,232.1,304.8,322.0,400.1,416.9
 entry(
     index = 546,
     label = "F[C](Cl)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -31151,7 +31151,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -11.89 kcal/mol
 S298: 99.59 cal/mol/K
@@ -31177,7 +31177,7 @@ Frequencies (cm^-1) = 53.8,104.8,134.9,171.5,196.2,220.2,258.6,377.9,444.8,456.5
 entry(
     index = 547,
     label = "[C]#CC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -31201,7 +31201,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 77.10 kcal/mol
 S298: 91.65 cal/mol/K
@@ -31227,7 +31227,7 @@ Frequencies (cm^-1) = 87.5,113.1,133.1,179.9,339.8,362.4,407.9,429.3,530.0,647.5
 entry(
     index = 548,
     label = "CC(Br)DC(Cl)CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {7,S}
@@ -31255,7 +31255,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.88 kcal/mol
 S298: 96.95 cal/mol/K
@@ -31288,7 +31288,7 @@ Frequencies (cm^-1) = 97.7,195.2,204.4,273.6,313.9,332.5,419.8,533.9,654.6,682.8
 entry(
     index = 549,
     label = "FCC(Cl)(Br)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Br u0 p3 c0 {7,S}
@@ -31315,7 +31315,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.08 kcal/mol
 S298: 95.38 cal/mol/K
@@ -31347,7 +31347,7 @@ Frequencies (cm^-1) = 119.8,176.5,216.8,220.3,301.4,336.9,425.4,566.8,645.4,708.
 entry(
     index = 550,
     label = "F[C]DC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -31372,7 +31372,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 21.58 kcal/mol
 S298: 90.25 cal/mol/K
@@ -31400,7 +31400,7 @@ Frequencies (cm^-1) = 110.4,175.8,303.3,309.2,442.0,594.9,615.9,634.0,869.9,1057
 entry(
     index = 551,
     label = "FC[C](Cl)CCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -31430,7 +31430,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -34.26 kcal/mol
 S298: 101.48 cal/mol/K
@@ -31465,7 +31465,7 @@ Frequencies (cm^-1) = 157.1,230.9,236.6,327.2,436.5,464.1,549.5,683.3,841.4,901.
 entry(
     index = 552,
     label = "FC(F)DC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -31488,7 +31488,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -80.48 kcal/mol
 S298: 90.04 cal/mol/K
@@ -31515,7 +31515,7 @@ Frequencies (cm^-1) = 107.5,140.8,207.5,281.8,368.6,455.9,512.7,562.9,668.4,707.
 entry(
     index = 553,
     label = "OC([CH]F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -31543,7 +31543,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -60.49 kcal/mol
 S298: 97.21 cal/mol/K
@@ -31575,7 +31575,7 @@ Frequencies (cm^-1) = 74.7,146.1,187.7,210.8,283.3,366.9,411.1,536.3,593.9,647.9
 entry(
     index = 554,
     label = "FOC(Cl)DCOBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -31599,7 +31599,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -3.27 kcal/mol
 S298: 94.87 cal/mol/K
@@ -31628,7 +31628,7 @@ Frequencies (cm^-1) = 104.6,173.2,209.7,392.5,434.6,453.5,530.9,624.8,669.2,701.
 entry(
     index = 555,
     label = "OC(Cl)(Br)C[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -31656,7 +31656,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.89 kcal/mol
 S298: 97.45 cal/mol/K
@@ -31689,7 +31689,7 @@ Frequencies (cm^-1) = 165.8,204.7,246.2,306.4,349.2,415.3,450.9,514.0,599.6,708.
 entry(
     index = 556,
     label = "F[CH]C(Cl)DC(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -31714,7 +31714,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 3.46 kcal/mol
 S298: 94.56 cal/mol/K
@@ -31742,7 +31742,7 @@ Frequencies (cm^-1) = 91.9,137.0,174.0,221.3,221.6,282.6,327.0,486.3,631.8,685.6
 entry(
     index = 557,
     label = "FOC(Cl)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {7,S}
@@ -31765,7 +31765,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -33.42 kcal/mol
 S298: 89.74 cal/mol/K
@@ -31793,7 +31793,7 @@ Frequencies (cm^-1) = 143.6,214.5,257.2,297.2,362.9,423.7,453.8,626.6,751.3,844.
 entry(
     index = 558,
     label = "[O]CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -31818,7 +31818,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.99 kcal/mol
 S298: 88.61 cal/mol/K
@@ -31846,7 +31846,7 @@ Frequencies (cm^-1) = 170.9,204.1,298.4,311.1,351.9,435.2,560.6,658.7,816.8,947.
 entry(
     index = 559,
     label = "[CH2]OC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -31872,7 +31872,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -66.72 kcal/mol
 S298: 93.76 cal/mol/K
@@ -31900,7 +31900,7 @@ Frequencies (cm^-1) = 86.4,104.6,146.5,200.7,232.9,335.4,374.1,405.9,481.9,504.3
 entry(
     index = 560,
     label = "CC(Cl)(Br)CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {4,S}
@@ -31927,7 +31927,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -72.27 kcal/mol
 S298: 88.24 cal/mol/K
@@ -31959,7 +31959,7 @@ Frequencies (cm^-1) = 180.7,209.0,278.3,302.0,352.8,382.8,594.0,679.7,909.3,963.
 entry(
     index = 561,
     label = "FC(Cl)OOBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -31982,7 +31982,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -50.95 kcal/mol
 S298: 89.50 cal/mol/K
@@ -32010,7 +32010,7 @@ Frequencies (cm^-1) = 224.5,254.9,386.5,454.8,583.9,696.6,779.9,853.6,1019.4,114
 entry(
     index = 562,
     label = "CC(O)(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -32038,7 +32038,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -120.86 kcal/mol
 S298: 93.95 cal/mol/K
@@ -32072,7 +32072,7 @@ Frequencies (cm^-1) = 164.6,207.4,238.2,285.2,348.2,414.2,507.1,580.2,683.0,762.
 entry(
     index = 563,
     label = "FC(Cl)OC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {6,S}
@@ -32097,7 +32097,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -102.34 kcal/mol
 S298: 97.28 cal/mol/K
@@ -32127,7 +32127,7 @@ Frequencies (cm^-1) = 147.3,208.5,260.1,313.5,393.1,502.0,570.1,637.0,704.2,851.
 entry(
     index = 564,
     label = "C#CC(F)(Cl)[C](Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -32153,7 +32153,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 49.19 kcal/mol
 S298: 103.21 cal/mol/K
@@ -32181,7 +32181,7 @@ Frequencies (cm^-1) = 36.1,101.6,117.2,142.9,179.2,205.6,295.5,362.1,377.9,402.5
 entry(
     index = 565,
     label = "CC(Br)DCC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {5,S}
@@ -32209,7 +32209,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -50.98 kcal/mol
 S298: 95.23 cal/mol/K
@@ -32242,7 +32242,7 @@ Frequencies (cm^-1) = 108.0,132.5,264.8,343.9,370.5,393.6,458.0,513.1,580.8,717.
 entry(
     index = 566,
     label = "CC(Br)DC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Br u0 p3 c0 {8,S}
@@ -32270,7 +32270,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -41.42 kcal/mol
 S298: 103.40 cal/mol/K
@@ -32301,7 +32301,7 @@ Frequencies (cm^-1) = 40.3,74.2,126.0,135.2,163.4,207.4,259.5,329.5,365.9,393.9,
 entry(
     index = 567,
     label = "CC(DC(F)F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -32329,7 +32329,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -91.96 kcal/mol
 S298: 99.21 cal/mol/K
@@ -32360,7 +32360,7 @@ Frequencies (cm^-1) = 30.0,105.2,139.4,166.2,181.5,199.3,282.3,307.7,393.8,508.7
 entry(
     index = 568,
     label = "CDCDC(F)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -32386,7 +32386,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -43.51 kcal/mol
 S298: 95.75 cal/mol/K
@@ -32415,7 +32415,7 @@ Frequencies (cm^-1) = 51.0,129.1,134.1,181.5,235.3,286.1,300.6,377.9,396.5,505.0
 entry(
     index = 569,
     label = "OC(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -32440,7 +32440,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -60.17 kcal/mol
 S298: 90.94 cal/mol/K
@@ -32469,7 +32469,7 @@ Frequencies (cm^-1) = 118.4,202.5,240.2,383.2,439.5,469.3,563.7,632.6,1048.0,114
 entry(
     index = 570,
     label = "[CH]DC(F)C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -32495,7 +32495,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 13.93 kcal/mol
 S298: 94.41 cal/mol/K
@@ -32523,7 +32523,7 @@ Frequencies (cm^-1) = 52.1,75.8,157.2,171.3,267.7,337.4,438.3,476.2,557.3,647.1,
 entry(
     index = 571,
     label = "FC(Cl)(Br)CCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {7,S}
@@ -32550,7 +32550,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.74 kcal/mol
 S298: 96.90 cal/mol/K
@@ -32582,7 +32582,7 @@ Frequencies (cm^-1) = 111.8,161.3,221.3,281.3,307.5,362.3,421.1,562.2,647.1,768.
 entry(
     index = 572,
     label = "CC([O])C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -32610,7 +32610,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -57.26 kcal/mol
 S298: 93.96 cal/mol/K
@@ -32640,7 +32640,7 @@ Frequencies (cm^-1) = 72.6,151.7,186.5,204.0,231.5,273.3,309.1,345.8,390.4,532.2
 entry(
     index = 573,
     label = "CC(OBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {7,S}
@@ -32668,7 +32668,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.32 kcal/mol
 S298: 96.64 cal/mol/K
@@ -32702,7 +32702,7 @@ Frequencies (cm^-1) = 185.5,199.6,251.9,332.5,373.3,507.2,554.9,658.7,732.5,864.
 entry(
     index = 574,
     label = "CDCC(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -32728,7 +32728,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -17.51 kcal/mol
 S298: 89.02 cal/mol/K
@@ -32758,7 +32758,7 @@ Frequencies (cm^-1) = 112.8,172.8,202.3,280.4,299.8,406.5,487.3,547.2,560.4,719.
 entry(
     index = 575,
     label = "CDC(F)CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -32786,7 +32786,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -93.03 kcal/mol
 S298: 97.90 cal/mol/K
@@ -32817,7 +32817,7 @@ Frequencies (cm^-1) = 27.8,87.4,124.0,200.6,227.5,285.5,319.7,405.8,408.6,472.8,
 entry(
     index = 576,
     label = "FC(Cl)(Br)OCBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {7,S}
@@ -32842,7 +32842,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -88.76 kcal/mol
 S298: 100.35 cal/mol/K
@@ -32872,7 +32872,7 @@ Frequencies (cm^-1) = 158.4,195.5,240.6,300.7,340.4,428.1,484.7,599.7,630.8,752.
 entry(
     index = 577,
     label = "FCCDC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -32900,7 +32900,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.03 kcal/mol
 S298: 97.77 cal/mol/K
@@ -32933,7 +32933,7 @@ Frequencies (cm^-1) = 103.8,146.1,233.2,309.4,407.3,471.3,555.4,628.7,657.3,811.
 entry(
     index = 578,
     label = "CC(Br)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Br u0 p3 c0 {7,S}
@@ -32960,7 +32960,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.69 kcal/mol
 S298: 98.00 cal/mol/K
@@ -32992,7 +32992,7 @@ Frequencies (cm^-1) = 127.6,189.1,192.3,261.7,280.8,318.9,398.0,484.0,533.5,616.
 entry(
     index = 579,
     label = "FC(Cl)COBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {6,S}
@@ -33017,7 +33017,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -68.99 kcal/mol
 S298: 91.16 cal/mol/K
@@ -33047,7 +33047,7 @@ Frequencies (cm^-1) = 185.0,291.5,375.1,425.5,518.3,583.9,676.3,989.1,1034.4,110
 entry(
     index = 580,
     label = "[CH2]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -33071,7 +33071,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -16.51 kcal/mol
 S298: 84.00 cal/mol/K
@@ -33098,7 +33098,7 @@ Frequencies (cm^-1) = 194.7,241.4,274.4,361.0,403.5,511.7,601.9,661.4,929.4,1108
 entry(
     index = 581,
     label = "OC(Cl)([CH]F)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -33124,7 +33124,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -69.15 kcal/mol
 S298: 96.13 cal/mol/K
@@ -33155,7 +33155,7 @@ Frequencies (cm^-1) = 147.8,201.9,248.6,309.9,350.8,458.5,515.7,593.2,614.9,705.
 entry(
     index = 582,
     label = "FC(Cl)DCOBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {6,S}
@@ -33178,7 +33178,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -34.90 kcal/mol
 S298: 87.68 cal/mol/K
@@ -33205,7 +33205,7 @@ Frequencies (cm^-1) = 122.6,208.7,279.5,412.8,497.7,536.5,592.9,685.1,876.6,1180
 entry(
     index = 583,
     label = "[O]C(CF)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -33233,7 +33233,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -54.95 kcal/mol
 S298: 85.66 cal/mol/K
@@ -33263,7 +33263,7 @@ Frequencies (cm^-1) = 46.0,108.2,159.8,186.2,201.3,251.4,391.3,464.5,500.5,682.9
 entry(
     index = 584,
     label = "[O]C(Br)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -33288,7 +33288,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -40.91 kcal/mol
 S298: 97.13 cal/mol/K
@@ -33315,7 +33315,7 @@ Frequencies (cm^-1) = 61.9,101.6,157.5,198.2,242.4,274.1,311.4,335.4,406.9,463.5
 entry(
     index = 585,
     label = "FC#CCDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -33339,7 +33339,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 41.66 kcal/mol
 S298: 89.18 cal/mol/K
@@ -33366,7 +33366,7 @@ Frequencies (cm^-1) = 65.1,94.7,224.4,238.5,325.6,380.3,423.0,435.4,472.7,565.5,
 entry(
     index = 586,
     label = "[CH2]C(F)C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -33394,7 +33394,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.26 kcal/mol
 S298: 97.71 cal/mol/K
@@ -33424,7 +33424,7 @@ Frequencies (cm^-1) = 68.0,81.3,111.6,157.4,178.8,227.8,330.9,419.0,450.2,490.8,
 entry(
     index = 587,
     label = "C[CH]C(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -33452,7 +33452,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -41.64 kcal/mol
 S298: 97.71 cal/mol/K
@@ -33485,7 +33485,7 @@ Frequencies (cm^-1) = 131.7,196.8,244.3,345.7,385.2,440.5,475.3,503.8,636.0,655.
 entry(
     index = 588,
     label = "CC(Cl)(Br)CDCF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {4,S}
@@ -33513,7 +33513,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.00 kcal/mol
 S298: 93.06 cal/mol/K
@@ -33546,7 +33546,7 @@ Frequencies (cm^-1) = 183.4,200.6,216.9,269.0,304.7,356.0,435.0,514.9,653.3,779.
 entry(
     index = 589,
     label = "FC(F)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {7,S}
@@ -33570,7 +33570,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -156.05 kcal/mol
 S298: 88.79 cal/mol/K
@@ -33598,7 +33598,7 @@ Frequencies (cm^-1) = 156.1,184.3,230.4,296.4,307.5,386.3,497.4,584.6,650.9,823.
 entry(
     index = 590,
     label = "O[C](Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -33623,7 +33623,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -62.31 kcal/mol
 S298: 90.89 cal/mol/K
@@ -33652,7 +33652,7 @@ Frequencies (cm^-1) = 140.6,174.0,322.8,361.4,468.1,542.0,550.8,650.8,1023.6,115
 entry(
     index = 591,
     label = "[CH2]C#CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -33678,7 +33678,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 36.73 kcal/mol
 S298: 95.85 cal/mol/K
@@ -33706,7 +33706,7 @@ Frequencies (cm^-1) = 64.1,101.0,113.5,200.1,274.8,288.2,323.5,357.1,425.2,461.0
 entry(
     index = 592,
     label = "ODC(Br)CDC(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {7,S}
@@ -33730,7 +33730,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -67.87 kcal/mol
 S298: 89.00 cal/mol/K
@@ -33758,7 +33758,7 @@ Frequencies (cm^-1) = 134.7,172.0,197.2,345.2,376.2,444.4,573.0,649.6,700.7,777.
 entry(
     index = 593,
     label = "FCOC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -33784,7 +33784,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -108.84 kcal/mol
 S298: 95.54 cal/mol/K
@@ -33816,7 +33816,7 @@ Frequencies (cm^-1) = 186.4,235.9,268.4,366.9,528.1,612.6,681.6,768.3,958.1,1043
 entry(
     index = 594,
     label = "[CH2]C(OBr)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -33842,7 +33842,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -10.83 kcal/mol
 S298: 94.97 cal/mol/K
@@ -33870,7 +33870,7 @@ Frequencies (cm^-1) = 31.9,85.7,163.4,206.4,315.3,343.4,423.8,453.1,503.6,518.0,
 entry(
     index = 595,
     label = "ODC(O)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -33894,7 +33894,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -136.05 kcal/mol
 S298: 90.97 cal/mol/K
@@ -33923,7 +33923,7 @@ Frequencies (cm^-1) = 175.7,191.9,235.1,307.5,346.8,407.1,514.9,649.3,687.7,828.
 entry(
     index = 596,
     label = "FCDC(Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Br u0 p3 c0 {5,S}
@@ -33948,7 +33948,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -30.28 kcal/mol
 S298: 96.80 cal/mol/K
@@ -33977,7 +33977,7 @@ Frequencies (cm^-1) = 96.8,136.6,160.8,199.7,299.0,318.5,495.7,603.2,650.0,655.9
 entry(
     index = 597,
     label = "FC(Cl)DC(Cl)[CH]Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -34002,7 +34002,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -10.21 kcal/mol
 S298: 93.41 cal/mol/K
@@ -34029,7 +34029,7 @@ Frequencies (cm^-1) = 70.4,118.9,127.3,181.6,245.4,283.5,400.5,464.6,498.0,602.2
 entry(
     index = 598,
     label = "ODC(Br)C(Cl)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -34055,7 +34055,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -48.33 kcal/mol
 S298: 97.85 cal/mol/K
@@ -34085,7 +34085,7 @@ Frequencies (cm^-1) = 126.8,157.6,244.6,330.1,348.7,416.3,530.5,556.3,600.6,660.
 entry(
     index = 599,
     label = "[CH2]C(DCF)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -34113,7 +34113,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -10.60 kcal/mol
 S298: 96.65 cal/mol/K
@@ -34144,7 +34144,7 @@ Frequencies (cm^-1) = 124.9,195.4,201.7,259.7,283.3,341.5,498.8,533.6,621.8,645.
 entry(
     index = 600,
     label = "COC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -34169,7 +34169,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -97.04 kcal/mol
 S298: 88.62 cal/mol/K
@@ -34199,7 +34199,7 @@ Frequencies (cm^-1) = 193.7,246.0,295.8,321.6,401.3,489.0,593.4,735.4,1015.7,112
 entry(
     index = 601,
     label = "FC[CH]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -34226,7 +34226,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -67.32 kcal/mol
 S298: 99.77 cal/mol/K
@@ -34257,7 +34257,7 @@ Frequencies (cm^-1) = 144.5,195.0,236.5,266.9,311.1,392.4,400.5,490.0,593.7,648.
 entry(
     index = 602,
     label = "[CH2]C(F)(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -34284,7 +34284,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -29.51 kcal/mol
 S298: 95.83 cal/mol/K
@@ -34313,7 +34313,7 @@ Frequencies (cm^-1) = 69.1,136.1,199.6,210.7,232.4,258.4,299.3,346.8,381.6,466.9
 entry(
     index = 603,
     label = "OC(Cl)(CF)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -34339,7 +34339,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -116.46 kcal/mol
 S298: 95.15 cal/mol/K
@@ -34371,7 +34371,7 @@ Frequencies (cm^-1) = 151.1,204.1,271.5,355.1,411.7,475.0,519.1,642.2,698.7,877.
 entry(
     index = 604,
     label = "[CH2]C(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -34398,7 +34398,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -27.16 kcal/mol
 S298: 90.92 cal/mol/K
@@ -34429,7 +34429,7 @@ Frequencies (cm^-1) = 140.1,210.9,276.7,340.2,375.9,466.6,551.9,623.2,689.7,823.
 entry(
     index = 605,
     label = "FC(Cl)DC(Br)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {5,S}
@@ -34452,7 +34452,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -28.83 kcal/mol
 S298: 96.53 cal/mol/K
@@ -34479,7 +34479,7 @@ Frequencies (cm^-1) = 93.5,102.1,175.0,258.1,273.1,355.8,438.2,489.2,617.8,662.0
 entry(
     index = 606,
     label = "FC(Cl)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -34501,7 +34501,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -72.32 kcal/mol
 S298: 87.16 cal/mol/K
@@ -34527,7 +34527,7 @@ Frequencies (cm^-1) = 152.9,224.9,281.6,368.6,426.8,440.1,632.3,685.4,853.3,1043
 entry(
     index = 607,
     label = "CC(F)(CCl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -34557,7 +34557,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -82.81 kcal/mol
 S298: 95.15 cal/mol/K
@@ -34593,7 +34593,7 @@ Frequencies (cm^-1) = 160.4,201.2,280.6,327.1,371.6,450.7,483.3,669.0,739.8,795.
 entry(
     index = 608,
     label = "OC(CBr)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -34619,7 +34619,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.58 kcal/mol
 S298: 93.39 cal/mol/K
@@ -34650,7 +34650,7 @@ Frequencies (cm^-1) = 84.9,196.2,210.2,323.9,381.4,416.1,497.3,547.0,640.3,691.6
 entry(
     index = 609,
     label = "OC(Br)DCDC(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -34674,7 +34674,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.76 kcal/mol
 S298: 92.24 cal/mol/K
@@ -34702,7 +34702,7 @@ Frequencies (cm^-1) = 65.5,80.8,138.8,268.7,368.6,406.8,461.2,525.6,560.1,592.9,
 entry(
     index = 610,
     label = "[O]OCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -34728,7 +34728,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.74 kcal/mol
 S298: 92.83 cal/mol/K
@@ -34756,7 +34756,7 @@ Frequencies (cm^-1) = 62.7,116.4,172.7,197.3,287.4,311.4,338.5,421.4,531.9,575.5
 entry(
     index = 611,
     label = "OC(F)C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -34782,7 +34782,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -117.38 kcal/mol
 S298: 93.56 cal/mol/K
@@ -34814,7 +34814,7 @@ Frequencies (cm^-1) = 153.4,194.9,242.7,346.5,453.7,537.4,581.5,670.8,788.3,921.
 entry(
     index = 612,
     label = "FC#CO[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -34838,7 +34838,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 48.02 kcal/mol
 S298: 95.82 cal/mol/K
@@ -34865,7 +34865,7 @@ Frequencies (cm^-1) = 78.0,212.3,243.5,291.9,324.6,359.8,381.3,457.8,521.6,810.7
 entry(
     index = 613,
     label = "OC(Br)DC[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -34891,7 +34891,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -48.13 kcal/mol
 S298: 93.71 cal/mol/K
@@ -34920,7 +34920,7 @@ Frequencies (cm^-1) = 87.0,120.3,137.6,244.1,260.9,323.4,364.3,438.3,457.2,694.7
 entry(
     index = 614,
     label = "OC(Cl)(Br)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -34945,7 +34945,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -55.84 kcal/mol
 S298: 91.47 cal/mol/K
@@ -34974,7 +34974,7 @@ Frequencies (cm^-1) = 159.3,194.2,245.9,260.7,393.5,449.5,530.4,562.5,599.4,1049
 entry(
     index = 615,
     label = "[O]C(DO)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -34998,7 +34998,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.65 kcal/mol
 S298: 92.29 cal/mol/K
@@ -35024,7 +35024,7 @@ Frequencies (cm^-1) = 27.7,140.0,173.2,215.9,306.7,323.0,417.6,515.2,612.7,688.3
 entry(
     index = 616,
     label = "F[C]DC(Cl)CCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -35052,7 +35052,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 13.71 kcal/mol
 S298: 98.00 cal/mol/K
@@ -35084,7 +35084,7 @@ Frequencies (cm^-1) = 170.9,179.2,230.7,339.3,381.1,499.2,553.9,575.8,627.6,869.
 entry(
     index = 617,
     label = "CC(Cl)([CH]F)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -35114,7 +35114,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -34.80 kcal/mol
 S298: 97.47 cal/mol/K
@@ -35149,7 +35149,7 @@ Frequencies (cm^-1) = 139.1,194.6,246.5,281.9,297.1,363.1,451.2,550.4,563.7,632.
 entry(
     index = 618,
     label = "CC(DO)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -35175,7 +35175,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -90.56 kcal/mol
 S298: 94.30 cal/mol/K
@@ -35206,7 +35206,7 @@ Frequencies (cm^-1) = 140.5,182.6,229.0,301.3,346.8,395.9,453.6,538.0,629.4,736.
 entry(
     index = 619,
     label = "O[C](Br)OC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -35232,7 +35232,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -99.74 kcal/mol
 S298: 95.57 cal/mol/K
@@ -35260,7 +35260,7 @@ Frequencies (cm^-1) = 24.3,64.4,147.8,226.4,310.2,353.7,405.0,452.5,519.8,605.5,
 entry(
     index = 620,
     label = "FC(Cl)C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -35285,7 +35285,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -76.27 kcal/mol
 S298: 94.93 cal/mol/K
@@ -35315,7 +35315,7 @@ Frequencies (cm^-1) = 130.1,187.8,267.5,356.9,388.5,410.1,562.2,582.1,719.9,789.
 entry(
     index = 621,
     label = "OC(OBr)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -35341,7 +35341,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -68.73 kcal/mol
 S298: 99.58 cal/mol/K
@@ -35372,7 +35372,7 @@ Frequencies (cm^-1) = 158.3,199.4,323.6,345.2,430.3,485.3,548.4,645.2,784.3,959.
 entry(
     index = 622,
     label = "OC(Br)C(F)(Cl)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {7,S}
@@ -35397,7 +35397,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -108.73 kcal/mol
 S298: 94.31 cal/mol/K
@@ -35427,7 +35427,7 @@ Frequencies (cm^-1) = 143.1,202.0,211.5,290.6,324.5,374.0,415.5,556.4,580.5,640.
 entry(
     index = 623,
     label = "[CH]DC(F)OC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -35453,7 +35453,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -10.10 kcal/mol
 S298: 94.09 cal/mol/K
@@ -35481,7 +35481,7 @@ Frequencies (cm^-1) = 34.7,85.0,153.1,212.4,292.6,369.2,426.1,537.3,576.2,635.0,
 entry(
     index = 624,
     label = "[CH2]C(C)(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -35511,7 +35511,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.70 kcal/mol
 S298: 96.80 cal/mol/K
@@ -35543,7 +35543,7 @@ Frequencies (cm^-1) = 74.2,139.3,157.6,202.3,205.3,232.8,274.1,333.3,406.6,424.8
 entry(
     index = 625,
     label = "ODC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {5,S}
@@ -35566,7 +35566,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -86.84 kcal/mol
 S298: 87.56 cal/mol/K
@@ -35593,7 +35593,7 @@ Frequencies (cm^-1) = 161.8,187.6,328.6,377.9,510.3,554.9,626.9,773.2,1038.3,116
 entry(
     index = 626,
     label = "FCC(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {6,S}
@@ -35617,7 +35617,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -51.70 kcal/mol
 S298: 89.51 cal/mol/K
@@ -35645,7 +35645,7 @@ Frequencies (cm^-1) = 148.3,163.1,205.7,259.9,294.6,324.3,518.4,670.9,745.4,1040
 entry(
     index = 627,
     label = "C#CC(F)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -35671,7 +35671,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -1.03 kcal/mol
 S298: 97.37 cal/mol/K
@@ -35700,7 +35700,7 @@ Frequencies (cm^-1) = 70.5,115.3,147.4,182.7,222.7,235.0,270.2,290.1,387.8,410.7
 entry(
     index = 628,
     label = "OC(Br)O[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -35726,7 +35726,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -98.43 kcal/mol
 S298: 96.78 cal/mol/K
@@ -35757,7 +35757,7 @@ Frequencies (cm^-1) = 131.3,304.9,324.4,357.5,407.3,522.8,602.4,630.9,685.0,1022
 entry(
     index = 629,
     label = "FCC(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -35784,7 +35784,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -73.00 kcal/mol
 S298: 96.31 cal/mol/K
@@ -35816,7 +35816,7 @@ Frequencies (cm^-1) = 127.4,183.3,205.2,242.5,315.8,409.3,546.0,623.2,683.5,745.
 entry(
     index = 630,
     label = "CDC(F)C(Cl)(Br)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {5,S}
@@ -35842,7 +35842,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -39.16 kcal/mol
 S298: 100.41 cal/mol/K
@@ -35871,7 +35871,7 @@ Frequencies (cm^-1) = 62.2,82.1,109.7,149.1,192.3,218.8,316.2,334.4,380.4,453.7,
 entry(
     index = 631,
     label = "CD[C]C(F)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -35899,7 +35899,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 10.38 kcal/mol
 S298: 101.62 cal/mol/K
@@ -35929,7 +35929,7 @@ Frequencies (cm^-1) = 58.5,74.6,133.1,165.4,216.5,225.7,251.8,277.1,332.2,375.6,
 entry(
     index = 632,
     label = "ODCDC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {5,S}
@@ -35953,7 +35953,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -54.97 kcal/mol
 S298: 93.25 cal/mol/K
@@ -35981,7 +35981,7 @@ Frequencies (cm^-1) = 122.5,135.5,175.4,240.5,367.1,469.7,528.8,556.7,713.5,763.
 entry(
     index = 633,
     label = "OC(Cl)(Br)OCF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -36007,7 +36007,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -139.64 kcal/mol
 S298: 99.14 cal/mol/K
@@ -36039,7 +36039,7 @@ Frequencies (cm^-1) = 191.8,205.1,271.2,337.2,361.4,421.1,530.2,658.9,783.6,966.
 entry(
     index = 634,
     label = "[O]CC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -36067,7 +36067,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -56.79 kcal/mol
 S298: 94.46 cal/mol/K
@@ -36097,7 +36097,7 @@ Frequencies (cm^-1) = 61.8,87.6,130.1,200.1,280.9,301.8,349.3,415.1,567.6,586.9,
 entry(
     index = 635,
     label = "F[CH]OC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -36125,7 +36125,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -60.88 kcal/mol
 S298: 98.83 cal/mol/K
@@ -36158,7 +36158,7 @@ Frequencies (cm^-1) = 172.1,198.1,250.1,400.2,431.3,625.4,642.4,712.4,826.0,938.
 entry(
     index = 636,
     label = "F[C]DC(Cl)OCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -36184,7 +36184,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -3.93 kcal/mol
 S298: 96.84 cal/mol/K
@@ -36214,7 +36214,7 @@ Frequencies (cm^-1) = 169.5,216.7,233.0,298.1,449.1,480.3,566.0,580.4,710.7,943.
 entry(
     index = 637,
     label = "[CH2]C(F)(OCl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -36240,7 +36240,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -34.92 kcal/mol
 S298: 94.78 cal/mol/K
@@ -36268,7 +36268,7 @@ Frequencies (cm^-1) = 69.2,101.8,164.5,176.6,184.5,330.8,346.7,425.8,535.9,560.0
 entry(
     index = 638,
     label = "C#CC(F)DC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -36292,7 +36292,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 29.61 kcal/mol
 S298: 88.21 cal/mol/K
@@ -36319,7 +36319,7 @@ Frequencies (cm^-1) = 90.2,122.3,198.6,237.9,267.3,384.9,390.3,431.3,604.1,612.5
 entry(
     index = 639,
     label = "C#CC(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {4,S}
@@ -36345,7 +36345,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -2.37 kcal/mol
 S298: 92.16 cal/mol/K
@@ -36375,7 +36375,7 @@ Frequencies (cm^-1) = 124.0,165.8,197.8,232.2,357.6,396.0,448.8,569.4,640.2,671.
 entry(
     index = 640,
     label = "F[C](Cl)OC(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -36400,7 +36400,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -44.23 kcal/mol
 S298: 102.70 cal/mol/K
@@ -36429,7 +36429,7 @@ Frequencies (cm^-1) = 112.4,158.6,234.9,316.8,398.5,413.3,585.9,618.6,673.8,735.
 entry(
     index = 641,
     label = "FC(Cl)(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {6,S}
@@ -36453,7 +36453,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -70.89 kcal/mol
 S298: 95.56 cal/mol/K
@@ -36481,7 +36481,7 @@ Frequencies (cm^-1) = 141.1,167.9,200.8,224.9,284.8,373.9,381.2,488.7,579.7,658.
 entry(
     index = 642,
     label = "F[C](Cl)C(Br)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -36506,7 +36506,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -20.14 kcal/mol
 S298: 101.99 cal/mol/K
@@ -36535,7 +36535,7 @@ Frequencies (cm^-1) = 100.4,150.1,176.1,196.4,394.1,439.6,509.7,561.5,622.6,652.
 entry(
     index = 643,
     label = "CDCC(F)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -36563,7 +36563,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -34.60 kcal/mol
 S298: 102.05 cal/mol/K
@@ -36594,7 +36594,7 @@ Frequencies (cm^-1) = 56.7,86.5,133.0,141.5,192.3,207.7,231.3,269.9,349.4,377.5,
 entry(
     index = 644,
     label = "CDC(F)C(Cl)DCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -36620,7 +36620,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -20.74 kcal/mol
 S298: 88.83 cal/mol/K
@@ -36650,7 +36650,7 @@ Frequencies (cm^-1) = 137.7,160.6,204.0,316.8,417.7,421.3,514.6,645.1,655.5,732.
 entry(
     index = 645,
     label = "FCC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -36675,7 +36675,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -121.19 kcal/mol
 S298: 92.08 cal/mol/K
@@ -36705,7 +36705,7 @@ Frequencies (cm^-1) = 159.9,171.5,299.0,332.6,386.3,415.9,548.5,662.8,798.6,926.
 entry(
     index = 646,
     label = "FCDC([CH]Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -36733,7 +36733,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -14.63 kcal/mol
 S298: 96.00 cal/mol/K
@@ -36764,7 +36764,7 @@ Frequencies (cm^-1) = 101.9,163.0,190.8,258.2,273.1,422.4,461.8,600.2,614.9,653.
 entry(
     index = 647,
     label = "FCDC(Cl)CCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -36792,7 +36792,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.00 kcal/mol
 S298: 94.86 cal/mol/K
@@ -36825,7 +36825,7 @@ Frequencies (cm^-1) = 177.0,207.2,228.0,350.7,404.1,517.8,558.6,597.8,646.4,851.
 entry(
     index = 648,
     label = "ODC(Br)C(F)(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {6,S}
@@ -36848,7 +36848,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -136.14 kcal/mol
 S298: 91.50 cal/mol/K
@@ -36875,7 +36875,7 @@ Frequencies (cm^-1) = 148.8,187.6,278.9,344.7,372.4,415.8,506.7,584.5,671.7,809.
 entry(
     index = 649,
     label = "[CH2]C(F)OC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -36903,7 +36903,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -58.54 kcal/mol
 S298: 97.78 cal/mol/K
@@ -36933,7 +36933,7 @@ Frequencies (cm^-1) = 44.4,89.5,113.1,150.0,201.8,271.6,340.3,395.5,487.0,535.2,
 entry(
     index = 650,
     label = "O[CH]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -36958,7 +36958,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -59.13 kcal/mol
 S298: 91.44 cal/mol/K
@@ -36987,7 +36987,7 @@ Frequencies (cm^-1) = 170.0,203.8,242.6,297.6,379.1,474.8,550.7,580.8,617.6,1060
 entry(
     index = 651,
     label = "[O]C(F)(Cl)COBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -37013,7 +37013,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -57.91 kcal/mol
 S298: 94.95 cal/mol/K
@@ -37041,7 +37041,7 @@ Frequencies (cm^-1) = 37.8,86.9,175.5,220.6,271.5,303.7,386.3,428.9,496.9,538.0,
 entry(
     index = 652,
     label = "CDC(F)CC(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -37069,7 +37069,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -49.45 kcal/mol
 S298: 99.47 cal/mol/K
@@ -37100,7 +37100,7 @@ Frequencies (cm^-1) = 36.0,104.3,127.0,187.3,200.6,233.8,283.1,311.2,406.7,461.7
 entry(
     index = 653,
     label = "FCOOC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -37126,7 +37126,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -80.15 kcal/mol
 S298: 94.19 cal/mol/K
@@ -37158,7 +37158,7 @@ Frequencies (cm^-1) = 162.8,223.1,293.8,431.8,488.2,606.4,675.7,738.1,847.3,1042
 entry(
     index = 654,
     label = "CDC(Br)C[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -37186,7 +37186,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -5.65 kcal/mol
 S298: 99.35 cal/mol/K
@@ -37218,7 +37218,7 @@ Frequencies (cm^-1) = 107.3,283.9,318.2,339.9,391.2,415.7,520.7,580.0,645.3,721.
 entry(
     index = 655,
     label = "FC[CH]C(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -37248,7 +37248,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.99 kcal/mol
 S298: 101.60 cal/mol/K
@@ -37283,7 +37283,7 @@ Frequencies (cm^-1) = 134.3,185.0,225.6,315.7,376.5,487.9,570.9,618.5,652.8,827.
 entry(
     index = 656,
     label = "OD[C]C(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -37307,7 +37307,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -11.53 kcal/mol
 S298: 95.18 cal/mol/K
@@ -37333,7 +37333,7 @@ Frequencies (cm^-1) = 46.9,99.5,124.9,155.1,188.0,358.1,374.8,425.3,523.6,583.6,
 entry(
     index = 657,
     label = "FC(F)DCDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -37356,7 +37356,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -36.70 kcal/mol
 S298: 89.41 cal/mol/K
@@ -37382,7 +37382,7 @@ Frequencies (cm^-1) = 70.6,99.1,120.4,207.0,333.9,428.7,429.0,581.0,609.6,629.5,
 entry(
     index = 658,
     label = "F[C]DCC(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -37407,7 +37407,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 21.21 kcal/mol
 S298: 92.56 cal/mol/K
@@ -37435,7 +37435,7 @@ Frequencies (cm^-1) = 103.0,194.0,217.4,240.9,260.3,335.2,390.7,394.5,562.0,703.
 entry(
     index = 659,
     label = "CC(F)(Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Br u0 p3 c0 {7,S}
@@ -37462,7 +37462,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -67.57 kcal/mol
 S298: 98.07 cal/mol/K
@@ -37494,7 +37494,7 @@ Frequencies (cm^-1) = 132.4,158.4,210.1,228.4,285.6,363.1,392.1,467.6,631.4,652.
 entry(
     index = 660,
     label = "CC(C)(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -37524,7 +37524,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -39.25 kcal/mol
 S298: 98.36 cal/mol/K
@@ -37558,7 +37558,7 @@ Frequencies (cm^-1) = 66.8,76.3,152.6,217.3,240.1,327.6,345.9,422.8,436.6,451.6,
 entry(
     index = 661,
     label = "CC(F)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -37585,7 +37585,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -116.58 kcal/mol
 S298: 94.09 cal/mol/K
@@ -37617,7 +37617,7 @@ Frequencies (cm^-1) = 164.6,189.7,237.7,293.6,307.6,373.1,430.3,528.2,594.9,793.
 entry(
     index = 662,
     label = "CC(F)CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -37647,7 +37647,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.84 kcal/mol
 S298: 96.36 cal/mol/K
@@ -37683,7 +37683,7 @@ Frequencies (cm^-1) = 128.8,199.9,241.5,303.7,403.5,447.9,481.2,649.9,684.8,844.
 entry(
     index = 663,
     label = "CC(Br)(Br)CDC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Br u0 p3 c0 {5,S}
@@ -37711,7 +37711,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -39.20 kcal/mol
 S298: 100.25 cal/mol/K
@@ -37742,7 +37742,7 @@ Frequencies (cm^-1) = 45.6,97.3,102.9,155.7,238.5,269.8,289.1,302.0,330.3,386.4,
 entry(
     index = 664,
     label = "[CH]DC(F)C(O)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -37768,7 +37768,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -17.25 kcal/mol
 S298: 92.47 cal/mol/K
@@ -37796,7 +37796,7 @@ Frequencies (cm^-1) = 62.7,163.0,189.8,243.1,282.2,304.4,345.4,425.4,453.9,553.3
 entry(
     index = 665,
     label = "CC(Br)DC(Cl)[C](F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -37824,7 +37824,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -56.75 kcal/mol
 S298: 101.91 cal/mol/K
@@ -37854,7 +37854,7 @@ Frequencies (cm^-1) = 12.4,89.6,113.7,158.3,241.2,246.7,252.1,318.6,337.6,418.7,
 entry(
     index = 666,
     label = "ODCCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -37880,7 +37880,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -87.72 kcal/mol
 S298: 92.54 cal/mol/K
@@ -37911,7 +37911,7 @@ Frequencies (cm^-1) = 142.3,217.4,268.5,304.3,366.3,408.0,483.0,586.2,681.1,783.
 entry(
     index = 667,
     label = "CCC(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -37941,7 +37941,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -83.08 kcal/mol
 S298: 94.30 cal/mol/K
@@ -37977,7 +37977,7 @@ Frequencies (cm^-1) = 149.6,213.7,251.5,306.9,378.0,441.7,480.4,615.8,660.9,781.
 entry(
     index = 668,
     label = "CC(Cl)(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -38004,7 +38004,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -33.95 kcal/mol
 S298: 96.60 cal/mol/K
@@ -38034,7 +38034,7 @@ Frequencies (cm^-1) = 60.5,108.6,181.0,203.6,253.5,279.4,358.0,413.7,444.5,466.2
 entry(
     index = 669,
     label = "[C]#COC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -38058,7 +38058,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 58.17 kcal/mol
 S298: 92.40 cal/mol/K
@@ -38084,7 +38084,7 @@ Frequencies (cm^-1) = 48.9,118.5,186.6,209.6,295.0,313.3,336.4,409.7,551.1,578.1
 entry(
     index = 670,
     label = "FCDC(Cl)OCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -38110,7 +38110,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -67.07 kcal/mol
 S298: 92.72 cal/mol/K
@@ -38141,7 +38141,7 @@ Frequencies (cm^-1) = 198.5,210.8,248.6,399.7,434.0,532.0,580.4,625.8,647.9,847.
 entry(
     index = 671,
     label = "OC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -38163,7 +38163,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -100.00 kcal/mol
 S298: 81.90 cal/mol/K
@@ -38189,7 +38189,7 @@ Frequencies (cm^-1) = 207.4,299.6,326.0,398.9,421.0,642.1,755.7,1067.0,1199.5,13
 entry(
     index = 672,
     label = "F[C]DCCDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -38215,7 +38215,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 42.43 kcal/mol
 S298: 91.11 cal/mol/K
@@ -38244,7 +38244,7 @@ Frequencies (cm^-1) = 97.2,169.6,220.5,266.1,310.8,327.4,469.9,530.9,642.4,787.3
 entry(
     index = 673,
     label = "FC(Cl)C(Br)(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Br u0 p3 c0 {7,S}
@@ -38268,7 +38268,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -44.77 kcal/mol
 S298: 99.05 cal/mol/K
@@ -38296,7 +38296,7 @@ Frequencies (cm^-1) = 112.0,128.2,161.7,173.6,196.2,247.7,307.0,411.3,530.4,663.
 entry(
     index = 674,
     label = "F[C]DC(OCl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -38320,7 +38320,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 29.54 kcal/mol
 S298: 94.56 cal/mol/K
@@ -38348,7 +38348,7 @@ Frequencies (cm^-1) = 154.0,162.9,230.5,316.1,365.3,442.3,561.9,640.7,725.9,913.
 entry(
     index = 675,
     label = "[CH2]C(F)(Cl)OCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -38376,7 +38376,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.59 kcal/mol
 S298: 95.90 cal/mol/K
@@ -38406,7 +38406,7 @@ Frequencies (cm^-1) = 49.4,73.1,205.4,217.2,243.8,279.7,364.0,392.2,424.6,542.9,
 entry(
     index = 676,
     label = "F[C](Cl)OCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -38431,7 +38431,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -54.04 kcal/mol
 S298: 89.50 cal/mol/K
@@ -38460,7 +38460,7 @@ Frequencies (cm^-1) = 209.1,322.4,384.9,441.6,574.2,614.9,669.2,930.8,1054.7,113
 entry(
     index = 677,
     label = "F[C]DCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -38485,7 +38485,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 22.52 kcal/mol
 S298: 88.91 cal/mol/K
@@ -38513,7 +38513,7 @@ Frequencies (cm^-1) = 143.0,215.0,218.8,327.6,448.1,549.3,659.0,775.1,827.9,1005
 entry(
     index = 678,
     label = "CDC(F)C(Cl)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -38539,7 +38539,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -51.80 kcal/mol
 S298: 96.48 cal/mol/K
@@ -38568,7 +38568,7 @@ Frequencies (cm^-1) = 62.2,87.2,124.8,178.2,185.8,266.1,301.1,372.4,388.8,536.8,
 entry(
     index = 679,
     label = "OC(Cl)(Br)[C]DCF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -38594,7 +38594,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -16.28 kcal/mol
 S298: 98.34 cal/mol/K
@@ -38624,7 +38624,7 @@ Frequencies (cm^-1) = 92.1,177.4,201.1,241.7,287.9,384.7,438.4,496.4,620.2,665.7
 entry(
     index = 680,
     label = "FCDC(Cl)CDCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {4,S}
@@ -38650,7 +38650,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -18.16 kcal/mol
 S298: 89.84 cal/mol/K
@@ -38680,7 +38680,7 @@ Frequencies (cm^-1) = 110.7,124.9,189.6,251.6,335.6,387.2,514.0,631.5,653.4,779.
 entry(
     index = 681,
     label = "C#CC(F)(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -38706,7 +38706,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -49.49 kcal/mol
 S298: 95.06 cal/mol/K
@@ -38735,7 +38735,7 @@ Frequencies (cm^-1) = 58.2,114.3,154.3,192.9,206.1,280.3,321.6,368.0,486.7,570.7
 entry(
     index = 682,
     label = "CC(Br)(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -38762,7 +38762,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -22.50 kcal/mol
 S298: 99.46 cal/mol/K
@@ -38792,7 +38792,7 @@ Frequencies (cm^-1) = 55.3,106.3,141.8,184.7,244.8,254.3,293.5,408.8,439.8,459.5
 entry(
     index = 683,
     label = "[O]C(CBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -38820,7 +38820,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -55.20 kcal/mol
 S298: 95.28 cal/mol/K
@@ -38850,7 +38850,7 @@ Frequencies (cm^-1) = 55.4,67.3,126.1,189.8,255.7,346.5,374.4,458.8,515.6,646.1,
 entry(
     index = 684,
     label = "ODC(Br)[CH]C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -38876,7 +38876,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -57.43 kcal/mol
 S298: 94.40 cal/mol/K
@@ -38904,7 +38904,7 @@ Frequencies (cm^-1) = 38.6,74.7,132.7,278.5,323.0,336.9,377.4,485.3,512.6,594.3,
 entry(
     index = 685,
     label = "OCDC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {5,S}
@@ -38930,7 +38930,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -80.45 kcal/mol
 S298: 92.20 cal/mol/K
@@ -38961,7 +38961,7 @@ Frequencies (cm^-1) = 135.5,219.4,244.1,338.2,344.1,392.6,450.1,485.2,727.4,870.
 entry(
     index = 686,
     label = "F[CH]OCDC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -38987,7 +38987,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -24.36 kcal/mol
 S298: 96.47 cal/mol/K
@@ -39017,7 +39017,7 @@ Frequencies (cm^-1) = 118.6,197.3,250.7,280.3,419.4,426.6,529.5,674.4,858.7,909.
 entry(
     index = 687,
     label = "F[C](Cl)C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -39042,7 +39042,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.43 kcal/mol
 S298: 98.92 cal/mol/K
@@ -39071,7 +39071,7 @@ Frequencies (cm^-1) = 122.1,133.8,202.6,314.8,414.1,426.7,493.7,602.6,663.4,726.
 entry(
     index = 688,
     label = "[CH2]C(DO)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -39097,7 +39097,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.85 kcal/mol
 S298: 94.86 cal/mol/K
@@ -39127,7 +39127,7 @@ Frequencies (cm^-1) = 150.4,183.6,230.9,301.3,345.7,392.6,457.6,565.9,635.2,740.
 entry(
     index = 689,
     label = "CC(Br)(Br)C(F)(Cl)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -39154,7 +39154,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -69.25 kcal/mol
 S298: 101.23 cal/mol/K
@@ -39184,7 +39184,7 @@ Frequencies (cm^-1) = 68.9,130.2,142.3,174.3,217.7,260.4,274.2,286.7,303.6,338.4
 entry(
     index = 690,
     label = "[CH]DC(F)C(Cl)DCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -39210,7 +39210,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 42.25 kcal/mol
 S298: 90.32 cal/mol/K
@@ -39238,7 +39238,7 @@ Frequencies (cm^-1) = 80.5,133.7,163.2,183.6,295.6,415.3,423.7,472.8,627.9,639.4
 entry(
     index = 691,
     label = "OC(Br)CC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {7,S}
@@ -39266,7 +39266,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -113.52 kcal/mol
 S298: 95.73 cal/mol/K
@@ -39300,7 +39300,7 @@ Frequencies (cm^-1) = 133.2,271.3,287.5,328.7,379.9,467.7,523.2,538.9,664.0,942.
 entry(
     index = 692,
     label = "CC(O)(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -39328,7 +39328,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -116.35 kcal/mol
 S298: 93.58 cal/mol/K
@@ -39362,7 +39362,7 @@ Frequencies (cm^-1) = 147.6,252.5,268.7,288.0,320.1,360.4,405.4,501.2,685.1,786.
 entry(
     index = 693,
     label = "FC(Cl)C(Br)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {5,S}
@@ -39387,7 +39387,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -64.00 kcal/mol
 S298: 98.05 cal/mol/K
@@ -39417,7 +39417,7 @@ Frequencies (cm^-1) = 104.5,158.8,272.9,314.4,339.5,411.6,515.3,584.4,707.0,813.
 entry(
     index = 694,
     label = "CDCDC(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -39443,7 +39443,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 33.29 kcal/mol
 S298: 95.43 cal/mol/K
@@ -39472,7 +39472,7 @@ Frequencies (cm^-1) = 120.4,152.1,168.5,199.0,263.0,409.2,436.0,437.4,450.1,576.
 entry(
     index = 695,
     label = "FC(Cl)OC(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Br u0 p3 c0 {7,S}
@@ -39497,7 +39497,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -90.01 kcal/mol
 S298: 99.65 cal/mol/K
@@ -39527,7 +39527,7 @@ Frequencies (cm^-1) = 131.4,168.2,215.6,314.6,390.5,454.9,566.9,626.7,629.1,845.
 entry(
     index = 696,
     label = "C#CC(F)(Cl)[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -39553,7 +39553,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 37.42 kcal/mol
 S298: 100.45 cal/mol/K
@@ -39581,7 +39581,7 @@ Frequencies (cm^-1) = 40.8,106.8,134.1,148.4,198.1,232.8,333.5,377.4,395.0,414.9
 entry(
     index = 697,
     label = "FC[CH]C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -39608,7 +39608,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -22.02 kcal/mol
 S298: 96.51 cal/mol/K
@@ -39639,7 +39639,7 @@ Frequencies (cm^-1) = 146.0,186.0,273.9,318.6,388.5,551.6,597.9,787.6,921.4,978.
 entry(
     index = 698,
     label = "CC(Cl)(Br)C#CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {4,S}
@@ -39665,7 +39665,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 14.33 kcal/mol
 S298: 92.29 cal/mol/K
@@ -39695,7 +39695,7 @@ Frequencies (cm^-1) = 82.4,105.0,204.6,271.3,301.3,316.7,376.1,431.7,476.1,537.6
 entry(
     index = 699,
     label = "C#CCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -39721,7 +39721,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -4.20 kcal/mol
 S298: 90.31 cal/mol/K
@@ -39751,7 +39751,7 @@ Frequencies (cm^-1) = 117.9,208.8,251.6,299.1,329.9,357.6,388.8,508.9,574.5,644.
 entry(
     index = 700,
     label = "C#CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {4,S}
@@ -39774,7 +39774,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 9.91 kcal/mol
 S298: 84.41 cal/mol/K
@@ -39800,7 +39800,7 @@ Frequencies (cm^-1) = 138.3,167.5,217.7,304.1,381.0,392.3,468.4,605.9,668.8,702.
 entry(
     index = 701,
     label = "FCC(CCl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {7,S}
@@ -39828,7 +39828,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -75.17 kcal/mol
 S298: 96.24 cal/mol/K
@@ -39862,7 +39862,7 @@ Frequencies (cm^-1) = 168.9,200.2,244.1,323.3,483.4,558.7,666.0,720.8,846.8,887.
 entry(
     index = 702,
     label = "OC(Cl)(Br)CD[C]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -39888,7 +39888,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -18.49 kcal/mol
 S298: 94.88 cal/mol/K
@@ -39918,7 +39918,7 @@ Frequencies (cm^-1) = 170.0,198.4,214.8,275.7,332.4,405.3,439.0,496.6,659.5,810.
 entry(
     index = 703,
     label = "FCDCOC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -39944,7 +39944,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -66.36 kcal/mol
 S298: 93.90 cal/mol/K
@@ -39975,7 +39975,7 @@ Frequencies (cm^-1) = 151.9,174.9,230.0,312.7,474.5,520.1,626.9,694.1,766.0,776.
 entry(
     index = 704,
     label = "[CH2]C(F)(Cl)CCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -40005,7 +40005,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.54 kcal/mol
 S298: 98.29 cal/mol/K
@@ -40037,7 +40037,7 @@ Frequencies (cm^-1) = 31.9,66.2,180.4,208.3,244.8,268.8,339.0,365.8,413.6,490.0,
 entry(
     index = 705,
     label = "F[C](Cl)CCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -40064,7 +40064,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -27.96 kcal/mol
 S298: 93.32 cal/mol/K
@@ -40095,7 +40095,7 @@ Frequencies (cm^-1) = 181.4,280.6,356.6,393.9,495.5,565.4,609.4,850.9,918.8,1031
 entry(
     index = 706,
     label = "F[CH]OC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -40120,7 +40120,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -95.90 kcal/mol
 S298: 93.03 cal/mol/K
@@ -40149,7 +40149,7 @@ Frequencies (cm^-1) = 153.1,213.0,297.5,326.3,344.2,416.4,545.1,661.7,753.3,913.
 entry(
     index = 707,
     label = "OC(Br)C(O)(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {7,S}
@@ -40175,7 +40175,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -152.59 kcal/mol
 S298: 92.02 cal/mol/K
@@ -40207,7 +40207,7 @@ Frequencies (cm^-1) = 170.2,209.7,269.6,310.5,356.8,418.0,485.9,595.7,630.8,759.
 entry(
     index = 708,
     label = "FCDC(OCl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {4,S}
@@ -40231,7 +40231,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -35.84 kcal/mol
 S298: 92.61 cal/mol/K
@@ -40260,7 +40260,7 @@ Frequencies (cm^-1) = 135.1,207.4,221.2,309.6,392.5,506.9,538.9,682.9,735.3,850.
 entry(
     index = 709,
     label = "F[CH]C(Cl)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -40287,7 +40287,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -28.90 kcal/mol
 S298: 97.06 cal/mol/K
@@ -40318,7 +40318,7 @@ Frequencies (cm^-1) = 117.3,193.3,237.8,250.4,294.3,341.3,435.1,529.2,564.4,665.
 entry(
     index = 710,
     label = "FCC(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {4,S}
@@ -40345,7 +40345,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -70.76 kcal/mol
 S298: 89.41 cal/mol/K
@@ -40377,7 +40377,7 @@ Frequencies (cm^-1) = 160.5,227.1,304.8,400.5,471.7,620.9,715.0,881.7,913.6,1046
 entry(
     index = 711,
     label = "CDC(CBr)C(F)(Cl)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -40405,7 +40405,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -52.55 kcal/mol
 S298: 99.66 cal/mol/K
@@ -40436,7 +40436,7 @@ Frequencies (cm^-1) = 45.1,51.6,147.8,168.4,199.7,262.7,365.6,369.3,414.5,451.9,
 entry(
     index = 712,
     label = "[CH2]C(F)(Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -40463,7 +40463,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -18.12 kcal/mol
 S298: 98.59 cal/mol/K
@@ -40492,7 +40492,7 @@ Frequencies (cm^-1) = 62.8,127.8,156.2,203.4,217.6,234.8,276.0,344.4,380.2,464.7
 entry(
     index = 713,
     label = "FC(F)[C](Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -40519,7 +40519,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -80.73 kcal/mol
 S298: 98.81 cal/mol/K
@@ -40550,7 +40550,7 @@ Frequencies (cm^-1) = 94.3,219.4,265.2,320.1,402.2,417.6,524.1,608.4,738.0,859.0
 entry(
     index = 714,
     label = "O[C](Br)C(F)(Cl)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -40575,7 +40575,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -66.59 kcal/mol
 S298: 94.87 cal/mol/K
@@ -40602,7 +40602,7 @@ Frequencies (cm^-1) = 50.8,137.0,177.7,204.1,285.3,313.7,359.7,370.1,419.5,488.5
 entry(
     index = 715,
     label = "CDC(OBr)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {5,S}
@@ -40628,7 +40628,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -39.63 kcal/mol
 S298: 101.72 cal/mol/K
@@ -40657,7 +40657,7 @@ Frequencies (cm^-1) = 35.7,67.0,116.2,173.2,203.3,217.7,300.6,362.5,379.7,444.4,
 entry(
     index = 716,
     label = "FC(Cl)(Br)[CH]CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -40684,7 +40684,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -20.33 kcal/mol
 S298: 102.52 cal/mol/K
@@ -40715,7 +40715,7 @@ Frequencies (cm^-1) = 128.1,181.5,224.1,270.9,291.4,401.7,440.8,494.7,508.2,579.
 entry(
     index = 717,
     label = "FCD[C]C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -40740,7 +40740,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 24.40 kcal/mol
 S298: 93.24 cal/mol/K
@@ -40768,7 +40768,7 @@ Frequencies (cm^-1) = 85.0,186.3,205.3,277.1,426.1,486.5,651.7,687.9,868.2,935.5
 entry(
     index = 718,
     label = "FCD[C]C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -40794,7 +40794,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 14.72 kcal/mol
 S298: 97.80 cal/mol/K
@@ -40824,7 +40824,7 @@ Frequencies (cm^-1) = 98.2,138.0,195.0,342.4,425.7,531.3,605.4,622.8,747.4,877.9
 entry(
     index = 719,
     label = "CDC(CBr)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -40852,7 +40852,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -14.50 kcal/mol
 S298: 94.61 cal/mol/K
@@ -40882,7 +40882,7 @@ Frequencies (cm^-1) = 44.6,86.7,148.5,229.1,299.6,353.7,426.0,450.4,487.8,552.6,
 entry(
     index = 720,
     label = "C[C](F)CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -40912,7 +40912,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -34.99 kcal/mol
 S298: 99.54 cal/mol/K
@@ -40946,7 +40946,7 @@ Frequencies (cm^-1) = 80.1,115.5,190.0,215.0,305.1,360.2,399.2,460.6,640.4,665.4
 entry(
     index = 721,
     label = "FC(Cl)OCOBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -40972,7 +40972,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -109.47 kcal/mol
 S298: 95.62 cal/mol/K
@@ -41004,7 +41004,7 @@ Frequencies (cm^-1) = 178.2,331.2,367.8,429.6,489.6,575.3,647.0,728.9,996.6,1028
 entry(
     index = 722,
     label = "CCCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -41034,7 +41034,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.43 kcal/mol
 S298: 95.44 cal/mol/K
@@ -41070,7 +41070,7 @@ Frequencies (cm^-1) = 145.9,212.7,267.3,292.5,308.4,391.9,486.9,560.3,673.2,759.
 entry(
     index = 723,
     label = "[CH2]C(F)C(C)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -41100,7 +41100,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -32.93 kcal/mol
 S298: 96.90 cal/mol/K
@@ -41132,7 +41132,7 @@ Frequencies (cm^-1) = 78.7,114.5,155.6,191.3,228.3,270.0,286.0,305.9,384.9,414.7
 entry(
     index = 724,
     label = "CDCC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -41158,7 +41158,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -53.69 kcal/mol
 S298: 92.74 cal/mol/K
@@ -41189,7 +41189,7 @@ Frequencies (cm^-1) = 145.9,249.3,267.5,345.9,385.4,415.9,567.0,633.1,655.4,758.
 entry(
     index = 725,
     label = "[CH2]C(O)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -41217,7 +41217,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.86 kcal/mol
 S298: 95.75 cal/mol/K
@@ -41247,7 +41247,7 @@ Frequencies (cm^-1) = 90.4,108.2,157.7,191.0,234.9,296.3,308.1,346.2,368.8,415.8
 entry(
     index = 726,
     label = "OCC(Cl)(Br)OF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -41273,7 +41273,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -63.60 kcal/mol
 S298: 95.60 cal/mol/K
@@ -41305,7 +41305,7 @@ Frequencies (cm^-1) = 168.6,212.2,231.6,290.6,348.9,389.9,504.2,570.9,775.3,916.
 entry(
     index = 727,
     label = "[CH]DC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -41330,7 +41330,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 23.44 kcal/mol
 S298: 89.68 cal/mol/K
@@ -41358,7 +41358,7 @@ Frequencies (cm^-1) = 155.3,209.5,248.8,383.8,441.7,521.0,640.6,674.1,733.9,784.
 entry(
     index = 728,
     label = "CC(Br)C(Cl)D[C]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -41386,7 +41386,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 13.21 kcal/mol
 S298: 97.07 cal/mol/K
@@ -41418,7 +41418,7 @@ Frequencies (cm^-1) = 111.4,161.3,208.9,269.9,299.7,397.2,448.0,592.0,608.8,670.
 entry(
     index = 729,
     label = "FCC(Cl)DCCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -41446,7 +41446,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.72 kcal/mol
 S298: 97.26 cal/mol/K
@@ -41479,7 +41479,7 @@ Frequencies (cm^-1) = 105.2,201.0,222.7,311.1,387.5,460.4,519.4,610.9,714.3,863.
 entry(
     index = 730,
     label = "FC(Cl)DC[CH]Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -41504,7 +41504,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -7.63 kcal/mol
 S298: 86.68 cal/mol/K
@@ -41531,7 +41531,7 @@ Frequencies (cm^-1) = 118.6,118.9,173.9,227.4,376.4,411.4,441.7,650.9,694.4,860.
 entry(
     index = 731,
     label = "CCD[C]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -41559,7 +41559,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 10.83 kcal/mol
 S298: 99.10 cal/mol/K
@@ -41591,7 +41591,7 @@ Frequencies (cm^-1) = 92.3,108.4,194.9,254.6,272.6,339.8,431.4,505.9,541.2,670.2
 entry(
     index = 732,
     label = "O[CH]CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -41619,7 +41619,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -66.75 kcal/mol
 S298: 94.76 cal/mol/K
@@ -41649,7 +41649,7 @@ Frequencies (cm^-1) = 62.6,150.0,165.9,199.9,266.6,288.7,327.7,360.2,405.5,481.0
 entry(
     index = 733,
     label = "F[C]DCOC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -41675,7 +41675,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -3.29 kcal/mol
 S298: 99.02 cal/mol/K
@@ -41705,7 +41705,7 @@ Frequencies (cm^-1) = 108.1,209.2,253.0,298.8,392.6,449.6,559.8,657.1,725.8,754.
 entry(
     index = 734,
     label = "CCC(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {7,S}
@@ -41733,7 +41733,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.03 kcal/mol
 S298: 95.18 cal/mol/K
@@ -41766,7 +41766,7 @@ Frequencies (cm^-1) = 109.0,165.6,194.8,271.9,311.2,409.2,454.5,564.3,606.8,728.
 entry(
     index = 735,
     label = "F[CH]CCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -41796,7 +41796,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -28.76 kcal/mol
 S298: 103.00 cal/mol/K
@@ -41831,7 +41831,7 @@ Frequencies (cm^-1) = 166.8,212.9,232.1,320.0,380.2,466.0,533.9,626.8,694.7,822.
 entry(
     index = 736,
     label = "CDC(F)[C]DC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -41857,7 +41857,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 33.82 kcal/mol
 S298: 94.94 cal/mol/K
@@ -41885,7 +41885,7 @@ Frequencies (cm^-1) = 51.3,83.9,103.9,202.9,314.0,370.5,403.8,490.5,525.6,604.8,
 entry(
     index = 737,
     label = "FCDC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {5,S}
@@ -41908,7 +41908,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -36.23 kcal/mol
 S298: 87.01 cal/mol/K
@@ -41935,7 +41935,7 @@ Frequencies (cm^-1) = 119.5,195.1,286.1,387.3,423.1,569.6,643.8,657.8,856.2,1161
 entry(
     index = 738,
     label = "FCDC(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -41960,7 +41960,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -41.48 kcal/mol
 S298: 94.03 cal/mol/K
@@ -41989,7 +41989,7 @@ Frequencies (cm^-1) = 127.6,153.2,168.2,242.2,287.2,409.5,475.4,521.2,628.6,717.
 entry(
     index = 739,
     label = "FCDCDC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {5,S}
@@ -42013,7 +42013,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 0.86 kcal/mol
 S298: 94.15 cal/mol/K
@@ -42041,7 +42041,7 @@ Frequencies (cm^-1) = 76.6,118.0,191.3,254.4,291.3,467.3,515.6,577.1,654.9,754.4
 entry(
     index = 740,
     label = "FC(Cl)D[C]CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -42066,7 +42066,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 19.60 kcal/mol
 S298: 92.43 cal/mol/K
@@ -42094,7 +42094,7 @@ Frequencies (cm^-1) = 92.8,141.4,301.9,406.5,461.9,528.4,589.0,627.1,841.3,984.1
 entry(
     index = 741,
     label = "C[C](Br)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -42121,7 +42121,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -23.19 kcal/mol
 S298: 102.87 cal/mol/K
@@ -42152,7 +42152,7 @@ Frequencies (cm^-1) = 115.3,171.4,190.2,247.0,272.5,316.5,343.5,407.2,549.6,595.
 entry(
     index = 742,
     label = "CD[C]C(F)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -42180,7 +42180,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 22.21 kcal/mol
 S298: 104.42 cal/mol/K
@@ -42210,7 +42210,7 @@ Frequencies (cm^-1) = 57.4,73.6,125.5,139.1,190.8,205.8,232.4,266.0,283.8,372.9,
 entry(
     index = 743,
     label = "[CH2]COC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -42238,7 +42238,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -55.50 kcal/mol
 S298: 97.41 cal/mol/K
@@ -42268,7 +42268,7 @@ Frequencies (cm^-1) = 41.5,90.9,130.7,186.5,228.4,256.9,294.7,396.9,428.9,479.2,
 entry(
     index = 744,
     label = "FCC(Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Br u0 p3 c0 {7,S}
@@ -42295,7 +42295,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.59 kcal/mol
 S298: 98.82 cal/mol/K
@@ -42327,7 +42327,7 @@ Frequencies (cm^-1) = 125.5,159.1,171.7,226.7,262.2,408.1,544.1,607.2,638.1,704.
 entry(
     index = 745,
     label = "C#CC(F)[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -42353,7 +42353,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 42.55 kcal/mol
 S298: 97.04 cal/mol/K
@@ -42382,7 +42382,7 @@ Frequencies (cm^-1) = 109.6,147.8,169.5,239.8,276.2,382.2,467.0,562.4,652.3,690.
 entry(
     index = 746,
     label = "OC(DCBr)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {7,S}
@@ -42408,7 +42408,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.30 kcal/mol
 S298: 92.92 cal/mol/K
@@ -42437,7 +42437,7 @@ Frequencies (cm^-1) = 87.4,131.3,136.0,219.5,246.1,268.4,424.3,539.1,580.9,597.2
 entry(
     index = 747,
     label = "C#CC(F)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -42463,7 +42463,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 10.78 kcal/mol
 S298: 100.11 cal/mol/K
@@ -42492,7 +42492,7 @@ Frequencies (cm^-1) = 69.4,109.1,135.4,156.7,203.8,213.8,252.9,275.1,312.2,409.4
 entry(
     index = 748,
     label = "CC(Br)(Br)CC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Br u0 p3 c0 {5,S}
@@ -42522,7 +42522,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -73.75 kcal/mol
 S298: 103.95 cal/mol/K
@@ -42555,7 +42555,7 @@ Frequencies (cm^-1) = 31.3,90.2,124.4,147.4,199.6,270.6,275.1,299.3,314.4,366.5,
 entry(
     index = 749,
     label = "CD[C]C(F)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -42583,7 +42583,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -33.10 kcal/mol
 S298: 98.78 cal/mol/K
@@ -42613,7 +42613,7 @@ Frequencies (cm^-1) = 66.8,90.1,146.4,170.4,196.0,225.3,311.5,314.6,379.1,427.9,
 entry(
     index = 750,
     label = "ODC(OBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {6,S}
@@ -42637,7 +42637,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -103.88 kcal/mol
 S298: 92.48 cal/mol/K
@@ -42666,7 +42666,7 @@ Frequencies (cm^-1) = 152.7,191.4,274.2,317.6,413.0,633.0,671.0,743.5,807.4,932.
 entry(
     index = 751,
     label = "CDC(F)C(F)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {5,S}
@@ -42694,7 +42694,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -92.04 kcal/mol
 S298: 96.44 cal/mol/K
@@ -42725,7 +42725,7 @@ Frequencies (cm^-1) = 47.4,92.3,123.6,194.6,238.8,289.3,340.2,369.6,453.9,507.7,
 entry(
     index = 752,
     label = "CDCC(F)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -42753,7 +42753,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.46 kcal/mol
 S298: 99.30 cal/mol/K
@@ -42784,7 +42784,7 @@ Frequencies (cm^-1) = 57.0,87.4,144.2,165.8,220.1,227.4,251.5,321.5,355.8,379.9,
 entry(
     index = 753,
     label = "FC(Cl)(Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Br u0 p3 c0 {7,S}
@@ -42808,7 +42808,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -59.34 kcal/mol
 S298: 98.41 cal/mol/K
@@ -42836,7 +42836,7 @@ Frequencies (cm^-1) = 129.7,140.2,167.4,217.0,266.2,337.5,381.0,471.6,565.3,653.
 entry(
     index = 754,
     label = "F[C](Cl)OC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -42861,7 +42861,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -55.54 kcal/mol
 S298: 100.35 cal/mol/K
@@ -42890,7 +42890,7 @@ Frequencies (cm^-1) = 129.5,218.8,225.1,362.1,422.1,457.1,581.5,627.7,709.1,808.
 entry(
     index = 755,
     label = "OD[C]C(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -42916,7 +42916,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -50.66 kcal/mol
 S298: 95.88 cal/mol/K
@@ -42946,7 +42946,7 @@ Frequencies (cm^-1) = 131.4,151.3,239.2,275.2,397.7,522.2,560.6,668.7,706.6,810.
 entry(
     index = 756,
     label = "CDC(F)[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -42971,7 +42971,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -6.33 kcal/mol
 S298: 85.48 cal/mol/K
@@ -42998,7 +42998,7 @@ Frequencies (cm^-1) = 91.5,180.5,230.9,234.9,353.4,435.0,539.8,546.9,625.8,775.4
 entry(
     index = 757,
     label = "FOC(Cl)(Br)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Br u0 p3 c0 {6,S}
@@ -43021,7 +43021,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -21.60 kcal/mol
 S298: 93.52 cal/mol/K
@@ -43049,7 +43049,7 @@ Frequencies (cm^-1) = 135.2,185.3,232.6,280.3,327.1,330.2,439.6,636.5,744.4,798.
 entry(
     index = 758,
     label = "ODC(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -43072,7 +43072,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -50.26 kcal/mol
 S298: 84.74 cal/mol/K
@@ -43097,7 +43097,7 @@ Frequencies (cm^-1) = 76.4,168.6,244.8,275.8,339.2,431.6,563.3,616.5,759.3,1168.
 entry(
     index = 759,
     label = "CC(Br)DC(Cl)C(F)F",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {8,S}
@@ -43125,7 +43125,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -99.96 kcal/mol
 S298: 96.67 cal/mol/K
@@ -43156,7 +43156,7 @@ Frequencies (cm^-1) = 43.9,89.6,135.7,152.9,195.4,217.3,286.5,308.5,398.0,419.7,
 entry(
     index = 760,
     label = "[O]C(Cl)(CF)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -43184,7 +43184,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -54.51 kcal/mol
 S298: 94.97 cal/mol/K
@@ -43214,7 +43214,7 @@ Frequencies (cm^-1) = 65.5,99.4,122.2,184.3,262.2,294.0,345.7,384.1,526.3,546.5,
 entry(
     index = 761,
     label = "[CH2]C(F)(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -43241,7 +43241,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -74.91 kcal/mol
 S298: 94.65 cal/mol/K
@@ -43270,7 +43270,7 @@ Frequencies (cm^-1) = 71.8,104.5,152.0,198.9,223.9,294.8,335.5,411.5,466.6,554.4
 entry(
     index = 762,
     label = "COC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -43298,7 +43298,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -100.52 kcal/mol
 S298: 96.40 cal/mol/K
@@ -43332,7 +43332,7 @@ Frequencies (cm^-1) = 128.5,212.3,264.0,311.6,398.1,412.3,480.3,681.2,794.3,1004
 entry(
     index = 763,
     label = "FCDCC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -43358,7 +43358,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.27 kcal/mol
 S298: 94.32 cal/mol/K
@@ -43389,7 +43389,7 @@ Frequencies (cm^-1) = 134.1,202.6,216.3,355.9,407.4,486.7,611.5,675.4,761.9,812.
 entry(
     index = 764,
     label = "FCC(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -43413,7 +43413,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -63.59 kcal/mol
 S298: 85.36 cal/mol/K
@@ -43441,7 +43441,7 @@ Frequencies (cm^-1) = 161.8,199.5,221.5,291.8,331.3,336.9,570.0,703.6,753.3,1046
 entry(
     index = 765,
     label = "OCOC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -43467,7 +43467,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -137.99 kcal/mol
 S298: 94.19 cal/mol/K
@@ -43496,7 +43496,7 @@ Frequencies (cm^-1) = 28.0,102.1,173.0,217.5,281.8,296.5,349.9,408.9,423.9,523.3
 entry(
     index = 766,
     label = "O[C]DCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -43522,7 +43522,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -23.59 kcal/mol
 S298: 93.48 cal/mol/K
@@ -43550,7 +43550,7 @@ Frequencies (cm^-1) = 65.8,135.8,189.9,218.7,296.5,309.3,329.9,366.2,404.6,492.1
 entry(
     index = 767,
     label = "F[CH]CDCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -43578,7 +43578,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -12.81 kcal/mol
 S298: 96.39 cal/mol/K
@@ -43610,7 +43610,7 @@ Frequencies (cm^-1) = 121.9,198.1,257.1,315.6,355.5,360.8,544.5,673.1,694.6,759.
 entry(
     index = 768,
     label = "FC(Cl)D[C]COBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -43636,7 +43636,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 14.84 kcal/mol
 S298: 99.25 cal/mol/K
@@ -43666,7 +43666,7 @@ Frequencies (cm^-1) = 116.8,178.9,269.1,381.0,463.2,487.2,538.3,576.2,669.4,936.
 entry(
     index = 769,
     label = "F[C](F)CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -43693,7 +43693,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -74.14 kcal/mol
 S298: 97.68 cal/mol/K
@@ -43724,7 +43724,7 @@ Frequencies (cm^-1) = 115.0,202.4,288.9,298.3,422.2,477.3,549.7,576.6,758.5,885.
 entry(
     index = 770,
     label = "FC(Cl)(Cl)OCBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {6,S}
@@ -43749,7 +43749,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -101.72 kcal/mol
 S298: 96.16 cal/mol/K
@@ -43779,7 +43779,7 @@ Frequencies (cm^-1) = 183.7,213.3,272.0,346.7,406.5,439.7,500.8,612.3,632.0,786.
 entry(
     index = 771,
     label = "FC(Cl)DC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -43802,7 +43802,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -40.73 kcal/mol
 S298: 93.82 cal/mol/K
@@ -43829,7 +43829,7 @@ Frequencies (cm^-1) = 99.0,121.3,194.9,276.0,303.0,426.0,450.2,487.9,630.6,682.9
 entry(
     index = 772,
     label = "ODC[C](Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -43855,7 +43855,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -51.37 kcal/mol
 S298: 93.81 cal/mol/K
@@ -43883,7 +43883,7 @@ Frequencies (cm^-1) = 37.7,107.8,175.3,196.0,242.4,309.0,406.5,423.9,610.9,682.3
 entry(
     index = 773,
     label = "F[CH]C(CCl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -43913,7 +43913,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.81 kcal/mol
 S298: 96.20 cal/mol/K
@@ -43948,7 +43948,7 @@ Frequencies (cm^-1) = 170.3,186.7,228.8,330.3,363.3,479.3,562.3,660.2,695.9,824.
 entry(
     index = 774,
     label = "FC(Cl)(Br)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Br u0 p3 c0 {5,S}
@@ -43970,7 +43970,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -59.22 kcal/mol
 S298: 89.89 cal/mol/K
@@ -43996,7 +43996,7 @@ Frequencies (cm^-1) = 145.3,194.9,267.7,320.8,338.3,419.4,632.0,661.2,827.6,1041
 entry(
     index = 775,
     label = "C#CC(F)(Cl)[CH]Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -44022,7 +44022,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 44.10 kcal/mol
 S298: 95.31 cal/mol/K
@@ -44051,7 +44051,7 @@ Frequencies (cm^-1) = 127.8,147.5,194.2,276.7,352.4,393.9,405.0,471.3,553.8,638.
 entry(
     index = 776,
     label = "FC[C]DC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -44077,7 +44077,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 11.91 kcal/mol
 S298: 98.08 cal/mol/K
@@ -44107,7 +44107,7 @@ Frequencies (cm^-1) = 91.7,140.5,169.7,269.6,457.7,473.3,534.6,640.3,699.9,931.5
 entry(
     index = 777,
     label = "FC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {4,S}
@@ -44128,7 +44128,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -54.62 kcal/mol
 S298: 74.40 cal/mol/K
@@ -44152,7 +44152,7 @@ Frequencies (cm^-1) = 216.6,308.9,419.4,642.3,745.7,1138.6,1211.9,1330.6,3143.8
 entry(
     index = 778,
     label = "[CH]DCOC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -44178,7 +44178,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -13.52 kcal/mol
 S298: 91.91 cal/mol/K
@@ -44206,7 +44206,7 @@ Frequencies (cm^-1) = 68.3,149.3,169.6,209.4,297.4,315.1,382.4,408.7,553.8,596.1
 entry(
     index = 779,
     label = "FC(Cl)COCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -44234,7 +44234,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -100.23 kcal/mol
 S298: 99.31 cal/mol/K
@@ -44268,7 +44268,7 @@ Frequencies (cm^-1) = 161.2,280.5,340.7,369.4,477.2,488.2,565.4,680.9,927.9,1007
 entry(
     index = 780,
     label = "OC(F)C(O)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -44294,7 +44294,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -150.24 kcal/mol
 S298: 91.87 cal/mol/K
@@ -44326,7 +44326,7 @@ Frequencies (cm^-1) = 168.8,196.3,257.6,312.4,336.7,379.6,513.0,561.4,590.7,783.
 entry(
     index = 781,
     label = "FCD[C]OC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -44352,7 +44352,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -6.87 kcal/mol
 S298: 96.20 cal/mol/K
@@ -44382,7 +44382,7 @@ Frequencies (cm^-1) = 153.4,176.4,218.0,353.4,381.1,550.8,663.2,733.5,745.3,845.
 entry(
     index = 782,
     label = "O[C](Br)C(Cl)CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -44410,7 +44410,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -69.12 kcal/mol
 S298: 94.96 cal/mol/K
@@ -44440,7 +44440,7 @@ Frequencies (cm^-1) = 65.2,112.8,120.3,212.4,245.4,295.3,359.6,411.3,461.7,491.2
 entry(
     index = 783,
     label = "OC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -44463,7 +44463,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -116.93 kcal/mol
 S298: 88.17 cal/mol/K
@@ -44491,7 +44491,7 @@ Frequencies (cm^-1) = 166.9,325.0,356.7,411.7,450.7,594.5,675.7,751.6,960.2,1104
 entry(
     index = 784,
     label = "OCC(Cl)(Br)CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -44519,7 +44519,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -108.70 kcal/mol
 S298: 93.43 cal/mol/K
@@ -44553,7 +44553,7 @@ Frequencies (cm^-1) = 160.0,207.2,241.8,294.0,302.8,352.5,438.2,641.0,721.4,893.
 entry(
     index = 785,
     label = "CC(DCF)[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -44581,7 +44581,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -12.26 kcal/mol
 S298: 93.25 cal/mol/K
@@ -44612,7 +44612,7 @@ Frequencies (cm^-1) = 51.2,185.2,222.7,227.3,243.0,258.0,368.8,475.7,503.3,582.1
 entry(
     index = 786,
     label = "[CH2]CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -44639,7 +44639,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -23.89 kcal/mol
 S298: 90.50 cal/mol/K
@@ -44670,7 +44670,7 @@ Frequencies (cm^-1) = 172.7,207.4,294.7,310.9,344.1,406.7,510.9,622.2,740.2,802.
 entry(
     index = 787,
     label = "OC(D[C]F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -44696,7 +44696,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -14.37 kcal/mol
 S298: 96.68 cal/mol/K
@@ -44726,7 +44726,7 @@ Frequencies (cm^-1) = 128.2,168.4,192.6,245.5,300.0,350.7,501.8,640.0,688.3,726.
 entry(
     index = 788,
     label = "CDC(Br)C(Cl)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -44754,7 +44754,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -0.95 kcal/mol
 S298: 97.47 cal/mol/K
@@ -44786,7 +44786,7 @@ Frequencies (cm^-1) = 168.1,194.8,220.6,289.9,344.8,434.9,514.7,544.6,567.3,675.
 entry(
     index = 789,
     label = "FC(Cl)CCCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -44816,7 +44816,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -78.91 kcal/mol
 S298: 101.56 cal/mol/K
@@ -44852,7 +44852,7 @@ Frequencies (cm^-1) = 166.5,230.1,308.2,370.3,404.0,555.6,616.0,701.5,768.3,842.
 entry(
     index = 790,
     label = "CDC(F)CC(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -44880,7 +44880,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -37.48 kcal/mol
 S298: 102.20 cal/mol/K
@@ -44911,7 +44911,7 @@ Frequencies (cm^-1) = 34.9,95.3,123.5,151.1,194.5,222.8,236.2,280.0,381.5,446.5,
 entry(
     index = 791,
     label = "F[C]DCC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -44937,7 +44937,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 12.75 kcal/mol
 S298: 96.40 cal/mol/K
@@ -44967,7 +44967,7 @@ Frequencies (cm^-1) = 128.2,202.7,224.9,357.8,406.9,468.0,597.3,654.9,747.8,810.
 entry(
     index = 792,
     label = "FC(Cl)(Cl)CCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -44994,7 +44994,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -78.49 kcal/mol
 S298: 94.52 cal/mol/K
@@ -45026,7 +45026,7 @@ Frequencies (cm^-1) = 112.7,176.0,260.4,296.9,370.9,387.9,441.5,589.9,668.4,769.
 entry(
     index = 793,
     label = "FC#CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {4,S}
@@ -45049,7 +45049,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 24.64 kcal/mol
 S298: 86.31 cal/mol/K
@@ -45075,7 +45075,7 @@ Frequencies (cm^-1) = 81.2,129.1,204.7,310.2,367.9,441.3,476.6,611.4,693.5,830.8
 entry(
     index = 794,
     label = "CD[C]OC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -45101,7 +45101,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -15.79 kcal/mol
 S298: 95.01 cal/mol/K
@@ -45131,7 +45131,7 @@ Frequencies (cm^-1) = 175.6,217.6,278.0,308.1,374.3,425.1,521.8,578.3,656.8,775.
 entry(
     index = 795,
     label = "CC(C)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -45161,7 +45161,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.34 kcal/mol
 S298: 95.98 cal/mol/K
@@ -45197,7 +45197,7 @@ Frequencies (cm^-1) = 172.7,197.8,240.5,290.2,322.2,371.8,418.7,501.4,556.8,749.
 entry(
     index = 796,
     label = "CC(F)(Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -45224,7 +45224,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.11 kcal/mol
 S298: 95.58 cal/mol/K
@@ -45256,7 +45256,7 @@ Frequencies (cm^-1) = 139.7,205.9,218.6,278.8,300.8,366.0,395.1,470.5,660.0,696.
 entry(
     index = 797,
     label = "F[C]DCC(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -45281,7 +45281,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 32.96 kcal/mol
 S298: 96.31 cal/mol/K
@@ -45309,7 +45309,7 @@ Frequencies (cm^-1) = 101.4,156.8,194.7,232.0,234.5,308.2,335.9,388.6,557.5,657.
 entry(
     index = 798,
     label = "FOCC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -45335,7 +45335,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -34.48 kcal/mol
 S298: 96.62 cal/mol/K
@@ -45367,7 +45367,7 @@ Frequencies (cm^-1) = 183.1,206.4,290.9,408.6,434.7,546.4,642.9,677.8,904.2,973.
 entry(
     index = 799,
     label = "OC(Br)CDC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -45393,7 +45393,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.02 kcal/mol
 S298: 95.03 cal/mol/K
@@ -45424,7 +45424,7 @@ Frequencies (cm^-1) = 78.7,168.6,242.9,287.4,380.2,452.9,464.7,548.1,613.3,846.5
 entry(
     index = 800,
     label = "ODC[CH]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -45450,7 +45450,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.91 kcal/mol
 S298: 93.77 cal/mol/K
@@ -45478,7 +45478,7 @@ Frequencies (cm^-1) = 61.3,111.7,155.0,209.3,259.7,292.0,349.1,413.4,483.5,596.8
 entry(
     index = 801,
     label = "[CH]DCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -45503,7 +45503,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 20.33 kcal/mol
 S298: 88.16 cal/mol/K
@@ -45531,7 +45531,7 @@ Frequencies (cm^-1) = 200.4,242.3,258.2,303.3,366.6,412.7,626.1,660.7,772.4,870.
 entry(
     index = 802,
     label = "OC(Cl)(Br)OF",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -45554,7 +45554,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -60.84 kcal/mol
 S298: 88.90 cal/mol/K
@@ -45582,7 +45582,7 @@ Frequencies (cm^-1) = 207.5,221.7,324.9,364.1,369.1,459.3,659.9,810.5,915.5,958.
 entry(
     index = 803,
     label = "F[CH]C(Cl)DCCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -45610,7 +45610,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -13.71 kcal/mol
 S298: 94.83 cal/mol/K
@@ -45642,7 +45642,7 @@ Frequencies (cm^-1) = 148.9,194.5,230.6,295.2,421.4,469.2,502.7,532.7,680.7,745.
 entry(
     index = 804,
     label = "FCDC(Cl)[C]DCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -45668,7 +45668,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 33.58 kcal/mol
 S298: 95.27 cal/mol/K
@@ -45696,7 +45696,7 @@ Frequencies (cm^-1) = 54.2,61.3,163.1,217.2,234.9,329.1,415.9,484.1,508.7,577.4,
 entry(
     index = 805,
     label = "[CH2]C(O)(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -45724,7 +45724,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -70.75 kcal/mol
 S298: 94.82 cal/mol/K
@@ -45754,7 +45754,7 @@ Frequencies (cm^-1) = 75.6,141.0,153.9,204.2,227.2,301.4,317.9,392.6,422.7,498.2
 entry(
     index = 806,
     label = "OC(CBr)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -45782,7 +45782,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.85 kcal/mol
 S298: 96.88 cal/mol/K
@@ -45815,7 +45815,7 @@ Frequencies (cm^-1) = 155.2,204.5,326.8,342.6,402.6,425.0,533.0,629.8,761.2,870.
 entry(
     index = 807,
     label = "FC#CC[C](Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -45841,7 +45841,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 55.75 kcal/mol
 S298: 97.59 cal/mol/K
@@ -45870,7 +45870,7 @@ Frequencies (cm^-1) = 66.0,200.3,214.1,248.1,298.2,404.7,418.9,457.1,578.5,756.5
 entry(
     index = 808,
     label = "F[CH]C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -45894,7 +45894,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -4.49 kcal/mol
 S298: 95.46 cal/mol/K
@@ -45921,7 +45921,7 @@ Frequencies (cm^-1) = 135.3,176.9,181.6,230.1,248.3,383.3,398.0,479.7,550.8,814.
 entry(
     index = 809,
     label = "[CH2]C(F)(CCl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -45949,7 +45949,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -37.18 kcal/mol
 S298: 96.29 cal/mol/K
@@ -45979,7 +45979,7 @@ Frequencies (cm^-1) = 75.2,89.1,139.8,179.2,194.0,280.2,338.2,386.7,461.5,517.2,
 entry(
     index = 810,
     label = "CC[CH]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -46009,7 +46009,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.81 kcal/mol
 S298: 103.05 cal/mol/K
@@ -46044,7 +46044,7 @@ Frequencies (cm^-1) = 154.8,198.2,231.9,257.2,306.1,393.7,428.8,494.6,591.5,640.
 entry(
     index = 811,
     label = "FCC(Cl)CCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {4,S}
@@ -46074,7 +46074,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -78.21 kcal/mol
 S298: 98.11 cal/mol/K
@@ -46110,7 +46110,7 @@ Frequencies (cm^-1) = 184.7,215.5,287.1,362.5,389.4,498.2,561.1,689.3,817.0,891.
 entry(
     index = 812,
     label = "CCC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -46140,7 +46140,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -76.42 kcal/mol
 S298: 97.87 cal/mol/K
@@ -46176,7 +46176,7 @@ Frequencies (cm^-1) = 160.4,182.1,211.0,284.7,308.7,465.8,590.1,665.5,721.5,778.
 entry(
     index = 813,
     label = "O[C](Br)CC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -46204,7 +46204,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -72.30 kcal/mol
 S298: 96.34 cal/mol/K
@@ -46234,7 +46234,7 @@ Frequencies (cm^-1) = 39.4,74.1,127.3,211.7,315.0,334.0,362.5,401.0,461.8,469.5,
 entry(
     index = 814,
     label = "C[C](CF)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -46264,7 +46264,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -33.09 kcal/mol
 S298: 104.75 cal/mol/K
@@ -46299,7 +46299,7 @@ Frequencies (cm^-1) = 114.9,124.8,177.8,229.5,289.3,397.0,430.2,524.6,732.4,851.
 entry(
     index = 815,
     label = "OC(Br)DC(Cl)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -46325,7 +46325,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -45.18 kcal/mol
 S298: 92.64 cal/mol/K
@@ -46355,7 +46355,7 @@ Frequencies (cm^-1) = 92.7,147.1,229.2,261.3,277.3,350.8,470.5,498.7,591.3,647.3
 entry(
     index = 816,
     label = "FC[CH]CC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -46385,7 +46385,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -28.84 kcal/mol
 S298: 103.29 cal/mol/K
@@ -46420,7 +46420,7 @@ Frequencies (cm^-1) = 166.9,213.3,245.3,313.3,348.6,418.0,554.1,602.6,745.0,882.
 entry(
     index = 817,
     label = "F[C](Cl)CCDCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -46448,7 +46448,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -4.21 kcal/mol
 S298: 99.93 cal/mol/K
@@ -46480,7 +46480,7 @@ Frequencies (cm^-1) = 146.3,151.6,307.0,380.0,401.5,481.3,586.0,640.1,666.1,745.
 entry(
     index = 818,
     label = "[O]OC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -46506,7 +46506,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.51 kcal/mol
 S298: 93.28 cal/mol/K
@@ -46534,7 +46534,7 @@ Frequencies (cm^-1) = 58.9,95.3,130.0,236.0,298.7,299.0,342.1,417.1,605.7,733.7,
 entry(
     index = 819,
     label = "ODC(CF)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -46560,7 +46560,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -85.17 kcal/mol
 S298: 94.62 cal/mol/K
@@ -46591,7 +46591,7 @@ Frequencies (cm^-1) = 128.6,183.2,209.8,271.5,469.0,510.7,528.7,638.2,791.1,838.
 entry(
     index = 820,
     label = "FCC(Cl)OCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -46619,7 +46619,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -102.55 kcal/mol
 S298: 96.86 cal/mol/K
@@ -46653,7 +46653,7 @@ Frequencies (cm^-1) = 199.1,220.9,304.7,360.2,422.1,517.1,597.2,743.8,868.8,946.
 entry(
     index = 821,
     label = "CC(F)C(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -46683,7 +46683,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -79.52 kcal/mol
 S298: 95.29 cal/mol/K
@@ -46719,7 +46719,7 @@ Frequencies (cm^-1) = 121.1,202.7,304.0,355.1,370.6,454.7,538.2,594.1,717.6,838.
 entry(
     index = 822,
     label = "[CH]DC(F)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -46744,7 +46744,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 22.51 kcal/mol
 S298: 93.58 cal/mol/K
@@ -46771,7 +46771,7 @@ Frequencies (cm^-1) = 80.5,145.4,166.3,222.7,224.2,268.0,353.1,408.2,483.6,555.7
 entry(
     index = 823,
     label = "OC(Br)[C]DC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -46797,7 +46797,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -16.94 kcal/mol
 S298: 101.80 cal/mol/K
@@ -46827,7 +46827,7 @@ Frequencies (cm^-1) = 65.8,121.1,175.0,194.5,356.7,410.8,496.2,501.9,548.3,662.0
 entry(
     index = 824,
     label = "F[CH]C(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -46852,7 +46852,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -72.54 kcal/mol
 S298: 96.43 cal/mol/K
@@ -46881,7 +46881,7 @@ Frequencies (cm^-1) = 140.4,186.3,285.2,339.6,374.5,417.5,472.9,516.3,628.2,787.
 entry(
     index = 825,
     label = "CC(Cl)(CF)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {4,S}
@@ -46911,7 +46911,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -80.72 kcal/mol
 S298: 94.93 cal/mol/K
@@ -46947,7 +46947,7 @@ Frequencies (cm^-1) = 154.1,212.0,292.1,298.8,329.6,420.6,440.7,645.2,679.9,825.
 entry(
     index = 826,
     label = "[C]#CC(F)DC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -46971,7 +46971,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 105.69 kcal/mol
 S298: 91.15 cal/mol/K
@@ -46997,7 +46997,7 @@ Frequencies (cm^-1) = 61.0,114.0,142.1,196.1,243.5,317.7,383.3,428.2,611.7,630.6
 entry(
     index = 827,
     label = "FOC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {7,S}
@@ -47020,7 +47020,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -80.07 kcal/mol
 S298: 89.91 cal/mol/K
@@ -47048,7 +47048,7 @@ Frequencies (cm^-1) = 164.5,236.5,341.4,353.5,383.3,450.5,579.0,722.1,853.6,927.
 entry(
     index = 828,
     label = "OOC(Cl)(Br)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -47074,7 +47074,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -34.71 kcal/mol
 S298: 95.52 cal/mol/K
@@ -47102,7 +47102,7 @@ Frequencies (cm^-1) = 70.9,130.6,151.2,195.7,239.9,273.6,293.8,334.5,353.8,402.3
 entry(
     index = 829,
     label = "FC(Cl)DCOCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -47128,7 +47128,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.82 kcal/mol
 S298: 95.53 cal/mol/K
@@ -47159,7 +47159,7 @@ Frequencies (cm^-1) = 132.6,193.6,335.8,383.0,438.0,498.1,541.8,590.9,705.7,830.
 entry(
     index = 830,
     label = "FC(Cl)[CH]CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -47186,7 +47186,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -27.14 kcal/mol
 S298: 95.22 cal/mol/K
@@ -47217,7 +47217,7 @@ Frequencies (cm^-1) = 158.9,279.0,344.5,349.7,386.9,504.1,558.9,695.6,847.9,1011
 entry(
     index = 831,
     label = "C#CC(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -47243,7 +47243,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 0.77 kcal/mol
 S298: 93.49 cal/mol/K
@@ -47273,7 +47273,7 @@ Frequencies (cm^-1) = 114.9,185.3,216.6,224.9,310.9,374.5,445.6,571.1,658.4,692.
 entry(
     index = 832,
     label = "CDC(OBr)C(F)(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -47299,7 +47299,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -98.95 kcal/mol
 S298: 96.12 cal/mol/K
@@ -47328,7 +47328,7 @@ Frequencies (cm^-1) = 45.5,66.4,145.6,204.0,232.9,323.4,360.9,410.9,461.3,574.0,
 entry(
     index = 833,
     label = "FC(Cl)DCCDCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {6,S}
@@ -47354,7 +47354,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -20.58 kcal/mol
 S298: 89.52 cal/mol/K
@@ -47384,7 +47384,7 @@ Frequencies (cm^-1) = 98.6,153.2,196.6,403.5,454.2,469.8,524.2,562.3,629.5,733.6
 entry(
     index = 834,
     label = "CDCC(F)DC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -47410,7 +47410,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -16.75 kcal/mol
 S298: 88.43 cal/mol/K
@@ -47440,7 +47440,7 @@ Frequencies (cm^-1) = 126.1,147.4,223.9,274.2,318.9,360.2,444.5,510.8,651.1,752.
 entry(
     index = 835,
     label = "CC([O])(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -47468,7 +47468,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -60.68 kcal/mol
 S298: 93.83 cal/mol/K
@@ -47499,7 +47499,7 @@ Frequencies (cm^-1) = 76.7,138.5,226.6,235.9,268.6,311.8,373.8,399.4,442.5,639.6
 entry(
     index = 836,
     label = "CDC(F)OC(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -47525,7 +47525,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -71.82 kcal/mol
 S298: 97.73 cal/mol/K
@@ -47554,7 +47554,7 @@ Frequencies (cm^-1) = 38.3,108.7,137.8,203.0,220.6,265.7,294.5,336.4,394.5,505.8
 entry(
     index = 837,
     label = "OC(Cl)(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -47579,7 +47579,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -108.53 kcal/mol
 S298: 95.33 cal/mol/K
@@ -47609,7 +47609,7 @@ Frequencies (cm^-1) = 145.1,182.1,225.1,231.6,320.8,377.4,417.5,556.5,585.2,683.
 entry(
     index = 838,
     label = "FCC(Cl)(Cl)CBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -47636,7 +47636,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -76.66 kcal/mol
 S298: 93.09 cal/mol/K
@@ -47668,7 +47668,7 @@ Frequencies (cm^-1) = 134.0,199.1,241.8,269.8,312.1,377.7,428.4,626.4,654.9,717.
 entry(
     index = 839,
     label = "[O]C(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -47693,7 +47693,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -49.14 kcal/mol
 S298: 87.86 cal/mol/K
@@ -47720,7 +47720,7 @@ Frequencies (cm^-1) = 67.5,145.0,211.3,275.7,296.5,401.9,543.1,678.6,727.5,890.6
 entry(
     index = 840,
     label = "OC(Cl)(Br)O[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -47746,7 +47746,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -92.34 kcal/mol
 S298: 98.98 cal/mol/K
@@ -47777,7 +47777,7 @@ Frequencies (cm^-1) = 156.4,210.0,287.0,316.7,351.2,409.5,557.3,637.4,690.3,907.
 entry(
     index = 841,
     label = "[CH2]C(DC(F)F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -47805,7 +47805,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -57.44 kcal/mol
 S298: 99.40 cal/mol/K
@@ -47835,7 +47835,7 @@ Frequencies (cm^-1) = 28.2,99.5,160.8,178.1,201.9,266.1,327.9,375.1,474.4,503.7,
 entry(
     index = 842,
     label = "FC#C[C](Cl)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -47861,7 +47861,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 46.64 kcal/mol
 S298: 96.71 cal/mol/K
@@ -47890,7 +47890,7 @@ Frequencies (cm^-1) = 88.8,109.1,200.1,288.2,311.2,377.6,403.4,493.3,532.4,604.5
 entry(
     index = 843,
     label = "CC(Br)DCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {7,S}
@@ -47918,7 +47918,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -40.73 kcal/mol
 S298: 102.19 cal/mol/K
@@ -47949,7 +47949,7 @@ Frequencies (cm^-1) = 41.5,87.2,108.3,185.7,195.9,249.0,283.3,303.7,328.8,390.5,
 entry(
     index = 844,
     label = "FC#CC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {5,S}
@@ -47973,7 +47973,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 15.18 kcal/mol
 S298: 92.41 cal/mol/K
@@ -48001,7 +48001,7 @@ Frequencies (cm^-1) = 88.4,116.5,213.5,334.0,381.0,444.7,463.8,554.4,580.4,714.1
 entry(
     index = 845,
     label = "CC(F)DC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {7,S}
@@ -48027,7 +48027,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -48.51 kcal/mol
 S298: 95.05 cal/mol/K
@@ -48058,7 +48058,7 @@ Frequencies (cm^-1) = 105.3,131.5,210.5,256.9,346.0,440.0,469.5,514.0,629.2,683.
 entry(
     index = 846,
     label = "CCC(Cl)(Br)[CH]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -48088,7 +48088,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -30.60 kcal/mol
 S298: 100.02 cal/mol/K
@@ -48123,7 +48123,7 @@ Frequencies (cm^-1) = 91.7,147.0,210.6,249.7,278.6,329.6,439.8,499.0,592.2,688.0
 entry(
     index = 847,
     label = "OC(Br)C(Cl)OF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {7,S}
@@ -48149,7 +48149,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -67.47 kcal/mol
 S298: 94.89 cal/mol/K
@@ -48181,7 +48181,7 @@ Frequencies (cm^-1) = 144.0,213.4,249.6,321.2,344.6,470.2,569.6,665.6,773.4,947.
 entry(
     index = 848,
     label = "CC(D[C]F)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -48209,7 +48209,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 11.16 kcal/mol
 S298: 100.33 cal/mol/K
@@ -48239,7 +48239,7 @@ Frequencies (cm^-1) = 53.0,116.2,131.7,170.1,208.9,214.5,236.2,278.0,314.0,359.9
 entry(
     index = 849,
     label = "F[CH]OCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -48267,7 +48267,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -56.38 kcal/mol
 S298: 100.68 cal/mol/K
@@ -48300,7 +48300,7 @@ Frequencies (cm^-1) = 190.4,212.5,259.5,349.2,409.4,602.6,660.2,695.2,937.4,977.
 entry(
     index = 850,
     label = "FC(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Br u0 p3 c0 {5,S}
@@ -48321,7 +48321,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -43.45 kcal/mol
 S298: 82.16 cal/mol/K
@@ -48345,7 +48345,7 @@ Frequencies (cm^-1) = 156.5,191.2,260.6,306.3,339.1,457.9,719.7,771.8,1129.7
 entry(
     index = 851,
     label = "CDCOC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -48371,7 +48371,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -73.40 kcal/mol
 S298: 93.78 cal/mol/K
@@ -48402,7 +48402,7 @@ Frequencies (cm^-1) = 158.8,212.7,296.6,315.2,346.9,409.3,554.8,599.2,707.4,745.
 entry(
     index = 852,
     label = "CC(Br)(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Br u0 p3 c0 {5,S}
@@ -48429,7 +48429,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -66.26 kcal/mol
 S298: 98.06 cal/mol/K
@@ -48461,7 +48461,7 @@ Frequencies (cm^-1) = 125.2,157.6,226.9,243.2,276.1,299.8,349.4,410.4,607.8,684.
 entry(
     index = 853,
     label = "FC(Cl)[C]DCOBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -48487,7 +48487,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 10.84 kcal/mol
 S298: 98.90 cal/mol/K
@@ -48517,7 +48517,7 @@ Frequencies (cm^-1) = 71.6,121.5,159.5,336.9,388.5,489.1,543.9,629.2,716.6,822.9
 entry(
     index = 854,
     label = "CC(Br)(Br)C(Cl)CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Br u0 p3 c0 {5,S}
@@ -48547,7 +48547,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -71.91 kcal/mol
 S298: 102.84 cal/mol/K
@@ -48580,7 +48580,7 @@ Frequencies (cm^-1) = 63.8,85.9,126.6,155.3,186.0,231.2,259.6,277.8,281.5,310.3,
 entry(
     index = 855,
     label = "F[CH]OC(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -48605,7 +48605,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -48.45 kcal/mol
 S298: 89.91 cal/mol/K
@@ -48634,7 +48634,7 @@ Frequencies (cm^-1) = 171.0,215.5,324.9,383.0,566.6,647.2,710.0,904.3,1046.1,117
 entry(
     index = 856,
     label = "C#CC(F)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -48660,7 +48660,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -43.99 kcal/mol
 S298: 94.86 cal/mol/K
@@ -48689,7 +48689,7 @@ Frequencies (cm^-1) = 66.4,119.3,150.3,203.4,232.7,297.6,314.8,331.5,410.7,513.4
 entry(
     index = 857,
     label = "FC(Cl)DCCCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -48717,7 +48717,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.80 kcal/mol
 S298: 97.41 cal/mol/K
@@ -48750,7 +48750,7 @@ Frequencies (cm^-1) = 138.6,163.8,292.9,396.5,460.8,497.7,530.6,567.2,648.7,824.
 entry(
     index = 858,
     label = "OO[CH]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -48776,7 +48776,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -35.92 kcal/mol
 S298: 95.82 cal/mol/K
@@ -48804,7 +48804,7 @@ Frequencies (cm^-1) = 63.2,113.8,148.2,177.8,250.6,268.9,300.5,337.4,385.4,476.7
 entry(
     index = 859,
     label = "FC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -48826,7 +48826,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -121.92 kcal/mol
 S298: 82.85 cal/mol/K
@@ -48852,7 +48852,7 @@ Frequencies (cm^-1) = 161.3,245.6,333.6,428.3,546.8,564.1,640.2,821.5,1020.4,118
 entry(
     index = 860,
     label = "FC(F)C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -48877,7 +48877,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -121.35 kcal/mol
 S298: 93.65 cal/mol/K
@@ -48907,7 +48907,7 @@ Frequencies (cm^-1) = 160.5,165.1,287.7,374.0,392.2,490.2,572.2,685.7,768.1,1073
 entry(
     index = 861,
     label = "OC(Cl)(Br)CF",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -48932,7 +48932,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -103.46 kcal/mol
 S298: 88.30 cal/mol/K
@@ -48962,7 +48962,7 @@ Frequencies (cm^-1) = 171.4,224.8,279.4,322.1,396.3,507.2,546.0,642.1,1000.6,106
 entry(
     index = 862,
     label = "CDC(CF)C(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -48990,7 +48990,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -33.07 kcal/mol
 S298: 103.84 cal/mol/K
@@ -49021,7 +49021,7 @@ Frequencies (cm^-1) = 24.5,71.4,133.8,142.6,182.2,207.6,242.0,312.4,346.7,381.5,
 entry(
     index = 863,
     label = "CC(C)(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {7,S}
@@ -49051,7 +49051,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -81.90 kcal/mol
 S298: 96.09 cal/mol/K
@@ -49087,7 +49087,7 @@ Frequencies (cm^-1) = 167.6,206.3,234.0,293.7,326.5,388.0,433.8,515.0,669.8,747.
 entry(
     index = 864,
     label = "CC(CBr)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {7,S}
@@ -49117,7 +49117,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -80.51 kcal/mol
 S298: 96.15 cal/mol/K
@@ -49153,7 +49153,7 @@ Frequencies (cm^-1) = 159.7,213.2,261.0,308.4,367.9,407.2,611.1,651.7,750.6,841.
 entry(
     index = 865,
     label = "ODC(Br)C(Cl)D[C]F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -49177,7 +49177,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -5.67 kcal/mol
 S298: 90.68 cal/mol/K
@@ -49204,7 +49204,7 @@ Frequencies (cm^-1) = 108.7,181.7,212.8,243.3,319.9,453.7,502.5,641.3,665.1,695.
 entry(
     index = 866,
     label = "CDC(Br)C(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Br u0 p3 c0 {6,S}
@@ -49230,7 +49230,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -9.34 kcal/mol
 S298: 101.36 cal/mol/K
@@ -49259,7 +49259,7 @@ Frequencies (cm^-1) = 30.3,95.3,111.3,130.4,172.4,270.3,309.1,374.5,439.0,470.3,
 entry(
     index = 867,
     label = "F[CH]C(Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -49286,7 +49286,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -16.29 kcal/mol
 S298: 100.29 cal/mol/K
@@ -49317,7 +49317,7 @@ Frequencies (cm^-1) = 119.9,154.0,165.7,218.8,248.9,365.1,519.3,555.7,559.7,623.
 entry(
     index = 868,
     label = "CDC(F)C(O)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -49343,7 +49343,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -80.30 kcal/mol
 S298: 91.81 cal/mol/K
@@ -49374,7 +49374,7 @@ Frequencies (cm^-1) = 150.9,186.0,229.5,307.6,351.7,399.5,513.8,533.1,584.1,723.
 entry(
     index = 869,
     label = "ODCD[C]C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -49398,7 +49398,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -6.70 kcal/mol
 S298: 91.94 cal/mol/K
@@ -49424,7 +49424,7 @@ Frequencies (cm^-1) = 72.2,87.9,189.6,205.5,292.9,377.4,398.4,510.4,526.6,582.3,
 entry(
     index = 870,
     label = "[CH2]C(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -49451,7 +49451,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -21.85 kcal/mol
 S298: 92.80 cal/mol/K
@@ -49482,7 +49482,7 @@ Frequencies (cm^-1) = 164.5,197.8,239.5,306.3,391.6,551.9,608.6,674.1,729.9,883.
 entry(
     index = 871,
     label = "FC(Cl)DCDCBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {4,S}
@@ -49505,7 +49505,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 7.90 kcal/mol
 S298: 86.04 cal/mol/K
@@ -49531,7 +49531,7 @@ Frequencies (cm^-1) = 77.8,100.4,226.2,313.2,413.5,517.1,541.4,648.4,689.8,814.0
 entry(
     index = 872,
     label = "[O]C(F)(Cl)C(O)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -49557,7 +49557,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -94.93 kcal/mol
 S298: 92.63 cal/mol/K
@@ -49585,7 +49585,7 @@ Frequencies (cm^-1) = 65.1,126.3,201.2,215.1,264.7,339.2,359.9,385.4,476.8,587.1
 entry(
     index = 873,
     label = "CC(F)(Cl)C(DO)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -49611,7 +49611,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -99.47 kcal/mol
 S298: 93.36 cal/mol/K
@@ -49642,7 +49642,7 @@ Frequencies (cm^-1) = 156.4,194.1,252.2,337.3,348.4,378.3,497.8,542.5,628.2,706.
 entry(
     index = 874,
     label = "FC(F)(Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Br u0 p3 c0 {7,S}
@@ -49666,7 +49666,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -106.33 kcal/mol
 S298: 96.03 cal/mol/K
@@ -49694,7 +49694,7 @@ Frequencies (cm^-1) = 128.1,157.0,194.8,229.8,297.8,392.3,420.5,582.1,647.6,706.
 entry(
     index = 875,
     label = "CCC(Br)[C](F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -49724,7 +49724,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -36.62 kcal/mol
 S298: 99.01 cal/mol/K
@@ -49758,7 +49758,7 @@ Frequencies (cm^-1) = 73.9,102.6,170.2,213.4,215.4,403.0,445.5,501.6,506.8,621.9
 entry(
     index = 876,
     label = "CC(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {6,S}
@@ -49783,7 +49783,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -40.53 kcal/mol
 S298: 85.77 cal/mol/K
@@ -49812,7 +49812,7 @@ Frequencies (cm^-1) = 119.8,177.8,267.9,306.3,307.3,426.0,565.0,592.2,737.9,1035
 entry(
     index = 877,
     label = "[CH2]C(DCF)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -49840,7 +49840,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -10.77 kcal/mol
 S298: 101.90 cal/mol/K
@@ -49870,7 +49870,7 @@ Frequencies (cm^-1) = 15.4,120.1,175.5,210.9,217.3,258.4,281.7,312.5,362.8,390.7
 entry(
     index = 878,
     label = "FC(F)DC(Cl)[CH]Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -49895,7 +49895,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -49.57 kcal/mol
 S298: 91.17 cal/mol/K
@@ -49922,7 +49922,7 @@ Frequencies (cm^-1) = 92.2,120.4,131.5,182.7,294.0,295.4,438.7,488.1,562.6,588.2
 entry(
     index = 879,
     label = "OC(Cl)(Br)C(F)F",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -49947,7 +49947,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -153.74 kcal/mol
 S298: 93.06 cal/mol/K
@@ -49977,7 +49977,7 @@ Frequencies (cm^-1) = 159.0,183.6,231.0,293.4,325.8,399.0,505.2,581.8,624.6,772.
 entry(
     index = 880,
     label = "CC(DC(F)Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Br u0 p3 c0 {6,S}
@@ -50005,7 +50005,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -38.61 kcal/mol
 S298: 102.12 cal/mol/K
@@ -50036,7 +50036,7 @@ Frequencies (cm^-1) = 39.3,95.4,111.0,144.7,153.0,162.6,250.4,293.8,359.4,401.2,
 entry(
     index = 881,
     label = "FC#CC(Cl)(Br)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Br u0 p3 c0 {5,S}
@@ -50059,7 +50059,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 36.08 kcal/mol
 S298: 94.10 cal/mol/K
@@ -50085,7 +50085,7 @@ Frequencies (cm^-1) = 72.7,84.8,157.9,192.6,235.6,309.7,318.5,383.2,460.7,483.3,
 entry(
     index = 882,
     label = "ODCC(Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {6,S}
@@ -50111,7 +50111,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -87.89 kcal/mol
 S298: 93.39 cal/mol/K
@@ -50142,7 +50142,7 @@ Frequencies (cm^-1) = 132.9,209.3,240.1,261.5,376.8,439.4,610.0,692.1,758.8,905.
 entry(
     index = 883,
     label = "FC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -50163,7 +50163,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -104.40 kcal/mol
 S298: 76.40 cal/mol/K
@@ -50187,7 +50187,7 @@ Frequencies (cm^-1) = 208.0,290.8,326.7,402.4,432.1,647.7,824.7,1122.8,1210.3
 entry(
     index = 884,
     label = "OCC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {7,S}
@@ -50213,7 +50213,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -115.97 kcal/mol
 S298: 95.11 cal/mol/K
@@ -50245,7 +50245,7 @@ Frequencies (cm^-1) = 146.4,211.0,278.5,348.4,409.1,465.5,518.5,648.8,691.3,912.
 entry(
     index = 885,
     label = "FOCDC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {7,S}
@@ -50269,7 +50269,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -0.59 kcal/mol
 S298: 96.35 cal/mol/K
@@ -50298,7 +50298,7 @@ Frequencies (cm^-1) = 105.6,143.1,244.2,357.2,424.5,483.0,548.4,623.3,668.3,779.
 entry(
     index = 886,
     label = "FCCDCC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -50326,7 +50326,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -43.88 kcal/mol
 S298: 97.62 cal/mol/K
@@ -50359,7 +50359,7 @@ Frequencies (cm^-1) = 123.6,200.0,203.4,286.8,322.4,370.4,594.9,647.2,735.4,825.
 entry(
     index = 887,
     label = "CDC(Br)C(Cl)DCF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {5,S}
@@ -50385,7 +50385,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -17.65 kcal/mol
 S298: 89.35 cal/mol/K
@@ -50415,7 +50415,7 @@ Frequencies (cm^-1) = 167.3,207.2,236.2,267.2,355.8,421.4,516.3,569.7,659.4,683.
 entry(
     index = 888,
     label = "[CH2]C(F)C(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -50442,7 +50442,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -67.49 kcal/mol
 S298: 94.28 cal/mol/K
@@ -50471,7 +50471,7 @@ Frequencies (cm^-1) = 83.7,137.7,153.0,184.6,221.8,307.3,314.7,395.4,423.9,488.1
 entry(
     index = 889,
     label = "OC(Br)D[C]C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -50497,7 +50497,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -21.77 kcal/mol
 S298: 97.95 cal/mol/K
@@ -50527,7 +50527,7 @@ Frequencies (cm^-1) = 84.1,99.9,254.8,348.6,371.4,421.6,469.0,534.9,601.8,704.7,
 entry(
     index = 890,
     label = "ODCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -50550,7 +50550,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.47 kcal/mol
 S298: 85.95 cal/mol/K
@@ -50577,7 +50577,7 @@ Frequencies (cm^-1) = 192.6,244.4,255.7,312.4,351.8,425.0,697.4,787.9,946.4,1012
 entry(
     index = 891,
     label = "CDC(C(F)Cl)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {5,S}
@@ -50605,7 +50605,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -51.60 kcal/mol
 S298: 100.06 cal/mol/K
@@ -50636,7 +50636,7 @@ Frequencies (cm^-1) = 31.5,68.4,125.8,155.2,210.8,273.2,326.0,355.2,405.0,445.6,
 entry(
     index = 892,
     label = "[CH]DCC(F)(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -50662,7 +50662,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 5.11 kcal/mol
 S298: 93.13 cal/mol/K
@@ -50690,7 +50690,7 @@ Frequencies (cm^-1) = 59.5,93.9,160.7,214.2,274.2,366.4,410.4,425.9,504.2,638.1,
 entry(
     index = 893,
     label = "OC(Br)C(Cl)CF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {5,S}
@@ -50718,7 +50718,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -111.52 kcal/mol
 S298: 95.34 cal/mol/K
@@ -50752,7 +50752,7 @@ Frequencies (cm^-1) = 147.8,185.1,240.6,323.4,343.7,409.8,587.4,656.7,756.9,903.
 entry(
     index = 894,
     label = "F[C](Cl)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -50776,7 +50776,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -23.52 kcal/mol
 S298: 96.66 cal/mol/K
@@ -50802,7 +50802,7 @@ Frequencies (cm^-1) = 57.2,108.3,160.1,198.0,203.5,253.4,343.2,377.4,454.9,460.9
 entry(
     index = 895,
     label = "OOC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 Cl u0 p3 c0 {6,S}
@@ -50825,7 +50825,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -78.13 kcal/mol
 S298: 86.10 cal/mol/K
@@ -50853,7 +50853,7 @@ Frequencies (cm^-1) = 204.8,224.8,315.0,359.8,374.9,452.0,666.5,861.0,932.7,1044
 entry(
     index = 896,
     label = "FC#COC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -50877,7 +50877,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 4.41 kcal/mol
 S298: 92.41 cal/mol/K
@@ -50905,7 +50905,7 @@ Frequencies (cm^-1) = 83.3,212.9,238.8,288.5,310.2,380.0,396.8,533.2,662.0,708.8
 entry(
     index = 897,
     label = "F[C](Cl)C(Br)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -50929,7 +50929,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -12.14 kcal/mol
 S298: 93.99 cal/mol/K
@@ -50955,7 +50955,7 @@ Frequencies (cm^-1) = 54.0,98.2,146.7,177.9,244.2,415.1,436.7,481.3,657.7,750.1,
 entry(
     index = 898,
     label = "[O]CC(Br)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -50981,7 +50981,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -22.29 kcal/mol
 S298: 93.48 cal/mol/K
@@ -51009,7 +51009,7 @@ Frequencies (cm^-1) = 52.9,109.1,163.8,187.1,259.9,295.4,406.8,486.8,567.6,613.4
 entry(
     index = 899,
     label = "CD[C]C(F)(F)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -51037,7 +51037,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -39.19 kcal/mol
 S298: 98.94 cal/mol/K
@@ -51067,7 +51067,7 @@ Frequencies (cm^-1) = 53.9,76.3,143.4,186.4,201.7,222.9,291.9,352.6,395.6,512.3,
 entry(
     index = 900,
     label = "FC(Cl)OBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {5,S}
@@ -51089,7 +51089,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -69.54 kcal/mol
 S298: 80.38 cal/mol/K
@@ -51115,7 +51115,7 @@ Frequencies (cm^-1) = 164.6,372.8,413.0,552.6,652.9,777.7,1063.2,1136.8,1264.5,1
 entry(
     index = 901,
     label = "CC#CC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -51141,7 +51141,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -2.16 kcal/mol
 S298: 94.79 cal/mol/K
@@ -51171,7 +51171,7 @@ Frequencies (cm^-1) = 79.1,104.5,202.1,264.7,292.7,320.3,354.8,416.5,475.6,578.7
 entry(
     index = 902,
     label = "ODCDCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 Cl u0 p3 c0 {5,S}
@@ -51195,7 +51195,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -58.05 kcal/mol
 S298: 92.37 cal/mol/K
@@ -51223,7 +51223,7 @@ Frequencies (cm^-1) = 113.6,198.6,263.2,295.2,343.5,397.8,489.7,546.1,602.7,613.
 entry(
     index = 903,
     label = "F[CH]C(Cl)OBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -51248,7 +51248,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -22.91 kcal/mol
 S298: 93.25 cal/mol/K
@@ -51277,7 +51277,7 @@ Frequencies (cm^-1) = 151.4,225.7,341.3,373.8,418.6,470.6,540.1,733.9,1001.2,110
 entry(
     index = 904,
     label = "CC(Br)[CH]C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -51307,7 +51307,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -36.07 kcal/mol
 S298: 102.74 cal/mol/K
@@ -51342,7 +51342,7 @@ Frequencies (cm^-1) = 126.8,229.8,235.9,318.1,339.7,357.3,447.8,492.1,570.7,694.
 entry(
     index = 905,
     label = "CC(OBr)DC(F)Cl",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {7,S}
@@ -51368,7 +51368,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -46.46 kcal/mol
 S298: 94.93 cal/mol/K
@@ -51399,7 +51399,7 @@ Frequencies (cm^-1) = 109.1,161.9,211.9,298.2,342.0,437.9,489.7,511.8,624.7,672.
 entry(
     index = 906,
     label = "FCDCC(Cl)DCBr",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  Cl u0 p3 c0 {5,S}
@@ -51425,7 +51425,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -19.50 kcal/mol
 S298: 89.91 cal/mol/K
@@ -51455,7 +51455,7 @@ Frequencies (cm^-1) = 104.7,186.8,208.6,211.4,268.9,398.9,547.6,571.9,717.2,741.
 entry(
     index = 907,
     label = "CC(DCF)C(Cl)(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  Cl u0 p3 c0 {6,S}
@@ -51483,7 +51483,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.42 kcal/mol
 S298: 99.88 cal/mol/K
@@ -51514,7 +51514,7 @@ Frequencies (cm^-1) = 28.6,103.9,154.8,175.8,210.3,224.7,256.8,303.1,318.1,345.8
 entry(
     index = 908,
     label = "FC(F)OC(Cl)Br",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Cl u0 p3 c0 {7,S}
@@ -51539,7 +51539,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -151.09 kcal/mol
 S298: 93.98 cal/mol/K
@@ -51569,7 +51569,7 @@ Frequencies (cm^-1) = 154.6,213.5,278.9,383.3,497.0,560.2,622.0,683.8,721.5,1022
 entry(
     index = 909,
     label = "[O]CCC(F)(Cl)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -51597,7 +51597,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -54.73 kcal/mol
 S298: 89.03 cal/mol/K
@@ -51627,7 +51627,7 @@ Frequencies (cm^-1) = 124.5,174.4,208.3,233.6,309.7,336.1,403.2,456.5,563.3,745.
 entry(
     index = 910,
     label = "CC(DCF)C(Cl)Br",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  Cl u0 p3 c0 {5,S}
@@ -51655,7 +51655,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -47.36 kcal/mol
 S298: 94.50 cal/mol/K
@@ -51688,7 +51688,7 @@ Frequencies (cm^-1) = 151.5,170.4,204.9,258.5,300.6,418.6,485.4,560.3,672.1,724.
 entry(
     index = 911,
     label = "F[CH]C(Cl)COBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -51716,7 +51716,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -29.31 kcal/mol
 S298: 99.41 cal/mol/K
@@ -51749,7 +51749,7 @@ Frequencies (cm^-1) = 192.1,195.4,266.5,344.3,380.4,509.1,547.3,583.3,626.0,894.
 entry(
     index = 912,
     label = "CC[C](Br)C(F)Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -51779,7 +51779,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -36.78 kcal/mol
 S298: 101.78 cal/mol/K
@@ -51814,7 +51814,7 @@ Frequencies (cm^-1) = 101.2,205.1,234.8,275.7,344.0,398.4,504.2,598.8,687.4,781.
 entry(
     index = 913,
     label = "CC(Cl)(Br)CCF",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {4,S}
 2  Cl u0 p3 c0 {4,S}
@@ -51844,7 +51844,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -78.08 kcal/mol
 S298: 96.54 cal/mol/K
@@ -51880,7 +51880,7 @@ Frequencies (cm^-1) = 148.3,215.3,259.9,290.6,297.9,368.1,479.7,542.0,611.5,807.
 entry(
     index = 914,
     label = "FC(Cl)C#COBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 Cl u0 p3 c0 {5,S}
@@ -51904,7 +51904,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: 9.53 kcal/mol
 S298: 97.70 cal/mol/K

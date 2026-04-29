@@ -22,7 +22,7 @@ entry(
     rank = 10,
     shortDesc = u"""Default""",
     longDesc = u"""
-Automatic mechanism generation involving 
+Automatic mechanism generation involving
 kinetics of surface reactions with bidentate adsorbates
 Authors:  B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith
 doi:10.1039/d3dd00184a
@@ -44,7 +44,7 @@ entry(
     rank = 10,
     shortDesc = u"""Default""",
     longDesc = u"""
-Automatic mechanism generation involving 
+Automatic mechanism generation involving
 kinetics of surface reactions with bidentate adsorbates
 Authors:  B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith
 doi:10.1039/d3dd00184a
@@ -66,7 +66,7 @@ entry(
     rank = 10,
     shortDesc = u"""Default""",
     longDesc = u"""
-Automatic mechanism generation involving 
+Automatic mechanism generation involving
 kinetics of surface reactions with bidentate adsorbates
 Authors:  B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith
 doi:10.1039/d3dd00184a

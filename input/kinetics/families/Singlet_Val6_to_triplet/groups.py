@@ -23,7 +23,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "singlet",
-    group = 
+    group =
 """
 1 *1 [O2d,S2d] u0 p2 c0 {2,D}
 2 *2 [O2d,S2d] u0 p2 c0 {1,D}
@@ -34,7 +34,7 @@ entry(
 entry(
     index = 1,
     label = "O2",
-    group = 
+    group =
 """
 1 *1 O2d u0 p2 c0 {2,D}
 2 *2 O2d u0 p2 c0 {1,D}
@@ -45,7 +45,7 @@ entry(
 entry(
     index = 2,
     label = "S2",
-    group = 
+    group =
 """
 1 *1 S2d u0 p2 c0 {2,D}
 2 *2 S2d u0 p2 c0 {1,D}
@@ -56,7 +56,7 @@ entry(
 entry(
     index = 3,
     label = "SO",
-    group = 
+    group =
 """
 1 *1 S2d u0 p2 c0 {2,D}
 2 *2 O2d u0 p2 c0 {1,D}

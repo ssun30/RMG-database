@@ -8,7 +8,7 @@ A bidentate species with a single bond dissociates. The reverse reaction is when
 
  *1--*2             *1   +  *2
   |  |     ---->    ||       ||
-~*3~~*4~~          ~*3~~ +  ~*4~~ 
+~*3~~*4~~          ~*3~~ +  ~*4~~
 
 The rate, which should be in mol/m2/s,
 will be given by k * (mol/m2)

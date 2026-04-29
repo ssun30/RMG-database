@@ -2,7 +2,7 @@
 # This file contains the script used by GitHub actions to execute the Continuous Integration (CI)
 # for RMG-database. This includes building RMG and its dependencies, executing the unit tests,
 # functional tests, database tests, and regression tests.
-# 
+#
 # This will run automatically on any push to any branch, but will only run one instance of
 # itself at a time per branch (to avoid spawning tons of runners, which prevents them from
 # executing).
@@ -15,7 +15,7 @@
 #
 # Changelog:
 # 2023-10    - Copied from RMG-Py, adapted for RMG-database
-# 2024/10/02  Mambaforge is deprecated. Use Miniforge3 instead. 
+# 2024/10/02  Mambaforge is deprecated. Use Miniforge3 instead.
 
 name: Continuous Integration
 
@@ -50,7 +50,7 @@ jobs:
     runs-on: ubuntu-latest
     # skip scheduled runs from forks
     if: ${{ !( github.repository != 'ReactionMechanismGenerator/RMG-database' && github.event_name == 'schedule' ) }}
-    env: 
+    env:
       # This is true only if this is a reference case for the regression testing:
       REFERENCE_JOB: ${{ github.ref == 'refs/heads/main' && github.repository == 'ReactionMechanismGenerator/RMG-database' }}
     defaults:
@@ -108,7 +108,7 @@ jobs:
         timeout-minutes: 120 # this usually takes 20-45 minutes (or hangs for 6+ hours).
         run: |
           . install_rms.sh
-          
+
       - name: Install Q2DTor
         run: echo "" | make q2dtor
 

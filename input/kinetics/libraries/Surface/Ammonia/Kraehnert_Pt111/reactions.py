@@ -4,9 +4,9 @@
 name = "Kraehnert_Pt111"
 shortDesc = u""
 longDesc = u"""
-Based primarily on 
+Based primarily on
 "Kinetics of ammonia oxidation over Pt foil studied in a micro-structured quartz-reactor"
-Kraehnert et al.(2008) 
+Kraehnert et al.(2008)
 Chemical Engineering Journal,137(2), 361-375
 https://doi.org/10.1016/j.cej.2007.05.005
 """
@@ -15,16 +15,16 @@ entry(
     index = 1,
     label = "NH3_X <=> NH3 + X",
     kinetics = SurfaceArrhenius(
-        A = (1.48E9, '1/s'),  
+        A = (1.48E9, '1/s'),
         n = 0.0,
-        Ea = (60900, 'J/mol'),  
+        Ea = (60900, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Surface_Adsorption_vdW""",
     longDesc = u"""
 "Kinetics of ammonia oxidation over Pt foil studied in a micro-structured quartz-reactor"
-Kraehnert et al.(2008) 
+Kraehnert et al.(2008)
 Chemical Engineering Journal,137(2), 361-375
 https://doi.org/10.1016/j.cej.2007.05.005
 
@@ -40,16 +40,16 @@ entry(
     index = 2,
     label = "O2 + X + X <=> O_X + O_X",
     kinetics = StickingCoefficient(
-        A = 0.16293,  
+        A = 0.16293,
         n = 0.0,
-        Ea = (181000, 'J/mol'),  
+        Ea = (181000, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""O2 Surface_Adsorption_Dissociative""",
     longDesc = u"""
 "Kinetics of ammonia oxidation over Pt foil studied in a micro-structured quartz-reactor"
-Kraehnert et al.(2008) 
+Kraehnert et al.(2008)
 Chemical Engineering Journal,137(2), 361-375
 https://doi.org/10.1016/j.cej.2007.05.005
 
@@ -64,16 +64,16 @@ entry(
     index = 3,
     label = "NO_X <=> NO + X",
     kinetics = SurfaceArrhenius(
-        A = (2.41E16, '1/s'),  
+        A = (2.41E16, '1/s'),
         n = 0.0,
-        Ea = (154800, 'J/mol'),  
+        Ea = (154800, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Surface_Adsorption_Single""",
     longDesc = u"""
 "Kinetics of ammonia oxidation over Pt foil studied in a micro-structured quartz-reactor"
-Kraehnert et al.(2008) 
+Kraehnert et al.(2008)
 Chemical Engineering Journal,137(2), 361-375
 https://doi.org/10.1016/j.cej.2007.05.005
 
@@ -89,16 +89,16 @@ entry(
     index = 4,
     label = "N_X + N_X <=> N2 + X + X",
     kinetics = SurfaceArrhenius(
-        A = (6.96E16, 'cm^2/(mol*s)'),  
+        A = (6.96E16, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (139000, 'J/mol'),  
+        Ea = (139000, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""N2 Surface_Adsorption_Dissociative""",
     longDesc = u"""
 "Kinetics of ammonia oxidation over Pt foil studied in a micro-structured quartz-reactor"
-Kraehnert et al.(2008) 
+Kraehnert et al.(2008)
 Chemical Engineering Journal,137(2), 361-375
 https://doi.org/10.1016/j.cej.2007.05.005
 
@@ -114,16 +114,16 @@ entry(
     index = 5,
     label = "N_X + O_X <=> NO_X + X",
     kinetics = SurfaceArrhenius(
-        A = (5.14E15, 'cm^2/(mol*s)'),  
+        A = (5.14E15, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (135300, 'J/mol'),  
+        Ea = (135300, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Nitrogen/51""",
     longDesc = u"""
 "Kinetics of ammonia oxidation over Pt foil studied in a micro-structured quartz-reactor"
-Kraehnert et al.(2008) 
+Kraehnert et al.(2008)
 Chemical Engineering Journal,137(2), 361-375
 https://doi.org/10.1016/j.cej.2007.05.005
 
@@ -139,16 +139,16 @@ entry(
     index = 6,
     label = "N_X + NO_X <=> N2O + X + X",
     kinetics = SurfaceArrhenius(
-        A = (1.09E17, 'cm^2/(mol*s)'),  
+        A = (1.09E17, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (155200, 'J/mol'),  
+        Ea = (155200, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Default""",
     longDesc = u"""
 "Kinetics of ammonia oxidation over Pt foil studied in a micro-structured quartz-reactor"
-Kraehnert et al.(2008) 
+Kraehnert et al.(2008)
 Chemical Engineering Journal,137(2), 361-375
 https://doi.org/10.1016/j.cej.2007.05.005
 

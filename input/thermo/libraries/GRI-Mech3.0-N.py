@@ -4,14 +4,14 @@
 name = "GRI-Mech3.0-N"
 shortDesc = u"An optimized detailed reaction mechanism for natural gas combustion in flames and ignition."
 longDesc = u"""
-The thermodynamic and kinetic parameters in the GRI-Mech 3.0 mechanism have 
-been collectively estimated from literature search and then optimized to a set 
+The thermodynamic and kinetic parameters in the GRI-Mech 3.0 mechanism have
+been collectively estimated from literature search and then optimized to a set
 of representative experimental targets. For this reason you should generally
 use GRI-Mech in its entirety, and generally should not tweak any of its
 parameter values.
 
 GRI-Mech is the result of collaborative research of the Gas Research Institute
-and carried out at The University of California at Berkeley, Stanford 
+and carried out at The University of California at Berkeley, Stanford
 University, The University of Texas at Austin, and SRI International.
 
 This method seems to use direct thermo data instead of NASA Polynomials (that GRI-Mech3.0 uses)
@@ -19,7 +19,7 @@ This method seems to use direct thermo data instead of NASA Polynomials (that GR
 entry(
     index = 0,
     label = "C(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p1 c0
@@ -31,7 +31,7 @@ multiplicity 3
         S298 = (37.7801,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -40,7 +40,7 @@ u"""
 entry(
     index = 1,
     label = "C2H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u0 p0 c0 {2,S}
@@ -54,7 +54,7 @@ multiplicity 2
         S298 = (50.9787,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -63,7 +63,7 @@ u"""
 entry(
     index = 2,
     label = "C2H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -77,7 +77,7 @@ entry(
         S298 = (48.01,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -86,7 +86,7 @@ u"""
 entry(
     index = 3,
     label = "CH2CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,D}
@@ -101,7 +101,7 @@ entry(
         S298 = (57.7998,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -110,7 +110,7 @@ u"""
 entry(
     index = 4,
     label = "HCCOH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -125,7 +125,7 @@ entry(
         S298 = (56.2443,'cal/(mol*K)'),
     ),
     shortDesc = u"""Neither TRange included 298K!""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -134,7 +134,7 @@ u"""
 entry(
     index = 5,
     label = "C2H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u0 p0 c0 {2,S}
@@ -150,7 +150,7 @@ multiplicity 2
         S298 = (55.8909,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -159,7 +159,7 @@ u"""
 entry(
     index = 6,
     label = "CH2CHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -176,7 +176,7 @@ multiplicity 2
         S298 = (63.9953,'cal/(mol*K)'),
     ),
     shortDesc = u"""Neither TRange included 298K!""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -185,7 +185,7 @@ u"""
 entry(
     index = 7,
     label = "C2H4",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {3,S}
 2 H u0 p0 c0 {3,S}
@@ -201,7 +201,7 @@ entry(
         S298 = (52.4085,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -210,7 +210,7 @@ u"""
 entry(
     index = 8,
     label = "CH3CHO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -227,7 +227,7 @@ entry(
         S298 = (63.073,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -236,7 +236,7 @@ u"""
 entry(
     index = 9,
     label = "C2H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -254,7 +254,7 @@ multiplicity 2
         S298 = (59.0506,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -263,7 +263,7 @@ u"""
 entry(
     index = 10,
     label = "C2H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -281,7 +281,7 @@ entry(
         S298 = (54.7727,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -290,7 +290,7 @@ u"""
 entry(
     index = 11,
     label = "HCCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u0 p0 c0 {2,S}
@@ -305,7 +305,7 @@ multiplicity 2
         S298 = (58.9514,'cal/(mol*K)'),
     ),
     shortDesc = u"""Neither TRange included 298K!""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -314,7 +314,7 @@ u"""
 entry(
     index = 12,
     label = "C3H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  H u0 p0 c0 {1,S}
@@ -335,7 +335,7 @@ entry(
         S298 = (64.5594,'cal/(mol*K)'),
     ),
     shortDesc = u"""Neither TRange included 298K!""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -344,7 +344,7 @@ u"""
 entry(
     index = 13,
     label = "CH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p1 c0 {2,S}
@@ -357,7 +357,7 @@ multiplicity 2
         S298 = (43.7385,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -366,7 +366,7 @@ u"""
 entry(
     index = 14,
     label = "CH2(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -379,7 +379,7 @@ entry(
         S298 = (45.2159,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -388,7 +388,7 @@ u"""
 entry(
     index = 15,
     label = "CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -402,7 +402,7 @@ multiplicity 3
         S298 = (46.4583,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -411,7 +411,7 @@ u"""
 entry(
     index = 16,
     label = "H2CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u0 p0 c0 {3,S}
@@ -426,7 +426,7 @@ multiplicity 2
         S298 = (53.5877,'cal/(mol*K)'),
     ),
     shortDesc = u"""Neither TRange included 298K!""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -435,7 +435,7 @@ u"""
 entry(
     index = 17,
     label = "CH2O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 H u0 p0 c0 {1,S}
@@ -449,7 +449,7 @@ entry(
         S298 = (52.2757,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -458,7 +458,7 @@ u"""
 entry(
     index = 18,
     label = "CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -473,7 +473,7 @@ multiplicity 2
         S298 = (46.3598,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -482,7 +482,7 @@ u"""
 entry(
     index = 19,
     label = "CH3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -498,7 +498,7 @@ multiplicity 2
         S298 = (54.5988,'cal/(mol*K)'),
     ),
     shortDesc = u"""Neither TRange included 298K!""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -507,7 +507,7 @@ u"""
 entry(
     index = 20,
     label = "CH2OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -523,7 +523,7 @@ multiplicity 2
         S298 = (58.286,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -532,7 +532,7 @@ u"""
 entry(
     index = 21,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -547,7 +547,7 @@ entry(
         S298 = (44.5349,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -556,7 +556,7 @@ u"""
 entry(
     index = 22,
     label = "CH3OH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -572,7 +572,7 @@ entry(
         S298 = (57.3045,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -581,7 +581,7 @@ u"""
 entry(
     index = 23,
     label = "HCN",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -594,7 +594,7 @@ entry(
         S298 = (48.2276,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -603,7 +603,7 @@ u"""
 entry(
     index = 24,
     label = "HCNN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u0 p0 c0 {2,S}
@@ -618,7 +618,7 @@ multiplicity 2
         S298 = (59.7661,'cal/(mol*K)'),
     ),
     shortDesc = u"""Neither TRange included 298K!""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -627,7 +627,7 @@ u"""
 entry(
     index = 25,
     label = "HNCO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -641,7 +641,7 @@ entry(
         S298 = (57.5248,'cal/(mol*K)'),
     ),
     shortDesc = u"""Neither TRange included 298K!""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -650,7 +650,7 @@ u"""
 entry(
     index = 26,
     label = "HOCN",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -664,7 +664,7 @@ entry(
         S298 = (57.8538,'cal/(mol*K)'),
     ),
     shortDesc = u"""Neither TRange included 298K!""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -673,7 +673,7 @@ u"""
 entry(
     index = 27,
     label = "HCNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 N u0 p0 c+1 {1,T} {4,S}
@@ -687,7 +687,7 @@ entry(
         S298 = (57.9949,'cal/(mol*K)'),
     ),
     shortDesc = u"""Neither TRange included 298K!""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -696,7 +696,7 @@ u"""
 entry(
     index = 28,
     label = "HCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u0 p0 c0 {2,S}
@@ -710,7 +710,7 @@ multiplicity 2
         S298 = (53.6078,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -719,7 +719,7 @@ u"""
 entry(
     index = 29,
     label = "NCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,T}
@@ -733,7 +733,7 @@ multiplicity 2
         S298 = (55.5305,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -742,7 +742,7 @@ u"""
 entry(
     index = 30,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
@@ -754,7 +754,7 @@ entry(
         S298 = (47.2322,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -763,7 +763,7 @@ u"""
 entry(
     index = 31,
     label = "CO2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 O u0 p2 c0 {1,D}
@@ -776,7 +776,7 @@ entry(
         S298 = (51.0868,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -785,7 +785,7 @@ u"""
 entry(
     index = 32,
     label = "H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -797,7 +797,7 @@ multiplicity 2
         S298 = (27.4128,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -806,7 +806,7 @@ u"""
 entry(
     index = 33,
     label = "H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -818,7 +818,7 @@ entry(
         S298 = (31.2263,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -827,7 +827,7 @@ u"""
 entry(
     index = 34,
     label = "NH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,S} {3,S}
@@ -841,7 +841,7 @@ multiplicity 2
         S298 = (46.596,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -850,7 +850,7 @@ u"""
 entry(
     index = 35,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -863,7 +863,7 @@ entry(
         S298 = (45.1219,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -872,7 +872,7 @@ u"""
 entry(
     index = 36,
     label = "H2O2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -886,7 +886,7 @@ entry(
         S298 = (56.0421,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -895,7 +895,7 @@ u"""
 entry(
     index = 37,
     label = "NH3",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 H u0 p0 c0 {1,S}
@@ -909,7 +909,7 @@ entry(
         S298 = (46.0646,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -918,7 +918,7 @@ u"""
 entry(
     index = 38,
     label = "NH",
-    molecule = 
+    molecule =
 """
 1 N u2 p1 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -930,7 +930,7 @@ entry(
         S298 = (43.3053,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -939,7 +939,7 @@ u"""
 entry(
     index = 39,
     label = "NNH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -953,7 +953,7 @@ multiplicity 2
         S298 = (53.6481,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -962,7 +962,7 @@ u"""
 entry(
     index = 40,
     label = "HNO",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -975,7 +975,7 @@ entry(
         S298 = (52.7907,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -984,7 +984,7 @@ u"""
 entry(
     index = 41,
     label = "OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -997,7 +997,7 @@ multiplicity 2
         S298 = (43.9063,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1006,7 +1006,7 @@ u"""
 entry(
     index = 42,
     label = "HO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u0 p0 c0 {2,S}
@@ -1020,7 +1020,7 @@ multiplicity 2
         S298 = (54.7475,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1029,7 +1029,7 @@ u"""
 entry(
     index = 43,
     label = "N",
-    molecule = 
+    molecule =
 """
 multiplicity 4
 1 N u3 p1 c0
@@ -1041,7 +1041,7 @@ multiplicity 4
         S298 = (36.6336,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1050,7 +1050,7 @@ u"""
 entry(
     index = 44,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -1062,7 +1062,7 @@ entry(
         S298 = (45.7646,'cal/(mol*K)'),
     ),
     shortDesc = u"""Neither TRange included 298K!""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1071,7 +1071,7 @@ u"""
 entry(
     index = 45,
     label = "N2O",
-    molecule = 
+    molecule =
 """
 1 N u0 p2 c-1 {2,D}
 2 N u0 p0 c+1 {1,D} {3,D}
@@ -1084,7 +1084,7 @@ entry(
         S298 = (52.574,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1093,7 +1093,7 @@ u"""
 entry(
     index = 46,
     label = "NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -1106,7 +1106,7 @@ multiplicity 2
         S298 = (50.3605,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1115,7 +1115,7 @@ u"""
 entry(
     index = 47,
     label = "NO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,D} {3,S}
@@ -1129,7 +1129,7 @@ multiplicity 2
         S298 = (57.3913,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1138,7 +1138,7 @@ u"""
 entry(
     index = 48,
     label = "O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -1150,7 +1150,7 @@ multiplicity 3
         S298 = (38.4879,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1159,7 +1159,7 @@ u"""
 entry(
     index = 49,
     label = "O2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -1172,7 +1172,7 @@ multiplicity 3
         S298 = (49.0236,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1181,7 +1181,7 @@ u"""
 entry(
     index = 50,
     label = "CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,T}
@@ -1194,7 +1194,7 @@ multiplicity 2
         S298 = (48.4238,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

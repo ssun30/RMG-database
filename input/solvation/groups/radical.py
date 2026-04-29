@@ -4,7 +4,7 @@
 name = "Radical Groups"
 shortDesc = u"Radical corrections to A"
 longDesc = u"""
-H-bonding parameter A should be modified for when we saturate 
+H-bonding parameter A should be modified for when we saturate
 radical molecules with hydrogens and look up the saturated
 structure.
 """
@@ -12,14 +12,14 @@ structure.
 entry(
 	index = 0,
 	label = "R_rad",
-	group = 
+	group =
 """
 1 * R u1
 """,
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28,14 +28,14 @@ u"""
 entry(
 	index = 1,
 	label = "O_rad",
-	group = 
+	group =
 """
 1 * O u1 p2
 """,
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -44,7 +44,7 @@ u"""
 entry(
 	index = 2,
 	label = "ROJ",
-	group = 
+	group =
 """
 1 * O u1 p2 c0 {2,S}
 2   R u0 {1,S}
@@ -58,7 +58,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -67,7 +67,7 @@ u"""
 entry(
 	index = 3,
 	label = "ROOJ",
-	group = 
+	group =
 """
 1 * O u1 p2 c0 {2,S}
 2   O u0 p2 {1,S} {3,S}
@@ -82,7 +82,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -91,7 +91,7 @@ u"""
 entry(
 	index = 4,
 	label = "RC(O)OJ",
-	group = 
+	group =
 """
 1 * O u1 p2 c0 {2,S}
 2   C u0 p0 {1,S} {3,D} {4,S}
@@ -107,7 +107,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -116,9 +116,9 @@ u"""
 entry(
 	index = 5,
 	label = "N3s_rad",
-	group = 
+	group =
 """
-1 * N3s u1 p1 
+1 * N3s u1 p1
 """,
 	solute = SoluteData(
 		S = 0.0,
@@ -129,7 +129,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -138,7 +138,7 @@ u"""
 entry(
 	index = 6,
 	label = "N3_pyrrole",
-	group = 
+	group =
 """
 1 * N3s u1 p1 {2,S} {3,S}
 2   Cb  u0 {1,S} {4,B}
@@ -155,7 +155,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -164,7 +164,7 @@ u"""
 entry(
 	index = 7,
 	label = "phenoxy",
-	group = 
+	group =
 """
 1 * O  u1 p2 c0 {2,S}
 2   Cb u0 {1,S}
@@ -178,7 +178,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -187,7 +187,7 @@ u"""
 entry(
 	index = 8,
 	label = "N3_aniline",
-	group = 
+	group =
 """
 1 * N3s u1 p1 c0 {2,S} {3,S}
 2   H   u0 p0 c0 {1,S}
@@ -207,7 +207,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -216,7 +216,7 @@ u"""
 entry(
 	index = 9,
 	label = "N3_amide_pri",
-	group = 
+	group =
 """
 1 * N3s u1 p1 c0 {2,S} {3,S}
 2   H   u0 p0 c0 {1,S}
@@ -232,7 +232,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -241,7 +241,7 @@ u"""
 entry(
 	index = 10,
 	label = "N3_amide_sec",
-	group = 
+	group =
 """
 1 * N3s u1 p1 c0 {2,S} {3,S}
 2   R!H u0 {1,S}
@@ -257,7 +257,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -266,7 +266,7 @@ u"""
 entry(
 	index = 11,
 	label = "N3_amide_aromatic",
-	group = 
+	group =
 """
 1 * N3s	  u1 p1 c0 {2,S} {3,S}
 2   [Cb,N3b] u0 {1,S}
@@ -282,7 +282,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -291,7 +291,7 @@ u"""
 entry(
 	index = 12,
 	label = "N3_urea_pri",
-	group = 
+	group =
 """
 1 * N3s u1 p1 c0 {2,S} {3,S}
 2   R!H u0 p0 c0 {1,S}
@@ -309,7 +309,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -318,7 +318,7 @@ u"""
 entry(
 	index = 13,
 	label = "N3_urea_sec",
-	group = 
+	group =
 """
 1 * N3s u1 p1 c0 {2,S} {3,S}
 2   R!H u0 p0 c0 {1,S}
@@ -337,7 +337,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -346,7 +346,7 @@ u"""
 entry(
 	index = 14,
 	label = "N3d_guanidine",
-	group = 
+	group =
 """
 1   Cd  u0 {2,D} {3,S} {4,S}
 2 * N3d u1 {1,D}
@@ -366,7 +366,7 @@ entry(
 	),
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,

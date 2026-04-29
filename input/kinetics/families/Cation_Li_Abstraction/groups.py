@@ -32,7 +32,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *1 R        u0 {2,S}
 2 *2 [Cl,F,H] u0 {1,S}
@@ -44,7 +44,7 @@ entry(
 entry(
     index = 1,
     label = "Root_2ClFH->H",
-    group = 
+    group =
 """
 1 *1 C  u0 r0 {2,S}
 2 *2 H  u0 r0 {1,S}
@@ -56,7 +56,7 @@ entry(
 entry(
     index = 2,
     label = "Root_N-2ClFH->H",
-    group = 
+    group =
 """
 1 *1 C      u0 {2,S}
 2 *2 [Cl,F] u0 {1,S}
@@ -68,7 +68,7 @@ entry(
 entry(
     index = 3,
     label = "Root_N-2ClFH->H_2ClF->Cl",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S}
 2 *2 Cl u0 {1,S}
@@ -80,7 +80,7 @@ entry(
 entry(
     index = 4,
     label = "Root_N-2ClFH->H_N-2ClF->Cl",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S}
 2 *2 F  u0 {1,S}

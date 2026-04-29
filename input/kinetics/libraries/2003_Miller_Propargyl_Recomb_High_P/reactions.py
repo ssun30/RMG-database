@@ -5,7 +5,7 @@ name = "2003_Miller_Propargyl_Recomb_High_P"
 shortDesc = u"Propargyl Radical Recombination to form Fulvene and Benzene"
 longDesc = u"""
 TST rates calculated from QM calculations of:
-Miller, J. A.; Klippenstein, S. J., The Recombination of Propargyl Radicals and Other Reactions on a C6H6 Potential. 
+Miller, J. A.; Klippenstein, S. J., The Recombination of Propargyl Radicals and Other Reactions on a C6H6 Potential.
 J. Phys. Chem. A 2003, 107, 7783-7799.
 """
 entry(

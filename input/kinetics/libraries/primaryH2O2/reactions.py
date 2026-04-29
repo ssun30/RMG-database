@@ -11,9 +11,9 @@ Based on:
 [Klippenstein2022] S.J. Klippenstein, R. Sivaramakrishnan, U. Burke, K.P. Somers, H.J. Curran, L. Cai, H. Pitsch,
     M. Pelucchi, T. Faravelli, P. Glarborg, "HO2 + HO2: High level theory and the role of singlet channels",
     Combustion and Flame 2022, 243, 111975, doi: 10.1016/j.combustflame.2021.111975
-[Konnov2015] A.A. Konnov, "On the role of excited species in hydrogen combustion", Combustion and Flame 2015, 
+[Konnov2015] A.A. Konnov, "On the role of excited species in hydrogen combustion", Combustion and Flame 2015,
     162, 3755-3772, doi: 10.1016/j.combustflame.2015.07.014
-[Konnov2019] A.A. Konnov, "Yet another kinetic mechanism for hydrogen combustion", Combustion and Flame 2019, 
+[Konnov2019] A.A. Konnov, "Yet another kinetic mechanism for hydrogen combustion", Combustion and Flame 2019,
     203, 14-22, doi: 10.1016/j.combustflame.2019.01.032
 [Tsang1986] W. Tsang, R.F. Hampson, "Chemical Kinetic Data Base for Combustion Chemistry. Part I. Methane and Related Compounds",
     Journal of Physical and Chemical Reference Data, 1986,  15, 1087–1279, doi: 10.1063/1.555759
@@ -161,7 +161,7 @@ entry(
     shortDesc=u"""[Konnov2019]""",
     longDesc=u"""
 Table 1, Reaction 6
-The value of T3 was calculated with the first factor of the Lindemann model and an Fcent 
+The value of T3 was calculated with the first factor of the Lindemann model and an Fcent
 value of 0.5 specified in the Konnov 2019 paper.
 """,
 )
@@ -390,7 +390,7 @@ entry(
                              Tmin=(80, 'K'), Tmax=(1500, 'K'))]),
     shortDesc=u"""[Konnov2015]""",
     longDesc=u"""
-Duplicated reaction of Konnov (2015) https://doi.org/10.1016/j.combustflame.2015.07.014, Table 1, 
+Duplicated reaction of Konnov (2015) https://doi.org/10.1016/j.combustflame.2015.07.014, Table 1,
 Reaction 21a using He as a collider instead of Ar since it is expected to behave similarly as Ar in terms
 of energy transfer.
 """,
@@ -420,7 +420,7 @@ entry(
     kinetics=Arrhenius(A=(100, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     shortDesc=u"""[Konnov2015]""",
     longDesc=u"""
-    Table 2, Reaction X15 
+    Table 2, Reaction X15
     No data was given, the rate is very low.
     """,
 )

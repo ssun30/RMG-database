@@ -36,7 +36,7 @@ entry(
     rank = 10,
     shortDesc = u"""H2 dissociative adsorption""",
     longDesc = u"""
-    Parameters are from Carvalho et al. "Microkinetic Modeling and Reduced Rate Expression of the Water–Gas Shift Reaction on Nickel", Ind. Eng. Chem. Res. 2018, 57, 31, 10269-10280, DOI:10.1021/acs.iecr.8b01957. Metal is Ni(111). 
+    Parameters are from Carvalho et al. "Microkinetic Modeling and Reduced Rate Expression of the Water–Gas Shift Reaction on Nickel", Ind. Eng. Chem. Res. 2018, 57, 31, 10269-10280, DOI:10.1021/acs.iecr.8b01957. Metal is Ni(111).
     """
 )
 

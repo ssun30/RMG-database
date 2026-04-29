@@ -31,7 +31,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010565
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010565/rk00000001.xml
@@ -63,7 +63,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010505
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010505/rk00000001.xml
@@ -98,7 +98,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00012711
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012711/rk00000001.xml
@@ -129,7 +129,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015630
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000001.xml
@@ -159,7 +159,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015630
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015630/rk00000002.xml
@@ -191,7 +191,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011212
 Bath gas: H2S
@@ -225,7 +225,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011212
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011212/rk00000001.xml
@@ -258,7 +258,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011212
 Pressure dependence: Rate constant is high pressure limit
@@ -292,7 +292,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011212
 Pressure dependence: Rate constant is high pressure limit
@@ -328,7 +328,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011212
 Bath gas: H2S
@@ -360,7 +360,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010707
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010707/rk00000001.xml
@@ -393,7 +393,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00012770
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012770/rk00000001.xml
@@ -428,7 +428,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011467
 Bath gas: n-C5H12
@@ -460,7 +460,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011467
 Uncertainty: 10.0
@@ -495,7 +495,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011467
 Bath gas: CO2
@@ -529,7 +529,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011467
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011467/rk00000001.xml
@@ -562,7 +562,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011467
 Pressure dependence: Rate constant is high pressure limit
@@ -596,7 +596,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011467
 Pressure dependence: Rate constant is high pressure limit
@@ -630,7 +630,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011467
 Bath gas: Products
@@ -661,7 +661,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011467
 """,
@@ -690,7 +690,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011468
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011468/rk00000001.xml
@@ -725,7 +725,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015924
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000001.xml
@@ -756,7 +756,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015924
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000002.xml
@@ -789,7 +789,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015924
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000003.xml
@@ -823,7 +823,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015924
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000005.xml
@@ -841,7 +841,7 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
 
 It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
 In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
 )
@@ -869,7 +869,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015924
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015924/rk00000010.xml
@@ -904,7 +904,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Relative value normalized by a reference value""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011474
 Uncertainty: 1.5
@@ -916,7 +916,7 @@ Analytical technique: Gas chromatography
 
 The high pressure rate expression is based on an RRKM/Master Equation analysis of the the data taken at 1.5 to 5 bar and 890-1020 K. Absolute values were derived assuming
 k(1-hexyl -> n-butyl + ethene)/s-1= 1.02x1012T0.30exp(-13726/T)
-This expression was derived via detailed balance and low temperature data on the reverse addition 
+This expression was derived via detailed balance and low temperature data on the reverse addition
 (Kerr&Parsonage;, Evaluated Kinetic Data ..., Butterworth, London, 1972).
 
 1-hexyl was generated from the n-hexyl iodide and the products of isomerization and decomposition determined. An RRKM model was developed and high pressure rate constants determined normalizing the relative rates against literature values for beta bond fission reactions for the radical. Tabular results for fall-off effect are presented for T = 500-1900 K and pressures of 0.1 - 1000 bar.
@@ -948,7 +948,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011474
 Uncertainty: 2.0
@@ -983,7 +983,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011474
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011474/rk00000001.xml
@@ -1016,7 +1016,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011474
 Bath gas: Products
@@ -1049,7 +1049,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011474
 Bath gas: N2
@@ -1081,7 +1081,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011474
 Bath gas: N2
@@ -1109,7 +1109,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00000088
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000088/rk00000001.xml
@@ -1127,7 +1127,7 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
 
 It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
 In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
 )
@@ -1153,7 +1153,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00000089
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000089/rk00000001.xml
@@ -1171,7 +1171,7 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
 
 It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
 In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
 )
@@ -1201,7 +1201,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015688
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015688/rk00000001.xml
@@ -1234,7 +1234,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000001.xml
@@ -1265,7 +1265,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015689/rk00000002.xml
@@ -1300,7 +1300,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016683
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016683/rk00000001.xml
@@ -1331,7 +1331,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00017157
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000001.xml
@@ -1349,7 +1349,7 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
 
 It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
 In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
 )
@@ -1379,7 +1379,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00017157
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017157/rk00000005.xml
@@ -1415,7 +1415,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016217
 Uncertainty: 10.0
@@ -1450,7 +1450,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016217
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016217/rk00000002.xml
@@ -1485,7 +1485,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016217
 
@@ -1520,7 +1520,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016217
 
@@ -1551,7 +1551,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00000087
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000087/rk00000001.xml
@@ -1569,7 +1569,7 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
 
 It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
 In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
 )
@@ -1595,7 +1595,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00000091
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000091/rk00000001.xml
@@ -1613,7 +1613,7 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
 
 It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
 In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
 )
@@ -1634,7 +1634,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00000092
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000092/rk00000001.xml
@@ -1652,7 +1652,7 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
 
 It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
 In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
 )
@@ -1678,7 +1678,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00000093
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000093/rk00000001.xml
@@ -1696,7 +1696,7 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
 
 It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
 In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
 )
@@ -1722,7 +1722,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00000094
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000094/rk00000001.xml
@@ -1740,7 +1740,7 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
 
 It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
 In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
 )
@@ -1766,7 +1766,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00000033
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000033/rk00000001.xml
@@ -1784,7 +1784,7 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
 
 It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
 In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
 )
@@ -1810,7 +1810,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00000034
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000034/rk00000001.xml
@@ -1828,7 +1828,7 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
 
 It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
 In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
 )
@@ -1856,7 +1856,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010491
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010491/rk00000001.xml
@@ -1893,7 +1893,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010492
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010492/rk00000001.xml
@@ -1930,7 +1930,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010493
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010493/rk00000001.xml
@@ -1969,7 +1969,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011969
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011969/rk00000001.xml
@@ -2005,7 +2005,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00017030
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017030/rk00000001.xml
@@ -2041,7 +2041,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00017124
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017124/rk00000001.xml
@@ -2075,7 +2075,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00017124
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00017124/rk00000002.xml
@@ -2105,7 +2105,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00000090
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000090/rk00000001.xml
@@ -2123,7 +2123,7 @@ The authors estimate uncertainties in calculated rates to be a factor of 5
 
 It is not clear (to R.H.West) that the tunneling corrections were applied to the rate expressions cited here.
 In fact, by crunching the numbers it looks like they were not. The valid temperature range is almost certainly
-not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit 
+not 298-298K, as suggested by NIST. How large it is, however, is personal judgement (or the rates should be refit
 with the tunneling corrections included). DOI: 10.1039/b307708j
 """,
 )

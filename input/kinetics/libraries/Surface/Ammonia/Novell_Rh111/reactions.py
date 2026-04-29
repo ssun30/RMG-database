@@ -14,7 +14,7 @@ entry(
     index = 1,
     label = "NH3_X + X <=> NH2_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (1.31E23, 'cm^2/(mol*s)'), 
+        A = (1.31E23, 'cm^2/(mol*s)'),
         n = -0.791,
         Ea = (100000, 'J/mol'),
         Tmin = (200, 'K'),
@@ -37,7 +37,7 @@ entry(
     index = 2,
     label = "NH2_X + X <=> NH_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (1.23E19, 'cm^2/(mol*s)'), 
+        A = (1.23E19, 'cm^2/(mol*s)'),
         n = 0.902,
         Ea = (84000, 'J/mol'),
         Tmin = (200, 'K'),
@@ -60,7 +60,7 @@ entry(
     index = 3,
     label = "NH_X + X <=> N_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (1.1E19, 'cm^2/(mol*s)'), 
+        A = (1.1E19, 'cm^2/(mol*s)'),
         n = 0.965,
         Ea = (98000, 'J/mol'),
         Tmin = (200, 'K'),

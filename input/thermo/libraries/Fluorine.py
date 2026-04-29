@@ -13,7 +13,7 @@ Recommended for C/H/O/F models
 entry(
     index = 0,
     label = "HF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -30,7 +30,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = u"""71STUPRO""",
-    longDesc = 
+    longDesc =
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -42,7 +42,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 1,
     label = "F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u1 p3 c0
@@ -59,7 +59,7 @@ multiplicity 2
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = u"""71STUPRO""",
-    longDesc = 
+    longDesc =
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -71,7 +71,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 2,
     label = "F2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 F u0 p3 c0 {1,S}
@@ -88,7 +88,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = u"""71STUPRO""",
-    longDesc = 
+    longDesc =
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -100,7 +100,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 3,
     label = "CH3F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -120,7 +120,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""78KOL74CHEROD""",
-    longDesc = 
+    longDesc =
 u"""
 78KOL74CHEROD
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -132,7 +132,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 4,
     label = "CH2F2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {3,S}
@@ -152,7 +152,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""78KOL74CHEROD""",
-    longDesc = 
+    longDesc =
 u"""
 78KOL74CHEROD
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -164,7 +164,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 5,
     label = "CHF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -184,7 +184,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""78KOL74CHEROD""",
-    longDesc = 
+    longDesc =
 u"""
 78KOL74CHEROD
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -196,7 +196,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 6,
     label = "CF4",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -216,7 +216,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""78KOL74CHEROD""",
-    longDesc = 
+    longDesc =
 u"""
 78KOL74CHEROD
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -228,7 +228,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 7,
     label = "CF3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -248,7 +248,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = u"""82MCMGOL71STU""",
-    longDesc = 
+    longDesc =
 u"""
 82MCMGOL71STU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -260,7 +260,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 8,
     label = "CHF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -280,7 +280,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = u"""82MCMGOL96ZAC""",
-    longDesc = 
+    longDesc =
 u"""
 82MCMGOL96ZAC
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -292,7 +292,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 9,
     label = "CH2F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {2,S}
@@ -312,7 +312,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = u"""82MCMGOL96ZAC""",
-    longDesc = 
+    longDesc =
 u"""
 82MCMGOL96ZAC
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -324,7 +324,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 10,
     label = "CHF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 C u0 p1 c0 {1,S} {3,S}
@@ -342,7 +342,7 @@ entry(
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = u"""84PRINIL71STU""",
-    longDesc = 
+    longDesc =
 u"""
 84PRINIL71STU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -354,7 +354,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 11,
     label = "CF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {3,S}
@@ -372,7 +372,7 @@ entry(
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = u"""78ROD71STUPRO""",
-    longDesc = 
+    longDesc =
 u"""
 78ROD71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -384,7 +384,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 12,
     label = "CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {2,S}
@@ -402,7 +402,7 @@ multiplicity 2
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = u"""91GURVEY71STU""",
-    longDesc = 
+    longDesc =
 u"""
 91GURVEY71STU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -414,7 +414,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 13,
     label = "CF3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -435,7 +435,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""82BATWAL96ZAC""",
-    longDesc = 
+    longDesc =
 u"""
 82BATWAL96ZAC
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -447,7 +447,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 14,
     label = "CF2O",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -466,7 +466,7 @@ entry(
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = u"""71STUPRO""",
-    longDesc = 
+    longDesc =
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -478,7 +478,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 15,
     label = "CHFO",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 O u0 p2 c0 {3,D}
@@ -497,7 +497,7 @@ entry(
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = u"""71STUPRO""",
-    longDesc = 
+    longDesc =
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -509,7 +509,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 16,
     label = "CFO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -528,7 +528,7 @@ multiplicity 2
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = u"""71STUPRO""",
-    longDesc = 
+    longDesc =
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -540,7 +540,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 17,
     label = "CH3-CH2F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -563,7 +563,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""75CHEROD""",
-    longDesc = 
+    longDesc =
 u"""
 75CHEROD
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -575,7 +575,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 18,
     label = "CH3-CHF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -598,7 +598,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""75CHEROD""",
-    longDesc = 
+    longDesc =
 u"""
 75CHEROD
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -610,7 +610,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 19,
     label = "CH3-CF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -633,7 +633,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""75CHEROD""",
-    longDesc = 
+    longDesc =
 u"""
 75CHEROD
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -645,7 +645,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 20,
     label = "CH2F-CHF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {5,S}
@@ -668,7 +668,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""68LACSKI96ZAC""",
-    longDesc = 
+    longDesc =
 u"""
 68LACSKI96ZAC
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -680,7 +680,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 21,
     label = "CH2F-CF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {6,S}
@@ -703,7 +703,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""75CHEROD""",
-    longDesc = 
+    longDesc =
 u"""
 75CHEROD
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -715,7 +715,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 22,
     label = "CHF2-CHF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -738,7 +738,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""95BURZAC96ZAC""",
-    longDesc = 
+    longDesc =
 u"""
 95BURZAC96ZAC
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -750,7 +750,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 23,
     label = "CHF2-CF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {6,S}
 2 F u0 p3 c0 {6,S}
@@ -773,7 +773,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""75CHEROD""",
-    longDesc = 
+    longDesc =
 u"""
 75CHEROD
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -785,7 +785,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 24,
     label = "CF3-CF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {7,S}
 2 F u0 p3 c0 {7,S}
@@ -808,7 +808,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""75CHEROD""",
-    longDesc = 
+    longDesc =
 u"""
 75CHEROD
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -820,7 +820,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 25,
     label = "CH3-CHF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -843,7 +843,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""95BURZAC90CHE""",
-    longDesc = 
+    longDesc =
 u"""
 95BURZAC90CHE
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -855,7 +855,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 26,
     label = "CH3-CF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -878,7 +878,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""78ROD90CHERAU""",
-    longDesc = 
+    longDesc =
 u"""
 78ROD90CHERAU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -890,7 +890,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 27,
     label = "CH2F-CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {2,S}
@@ -913,7 +913,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""90CHERAU""",
-    longDesc = 
+    longDesc =
 u"""
 90CHERAU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -925,7 +925,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 28,
     label = "CH2F-CHF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -948,7 +948,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""95BURZAC91CHE""",
-    longDesc = 
+    longDesc =
 u"""
 95BURZAC91CHE
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -960,7 +960,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 29,
     label = "CH2F-CF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -983,7 +983,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""91CHERAU""",
-    longDesc = 
+    longDesc =
 u"""
 91CHERAU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -995,7 +995,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 30,
     label = "CHF2-CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1018,7 +1018,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""90CHERAU""",
-    longDesc = 
+    longDesc =
 u"""
 90CHERAU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1030,7 +1030,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 31,
     label = "CHF2-CHF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -1053,7 +1053,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""91CHERAU""",
-    longDesc = 
+    longDesc =
 u"""
 91CHERAU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1065,7 +1065,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 32,
     label = "CHF2-CF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -1088,7 +1088,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""95BURZAC91CHE""",
-    longDesc = 
+    longDesc =
 u"""
 95BURZAC91CHE
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1100,7 +1100,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 33,
     label = "CF3-CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -1123,7 +1123,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""78ROD90CHERAU""",
-    longDesc = 
+    longDesc =
 u"""
 78ROD90CHERAU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1135,7 +1135,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 34,
     label = "CF3-CHF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -1158,7 +1158,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""95BURZAC91CHE""",
-    longDesc = 
+    longDesc =
 u"""
 95BURZAC91CHE
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1170,7 +1170,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 35,
     label = "CF3-CF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {6,S}
@@ -1193,7 +1193,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""78ROD91CHERAU""",
-    longDesc = 
+    longDesc =
 u"""
 78ROD91CHERAU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1205,7 +1205,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 36,
     label = "CH2CHF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -1226,7 +1226,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = u"""91GURVEY92DAU""",
-    longDesc = 
+    longDesc =
 u"""
 91GURVEY92DAU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1238,7 +1238,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 37,
     label = "CH2CF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -1259,7 +1259,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = u"""91GURVEY69STU""",
-    longDesc = 
+    longDesc =
 u"""
 91GURVEY69STU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1271,7 +1271,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 38,
     label = "CHFCHF[Z]",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {4,S}
@@ -1292,7 +1292,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = u"""82STAVOY95ZA""",
-    longDesc = 
+    longDesc =
 u"""
 82STAVOY95ZA
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1304,7 +1304,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 39,
     label = "CHFCF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {5,S}
@@ -1325,7 +1325,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = u"""91GURVEY69STU""",
-    longDesc = 
+    longDesc =
 u"""
 91GURVEY69STU
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1337,7 +1337,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 40,
     label = "CF2CF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -1358,7 +1358,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = u"""71STUPRO""",
-    longDesc = 
+    longDesc =
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1370,7 +1370,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 41,
     label = "CH2CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1391,7 +1391,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""96ZACWES""",
-    longDesc = 
+    longDesc =
 u"""
 96ZACWES
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1403,7 +1403,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 42,
     label = "CHFCH[Z]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {2,S}
@@ -1424,7 +1424,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""96ZACWES""",
-    longDesc = 
+    longDesc =
 u"""
 96ZACWES
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1436,7 +1436,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 43,
     label = "CHFCF[Z]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1457,7 +1457,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""96ZACWES""",
-    longDesc = 
+    longDesc =
 u"""
 96ZACWES
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1469,7 +1469,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 44,
     label = "CF2CH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1490,7 +1490,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""96ZACWES""",
-    longDesc = 
+    longDesc =
 u"""
 96ZACWES
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1502,7 +1502,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 45,
     label = "C2HF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 C u0 p0 c0 {3,T} {4,S}
@@ -1521,7 +1521,7 @@ entry(
         CpInf = (87.302,'J/mol/K'),
     ),
     shortDesc = u"""71STUPRO""",
-    longDesc = 
+    longDesc =
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1533,7 +1533,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 46,
     label = "C2F2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {4,S}
@@ -1552,7 +1552,7 @@ entry(
         CpInf = (87.302,'J/mol/K'),
     ),
     shortDesc = u"""71STUPRO""",
-    longDesc = 
+    longDesc =
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1564,7 +1564,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 47,
     label = "CHFCO",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 O u0 p2 c0 {4,D}
@@ -1584,7 +1584,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""96ZACWES""",
-    longDesc = 
+    longDesc =
 u"""
 96ZACWES
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1596,7 +1596,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 48,
     label = "CF2CO",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -1616,7 +1616,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""96ZACWES""",
-    longDesc = 
+    longDesc =
 u"""
 96ZACWES
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1628,7 +1628,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 49,
     label = "CFCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1648,7 +1648,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = u"""96ZACWES""",
-    longDesc = 
+    longDesc =
 u"""
 96ZACWES
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1660,7 +1660,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 50,
     label = "CF3COF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {6,S}
 2 F u0 p3 c0 {6,S}
@@ -1682,7 +1682,7 @@ entry(
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""hynes""",
-    longDesc = 
+    longDesc =
 u"""
 hynes
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1694,7 +1694,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 51,
     label = "CF3CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -1716,7 +1716,7 @@ multiplicity 2
         CpInf = (128.874,'J/mol/K'),
     ),
     shortDesc = u"""NIST""",
-    longDesc = 
+    longDesc =
 u"""
 NIST
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1728,7 +1728,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 52,
     label = "CF3CHO",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -1750,7 +1750,7 @@ entry(
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""NIST""",
-    longDesc = 
+    longDesc =
 u"""
 NIST
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1762,7 +1762,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 53,
     label = "CH2(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -1780,7 +1780,7 @@ entry(
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = u"""L S/93""",
-    longDesc = 
+    longDesc =
 u"""
 L S/93.
 [CH2]
@@ -1791,7 +1791,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 54,
     label = "CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -1810,7 +1810,7 @@ multiplicity 3
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = u"""L S/93""",
-    longDesc = 
+    longDesc =
 u"""
 L S/93.
 [CH2]
@@ -1821,7 +1821,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 55,
     label = "AR",
-    molecule = 
+    molecule =
 """
 1 Ar u0 p4 c0
 """,
@@ -1837,7 +1837,7 @@ entry(
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = u"""120186""",
-    longDesc = 
+    longDesc =
 u"""
 120186
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1849,7 +1849,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 56,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -1866,7 +1866,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = u"""121286""",
-    longDesc = 
+    longDesc =
 u"""
 121286
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1878,7 +1878,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 57,
     label = "H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -1895,7 +1895,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = u"""TPIS78""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS78.
 [H][H]
@@ -1906,7 +1906,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 58,
     label = "H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -1923,7 +1923,7 @@ multiplicity 2
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 7/88.
 [H]
@@ -1934,7 +1934,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 59,
     label = "O2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -1952,7 +1952,7 @@ multiplicity 3
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = u"""TPIS89""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS89.
 [O][O]
@@ -1963,7 +1963,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 60,
     label = "O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -1980,7 +1980,7 @@ multiplicity 3
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = u"""L 1/90""",
-    longDesc = 
+    longDesc =
 u"""
 L 1/90
 [O]
@@ -1991,7 +1991,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 61,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -2009,7 +2009,7 @@ entry(
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = u"""L 8/89""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/89.
 O
@@ -2020,7 +2020,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 62,
     label = "OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -2038,7 +2038,7 @@ multiplicity 2
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = u"""RUS 78""",
-    longDesc = 
+    longDesc =
 u"""
 RUS 78.
 [OH]
@@ -2049,7 +2049,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 63,
     label = "H2O2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -2068,7 +2068,7 @@ entry(
         CpInf = (78.9875,'J/mol/K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 7/88.
 OO
@@ -2079,7 +2079,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 64,
     label = "HO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -2098,7 +2098,7 @@ multiplicity 2
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = u"""L 5/89""",
-    longDesc = 
+    longDesc =
 u"""
 L 5/89.
 [O]O
@@ -2109,7 +2109,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 65,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 O u0 p1 c+1 {2,T}
 2 C u0 p1 c-1 {1,T}
@@ -2126,7 +2126,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = u"""TPIS79""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS79.
 [C-]#[O+]
@@ -2137,7 +2137,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 66,
     label = "CO2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 O u0 p2 c0 {3,D}
@@ -2155,7 +2155,7 @@ entry(
         CpInf = (62.3585,'J/mol/K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 7/88.
 O=C=O
@@ -2166,7 +2166,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 67,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -2186,7 +2186,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 C
@@ -2197,7 +2197,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 68,
     label = "CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -2217,7 +2217,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = u"""L11/89""",
-    longDesc = 
+    longDesc =
 u"""
 L11/89.
 [CH3]
@@ -2228,7 +2228,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 69,
     label = "C",
-    molecule = 
+    molecule =
 """
 1 C u0 p2 c0
 """,
@@ -2244,7 +2244,7 @@ entry(
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = u"""L11/88""",
-    longDesc = 
+    longDesc =
 u"""
 L11/88.
 [C]
@@ -2255,7 +2255,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 70,
     label = "CH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p1 c0 {2,S}
@@ -2273,7 +2273,7 @@ multiplicity 2
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = u"""TPIS79""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS79.
 [CH]
@@ -2284,7 +2284,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 71,
     label = "CH3OH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -2305,7 +2305,7 @@ entry(
         CpInf = (128.874,'J/mol/K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 CO
@@ -2316,7 +2316,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 72,
     label = "C2H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2339,7 +2339,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 CC
@@ -2350,7 +2350,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 73,
     label = "C2H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2373,7 +2373,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""L12/92""",
-    longDesc = 
+    longDesc =
 u"""
 L12/92.
 C[CH2]
@@ -2384,7 +2384,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 74,
     label = "C2H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -2405,7 +2405,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = u"""L 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 L 1/91.
 C=C
@@ -2416,7 +2416,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 75,
     label = "C2H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,T} {3,S}
@@ -2435,7 +2435,7 @@ multiplicity 2
         CpInf = (62.3585,'J/mol/K'),
     ),
     shortDesc = u"""L 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 L 1/91.
 [C]#C
@@ -2446,7 +2446,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 76,
     label = "C3H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2472,7 +2472,7 @@ entry(
         CpInf = (249.434,'J/mol/K'),
     ),
     shortDesc = u"""L 4/85""",
-    longDesc = 
+    longDesc =
 u"""
 L 4/85
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2484,7 +2484,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 77,
     label = "C2H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -2503,7 +2503,7 @@ entry(
         CpInf = (87.302,'J/mol/K'),
     ),
     shortDesc = u"""L 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 L 1/91.
 C#C
@@ -2514,7 +2514,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 78,
     label = "C3H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2540,7 +2540,7 @@ multiplicity 2
         CpInf = (224.491,'J/mol/K'),
     ),
     shortDesc = u"""L 9/84""",
-    longDesc = 
+    longDesc =
 u"""
 L 9/84
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2552,7 +2552,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 79,
     label = "C2H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -2573,7 +2573,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""L 2/92""",
-    longDesc = 
+    longDesc =
 u"""
 L 2/92.
 [CH]=C
@@ -2584,7 +2584,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 80,
     label = "CH3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -2605,7 +2605,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""121686""",
-    longDesc = 
+    longDesc =
 u"""
 121686
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2617,7 +2617,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 81,
     label = "CH2OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {5,S}
@@ -2638,7 +2638,7 @@ multiplicity 2
         CpInf = (103.931,'J/mol/K'),
     ),
     shortDesc = u"""GUNL93""",
-    longDesc = 
+    longDesc =
 u"""
 GUNL93.
 [CH2]O
@@ -2649,7 +2649,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 82,
     label = "CH2F-CH2F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {4,S}
@@ -2672,7 +2672,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""95BURZAC96ZAC""",
-    longDesc = 
+    longDesc =
 u"""
 95BURZAC96ZAC
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2684,7 +2684,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 83,
     label = "CH2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -2703,7 +2703,7 @@ entry(
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 C=O
@@ -2714,7 +2714,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 84,
     label = "HCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,D}
@@ -2733,7 +2733,7 @@ multiplicity 2
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = u"""L12/89""",
-    longDesc = 
+    longDesc =
 u"""
 L12/89.
 [CH]=O
@@ -2744,7 +2744,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 85,
     label = "CF2CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -2765,7 +2765,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""96ZACWES""",
-    longDesc = 
+    longDesc =
 u"""
 96ZACWES
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2777,7 +2777,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 86,
     label = "CHFCHCF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -2801,7 +2801,7 @@ entry(
         CpInf = (203.705,'J/mol/K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 FC=CC(F)(F)F
@@ -2812,7 +2812,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 87,
     label = "CHFCCF3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -2836,7 +2836,7 @@ multiplicity 2
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""0""",
-    longDesc = 
+    longDesc =
 u"""
 0
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2848,7 +2848,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 88,
     label = "CF3CHCH2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -2872,7 +2872,7 @@ entry(
         CpInf = (203.705,'J/mol/K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 C=CC(F)(F)F
 Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
@@ -2882,7 +2882,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 89,
     label = "C3H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -2906,7 +2906,7 @@ entry(
         CpInf = (203.705,'J/mol/K'),
     ),
     shortDesc = u"""120186""",
-    longDesc = 
+    longDesc =
 u"""
 120186
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2918,7 +2918,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 90,
     label = "HCCOH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -2938,7 +2938,7 @@ entry(
         CpInf = (103.931,'J/mol/K'),
     ),
     shortDesc = u"""SRI91""",
-    longDesc = 
+    longDesc =
 u"""
 SRI91
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2950,7 +2950,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 91,
     label = "CH3CCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -2974,7 +2974,7 @@ multiplicity 2
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""PD5/98""",
-    longDesc = 
+    longDesc =
 u"""
 PD5/98
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2986,7 +2986,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 92,
     label = "HCCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {3,D}
@@ -3006,7 +3006,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = u"""SRIC91""",
-    longDesc = 
+    longDesc =
 u"""
 SRIC91
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3018,7 +3018,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 93,
     label = "CH3CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {3,D}
@@ -3040,7 +3040,7 @@ multiplicity 2
         CpInf = (128.874,'J/mol/K'),
     ),
     shortDesc = u"""T 9/92""",
-    longDesc = 
+    longDesc =
 u"""
 T 9/92.
 C[C]=O
@@ -3051,7 +3051,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 94,
     label = "CH2CO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -3071,7 +3071,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = u"""L 5/90""",
-    longDesc = 
+    longDesc =
 u"""
 L 5/90.
 C=C=O
@@ -3082,7 +3082,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 95,
     label = "CH2CHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {3,D}
@@ -3104,7 +3104,7 @@ multiplicity 2
         CpInf = (128.874,'J/mol/K'),
     ),
     shortDesc = u"""SAND86""",
-    longDesc = 
+    longDesc =
 u"""
 SAND86
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3116,7 +3116,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 96,
     label = "CH3CHO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -3138,7 +3138,7 @@ entry(
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 CC=O
@@ -3149,7 +3149,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 97,
     label = "CFCHCF3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -3173,7 +3173,7 @@ multiplicity 2
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 F[C]=CC(F)(F)F
@@ -3184,7 +3184,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 98,
     label = "CFCCF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -3206,7 +3206,7 @@ entry(
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 FC#CC(F)(F)F
@@ -3217,7 +3217,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 99,
     label = "CF3CCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -3241,7 +3241,7 @@ multiplicity 2
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 C=[C]C(F)(F)F
 Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
@@ -3251,7 +3251,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 100,
     label = "CF3CCH",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -3273,7 +3273,7 @@ entry(
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C#CC(F)(F)F
@@ -3284,7 +3284,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 101,
     label = "CF3COCH3",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {5,S}
 2  F u0 p3 c0 {5,S}
@@ -3309,7 +3309,7 @@ entry(
         CpInf = (224.491,'J/mol/K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CC(=O)C(F)(F)F
@@ -3320,7 +3320,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 102,
     label = "CH2CFCF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -3344,7 +3344,7 @@ entry(
         CpInf = (203.705,'J/mol/K'),
     ),
     shortDesc = u"""2,3,3,3-T 1/10""",
-    longDesc = 
+    longDesc =
 u"""
 2,3,3,3-T 1/10.
 C=C(F)C(F)(F)F
@@ -3355,7 +3355,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 103,
     label = "CH-CFCF3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -3379,7 +3379,7 @@ multiplicity 2
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 [CH]=C(F)C(F)(F)F
 Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
@@ -3389,7 +3389,7 @@ Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
 entry(
     index = 104,
     label = "CH2CFO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -3411,7 +3411,7 @@ multiplicity 2
         CpInf = (128.874,'J/mol/K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH2]C(=O)F

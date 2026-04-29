@@ -22,7 +22,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "RNO2",
-    group = 
+    group =
 """
 1 *1 R    u0 p0 c0 {2,S}
 2 *2 N5dc u0 p0 c+1 {1,S} {3,S} {4,D}
@@ -35,7 +35,7 @@ entry(
 entry(
     index = 1,
     label = "CH3NO2",
-    group = 
+    group =
 """
 1 *1 Cs   u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 *2 N5dc u0 p0 c+1 {1,S} {3,S} {4,D}

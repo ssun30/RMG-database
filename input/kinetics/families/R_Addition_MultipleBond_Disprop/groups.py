@@ -31,7 +31,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,[S,D]} {3,S}
 2 *2 R!H u0 {1,[S,D]} {4,[D,T,B]}
@@ -46,7 +46,7 @@ entry(
 entry(
     index = 1,
     label = "Root_6R->C",
-    group = 
+    group =
 """
 1 *4 O u0 r0 {2,S} {3,S}
 2 *2 C u0 r0 {1,S} {4,D}
@@ -61,7 +61,7 @@ entry(
 entry(
     index = 2,
     label = "Root_N-6R->C",
-    group = 
+    group =
 """
 1 *4 O                           u0 r0 {2,S} {3,S}
 2 *2 C                           u0 r0 {1,S} {4,D}
@@ -83,13 +83,13 @@ L1: Root
 
 forbidden(
     label = "O2d",
-    group = 
+    group =
 """
 1 *1 O u0 {2,D}
 2 *2 O u0 {1,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,

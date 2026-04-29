@@ -16,7 +16,7 @@ September 19, 2010 (http://web.stanford.edu/group/haiwanglab/JetSurF/JetSurF2.0/
 entry(
     index = 0,
     label = "C12H24",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
@@ -64,7 +64,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/22/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -75,7 +75,7 @@ C=CCCCCCCCCCC
 entry(
     index = 1,
     label = "C4H612",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -97,7 +97,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""A 8/83""",
-    longDesc = 
+    longDesc =
 u"""
 A 8/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -108,7 +108,7 @@ C=C=CC
 entry(
     index = 2,
     label = "PXC12H25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {15,S} {16,S}
@@ -158,7 +158,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -169,7 +169,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 3,
     label = "SXC5H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -198,7 +198,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERG""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -209,7 +209,7 @@ C[CH]CCC
 entry(
     index = 4,
     label = "CH3OH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -227,7 +227,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 CO
@@ -237,7 +237,7 @@ CO
 entry(
     index = 5,
     label = "PXC12H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {15,S} {16,S}
@@ -285,7 +285,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/22/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -296,7 +296,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 6,
     label = "SXC12H25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {15,S} {16,S}
@@ -346,7 +346,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -357,7 +357,7 @@ C[CH]CCCCCCCCCC
 entry(
     index = 7,
     label = "CH3CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -376,7 +376,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 9/92""",
-    longDesc = 
+    longDesc =
 u"""
 T 9/92.
 C[C]=O
@@ -386,7 +386,7 @@ C[C]=O
 entry(
     index = 8,
     label = "O2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -401,7 +401,7 @@ multiplicity 3
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS89""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS89.
 [O][O]
@@ -411,7 +411,7 @@ TPIS89.
 entry(
     index = 9,
     label = "C6H4CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
@@ -438,7 +438,7 @@ multiplicity 2
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""P 1/93""",
-    longDesc = 
+    longDesc =
 u"""
 P 1/93
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -449,7 +449,7 @@ CC1[CH]C=C=CC=1
 entry(
     index = 10,
     label = "S4XC12H25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {19,S} {20,S}
@@ -499,7 +499,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -510,7 +510,7 @@ CCCC[CH]CCCCCCC
 entry(
     index = 11,
     label = "SXC8H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
@@ -548,7 +548,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -559,7 +559,7 @@ C[CH]CCCCCC
 entry(
     index = 12,
     label = "HCCOH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -576,7 +576,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""SRI91""",
-    longDesc = 
+    longDesc =
 u"""
 SRI91
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -587,7 +587,7 @@ C#CO
 entry(
     index = 13,
     label = "NC5H12",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -616,7 +616,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -627,7 +627,7 @@ CCCCC
 entry(
     index = 14,
     label = "PXC8H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
@@ -665,7 +665,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -676,7 +676,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 15,
     label = "S3XC10H21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {15,S} {16,S}
@@ -720,7 +720,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -731,7 +731,7 @@ CCC[CH]CCCCCC
 entry(
     index = 16,
     label = "C5H5OH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -755,7 +755,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""HWZD99""",
-    longDesc = 
+    longDesc =
 u"""
 HWZD99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -766,7 +766,7 @@ OC1C=CC=C1
 entry(
     index = 17,
     label = "NC7H16",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
@@ -801,7 +801,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -812,7 +812,7 @@ CCCCCCC
 entry(
     index = 18,
     label = "SXC7H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -847,7 +847,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -858,7 +858,7 @@ C[CH]CCCCC
 entry(
     index = 19,
     label = "CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -874,7 +874,7 @@ multiplicity 3
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L S/93""",
-    longDesc = 
+    longDesc =
 u"""
 L S/93.
 [CH2]
@@ -884,7 +884,7 @@ L S/93.
 entry(
     index = 20,
     label = "CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -901,7 +901,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L11/89""",
-    longDesc = 
+    longDesc =
 u"""
 L11/89.
 [CH3]
@@ -911,7 +911,7 @@ L11/89.
 entry(
     index = 21,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -928,7 +928,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 C
@@ -938,7 +938,7 @@ C
 entry(
     index = 22,
     label = "C2H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,T} {3,S}
@@ -954,7 +954,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 L 1/91.
 [C]#C
@@ -964,7 +964,7 @@ L 1/91.
 entry(
     index = 23,
     label = "C2O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u0 p0 c0 {2,D} {3,D}
@@ -980,7 +980,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""RUS 79""",
-    longDesc = 
+    longDesc =
 u"""
 RUS 79.
 [C]=C=O
@@ -990,7 +990,7 @@ RUS 79.
 entry(
     index = 24,
     label = "CH3CHCH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1011,7 +1011,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""PD5/98""",
-    longDesc = 
+    longDesc =
 u"""
 PD5/98
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1022,7 +1022,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 25,
     label = "S2XC10H21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
@@ -1066,7 +1066,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1077,7 +1077,7 @@ CC[CH]CCCCCCC
 entry(
     index = 26,
     label = "C7H14",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -1110,7 +1110,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1121,7 +1121,7 @@ C=CCCCCC
 entry(
     index = 27,
     label = "C2H3CHOCH2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -1144,7 +1144,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""A 8/83""",
-    longDesc = 
+    longDesc =
 u"""
 A 8/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1155,7 +1155,7 @@ C=CC1CO1
 entry(
     index = 28,
     label = "H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -1169,7 +1169,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 7/88.
 [H]
@@ -1179,7 +1179,7 @@ L 7/88.
 entry(
     index = 29,
     label = "NC9H20",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
@@ -1220,7 +1220,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1231,7 +1231,7 @@ CCCCCCCCC
 entry(
     index = 30,
     label = "C4H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -1257,7 +1257,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1268,7 +1268,7 @@ CCCC
 entry(
     index = 31,
     label = "CH3CHOCH2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -1290,7 +1290,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""T 6/92""",
-    longDesc = 
+    longDesc =
 u"""
 T 6/92
 Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -1301,7 +1301,7 @@ CC1CO1
 entry(
     index = 32,
     label = "S3XC8H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
@@ -1339,7 +1339,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1350,7 +1350,7 @@ CCC[CH]CCCC
 entry(
     index = 33,
     label = "C4H81",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -1374,7 +1374,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 6/83""",
-    longDesc = 
+    longDesc =
 u"""
 T 6/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1385,7 +1385,7 @@ C=CCC
 entry(
     index = 34,
     label = "OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -1400,7 +1400,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""S 9/01""",
-    longDesc = 
+    longDesc =
 u"""
 S 9/01.
 [OH]
@@ -1410,7 +1410,7 @@ S 9/01.
 entry(
     index = 35,
     label = "NC10H22",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
@@ -1454,7 +1454,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1465,7 +1465,7 @@ CCCCCCCCCC
 entry(
     index = 36,
     label = "S4XC9H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {12,S} {13,S}
@@ -1506,7 +1506,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1517,7 +1517,7 @@ CCCC[CH]CCCC
 entry(
     index = 37,
     label = "H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -1531,7 +1531,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS78""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS78.
 [H][H]
@@ -1541,7 +1541,7 @@ TPIS78.
 entry(
     index = 38,
     label = "pC3H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -1560,7 +1560,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 2/90""",
-    longDesc = 
+    longDesc =
 u"""
 T 2/90.
 C#CC
@@ -1570,7 +1570,7 @@ C#CC
 entry(
     index = 39,
     label = "S4XC11H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {18,S} {19,S}
@@ -1617,7 +1617,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/22/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1628,7 +1628,7 @@ CCCC[CH]CCCCCC
 entry(
     index = 40,
     label = "SAXC5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -1655,7 +1655,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 8/29/ 8 G
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1666,7 +1666,7 @@ C=C[CH]CC
 entry(
     index = 41,
     label = "C6H12",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -1696,7 +1696,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""9/01/7THERG""",
-    longDesc = 
+    longDesc =
 u"""
 9/01/7THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1707,7 +1707,7 @@ C=CCCCC
 entry(
     index = 42,
     label = "CH3CH2CHO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1729,7 +1729,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1740,7 +1740,7 @@ CCC=O
 entry(
     index = 43,
     label = "C3H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -1761,7 +1761,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""120186""",
-    longDesc = 
+    longDesc =
 u"""
 120186
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1772,7 +1772,7 @@ C=CC
 entry(
     index = 44,
     label = "S2XC9H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
@@ -1813,7 +1813,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1824,7 +1824,7 @@ CC[CH]CCCCCC
 entry(
     index = 45,
     label = "l-C6H4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {7,S}
 2  C u0 p0 c0 {1,D} {8,S} {9,S}
@@ -1846,7 +1846,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 H6W/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1857,7 +1857,7 @@ C#CC#CC=C
 entry(
     index = 46,
     label = "C3H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {4,S} {5,S}
@@ -1876,7 +1876,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 5/97""",
-    longDesc = 
+    longDesc =
 u"""
 T 5/97.
 C#C[CH2]
@@ -1886,7 +1886,7 @@ C#C[CH2]
 entry(
     index = 47,
     label = "S2XC11H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {14,S} {15,S}
@@ -1933,7 +1933,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/22/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1944,7 +1944,7 @@ CC[CH]CCCCCCCC
 entry(
     index = 48,
     label = "C3H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1967,7 +1967,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1978,7 +1978,7 @@ CCC
 entry(
     index = 49,
     label = "CH2OCH2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -1997,7 +1997,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""T 6/92""",
-    longDesc = 
+    longDesc =
 u"""
 T 6/92
 Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -2008,7 +2008,7 @@ C1CO1
 entry(
     index = 50,
     label = "C6H10-13",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -2036,7 +2036,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 8/29/ 8 G
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2047,7 +2047,7 @@ C=CC=CCC
 entry(
     index = 51,
     label = "CH2O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -2063,7 +2063,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 C=O
@@ -2073,7 +2073,7 @@ C=O
 entry(
     index = 52,
     label = "CH2OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -2091,7 +2091,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU2/03""",
-    longDesc = 
+    longDesc =
 u"""
 IU2/03.
 [CH2]O
@@ -2101,7 +2101,7 @@ IU2/03.
 entry(
     index = 53,
     label = "C11H22",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
@@ -2146,7 +2146,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2157,7 +2157,7 @@ C=CCCCCCCCCC
 entry(
     index = 54,
     label = "aC3H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -2176,7 +2176,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 8/89""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/89.
 C=C=C
@@ -2186,7 +2186,7 @@ C=C=C
 entry(
     index = 55,
     label = "aC3H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -2207,7 +2207,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""PD5/98""",
-    longDesc = 
+    longDesc =
 u"""
 PD5/98
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2218,7 +2218,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 56,
     label = "H2O2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -2234,7 +2234,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 7/88.
 OO
@@ -2244,7 +2244,7 @@ OO
 entry(
     index = 57,
     label = "C6H5CH2OH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,B} {4,B}
@@ -2272,7 +2272,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 7/87""",
-    longDesc = 
+    longDesc =
 u"""
 L 7/87.
 OCC1C=CC=CC=1
@@ -2282,7 +2282,7 @@ OCC1C=CC=CC=1
 entry(
     index = 58,
     label = "CH3CHCHCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -2305,7 +2305,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2316,7 +2316,7 @@ CC=C[C]=O
 entry(
     index = 59,
     label = "pC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -2342,7 +2342,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2353,7 +2353,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 60,
     label = "SXC11H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {14,S} {15,S}
@@ -2400,7 +2400,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/22/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2411,7 +2411,7 @@ C[CH]CCCCCCCCC
 entry(
     index = 61,
     label = "C4H82",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -2435,7 +2435,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 6/83""",
-    longDesc = 
+    longDesc =
 u"""
 T 6/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2446,7 +2446,7 @@ CC=CC
 entry(
     index = 62,
     label = "SXC6H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -2478,7 +2478,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2489,7 +2489,7 @@ C[CH]CCCC
 entry(
     index = 63,
     label = "C5H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -2516,7 +2516,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERG""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2527,7 +2527,7 @@ C=CCCC
 entry(
     index = 64,
     label = "SXC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
@@ -2557,7 +2557,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERGAS G""",
-    longDesc = 
+    longDesc =
 u"""
 THERGAS G
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2568,7 +2568,7 @@ C=CCC[CH]C
 entry(
     index = 65,
     label = "cC3H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,D} {6,S}
@@ -2587,7 +2587,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T12/81""",
-    longDesc = 
+    longDesc =
 u"""
 T12/81
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2598,7 +2598,7 @@ C1=CC1
 entry(
     index = 66,
     label = "HCCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,T} {4,S}
@@ -2615,7 +2615,7 @@ multiplicity 2
         Tmax = (4000,'K'),
     ),
     shortDesc = u"""SRIC91""",
-    longDesc = 
+    longDesc =
 u"""
 SRIC91
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2626,7 +2626,7 @@ C#C[O]
 entry(
     index = 67,
     label = "PXC5H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -2655,7 +2655,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2666,7 +2666,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 68,
     label = "C",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p1 c0
@@ -2680,7 +2680,7 @@ multiplicity 3
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L11/88""",
-    longDesc = 
+    longDesc =
 u"""
 L11/88.
 [C]
@@ -2690,7 +2690,7 @@ L11/88.
 entry(
     index = 69,
     label = "CH2OCH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2709,7 +2709,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""A12/04""",
-    longDesc = 
+    longDesc =
 u"""
 A12/04
 Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -2720,7 +2720,7 @@ Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
 entry(
     index = 70,
     label = "CH2CHCHCHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -2743,7 +2743,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2754,7 +2754,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 71,
     label = "S3XC7H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
@@ -2789,7 +2789,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2800,7 +2800,7 @@ CCC[CH]CCC
 entry(
     index = 72,
     label = "O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -2814,7 +2814,7 @@ multiplicity 3
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 1/90""",
-    longDesc = 
+    longDesc =
 u"""
 L 1/90.
 [O]
@@ -2824,7 +2824,7 @@ L 1/90.
 entry(
     index = 73,
     label = "C4H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -2844,7 +2844,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2855,7 +2855,7 @@ C#CC=C
 entry(
     index = 74,
     label = "PXC11H21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {14,S} {15,S}
@@ -2900,7 +2900,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2911,7 +2911,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 75,
     label = "PXC11H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {14,S} {15,S}
@@ -2958,7 +2958,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/22/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2969,7 +2969,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 76,
     label = "C8H16",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {4,S} {13,S} {14,S}
@@ -3005,7 +3005,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3016,7 +3016,7 @@ C=CCCCCCC
 entry(
     index = 77,
     label = "iC3H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -3039,7 +3039,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3050,7 +3050,7 @@ C[CH]C
 entry(
     index = 78,
     label = "C2H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -3070,7 +3070,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 CC
@@ -3080,7 +3080,7 @@ CC
 entry(
     index = 79,
     label = "C4H6O25",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
@@ -3103,7 +3103,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 3/97""",
-    longDesc = 
+    longDesc =
 u"""
 T 3/97.
 C1=CCOC1
@@ -3113,7 +3113,7 @@ C1=CCOC1
 entry(
     index = 80,
     label = "C2H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -3131,7 +3131,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 L 1/91.
 C=C
@@ -3141,7 +3141,7 @@ C=C
 entry(
     index = 81,
     label = "C4H6O23",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -3164,7 +3164,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 3/97""",
-    longDesc = 
+    longDesc =
 u"""
 T 3/97.
 C1=COCC1
@@ -3174,7 +3174,7 @@ C1=COCC1
 entry(
     index = 82,
     label = "C6H5OH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
 2  C u0 p0 c0 {1,B} {4,B} {8,S}
@@ -3199,7 +3199,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""L 4/84""",
-    longDesc = 
+    longDesc =
 u"""
 L 4/84
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3210,7 +3210,7 @@ OC1C=CC=CC=1
 entry(
     index = 83,
     label = "C6H4O2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,D}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -3234,7 +3234,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""PUML96""",
-    longDesc = 
+    longDesc =
 u"""
 PUML96
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3245,7 +3245,7 @@ O=C1C=CC(=O)C=C1
 entry(
     index = 84,
     label = "nC3H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3268,7 +3268,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3279,7 +3279,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 85,
     label = "SAXC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -3309,7 +3309,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3320,7 +3320,7 @@ C=C[CH]CCC
 entry(
     index = 86,
     label = "S3XC11H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {16,S} {17,S}
@@ -3367,7 +3367,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/22/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3378,7 +3378,7 @@ CCC[CH]CCCCCCC
 entry(
     index = 87,
     label = "NC8H18",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
@@ -3416,7 +3416,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3427,7 +3427,7 @@ CCCCCCCC
 entry(
     index = 88,
     label = "C6H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -3447,7 +3447,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 D11/99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3458,7 +3458,7 @@ C#CC#CC#C
 entry(
     index = 89,
     label = "S2XC7H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -3493,7 +3493,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3504,7 +3504,7 @@ CC[CH]CCCC
 entry(
     index = 90,
     label = "C6H6",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
 2  C u0 p0 c0 {1,B} {3,B} {8,S}
@@ -3528,7 +3528,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 D11/99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3539,7 +3539,7 @@ C1=CC=CC=C1
 entry(
     index = 91,
     label = "C6H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {3,B} {8,S}
@@ -3563,7 +3563,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 D11/99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3574,7 +3574,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 92,
     label = "S3XC9H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
@@ -3615,7 +3615,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3626,7 +3626,7 @@ CCC[CH]CCCCC
 entry(
     index = 93,
     label = "c-C4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -3648,7 +3648,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""PUPM3""",
-    longDesc = 
+    longDesc =
 u"""
 PUPM3
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3659,7 +3659,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 94,
     label = "PXC8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
@@ -3695,7 +3695,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3706,7 +3706,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 95,
     label = "H2C4O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -3725,7 +3725,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3736,7 +3736,7 @@ C=C=C=C=O
 entry(
     index = 96,
     label = "PXC7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
@@ -3769,7 +3769,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3780,7 +3780,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 97,
     label = "C5H4O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,D}
 2  C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -3802,7 +3802,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 8/99""",
-    longDesc = 
+    longDesc =
 u"""
 T 8/99.
 O=C1C=CC=C1
@@ -3812,7 +3812,7 @@ O=C1C=CC=C1
 entry(
     index = 98,
     label = "PXC7H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -3847,7 +3847,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3858,7 +3858,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 99,
     label = "C4H6-2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -3880,7 +3880,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""A 8/83""",
-    longDesc = 
+    longDesc =
 u"""
 A 8/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3891,7 +3891,7 @@ CC#CC
 entry(
     index = 100,
     label = "S3XC12H25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {17,S} {18,S}
@@ -3941,7 +3941,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3952,7 +3952,7 @@ CCC[CH]CCCCCCCC
 entry(
     index = 101,
     label = "C5H6",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,D} {8,S}
@@ -3975,7 +3975,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 1/90""",
-    longDesc = 
+    longDesc =
 u"""
 T 1/90.
 C1C=CCC=1
@@ -3985,7 +3985,7 @@ C1C=CCC=1
 entry(
     index = 102,
     label = "C5H5O(2,4)",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -4009,7 +4009,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D 9/97""",
-    longDesc = 
+    longDesc =
 u"""
 D 9/97
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4020,7 +4020,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 103,
     label = "SXC5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
@@ -4047,7 +4047,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERGAS G""",
-    longDesc = 
+    longDesc =
 u"""
 THERGAS G
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4058,7 +4058,7 @@ C=CC[CH]C
 entry(
     index = 104,
     label = "CH3CHO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -4077,7 +4077,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 CC=O
@@ -4087,7 +4087,7 @@ CC=O
 entry(
     index = 105,
     label = "CH3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4105,7 +4105,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU1/03""",
-    longDesc = 
+    longDesc =
 u"""
 IU1/03.
 C[O]
@@ -4115,7 +4115,7 @@ C[O]
 entry(
     index = 106,
     label = "C2H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -4133,7 +4133,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 2/92""",
-    longDesc = 
+    longDesc =
 u"""
 L 2/92.
 [CH]=C
@@ -4143,7 +4143,7 @@ L 2/92.
 entry(
     index = 107,
     label = "SXC10H21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {13,S} {14,S}
@@ -4187,7 +4187,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4198,7 +4198,7 @@ C[CH]CCCCCCCC
 entry(
     index = 108,
     label = "HCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,D}
@@ -4214,7 +4214,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L12/89""",
-    longDesc = 
+    longDesc =
 u"""
 L12/89.
 [CH]=O
@@ -4224,7 +4224,7 @@ L12/89.
 entry(
     index = 109,
     label = "NC11H24",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
@@ -4271,7 +4271,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/22/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4282,7 +4282,7 @@ CCCCCCCCCCC
 entry(
     index = 110,
     label = "PXC5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -4309,7 +4309,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4320,7 +4320,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 111,
     label = "CH2CHCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -4340,7 +4340,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T05/99""",
-    longDesc = 
+    longDesc =
 u"""
 T05/99.
 C=C[C]=O
@@ -4350,7 +4350,7 @@ C=C[C]=O
 entry(
     index = 112,
     label = "CH3COCH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -4372,7 +4372,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 5/92""",
-    longDesc = 
+    longDesc =
 u"""
 T 5/92.
 CC(C)=O
@@ -4382,7 +4382,7 @@ CC(C)=O
 entry(
     index = 113,
     label = "CH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p1 c0 {2,S}
@@ -4397,7 +4397,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS79""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS79.
 [CH]
@@ -4407,7 +4407,7 @@ TPIS79.
 entry(
     index = 114,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
@@ -4421,7 +4421,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS79""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS79.
 [C-]#[O+]
@@ -4431,7 +4431,7 @@ TPIS79.
 entry(
     index = 115,
     label = "cC5H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -4456,7 +4456,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T03/97""",
-    longDesc = 
+    longDesc =
 u"""
 T03/97.
 C1=CCCC1
@@ -4466,7 +4466,7 @@ C1=CCCC1
 entry(
     index = 116,
     label = "CH3CCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -4487,7 +4487,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""PD5/98""",
-    longDesc = 
+    longDesc =
 u"""
 PD5/98
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4498,7 +4498,7 @@ C=[C]C
 entry(
     index = 117,
     label = "o-C6H4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {8,S}
 2  C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -4520,7 +4520,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 D11/99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4531,7 +4531,7 @@ C1#CC=C[CH][CH]1
 entry(
     index = 118,
     label = "C9H18",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
@@ -4570,7 +4570,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4581,7 +4581,7 @@ C=CCCCCCCC
 entry(
     index = 119,
     label = "C2H3CHO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -4601,7 +4601,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4612,7 +4612,7 @@ C=CC=O
 entry(
     index = 120,
     label = "iC4H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -4638,7 +4638,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4649,7 +4649,7 @@ CC(C)C
 entry(
     index = 121,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -4663,7 +4663,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""121286""",
-    longDesc = 
+    longDesc =
 u"""
 121286
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4674,7 +4674,7 @@ N#N
 entry(
     index = 122,
     label = "iC4H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -4694,7 +4694,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4705,7 +4705,7 @@ C#C[C]=C
 entry(
     index = 123,
     label = "CO2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 O u0 p2 c0 {1,D}
@@ -4720,7 +4720,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 7/88.
 O=C=O
@@ -4730,7 +4730,7 @@ O=C=O
 entry(
     index = 124,
     label = "iC4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -4752,7 +4752,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4763,7 +4763,7 @@ C=[C]C=C
 entry(
     index = 125,
     label = "iC4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -4787,7 +4787,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4798,7 +4798,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 126,
     label = "iC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4824,7 +4824,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4835,7 +4835,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 127,
     label = "iC4H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -4859,7 +4859,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 6/83""",
-    longDesc = 
+    longDesc =
 u"""
 T 6/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4870,7 +4870,7 @@ C=C(C)C
 entry(
     index = 128,
     label = "S4XC10H21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
@@ -4914,7 +4914,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4925,7 +4925,7 @@ CCCC[CH]CCCCC
 entry(
     index = 129,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -4940,7 +4940,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/89""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/89.
 O
@@ -4950,7 +4950,7 @@ O
 entry(
     index = 130,
     label = "PXC9H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
@@ -4989,7 +4989,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 3/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 3/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5000,7 +5000,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 131,
     label = "cC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -5030,7 +5030,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5041,7 +5041,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 132,
     label = "cC6H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -5069,7 +5069,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERGA""",
-    longDesc = 
+    longDesc =
 u"""
 THERGA
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5080,7 +5080,7 @@ C1=CCCCC1
 entry(
     index = 133,
     label = "C2H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -5100,7 +5100,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L12/92""",
-    longDesc = 
+    longDesc =
 u"""
 L12/92.
 C[CH2]
@@ -5110,7 +5110,7 @@ C[CH2]
 entry(
     index = 134,
     label = "C6H5O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
@@ -5135,7 +5135,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T05/02""",
-    longDesc = 
+    longDesc =
 u"""
 T05/02.
 O=C1C=C[CH]C=C1
@@ -5145,7 +5145,7 @@ O=C1C=C[CH]C=C1
 entry(
     index = 135,
     label = "S2XC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
@@ -5175,7 +5175,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERGAS G""",
-    longDesc = 
+    longDesc =
 u"""
 THERGAS G
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5186,7 +5186,7 @@ C=CC[CH]CC
 entry(
     index = 136,
     label = "C5H5O(1,3)",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -5210,7 +5210,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""DU0997""",
-    longDesc = 
+    longDesc =
 u"""
 DU0997
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5221,7 +5221,7 @@ O=C1C=C[CH]C1
 entry(
     index = 137,
     label = "S2XC6H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
@@ -5253,7 +5253,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5264,7 +5264,7 @@ CC[CH]CCC
 entry(
     index = 138,
     label = "HOC6H4CH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,B} {5,B}
@@ -5292,7 +5292,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""AVG CRESOL6/87""",
-    longDesc = 
+    longDesc =
 u"""
 AVG CRESOL6/87.
 CC1=CC=CC(O)=C1
@@ -5302,7 +5302,7 @@ CC1=CC=CC(O)=C1
 entry(
     index = 139,
     label = "PXC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -5332,7 +5332,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERG""",
-    longDesc = 
+    longDesc =
 u"""
 1/22/ 7 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5343,7 +5343,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 140,
     label = "PXC6H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -5375,7 +5375,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5386,7 +5386,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 141,
     label = "C6H5CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
@@ -5413,7 +5413,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T08/90""",
-    longDesc = 
+    longDesc =
 u"""
 T08/90.
 [CH2]C1C=CC=CC=1
@@ -5423,7 +5423,7 @@ T08/90.
 entry(
     index = 142,
     label = "C6H5CH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,B} {4,B}
@@ -5450,7 +5450,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 6/87""",
-    longDesc = 
+    longDesc =
 u"""
 L 6/87.
 CC1C=CC=CC=1
@@ -5460,7 +5460,7 @@ CC1C=CC=CC=1
 entry(
     index = 143,
     label = "lC5H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {3,S} {7,S}
@@ -5485,7 +5485,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""HWZD99""",
-    longDesc = 
+    longDesc =
 u"""
 HWZD99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5496,7 +5496,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 144,
     label = "S2XC5H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -5525,7 +5525,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5536,7 +5536,7 @@ CC[CH]CC
 entry(
     index = 145,
     label = "sC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -5562,7 +5562,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5573,7 +5573,7 @@ C[CH]CC
 entry(
     index = 146,
     label = "OC12OOH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {17,S} {18,S}
 2  C u0 p0 c0 {1,S} {3,S} {19,S} {20,S}
@@ -5624,7 +5624,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""7/23/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 7/23/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5635,7 +5635,7 @@ CCCCCCCCCCC(=O)COO
 entry(
     index = 147,
     label = "PXC10H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
@@ -5677,7 +5677,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/22/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5688,7 +5688,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 148,
     label = "PC12H25O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {10,S} {16,S} {17,S}
@@ -5740,7 +5740,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""7/23/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 7/23/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5751,7 +5751,7 @@ CCCCCCCCCCCCO[O]
 entry(
     index = 149,
     label = "C10H20",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
@@ -5793,7 +5793,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/22/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5804,7 +5804,7 @@ C=CCCCCCCCC
 entry(
     index = 150,
     label = "CH2CHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -5823,7 +5823,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""D05/83""",
-    longDesc = 
+    longDesc =
 u"""
 D05/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5834,7 +5834,7 @@ C=C[O]
 entry(
     index = 151,
     label = "tC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -5860,7 +5860,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5871,7 +5871,7 @@ C[C](C)C
 entry(
     index = 152,
     label = "C4H5-2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -5893,7 +5893,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 H6W/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5904,7 +5904,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 153,
     label = "C6H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {7,S}
@@ -5926,7 +5926,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 H6W/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5937,7 +5937,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 154,
     label = "cC5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -5964,7 +5964,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T03/97""",
-    longDesc = 
+    longDesc =
 u"""
 T03/97.
 [CH]1CCCC1
@@ -5974,7 +5974,7 @@ T03/97.
 entry(
     index = 155,
     label = "NC12H26",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {9,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
@@ -6024,7 +6024,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6035,7 +6035,7 @@ CCCCCCCCCCCC
 entry(
     index = 156,
     label = "HO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -6051,7 +6051,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 5/89""",
-    longDesc = 
+    longDesc =
 u"""
 L 5/89.
 [O]O
@@ -6061,7 +6061,7 @@ L 5/89.
 entry(
     index = 157,
     label = "OC6H4CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
@@ -6089,7 +6089,7 @@ multiplicity 2
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""EST/BUR P 1/93""",
-    longDesc = 
+    longDesc =
 u"""
 EST/BUR P 1/93
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6100,7 +6100,7 @@ CC1[CH]C=CC(=O)C=1
 entry(
     index = 158,
     label = "nC4H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -6120,7 +6120,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6131,7 +6131,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 159,
     label = "nC4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -6153,7 +6153,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6164,7 +6164,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 160,
     label = "S5XC12H25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
@@ -6214,7 +6214,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6225,7 +6225,7 @@ CCCCC[CH]CCCCCC
 entry(
     index = 161,
     label = "P12OOHX2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {17,S} {18,S}
@@ -6277,7 +6277,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""7/23/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 7/23/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6288,7 +6288,7 @@ CCCCCCCCC[CH]CCOO
 entry(
     index = 162,
     label = "C5H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {5,S} {6,S}
@@ -6311,7 +6311,7 @@ multiplicity 2
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""T12/89""",
-    longDesc = 
+    longDesc =
 u"""
 T12/89
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6322,7 +6322,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 163,
     label = "NC6H14",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -6354,7 +6354,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6365,7 +6365,7 @@ CCCCCC
 entry(
     index = 164,
     label = "S5XC11H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {14,S} {15,S}
@@ -6412,7 +6412,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/22/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6423,7 +6423,7 @@ CCCCC[CH]CCCCC
 entry(
     index = 165,
     label = "C5H8-13",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -6448,7 +6448,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERGAS G""",
-    longDesc = 
+    longDesc =
 u"""
 THERGAS G
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6459,7 +6459,7 @@ C=CC=CC
 entry(
     index = 166,
     label = "C4H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,T}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -6477,7 +6477,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 D11/99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6488,7 +6488,7 @@ C#CC#C
 entry(
     index = 167,
     label = "C5H8-14",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -6513,7 +6513,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 8/29/ 8 G
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6524,7 +6524,7 @@ C=CCC=C
 entry(
     index = 168,
     label = "C4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -6548,7 +6548,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6559,7 +6559,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 169,
     label = "C4H6",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
 2  C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -6581,7 +6581,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 H6W/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6592,7 +6592,7 @@ C=CC=C
 entry(
     index = 170,
     label = "C4H4O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -6613,7 +6613,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T03/97""",
-    longDesc = 
+    longDesc =
 u"""
 T03/97.
 C1C=COC=1
@@ -6623,7 +6623,7 @@ C1C=COC=1
 entry(
     index = 171,
     label = "C2H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -6639,7 +6639,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 L 1/91.
 C#C
@@ -6649,7 +6649,7 @@ C#C
 entry(
     index = 172,
     label = "C5H4OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,D} {6,S}
@@ -6673,7 +6673,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 8/99""",
-    longDesc = 
+    longDesc =
 u"""
 T 8/99.
 OC1[CH]C=CC=1
@@ -6683,7 +6683,7 @@ OC1[CH]C=CC=1
 entry(
     index = 173,
     label = "SXC9H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {12,S} {13,S}
@@ -6724,7 +6724,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6735,7 +6735,7 @@ C[CH]CCCCCCC
 entry(
     index = 174,
     label = "PXC10H21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {13,S} {14,S}
@@ -6779,7 +6779,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6790,7 +6790,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 175,
     label = "CH3CHCHCHO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -6813,7 +6813,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""T 5/92""",
-    longDesc = 
+    longDesc =
 u"""
 T 5/92
 Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -6824,7 +6824,7 @@ CC=CC=O
 entry(
     index = 176,
     label = "S2XC8H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
@@ -6862,7 +6862,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6873,7 +6873,7 @@ CC[CH]CCCCC
 entry(
     index = 177,
     label = "PXC9H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {12,S} {13,S}
@@ -6914,7 +6914,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6925,7 +6925,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 178,
     label = "H2CC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p1 c0 {1,D}
@@ -6941,7 +6941,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L12/89""",
-    longDesc = 
+    longDesc =
 u"""
 L12/89.
 [C]=C
@@ -6951,7 +6951,7 @@ L12/89.
 entry(
     index = 179,
     label = "C6H5CHO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
 2  C u0 p0 c0 {1,B} {4,B} {8,S}
@@ -6977,7 +6977,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""L 3/86""",
-    longDesc = 
+    longDesc =
 u"""
 L 3/86
 Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -6988,7 +6988,7 @@ O=CC1C=CC=CC=1
 entry(
     index = 180,
     label = "CH2CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,D}
@@ -7005,7 +7005,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""D05/90""",
-    longDesc = 
+    longDesc =
 u"""
 D05/90.
 C=C=O
@@ -7015,7 +7015,7 @@ C=C=O
 entry(
     index = 181,
     label = "S2XC12H25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {15,S} {16,S}
@@ -7065,7 +7065,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 1/ 2/ 7 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7076,7 +7076,7 @@ CC[CH]CCCCCCCCC
 entry(
     index = 182,
     label = "C6H5CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
@@ -7102,7 +7102,7 @@ multiplicity 2
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""EST/BUR P 1/93""",
-    longDesc = 
+    longDesc =
 u"""
 EST/BUR P 1/93
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7113,7 +7113,7 @@ O=[C]C1C=CC=CC=1
 entry(
     index = 183,
     label = "AR",
-    molecule = 
+    molecule =
 """
 1 Ar u0 p4 c0
 """,
@@ -7126,7 +7126,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""120186""",
-    longDesc = 
+    longDesc =
 u"""
 120186
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7137,7 +7137,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 184,
     label = "HE",
-    molecule = 
+    molecule =
 """
 1 He u0 p1 c0
 """,
@@ -7150,7 +7150,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L10/90""",
-    longDesc = 
+    longDesc =
 u"""
 L10/90.
 [He]
@@ -7160,7 +7160,7 @@ L10/90.
 # entry(
     # index = 186,
     # label = "OH*",
-    # molecule = 
+    # molecule =
 # """
 # multiplicity 2
 # 1 O u1 p2 c0 {2,S}
@@ -7175,7 +7175,7 @@ L10/90.
         # Tmax = (6000,'K'),
     # ),
     # shortDesc = u"""ATcT A""",
-    # longDesc = 
+    # longDesc =
 # u"""
 # ATcT A.
 # Duplicate of species OH (i.e. same molecular structure according to RMG)
@@ -7186,7 +7186,7 @@ L10/90.
 entry(
     index = 185,
     label = "CH*",
-    molecule = 
+    molecule =
 """
 multiplicity 4
 1 C u3 p0 c0 {2,S}
@@ -7201,7 +7201,7 @@ multiplicity 4
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS79""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS79.
 Duplicate of species CH (i.e. same molecular structure according to RMG)
@@ -7212,7 +7212,7 @@ Duplicate of species CH (i.e. same molecular structure according to RMG)
 entry(
     index = 186,
     label = "SAXC4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -7236,7 +7236,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7247,7 +7247,7 @@ C=C[CH]C
 entry(
     index = 187,
     label = "CH3cC6H11",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -7280,7 +7280,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""7/28/ 9 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 7/28/ 9 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7291,7 +7291,7 @@ CC1CCCCC1
 entry(
     index = 188,
     label = "PXCH2cC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -7324,7 +7324,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7335,7 +7335,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 189,
     label = "cC6H12",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -7365,7 +7365,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7376,7 +7376,7 @@ C1CCCCC1
 entry(
     index = 190,
     label = "PXCH2cC5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -7406,7 +7406,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7417,7 +7417,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 191,
     label = "cC6H10O2H-2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {9,S}
@@ -7449,7 +7449,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""therm""",
-    longDesc = 
+    longDesc =
 u"""
 therm
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7460,7 +7460,7 @@ OOC1[CH]CCCC1
 entry(
     index = 192,
     label = "cC6H11O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -7492,7 +7492,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""therm""",
-    longDesc = 
+    longDesc =
 u"""
 therm
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7503,7 +7503,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 193,
     label = "C7H12-16",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
@@ -7534,7 +7534,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7545,7 +7545,7 @@ C=CCCCC=C
 entry(
     index = 194,
     label = "C7H14-2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
@@ -7578,7 +7578,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7589,7 +7589,7 @@ CC=CCCCC
 entry(
     index = 195,
     label = "C8H16-3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {5,S} {11,S} {12,S}
@@ -7625,7 +7625,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7636,7 +7636,7 @@ CCC=CCCCC
 entry(
     index = 196,
     label = "SOOcC6O2H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {11,S}
@@ -7670,7 +7670,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""therm""",
-    longDesc = 
+    longDesc =
 u"""
 therm
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7681,7 +7681,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 197,
     label = "CH3-4-SAXC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
@@ -7714,7 +7714,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7725,7 +7725,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 198,
     label = "PXCH2-5-1C6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
@@ -7758,7 +7758,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7769,7 +7769,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 199,
     label = "PXCH2-5-1C7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {9,S}
@@ -7805,7 +7805,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7816,7 +7816,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 200,
     label = "PXCH2-5-1C8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {10,S}
@@ -7855,7 +7855,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7866,7 +7866,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 201,
     label = "PXCH2-5-1C9H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {11,S}
@@ -7908,7 +7908,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7919,7 +7919,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 202,
     label = "C3H5cC6H11",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -7956,7 +7956,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -7967,7 +7967,7 @@ C=CCC1CCCCC1
 entry(
     index = 203,
     label = "PX6-2C6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
@@ -7997,7 +7997,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8008,7 +8008,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 204,
     label = "PXCH2-4-1C5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -8038,7 +8038,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""9/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 9/ 8 G
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8049,7 +8049,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 205,
     label = "PX1-4C8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
@@ -8085,7 +8085,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8096,7 +8096,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 206,
     label = "PXCH2-3-1C5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
@@ -8126,7 +8126,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8137,7 +8137,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 207,
     label = "PXCH2-3-1C4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -8164,7 +8164,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""9/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 9/ 8 G
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8175,7 +8175,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 208,
     label = "CH3-2-C4H5-13",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -8200,7 +8200,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8211,7 +8211,7 @@ C=CC(=C)C
 entry(
     index = 209,
     label = "C2H3cC6H11",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
@@ -8245,7 +8245,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8256,7 +8256,7 @@ C=CC1CCCCC1
 entry(
     index = 210,
     label = "C7H12-13",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
@@ -8287,7 +8287,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8298,7 +8298,7 @@ C=CC=CCCC
 entry(
     index = 211,
     label = "C3H7S2XcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -8337,7 +8337,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8348,7 +8348,7 @@ CCCC1[CH]CCCC1
 entry(
     index = 212,
     label = "C4H9S2XcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -8390,7 +8390,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8401,7 +8401,7 @@ CCCCC1[CH]CCCC1
 entry(
     index = 213,
     label = "PX1-3C7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
@@ -8434,7 +8434,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8445,7 +8445,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 214,
     label = "PXC2H4-4-1C6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
@@ -8481,7 +8481,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8492,7 +8492,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 215,
     label = "SAX6-4C10H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {13,S} {14,S}
@@ -8534,7 +8534,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8545,7 +8545,7 @@ CCCC=C[CH]CCCC
 entry(
     index = 216,
     label = "SAX4-2C8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -8581,7 +8581,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8592,7 +8592,7 @@ CC=C[CH]CCCC
 entry(
     index = 217,
     label = "PX8-2C8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
@@ -8628,7 +8628,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8639,7 +8639,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 218,
     label = "CH3S3XcC5H8",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -8669,7 +8669,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8680,7 +8680,7 @@ CC1C[CH]CC1
 entry(
     index = 219,
     label = "C4H9S4XcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
@@ -8722,7 +8722,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8733,7 +8733,7 @@ CCCCC1CC[CH]CC1
 entry(
     index = 220,
     label = "C2H5cC6H11",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
 2  C u0 p0 c0 {1,S} {5,S} {12,S} {13,S}
@@ -8769,7 +8769,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8780,7 +8780,7 @@ CCC1CCCCC1
 entry(
     index = 221,
     label = "CH3-5-SAX1C7H12",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
@@ -8816,7 +8816,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8827,7 +8827,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 222,
     label = "C3H7S4XcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
@@ -8866,7 +8866,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8877,7 +8877,7 @@ CCCC1CC[CH]CC1
 entry(
     index = 223,
     label = "C2H5-4-SAX1C6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
@@ -8913,7 +8913,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8924,7 +8924,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 224,
     label = "C4H9cC6H11",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
 2  C u0 p0 c0 {1,S} {5,S} {16,S} {17,S}
@@ -8966,7 +8966,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -8977,7 +8977,7 @@ CCCCC1CCCCC1
 entry(
     index = 225,
     label = "C3H7cC6H11",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
 2  C u0 p0 c0 {1,S} {8,S} {13,S} {14,S}
@@ -9016,7 +9016,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9027,7 +9027,7 @@ CCCC1CCCCC1
 entry(
     index = 226,
     label = "CH3-5-SAXC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
@@ -9060,7 +9060,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9071,7 +9071,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 227,
     label = "C9H18-4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {7,S} {14,S} {15,S}
@@ -9110,7 +9110,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9121,7 +9121,7 @@ CCCC=CCCCC
 entry(
     index = 228,
     label = "C6H10-15",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -9149,7 +9149,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9160,7 +9160,7 @@ C=CCCC=C
 entry(
     index = 229,
     label = "C10H20-5",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
 2  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
@@ -9202,7 +9202,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""7/31/ 9 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 7/31/ 9 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9213,7 +9213,7 @@ CCCCC=CCCCC
 entry(
     index = 230,
     label = "PAXCH2-2-C4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -9238,7 +9238,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9249,7 +9249,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 231,
     label = "S2XC8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -9285,7 +9285,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9296,7 +9296,7 @@ C=CCCC[CH]CC
 entry(
     index = 232,
     label = "S3XC9H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
@@ -9335,7 +9335,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9346,7 +9346,7 @@ C=CCCC[CH]CCC
 entry(
     index = 233,
     label = "S4XC10H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
@@ -9388,7 +9388,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9399,7 +9399,7 @@ C=CCCC[CH]CCCC
 entry(
     index = 234,
     label = "C2H5-2-1C6H11",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {5,S} {11,S} {12,S}
@@ -9435,7 +9435,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9446,7 +9446,7 @@ C=C(CC)CCCC
 entry(
     index = 235,
     label = "C4H9-2-1C6H11",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {11,S} {12,S}
 2  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
@@ -9488,7 +9488,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9499,7 +9499,7 @@ C=C(CCCC)CCCC
 entry(
     index = 236,
     label = "PXC3H6-3-1C7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {11,S}
@@ -9541,7 +9541,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9552,7 +9552,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 237,
     label = "C3H7-2-1C6H11",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {7,S} {14,S} {15,S}
@@ -9591,7 +9591,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9602,7 +9602,7 @@ C=C(CCC)CCCC
 entry(
     index = 238,
     label = "C2H5S3XcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {9,S}
@@ -9638,7 +9638,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9649,7 +9649,7 @@ CCC1C[CH]CCC1
 entry(
     index = 239,
     label = "C2H5S4XcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
@@ -9685,7 +9685,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9696,7 +9696,7 @@ CCC1CC[CH]CC1
 entry(
     index = 240,
     label = "S2XC4H8cC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {11,S}
@@ -9738,7 +9738,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9749,7 +9749,7 @@ CC[CH]CC1CCCCC1
 entry(
     index = 241,
     label = "C4H9S3XcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {11,S}
@@ -9791,7 +9791,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9802,7 +9802,7 @@ CCCCC1C[CH]CCC1
 entry(
     index = 242,
     label = "CH3S4XcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
@@ -9835,7 +9835,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9846,7 +9846,7 @@ CC1CC[CH]CC1
 entry(
     index = 243,
     label = "SXC2H4cC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -9882,7 +9882,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9893,7 +9893,7 @@ C[CH]C1CCCCC1
 entry(
     index = 244,
     label = "C3H7S3XcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {10,S}
@@ -9932,7 +9932,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9943,7 +9943,7 @@ CCCC1C[CH]CCC1
 entry(
     index = 245,
     label = "PXC3H6cC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {10,S}
@@ -9982,7 +9982,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -9993,7 +9993,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 246,
     label = "SXC3H6cC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {10,S}
@@ -10032,7 +10032,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10043,7 +10043,7 @@ C[CH]CC1CCCCC1
 entry(
     index = 247,
     label = "SXC4H8cC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
@@ -10085,7 +10085,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10096,7 +10096,7 @@ C[CH]CCC1CCCCC1
 entry(
     index = 248,
     label = "S3XC4H8cC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -10138,7 +10138,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10149,7 +10149,7 @@ CCC[CH]C1CCCCC1
 entry(
     index = 249,
     label = "PXC4H8cC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
@@ -10191,7 +10191,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10202,7 +10202,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 250,
     label = "PX10-4C10H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {11,S} {12,S}
@@ -10244,7 +10244,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10255,7 +10255,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 251,
     label = "PXC2H4cC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {9,S}
@@ -10291,7 +10291,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10302,7 +10302,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 252,
     label = "CH3-5-SAX1C9H16",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {11,S}
@@ -10344,7 +10344,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10355,7 +10355,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 253,
     label = "CH3-5-SAX1C8H14",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
@@ -10394,7 +10394,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10405,7 +10405,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 254,
     label = "C4H9TXcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {17,S} {18,S}
@@ -10447,7 +10447,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10458,7 +10458,7 @@ CCCC[C]1CCCCC1
 entry(
     index = 255,
     label = "C2H5S2XcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
@@ -10494,7 +10494,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10505,7 +10505,7 @@ CCC1[CH]CCCC1
 entry(
     index = 256,
     label = "S2XC3H6cC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -10544,7 +10544,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10555,7 +10555,7 @@ CC[CH]C1CCCCC1
 entry(
     index = 257,
     label = "C3H7TXcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
@@ -10594,7 +10594,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10605,7 +10605,7 @@ CCC[C]1CCCCC1
 entry(
     index = 258,
     label = "PX9-3C9H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
@@ -10644,7 +10644,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10655,7 +10655,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 259,
     label = "SAXC6H9-15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -10683,7 +10683,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""7/28/  THERGA""",
-    longDesc = 
+    longDesc =
 u"""
 7/28/  THERGA
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10694,7 +10694,7 @@ C=C[CH]CC=C
 entry(
     index = 260,
     label = "CH2cC6H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -10725,7 +10725,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10736,7 +10736,7 @@ C=C1CCCCC1
 entry(
     index = 261,
     label = "C2H5TXcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
@@ -10772,7 +10772,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10783,7 +10783,7 @@ CC[C]1CCCCC1
 entry(
     index = 262,
     label = "C2H5-3-PXC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
@@ -10819,7 +10819,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10830,7 +10830,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 263,
     label = "PAXCH2-2-1C6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -10863,7 +10863,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10874,7 +10874,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 264,
     label = "CH3-2-PXC4H6",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
@@ -10901,7 +10901,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10912,7 +10912,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 265,
     label = "CH3-3-TAXC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -10945,7 +10945,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -10956,7 +10956,7 @@ C=C[C](C)CCC
 entry(
     index = 266,
     label = "C2H5-4-SAX1C8H14",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {11,S}
@@ -10998,7 +10998,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11009,7 +11009,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 267,
     label = "C2H5-4-SAX1C7H12",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {10,S}
@@ -11048,7 +11048,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11059,7 +11059,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 268,
     label = "PAXCH2-2-1C5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -11089,7 +11089,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11100,7 +11100,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 269,
     label = "SAX5-3C8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
@@ -11136,7 +11136,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11147,7 +11147,7 @@ CCC=C[CH]CCC
 entry(
     index = 270,
     label = "SAX4-2C7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -11180,7 +11180,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11191,7 +11191,7 @@ CC=C[CH]CCC
 entry(
     index = 271,
     label = "PAXCH2-2-1C4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -11218,7 +11218,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11229,7 +11229,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 272,
     label = "PXCH2-3-1C7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {9,S}
@@ -11265,7 +11265,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11276,7 +11276,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 273,
     label = "PX1-3C6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
@@ -11306,7 +11306,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11317,7 +11317,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 274,
     label = "PXCH2-3-1C6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {8,S}
@@ -11350,7 +11350,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11361,7 +11361,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 275,
     label = "S4XC8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -11397,7 +11397,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11408,7 +11408,7 @@ C=CC[CH]CCCC
 entry(
     index = 276,
     label = "PXCH2-2-C6H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
@@ -11443,7 +11443,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11454,7 +11454,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 277,
     label = "PXCH2-2-C4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -11483,7 +11483,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11494,7 +11494,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 278,
     label = "PX10-5C10H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
@@ -11536,7 +11536,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11547,7 +11547,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 279,
     label = "PXC4H8-2-1C6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
@@ -11589,7 +11589,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11600,7 +11600,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 280,
     label = "C2H5-2-PXC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
@@ -11636,7 +11636,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11647,7 +11647,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 281,
     label = "CH2*",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -11662,7 +11662,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L S/93""",
-    longDesc = 
+    longDesc =
 u"""
 L S/93.
 Duplicate of species CH2 (i.e. same molecular structure according to RMG)
@@ -11673,7 +11673,7 @@ Duplicate of species CH2 (i.e. same molecular structure according to RMG)
 entry(
     index = 282,
     label = "PXC2H4-4-1C8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {11,S}
@@ -11715,7 +11715,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11726,7 +11726,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 283,
     label = "PXC2H4-4-1C7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {10,S}
@@ -11765,7 +11765,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11776,7 +11776,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 284,
     label = "CH3-4-PXC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
@@ -11809,7 +11809,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11820,7 +11820,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 285,
     label = "CH3S3XcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
@@ -11853,7 +11853,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11864,7 +11864,7 @@ CC1C[CH]CCC1
 entry(
     index = 286,
     label = "PX7-2C7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -11897,7 +11897,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11908,7 +11908,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 287,
     label = "CH3S2XcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
@@ -11941,7 +11941,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11952,7 +11952,7 @@ CC1[CH]CCCC1
 entry(
     index = 288,
     label = "CH3-3-PXC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -11985,7 +11985,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -11996,7 +11996,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 289,
     label = "CH3TXcC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -12029,7 +12029,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12040,7 +12040,7 @@ C[C]1CCCCC1
 entry(
     index = 290,
     label = "SAXcC6H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -12068,7 +12068,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""7/28/  CBSQB3""",
-    longDesc = 
+    longDesc =
 u"""
 7/28/  CBSQB3
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12079,7 +12079,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 291,
     label = "SXC7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -12112,7 +12112,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12123,7 +12123,7 @@ C=CCCC[CH]C
 entry(
     index = 292,
     label = "CH3-2-SXC6H12",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {8,S}
@@ -12158,7 +12158,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12169,7 +12169,7 @@ C[CH]CCC(C)C
 entry(
     index = 293,
     label = "PXC3H6-3-1C6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {10,S}
@@ -12208,7 +12208,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12219,7 +12219,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 294,
     label = "PX9-4C9H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
@@ -12258,7 +12258,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12269,7 +12269,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 295,
     label = "C8H14-13",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -12303,7 +12303,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12314,7 +12314,7 @@ C=CC=CCCCC
 entry(
     index = 296,
     label = "CH3-2-PXC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -12347,7 +12347,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12358,7 +12358,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 297,
     label = "SAXcC6H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -12384,7 +12384,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""7/31/ 9 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 7/31/ 9 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12395,7 +12395,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 298,
     label = "S3XC7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
@@ -12428,7 +12428,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12439,7 +12439,7 @@ C=CC[CH]CCC
 entry(
     index = 299,
     label = "SAXC7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -12472,7 +12472,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12483,7 +12483,7 @@ C=C[CH]CCCC
 entry(
     index = 300,
     label = "C3H7-2-PXC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
@@ -12522,7 +12522,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12533,7 +12533,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 301,
     label = "PX1-3C8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -12569,7 +12569,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12580,7 +12580,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 302,
     label = "PXC2H4-2-1C6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -12616,7 +12616,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12627,7 +12627,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 303,
     label = "PXC2H4-2-1C4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
@@ -12657,7 +12657,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12668,7 +12668,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 304,
     label = "C3H7-3-TAX1C7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {13,S} {14,S}
@@ -12710,7 +12710,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12721,7 +12721,7 @@ C=C[C](CCC)CCCC
 entry(
     index = 305,
     label = "SAX5-3C9H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -12760,7 +12760,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12771,7 +12771,7 @@ CCC=C[CH]CCCC
 entry(
     index = 306,
     label = "SAX6-4C9H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
@@ -12810,7 +12810,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12821,7 +12821,7 @@ CCC[CH]C=CCCC
 entry(
     index = 307,
     label = "C3H7-3-TAX1C6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
@@ -12860,7 +12860,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12871,7 +12871,7 @@ C=C[C](CCC)CCC
 entry(
     index = 308,
     label = "PX8-3C8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -12907,7 +12907,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12918,7 +12918,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 309,
     label = "cC6H8-13",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -12944,7 +12944,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""CBSQB3""",
-    longDesc = 
+    longDesc =
 u"""
 CBSQB3
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -12955,7 +12955,7 @@ C1C=CCCC=1
 entry(
     index = 310,
     label = "C2H5-2-SAX1C6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
@@ -12991,7 +12991,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13002,7 +13002,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 311,
     label = "CH3-2-SAXC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -13035,7 +13035,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13046,7 +13046,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 312,
     label = "C6H10-12",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -13074,7 +13074,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 8/29/ 8 G
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13085,7 +13085,7 @@ C=C=CCCC
 entry(
     index = 313,
     label = "CH2-3-1C6H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
@@ -13116,7 +13116,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13127,7 +13127,7 @@ C=CC(=C)CCC
 entry(
     index = 314,
     label = "CH2-3-1C7H12",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -13161,7 +13161,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13211,7 +13211,7 @@ C=CC(=C)CCCC
 entry(
     index = 315,
     label = "C2H5-3-TAX1C6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
@@ -13247,7 +13247,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13258,7 +13258,7 @@ C=C[C](CC)CCC
 entry(
     index = 316,
     label = "CH3-2-1C6H11",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
@@ -13291,7 +13291,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13302,7 +13302,7 @@ C=C(C)CCCC
 entry(
     index = 317,
     label = "PXC2H4-2-1C5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
@@ -13335,7 +13335,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13346,7 +13346,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 318,
     label = "CH2-3-1C5H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -13374,7 +13374,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13386,7 +13386,7 @@ C=CC(=C)CC
 entry(
     index = 319,
     label = "SAX4-5C10H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {15,S} {16,S}
@@ -13428,7 +13428,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13439,7 +13439,7 @@ CCC[C]=CCCCCC
 entry(
     index = 320,
     label = "C5H8-12",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -13464,7 +13464,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 8/29/ 8 G
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13475,7 +13475,7 @@ C=C=CCC
 entry(
     index = 321,
     label = "SAXC4H8-2-1C6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
@@ -13517,7 +13517,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13528,7 +13528,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 322,
     label = "C3H7-2-SAXC6H10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {10,S} {11,S}
@@ -13567,7 +13567,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERG""",
-    longDesc = 
+    longDesc =
 u"""
 THERG
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13578,7 +13578,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 323,
     label = "SAXC10H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
@@ -13620,7 +13620,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13631,7 +13631,7 @@ C=C[CH]CCCCCCC
 entry(
     index = 324,
     label = "SAXC9H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
@@ -13670,7 +13670,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13681,7 +13681,7 @@ C=C[CH]CCCCCC
 entry(
     index = 325,
     label = "SAXC8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
@@ -13717,7 +13717,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13728,7 +13728,7 @@ C=C[CH]CCCCC
 entry(
     index = 326,
     label = "C2H5-2-SAX1C5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {10,S} {11,S}
@@ -13761,7 +13761,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13772,7 +13772,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 327,
     label = "SOOcC6O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -13804,7 +13804,7 @@ multiplicity 3
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""therm""",
-    longDesc = 
+    longDesc =
 u"""
 therm
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -13815,7 +13815,7 @@ Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 entry(
     index = 328,
     label = "C2H5cC6H10OO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {10,S}
@@ -13853,7 +13853,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCC1CCC(CC1)O[O]
@@ -13863,7 +13863,7 @@ CCC1CCC(CC1)O[O]
 entry(
     index = 329,
     label = "CH3cC6H10OO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {9,S}
@@ -13898,7 +13898,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CC1CCC(CC1)O[O]
@@ -13908,7 +13908,7 @@ CC1CCC(CC1)O[O]
 entry(
     index = 330,
     label = "C4H9cC6H10OO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {12,S}
@@ -13952,7 +13952,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCCCC1CCC(CC1)O[O]
@@ -13962,7 +13962,7 @@ CCCCC1CCC(CC1)O[O]
 entry(
     index = 331,
     label = "C2H5cC6H9OOH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {11,S}
@@ -14000,7 +14000,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCC1C[CH]C(CC1)OO
@@ -14050,7 +14050,7 @@ CCC1C[CH]C(CC1)OO
 entry(
     index = 332,
     label = "C4H9cC6H9OOH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {13,S}
@@ -14094,7 +14094,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCCCC1C[CH]C(CC1)OO
@@ -14104,7 +14104,7 @@ CCCCC1C[CH]C(CC1)OO
 entry(
     index = 333,
     label = "CH3cC6H9OOH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {10,S}
@@ -14139,7 +14139,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CC1C[CH]C(CC1)OO
@@ -14149,7 +14149,7 @@ CC1C[CH]C(CC1)OO
 entry(
     index = 334,
     label = "C3H7cC6H10OO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {11,S}
@@ -14190,7 +14190,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCCC1CCC(CC1)O[O]
@@ -14200,7 +14200,7 @@ CCCC1CCC(CC1)O[O]
 entry(
     index = 335,
     label = "CH3-2-1C5H9",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
@@ -14230,7 +14230,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -14241,7 +14241,7 @@ C=C(C)CCC
 entry(
     index = 336,
     label = "CH3-2-1C4H7",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -14268,7 +14268,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""THERM""",
-    longDesc = 
+    longDesc =
 u"""
 THERM
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -14279,7 +14279,7 @@ C=C(C)CC
 entry(
     index = 337,
     label = "C3H7cC6H9OOH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {9,S} {12,S}
@@ -14320,7 +14320,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCCC1[CH]CC(CC1)OO
@@ -14330,7 +14330,7 @@ CCCC1[CH]CC(CC1)OO
 entry(
     index = 338,
     label = "CH3cC6H9O3",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {9,S}
@@ -14365,7 +14365,7 @@ multiplicity 3
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CC1CC([O])CC(C1)O[O]
@@ -14375,7 +14375,7 @@ CC1CC([O])CC(C1)O[O]
 entry(
     index = 339,
     label = "C2H5cC6H9O3",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {10,S}
@@ -14413,7 +14413,7 @@ multiplicity 3
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCC1CC([O])CC(C1)O[O]
@@ -14423,7 +14423,7 @@ CCC1CC([O])CC(C1)O[O]
 entry(
     index = 340,
     label = "C3H7cC6H9O3",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {11,S}
@@ -14464,7 +14464,7 @@ multiplicity 3
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCCC1CC([O])CC(C1)O[O]
@@ -14474,7 +14474,7 @@ CCCC1CC([O])CC(C1)O[O]
 entry(
     index = 341,
     label = "C4H9cC6H9O3",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {12,S}
@@ -14518,7 +14518,7 @@ multiplicity 3
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 CCCCC1CC([O])CC(C1)O[O]

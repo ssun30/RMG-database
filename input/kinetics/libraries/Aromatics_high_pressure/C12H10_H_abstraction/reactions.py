@@ -17,7 +17,7 @@ entry(
         Ea = (16.35, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 """,
 )
@@ -32,7 +32,7 @@ entry(
         Ea = (14.16, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 """,
 )
@@ -47,7 +47,7 @@ entry(
         Ea = (1.456, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 """,
 )

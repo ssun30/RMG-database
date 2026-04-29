@@ -17,7 +17,7 @@ entry(
         Ea = (17.651, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -33,7 +33,7 @@ entry(
         Ea = (15.31, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -49,7 +49,7 @@ entry(
         Ea = (0.73, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -65,7 +65,7 @@ entry(
         Ea = (17.651, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -81,7 +81,7 @@ entry(
         Ea = (15.31, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -97,7 +97,7 @@ entry(
         Ea = (0.73, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -113,7 +113,7 @@ entry(
         Ea = (17.651, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -129,7 +129,7 @@ entry(
         Ea = (15.31, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -145,7 +145,7 @@ entry(
         Ea = (0.73, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/H_abstraction
 """,
@@ -161,7 +161,7 @@ entry(
         Ea = (1.003, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -177,7 +177,7 @@ entry(
         Ea = (1.003, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -193,7 +193,7 @@ entry(
         Ea = (1.003, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,

@@ -5,20 +5,20 @@ name = "CH3Cl"
 shortDesc = "Glarborg CH3Cl"
 longDesc = """
 Pelucchi M, Cavallotti C, Frassoldati A, Ranzi E, Glarborg P, Faravelli T.
-Theoretical and kinetic modeling study of chloromethane (CH3Cl) pyrolysis and oxidation. 
+Theoretical and kinetic modeling study of chloromethane (CH3Cl) pyrolysis and oxidation.
 Int J Chem Kinet. 2021;53:403-418
 https://doi.org/10.1002/kin.21452
 
 Abstract:
-This work presents a comprehensive kinetic modeling study of the pyrolysis and oxidation of chloromethane. 
-Theoretical calculations were performed for the decomposition reaction CH3Cl + M = CH3 + Cl + M and for a set of relevant 
+This work presents a comprehensive kinetic modeling study of the pyrolysis and oxidation of chloromethane.
+Theoretical calculations were performed for the decomposition reaction CH3Cl + M = CH3 + Cl + M and for a set of relevant
 H-abstraction reactions (CH3Cl + R, R = Cl, H, OH, HO2, O2, ?, CH3, C2H3, C2H5; CH4 + Cl, C2H6 + Cl, C2H4 + Cl, C2H2 + Cl).
-Comparison with previous experimental or theoretical determinations, when available, proved the appropriateness 
-of the adopted protocols and the accuracy of the calculated rate constants. Previously developed subsets for CH3Cl and HCl/Cl2 
+Comparison with previous experimental or theoretical determinations, when available, proved the appropriateness
+of the adopted protocols and the accuracy of the calculated rate constants. Previously developed subsets for CH3Cl and HCl/Cl2
 were updated with the theoretical rate constants and combined with the CRECK C1-C3 mechanism,
 yielding a kinetic mechanism consisting of 143 species and 2347 reactions.
-The validation was performed through comparison with all the pyrolysis and oxidation measurements available for pure CH3Cl and its mixtures with 
-CH4, H2, and CO/H2 O. The kinetic discussion highlights the role of key reaction steps that have been theoretically investigated in this work 
+The validation was performed through comparison with all the pyrolysis and oxidation measurements available for pure CH3Cl and its mixtures with
+CH4, H2, and CO/H2 O. The kinetic discussion highlights the role of key reaction steps that have been theoretically investigated in this work
 and in previous efforts and sheds light on additional reaction pathways needing better assessments.
 
 Chlorine dioxide (OCLO) was removed from the mechanism since RMG cannot process hypervalent chlorine

@@ -8,12 +8,12 @@ Experimental values curated in the following references:
 
 1976 Benson = Thermochemical Kinetics (book), 2nd edition, by Sidney Benson
 
-1993 Wong and Bozzelli = 
-David K. Wong, Douglas A. Kretkowski, Joseph W. Bozzelli, 
-Standard Chemical Thermodynamic Properties of Monochloroalkanes, 
+1993 Wong and Bozzelli =
+David K. Wong, Douglas A. Kretkowski, Joseph W. Bozzelli,
+Standard Chemical Thermodynamic Properties of Monochloroalkanes,
 Ind. Eng. Chem. Res., 1993, 32, 3184-3188
 
-1998 Chen and Bozzelli = 
+1998 Chen and Bozzelli =
 Chinugh-Ju Chen, D. Wong, Joseph W. Bozzelli,
 Standard Chemical Thermodynamic Properties of Multichloro Alkanes and Alkenes: A Modified Group Additivity Scheme
 JPCA, 1998, 102, 4551-4558
@@ -21,7 +21,7 @@ JPCA, 1998, 102, 4551-4558
 entry(
     index = 0,
     label = "Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Cl u1 p3 c0
@@ -35,7 +35,7 @@ multiplicity 2
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -44,7 +44,7 @@ u"""
 entry(
     index = 1,
     label = "Cl2",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 Cl u0 p3 c0 {1,S}
@@ -58,7 +58,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -67,7 +67,7 @@ u"""
 entry(
     index = 2,
     label = "HCl",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 H  u0 p0 c0 {1,S}
@@ -81,7 +81,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -90,7 +90,7 @@ u"""
 entry(
     index = 3,
     label = "ClO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Cl u0 p3 c0 {2,S}
@@ -105,7 +105,7 @@ multiplicity 2
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -114,7 +114,7 @@ u"""
 entry(
     index = 4,
     label = "CCl4",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -131,7 +131,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -140,7 +140,7 @@ u"""
 entry(
     index = 5,
     label = "CHCl3",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -157,7 +157,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -166,7 +166,7 @@ u"""
 entry(
     index = 6,
     label = "CH2Cl2",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H  u0 p0 c0 {1,S}
@@ -183,7 +183,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -192,7 +192,7 @@ u"""
 entry(
     index = 7,
     label = "CdCCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,D} {4,S} {5,S}
 2 C  u0 p0 c0 {1,D} {3,S} {6,S}
@@ -210,7 +210,7 @@ entry(
         Tmax = (1000,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -219,7 +219,7 @@ u"""
 entry(
     index = 8,
     label = "C6H5Cl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,B} {6,B} {7,S}
 2  C  u0 p0 c0 {1,B} {3,B} {8,S}
@@ -243,7 +243,7 @@ entry(
         Tmax = (1000,'K'),
     ),
     shortDesc = u"""1976 Benson""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -252,7 +252,7 @@ u"""
 entry(
     index = 9,
     label = "CCCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C  u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -272,7 +272,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -281,7 +281,7 @@ u"""
 entry(
     index = 10,
     label = "CCCCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -304,7 +304,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -313,7 +313,7 @@ u"""
 entry(
     index = 11,
     label = "CCCCCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -339,7 +339,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -348,7 +348,7 @@ u"""
 entry(
     index = 12,
     label = "CCCCCCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -377,7 +377,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -386,7 +386,7 @@ u"""
 entry(
     index = 13,
     label = "CCCCCCCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C  u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -418,7 +418,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -427,7 +427,7 @@ u"""
 entry(
     index = 14,
     label = "CC(Cl)C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -450,7 +450,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -459,7 +459,7 @@ u"""
 entry(
     index = 15,
     label = "CC(Cl)CC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -485,7 +485,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -494,7 +494,7 @@ u"""
 entry(
     index = 16,
     label = "CC(Cl)CCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C  u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -523,7 +523,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -532,7 +532,7 @@ u"""
 entry(
     index = 17,
     label = "CCC(Cl)CC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
 2  C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -561,7 +561,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -570,7 +570,7 @@ u"""
 entry(
     index = 18,
     label = "CC(C)C(Cl)C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -599,7 +599,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -608,7 +608,7 @@ u"""
 entry(
     index = 19,
     label = "CC(C)(Cl)CCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
 2  C  u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -640,7 +640,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -649,7 +649,7 @@ u"""
 entry(
     index = 20,
     label = "CCC(C)(Cl)CC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C  u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -681,7 +681,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -690,7 +690,7 @@ u"""
 entry(
     index = 21,
     label = "CC(C)(Cl)C(C)C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
@@ -722,7 +722,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -731,7 +731,7 @@ u"""
 entry(
     index = 22,
     label = "CC(C)(Cl)C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -757,7 +757,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -766,7 +766,7 @@ u"""
 entry(
     index = 23,
     label = "CC(C)(Cl)CC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -795,7 +795,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1993 Wong and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -804,7 +804,7 @@ u"""
 entry(
     index = 24,
     label = "CCCl2",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
@@ -824,7 +824,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -833,7 +833,7 @@ u"""
 entry(
     index = 25,
     label = "C(Cl)2CC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -856,7 +856,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -865,7 +865,7 @@ u"""
 entry(
     index = 26,
     label = "C(Cl)2CCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  Cl u0 p3 c0 {1,S}
@@ -891,7 +891,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -900,7 +900,7 @@ u"""
 entry(
     index = 27,
     label = "C(Cl)2CCCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2  Cl u0 p3 c0 {1,S}
@@ -929,7 +929,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -938,7 +938,7 @@ u"""
 entry(
     index = 28,
     label = "C(Cl)2CCCCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
 2  Cl u0 p3 c0 {1,S}
@@ -970,7 +970,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -979,7 +979,7 @@ u"""
 entry(
     index = 29,
     label = "C(Cl)CCCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
@@ -1002,7 +1002,7 @@ entry(
         Tmax = (1000,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1011,7 +1011,7 @@ u"""
 entry(
     index = 30,
     label = "CC(Cl)2C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1034,7 +1034,7 @@ entry(
         Tmax = (1000,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1043,7 +1043,7 @@ u"""
 entry(
     index = 31,
     label = "CCCl3",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -1063,7 +1063,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1072,7 +1072,7 @@ u"""
 entry(
     index = 32,
     label = "C(Cl)3CC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1095,7 +1095,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1104,7 +1104,7 @@ u"""
 entry(
     index = 33,
     label = "C(Cl)3CCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  Cl u0 p3 c0 {1,S}
@@ -1130,7 +1130,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1139,7 +1139,7 @@ u"""
 entry(
     index = 34,
     label = "C(Cl)3CCCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  Cl u0 p3 c0 {1,S}
@@ -1168,7 +1168,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1177,7 +1177,7 @@ u"""
 entry(
     index = 35,
     label = "C(Cl)3CCCCC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  Cl u0 p3 c0 {1,S}
@@ -1209,7 +1209,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1218,7 +1218,7 @@ u"""
 entry(
     index = 36,
     label = "CdCCl2",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,D} {5,S} {6,S}
 2 C  u0 p0 c0 {1,D} {3,S} {4,S}
@@ -1236,7 +1236,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1245,7 +1245,7 @@ u"""
 entry(
     index = 37,
     label = "CdC(Cl)CdC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,D} {6,S} {7,S}
 2  C  u0 p0 c0 {1,D} {3,S} {4,S}
@@ -1267,7 +1267,7 @@ entry(
         Tmax = (1000,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1276,7 +1276,7 @@ u"""
 entry(
     index = 38,
     label = "CdC(Cl)C(Cl)dC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,D} {7,S} {8,S}
 2  C  u0 p0 c0 {1,D} {3,S} {4,S}
@@ -1298,7 +1298,7 @@ entry(
         Tmax = (1000,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1307,7 +1307,7 @@ u"""
 entry(
     index = 39,
     label = "C(Cl)2dC(Cl)CdC",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,D}
 2  Cl u0 p3 c0 {1,S}
@@ -1329,7 +1329,7 @@ entry(
         Tmax = (1000,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1338,7 +1338,7 @@ u"""
 entry(
     index = 40,
     label = "C(Cl)CCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C  u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -1358,7 +1358,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1367,7 +1367,7 @@ u"""
 entry(
     index = 41,
     label = "C(Cl)C(Cl)C",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1390,7 +1390,7 @@ entry(
         Tmax = (1000,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1399,7 +1399,7 @@ u"""
 entry(
     index = 42,
     label = "C(Cl)2CCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2 C  u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -1419,7 +1419,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1428,7 +1428,7 @@ u"""
 entry(
     index = 43,
     label = "C(Cl)C(Cl)CCl",
-    molecule = 
+    molecule =
 """
 1  C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C  u0 p0 c0 {1,S} {6,S} {8,S} {9,S}
@@ -1451,7 +1451,7 @@ entry(
         Tmax = (1000,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1460,7 +1460,7 @@ u"""
 entry(
     index = 44,
     label = "C(Cl)3CCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1480,7 +1480,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1489,7 +1489,7 @@ u"""
 entry(
     index = 45,
     label = "C(Cl)2CCl2",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2 C  u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
@@ -1509,7 +1509,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1518,7 +1518,7 @@ u"""
 entry(
     index = 46,
     label = "C(Cl)2CCl3",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2 Cl u0 p3 c0 {1,S}
@@ -1538,7 +1538,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1547,7 +1547,7 @@ u"""
 entry(
     index = 47,
     label = "C(Cl)3CCl3",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 Cl u0 p3 c0 {1,S}
@@ -1567,7 +1567,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1576,7 +1576,7 @@ u"""
 entry(
     index = 48,
     label = "C(Cl)dCCl",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,D} {3,S} {5,S}
 2 C  u0 p0 c0 {1,D} {4,S} {6,S}
@@ -1594,7 +1594,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1603,7 +1603,7 @@ u"""
 entry(
     index = 49,
     label = "C(Cl)dCCl2",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,D} {6,S}
 2 Cl u0 p3 c0 {1,S}
@@ -1621,7 +1621,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1630,7 +1630,7 @@ u"""
 entry(
     index = 50,
     label = "C(Cl)2dCCl2",
-    molecule = 
+    molecule =
 """
 1 C  u0 p0 c0 {2,S} {3,S} {4,D}
 2 Cl u0 p3 c0 {1,S}
@@ -1648,7 +1648,7 @@ entry(
         Tmax = (1500,'K'),
     ),
     shortDesc = u"""1998Chen and Bozzelli""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

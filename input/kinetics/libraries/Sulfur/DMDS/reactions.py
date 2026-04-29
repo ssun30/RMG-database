@@ -12,7 +12,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(85.5, 's^-1'), n=3.04, Ea=(11.62, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 small molecule oxidation library, reaction file, version 2, JS, August 6, 2003
 originally from Leeds methane oxidation mechanism v1.5

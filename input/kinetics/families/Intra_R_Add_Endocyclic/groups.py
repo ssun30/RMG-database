@@ -37,7 +37,7 @@ entry(
 entry(
     index = 1,
     label = "Backbone0",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,B,D,T]}
 2 *2 R!H u0 {1,[S,B,D,T]} {3,[B,D,T]}
@@ -49,7 +49,7 @@ entry(
 entry(
     index = 2,
     label = "Backbone0_2R!H-inRing",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {3,[B,D,T]}
 2 *1 R!H u1 r1 {1,[S,B,D,T]}
@@ -61,7 +61,7 @@ entry(
 entry(
     index = 3,
     label = "Backbone0_2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {3,[B,D,T]}
 2 *1 R!H u1 r1 {1,[S,B,D,T]} {4,[S,D,T,B,Q]}
@@ -76,7 +76,7 @@ entry(
 entry(
     index = 4,
     label = "Backbone0_2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-1R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {3,[B,D,T]} {7,[S,D,T,B,Q]}
 2 *1 R!H u1 r1 {1,[S,B,D,T]} {4,[S,D,T,B,Q]}
@@ -92,7 +92,7 @@ entry(
 entry(
     index = 5,
     label = "Backbone0_N-2R!H-inRing",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {3,[B,D,T]}
 2 *1 R!H u1 r0 {1,[S,B,D,T]}
@@ -104,7 +104,7 @@ entry(
 entry(
     index = 6,
     label = "Backbone0_N-2R!H-inRing_1R!H-inRing",
-    group = 
+    group =
 """
 1 *2 R!H u0 r1 {2,[S,B,D,T]} {3,[B,D,T]}
 2 *1 R!H u1 r0 {1,[S,B,D,T]}
@@ -116,7 +116,7 @@ entry(
 entry(
     index = 7,
     label = "Backbone0_N-2R!H-inRing_N-1R!H-inRing",
-    group = 
+    group =
 """
 1 *2 R!H u0 r0 {2,[S,B,D,T]} {3,[B,D,T]}
 2 *1 R!H u1 r0 {1,[S,B,D,T]}
@@ -128,7 +128,7 @@ entry(
 entry(
     index = 8,
     label = "Backbone0_N-2R!H-inRing_N-1R!H-inRing_Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 r0 {2,S} {3,[B,D,T]}
 2 *1 R!H u1 r0 {1,S}
@@ -140,7 +140,7 @@ entry(
 entry(
     index = 9,
     label = "Backbone0_N-2R!H-inRing_N-1R!H-inRing_Sp-2R!H-1R!H_Ext-2R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 r0 {2,S} {3,[B,D,T]}
 2 *1 R!H u1 r0 {1,S} {4,[S,D,T,B,Q]}
@@ -153,7 +153,7 @@ entry(
 entry(
     index = 10,
     label = "Backbone0_N-2R!H-inRing_N-1R!H-inRing_Sp-2R!H-1R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 r0 {2,S} {3,[B,D,T]}
 2 *1 R!H u1 r0 {1,S}
@@ -166,7 +166,7 @@ entry(
 entry(
     index = 11,
     label = "Backbone0_N-2R!H-inRing_N-1R!H-inRing_Sp-2R!H-1R!H_Ext-3R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 r0 {2,S} {3,[B,D,T]}
 2 *1 R!H u1 r0 {1,S}
@@ -180,7 +180,7 @@ entry(
 entry(
     index = 12,
     label = "Backbone0_N-2R!H-inRing_N-1R!H-inRing_Sp-2R!H-1R!H_Ext-3R!H-R_Sp-3R!H=1R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 r0 {2,S} {3,D}
 2 *1 R!H u1 r0 {1,S}
@@ -193,7 +193,7 @@ entry(
 entry(
     index = 13,
     label = "Backbone0_N-2R!H-inRing_N-1R!H-inRing_Sp-2R!H-1R!H_Ext-3R!H-R_N-Sp-3R!H=1R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 r0 {2,S} {3,T}
 2 *1 R!H u1 r0 {1,S}
@@ -206,7 +206,7 @@ entry(
 entry(
     index = 14,
     label = "Backbone0_N-2R!H-inRing_N-1R!H-inRing_N-Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 r0 {2,D} {3,[B,D,T]}
 2 *1 R!H u1 r0 {1,D}
@@ -218,7 +218,7 @@ entry(
 entry(
     index = 15,
     label = "Backbone1",
-    group = 
+    group =
 """
 1 *1 R!H u1 {4,[S,B,D,T]}
 2 *2 R!H u0 {3,[B,D,T]} {4,[S,B,D,T]}
@@ -231,7 +231,7 @@ entry(
 entry(
     index = 16,
     label = "Backbone1_2R!H-inRing",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r1 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -244,7 +244,7 @@ entry(
 entry(
     index = 17,
     label = "Backbone1_2R!H-inRing_Ext-1R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {5,[S,D,T,B,Q]}
 2    R!H u0 r1 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -258,7 +258,7 @@ entry(
 entry(
     index = 18,
     label = "Backbone1_2R!H-inRing_1R!H-inRing",
-    group = 
+    group =
 """
 1 *2 R!H u0 r1 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r1 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -271,7 +271,7 @@ entry(
 entry(
     index = 19,
     label = "Backbone1_2R!H-inRing_N-1R!H-inRing",
-    group = 
+    group =
 """
 1 *2 R!H u0 r0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r1 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -284,7 +284,7 @@ entry(
 entry(
     index = 20,
     label = "Backbone1_2R!H-inRing_N-1R!H-inRing_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 r0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r1 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -298,7 +298,7 @@ entry(
 entry(
     index = 21,
     label = "Backbone1_2R!H-inRing_N-1R!H-inRing_Sp-3R!H-2R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 r0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r1 {1,[S,B,D,T]} {3,S}
@@ -311,7 +311,7 @@ entry(
 entry(
     index = 22,
     label = "Backbone1_2R!H-inRing_N-1R!H-inRing_N-Sp-3R!H-2R!H",
-    group = 
+    group =
 """
 1 *2 C u0 r0 {2,S} {4,D}
 2    C u0 r1 {1,S} {3,B}
@@ -324,7 +324,7 @@ entry(
 entry(
     index = 23,
     label = "Backbone1_N-2R!H-inRing",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -337,7 +337,7 @@ entry(
 entry(
     index = 24,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -351,7 +351,7 @@ entry(
 entry(
     index = 25,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -366,7 +366,7 @@ entry(
 entry(
     index = 26,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -381,7 +381,7 @@ entry(
 entry(
     index = 27,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -397,7 +397,7 @@ entry(
 entry(
     index = 28,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -414,7 +414,7 @@ entry(
 entry(
     index = 29,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -432,7 +432,7 @@ entry(
 entry(
     index = 30,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-8R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -451,7 +451,7 @@ entry(
 entry(
     index = 31,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-8R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -471,7 +471,7 @@ entry(
 entry(
     index = 32,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-8R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -492,7 +492,7 @@ entry(
 entry(
     index = 33,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-8R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-10R!H-R_Sp-12R!H=10R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -513,7 +513,7 @@ entry(
 entry(
     index = 34,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-8R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-10R!H-R_N-Sp-12R!H=10R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -534,7 +534,7 @@ entry(
 entry(
     index = 35,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-8R!H-R_Ext-4R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -554,7 +554,7 @@ entry(
 entry(
     index = 36,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-8R!H-R_Ext-4R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -574,7 +574,7 @@ entry(
 entry(
     index = 37,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-8R!H-R_Ext-4R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -594,7 +594,7 @@ entry(
 entry(
     index = 38,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -612,7 +612,7 @@ entry(
 entry(
     index = 39,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -631,7 +631,7 @@ entry(
 entry(
     index = 40,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -651,7 +651,7 @@ entry(
 entry(
     index = 41,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -671,7 +671,7 @@ entry(
 entry(
     index = 42,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -691,7 +691,7 @@ entry(
 entry(
     index = 43,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -710,7 +710,7 @@ entry(
 entry(
     index = 44,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -729,7 +729,7 @@ entry(
 entry(
     index = 45,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -748,7 +748,7 @@ entry(
 entry(
     index = 46,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -765,7 +765,7 @@ entry(
 entry(
     index = 47,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -783,7 +783,7 @@ entry(
 entry(
     index = 48,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -802,7 +802,7 @@ entry(
 entry(
     index = 49,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -821,7 +821,7 @@ entry(
 entry(
     index = 50,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -840,7 +840,7 @@ entry(
 entry(
     index = 51,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -858,7 +858,7 @@ entry(
 entry(
     index = 52,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -876,7 +876,7 @@ entry(
 entry(
     index = 53,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-3R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -894,7 +894,7 @@ entry(
 entry(
     index = 54,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -910,7 +910,7 @@ entry(
 entry(
     index = 55,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -927,7 +927,7 @@ entry(
 entry(
     index = 56,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -945,7 +945,7 @@ entry(
 entry(
     index = 57,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -964,7 +964,7 @@ entry(
 entry(
     index = 58,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -984,7 +984,7 @@ entry(
 entry(
     index = 59,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1004,7 +1004,7 @@ entry(
 entry(
     index = 60,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1024,7 +1024,7 @@ entry(
 entry(
     index = 61,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1043,7 +1043,7 @@ entry(
 entry(
     index = 62,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1062,7 +1062,7 @@ entry(
 entry(
     index = 63,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1081,7 +1081,7 @@ entry(
 entry(
     index = 64,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1098,7 +1098,7 @@ entry(
 entry(
     index = 65,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1116,7 +1116,7 @@ entry(
 entry(
     index = 66,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1135,7 +1135,7 @@ entry(
 entry(
     index = 67,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1154,7 +1154,7 @@ entry(
 entry(
     index = 68,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1173,7 +1173,7 @@ entry(
 entry(
     index = 69,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1191,7 +1191,7 @@ entry(
 entry(
     index = 70,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1209,7 +1209,7 @@ entry(
 entry(
     index = 71,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1227,7 +1227,7 @@ entry(
 entry(
     index = 72,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1243,7 +1243,7 @@ entry(
 entry(
     index = 73,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1260,7 +1260,7 @@ entry(
 entry(
     index = 74,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1278,7 +1278,7 @@ entry(
 entry(
     index = 75,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R_Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1296,7 +1296,7 @@ entry(
 entry(
     index = 76,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R_N-Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1314,7 +1314,7 @@ entry(
 entry(
     index = 77,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-4R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1331,7 +1331,7 @@ entry(
 entry(
     index = 78,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-4R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1348,7 +1348,7 @@ entry(
 entry(
     index = 79,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_Sp-6R!H=5R!H_Ext-4R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1365,7 +1365,7 @@ entry(
 entry(
     index = 80,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1380,7 +1380,7 @@ entry(
 entry(
     index = 81,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1396,7 +1396,7 @@ entry(
 entry(
     index = 82,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1413,7 +1413,7 @@ entry(
 entry(
     index = 83,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1431,7 +1431,7 @@ entry(
 entry(
     index = 84,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1450,7 +1450,7 @@ entry(
 entry(
     index = 85,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1470,7 +1470,7 @@ entry(
 entry(
     index = 86,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1491,7 +1491,7 @@ entry(
 entry(
     index = 87,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R_Ext-3R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1512,7 +1512,7 @@ entry(
 entry(
     index = 88,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R_Ext-3R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1533,7 +1533,7 @@ entry(
 entry(
     index = 89,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1553,7 +1553,7 @@ entry(
 entry(
     index = 90,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1573,7 +1573,7 @@ entry(
 entry(
     index = 91,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1593,7 +1593,7 @@ entry(
 entry(
     index = 92,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1612,7 +1612,7 @@ entry(
 entry(
     index = 93,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-3R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1632,7 +1632,7 @@ entry(
 entry(
     index = 94,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-3R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1652,7 +1652,7 @@ entry(
 entry(
     index = 95,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-3R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1672,7 +1672,7 @@ entry(
 entry(
     index = 96,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1691,7 +1691,7 @@ entry(
 entry(
     index = 97,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1710,7 +1710,7 @@ entry(
 entry(
     index = 98,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1729,7 +1729,7 @@ entry(
 entry(
     index = 99,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-7R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1747,7 +1747,7 @@ entry(
 entry(
     index = 100,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1764,7 +1764,7 @@ entry(
 entry(
     index = 101,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1782,7 +1782,7 @@ entry(
 entry(
     index = 102,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1801,7 +1801,7 @@ entry(
 entry(
     index = 103,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1821,7 +1821,7 @@ entry(
 entry(
     index = 104,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_Ext-3R!H-R_Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1841,7 +1841,7 @@ entry(
 entry(
     index = 105,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_Ext-3R!H-R_N-Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1861,7 +1861,7 @@ entry(
 entry(
     index = 106,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1880,7 +1880,7 @@ entry(
 entry(
     index = 107,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1899,7 +1899,7 @@ entry(
 entry(
     index = 108,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1918,7 +1918,7 @@ entry(
 entry(
     index = 109,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1936,7 +1936,7 @@ entry(
 entry(
     index = 110,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-3R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1955,7 +1955,7 @@ entry(
 entry(
     index = 111,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-3R!H-R_Ext-8R!H-R_Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1974,7 +1974,7 @@ entry(
 entry(
     index = 112,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-3R!H-R_Ext-8R!H-R_N-Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -1993,7 +1993,7 @@ entry(
 entry(
     index = 113,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2011,7 +2011,7 @@ entry(
 entry(
     index = 114,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2029,7 +2029,7 @@ entry(
 entry(
     index = 115,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2047,7 +2047,7 @@ entry(
 entry(
     index = 116,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Ext-1R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2064,7 +2064,7 @@ entry(
 entry(
     index = 117,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_Sp-6R!H-5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2079,7 +2079,7 @@ entry(
 entry(
     index = 118,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2094,7 +2094,7 @@ entry(
 entry(
     index = 119,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2110,7 +2110,7 @@ entry(
 entry(
     index = 120,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2127,7 +2127,7 @@ entry(
 entry(
     index = 121,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2145,7 +2145,7 @@ entry(
 entry(
     index = 122,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2164,7 +2164,7 @@ entry(
 entry(
     index = 123,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R_Ext-3R!H-R_Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2183,7 +2183,7 @@ entry(
 entry(
     index = 124,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R_Ext-3R!H-R_N-Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2202,7 +2202,7 @@ entry(
 entry(
     index = 125,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R_Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2220,7 +2220,7 @@ entry(
 entry(
     index = 126,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R_N-Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2238,7 +2238,7 @@ entry(
 entry(
     index = 127,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-4R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2256,7 +2256,7 @@ entry(
 entry(
     index = 128,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2273,7 +2273,7 @@ entry(
 entry(
     index = 129,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-3R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2291,7 +2291,7 @@ entry(
 entry(
     index = 130,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-3R!H-R_Ext-7R!H-R_Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2309,7 +2309,7 @@ entry(
 entry(
     index = 131,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-3R!H-R_Ext-7R!H-R_N-Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2327,7 +2327,7 @@ entry(
 entry(
     index = 132,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2344,7 +2344,7 @@ entry(
 entry(
     index = 133,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2361,7 +2361,7 @@ entry(
 entry(
     index = 134,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-4R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2378,7 +2378,7 @@ entry(
 entry(
     index = 135,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-5R!H-R_N-Sp-6R!H=5R!H_N-Sp-6R!H-5R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2394,7 +2394,7 @@ entry(
 entry(
     index = 136,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2409,7 +2409,7 @@ entry(
 entry(
     index = 137,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2425,7 +2425,7 @@ entry(
 entry(
     index = 138,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2442,7 +2442,7 @@ entry(
 entry(
     index = 139,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2460,7 +2460,7 @@ entry(
 entry(
     index = 140,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2479,7 +2479,7 @@ entry(
 entry(
     index = 141,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2499,7 +2499,7 @@ entry(
 entry(
     index = 142,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2519,7 +2519,7 @@ entry(
 entry(
     index = 143,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2539,7 +2539,7 @@ entry(
 entry(
     index = 144,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2558,7 +2558,7 @@ entry(
 entry(
     index = 145,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2577,7 +2577,7 @@ entry(
 entry(
     index = 146,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2596,7 +2596,7 @@ entry(
 entry(
     index = 147,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2613,7 +2613,7 @@ entry(
 entry(
     index = 148,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2631,7 +2631,7 @@ entry(
 entry(
     index = 149,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2650,7 +2650,7 @@ entry(
 entry(
     index = 150,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2669,7 +2669,7 @@ entry(
 entry(
     index = 151,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2688,7 +2688,7 @@ entry(
 entry(
     index = 152,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2706,7 +2706,7 @@ entry(
 entry(
     index = 153,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2724,7 +2724,7 @@ entry(
 entry(
     index = 154,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2742,7 +2742,7 @@ entry(
 entry(
     index = 155,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2758,7 +2758,7 @@ entry(
 entry(
     index = 156,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2775,7 +2775,7 @@ entry(
 entry(
     index = 157,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2793,7 +2793,7 @@ entry(
 entry(
     index = 158,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R_Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2811,7 +2811,7 @@ entry(
 entry(
     index = 159,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R_N-Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2829,7 +2829,7 @@ entry(
 entry(
     index = 160,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-4R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2846,7 +2846,7 @@ entry(
 entry(
     index = 161,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-4R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2863,7 +2863,7 @@ entry(
 entry(
     index = 162,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-3R!H-R_Ext-4R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2880,7 +2880,7 @@ entry(
 entry(
     index = 163,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2895,7 +2895,7 @@ entry(
 entry(
     index = 164,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2911,7 +2911,7 @@ entry(
 entry(
     index = 165,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-6R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2928,7 +2928,7 @@ entry(
 entry(
     index = 166,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-6R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2946,7 +2946,7 @@ entry(
 entry(
     index = 167,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-6R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2965,7 +2965,7 @@ entry(
 entry(
     index = 168,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-6R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -2984,7 +2984,7 @@ entry(
 entry(
     index = 169,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-6R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1  *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3003,7 +3003,7 @@ entry(
 entry(
     index = 170,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-6R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3021,7 +3021,7 @@ entry(
 entry(
     index = 171,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-6R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3039,7 +3039,7 @@ entry(
 entry(
     index = 172,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-6R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3057,7 +3057,7 @@ entry(
 entry(
     index = 173,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3073,7 +3073,7 @@ entry(
 entry(
     index = 174,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3090,7 +3090,7 @@ entry(
 entry(
     index = 175,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3108,7 +3108,7 @@ entry(
 entry(
     index = 176,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R_Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3126,7 +3126,7 @@ entry(
 entry(
     index = 177,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-7R!H-R_N-Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3144,7 +3144,7 @@ entry(
 entry(
     index = 178,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3161,7 +3161,7 @@ entry(
 entry(
     index = 179,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3178,7 +3178,7 @@ entry(
 entry(
     index = 180,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R_Ext-4R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3195,7 +3195,7 @@ entry(
 entry(
     index = 181,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3210,7 +3210,7 @@ entry(
 entry(
     index = 182,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3226,7 +3226,7 @@ entry(
 entry(
     index = 183,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3243,7 +3243,7 @@ entry(
 entry(
     index = 184,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-8R!H=6R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3260,7 +3260,7 @@ entry(
 entry(
     index = 185,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-8R!H=6R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3277,7 +3277,7 @@ entry(
 entry(
     index = 186,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3293,7 +3293,7 @@ entry(
 entry(
     index = 187,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-7R!H=6R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3309,7 +3309,7 @@ entry(
 entry(
     index = 188,
     label = "Backbone1_N-2R!H-inRing_Ext-3R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-7R!H=6R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3325,7 +3325,7 @@ entry(
 entry(
     index = 189,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3339,7 +3339,7 @@ entry(
 entry(
     index = 190,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3354,7 +3354,7 @@ entry(
 entry(
     index = 191,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3370,7 +3370,7 @@ entry(
 entry(
     index = 192,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-5R!H-R_Ext-1R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3387,7 +3387,7 @@ entry(
 entry(
     index = 193,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-5R!H-R_Ext-1R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3405,7 +3405,7 @@ entry(
 entry(
     index = 194,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-5R!H-R_Ext-1R!H-R_Ext-8R!H-R_Sp-7R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3423,7 +3423,7 @@ entry(
 entry(
     index = 195,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-5R!H-R_Ext-1R!H-R_Ext-8R!H-R_N-Sp-7R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3441,7 +3441,7 @@ entry(
 entry(
     index = 196,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-5R!H-R_Ext-1R!H-R_Sp-7R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3458,7 +3458,7 @@ entry(
 entry(
     index = 197,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-5R!H-R_Ext-1R!H-R_N-Sp-7R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {8,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3475,7 +3475,7 @@ entry(
 entry(
     index = 198,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-5R!H-R_Sp-7R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3491,7 +3491,7 @@ entry(
 entry(
     index = 199,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-5R!H-R_N-Sp-7R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3507,7 +3507,7 @@ entry(
 entry(
     index = 200,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-1R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3523,7 +3523,7 @@ entry(
 entry(
     index = 201,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-1R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3540,7 +3540,7 @@ entry(
 entry(
     index = 202,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3554,7 +3554,7 @@ entry(
 entry(
     index = 203,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_5R!H-inRing",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3568,7 +3568,7 @@ entry(
 entry(
     index = 204,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_5R!H-inRing_Sp-4R!H-=1R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,B}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3582,7 +3582,7 @@ entry(
 entry(
     index = 205,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_5R!H-inRing_Sp-4R!H-=1R!H_Ext-2C-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,B}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]} {6,[S,D,T,B,Q]}
@@ -3597,7 +3597,7 @@ entry(
 entry(
     index = 206,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_5R!H-inRing_N-Sp-4R!H-=1R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,D}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3611,7 +3611,7 @@ entry(
 entry(
     index = 207,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_5R!H-inRing_N-Sp-4R!H-=1R!H_1R!H-inRing",
-    group = 
+    group =
 """
 1 *2 R!H u0 r1 {2,[S,B,D,T]} {4,D}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3625,7 +3625,7 @@ entry(
 entry(
     index = 208,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_5R!H-inRing_N-Sp-4R!H-=1R!H_N-1R!H-inRing",
-    group = 
+    group =
 """
 1 *2 C u0 r0 {2,S} {4,D}
 2    C u0 r0 {1,S} {3,D}
@@ -3639,7 +3639,7 @@ entry(
 entry(
     index = 209,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_N-5R!H-inRing",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3653,7 +3653,7 @@ entry(
 entry(
     index = 210,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_N-5R!H-inRing_Ext-1R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3668,7 +3668,7 @@ entry(
 entry(
     index = 211,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_N-5R!H-inRing_Ext-1R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3684,7 +3684,7 @@ entry(
 entry(
     index = 212,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_N-5R!H-inRing_Ext-1R!H-R_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3701,7 +3701,7 @@ entry(
 entry(
     index = 213,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_N-5R!H-inRing_Ext-1R!H-R_Ext-6R!H-R_Ext-5R!H-R_Sp-8R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3718,7 +3718,7 @@ entry(
 entry(
     index = 214,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_N-5R!H-inRing_Ext-1R!H-R_Ext-6R!H-R_Ext-5R!H-R_N-Sp-8R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3735,7 +3735,7 @@ entry(
 entry(
     index = 215,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_N-5R!H-inRing_Ext-1R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3751,7 +3751,7 @@ entry(
 entry(
     index = 216,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_N-5R!H-inRing_Ext-1R!H-R_Ext-5R!H-R_Sp-7R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3767,7 +3767,7 @@ entry(
 entry(
     index = 217,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_N-5R!H-inRing_Ext-1R!H-R_Ext-5R!H-R_N-Sp-7R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {6,[S,D,T,B,Q]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3783,7 +3783,7 @@ entry(
 entry(
     index = 218,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_N-5R!H-inRing_Ext-5R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3798,7 +3798,7 @@ entry(
 entry(
     index = 219,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_N-5R!H-inRing_Ext-5R!H-R_Sp-6R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3813,7 +3813,7 @@ entry(
 entry(
     index = 220,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_2R!H->C_N-5R!H-inRing_Ext-5R!H-R_N-Sp-6R!H=5R!H",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    C   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3828,7 +3828,7 @@ entry(
 entry(
     index = 221,
     label = "Backbone1_N-2R!H-inRing_Ext-4R!H-R_N-2R!H->C",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    O   u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3842,7 +3842,7 @@ entry(
 entry(
     index = 222,
     label = "Backbone1_N-2R!H-inRing_Ext-2R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]} {5,[S,D,T,B,Q]}
@@ -3856,7 +3856,7 @@ entry(
 entry(
     index = 223,
     label = "Backbone1_N-2R!H-inRing_Ext-2R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]} {5,[S,D,T,B,Q]}
@@ -3871,7 +3871,7 @@ entry(
 entry(
     index = 224,
     label = "Backbone1_N-2R!H-inRing_Ext-2R!H-R_Ext-2R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
@@ -3886,7 +3886,7 @@ entry(
 entry(
     index = 225,
     label = "Backbone1_N-2R!H-inRing_Ext-1R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {5,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3900,7 +3900,7 @@ entry(
 entry(
     index = 226,
     label = "Backbone1_N-2R!H-inRing_Ext-1R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1 *2 R!H u0 {2,[S,B,D,T]} {4,[B,D,T]} {5,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -3915,7 +3915,7 @@ entry(
 entry(
     index = 227,
     label = "Backbone2",
-    group = 
+    group =
 """
 1 *1 R!H u1 {4,[S,B,D,T]}
 2 *2 R!H u0 {3,[B,D,T]} {5,[S,B,D,T]}
@@ -3929,7 +3929,7 @@ entry(
 entry(
     index = 228,
     label = "Backbone2_Sp-3R!H=1R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -3943,7 +3943,7 @@ entry(
 entry(
     index = 229,
     label = "Backbone2_Sp-3R!H=1R!H_4R!H->S",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -3957,7 +3957,7 @@ entry(
 entry(
     index = 230,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -3971,7 +3971,7 @@ entry(
 entry(
     index = 231,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -3985,7 +3985,7 @@ entry(
 entry(
     index = 232,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -3999,7 +3999,7 @@ entry(
 entry(
     index = 233,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-4C-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4015,7 +4015,7 @@ entry(
 entry(
     index = 234,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-4C-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4032,7 +4032,7 @@ entry(
 entry(
     index = 235,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-4C-R_Ext-7R!H-R_Int-7R!H-6R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4049,7 +4049,7 @@ entry(
 entry(
     index = 236,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-4C-R_Ext-7R!H-R_Int-7R!H-6R!H_6R!H->C",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4066,7 +4066,7 @@ entry(
 entry(
     index = 237,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-4C-R_Ext-7R!H-R_Int-7R!H-6R!H_N-6R!H->C",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4083,7 +4083,7 @@ entry(
 entry(
     index = 238,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-4C-R_Ext-7R!H-R_Int-7R!H-5R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4100,7 +4100,7 @@ entry(
 entry(
     index = 239,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-4C-R_1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4116,7 +4116,7 @@ entry(
 entry(
     index = 240,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-4C-R_1R!H-inRing_6R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4132,7 +4132,7 @@ entry(
 entry(
     index = 241,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-4C-R_1R!H-inRing_6R!H-inRing_Int-7R!H-6R!H_Sp-7R!H-6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4148,7 +4148,7 @@ entry(
 entry(
     index = 242,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-4C-R_1R!H-inRing_6R!H-inRing_Int-7R!H-6R!H_N-Sp-7R!H-6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4164,7 +4164,7 @@ entry(
 entry(
     index = 243,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-4C-R_1R!H-inRing_N-6R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4180,7 +4180,7 @@ entry(
 entry(
     index = 244,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-4C-R_N-1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4196,7 +4196,7 @@ entry(
 entry(
     index = 245,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4212,7 +4212,7 @@ entry(
 entry(
     index = 246,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4229,7 +4229,7 @@ entry(
 entry(
     index = 247,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Ext-7R!H-R_1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4246,7 +4246,7 @@ entry(
 entry(
     index = 248,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Ext-7R!H-R_1R!H-inRing_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4264,7 +4264,7 @@ entry(
 entry(
     index = 249,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Ext-7R!H-R_N-1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4281,7 +4281,7 @@ entry(
 entry(
     index = 250,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Sp-7R!H-6R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4297,7 +4297,7 @@ entry(
 entry(
     index = 251,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Sp-7R!H-6R!H_1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4313,7 +4313,7 @@ entry(
 entry(
     index = 252,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Sp-7R!H-6R!H_N-1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4329,7 +4329,7 @@ entry(
 entry(
     index = 253,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_N-Sp-7R!H-6R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4345,7 +4345,7 @@ entry(
 entry(
     index = 254,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_2R!H-inRing_N-5R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4359,7 +4359,7 @@ entry(
 entry(
     index = 255,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_N-2R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4373,7 +4373,7 @@ entry(
 entry(
     index = 256,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_N-2R!H-inRing_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {6,[S,D,T,B,Q]}
@@ -4388,7 +4388,7 @@ entry(
 entry(
     index = 257,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_N-2R!H-inRing_5R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4402,7 +4402,7 @@ entry(
 entry(
     index = 258,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_N-2R!H-inRing_N-5R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4416,7 +4416,7 @@ entry(
 entry(
     index = 259,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_N-2R!H-inRing_N-5R!H-inRing_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4431,7 +4431,7 @@ entry(
 entry(
     index = 260,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_N-2R!H-inRing_N-5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4448,7 +4448,7 @@ entry(
 entry(
     index = 261,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_N-2R!H-inRing_N-5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-8R!H-R_Ext-9R!H-R_Sp-9R!H-6R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4466,7 +4466,7 @@ entry(
 entry(
     index = 262,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_N-2R!H-inRing_N-5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-8R!H-R_Ext-9R!H-R_N-Sp-9R!H-6R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4484,7 +4484,7 @@ entry(
 entry(
     index = 263,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_N-2R!H-inRing_N-5R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4501,7 +4501,7 @@ entry(
 entry(
     index = 264,
     label = "Backbone2_Sp-3R!H=1R!H_N-4R!H->S_N-2R!H-inRing_N-5R!H-inRing_Ext-4C-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,D}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4516,7 +4516,7 @@ entry(
 entry(
     index = 265,
     label = "Backbone2_N-Sp-3R!H=1R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4530,7 +4530,7 @@ entry(
 entry(
     index = 266,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4544,7 +4544,7 @@ entry(
 entry(
     index = 267,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_3R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4558,7 +4558,7 @@ entry(
 entry(
     index = 268,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_3R!H-inRing_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4573,7 +4573,7 @@ entry(
 entry(
     index = 269,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_3R!H-inRing_Ext-5R!H-R_2R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4588,7 +4588,7 @@ entry(
 entry(
     index = 270,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_3R!H-inRing_Ext-5R!H-R_2R!H-inRing_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4604,7 +4604,7 @@ entry(
 entry(
     index = 271,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_3R!H-inRing_Ext-5R!H-R_2R!H-inRing_Ext-3R!H-R_Ext-1R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,T,B]} {8,[S,D,T,B,Q]}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4621,7 +4621,7 @@ entry(
 entry(
     index = 272,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_3R!H-inRing_Ext-5R!H-R_N-2R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4636,7 +4636,7 @@ entry(
 entry(
     index = 273,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_3R!H-inRing_Ext-1R!H-R_Ext-6R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    C u0 r1 {2,[S,B,D,T]} {3,B} {6,B}
 2 *2 C u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4653,7 +4653,7 @@ entry(
 entry(
     index = 274,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_3R!H-inRing_Ext-1R!H-R_Ext-6R!H-R_Ext-4R!H-R_4R!H-inRing",
-    group = 
+    group =
 """
 1    C u0 r1 {2,[S,B,D,T]} {3,B} {6,B}
 2 *2 C u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4670,7 +4670,7 @@ entry(
 entry(
     index = 275,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_3R!H-inRing_Ext-1R!H-R_Ext-6R!H-R_Ext-4R!H-R_N-4R!H-inRing",
-    group = 
+    group =
 """
 1    C u0 r1 {2,[S,B,D,T]} {3,B} {6,B}
 2 *2 C u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4687,7 +4687,7 @@ entry(
 entry(
     index = 276,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_3R!H-inRing_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    C   u0 r1 {2,S} {3,[S,T,B]}
 2 *2 C   u0 r0 {1,S} {5,D}
@@ -4702,7 +4702,7 @@ entry(
 entry(
     index = 277,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_N-3R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4716,7 +4716,7 @@ entry(
 entry(
     index = 278,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_N-3R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Sp-6R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,T,B]} {6,S}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4731,7 +4731,7 @@ entry(
 entry(
     index = 279,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_N-3R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Sp-6R!H-1R!H_Sp-4R!H-3R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,T,B]} {6,S}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4746,7 +4746,7 @@ entry(
 entry(
     index = 280,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_N-3R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_Sp-6R!H-1R!H_N-Sp-4R!H-3R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,T,B]} {6,S}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4761,7 +4761,7 @@ entry(
 entry(
     index = 281,
     label = "Backbone2_N-Sp-3R!H=1R!H_1R!H-inRing_N-3R!H-inRing_Ext-5R!H-R_Ext-6R!H-R_N-Sp-6R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,T,B]} {6,[B,D,T,Q]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4776,7 +4776,7 @@ entry(
 entry(
     index = 282,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4790,7 +4790,7 @@ entry(
 entry(
     index = 283,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4804,7 +4804,7 @@ entry(
 entry(
     index = 284,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4819,7 +4819,7 @@ entry(
 entry(
     index = 285,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -4835,7 +4835,7 @@ entry(
 entry(
     index = 286,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -4852,7 +4852,7 @@ entry(
 entry(
     index = 287,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -4870,7 +4870,7 @@ entry(
 entry(
     index = 288,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -4889,7 +4889,7 @@ entry(
 entry(
     index = 289,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -4908,7 +4908,7 @@ entry(
 entry(
     index = 290,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -4928,7 +4928,7 @@ entry(
 entry(
     index = 291,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R_Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     C u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 C u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -4948,7 +4948,7 @@ entry(
 entry(
     index = 292,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R_Sp-11R!H=6R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     C u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 C u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -4969,7 +4969,7 @@ entry(
 entry(
     index = 293,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R_Sp-11R!H=6R!H_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 C   u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -4991,7 +4991,7 @@ entry(
 entry(
     index = 294,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R_Sp-11R!H=6R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 C   u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5012,7 +5012,7 @@ entry(
 entry(
     index = 295,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R_N-Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     C u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 C u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5032,7 +5032,7 @@ entry(
 entry(
     index = 296,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R_N-Sp-11R!H=6R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     C u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 C u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5053,7 +5053,7 @@ entry(
 entry(
     index = 297,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R_N-Sp-11R!H=6R!H_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 C   u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5075,7 +5075,7 @@ entry(
 entry(
     index = 298,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R_N-Sp-11R!H=6R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 C   u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5096,7 +5096,7 @@ entry(
 entry(
     index = 299,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 C   u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5116,7 +5116,7 @@ entry(
 entry(
     index = 300,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 C   u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5137,7 +5137,7 @@ entry(
 entry(
     index = 301,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5157,7 +5157,7 @@ entry(
 entry(
     index = 302,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5176,7 +5176,7 @@ entry(
 entry(
     index = 303,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5196,7 +5196,7 @@ entry(
 entry(
     index = 304,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5217,7 +5217,7 @@ entry(
 entry(
     index = 305,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R_Ext-4R!H-R_Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     C u0 r0 {2,S} {3,S}
 2  *2 C u0 {1,S} {5,D} {8,S}
@@ -5238,7 +5238,7 @@ entry(
 entry(
     index = 306,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R_Ext-4R!H-R_Sp-11R!H=6R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5260,7 +5260,7 @@ entry(
 entry(
     index = 307,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R_Ext-4R!H-R_N-Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     C u0 r0 {2,S} {3,S}
 2  *2 C u0 {1,S} {5,D} {8,S}
@@ -5281,7 +5281,7 @@ entry(
 entry(
     index = 308,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R_Ext-4R!H-R_N-Sp-11R!H=6R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5303,7 +5303,7 @@ entry(
 entry(
     index = 309,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R_Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     C u0 r0 {2,S} {3,S}
 2  *2 C u0 {1,S} {5,D} {8,S}
@@ -5323,7 +5323,7 @@ entry(
 entry(
     index = 310,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R_Sp-11R!H=6R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5344,7 +5344,7 @@ entry(
 entry(
     index = 311,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R_N-Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     C u0 r0 {2,S} {3,S}
 2  *2 C u0 {1,S} {5,D} {8,S}
@@ -5364,7 +5364,7 @@ entry(
 entry(
     index = 312,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R_N-Sp-11R!H=6R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5385,7 +5385,7 @@ entry(
 entry(
     index = 313,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 {1,S} {5,D} {8,S}
@@ -5405,7 +5405,7 @@ entry(
 entry(
     index = 314,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5426,7 +5426,7 @@ entry(
 entry(
     index = 315,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5446,7 +5446,7 @@ entry(
 entry(
     index = 316,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5465,7 +5465,7 @@ entry(
 entry(
     index = 317,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5485,7 +5485,7 @@ entry(
 entry(
     index = 318,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 {1,S} {5,D} {8,S}
@@ -5505,7 +5505,7 @@ entry(
 entry(
     index = 319,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-11R!H=6R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5526,7 +5526,7 @@ entry(
 entry(
     index = 320,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 {1,S} {5,D} {8,S}
@@ -5546,7 +5546,7 @@ entry(
 entry(
     index = 321,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-11R!H=6R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5567,7 +5567,7 @@ entry(
 entry(
     index = 322,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5587,7 +5587,7 @@ entry(
 entry(
     index = 323,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5606,7 +5606,7 @@ entry(
 entry(
     index = 324,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     C u0 r0 {2,S} {3,S}
 2  *2 C u0 {1,S} {5,D} {8,S}
@@ -5625,7 +5625,7 @@ entry(
 entry(
     index = 325,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-10R!H=6R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5645,7 +5645,7 @@ entry(
 entry(
     index = 326,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     C u0 r0 {2,S} {3,S}
 2  *2 C u0 {1,S} {5,D} {8,S}
@@ -5664,7 +5664,7 @@ entry(
 entry(
     index = 327,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-10R!H=6R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5684,7 +5684,7 @@ entry(
 entry(
     index = 328,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5703,7 +5703,7 @@ entry(
 entry(
     index = 329,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -5721,7 +5721,7 @@ entry(
 entry(
     index = 330,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-6R!H-R_Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    C u0 r0 {2,S} {3,S}
 2 *2 C u0 {1,S} {5,D} {8,S}
@@ -5739,7 +5739,7 @@ entry(
 entry(
     index = 331,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-6R!H-R_Sp-9R!H=6R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5758,7 +5758,7 @@ entry(
 entry(
     index = 332,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-6R!H-R_N-Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    C u0 r0 {2,S} {3,S}
 2 *2 C u0 {1,S} {5,D} {8,S}
@@ -5776,7 +5776,7 @@ entry(
 entry(
     index = 333,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-6R!H-R_N-Sp-9R!H=6R!H_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {3,S}
 2  *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5795,7 +5795,7 @@ entry(
 entry(
     index = 334,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-2R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1    C   u0 r0 {2,S} {3,S}
 2 *2 C   u0 r0 {1,S} {5,D} {8,S}
@@ -5813,7 +5813,7 @@ entry(
 entry(
     index = 335,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -5830,7 +5830,7 @@ entry(
 entry(
     index = 336,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -5848,7 +5848,7 @@ entry(
 entry(
     index = 337,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -5866,7 +5866,7 @@ entry(
 entry(
     index = 338,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -5885,7 +5885,7 @@ entry(
 entry(
     index = 339,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -5905,7 +5905,7 @@ entry(
 entry(
     index = 340,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-4R!H-R_Ext-6R!H-R_Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -5925,7 +5925,7 @@ entry(
 entry(
     index = 341,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-4R!H-R_Ext-6R!H-R_N-Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -5945,7 +5945,7 @@ entry(
 entry(
     index = 342,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -5964,7 +5964,7 @@ entry(
 entry(
     index = 343,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -5983,7 +5983,7 @@ entry(
 entry(
     index = 344,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_N-Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6002,7 +6002,7 @@ entry(
 entry(
     index = 345,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6020,7 +6020,7 @@ entry(
 entry(
     index = 346,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6039,7 +6039,7 @@ entry(
 entry(
     index = 347,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6059,7 +6059,7 @@ entry(
 entry(
     index = 348,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-4R!H-R_Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6079,7 +6079,7 @@ entry(
 entry(
     index = 349,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-4R!H-R_N-Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6099,7 +6099,7 @@ entry(
 entry(
     index = 350,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6118,7 +6118,7 @@ entry(
 entry(
     index = 351,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_N-Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6137,7 +6137,7 @@ entry(
 entry(
     index = 352,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6156,7 +6156,7 @@ entry(
 entry(
     index = 353,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6174,7 +6174,7 @@ entry(
 entry(
     index = 354,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6193,7 +6193,7 @@ entry(
 entry(
     index = 355,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6212,7 +6212,7 @@ entry(
 entry(
     index = 356,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6231,7 +6231,7 @@ entry(
 entry(
     index = 357,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6249,7 +6249,7 @@ entry(
 entry(
     index = 358,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6267,7 +6267,7 @@ entry(
 entry(
     index = 359,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6285,7 +6285,7 @@ entry(
 entry(
     index = 360,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6302,7 +6302,7 @@ entry(
 entry(
     index = 361,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Sp-8R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6319,7 +6319,7 @@ entry(
 entry(
     index = 362,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_N-Sp-8R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6336,7 +6336,7 @@ entry(
 entry(
     index = 363,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_2R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6351,7 +6351,7 @@ entry(
 entry(
     index = 364,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_2R!H-inRing_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r1 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6367,7 +6367,7 @@ entry(
 entry(
     index = 365,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -6382,7 +6382,7 @@ entry(
 entry(
     index = 366,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6398,7 +6398,7 @@ entry(
 entry(
     index = 367,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6415,7 +6415,7 @@ entry(
 entry(
     index = 368,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6433,7 +6433,7 @@ entry(
 entry(
     index = 369,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6452,7 +6452,7 @@ entry(
 entry(
     index = 370,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6471,7 +6471,7 @@ entry(
 entry(
     index = 371,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6491,7 +6491,7 @@ entry(
 entry(
     index = 372,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6512,7 +6512,7 @@ entry(
 entry(
     index = 373,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-4R!H-R_Ext-6R!H-R_Sp-12R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6533,7 +6533,7 @@ entry(
 entry(
     index = 374,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-4R!H-R_Ext-6R!H-R_N-Sp-12R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6554,7 +6554,7 @@ entry(
 entry(
     index = 375,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6574,7 +6574,7 @@ entry(
 entry(
     index = 376,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R_Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6594,7 +6594,7 @@ entry(
 entry(
     index = 377,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R_N-Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6614,7 +6614,7 @@ entry(
 entry(
     index = 378,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6633,7 +6633,7 @@ entry(
 entry(
     index = 379,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6653,7 +6653,7 @@ entry(
 entry(
     index = 380,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6674,7 +6674,7 @@ entry(
 entry(
     index = 381,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-4R!H-R_Ext-6R!H-R_Sp-12R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6695,7 +6695,7 @@ entry(
 entry(
     index = 382,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-4R!H-R_Ext-6R!H-R_N-Sp-12R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6716,7 +6716,7 @@ entry(
 entry(
     index = 383,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6736,7 +6736,7 @@ entry(
 entry(
     index = 384,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R_Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6756,7 +6756,7 @@ entry(
 entry(
     index = 385,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R_N-Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6776,7 +6776,7 @@ entry(
 entry(
     index = 386,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6795,7 +6795,7 @@ entry(
 entry(
     index = 387,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6815,7 +6815,7 @@ entry(
 entry(
     index = 388,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6835,7 +6835,7 @@ entry(
 entry(
     index = 389,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6855,7 +6855,7 @@ entry(
 entry(
     index = 390,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6874,7 +6874,7 @@ entry(
 entry(
     index = 391,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6893,7 +6893,7 @@ entry(
 entry(
     index = 392,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6912,7 +6912,7 @@ entry(
 entry(
     index = 393,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6930,7 +6930,7 @@ entry(
 entry(
     index = 394,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-6R!H-R_Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6948,7 +6948,7 @@ entry(
 entry(
     index = 395,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-7R!H-R_Ext-6R!H-R_N-Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6966,7 +6966,7 @@ entry(
 entry(
     index = 396,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -6983,7 +6983,7 @@ entry(
 entry(
     index = 397,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7001,7 +7001,7 @@ entry(
 entry(
     index = 398,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7019,7 +7019,7 @@ entry(
 entry(
     index = 399,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7038,7 +7038,7 @@ entry(
 entry(
     index = 400,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7058,7 +7058,7 @@ entry(
 entry(
     index = 401,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-4R!H-R_Ext-6R!H-R_Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7078,7 +7078,7 @@ entry(
 entry(
     index = 402,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-4R!H-R_Ext-6R!H-R_N-Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7098,7 +7098,7 @@ entry(
 entry(
     index = 403,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7117,7 +7117,7 @@ entry(
 entry(
     index = 404,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7136,7 +7136,7 @@ entry(
 entry(
     index = 405,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_N-Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7155,7 +7155,7 @@ entry(
 entry(
     index = 406,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7173,7 +7173,7 @@ entry(
 entry(
     index = 407,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7192,7 +7192,7 @@ entry(
 entry(
     index = 408,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7212,7 +7212,7 @@ entry(
 entry(
     index = 409,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-4R!H-R_Ext-6R!H-R_Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7232,7 +7232,7 @@ entry(
 entry(
     index = 410,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-4R!H-R_Ext-6R!H-R_N-Sp-11R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7252,7 +7252,7 @@ entry(
 entry(
     index = 411,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7271,7 +7271,7 @@ entry(
 entry(
     index = 412,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7290,7 +7290,7 @@ entry(
 entry(
     index = 413,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_N-Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7309,7 +7309,7 @@ entry(
 entry(
     index = 414,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7327,7 +7327,7 @@ entry(
 entry(
     index = 415,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7346,7 +7346,7 @@ entry(
 entry(
     index = 416,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7365,7 +7365,7 @@ entry(
 entry(
     index = 417,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7384,7 +7384,7 @@ entry(
 entry(
     index = 418,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7402,7 +7402,7 @@ entry(
 entry(
     index = 419,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7420,7 +7420,7 @@ entry(
 entry(
     index = 420,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7438,7 +7438,7 @@ entry(
 entry(
     index = 421,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7455,7 +7455,7 @@ entry(
 entry(
     index = 422,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-6R!H-R_Sp-8R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7472,7 +7472,7 @@ entry(
 entry(
     index = 423,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-2R!H-R_Ext-6R!H-R_N-Sp-8R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -7489,7 +7489,7 @@ entry(
 entry(
     index = 424,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7505,7 +7505,7 @@ entry(
 entry(
     index = 425,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7522,7 +7522,7 @@ entry(
 entry(
     index = 426,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7539,7 +7539,7 @@ entry(
 entry(
     index = 427,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7557,7 +7557,7 @@ entry(
 entry(
     index = 428,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7576,7 +7576,7 @@ entry(
 entry(
     index = 429,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-4R!H-R_Ext-6R!H-R_Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7595,7 +7595,7 @@ entry(
 entry(
     index = 430,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-4R!H-R_Ext-6R!H-R_N-Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7614,7 +7614,7 @@ entry(
 entry(
     index = 431,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7632,7 +7632,7 @@ entry(
 entry(
     index = 432,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-6R!H-R_Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7650,7 +7650,7 @@ entry(
 entry(
     index = 433,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-6R!H-R_N-Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7668,7 +7668,7 @@ entry(
 entry(
     index = 434,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7685,7 +7685,7 @@ entry(
 entry(
     index = 435,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7703,7 +7703,7 @@ entry(
 entry(
     index = 436,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7722,7 +7722,7 @@ entry(
 entry(
     index = 437,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-4R!H-R_Ext-6R!H-R_Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7741,7 +7741,7 @@ entry(
 entry(
     index = 438,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-4R!H-R_Ext-6R!H-R_N-Sp-10R!H=6R!H",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7760,7 +7760,7 @@ entry(
 entry(
     index = 439,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7778,7 +7778,7 @@ entry(
 entry(
     index = 440,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7796,7 +7796,7 @@ entry(
 entry(
     index = 441,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_N-Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7814,7 +7814,7 @@ entry(
 entry(
     index = 442,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7831,7 +7831,7 @@ entry(
 entry(
     index = 443,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7849,7 +7849,7 @@ entry(
 entry(
     index = 444,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7867,7 +7867,7 @@ entry(
 entry(
     index = 445,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-4R!H-R_Ext-6R!H-R_N-Sp-9R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7885,7 +7885,7 @@ entry(
 entry(
     index = 446,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7902,7 +7902,7 @@ entry(
 entry(
     index = 447,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-6R!H-R_Sp-8R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7919,7 +7919,7 @@ entry(
 entry(
     index = 448,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-4R!H-R_Ext-6R!H-R_N-Sp-8R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7936,7 +7936,7 @@ entry(
 entry(
     index = 449,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7952,7 +7952,7 @@ entry(
 entry(
     index = 450,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-6R!H-R_Sp-7R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7968,7 +7968,7 @@ entry(
 entry(
     index = 451,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-5R!H-R_N-2R!H-inRing_Ext-6R!H-R_N-Sp-7R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7984,7 +7984,7 @@ entry(
 entry(
     index = 452,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -7999,7 +7999,7 @@ entry(
 entry(
     index = 453,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8015,7 +8015,7 @@ entry(
 entry(
     index = 454,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8032,7 +8032,7 @@ entry(
 entry(
     index = 455,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-4R!H-R_Sp-7R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8049,7 +8049,7 @@ entry(
 entry(
     index = 456,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-4R!H-R_Sp-7R!H=6R!H_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {9,[S,D,T,B,Q]}
@@ -8067,7 +8067,7 @@ entry(
 entry(
     index = 457,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-4R!H-R_Sp-7R!H=6R!H_Ext-2R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {9,[S,D,T,B,Q]}
@@ -8086,7 +8086,7 @@ entry(
 entry(
     index = 458,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-4R!H-R_N-Sp-7R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8103,7 +8103,7 @@ entry(
 entry(
     index = 459,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-4R!H-R_N-Sp-7R!H=6R!H_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {9,[S,D,T,B,Q]}
@@ -8121,7 +8121,7 @@ entry(
 entry(
     index = 460,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-4R!H-R_N-Sp-7R!H=6R!H_Ext-2R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2  *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {9,[S,D,T,B,Q]}
@@ -8140,7 +8140,7 @@ entry(
 entry(
     index = 461,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -8157,7 +8157,7 @@ entry(
 entry(
     index = 462,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-2R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -8175,7 +8175,7 @@ entry(
 entry(
     index = 463,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-2R!H-R_Ext-8R!H-R_Sp-7R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -8193,7 +8193,7 @@ entry(
 entry(
     index = 464,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-2R!H-R_Ext-8R!H-R_N-Sp-7R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -8211,7 +8211,7 @@ entry(
 entry(
     index = 465,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-2R!H-R_Sp-7R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -8228,7 +8228,7 @@ entry(
 entry(
     index = 466,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Ext-2R!H-R_N-Sp-7R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {8,[S,D,T,B,Q]}
@@ -8245,7 +8245,7 @@ entry(
 entry(
     index = 467,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_Sp-7R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8261,7 +8261,7 @@ entry(
 entry(
     index = 468,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Ext-6R!H-R_N-Sp-7R!H=6R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8277,7 +8277,7 @@ entry(
 entry(
     index = 469,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Sp-6R!H-4R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8292,7 +8292,7 @@ entry(
 entry(
     index = 470,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Sp-6R!H-4R!H_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -8308,7 +8308,7 @@ entry(
 entry(
     index = 471,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Sp-6R!H-4R!H_Ext-2R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -8325,7 +8325,7 @@ entry(
 entry(
     index = 472,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Sp-6R!H-4R!H_Ext-2R!H-R_Ext-4R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -8343,7 +8343,7 @@ entry(
 entry(
     index = 473,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Sp-6R!H-4R!H_Ext-2R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -8360,7 +8360,7 @@ entry(
 entry(
     index = 474,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_Sp-6R!H-4R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    C u0 r0 {2,S} {3,S}
 2 *2 C u0 r0 {1,S} {5,D}
@@ -8376,7 +8376,7 @@ entry(
 entry(
     index = 475,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_N-Sp-6R!H-4R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8391,7 +8391,7 @@ entry(
 entry(
     index = 476,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_N-Sp-6R!H-4R!H_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -8407,7 +8407,7 @@ entry(
 entry(
     index = 477,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_N-Sp-6R!H-4R!H_Sp-5R!H=2R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,D}
@@ -8422,7 +8422,7 @@ entry(
 entry(
     index = 478,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-4R!H-R_N-Sp-6R!H-4R!H_N-Sp-5R!H=2R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,T}
@@ -8437,7 +8437,7 @@ entry(
 entry(
     index = 479,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8452,7 +8452,7 @@ entry(
 entry(
     index = 480,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-3R!H-R_Sp-6R!H-3R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8467,7 +8467,7 @@ entry(
 entry(
     index = 481,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-3R!H-R_Sp-6R!H-3R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8483,7 +8483,7 @@ entry(
 entry(
     index = 482,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-3R!H-R_N-Sp-6R!H-3R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8498,7 +8498,7 @@ entry(
 entry(
     index = 483,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-3R!H-R_N-Sp-6R!H-3R!H_Ext-1R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]} {7,[S,D,T,B,Q]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8514,7 +8514,7 @@ entry(
 entry(
     index = 484,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-3R!H-R_N-Sp-6R!H-3R!H_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {7,[S,D,T,B,Q]}
@@ -8530,7 +8530,7 @@ entry(
 entry(
     index = 485,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {6,[S,D,T,B,Q]}
@@ -8545,7 +8545,7 @@ entry(
 entry(
     index = 486,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-2R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]} {6,[S,D,T,B,Q]}
@@ -8561,7 +8561,7 @@ entry(
 entry(
     index = 487,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-1R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]} {6,[S,D,T,B,Q]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8576,7 +8576,7 @@ entry(
 entry(
     index = 488,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_Ext-1R!H-R_Ext-1R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8592,7 +8592,7 @@ entry(
 entry(
     index = 489,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_5R!H->S",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8606,7 +8606,7 @@ entry(
 entry(
     index = 490,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_Sp-4R!H-3R!H_N-5R!H->S",
-    group = 
+    group =
 """
 1    C u0 r0 {2,S} {3,S}
 2 *2 C u0 r0 {1,S} {5,D}
@@ -8620,7 +8620,7 @@ entry(
 entry(
     index = 491,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8634,7 +8634,7 @@ entry(
 entry(
     index = 492,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Ext-1R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]} {6,[S,D,T,B,Q]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8649,7 +8649,7 @@ entry(
 entry(
     index = 493,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Ext-1R!H-R_Sp-6R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]} {6,S}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8664,7 +8664,7 @@ entry(
 entry(
     index = 494,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Ext-1R!H-R_Sp-6R!H-1R!H_Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]} {6,S}
 2 *2 R!H u0 {1,S} {5,[B,D,T]}
@@ -8679,7 +8679,7 @@ entry(
 entry(
     index = 495,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Ext-1R!H-R_Sp-6R!H-1R!H_N-Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,D} {3,[S,T,B]} {6,S}
 2 *2 R!H u0 {1,D} {5,[B,D,T]}
@@ -8694,7 +8694,7 @@ entry(
 entry(
     index = 496,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Ext-1R!H-R_N-Sp-6R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]} {6,[B,D,T,Q]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8709,7 +8709,7 @@ entry(
 entry(
     index = 497,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Ext-1R!H-R_N-Sp-6R!H-1R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,T,B]} {6,[B,D,T,Q]}
 2 *2 R!H u0 {1,[S,B,D,T]} {5,[B,D,T]}
@@ -8725,7 +8725,7 @@ entry(
 entry(
     index = 498,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 {1,S} {5,[B,D,T]}
@@ -8739,7 +8739,7 @@ entry(
 entry(
     index = 499,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 {1,S} {5,[B,D,T]}
@@ -8754,7 +8754,7 @@ entry(
 entry(
     index = 500,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H_Ext-5R!H-R_2R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 r1 {1,S} {5,[B,D,T]}
@@ -8769,7 +8769,7 @@ entry(
 entry(
     index = 501,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H_Ext-5R!H-R_N-2R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 r0 {1,S} {5,[B,D,T]}
@@ -8784,7 +8784,7 @@ entry(
 entry(
     index = 502,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 {1,S} {5,[B,D,T]} {6,[S,D,T,B,Q]}
@@ -8799,7 +8799,7 @@ entry(
 entry(
     index = 503,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H_Sp-5R!H=2R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 {1,S} {5,D}
@@ -8813,7 +8813,7 @@ entry(
 entry(
     index = 504,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H_Sp-5R!H=2R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 {1,S} {5,D}
@@ -8828,7 +8828,7 @@ entry(
 entry(
     index = 505,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H_Sp-5R!H=2R!H_Ext-4R!H-R_3R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 {1,S} {5,D}
@@ -8843,7 +8843,7 @@ entry(
 entry(
     index = 506,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H_Sp-5R!H=2R!H_Ext-4R!H-R_N-3R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 {1,S} {5,D}
@@ -8858,7 +8858,7 @@ entry(
 entry(
     index = 507,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H_N-Sp-5R!H=2R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 {1,S} {5,[B,T]}
@@ -8872,7 +8872,7 @@ entry(
 entry(
     index = 508,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H_N-Sp-5R!H=2R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 {1,S} {5,[B,T]}
@@ -8887,7 +8887,7 @@ entry(
 entry(
     index = 509,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H_N-Sp-5R!H=2R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 {1,S} {5,[B,T]}
@@ -8902,7 +8902,7 @@ entry(
 entry(
     index = 510,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_Sp-2R!H-1R!H_N-Sp-5R!H=2R!H_Ext-4R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,T,B]}
 2 *2 R!H u0 {1,S} {5,[B,T]}
@@ -8918,7 +8918,7 @@ entry(
 entry(
     index = 511,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_N-Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,D} {3,[S,T,B]}
 2 *2 R!H u0 {1,D} {5,[B,D,T]}
@@ -8932,7 +8932,7 @@ entry(
 entry(
     index = 512,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_N-Sp-2R!H-1R!H_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,D} {3,[S,T,B]}
 2 *2 R!H u0 {1,D} {5,[B,D,T]}
@@ -8947,7 +8947,7 @@ entry(
 entry(
     index = 513,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_N-Sp-2R!H-1R!H_Ext-5R!H-R_Sp-6R!H-5R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,D} {3,[S,T,B]}
 2 *2 R!H u0 {1,D} {5,[B,D,T]}
@@ -8962,7 +8962,7 @@ entry(
 entry(
     index = 514,
     label = "Backbone2_N-Sp-3R!H=1R!H_N-1R!H-inRing_N-Sp-4R!H-3R!H_N-Sp-2R!H-1R!H_Ext-5R!H-R_N-Sp-6R!H-5R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,D} {3,[S,T,B]}
 2 *2 R!H u0 {1,D} {5,[B,D,T]}
@@ -8977,7 +8977,7 @@ entry(
 entry(
     index = 515,
     label = "Backbone3",
-    group = 
+    group =
 """
 1 *1 R!H u1 {4,[S,B,D,T]}
 2 *2 R!H u0 {3,[B,D,T]} {6,[S,B,D,T]}
@@ -8992,7 +8992,7 @@ entry(
 entry(
     index = 516,
     label = "Backbone3_Sp-4R!H=1R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -9007,7 +9007,7 @@ entry(
 entry(
     index = 517,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9022,7 +9022,7 @@ entry(
 entry(
     index = 518,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9038,7 +9038,7 @@ entry(
 entry(
     index = 519,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9055,7 +9055,7 @@ entry(
 entry(
     index = 520,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_3R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9072,7 +9072,7 @@ entry(
 entry(
     index = 521,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9089,7 +9089,7 @@ entry(
 entry(
     index = 522,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9107,7 +9107,7 @@ entry(
 entry(
     index = 523,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9126,7 +9126,7 @@ entry(
 entry(
     index = 524,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9146,7 +9146,7 @@ entry(
 entry(
     index = 525,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9166,7 +9166,7 @@ entry(
 entry(
     index = 526,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9187,7 +9187,7 @@ entry(
 entry(
     index = 527,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-9R!H-R_Sp-12R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,[S,B,D,T]} {4,D}
 2     C u0 {1,[S,B,D,T]} {3,S}
@@ -9208,7 +9208,7 @@ entry(
 entry(
     index = 528,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-9R!H-R_Sp-12R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,[S,B,D,T]} {4,D}
 2     C u0 {1,[S,B,D,T]} {3,S}
@@ -9230,7 +9230,7 @@ entry(
 entry(
     index = 529,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-9R!H-R_Sp-12R!H=9R!H_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,[S,B,D,T]} {4,D}
 2     C   u0 {1,[S,B,D,T]} {3,S}
@@ -9253,7 +9253,7 @@ entry(
 entry(
     index = 530,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-9R!H-R_Sp-12R!H=9R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,[S,B,D,T]} {4,D}
 2     C   u0 {1,[S,B,D,T]} {3,S}
@@ -9275,7 +9275,7 @@ entry(
 entry(
     index = 531,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-9R!H-R_N-Sp-12R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,[S,B,D,T]} {4,D}
 2     C u0 {1,[S,B,D,T]} {3,S}
@@ -9296,7 +9296,7 @@ entry(
 entry(
     index = 532,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-9R!H-R_N-Sp-12R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,[S,B,D,T]} {4,D}
 2     C u0 {1,[S,B,D,T]} {3,S}
@@ -9318,7 +9318,7 @@ entry(
 entry(
     index = 533,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-9R!H-R_N-Sp-12R!H=9R!H_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,[S,B,D,T]} {4,D}
 2     C   u0 {1,[S,B,D,T]} {3,S}
@@ -9341,7 +9341,7 @@ entry(
 entry(
     index = 534,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-9R!H-R_N-Sp-12R!H=9R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,[S,B,D,T]} {4,D}
 2     C   u0 {1,[S,B,D,T]} {3,S}
@@ -9363,7 +9363,7 @@ entry(
 entry(
     index = 535,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,[S,B,D,T]} {4,D}
 2     C   u0 {1,[S,B,D,T]} {3,S}
@@ -9384,7 +9384,7 @@ entry(
 entry(
     index = 536,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,[S,B,D,T]} {4,D}
 2     C   u0 {1,[S,B,D,T]} {3,S}
@@ -9406,7 +9406,7 @@ entry(
 entry(
     index = 537,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -9427,7 +9427,7 @@ entry(
 entry(
     index = 538,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9447,7 +9447,7 @@ entry(
 entry(
     index = 539,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9468,7 +9468,7 @@ entry(
 entry(
     index = 540,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-5R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9490,7 +9490,7 @@ entry(
 entry(
     index = 541,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-5R!H-R_Ext-9R!H-R_Sp-13R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,D}
 2     C u0 {1,S} {3,S}
@@ -9512,7 +9512,7 @@ entry(
 entry(
     index = 542,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-5R!H-R_Ext-9R!H-R_Sp-13R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -9535,7 +9535,7 @@ entry(
 entry(
     index = 543,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-5R!H-R_Ext-9R!H-R_N-Sp-13R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,D}
 2     C u0 {1,S} {3,S}
@@ -9557,7 +9557,7 @@ entry(
 entry(
     index = 544,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-5R!H-R_Ext-9R!H-R_N-Sp-13R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -9580,7 +9580,7 @@ entry(
 entry(
     index = 545,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -9602,7 +9602,7 @@ entry(
 entry(
     index = 546,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9623,7 +9623,7 @@ entry(
 entry(
     index = 547,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-9R!H-R_Sp-12R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,D}
 2     C u0 {1,S} {3,S}
@@ -9644,7 +9644,7 @@ entry(
 entry(
     index = 548,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-9R!H-R_Sp-12R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -9666,7 +9666,7 @@ entry(
 entry(
     index = 549,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-9R!H-R_N-Sp-12R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,D}
 2     C u0 {1,S} {3,S}
@@ -9687,7 +9687,7 @@ entry(
 entry(
     index = 550,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-9R!H-R_N-Sp-12R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -9709,7 +9709,7 @@ entry(
 entry(
     index = 551,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -9730,7 +9730,7 @@ entry(
 entry(
     index = 552,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9750,7 +9750,7 @@ entry(
 entry(
     index = 553,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9771,7 +9771,7 @@ entry(
 entry(
     index = 554,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-9R!H-R_Sp-12R!H=9R!H",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,D}
 2     C   u0 {1,S} {3,S}
@@ -9792,7 +9792,7 @@ entry(
 entry(
     index = 555,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-9R!H-R_Sp-12R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -9814,7 +9814,7 @@ entry(
 entry(
     index = 556,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-9R!H-R_N-Sp-12R!H=9R!H",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,D}
 2     C   u0 {1,S} {3,S}
@@ -9835,7 +9835,7 @@ entry(
 entry(
     index = 557,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-9R!H-R_N-Sp-12R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -9857,7 +9857,7 @@ entry(
 entry(
     index = 558,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -9878,7 +9878,7 @@ entry(
 entry(
     index = 559,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -9898,7 +9898,7 @@ entry(
 entry(
     index = 560,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,D}
 2     C u0 {1,S} {3,S}
@@ -9918,7 +9918,7 @@ entry(
 entry(
     index = 561,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -9939,7 +9939,7 @@ entry(
 entry(
     index = 562,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,D}
 2     C u0 {1,S} {3,S}
@@ -9959,7 +9959,7 @@ entry(
 entry(
     index = 563,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -9980,7 +9980,7 @@ entry(
 entry(
     index = 564,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -10000,7 +10000,7 @@ entry(
 entry(
     index = 565,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10019,7 +10019,7 @@ entry(
 entry(
     index = 566,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,D}
 2     C u0 {1,S} {3,S}
@@ -10038,7 +10038,7 @@ entry(
 entry(
     index = 567,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -10058,7 +10058,7 @@ entry(
 entry(
     index = 568,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,D}
 2     C u0 {1,S} {3,S}
@@ -10077,7 +10077,7 @@ entry(
 entry(
     index = 569,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -10097,7 +10097,7 @@ entry(
 entry(
     index = 570,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -10116,7 +10116,7 @@ entry(
 entry(
     index = 571,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10134,7 +10134,7 @@ entry(
 entry(
     index = 572,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-5R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10153,7 +10153,7 @@ entry(
 entry(
     index = 573,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-5R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10172,7 +10172,7 @@ entry(
 entry(
     index = 574,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-5R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10192,7 +10192,7 @@ entry(
 entry(
     index = 575,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-5R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10211,7 +10211,7 @@ entry(
 entry(
     index = 576,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-5R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10231,7 +10231,7 @@ entry(
 entry(
     index = 577,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-7R!H-R_N-3R!H-inRing_Ext-5R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10250,7 +10250,7 @@ entry(
 entry(
     index = 578,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10267,7 +10267,7 @@ entry(
 entry(
     index = 579,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10285,7 +10285,7 @@ entry(
 entry(
     index = 580,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10303,7 +10303,7 @@ entry(
 entry(
     index = 581,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10322,7 +10322,7 @@ entry(
 entry(
     index = 582,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10342,7 +10342,7 @@ entry(
 entry(
     index = 583,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10363,7 +10363,7 @@ entry(
 entry(
     index = 584,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-12R!H=10R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,D}
 2     C u0 {1,S} {3,S}
@@ -10384,7 +10384,7 @@ entry(
 entry(
     index = 585,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-12R!H=10R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -10406,7 +10406,7 @@ entry(
 entry(
     index = 586,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-12R!H=10R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,D}
 2     C u0 {1,S} {3,S}
@@ -10427,7 +10427,7 @@ entry(
 entry(
     index = 587,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-12R!H=10R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -10449,7 +10449,7 @@ entry(
 entry(
     index = 588,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -10470,7 +10470,7 @@ entry(
 entry(
     index = 589,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10490,7 +10490,7 @@ entry(
 entry(
     index = 590,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,D}
 2     C u0 {1,S} {3,S}
@@ -10510,7 +10510,7 @@ entry(
 entry(
     index = 591,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -10531,7 +10531,7 @@ entry(
 entry(
     index = 592,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,D}
 2     C u0 {1,S} {3,S}
@@ -10551,7 +10551,7 @@ entry(
 entry(
     index = 593,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -10572,7 +10572,7 @@ entry(
 entry(
     index = 594,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -10592,7 +10592,7 @@ entry(
 entry(
     index = 595,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -10611,7 +10611,7 @@ entry(
 entry(
     index = 596,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10629,7 +10629,7 @@ entry(
 entry(
     index = 597,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10648,7 +10648,7 @@ entry(
 entry(
     index = 598,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10668,7 +10668,7 @@ entry(
 entry(
     index = 599,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10689,7 +10689,7 @@ entry(
 entry(
     index = 600,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10711,7 +10711,7 @@ entry(
 entry(
     index = 601,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R_Ext-5R!H-R_Sp-12R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10733,7 +10733,7 @@ entry(
 entry(
     index = 602,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R_Ext-5R!H-R_N-Sp-12R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10755,7 +10755,7 @@ entry(
 entry(
     index = 603,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-12R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10776,7 +10776,7 @@ entry(
 entry(
     index = 604,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-12R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10797,7 +10797,7 @@ entry(
 entry(
     index = 605,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10818,7 +10818,7 @@ entry(
 entry(
     index = 606,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10838,7 +10838,7 @@ entry(
 entry(
     index = 607,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10859,7 +10859,7 @@ entry(
 entry(
     index = 608,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_Sp-12R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10880,7 +10880,7 @@ entry(
 entry(
     index = 609,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-10R!H-R_N-Sp-12R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10901,7 +10901,7 @@ entry(
 entry(
     index = 610,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10921,7 +10921,7 @@ entry(
 entry(
     index = 611,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10941,7 +10941,7 @@ entry(
 entry(
     index = 612,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-6R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10961,7 +10961,7 @@ entry(
 entry(
     index = 613,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10980,7 +10980,7 @@ entry(
 entry(
     index = 614,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -10998,7 +10998,7 @@ entry(
 entry(
     index = 615,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11017,7 +11017,7 @@ entry(
 entry(
     index = 616,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11037,7 +11037,7 @@ entry(
 entry(
     index = 617,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,D}
 2     C   u0 {1,S} {3,S}
@@ -11057,7 +11057,7 @@ entry(
 entry(
     index = 618,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -11078,7 +11078,7 @@ entry(
 entry(
     index = 619,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,D}
 2     C   u0 {1,S} {3,S}
@@ -11098,7 +11098,7 @@ entry(
 entry(
     index = 620,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -11119,7 +11119,7 @@ entry(
 entry(
     index = 621,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,D}
 2     C   u0 r0 {1,S} {3,S}
@@ -11139,7 +11139,7 @@ entry(
 entry(
     index = 622,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11157,7 +11157,7 @@ entry(
 entry(
     index = 623,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11176,7 +11176,7 @@ entry(
 entry(
     index = 624,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11196,7 +11196,7 @@ entry(
 entry(
     index = 625,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11216,7 +11216,7 @@ entry(
 entry(
     index = 626,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11236,7 +11236,7 @@ entry(
 entry(
     index = 627,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11255,7 +11255,7 @@ entry(
 entry(
     index = 628,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11274,7 +11274,7 @@ entry(
 entry(
     index = 629,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11293,7 +11293,7 @@ entry(
 entry(
     index = 630,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11310,7 +11310,7 @@ entry(
 entry(
     index = 631,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11328,7 +11328,7 @@ entry(
 entry(
     index = 632,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11347,7 +11347,7 @@ entry(
 entry(
     index = 633,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R_Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11366,7 +11366,7 @@ entry(
 entry(
     index = 634,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R_N-Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {4,D}
 2     R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11385,7 +11385,7 @@ entry(
 entry(
     index = 635,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-6R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11403,7 +11403,7 @@ entry(
 entry(
     index = 636,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-6R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11421,7 +11421,7 @@ entry(
 entry(
     index = 637,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Ext-3R!H-R_Ext-6R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,S}
@@ -11439,7 +11439,7 @@ entry(
 entry(
     index = 638,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -11454,7 +11454,7 @@ entry(
 entry(
     index = 639,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S} {7,[S,D,T,B,Q]}
@@ -11470,7 +11470,7 @@ entry(
 entry(
     index = 640,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -11486,7 +11486,7 @@ entry(
 entry(
     index = 641,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -11503,7 +11503,7 @@ entry(
 entry(
     index = 642,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -11520,7 +11520,7 @@ entry(
 entry(
     index = 643,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -11538,7 +11538,7 @@ entry(
 entry(
     index = 644,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11557,7 +11557,7 @@ entry(
 entry(
     index = 645,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11577,7 +11577,7 @@ entry(
 entry(
     index = 646,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11598,7 +11598,7 @@ entry(
 entry(
     index = 647,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-12R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11619,7 +11619,7 @@ entry(
 entry(
     index = 648,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-12R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11640,7 +11640,7 @@ entry(
 entry(
     index = 649,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11660,7 +11660,7 @@ entry(
 entry(
     index = 650,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11680,7 +11680,7 @@ entry(
 entry(
     index = 651,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11700,7 +11700,7 @@ entry(
 entry(
     index = 652,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -11718,7 +11718,7 @@ entry(
 entry(
     index = 653,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11737,7 +11737,7 @@ entry(
 entry(
     index = 654,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11757,7 +11757,7 @@ entry(
 entry(
     index = 655,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11777,7 +11777,7 @@ entry(
 entry(
     index = 656,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11797,7 +11797,7 @@ entry(
 entry(
     index = 657,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11816,7 +11816,7 @@ entry(
 entry(
     index = 658,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11835,7 +11835,7 @@ entry(
 entry(
     index = 659,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11854,7 +11854,7 @@ entry(
 entry(
     index = 660,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -11871,7 +11871,7 @@ entry(
 entry(
     index = 661,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -11889,7 +11889,7 @@ entry(
 entry(
     index = 662,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11908,7 +11908,7 @@ entry(
 entry(
     index = 663,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11928,7 +11928,7 @@ entry(
 entry(
     index = 664,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11949,7 +11949,7 @@ entry(
 entry(
     index = 665,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Ext-5R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11970,7 +11970,7 @@ entry(
 entry(
     index = 666,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Ext-5R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -11991,7 +11991,7 @@ entry(
 entry(
     index = 667,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12011,7 +12011,7 @@ entry(
 entry(
     index = 668,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12031,7 +12031,7 @@ entry(
 entry(
     index = 669,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12051,7 +12051,7 @@ entry(
 entry(
     index = 670,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12070,7 +12070,7 @@ entry(
 entry(
     index = 671,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12090,7 +12090,7 @@ entry(
 entry(
     index = 672,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12110,7 +12110,7 @@ entry(
 entry(
     index = 673,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12130,7 +12130,7 @@ entry(
 entry(
     index = 674,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12149,7 +12149,7 @@ entry(
 entry(
     index = 675,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12168,7 +12168,7 @@ entry(
 entry(
     index = 676,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12187,7 +12187,7 @@ entry(
 entry(
     index = 677,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12205,7 +12205,7 @@ entry(
 entry(
     index = 678,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12222,7 +12222,7 @@ entry(
 entry(
     index = 679,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12240,7 +12240,7 @@ entry(
 entry(
     index = 680,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12259,7 +12259,7 @@ entry(
 entry(
     index = 681,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12279,7 +12279,7 @@ entry(
 entry(
     index = 682,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12299,7 +12299,7 @@ entry(
 entry(
     index = 683,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12319,7 +12319,7 @@ entry(
 entry(
     index = 684,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12338,7 +12338,7 @@ entry(
 entry(
     index = 685,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12357,7 +12357,7 @@ entry(
 entry(
     index = 686,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12376,7 +12376,7 @@ entry(
 entry(
     index = 687,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12393,7 +12393,7 @@ entry(
 entry(
     index = 688,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12411,7 +12411,7 @@ entry(
 entry(
     index = 689,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12430,7 +12430,7 @@ entry(
 entry(
     index = 690,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R_Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12449,7 +12449,7 @@ entry(
 entry(
     index = 691,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R_N-Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,D}
 2     R!H u0 {1,S} {3,S}
@@ -12468,7 +12468,7 @@ entry(
 entry(
     index = 692,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12486,7 +12486,7 @@ entry(
 entry(
     index = 693,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12504,7 +12504,7 @@ entry(
 entry(
     index = 694,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12522,7 +12522,7 @@ entry(
 entry(
     index = 695,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12538,7 +12538,7 @@ entry(
 entry(
     index = 696,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12555,7 +12555,7 @@ entry(
 entry(
     index = 697,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12573,7 +12573,7 @@ entry(
 entry(
     index = 698,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-7R!H-R_Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12591,7 +12591,7 @@ entry(
 entry(
     index = 699,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-7R!H-R_N-Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12609,7 +12609,7 @@ entry(
 entry(
     index = 700,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12626,7 +12626,7 @@ entry(
 entry(
     index = 701,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12643,7 +12643,7 @@ entry(
 entry(
     index = 702,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,D}
 2    R!H u0 {1,S} {3,S}
@@ -12660,7 +12660,7 @@ entry(
 entry(
     index = 703,
     label = "Backbone3_Sp-4R!H=1R!H_Sp-3R!H-2R!H_N-Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,D} {4,D}
 2    R!H u0 {1,D} {3,S}
@@ -12675,7 +12675,7 @@ entry(
 entry(
     index = 704,
     label = "Backbone3_Sp-4R!H=1R!H_N-Sp-3R!H-2R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,[B,D]}
@@ -12690,7 +12690,7 @@ entry(
 entry(
     index = 705,
     label = "Backbone3_Sp-4R!H=1R!H_N-Sp-3R!H-2R!H_1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {4,D}
 2    R!H u0 {1,[S,B,D,T]} {3,[B,D]}
@@ -12705,7 +12705,7 @@ entry(
 entry(
     index = 706,
     label = "Backbone3_Sp-4R!H=1R!H_N-Sp-3R!H-2R!H_N-1R!H-inRing",
-    group = 
+    group =
 """
 1    C u0 r0 {2,S} {4,D}
 2    C u0 r0 {1,S} {3,D}
@@ -12720,7 +12720,7 @@ entry(
 entry(
     index = 707,
     label = "Backbone3_N-Sp-4R!H=1R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[S,B,D,T]} {4,[S,T,B]}
 2    R!H u0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -12735,7 +12735,7 @@ entry(
 entry(
     index = 708,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -12750,7 +12750,7 @@ entry(
 entry(
     index = 709,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -12766,7 +12766,7 @@ entry(
 entry(
     index = 710,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -12783,7 +12783,7 @@ entry(
 entry(
     index = 711,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_4R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -12800,7 +12800,7 @@ entry(
 entry(
     index = 712,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -12817,7 +12817,7 @@ entry(
 entry(
     index = 713,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -12834,7 +12834,7 @@ entry(
 entry(
     index = 714,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -12852,7 +12852,7 @@ entry(
 entry(
     index = 715,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -12871,7 +12871,7 @@ entry(
 entry(
     index = 716,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -12891,7 +12891,7 @@ entry(
 entry(
     index = 717,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S}
 2     C u0 {1,S} {3,S}
@@ -12911,7 +12911,7 @@ entry(
 entry(
     index = 718,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S}
 2     C u0 {1,S} {3,S}
@@ -12932,7 +12932,7 @@ entry(
 entry(
     index = 719,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S}
 2     C u0 {1,S} {3,S}
@@ -12954,7 +12954,7 @@ entry(
 entry(
     index = 720,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-6R!H-R_Ext-3R!H-R_Ext-13R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,S}
 2     C   u0 r0 {1,S} {3,S}
@@ -12977,7 +12977,7 @@ entry(
 entry(
     index = 721,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S}
 2     C u0 {1,S} {3,S}
@@ -12998,7 +12998,7 @@ entry(
 entry(
     index = 722,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_Sp-11R!H=10R!H_Ext-3R!H-R_Ext-12R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,S}
 2     C   u0 r0 {1,S} {3,S}
@@ -13020,7 +13020,7 @@ entry(
 entry(
     index = 723,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S}
 2     C u0 {1,S} {3,S}
@@ -13040,7 +13040,7 @@ entry(
 entry(
     index = 724,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S}
 2     C u0 {1,S} {3,S}
@@ -13061,7 +13061,7 @@ entry(
 entry(
     index = 725,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S}
 2     C u0 {1,S} {3,S}
@@ -13083,7 +13083,7 @@ entry(
 entry(
     index = 726,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-6R!H-R_Ext-3R!H-R_Ext-13R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,S}
 2     C   u0 r0 {1,S} {3,S}
@@ -13106,7 +13106,7 @@ entry(
 entry(
     index = 727,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S}
 2     C u0 {1,S} {3,S}
@@ -13127,7 +13127,7 @@ entry(
 entry(
     index = 728,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-10R!H-R_N-Sp-11R!H=10R!H_Ext-3R!H-R_Ext-12R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,S}
 2     C   u0 r0 {1,S} {3,S}
@@ -13149,7 +13149,7 @@ entry(
 entry(
     index = 729,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,S}
 2     C   u0 {1,S} {3,S}
@@ -13169,7 +13169,7 @@ entry(
 entry(
     index = 730,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,S}
 2     C   u0 {1,S} {3,S}
@@ -13190,7 +13190,7 @@ entry(
 entry(
     index = 731,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-3R!H-R_Ext-12R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,S}
 2     C   u0 r0 {1,S} {3,S}
@@ -13212,7 +13212,7 @@ entry(
 entry(
     index = 732,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13232,7 +13232,7 @@ entry(
 entry(
     index = 733,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -13253,7 +13253,7 @@ entry(
 entry(
     index = 734,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13272,7 +13272,7 @@ entry(
 entry(
     index = 735,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-5R!H-R_Ext-3R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -13292,7 +13292,7 @@ entry(
 entry(
     index = 736,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -13310,7 +13310,7 @@ entry(
 entry(
     index = 737,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -13329,7 +13329,7 @@ entry(
 entry(
     index = 738,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -13349,7 +13349,7 @@ entry(
 entry(
     index = 739,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13369,7 +13369,7 @@ entry(
 entry(
     index = 740,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13390,7 +13390,7 @@ entry(
 entry(
     index = 741,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H_Ext-3R!H-R_Ext-12R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -13412,7 +13412,7 @@ entry(
 entry(
     index = 742,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13432,7 +13432,7 @@ entry(
 entry(
     index = 743,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13453,7 +13453,7 @@ entry(
 entry(
     index = 744,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H_Ext-3R!H-R_Ext-12R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -13475,7 +13475,7 @@ entry(
 entry(
     index = 745,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -13495,7 +13495,7 @@ entry(
 entry(
     index = 746,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -13516,7 +13516,7 @@ entry(
 entry(
     index = 747,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -13535,7 +13535,7 @@ entry(
 entry(
     index = 748,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13554,7 +13554,7 @@ entry(
 entry(
     index = 749,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13574,7 +13574,7 @@ entry(
 entry(
     index = 750,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -13595,7 +13595,7 @@ entry(
 entry(
     index = 751,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13614,7 +13614,7 @@ entry(
 entry(
     index = 752,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13634,7 +13634,7 @@ entry(
 entry(
     index = 753,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -13655,7 +13655,7 @@ entry(
 entry(
     index = 754,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13674,7 +13674,7 @@ entry(
 entry(
     index = 755,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-6R!H-R_Ext-3R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -13694,7 +13694,7 @@ entry(
 entry(
     index = 756,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    C u0 {2,S} {4,[S,T,B]}
 2    C u0 {1,S} {3,[S,B,D,T]}
@@ -13712,7 +13712,7 @@ entry(
 entry(
     index = 757,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_Sp-8R!H=7R!H_Ext-3R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -13731,7 +13731,7 @@ entry(
 entry(
     index = 758,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -13748,7 +13748,7 @@ entry(
 entry(
     index = 759,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -13766,7 +13766,7 @@ entry(
 entry(
     index = 760,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -13785,7 +13785,7 @@ entry(
 entry(
     index = 761,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -13805,7 +13805,7 @@ entry(
 entry(
     index = 762,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -13826,7 +13826,7 @@ entry(
 entry(
     index = 763,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Ext-5R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13847,7 +13847,7 @@ entry(
 entry(
     index = 764,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Ext-5R!H-R_Sp-11R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13869,7 +13869,7 @@ entry(
 entry(
     index = 765,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Ext-5R!H-R_Sp-11R!H=9R!H_Ext-3R!H-R_Ext-13R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -13892,7 +13892,7 @@ entry(
 entry(
     index = 766,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Ext-5R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13913,7 +13913,7 @@ entry(
 entry(
     index = 767,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Ext-5R!H-R_N-Sp-11R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13935,7 +13935,7 @@ entry(
 entry(
     index = 768,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Ext-5R!H-R_N-Sp-11R!H=9R!H_Ext-3R!H-R_Ext-13R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -13958,7 +13958,7 @@ entry(
 entry(
     index = 769,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13978,7 +13978,7 @@ entry(
 entry(
     index = 770,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -13999,7 +13999,7 @@ entry(
 entry(
     index = 771,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H_Ext-3R!H-R_Ext-12R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14021,7 +14021,7 @@ entry(
 entry(
     index = 772,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -14041,7 +14041,7 @@ entry(
 entry(
     index = 773,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -14062,7 +14062,7 @@ entry(
 entry(
     index = 774,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H_Ext-3R!H-R_Ext-12R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14084,7 +14084,7 @@ entry(
 entry(
     index = 775,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14104,7 +14104,7 @@ entry(
 entry(
     index = 776,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-5R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14125,7 +14125,7 @@ entry(
 entry(
     index = 777,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-5R!H-R_Ext-3R!H-R_Ext-12R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14147,7 +14147,7 @@ entry(
 entry(
     index = 778,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14167,7 +14167,7 @@ entry(
 entry(
     index = 779,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14188,7 +14188,7 @@ entry(
 entry(
     index = 780,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -14207,7 +14207,7 @@ entry(
 entry(
     index = 781,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -14227,7 +14227,7 @@ entry(
 entry(
     index = 782,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -14247,7 +14247,7 @@ entry(
 entry(
     index = 783,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -14268,7 +14268,7 @@ entry(
 entry(
     index = 784,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H_Ext-3R!H-R_Ext-12R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14290,7 +14290,7 @@ entry(
 entry(
     index = 785,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -14310,7 +14310,7 @@ entry(
 entry(
     index = 786,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -14331,7 +14331,7 @@ entry(
 entry(
     index = 787,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H_Ext-3R!H-R_Ext-12R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14353,7 +14353,7 @@ entry(
 entry(
     index = 788,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -14373,7 +14373,7 @@ entry(
 entry(
     index = 789,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-5R!H-R_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14394,7 +14394,7 @@ entry(
 entry(
     index = 790,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -14413,7 +14413,7 @@ entry(
 entry(
     index = 791,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -14432,7 +14432,7 @@ entry(
 entry(
     index = 792,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -14452,7 +14452,7 @@ entry(
 entry(
     index = 793,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14473,7 +14473,7 @@ entry(
 entry(
     index = 794,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S}
 2     C u0 {1,S} {3,S}
@@ -14492,7 +14492,7 @@ entry(
 entry(
     index = 795,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_3R!H-inRing",
-    group = 
+    group =
 """
 1     C u0 r0 {2,S} {4,S}
 2     C u0 r0 {1,S} {3,S}
@@ -14511,7 +14511,7 @@ entry(
 entry(
     index = 796,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_N-3R!H-inRing",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S}
 2     C u0 {1,S} {3,S}
@@ -14530,7 +14530,7 @@ entry(
 entry(
     index = 797,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_N-3R!H-inRing_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,S}
 2     C u0 {1,S} {3,S}
@@ -14550,7 +14550,7 @@ entry(
 entry(
     index = 798,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_N-3R!H-inRing_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 r0 {2,S} {4,S}
 2     C   u0 r0 {1,S} {3,S}
@@ -14571,7 +14571,7 @@ entry(
 entry(
     index = 799,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -14590,7 +14590,7 @@ entry(
 entry(
     index = 800,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-6R!H-R_Ext-3R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14610,7 +14610,7 @@ entry(
 entry(
     index = 801,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    C u0 {2,S} {4,[S,T,B]}
 2    C u0 {1,S} {3,[S,B,D,T]}
@@ -14628,7 +14628,7 @@ entry(
 entry(
     index = 802,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-5R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -14647,7 +14647,7 @@ entry(
 entry(
     index = 803,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-5R!H-R_Ext-3R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14667,7 +14667,7 @@ entry(
 entry(
     index = 804,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    C u0 {2,S} {4,[S,T,B]}
 2    C u0 {1,S} {3,[S,B,D,T]}
@@ -14685,7 +14685,7 @@ entry(
 entry(
     index = 805,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-7R!H-R_N-4R!H-inRing_N-Sp-8R!H=7R!H_Ext-3R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14704,7 +14704,7 @@ entry(
 entry(
     index = 806,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -14721,7 +14721,7 @@ entry(
 entry(
     index = 807,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -14739,7 +14739,7 @@ entry(
 entry(
     index = 808,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -14758,7 +14758,7 @@ entry(
 entry(
     index = 809,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -14778,7 +14778,7 @@ entry(
 entry(
     index = 810,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14798,7 +14798,7 @@ entry(
 entry(
     index = 811,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14819,7 +14819,7 @@ entry(
 entry(
     index = 812,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-11R!H=9R!H_Ext-3R!H-R_Ext-12R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14841,7 +14841,7 @@ entry(
 entry(
     index = 813,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14861,7 +14861,7 @@ entry(
 entry(
     index = 814,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14882,7 +14882,7 @@ entry(
 entry(
     index = 815,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-11R!H=9R!H_Ext-3R!H-R_Ext-12R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14904,7 +14904,7 @@ entry(
 entry(
     index = 816,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14924,7 +14924,7 @@ entry(
 entry(
     index = 817,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14945,7 +14945,7 @@ entry(
 entry(
     index = 818,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -14964,7 +14964,7 @@ entry(
 entry(
     index = 819,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -14983,7 +14983,7 @@ entry(
 entry(
     index = 820,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15003,7 +15003,7 @@ entry(
 entry(
     index = 821,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R_Sp-10R!H=9R!H_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15024,7 +15024,7 @@ entry(
 entry(
     index = 822,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15043,7 +15043,7 @@ entry(
 entry(
     index = 823,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15063,7 +15063,7 @@ entry(
 entry(
     index = 824,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-9R!H-R_N-Sp-10R!H=9R!H_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15084,7 +15084,7 @@ entry(
 entry(
     index = 825,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15103,7 +15103,7 @@ entry(
 entry(
     index = 826,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-3R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15123,7 +15123,7 @@ entry(
 entry(
     index = 827,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    C   u0 {2,S} {4,[S,T,B]}
 2    C   u0 {1,S} {3,[S,B,D,T]}
@@ -15141,7 +15141,7 @@ entry(
 entry(
     index = 828,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-5R!H-R_Ext-3R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15160,7 +15160,7 @@ entry(
 entry(
     index = 829,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15177,7 +15177,7 @@ entry(
 entry(
     index = 830,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15195,7 +15195,7 @@ entry(
 entry(
     index = 831,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15214,7 +15214,7 @@ entry(
 entry(
     index = 832,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R_Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -15233,7 +15233,7 @@ entry(
 entry(
     index = 833,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R_Sp-10R!H=8R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -15253,7 +15253,7 @@ entry(
 entry(
     index = 834,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R_Sp-10R!H=8R!H_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15274,7 +15274,7 @@ entry(
 entry(
     index = 835,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R_N-Sp-10R!H=8R!H",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -15293,7 +15293,7 @@ entry(
 entry(
     index = 836,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R_N-Sp-10R!H=8R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -15313,7 +15313,7 @@ entry(
 entry(
     index = 837,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-8R!H-R_N-Sp-10R!H=8R!H_Ext-3R!H-R_Ext-11R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15334,7 +15334,7 @@ entry(
 entry(
     index = 838,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15353,7 +15353,7 @@ entry(
 entry(
     index = 839,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Ext-3R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15373,7 +15373,7 @@ entry(
 entry(
     index = 840,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15391,7 +15391,7 @@ entry(
 entry(
     index = 841,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1    C u0 {2,S} {4,[S,T,B]}
 2    C u0 {1,S} {3,[S,B,D,T]}
@@ -15409,7 +15409,7 @@ entry(
 entry(
     index = 842,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -15428,7 +15428,7 @@ entry(
 entry(
     index = 843,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-8R!H-R_Sp-9R!H=8R!H_Ext-3R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15448,7 +15448,7 @@ entry(
 entry(
     index = 844,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H",
-    group = 
+    group =
 """
 1    C u0 {2,S} {4,[S,T,B]}
 2    C u0 {1,S} {3,[S,B,D,T]}
@@ -15466,7 +15466,7 @@ entry(
 entry(
     index = 845,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     C u0 {2,S} {4,[S,T,B]}
 2     C u0 {1,S} {3,[S,B,D,T]}
@@ -15485,7 +15485,7 @@ entry(
 entry(
     index = 846,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_Ext-3R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15505,7 +15505,7 @@ entry(
 entry(
     index = 847,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    C u0 {2,S} {4,[S,T,B]}
 2    C u0 {1,S} {3,[S,B,D,T]}
@@ -15523,7 +15523,7 @@ entry(
 entry(
     index = 848,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-6R!H-R_Ext-3R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     C   u0 {2,S} {4,[S,T,B]}
 2     C   u0 {1,S} {3,[S,B,D,T]}
@@ -15542,7 +15542,7 @@ entry(
 entry(
     index = 849,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    C u0 {2,S} {4,[S,T,B]}
 2    C u0 {1,S} {3,[S,B,D,T]}
@@ -15559,7 +15559,7 @@ entry(
 entry(
     index = 850,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-5R!H-R_Ext-3R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1    C   u0 {2,S} {4,[S,T,B]}
 2    C   u0 {1,S} {3,[S,B,D,T]}
@@ -15577,7 +15577,7 @@ entry(
 entry(
     index = 851,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15593,7 +15593,7 @@ entry(
 entry(
     index = 852,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15610,7 +15610,7 @@ entry(
 entry(
     index = 853,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15628,7 +15628,7 @@ entry(
 entry(
     index = 854,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-7R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15647,7 +15647,7 @@ entry(
 entry(
     index = 855,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-7R!H-R_Ext-3R!H-R_Ext-10R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15667,7 +15667,7 @@ entry(
 entry(
     index = 856,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-7R!H-R_Ext-3R!H-R_Ext-10R!H-R_Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15687,7 +15687,7 @@ entry(
 entry(
     index = 857,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-7R!H-R_Ext-3R!H-R_Ext-10R!H-R_N-Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15707,7 +15707,7 @@ entry(
 entry(
     index = 858,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-7R!H-R_Ext-3R!H-R_Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15726,7 +15726,7 @@ entry(
 entry(
     index = 859,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-7R!H-R_Ext-3R!H-R_N-Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15745,7 +15745,7 @@ entry(
 entry(
     index = 860,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-7R!H-R_Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15763,7 +15763,7 @@ entry(
 entry(
     index = 861,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-7R!H-R_N-Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15781,7 +15781,7 @@ entry(
 entry(
     index = 862,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15799,7 +15799,7 @@ entry(
 entry(
     index = 863,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-6R!H-R_Ext-3R!H-R_Ext-9R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15818,7 +15818,7 @@ entry(
 entry(
     index = 864,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15835,7 +15835,7 @@ entry(
 entry(
     index = 865,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-3R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15853,7 +15853,7 @@ entry(
 entry(
     index = 866,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-3R!H-R_Ext-8R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15872,7 +15872,7 @@ entry(
 entry(
     index = 867,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-3R!H-R_Ext-8R!H-R_Ext-7R!H-R_Sp-10R!H=7R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15891,7 +15891,7 @@ entry(
 entry(
     index = 868,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-3R!H-R_Ext-8R!H-R_Ext-7R!H-R_N-Sp-10R!H=7R!H",
-    group = 
+    group =
 """
 1     R!H u0 {2,S} {4,[S,T,B]}
 2     R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15910,7 +15910,7 @@ entry(
 entry(
     index = 869,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-3R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15928,7 +15928,7 @@ entry(
 entry(
     index = 870,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-3R!H-R_Ext-7R!H-R_Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15946,7 +15946,7 @@ entry(
 entry(
     index = 871,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-3R!H-R_Ext-7R!H-R_N-Sp-9R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15964,7 +15964,7 @@ entry(
 entry(
     index = 872,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15981,7 +15981,7 @@ entry(
 entry(
     index = 873,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-7R!H-R_Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -15998,7 +15998,7 @@ entry(
 entry(
     index = 874,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-6R!H-R_Ext-7R!H-R_N-Sp-8R!H=7R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -16015,7 +16015,7 @@ entry(
 entry(
     index = 875,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -16031,7 +16031,7 @@ entry(
 entry(
     index = 876,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_Ext-3R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 {1,S} {3,[S,B,D,T]}
@@ -16048,7 +16048,7 @@ entry(
 entry(
     index = 877,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_2R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 r1 {1,S} {3,[S,B,D,T]}
@@ -16063,7 +16063,7 @@ entry(
 entry(
     index = 878,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_N-2R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 r0 {1,S} {3,[S,B,D,T]}
@@ -16078,7 +16078,7 @@ entry(
 entry(
     index = 879,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_N-2R!H-inRing_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 r0 {1,S} {3,[S,B,D,T]}
@@ -16094,7 +16094,7 @@ entry(
 entry(
     index = 880,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_N-2R!H-inRing_Ext-4R!H-R_1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,S} {4,[S,T,B]}
 2    R!H u0 r0 {1,S} {3,[S,B,D,T]}
@@ -16110,7 +16110,7 @@ entry(
 entry(
     index = 881,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_N-2R!H-inRing_Ext-4R!H-R_N-1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {4,[S,T,B]}
 2    R!H u0 r0 {1,S} {3,[S,B,D,T]}
@@ -16126,7 +16126,7 @@ entry(
 entry(
     index = 882,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_N-2R!H-inRing_Ext-4R!H-R_N-1R!H-inRing_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {4,[S,T,B]}
 2    R!H u0 r0 {1,S} {3,[S,B,D,T]}
@@ -16143,7 +16143,7 @@ entry(
 entry(
     index = 883,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_N-2R!H-inRing_Sp-5R!H-4R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 r0 {1,S} {3,[S,B,D,T]}
@@ -16158,7 +16158,7 @@ entry(
 entry(
     index = 884,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_N-2R!H-inRing_Sp-5R!H-4R!H_Ext-1R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]} {7,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,S} {3,[S,B,D,T]}
@@ -16174,7 +16174,7 @@ entry(
 entry(
     index = 885,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_N-2R!H-inRing_Sp-5R!H-4R!H_Ext-1R!H-R_Ext-1R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
 2    R!H u0 r0 {1,S} {3,[S,B,D,T]}
@@ -16191,7 +16191,7 @@ entry(
 entry(
     index = 886,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_N-2R!H-inRing_Sp-5R!H-4R!H_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 r0 {1,S} {3,[S,B,D,T]} {7,[S,D,T,B,Q]}
@@ -16207,7 +16207,7 @@ entry(
 entry(
     index = 887,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_N-2R!H-inRing_Sp-5R!H-4R!H_Ext-2R!H-R_Ext-2R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 {2,S} {4,[S,T,B]}
 2    R!H u0 r0 {1,S} {3,[S,B,D,T]} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
@@ -16224,7 +16224,7 @@ entry(
 entry(
     index = 888,
     label = "Backbone3_N-Sp-4R!H=1R!H_Sp-2R!H-1R!H_N-2R!H-inRing_N-Sp-5R!H-4R!H",
-    group = 
+    group =
 """
 1    C u0 r0 {2,S} {4,S}
 2    C u0 r0 {1,S} {3,S}
@@ -16239,7 +16239,7 @@ entry(
 entry(
     index = 889,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16254,7 +16254,7 @@ entry(
 entry(
     index = 890,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_Sp-6R!H#3R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16269,7 +16269,7 @@ entry(
 entry(
     index = 891,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_Sp-6R!H#3R!H_1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16284,7 +16284,7 @@ entry(
 entry(
     index = 892,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_Sp-6R!H#3R!H_N-1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16299,7 +16299,7 @@ entry(
 entry(
     index = 893,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16314,7 +16314,7 @@ entry(
 entry(
     index = 894,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16329,7 +16329,7 @@ entry(
 entry(
     index = 895,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16344,7 +16344,7 @@ entry(
 entry(
     index = 896,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16359,7 +16359,7 @@ entry(
 entry(
     index = 897,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-3R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16375,7 +16375,7 @@ entry(
 entry(
     index = 898,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16391,7 +16391,7 @@ entry(
 entry(
     index = 899,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-6R!H-R_Int-7R!H-5R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16407,7 +16407,7 @@ entry(
 entry(
     index = 900,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16423,7 +16423,7 @@ entry(
 entry(
     index = 901,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-4R!H-R_5R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16439,7 +16439,7 @@ entry(
 entry(
     index = 902,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-4R!H-R_N-5R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16455,7 +16455,7 @@ entry(
 entry(
     index = 903,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16471,7 +16471,7 @@ entry(
 entry(
     index = 904,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-5R!H-R_Ext-7R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16488,7 +16488,7 @@ entry(
 entry(
     index = 905,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-5R!H-R_Ext-7R!H-R_5R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16505,7 +16505,7 @@ entry(
 entry(
     index = 906,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-5R!H-R_Ext-7R!H-R_N-5R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16522,7 +16522,7 @@ entry(
 entry(
     index = 907,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-5R!H-R_Sp-7R!H-5R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16538,7 +16538,7 @@ entry(
 entry(
     index = 908,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-5R!H-R_N-Sp-7R!H-5R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16554,7 +16554,7 @@ entry(
 entry(
     index = 909,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_1R!H-inRing_Ext-1R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]} {7,[S,D,T,B,Q]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16570,7 +16570,7 @@ entry(
 entry(
     index = 910,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_N-1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16585,7 +16585,7 @@ entry(
 entry(
     index = 911,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_4R!H-inRing_N-1R!H-inRing_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16601,7 +16601,7 @@ entry(
 entry(
     index = 912,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_Sp-5R!H-4R!H_N-4R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16616,7 +16616,7 @@ entry(
 entry(
     index = 913,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_N-Sp-5R!H-4R!H",
-    group = 
+    group =
 """
 1    R!H u0 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16631,7 +16631,7 @@ entry(
 entry(
     index = 914,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_N-Sp-5R!H-4R!H_1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16646,7 +16646,7 @@ entry(
 entry(
     index = 915,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_N-Sp-5R!H-4R!H_1R!H-inRing_Ext-1R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]} {7,[S,D,T,B,Q]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16662,7 +16662,7 @@ entry(
 entry(
     index = 916,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_N-Sp-5R!H-4R!H_1R!H-inRing_Ext-1R!H-R_3R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]} {7,[S,D,T,B,Q]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16678,7 +16678,7 @@ entry(
 entry(
     index = 917,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_N-Sp-5R!H-4R!H_1R!H-inRing_Ext-1R!H-R_N-3R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]} {7,[S,D,T,B,Q]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16694,7 +16694,7 @@ entry(
 entry(
     index = 918,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_N-Sp-5R!H-4R!H_1R!H-inRing_Ext-1R!H-R_N-3R!H-inRing_4R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]} {7,[S,D,T,B,Q]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16710,7 +16710,7 @@ entry(
 entry(
     index = 919,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_N-Sp-5R!H-4R!H_1R!H-inRing_Ext-1R!H-R_N-3R!H-inRing_N-4R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]} {7,[S,D,T,B,Q]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16726,7 +16726,7 @@ entry(
 entry(
     index = 920,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_N-Sp-5R!H-4R!H_1R!H-inRing_Ext-6R!H-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16743,7 +16743,7 @@ entry(
 entry(
     index = 921,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_N-Sp-5R!H-4R!H_N-1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16758,7 +16758,7 @@ entry(
 entry(
     index = 922,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_N-Sp-5R!H-4R!H_N-1R!H-inRing_3R!H-inRing",
-    group = 
+    group =
 """
 1    C u0 r0 {2,D} {4,S}
 2    C u0 r0 {1,D} {3,S}
@@ -16773,7 +16773,7 @@ entry(
 entry(
     index = 923,
     label = "Backbone3_N-Sp-4R!H=1R!H_N-Sp-2R!H-1R!H_N-Sp-6R!H#3R!H_N-Sp-5R!H-4R!H_N-1R!H-inRing_N-3R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[B,D]} {4,[S,T,B]}
 2    R!H u0 {1,[B,D]} {3,[S,B,D,T]}
@@ -16788,7 +16788,7 @@ entry(
 entry(
     index = 924,
     label = "Backbone4",
-    group = 
+    group =
 """
 1 *1 R!H u1 {4,[S,B,D,T]}
 2 *2 R!H u0 {3,[B,D,T]} {7,[S,B,D,T]}
@@ -16804,7 +16804,7 @@ entry(
 entry(
     index = 925,
     label = "Backbone4_1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,[S,B,D,T]}
@@ -16820,7 +16820,7 @@ entry(
 entry(
     index = 926,
     label = "Backbone4_1R!H-inRing_Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,S} {3,[S,B,D,T]}
 2    R!H u0 {1,S} {5,[S,B,D,T]}
@@ -16836,7 +16836,7 @@ entry(
 entry(
     index = 927,
     label = "Backbone4_1R!H-inRing_Sp-2R!H-1R!H_Int-7R!H-5R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,S} {3,[S,B,D,T]}
 2    R!H u0 {1,S} {5,[S,B,D,T]}
@@ -16852,7 +16852,7 @@ entry(
 entry(
     index = 928,
     label = "Backbone4_1R!H-inRing_Sp-2R!H-1R!H_Sp-6R!H-5R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,S} {3,[S,B,D,T]}
 2    R!H u0 {1,S} {5,[S,B,D,T]}
@@ -16868,7 +16868,7 @@ entry(
 entry(
     index = 929,
     label = "Backbone4_1R!H-inRing_Sp-2R!H-1R!H_Sp-6R!H-5R!H_Ext-5R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,S} {3,[S,B,D,T]}
 2    R!H u0 {1,S} {5,[S,B,D,T]}
@@ -16885,7 +16885,7 @@ entry(
 entry(
     index = 930,
     label = "Backbone4_1R!H-inRing_Sp-2R!H-1R!H_Sp-6R!H-5R!H_Ext-5R!H-R_Ext-8R!H-R_Sp-9R!H-8R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,S} {3,[S,B,D,T]}
 2    R!H u0 {1,S} {5,[S,B,D,T]}
@@ -16903,7 +16903,7 @@ entry(
 entry(
     index = 931,
     label = "Backbone4_1R!H-inRing_Sp-2R!H-1R!H_Sp-6R!H-5R!H_Ext-5R!H-R_Ext-8R!H-R_N-Sp-9R!H-8R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,S} {3,[S,B,D,T]}
 2    R!H u0 {1,S} {5,[S,B,D,T]}
@@ -16921,7 +16921,7 @@ entry(
 entry(
     index = 932,
     label = "Backbone4_1R!H-inRing_Sp-2R!H-1R!H_Sp-6R!H-5R!H_5R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,S} {3,[S,B,D,T]}
 2    R!H u0 {1,S} {5,[S,B,D,T]}
@@ -16937,7 +16937,7 @@ entry(
 entry(
     index = 933,
     label = "Backbone4_1R!H-inRing_Sp-2R!H-1R!H_Sp-6R!H-5R!H_N-5R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,S} {3,[S,B,D,T]}
 2    R!H u0 {1,S} {5,[S,B,D,T]}
@@ -16953,7 +16953,7 @@ entry(
 entry(
     index = 934,
     label = "Backbone4_1R!H-inRing_Sp-2R!H-1R!H_N-Sp-6R!H-5R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,S} {3,[S,B,D,T]}
 2    R!H u0 {1,S} {5,[S,B,D,T]}
@@ -16969,7 +16969,7 @@ entry(
 entry(
     index = 935,
     label = "Backbone4_1R!H-inRing_N-Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 r1 {2,[B,D]} {3,[S,B,D,T]}
 2    R!H u0 {1,[B,D]} {5,[S,B,D,T]}
@@ -16985,7 +16985,7 @@ entry(
 entry(
     index = 936,
     label = "Backbone4_N-1R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,[S,B,D,T]}
@@ -17001,7 +17001,7 @@ entry(
 entry(
     index = 937,
     label = "Backbone4_N-1R!H-inRing_7R!H->C",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,[S,B,D,T]}
@@ -17017,7 +17017,7 @@ entry(
 entry(
     index = 938,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_Sp-5R!H-2R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,S}
@@ -17033,7 +17033,7 @@ entry(
 entry(
     index = 939,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_Sp-5R!H-2R!H_4R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,S}
@@ -17049,7 +17049,7 @@ entry(
 entry(
     index = 940,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_Sp-5R!H-2R!H_N-4R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,S}
@@ -17065,7 +17065,7 @@ entry(
 entry(
     index = 941,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_Sp-5R!H-2R!H_N-4R!H-inRing_Ext-7C-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,S}
@@ -17082,7 +17082,7 @@ entry(
 entry(
     index = 942,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_Sp-5R!H-2R!H_N-4R!H-inRing_Ext-7C-R_Ext-7C-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,S}
@@ -17100,7 +17100,7 @@ entry(
 entry(
     index = 943,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_Sp-5R!H-2R!H_N-4R!H-inRing_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,S}
@@ -17117,7 +17117,7 @@ entry(
 entry(
     index = 944,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_Sp-5R!H-2R!H_N-4R!H-inRing_Ext-6R!H-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,S}
@@ -17135,7 +17135,7 @@ entry(
 entry(
     index = 945,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_Sp-5R!H-2R!H_N-4R!H-inRing_Ext-4R!H-R",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,S}
@@ -17152,7 +17152,7 @@ entry(
 entry(
     index = 946,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_N-Sp-5R!H-2R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,D}
@@ -17168,7 +17168,7 @@ entry(
 entry(
     index = 947,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_N-Sp-5R!H-2R!H_5R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,D}
@@ -17184,7 +17184,7 @@ entry(
 entry(
     index = 948,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_N-Sp-5R!H-2R!H_N-5R!H-inRing",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,D}
@@ -17200,7 +17200,7 @@ entry(
 entry(
     index = 949,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_N-Sp-5R!H-2R!H_N-5R!H-inRing_Sp-4R!H-3R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,D}
@@ -17216,7 +17216,7 @@ entry(
 entry(
     index = 950,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_N-Sp-5R!H-2R!H_N-5R!H-inRing_Sp-4R!H-3R!H_Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,S} {3,[S,B,D,T]}
 2    R!H u0 {1,S} {5,D}
@@ -17232,7 +17232,7 @@ entry(
 entry(
     index = 951,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_N-Sp-5R!H-2R!H_N-5R!H-inRing_Sp-4R!H-3R!H_N-Sp-2R!H-1R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,D} {3,[S,B,D,T]}
 2    R!H u0 {1,D} {5,D}
@@ -17248,7 +17248,7 @@ entry(
 entry(
     index = 952,
     label = "Backbone4_N-1R!H-inRing_7R!H->C_N-Sp-5R!H-2R!H_N-5R!H-inRing_N-Sp-4R!H-3R!H",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,D}
@@ -17264,7 +17264,7 @@ entry(
 entry(
     index = 953,
     label = "Backbone4_N-1R!H-inRing_N-7R!H->C",
-    group = 
+    group =
 """
 1    R!H u0 r0 {2,[S,B,D,T]} {3,[S,B,D,T]}
 2    R!H u0 {1,[S,B,D,T]} {5,[S,B,D,T]}
@@ -17280,7 +17280,7 @@ entry(
 entry(
     index = 954,
     label = "Backbone5",
-    group = 
+    group =
 """
 1 *1 R!H u1 {4,[S,B,D,T]}
 2 *2 R!H u0 {3,[B,D,T]} {8,[S,B,D,T]}
@@ -17297,7 +17297,7 @@ entry(
 entry(
     index = 955,
     label = "Backbone7",
-    group = 
+    group =
 """
 1  *1 R!H u1 {5,[S,B,D,T]}
 2     R!H u0 {3,[S,B,D,T]} {10,[S,B,D,T]}
@@ -17316,7 +17316,7 @@ entry(
 entry(
     index = 956,
     label = "Backbone7_2R!H-inRing",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {6,[S,B,D,T]}
 2     R!H u0 r1 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -17335,7 +17335,7 @@ entry(
 entry(
     index = 957,
     label = "Backbone7_N-2R!H-inRing",
-    group = 
+    group =
 """
 1     R!H u0 {2,[S,B,D,T]} {6,[S,B,D,T]}
 2     R!H u0 r0 {1,[S,B,D,T]} {3,[S,B,D,T]}
@@ -17354,7 +17354,7 @@ entry(
 entry(
     index = 958,
     label = "Backbone8",
-    group = 
+    group =
 """
 1  *1 R!H u1 {6,[S,B,D,T]}
 2     R!H u0 {3,[S,B,D,T]} {11,[S,B,D,T]}
@@ -17374,7 +17374,7 @@ entry(
 entry(
     index = 959,
     label = "Backbone9",
-    group = 
+    group =
 """
 1  *1 R!H u1 {7,[S,B,D,T]}
 2     R!H u0 {3,[S,B,D,T]} {12,[S,B,D,T]}
@@ -17395,7 +17395,7 @@ entry(
 entry(
     index = 960,
     label = "Backbone10",
-    group = 
+    group =
 """
 1  *1 R!H u1 {8,[S,B,D,T]}
 2     R!H u0 {3,[S,B,D,T]} {13,[S,B,D,T]}
@@ -17417,7 +17417,7 @@ entry(
 entry(
     index = 961,
     label = "Backbone6",
-    group = 
+    group =
 """
 1 *1 R!H u1 {4,[S,B,D,T]}
 2 *2 R!H u0 {3,[B,D,T]} {9,[S,B,D,T]}
@@ -18401,7 +18401,7 @@ L1: Root
 
 forbidden(
     label = "1_naphthyl_7_add_res1",
-    group = 
+    group =
 """
 1     C u0 {2,[D,B]} {3,[S,B]} {4,[S,B]}
 2     C u0 {1,[D,B]} {5,[S,B]} {6,[S,B]}
@@ -18415,7 +18415,7 @@ forbidden(
 10    C u0 {6,[D,B]} {9,[S,B]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 1.
 """,
@@ -18423,7 +18423,7 @@ Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 1.
 
 forbidden(
     label = "1_naphthyl_7_add_res2",
-    group = 
+    group =
 """
 1     C u0 {2,S} {3,S} {4,D}
 2     C u0 {1,S} {5,S} {6,D}
@@ -18437,7 +18437,7 @@ forbidden(
 10    C u0 {6,S} {9,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 2.
 """,
@@ -18445,7 +18445,7 @@ Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 2.
 
 forbidden(
     label = "1_naphthyl_7_add_res3",
-    group = 
+    group =
 """
 1     C u0 {2,S} {3,S} {4,D}
 2     C u0 {1,S} {5,S} {6,D}
@@ -18459,7 +18459,7 @@ forbidden(
 10 *3 C u0 {6,S} {9,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 3.
 """,
@@ -18467,7 +18467,7 @@ Prevent a 1-naphthyl radical from attacking it's 7 site. Resonance form 3.
 
 forbidden(
     label = "INDENYL_TO_INDENYLADD1_res1",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,S} {3,D} {5,S}
 2    C u0 p0 c0 {1,S} {4,S} {6,D}
@@ -18480,7 +18480,7 @@ forbidden(
 9    C u0 p0 c0 {5,D} {8,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 5-membered ring tricyclic.
 Resonance form 1.
@@ -18489,7 +18489,7 @@ Resonance form 1.
 
 forbidden(
     label = "INDENYL_TO_INDENYLADD1_res2",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,S} {3,D} {5,S}
 2    C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -18502,7 +18502,7 @@ forbidden(
 9 *3 C u0 p0 c0 {5,D} {8,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 5-membered ring tricyclic.
 Resonance form 2.
@@ -18511,7 +18511,7 @@ Resonance form 2.
 
 forbidden(
     label = "INDENYL_TO_INDENYLADD2_res1",
-    group = 
+    group =
 """
 1 *2 C u0 p0 c0 {2,S} {3,S} {5,D}
 2    C u0 p0 c0 {1,S} {4,S} {6,D}
@@ -18524,7 +18524,7 @@ forbidden(
 9    C u0 p0 c0 {5,S} {8,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 3-membered ring tricyclic.
 Resonance form 1.
@@ -18533,7 +18533,7 @@ Resonance form 1.
 
 forbidden(
     label = "INDENYL_TO_INDENYLADD2_res2",
-    group = 
+    group =
 """
 1 *2 C u0 p0 c0 {2,S} {3,D} {5,S}
 2    C u0 p0 c0 {1,S} {4,S} {6,D}
@@ -18546,7 +18546,7 @@ forbidden(
 9    C u0 p0 c0 {5,S} {8,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 3-membered ring tricyclic.
 Resonance form 2.
@@ -18555,7 +18555,7 @@ Resonance form 2.
 
 forbidden(
     label = "INDENYL_TO_INDENYLADD2_res3",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,D} {3,S} {5,S}
 2    C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -18568,7 +18568,7 @@ forbidden(
 9 *2 C u0 p0 c0 {5,D} {8,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 3-membered ring tricyclic.
 Resonance form 3.
@@ -18577,7 +18577,7 @@ Resonance form 3.
 
 forbidden(
     label = "INDENYL_TO_INDENYLADD3_res1",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,S} {3,S} {5,D}
 2    C u0 p0 c0 {1,S} {4,S} {6,D}
@@ -18590,7 +18590,7 @@ forbidden(
 9    C u0 p0 c0 {5,S} {8,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid an indenyl radical from doing a ring closure to form a fused 6,4, and 3-membered ring tricyclic.
 Resonance form 1.
@@ -18599,7 +18599,7 @@ Resonance form 1.
 
 forbidden(
     label = "INDENYL_TO_INDENYLADD3_res2",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,D} {3,S} {5,S}
 2    C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -18612,7 +18612,7 @@ forbidden(
 9    C u0 p0 c0 {5,D} {8,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid an indenyl radical from doing a ring closure to form a fused 6,4, and 3-membered ring tricyclic.
 Resonance form 2.
@@ -18621,7 +18621,7 @@ Resonance form 2.
 
 forbidden(
     label = "INDENYL_TO_INDENYLADD3_res3",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,B} {3,S} {5,B}
 2    C u0 p0 c0 {1,B} {4,S} {6,B}
@@ -18634,7 +18634,7 @@ forbidden(
 9    C u0 p0 c0 {5,B} {8,B}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid an indenyl radical from doing a ring closure to form a fused 6,4, and 3-membered ring tricyclic.
 Resonance form3.
@@ -18643,7 +18643,7 @@ Resonance form3.
 
 forbidden(
     label = "INDENYL_TO_INDENYLADD4_res1",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,S} {3,D} {5,S}
 2    C u0 p0 c0 {1,S} {4,S} {6,D}
@@ -18656,7 +18656,7 @@ forbidden(
 9    C u0 p0 c0 {5,S} {8,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 4-membered ring tricyclic.
 Resonance form 1.
@@ -18665,7 +18665,7 @@ Resonance form 1.
 
 forbidden(
     label = "INDENYL_TO_INDENYLADD4_res2",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,S} {3,D} {5,S}
 2    C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -18678,7 +18678,7 @@ forbidden(
 9 *2 C u0 p0 c0 {5,D} {8,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid an indenyl radical from doing a ring closure to form a fused 6,5, and 4-membered ring tricyclic.
 Resonance form 2.
@@ -18687,7 +18687,7 @@ Resonance form 2.
 
 forbidden(
     label = "INDENYL_TO_INDENYLADD5_res1",
-    group = 
+    group =
 """
 1    C u0 {2,S} {3,S} {6,D}
 2    C u0 {1,S} {4,S} {5,D}
@@ -18700,7 +18700,7 @@ forbidden(
 9 *1 C u1 {6,S} {8,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid an indenyl radical from  ring-closing to form a highly strained tricyclic. Resonance form 1.
 """,
@@ -18708,7 +18708,7 @@ Forbid an indenyl radical from  ring-closing to form a highly strained tricyclic
 
 forbidden(
     label = "INDENYL_TO_INDENYLADD5_res2",
-    group = 
+    group =
 """
 1    C u0 {2,B} {3,S} {6,B}
 2    C u0 {1,B} {4,S} {5,B}
@@ -18721,7 +18721,7 @@ forbidden(
 9 *1 C u1 {6,B} {8,B}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid an indenyl radical from  ring-closing to form a highly strained tricyclic. Resonance form 2.
 """,
@@ -18729,7 +18729,7 @@ Forbid an indenyl radical from  ring-closing to form a highly strained tricyclic
 
 forbidden(
     label = "Rn0c6_beta_long_phenyl",
-    group = 
+    group =
 """
 1 *1 C u1 {2,[D,B]} {6,[S,B]}
 2    C u0 {1,[D,B]} {3,[S,B]}
@@ -18739,7 +18739,7 @@ forbidden(
 6    C u0 {1,[S,B]} {5,[D,B]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a phenyl radical from doing a ring closure on itself to form a fused 3 and 5 membered ring.
 """,
@@ -18747,7 +18747,7 @@ Forbid a phenyl radical from doing a ring closure on itself to form a fused 3 an
 
 forbidden(
     label = "Rn0c6_beta_short_phenyl",
-    group = 
+    group =
 """
 1 *1 C u1 {2,[S,B]} {6,[D,B]}
 2 *2 C u0 {1,[S,B]} {3,[D,B]}
@@ -18757,7 +18757,7 @@ forbidden(
 6    C u0 {1,[D,B]} {5,[S,B]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a phenyl radical from doing a ring closure on itself to form a fused 3 and 5 membered ring.
 """,
@@ -18765,7 +18765,7 @@ Forbid a phenyl radical from doing a ring closure on itself to form a fused 3 an
 
 forbidden(
     label = "Rn0c6_gamma_phenyl",
-    group = 
+    group =
 """
 1 *1 C u1 {2,[D,B]} {6,[S,B]}
 2    C u0 {1,[D,B]} {3,[S,B]}
@@ -18775,7 +18775,7 @@ forbidden(
 6    C u0 {1,[S,B]} {5,[D,B]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid a phenyl radical from doing a ring closure on itself to form a fused 4 and 4 membered ring.
 """,
@@ -18783,7 +18783,7 @@ Forbid a phenyl radical from doing a ring closure on itself to form a fused 4 an
 
 forbidden(
     label = "Rn1c6_beta_long_phenyl",
-    group = 
+    group =
 """
 1 *4 C u0 {2,[D,B]} {3,[S,B]} {7,S}
 2    C u0 {1,[D,B]} {4,[S,B]}
@@ -18794,16 +18794,16 @@ forbidden(
 7 *1 C u1 {1,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Forbid a carbon radical 1 carbon away from a phenyl side group from adding to the meta-position 
+Forbid a carbon radical 1 carbon away from a phenyl side group from adding to the meta-position
 because the TS would be far too strained.
 """,
 )
 
 forbidden(
     label = "Rn1c6_beta_short_phenyl",
-    group = 
+    group =
 """
 1 *4 C u0 {2,[D,B]} {3,[S,B]} {7,S}
 2    C u0 {1,[D,B]} {4,[S,B]}
@@ -18814,16 +18814,16 @@ forbidden(
 7 *1 C u1 {1,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Forbid a carbon radical 1 carbon away from a phenyl side group from adding to the meta-position 
+Forbid a carbon radical 1 carbon away from a phenyl side group from adding to the meta-position
 because the TS would be far too strained.
 """,
 )
 
 forbidden(
     label = "Rn1c6_gamma_phenyl",
-    group = 
+    group =
 """
 1 *4 C u0 {2,[D,B]} {3,[S,B]} {7,S}
 2 *5 C u0 {1,[D,B]} {4,[S,B]}
@@ -18834,16 +18834,16 @@ forbidden(
 7 *1 C u1 {1,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Forbid a carbon radical 1 carbon away from a phenyl side group from adding to the para-position 
+Forbid a carbon radical 1 carbon away from a phenyl side group from adding to the para-position
 because the TS would be far too strained.
 """,
 )
 
 forbidden(
     label = "Rn2c6_beta_long_phenyl",
-    group = 
+    group =
 """
 1 *6 C u0 {2,[S,B]} {3,[D,B]} {6,S}
 2 *7 C u0 {1,[S,B]} {4,[D,B]}
@@ -18855,16 +18855,16 @@ forbidden(
 8 *1 C u1 {6,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the meta-position 
+Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the meta-position
 because the TS would be far too strained.
 """,
 )
 
 forbidden(
     label = "Rn2c6_beta_short_phenyl",
-    group = 
+    group =
 """
 1 *5 C u0 {2,[D,B]} {3,[S,B]} {6,S}
 2    C u0 {1,[D,B]} {4,[S,B]}
@@ -18876,16 +18876,16 @@ forbidden(
 8 *1 C u1 {6,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the meta-position 
+Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the meta-position
 because the TS would be far too strained.
 """,
 )
 
 forbidden(
     label = "Rn2c6_gamma_phenyl",
-    group = 
+    group =
 """
 1 *6 C u0 {2,[D,B]} {3,[S,B]} {6,S}
 2 *5 C u0 {1,[D,B]} {4,[S,B]}
@@ -18897,16 +18897,16 @@ forbidden(
 8 *1 C u1 {6,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the para-position 
+Forbid a carbon radical 2 carbons away from a phenyl side group from adding to the para-position
 because the TS would be far too strained.
 """,
 )
 
 forbidden(
     label = "Rn3c6_beta_long_phenyl",
-    group = 
+    group =
 """
 1 *7 C u0 {2,[S,B]} {3,[D,B]} {4,S}
 2 *8 C u0 {1,[S,B]} {5,[D,B]}
@@ -18919,16 +18919,16 @@ forbidden(
 9 *1 C u1 {8,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Forbid a carbon radical 3 carbons away from a phenyl side group from adding to the meta-position 
+Forbid a carbon radical 3 carbons away from a phenyl side group from adding to the meta-position
 because the TS would be far too strained.
 """,
 )
 
 forbidden(
     label = "Rn3c6_beta_short_phenyl",
-    group = 
+    group =
 """
 1 *5 C u0 {2,[D,B]} {3,[S,B]} {4,S}
 2    C u0 {1,[D,B]} {5,[S,B]}
@@ -18941,16 +18941,16 @@ forbidden(
 9 *1 C u1 {8,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Forbid a carbon radical 3 carbons away from a phenyl side group from adding to the meta-position 
+Forbid a carbon radical 3 carbons away from a phenyl side group from adding to the meta-position
 because the TS would be far too strained.
 """,
 )
 
 forbidden(
     label = "Rn3c6_gamma_phenyl",
-    group = 
+    group =
 """
 1 *7 C u0 {2,[S,B]} {3,[D,B]} {4,S}
 2    C u0 {1,[S,B]} {5,[D,B]}
@@ -18963,16 +18963,16 @@ forbidden(
 9 *1 C u1 {8,[S,D,T]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Forbid a carbon radical 3 carbons away from a phenyl side group from adding to the para-position 
+Forbid a carbon radical 3 carbons away from a phenyl side group from adding to the para-position
 because the TS would be far too strained.
 """,
 )
 
 forbidden(
     label = "bicyclic_self_ring_close",
-    group = 
+    group =
 """
 1     C u0 p0 c0 {3,B} {6,B} {7,B}
 2     C u0 p0 c0 {4,B} {5,B} {8,S}
@@ -18988,16 +18988,16 @@ forbidden(
 12 *1 C u1 p0 c0 {3,B} {10,B}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Prevent a bicyclic from undergoing a highly strained self-ring closure 
+Prevent a bicyclic from undergoing a highly strained self-ring closure
 from the tip of the 6-member ring to the extended double bond.
 """,
 )
 
 forbidden(
     label = "bicyclic_self_ring_close_2",
-    group = 
+    group =
 """
 1     C u0 p0 c0 {2,B} {3,B} {7,B}
 2     C u0 p0 c0 {1,B} {4,B} {6,B}
@@ -19013,22 +19013,22 @@ forbidden(
 12 *1 C u1 p0 c0 {11,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Prevent a bicyclic from undergoing a highly strained self-ring closure 
+Prevent a bicyclic from undergoing a highly strained self-ring closure
 from the side of the 6-member ring to the extended double bond.
 """,
 )
 
 forbidden(
     label = "bond31",
-    group = 
+    group =
 """
 1 *3 R!H u0 c0 {2,[S,D]}
 2 *1 R!H u1 {1,[S,D]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19036,13 +19036,13 @@ forbidden(
 
 forbidden(
     label = "bond31rad",
-    group = 
+    group =
 """
 1 *3 R!H u1 {2,[S,D]}
 2 *1 R!H u1 {1,[S,D]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19050,7 +19050,7 @@ forbidden(
 
 forbidden(
     label = "para-methyl-ethenyl-benzene",
-    group = 
+    group =
 """
 1 *1 C u1 p0 c0 {2,S}
 2    C u0 p0 c0 {1,S} {3,[D,B]} {9,[S,B]}
@@ -19063,7 +19063,7 @@ forbidden(
 9    C u0 p0 c0 {2,[S,B]} {8,[D,B]}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Prevent strained addition between para-related methyl and ethylene side-groups on a benzene ring.
 """,
@@ -19071,7 +19071,7 @@ Prevent strained addition between para-related methyl and ethylene side-groups o
 
 forbidden(
     label = "product34_to_product57",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,S} {3,S} {4,S}
 2    C u0 p0 c0 {1,S} {3,S} {5,S}
@@ -19082,7 +19082,7 @@ forbidden(
 7    C u0 p0 c0 {5,D} {6,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid product34 in vinylCPD_H library from ring closing to form a fused 6, 3, and 3-membered ring tricyclic.
 """,
@@ -19090,7 +19090,7 @@ Forbid product34 in vinylCPD_H library from ring closing to form a fused 6, 3, a
 
 forbidden(
     label = "product45_to_product56",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,S} {3,S} {5,S}
 2    C u0 p0 c0 {1,S} {4,S} {6,S}
@@ -19101,7 +19101,7 @@ forbidden(
 7    C u0 p0 c0 {5,D} {6,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Forbid product45 in vinylCPD_H library from ring closing to form a fused 5, 4, and 3-membered ring tricyclic.
 """,
@@ -19109,7 +19109,7 @@ Forbid product45 in vinylCPD_H library from ring closing to form a fused 5, 4, a
 
 forbidden(
     label = "s2_3_6_diene_0_2_self_ring_close_1_res_1",
-    group = 
+    group =
 """
 1    C u0 {2,S} {3,S} {4,[S,D]}
 2    C u0 {1,S} {3,S} {5,[S,D]}
@@ -19120,16 +19120,16 @@ forbidden(
 7 *2 C u0 {5,S} {6,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Prevent a s2_3_6_diene_0_2 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure 
+Prevent a s2_3_6_diene_0_2 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure
 from the tip of the 3-member ring to one of the far corners of the 6. Resonance form 1.
 """,
 )
 
 forbidden(
     label = "s2_3_6_diene_0_2_self_ring_close_1_res_2",
-    group = 
+    group =
 """
 1 *2 C u0 {2,S} {3,D} {4,S}
 2    C u0 {1,S} {3,S} {5,S}
@@ -19140,16 +19140,16 @@ forbidden(
 7 *1 C u1 {5,S} {6,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Prevent a s2_3_6_diene_0_2 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure 
+Prevent a s2_3_6_diene_0_2 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure
 from the tip of the 3-member ring to one of the far corners of the 6. Resonance form 2.
 """,
 )
 
 forbidden(
     label = "s2_4_5_diene_1_5_self_ring_close_res1",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,S} {3,S} {5,D}
 2    C u0 p0 c0 {1,S} {4,S} {6,S}
@@ -19160,16 +19160,16 @@ forbidden(
 7 *1 C u1 p0 c0 {5,S} {6,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Prevent a s2_4_5_diene_1_5 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure 
+Prevent a s2_4_5_diene_1_5 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure
 from the tip of the 5-member ring to the corner of the 4. Resonance form 1.
 """,
 )
 
 forbidden(
     label = "s2_4_5_diene_1_5_self_ring_close_res2",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,S} {3,S} {5,D}
 2    C u0 p0 c0 {1,S} {4,S} {6,S}
@@ -19180,16 +19180,16 @@ forbidden(
 7 *1 C u1 p0 c0 {5,S} {6,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Prevent a s2_4_5_diene_1_5 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure 
+Prevent a s2_4_5_diene_1_5 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure
 from the tip of the 5-member ring to the corner of the 4. Resonance form 2.
 """,
 )
 
 forbidden(
     label = "s2_4_5_diene_1_5_self_ring_close_res3",
-    group = 
+    group =
 """
 1    C u0 p0 c0 {2,S} {3,D} {5,S}
 2    C u0 p0 c0 {1,S} {4,S} {6,S}
@@ -19200,16 +19200,16 @@ forbidden(
 7 *3 C u0 p0 c0 {5,D} {6,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Prevent a s2_4_5_diene_1_5 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure 
+Prevent a s2_4_5_diene_1_5 bicyclic (using polycyclic.py nomenclature) from undergoing a highly strained self-ring closure
 from the tip of the 5-member ring to the corner of the 4. Resonance form 3.
 """,
 )
 
 forbidden(
     label = "tricyclic_ring_closure",
-    group = 
+    group =
 """
 1     C u0 p0 c0 {2,B} {3,B} {7,B}
 2     C u0 p0 c0 {1,B} {4,B} {6,B}
@@ -19225,9 +19225,9 @@ forbidden(
 12 *1 C u1 p0 c0 {11,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
-Prevent a from undergoing a highly strained ring closure 
+Prevent a from undergoing a highly strained ring closure
 from the tip of the branch with radical to the outer edge of the ring.
 """,
 )

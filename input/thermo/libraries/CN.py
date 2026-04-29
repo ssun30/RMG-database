@@ -14,7 +14,7 @@ Contains data for compounds with only carbon and nitrogen
 entry(
     index = 0,
     label = "C2N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -28,7 +28,7 @@ entry(
         S298 = (57.911,'cal/(mol*K)'),
     ),
     shortDesc = u"""cyanogen""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

@@ -9,13 +9,13 @@ longDesc = u"""
 entry(
     index = -3,
     label = "R",
-    group = 
+    group =
 """
 1 * R u0
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -24,13 +24,13 @@ u"""
 entry(
     index = -2,
     label = "C",
-    group = 
+    group =
 """
 1 * C u0
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -39,7 +39,7 @@ u"""
 entry(
     index = 8,
     label = "Cbf",
-    group = 
+    group =
 """
 1 * Cbf u0
 """,
@@ -51,7 +51,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts' fragment 8 fused aromatic""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -60,13 +60,13 @@ u"""
 entry(
     index = -1,
     label = "Css",
-    group = 
+    group =
 """
 1 * Cs u0
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -75,7 +75,7 @@ u"""
 entry(
     index = 1,
     label = "CssH3",
-    group = 
+    group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   H  u0 {1,S}
@@ -91,7 +91,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 1 sp3 CH3""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -100,7 +100,7 @@ u"""
 entry(
     index = 2,
     label = "CssH2",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   H   u0 {1,S}
@@ -116,7 +116,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 2 sp3 >CH2""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -125,7 +125,7 @@ u"""
 entry(
     index = 3,
     label = "CssH",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   H   u0 {1,S}
@@ -141,7 +141,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 3 sp3 >CH-""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -150,7 +150,7 @@ u"""
 entry(
     index = 4,
     label = "Css-noH",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H u0 {1,S}
@@ -166,7 +166,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 4 sp3 >C<""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -175,13 +175,13 @@ u"""
 entry(
     index = 0,
     label = "Cds",
-    group = 
+    group =
 """
 1 * [Cd,CO] u0
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -190,7 +190,7 @@ u"""
 entry(
     index = 5,
     label = "CdsH2",
-    group = 
+    group =
 """
 1 * [Cd,CO] u0 {2,S} {3,S} {4,D}
 2   H       u0 {1,S}
@@ -205,7 +205,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts' fragment 5 sp2 =CH2""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -214,7 +214,7 @@ u"""
 entry(
     index = 6,
     label = "CdsH",
-    group = 
+    group =
 """
 1 * [Cd,CO] u0 {2,S} {3,S} {4,D}
 2   H       u0 {1,S}
@@ -229,7 +229,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts' fragment 6 sp2 =CH-""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -238,7 +238,7 @@ u"""
 entry(
     index = 7,
     label = "Cds-noH",
-    group = 
+    group =
 """
 1 * [Cd,CO] u0 {2,S} {3,S} {4,D}
 2   R!H     u0 {1,S}
@@ -253,7 +253,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts' fragment 7 sp2 =C<""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -262,7 +262,7 @@ u"""
 entry(
     index = 9,
     label = "Ct",
-    group = 
+    group =
 """
 1 * Ct u0
 """,
@@ -274,7 +274,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts' fragment 9 sp""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -283,7 +283,7 @@ u"""
 entry(
     index = 10,
     label = "CtOt",
-    group = 
+    group =
 """
 1 * C2tc u0 p1 c-1 {2,T}
 2   O4tc u0 p1 c+1 {1,T}
@@ -296,7 +296,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Fake value for C#O that corresponds to its resonance isomer""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -305,7 +305,7 @@ u"""
 entry(
     index = 57,
     label = "Cdd",
-    group = 
+    group =
 """
 1 * Cdd u0
 """,
@@ -317,7 +317,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts' fragment 7 nonfused aromatic =C<""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -326,13 +326,13 @@ u"""
 entry(
     index = -9,
     label = "Cb",
-    group = 
+    group =
 """
 1 * Cb u0
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -342,7 +342,7 @@ u"""
 entry(
     index = 37,
     label = "Cbf-noH",
-    group = 
+    group =
 """
 1 * Cbf u0 {2,B} {3,B} {4,B}
 2   R!H u0 {1,B}
@@ -357,7 +357,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""same as Platts group 7""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -366,7 +366,7 @@ u"""
 entry(
     index = 38,
     label = "Cb-H",
-    group = 
+    group =
 """
 1 * Cb  u0 {2,B} {3,B} {4,S}
 2   R!H u0 {1,B}
@@ -381,7 +381,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""same as Platts group 6""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -390,7 +390,7 @@ u"""
 entry(
     index = 39,
     label = "Cb-noHnoRing",
-    group = 
+    group =
 """
 1 * Cb  u0 {2,B} {3,B} {4,S}
 2   R!H u0 {1,B}
@@ -405,7 +405,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""same as Platts group 7""",
-    longDesc = 
+    longDesc =
 u"""
 Cb is attached to a 3rd R group that isn't in the ring,as in phenol.
 """,
@@ -414,13 +414,13 @@ Cb is attached to a 3rd R group that isn't in the ring,as in phenol.
 entry(
     index = 1050,
     label = "C_singlet",
-    group = 
+    group =
 """
 1 * [C2s,C2d] u0 p1
 """,
     solute = u'CssH2',
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 """,
 )
@@ -428,13 +428,13 @@ u"""
 entry(
     index = -4,
     label = "O",
-    group = 
+    group =
 """
 1 * [O2s,O2d,O4tc] u0
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -443,13 +443,13 @@ u"""
 entry(
     index = -10,
     label = "Oss",
-    group = 
+    group =
 """
 1 * O2s u0
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -458,7 +458,7 @@ u"""
 entry(
     index = 26,
     label = "OssH",
-    group = 
+    group =
 """
 1 * O2s u0 {2,S}
 2   H  u0 {1,S}
@@ -471,7 +471,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 26 -OH""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -480,7 +480,7 @@ u"""
 entry(
     index = 27,
     label = "Oss-noncyclic",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   R!H u0 {1,S}
@@ -494,7 +494,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 27 noncyclic -O-""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -503,7 +503,7 @@ u"""
 entry(
     index = 30,
     label = "O2d",
-    group = 
+    group =
 """
 1 * O2d u0
 """,
@@ -515,7 +515,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 30 sp2 =O""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -524,7 +524,7 @@ u"""
 entry(
     index = 30,
     label = "OtCt",
-    group = 
+    group =
 """
 1 * O4tc u0 p1 c+1 {2,T}
 2   C2tc u0 p1 c-1 {1,T}
@@ -537,7 +537,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Fake value for C#O that corresponds to resonance isomer""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -546,13 +546,13 @@ u"""
 entry(
     index = -8,
     label = "N",
-    group = 
+    group =
 """
 1 * N u0
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -561,13 +561,13 @@ u"""
 entry(
     index = -7,
     label = "N3s",
-    group = 
+    group =
 """
 1 * N3s u0
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -576,7 +576,7 @@ u"""
 entry(
     index = 23,
     label = "NO2",
-    group = 
+    group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   R   u0 {1,S}
@@ -591,7 +591,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts fragment 23 -NO2""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -600,7 +600,7 @@ u"""
 entry(
     index = 46,
     label = "NO2-aromatic",
-    group = 
+    group =
 """
 1 * N3s      u0 {2,S} {3,S} {4,S}
 2   O2s       u0 {1,S}
@@ -615,7 +615,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts fragment 24""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -624,7 +624,7 @@ u"""
 entry(
     index = 25,
     label = "ONO2",
-    group = 
+    group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   O2s  u0 {1,S}
@@ -639,7 +639,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts fragment 25 nitrate""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -648,7 +648,7 @@ u"""
 entry(
     index = 10,
     label = "N3sH2",
-    group = 
+    group =
 """
 1 * N3s u0 {2,S} {3,S}
 2   H   u0 {1,S}
@@ -662,7 +662,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts fragment 10 -NH2-aliphatic""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -680,7 +680,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts fragment 11""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -689,7 +689,7 @@ u"""
 entry(
     index = 40,
     label = "N3sH2-Cb",
-    group = 
+    group =
 """
 1 * N3s      u0 {2,S} {3,S} {4,S}
 2   H        u0 {1,S}
@@ -703,7 +703,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -712,7 +712,7 @@ u"""
 entry(
     index = 41,
     label = "N3sH2-N5ring",
-    group = 
+    group =
 """
 1 * N3s      u0 {2,S} {3,S} {4,S}
 2   H        u0 {1,S}
@@ -725,7 +725,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -734,7 +734,7 @@ u"""
 entry(
     index = 12,
     label = "N3sH",
-    group = 
+    group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   H   u0 {1,S}
@@ -749,7 +749,7 @@ entry(
         A = 0.087,
     ),
     shortDesc = u"""Platts fragment 12 >NH (fragment 5 for A)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -758,7 +758,7 @@ u"""
 entry(
     index = 43,
     label = "N3sH-aromatic",
-    group = 
+    group =
 """
 1 * N3s      u0 {2,S} {3,S} {4,S}
 2   H        u0 {1,S}
@@ -773,7 +773,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -782,7 +782,7 @@ u"""
 entry(
     index = 14,
     label = "N3sH-pyrrole",
-    group = 
+    group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   H   u0 {1,S}
@@ -799,7 +799,7 @@ entry(
         A = 0.371,
     ),
     shortDesc = u"""Platts fragment 14 pyrrole (fragment 8 for A)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -808,7 +808,7 @@ u"""
 entry(
     index = 15,
     label = "N3s-noH",
-    group = 
+    group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   R!H u0 {1,S}
@@ -823,7 +823,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts fragment 15 >N-""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -832,7 +832,7 @@ u"""
 entry(
     index = 45,
     label = "N3s-noH-aromatic",
-    group = 
+    group =
 """
 1 * N3s      u0 {2,S} {3,S} {4,S}
 2   R!H      u0 {1,S}
@@ -847,7 +847,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -856,7 +856,7 @@ u"""
 entry(
     index = 17,
     label = "N3s-noH-pyrrole",
-    group = 
+    group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   R!H u0 {1,S}
@@ -873,7 +873,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts fragment 17 pyrrole""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -882,7 +882,7 @@ u"""
 entry(
     index = 18,
     label = "N3d",
-    group = 
+    group =
 """
 1 * N3d u0
 """,
@@ -894,7 +894,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts fragment 18 =N""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -903,7 +903,7 @@ u"""
 entry(
     index = 21,
     label = "N3t",
-    group = 
+    group =
 """
 1 * N3t u0 {2,T}
 2   Ct  u0 {1,T}
@@ -916,7 +916,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts fragment 21 N#C-""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -934,7 +934,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts fragment 22""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -943,7 +943,7 @@ u"""
 entry(
     index = 55,
     label = "N3t-Cb",
-    group = 
+    group =
 """
 1 * N3t u0 {2,T}
 2   Ct  u0 {1,T} {3,S}
@@ -951,7 +951,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -960,7 +960,7 @@ u"""
 entry(
     index = 56,
     label = "N3t-N5ring",
-    group = 
+    group =
 """
 1 * N3t      u0 {2,T}
 2   Ct       u0 {1,T} {3,S}
@@ -972,7 +972,7 @@ entry(
 """,
     solute = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -981,7 +981,7 @@ u"""
 entry(
     index = 19,
     label = "N3b",
-    group = 
+    group =
 """
 1 * N3b u0
 """,
@@ -993,7 +993,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts group 19 =N sp2 cyclic""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1002,7 +1002,7 @@ u"""
 entry(
     index = 20,
     label = "N3bpyr",
-    group = 
+    group =
 """
 1 * N3b u0 {2,B} {6,B}
 2   Cb  u0 {1,B} {3,B}
@@ -1019,7 +1019,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts group 20 pyridine""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1028,7 +1028,7 @@ u"""
 entry(
     index = 36,
     label = "S",
-    group = 
+    group =
 """
 1 * S u0 px
 """,
@@ -1040,7 +1040,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 36 (any other sulfur)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1049,7 +1049,7 @@ u"""
 entry(
     index = 31,
     label = "S2s",
-    group = 
+    group =
 """
 1 * S2s u0 p2
 """,
@@ -1061,7 +1061,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 31 -S- sp3""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1070,7 +1070,7 @@ u"""
 entry(
     index = 32,
     label = "S2s-aromatic",
-    group = 
+    group =
 """
 1 * S2s      u0 p2 {2,S} {5,S}
 2   Cb       u0    {1,S} {3,B}
@@ -1086,7 +1086,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 32 -S- aromatic""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1095,7 +1095,7 @@ u"""
 entry(
     index = 33,
     label = "S2d",
-    group = 
+    group =
 """
 1 * S2d u0 p2
 """,
@@ -1107,7 +1107,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 33 =S sp2""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1116,7 +1116,7 @@ u"""
 entry(
     index = 34,
     label = "S4d",
-    group = 
+    group =
 """
 1 * S4d u0 p1 {2,S} {3,S}
 2   R   u0    {1,S}
@@ -1130,7 +1130,7 @@ entry(
         A = 0,
     ),
     shortDesc = u"""Platts fragment 34 >S=""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1139,7 +1139,7 @@ u"""
 entry(
     index = 35,
     label = "S6dd-OdOdOR",
-    group = 
+    group =
 """
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d   u0 p2 {1,D}
@@ -1155,7 +1155,7 @@ entry(
         A = 0.0,
     ),
     shortDesc = u"""Platts fragment 35 sulfonate""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

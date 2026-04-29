@@ -22,8 +22,8 @@ entry(
     rank = 8,
     shortDesc = u"""Deutschmann Ni""",
     longDesc = u"""
-Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO. 
-Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving 
+Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving
 kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
 doi:10.1039/d3dd00184a
 A divided by 3 due to the degeneracy.
@@ -45,8 +45,8 @@ entry(
     rank = 8,
     shortDesc = u"""Default""",
     longDesc = u"""
-Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO. 
-Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving 
+Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving
 kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
 doi:10.1039/d3dd00184a
 A divided by 3 due to the degeneracy.
@@ -68,8 +68,8 @@ entry(
     rank = 8,
     shortDesc = u"""Default""",
     longDesc = u"""
-Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO. 
-Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving 
+Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving
 kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
 doi:10.1039/d3dd00184a
 """,
@@ -90,8 +90,8 @@ entry(
     rank = 8,
     shortDesc = u"""Default""",
     longDesc = u"""
-Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO. 
-Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving 
+Calculated with DFT by Katrín Blöndal and Bjarne Kreitz at Brown University, using the vdW-DF-cx functional in Quantum ESPRESSO.
+Details on the computational method to derive the rate constants are provided in "Automatic mechanism generation involving
 kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
 doi:10.1039/d3dd00184a
 """,

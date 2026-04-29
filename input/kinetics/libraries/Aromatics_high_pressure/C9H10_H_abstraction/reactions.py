@@ -17,7 +17,7 @@ entry(
         Ea = (6.175, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -33,7 +33,7 @@ entry(
         Ea = (7.396, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -49,7 +49,7 @@ entry(
         Ea = (-0.573, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,

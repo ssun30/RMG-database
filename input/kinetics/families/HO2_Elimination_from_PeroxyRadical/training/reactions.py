@@ -28,7 +28,7 @@ entry(
     referenceType = "theory",
     rank = 10,
     shortDesc = u"""CFG VTST calculations at RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the RQCISD(T)/CBS//B3LYP/6-311++G(d,p) level
 using Gaussian 03 and MOLPRO. High-pressure-limit rate coefficient computed
@@ -50,7 +50,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 0,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO
 """,
@@ -70,7 +70,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_2H_2H
 """,
@@ -90,7 +90,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_HNd_2H
 """,
@@ -110,7 +110,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_NdNd_2H
 """,
@@ -130,7 +130,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_2H_HNd
 """,
@@ -150,7 +150,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_HNd_HNd
 """,
@@ -170,7 +170,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_NdNd_HNd
 """,
@@ -190,7 +190,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_2H_NdNd
 """,
@@ -210,7 +210,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_HNd_NdNd
 """,
@@ -230,7 +230,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Sumathy's CBS-QB3 calculations. Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d') level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_NdNd_NdNd
 """,
@@ -250,13 +250,13 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""MRH CBS-QB3 calculations with 1d h.r. corrections.""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations for the reaction CH3-CH(OO)-CH=CH2 => CH2=CH-CH=CH2 + HO2
 
 Previous RMG estimate for this reaction was an "Average of average" estimate.  This reaction was of
 interest to MRH/MHS because the butanol model was sensitive to CH3-*CH-CH=CHOH => CH2=CH-CH=CHOH + HO2.
-The high-p limit kinetics were necessary to estimate a k(T,P) for this PES.  MRH could not find a 
+The high-p limit kinetics were necessary to estimate a k(T,P) for this PES.  MRH could not find a
 stable TS geometry for the exact reaction.  Instead, I removed the OH group and found
 a stable TS for that reaction (the titled reaction for this node).
 
@@ -288,7 +288,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Same as node 845 (MRH assumption)""",
-    longDesc = 
+    longDesc =
 u"""
 MRH approximation for the general R2OO_2H_HDe node
 
@@ -316,7 +316,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""MRH CBS-QB3 calculations with 1d h.r. corrections.""",
-    longDesc = 
+    longDesc =
 u"""
 MRH CBS-QB3 calculations for the reaction CH3-CH(OO)-OH => CH3-CH=O + HO2
 
@@ -338,7 +338,7 @@ da Silva et al. calculation for the adduct going to product is between 2-5 order
 magnitude faster than reactants going to adduct, so it is a reasonable assumption
 to say the first step is the rate-limiting step.
 
-Comparing my k(T) with two other sources for this reaction (dx.doi.org/10.1021/jp003762p and 
+Comparing my k(T) with two other sources for this reaction (dx.doi.org/10.1021/jp003762p and
 I. Hermans et al., AIAA Journal, 109, (2005), 4303-4311) also shows good agreement.
 I am setting the rank for this k(T) to be 5 (very uncertain).
 
@@ -370,7 +370,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Hermans et al. 2005 (doi:10.1021/jp044080v) G2M calculations""",
-    longDesc = 
+    longDesc =
 u"""
 MRH approximation for the general OCOO node
 
@@ -395,7 +395,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""BMK/cbsb7, HO""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OO_0H_2H
 """,

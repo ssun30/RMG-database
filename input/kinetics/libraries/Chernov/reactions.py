@@ -5,7 +5,7 @@ name = "Chernov"
 shortDesc = u"Aromatic reactions only from 2014 Chernov et al. Combustion and Flame mechanism"
 longDesc = u"""
 Includes only reactions involving aromatic species from the mechanism in:
-V. Chernov, et al., 
+V. Chernov, et al.,
 Soot Formation with C1 and C2 Fuels Using an Improved Chemical Mechanism for PAH growth
 Combustion and Flame 161 (2014) 592-601
 """
@@ -20,7 +20,7 @@ entry(
         T0 = (1, 'K'),
         comment = '468',
     ),
-    longDesc = 
+    longDesc =
 u"""
 468
 """,
@@ -38,7 +38,7 @@ entry(
         comment = '469',
     ),
     allow_max_rate_violation=True,
-    longDesc = 
+    longDesc =
 u"""
 469
 """,
@@ -55,7 +55,7 @@ entry(
         T0 = (1, 'K'),
         comment = '470',
     ),
-    longDesc = 
+    longDesc =
 u"""
 470
 """,
@@ -72,7 +72,7 @@ entry(
         T0 = (1, 'K'),
         comment = '471',
     ),
-    longDesc = 
+    longDesc =
 u"""
 471
 """,
@@ -89,7 +89,7 @@ entry(
         T0 = (1, 'K'),
         comment = '472',
     ),
-    longDesc = 
+    longDesc =
 u"""
 472
 """,
@@ -106,7 +106,7 @@ entry(
         T0 = (1, 'K'),
         comment = '473',
     ),
-    longDesc = 
+    longDesc =
 u"""
 473
 """,
@@ -123,7 +123,7 @@ entry(
         T0 = (1, 'K'),
         comment = '474\nC5H6+H = C3H5+C2H2 6.600E+14 0.0000 6200.00\n475',
     ),
-    longDesc = 
+    longDesc =
 u"""
 474
 C5H6+H = C3H5+C2H2 6.600E+14 0.0000 6200.00
@@ -142,7 +142,7 @@ entry(
         T0 = (1, 'K'),
         comment = '476',
     ),
-    longDesc = 
+    longDesc =
 u"""
 476
 """,
@@ -159,7 +159,7 @@ entry(
         T0 = (1, 'K'),
         comment = '477',
     ),
-    longDesc = 
+    longDesc =
 u"""
 477
 """,
@@ -176,7 +176,7 @@ entry(
         T0 = (1, 'K'),
         comment = '478',
     ),
-    longDesc = 
+    longDesc =
 u"""
 478
 """,
@@ -193,7 +193,7 @@ entry(
         T0 = (1, 'K'),
         comment = '479',
     ),
-    longDesc = 
+    longDesc =
 u"""
 479
 """,
@@ -210,7 +210,7 @@ entry(
         T0 = (1, 'K'),
         comment = '480',
     ),
-    longDesc = 
+    longDesc =
 u"""
 480
 """,
@@ -227,7 +227,7 @@ entry(
         T0 = (1, 'K'),
         comment = '481',
     ),
-    longDesc = 
+    longDesc =
 u"""
 481
 """,
@@ -244,7 +244,7 @@ entry(
         T0 = (1, 'K'),
         comment = '482',
     ),
-    longDesc = 
+    longDesc =
 u"""
 482
 """,
@@ -261,7 +261,7 @@ entry(
         T0 = (1, 'K'),
         comment = '483',
     ),
-    longDesc = 
+    longDesc =
 u"""
 483
 """,
@@ -278,7 +278,7 @@ entry(
         T0 = (1, 'K'),
         comment = '484',
     ),
-    longDesc = 
+    longDesc =
 u"""
 484
 """,
@@ -295,7 +295,7 @@ entry(
         T0 = (1, 'K'),
         comment = '485',
     ),
-    longDesc = 
+    longDesc =
 u"""
 485
 """,
@@ -312,7 +312,7 @@ entry(
         T0 = (1, 'K'),
         comment = '486',
     ),
-    longDesc = 
+    longDesc =
 u"""
 486
 """,
@@ -329,7 +329,7 @@ entry(
         T0 = (1, 'K'),
         comment = '487',
     ),
-    longDesc = 
+    longDesc =
 u"""
 487
 """,
@@ -346,7 +346,7 @@ entry(
         T0 = (1, 'K'),
         comment = '488',
     ),
-    longDesc = 
+    longDesc =
 u"""
 488
 """,
@@ -363,7 +363,7 @@ entry(
         T0 = (1, 'K'),
         comment = '489',
     ),
-    longDesc = 
+    longDesc =
 u"""
 489
 """,
@@ -380,7 +380,7 @@ entry(
         T0 = (1, 'K'),
         comment = '490',
     ),
-    longDesc = 
+    longDesc =
 u"""
 490
 """,
@@ -397,7 +397,7 @@ entry(
         T0 = (1, 'K'),
         comment = '491',
     ),
-    longDesc = 
+    longDesc =
 u"""
 491
 """,
@@ -414,7 +414,7 @@ entry(
         T0 = (1, 'K'),
         comment = '492',
     ),
-    longDesc = 
+    longDesc =
 u"""
 492
 """,
@@ -431,7 +431,7 @@ entry(
         T0 = (1, 'K'),
         comment = '493',
     ),
-    longDesc = 
+    longDesc =
 u"""
 493
 """,
@@ -448,7 +448,7 @@ entry(
         T0 = (1, 'K'),
         comment = '494',
     ),
-    longDesc = 
+    longDesc =
 u"""
 494
 """,
@@ -465,7 +465,7 @@ entry(
         T0 = (1, 'K'),
         comment = '495',
     ),
-    longDesc = 
+    longDesc =
 u"""
 495
 """,
@@ -482,7 +482,7 @@ entry(
         T0 = (1, 'K'),
         comment = '496',
     ),
-    longDesc = 
+    longDesc =
 u"""
 496
 """,
@@ -499,7 +499,7 @@ entry(
         T0 = (1, 'K'),
         comment = '497',
     ),
-    longDesc = 
+    longDesc =
 u"""
 497
 """,
@@ -516,7 +516,7 @@ entry(
         T0 = (1, 'K'),
         comment = '498',
     ),
-    longDesc = 
+    longDesc =
 u"""
 498
 """,
@@ -533,7 +533,7 @@ entry(
         T0 = (1, 'K'),
         comment = '499',
     ),
-    longDesc = 
+    longDesc =
 u"""
 499
 """,
@@ -550,7 +550,7 @@ entry(
         T0 = (1, 'K'),
         comment = '500',
     ),
-    longDesc = 
+    longDesc =
 u"""
 500
 """,
@@ -567,7 +567,7 @@ entry(
         T0 = (1, 'K'),
         comment = '501\nC5H5+CH3 = A1+2H 1.000E+18 0.0000 30000.00\n502',
     ),
-    longDesc = 
+    longDesc =
 u"""
 501
 C5H5+CH3 = A1+2H 1.000E+18 0.0000 30000.00
@@ -586,7 +586,7 @@ entry(
         T0 = (1, 'K'),
         comment = '503',
     ),
-    longDesc = 
+    longDesc =
 u"""
 503
 """,
@@ -603,7 +603,7 @@ entry(
         T0 = (1, 'K'),
         comment = '504',
     ),
-    longDesc = 
+    longDesc =
 u"""
 504
 """,
@@ -620,7 +620,7 @@ entry(
         T0 = (1, 'K'),
         comment = '505',
     ),
-    longDesc = 
+    longDesc =
 u"""
 505
 """,
@@ -637,7 +637,7 @@ entry(
         T0 = (1, 'K'),
         comment = '506',
     ),
-    longDesc = 
+    longDesc =
 u"""
 506
 """,
@@ -654,7 +654,7 @@ entry(
         T0 = (1, 'K'),
         comment = '507',
     ),
-    longDesc = 
+    longDesc =
 u"""
 507
 """,
@@ -671,7 +671,7 @@ entry(
         T0 = (1, 'K'),
         comment = '508',
     ),
-    longDesc = 
+    longDesc =
 u"""
 508
 """,
@@ -688,7 +688,7 @@ entry(
         T0 = (1, 'K'),
         comment = '509',
     ),
-    longDesc = 
+    longDesc =
 u"""
 509
 """,
@@ -705,7 +705,7 @@ entry(
         T0 = (1, 'K'),
         comment = '510',
     ),
-    longDesc = 
+    longDesc =
 u"""
 510
 """,
@@ -722,7 +722,7 @@ entry(
         T0 = (1, 'K'),
         comment = '511',
     ),
-    longDesc = 
+    longDesc =
 u"""
 511
 """,
@@ -739,7 +739,7 @@ entry(
         T0 = (1, 'K'),
         comment = '512',
     ),
-    longDesc = 
+    longDesc =
 u"""
 512
 """,
@@ -756,7 +756,7 @@ entry(
         T0 = (1, 'K'),
         comment = '513',
     ),
-    longDesc = 
+    longDesc =
 u"""
 513
 """,
@@ -773,7 +773,7 @@ entry(
         T0 = (1, 'K'),
         comment = '514',
     ),
-    longDesc = 
+    longDesc =
 u"""
 514
 """,
@@ -790,7 +790,7 @@ entry(
         T0 = (1, 'K'),
         comment = '515',
     ),
-    longDesc = 
+    longDesc =
 u"""
 515
 """,
@@ -807,7 +807,7 @@ entry(
         T0 = (1, 'K'),
         comment = '516',
     ),
-    longDesc = 
+    longDesc =
 u"""
 516
 """,
@@ -824,7 +824,7 @@ entry(
         T0 = (1, 'K'),
         comment = '517',
     ),
-    longDesc = 
+    longDesc =
 u"""
 517
 """,
@@ -841,7 +841,7 @@ entry(
         T0 = (1, 'K'),
         comment = '518',
     ),
-    longDesc = 
+    longDesc =
 u"""
 518
 """,
@@ -858,7 +858,7 @@ entry(
         T0 = (1, 'K'),
         comment = '519',
     ),
-    longDesc = 
+    longDesc =
 u"""
 519
 """,
@@ -875,7 +875,7 @@ entry(
         T0 = (1, 'K'),
         comment = '520',
     ),
-    longDesc = 
+    longDesc =
 u"""
 520
 """,
@@ -892,7 +892,7 @@ entry(
         T0 = (1, 'K'),
         comment = '521',
     ),
-    longDesc = 
+    longDesc =
 u"""
 521
 """,
@@ -909,7 +909,7 @@ entry(
         T0 = (1, 'K'),
         comment = '522',
     ),
-    longDesc = 
+    longDesc =
 u"""
 522
 """,
@@ -926,7 +926,7 @@ entry(
         T0 = (1, 'K'),
         comment = '523',
     ),
-    longDesc = 
+    longDesc =
 u"""
 523
 """,
@@ -943,7 +943,7 @@ entry(
         T0 = (1, 'K'),
         comment = '524',
     ),
-    longDesc = 
+    longDesc =
 u"""
 524
 """,
@@ -960,7 +960,7 @@ entry(
         T0 = (1, 'K'),
         comment = '525',
     ),
-    longDesc = 
+    longDesc =
 u"""
 525
 """,
@@ -977,7 +977,7 @@ entry(
         T0 = (1, 'K'),
         comment = '526',
     ),
-    longDesc = 
+    longDesc =
 u"""
 526
 """,
@@ -994,7 +994,7 @@ entry(
         T0 = (1, 'K'),
         comment = '527',
     ),
-    longDesc = 
+    longDesc =
 u"""
 527
 """,
@@ -1011,7 +1011,7 @@ entry(
         T0 = (1, 'K'),
         comment = '528',
     ),
-    longDesc = 
+    longDesc =
 u"""
 528
 """,
@@ -1028,7 +1028,7 @@ entry(
         T0 = (1, 'K'),
         comment = '529',
     ),
-    longDesc = 
+    longDesc =
 u"""
 529
 """,
@@ -1045,7 +1045,7 @@ entry(
         T0 = (1, 'K'),
         comment = '530',
     ),
-    longDesc = 
+    longDesc =
 u"""
 530
 """,
@@ -1062,7 +1062,7 @@ entry(
         T0 = (1, 'K'),
         comment = '531',
     ),
-    longDesc = 
+    longDesc =
 u"""
 531
 """,
@@ -1079,7 +1079,7 @@ entry(
         T0 = (1, 'K'),
         comment = '532',
     ),
-    longDesc = 
+    longDesc =
 u"""
 532
 """,
@@ -1096,7 +1096,7 @@ entry(
         T0 = (1, 'K'),
         comment = '533',
     ),
-    longDesc = 
+    longDesc =
 u"""
 533
 """,
@@ -1113,7 +1113,7 @@ entry(
         T0 = (1, 'K'),
         comment = '534',
     ),
-    longDesc = 
+    longDesc =
 u"""
 534
 """,
@@ -1130,7 +1130,7 @@ entry(
         T0 = (1, 'K'),
         comment = '535',
     ),
-    longDesc = 
+    longDesc =
 u"""
 535
 """,
@@ -1147,7 +1147,7 @@ entry(
         T0 = (1, 'K'),
         comment = '536',
     ),
-    longDesc = 
+    longDesc =
 u"""
 536
 """,
@@ -1164,7 +1164,7 @@ entry(
         T0 = (1, 'K'),
         comment = '537',
     ),
-    longDesc = 
+    longDesc =
 u"""
 537
 """,
@@ -1181,7 +1181,7 @@ entry(
         T0 = (1, 'K'),
         comment = '538',
     ),
-    longDesc = 
+    longDesc =
 u"""
 538
 """,
@@ -1198,7 +1198,7 @@ entry(
         T0 = (1, 'K'),
         comment = '539',
     ),
-    longDesc = 
+    longDesc =
 u"""
 539
 """,
@@ -1215,7 +1215,7 @@ entry(
         T0 = (1, 'K'),
         comment = '540',
     ),
-    longDesc = 
+    longDesc =
 u"""
 540
 """,
@@ -1232,7 +1232,7 @@ entry(
         T0 = (1, 'K'),
         comment = '541\nC7H7 = C5H5+C2H2 6.100E+13 0.0000 35000.00\n542',
     ),
-    longDesc = 
+    longDesc =
 u"""
 541
 C7H7 = C5H5+C2H2 6.100E+13 0.0000 35000.00
@@ -1251,7 +1251,7 @@ entry(
         T0 = (1, 'K'),
         comment = '543',
     ),
-    longDesc = 
+    longDesc =
 u"""
 543
 """,
@@ -1268,7 +1268,7 @@ entry(
         T0 = (1, 'K'),
         comment = '544',
     ),
-    longDesc = 
+    longDesc =
 u"""
 544
 """,
@@ -1285,7 +1285,7 @@ entry(
         T0 = (1, 'K'),
         comment = '545',
     ),
-    longDesc = 
+    longDesc =
 u"""
 545
 """,
@@ -1302,7 +1302,7 @@ entry(
         T0 = (1, 'K'),
         comment = '546',
     ),
-    longDesc = 
+    longDesc =
 u"""
 546
 """,
@@ -1319,7 +1319,7 @@ entry(
         T0 = (1, 'K'),
         comment = '547',
     ),
-    longDesc = 
+    longDesc =
 u"""
 547
 """,
@@ -1336,7 +1336,7 @@ entry(
         T0 = (1, 'K'),
         comment = '548',
     ),
-    longDesc = 
+    longDesc =
 u"""
 548
 """,
@@ -1361,7 +1361,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5},
         comment = '549',
     ),
-    longDesc = 
+    longDesc =
 u"""
 549
 """,
@@ -1378,7 +1378,7 @@ entry(
         T0 = (1, 'K'),
         comment = '550',
     ),
-    longDesc = 
+    longDesc =
 u"""
 550
 """,
@@ -1395,7 +1395,7 @@ entry(
         T0 = (1, 'K'),
         comment = '551',
     ),
-    longDesc = 
+    longDesc =
 u"""
 551
 """,
@@ -1412,7 +1412,7 @@ entry(
         T0 = (1, 'K'),
         comment = '552',
     ),
-    longDesc = 
+    longDesc =
 u"""
 552
 """,
@@ -1429,7 +1429,7 @@ entry(
         T0 = (1, 'K'),
         comment = '553',
     ),
-    longDesc = 
+    longDesc =
 u"""
 553
 """,
@@ -1446,7 +1446,7 @@ entry(
         T0 = (1, 'K'),
         comment = '554',
     ),
-    longDesc = 
+    longDesc =
 u"""
 554
 """,
@@ -1463,7 +1463,7 @@ entry(
         T0 = (1, 'K'),
         comment = '555',
     ),
-    longDesc = 
+    longDesc =
 u"""
 555
 """,
@@ -1480,7 +1480,7 @@ entry(
         T0 = (1, 'K'),
         comment = '556',
     ),
-    longDesc = 
+    longDesc =
 u"""
 556
 """,
@@ -1497,7 +1497,7 @@ entry(
         T0 = (1, 'K'),
         comment = '557',
     ),
-    longDesc = 
+    longDesc =
 u"""
 557
 """,
@@ -1514,7 +1514,7 @@ entry(
         T0 = (1, 'K'),
         comment = '558',
     ),
-    longDesc = 
+    longDesc =
 u"""
 558
 """,
@@ -1531,7 +1531,7 @@ entry(
         T0 = (1, 'K'),
         comment = '559',
     ),
-    longDesc = 
+    longDesc =
 u"""
 559
 """,
@@ -1548,7 +1548,7 @@ entry(
         T0 = (1, 'K'),
         comment = '560',
     ),
-    longDesc = 
+    longDesc =
 u"""
 560
 """,
@@ -1566,7 +1566,7 @@ entry(
         T0 = (1, 'K'),
         comment = '561',
     ),
-    longDesc = 
+    longDesc =
 u"""
 561
 """,
@@ -1583,7 +1583,7 @@ entry(
         T0 = (1, 'K'),
         comment = '562',
     ),
-    longDesc = 
+    longDesc =
 u"""
 562
 """,
@@ -1600,7 +1600,7 @@ entry(
         T0 = (1, 'K'),
         comment = '563',
     ),
-    longDesc = 
+    longDesc =
 u"""
 563
 """,
@@ -1617,7 +1617,7 @@ entry(
         T0 = (1, 'K'),
         comment = '564',
     ),
-    longDesc = 
+    longDesc =
 u"""
 564
 """,
@@ -1634,7 +1634,7 @@ entry(
         T0 = (1, 'K'),
         comment = '565',
     ),
-    longDesc = 
+    longDesc =
 u"""
 565
 """,
@@ -1651,7 +1651,7 @@ entry(
         T0 = (1, 'K'),
         comment = '566',
     ),
-    longDesc = 
+    longDesc =
 u"""
 566
 """,
@@ -1668,7 +1668,7 @@ entry(
         T0 = (1, 'K'),
         comment = '567',
     ),
-    longDesc = 
+    longDesc =
 u"""
 567
 """,
@@ -1685,7 +1685,7 @@ entry(
         T0 = (1, 'K'),
         comment = '568\nRxn 568 commented out because reverse rate coefficient is above Z',
     ),
-    longDesc = 
+    longDesc =
 u"""
 568
 Rxn 568 commented out because reverse rate coefficient is above Z
@@ -1703,7 +1703,7 @@ entry(
         T0 = (1, 'K'),
         comment = '569',
     ),
-    longDesc = 
+    longDesc =
 u"""
 569
 """,
@@ -1720,7 +1720,7 @@ entry(
         T0 = (1, 'K'),
         comment = '570',
     ),
-    longDesc = 
+    longDesc =
 u"""
 570
 """,
@@ -1737,7 +1737,7 @@ entry(
         T0 = (1, 'K'),
         comment = '571',
     ),
-    longDesc = 
+    longDesc =
 u"""
 571
 """,
@@ -1754,7 +1754,7 @@ entry(
         T0 = (1, 'K'),
         comment = '572',
     ),
-    longDesc = 
+    longDesc =
 u"""
 572
 """,
@@ -1771,7 +1771,7 @@ entry(
         T0 = (1, 'K'),
         comment = '573',
     ),
-    longDesc = 
+    longDesc =
 u"""
 573
 """,
@@ -1788,7 +1788,7 @@ entry(
         T0 = (1, 'K'),
         comment = '574',
     ),
-    longDesc = 
+    longDesc =
 u"""
 574
 """,
@@ -1805,7 +1805,7 @@ entry(
         T0 = (1, 'K'),
         comment = '575',
     ),
-    longDesc = 
+    longDesc =
 u"""
 575
 """,
@@ -1822,7 +1822,7 @@ entry(
         T0 = (1, 'K'),
         comment = '576',
     ),
-    longDesc = 
+    longDesc =
 u"""
 576
 """,
@@ -1839,7 +1839,7 @@ entry(
         T0 = (1, 'K'),
         comment = '577',
     ),
-    longDesc = 
+    longDesc =
 u"""
 577
 """,
@@ -1856,7 +1856,7 @@ entry(
         T0 = (1, 'K'),
         comment = '578',
     ),
-    longDesc = 
+    longDesc =
 u"""
 578
 """,
@@ -1873,7 +1873,7 @@ entry(
         T0 = (1, 'K'),
         comment = '579',
     ),
-    longDesc = 
+    longDesc =
 u"""
 579
 """,
@@ -1890,7 +1890,7 @@ entry(
         T0 = (1, 'K'),
         comment = '580',
     ),
-    longDesc = 
+    longDesc =
 u"""
 580
 """,
@@ -1907,7 +1907,7 @@ entry(
         T0 = (1, 'K'),
         comment = '581',
     ),
-    longDesc = 
+    longDesc =
 u"""
 581
 """,
@@ -1925,7 +1925,7 @@ entry(
         T0 = (1, 'K'),
         comment = '582',
     ),
-    longDesc = 
+    longDesc =
 u"""
 582
 """,
@@ -1942,7 +1942,7 @@ entry(
         T0 = (1, 'K'),
         comment = '583',
     ),
-    longDesc = 
+    longDesc =
 u"""
 583
 """,
@@ -1959,7 +1959,7 @@ entry(
         T0 = (1, 'K'),
         comment = '584',
     ),
-    longDesc = 
+    longDesc =
 u"""
 584
 """,
@@ -1976,7 +1976,7 @@ entry(
         T0 = (1, 'K'),
         comment = '585',
     ),
-    longDesc = 
+    longDesc =
 u"""
 585
 """,
@@ -1993,7 +1993,7 @@ entry(
         T0 = (1, 'K'),
         comment = '586',
     ),
-    longDesc = 
+    longDesc =
 u"""
 586
 """,
@@ -2018,7 +2018,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5},
         comment = '587',
     ),
-    longDesc = 
+    longDesc =
 u"""
 587
 """,
@@ -2035,7 +2035,7 @@ entry(
         T0 = (1, 'K'),
         comment = '588\nRxn 588 commented out because k>Z for T<1400 K',
     ),
-    longDesc = 
+    longDesc =
 u"""
 588
 Rxn 588 commented out because k>Z for T<1400 K
@@ -2053,7 +2053,7 @@ entry(
         T0 = (1, 'K'),
         comment = '589',
     ),
-    longDesc = 
+    longDesc =
 u"""
 589
 """,
@@ -2070,7 +2070,7 @@ entry(
         T0 = (1, 'K'),
         comment = '590',
     ),
-    longDesc = 
+    longDesc =
 u"""
 590
 """,
@@ -2087,7 +2087,7 @@ entry(
         T0 = (1, 'K'),
         comment = '591',
     ),
-    longDesc = 
+    longDesc =
 u"""
 591
 """,
@@ -2103,7 +2103,7 @@ entry(
         efficiencies = {},
         comment = '592',
     ),
-    longDesc = 
+    longDesc =
 u"""
 592
 """,
@@ -2120,7 +2120,7 @@ entry(
         T0 = (1, 'K'),
         comment = '593',
     ),
-    longDesc = 
+    longDesc =
 u"""
 593
 """,
@@ -2137,7 +2137,7 @@ entry(
         T0 = (1, 'K'),
         comment = '594',
     ),
-    longDesc = 
+    longDesc =
 u"""
 594
 """,
@@ -2154,7 +2154,7 @@ entry(
         T0 = (1, 'K'),
         comment = '595',
     ),
-    longDesc = 
+    longDesc =
 u"""
 595
 """,
@@ -2171,7 +2171,7 @@ entry(
         T0 = (1, 'K'),
         comment = '596',
     ),
-    longDesc = 
+    longDesc =
 u"""
 596
 """,
@@ -2188,7 +2188,7 @@ entry(
         T0 = (1, 'K'),
         comment = '597',
     ),
-    longDesc = 
+    longDesc =
 u"""
 597
 """,
@@ -2205,7 +2205,7 @@ entry(
         T0 = (1, 'K'),
         comment = '598',
     ),
-    longDesc = 
+    longDesc =
 u"""
 598
 """,
@@ -2222,7 +2222,7 @@ entry(
         T0 = (1, 'K'),
         comment = '599',
     ),
-    longDesc = 
+    longDesc =
 u"""
 599
 """,
@@ -2239,7 +2239,7 @@ entry(
         T0 = (1, 'K'),
         comment = '600',
     ),
-    longDesc = 
+    longDesc =
 u"""
 600
 """,
@@ -2256,7 +2256,7 @@ entry(
         T0 = (1, 'K'),
         comment = '601',
     ),
-    longDesc = 
+    longDesc =
 u"""
 601
 """,
@@ -2273,7 +2273,7 @@ entry(
         T0 = (1, 'K'),
         comment = '602',
     ),
-    longDesc = 
+    longDesc =
 u"""
 602
 """,
@@ -2290,7 +2290,7 @@ entry(
         T0 = (1, 'K'),
         comment = '603',
     ),
-    longDesc = 
+    longDesc =
 u"""
 603
 """,
@@ -2307,7 +2307,7 @@ entry(
         T0 = (1, 'K'),
         comment = '604',
     ),
-    longDesc = 
+    longDesc =
 u"""
 604
 """,
@@ -2324,7 +2324,7 @@ entry(
         T0 = (1, 'K'),
         comment = '605',
     ),
-    longDesc = 
+    longDesc =
 u"""
 605
 """,
@@ -2341,7 +2341,7 @@ entry(
         T0 = (1, 'K'),
         comment = '606',
     ),
-    longDesc = 
+    longDesc =
 u"""
 606
 """,
@@ -2358,7 +2358,7 @@ entry(
         T0 = (1, 'K'),
         comment = '607',
     ),
-    longDesc = 
+    longDesc =
 u"""
 607
 """,
@@ -2375,7 +2375,7 @@ entry(
         T0 = (1, 'K'),
         comment = '608',
     ),
-    longDesc = 
+    longDesc =
 u"""
 608
 """,
@@ -2392,7 +2392,7 @@ entry(
         T0 = (1, 'K'),
         comment = '609',
     ),
-    longDesc = 
+    longDesc =
 u"""
 609
 """,
@@ -2409,7 +2409,7 @@ entry(
         T0 = (1, 'K'),
         comment = '610',
     ),
-    longDesc = 
+    longDesc =
 u"""
 610
 """,
@@ -2426,7 +2426,7 @@ entry(
         T0 = (1, 'K'),
         comment = '611',
     ),
-    longDesc = 
+    longDesc =
 u"""
 611
 """,
@@ -2443,7 +2443,7 @@ entry(
         T0 = (1, 'K'),
         comment = '612',
     ),
-    longDesc = 
+    longDesc =
 u"""
 612
 """,
@@ -2460,7 +2460,7 @@ entry(
         T0 = (1, 'K'),
         comment = '613',
     ),
-    longDesc = 
+    longDesc =
 u"""
 613
 """,
@@ -2477,7 +2477,7 @@ entry(
         T0 = (1, 'K'),
         comment = '614',
     ),
-    longDesc = 
+    longDesc =
 u"""
 614
 """,
@@ -2495,7 +2495,7 @@ entry(
         T0 = (1, 'K'),
         comment = '615',
     ),
-    longDesc = 
+    longDesc =
 u"""
 615
 """,
@@ -2512,7 +2512,7 @@ entry(
         T0 = (1, 'K'),
         comment = '616',
     ),
-    longDesc = 
+    longDesc =
 u"""
 616
 """,
@@ -2529,7 +2529,7 @@ entry(
         T0 = (1, 'K'),
         comment = '617',
     ),
-    longDesc = 
+    longDesc =
 u"""
 617
 """,
@@ -2547,7 +2547,7 @@ entry(
         T0 = (1, 'K'),
         comment = '618',
     ),
-    longDesc = 
+    longDesc =
 u"""
 618
 """,
@@ -2565,7 +2565,7 @@ entry(
         T0 = (1, 'K'),
         comment = '619',
     ),
-    longDesc = 
+    longDesc =
 u"""
 619
 """,
@@ -2583,7 +2583,7 @@ entry(
         T0 = (1, 'K'),
         comment = '620',
     ),
-    longDesc = 
+    longDesc =
 u"""
 620
 """,
@@ -2600,7 +2600,7 @@ entry(
         T0 = (1, 'K'),
         comment = '621',
     ),
-    longDesc = 
+    longDesc =
 u"""
 621
 """,
@@ -2618,7 +2618,7 @@ entry(
         T0 = (1, 'K'),
         comment = '622',
     ),
-    longDesc = 
+    longDesc =
 u"""
 622
 """,
@@ -2636,7 +2636,7 @@ entry(
         T0 = (1, 'K'),
         comment = '623',
     ),
-    longDesc = 
+    longDesc =
 u"""
 623
 """,
@@ -2653,7 +2653,7 @@ entry(
         T0 = (1, 'K'),
         comment = '624',
     ),
-    longDesc = 
+    longDesc =
 u"""
 624
 """,
@@ -2670,7 +2670,7 @@ entry(
         T0 = (1, 'K'),
         comment = '625',
     ),
-    longDesc = 
+    longDesc =
 u"""
 625
 """,
@@ -2687,7 +2687,7 @@ entry(
         T0 = (1, 'K'),
         comment = '626',
     ),
-    longDesc = 
+    longDesc =
 u"""
 626
 """,
@@ -2704,7 +2704,7 @@ entry(
         T0 = (1, 'K'),
         comment = '627',
     ),
-    longDesc = 
+    longDesc =
 u"""
 627
 """,
@@ -2721,7 +2721,7 @@ entry(
         T0 = (1, 'K'),
         comment = '628',
     ),
-    longDesc = 
+    longDesc =
 u"""
 628
 """,
@@ -2738,7 +2738,7 @@ entry(
         T0 = (1, 'K'),
         comment = '629',
     ),
-    longDesc = 
+    longDesc =
 u"""
 629
 """,
@@ -2755,7 +2755,7 @@ entry(
         T0 = (1, 'K'),
         comment = '630',
     ),
-    longDesc = 
+    longDesc =
 u"""
 630
 """,
@@ -2773,7 +2773,7 @@ entry(
         T0 = (1, 'K'),
         comment = '631',
     ),
-    longDesc = 
+    longDesc =
 u"""
 631
 """,
@@ -2791,7 +2791,7 @@ entry(
         T0 = (1, 'K'),
         comment = '632',
     ),
-    longDesc = 
+    longDesc =
 u"""
 632
 """,
@@ -2808,7 +2808,7 @@ entry(
         T0 = (1, 'K'),
         comment = '633',
     ),
-    longDesc = 
+    longDesc =
 u"""
 633
 """,
@@ -2825,7 +2825,7 @@ entry(
         T0 = (1, 'K'),
         comment = '634',
     ),
-    longDesc = 
+    longDesc =
 u"""
 634
 """,
@@ -2842,7 +2842,7 @@ entry(
         T0 = (1, 'K'),
         comment = '635',
     ),
-    longDesc = 
+    longDesc =
 u"""
 635
 """,
@@ -2860,7 +2860,7 @@ entry(
         T0 = (1, 'K'),
         comment = '636',
     ),
-    longDesc = 
+    longDesc =
 u"""
 636
 """,
@@ -2877,7 +2877,7 @@ entry(
         T0 = (1, 'K'),
         comment = '637',
     ),
-    longDesc = 
+    longDesc =
 u"""
 637
 """,
@@ -2894,7 +2894,7 @@ entry(
         T0 = (1, 'K'),
         comment = '638',
     ),
-    longDesc = 
+    longDesc =
 u"""
 638
 """,
@@ -2911,7 +2911,7 @@ entry(
         T0 = (1, 'K'),
         comment = '639',
     ),
-    longDesc = 
+    longDesc =
 u"""
 639
 """,
@@ -2928,7 +2928,7 @@ entry(
         T0 = (1, 'K'),
         comment = '640\nRxn 640 commented out because k>Z for T>2000 K',
     ),
-    longDesc = 
+    longDesc =
 u"""
 640
 Rxn 640 commented out because k>Z for T>2000 K
@@ -2947,7 +2947,7 @@ entry(
         T0 = (1, 'K'),
         comment = '641',
     ),
-    longDesc = 
+    longDesc =
 u"""
 641
 """,
@@ -2964,7 +2964,7 @@ entry(
         T0 = (1, 'K'),
         comment = '642',
     ),
-    longDesc = 
+    longDesc =
 u"""
 642
 """,
@@ -2981,7 +2981,7 @@ entry(
         T0 = (1, 'K'),
         comment = '643',
     ),
-    longDesc = 
+    longDesc =
 u"""
 643
 """,
@@ -2999,7 +2999,7 @@ entry(
         T0 = (1, 'K'),
         comment = '644',
     ),
-    longDesc = 
+    longDesc =
 u"""
 644
 """,
@@ -3016,7 +3016,7 @@ entry(
         T0 = (1, 'K'),
         comment = '645',
     ),
-    longDesc = 
+    longDesc =
 u"""
 645
 """,
@@ -3033,7 +3033,7 @@ entry(
         T0 = (1, 'K'),
         comment = '646',
     ),
-    longDesc = 
+    longDesc =
 u"""
 646
 """,
@@ -3050,7 +3050,7 @@ entry(
         T0 = (1, 'K'),
         comment = '647',
     ),
-    longDesc = 
+    longDesc =
 u"""
 647
 """,
@@ -3067,7 +3067,7 @@ entry(
         T0 = (1, 'K'),
         comment = '648',
     ),
-    longDesc = 
+    longDesc =
 u"""
 648
 """,
@@ -3084,7 +3084,7 @@ entry(
         T0 = (1, 'K'),
         comment = '649',
     ),
-    longDesc = 
+    longDesc =
 u"""
 649
 """,
@@ -3102,7 +3102,7 @@ entry(
         T0 = (1, 'K'),
         comment = '650',
     ),
-    longDesc = 
+    longDesc =
 u"""
 650
 """,
@@ -3119,7 +3119,7 @@ entry(
         T0 = (1, 'K'),
         comment = '651',
     ),
-    longDesc = 
+    longDesc =
 u"""
 651
 """,
@@ -3136,7 +3136,7 @@ entry(
         T0 = (1, 'K'),
         comment = '652',
     ),
-    longDesc = 
+    longDesc =
 u"""
 652
 """,
@@ -3153,7 +3153,7 @@ entry(
         T0 = (1, 'K'),
         comment = '653',
     ),
-    longDesc = 
+    longDesc =
 u"""
 653
 """,
@@ -3171,7 +3171,7 @@ entry(
         T0 = (1, 'K'),
         comment = '654',
     ),
-    longDesc = 
+    longDesc =
 u"""
 654
 """,
@@ -3189,7 +3189,7 @@ entry(
         T0 = (1, 'K'),
         comment = '655',
     ),
-    longDesc = 
+    longDesc =
 u"""
 655
 """,
@@ -3206,7 +3206,7 @@ entry(
         T0 = (1, 'K'),
         comment = '656',
     ),
-    longDesc = 
+    longDesc =
 u"""
 656
 """,
@@ -3224,7 +3224,7 @@ entry(
         T0 = (1, 'K'),
         comment = '657',
     ),
-    longDesc = 
+    longDesc =
 u"""
 657
 """,
@@ -3241,7 +3241,7 @@ entry(
         T0 = (1, 'K'),
         comment = '658',
     ),
-    longDesc = 
+    longDesc =
 u"""
 658
 """,
@@ -3258,7 +3258,7 @@ entry(
         T0 = (1, 'K'),
         comment = '659',
     ),
-    longDesc = 
+    longDesc =
 u"""
 659
 """,
@@ -3275,7 +3275,7 @@ entry(
         T0 = (1, 'K'),
         comment = '660',
     ),
-    longDesc = 
+    longDesc =
 u"""
 660
 """,
@@ -3292,7 +3292,7 @@ entry(
         T0 = (1, 'K'),
         comment = '661',
     ),
-    longDesc = 
+    longDesc =
 u"""
 661
 """,
@@ -3310,7 +3310,7 @@ entry(
         T0 = (1, 'K'),
         comment = '662',
     ),
-    longDesc = 
+    longDesc =
 u"""
 662
 """,
@@ -3327,7 +3327,7 @@ entry(
         T0 = (1, 'K'),
         comment = '663',
     ),
-    longDesc = 
+    longDesc =
 u"""
 663
 """,
@@ -3344,7 +3344,7 @@ entry(
         T0 = (1, 'K'),
         comment = '664',
     ),
-    longDesc = 
+    longDesc =
 u"""
 664
 """,
@@ -3361,7 +3361,7 @@ entry(
         T0 = (1, 'K'),
         comment = '665',
     ),
-    longDesc = 
+    longDesc =
 u"""
 665
 """,
@@ -3378,7 +3378,7 @@ entry(
         T0 = (1, 'K'),
         comment = '666',
     ),
-    longDesc = 
+    longDesc =
 u"""
 666
 """,
@@ -3395,7 +3395,7 @@ entry(
         T0 = (1, 'K'),
         comment = '667',
     ),
-    longDesc = 
+    longDesc =
 u"""
 667
 """,
@@ -3412,7 +3412,7 @@ entry(
         T0 = (1, 'K'),
         comment = '668',
     ),
-    longDesc = 
+    longDesc =
 u"""
 668
 """,
@@ -3429,7 +3429,7 @@ entry(
         T0 = (1, 'K'),
         comment = '669',
     ),
-    longDesc = 
+    longDesc =
 u"""
 669
 """,
@@ -3446,7 +3446,7 @@ entry(
         T0 = (1, 'K'),
         comment = '670',
     ),
-    longDesc = 
+    longDesc =
 u"""
 670
 """,
@@ -3463,7 +3463,7 @@ entry(
         T0 = (1, 'K'),
         comment = '671',
     ),
-    longDesc = 
+    longDesc =
 u"""
 671
 """,
@@ -3480,7 +3480,7 @@ entry(
         T0 = (1, 'K'),
         comment = '672',
     ),
-    longDesc = 
+    longDesc =
 u"""
 672
 """,
@@ -3497,7 +3497,7 @@ entry(
         T0 = (1, 'K'),
         comment = '673',
     ),
-    longDesc = 
+    longDesc =
 u"""
 673
 """,
@@ -3514,7 +3514,7 @@ entry(
         T0 = (1, 'K'),
         comment = '674',
     ),
-    longDesc = 
+    longDesc =
 u"""
 674
 """,
@@ -3531,7 +3531,7 @@ entry(
         T0 = (1, 'K'),
         comment = '675',
     ),
-    longDesc = 
+    longDesc =
 u"""
 675
 """,
@@ -3548,7 +3548,7 @@ entry(
         T0 = (1, 'K'),
         comment = '676',
     ),
-    longDesc = 
+    longDesc =
 u"""
 676
 """,
@@ -3565,7 +3565,7 @@ entry(
         T0 = (1, 'K'),
         comment = '677',
     ),
-    longDesc = 
+    longDesc =
 u"""
 677
 """,
@@ -3582,7 +3582,7 @@ entry(
         T0 = (1, 'K'),
         comment = '678',
     ),
-    longDesc = 
+    longDesc =
 u"""
 678
 """,
@@ -3599,7 +3599,7 @@ entry(
         T0 = (1, 'K'),
         comment = '679',
     ),
-    longDesc = 
+    longDesc =
 u"""
 679
 """,
@@ -3616,7 +3616,7 @@ entry(
         T0 = (1, 'K'),
         comment = '680',
     ),
-    longDesc = 
+    longDesc =
 u"""
 680
 """,
@@ -3634,7 +3634,7 @@ entry(
         T0 = (1, 'K'),
         comment = '681',
     ),
-    longDesc = 
+    longDesc =
 u"""
 681
 """,
@@ -3652,7 +3652,7 @@ entry(
         T0 = (1, 'K'),
         comment = '682',
     ),
-    longDesc = 
+    longDesc =
 u"""
 682
 """,
@@ -3669,7 +3669,7 @@ entry(
         T0 = (1, 'K'),
         comment = '683',
     ),
-    longDesc = 
+    longDesc =
 u"""
 683
 """,
@@ -3686,7 +3686,7 @@ entry(
         T0 = (1, 'K'),
         comment = '684',
     ),
-    longDesc = 
+    longDesc =
 u"""
 684
 """,
@@ -3703,7 +3703,7 @@ entry(
         T0 = (1, 'K'),
         comment = '685',
     ),
-    longDesc = 
+    longDesc =
 u"""
 685
 """,
@@ -3720,7 +3720,7 @@ entry(
         T0 = (1, 'K'),
         comment = '686',
     ),
-    longDesc = 
+    longDesc =
 u"""
 686
 """,
@@ -3745,7 +3745,7 @@ entry(
         efficiencies = {'C': 3, 'O=C=O': 1.5, 'CC': 3, 'O': 6.5, '[O][O]': 0.4, '[C-]#[O+]': 0.75, '[Ar]': 0.2},
         comment = '687',
     ),
-    longDesc = 
+    longDesc =
 u"""
 687
 """,
@@ -3762,7 +3762,7 @@ entry(
         T0 = (1, 'K'),
         comment = '688',
     ),
-    longDesc = 
+    longDesc =
 u"""
 688
 """,
@@ -3779,7 +3779,7 @@ entry(
         T0 = (1, 'K'),
         comment = '689',
     ),
-    longDesc = 
+    longDesc =
 u"""
 689
 """,
@@ -3797,7 +3797,7 @@ entry(
         T0 = (1, 'K'),
         comment = '690',
     ),
-    longDesc = 
+    longDesc =
 u"""
 690
 """,
@@ -3814,7 +3814,7 @@ entry(
         T0 = (1, 'K'),
         comment = '691',
     ),
-    longDesc = 
+    longDesc =
 u"""
 691
 """,
@@ -3831,7 +3831,7 @@ entry(
         T0 = (1, 'K'),
         comment = '692',
     ),
-    longDesc = 
+    longDesc =
 u"""
 692
 """,
@@ -3848,7 +3848,7 @@ entry(
         T0 = (1, 'K'),
         comment = '693',
     ),
-    longDesc = 
+    longDesc =
 u"""
 693
 """,
@@ -3865,7 +3865,7 @@ entry(
         T0 = (1, 'K'),
         comment = '694',
     ),
-    longDesc = 
+    longDesc =
 u"""
 694
 """,
@@ -3882,7 +3882,7 @@ entry(
         T0 = (1, 'K'),
         comment = '695',
     ),
-    longDesc = 
+    longDesc =
 u"""
 695
 """,
@@ -3899,7 +3899,7 @@ entry(
         T0 = (1, 'K'),
         comment = '696',
     ),
-    longDesc = 
+    longDesc =
 u"""
 696
 """,
@@ -3916,7 +3916,7 @@ entry(
         T0 = (1, 'K'),
         comment = '697',
     ),
-    longDesc = 
+    longDesc =
 u"""
 697
 """,
@@ -3933,7 +3933,7 @@ entry(
         T0 = (1, 'K'),
         comment = '698',
     ),
-    longDesc = 
+    longDesc =
 u"""
 698
 """,
@@ -3950,7 +3950,7 @@ entry(
         T0 = (1, 'K'),
         comment = '699',
     ),
-    longDesc = 
+    longDesc =
 u"""
 699
 """,
@@ -3967,7 +3967,7 @@ entry(
         T0 = (1, 'K'),
         comment = '700',
     ),
-    longDesc = 
+    longDesc =
 u"""
 700
 """,
@@ -3985,7 +3985,7 @@ entry(
         T0 = (1, 'K'),
         comment = '701',
     ),
-    longDesc = 
+    longDesc =
 u"""
 701
 """,
@@ -4003,7 +4003,7 @@ entry(
         T0 = (1, 'K'),
         comment = '702',
     ),
-    longDesc = 
+    longDesc =
 u"""
 702
 """,
@@ -4020,7 +4020,7 @@ entry(
         T0 = (1, 'K'),
         comment = '703',
     ),
-    longDesc = 
+    longDesc =
 u"""
 703
 """,
@@ -4037,7 +4037,7 @@ entry(
         T0 = (1, 'K'),
         comment = '704',
     ),
-    longDesc = 
+    longDesc =
 u"""
 704
 """,
@@ -4055,7 +4055,7 @@ entry(
         T0 = (1, 'K'),
         comment = '705',
     ),
-    longDesc = 
+    longDesc =
 u"""
 705
 """,
@@ -4072,7 +4072,7 @@ entry(
         T0 = (1, 'K'),
         comment = '706',
     ),
-    longDesc = 
+    longDesc =
 u"""
 706
 """,
@@ -4089,7 +4089,7 @@ entry(
         T0 = (1, 'K'),
         comment = '707\nRxn 707 commented out because k>Z for T>2000 K',
     ),
-    longDesc = 
+    longDesc =
 u"""
 707
 Rxn 707 commented out because k>Z for T>2000 K
@@ -4108,7 +4108,7 @@ entry(
         T0 = (1, 'K'),
         comment = '708',
     ),
-    longDesc = 
+    longDesc =
 u"""
 708
 """,
@@ -4125,7 +4125,7 @@ entry(
         T0 = (1, 'K'),
         comment = '709',
     ),
-    longDesc = 
+    longDesc =
 u"""
 709
 """,
@@ -4142,7 +4142,7 @@ entry(
         T0 = (1, 'K'),
         comment = '710',
     ),
-    longDesc = 
+    longDesc =
 u"""
 710
 """,
@@ -4159,7 +4159,7 @@ entry(
         T0 = (1, 'K'),
         comment = '711',
     ),
-    longDesc = 
+    longDesc =
 u"""
 711
 """,
@@ -4176,7 +4176,7 @@ entry(
         T0 = (1, 'K'),
         comment = '712',
     ),
-    longDesc = 
+    longDesc =
 u"""
 712
 """,
@@ -4193,7 +4193,7 @@ entry(
         T0 = (1, 'K'),
         comment = '713',
     ),
-    longDesc = 
+    longDesc =
 u"""
 713
 """,
@@ -4211,7 +4211,7 @@ entry(
         T0 = (1, 'K'),
         comment = '714',
     ),
-    longDesc = 
+    longDesc =
 u"""
 714
 """,
@@ -4228,7 +4228,7 @@ entry(
         T0 = (1, 'K'),
         comment = '715',
     ),
-    longDesc = 
+    longDesc =
 u"""
 715
 """,
@@ -4245,7 +4245,7 @@ entry(
         T0 = (1, 'K'),
         comment = '716',
     ),
-    longDesc = 
+    longDesc =
 u"""
 716
 """,
@@ -4262,7 +4262,7 @@ entry(
         T0 = (1, 'K'),
         comment = '717',
     ),
-    longDesc = 
+    longDesc =
 u"""
 717
 """,
@@ -4279,7 +4279,7 @@ entry(
         T0 = (1, 'K'),
         comment = '718',
     ),
-    longDesc = 
+    longDesc =
 u"""
 718
 """,
@@ -4296,7 +4296,7 @@ entry(
         T0 = (1, 'K'),
         comment = '719',
     ),
-    longDesc = 
+    longDesc =
 u"""
 719
 """,
@@ -4313,7 +4313,7 @@ entry(
         T0 = (1, 'K'),
         comment = '720',
     ),
-    longDesc = 
+    longDesc =
 u"""
 720
 """,
@@ -4330,7 +4330,7 @@ entry(
         T0 = (1, 'K'),
         comment = '721',
     ),
-    longDesc = 
+    longDesc =
 u"""
 721
 """,
@@ -4347,7 +4347,7 @@ entry(
         T0 = (1, 'K'),
         comment = '722',
     ),
-    longDesc = 
+    longDesc =
 u"""
 722
 """,
@@ -4364,7 +4364,7 @@ entry(
         T0 = (1, 'K'),
         comment = '723',
     ),
-    longDesc = 
+    longDesc =
 u"""
 723
 """,
@@ -4381,7 +4381,7 @@ entry(
         T0 = (1, 'K'),
         comment = '724',
     ),
-    longDesc = 
+    longDesc =
 u"""
 724
 """,
@@ -4398,7 +4398,7 @@ entry(
         T0 = (1, 'K'),
         comment = '725',
     ),
-    longDesc = 
+    longDesc =
 u"""
 725
 """,
@@ -4415,7 +4415,7 @@ entry(
         T0 = (1, 'K'),
         comment = '726',
     ),
-    longDesc = 
+    longDesc =
 u"""
 726
 """,
@@ -4432,7 +4432,7 @@ entry(
         T0 = (1, 'K'),
         comment = '727',
     ),
-    longDesc = 
+    longDesc =
 u"""
 727
 """,
@@ -4449,7 +4449,7 @@ entry(
         T0 = (1, 'K'),
         comment = '728',
     ),
-    longDesc = 
+    longDesc =
 u"""
 728
 """,
@@ -4467,7 +4467,7 @@ entry(
         T0 = (1, 'K'),
         comment = '729',
     ),
-    longDesc = 
+    longDesc =
 u"""
 729
 """,
@@ -4484,7 +4484,7 @@ entry(
         T0 = (1, 'K'),
         comment = '730',
     ),
-    longDesc = 
+    longDesc =
 u"""
 730
 """,
@@ -4502,7 +4502,7 @@ entry(
         T0 = (1, 'K'),
         comment = '731',
     ),
-    longDesc = 
+    longDesc =
 u"""
 731
 """,
@@ -4519,7 +4519,7 @@ entry(
         T0 = (1, 'K'),
         comment = '732',
     ),
-    longDesc = 
+    longDesc =
 u"""
 732
 """,
@@ -4537,7 +4537,7 @@ entry(
         T0 = (1, 'K'),
         comment = '733',
     ),
-    longDesc = 
+    longDesc =
 u"""
 733
 """,
@@ -4555,7 +4555,7 @@ entry(
         T0 = (1, 'K'),
         comment = '734',
     ),
-    longDesc = 
+    longDesc =
 u"""
 734
 """,
@@ -4573,7 +4573,7 @@ entry(
         T0 = (1, 'K'),
         comment = '735',
     ),
-    longDesc = 
+    longDesc =
 u"""
 735
 """,
@@ -4591,7 +4591,7 @@ entry(
         T0 = (1, 'K'),
         comment = '736',
     ),
-    longDesc = 
+    longDesc =
 u"""
 736
 """,
@@ -4608,7 +4608,7 @@ entry(
         T0 = (1, 'K'),
         comment = '737',
     ),
-    longDesc = 
+    longDesc =
 u"""
 737
 """,
@@ -4625,7 +4625,7 @@ entry(
         T0 = (1, 'K'),
         comment = '738',
     ),
-    longDesc = 
+    longDesc =
 u"""
 738
 """,
@@ -4642,7 +4642,7 @@ entry(
         T0 = (1, 'K'),
         comment = '739',
     ),
-    longDesc = 
+    longDesc =
 u"""
 739
 """,
@@ -4660,7 +4660,7 @@ entry(
         T0 = (1, 'K'),
         comment = '740',
     ),
-    longDesc = 
+    longDesc =
 u"""
 740
 """,
@@ -4677,7 +4677,7 @@ entry(
         T0 = (1, 'K'),
         comment = '741',
     ),
-    longDesc = 
+    longDesc =
 u"""
 741
 """,
@@ -4694,7 +4694,7 @@ entry(
         T0 = (1, 'K'),
         comment = '742',
     ),
-    longDesc = 
+    longDesc =
 u"""
 742
 """,
@@ -4712,7 +4712,7 @@ entry(
         T0 = (1, 'K'),
         comment = '743',
     ),
-    longDesc = 
+    longDesc =
 u"""
 743
 """,
@@ -4729,7 +4729,7 @@ entry(
         T0 = (1, 'K'),
         comment = '744',
     ),
-    longDesc = 
+    longDesc =
 u"""
 744
 """,
@@ -4746,7 +4746,7 @@ entry(
         T0 = (1, 'K'),
         comment = '745',
     ),
-    longDesc = 
+    longDesc =
 u"""
 745
 """,
@@ -4763,7 +4763,7 @@ entry(
         T0 = (1, 'K'),
         comment = '746',
     ),
-    longDesc = 
+    longDesc =
 u"""
 746
 """,
@@ -4780,7 +4780,7 @@ entry(
         T0 = (1, 'K'),
         comment = '747',
     ),
-    longDesc = 
+    longDesc =
 u"""
 747
 """,
@@ -4797,7 +4797,7 @@ entry(
         T0 = (1, 'K'),
         comment = '748',
     ),
-    longDesc = 
+    longDesc =
 u"""
 748
 """,
@@ -4814,7 +4814,7 @@ entry(
         T0 = (1, 'K'),
         comment = '749',
     ),
-    longDesc = 
+    longDesc =
 u"""
 749
 """,
@@ -4831,7 +4831,7 @@ entry(
         T0 = (1, 'K'),
         comment = '750',
     ),
-    longDesc = 
+    longDesc =
 u"""
 750
 """,
@@ -4848,7 +4848,7 @@ entry(
         T0 = (1, 'K'),
         comment = '751',
     ),
-    longDesc = 
+    longDesc =
 u"""
 751
 """,
@@ -4865,7 +4865,7 @@ entry(
         T0 = (1, 'K'),
         comment = '752',
     ),
-    longDesc = 
+    longDesc =
 u"""
 752
 """,
@@ -4882,7 +4882,7 @@ entry(
         T0 = (1, 'K'),
         comment = '753',
     ),
-    longDesc = 
+    longDesc =
 u"""
 753
 """,
@@ -4899,7 +4899,7 @@ entry(
         T0 = (1, 'K'),
         comment = '754',
     ),
-    longDesc = 
+    longDesc =
 u"""
 754
 """,
@@ -4916,7 +4916,7 @@ entry(
         T0 = (1, 'K'),
         comment = '755',
     ),
-    longDesc = 
+    longDesc =
 u"""
 755
 """,
@@ -4933,7 +4933,7 @@ entry(
         T0 = (1, 'K'),
         comment = '756',
     ),
-    longDesc = 
+    longDesc =
 u"""
 756
 """,
@@ -4950,7 +4950,7 @@ entry(
         T0 = (1, 'K'),
         comment = '757',
     ),
-    longDesc = 
+    longDesc =
 u"""
 757
 """,
@@ -4967,7 +4967,7 @@ entry(
         T0 = (1, 'K'),
         comment = '758',
     ),
-    longDesc = 
+    longDesc =
 u"""
 758
 """,
@@ -4984,7 +4984,7 @@ entry(
         T0 = (1, 'K'),
         comment = '759',
     ),
-    longDesc = 
+    longDesc =
 u"""
 759
 """,
@@ -5001,7 +5001,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760
 """,
@@ -5018,7 +5018,7 @@ entry(
         T0 = (1, 'K'),
         comment = '761',
     ),
-    longDesc = 
+    longDesc =
 u"""
 761
 """,
@@ -5035,7 +5035,7 @@ entry(
         T0 = (1, 'K'),
         comment = '762',
     ),
-    longDesc = 
+    longDesc =
 u"""
 762
 """,
@@ -5053,7 +5053,7 @@ entry(
         T0 = (1, 'K'),
         comment = '763',
     ),
-    longDesc = 
+    longDesc =
 u"""
 763
 """,
@@ -5071,7 +5071,7 @@ entry(
         T0 = (1, 'K'),
         comment = '764',
     ),
-    longDesc = 
+    longDesc =
 u"""
 764
 """,
@@ -5089,7 +5089,7 @@ entry(
         T0 = (1, 'K'),
         comment = '765',
     ),
-    longDesc = 
+    longDesc =
 u"""
 765
 """,
@@ -5107,7 +5107,7 @@ entry(
         T0 = (1, 'K'),
         comment = '766',
     ),
-    longDesc = 
+    longDesc =
 u"""
 766
 """,
@@ -5125,7 +5125,7 @@ entry(
         T0 = (1, 'K'),
         comment = '767',
     ),
-    longDesc = 
+    longDesc =
 u"""
 767
 """,
@@ -5143,7 +5143,7 @@ entry(
         T0 = (1, 'K'),
         comment = '768',
     ),
-    longDesc = 
+    longDesc =
 u"""
 768
 """,
@@ -5160,7 +5160,7 @@ entry(
         T0 = (1, 'K'),
         comment = '769',
     ),
-    longDesc = 
+    longDesc =
 u"""
 769
 """,
@@ -5177,7 +5177,7 @@ entry(
         T0 = (1, 'K'),
         comment = '770',
     ),
-    longDesc = 
+    longDesc =
 u"""
 770
 """,
@@ -5195,7 +5195,7 @@ entry(
         T0 = (1, 'K'),
         comment = '771',
     ),
-    longDesc = 
+    longDesc =
 u"""
 771
 """,
@@ -5212,7 +5212,7 @@ entry(
         T0 = (1, 'K'),
         comment = '772',
     ),
-    longDesc = 
+    longDesc =
 u"""
 772
 """,
@@ -5229,7 +5229,7 @@ entry(
         T0 = (1, 'K'),
         comment = '773',
     ),
-    longDesc = 
+    longDesc =
 u"""
 773
 """,
@@ -5246,7 +5246,7 @@ entry(
         T0 = (1, 'K'),
         comment = '774',
     ),
-    longDesc = 
+    longDesc =
 u"""
 774
 """,
@@ -5263,7 +5263,7 @@ entry(
         T0 = (1, 'K'),
         comment = '775',
     ),
-    longDesc = 
+    longDesc =
 u"""
 775
 """,
@@ -5281,7 +5281,7 @@ entry(
         T0 = (1, 'K'),
         comment = '776',
     ),
-    longDesc = 
+    longDesc =
 u"""
 776
 """,
@@ -5299,7 +5299,7 @@ entry(
         T0 = (1, 'K'),
         comment = '777',
     ),
-    longDesc = 
+    longDesc =
 u"""
 777
 """,
@@ -5317,7 +5317,7 @@ entry(
         T0 = (1, 'K'),
         comment = '778',
     ),
-    longDesc = 
+    longDesc =
 u"""
 778
 """,
@@ -5334,7 +5334,7 @@ entry(
         T0 = (1, 'K'),
         comment = '779',
     ),
-    longDesc = 
+    longDesc =
 u"""
 779
 """,
@@ -5351,7 +5351,7 @@ entry(
         T0 = (1, 'K'),
         comment = '780',
     ),
-    longDesc = 
+    longDesc =
 u"""
 780
 """,
@@ -5368,7 +5368,7 @@ entry(
         T0 = (1, 'K'),
         comment = '781',
     ),
-    longDesc = 
+    longDesc =
 u"""
 781
 """,
@@ -5386,7 +5386,7 @@ entry(
         T0 = (1, 'K'),
         comment = '782',
     ),
-    longDesc = 
+    longDesc =
 u"""
 782
 """,
@@ -5403,7 +5403,7 @@ entry(
         T0 = (1, 'K'),
         comment = '783',
     ),
-    longDesc = 
+    longDesc =
 u"""
 783
 """,
@@ -5421,7 +5421,7 @@ entry(
         T0 = (1, 'K'),
         comment = '784',
     ),
-    longDesc = 
+    longDesc =
 u"""
 784
 """,
@@ -5438,7 +5438,7 @@ entry(
         T0 = (1, 'K'),
         comment = '785',
     ),
-    longDesc = 
+    longDesc =
 u"""
 785
 """,
@@ -5455,7 +5455,7 @@ entry(
         T0 = (1, 'K'),
         comment = '786',
     ),
-    longDesc = 
+    longDesc =
 u"""
 786
 """,
@@ -5472,7 +5472,7 @@ entry(
         T0 = (1, 'K'),
         comment = '787',
     ),
-    longDesc = 
+    longDesc =
 u"""
 787
 """,
@@ -5489,7 +5489,7 @@ entry(
         T0 = (1, 'K'),
         comment = '788',
     ),
-    longDesc = 
+    longDesc =
 u"""
 788
 """,
@@ -5506,7 +5506,7 @@ entry(
         T0 = (1, 'K'),
         comment = '789',
     ),
-    longDesc = 
+    longDesc =
 u"""
 789
 """,
@@ -5523,7 +5523,7 @@ entry(
         T0 = (1, 'K'),
         comment = '790',
     ),
-    longDesc = 
+    longDesc =
 u"""
 790
 """,
@@ -5541,7 +5541,7 @@ entry(
         T0 = (1, 'K'),
         comment = '791',
     ),
-    longDesc = 
+    longDesc =
 u"""
 791
 """,
@@ -5559,7 +5559,7 @@ entry(
         T0 = (1, 'K'),
         comment = '792',
     ),
-    longDesc = 
+    longDesc =
 u"""
 792
 """,
@@ -5576,7 +5576,7 @@ entry(
         T0 = (1, 'K'),
         comment = '793',
     ),
-    longDesc = 
+    longDesc =
 u"""
 793
 """,
@@ -5594,7 +5594,7 @@ entry(
         T0 = (1, 'K'),
         comment = '794',
     ),
-    longDesc = 
+    longDesc =
 u"""
 794
 """,
@@ -5635,7 +5635,7 @@ entry(
         T0 = (1, 'K'),
         comment = '812',
     ),
-    longDesc = 
+    longDesc =
 u"""
 812
 """,
@@ -5652,7 +5652,7 @@ entry(
         T0 = (1, 'K'),
         comment = '813',
     ),
-    longDesc = 
+    longDesc =
 u"""
 813
 """,
@@ -5669,7 +5669,7 @@ entry(
         T0 = (1, 'K'),
         comment = '814',
     ),
-    longDesc = 
+    longDesc =
 u"""
 814
 """,
@@ -5686,7 +5686,7 @@ entry(
         T0 = (1, 'K'),
         comment = '815',
     ),
-    longDesc = 
+    longDesc =
 u"""
 815
 """,
@@ -5704,7 +5704,7 @@ entry(
         T0 = (1, 'K'),
         comment = '816\nC5H5+C5H6 = INDENE+CH3 9.630E+13 1.6300 29972.00\n817',
     ),
-    longDesc = 
+    longDesc =
 u"""
 816
 C5H5+C5H6 = INDENE+CH3 9.630E+13 1.6300 29972.00
@@ -5724,7 +5724,7 @@ entry(
         T0 = (1, 'K'),
         comment = '818',
     ),
-    longDesc = 
+    longDesc =
 u"""
 818
 """,
@@ -5742,7 +5742,7 @@ entry(
         T0 = (1, 'K'),
         comment = '819',
     ),
-    longDesc = 
+    longDesc =
 u"""
 819
 """,
@@ -5759,7 +5759,7 @@ entry(
         T0 = (1, 'K'),
         comment = '820',
     ),
-    longDesc = 
+    longDesc =
 u"""
 820
 """,
@@ -5776,7 +5776,7 @@ entry(
         T0 = (1, 'K'),
         comment = '821',
     ),
-    longDesc = 
+    longDesc =
 u"""
 821
 """,
@@ -5793,7 +5793,7 @@ entry(
         T0 = (1, 'K'),
         comment = '822',
     ),
-    longDesc = 
+    longDesc =
 u"""
 822
 """,
@@ -5811,7 +5811,7 @@ entry(
         T0 = (1, 'K'),
         comment = '823',
     ),
-    longDesc = 
+    longDesc =
 u"""
 823
 """,
@@ -5829,7 +5829,7 @@ entry(
         T0 = (1, 'K'),
         comment = '824',
     ),
-    longDesc = 
+    longDesc =
 u"""
 824
 """,
@@ -5846,7 +5846,7 @@ entry(
         T0 = (1, 'K'),
         comment = '825',
     ),
-    longDesc = 
+    longDesc =
 u"""
 825
 """,
@@ -5863,7 +5863,7 @@ entry(
         T0 = (1, 'K'),
         comment = '826',
     ),
-    longDesc = 
+    longDesc =
 u"""
 826
 """,
@@ -5880,7 +5880,7 @@ entry(
         T0 = (1, 'K'),
         comment = '827',
     ),
-    longDesc = 
+    longDesc =
 u"""
 827
 """,
@@ -5897,7 +5897,7 @@ entry(
         T0 = (1, 'K'),
         comment = '828',
     ),
-    longDesc = 
+    longDesc =
 u"""
 828
 """,
@@ -5915,7 +5915,7 @@ entry(
         T0 = (1, 'K'),
         comment = '829',
     ),
-    longDesc = 
+    longDesc =
 u"""
 829
 """,
@@ -5932,7 +5932,7 @@ entry(
         T0 = (1, 'K'),
         comment = '830',
     ),
-    longDesc = 
+    longDesc =
 u"""
 830
 """,
@@ -5949,7 +5949,7 @@ entry(
         T0 = (1, 'K'),
         comment = '831',
     ),
-    longDesc = 
+    longDesc =
 u"""
 831
 """,

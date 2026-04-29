@@ -63,12 +63,12 @@ entry(
 1 Li u0 p0 c+1
 """,
     thermo = ThermoData(
-        Tdata=([300,400,500,600,800,1000,1500],'K'), 
-        Cpdata=([24.67,27.61,27.61,27.61,27.61,27.61,27.61],'J/(mol*K)'), 
+        Tdata=([300,400,500,600,800,1000,1500],'K'),
+        Cpdata=([24.67,27.61,27.61,27.61,27.61,27.61,27.61],'J/(mol*K)'),
         H298=(0,'kcal/mol'), S298=(29.12, 'J/(mol*K)','+|-',0.2),
         comment = 'Li(s)'),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Li+ + e- = Li(s) @ -3.04 V vs SHE
 S, Cp300, Cp400 for Li(s) from NIST

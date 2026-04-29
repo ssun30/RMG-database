@@ -14,7 +14,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 101 training reactions at node Root
 Total Standard Deviation in ln(k): 11.967736083166281""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 101 training reactions at node Root
 Total Standard Deviation in ln(k): 11.967736083166281
@@ -29,7 +29,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 47 training reactions at node Root_3R!H->C
 Total Standard Deviation in ln(k): 5.558621017600344""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 47 training reactions at node Root_3R!H->C
 Total Standard Deviation in ln(k): 5.558621017600344
@@ -44,7 +44,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 54 training reactions at node Root_N-3R!H->C
 Total Standard Deviation in ln(k): 6.62446640761746""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 54 training reactions at node Root_N-3R!H->C
 Total Standard Deviation in ln(k): 6.62446640761746
@@ -59,7 +59,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 13 training reactions at node Root_3R!H->C_3C-inRing
 Total Standard Deviation in ln(k): 3.6185346711093223""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 13 training reactions at node Root_3R!H->C_3C-inRing
 Total Standard Deviation in ln(k): 3.6185346711093223
@@ -74,7 +74,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 34 training reactions at node Root_3R!H->C_N-3C-inRing
 Total Standard Deviation in ln(k): 6.170636535761763""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 34 training reactions at node Root_3R!H->C_N-3C-inRing
 Total Standard Deviation in ln(k): 6.170636535761763
@@ -89,7 +89,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 23 training reactions at node Root_N-3R!H->C_1R!H-inRing
 Total Standard Deviation in ln(k): 3.3351371525331466""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 23 training reactions at node Root_N-3R!H->C_1R!H-inRing
 Total Standard Deviation in ln(k): 3.3351371525331466
@@ -104,7 +104,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 31 training reactions at node Root_N-3R!H->C_N-1R!H-inRing
 Total Standard Deviation in ln(k): 2.5302740681460736""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 31 training reactions at node Root_N-3R!H->C_N-1R!H-inRing
 Total Standard Deviation in ln(k): 2.5302740681460736
@@ -119,7 +119,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 4 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R
 Total Standard Deviation in ln(k): 5.067826053991267""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 4 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R
 Total Standard Deviation in ln(k): 5.067826053991267
@@ -134,7 +134,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_5R!H->O
 Total Standard Deviation in ln(k): 0.38251418372418733""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_5R!H->O
 Total Standard Deviation in ln(k): 0.38251418372418733
@@ -149,7 +149,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 7 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O
 Total Standard Deviation in ln(k): 1.4573993994053007""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 7 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O
 Total Standard Deviation in ln(k): 1.4573993994053007
@@ -164,7 +164,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_1R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_1R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -179,7 +179,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 33 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N
 Total Standard Deviation in ln(k): 5.983537340355543""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 33 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N
 Total Standard Deviation in ln(k): 5.983537340355543
@@ -194,7 +194,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 14 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H
 Total Standard Deviation in ln(k): 3.3677024279295247""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 14 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H
 Total Standard Deviation in ln(k): 3.3677024279295247
@@ -209,7 +209,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 9 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H
 Total Standard Deviation in ln(k): 3.329271339154466""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 9 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H
 Total Standard Deviation in ln(k): 3.329271339154466
@@ -224,7 +224,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_3BrClFINOPSSi->S
 Total Standard Deviation in ln(k): 1.01129285627467""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_3BrClFINOPSSi->S
 Total Standard Deviation in ln(k): 1.01129285627467
@@ -239,7 +239,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 28 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S
 Total Standard Deviation in ln(k): 2.0439414522055452""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 28 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S
 Total Standard Deviation in ln(k): 2.0439414522055452
@@ -254,7 +254,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C
 Total Standard Deviation in ln(k): 2.442436990667526""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C
 Total Standard Deviation in ln(k): 2.442436990667526
@@ -269,7 +269,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R_N-5R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R_N-5R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -284,7 +284,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_5R!H->O_Ext-5O-R_Ext-6R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_5R!H->O_Ext-5O-R_Ext-6R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -299,7 +299,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 5 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R
 Total Standard Deviation in ln(k): 0.8775235281941672""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 5 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R
 Total Standard Deviation in ln(k): 0.8775235281941672
@@ -314,7 +314,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_5BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_5BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -329,7 +329,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_N-5BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_N-5BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -344,7 +344,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 17 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R
 Total Standard Deviation in ln(k): 6.308647308614286""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 17 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R
 Total Standard Deviation in ln(k): 6.308647308614286
@@ -359,7 +359,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 13 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R
 Total Standard Deviation in ln(k): 5.813286616326508""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 13 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R
 Total Standard Deviation in ln(k): 5.813286616326508
@@ -374,7 +374,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 7 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C
 Total Standard Deviation in ln(k): 2.1554078269576387""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 7 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C
 Total Standard Deviation in ln(k): 2.1554078269576387
@@ -389,7 +389,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 7 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C
 Total Standard Deviation in ln(k): 4.867486096063252""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 7 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C
 Total Standard Deviation in ln(k): 4.867486096063252
@@ -404,7 +404,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 4 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C
 Total Standard Deviation in ln(k): 1.5503071008497333""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 4 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C
 Total Standard Deviation in ln(k): 1.5503071008497333
@@ -419,7 +419,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 5 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C
 Total Standard Deviation in ln(k): 4.921607065115819""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 5 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C
 Total Standard Deviation in ln(k): 4.921607065115819
@@ -434,7 +434,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_3BrClFINOPSSi->S_Ext-1R!H-R
 Total Standard Deviation in ln(k): 0.003776812860711284""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_3BrClFINOPSSi->S_Ext-1R!H-R
 Total Standard Deviation in ln(k): 0.003776812860711284
@@ -449,7 +449,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 18 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R
 Total Standard Deviation in ln(k): 2.4763356202116875""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 18 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R
 Total Standard Deviation in ln(k): 2.4763356202116875
@@ -464,7 +464,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 4 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R
 Total Standard Deviation in ln(k): 1.013907033133442""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 4 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R
 Total Standard Deviation in ln(k): 1.013907033133442
@@ -479,7 +479,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 4 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R
 Total Standard Deviation in ln(k): 1.0271836869728679""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 4 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R
 Total Standard Deviation in ln(k): 1.0271836869728679
@@ -494,7 +494,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -509,7 +509,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_N-6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_N-6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -524,7 +524,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -539,7 +539,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_N-6R!H->N
 Total Standard Deviation in ln(k): 1.1284795153107703""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_N-6R!H->N
 Total Standard Deviation in ln(k): 1.1284795153107703
@@ -554,7 +554,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_5BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 0.0673223452312378""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_5BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 0.0673223452312378
@@ -569,7 +569,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 1.2028933602366145""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 1.2028933602366145
@@ -584,7 +584,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 12 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R
 Total Standard Deviation in ln(k): 5.318212342478503""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 12 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R
 Total Standard Deviation in ln(k): 5.318212342478503
@@ -599,7 +599,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-3C-R
 Total Standard Deviation in ln(k): 1.5407299692665106""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-3C-R
 Total Standard Deviation in ln(k): 1.5407299692665106
@@ -614,7 +614,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_7R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_7R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -629,7 +629,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_N-7R!H->C
 Total Standard Deviation in ln(k): 2.830921577724545""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_N-7R!H->C
 Total Standard Deviation in ln(k): 2.830921577724545
@@ -644,7 +644,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 11 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C
 Total Standard Deviation in ln(k): 3.214433227350278""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 11 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C
 Total Standard Deviation in ln(k): 3.214433227350278
@@ -659,7 +659,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_N-5R!H->C
 Total Standard Deviation in ln(k): 3.233893964713657""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_N-5R!H->C
 Total Standard Deviation in ln(k): 3.233893964713657
@@ -674,7 +674,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 5 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N
 Total Standard Deviation in ln(k): 2.4568045025233345""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 5 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N
 Total Standard Deviation in ln(k): 2.4568045025233345
@@ -689,7 +689,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_N-7R!H->N
 Total Standard Deviation in ln(k): 0.44517712022807143""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_N-7R!H->N
 Total Standard Deviation in ln(k): 0.44517712022807143
@@ -704,7 +704,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_5R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_5R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -719,7 +719,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 6 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N
 Total Standard Deviation in ln(k): 5.192268440792522""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 6 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N
 Total Standard Deviation in ln(k): 5.192268440792522
@@ -734,7 +734,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C
 Total Standard Deviation in ln(k): 0.1987716543490167""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C
 Total Standard Deviation in ln(k): 0.1987716543490167
@@ -749,7 +749,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_N-6R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_N-6R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -764,7 +764,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_5R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_5R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -779,7 +779,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 4 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C
 Total Standard Deviation in ln(k): 3.0635345236969505""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 4 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C
 Total Standard Deviation in ln(k): 3.0635345236969505
@@ -794,7 +794,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_3BrClFINOPSSi->S_Ext-1R!H-R_Ext-5R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_3BrClFINOPSSi->S_Ext-1R!H-R_Ext-5R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -809,7 +809,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R
 Total Standard Deviation in ln(k): 4.3122040205343355""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R
 Total Standard Deviation in ln(k): 4.3122040205343355
@@ -824,7 +824,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_5R!H->O
 Total Standard Deviation in ln(k): 3.4947456507807533""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_5R!H->O
 Total Standard Deviation in ln(k): 3.4947456507807533
@@ -839,7 +839,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 13 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O
 Total Standard Deviation in ln(k): 2.1570173449726555""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 13 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O
 Total Standard Deviation in ln(k): 2.1570173449726555
@@ -854,7 +854,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C
 Total Standard Deviation in ln(k): 0.6037735039900458""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C
 Total Standard Deviation in ln(k): 0.6037735039900458
@@ -869,7 +869,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_N-6R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_N-6R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -884,7 +884,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C
 Total Standard Deviation in ln(k): 1.1712635750016842""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C
 Total Standard Deviation in ln(k): 1.1712635750016842
@@ -899,7 +899,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_N-7R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_N-7R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -914,7 +914,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_N-6R!H->N_6BrCClFIOPSSi->O
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_N-6R!H->N_6BrCClFIOPSSi->O
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -929,7 +929,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_N-6R!H->N_N-6BrCClFIOPSSi->O
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_N-6R!H->N_N-6BrCClFIOPSSi->O
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -944,7 +944,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_5BrCClFINPSSi->N_Ext-6R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_5BrCClFINPSSi->N_Ext-6R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -959,7 +959,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_6R!H->C
 Total Standard Deviation in ln(k): 2.2351347254382397""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_6R!H->C
 Total Standard Deviation in ln(k): 2.2351347254382397
@@ -974,7 +974,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_N-6R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_N-6R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -989,7 +989,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 4 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R
 Total Standard Deviation in ln(k): 7.500310675798327""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 4 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R
 Total Standard Deviation in ln(k): 7.500310675798327
@@ -1004,7 +1004,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_6R!H->O
 Total Standard Deviation in ln(k): 5.764186347309356""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_6R!H->O
 Total Standard Deviation in ln(k): 5.764186347309356
@@ -1019,7 +1019,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 6 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O
 Total Standard Deviation in ln(k): 4.406569602102788""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 6 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O
 Total Standard Deviation in ln(k): 4.406569602102788
@@ -1034,7 +1034,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-3C-R_Ext-1C-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-3C-R_Ext-1C-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1049,7 +1049,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_N-7R!H->C_7BrClFINOPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_N-7R!H->C_7BrClFINOPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1064,7 +1064,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_N-7R!H->C_N-7BrClFINOPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_N-7R!H->C_N-7BrClFINOPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1079,7 +1079,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_5C-inRing
 Total Standard Deviation in ln(k): 1.4878268165252302""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_5C-inRing
 Total Standard Deviation in ln(k): 1.4878268165252302
@@ -1094,7 +1094,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 9 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing
 Total Standard Deviation in ln(k): 3.0521557492204088""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 9 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing
 Total Standard Deviation in ln(k): 3.0521557492204088
@@ -1109,7 +1109,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_N-5R!H->C_Ext-5BrClFINOPSSi-R_Ext-5BrClFINOPSSi-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_N-5R!H->C_Ext-5BrClFINOPSSi-R_Ext-5BrClFINOPSSi-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1124,7 +1124,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_5R!H->N
 Total Standard Deviation in ln(k): 0.43705426248998613""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_5R!H->N
 Total Standard Deviation in ln(k): 0.43705426248998613
@@ -1139,7 +1139,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N
 Total Standard Deviation in ln(k): 0.20203867135609896""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N
 Total Standard Deviation in ln(k): 0.20203867135609896
@@ -1154,7 +1154,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_N-7R!H->N_Ext-5R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_N-7R!H->N_Ext-5R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1169,7 +1169,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_Ext-1R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_Ext-1R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1184,7 +1184,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N
 Total Standard Deviation in ln(k): 0.30244992057304115""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N
 Total Standard Deviation in ln(k): 0.30244992057304115
@@ -1199,7 +1199,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_N-7R!H->N
 Total Standard Deviation in ln(k): 0.5616499114029998""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_N-7R!H->N
 Total Standard Deviation in ln(k): 0.5616499114029998
@@ -1214,7 +1214,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C_5R!H->N
 Total Standard Deviation in ln(k): 0.09630205437896223""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C_5R!H->N
 Total Standard Deviation in ln(k): 0.09630205437896223
@@ -1229,7 +1229,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C_N-5R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C_N-5R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1244,7 +1244,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_6R!H->C
 Total Standard Deviation in ln(k): 3.1504089146845984""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_6R!H->C
 Total Standard Deviation in ln(k): 3.1504089146845984
@@ -1259,7 +1259,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_N-6R!H->C
 Total Standard Deviation in ln(k): 6.428845485264807""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_N-6R!H->C
 Total Standard Deviation in ln(k): 6.428845485264807
@@ -1274,7 +1274,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R_Ext-5R!H-R
 Total Standard Deviation in ln(k): 2.2733181243649305""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R_Ext-5R!H-R
 Total Standard Deviation in ln(k): 2.2733181243649305
@@ -1289,7 +1289,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_5R!H->O_Ext-5O-R_Ext-6R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_5R!H->O_Ext-5O-R_Ext-6R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1304,7 +1304,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 5 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing
 Total Standard Deviation in ln(k): 1.781162280149695""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 5 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing
 Total Standard Deviation in ln(k): 1.781162280149695
@@ -1319,7 +1319,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 8 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing
 Total Standard Deviation in ln(k): 2.488347293422955""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 8 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing
 Total Standard Deviation in ln(k): 2.488347293422955
@@ -1334,7 +1334,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_5R!H-inRing
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_5R!H-inRing
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1349,7 +1349,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_N-5R!H-inRing
 Total Standard Deviation in ln(k): 0.859829326869262""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_N-5R!H-inRing
 Total Standard Deviation in ln(k): 0.859829326869262
@@ -1364,7 +1364,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_Sp-7C-6R!H
 Total Standard Deviation in ln(k): 2.0596052670482954""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_Sp-7C-6R!H
 Total Standard Deviation in ln(k): 2.0596052670482954
@@ -1379,7 +1379,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_N-Sp-7C-6R!H
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_N-Sp-7C-6R!H
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1394,7 +1394,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_6R!H->C_7R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_6R!H->C_7R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1409,7 +1409,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_6R!H->C_N-7R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_6R!H->C_N-7R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1424,7 +1424,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_Sp-6R!H#5R!H
 Total Standard Deviation in ln(k): 12.275153032997775""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_Sp-6R!H#5R!H
 Total Standard Deviation in ln(k): 12.275153032997775
@@ -1439,7 +1439,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_N-Sp-6R!H#5R!H
 Total Standard Deviation in ln(k): 13.41139728945312""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_N-Sp-6R!H#5R!H
 Total Standard Deviation in ln(k): 13.41139728945312
@@ -1454,7 +1454,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_6R!H->O_Ext-3C-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_6R!H->O_Ext-3C-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1469,7 +1469,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Ext-3C-R
 Total Standard Deviation in ln(k): 3.9712870246122276""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Ext-3C-R
 Total Standard Deviation in ln(k): 3.9712870246122276
@@ -1484,7 +1484,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Sp-6CN-5R!H
 Total Standard Deviation in ln(k): 6.415203507633639""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Sp-6CN-5R!H
 Total Standard Deviation in ln(k): 6.415203507633639
@@ -1499,7 +1499,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_N-Sp-6CN-5R!H
 Total Standard Deviation in ln(k): 0.056445448893047076""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_N-Sp-6CN-5R!H
 Total Standard Deviation in ln(k): 0.056445448893047076
@@ -1514,7 +1514,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_5C-inRing_Ext-5C-R_6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_5C-inRing_Ext-5C-R_6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1529,7 +1529,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_5C-inRing_Ext-5C-R_N-6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_5C-inRing_Ext-5C-R_N-6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1544,7 +1544,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 8 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R
 Total Standard Deviation in ln(k): 2.3921868256112373""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 8 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R
 Total Standard Deviation in ln(k): 2.3921868256112373
@@ -1559,7 +1559,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_5R!H->N_Ext-6C-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_5R!H->N_Ext-6C-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1574,7 +1574,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N_Ext-5C-R
 Total Standard Deviation in ln(k): 0.2798193482943225""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N_Ext-5C-R
 Total Standard Deviation in ln(k): 0.2798193482943225
@@ -1589,7 +1589,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N_Ext-5C-R
 Total Standard Deviation in ln(k): 0.20874526307047123""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N_Ext-5C-R
 Total Standard Deviation in ln(k): 0.20874526307047123
@@ -1604,7 +1604,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_N-7R!H->N_Ext-5C-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_N-7R!H->N_Ext-5C-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1619,7 +1619,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C_5R!H->N_Ext-1R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C_5R!H->N_Ext-1R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1634,7 +1634,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_6R!H->C_5NO->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_6R!H->C_5NO->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1649,7 +1649,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_6R!H->C_N-5NO->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_6R!H->C_N-5NO->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1664,7 +1664,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_N-6R!H->C_Sp-5NO-3BrClFINNOOPSSi
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_N-6R!H->C_Sp-5NO-3BrClFINNOOPSSi
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1679,7 +1679,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_N-6R!H->C_N-Sp-5NO-3BrClFINNOOPSSi
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_N-6R!H->C_N-Sp-5NO-3BrClFINNOOPSSi
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1694,7 +1694,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R_Ext-5R!H-R_5R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R_Ext-5R!H-R_5R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1709,7 +1709,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R_Ext-5R!H-R_N-5R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R_Ext-5R!H-R_N-5R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1724,7 +1724,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_5CN->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_5CN->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1739,7 +1739,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 4 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N
 Total Standard Deviation in ln(k): 1.3799960457840075""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 4 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N
 Total Standard Deviation in ln(k): 1.3799960457840075
@@ -1754,7 +1754,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 4 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N
 Total Standard Deviation in ln(k): 4.0746551849825074""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 4 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N
 Total Standard Deviation in ln(k): 4.0746551849825074
@@ -1769,7 +1769,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 4 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N
 Total Standard Deviation in ln(k): 1.6502689532219956""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 4 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N
 Total Standard Deviation in ln(k): 1.6502689532219956
@@ -1784,7 +1784,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_N-5R!H-inRing_7R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_N-5R!H-inRing_7R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1799,7 +1799,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_N-5R!H-inRing_N-7R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_N-5R!H-inRing_N-7R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1814,7 +1814,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_Sp-7C-6R!H_6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_Sp-7C-6R!H_6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1829,7 +1829,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_Sp-7C-6R!H_N-6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_Sp-7C-6R!H_N-6R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1844,7 +1844,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_Sp-6R!H#5R!H_Ext-7R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_Sp-6R!H#5R!H_Ext-7R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1859,7 +1859,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_N-Sp-6R!H#5R!H_5R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_N-Sp-6R!H#5R!H_5R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1874,7 +1874,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_N-Sp-6R!H#5R!H_N-5R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_N-Sp-6R!H#5R!H_N-5R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1889,7 +1889,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Ext-3C-R_6CN->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Ext-3C-R_6CN->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1904,7 +1904,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Ext-3C-R_N-6CN->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Ext-3C-R_N-6CN->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1919,7 +1919,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Sp-6CN-5R!H_5R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Sp-6CN-5R!H_5R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1934,7 +1934,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Sp-6CN-5R!H_N-5R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Sp-6CN-5R!H_N-5R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1949,7 +1949,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_N-Sp-6CN-5R!H_6CN->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_N-Sp-6CN-5R!H_6CN->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1964,7 +1964,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_N-Sp-6CN-5R!H_N-6CN->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_N-Sp-6CN-5R!H_N-6CN->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -1979,7 +1979,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_6R!H->O
 Total Standard Deviation in ln(k): 1.6308342104428886""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_6R!H->O
 Total Standard Deviation in ln(k): 1.6308342104428886
@@ -1994,7 +1994,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 5 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O
 Total Standard Deviation in ln(k): 3.376240123551729""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 5 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O
 Total Standard Deviation in ln(k): 3.376240123551729
@@ -2009,7 +2009,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N_Ext-5C-R_8R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N_Ext-5C-R_8R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2024,7 +2024,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N_Ext-5C-R_N-8R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N_Ext-5C-R_N-8R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2039,7 +2039,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N_Ext-5C-R_8R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N_Ext-5C-R_8R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2054,7 +2054,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N_Ext-5C-R_N-8R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N_Ext-5C-R_N-8R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2069,7 +2069,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->O
 Total Standard Deviation in ln(k): 0.7602155653984278""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->O
 Total Standard Deviation in ln(k): 0.7602155653984278
@@ -2084,7 +2084,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->O
 Total Standard Deviation in ln(k): 2.0133620800594025""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->O
 Total Standard Deviation in ln(k): 2.0133620800594025
@@ -2099,7 +2099,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R
 Total Standard Deviation in ln(k): 5.220759245944637""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R
 Total Standard Deviation in ln(k): 5.220759245944637
@@ -2114,7 +2114,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->C
 Total Standard Deviation in ln(k): 1.0671161847633435""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->C
 Total Standard Deviation in ln(k): 1.0671161847633435
@@ -2129,7 +2129,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->C
 Total Standard Deviation in ln(k): 0.455508937449092""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->C
 Total Standard Deviation in ln(k): 0.455508937449092
@@ -2144,7 +2144,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_6R!H->O_Ext-5C-R
 Total Standard Deviation in ln(k): 1.2284971984464699""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_6R!H->O_Ext-5C-R
 Total Standard Deviation in ln(k): 1.2284971984464699
@@ -2159,7 +2159,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_6BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_6BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2174,7 +2174,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 4 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 2.0894643469756167""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 4 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 2.0894643469756167
@@ -2189,7 +2189,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->O_Ext-6O-R_Ext-5C-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->O_Ext-6O-R_Ext-5C-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2204,7 +2204,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->O_6BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->O_6BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2219,7 +2219,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2234,7 +2234,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R_Ext-6R!H-R
 Total Standard Deviation in ln(k): 0.7974520617821278""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R_Ext-6R!H-R
 Total Standard Deviation in ln(k): 0.7974520617821278
@@ -2249,7 +2249,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->C_Ext-6C-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->C_Ext-6C-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2264,7 +2264,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->C_Ext-5C-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->C_Ext-5C-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2279,7 +2279,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_6R!H->O_Ext-5C-R_Ext-7R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_6R!H->O_Ext-5C-R_Ext-7R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2294,7 +2294,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_Sp-6C-5C
 Total Standard Deviation in ln(k): 17.629622840907796""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_Sp-6C-5C
 Total Standard Deviation in ln(k): 17.629622840907796
@@ -2309,7 +2309,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_N-Sp-6C-5C
 Total Standard Deviation in ln(k): 3.480540206394142""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_N-Sp-6C-5C
 Total Standard Deviation in ln(k): 3.480540206394142
@@ -2324,7 +2324,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R_Ext-6R!H-R_7R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R_Ext-6R!H-R_7R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2339,7 +2339,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R_Ext-6R!H-R_N-7R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R_Ext-6R!H-R_N-7R!H->N
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2354,7 +2354,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_Sp-6C-5C_Ext-6C-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_Sp-6C-5C_Ext-6C-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -2369,7 +2369,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_N-Sp-6C-5C_Ext-6C-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_N-Sp-6C-5C_Ext-6C-R
 Total Standard Deviation in ln(k): 11.540182761524994

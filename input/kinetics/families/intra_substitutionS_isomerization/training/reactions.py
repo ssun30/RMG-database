@@ -21,7 +21,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: XSR3J_S;CsJ-HH;S-Cs(HHH)S2s
 """,
@@ -41,7 +41,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: XSR4J_SS_Cs;CsJ-HH;S-HSs
 """,

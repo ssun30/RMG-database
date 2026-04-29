@@ -26,7 +26,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "R2OO",
-    group = 
+    group =
 """
 1 *2 [C,Si,N,S]   u0 {2,S} {3,S}
 2 *1 [C,Si,O,S,N] u0 {1,S} {5,S}
@@ -40,7 +40,7 @@ entry(
 entry(
     index = 1,
     label = "R2OO_0H",
-    group = 
+    group =
 """
 1 *2 C     u0 {2,S} {3,S}
 2 *1 Cd    u0 {1,S} {5,S}
@@ -54,7 +54,7 @@ entry(
 entry(
     index = 2,
     label = "R2OO_0H_2H",
-    group = 
+    group =
 """
 1 *2 C     u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 Cd    u0 {1,S} {7,S}
@@ -70,7 +70,7 @@ entry(
 entry(
     index = 3,
     label = "R2OO_O",
-    group = 
+    group =
 """
 1 *2 C     u0 {2,S} {3,S}
 2 *1 [O,S] u0 {1,S} {5,S}
@@ -84,7 +84,7 @@ entry(
 entry(
     index = 4,
     label = "R2OO_O_HNd",
-    group = 
+    group =
 """
 1 *2 C     u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 [O,S] u0 {1,S} {7,S}
@@ -100,7 +100,7 @@ entry(
 entry(
     index = 5,
     label = "R2OO_2H",
-    group = 
+    group =
 """
 1 *1 C     u0 {2,S} {4,S} {5,S} {6,S}
 2 *2 C     u0 {1,S} {3,S}
@@ -116,7 +116,7 @@ entry(
 entry(
     index = 6,
     label = "R2OO_2H_2H",
-    group = 
+    group =
 """
 1 *2 C     u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C     u0 {1,S} {6,S} {7,S} {8,S}
@@ -134,7 +134,7 @@ entry(
 entry(
     index = 7,
     label = "R2OO_2H_HNd",
-    group = 
+    group =
 """
 1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
@@ -152,7 +152,7 @@ entry(
 entry(
     index = 8,
     label = "R2OO_2H_HDe",
-    group = 
+    group =
 """
 1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
@@ -170,7 +170,7 @@ entry(
 entry(
     index = 9,
     label = "R2OO_2H_HCd",
-    group = 
+    group =
 """
 1  *2 C     u0 {2,S} {3,S} {4,S} {5,S}
 2  *1 C     u0 {1,S} {6,S} {7,S} {8,S}
@@ -189,7 +189,7 @@ entry(
 entry(
     index = 10,
     label = "R2OO_2H_NdNd",
-    group = 
+    group =
 """
 1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
@@ -207,7 +207,7 @@ entry(
 entry(
     index = 11,
     label = "R2OO_2H_NdDe",
-    group = 
+    group =
 """
 1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
@@ -225,7 +225,7 @@ entry(
 entry(
     index = 12,
     label = "R2OO_2H_DeDe",
-    group = 
+    group =
 """
 1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
@@ -243,7 +243,7 @@ entry(
 entry(
     index = 13,
     label = "R2OO_HNd",
-    group = 
+    group =
 """
 1 *1 C        u0 {2,S} {4,S} {5,S} {6,S}
 2 *2 C        u0 {1,S} {3,S}
@@ -259,7 +259,7 @@ entry(
 entry(
     index = 14,
     label = "R2OO_HNd_2H",
-    group = 
+    group =
 """
 1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
@@ -277,7 +277,7 @@ entry(
 entry(
     index = 15,
     label = "R2OO_HNd_HNd",
-    group = 
+    group =
 """
 1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
@@ -295,7 +295,7 @@ entry(
 entry(
     index = 16,
     label = "R2OO_HNd_HDe",
-    group = 
+    group =
 """
 1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
@@ -313,7 +313,7 @@ entry(
 entry(
     index = 17,
     label = "R2OO_HNd_NdNd",
-    group = 
+    group =
 """
 1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
@@ -331,7 +331,7 @@ entry(
 entry(
     index = 18,
     label = "R2OO_HNd_NdDe",
-    group = 
+    group =
 """
 1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
@@ -349,7 +349,7 @@ entry(
 entry(
     index = 19,
     label = "R2OO_HNd_DeDe",
-    group = 
+    group =
 """
 1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
@@ -367,7 +367,7 @@ entry(
 entry(
     index = 20,
     label = "R2OO_HDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {4,S} {5,S} {6,S}
 2 *2 C                u0 {1,S} {3,S}
@@ -383,7 +383,7 @@ entry(
 entry(
     index = 21,
     label = "R2OO_HDe_2H",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -401,7 +401,7 @@ entry(
 entry(
     index = 22,
     label = "R2OO_HDe_HNd",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -419,7 +419,7 @@ entry(
 entry(
     index = 23,
     label = "R2OO_HDe_HDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -437,7 +437,7 @@ entry(
 entry(
     index = 24,
     label = "R2OO_HDe_NdNd",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -455,7 +455,7 @@ entry(
 entry(
     index = 25,
     label = "R2OO_HDe_NdDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -473,7 +473,7 @@ entry(
 entry(
     index = 26,
     label = "R2OO_HDe_DeDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -491,7 +491,7 @@ entry(
 entry(
     index = 27,
     label = "R2OO_NdNd",
-    group = 
+    group =
 """
 1 *1 C        u0 {2,S} {4,S} {5,S} {6,S}
 2 *2 C        u0 {1,S} {3,S}
@@ -507,7 +507,7 @@ entry(
 entry(
     index = 28,
     label = "R2OO_NdNd_2H",
-    group = 
+    group =
 """
 1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
@@ -525,7 +525,7 @@ entry(
 entry(
     index = 29,
     label = "R2OO_NdNd_HNd",
-    group = 
+    group =
 """
 1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
@@ -543,7 +543,7 @@ entry(
 entry(
     index = 30,
     label = "R2OO_NdNd_HDe",
-    group = 
+    group =
 """
 1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
@@ -561,7 +561,7 @@ entry(
 entry(
     index = 31,
     label = "R2OO_NdNd_NdNd",
-    group = 
+    group =
 """
 1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
@@ -579,7 +579,7 @@ entry(
 entry(
     index = 32,
     label = "R2OO_NdNd_NdDe",
-    group = 
+    group =
 """
 1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
@@ -597,7 +597,7 @@ entry(
 entry(
     index = 33,
     label = "R2OO_NdNd_DeDe",
-    group = 
+    group =
 """
 1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
 2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
@@ -615,7 +615,7 @@ entry(
 entry(
     index = 34,
     label = "R2OO_NdDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {4,S} {5,S} {6,S}
 2 *2 C                u0 {1,S} {3,S}
@@ -631,7 +631,7 @@ entry(
 entry(
     index = 35,
     label = "R2OO_NdDe_2H",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -649,7 +649,7 @@ entry(
 entry(
     index = 36,
     label = "R2OO_NdDe_HNd",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -667,7 +667,7 @@ entry(
 entry(
     index = 37,
     label = "R2OO_NdDe_HDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -685,7 +685,7 @@ entry(
 entry(
     index = 38,
     label = "R2OO_NdDe_NdNd",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -703,7 +703,7 @@ entry(
 entry(
     index = 39,
     label = "R2OO_NdDe_NdDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -721,7 +721,7 @@ entry(
 entry(
     index = 40,
     label = "R2OO_NdDe_DeDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -739,7 +739,7 @@ entry(
 entry(
     index = 41,
     label = "R2OO_DeDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {4,S} {5,S} {6,S}
 2 *2 C                u0 {1,S} {3,S}
@@ -755,7 +755,7 @@ entry(
 entry(
     index = 42,
     label = "R2OO_DeDe_2H",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -773,7 +773,7 @@ entry(
 entry(
     index = 43,
     label = "R2OO_DeDe_HNd",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -791,7 +791,7 @@ entry(
 entry(
     index = 44,
     label = "R2OO_DeDe_HDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -809,7 +809,7 @@ entry(
 entry(
     index = 45,
     label = "R2OO_DeDe_NdNd",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -827,7 +827,7 @@ entry(
 entry(
     index = 46,
     label = "R2OO_DeDe_NdDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
@@ -845,7 +845,7 @@ entry(
 entry(
     index = 47,
     label = "R2OO_DeDe_DeDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
 2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}

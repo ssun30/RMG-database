@@ -15,7 +15,7 @@ entry(
     kinetics = Arrhenius(A=(3.1e+24,'cm^3/(mol*s)'), n=-3.8, Ea=(2830,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is CH2(S) + CHF <=> CH2CHF""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: NIST_Fluorine/seed
 Original entry: CH2(S) + CHF <=> CH2CHF
@@ -29,7 +29,7 @@ entry(
     kinetics = Arrhenius(A=(3.1e+24,'cm^3/(mol*s)'), n=-3.8, Ea=(2830,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is CH2(S) + CF2 <=> CH2CF2""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: NIST_Fluorine/seed
 Original entry: CH2(S) + CF2 <=> CH2CF2
@@ -43,7 +43,7 @@ entry(
     kinetics = Arrhenius(A=(3.1e+24,'cm^3/(mol*s)'), n=-3.8, Ea=(2830,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is CHF + CHF <=> CHFCHF[Z]""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: NIST_Fluorine/seed
 Original entry: CHF + CHF <=> CHFCHF[Z]
@@ -57,7 +57,7 @@ entry(
     kinetics = Arrhenius(A=(3.1e+24,'cm^3/(mol*s)'), n=-3.8, Ea=(2830,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is CHF + CF2 <=> CHFCF2""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: NIST_Fluorine/seed
 Original entry: CHF + CF2 <=> CHFCF2
@@ -71,7 +71,7 @@ entry(
     kinetics = Arrhenius(A=(3.25e+11,'cm^3/(mol*s)'), T0=(300,'K'), n=0.7, Ea=(0, 'kJ/mol')),
     rank = 1,
     shortDesc = """CCl2 self recombination""",
-    longDesc = 
+    longDesc =
 """
 high pressure rate constant
 k∞ (SACM/CT) = (5.4 ± 3.0) × 10−13 (T/300)0.7 ± 0.1 cm3 molecule−1 s−1.
@@ -88,7 +88,7 @@ entry(
     kinetics = Arrhenius(A=(2.26e+10,'cm^3/(mol*s)'), T0=(300,'K'), n=1.53, Ea=(0, 'kJ/mol')),
     rank = 1,
     shortDesc = """CF2 self recombination""",
-    longDesc = 
+    longDesc =
 """
 high pressure rate constant
 SACM/CT (statistical adiabatic channel model/classical trajectories)

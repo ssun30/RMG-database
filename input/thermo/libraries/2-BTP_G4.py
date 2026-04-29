@@ -12,7 +12,7 @@ It is recommended to pair this library with the `2-BTP` library
 entry(
     index = 0,
     label = "CCC(DO)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {7,S}
 2  F u0 p3 c0 {7,S}
@@ -41,7 +41,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -204.79 kcal/mol
 S298: 92.19 cal/mol/K
@@ -73,7 +73,7 @@ Frequencies (cm^-1) = 26.0,64.3,172.4,182.8,238.3,287.9,347.1,419.9,493.8,571.4,
 entry(
     index = 1,
     label = "OCDC(O)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {6,S}
 2  F u0 p3 c0 {6,S}
@@ -100,7 +100,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -230.77 kcal/mol
 S298: 86.65 cal/mol/K
@@ -130,7 +130,7 @@ Frequencies (cm^-1) = 66.5,156.5,184.2,256.2,343.5,371.7,390.5,420.4,498.5,576.8
 entry(
     index = 2,
     label = "C#CC(DO)O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {6,S}
 2 O u0 p2 c0 {3,D}
@@ -153,7 +153,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -29.23 kcal/mol
 S298: 70.26 cal/mol/K
@@ -179,7 +179,7 @@ Frequencies (cm^-1) = 196.0,251.7,528.4,600.3,609.8,666.7,712.1,782.0,827.0,1176
 entry(
     index = 3,
     label = "C#CC[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {4,D}
@@ -204,7 +204,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 59.53 kcal/mol
 S298: 75.21 cal/mol/K
@@ -231,7 +231,7 @@ Frequencies (cm^-1) = 120.7,143.1,318.3,363.3,636.8,638.3,671.6,756.4,840.0,972.
 entry(
     index = 4,
     label = "ODC1OC1(F)F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -253,7 +253,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -138.65 kcal/mol
 S298: 71.73 cal/mol/K
@@ -278,7 +278,7 @@ Frequencies (cm^-1) = 199.0,347.0,450.1,497.1,655.2,668.7,688.6,815.9,1179.6,127
 entry(
     index = 5,
     label = "FC1DCC1(F)F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -301,7 +301,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -74.86 kcal/mol
 S298: 72.81 cal/mol/K
@@ -327,7 +327,7 @@ Frequencies (cm^-1) = 201.7,286.5,390.8,507.7,584.9,629.2,789.4,824.3,858.9,1017
 entry(
     index = 6,
     label = "CC(Br)(O[O])C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -356,7 +356,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -159.45 kcal/mol
 S298: 100.18 cal/mol/K
@@ -387,7 +387,7 @@ Frequencies (cm^-1) = 53.4,87.9,155.0,194.0,224.6,236.2,284.4,301.4,329.9,370.5,
 entry(
     index = 7,
     label = "C[CH]C(DO)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {6,S}
@@ -416,7 +416,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -168.09 kcal/mol
 S298: 92.94 cal/mol/K
@@ -447,7 +447,7 @@ Frequencies (cm^-1) = 16.0,123.8,136.4,196.1,280.2,297.9,358.0,422.0,508.4,578.9
 entry(
     index = 8,
     label = "OD[C]CC(DO)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -472,7 +472,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -88.12 kcal/mol
 S298: 80.29 cal/mol/K
@@ -499,7 +499,7 @@ Frequencies (cm^-1) = 52.8,144.4,155.4,373.2,495.4,579.9,757.1,819.6,856.6,902.5
 entry(
     index = 9,
     label = "[O]C(DO)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {4,S} {5,S}
@@ -521,7 +521,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -88.60 kcal/mol
 S298: 65.22 cal/mol/K
@@ -545,7 +545,7 @@ Frequencies (cm^-1) = 486.4,509.1,552.9,761.8,1039.5,1162.6,1283.4,1595.6,3757.0
 entry(
     index = 10,
     label = "[O]OC[C](Br)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  Br u0 p3 c0 {9,S}
@@ -573,7 +573,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -112.37 kcal/mol
 S298: 105.42 cal/mol/K
@@ -603,7 +603,7 @@ Frequencies (cm^-1) = 23.4,41.6,81.7,121.7,161.4,252.2,301.9,331.0,421.6,459.8,5
 entry(
     index = 11,
     label = "FC1(F)CDCO1",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -627,7 +627,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -93.13 kcal/mol
 S298: 71.11 cal/mol/K
@@ -654,7 +654,7 @@ Frequencies (cm^-1) = 237.6,352.8,477.0,514.9,636.5,697.2,750.3,841.7,930.7,986.
 entry(
     index = 12,
     label = "[O]OCCDC(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {7,S}
@@ -681,7 +681,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -74.05 kcal/mol
 S298: 86.24 cal/mol/K
@@ -710,7 +710,7 @@ Frequencies (cm^-1) = 56.7,75.5,156.4,219.4,366.5,506.1,571.5,586.1,657.2,828.5,
 entry(
     index = 13,
     label = "CDC(CO[O])C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {7,S}
@@ -740,7 +740,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -142.06 kcal/mol
 S298: 96.13 cal/mol/K
@@ -772,7 +772,7 @@ Frequencies (cm^-1) = 42.4,55.9,90.6,182.8,231.5,301.5,343.4,415.8,472.8,513.6,5
 entry(
     index = 14,
     label = "ODC(CC(F)(F)F)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {9,S}
 2  F u0 p3 c0 {9,S}
@@ -801,7 +801,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -357.00 kcal/mol
 S298: 104.37 cal/mol/K
@@ -833,7 +833,7 @@ Frequencies (cm^-1) = 15.4,40.3,90.9,119.3,186.7,219.4,301.9,331.0,340.1,423.3,4
 entry(
     index = 15,
     label = "FC(F)(F)C1(Br)CO1",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  F  u0 p3 c0 {8,S}
@@ -859,7 +859,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -168.94 kcal/mol
 S298: 89.62 cal/mol/K
@@ -888,7 +888,7 @@ Frequencies (cm^-1) = 55.2,158.0,209.8,273.5,311.1,320.4,409.5,458.4,561.0,597.3
 entry(
     index = 16,
     label = "FC(F)(F)C(Br)DCBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {7,S}
 2 Br u0 p3 c0 {8,S}
@@ -913,7 +913,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -135.39 kcal/mol
 S298: 95.12 cal/mol/K
@@ -941,7 +941,7 @@ Frequencies (cm^-1) = 42.9,108.6,137.2,156.7,252.8,307.3,333.9,483.8,513.3,590.3
 entry(
     index = 17,
     label = "C[C]CDC(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  F u0 p3 c0 {5,S}
@@ -968,7 +968,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -4.72 kcal/mol
 S298: 83.71 cal/mol/K
@@ -997,7 +997,7 @@ Frequencies (cm^-1) = 98.7,139.1,141.7,228.7,319.1,396.8,457.0,599.0,798.9,881.8
 entry(
     index = 18,
     label = "2-BTP",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 F  u0 p3 c0 {5,S}
@@ -1022,7 +1022,7 @@ entry(
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -142.33 kcal/mol
 S298: 85.21 cal/mol/K
@@ -1051,7 +1051,7 @@ Frequencies (cm^-1) = 167.2,224.4,329.3,335.1,483.3,485.3,585.4,622.9,693.3,738.
 entry(
     index = 19,
     label = "O[C](C1OO1)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {8,S}
@@ -1079,7 +1079,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -167.12 kcal/mol
 S298: 94.71 cal/mol/K
@@ -1109,7 +1109,7 @@ Frequencies (cm^-1) = 27.6,77.2,126.9,156.0,301.6,328.3,364.8,462.5,481.7,509.0,
 entry(
     index = 20,
     label = "FC(F)(F)C1(Br)COO1",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  F  u0 p3 c0 {9,S}
@@ -1136,7 +1136,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -154.47 kcal/mol
 S298: 95.21 cal/mol/K
@@ -1166,7 +1166,7 @@ Frequencies (cm^-1) = 52.1,86.6,153.9,198.2,261.5,284.6,313.1,361.6,436.7,551.3,
 entry(
     index = 21,
     label = "CDCC(Br)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {5,S}
 2  F  u0 p3 c0 {6,S}
@@ -1194,7 +1194,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -150.19 kcal/mol
 S298: 93.78 cal/mol/K
@@ -1225,7 +1225,7 @@ Frequencies (cm^-1) = 61.7,90.0,153.1,198.5,238.1,295.6,358.3,402.3,531.3,557.7,
 entry(
     index = 22,
     label = "[C]DCC(DO)O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {7,S}
 2 O u0 p2 c0 {3,D}
@@ -1248,7 +1248,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 14.26 kcal/mol
 S298: 72.03 cal/mol/K
@@ -1274,7 +1274,7 @@ Frequencies (cm^-1) = 103.0,182.9,450.1,563.6,573.6,622.3,809.9,861.8,964.8,1190
 entry(
     index = 23,
     label = "[O]C[C](Br)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  Br u0 p3 c0 {8,S}
@@ -1301,7 +1301,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -111.27 kcal/mol
 S298: 99.92 cal/mol/K
@@ -1330,7 +1330,7 @@ Frequencies (cm^-1) = 18.6,48.3,121.1,160.6,246.3,320.7,337.6,445.6,521.0,569.5,
 entry(
     index = 24,
     label = "FC(F)(F)C1(Br)CC1(F)F",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {7,S}
 2  F  u0 p3 c0 {9,S}
@@ -1358,7 +1358,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -231.13 kcal/mol
 S298: 98.31 cal/mol/K
@@ -1389,7 +1389,7 @@ Frequencies (cm^-1) = 51.9,129.9,155.4,159.6,183.2,299.6,318.9,327.5,414.4,434.5
 entry(
     index = 25,
     label = "ODCC(DO)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {6,S}
 2 F u0 p3 c0 {6,S}
@@ -1414,7 +1414,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -207.17 kcal/mol
 S298: 86.60 cal/mol/K
@@ -1442,7 +1442,7 @@ Frequencies (cm^-1) = 56.2,112.3,157.5,205.1,277.3,386.3,494.5,501.2,541.0,629.9
 entry(
     index = 26,
     label = "FC[C](CBr)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -1472,7 +1472,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -182.13 kcal/mol
 S298: 107.10 cal/mol/K
@@ -1504,7 +1504,7 @@ Frequencies (cm^-1) = 15.4,42.7,62.2,111.5,169.3,234.9,297.4,357.2,380.1,403.6,4
 entry(
     index = 27,
     label = "[CH2]C1(C(F)(F)F)OO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {7,S}
@@ -1531,7 +1531,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -125.86 kcal/mol
 S298: 87.67 cal/mol/K
@@ -1560,7 +1560,7 @@ Frequencies (cm^-1) = 43.3,205.9,214.9,220.7,324.2,368.0,386.7,466.1,541.0,573.0
 entry(
     index = 28,
     label = "FC(F)(Br)[CH]Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -1584,7 +1584,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -58.14 kcal/mol
 S298: 90.28 cal/mol/K
@@ -1610,7 +1610,7 @@ Frequencies (cm^-1) = 49.0,156.7,248.7,275.0,282.7,367.8,471.0,566.0,656.1,760.5
 entry(
     index = 29,
     label = "FC(F)(F)C1DCC1(F)F",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {6,S}
 2  F u0 p3 c0 {6,S}
@@ -1636,7 +1636,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -192.42 kcal/mol
 S298: 90.10 cal/mol/K
@@ -1665,7 +1665,7 @@ Frequencies (cm^-1) = 31.1,103.7,119.8,292.4,304.5,412.1,442.3,512.5,512.8,559.4
 entry(
     index = 30,
     label = "FC(F)(F)C(Br)[CH]CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -1695,7 +1695,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -133.07 kcal/mol
 S298: 108.84 cal/mol/K
@@ -1727,7 +1727,7 @@ Frequencies (cm^-1) = 26.3,44.0,63.9,116.5,153.7,202.2,264.4,300.7,359.0,404.7,4
 entry(
     index = 31,
     label = "FC(F)[CH]Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -1751,7 +1751,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -64.09 kcal/mol
 S298: 82.29 cal/mol/K
@@ -1777,7 +1777,7 @@ Frequencies (cm^-1) = 46.3,188.6,308.9,364.6,501.4,576.0,798.9,1048.0,1099.1,112
 entry(
     index = 32,
     label = "FCDC(CBr)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  F  u0 p3 c0 {7,S}
@@ -1805,7 +1805,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -194.64 kcal/mol
 S298: 99.35 cal/mol/K
@@ -1836,7 +1836,7 @@ Frequencies (cm^-1) = 32.5,55.9,113.4,188.2,233.3,258.1,356.0,391.3,414.8,477.0,
 entry(
     index = 33,
     label = "ODC[C](O)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {6,S}
@@ -1863,7 +1863,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -208.00 kcal/mol
 S298: 87.46 cal/mol/K
@@ -1892,7 +1892,7 @@ Frequencies (cm^-1) = 39.0,147.0,192.1,291.3,333.5,390.9,418.3,489.7,583.7,615.6
 entry(
     index = 34,
     label = "[C]DCC(F)F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {3,S}
@@ -1915,7 +1915,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -0.25 kcal/mol
 S298: 72.99 cal/mol/K
@@ -1941,7 +1941,7 @@ Frequencies (cm^-1) = 116.5,168.2,348.3,444.6,582.4,701.0,849.6,1072.8,1115.1,11
 entry(
     index = 35,
     label = "FC(F)(F)C[CH]CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -1971,7 +1971,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -140.41 kcal/mol
 S298: 100.66 cal/mol/K
@@ -2003,7 +2003,7 @@ Frequencies (cm^-1) = 27.8,52.0,99.3,142.2,262.2,320.7,339.9,365.4,445.2,534.9,5
 entry(
     index = 36,
     label = "[O]OCC(DO)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {6,S}
@@ -2028,7 +2028,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -83.00 kcal/mol
 S298: 79.57 cal/mol/K
@@ -2055,7 +2055,7 @@ Frequencies (cm^-1) = 76.4,98.6,247.5,386.3,515.5,560.9,661.4,880.9,963.2,1049.8
 entry(
     index = 37,
     label = "CDC(C(DC)C(F)(F)F)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {7,S}
 2  F u0 p3 c0 {7,S}
@@ -2087,7 +2087,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -294.25 kcal/mol
 S298: 104.12 cal/mol/K
@@ -2122,7 +2122,7 @@ Frequencies (cm^-1) = 15.8,60.1,94.9,171.0,207.6,216.6,249.3,336.4,371.6,391.7,4
 entry(
     index = 38,
     label = "[C]1DCC1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2145,7 +2145,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 124.11 kcal/mol
 S298: 60.44 cal/mol/K
@@ -2170,7 +2170,7 @@ Frequencies (cm^-1) = 659.0,667.6,764.1,894.1,1009.5,1044.8,1080.7,1507.5,1769.0
 entry(
     index = 39,
     label = "[O]OCD[C]C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 F u0 p3 c0 {6,S}
@@ -2196,7 +2196,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -70.29 kcal/mol
 S298: 90.48 cal/mol/K
@@ -2224,7 +2224,7 @@ Frequencies (cm^-1) = 62.0,100.9,134.3,159.1,314.3,348.6,423.4,496.0,590.2,595.9
 entry(
     index = 40,
     label = "CDCC(F)(F)O[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {5,S}
@@ -2251,7 +2251,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -83.86 kcal/mol
 S298: 83.39 cal/mol/K
@@ -2280,7 +2280,7 @@ Frequencies (cm^-1) = 89.4,117.1,244.6,282.4,352.9,422.1,473.0,563.6,652.1,722.0
 entry(
     index = 41,
     label = "[C]DCO",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u0 p2 c0 {2,S} {5,S}
@@ -2302,7 +2302,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 98.29 kcal/mol
 S298: 62.11 cal/mol/K
@@ -2326,7 +2326,7 @@ Frequencies (cm^-1) = 450.8,512.4,894.6,1111.3,1196.2,1312.8,1474.3,3103.5,3620.
 entry(
     index = 42,
     label = "[O]OC(Br)(CO)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {8,S}
@@ -2356,7 +2356,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -193.43 kcal/mol
 S298: 104.23 cal/mol/K
@@ -2388,7 +2388,7 @@ Frequencies (cm^-1) = 60.3,66.1,149.0,155.8,188.2,227.0,248.9,295.3,310.7,328.2,
 entry(
     index = 43,
     label = "[CH2]C(Br)C(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {4,S}
@@ -2415,7 +2415,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -71.43 kcal/mol
 S298: 87.47 cal/mol/K
@@ -2444,7 +2444,7 @@ Frequencies (cm^-1) = 75.9,163.8,227.9,241.0,274.2,348.9,499.6,547.6,675.0,723.1
 entry(
     index = 44,
     label = "[CH]DC1OOC1(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -2469,7 +2469,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -25.33 kcal/mol
 S298: 78.96 cal/mol/K
@@ -2496,7 +2496,7 @@ Frequencies (cm^-1) = 132.7,201.1,277.4,440.1,473.0,508.7,602.2,650.2,667.2,726.
 entry(
     index = 45,
     label = "[CH2]C(Br)(CF)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -2526,7 +2526,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -179.09 kcal/mol
 S298: 100.56 cal/mol/K
@@ -2558,7 +2558,7 @@ Frequencies (cm^-1) = 66.3,96.4,143.5,170.2,227.3,245.0,267.7,308.1,356.2,379.8,
 entry(
     index = 46,
     label = "[O]OC(DO)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -2580,7 +2580,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -77.88 kcal/mol
 S298: 70.73 cal/mol/K
@@ -2604,7 +2604,7 @@ Frequencies (cm^-1) = 150.6,329.1,524.2,688.3,724.8,899.0,1150.9,1216.9,1983.6
 entry(
     index = 47,
     label = "C[C]C(Br)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  Br u0 p3 c0 {5,S}
@@ -2633,7 +2633,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -82.48 kcal/mol
 S298: 101.35 cal/mol/K
@@ -2664,7 +2664,7 @@ Frequencies (cm^-1) = 56.6,58.4,93.0,141.7,160.3,204.8,294.3,323.4,446.8,493.5,5
 entry(
     index = 48,
     label = "[O]CC([O])(Br)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  Br u0 p3 c0 {7,S}
@@ -2692,7 +2692,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -141.57 kcal/mol
 S298: 103.32 cal/mol/K
@@ -2722,7 +2722,7 @@ Frequencies (cm^-1) = 33.0,74.3,140.4,145.2,209.7,221.7,265.5,291.8,308.3,425.4,
 entry(
     index = 49,
     label = "CDCC(O[O])C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {7,S}
@@ -2752,7 +2752,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -139.97 kcal/mol
 S298: 95.71 cal/mol/K
@@ -2784,7 +2784,7 @@ Frequencies (cm^-1) = 57.4,69.8,84.4,186.0,217.3,255.0,345.9,357.5,466.7,536.3,5
 entry(
     index = 50,
     label = "CCDC(O[O])C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {6,S}
@@ -2814,7 +2814,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -139.96 kcal/mol
 S298: 95.15 cal/mol/K
@@ -2846,7 +2846,7 @@ Frequencies (cm^-1) = 60.3,113.3,134.7,162.5,200.8,216.7,324.1,340.9,377.3,503.8
 entry(
     index = 51,
     label = "[CH2]C(DCC)O[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  O u0 p2 c0 {2,S} {4,S}
@@ -2875,7 +2875,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 45.44 kcal/mol
 S298: 84.98 cal/mol/K
@@ -2906,7 +2906,7 @@ Frequencies (cm^-1) = 60.7,86.9,180.8,242.9,372.5,468.0,504.9,561.6,580.2,727.1,
 entry(
     index = 52,
     label = "FC1(F)[C]C1",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {3,S}
@@ -2929,7 +2929,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 26.67 kcal/mol
 S298: 71.94 cal/mol/K
@@ -2955,7 +2955,7 @@ Frequencies (cm^-1) = 90.5,253.8,443.5,529.6,548.2,705.7,774.1,911.1,989.0,1066.
 entry(
     index = 53,
     label = "ODC([CH]C(F)(F)F)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {8,S}
@@ -2984,7 +2984,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -313.33 kcal/mol
 S298: 107.62 cal/mol/K
@@ -3015,7 +3015,7 @@ Frequencies (cm^-1) = 7.5,33.5,74.2,118.7,197.3,235.1,301.4,327.8,360.6,424.7,49
 entry(
     index = 54,
     label = "[O]OCC(DO)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {8,S}
@@ -3043,7 +3043,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -180.28 kcal/mol
 S298: 89.44 cal/mol/K
@@ -3073,7 +3073,7 @@ Frequencies (cm^-1) = 20.3,54.7,98.8,170.2,218.8,279.0,322.6,417.3,483.6,505.6,5
 entry(
     index = 55,
     label = "CDC[C]C",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -3100,7 +3100,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 87.33 kcal/mol
 S298: 72.94 cal/mol/K
@@ -3129,7 +3129,7 @@ Frequencies (cm^-1) = 132.1,195.7,220.0,472.3,552.0,770.4,842.2,903.5,988.3,1013
 entry(
     index = 56,
     label = "CCDC1CDCC1",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -3159,7 +3159,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 52.23 kcal/mol
 S298: 76.79 cal/mol/K
@@ -3192,7 +3192,7 @@ Frequencies (cm^-1) = 158.0,191.0,193.8,314.6,484.7,493.2,682.2,772.8,851.9,881.
 entry(
     index = 57,
     label = "CD[C]C1OO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -3217,7 +3217,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 72.28 kcal/mol
 S298: 73.62 cal/mol/K
@@ -3244,7 +3244,7 @@ Frequencies (cm^-1) = 98.4,229.1,324.1,474.8,585.8,813.7,877.5,900.2,927.1,1076.
 entry(
     index = 58,
     label = "FC(F)[C]DCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -3269,7 +3269,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -26.90 kcal/mol
 S298: 86.86 cal/mol/K
@@ -3296,7 +3296,7 @@ Frequencies (cm^-1) = 30.3,87.2,196.0,326.6,486.9,528.5,549.6,643.5,764.5,929.5,
 entry(
     index = 59,
     label = "[CH]DC(Br)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -3321,7 +3321,7 @@ multiplicity 2
     reference = 'G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor',
     referenceType = "Theory",
     shortDesc = """G4 with m062xd3/jun-cc-pvtz 1D Hindered Rotor""",
-    longDesc = 
+    longDesc =
 """
 H298: -83.69 kcal/mol
 S298: 87.36 cal/mol/K
@@ -3349,7 +3349,7 @@ Frequencies (cm^-1) = 155.2,219.2,291.0,301.3,472.2,478.2,580.6,632.5,666.1,718.
 entry(
     index = 60,
     label = "[CH2]C(Br)(O[O])C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  Br u0 p3 c0 {7,S}
@@ -3377,7 +3377,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -108.24 kcal/mol
 S298: 101.04 cal/mol/K
@@ -3407,7 +3407,7 @@ Frequencies (cm^-1) = 65.5,83.3,141.5,191.2,218.0,248.7,281.8,313.7,355.2,389.8,
 entry(
     index = 61,
     label = "FC1(F)OC1(F)F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {6,S}
 2 F u0 p3 c0 {6,S}
@@ -3430,7 +3430,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -213.67 kcal/mol
 S298: 74.82 cal/mol/K
@@ -3456,7 +3456,7 @@ Frequencies (cm^-1) = 173.8,227.1,318.9,503.2,509.7,526.8,553.4,699.8,763.8,800.
 entry(
     index = 62,
     label = "FC1DC(F)C1",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {5,S}
@@ -3479,7 +3479,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -9.43 kcal/mol
 S298: 68.15 cal/mol/K
@@ -3505,7 +3505,7 @@ Frequencies (cm^-1) = 248.9,295.7,452.6,547.5,792.0,802.3,983.6,1106.8,1120.1,12
 entry(
     index = 63,
     label = "[O]OC(F)(F)CDCF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {6,S}
@@ -3532,7 +3532,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -127.81 kcal/mol
 S298: 89.85 cal/mol/K
@@ -3561,7 +3561,7 @@ Frequencies (cm^-1) = 77.4,109.1,177.6,197.6,292.9,379.9,412.0,426.3,524.9,629.0
 entry(
     index = 64,
     label = "[CH2]C[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u0 p2 c0 {4,D}
@@ -3586,7 +3586,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 41.91 kcal/mol
 S298: 72.48 cal/mol/K
@@ -3613,7 +3613,7 @@ Frequencies (cm^-1) = 150.4,189.8,251.3,443.7,619.6,785.3,796.1,978.2,1091.0,114
 entry(
     index = 65,
     label = "[O]OC(F)(F)[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 F u0 p3 c0 {6,S}
@@ -3637,7 +3637,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -76.75 kcal/mol
 S298: 84.62 cal/mol/K
@@ -3663,7 +3663,7 @@ Frequencies (cm^-1) = 53.9,111.3,207.5,289.6,380.5,440.5,493.8,620.8,627.6,752.6
 entry(
     index = 66,
     label = "FC1(F)OO[CH]C12OO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {8,S}
@@ -3690,7 +3690,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -76.66 kcal/mol
 S298: 88.59 cal/mol/K
@@ -3719,7 +3719,7 @@ Frequencies (cm^-1) = 65.6,158.4,205.4,225.0,264.8,334.3,418.8,448.8,535.4,577.9
 entry(
     index = 67,
     label = "CDCDCDCDCBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {3,S}
 2 C  u0 p0 c0 {4,D} {7,S} {8,S}
@@ -3744,7 +3744,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 113.69 kcal/mol
 S298: 83.08 cal/mol/K
@@ -3772,7 +3772,7 @@ Frequencies (cm^-1) = 75.4,141.6,203.8,331.6,391.8,456.3,565.4,567.3,659.5,750.1
 entry(
     index = 68,
     label = "[CH]DCC(DC)[CH]C",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -3803,7 +3803,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 107.25 kcal/mol
 S298: 87.22 cal/mol/K
@@ -3836,7 +3836,7 @@ Frequencies (cm^-1) = 29.2,111.7,192.6,205.8,310.7,461.0,476.3,547.2,569.5,642.8
 entry(
     index = 69,
     label = "FC(F)(F)[CH]Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -3860,7 +3860,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -121.38 kcal/mol
 S298: 85.78 cal/mol/K
@@ -3886,7 +3886,7 @@ Frequencies (cm^-1) = 41.2,152.5,266.0,319.3,420.6,524.1,570.6,646.7,769.7,897.7
 entry(
     index = 70,
     label = "F[C]1COOC1(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {7,S}
@@ -3913,7 +3913,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -124.12 kcal/mol
 S298: 83.93 cal/mol/K
@@ -3942,7 +3942,7 @@ Frequencies (cm^-1) = 68.6,188.8,234.6,288.1,398.0,439.8,506.7,589.7,624.8,670.6
 entry(
     index = 71,
     label = "FC1DCC(F)C1",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {3,S}
 2  F u0 p3 c0 {5,S}
@@ -3968,7 +3968,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -57.66 kcal/mol
 S298: 73.17 cal/mol/K
@@ -3997,7 +3997,7 @@ Frequencies (cm^-1) = 139.3,338.2,466.7,476.1,482.5,679.0,801.9,864.5,961.7,993.
 entry(
     index = 72,
     label = "ODC[C]1OO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -4020,7 +4020,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 19.63 kcal/mol
 S298: 71.61 cal/mol/K
@@ -4045,7 +4045,7 @@ Frequencies (cm^-1) = 190.5,214.4,332.0,543.7,728.7,885.8,936.6,1081.4,1376.0,15
 entry(
     index = 73,
     label = "FC1(F)[CH]COO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {5,S}
@@ -4072,7 +4072,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -83.37 kcal/mol
 S298: 79.74 cal/mol/K
@@ -4101,7 +4101,7 @@ Frequencies (cm^-1) = 111.0,209.8,254.8,381.1,434.8,508.5,553.6,679.7,710.7,878.
 entry(
     index = 74,
     label = "FC1C[C]1C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {5,S}
@@ -4129,7 +4129,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -137.50 kcal/mol
 S298: 87.50 cal/mol/K
@@ -4159,7 +4159,7 @@ Frequencies (cm^-1) = 44.7,104.4,173.4,290.8,362.5,421.3,490.5,516.9,582.4,655.6
 entry(
     index = 75,
     label = "CDC(C(F)Br)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {6,S}
 2  F  u0 p3 c0 {6,S}
@@ -4187,7 +4187,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -193.32 kcal/mol
 S298: 98.55 cal/mol/K
@@ -4218,7 +4218,7 @@ Frequencies (cm^-1) = 24.0,74.9,131.8,195.9,245.9,297.2,334.5,379.0,425.0,486.8,
 entry(
     index = 76,
     label = "Br[C]1CC1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -4243,7 +4243,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 70.78 kcal/mol
 S298: 72.22 cal/mol/K
@@ -4270,7 +4270,7 @@ Frequencies (cm^-1) = 222.1,296.4,469.7,746.2,833.7,843.9,1007.8,1027.8,1077.0,1
 entry(
     index = 77,
     label = "FC1DCC(F)(F)O1",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -4294,7 +4294,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -141.19 kcal/mol
 S298: 75.46 cal/mol/K
@@ -4321,7 +4321,7 @@ Frequencies (cm^-1) = 141.5,339.7,376.9,451.5,543.6,602.5,640.2,682.8,713.7,754.
 entry(
     index = 78,
     label = "OD[C]C(O)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {7,S}
@@ -4348,7 +4348,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -198.23 kcal/mol
 S298: 89.72 cal/mol/K
@@ -4377,7 +4377,7 @@ Frequencies (cm^-1) = 60.5,92.2,191.3,203.7,266.0,299.8,370.0,406.5,526.1,565.3,
 entry(
     index = 79,
     label = "[O]C(F)(F)CC(DO)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {7,S}
@@ -4404,7 +4404,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -195.65 kcal/mol
 S298: 89.13 cal/mol/K
@@ -4433,7 +4433,7 @@ Frequencies (cm^-1) = 40.0,82.4,152.6,300.7,319.2,336.7,504.5,515.2,566.3,601.3,
 entry(
     index = 80,
     label = "[O]OCC(F)DC(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {7,S}
@@ -4460,7 +4460,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -111.98 kcal/mol
 S298: 90.30 cal/mol/K
@@ -4489,7 +4489,7 @@ Frequencies (cm^-1) = 55.0,77.7,144.6,213.1,232.5,349.7,422.0,502.1,529.2,593.2,
 entry(
     index = 81,
     label = "CDC([CH]Br)O[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 Br u0 p3 c0 {5,S}
@@ -4515,7 +4515,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 59.06 kcal/mol
 S298: 85.39 cal/mol/K
@@ -4543,7 +4543,7 @@ Frequencies (cm^-1) = 92.1,165.6,186.2,247.6,430.7,502.0,548.7,568.5,658.4,767.4
 entry(
     index = 82,
     label = "[CH2]C(F)[C](F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 F u0 p3 c0 {4,S}
@@ -4569,7 +4569,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -69.24 kcal/mol
 S298: 83.42 cal/mol/K
@@ -4597,7 +4597,7 @@ Frequencies (cm^-1) = 69.7,122.5,206.6,230.9,351.3,478.7,496.6,585.1,709.1,825.8
 entry(
     index = 83,
     label = "CCC(Br)(O[O])C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -4629,7 +4629,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -165.34 kcal/mol
 S298: 106.12 cal/mol/K
@@ -4663,7 +4663,7 @@ Frequencies (cm^-1) = 60.8,97.1,109.6,149.3,161.5,201.6,231.3,253.1,300.3,321.3,
 entry(
     index = 84,
     label = "C[C]C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 F u0 p3 c0 {5,S}
@@ -4689,7 +4689,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -78.96 kcal/mol
 S298: 83.82 cal/mol/K
@@ -4717,7 +4717,7 @@ Frequencies (cm^-1) = 46.8,72.4,167.6,403.5,406.2,543.5,564.6,608.4,790.0,998.0,
 entry(
     index = 85,
     label = "[O]OC(DO)[CH]C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  F u0 p3 c0 {7,S}
@@ -4744,7 +4744,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -148.78 kcal/mol
 S298: 96.38 cal/mol/K
@@ -4773,7 +4773,7 @@ Frequencies (cm^-1) = 27.3,65.9,132.1,138.2,249.6,330.0,336.8,483.0,509.6,535.9,
 entry(
     index = 86,
     label = "[O]OC(Br)(CBr)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {8,S}
@@ -4802,7 +4802,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -149.17 kcal/mol
 S298: 108.97 cal/mol/K
@@ -4833,7 +4833,7 @@ Frequencies (cm^-1) = 55.4,66.5,101.9,112.3,141.6,183.3,238.6,265.7,281.1,313.3,
 entry(
     index = 87,
     label = "CDC(OO)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {6,S}
 2  F u0 p3 c0 {6,S}
@@ -4860,7 +4860,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -167.87 kcal/mol
 S298: 88.84 cal/mol/K
@@ -4890,7 +4890,7 @@ Frequencies (cm^-1) = 56.6,97.6,172.4,201.8,262.8,348.9,382.9,410.6,505.4,577.5,
 entry(
     index = 88,
     label = "FC(F)(F)[C]DCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -4915,7 +4915,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -82.17 kcal/mol
 S298: 90.42 cal/mol/K
@@ -4942,7 +4942,7 @@ Frequencies (cm^-1) = 19.0,86.2,195.0,238.1,453.2,486.2,506.0,574.9,612.7,657.8,
 entry(
     index = 89,
     label = "[CH2]C1(F)OOC1(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {6,S}
@@ -4969,7 +4969,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -122.36 kcal/mol
 S298: 85.81 cal/mol/K
@@ -4998,7 +4998,7 @@ Frequencies (cm^-1) = 96.5,147.7,199.0,272.6,323.4,385.1,443.9,499.1,536.4,573.5
 entry(
     index = 90,
     label = "[O]OCCDCC(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {7,S}
@@ -5028,7 +5028,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -142.13 kcal/mol
 S298: 96.56 cal/mol/K
@@ -5060,7 +5060,7 @@ Frequencies (cm^-1) = 42.2,70.7,104.5,147.4,199.2,239.2,392.6,399.7,454.8,539.3,
 entry(
     index = 91,
     label = "[O]OC1DCOOC1(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {7,S}
@@ -5087,7 +5087,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -80.96 kcal/mol
 S298: 88.13 cal/mol/K
@@ -5116,7 +5116,7 @@ Frequencies (cm^-1) = 94.3,100.6,186.1,220.0,356.6,364.1,438.9,443.0,600.0,621.7
 entry(
     index = 92,
     label = "FC(F)(F)C1DC(C(F)(F)F)CC1",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {9,S}
 2  F u0 p3 c0 {9,S}
@@ -5148,7 +5148,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -285.19 kcal/mol
 S298: 105.33 cal/mol/K
@@ -5183,7 +5183,7 @@ Frequencies (cm^-1) = 18.2,27.7,127.9,138.0,145.0,185.8,260.2,307.1,324.6,431.8,
 entry(
     index = 93,
     label = "[C]DCC",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -5207,7 +5207,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 137.69 kcal/mol
 S298: 62.84 cal/mol/K
@@ -5233,7 +5233,7 @@ Frequencies (cm^-1) = 301.4,712.0,856.4,1024.8,1051.6,1242.4,1338.6,1444.2,1462.
 entry(
     index = 94,
     label = "[O]OC1CDCC1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p2 c0 {2,S} {3,S}
@@ -5261,7 +5261,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 49.75 kcal/mol
 S298: 78.10 cal/mol/K
@@ -5291,7 +5291,7 @@ Frequencies (cm^-1) = 48.3,183.9,312.5,463.3,481.2,705.6,851.2,878.2,924.0,951.3
 entry(
     index = 95,
     label = "CDC1CDCC1C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -5321,7 +5321,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 52.15 kcal/mol
 S298: 76.11 cal/mol/K
@@ -5354,7 +5354,7 @@ Frequencies (cm^-1) = 171.1,225.4,237.1,326.5,394.3,642.6,709.5,716.6,802.9,811.
 entry(
     index = 96,
     label = "[CH]DC(Br)C(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -5379,7 +5379,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -26.67 kcal/mol
 S298: 85.61 cal/mol/K
@@ -5406,7 +5406,7 @@ Frequencies (cm^-1) = 58.6,165.3,272.8,291.9,313.4,515.0,582.7,674.1,706.8,767.2
 entry(
     index = 97,
     label = "[CH2]CC(Br)(OO)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {7,S}
@@ -5438,7 +5438,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -152.12 kcal/mol
 S298: 109.12 cal/mol/K
@@ -5472,7 +5472,7 @@ Frequencies (cm^-1) = 53.7,100.7,109.4,142.6,149.0,162.1,228.9,238.2,290.2,313.2
 entry(
     index = 98,
     label = "[CH2]C([CH2])C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  F u0 p3 c0 {5,S}
@@ -5501,7 +5501,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -91.73 kcal/mol
 S298: 90.32 cal/mol/K
@@ -5532,7 +5532,7 @@ Frequencies (cm^-1) = 80.2,90.7,120.7,218.7,238.8,335.4,401.9,440.8,496.5,509.4,
 entry(
     index = 99,
     label = "C#CC(F)(F)O[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -5557,7 +5557,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -33.93 kcal/mol
 S298: 82.47 cal/mol/K
@@ -5584,7 +5584,7 @@ Frequencies (cm^-1) = 93.6,163.0,185.0,290.2,434.9,455.5,515.2,579.8,685.5,703.9
 entry(
     index = 100,
     label = "C[CH]C1(C(F)(F)F)OO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {7,S}
@@ -5614,7 +5614,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -134.15 kcal/mol
 S298: 95.11 cal/mol/K
@@ -5646,7 +5646,7 @@ Frequencies (cm^-1) = 66.7,87.0,94.4,181.5,215.5,281.0,348.3,362.2,451.7,459.6,5
 entry(
     index = 101,
     label = "[O]OC(F)CDC(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {6,S}
@@ -5673,7 +5673,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -121.83 kcal/mol
 S298: 90.90 cal/mol/K
@@ -5702,7 +5702,7 @@ Frequencies (cm^-1) = 41.3,67.0,138.0,174.4,303.3,384.1,479.9,520.3,552.9,608.7,
 entry(
     index = 102,
     label = "[O]OCDC(O)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {7,S}
@@ -5730,7 +5730,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -177.12 kcal/mol
 S298: 91.26 cal/mol/K
@@ -5760,7 +5760,7 @@ Frequencies (cm^-1) = 48.9,115.8,185.5,229.0,281.4,312.4,366.7,414.9,518.5,557.7
 entry(
     index = 103,
     label = "FC(F)(F)[C](Br)COBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {9,S}
@@ -5788,7 +5788,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -129.65 kcal/mol
 S298: 109.52 cal/mol/K
@@ -5818,7 +5818,7 @@ Frequencies (cm^-1) = 16.8,29.3,55.9,142.5,159.3,189.9,321.3,331.0,358.9,438.1,5
 entry(
     index = 104,
     label = "CC(Br)[C](Br)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -5848,7 +5848,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -134.97 kcal/mol
 S298: 108.97 cal/mol/K
@@ -5880,7 +5880,7 @@ Frequencies (cm^-1) = 27.0,41.3,82.8,160.1,166.8,225.6,244.5,253.9,327.6,357.2,4
 entry(
     index = 105,
     label = "FC1(F)CDC1",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {3,S}
@@ -5903,7 +5903,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -35.50 kcal/mol
 S298: 66.43 cal/mol/K
@@ -5929,7 +5929,7 @@ Frequencies (cm^-1) = 389.3,422.4,506.8,535.6,711.6,792.5,931.9,963.8,972.1,1131
 entry(
     index = 106,
     label = "FC(F)(F)[C]1COOC1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {8,S}
@@ -5959,7 +5959,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -139.99 kcal/mol
 S298: 94.17 cal/mol/K
@@ -5991,7 +5991,7 @@ Frequencies (cm^-1) = 25.5,49.9,153.1,190.5,296.6,339.0,398.7,412.7,560.2,572.0,
 entry(
     index = 107,
     label = "C#CC(F)(F)[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -6016,7 +6016,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -28.40 kcal/mol
 S298: 85.36 cal/mol/K
@@ -6043,7 +6043,7 @@ Frequencies (cm^-1) = 35.4,127.6,183.3,312.2,396.0,400.9,490.0,567.6,625.7,665.0
 entry(
     index = 108,
     label = "F[C]1CO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -6066,7 +6066,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -10.81 kcal/mol
 S298: 65.11 cal/mol/K
@@ -6091,7 +6091,7 @@ Frequencies (cm^-1) = 404.7,505.3,738.0,905.9,985.3,1087.9,1145.5,1179.9,1408.3,
 entry(
     index = 109,
     label = "ODCDC(O)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {6,S}
 2 F u0 p3 c0 {6,S}
@@ -6116,7 +6116,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -197.50 kcal/mol
 S298: 86.50 cal/mol/K
@@ -6144,7 +6144,7 @@ Frequencies (cm^-1) = 59.2,138.4,162.7,219.2,319.0,401.9,435.4,482.2,535.2,574.7
 entry(
     index = 110,
     label = "ODC([CH]O)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {6,S}
@@ -6171,7 +6171,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -208.96 kcal/mol
 S298: 87.77 cal/mol/K
@@ -6200,7 +6200,7 @@ Frequencies (cm^-1) = 31.0,159.8,192.3,302.1,326.1,366.9,424.2,512.0,582.8,648.8
 entry(
     index = 111,
     label = "[O]OCDCDC(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {6,S}
@@ -6225,7 +6225,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -24.53 kcal/mol
 S298: 84.21 cal/mol/K
@@ -6252,7 +6252,7 @@ Frequencies (cm^-1) = 84.4,93.9,156.1,288.1,405.1,433.8,595.7,599.0,630.6,890.2,
 entry(
     index = 112,
     label = "ODC(F)OO",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 O u0 p2 c0 {3,S} {5,S}
@@ -6274,7 +6274,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -121.18 kcal/mol
 S298: 69.87 cal/mol/K
@@ -6299,7 +6299,7 @@ Frequencies (cm^-1) = 202.3,337.0,367.6,533.7,689.5,771.8,946.9,1067.2,1322.2,15
 entry(
     index = 113,
     label = "FC1(F)[C]DC1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -6322,7 +6322,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 20.40 kcal/mol
 S298: 68.97 cal/mol/K
@@ -6347,7 +6347,7 @@ Frequencies (cm^-1) = 333.8,461.9,503.1,541.0,746.1,793.4,851.8,958.5,1193.4,128
 entry(
     index = 114,
     label = "[O]C(F)(F)C1(CDO)OO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {8,S}
@@ -6374,7 +6374,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -107.14 kcal/mol
 S298: 92.39 cal/mol/K
@@ -6403,7 +6403,7 @@ Frequencies (cm^-1) = 43.1,75.0,164.2,191.3,267.0,312.6,376.5,398.4,445.7,578.2,
 entry(
     index = 115,
     label = "CDCDCO[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -6428,7 +6428,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 62.32 kcal/mol
 S298: 74.15 cal/mol/K
@@ -6455,7 +6455,7 @@ Frequencies (cm^-1) = 102.4,176.5,316.0,469.1,569.1,601.9,876.3,927.4,996.7,1013
 entry(
     index = 116,
     label = "[O]OC(O)([C]DO)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1  F u0 p3 c0 {9,S}
@@ -6483,7 +6483,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -181.13 kcal/mol
 S298: 100.71 cal/mol/K
@@ -6513,7 +6513,7 @@ Frequencies (cm^-1) = 51.7,73.6,103.8,156.2,183.7,256.0,278.2,326.3,355.3,361.1,
 entry(
     index = 117,
     label = "[O]C(F)(F)CBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -6538,7 +6538,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -101.25 kcal/mol
 S298: 82.91 cal/mol/K
@@ -6565,7 +6565,7 @@ Frequencies (cm^-1) = 67.4,157.2,288.7,311.3,526.8,528.6,597.3,666.8,748.4,867.2
 entry(
     index = 118,
     label = "CDCDC[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {5,D}
@@ -6590,7 +6590,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 54.14 kcal/mol
 S298: 73.48 cal/mol/K
@@ -6617,7 +6617,7 @@ Frequencies (cm^-1) = 135.5,168.8,388.8,438.1,540.9,553.3,875.2,878.2,978.1,994.
 entry(
     index = 119,
     label = "[CH2]C(C)(Br)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -6647,7 +6647,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -138.39 kcal/mol
 S298: 96.21 cal/mol/K
@@ -6679,7 +6679,7 @@ Frequencies (cm^-1) = 73.5,145.0,199.2,224.9,242.8,252.5,275.5,334.3,369.6,422.6
 entry(
     index = 120,
     label = "[O]OC(O)(CDO)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {9,S}
@@ -6708,7 +6708,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -222.77 kcal/mol
 S298: 98.48 cal/mol/K
@@ -6739,7 +6739,7 @@ Frequencies (cm^-1) = 39.1,77.5,123.1,198.0,213.8,267.0,300.9,314.6,364.9,386.1,
 entry(
     index = 121,
     label = "CDC(O[O])C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {6,S}
@@ -6766,7 +6766,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -132.89 kcal/mol
 S298: 87.70 cal/mol/K
@@ -6795,7 +6795,7 @@ Frequencies (cm^-1) = 56.5,104.5,196.9,242.6,340.8,395.2,420.6,495.0,575.9,667.9
 entry(
     index = 122,
     label = "[CH2]C(DC)O[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u0 p2 c0 {2,S} {3,S}
@@ -6821,7 +6821,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 52.84 kcal/mol
 S298: 74.68 cal/mol/K
@@ -6849,7 +6849,7 @@ Frequencies (cm^-1) = 110.0,349.1,398.9,499.4,528.6,584.7,591.1,737.7,782.0,827.
 entry(
     index = 123,
     label = "FC1[CH]C(F)(F)OO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {6,S}
@@ -6876,7 +6876,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -134.23 kcal/mol
 S298: 83.71 cal/mol/K
@@ -6905,7 +6905,7 @@ Frequencies (cm^-1) = 78.0,160.8,278.2,302.9,409.7,468.7,510.6,541.8,597.2,683.3
 entry(
     index = 124,
     label = "[CH]DC(Br)C(DO)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -6930,7 +6930,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -10.74 kcal/mol
 S298: 83.43 cal/mol/K
@@ -6957,7 +6957,7 @@ Frequencies (cm^-1) = 58.1,182.6,295.3,327.8,333.7,565.6,593.0,632.6,710.6,730.9
 entry(
     index = 125,
     label = "CDC(F)C(F)(F)O[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {6,S}
@@ -6984,7 +6984,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -126.80 kcal/mol
 S298: 88.35 cal/mol/K
@@ -7013,7 +7013,7 @@ Frequencies (cm^-1) = 50.3,97.9,200.0,232.4,304.7,366.7,431.5,512.2,540.0,593.5,
 entry(
     index = 126,
     label = "FC1[C]C1(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 F u0 p3 c0 {4,S}
@@ -7037,7 +7037,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -8.87 kcal/mol
 S298: 75.64 cal/mol/K
@@ -7063,7 +7063,7 @@ Frequencies (cm^-1) = 182.9,224.3,366.1,511.6,553.4,596.1,715.9,849.3,957.8,1021
 entry(
     index = 127,
     label = "[O]OC1C(F)OOC1(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  F u0 p3 c0 {9,S}
@@ -7092,7 +7092,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -163.68 kcal/mol
 S298: 94.06 cal/mol/K
@@ -7123,7 +7123,7 @@ Frequencies (cm^-1) = 38.4,86.3,175.1,189.8,261.1,316.4,373.3,400.7,486.5,526.2,
 entry(
     index = 128,
     label = "FC(F)(F)[C]CBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 F  u0 p3 c0 {5,S}
@@ -7148,7 +7148,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -65.84 kcal/mol
 S298: 90.34 cal/mol/K
@@ -7176,7 +7176,7 @@ Frequencies (cm^-1) = 58.3,105.3,148.6,211.8,336.3,383.2,427.5,548.4,556.0,599.3
 entry(
     index = 129,
     label = "BrCD[C]C1OO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -7201,7 +7201,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 78.23 kcal/mol
 S298: 86.14 cal/mol/K
@@ -7228,7 +7228,7 @@ Frequencies (cm^-1) = 29.8,87.6,214.4,291.5,522.6,530.4,567.8,760.0,826.4,879.7,
 entry(
     index = 130,
     label = "[C]DC(F)F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {3,S}
@@ -7248,7 +7248,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 30.73 kcal/mol
 S298: 63.02 cal/mol/K
@@ -7271,7 +7271,7 @@ Frequencies (cm^-1) = 299.0,511.6,596.8,952.5,1298.6,1720.2
 entry(
     index = 131,
     label = "C#CCO[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -7296,7 +7296,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 64.22 kcal/mol
 S298: 75.46 cal/mol/K
@@ -7323,7 +7323,7 @@ Frequencies (cm^-1) = 62.2,169.2,326.2,433.8,504.2,628.7,701.6,919.3,984.2,998.3
 entry(
     index = 132,
     label = "ODC(F)CBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {4,S}
 2 F  u0 p3 c0 {5,S}
@@ -7346,7 +7346,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -92.99 kcal/mol
 S298: 79.24 cal/mol/K
@@ -7372,7 +7372,7 @@ Frequencies (cm^-1) = 53.9,160.0,384.9,524.7,632.9,753.3,862.6,909.6,1118.0,1235
 entry(
     index = 133,
     label = "FC1(F)[C]DCOO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -7397,7 +7397,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -15.84 kcal/mol
 S298: 76.57 cal/mol/K
@@ -7424,7 +7424,7 @@ Frequencies (cm^-1) = 101.9,319.2,424.8,479.2,507.9,674.7,728.9,766.2,838.6,859.
 entry(
     index = 134,
     label = "ODC(O)[C]DCBr",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {5,S}
@@ -7449,7 +7449,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -11.24 kcal/mol
 S298: 89.28 cal/mol/K
@@ -7476,7 +7476,7 @@ Frequencies (cm^-1) = 17.8,70.0,216.7,333.0,508.8,544.2,581.2,593.9,746.5,753.5,
 entry(
     index = 135,
     label = "[CH2]C(Br)(Br)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {6,S}
@@ -7503,7 +7503,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -119.13 kcal/mol
 S298: 99.47 cal/mol/K
@@ -7532,7 +7532,7 @@ Frequencies (cm^-1) = 70.9,136.8,139.2,191.1,209.2,252.2,271.4,295.0,311.7,461.9
 entry(
     index = 136,
     label = "C#CC(Br)O[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {4,S}
@@ -7557,7 +7557,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 72.42 kcal/mol
 S298: 86.51 cal/mol/K
@@ -7584,7 +7584,7 @@ Frequencies (cm^-1) = 71.7,140.5,186.0,275.7,390.8,459.4,517.6,641.6,669.7,698.7
 entry(
     index = 137,
     label = "OCDC(OO)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {7,S}
 2  F u0 p3 c0 {7,S}
@@ -7612,7 +7612,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -210.37 kcal/mol
 S298: 93.36 cal/mol/K
@@ -7643,7 +7643,7 @@ Frequencies (cm^-1) = 51.5,103.9,152.5,178.9,239.6,293.9,307.2,361.5,392.7,430.7
 entry(
     index = 138,
     label = "C#CC1OO1",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -7666,7 +7666,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 60.22 kcal/mol
 S298: 69.77 cal/mol/K
@@ -7692,7 +7692,7 @@ Frequencies (cm^-1) = 206.7,216.9,525.5,553.0,677.7,691.7,828.0,881.9,971.9,1151
 entry(
     index = 139,
     label = "OC(DCBr)C(F)(F)F",
-    molecule = 
+    molecule =
 """
 1  Br u0 p3 c0 {8,S}
 2  F  u0 p3 c0 {6,S}
@@ -7718,7 +7718,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -185.16 kcal/mol
 S298: 91.00 cal/mol/K
@@ -7747,7 +7747,7 @@ Frequencies (cm^-1) = 52.8,135.4,151.6,214.4,298.3,317.0,417.5,434.1,523.8,573.8
 entry(
     index = 140,
     label = "FC1C(F)(F)C1(F)F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {6,S}
 2 F u0 p3 c0 {7,S}
@@ -7772,7 +7772,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -200.97 kcal/mol
 S298: 83.36 cal/mol/K
@@ -7800,7 +7800,7 @@ Frequencies (cm^-1) = 138.9,145.9,195.3,253.8,286.7,427.9,433.8,534.3,604.1,687.
 entry(
     index = 141,
     label = "[C]1DCOOC1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -7825,7 +7825,7 @@ multiplicity 2
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 72.60 kcal/mol
 S298: 72.74 cal/mol/K
@@ -7852,7 +7852,7 @@ Frequencies (cm^-1) = 41.9,237.3,705.9,782.0,831.4,847.5,945.4,1005.6,1017.0,107
 entry(
     index = 142,
     label = "[C]DC(F)Br",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 Br u0 p3 c0 {3,S}
@@ -7873,7 +7873,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 106.99 kcal/mol
 S298: 72.92 cal/mol/K
@@ -7896,7 +7896,7 @@ Frequencies (cm^-1) = 256.7,298.3,347.9,597.1,1040.5,1396.4
 entry(
     index = 143,
     label = "OD[C]C[C](F)F",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 F u0 p3 c0 {5,S}
@@ -7921,7 +7921,7 @@ multiplicity 3
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -53.75 kcal/mol
 S298: 83.20 cal/mol/K

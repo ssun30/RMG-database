@@ -14,7 +14,7 @@ entry(
     label = "O + N2 <=> N + NO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+14, 'cm^3/(mol*s)'), n=0, Ea=(76774, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -28,7 +28,7 @@ entry(
         arrheniusLow = Arrhenius(A=(1.4e+15, 'cm^3/(mol*s)'), n=0, Ea=(148345, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -42,7 +42,7 @@ entry(
         arrheniusLow = Arrhenius(A=(5.7e+14, 'cm^3/(mol*s)'), n=0, Ea=(56061, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -53,7 +53,7 @@ entry(
     label = "N2O + O <=> N2 + O2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.4e+12, 'cm^3/(mol*s)'), n=0, Ea=(10803, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -65,7 +65,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.9e+13, 'cm^3/(mol*s)'), n=0, Ea=(23135, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -79,7 +79,7 @@ entry(
         arrheniusLow = Arrhenius(A=(3.6e+16, 'cm^3/(mol*s)'), n=0, Ea=(93733, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -91,7 +91,7 @@ entry(
     degeneracy = 3,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(540000, 'cm^3/(mol*s)'), n=2.4, Ea=(9910, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -103,7 +103,7 @@ entry(
     degeneracy = 3,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(5e+07, 'cm^3/(mol*s)'), n=1.6, Ea=(953, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -120,7 +120,7 @@ entry(
         Ea = (6454, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -132,7 +132,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(7934, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -143,7 +143,7 @@ entry(
     label = "HO2 + NO <=> NO2 + OH",
     degeneracy = 2,
     kinetics = Arrhenius(A=(2.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(-477, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -176,7 +176,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -188,7 +188,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.2e+14, 'cm^3/(mol*s)'), n=0, Ea=(16741, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -204,7 +204,7 @@ entry(
         Ea = (35349, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -220,7 +220,7 @@ entry(
         Ea = (47065, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -236,7 +236,7 @@ entry(
         Ea = (1311, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -252,7 +252,7 @@ entry(
         Ea = (12193, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -275,7 +275,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -286,7 +286,7 @@ entry(
     label = "NH(T) + O2 <=> NO + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.6e+10, 'cm^3/(mol*s)'), n=0, Ea=(1529, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -297,7 +297,7 @@ entry(
     label = "NH(T) + O2 <=> H + NO2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.3e+10, 'cm^3/(mol*s)'), n=0, Ea=(2482, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -308,7 +308,7 @@ entry(
     label = "NH(T) + O2 <=> HNO + O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(460000, 'cm^3/(mol*s)'), n=2, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -324,7 +324,7 @@ entry(
         Ea = (29570, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -340,7 +340,7 @@ entry(
         Ea = (35081, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -351,7 +351,7 @@ entry(
     label = "NH2 + HO2 <=> NH2O + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -368,7 +368,7 @@ entry(
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -379,7 +379,7 @@ entry(
     label = "NH2 + O <=> HNO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -391,7 +391,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(7e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -419,7 +419,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -431,7 +431,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(50, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -464,7 +464,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -497,7 +497,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -530,7 +530,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -542,7 +542,7 @@ entry(
     degeneracy = 4,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(9929, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -558,7 +558,7 @@ entry(
         Ea = (-1201, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -574,7 +574,7 @@ entry(
         Ea = (-765, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -607,7 +607,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -618,7 +618,7 @@ entry(
     label = "CH3 + NO + N2 <=> CH3NO + N2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e+13, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -646,7 +646,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -662,7 +662,7 @@ entry(
         Ea = (11717, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -678,7 +678,7 @@ entry(
         Ea = (12392, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -694,7 +694,7 @@ entry(
         Ea = (288, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -705,7 +705,7 @@ entry(
     label = "CH3 + N <=> HCN + H2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.7e+12, 'cm^3/(mol*s)'), n=0.15, Ea=(-89, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -721,7 +721,7 @@ entry(
         Ea = (-367, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -754,7 +754,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -782,7 +782,7 @@ entry(
             Arrhenius(A=(7.4e+12, 'cm^3/(mol*s)'), n=0, Ea=(12071, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -815,7 +815,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -848,7 +848,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -865,7 +865,7 @@ entry(
         Ea = (9205, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -882,7 +882,7 @@ entry(
         Ea = (7566, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -915,7 +915,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -926,7 +926,7 @@ entry(
     label = "CH2(T) + N2 <=> HCN + NH(T)",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(73954, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -942,7 +942,7 @@ entry(
         Ea = (576, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -958,7 +958,7 @@ entry(
         Ea = (755, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -974,7 +974,7 @@ entry(
         Ea = (1271, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -990,7 +990,7 @@ entry(
         Ea = (1331, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1006,7 +1006,7 @@ entry(
         Ea = (4111, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1039,7 +1039,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1050,7 +1050,7 @@ entry(
     label = "CH + N2 <=> HCN + N",
     degeneracy = 2,
     kinetics = Arrhenius(A=(4.4e+12, 'cm^3/(mol*s)'), n=0, Ea=(21964, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1061,7 +1061,7 @@ entry(
     label = "CH + NO <=> HCN + O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1072,7 +1072,7 @@ entry(
     label = "CH + NO <=> H + NCO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1083,7 +1083,7 @@ entry(
     label = "CH + NO <=> N + HCO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.9e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1094,7 +1094,7 @@ entry(
     label = "CH + NO <=> NH(T) + CO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1105,7 +1105,7 @@ entry(
     label = "CH + NO <=> OH + CN",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.3e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1117,7 +1117,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(9e+09, 'cm^3/(mol*s)'), n=1, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1133,7 +1133,7 @@ entry(
         Ea = (21249, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1144,7 +1144,7 @@ entry(
     label = "N + OH <=> NO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.1e+14, 'cm^3/(mol*s)'), n=0, Ea=(1122, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1155,7 +1155,7 @@ entry(
     label = "CH + N <=> CN + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.7e+14, 'cm^3/(mol*s)'), n=-0.09, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1166,7 +1166,7 @@ entry(
     label = "CH2(T) + N <=> HCN + H",
     degeneracy = 2,
     kinetics = Arrhenius(A=(5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1177,7 +1177,7 @@ entry(
     label = "NH(T) + N <=> N2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1188,7 +1188,7 @@ entry(
     label = "NH2 + N <=> N2 + H + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1199,7 +1199,7 @@ entry(
     label = "CN + N <=> C(T) + N2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(-556, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1210,7 +1210,7 @@ entry(
     label = "NH(T) + NH(T) <=> N2 + H + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1221,7 +1221,7 @@ entry(
     label = "NH2 + NH(T) <=> N2H2 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.5e+15, 'cm^3/(mol*s)'), n=-0.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1233,7 +1233,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(2443, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1244,7 +1244,7 @@ entry(
     label = "NH(T) + OH <=> HNO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1256,7 +1256,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-487, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1268,7 +1268,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.5e+13, 'cm^3/(mol*s)'), n=0, Ea=(1728, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1279,7 +1279,7 @@ entry(
     label = "NH(T) + O <=> NO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1290,7 +1290,7 @@ entry(
     label = "NH(T) + CH3 <=> H2CNH + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1302,7 +1302,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(5848, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1319,7 +1319,7 @@ entry(
         Ea = (-894, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1335,7 +1335,7 @@ entry(
         Ea = (2453, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1347,7 +1347,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(496, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1364,7 +1364,7 @@ entry(
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1381,7 +1381,7 @@ entry(
         Ea = (-1599, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1393,7 +1393,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(1698, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1405,7 +1405,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1417,7 +1417,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(70211, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1429,7 +1429,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(70717, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1460,7 +1460,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1478,7 +1478,7 @@ entry(
             Arrhenius(A=(1.3e+45, 's^-1'), n=-10.13, Ea=(70757, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1490,7 +1490,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(496, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1507,7 +1507,7 @@ entry(
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1519,7 +1519,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1152, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1536,7 +1536,7 @@ entry(
         Ea = (1969, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1553,7 +1553,7 @@ entry(
         Ea = (-1192, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1565,7 +1565,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(11915, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1576,7 +1576,7 @@ entry(
     label = "N2H2 + NO <=> N2O + NH2",
     degeneracy = 2,
     kinetics = Arrhenius(A=(4e+12, 'cm^3/(mol*s)'), n=0, Ea=(51762, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1617,7 +1617,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli.
 The exponential factor of k30a2 at 0.1 atm is -5.77 in the body text of the book while that is inconsistently -7.77 in the table of 'Summary of Rate Constant Parameters.' The difference of the rate constants with those exponential factors are less than one order of magnitude.
@@ -1629,7 +1629,7 @@ entry(
     label = "H2NN(S) + O2 <=> NH2 + NO2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(5958, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1645,7 +1645,7 @@ entry(
         Ea = (4468, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1657,7 +1657,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1673,7 +1673,7 @@ entry(
         Ea = (2701, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1685,7 +1685,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1696,7 +1696,7 @@ entry(
     label = "H2NN(S) + OH <=> NH2NO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1708,7 +1708,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1719,7 +1719,7 @@ entry(
     label = "H2NN(S) + CH3 <=> H2CNNH2 + H",
     degeneracy = 3,
     kinetics = Arrhenius(A=(830000, 'cm^3/(mol*s)'), n=1.93, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1730,7 +1730,7 @@ entry(
     label = "H2NN(S) + CH3 <=> CH3NNH + H",
     degeneracy = 2,
     kinetics = Arrhenius(A=(830000, 'cm^3/(mol*s)'), n=1.93, Ea=(6494, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1742,7 +1742,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.6e+06, 'cm^3/(mol*s)'), n=1.87, Ea=(129, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1758,7 +1758,7 @@ entry(
         Ea = (-1331, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1775,7 +1775,7 @@ entry(
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1786,7 +1786,7 @@ entry(
     label = "H2NN(S) + HO2 <=> NH2NO + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(660000, 'cm^3/(mol*s)'), n=1.94, Ea=(7050, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1798,7 +1798,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1816,7 +1816,7 @@ entry(
             Arrhenius(A=(1.8e+45, 's^-1'), n=-9.39, Ea=(70144, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1828,7 +1828,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1839,7 +1839,7 @@ entry(
     label = "N2H3 + O <=> NH2 + HNO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1850,7 +1850,7 @@ entry(
     label = "N2H3 + O <=> NH2NO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1862,7 +1862,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-645, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1874,7 +1874,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1886,7 +1886,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1898,7 +1898,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(1817, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1910,7 +1910,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1928,7 +1928,7 @@ entry(
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1940,7 +1940,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1951,7 +1951,7 @@ entry(
     label = "N2H3 + HO2 <=> H2NNHO + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1963,7 +1963,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1975,7 +1975,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(2125, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -1993,7 +1993,7 @@ entry(
             Arrhenius(A=(2.5e+39, 's^-1'), n=-8.19, Ea=(69668, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2005,7 +2005,7 @@ entry(
     degeneracy = 4,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(9.6e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4836, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2017,7 +2017,7 @@ entry(
     degeneracy = 4,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(6.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(2850, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2029,7 +2029,7 @@ entry(
     degeneracy = 4,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+06, 'cm^3/(mol*s)'), n=2, Ea=(-645, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2046,7 +2046,7 @@ entry(
         Ea = (5322, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2063,7 +2063,7 @@ entry(
         Ea = (1628, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2074,7 +2074,7 @@ entry(
     label = "NO + C(T) <=> CO + N",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2085,7 +2085,7 @@ entry(
     label = "NO + C(T) <=> CN + O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2096,7 +2096,7 @@ entry(
     label = "NO + HCCO <=> HCNO + CO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(695, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2107,7 +2107,7 @@ entry(
     label = "NO + HCCO <=> HCN + CO2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(695, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2118,7 +2118,7 @@ entry(
     label = "NO2 + H <=> NO + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.3e+14, 'cm^3/(mol*s)'), n=0, Ea=(357, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2130,7 +2130,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.9e+12, 'cm^3/(mol*s)'), n=0, Ea=(-238, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2144,7 +2144,7 @@ entry(
         arrheniusLow = Arrhenius(A=(5.7e+15, 'cm^3/(mol*s)'), n=0, Ea=(59954, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2160,7 +2160,7 @@ entry(
         Ea = (258, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2176,7 +2176,7 @@ entry(
         Ea = (258, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2188,7 +2188,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2200,7 +2200,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(0.013, 'cm^3/(mol*s)'), n=4.72, Ea=(36540, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2214,7 +2214,7 @@ entry(
         arrheniusLow = Arrhenius(A=(2.6e+16, 'cm^3/(mol*s)'), n=0, Ea=(48654, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2225,7 +2225,7 @@ entry(
     label = "HNO + HNO <=> N2O + H2O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(8.5e+08, 'cm^3/(mol*s)'), n=0, Ea=(3078, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2242,7 +2242,7 @@ entry(
         Ea = (-953, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2254,7 +2254,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.5e+11, 'cm^3/(mol*s)'), n=0.72, Ea=(655, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2266,7 +2266,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.5e+11, 'cm^3/(mol*s)'), n=0.72, Ea=(655, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2283,7 +2283,7 @@ entry(
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2294,7 +2294,7 @@ entry(
     label = "HNO + NO <=> N2O + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(8.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(29570, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2306,7 +2306,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(15887, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2323,7 +2323,7 @@ entry(
         Ea = (29252, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2342,7 +2342,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2360,7 +2360,7 @@ entry(
             Arrhenius(A=(2.6e+28, 's^-1'), n=-5.06, Ea=(44769, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2371,7 +2371,7 @@ entry(
     label = "NH2O + H <=> NH2 + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2383,7 +2383,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(1559, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2395,7 +2395,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(487, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2407,7 +2407,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2418,7 +2418,7 @@ entry(
     label = "NH2O + CH3 <=> CH3O + NH2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2435,7 +2435,7 @@ entry(
         Ea = (2959, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2452,7 +2452,7 @@ entry(
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2464,7 +2464,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2476,7 +2476,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2495,7 +2495,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2506,7 +2506,7 @@ entry(
     label = "HNOH + H <=> NH2 + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2518,7 +2518,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(377, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2530,7 +2530,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2542,7 +2542,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2553,7 +2553,7 @@ entry(
     label = "HNOH + CH3 <=> CH3NH + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2570,7 +2570,7 @@ entry(
         Ea = (2095, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2581,7 +2581,7 @@ entry(
     label = "HNOH + NH2 <=> N2H3 + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.7e+06, 'cm^3/(mol*s)'), n=1.82, Ea=(715, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2597,7 +2597,7 @@ entry(
         Ea = (1926, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2614,7 +2614,7 @@ entry(
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2625,7 +2625,7 @@ entry(
     label = "HNOH + HO2 <=> HONHO + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2637,7 +2637,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2649,7 +2649,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2668,7 +2668,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2687,7 +2687,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2699,7 +2699,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2e+08, 'cm^3/(mol*s)'), n=1.55, Ea=(6613, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2715,7 +2715,7 @@ entry(
         Ea = (3843, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2731,7 +2731,7 @@ entry(
         Ea = (4965, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2743,7 +2743,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(3028, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2755,7 +2755,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-596, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2767,7 +2767,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(810000, 'cm^3/(mol*s)'), n=1.87, Ea=(5501, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2779,7 +2779,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(1916, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2797,7 +2797,7 @@ entry(
             Arrhenius(A=(2e+30, 's^-1'), n=-5.5, Ea=(53691, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2809,7 +2809,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4160, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2821,7 +2821,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(2363, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2833,7 +2833,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-794, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2845,7 +2845,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(810000, 'cm^3/(mol*s)'), n=1.87, Ea=(4836, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2857,7 +2857,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(874, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2875,7 +2875,7 @@ entry(
             Arrhenius(A=(5.3e+25, 's^-1'), n=-4.34, Ea=(50194, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2886,7 +2886,7 @@ entry(
     label = "OH + HCN <=> HNCO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4400, 'cm^3/(mol*s)'), n=2.26, Ea=(6395, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2902,7 +2902,7 @@ entry(
         Ea = (13365, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2913,7 +2913,7 @@ entry(
     label = "OH + HCN <=> NH2 + CO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(160, 'cm^3/(mol*s)'), n=2.56, Ea=(8996, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2946,7 +2946,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2962,7 +2962,7 @@ entry(
         Ea = (7487, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2973,7 +2973,7 @@ entry(
     label = "HCN + O <=> NCO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+08, 'cm^3/(mol*s)'), n=1.47, Ea=(7586, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -2990,7 +2990,7 @@ entry(
         Ea = (20663, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3001,7 +3001,7 @@ entry(
     label = "O + HNC <=> NH(T) + CO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(2184, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3012,7 +3012,7 @@ entry(
     label = "OH + HNC <=> HNCO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(3694, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3028,7 +3028,7 @@ entry(
         Ea = (4111, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3044,7 +3044,7 @@ entry(
         Ea = (1777, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3061,7 +3061,7 @@ entry(
         Ea = (2999, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3073,7 +3073,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(7.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(7447, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3084,7 +3084,7 @@ entry(
     label = "CN + O <=> CO + N",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3095,7 +3095,7 @@ entry(
     label = "CN + O2 <=> NCO + O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3106,7 +3106,7 @@ entry(
     label = "CN + OH <=> NCO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3122,7 +3122,7 @@ entry(
         Ea = (1529, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3133,7 +3133,7 @@ entry(
     label = "CN + N2O <=> NCN + NO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.2e+11, 'cm^3/(mol*s)'), n=0, Ea=(7169, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3149,7 +3149,7 @@ entry(
         Ea = (348, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3161,7 +3161,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(120000, 'cm^3/(mol*s)'), n=2.64, Ea=(-159, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3173,7 +3173,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(9.2e+12, 'cm^3/(mol*s)'), n=0, Ea=(-357, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3191,7 +3191,7 @@ entry(
             Arrhenius(A=(3.5e+29, 's^-1'), n=-5.46, Ea=(32549, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3202,7 +3202,7 @@ entry(
     label = "H2CN + HO2 <=> CH2NO + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3214,7 +3214,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1609, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3226,7 +3226,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1609, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3237,7 +3237,7 @@ entry(
     label = "H2CN + O2 <=> CH2O + NO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3e+12, 'cm^3/(mol*s)'), n=0, Ea=(5958, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3254,7 +3254,7 @@ entry(
         Ea = (-1112, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3287,7 +3287,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3298,7 +3298,7 @@ entry(
     label = "H2CN + N <=> N2 + CH2(T)",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(397, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3310,7 +3310,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3327,7 +3327,7 @@ entry(
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3339,7 +3339,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3350,7 +3350,7 @@ entry(
     label = "H2CN + O <=> HNCO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3361,7 +3361,7 @@ entry(
     label = "H2CN + O <=> HCNO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3379,7 +3379,7 @@ entry(
             Arrhenius(A=(6.2e+26, 's^-1'), n=-4.77, Ea=(24819, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3390,7 +3390,7 @@ entry(
     label = "HCNH + H <=> H2CN + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3402,7 +3402,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3413,7 +3413,7 @@ entry(
     label = "HCNH + O <=> HNCO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3425,7 +3425,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3437,7 +3437,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3454,7 +3454,7 @@ entry(
         Ea = (-1112, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3465,7 +3465,7 @@ entry(
     label = "HCNN + O2 <=> H + CO2 + N2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3476,7 +3476,7 @@ entry(
     label = "HCNN + O2 <=> HCO + N2O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3488,7 +3488,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(7318, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3500,7 +3500,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4627, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3512,7 +3512,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-89, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3524,7 +3524,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(7119, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3536,7 +3536,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(4438, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3548,7 +3548,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(6126, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3560,7 +3560,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.2e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(5402, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3572,7 +3572,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(457, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3584,7 +3584,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(530000, 'cm^3/(mol*s)'), n=1.87, Ea=(9681, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3601,7 +3601,7 @@ entry(
         Ea = (6087, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3612,7 +3612,7 @@ entry(
     label = "H2CNH + O <=> CH2O + NH(T)",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.7e+06, 'cm^3/(mol*s)'), n=2.08, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3630,7 +3630,7 @@ entry(
             Arrhenius(A=(2.3e+44, 's^-1'), n=-9.51, Ea=(45246, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3642,7 +3642,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(7.2e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3654,7 +3654,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(5e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3666,7 +3666,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.6e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3683,7 +3683,7 @@ entry(
         Ea = (-1112, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3701,7 +3701,7 @@ entry(
             Arrhenius(A=(3.2e+46, 's^-1'), n=-9.95, Ea=(53532, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3713,7 +3713,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1e+22, 'cm^3/(mol*s)'), n=-3.09, Ea=(6752, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3729,7 +3729,7 @@ entry(
         Ea = (30175, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3741,7 +3741,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3752,7 +3752,7 @@ entry(
     label = "CH2NH2 + O <=> CH2O + NH2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3764,7 +3764,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3775,7 +3775,7 @@ entry(
     label = "CH2NH2 + OH <=> CH2OH + NH2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3787,7 +3787,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3798,7 +3798,7 @@ entry(
     label = "CH2NH2 + CH3 <=> C2H5 + NH2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(2701, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3815,7 +3815,7 @@ entry(
         Ea = (-626, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3827,7 +3827,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(5.6e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(5461, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3839,7 +3839,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(5193, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3851,7 +3851,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.6e+06, 'cm^3/(mol*s)'), n=2, Ea=(238, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3868,7 +3868,7 @@ entry(
         Ea = (9165, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3885,7 +3885,7 @@ entry(
         Ea = (5491, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3897,7 +3897,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(9701, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3909,7 +3909,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(6345, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3921,7 +3921,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(447, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3938,7 +3938,7 @@ entry(
         Ea = (8837, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3955,7 +3955,7 @@ entry(
         Ea = (7139, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3974,7 +3974,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3985,7 +3985,7 @@ entry(
     label = "NCCN + O <=> NCO + CN",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.6e+12, 'cm^3/(mol*s)'), n=0, Ea=(8877, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -3996,7 +3996,7 @@ entry(
     label = "NCCN + OH <=> HOCN + CN",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+12, 'cm^3/(mol*s)'), n=0, Ea=(18985, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4012,7 +4012,7 @@ entry(
         Ea = (765, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4028,7 +4028,7 @@ entry(
         Ea = (765, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4042,7 +4042,7 @@ entry(
         arrheniusLow = Arrhenius(A=(3.3e+14, 'cm^3/(mol*s)'), n=0, Ea=(54016, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4054,7 +4054,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(760, 'cm^3/(mol*s)'), n=3, Ea=(3972, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4065,7 +4065,7 @@ entry(
     label = "NCO + O <=> NO + CO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4076,7 +4076,7 @@ entry(
     label = "NCO + O <=> N + CO2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(8e+12, 'cm^3/(mol*s)'), n=0, Ea=(2502, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4087,7 +4087,7 @@ entry(
     label = "NCO + H <=> NH(T) + CO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4098,7 +4098,7 @@ entry(
     label = "NCO + N <=> N2 + CO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4110,7 +4110,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(78000, 'cm^3/(mol*s)'), n=2.27, Ea=(-993, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4126,7 +4126,7 @@ entry(
         Ea = (5124, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4142,7 +4142,7 @@ entry(
         Ea = (18032, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4153,7 +4153,7 @@ entry(
     label = "NCO + NO2 <=> CO2 + N2O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.3e+12, 'cm^3/(mol*s)'), n=0, Ea=(-874, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4164,7 +4164,7 @@ entry(
     label = "NCO + NO2 <=> CO + NO + NO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.1e+11, 'cm^3/(mol*s)'), n=0, Ea=(-874, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4176,7 +4176,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(9.8e+12, 'cm^3/(mol*s)'), n=0, Ea=(8122, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4194,7 +4194,7 @@ entry(
             Arrhenius(A=(5.9e+31, 's^-1'), n=-5.85, Ea=(61938, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4210,7 +4210,7 @@ entry(
         Ea = (2850, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4226,7 +4226,7 @@ entry(
         Ea = (2115, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4242,7 +4242,7 @@ entry(
         Ea = (2889, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4258,7 +4258,7 @@ entry(
         Ea = (2482, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4269,7 +4269,7 @@ entry(
     label = "HCNO + O <=> HCO + NO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4280,7 +4280,7 @@ entry(
     label = "HCNO + OH <=> HCOH + NO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4296,7 +4296,7 @@ entry(
         Ea = (1916, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4312,7 +4312,7 @@ entry(
         Ea = (2075, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4323,7 +4323,7 @@ entry(
     label = "HOCN + H <=> H2 + NCO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(6613, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4334,7 +4334,7 @@ entry(
     label = "HOCN + O <=> OH + NCO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4131, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4345,7 +4345,7 @@ entry(
     label = "HOCN + OH <=> H2O + NCO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-248, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4356,7 +4356,7 @@ entry(
     label = "HOCN + CH3 <=> CH4 + NCO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(6613, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4372,7 +4372,7 @@ entry(
         Ea = (36443, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4386,7 +4386,7 @@ entry(
         arrheniusLow = Arrhenius(A=(1.3e+16, 'cm^3/(mol*s)'), n=0, Ea=(84320, 'cal/mol'), T0=(1, 'K')),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4397,7 +4397,7 @@ entry(
     label = "HNCO + H <=> NH2 + CO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(36000, 'cm^3/(mol*s)'), n=2.49, Ea=(2343, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4408,7 +4408,7 @@ entry(
     label = "HNCO + O <=> HNO + CO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.7e+06, 'cm^3/(mol*s)'), n=2.08, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4419,7 +4419,7 @@ entry(
     label = "HNCO + O <=> NH(T) + CO2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.7e+06, 'cm^3/(mol*s)'), n=2.08, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4435,7 +4435,7 @@ entry(
         Ea = (11637, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4452,7 +4452,7 @@ entry(
         Ea = (17555, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4464,7 +4464,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(8936, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4482,7 +4482,7 @@ entry(
             Arrhenius(A=(1.7e+38, 's^-1'), n=-7.64, Ea=(53582, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4498,7 +4498,7 @@ entry(
         Ea = (20117, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4509,7 +4509,7 @@ entry(
     label = "CH2NO + H <=> CH3 + NO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4521,7 +4521,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4532,7 +4532,7 @@ entry(
     label = "CH2NO + O <=> CH2O + NO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4543,7 +4543,7 @@ entry(
     label = "CH2NO + O <=> HCNO + OH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4554,7 +4554,7 @@ entry(
     label = "CH2NO + OH <=> CH2OH + NO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4566,7 +4566,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4577,7 +4577,7 @@ entry(
     label = "CH2NO + CH3 <=> C2H5 + NO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4594,7 +4594,7 @@ entry(
         Ea = (-1112, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4605,7 +4605,7 @@ entry(
     label = "CH2NO + NH2 <=> CH2NH2 + NO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(3e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4622,7 +4622,7 @@ entry(
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4634,7 +4634,7 @@ entry(
     degeneracy = 3,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(377, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4646,7 +4646,7 @@ entry(
     degeneracy = 3,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(3614, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4658,7 +4658,7 @@ entry(
     degeneracy = 3,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.6e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4670,7 +4670,7 @@ entry(
     degeneracy = 3,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(790000, 'cm^3/(mol*s)'), n=1.87, Ea=(5412, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4687,7 +4687,7 @@ entry(
         Ea = (1072, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4698,7 +4698,7 @@ entry(
     label = "CH3NO + H <=> CH3 + HNO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.8e+13, 'cm^3/(mol*s)'), n=0, Ea=(2780, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4709,7 +4709,7 @@ entry(
     label = "CH3NO + O <=> CH3 + NO2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.7e+06, 'cm^3/(mol*s)'), n=2.08, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4720,7 +4720,7 @@ entry(
     label = "CH3NO + OH <=> CH3 + HONO",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.5e+12, 'cm^3/(mol*s)'), n=0, Ea=(993, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4739,7 +4739,7 @@ entry(
         ),
         efficiencies = {},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4750,7 +4750,7 @@ entry(
     label = "HON(S) + H <=> HNO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4761,7 +4761,7 @@ entry(
     label = "HON(S) + H <=> OH + NH(S)",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4773,7 +4773,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(7e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4784,7 +4784,7 @@ entry(
     label = "HON(S) + OH <=> HONO + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(4e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4795,7 +4795,7 @@ entry(
     label = "HON(S) + O2 <=> HONO + O",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1e+12, 'cm^3/(mol*s)'), n=0, Ea=(4965, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4813,7 +4813,7 @@ entry(
             Arrhenius(A=(1.8e+21, 's^-1'), n=-3.32, Ea=(10859, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4825,7 +4825,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(6246, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4837,7 +4837,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(5064, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4849,7 +4849,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(3863, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4861,7 +4861,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.7e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(3009, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4873,7 +4873,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-328, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4885,7 +4885,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.2e+06, 'cm^3/(mol*s)'), n=2, Ea=(-596, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4902,7 +4902,7 @@ entry(
         Ea = (6345, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4914,7 +4914,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(820000, 'cm^3/(mol*s)'), n=1.87, Ea=(5491, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4931,7 +4931,7 @@ entry(
         Ea = (3227, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4943,7 +4943,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(920000, 'cm^3/(mol*s)'), n=1.94, Ea=(1887, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4955,7 +4955,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(9552, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4967,7 +4967,7 @@ entry(
     degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(14000, 'cm^3/(mol*s)'), n=2.69, Ea=(6414, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4985,7 +4985,7 @@ entry(
             Arrhenius(A=(2.9e+31, 's^-1'), n=-5.91, Ea=(36175, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -4997,7 +4997,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(7407, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -5009,7 +5009,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(4697, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -5021,7 +5021,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-70, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -5038,7 +5038,7 @@ entry(
         Ea = (7179, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -5055,7 +5055,7 @@ entry(
         Ea = (4538, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -5067,7 +5067,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(12620, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -5085,7 +5085,7 @@ entry(
             Arrhenius(A=(1.2e+41, 's^-1'), n=-8.64, Ea=(41580, 'cal/mol'), T0=(1, 'K')),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -5097,7 +5097,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.8e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -5109,7 +5109,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.3e+08, 'cm^3/(mol*s)'), n=1.5, Ea=(-894, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -5121,7 +5121,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(2.4e+06, 'cm^3/(mol*s)'), n=2, Ea=(-1192, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -5133,7 +5133,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.6e+06, 'cm^3/(mol*s)'), n=1.87, Ea=(377, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -5150,7 +5150,7 @@ entry(
         Ea = (-1152, 'cal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,
@@ -5162,7 +5162,7 @@ entry(
     degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(29000, 'cm^3/(mol*s)'), n=2.69, Ea=(-1599, 'cal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
 """,

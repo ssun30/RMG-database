@@ -14,7 +14,7 @@ entry(
     kinetics = Arrhenius(A=(4.39e+07, 's^-1'), n=1.58, Ea=(21.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: addB <=> product21
 """,
@@ -27,7 +27,7 @@ entry(
     kinetics = Arrhenius(A=(5.06e+07, 's^-1'), n=1.74, Ea=(24.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: product21 <=> product22
 """,
@@ -40,7 +40,7 @@ entry(
     kinetics = Arrhenius(A=(5.2e+09, 's^-1'), n=0.96, Ea=(6.8, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt22 <=> INDENE
 """,
@@ -58,7 +58,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: II <=> VIII
 """,
@@ -76,7 +76,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P_reverse""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: VIII <=> II
 """,
@@ -97,7 +97,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -118,7 +118,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -139,7 +139,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -152,7 +152,7 @@ entry(
     kinetics = Arrhenius(A=(2.46e+08, 's^-1'), n=1.46, Ea=(16.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: adducta <=> adductb
 """,
@@ -165,7 +165,7 @@ entry(
     kinetics = Arrhenius(A=(5.46e+06, 's^-1'), n=2.01, Ea=(27.5, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: naphthalene_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: adductb <=> adductc
 """,
@@ -178,7 +178,7 @@ entry(
     kinetics = Arrhenius(A=(1.12e+08, 's^-1'), n=1.64, Ea=(22.7, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: adductd <=> pdt15
 """,
@@ -191,7 +191,7 @@ entry(
     kinetics = Arrhenius(A=(1.28e+08, 's^-1'), n=1.55, Ea=(18.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt14 <=> pdt16
 """,
@@ -204,7 +204,7 @@ entry(
     kinetics = Arrhenius(A=(1.18e+08, 's^-1'), n=1.8, Ea=(21.8, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C10H11""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: pdt15 <=> pdt39
 """,
@@ -217,7 +217,7 @@ entry(
     kinetics = Arrhenius(A=(2.429e+08, 's^-1'), n=1.267, Ea=(24.384, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W8 <=> W102
 """,
@@ -230,7 +230,7 @@ entry(
     kinetics = Arrhenius(A=(1.548e+09, 's^-1'), n=0.934, Ea=(9.114, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W107 <=> W108
 """,
@@ -251,7 +251,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
@@ -272,7 +272,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
@@ -293,7 +293,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 G3SX//B3LYP/6-31G(2df,p)
 """,
@@ -314,7 +314,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
 The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
@@ -337,7 +337,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Using CanTherm to calculate TST rates from the PES at the G2M(MP2)//B3LYP/6-311++G** level of theory
 The rates have been validated by the rates reported in Proceedings of the Combustion Institute 35 (2015) 1861–1869,
@@ -351,7 +351,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.63e+09, 's^-1'), n=1.089, Ea=(23.05, 'kcal/mol'), T0=(1, 'K')),
     rank = 3,
-    longDesc = 
+    longDesc =
 u"""
 Training reaction from kinetics library: Frenklach2019_ProcCombInst_HighP_Phenanthryl
 Original entry: W2 <=> W5

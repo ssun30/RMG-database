@@ -12,7 +12,7 @@ This library is recommendend for C/H/O/F combustion models
 entry(
     index = 0,
     label = "AR",
-    molecule = 
+    molecule =
 """
 1 Ar u0 p4 c0
 """,
@@ -31,7 +31,7 @@ entry(
 entry(
     index = 1,
     label = "C",
-    molecule = 
+    molecule =
 """
 1 C u0 p2 c0
 """,
@@ -50,7 +50,7 @@ entry(
 entry(
     index = 2,
     label = "C2H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,T} {3,S}
@@ -72,7 +72,7 @@ multiplicity 2
 entry(
     index = 3,
     label = "C2H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -94,7 +94,7 @@ entry(
 entry(
     index = 4,
     label = "C2H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -118,7 +118,7 @@ multiplicity 2
 entry(
     index = 5,
     label = "C2H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -142,7 +142,7 @@ entry(
 entry(
     index = 6,
     label = "C2H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -168,7 +168,7 @@ multiplicity 2
 entry(
     index = 7,
     label = "C2H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -194,7 +194,7 @@ entry(
 entry(
     index = 8,
     label = "C3H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -221,7 +221,7 @@ entry(
 entry(
     index = 9,
     label = "C3H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -250,7 +250,7 @@ multiplicity 2
 entry(
     index = 10,
     label = "C3H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -279,7 +279,7 @@ entry(
 entry(
     index = 11,
     label = "CH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p1 c0 {2,S}
@@ -300,7 +300,7 @@ multiplicity 2
 entry(
     index = 12,
     label = "CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -322,7 +322,7 @@ multiplicity 3
 entry(
     index = 13,
     label = "CH2(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -343,7 +343,7 @@ entry(
 entry(
     index = 14,
     label = "CH2CO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -366,7 +366,7 @@ entry(
 entry(
     index = 15,
     label = "CH2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -388,7 +388,7 @@ entry(
 entry(
     index = 16,
     label = "CH2OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {5,S}
@@ -412,7 +412,7 @@ multiplicity 2
 entry(
     index = 17,
     label = "CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -435,7 +435,7 @@ multiplicity 2
 entry(
     index = 18,
     label = "CH3CCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -462,7 +462,7 @@ multiplicity 2
 entry(
     index = 19,
     label = "CH3CHO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -487,7 +487,7 @@ entry(
 entry(
     index = 20,
     label = "CH2CHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {3,D}
@@ -512,7 +512,7 @@ multiplicity 2
 entry(
     index = 21,
     label = "CH3CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {3,D}
@@ -537,7 +537,7 @@ multiplicity 2
 entry(
     index = 22,
     label = "CH3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -561,7 +561,7 @@ multiplicity 2
 entry(
     index = 23,
     label = "CH3OH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -585,7 +585,7 @@ entry(
 entry(
     index = 24,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -608,7 +608,7 @@ entry(
 entry(
     index = 25,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 O u0 p1 c+1 {2,T}
 2 C u0 p1 c-1 {1,T}
@@ -628,7 +628,7 @@ entry(
 entry(
     index = 26,
     label = "CO2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 O u0 p2 c0 {3,D}
@@ -649,7 +649,7 @@ entry(
 entry(
     index = 27,
     label = "H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -669,7 +669,7 @@ multiplicity 2
 entry(
     index = 28,
     label = "H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -689,7 +689,7 @@ entry(
 entry(
     index = 29,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -710,7 +710,7 @@ entry(
 entry(
     index = 30,
     label = "H2O2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -732,7 +732,7 @@ entry(
 entry(
     index = 31,
     label = "HCCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {3,D}
@@ -755,7 +755,7 @@ multiplicity 2
 entry(
     index = 32,
     label = "HCCOH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -778,7 +778,7 @@ entry(
 entry(
     index = 33,
     label = "HCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,D}
@@ -800,7 +800,7 @@ multiplicity 2
 entry(
     index = 34,
     label = "HO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -822,7 +822,7 @@ multiplicity 2
 entry(
     index = 35,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -842,7 +842,7 @@ entry(
 entry(
     index = 36,
     label = "O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -862,7 +862,7 @@ multiplicity 3
 entry(
     index = 37,
     label = "O2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -883,7 +883,7 @@ multiplicity 3
 entry(
     index = 38,
     label = "OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -904,7 +904,7 @@ multiplicity 2
 entry(
     index = 39,
     label = "F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u1 p3 c0
@@ -924,7 +924,7 @@ multiplicity 2
 entry(
     index = 40,
     label = "F2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 F u0 p3 c0 {1,S}
@@ -944,7 +944,7 @@ entry(
 entry(
     index = 41,
     label = "HF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -964,7 +964,7 @@ entry(
 entry(
     index = 42,
     label = "CH3F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -987,7 +987,7 @@ entry(
 entry(
     index = 43,
     label = "CH2F2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {3,S}
@@ -1010,7 +1010,7 @@ entry(
 entry(
     index = 44,
     label = "CHF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -1033,7 +1033,7 @@ entry(
 entry(
     index = 45,
     label = "CF4",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -1056,7 +1056,7 @@ entry(
 entry(
     index = 46,
     label = "CH2F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {2,S}
@@ -1079,7 +1079,7 @@ multiplicity 2
 entry(
     index = 47,
     label = "CHF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1102,7 +1102,7 @@ multiplicity 2
 entry(
     index = 48,
     label = "CF3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -1125,7 +1125,7 @@ multiplicity 2
 entry(
     index = 49,
     label = "CHF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 C u0 p1 c0 {1,S} {3,S}
@@ -1146,7 +1146,7 @@ entry(
 entry(
     index = 50,
     label = "CF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {3,S}
@@ -1167,7 +1167,7 @@ entry(
 entry(
     index = 51,
     label = "CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {2,S}
@@ -1188,7 +1188,7 @@ multiplicity 2
 entry(
     index = 52,
     label = "CF3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -1212,7 +1212,7 @@ multiplicity 2
 entry(
     index = 53,
     label = "CHFO",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 O u0 p2 c0 {3,D}
@@ -1234,7 +1234,7 @@ entry(
 entry(
     index = 54,
     label = "CF2O",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -1256,7 +1256,7 @@ entry(
 entry(
     index = 55,
     label = "CFO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1278,7 +1278,7 @@ multiplicity 2
 entry(
     index = 56,
     label = "CH3-CH2F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -1304,7 +1304,7 @@ entry(
 entry(
     index = 57,
     label = "CH3-CHF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -1330,7 +1330,7 @@ entry(
 entry(
     index = 58,
     label = "CH2F-CH2F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {4,S}
@@ -1356,7 +1356,7 @@ entry(
 entry(
     index = 59,
     label = "CH3-CF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -1382,7 +1382,7 @@ entry(
 entry(
     index = 60,
     label = "CH2F-CHF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {5,S}
@@ -1408,7 +1408,7 @@ entry(
 entry(
     index = 61,
     label = "CH2F-CF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {6,S}
@@ -1434,7 +1434,7 @@ entry(
 entry(
     index = 62,
     label = "CHF2-CHF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -1460,7 +1460,7 @@ entry(
 entry(
     index = 63,
     label = "CHF2-CF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {6,S}
 2 F u0 p3 c0 {6,S}
@@ -1486,7 +1486,7 @@ entry(
 entry(
     index = 64,
     label = "CF3-CF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {7,S}
 2 F u0 p3 c0 {7,S}
@@ -1512,7 +1512,7 @@ entry(
 entry(
     index = 65,
     label = "CH3-CHF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1538,7 +1538,7 @@ multiplicity 2
 entry(
     index = 66,
     label = "CH2F-CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {2,S}
@@ -1564,7 +1564,7 @@ multiplicity 2
 entry(
     index = 67,
     label = "CH3-CF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -1590,7 +1590,7 @@ multiplicity 2
 entry(
     index = 68,
     label = "CH2F-CHF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1616,7 +1616,7 @@ multiplicity 2
 entry(
     index = 69,
     label = "CHF2-CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1642,7 +1642,7 @@ multiplicity 2
 entry(
     index = 70,
     label = "CH2F-CF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -1668,7 +1668,7 @@ multiplicity 2
 entry(
     index = 71,
     label = "CHF2-CHF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -1694,7 +1694,7 @@ multiplicity 2
 entry(
     index = 72,
     label = "CHF2-CF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -1720,7 +1720,7 @@ multiplicity 2
 entry(
     index = 73,
     label = "CF3-CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -1746,7 +1746,7 @@ multiplicity 2
 entry(
     index = 74,
     label = "CF3-CHF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -1772,7 +1772,7 @@ multiplicity 2
 entry(
     index = 75,
     label = "CF3-CF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {6,S}
@@ -1798,7 +1798,7 @@ multiplicity 2
 entry(
     index = 76,
     label = "CH2CHF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -1822,7 +1822,7 @@ entry(
 entry(
     index = 77,
     label = "CH2CF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -1846,7 +1846,7 @@ entry(
 entry(
     index = 78,
     label = "CHFCHF[Z]",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {4,S}
@@ -1870,7 +1870,7 @@ entry(
 entry(
     index = 79,
     label = "CHFCF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {5,S}
@@ -1894,7 +1894,7 @@ entry(
 entry(
     index = 80,
     label = "CF2CF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -1918,7 +1918,7 @@ entry(
 entry(
     index = 81,
     label = "CH2CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1942,7 +1942,7 @@ multiplicity 2
 entry(
     index = 82,
     label = "CHFCH[Z]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {2,S}
@@ -1966,7 +1966,7 @@ multiplicity 2
 entry(
     index = 83,
     label = "CHFCF[Z]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1990,7 +1990,7 @@ multiplicity 2
 entry(
     index = 84,
     label = "CF2CH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -2014,7 +2014,7 @@ multiplicity 2
 entry(
     index = 85,
     label = "CF2CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -2038,7 +2038,7 @@ multiplicity 2
 entry(
     index = 86,
     label = "C2HF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 C u0 p0 c0 {3,T} {4,S}
@@ -2060,7 +2060,7 @@ entry(
 entry(
     index = 87,
     label = "C2F2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {4,S}
@@ -2082,7 +2082,7 @@ entry(
 entry(
     index = 88,
     label = "CHFCO",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 O u0 p2 c0 {4,D}
@@ -2105,7 +2105,7 @@ entry(
 entry(
     index = 89,
     label = "CF2CO",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -2128,7 +2128,7 @@ entry(
 entry(
     index = 90,
     label = "CFCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -2151,7 +2151,7 @@ multiplicity 2
 entry(
     index = 91,
     label = "CF3CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -2176,7 +2176,7 @@ multiplicity 2
 entry(
     index = 92,
     label = "CF3CHO",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -2201,7 +2201,7 @@ entry(
 entry(
     index = 93,
     label = "CF3COF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {6,S}
 2 F u0 p3 c0 {6,S}
@@ -2226,7 +2226,7 @@ entry(
 entry(
     index = 94,
     label = "CF3CHCH2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -2253,7 +2253,7 @@ entry(
 entry(
     index = 95,
     label = "CF3CCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -2280,7 +2280,7 @@ multiplicity 2
 entry(
     index = 96,
     label = "CF3CCH",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -2305,7 +2305,7 @@ entry(
 entry(
     index = 97,
     label = "CF3COCH3",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {6,S}
 2  F u0 p3 c0 {6,S}
@@ -2333,7 +2333,7 @@ entry(
 entry(
     index = 98,
     label = "CH2CFCF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -2360,7 +2360,7 @@ entry(
 entry(
     index = 99,
     label = "CFCCF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -2385,7 +2385,7 @@ entry(
 entry(
     index = 100,
     label = "CH-CFCF3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -2412,7 +2412,7 @@ multiplicity 2
 entry(
     index = 101,
     label = "CHFCHCF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -2439,7 +2439,7 @@ entry(
 entry(
     index = 102,
     label = "CFCHCF3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -2466,7 +2466,7 @@ multiplicity 2
 entry(
     index = 103,
     label = "CHFCCF3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -2493,7 +2493,7 @@ multiplicity 2
 entry(
     index = 104,
     label = "CH2CFO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}

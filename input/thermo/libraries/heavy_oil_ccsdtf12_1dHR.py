@@ -10,7 +10,7 @@ All species were calculated using CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP i
 Optimization and frequency calculations were done at wB97X-D3/def2-TZVP with QChem.
 High level single point calculations were done with CCSD(T)-F12a/cc-pVDZ-F12 with MOLPRO.
 
-A thorough conformer search was done for all species included in this file. 
+A thorough conformer search was done for all species included in this file.
 Although transition states are not included in this file, a conformer search was done on the TS as well since this is relevant for the kinetics of the training reactions added to the corresponding reaction families.
 1D Hindered Rotors were calculated for steps of 10 degrees up to the full 360 degree cycle, with geometry optimization on each step.
 
@@ -23,7 +23,7 @@ Disclaimer: The number of significant figures displayed does not reflect the acc
 After fitting the Petersson BACs, the enthalpy values at the coupled cluster level have an MAE (RMSE) of 0.52 (0.83) kcal/mol relative to our reference set.
 These values are similar to those from other published works:
 - Bischoff, F. A., Wolfsegger, S., Tew, D. P. & Klopper, W. Assessment of basis sets for f12 explicitly-correlated molecular electronic-structure methodfs. Mol. Phys. 107, 963–975 (2009).
-- Knizia, G., Adler, T. B. & Werner, H.-J. Simplified ccsd (t)-f12 methods: Theory and benchmarks. The J. chemical physics 130, 054104 (2009). 
+- Knizia, G., Adler, T. B. & Werner, H.-J. Simplified ccsd (t)-f12 methods: Theory and benchmarks. The J. chemical physics 130, 054104 (2009).
 - Adler, T. B., Knizia, G. & Werner, H.-J. A simple and efficient ccsd(t)-f12 approximation (2007).
 - Pfeiffer, F., Rauhut, G., Feller, D. & Peterson, K. A. Anharmonic zero point vibrational energies: Tipping the scales in accurate thermochemistry calculations? The J. chemical physics 138, 044311 (2013).
 - Shang, Y., Ning, H., Shi, J., Wang, H. & Luo, S.-N. Chemical kinetics of h-abstractions from dimethyl amine by h, ch 3, oh, and ho 2 radicals with multi-structural torsional anharmonicity. Phys. Chem. Chem. Phys. 21, 12685–12696 (2019).
@@ -31,7 +31,7 @@ These values are similar to those from other published works:
 entry(
     index = 0,
     label = "product0",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
@@ -65,7 +65,7 @@ multiplicity 2
         CpInf = (432.353,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -74,7 +74,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 1,
     label = "product1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -108,7 +108,7 @@ multiplicity 2
         CpInf = (432.353,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,
@@ -117,7 +117,7 @@ Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 entry(
     index = 2,
     label = "reactant0",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
@@ -151,7 +151,7 @@ multiplicity 2
         CpInf = (432.353,'J/(mol*K)'),
     ),
     shortDesc = """Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.""",
-    longDesc = 
+    longDesc =
 """
 Calculated at CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP by Kevin Spiekermann.
 """,

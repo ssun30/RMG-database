@@ -11,7 +11,7 @@ Polynomial coeffients taken from global minimum Pt Table S3. See Supplemental Ma
 entry(
     index = 1,
     label = "X",
-    molecule = 
+    molecule =
 """
 1 X u0 p0 c0
 """,

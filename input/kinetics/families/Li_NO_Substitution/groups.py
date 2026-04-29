@@ -28,7 +28,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *1 [O,N] u0     {2,S} {3,S}
 2 *2 R     u[0,1] {1,S}
@@ -41,7 +41,7 @@ entry(
 entry(
     index = 1,
     label = "Root_1NO->O",
-    group = 
+    group =
 """
 1 *1 O  u0     {2,S} {3,S}
 2 *2 R  u[0,1] {1,S}
@@ -54,7 +54,7 @@ entry(
 entry(
     index = 2,
     label = "Root_1NO->O_Ext-3R-R",
-    group = 
+    group =
 """
 1 *1 O  u0     {2,S} {3,S}
 2 *2 R  u[0,1] {1,S}
@@ -68,7 +68,7 @@ entry(
 entry(
     index = 3,
     label = "Root_1NO->O_Ext-3R-R_2R->C",
-    group = 
+    group =
 """
 1 *1 O  u0     {2,S} {3,S}
 2 *2 C  u[0,1] {1,S}
@@ -82,7 +82,7 @@ entry(
 entry(
     index = 4,
     label = "Root_1NO->O_Ext-3R-R_2R->C_Ext-5R!H-R",
-    group = 
+    group =
 """
 1 *1 O   u0     {2,S} {3,S}
 2 *2 C   u[0,1] {1,S}
@@ -97,7 +97,7 @@ entry(
 entry(
     index = 5,
     label = "Root_1NO->O_Ext-3R-R_N-2R->C",
-    group = 
+    group =
 """
 1 *1 O  u0 r0 {2,S} {3,S}
 2 *2 H  u0 r0 {1,S}
@@ -111,7 +111,7 @@ entry(
 entry(
     index = 6,
     label = "Root_1NO->O_3R->C",
-    group = 
+    group =
 """
 1 *1 O  u0     {2,S} {3,S}
 2 *2 R  u[0,1] {1,S}
@@ -124,7 +124,7 @@ entry(
 entry(
     index = 7,
     label = "Root_1NO->O_3R->C_Ext-2R-R",
-    group = 
+    group =
 """
 1 *1 O   u0 r0 {2,S} {3,S}
 2 *2 R   u0 r0 {1,S} {5,[S,D,T,B,Q]}
@@ -138,7 +138,7 @@ entry(
 entry(
     index = 8,
     label = "Root_1NO->O_3R->C_2R->C",
-    group = 
+    group =
 """
 1 *1 O  u0     {2,S} {3,S}
 2 *2 C  u[0,1] {1,S}
@@ -151,7 +151,7 @@ entry(
 entry(
     index = 9,
     label = "Root_1NO->O_3R->C_N-2R->C",
-    group = 
+    group =
 """
 1 *1 O  u0     {2,S} {3,S}
 2 *2 H  u[0,1] {1,S}
@@ -164,7 +164,7 @@ entry(
 entry(
     index = 10,
     label = "Root_1NO->O_N-3R->C",
-    group = 
+    group =
 """
 1 *1 O  u0     {2,S} {3,S}
 2 *2 R  u[0,1] {1,S}
@@ -177,7 +177,7 @@ entry(
 entry(
     index = 11,
     label = "Root_1NO->O_N-3R->C_2R->C",
-    group = 
+    group =
 """
 1 *1 O  u0     {2,S} {3,S}
 2 *2 C  u[0,1] {1,S}
@@ -190,7 +190,7 @@ entry(
 entry(
     index = 12,
     label = "Root_1NO->O_N-3R->C_2R->C_Ext-2C-R",
-    group = 
+    group =
 """
 1 *1 O   u0     {2,S} {3,S}
 2 *2 C   u[0,1] {1,S} {5,[S,D,T,B,Q]}
@@ -204,7 +204,7 @@ entry(
 entry(
     index = 13,
     label = "Root_1NO->O_N-3R->C_N-2R->C",
-    group = 
+    group =
 """
 1 *1 O  u0     r0 {2,S} {3,S}
 2 *2 H  u[0,1] {1,S}
@@ -217,7 +217,7 @@ entry(
 entry(
     index = 14,
     label = "Root_N-1NO->O",
-    group = 
+    group =
 """
 1 *1 N  u0     {2,S} {3,S}
 2 *2 R  u[0,1] {1,S}
@@ -230,7 +230,7 @@ entry(
 entry(
     index = 15,
     label = "Root_N-1NO->O_Ext-2R-R",
-    group = 
+    group =
 """
 1 *1 N  u0 {2,S} {3,S}
 2 *2 C  u0 {1,S} {5,S}
@@ -244,7 +244,7 @@ entry(
 entry(
     index = 16,
     label = "Root_N-1NO->O_Ext-2R-R_Ext-1N-R",
-    group = 
+    group =
 """
 1 *1 N   u0 r0 {2,S} {3,S} {6,[S,D,T,B,Q]}
 2 *2 C   u0 r0 {1,S} {5,S}
@@ -259,7 +259,7 @@ entry(
 entry(
     index = 17,
     label = "Root_N-1NO->O_Ext-1N-R",
-    group = 
+    group =
 """
 1 *1 N  u0     {2,S} {3,S} {5,[S,D,T,B,Q]}
 2 *2 R  u[0,1] {1,S}
@@ -273,7 +273,7 @@ entry(
 entry(
     index = 18,
     label = "Root_N-1NO->O_Ext-1N-R_Ext-3R-R",
-    group = 
+    group =
 """
 1 *1 N   u0 r0 {2,S} {3,S} {5,S}
 2 *2 R   u0 r0 {1,S}
@@ -288,7 +288,7 @@ entry(
 entry(
     index = 19,
     label = "Root_N-1NO->O_Ext-1N-R_Ext-5R!H-R",
-    group = 
+    group =
 """
 1 *1 N  u0 {2,S} {3,S} {5,S}
 2 *2 R  u0 {1,S}
@@ -303,7 +303,7 @@ entry(
 entry(
     index = 20,
     label = "Root_N-1NO->O_Ext-1N-R_Ext-5R!H-R_2R->C",
-    group = 
+    group =
 """
 1 *1 N  u0 r0 {2,S} {3,S} {5,S}
 2 *2 C  u0 r0 {1,S}
@@ -318,7 +318,7 @@ entry(
 entry(
     index = 21,
     label = "Root_N-1NO->O_Ext-1N-R_Ext-5R!H-R_N-2R->C",
-    group = 
+    group =
 """
 1 *1 N  u0 r0 {2,S} {3,S} {5,S}
 2 *2 H  u0 r0 {1,S}
@@ -333,7 +333,7 @@ entry(
 entry(
     index = 22,
     label = "Root_N-1NO->O_Ext-1N-R_3R->C",
-    group = 
+    group =
 """
 1 *1 N  u0     {2,S} {3,S} {5,[S,D,T,B,Q]}
 2 *2 R  u[0,1] {1,S}
@@ -347,7 +347,7 @@ entry(
 entry(
     index = 23,
     label = "Root_N-1NO->O_Ext-1N-R_N-3R->C",
-    group = 
+    group =
 """
 1 *1 N  u0     {2,S} {3,S} {5,S}
 2 *2 R  u[0,1] {1,S}
@@ -361,7 +361,7 @@ entry(
 entry(
     index = 24,
     label = "Root_N-1NO->O_Ext-1N-R_N-3R->C_2R->C",
-    group = 
+    group =
 """
 1 *1 N  u0 r0 {2,S} {3,S} {5,S}
 2 *2 C  u0 r0 {1,S}
@@ -375,7 +375,7 @@ entry(
 entry(
     index = 25,
     label = "Root_N-1NO->O_Ext-1N-R_N-3R->C_N-2R->C",
-    group = 
+    group =
 """
 1 *1 N  u0     r0 {2,S} {3,S} {5,S}
 2 *2 H  u[0,1] {1,S}
@@ -389,7 +389,7 @@ entry(
 entry(
     index = 26,
     label = "Root_N-1NO->O_2R->C",
-    group = 
+    group =
 """
 1 *1 N  u0     {2,S} {3,S}
 2 *2 C  u[0,1] {1,S}
@@ -402,7 +402,7 @@ entry(
 entry(
     index = 27,
     label = "Root_N-1NO->O_N-2R->C",
-    group = 
+    group =
 """
 1 *1 N  u0     {2,S} {3,S}
 2 *2 H  u[0,1] {1,S}

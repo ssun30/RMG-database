@@ -16,7 +16,7 @@ entry(
     label = "N1a <=> N1b",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.379e+09, 's^-1'), n=1.065, Ea=(17.323, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -27,7 +27,7 @@ entry(
     label = "N1b <=> N1c",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.687e+08, 's^-1'), n=1.401, Ea=(28.491, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -38,7 +38,7 @@ entry(
     label = "N1a <=> C10H9",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.591e+11, 's^-1'), n=0.087, Ea=(9.655, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -49,7 +49,7 @@ entry(
     label = "C10H9 <=> N3",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.471e+11, 's^-1'), n=0.371, Ea=(21.948, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -60,7 +60,7 @@ entry(
     label = "N3 <=> N4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.394e+11, 's^-1'), n=0.271, Ea=(11.997, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -71,7 +71,7 @@ entry(
     label = "N4 <=> N5",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.752e+12, 's^-1'), n=0.234, Ea=(10.639, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -82,7 +82,7 @@ entry(
     label = "N5 <=> N6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.474e+12, 's^-1'), n=0.408, Ea=(39.027, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -93,7 +93,7 @@ entry(
     label = "N5 <=> Nphln + H",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.9e+09, 's^-1'), n=1.197, Ea=(15.836, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -104,7 +104,7 @@ entry(
     label = "N3 <=> N6",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.887e+12, 's^-1'), n=0.337, Ea=(25.796, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -115,7 +115,7 @@ entry(
     label = "N1a <=> H + Flvln",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.703e+10, 's^-1'), n=1.093, Ea=(42.319, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -126,7 +126,7 @@ entry(
     label = "N4 <=> N7a",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.288e+12, 's^-1'), n=0.042, Ea=(6.978, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -137,7 +137,7 @@ entry(
     label = "N7a <=> N7c",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.129e+09, 's^-1'), n=1.173, Ea=(21.914, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -148,7 +148,7 @@ entry(
     label = "N7a <=> H + Azln",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.21e+09, 's^-1'), n=1.138, Ea=(39.285, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -159,7 +159,7 @@ entry(
     label = "N7b <=> N7c",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.862e+08, 's^-1'), n=1.43, Ea=(26.515, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -170,7 +170,7 @@ entry(
     label = "N7b <=> H + Azln",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.462e+10, 's^-1'), n=1.071, Ea=(43.922, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -181,7 +181,7 @@ entry(
     label = "N7c <=> H + Azln",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.194e+11, 's^-1'), n=0.851, Ea=(42.927, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,

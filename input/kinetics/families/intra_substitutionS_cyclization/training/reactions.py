@@ -21,7 +21,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: XSR3J_S_Cs;SsJ;S-H
 """,
@@ -41,7 +41,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: XSR3J_S_Cs;CsJ-HH;S-H
 """,
@@ -61,7 +61,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: XSR3J_S_Ss;CsJ-HH;S-H
 """,
@@ -81,7 +81,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: XSR3J_S_Ss;SsJ;S-H
 """,
@@ -101,7 +101,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: XSR3J_S_Ss;CsJ-HH;S-Cs(HHH)
 """,
@@ -121,7 +121,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""A. G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: XSR3J_S_Ss;CsJ-HH;S-S2s(H)
 """,
@@ -141,7 +141,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""AA Calc""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: XSR5J_SSS_CsRCs;CsJ-CsH;S-Cs(NonDe)
 """,
@@ -161,7 +161,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""AA Calc""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: XSR6J_SSSS_CsRRCs;CsJ-CsH;S-Cs(NonDe)
 """,

@@ -439,8 +439,8 @@ entry(
     group =
 """
 1 *5 X u0 p0 c0 {2,S}
-2 *4 C ux px cx {1,S} {3,[S,D]} 
-3    R ux px cx {2,[S,D]} 
+2 *4 C ux px cx {1,S} {3,[S,D]}
+3    R ux px cx {2,[S,D]}
 """,
     kinetics = None,
 )
@@ -557,7 +557,7 @@ entry(
 4    H u0 p0 c0 {2,S}
 """,
     kinetics = None,
-) 
+)
 
 entry(
     index = 42,
@@ -570,7 +570,7 @@ entry(
 4    H u0 p0 c0 {2,S}
 """,
     kinetics = None,
-)  
+)
 
 tree(
 """
@@ -601,7 +601,7 @@ L1: Donating
         L3: N-C
 
 L1: Abstracting
-    L2: *O         
+    L2: *O
         L3: *O-H
         L3: *O-O
         L3: *O-N

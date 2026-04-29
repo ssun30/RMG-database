@@ -19,7 +19,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 T range: 500-3000 K
 calculations done at the B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p) level of theory
@@ -43,7 +43,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: N-S_interactions""",
-    longDesc = 
+    longDesc =
 u"""
 A. Goumri, D.D. Shao, P. Marshall, J. Chem. Phys., 2004, 121, 9999, doi: 10.1063/1.1806419
 Experimentally measured, and PES verified using CBS-QB3
@@ -69,7 +69,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 T range: 1350-2100 K
 M. Rohrig, E.L. Petersen, D.F. Davidson, R.K. Hanson, Int. J. Chem. Kin., 1997, 29(7), 483-493, doi: 10.1002/(SICI)1097-4601(1997)29:7<483::AID-KIN2>3.0.CO;2-Q
@@ -92,9 +92,9 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-Q//B3LYP/6-31G(d,p) calculation""",
-    longDesc = 
+    longDesc =
 u"""
-From Detailed Kinetics and Thermochemistry of C2H5+O2:  Reaction Kinetics of the 
+From Detailed Kinetics and Thermochemistry of C2H5+O2:  Reaction Kinetics of the
 Chemically-Activated and Stabilized CH3CH2OO Adduct
 J. Phys. Chem. A 2002, 106,7276-7293
 Sheng, Bozzelli, Dean and Chang
@@ -118,7 +118,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_rad;O_birad
 """,
@@ -137,7 +137,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_rad;S_birad
 """,
@@ -156,7 +156,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_rad;N_R_birad
 """,

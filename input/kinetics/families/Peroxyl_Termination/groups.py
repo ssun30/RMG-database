@@ -185,7 +185,7 @@ entry(
 3 *3 O   u1 {2,S}
 4 *4 H   u0 {1,S}
 5    H   u0 {1,S}
-6    [Cd,Ct,Cb] u0 {1,S} 
+6    [Cd,Ct,Cb] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -200,7 +200,7 @@ entry(
 3 *3 O   u1 {2,S}
 4 *4 H   u0 {1,S}
 5    R!H u0 {1,S}
-6    [Cd,Ct,Cb] u0 {1,S} 
+6    [Cd,Ct,Cb] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -215,7 +215,7 @@ entry(
 3 *6 O   u1 {2,S}
 4    H   u0 {1,S}
 5    H   u0 {1,S}
-6    [Cd,Ct,Cb] u0 {1,S} 
+6    [Cd,Ct,Cb] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -230,7 +230,7 @@ entry(
 3 *6 O   u1 {2,S}
 4    H   u0 {1,S}
 5    R!H u0 {1,S}
-6    [Cd,Ct,Cb] u0 {1,S} 
+6    [Cd,Ct,Cb] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -245,7 +245,7 @@ entry(
 3 *6 O   u1 {2,S}
 4    R!H u0 {1,S}
 5    R!H u0 {1,S}
-6    [Cd,Ct,Cb] u0 {1,S} 
+6    [Cd,Ct,Cb] u0 {1,S}
 """,
     kinetics = None,
 )
@@ -255,18 +255,18 @@ tree(
 L1: RHOO_rad
     L2: CH_methyl_OO_rad
     L2: CH_pri_OO_rad
-        L3: CbdtH_pri_OO_rad 
+        L3: CbdtH_pri_OO_rad
     L2: CH_sec_OO_rad
-        L3: CbdtH_sec_OO_rad 
+        L3: CbdtH_sec_OO_rad
 L1: ROO_rad
     L2: HOO_rad
     L2: C_methyl_OO_rad
     L2: C_pri_OO_rad
-        L3: Cbdt_pri_OO_rad 
+        L3: Cbdt_pri_OO_rad
     L2: C_sec_OO_rad
-        L3: Cbdt_sec_OO_rad 
+        L3: Cbdt_sec_OO_rad
     L2: C_ter_OO_rad
-        L3: Cbdt_ter_OO_rad 
+        L3: Cbdt_ter_OO_rad
     L2: O=COO_rad
 """
 )

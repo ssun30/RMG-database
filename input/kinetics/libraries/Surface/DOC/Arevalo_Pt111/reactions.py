@@ -64,9 +64,9 @@ entry(
     index = 3,
     label = "NO_X + O_X <=> NO2_X + X",
     kinetics = SurfaceArrhenius(
-        A = (1.776E22, 'cm^2/(mol*s)'),  
+        A = (1.776E22, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (115788, 'J/mol'),  
+        Ea = (115788, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),

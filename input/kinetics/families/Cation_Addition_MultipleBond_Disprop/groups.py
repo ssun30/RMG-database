@@ -35,7 +35,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {3,[S,D,B]}
 2 *5 R!H u0 {1,S} {4,[S,D,B]}
@@ -50,7 +50,7 @@ entry(
 entry(
     index = 1,
     label = "Root_4R!H->C",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {3,[S,D,B]}
 2 *5 R!H u0 {1,S} {4,[S,D,B]}
@@ -65,7 +65,7 @@ entry(
 entry(
     index = 2,
     label = "Root_4R!H->C_2R!H->N",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {3,[S,D,B]}
 2 *5 N   u0 {1,S} {4,[S,D,B]}
@@ -80,7 +80,7 @@ entry(
 entry(
     index = 3,
     label = "Root_4R!H->C_N-2R!H->N",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {3,[S,D,B]}
 2 *5 C   u0 {1,S} {4,[S,D,B]}
@@ -95,7 +95,7 @@ entry(
 entry(
     index = 4,
     label = "Root_4R!H->C_N-2R!H->N_Ext-3R!H-R",
-    group = 
+    group =
 """
 1 *4 R!H u0 {2,S} {3,[S,D,B]}
 2 *5 C   u0 {1,S} {4,[S,D,B]}
@@ -111,7 +111,7 @@ entry(
 entry(
     index = 5,
     label = "Root_4R!H->C_N-2R!H->N_Ext-3R!H-R_1R!H->O",
-    group = 
+    group =
 """
 1 *4 O  u0 {2,S} {3,[S,D,B]}
 2 *5 C  u0 {1,S} {4,[S,D,B]}
@@ -127,7 +127,7 @@ entry(
 entry(
     index = 6,
     label = "Root_4R!H->C_N-2R!H->N_Ext-3R!H-R_1R!H->O_Ext-7R!H-R_8R!H->C",
-    group = 
+    group =
 """
 1 *4 O  u0 {2,S} {3,[S,D,B]}
 2 *5 C  u0 {1,S} {4,[S,D,B]}
@@ -144,7 +144,7 @@ entry(
 entry(
     index = 7,
     label = "Root_4R!H->C_N-2R!H->N_Ext-3R!H-R_1R!H->O_Ext-7R!H-R_N-8R!H->C",
-    group = 
+    group =
 """
 1 *4 O                         u0 {2,S} {3,[S,D,B]}
 2 *5 C                         u0 {1,S} {4,[S,D,B]}
@@ -161,7 +161,7 @@ entry(
 entry(
     index = 8,
     label = "Root_4R!H->C_N-2R!H->N_Ext-3R!H-R_N-1R!H->O",
-    group = 
+    group =
 """
 1 *4 C   u0 {2,S} {3,[S,D,B]}
 2 *5 C   u0 {1,S} {4,[S,D,B]}
@@ -177,7 +177,7 @@ entry(
 entry(
     index = 9,
     label = "Root_4R!H->C_N-2R!H->N_1R!H->O",
-    group = 
+    group =
 """
 1 *4 O   u0 {2,S} {3,[S,D,B]}
 2 *5 C   u0 {1,S} {4,[S,D,B]}
@@ -192,7 +192,7 @@ entry(
 entry(
     index = 10,
     label = "Root_4R!H->C_N-2R!H->N_N-1R!H->O",
-    group = 
+    group =
 """
 1 *4 C   u0 {2,S} {3,[S,D,B]}
 2 *5 C   u0 {1,S} {4,[S,D,B]}
@@ -207,7 +207,7 @@ entry(
 entry(
     index = 11,
     label = "Root_N-4R!H->C",
-    group = 
+    group =
 """
 1 *4 R!H                       u0 r0 {2,S} {3,S}
 2 *5 R!H                       u0 r0 {1,S} {4,S}
@@ -238,13 +238,13 @@ L1: Root
 
 forbidden(
     label = "O2d",
-    group = 
+    group =
 """
 1 *1 O u0 {2,D}
 2 *2 O u0 {1,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,

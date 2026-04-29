@@ -6,11 +6,11 @@ shortDesc = u""
 longDesc = u"""
 Sources:
 [1] Ju-Sung Kim, Laura M. Brandt, George L. Heard, and Bert E. Holmes.
-    Computational study of the threshold energy for the 1,2-interchange of X and R 
-    (X, R = halogens, pseudohalogens, and monovalent hydrocarbon groups) on CH2XCH2R. 
+    Computational study of the threshold energy for the 1,2-interchange of X and R
+    (X, R = halogens, pseudohalogens, and monovalent hydrocarbon groups) on CH2XCH2R.
     Canadian Journal of Chemistry. 94(12): 1038-1043. https://doi.org/10.1139/cjc-2016-0293
 
-    Table 1. Threshold energy barriers for interchange reactions (kJ/mol) calculated at 
+    Table 1. Threshold energy barriers for interchange reactions (kJ/mol) calculated at
     the B3PW91/6-311+G(2d,p) level of theory and basis set
 """
 
@@ -162,7 +162,7 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""E0 from Table 1 in [1]""",
-    longDesc = 
+    longDesc =
 u"""
 Average of OCH3 and OH
 """,
@@ -181,7 +181,7 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""E0 from Table 1 in [1]""",
-    longDesc = 
+    longDesc =
 u"""
 Average of OCH3 and OH
 """,
@@ -200,7 +200,7 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""E0 from Table 1 in [1]""",
-    longDesc = 
+    longDesc =
 u"""
 Average of OCH3 and OH
 """,

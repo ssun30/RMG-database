@@ -4,12 +4,12 @@
 name = "2017_Mebel_C6H5_C4H4_highP"
 shortDesc = u"G3(MP2,CC)//B3LYP/6-311G(d,p)"
 longDesc = u"""
-C10H9 PES including phenyl radical + vinylacetylene and naphthalene+H, 
+C10H9 PES including phenyl radical + vinylacetylene and naphthalene+H,
 calculated using G3(MP2,CC)+TST.
 
 Kinetics from:
-Mebel, A. M.; Landera, A.; Kaiser, R. I., Formation Mechanisms of Naphthalene and Indene: 
-From the Interstellar Medium to Combustion Flames. J. Phys. Chem. A 2017, 121, 901-926. 
+Mebel, A. M.; Landera, A.; Kaiser, R. I., Formation Mechanisms of Naphthalene and Indene:
+From the Interstellar Medium to Combustion Flames. J. Phys. Chem. A 2017, 121, 901-926.
 """
 entry(
     index = 1,

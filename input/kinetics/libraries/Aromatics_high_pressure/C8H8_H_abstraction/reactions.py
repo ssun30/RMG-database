@@ -12,7 +12,7 @@ entry(
     label = "C8H8(12) + H(1) <=> C8H7(11) + H2(2)",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(240, 'cm^3/(mol*s)'), n=3.62, Ea=(11.27, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -33,7 +33,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -44,7 +44,7 @@ entry(
     label = "C8H8(12) + OH(5) <=> C8H7(11) + H2O(6)",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.13, 'cm^3/(mol*s)'), n=4.2, Ea=(-0.86, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -60,7 +60,7 @@ entry(
         Ea = (13.06, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -76,7 +76,7 @@ entry(
         Ea = (15.31, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -92,7 +92,7 @@ entry(
         Ea = (0.73, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,

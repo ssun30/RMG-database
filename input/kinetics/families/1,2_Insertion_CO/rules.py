@@ -19,7 +19,7 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = 
+    longDesc =
 u"""
 Some of the tortional motions in the alkyl part of the
 transition states are treated as free rotations as they are relatively loose TSs.

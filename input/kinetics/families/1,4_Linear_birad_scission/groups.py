@@ -23,7 +23,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "RJJ",
-    group = 
+    group =
 """
 1 *1 R!H u1 c0 {2,[S,D]}
 2 *2 R!H u0 c0 {1,[S,D]} {3,S}

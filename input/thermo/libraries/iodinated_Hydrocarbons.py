@@ -7,7 +7,7 @@ shortDesc = u"Iodinated Hydrocarbons"
 longDesc = u"""
 
 1. JPL NASA Evaluation #18 for H298 and S298 (no Cp data reported, no values for C6H5I)
-reference: Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies; 
+reference: Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies;
 Evaluation No. 18, JPL Publication 15–10; Jet Propulsion Laboratory: Pasadena, CA, 2015
 Table 6-2
 
@@ -35,7 +35,7 @@ multiplicity 2
     shortDesc=u"""JPL Evaluation 18 + webbook.nist.gov (Cp data)""",
     longDesc=
     u"""
-Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies; 
+Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies;
 Evaluation No. 18, JPL Publication 15–10; Jet Propulsion Laboratory: Pasadena, CA, 2015
 Table 6-2
 https://webbook.nist.gov/cgi/cbook.cgi?ID=C14362448&Units=SI&Mask=1&Type=JANAFG&Table=on#JANAFG (Cp data)
@@ -59,7 +59,7 @@ entry(
     shortDesc=u"""JPL Evaluation 18 + webbook.nist.gov""",
     longDesc=
     u"""
-Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies; 
+Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies;
 Evaluation No. 18, JPL Publication 15–10; Jet Propulsion Laboratory: Pasadena, CA, 2015
 Table 6-2
 https://webbook.nist.gov/cgi/cbook.cgi?ID=C7553562&Units=SI&Mask=1&Type=JANAFG&Table=on#JANAFG (Cp data)
@@ -83,7 +83,7 @@ entry(
     shortDesc=u"""JPL Evaluation 18 + webbook.nist.gov""",
     longDesc=
     u"""
-Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies; 
+Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies;
 Evaluation No. 18, JPL Publication 15–10; Jet Propulsion Laboratory: Pasadena, CA, 2015
 Table 6-2
 https://webbook.nist.gov/cgi/cbook.cgi?ID=C10034852&Units=SI&Type=JANAFG&Table=on#JANAFG (Cp data)
@@ -110,7 +110,7 @@ entry(
     shortDesc = u"""JPL Evaluation 18 (H298, S298) + 1976 Benson (Cp data)""",
     longDesc =
 u"""
-Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies; 
+Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies;
 Evaluation No. 18, JPL Publication 15–10; Jet Propulsion Laboratory: Pasadena, CA, 2015
 Table 6-2 (H298 and S298)
 1976 Benson (Cp data), Table A.11. p.297
@@ -137,7 +137,7 @@ entry(
     shortDesc = u"""JPL Evaluation 18 (H298, S298) + 1976 Benson (Cp data)""",
     longDesc =
 u"""
-Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies; 
+Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies;
 Evaluation No. 18, JPL Publication 15–10; Jet Propulsion Laboratory: Pasadena, CA, 2015
 Table 6-2 (H298 and S298)
 1976 Benson (Cp data), Table A.11. p.297
@@ -249,9 +249,9 @@ entry(
     longDesc =
 u"""
 1976 Benson, Zach Supplementary Info Table S1 (p10-I)
-SUPPLEMENTARY INFORMATION for 
-Phenyl Radical + Propene: A Prototypical Reaction Surface for Aromatic-Catalyzed 1,2Hydrogen-Migration 
-and Subsequent Resonance Stabilized Radical Formation 
+SUPPLEMENTARY INFORMATION for
+Phenyl Radical + Propene: A Prototypical Reaction Surface for Aromatic-Catalyzed 1,2Hydrogen-Migration
+and Subsequent Resonance Stabilized Radical Formation
 Buras, Z. J. et al.
 """,
 )
@@ -284,9 +284,9 @@ entry(
     longDesc =
 u"""
 1976 Benson, Zach Supplementary Info Table S1 (p10-I)
-SUPPLEMENTARY INFORMATION for 
-Phenyl Radical + Propene: A Prototypical Reaction Surface for Aromatic-Catalyzed 1,2Hydrogen-Migration 
-and Subsequent Resonance Stabilized Radical Formation 
+SUPPLEMENTARY INFORMATION for
+Phenyl Radical + Propene: A Prototypical Reaction Surface for Aromatic-Catalyzed 1,2Hydrogen-Migration
+and Subsequent Resonance Stabilized Radical Formation
 Buras, Z. J. et al.
 """,
 )
@@ -322,9 +322,9 @@ entry(
     longDesc =
 u"""
 1976 Benson, Zach Supplementary Info Table S1 (p10-I)
-SUPPLEMENTARY INFORMATION for 
-Phenyl Radical + Propene: A Prototypical Reaction Surface for Aromatic-Catalyzed 1,2Hydrogen-Migration 
-and Subsequent Resonance Stabilized Radical Formation 
+SUPPLEMENTARY INFORMATION for
+Phenyl Radical + Propene: A Prototypical Reaction Surface for Aromatic-Catalyzed 1,2Hydrogen-Migration
+and Subsequent Resonance Stabilized Radical Formation
 Buras, Z. J. et al.
 """,
 )
@@ -337,7 +337,7 @@ entry(
 1  C u0 p0 c0 {2,S} {6,D} {10,S}
 2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
 3  C u0 p0 c0 {2,S} {4,S} {5,S} {13,S}
-4  I u0 p3 c0 {3,S} 
+4  I u0 p3 c0 {3,S}
 5  C u0 p0 c0 {3,S} {14,S} {15,S} {16,S}
 6  C u0 p0 c0 {1,D} {7,S} {17,S}
 7  C u0 p0 c0 {6,S} {8,D} {18,S}
@@ -366,9 +366,9 @@ entry(
     longDesc =
 u"""
 1976 Benson, Zach Supplementary Info Table S1 (p10-I)
-SUPPLEMENTARY INFORMATION for 
-Phenyl Radical + Propene: A Prototypical Reaction Surface for Aromatic-Catalyzed 1,2Hydrogen-Migration 
-and Subsequent Resonance Stabilized Radical Formation 
+SUPPLEMENTARY INFORMATION for
+Phenyl Radical + Propene: A Prototypical Reaction Surface for Aromatic-Catalyzed 1,2Hydrogen-Migration
+and Subsequent Resonance Stabilized Radical Formation
 Buras, Z. J. et al.
 """,
 )
@@ -391,7 +391,7 @@ entry(
     shortDesc = u""" JPL Evaluation 18 (H298, S298) + 1976 Benson (Cp)""",
     longDesc =
 u"""
-Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies; 
+Burkholder,J. B. et al.Chemical Kinetics and Photochemical Data for Use in Atmospheric Studies;
 Evaluation No. 18, JPL Publication 15–10; Jet Propulsion Laboratory: Pasadena, CA, 2015
 Table 6-2 (H298 and S298)
 1976 Benson (Table A.9, p. 292)

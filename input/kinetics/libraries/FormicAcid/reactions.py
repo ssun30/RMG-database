@@ -31,7 +31,7 @@ entry(
     longDesc=
     u"""
     Calculated based on the HEAT (High-accuracy Extrapolated Ab initio Thermochemistry) protocol, specifically the HEAT-345Q variant, as detailed in [Nguyen2012].
-    T range: 50-2500 K; calculations focus on the zero- and high-pressure limits.This calculation explicitly accounts for quantum mechanical tunneling effects using semiclassical transition state theory (SCTST), which incorporates fully coupled vibrations and multidimensional tunneling.   
+    T range: 50-2500 K; calculations focus on the zero- and high-pressure limits.This calculation explicitly accounts for quantum mechanical tunneling effects using semiclassical transition state theory (SCTST), which incorporates fully coupled vibrations and multidimensional tunneling.
     """,
 )
 
@@ -57,7 +57,7 @@ entry(
     longDesc=
     u"""
     Calculated based on the HEAT (High-accuracy Extrapolated Ab initio Thermochemistry) protocol, specifically the HEAT-345Q variant, as detailed in [Nguyen2012].
-    T range: 50-2500 K; calculations focus on the zero- and high-pressure limits.This calculation explicitly accounts for quantum mechanical tunneling effects using semiclassical transition state theory (SCTST), which incorporates fully coupled vibrations and multidimensional tunneling.   
+    T range: 50-2500 K; calculations focus on the zero- and high-pressure limits.This calculation explicitly accounts for quantum mechanical tunneling effects using semiclassical transition state theory (SCTST), which incorporates fully coupled vibrations and multidimensional tunneling.
     """,
 )
 
@@ -83,7 +83,7 @@ entry(
     longDesc=
     u"""
     Calculated based on the HEAT (High-accuracy Extrapolated Ab initio Thermochemistry) protocol, specifically the HEAT-345Q variant, as detailed in [Nguyen2012].
-    T range: 50-2500 K; calculations focus on the zero- and high-pressure limits.This calculation explicitly accounts for quantum mechanical tunneling effects using semiclassical transition state theory (SCTST), which incorporates fully coupled vibrations and multidimensional tunneling.   
+    T range: 50-2500 K; calculations focus on the zero- and high-pressure limits.This calculation explicitly accounts for quantum mechanical tunneling effects using semiclassical transition state theory (SCTST), which incorporates fully coupled vibrations and multidimensional tunneling.
     """,
 )
 
@@ -97,18 +97,18 @@ entry(
             [0.64999,-0.293929,-0.0209092,0.0510844],
             [-0.0172581,-0.175944,0.0797736,-0.0274859],
             [-0.106711,0.0267121,-0.0103067,-0.00999137],
-            [-0.0910028,0.0427277,-0.0124742,0.0123547]], 
-        kunits='1/s', 
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+            [-0.0910028,0.0427277,-0.0124742,0.0123547]],
+        kunits='1/s',
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
         ),
     shortDesc=u"""[Nguyen2012]""",
     longDesc=
     u"""
     Calculated based on the HEAT (High-accuracy Extrapolated Ab initio Thermochemistry) protocol, specifically the HEAT-345Q variant, as detailed in [Nguyen2012].
-    T range: 50-2500 K; calculations focus on the zero- and high-pressure limits.This calculation explicitly accounts for quantum mechanical tunneling effects using semiclassical transition state theory (SCTST), which incorporates fully coupled vibrations and multidimensional tunneling.   
+    T range: 50-2500 K; calculations focus on the zero- and high-pressure limits.This calculation explicitly accounts for quantum mechanical tunneling effects using semiclassical transition state theory (SCTST), which incorporates fully coupled vibrations and multidimensional tunneling.
     """,
 )
 
@@ -122,18 +122,18 @@ entry(
             [-0.141944,0.0518631,0.0213173,0.00335184],
             [0.00848119,-0.0199697,-5.42516e-05,0.00254578],
             [-0.0427365,0.0131247,0.00219256,-0.000506071],
-            [-0.0140018,3.15098e-07,0.00127432,0.000548326]], 
-        kunits='cm^3/(mol*s)', 
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+            [-0.0140018,3.15098e-07,0.00127432,0.000548326]],
+        kunits='cm^3/(mol*s)',
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
         ),
     shortDesc=u"""[Nguyen2012]""",
     longDesc=
     u"""
     Calculated based on the HEAT (High-accuracy Extrapolated Ab initio Thermochemistry) protocol, specifically the HEAT-345Q variant, as detailed in [Nguyen2012].
-    T range: 50-2500 K; calculations focus on the zero- and high-pressure limits.This calculation explicitly accounts for quantum mechanical tunneling effects using semiclassical transition state theory (SCTST), which incorporates fully coupled vibrations and multidimensional tunneling.   
+    T range: 50-2500 K; calculations focus on the zero- and high-pressure limits.This calculation explicitly accounts for quantum mechanical tunneling effects using semiclassical transition state theory (SCTST), which incorporates fully coupled vibrations and multidimensional tunneling.
     """,
 )
 
@@ -147,18 +147,18 @@ entry(
             [0.182803,0.227552,0.02043,-0.00698013],
             [-0.201013,0.0109382,0.0146266,-0.0029227],
             [-0.0326655,0.0159478,-0.00017484,-0.000757879],
-            [-0.0142236,0.0138451,-0.00155517,-0.000505843]], 
-        kunits='cm^3/(mol*s)', 
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+            [-0.0142236,0.0138451,-0.00155517,-0.000505843]],
+        kunits='cm^3/(mol*s)',
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
         ),
     shortDesc=u"""[Nguyen2012]""",
     longDesc=
     u"""
     Calculated based on the HEAT (High-accuracy Extrapolated Ab initio Thermochemistry) protocol, specifically the HEAT-345Q variant, as detailed in [Nguyen2012].
-    T range: 50-2500 K; calculations focus on the zero- and high-pressure limits.This calculation explicitly accounts for quantum mechanical tunneling effects using semiclassical transition state theory (SCTST), which incorporates fully coupled vibrations and multidimensional tunneling.   
+    T range: 50-2500 K; calculations focus on the zero- and high-pressure limits.This calculation explicitly accounts for quantum mechanical tunneling effects using semiclassical transition state theory (SCTST), which incorporates fully coupled vibrations and multidimensional tunneling.
     """,
 )
 
@@ -175,16 +175,16 @@ entry(
             [-0.02575, 0.003575, -0.003538, 0.0004563],
         ],
         kunits = 's^-1',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -211,16 +211,16 @@ entry(
             [-0.04983, -0.0002779, -0.0001883, -0.00009993],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -237,16 +237,16 @@ entry(
             [0.006008, -0.000002801, -0.000001949, -0.000001081],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -273,16 +273,16 @@ entry(
             [-0.03072, -0.0003188, -0.0002205, -0.0001212],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -299,16 +299,16 @@ entry(
             [-0.006544, 0.0009985, 0.0007011, 0.0003122],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -325,16 +325,16 @@ entry(
             [-0.08127, -0.0005667, -0.0003872, -0.0002085],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -351,16 +351,16 @@ entry(
             [-0.02, -0.00006951, -0.00004803, -0.00002634],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -377,16 +377,16 @@ entry(
             [-0.00528, 0.001966, 0.004679, -0.002187],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -403,16 +403,16 @@ entry(
             [-0.06239, -0.0005773, -0.0003993, -0.0002195],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -429,16 +429,16 @@ entry(
             [-0.08484, -0.0002736, -0.0001841, -0.00009657],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -455,16 +455,16 @@ entry(
             [-0.01467, -0.000004377, -0.00000303, -0.000001667],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -481,16 +481,16 @@ entry(
             [-0.02236, -0.01356, -0.01116, -0.002793],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -507,16 +507,16 @@ entry(
             [-0.06638, -0.0003249, -0.0002247, -0.0001234],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -533,16 +533,16 @@ entry(
             [-0.004068, -0.000001114, -0.0000007750, -0.0000004298],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -559,16 +559,16 @@ entry(
             [-0.08169, -0.0002816, -0.0001895, -0.00009936],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -585,16 +585,16 @@ entry(
             [-0.07713, -0.0002142, -0.0001478, -0.0000809],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -611,16 +611,16 @@ entry(
             [-0.01812, -0.000006496, -0.000004493, -0.000002468],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -637,16 +637,16 @@ entry(
             [0.006718, -0.0000003296, -0.0000002292, -0.0000001270],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -663,22 +663,22 @@ entry(
             [-0.06674, -0.0003317, -0.0002294, -0.0001260],
         ],
         kunits = 'cm^3/(mol*s)',
-        Tmin=(300,'K'), 
-        Tmax=(3000,'K'), 
-        Pmin=(0.01,'bar'), 
+        Tmin=(300,'K'),
+        Tmax=(3000,'K'),
+        Pmin=(0.01,'bar'),
         Pmax=(100,'bar')
     ),
     shortDesc=u"""FormicAcid""",
     longDesc=
     u"""
     From the pressure-dependent kinetic network of the singlet CH2O2 PES calculated at
-    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.    
+    the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
 entry(
     index=28,
-    label = 'HOCHO + OH <=> HOCO + H2O', 
+    label = 'HOCHO + OH <=> HOCO + H2O',
     kinetics = Arrhenius(
         A = (30703.2, 'cm^3/(mol*s)'),
         n = 2.52013,
@@ -696,7 +696,7 @@ entry(
 
 entry(
     index=29,
-    label = 'HOCHO + OH <=> OCHO + H2O', 
+    label = 'HOCHO + OH <=> OCHO + H2O',
     kinetics = Arrhenius(
         A = (0.0765648, 'cm^3/(mol*s)'),
         n = 4.05778,
@@ -709,7 +709,7 @@ entry(
     longDesc=
     u"""
     Calculated at the CCSD(T)-F12/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
-    H_abs reaction, ARC couldn't caluclate the reversed reaction rate.   
+    H_abs reaction, ARC couldn't caluclate the reversed reaction rate.
     """,
 )
 
@@ -732,10 +732,10 @@ entry(
         Pmax = (100, 'bar'),
     ),
     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
     u"""
     From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -761,7 +761,7 @@ entry(
     longDesc =
     u"""
     From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -787,7 +787,7 @@ entry(
     longDesc =
     u"""
     From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -813,7 +813,7 @@ entry(
     longDesc =
     u"""
     From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -839,7 +839,7 @@ entry(
     longDesc =
     u"""
     From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -865,7 +865,7 @@ entry(
     longDesc =
     u"""
     From the pressure-dependent kinetic network of the doublet CH3O2 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -888,10 +888,10 @@ entry(
         Pmax = (100, 'bar'),
     ),
     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
     u"""
     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory. 
+    the ccsd(t)_l/aug-cc-pVTZ-F12//B2PLYP-D3/def2-TZVP level of theory.
     """,
 )
 
@@ -914,10 +914,10 @@ entry(
         Pmax = (100, 'bar'),
     ),
     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
     u"""
     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
+    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory.
     """,
 )
 
@@ -940,10 +940,10 @@ entry(
         Pmax = (100, 'bar'),
     ),
     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
     u"""
     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
+    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory.
     """,
 )
 
@@ -966,10 +966,10 @@ entry(
         Pmax = (100, 'bar'),
     ),
     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
     u"""
     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
+    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory.
     """,
 )
 
@@ -992,10 +992,10 @@ entry(
         Pmax = (100, 'bar'),
     ),
     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
     u"""
     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
+    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory.
     """,
 )
 
@@ -1018,10 +1018,10 @@ entry(
         Pmax = (100, 'bar'),
     ),
     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
     u"""
     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
+    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory.
     """,
 )
 
@@ -1044,10 +1044,10 @@ entry(
         Pmax = (100, 'bar'),
     ),
     shortDesc = u"""ccsd(t)_l/aug-cc-pvtz//B2PLYP-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
     u"""
     From the pressure-dependent kinetic network of the singlet CH3O3 PES calculated at
-    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory. 
+    the ccsd(t)_l/aug-cc-pvtz-f12//b2plyp-d3/def2-tzvp level of theory.
     """,
 )
 
@@ -1058,7 +1058,7 @@ entry(
     kinetics = Arrhenius(A=(4.79e-01, '(cm^3/(mol*s))'), n=3.40, Ea=(104.59, 'kJ/mol'),
                          T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
     shortDesc = """ccsd(t)-f12/aug-cc-pvtz//wb97xd/def2tzvp""",
-    longDesc = 
+    longDesc =
     """
 
     TS method summary for TS0 in HOCHO + HOCHO <=> HOCHO + CO + H2O:

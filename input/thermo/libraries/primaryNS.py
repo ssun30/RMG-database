@@ -9,7 +9,7 @@ Thermo data for various nitrogen and sulfur species
 entry(
     index = 0,
     label = "N",
-    molecule = 
+    molecule =
 """
 multiplicity 4
 1 N u3 p1 c0
@@ -21,7 +21,7 @@ multiplicity 4
         S298 = (36.6336,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from the GRI-Mech3.0-N library
 """,
@@ -30,7 +30,7 @@ Taken from the GRI-Mech3.0-N library
 entry(
     index = 1,
     label = "NH(S)",
-    molecule = 
+    molecule =
 """
 1 N u0 p2 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -42,7 +42,7 @@ entry(
         S298 = (41.7,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
 in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
@@ -53,7 +53,7 @@ doi: 10.1007/978-1-4612-1310-9_2
 entry(
     index = 2,
     label = "NNOH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -68,7 +68,7 @@ multiplicity 2
         S298 = (61.4,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
 in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
@@ -79,7 +79,7 @@ doi: 10.1007/978-1-4612-1310-9_2
 entry(
     index = 3,
     label = "CH2NN",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c-1 {2,S} {3,S} {4,S}
 2 H u0 p0 c0 {1,S}
@@ -94,7 +94,7 @@ entry(
         S298 = (57.96,'cal/(mol*K)'),
     ),
     shortDesc = u"""diazomethyl""",
-    longDesc = 
+    longDesc =
 u"""
 Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
 in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
@@ -105,7 +105,7 @@ doi: 10.1007/978-1-4612-1310-9_2
 entry(
     index = 4,
     label = "HCNN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p1 c-1 {2,S} {3,S}
@@ -120,7 +120,7 @@ multiplicity 2
         S298 = (59.3,'cal/(mol*K)'),
     ),
     shortDesc = u"""diazomethyl radical""",
-    longDesc = 
+    longDesc =
 u"""
 Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
 in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
@@ -131,7 +131,7 @@ doi: 10.1007/978-1-4612-1310-9_2
 entry(
     index = 5,
     label = "HCN2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -146,7 +146,7 @@ multiplicity 2
         S298 = (57.5,'cal/(mol*K)'),
     ),
     shortDesc = u"""diazirine radical""",
-    longDesc = 
+    longDesc =
 u"""
 Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
 in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
@@ -157,7 +157,7 @@ doi: 10.1007/978-1-4612-1310-9_2
 entry(
     index = 6,
     label = "CH2NNH2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -174,7 +174,7 @@ entry(
         S298 = (63.1,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
 in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
@@ -185,7 +185,7 @@ doi: 10.1007/978-1-4612-1310-9_2
 entry(
     index = 7,
     label = "CH3NNH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -202,7 +202,7 @@ entry(
         S298 = (61.4,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
 in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
@@ -213,7 +213,7 @@ doi: 10.1007/978-1-4612-1310-9_2
 entry(
     index = 8,
     label = "NCHOH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -229,7 +229,7 @@ multiplicity 2
         S298 = (62.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Anthony M. Dean, Joseph W. Bozzelli, Combustion Chemistry of Nitrogen,
 in: Gas-Phase Combustion Chemistry, Editor: W.C. Gardiner, 2000, 125-341,
@@ -240,7 +240,7 @@ doi: 10.1007/978-1-4612-1310-9_2
 entry(
     index = 9,
     label = "NS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -253,7 +253,7 @@ multiplicity 2
         S298 = (52.76,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Enthalpy is taken from Marshall2002:
 L.R. Peebles, P. Marshall, Chem. Phys. Letters, 2002, 366(5-6), 520-524, doi: 10.1016/S0009-2614(02)01619-6
@@ -269,7 +269,7 @@ Division, 2005. http://garfield.chem.elte.hu/Burcat/burcat.html
 entry(
     index = 10,
     label = "NSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -283,7 +283,7 @@ multiplicity 2
         S298 = (262.6,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from the SulfurGlarborgNS library
 H298 is updated from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
@@ -293,7 +293,7 @@ H298 is updated from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-3
 entry(
     index = 11,
     label = "NNS",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p0 c+1 {1,T} {3,S}
@@ -311,7 +311,7 @@ entry(
         CpInf = (54.0441,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a/cc-pVTZ-f12//M06-2x/cc-pVTZ""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: N#[N+][S-]
 
@@ -341,7 +341,7 @@ Thermodynamics for NNS:
 entry(
     index = 12,
     label = "SO",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u1 p2 c0 {2,S}
@@ -354,7 +354,7 @@ multiplicity 3
         S298 = (53.01,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 R.J. Kee, F.M. Rupley, J.A. Miller, The Chemkin Thermodynamic Data Base, Sandia Report SAND87-8215, Sandia National Laboratories, Livermore, California, 1991
 As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
@@ -365,7 +365,7 @@ H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352
 entry(
     index = 13,
     label = "SO2",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,D} {3,D}
 2 O u0 p2 c0 {1,D}
@@ -378,7 +378,7 @@ entry(
         S298 = (59.29,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 R.J. Kee, F.M. Rupley, J.A. Miller, The Chemkin Thermodynamic Data Base, Sandia Report SAND87-8215, Sandia National Laboratories, Livermore, California, 1991
 As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
@@ -389,7 +389,7 @@ H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352
 entry(
     index = 14,
     label = "OSO(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u1 p1 c0 {2,S} {3,D}
@@ -408,7 +408,7 @@ multiplicity 3
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a//cc-pVTZ-F12//B3LYP/6-311+G(2d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: [O][S]=O, [O]S[O]
 
@@ -438,7 +438,7 @@ Thermodynamics for OSO(T):
 entry(
     index = 15,
     label = "OOS(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u0 p2 c0 {2,S} {3,S}
@@ -457,7 +457,7 @@ multiplicity 3
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a//cc-pVTZ-F12//B3LYP/6-311+G(2d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: [O]O[S]
 
@@ -487,7 +487,7 @@ Thermodynamics for OOS(T):
 entry(
     index = 16,
     label = "SO3",
-    molecule = 
+    molecule =
 """
 1 S u0 p0 c0 {2,D} {3,D} {4,D}
 2 O u0 p2 c0 {1,D}
@@ -501,7 +501,7 @@ entry(
         S298 = (61.34,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 R.J. Kee, F.M. Rupley, J.A. Miller, The Chemkin Thermodynamic Data Base, Sandia Report SAND87-8215, Sandia National Laboratories, Livermore, California, 1991
 As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
@@ -511,7 +511,7 @@ As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzell
 entry(
     index = 17,
     label = "HSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p1 c0 {2,S} {3,D}
@@ -525,7 +525,7 @@ multiplicity 2
         S298 = (57.65,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 A. Goumri, D. Laakso, J-D R. Rocha, C.E. Smith, P. Marshall
 The Journal of Chemical Physics 102, 161 (1995)
@@ -539,7 +539,7 @@ H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352
 entry(
     index = 18,
     label = "HOS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -553,7 +553,7 @@ multiplicity 2
         S298 = (57.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 A. Goumri, D. Laakso, J-D R. Rocha, C.E. Smith, P. Marshall
 The Journal of Chemical Physics 102, 161 (1995)
@@ -567,7 +567,7 @@ H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352
 entry(
     index = 19,
     label = "HSS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p1 c0 {2,D} {3,S}
@@ -581,7 +581,7 @@ multiplicity 2
         S298 = (60.95,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from the SulfurGlarborgH2S library with comment:
 Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
@@ -594,7 +594,7 @@ H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352
 entry(
     index = 20,
     label = "HSSH",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {4,S}
@@ -608,7 +608,7 @@ entry(
         S298 = (61.62,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from the SulfurGlarborgH2S library with comment:
 Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
@@ -621,7 +621,7 @@ H298 (updated uncertainty) is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 
 entry(
     index = 21,
     label = "HSOH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {4,S}
@@ -635,7 +635,7 @@ entry(
         S298 = (270.4,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 UMP2=full/6-31G+
 A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall
@@ -651,7 +651,7 @@ Also in agreement with Table 8 in P.A. Denis, Molecular Physics 2008, 106(21-23)
 entry(
     index = 22,
     label = "H2SO",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -665,7 +665,7 @@ entry(
         S298 = (57.26,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H.M. Chiang, J.W. Bozzelli, Quantum Rice-Ramsberger-Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
 As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
@@ -676,7 +676,7 @@ H298 is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352
 entry(
     index = 23,
     label = "HSO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p0 c0 {2,D} {3,D} {4,S}
@@ -691,7 +691,7 @@ multiplicity 2
         S298 = (63.68,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H.M. Chiang, J.W. Bozzelli, Quantum Rice-Ramsberger-Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
 As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
@@ -703,7 +703,7 @@ A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1
 entry(
     index = 24,
     label = "HOSHO",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,S} {3,D} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -718,7 +718,7 @@ entry(
         S298 = (64.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H.M. Chiang, J.W. Bozzelli, Quantum Rice-Ramsberger-Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
 As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
@@ -728,7 +728,7 @@ As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzell
 entry(
     index = 25,
     label = "HOSO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p1 c0 {2,S} {3,D} {4,S}
@@ -744,7 +744,7 @@ multiplicity 2
         S298 = (70.72,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H.M. Chiang, J.W. Bozzelli, Quantum Rice-Ramsberger-Kassel (QRRK) Analysis on Reaction of HSO + O, H + SO2, and OH + SO; HO2 and HOSO Formation and Dissociation
 As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K
@@ -755,7 +755,7 @@ H298 is calculated at fc-CCSD(T)/cc-pV(T+d)Z and taken from W. Klopper, D.P. Tew
 entry(
     index = 26,
     label = "HSOO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p2 c0 {2,S} {4,S}
@@ -775,7 +775,7 @@ multiplicity 2
         CpInf = (78.9875,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: SO[O]
 
@@ -806,7 +806,7 @@ Thermodynamics for HSOO:
 entry(
     index = 27,
     label = "HOSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -821,7 +821,7 @@ multiplicity 2
         S298 = (282.3,'J/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Table 4
 MP2=FULL/6-31G(d)
@@ -836,7 +836,7 @@ As reported by: P. Glarborg, D. Kubel, K Dam-Johansen, H-M. Chiang, J.W. Bozzell
 entry(
     index = 28,
     label = "HSOS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p2 c0 {2,S} {4,S}
@@ -856,7 +856,7 @@ multiplicity 2
         CpInf = (78.9875,'J/(mol*K)'),
     ),
     shortDesc = u"""UCCSD(T)-F12a/cc-pVTZ-f12//UM06-2x/cc-pVTZ""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: SO[S]
 
@@ -887,7 +887,7 @@ Thermodynamics for HSOS:
 entry(
     index = 29,
     label = "O2ScycOO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 S u0 p0 c0 {1,D} {3,D} {4,S} {5,S}
@@ -907,7 +907,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a/cc-pVTZ-f12//M06-2x/cc-pVTZ""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: O=S1(=O)OO1
 
@@ -938,7 +938,7 @@ Thermodynamics for O2ScycOO:
 entry(
     index = 30,
     label = "cycOOS",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -956,7 +956,7 @@ entry(
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a/cc-pVTZ-f12//M06-2x/cc-pVTZ""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: O1OS1
 
@@ -986,7 +986,7 @@ Thermodynamics for cycOOS:
 entry(
     index = 31,
     label = "cycOOSS",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {4,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -1005,7 +1005,7 @@ entry(
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a/cc-pVTZ-f12//M06-2x/cc-pVTZ""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: O1OSS1
 
@@ -1035,7 +1035,7 @@ Thermodynamics for cycOOSS:
 entry(
     index = 32,
     label = "H2SO4",
-    molecule = 
+    molecule =
 """
 1 S u0 p0 c0 {2,D} {3,D} {4,S} {5,S}
 2 O u0 p2 c0 {1,D}
@@ -1057,7 +1057,7 @@ entry(
         CpInf = (153.818,'J/(mol*K)'),
     ),
     shortDesc = u"""UCCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: OS(=O)(=O)O
 
@@ -1088,7 +1088,7 @@ Thermodynamics for H2SO4:
 entry(
     index = 33,
     label = "HSO2OO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p0 c0 {2,S} {3,D} {4,S} {5,D}
@@ -1110,7 +1110,7 @@ multiplicity 2
         CpInf = (128.874,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: [O]O[SH](=O)=O
 
@@ -1141,7 +1141,7 @@ Thermodynamics for HSO2OO:
 entry(
     index = 34,
     label = "HSO3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p0 c0 {2,S} {3,D} {4,D} {5,S}
@@ -1162,7 +1162,7 @@ multiplicity 2
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: [O][SH](=O)=O
 
@@ -1192,7 +1192,7 @@ Thermodynamics for HSO3:
 entry(
     index = 35,
     label = "HOSO3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p0 c0 {2,S} {3,S} {4,D} {5,D}
@@ -1214,7 +1214,7 @@ multiplicity 2
         CpInf = (128.874,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: [O]S(=O)(=O)O
 
@@ -1245,7 +1245,7 @@ Thermodynamics for HOSO3:
 entry(
     index = 36,
     label = "SO4(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -1266,7 +1266,7 @@ multiplicity 3
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: [O]S(=O)(=O)[O]
 
@@ -1296,7 +1296,7 @@ Thermodynamics for SO4(T):
 entry(
     index = 37,
     label = "HSOOH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {4,S}
@@ -1316,7 +1316,7 @@ entry(
         CpInf = (99.7737,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: [O]S(=O)(=O)[O]
 
@@ -1347,7 +1347,7 @@ Thermodynamics for HSOOH:
 entry(
     index = 38,
     label = "OOSHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p1 c0 {2,S} {3,D} {4,S}
@@ -1368,7 +1368,7 @@ multiplicity 2
         CpInf = (103.931,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: [O]O[SH]=O
 
@@ -1399,7 +1399,7 @@ Thermodynamics for OOSHO:
 entry(
     index = 39,
     label = "OSOOH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -1420,7 +1420,7 @@ multiplicity 2
         CpInf = (99.7737,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12a/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: O=[S]OO
 
@@ -1451,7 +1451,7 @@ Thermodynamics for OSOOH:
 entry(
     index = 40,
     label = "SH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p2 c0 {2,S}
@@ -1466,7 +1466,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from the SulfurGlarborgH2S library
 """,
@@ -1475,7 +1475,7 @@ Taken from the SulfurGlarborgH2S library
 entry(
     index = 41,
     label = "HOOS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -1495,7 +1495,7 @@ multiplicity 2
         CpInf = (78.9875,'J/(mol*K)'),
     ),
     shortDesc = u"""CCSD(T)-F12/cc-pVTZ-f12//B3LYP/6-311G(2d,d,p)""",
-    longDesc = 
+    longDesc =
 u"""
 SMILES: OO[S]
 

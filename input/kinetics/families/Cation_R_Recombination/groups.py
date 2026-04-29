@@ -31,7 +31,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *1 Li+ u0 p0 c+1
 2 *2 R   u1
@@ -42,7 +42,7 @@ entry(
 entry(
     index = 1,
     label = "Root_2R->C",
-    group = 
+    group =
 """
 1 *1 Li+ u0 p0 c+1
 2 *2 C   u1
@@ -53,7 +53,7 @@ entry(
 entry(
     index = 2,
     label = "Root_2R->C_Ext-2C-R",
-    group = 
+    group =
 """
 1 *1 Li+ u0 p0 c+1
 2 *2 C   u1 {3,[S,D,T,B,Q]}
@@ -65,7 +65,7 @@ entry(
 entry(
     index = 3,
     label = "Root_N-2R->C",
-    group = 
+    group =
 """
 1 *1 Li+                         u0 p0 c+1
 2 *2 [S,F,I,O,Br,Si,P,Li,H,Cl,N] u1
@@ -76,7 +76,7 @@ entry(
 entry(
     index = 4,
     label = "Root_N-2R->C_Ext-2BrClFHILiNOPSSi-R",
-    group = 
+    group =
 """
 1 *1 Li+                         u0 p0 c+1
 2 *2 [S,F,I,O,Br,Si,P,Li,H,Cl,N] u1 {3,[S,D,T,B,Q]}
@@ -88,7 +88,7 @@ entry(
 entry(
     index = 5,
     label = "Root_N-2R->C_2BrClFHILiNOPSSi->S",
-    group = 
+    group =
 """
 1 *1 Li+ u0 p0 c+1
 2 *2 S   u1
@@ -99,7 +99,7 @@ entry(
 entry(
     index = 6,
     label = "Root_N-2R->C_N-2BrClFHILiNOPSSi->S",
-    group = 
+    group =
 """
 1 *1 Li+ u0 p0 c+1
 2 *2 N   u1

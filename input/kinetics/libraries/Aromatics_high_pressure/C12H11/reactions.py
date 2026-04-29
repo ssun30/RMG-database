@@ -18,7 +18,7 @@ entry(
         Ea = (1.752, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -29,7 +29,7 @@ entry(
     label = "s5 <=> H + biphenyl",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5.646e+08, 's^-1'), n=1.264, Ea=(27.536, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,

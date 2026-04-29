@@ -33,7 +33,7 @@ entry(
 entry(
     index = 1,
     label = "linear_1_3_5_hexatriene",
-    group = 
+    group =
 """
 1  *3 Cd u0 {2,S} {3,D} {8,S}
 2  *2 Cd u0 {1,S} {4,D} {7,S}
@@ -52,7 +52,7 @@ entry(
 entry(
     index = 2,
     label = "fulvene",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,S} {3,D}
 2 *2 Cd u0 {1,S} {4,D} {6,S}
@@ -67,7 +67,7 @@ entry(
 entry(
     index = 3,
     label = "linear_1_3_hexadien_5_yne",
-    group = 
+    group =
 """
 1  *3 Cd u0 {2,S} {3,D} {8,S}
 2  *2 Cd u0 {1,S} {4,D} {7,S}
@@ -96,7 +96,7 @@ L1: 1_3_5_unsaturated_hexane
 
 forbidden(
     label = "delocalized_radical_chain_1",
-    group = 
+    group =
 """
 1 *3 Cd  u0 {2,S} {3,D}
 2 *2 Cd  u0 {1,S} {4,D}
@@ -107,7 +107,7 @@ forbidden(
 7    R!H u1 {4,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Prevent this family from reacting resonantly stabilized radicals, to prevent redundancy with Intra_R_Add_Endo
 and Exocyclic
@@ -116,7 +116,7 @@ and Exocyclic
 
 forbidden(
     label = "delocalized_radical_chain_2",
-    group = 
+    group =
 """
 1 *3 Cd  u0 {2,S} {3,D}
 2 *2 Cd  u0 {1,S} {4,D}
@@ -127,7 +127,7 @@ forbidden(
 7    R!H u1 {6,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Prevent this family from reacting resonantly stabilized radicals, to prevent redundancy with Intra_R_Add_Endo
 and Exocyclic
@@ -136,7 +136,7 @@ and Exocyclic
 
 forbidden(
     label = "delocalized_radical_chain_3",
-    group = 
+    group =
 """
 1 *3 Cd  u0 {2,S} {3,D}
 2 *2 Cd  u0 {1,S} {4,D}
@@ -149,7 +149,7 @@ forbidden(
 9    R!H u1 {8,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Prevent this family from reacting resonantly stabilized radicals, to prevent redundancy with Intra_R_Add_Endo
 and Exocyclic
@@ -158,7 +158,7 @@ and Exocyclic
 
 forbidden(
     label = "delocalized_radical_chain_4",
-    group = 
+    group =
 """
 1 *3 Cd  u0 {2,S} {3,D}
 2 *2 Cd  u0 {1,S} {4,D}
@@ -171,7 +171,7 @@ forbidden(
 9    R!H u1 {8,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Prevent this family from reacting resonantly stabilized radicals, to prevent redundancy with Intra_R_Add_Endo
 and Exocyclic
@@ -180,7 +180,7 @@ and Exocyclic
 
 forbidden(
     label = "styrene_like_molecule_direction_1",
-    group = 
+    group =
 """
 1 *1 C u0 {2,[D,T]}
 2 *2 C u0 {1,[D,T]} {3,S}
@@ -192,7 +192,7 @@ forbidden(
 8    C u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a molecule from undergoing this reaction if 4 of the necessary carbon atoms are on a ring,
 and the other two are on a side chain (like styrene). Atom labels written starting from chaing end.
@@ -201,7 +201,7 @@ and the other two are on a side chain (like styrene). Atom labels written starti
 
 forbidden(
     label = "styrene_like_molecule_direction_2",
-    group = 
+    group =
 """
 1 *6 C u0 {2,[D,T]}
 2 *5 C u0 {1,[D,T]} {3,S}
@@ -213,7 +213,7 @@ forbidden(
 8    C u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a molecule from undergoing this reaction if 4 of the necessary carbon atoms are on a ring,
 and the other two are on a side chain (like styrene). Atom labels written starting from ring end.
@@ -228,7 +228,7 @@ forbidden(
 2     C u0 p0 c0 {1,D} {4,S} {8,S}
 3  *4 C u0 p0 c0 {1,S} {5,D} {6,S}
 4  *2 C u0 p0 c0 {2,S} {5,S} {9,D}
-5  *3 C u0 p0 c0 {3,D} {4,S} 
+5  *3 C u0 p0 c0 {3,D} {4,S}
 6  *5 C u0 p0 c0 {3,S} {10,D}
 7     C u0 p0 c0 {1,S} {11,D}
 8     C u0 p0 c0 {2,S} {12,D}

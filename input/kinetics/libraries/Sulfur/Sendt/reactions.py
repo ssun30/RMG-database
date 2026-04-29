@@ -16,7 +16,7 @@ entry(
         Ea = (0.9, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Reactions from Sendt et al. Proc. Comb. Inst. 2002
 Not including reactions 1, 19, 20, 21
@@ -59,7 +59,7 @@ entry(
 		Ea=(0, 'kcal/mol'),
 		T0=(1, 'K')
 	),
-    longDesc = 
+    longDesc =
 	u"""
 	Using adjusted singlet surface calculation for this one (see paper)
 	""",
@@ -75,7 +75,7 @@ entry(
 #        Ea = (0.21, 'kcal/mol'),
 #        T0 = (1, 'K'),
 #    ),
-#    longDesc = 
+#    longDesc =
 #	u"""
 #	Using unadjusted singlet surface calculation for this one (see paper)
 #	""",
@@ -182,7 +182,7 @@ entry(
         ),
         efficiencies = {'S': 1.1, '[He]': 1.39, 'N#N': 1, '[Ar]': 0.88},
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent reactions from Sendt et al. Proc. Comb. Inst. 2002
 Not including reactions 1, 19, 20, 21
@@ -202,7 +202,7 @@ entry(
         ),
         efficiencies = {'S': 1.1, '[He]': 1.39, 'N#N': 1, '[Ar]': 0.88},
     ),
-    longDesc = 
+    longDesc =
 u"""
 A-factor could also be 2.31E14
 """,

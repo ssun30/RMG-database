@@ -19,7 +19,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: II <=> A
 """,

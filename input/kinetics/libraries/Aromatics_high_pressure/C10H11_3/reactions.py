@@ -29,7 +29,7 @@ entry(
     label = "adductd <=> pdt7",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.89e+11, 's^-1'), n=0.29, Ea=(15.4, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 /ts9
 """,
@@ -73,7 +73,7 @@ entry(
         Ea = (2.9, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 /pdt10bis = pdt11 + H	        2.05E+09	1.47	41.5 0.0 0.0 0.0
 """,
@@ -103,7 +103,7 @@ entry(
         Ea = (5.9, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 /pdt12 = pdt13 + H	        1.83E+08	1.53	18.0 0.0 0.0 0.0
 """,
@@ -114,7 +114,7 @@ entry(
     label = "adductd <=> pdt14",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.02e+11, 's^-1'), n=0.85, Ea=(46.1, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / ts18, BMK/cbsb7
 /adductd = pdt14	        1.58E+11	0.80	41.8 0.0 0.0 0.0
@@ -133,7 +133,7 @@ entry(
     label = "pdt15 <=> pdt16",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.29e+09, 's^-1'), n=1.04, Ea=(31.2, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / Rate limiting step on BMK, -2 kcal/mol based on CCSD(t)-f12/avdz
 """,
@@ -186,7 +186,7 @@ entry(
     label = "pdt22 + CH3 <=> pdt21",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2480, 'cm^3/(mol*s)'), n=2.89, Ea=(-0.9, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 /pdt21 = pdt22 + CH3	        3.02E+11	1.22	46.3 0.0 0.0 0.0
 """,
@@ -218,7 +218,7 @@ entry(
     label = "pdt23 <=> pdt30 + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.49e+09, 's^-1'), n=1.41, Ea=(38.3, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / ts31
 """,
@@ -234,7 +234,7 @@ entry(
         Ea = (2.9, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 /pdt19 = pdt26 + H	        1.16E+10	1.37	42.1 0.0 0.0 0.0
 """,
@@ -257,7 +257,7 @@ entry(
         Ea = (1.6, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 /pdt25 = pdt13 + H	        3.13E+09	1.40	51.1 0.0 0.0 0.0
 """,
@@ -273,7 +273,7 @@ entry(
         Ea = (1.9, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 /pdt8 = pdt31 + H	        5.25E+08	1.52	40.7 0.0 0.0 0.0
 """,
@@ -305,7 +305,7 @@ entry(
     label = "INDENE + CH3 <=> pdt27",
     degeneracy = 1,
     kinetics = Arrhenius(A=(643, 'cm^3/(mol*s)'), n=2.8, Ea=(8.6, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 /pdt27 = INDENE + CH3 	        1.71E+11	0.86	22.7 0.0 0.0 0.0
 """,
@@ -316,7 +316,7 @@ entry(
     label = "pdt16 <=> pdt20",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.59e+08, 's^-1'), n=1.01, Ea=(26.4, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 /ts41
 """,
@@ -355,7 +355,7 @@ entry(
     label = "pdt16 <=> pdt33",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.18e+07, 's^-1'), n=1.8, Ea=(15.8, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 /ts46
 """,
@@ -366,7 +366,7 @@ entry(
     label = "pdt33 <=> pdt20",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.27e+06, 's^-1'), n=1.5, Ea=(33.7, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 /ts47
 """,
@@ -377,7 +377,7 @@ entry(
     label = "pdt33 <=> pdt29",
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.16e+10, 's^-1'), n=0.2, Ea=(24.2, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 /ts48
 """,
@@ -393,7 +393,7 @@ entry(
         Ea = (1.4, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 / Estimates for ts49 to ts51 are within 50%
 /ts49
@@ -410,7 +410,7 @@ entry(
         Ea = (1.4, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 /ts50
 """,
@@ -426,7 +426,7 @@ entry(
         Ea = (1.4, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 /ts51
 """,
@@ -437,7 +437,7 @@ entry(
     label = "pdt10bis <=> pdt37",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.83e+08, 's^-1'), n=1.45, Ea=(31.9, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / ts52
 """,
@@ -453,7 +453,7 @@ entry(
         Ea = (4.7, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 /pdt37 = pdt38 + H             2.11E+09        1.35    27.3 0.0 0.0 0.0
 """,
@@ -464,7 +464,7 @@ entry(
     label = "pdt15 <=> pdt39",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.18e+08, 's^-1'), n=1.8, Ea=(21.8, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 / ts54
 """,
@@ -475,7 +475,7 @@ entry(
     label = "pdt39 <=> pdt33",
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.38e+09, 's^-1'), n=1.08, Ea=(42.3, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 /ts55, BMK/cbsb7
 /pdt39 = pdt33                 1.58E+11        0.8     41.8 0.0 0.0 0.0
@@ -487,7 +487,7 @@ entry(
     label = "pdt14 <=> pdt57",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5.51e+11, 's^-1'), n=0.28, Ea=(12.9, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 /ts85 & ts86
 """,
@@ -505,7 +505,7 @@ entry(
     label = "adductd <=> pdt55",
     degeneracy = 1,
     kinetics = Arrhenius(A=(6.36e+06, 's^-1'), n=1.7, Ea=(31.7, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 /ts82, 83, 84, 87
 """,

@@ -15,7 +15,7 @@ entry(
     label = "W1 <=> W2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(9.926e+10, 's^-1'), n=0.198, Ea=(5.455, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -26,7 +26,7 @@ entry(
     label = "W1 <=> W3_6",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.42e+11, 's^-1'), n=0.258, Ea=(3.797, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -37,7 +37,7 @@ entry(
     label = "W2 <=> W4",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.843e+08, 's^-1'), n=1.605, Ea=(56.952, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -48,7 +48,7 @@ entry(
     label = "W3_6 <=> W5",
     degeneracy = 1,
     kinetics = Arrhenius(A=(24735, 's^-1'), n=2.344, Ea=(38.798, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -59,7 +59,7 @@ entry(
     label = "W3_6 <=> W7",
     degeneracy = 1,
     kinetics = Arrhenius(A=(191.5, 's^-1'), n=3.05, Ea=(53.137, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -75,7 +75,7 @@ entry(
         Ea = (3.272, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -91,7 +91,7 @@ entry(
         Ea = (6.896, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -107,7 +107,7 @@ entry(
         Ea = (0.228, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -123,7 +123,7 @@ entry(
         Ea = (0.436, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -139,7 +139,7 @@ entry(
         Ea = (0.09, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -155,7 +155,7 @@ entry(
         Ea = (-0.002, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -171,7 +171,7 @@ entry(
         Ea = (-0.002, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,

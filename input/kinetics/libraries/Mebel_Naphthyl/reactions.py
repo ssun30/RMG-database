@@ -6,7 +6,7 @@ shortDesc = u""
 longDesc = u"""
 Reactions of naphthyl-1 and naphthyl-2+H=C10H8 from L. B. Harding, Y. Georgievskii, S. J. Klippenstein, Predictive theory for hydrogen-atom
 hydrocarbon radical association kinetics, J. Phys. Chem. A. ,2005, 109, 4646-4656
-Remaining reactions from A. M. Mebel, Y. Georgievskii, A. W. Jasper, S. J. Klippenstein, Temperature and pressure dependent rate coefficients 
+Remaining reactions from A. M. Mebel, Y. Georgievskii, A. W. Jasper, S. J. Klippenstein, Temperature and pressure dependent rate coefficients
 for the HACA pathways from benzene to naphthalene, Proceedings of the Combust. Inst. (2016) 1-8
 """
 entry(

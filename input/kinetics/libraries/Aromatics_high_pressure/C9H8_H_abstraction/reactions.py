@@ -17,7 +17,7 @@ entry(
         Ea = (15.418, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: kislovB_H_abs
 """,
@@ -33,7 +33,7 @@ entry(
         Ea = (16.619, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: kislovB_H_abs
 """,
@@ -44,7 +44,7 @@ entry(
     label = "C9H8(33) + CH3(3) <=> C9H7(34) + CH4(4)",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.021, 'cm^3/(mol*s)'), n=4.34, Ea=(12.6, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: kislovB_H_abs
 """,
@@ -55,7 +55,7 @@ entry(
     label = "C9H8(35) + CH3(3) <=> C9H7(36) + CH4(4)",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.021, 'cm^3/(mol*s)'), n=4.34, Ea=(12.6, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: kislovB_H_abs
 """,
@@ -71,7 +71,7 @@ entry(
         Ea = (1.45, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: kislovB_H_abs
 """,
@@ -87,7 +87,7 @@ entry(
         Ea = (1.45, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: kislovB_H_abs
 """,

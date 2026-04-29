@@ -22,7 +22,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 9 data points; dA = *|/ 1.29197, dn = +|- 0.0326682, dEa = +|- 0.200507 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 9 data points; dA = *|/ 1.29197, dn = +|- 0.0326682, dEa = +|- 0.200507 kJ/mol
@@ -40,7 +40,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 9 data points; dA = *|/ 2.30412, dn = +|- 0.106445, dEa = +|- 0.653324 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 9 data points; dA = *|/ 2.30412, dn = +|- 0.106445, dEa = +|- 0.653324 kJ/mol
@@ -58,7 +58,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 9 data points; dA = *|/ 1.15228, dn = +|- 0.0180761, dEa = +|- 0.110945 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 9 data points; dA = *|/ 1.15228, dn = +|- 0.0180761, dEa = +|- 0.110945 kJ/mol
@@ -76,7 +76,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 9 data points; dA = *|/ 2.24733, dn = +|- 0.103262, dEa = +|- 0.633791 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 9 data points; dA = *|/ 2.24733, dn = +|- 0.103262, dEa = +|- 0.633791 kJ/mol
@@ -94,7 +94,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 9 data points; dA = *|/ 430.424, dn = +|- 0.773409, dEa = +|- 4.74694 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 9 data points; dA = *|/ 430.424, dn = +|- 0.773409, dEa = +|- 4.74694 kJ/mol
@@ -112,7 +112,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 9 data points; dA = *|/ 1.78372, dn = +|- 0.073799, dEa = +|- 0.452955 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 9 data points; dA = *|/ 1.78372, dn = +|- 0.073799, dEa = +|- 0.452955 kJ/mol
@@ -130,7 +130,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 9 data points; dA = *|/ 1.6808, dn = +|- 0.0662197, dEa = +|- 0.406436 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 9 data points; dA = *|/ 1.6808, dn = +|- 0.0662197, dEa = +|- 0.406436 kJ/mol
@@ -148,7 +148,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 9 data points; dA = *|/ 1.10229, dn = +|- 0.0124197, dEa = +|- 0.0762282 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 9 data points; dA = *|/ 1.10229, dn = +|- 0.0124197, dEa = +|- 0.0762282 kJ/mol
@@ -166,7 +166,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 9 data points; dA = *|/ 1.78037, dn = +|- 0.0735592, dEa = +|- 0.451483 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 9 data points; dA = *|/ 1.78037, dn = +|- 0.0735592, dEa = +|- 0.451483 kJ/mol
@@ -184,7 +184,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 9 data points; dA = *|/ 24.8906, dn = +|- 0.409927, dEa = +|- 2.516 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 9 data points; dA = *|/ 24.8906, dn = +|- 0.409927, dEa = +|- 2.516 kJ/mol

@@ -8,14 +8,14 @@ Calculated at the CBS-QB3 level
 
 Citation:
 
-Aaron G. Vandeputte, Shamel S. Merchant, Marko R. Djokic, Kevin M. Van Geem, 
-Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in the 
+Aaron G. Vandeputte, Shamel S. Merchant, Marko R. Djokic, Kevin M. Van Geem,
+Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in the
 presence of ethene: realistic pathways from C5H5 to naphthalene." (2016)
 """
 entry(
     index = 0,
     label = "FULVENE",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,D}
 2  C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -37,7 +37,7 @@ entry(
         S298 = (70.03,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -46,7 +46,7 @@ u"""
 entry(
     index = 1,
     label = "C5H4CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
@@ -70,7 +70,7 @@ multiplicity 2
         S298 = (75.71,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -79,7 +79,7 @@ u"""
 entry(
     index = 2,
     label = "C5H5CH2-1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -103,7 +103,7 @@ multiplicity 2
         S298 = (78.68,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -112,7 +112,7 @@ u"""
 entry(
     index = 3,
     label = "C5H5CH2-2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -136,7 +136,7 @@ multiplicity 2
         S298 = (74.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -145,7 +145,7 @@ u"""
 entry(
     index = 4,
     label = "C5H5CH2-3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
@@ -169,7 +169,7 @@ multiplicity 2
         S298 = (74.23,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -178,7 +178,7 @@ u"""
 entry(
     index = 5,
     label = "biring1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -202,7 +202,7 @@ multiplicity 2
         S298 = (71.66,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -211,7 +211,7 @@ u"""
 entry(
     index = 6,
     label = "cyC6H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -235,7 +235,7 @@ multiplicity 2
         S298 = (73.36,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -244,7 +244,7 @@ u"""
 entry(
     index = 7,
     label = "benzene",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
 2  C u0 p0 c0 {1,B} {3,B} {8,S}
@@ -266,7 +266,7 @@ entry(
         S298 = (64.22,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

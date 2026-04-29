@@ -5,11 +5,11 @@ name = "Surface_Proton_Electron_Reduction_Beta_Dissociation/groups"
 shortDesc = u""
 longDesc = u"""
 
-   *1                       
-    |                        
-   *2  + *4H+ + *e-  ---->  *2 +  *1-*4 
+   *1
+    |
+   *2  + *4H+ + *e-  ---->  *2 +  *1-*4
     |                       ||
-  ~*3~                     ~*3~   
+  ~*3~                     ~*3~
 
 The rate, which should be in mol/m2/s,
 will be given by k * (mol/m2) * (mol/m3) * 1

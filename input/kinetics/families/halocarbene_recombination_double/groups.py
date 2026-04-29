@@ -30,7 +30,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "carbene",
-    group = 
+    group =
 """
 1 *1 C2s  u0 p1
 2 *2 C2s  u0 p1 {3,S}
@@ -42,7 +42,7 @@ entry(
 entry(
     index = 1,
     label = "CF",
-    group = 
+    group =
 """
 1 *1 C2s  u0 p1
 2 *2 C2s  u0 p1 {3,S}
@@ -55,7 +55,7 @@ entry(
 entry(
     index = 2,
     label = "CF2",
-    group = 
+    group =
 """
 1 *1 C2s  u0 p1
 2 *2 C2s  u0 p1 {3,S} {4,S}
@@ -68,7 +68,7 @@ entry(
 entry(
     index = 3,
     label = "CCl",
-    group = 
+    group =
 """
 1 *1 C2s  u0 p1
 2 *2 C2s  u0 p1 {3,S}
@@ -81,7 +81,7 @@ entry(
 entry(
     index = 4,
     label = "CCl2",
-    group = 
+    group =
 """
 1 *1 C2s  u0 p1
 2 *2 C2s  u0 p1 {3,S} {4,S}
@@ -94,7 +94,7 @@ entry(
 entry(
     index = 5,
     label = "CBr",
-    group = 
+    group =
 """
 1 *1 C2s  u0 p1
 2 *2 C2s  u0 p1 {3,S}
@@ -107,7 +107,7 @@ entry(
 entry(
     index = 6,
     label = "CBr2",
-    group = 
+    group =
 """
 1 *1 C2s  u0 p1
 2 *2 C2s  u0 p1 {3,S} {4,S}

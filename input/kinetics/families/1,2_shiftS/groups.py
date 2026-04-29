@@ -24,7 +24,7 @@ boundaryAtoms = ["*1", "*3"]
 entry(
     index = 0,
     label = "XSYJ",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S}
 2 *2 S   u0 c0 {1,S} {3,S}
@@ -36,7 +36,7 @@ entry(
 entry(
     index = 1,
     label = "YJ-S2s",
-    group = 
+    group =
 """
 1 *3 R!H u1
 """,
@@ -46,7 +46,7 @@ entry(
 entry(
     index = 2,
     label = "C-S2s",
-    group = 
+    group =
 """
 1 *1 C u0
 """,
@@ -56,7 +56,7 @@ entry(
 entry(
     index = 3,
     label = "CJ-S2s",
-    group = 
+    group =
 """
 1 *3 C u1
 """,
@@ -66,7 +66,7 @@ entry(
 entry(
     index = 4,
     label = "CdsJ-S2s",
-    group = 
+    group =
 """
 1 *3 Cd u1 {2,D}
 2    C  u0 {1,D}
@@ -77,7 +77,7 @@ entry(
 entry(
     index = 5,
     label = "CsJ-S2s",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    R  u0 {1,S}
@@ -89,7 +89,7 @@ entry(
 entry(
     index = 6,
     label = "CsJ-SsOneDe",
-    group = 
+    group =
 """
 1 *3 Cs               u1 {2,S} {3,S}
 2    R                u0 {1,S}
@@ -101,7 +101,7 @@ entry(
 entry(
     index = 7,
     label = "CsJ-SsOneDeCs",
-    group = 
+    group =
 """
 1 *3 Cs               u1 {2,S} {3,S}
 2    Cs               u0 {1,S}
@@ -113,7 +113,7 @@ entry(
 entry(
     index = 8,
     label = "CsJ-SsCdCs",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    Cs u0 {1,S}
@@ -125,7 +125,7 @@ entry(
 entry(
     index = 9,
     label = "CsJ-SsOneDeSs",
-    group = 
+    group =
 """
 1 *3 Cs               u1 {2,S} {3,S}
 2    S2s              u0 {1,S}
@@ -137,7 +137,7 @@ entry(
 entry(
     index = 10,
     label = "CsJ-SsCdSs",
-    group = 
+    group =
 """
 1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
@@ -149,7 +149,7 @@ entry(
 entry(
     index = 11,
     label = "CsJ-SsOneDeH",
-    group = 
+    group =
 """
 1 *3 Cs               u1 {2,S} {3,S}
 2    H                u0 {1,S}
@@ -161,7 +161,7 @@ entry(
 entry(
     index = 12,
     label = "CsJ-SsCdH",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -173,7 +173,7 @@ entry(
 entry(
     index = 13,
     label = "CsJ-SsSsSs",
-    group = 
+    group =
 """
 1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
@@ -185,7 +185,7 @@ entry(
 entry(
     index = 14,
     label = "CsJ-SsCsSs",
-    group = 
+    group =
 """
 1 *3 Cs  u1 {2,S} {3,S}
 2    Cs  u0 {1,S}
@@ -197,7 +197,7 @@ entry(
 entry(
     index = 15,
     label = "CsJ-SsCsCs",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    Cs u0 {1,S}
@@ -209,7 +209,7 @@ entry(
 entry(
     index = 16,
     label = "CsJ-SsCsH",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    Cs u0 {1,S}
@@ -221,7 +221,7 @@ entry(
 entry(
     index = 17,
     label = "CsJ-SsSsH",
-    group = 
+    group =
 """
 1 *3 Cs  u1 {2,S} {3,S}
 2    S2s u0 {1,S}
@@ -233,7 +233,7 @@ entry(
 entry(
     index = 18,
     label = "CsJ-SsHH",
-    group = 
+    group =
 """
 1 *3 Cs u1 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -245,7 +245,7 @@ entry(
 entry(
     index = 19,
     label = "SJ-S2s",
-    group = 
+    group =
 """
 1 *3 S2s u1
 """,
@@ -255,7 +255,7 @@ entry(
 entry(
     index = 20,
     label = "Cb-S2s",
-    group = 
+    group =
 """
 1 *1 Cb u0
 """,
@@ -265,7 +265,7 @@ entry(
 entry(
     index = 21,
     label = "Ct-S2s",
-    group = 
+    group =
 """
 1 *1 Ct u0 {2,T}
 2    C  u0 {1,T}
@@ -276,7 +276,7 @@ entry(
 entry(
     index = 22,
     label = "Cds-S2s",
-    group = 
+    group =
 """
 1 *1 C u0 {2,D} {3,S}
 2    C u0 {1,D}
@@ -288,7 +288,7 @@ entry(
 entry(
     index = 23,
     label = "Cds-SsCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,D} {3,S}
 2    C  u0 {1,D}
@@ -300,7 +300,7 @@ entry(
 entry(
     index = 24,
     label = "Cds-SsCt",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,D} {3,S}
 2    C  u0 {1,D}
@@ -312,7 +312,7 @@ entry(
 entry(
     index = 25,
     label = "Cds-SsCb",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,D} {3,S}
 2    C  u0 {1,D}
@@ -324,7 +324,7 @@ entry(
 entry(
     index = 26,
     label = "Cds-SsCO",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,D} {3,S}
 2    C  u0 {1,D}
@@ -336,7 +336,7 @@ entry(
 entry(
     index = 27,
     label = "Cds-SsOs",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,D} {3,S}
 2    C   u0 {1,D}
@@ -348,7 +348,7 @@ entry(
 entry(
     index = 28,
     label = "Cds-SsSs",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,D} {3,S}
 2    C   u0 {1,D}
@@ -360,7 +360,7 @@ entry(
 entry(
     index = 29,
     label = "Cds-SsCd",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,D} {3,S}
 2    C  u0 {1,D}
@@ -373,7 +373,7 @@ entry(
 entry(
     index = 30,
     label = "Cds-SsC=S",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,D} {3,S}
 2    C  u0 {1,D}
@@ -385,7 +385,7 @@ entry(
 entry(
     index = 31,
     label = "Cds-SsH",
-    group = 
+    group =
 """
 1 *1 C u0 {2,D} {3,S}
 2    C u0 {1,D}
@@ -397,7 +397,7 @@ entry(
 entry(
     index = 32,
     label = "C=S-S2s",
-    group = 
+    group =
 """
 1 *1 CS u0 {2,S}
 2    R  u0 {1,S}
@@ -408,7 +408,7 @@ entry(
 entry(
     index = 33,
     label = "C=S-SsCs",
-    group = 
+    group =
 """
 1 *1 CS u0 {2,S}
 2    Cs u0 {1,S}
@@ -419,7 +419,7 @@ entry(
 entry(
     index = 34,
     label = "C=S-SsCt",
-    group = 
+    group =
 """
 1 *1 CS u0 {2,S}
 2    Ct u0 {1,S}
@@ -430,7 +430,7 @@ entry(
 entry(
     index = 35,
     label = "C=S-SsCb",
-    group = 
+    group =
 """
 1 *1 CS u0 {2,S}
 2    Cb u0 {1,S}
@@ -441,7 +441,7 @@ entry(
 entry(
     index = 36,
     label = "C=S-SsCO",
-    group = 
+    group =
 """
 1 *1 CS u0 {2,S}
 2    CO u0 {1,S}
@@ -452,7 +452,7 @@ entry(
 entry(
     index = 37,
     label = "C=S-SsOs",
-    group = 
+    group =
 """
 1 *1 CS  u0 {2,S}
 2    O2s u0 {1,S}
@@ -463,7 +463,7 @@ entry(
 entry(
     index = 38,
     label = "C=S-SsSs",
-    group = 
+    group =
 """
 1 *1 CS  u0 {2,S}
 2    S2s u0 {1,S}
@@ -474,7 +474,7 @@ entry(
 entry(
     index = 39,
     label = "C=S-SsCd",
-    group = 
+    group =
 """
 1 *1 CS u0 {2,S}
 2    Cd u0 {1,S} {3,D}
@@ -486,7 +486,7 @@ entry(
 entry(
     index = 40,
     label = "C=S-SsC=S",
-    group = 
+    group =
 """
 1 *1 CS u0 {2,S}
 2    CS u0 {1,S}
@@ -497,7 +497,7 @@ entry(
 entry(
     index = 41,
     label = "C=S-SsH",
-    group = 
+    group =
 """
 1 *1 CS u0 {2,S}
 2    H  u0 {1,S}
@@ -508,7 +508,7 @@ entry(
 entry(
     index = 42,
     label = "Cs-S2s",
-    group = 
+    group =
 """
 1 *1 C u0 {2,S} {3,S} {4,S}
 2    R u0 {1,S}
@@ -521,7 +521,7 @@ entry(
 entry(
     index = 43,
     label = "Cs-SsCsCsCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cs u0 {1,S}
@@ -534,7 +534,7 @@ entry(
 entry(
     index = 44,
     label = "Cs-SsOsCsCs",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S}
 2    O2s u0 {1,S}
@@ -547,7 +547,7 @@ entry(
 entry(
     index = 45,
     label = "Cs-SsOsOsCs",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S}
 2    O2s u0 {1,S}
@@ -560,7 +560,7 @@ entry(
 entry(
     index = 46,
     label = "Cs-SsOsOsOs",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S}
 2    O2s u0 {1,S}
@@ -573,7 +573,7 @@ entry(
 entry(
     index = 47,
     label = "Cs-SsSsCsCs",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S}
 2    S2s u0 {1,S}
@@ -586,7 +586,7 @@ entry(
 entry(
     index = 48,
     label = "Cs-SsSsSsCs",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S}
 2    S2s u0 {1,S}
@@ -599,7 +599,7 @@ entry(
 entry(
     index = 49,
     label = "Cs-SsSsSsSs",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S}
 2    S2s u0 {1,S}
@@ -612,7 +612,7 @@ entry(
 entry(
     index = 50,
     label = "Cs-SsThreeDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -625,7 +625,7 @@ entry(
 entry(
     index = 51,
     label = "Cs-SsTwoDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -638,7 +638,7 @@ entry(
 entry(
     index = 52,
     label = "Cs-SsTwoDeCs",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -651,7 +651,7 @@ entry(
 entry(
     index = 53,
     label = "Cs-SsCtCtCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
@@ -664,7 +664,7 @@ entry(
 entry(
     index = 54,
     label = "Cs-SsCtCbCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
@@ -677,7 +677,7 @@ entry(
 entry(
     index = 55,
     label = "Cs-SsCtCOCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
@@ -690,7 +690,7 @@ entry(
 entry(
     index = 56,
     label = "Cs-SsCbCbCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cb u0 {1,S}
@@ -703,7 +703,7 @@ entry(
 entry(
     index = 57,
     label = "Cs-SsCbCOCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cb u0 {1,S}
@@ -716,7 +716,7 @@ entry(
 entry(
     index = 58,
     label = "Cs-SsCOCOCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    CO u0 {1,S}
@@ -729,7 +729,7 @@ entry(
 entry(
     index = 59,
     label = "Cs-SsCdCtCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -743,7 +743,7 @@ entry(
 entry(
     index = 60,
     label = "Cs-SsCdCbCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -757,7 +757,7 @@ entry(
 entry(
     index = 61,
     label = "Cs-SsCdCOCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -771,7 +771,7 @@ entry(
 entry(
     index = 62,
     label = "Cs-SsCtC=SCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
@@ -784,7 +784,7 @@ entry(
 entry(
     index = 63,
     label = "Cs-SsCbC=SCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cb u0 {1,S}
@@ -797,7 +797,7 @@ entry(
 entry(
     index = 64,
     label = "Cs-SsCOC=SCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    CO u0 {1,S}
@@ -810,7 +810,7 @@ entry(
 entry(
     index = 65,
     label = "Cs-SsCdCdCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -825,7 +825,7 @@ entry(
 entry(
     index = 66,
     label = "Cs-SsCdC=SCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -839,7 +839,7 @@ entry(
 entry(
     index = 67,
     label = "Cs-SsC=SC=SCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    CS u0 {1,S}
@@ -852,7 +852,7 @@ entry(
 entry(
     index = 68,
     label = "Cs-SsTwoDeOs",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -865,7 +865,7 @@ entry(
 entry(
     index = 69,
     label = "Cs-SsTwoDeSs",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -878,7 +878,7 @@ entry(
 entry(
     index = 70,
     label = "Cs-SsTwoDeH",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -891,7 +891,7 @@ entry(
 entry(
     index = 71,
     label = "Cs-SsCtCtH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
@@ -904,7 +904,7 @@ entry(
 entry(
     index = 72,
     label = "Cs-SsCtCbH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
@@ -917,7 +917,7 @@ entry(
 entry(
     index = 73,
     label = "Cs-SsCtCOH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
@@ -930,7 +930,7 @@ entry(
 entry(
     index = 74,
     label = "Cs-SsCbCbH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cb u0 {1,S}
@@ -943,7 +943,7 @@ entry(
 entry(
     index = 75,
     label = "Cs-SsCbCOH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cb u0 {1,S}
@@ -956,7 +956,7 @@ entry(
 entry(
     index = 76,
     label = "Cs-SsCOCOH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    CO u0 {1,S}
@@ -969,7 +969,7 @@ entry(
 entry(
     index = 77,
     label = "Cs-SsCdCtH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -983,7 +983,7 @@ entry(
 entry(
     index = 78,
     label = "Cs-SsCdCbH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -997,7 +997,7 @@ entry(
 entry(
     index = 79,
     label = "Cs-SsCdCOH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -1011,7 +1011,7 @@ entry(
 entry(
     index = 80,
     label = "Cs-SsCtC=SH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
@@ -1024,7 +1024,7 @@ entry(
 entry(
     index = 81,
     label = "Cs-SsCbC=SH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cb u0 {1,S}
@@ -1037,7 +1037,7 @@ entry(
 entry(
     index = 82,
     label = "Cs-SsCOC=SH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    CO u0 {1,S}
@@ -1050,7 +1050,7 @@ entry(
 entry(
     index = 83,
     label = "Cs-SsCdCdH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -1065,7 +1065,7 @@ entry(
 entry(
     index = 84,
     label = "Cs-SsCdC=SH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -1079,7 +1079,7 @@ entry(
 entry(
     index = 85,
     label = "Cs-SsC=SC=SH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    CS u0 {1,S}
@@ -1092,7 +1092,7 @@ entry(
 entry(
     index = 86,
     label = "Cs-SsOneDe",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -1105,7 +1105,7 @@ entry(
 entry(
     index = 87,
     label = "Cs-SsOneDeCsCs",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -1118,7 +1118,7 @@ entry(
 entry(
     index = 88,
     label = "Cs-SsCtCsCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
@@ -1131,7 +1131,7 @@ entry(
 entry(
     index = 89,
     label = "Cs-SsCbCsCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cb u0 {1,S}
@@ -1144,7 +1144,7 @@ entry(
 entry(
     index = 90,
     label = "Cs-SsCOCsCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    CO u0 {1,S}
@@ -1157,7 +1157,7 @@ entry(
 entry(
     index = 91,
     label = "Cs-SsCdCsCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -1171,7 +1171,7 @@ entry(
 entry(
     index = 92,
     label = "Cs-SsC=SCsCs",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    CS u0 {1,S}
@@ -1184,7 +1184,7 @@ entry(
 entry(
     index = 93,
     label = "Cs-SsOneDeOsCs",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -1197,7 +1197,7 @@ entry(
 entry(
     index = 94,
     label = "Cs-SsOneDeSsCs",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -1210,7 +1210,7 @@ entry(
 entry(
     index = 95,
     label = "Cs-SsOneDeOsOs",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -1223,7 +1223,7 @@ entry(
 entry(
     index = 96,
     label = "Cs-SsOneDeOsSs",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -1236,7 +1236,7 @@ entry(
 entry(
     index = 97,
     label = "Cs-SsOneDeSsSs",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -1249,7 +1249,7 @@ entry(
 entry(
     index = 98,
     label = "Cs-SsOneDeOsH",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -1262,7 +1262,7 @@ entry(
 entry(
     index = 99,
     label = "Cs-SsOneDeSsH",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -1275,7 +1275,7 @@ entry(
 entry(
     index = 100,
     label = "Cs-SsOneDeCsH",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -1288,7 +1288,7 @@ entry(
 entry(
     index = 101,
     label = "Cs-SsCtCsH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
@@ -1301,7 +1301,7 @@ entry(
 entry(
     index = 102,
     label = "Cs-SsCbCsH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cb u0 {1,S}
@@ -1314,7 +1314,7 @@ entry(
 entry(
     index = 103,
     label = "Cs-SsCOCsH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    CO u0 {1,S}
@@ -1327,7 +1327,7 @@ entry(
 entry(
     index = 104,
     label = "Cs-SsCdCsH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -1341,7 +1341,7 @@ entry(
 entry(
     index = 105,
     label = "Cs-SsC=SCsH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    CS u0 {1,S}
@@ -1354,7 +1354,7 @@ entry(
 entry(
     index = 106,
     label = "Cs-SsOneDeHH",
-    group = 
+    group =
 """
 1 *1 C                u0 {2,S} {3,S} {4,S}
 2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
@@ -1367,7 +1367,7 @@ entry(
 entry(
     index = 107,
     label = "Cs-SsCtHH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Ct u0 {1,S}
@@ -1380,7 +1380,7 @@ entry(
 entry(
     index = 108,
     label = "Cs-SsCbHH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cb u0 {1,S}
@@ -1393,7 +1393,7 @@ entry(
 entry(
     index = 109,
     label = "Cs-SsCOHH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    CO u0 {1,S}
@@ -1406,7 +1406,7 @@ entry(
 entry(
     index = 110,
     label = "Cs-SsCdHH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cd u0 {1,S} {5,D}
@@ -1420,7 +1420,7 @@ entry(
 entry(
     index = 111,
     label = "Cs-SsC=SHH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    CS u0 {1,S}
@@ -1433,7 +1433,7 @@ entry(
 entry(
     index = 112,
     label = "Cs-SsCsCsH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cs u0 {1,S}
@@ -1446,7 +1446,7 @@ entry(
 entry(
     index = 113,
     label = "Cs-SsOsOsH",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S}
 2    O2s u0 {1,S}
@@ -1459,7 +1459,7 @@ entry(
 entry(
     index = 114,
     label = "Cs-SsOsCsH",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S}
 2    O2s u0 {1,S}
@@ -1472,7 +1472,7 @@ entry(
 entry(
     index = 115,
     label = "Cs-SsSsSsH",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S}
 2    S2s u0 {1,S}
@@ -1485,7 +1485,7 @@ entry(
 entry(
     index = 116,
     label = "Cs-SsSsCsH",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S}
 2    S2s u0 {1,S}
@@ -1498,7 +1498,7 @@ entry(
 entry(
     index = 117,
     label = "Cs-SsOsHH",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S}
 2    O2s u0 {1,S}
@@ -1511,7 +1511,7 @@ entry(
 entry(
     index = 118,
     label = "Cs-SsCsHH",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {3,S} {4,S}
 2    Cs u0 {1,S}
@@ -1524,7 +1524,7 @@ entry(
 entry(
     index = 119,
     label = "Cs-SsSsHH",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,S} {3,S} {4,S}
 2    S2s u0 {1,S}
@@ -1537,7 +1537,7 @@ entry(
 entry(
     index = 120,
     label = "Cs-SsHHH",
-    group = 
+    group =
 """
 1 *1 C u0 {2,S} {3,S} {4,S}
 2    H u0 {1,S}

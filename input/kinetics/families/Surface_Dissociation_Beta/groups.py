@@ -114,7 +114,7 @@ entry(
 2 *2 C   u0 {1,S} {3,S} {5,S}
 3 *3 H   u0 {2,S}
 4 *4 Xo  u0 {1,D}
-5    R!H u0 {2,S}  
+5    R!H u0 {2,S}
 """,
     kinetics = None,
 )

@@ -29,7 +29,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Uncertainty: 2.0
@@ -61,7 +61,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
@@ -91,7 +91,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Uncertainty: 3.0
@@ -119,7 +119,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Uncertainty: 1.58
@@ -149,7 +149,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -177,7 +177,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -199,7 +199,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Experimental procedure: Shock tube
@@ -238,7 +238,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: He
@@ -272,7 +272,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
@@ -304,7 +304,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
@@ -338,7 +338,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
@@ -372,7 +372,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: (E)-CH3N=NCH3
@@ -406,7 +406,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: H2
@@ -440,7 +440,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: H2
@@ -472,7 +472,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 
@@ -503,7 +503,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -532,7 +532,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -562,7 +562,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: N2
@@ -592,7 +592,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -621,7 +621,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -650,7 +650,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Uncertainty: 2.0
@@ -682,7 +682,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: (CH3)2O
@@ -712,7 +712,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -739,7 +739,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Experimental procedure: Shock tube
@@ -776,7 +776,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Uncertainty: 1.58
@@ -808,7 +808,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
@@ -838,7 +838,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Uncertainty: 3.0
@@ -866,7 +866,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Uncertainty: 1.41
@@ -898,7 +898,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Uncertainty: 1.15
@@ -928,7 +928,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -959,7 +959,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Uncertainty: 2.0
@@ -984,7 +984,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Experimental procedure: Shock tube
@@ -1023,7 +1023,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Pressure dependence: None reported
@@ -1060,7 +1060,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
@@ -1090,7 +1090,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
@@ -1122,7 +1122,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: He
@@ -1156,7 +1156,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
@@ -1190,7 +1190,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
@@ -1224,7 +1224,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Uncertainty: 1.8200001
@@ -1259,7 +1259,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
@@ -1291,7 +1291,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Excitation technique: Thermal
@@ -1324,7 +1324,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
@@ -1356,7 +1356,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Uncertainty: 1.38
@@ -1388,7 +1388,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: He
@@ -1422,7 +1422,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: He
@@ -1456,7 +1456,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: H2
@@ -1488,7 +1488,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: N2
@@ -1520,7 +1520,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: He
@@ -1554,7 +1554,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: H2
@@ -1586,7 +1586,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: Ar
@@ -1620,7 +1620,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002017/rk00000001.xml
@@ -1653,7 +1653,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Pressure dependence: Rate constant is high pressure limit
@@ -1685,7 +1685,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 
@@ -1716,7 +1716,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -1745,7 +1745,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -1774,7 +1774,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -1803,7 +1803,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -1832,7 +1832,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -1861,7 +1861,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -1890,7 +1890,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Uncertainty: 1.05
@@ -1920,7 +1920,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 """,
@@ -1951,7 +1951,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002017
 Bath gas: (CH3)2O
@@ -1981,7 +1981,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.58
@@ -2011,7 +2011,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 2.5
@@ -2039,7 +2039,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.58
@@ -2069,7 +2069,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 2.51
@@ -2099,7 +2099,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -2128,7 +2128,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000001.xml
@@ -2162,7 +2162,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -2196,7 +2196,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -2228,7 +2228,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: N2
@@ -2262,7 +2262,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -2294,7 +2294,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -2325,7 +2325,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: N2
@@ -2355,7 +2355,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -2383,7 +2383,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Pressure dependence: None reported
@@ -2412,7 +2412,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -2441,7 +2441,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -2469,7 +2469,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.2
@@ -2501,7 +2501,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -2531,7 +2531,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 2.0
@@ -2561,7 +2561,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -2590,7 +2590,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.26
@@ -2622,7 +2622,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -2652,7 +2652,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 3.0
@@ -2680,7 +2680,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.41
@@ -2710,7 +2710,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 2.51
@@ -2740,7 +2740,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -2769,7 +2769,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -2800,7 +2800,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -2830,7 +2830,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -2859,7 +2859,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 2.0
@@ -2891,7 +2891,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.41
@@ -2922,7 +2922,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -2954,7 +2954,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: N2
@@ -2984,7 +2984,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013781/rk00000001.xml
@@ -3018,7 +3018,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Pressure dependence: Rate constant is pressure independent
@@ -3056,7 +3056,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Pressure dependence: Rate constant is pressure independent
@@ -3094,7 +3094,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Experimental procedure: Shock tube
@@ -3129,7 +3129,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: N2
@@ -3163,7 +3163,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -3197,7 +3197,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 2.51
@@ -3232,7 +3232,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -3266,7 +3266,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.05
@@ -3301,7 +3301,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -3335,7 +3335,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: O2
@@ -3369,7 +3369,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -3403,7 +3403,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: He
@@ -3437,7 +3437,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -3471,7 +3471,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: He
@@ -3501,7 +3501,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: H2
@@ -3535,7 +3535,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 3.2
@@ -3570,7 +3570,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: H2
@@ -3604,7 +3604,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -3638,7 +3638,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Uncertainty: 1.26
@@ -3674,7 +3674,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: H2
@@ -3707,7 +3707,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Excitation technique: Thermal
@@ -3740,7 +3740,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -3774,7 +3774,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: O2
@@ -3806,7 +3806,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Pressure dependence: Rate constant is high pressure limit
@@ -3836,7 +3836,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Pressure dependence: Rate constant is high pressure limit
@@ -3866,7 +3866,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -3895,7 +3895,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -3924,7 +3924,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -3953,7 +3953,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -3982,7 +3982,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -4013,7 +4013,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: Ar
@@ -4044,7 +4044,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -4073,7 +4073,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 """,
@@ -4102,7 +4102,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013781
 Bath gas: N2
@@ -4133,7 +4133,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Uncertainty: 10.0
@@ -4163,7 +4163,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Uncertainty: 5.0
@@ -4193,7 +4193,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Bath gas: Ar
@@ -4221,7 +4221,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Uncertainty: 3.1600001
@@ -4253,7 +4253,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Bath gas: He
@@ -4285,7 +4285,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Bath gas: Ar
@@ -4319,7 +4319,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Uncertainty: 2.51
@@ -4352,7 +4352,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Bath gas: Ar
@@ -4382,7 +4382,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002499/rk00000001.xml
@@ -4413,7 +4413,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 
@@ -4445,7 +4445,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 
@@ -4480,7 +4480,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Bath gas: He
@@ -4510,7 +4510,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Uncertainty: 3.1600001
@@ -4540,7 +4540,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Uncertainty: 10.0
@@ -4570,7 +4570,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Uncertainty: 3.0
@@ -4600,7 +4600,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Bath gas: Ar
@@ -4628,7 +4628,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Uncertainty: 5.0
@@ -4660,7 +4660,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Bath gas: Ar
@@ -4694,7 +4694,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Bath gas: He
@@ -4728,7 +4728,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Bath gas: He
@@ -4762,7 +4762,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Bath gas: He
@@ -4796,7 +4796,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Bath gas: Ar
@@ -4830,7 +4830,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 Bath gas: He
@@ -4860,7 +4860,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002499
 """,
@@ -4889,7 +4889,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 5.0
@@ -4921,7 +4921,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: N2
@@ -4953,7 +4953,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 1.1
@@ -4988,7 +4988,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009460/rk00000003.xml
@@ -5021,7 +5021,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 
@@ -5052,7 +5052,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 
@@ -5084,7 +5084,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: N2
@@ -5114,7 +5114,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 """,
@@ -5143,7 +5143,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 
@@ -5174,7 +5174,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 2.0
@@ -5204,7 +5204,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 3.0
@@ -5232,7 +5232,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 2.0
@@ -5262,7 +5262,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 1.26
@@ -5294,7 +5294,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: Ar
@@ -5323,7 +5323,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 1.78
@@ -5357,7 +5357,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Pressure dependence: None reported
@@ -5394,7 +5394,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: H2
@@ -5426,7 +5426,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 """,
@@ -5457,7 +5457,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 5.0
@@ -5492,7 +5492,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 1.86
@@ -5527,7 +5527,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: Ar
@@ -5559,7 +5559,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 1.38
@@ -5591,7 +5591,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: He
@@ -5623,7 +5623,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: He
@@ -5654,7 +5654,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: H2
@@ -5688,7 +5688,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: H2
@@ -5722,7 +5722,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 1.6
@@ -5755,7 +5755,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: Ar
@@ -5789,7 +5789,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: Ar
@@ -5823,7 +5823,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: H2
@@ -5856,7 +5856,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Bath gas: C2H6
@@ -5888,7 +5888,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 
@@ -5919,7 +5919,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 
@@ -5950,7 +5950,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 1.0700001
@@ -5980,7 +5980,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009460
 Uncertainty: 1.58
@@ -6010,7 +6010,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009467
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009467/rk00000001.xml
@@ -6040,7 +6040,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009467
 Uncertainty: 2.0
@@ -6070,7 +6070,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009467
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009467/rk00000001.xml
@@ -6102,7 +6102,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009476
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009476/rk00000001.xml
@@ -6133,7 +6133,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009476
 
@@ -6164,7 +6164,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009476
 Excitation technique: Thermal
@@ -6198,7 +6198,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009476
 Bath gas: Ar
@@ -6232,7 +6232,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009476
 Uncertainty: 2.0
@@ -6267,7 +6267,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009476
 Bath gas: He
@@ -6301,7 +6301,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009476
 Bath gas: N2
@@ -6331,7 +6331,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009476
 
@@ -6362,7 +6362,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009477/rk00000001.xml
@@ -6393,7 +6393,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Uncertainty: 2.0
@@ -6423,7 +6423,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Uncertainty: 3.1600001
@@ -6455,7 +6455,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Bath gas: Ar
@@ -6485,7 +6485,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009477/rk00000001.xml
@@ -6514,7 +6514,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Uncertainty: 1.58
@@ -6546,7 +6546,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Uncertainty: 1.66
@@ -6583,7 +6583,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Experimental procedure: Static or low flow - Data taken vs time
@@ -6619,7 +6619,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""RRK(M) extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 """,
@@ -6650,7 +6650,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Bath gas: Ar
@@ -6684,7 +6684,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Uncertainty: 1.2
@@ -6719,7 +6719,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Bath gas: O2
@@ -6753,7 +6753,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Bath gas: Ar
@@ -6787,7 +6787,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Uncertainty: 2.0
@@ -6822,7 +6822,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Bath gas: He
@@ -6856,7 +6856,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Bath gas: He
@@ -6890,7 +6890,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Bath gas: Ar
@@ -6922,7 +6922,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Bath gas: Ar
@@ -6954,7 +6954,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009477
 Bath gas: CH2O
@@ -6984,7 +6984,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Uncertainty: 5.0
@@ -7016,7 +7016,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Bath gas: He
@@ -7050,7 +7050,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Bath gas: H2
@@ -7082,7 +7082,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 """,
@@ -7111,7 +7111,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 """,
@@ -7140,7 +7140,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 """,
@@ -7170,7 +7170,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Bath gas: N2
@@ -7200,7 +7200,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 """,
@@ -7229,7 +7229,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000001.xml
@@ -7260,7 +7260,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Uncertainty: 3.1600001
@@ -7290,7 +7290,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Uncertainty: 3.0
@@ -7319,7 +7319,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Uncertainty: 3.1600001
@@ -7351,7 +7351,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Bath gas: N2
@@ -7383,7 +7383,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Excitation technique: Thermal
@@ -7416,7 +7416,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Uncertainty: 2.51
@@ -7451,7 +7451,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Uncertainty: 2.51
@@ -7486,7 +7486,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Bath gas: C2H4
@@ -7519,7 +7519,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Pressure dependence: None reported
@@ -7558,7 +7558,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 """,
@@ -7587,7 +7587,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 """,
@@ -7616,7 +7616,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 """,
@@ -7646,7 +7646,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Bath gas: N2
@@ -7678,7 +7678,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Bath gas: Ar
@@ -7710,7 +7710,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Bath gas: C2H4
@@ -7740,7 +7740,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 Bath gas: Ar
@@ -7770,7 +7770,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009480
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009480/rk00000001.xml
@@ -7801,7 +7801,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009484
 Uncertainty: 3.0
@@ -7829,7 +7829,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009484
 Uncertainty: 2.0
@@ -7859,7 +7859,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009484
 Uncertainty: 2.0
@@ -7889,7 +7889,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009484
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009484/rk00000002.xml
@@ -7920,7 +7920,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009484
 """,
@@ -7949,7 +7949,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009484
 Uncertainty: 2.0
@@ -7979,7 +7979,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009484
 Uncertainty: 5.0
@@ -8009,7 +8009,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009484
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009484/rk00000002.xml
@@ -8040,7 +8040,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009484
 """,
@@ -8069,7 +8069,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009484
 """,
@@ -8098,7 +8098,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 Uncertainty: 5.0
@@ -8130,7 +8130,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 Experimental procedure: Shock tube
@@ -8164,7 +8164,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 Bath gas: Ar
@@ -8196,7 +8196,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 """,
@@ -8225,7 +8225,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 """,
@@ -8256,7 +8256,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 Bath gas: CH4
@@ -8286,7 +8286,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009509/rk00000001.xml
@@ -8316,7 +8316,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 Uncertainty: 2.0
@@ -8346,7 +8346,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 Uncertainty: 2.0
@@ -8374,7 +8374,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 Uncertainty: 1.58
@@ -8406,7 +8406,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 Uncertainty: 3.3900001
@@ -8437,7 +8437,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 Uncertainty: 2.0
@@ -8467,7 +8467,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 Pressure dependence: Rate constant is pressure independent
@@ -8499,7 +8499,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 Pressure dependence: Rate constant is pressure independent
@@ -8531,7 +8531,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009509
 """,
@@ -8560,7 +8560,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.6
@@ -8590,7 +8590,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010849/rk00000001.xml
@@ -8621,7 +8621,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -8650,7 +8650,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -8681,7 +8681,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.2
@@ -8720,7 +8720,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -8748,7 +8748,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -8777,7 +8777,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -8805,7 +8805,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.1
@@ -8835,7 +8835,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.41
@@ -8865,7 +8865,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -8894,7 +8894,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.26
@@ -8924,7 +8924,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.4
@@ -8956,7 +8956,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
@@ -8986,7 +8986,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 2.0
@@ -9016,7 +9016,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.2
@@ -9044,7 +9044,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.58
@@ -9074,7 +9074,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010849/rk00000001.xml
@@ -9105,7 +9105,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -9136,7 +9136,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
@@ -9166,7 +9166,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 10.0
@@ -9198,7 +9198,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
@@ -9230,7 +9230,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: N2
@@ -9263,7 +9263,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Pressure dependence: Rate constant is pressure independent
@@ -9307,7 +9307,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Pressure dependence: Rate constant is pressure independent
@@ -9345,7 +9345,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Pressure dependence: None reported
@@ -9381,7 +9381,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: He
@@ -9415,7 +9415,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: He
@@ -9449,7 +9449,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
@@ -9483,7 +9483,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: He
@@ -9517,7 +9517,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: He
@@ -9551,7 +9551,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: He
@@ -9585,7 +9585,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: N2
@@ -9619,7 +9619,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
@@ -9653,7 +9653,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
@@ -9687,7 +9687,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
@@ -9721,7 +9721,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: CO
@@ -9755,7 +9755,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: He
@@ -9789,7 +9789,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: N2
@@ -9823,7 +9823,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
@@ -9857,7 +9857,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: He
@@ -9891,7 +9891,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: H2O
@@ -9925,7 +9925,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: He
@@ -9958,7 +9958,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 2.51
@@ -9993,7 +9993,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: He
@@ -10027,7 +10027,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: He
@@ -10061,7 +10061,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: O2
@@ -10093,7 +10093,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.38
@@ -10125,7 +10125,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 1.25
@@ -10160,7 +10160,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
@@ -10194,7 +10194,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: O2
@@ -10226,7 +10226,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Bath gas: Ar
@@ -10258,7 +10258,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 
@@ -10291,7 +10291,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 
@@ -10324,7 +10324,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 
@@ -10356,7 +10356,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -10385,7 +10385,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -10414,7 +10414,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 
@@ -10447,7 +10447,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 
@@ -10480,7 +10480,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 
@@ -10513,7 +10513,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 
@@ -10546,7 +10546,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 
@@ -10579,7 +10579,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 
@@ -10612,7 +10612,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -10641,7 +10641,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -10670,7 +10670,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -10699,7 +10699,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -10728,7 +10728,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -10757,7 +10757,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 """,
@@ -10786,7 +10786,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010849
 Uncertainty: 2.0
@@ -10816,7 +10816,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001618
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001618/rk00000001.xml
@@ -10857,7 +10857,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001618
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001618/rk00000001.xml
@@ -10900,7 +10900,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001619
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001619/rk00000004.xml
@@ -10934,7 +10934,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001619
 
@@ -10974,7 +10974,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001620
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001620/rk00000001.xml
@@ -11013,7 +11013,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001950/rk00000002.xml
@@ -11044,7 +11044,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 Uncertainty: 1.58
@@ -11074,7 +11074,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001950/rk00000002.xml
@@ -11103,7 +11103,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 Uncertainty: 2.0
@@ -11133,7 +11133,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 """,
@@ -11164,7 +11164,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 Uncertainty: 2.5
@@ -11199,7 +11199,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 Bath gas: Ar
@@ -11233,7 +11233,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 Bath gas: Ar
@@ -11267,7 +11267,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 Bath gas: Ar
@@ -11301,7 +11301,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 Uncertainty: 3.1600001
@@ -11336,7 +11336,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 Bath gas: C2H6
@@ -11370,7 +11370,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 Bath gas: (CH3)2O
@@ -11400,7 +11400,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001950
 Uncertainty: 1.02
@@ -11430,7 +11430,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001957
 Uncertainty: 3.0
@@ -11462,7 +11462,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""RRK(M) extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001957
 Bath gas: Ar
@@ -11492,7 +11492,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001957
 
@@ -11525,7 +11525,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001957
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001957/rk00000001.xml
@@ -11556,7 +11556,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001957
 Uncertainty: 3.0
@@ -11586,7 +11586,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001957
 Uncertainty: 2.0
@@ -11619,7 +11619,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001957
 
@@ -11650,7 +11650,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001965
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001965/rk00000001.xml
@@ -11681,7 +11681,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001965
 
@@ -11712,7 +11712,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001965
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001965/rk00000001.xml
@@ -11743,7 +11743,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001965
 Bath gas: (CH3)2CO
@@ -11775,7 +11775,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001965
 
@@ -11806,7 +11806,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001966/rk00000001.xml
@@ -11837,7 +11837,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 Uncertainty: 5.0
@@ -11867,7 +11867,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 Uncertainty: 1.58
@@ -11897,7 +11897,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 Uncertainty: 2.0
@@ -11927,7 +11927,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001966/rk00000001.xml
@@ -11958,7 +11958,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 """,
@@ -11985,7 +11985,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 Uncertainty: 2.0
@@ -12017,7 +12017,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 Bath gas: CH2O
@@ -12051,7 +12051,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 Uncertainty: 2.51
@@ -12086,7 +12086,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 Bath gas: CH2O
@@ -12120,7 +12120,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 Uncertainty: 1.58
@@ -12153,7 +12153,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 Pressure dependence: None reported
@@ -12187,7 +12187,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 
@@ -12226,7 +12226,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001966
 Bath gas: Ar
@@ -12256,7 +12256,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001968
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000002.xml
@@ -12287,7 +12287,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001968
 """,
@@ -12316,7 +12316,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001968
 Uncertainty: 3.1600001
@@ -12346,7 +12346,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001968
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001968/rk00000002.xml
@@ -12375,7 +12375,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001968
 Uncertainty: 2.0
@@ -12407,7 +12407,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001968
 Uncertainty: 1.58
@@ -12442,7 +12442,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001968
 Uncertainty: 2.51
@@ -12476,7 +12476,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001968
 Uncertainty: 2.51
@@ -12510,7 +12510,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001968
 Uncertainty: 1.26
@@ -12545,7 +12545,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001968
 Bath gas: Ar
@@ -12577,7 +12577,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001973
 Uncertainty: 2.0
@@ -12607,7 +12607,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001973
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001973/rk00000001.xml
@@ -12640,7 +12640,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001973
 Uncertainty: 2.0
@@ -12673,7 +12673,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001973
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001973/rk00000001.xml
@@ -12704,7 +12704,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002003
 Uncertainty: 10.0
@@ -12734,7 +12734,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002003
 Uncertainty: 5.0
@@ -12764,7 +12764,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002003
 """,
@@ -12795,7 +12795,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002003
 Bath gas: CH4
@@ -12825,7 +12825,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002003
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002003/rk00000002.xml
@@ -12855,7 +12855,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002425
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002425/rk00000001.xml
@@ -12886,7 +12886,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002425
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002425/rk00000001.xml
@@ -12919,7 +12919,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002425
 Bath gas: He
@@ -12957,7 +12957,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002425
 Bath gas: He
@@ -12992,7 +12992,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002425
 Bath gas: He
@@ -13024,7 +13024,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002782
 Uncertainty: 3.0
@@ -13054,7 +13054,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002782
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002782/rk00000003.xml
@@ -13086,7 +13086,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002782
 Bath gas: Ar
@@ -13116,7 +13116,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002782
 Uncertainty: 1.5
@@ -13148,7 +13148,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002782
 Bath gas: N2
@@ -13180,7 +13180,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003213
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003213/rk00000001.xml
@@ -13216,7 +13216,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003234
 Bath gas: N2
@@ -13248,7 +13248,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003234
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003234/rk00000001.xml
@@ -13281,7 +13281,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005745
 """,
@@ -13310,7 +13310,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005745
 Uncertainty: 2.0
@@ -13340,7 +13340,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005745
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005745/rk00000007.xml
@@ -13370,7 +13370,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005745
 Uncertainty: 5.0
@@ -13400,7 +13400,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005745
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005745/rk00000007.xml
@@ -13432,7 +13432,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005801
 Pressure dependence: None reported
@@ -13468,7 +13468,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005801
 Pressure dependence: Rate constant is pressure independent
@@ -13504,7 +13504,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005801
 Experimental procedure: Shock tube
@@ -13540,7 +13540,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005801
 Bath gas: Ar
@@ -13574,7 +13574,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005801
 Bath gas: He
@@ -13608,7 +13608,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005801
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005801/rk00000001.xml
@@ -13642,7 +13642,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009459
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009459/rk00000002.xml
@@ -13673,7 +13673,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009459
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009459/rk00000002.xml
@@ -13706,7 +13706,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009459
 Uncertainty: 1.91
@@ -13741,7 +13741,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009459
 Uncertainty: 1.17
@@ -13774,7 +13774,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009459
 """,
@@ -13805,7 +13805,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009459
 Bath gas: N2
@@ -13837,7 +13837,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009459
 Bath gas: Ar
@@ -13867,7 +13867,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009465
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009465/rk00000001.xml
@@ -13898,7 +13898,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009482
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009482/rk00000001.xml
@@ -13927,7 +13927,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009482
 Uncertainty: 2.0
@@ -13959,7 +13959,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009482
 Bath gas: Ar
@@ -13993,7 +13993,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009482
 Bath gas: Ar
@@ -14025,7 +14025,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010403
 Pressure dependence: Rate constant is pressure independent
@@ -14059,7 +14059,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010403
 Bath gas: Ar
@@ -14089,7 +14089,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010403
 Uncertainty: 5.0
@@ -14121,7 +14121,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010403
 Pressure dependence: None reported
@@ -14159,7 +14159,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010403
 Bath gas: Ar
@@ -14194,7 +14194,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010403
 Excitation technique: Thermal
@@ -14226,7 +14226,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010403
 """,
@@ -14255,7 +14255,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010403
 Bath gas: Ar
@@ -14285,7 +14285,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010587
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010587/rk00000001.xml
@@ -14315,7 +14315,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010587
 Uncertainty: 3.1600001
@@ -14345,7 +14345,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010587
 Pressure dependence: Rate constant is high pressure limit
@@ -14377,7 +14377,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010587
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010587/rk00000001.xml
@@ -14410,7 +14410,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010587
 Bath gas: He
@@ -14440,7 +14440,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011303
 
@@ -14473,7 +14473,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011303
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011303/rk00000001.xml
@@ -14503,7 +14503,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011303
 Pressure dependence: None reported
@@ -14533,7 +14533,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011303
 Excitation technique: Thermal
@@ -14567,7 +14567,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011303
 Uncertainty: 2.0
@@ -14602,7 +14602,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011303
 Bath gas: N2
@@ -14634,7 +14634,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011303
 Bath gas: Ar
@@ -14666,7 +14666,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011303
 Pressure dependence: Rate constant is high pressure limit
@@ -14698,7 +14698,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011303
 
@@ -14731,7 +14731,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011303
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011303/rk00000001.xml
@@ -14762,7 +14762,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011341/rk00000001.xml
@@ -14792,7 +14792,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Pressure dependence: None reported
@@ -14823,7 +14823,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Note: Invalid activation energy uncertainty (1.247) found and ignored
@@ -14853,7 +14853,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Uncertainty: 10.0
@@ -14883,7 +14883,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Note: Invalid activation energy uncertainty (1.247) found and ignored
@@ -14913,7 +14913,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Uncertainty: 1.26
@@ -14944,7 +14944,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011341/rk00000001.xml
@@ -14973,7 +14973,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Uncertainty: 2.0
@@ -15003,7 +15003,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Uncertainty: 10.0
@@ -15035,7 +15035,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Uncertainty: 1.25
@@ -15076,7 +15076,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Bath gas: Ar
@@ -15110,7 +15110,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Bath gas: O2
@@ -15144,7 +15144,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Uncertainty: 2.0
@@ -15179,7 +15179,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Bath gas: He
@@ -15213,7 +15213,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Bath gas: Ar
@@ -15248,7 +15248,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Uncertainty: 2.51
@@ -15283,7 +15283,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 Bath gas: O2
@@ -15315,7 +15315,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 
@@ -15346,7 +15346,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 
@@ -15377,7 +15377,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011341
 """,
@@ -15406,7 +15406,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011431/rk00000001.xml
@@ -15437,7 +15437,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 Pressure dependence: Rate constant is high pressure limit
@@ -15469,7 +15469,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 Uncertainty: 3.1600001
@@ -15499,7 +15499,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011431/rk00000001.xml
@@ -15528,7 +15528,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 Uncertainty: 2.51
@@ -15560,7 +15560,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 Experimental procedure: Flames
@@ -15594,7 +15594,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 Bath gas: N2
@@ -15628,7 +15628,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 Bath gas: He
@@ -15662,7 +15662,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 Bath gas: Ar
@@ -15696,7 +15696,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 Excitation technique: Thermal
@@ -15728,7 +15728,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 
@@ -15759,7 +15759,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 Pressure dependence: Rate constant is high pressure limit
@@ -15793,7 +15793,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011431
 Bath gas: Ar
@@ -15823,7 +15823,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011842/rk00000002.xml
@@ -15856,7 +15856,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: H2O2
@@ -15886,7 +15886,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 """,
@@ -15914,7 +15914,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Pressure dependence: None reported
@@ -15943,7 +15943,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 """,
@@ -15972,7 +15972,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 """,
@@ -16000,7 +16000,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Uncertainty: 1.2
@@ -16030,7 +16030,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Uncertainty: 1.58
@@ -16060,7 +16060,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 """,
@@ -16089,7 +16089,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Uncertainty: 1.26
@@ -16119,7 +16119,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Uncertainty: 3.0
@@ -16147,7 +16147,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Uncertainty: 1.58
@@ -16179,7 +16179,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: He
@@ -16209,7 +16209,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Uncertainty: 10.0
@@ -16241,7 +16241,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Pressure dependence: Rate constant is pressure independent
@@ -16278,7 +16278,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: N2
@@ -16314,7 +16314,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: He
@@ -16348,7 +16348,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: He
@@ -16382,7 +16382,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: He
@@ -16416,7 +16416,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Uncertainty: 1.48
@@ -16451,7 +16451,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: He
@@ -16485,7 +16485,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: He
@@ -16519,7 +16519,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: He
@@ -16552,7 +16552,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: He
@@ -16584,7 +16584,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: He
@@ -16618,7 +16618,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Uncertainty: 1.12
@@ -16653,7 +16653,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Uncertainty: 1.1
@@ -16688,7 +16688,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: He
@@ -16720,7 +16720,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 Bath gas: He
@@ -16750,7 +16750,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011842
 """,
@@ -16779,7 +16779,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 2.0
@@ -16809,7 +16809,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013765/rk00000001.xml
@@ -16840,7 +16840,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 
@@ -16870,7 +16870,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Pressure dependence: None reported
@@ -16899,7 +16899,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 """,
@@ -16928,7 +16928,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 """,
@@ -16956,7 +16956,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 1.1
@@ -16986,7 +16986,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 1.41
@@ -17016,7 +17016,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 """,
@@ -17045,7 +17045,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 1.26
@@ -17075,7 +17075,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 2.0
@@ -17105,7 +17105,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 2.0
@@ -17135,7 +17135,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 1.2
@@ -17163,7 +17163,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 2.0
@@ -17193,7 +17193,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013765/rk00000001.xml
@@ -17224,7 +17224,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 2.0
@@ -17256,7 +17256,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Experimental procedure: Shock tube
@@ -17291,7 +17291,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: N2
@@ -17325,7 +17325,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: Ar
@@ -17359,7 +17359,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: Ar
@@ -17394,7 +17394,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: He
@@ -17428,7 +17428,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: Ar
@@ -17462,7 +17462,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: Ar
@@ -17496,7 +17496,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: He
@@ -17530,7 +17530,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: He
@@ -17563,7 +17563,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: Ar
@@ -17595,7 +17595,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Excitation technique: Electron beam
@@ -17626,7 +17626,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Excitation technique: Thermal
@@ -17659,7 +17659,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: Ar
@@ -17693,7 +17693,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: CO
@@ -17726,7 +17726,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 2.51
@@ -17759,7 +17759,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 1.38
@@ -17791,7 +17791,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 1.17
@@ -17826,7 +17826,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: N2
@@ -17860,7 +17860,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Uncertainty: 10.0
@@ -17896,7 +17896,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Excitation technique: Thermal
@@ -17928,7 +17928,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 
@@ -17961,7 +17961,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 
@@ -17992,7 +17992,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 """,
@@ -18021,7 +18021,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 """,
@@ -18052,7 +18052,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 Bath gas: N2
@@ -18082,7 +18082,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013765
 """,
@@ -18111,7 +18111,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013767/rk00000001.xml
@@ -18141,7 +18141,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 """,
@@ -18169,7 +18169,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 Pressure dependence: None reported
@@ -18198,7 +18198,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 """,
@@ -18227,7 +18227,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 """,
@@ -18255,7 +18255,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 Uncertainty: 1.3
@@ -18285,7 +18285,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 Uncertainty: 1.58
@@ -18315,7 +18315,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 Uncertainty: 3.1600001
@@ -18345,7 +18345,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 """,
@@ -18374,7 +18374,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 Uncertainty: 1.26
@@ -18404,7 +18404,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 Uncertainty: 2.0
@@ -18436,7 +18436,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 Bath gas: He
@@ -18470,7 +18470,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 Bath gas: He
@@ -18502,7 +18502,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013767
 """,
@@ -18531,7 +18531,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005746
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005746/rk00000002.xml
@@ -18561,7 +18561,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005747
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005747/rk00000002.xml
@@ -18591,7 +18591,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010403
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010403/rk00000003.xml
@@ -18623,7 +18623,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001351
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001351/rk00000003.xml
@@ -18654,7 +18654,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001357
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001357/rk00000001.xml
@@ -18685,7 +18685,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001357
 
@@ -18716,7 +18716,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001357
 """,
@@ -18745,7 +18745,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001370
 Uncertainty: 3.1600001
@@ -18775,7 +18775,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001370
 Uncertainty: 2.0
@@ -18807,7 +18807,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001370
 Pressure dependence: None reported
@@ -18843,7 +18843,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001370
 Experimental procedure: Shock tube
@@ -18878,7 +18878,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001370
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001370/rk00000002.xml
@@ -18913,7 +18913,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001370
 """,
@@ -18942,7 +18942,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001604
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001604/rk00000001.xml
@@ -18975,7 +18975,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001604
 Pressure dependence: Rate constant is high pressure limit
@@ -19007,7 +19007,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001604
 Pressure dependence: Rate constant is high pressure limit
@@ -19039,7 +19039,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001605
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001605/rk00000003.xml
@@ -19073,7 +19073,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001605
 Pressure dependence: Rate constant is high pressure limit
@@ -19105,7 +19105,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001605
 Pressure dependence: Rate constant is high pressure limit
@@ -19136,7 +19136,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001609
 Pressure dependence: None reported
@@ -19167,7 +19167,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001609
 Pressure dependence: Rate constant is high pressure limit
@@ -19201,7 +19201,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001609
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001609/rk00000001.xml
@@ -19232,7 +19232,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001687
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001687/rk00000001.xml
@@ -19263,7 +19263,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001687
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001687/rk00000001.xml
@@ -19294,7 +19294,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001688
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001688/rk00000001.xml
@@ -19325,7 +19325,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001688
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001688/rk00000001.xml
@@ -19356,7 +19356,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001689/rk00000001.xml
@@ -19387,7 +19387,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001690
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001690/rk00000001.xml
@@ -19418,7 +19418,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001705
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001705/rk00000001.xml
@@ -19451,7 +19451,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001752
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001752/rk00000001.xml
@@ -19487,7 +19487,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001783
 Experimental procedure: Shock tube
@@ -19521,7 +19521,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001783
 Uncertainty: 1.26
@@ -19554,7 +19554,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001783
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001783/rk00000001.xml
@@ -19587,7 +19587,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001954
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001954/rk00000001.xml
@@ -19618,7 +19618,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002098
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002098/rk00000005.xml
@@ -19649,7 +19649,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002098
 Uncertainty: 3.0
@@ -19679,7 +19679,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002103
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002103/rk00000001.xml
@@ -19710,7 +19710,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002103
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002103/rk00000001.xml
@@ -19741,7 +19741,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002104
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002104/rk00000001.xml
@@ -19772,7 +19772,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002104
 Uncertainty: 5.0
@@ -19802,7 +19802,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002104
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002104/rk00000001.xml
@@ -19833,7 +19833,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002105
 Uncertainty: 5.0
@@ -19865,7 +19865,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002105
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002105/rk00000001.xml
@@ -19898,7 +19898,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002105
 """,
@@ -19927,7 +19927,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002105
 Uncertainty: 5.0
@@ -19959,7 +19959,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002105
 Uncertainty: 1.58
@@ -19994,7 +19994,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002105
 Uncertainty: 2.51
@@ -20026,7 +20026,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002105
 Uncertainty: 2.51
@@ -20061,7 +20061,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002105
 Uncertainty: 10.0
@@ -20095,7 +20095,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002126
 Uncertainty: 10.0
@@ -20125,7 +20125,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002126
 Uncertainty: 5.0
@@ -20155,7 +20155,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002126
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002126/rk00000003.xml
@@ -20186,7 +20186,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002294
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002294/rk00000001.xml
@@ -20217,7 +20217,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002411
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002411/rk00000001.xml
@@ -20250,7 +20250,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002411
 Bath gas: He
@@ -20283,7 +20283,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002724
 Uncertainty: 1.5
@@ -20315,7 +20315,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002724
 Bath gas: He
@@ -20349,7 +20349,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002724
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002724/rk00000003.xml
@@ -20382,7 +20382,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002724
 Uncertainty: 2.0
@@ -20411,7 +20411,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002745
 Pressure dependence: None reported
@@ -20441,7 +20441,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002745
 """,
@@ -20472,7 +20472,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002745
 Bath gas: He
@@ -20506,7 +20506,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002745
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002745/rk00000001.xml
@@ -20537,7 +20537,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002745
 """,
@@ -20566,7 +20566,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002745
 """,
@@ -20595,7 +20595,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002745
 """,
@@ -20626,7 +20626,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002745
 Bath gas: N2
@@ -20658,7 +20658,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002746
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002746/rk00000001.xml
@@ -20691,7 +20691,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002746
 """,
@@ -20720,7 +20720,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002746
 """,
@@ -20751,7 +20751,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002746
 Bath gas: N2
@@ -20781,7 +20781,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003010
 Uncertainty: 2.0
@@ -20809,7 +20809,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003010
 Uncertainty: 2.0
@@ -20841,7 +20841,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003010
 Bath gas: N2
@@ -20875,7 +20875,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003010
 Uncertainty: 1.15
@@ -20911,7 +20911,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003010
 Bath gas: (CH3N)2
@@ -20944,7 +20944,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003010
 Uncertainty: 1.26
@@ -20979,7 +20979,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003010
 Bath gas: CH3CHO
@@ -21013,7 +21013,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003010
 Bath gas: CH3CHO
@@ -21045,7 +21045,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003010
 Bath gas: (tert-C4H9O)2
@@ -21077,7 +21077,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003010
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003010/rk00000001.xml
@@ -21110,7 +21110,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003010
 """,
@@ -21139,7 +21139,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003010
 Uncertainty: 5.0
@@ -21168,7 +21168,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003024
 Pressure dependence: None reported
@@ -21197,7 +21197,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003024
 """,
@@ -21226,7 +21226,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003024
 """,
@@ -21254,7 +21254,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003024
 Uncertainty: 1.4
@@ -21284,7 +21284,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003024
 """,
@@ -21313,7 +21313,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003024
 Uncertainty: 1.26
@@ -21345,7 +21345,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003024
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003024/rk00000007.xml
@@ -21379,7 +21379,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003025
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003025/rk00000001.xml
@@ -21411,7 +21411,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003205
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003205/rk00000001.xml
@@ -21443,7 +21443,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Relative value normalized by a reference value""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003205
 Pressure dependence: None reported
@@ -21479,7 +21479,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Relative value normalized by a reference value""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003205
 Pressure dependence: None reported
@@ -21515,7 +21515,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003205
 Bath gas: Ar
@@ -21550,7 +21550,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003205
 Bath gas: Ar
@@ -21585,7 +21585,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003205
 Excitation technique: Flash photolysis (laser or conventional)
@@ -21618,7 +21618,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003225
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003225/rk00000002.xml
@@ -21652,7 +21652,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003226
 Bath gas: N2
@@ -21684,7 +21684,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003226
 Bath gas: Ar
@@ -21717,7 +21717,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003226
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003226/rk00000001.xml
@@ -21750,7 +21750,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004630
 """,
@@ -21778,7 +21778,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004630
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004630/rk00000001.xml
@@ -21811,7 +21811,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004630
 """,
@@ -21840,7 +21840,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004785
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004785/rk00000002.xml
@@ -21870,7 +21870,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004785
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004785/rk00000002.xml
@@ -21900,7 +21900,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004785
 Bath gas: H2
@@ -21930,7 +21930,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005661
 Bath gas: Ar
@@ -21960,7 +21960,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005661
 Uncertainty: 1.4
@@ -21988,7 +21988,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005661
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005661/rk00000002.xml
@@ -22021,7 +22021,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005661
 Uncertainty: 1.3200001
@@ -22054,7 +22054,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005661
 """,
@@ -22083,7 +22083,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005661
 """,
@@ -22114,7 +22114,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005661
 Bath gas: H2
@@ -22144,7 +22144,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005661
 Uncertainty: 3.0
@@ -22174,7 +22174,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005661
 """,
@@ -22203,7 +22203,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005688
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005688/rk00000002.xml
@@ -22236,7 +22236,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005793
 Uncertainty: 1.26
@@ -22267,7 +22267,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005793
 Experimental procedure: Stirred flow reactor(PSR etc.)
@@ -22301,7 +22301,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005793
 Experimental procedure: Shock tube
@@ -22337,7 +22337,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005793
 Uncertainty: 1.26
@@ -22372,7 +22372,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005793
 Uncertainty: 2.51
@@ -22405,7 +22405,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005793
 Uncertainty: 1.2
@@ -22439,7 +22439,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005793
 Uncertainty: 1.2
@@ -22474,7 +22474,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005793
 Bath gas: (CH3)2O
@@ -22506,7 +22506,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005793
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005793/rk00000001.xml
@@ -22536,7 +22536,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005795
 """,
@@ -22564,7 +22564,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005795
 Pressure dependence: None reported
@@ -22594,7 +22594,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005795
 """,
@@ -22623,7 +22623,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005795
 Uncertainty: 1.2
@@ -22655,7 +22655,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005795
 Pressure dependence: None reported
@@ -22691,7 +22691,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005795
 Bath gas: Ar
@@ -22726,7 +22726,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005795
 Bath gas: He
@@ -22760,7 +22760,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005795
 Bath gas: He
@@ -22794,7 +22794,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005795
 Bath gas: Ar
@@ -22828,7 +22828,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005795
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005795/rk00000001.xml
@@ -22861,7 +22861,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005795
 
@@ -22892,7 +22892,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009456
 Uncertainty: 3.0
@@ -22924,7 +22924,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009456
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009456/rk00000001.xml
@@ -22955,7 +22955,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009456
 Uncertainty: 3.0
@@ -22985,7 +22985,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009456
 """,
@@ -23014,7 +23014,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009456
 Uncertainty: 1.38
@@ -23046,7 +23046,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009456
 Bath gas: N2
@@ -23078,7 +23078,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009474
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009474/rk00000001.xml
@@ -23111,7 +23111,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009474
 """,
@@ -23140,7 +23140,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009474
 Uncertainty: 1.38
@@ -23172,7 +23172,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009474
 Bath gas: N2
@@ -23202,7 +23202,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009474
 """,
@@ -23231,7 +23231,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009496
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009496/rk00000001.xml
@@ -23264,7 +23264,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009496
 Bath gas: iso-C4H8
@@ -23296,7 +23296,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009496
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009496/rk00000001.xml
@@ -23327,7 +23327,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009496
 """,
@@ -23358,7 +23358,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009557
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009557/rk00000001.xml
@@ -23393,7 +23393,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009557
 Bath gas: Ar
@@ -23425,7 +23425,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010391
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010391/rk00000002.xml
@@ -23456,7 +23456,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011302
 Uncertainty: 5.0
@@ -23488,7 +23488,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011302
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011302/rk00000001.xml
@@ -23519,7 +23519,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011302
 Uncertainty: 5.0
@@ -23551,7 +23551,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011302
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011302/rk00000001.xml
@@ -23582,7 +23582,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011339
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011339/rk00000001.xml
@@ -23613,7 +23613,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011339
 Uncertainty: 3.1600001
@@ -23643,7 +23643,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011339
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011339/rk00000001.xml
@@ -23674,7 +23674,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011339
 Uncertainty: 10.0
@@ -23704,7 +23704,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011339
 """,
@@ -23735,7 +23735,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011339
 Bath gas: N2
@@ -23769,7 +23769,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011339
 Bath gas: N2
@@ -23802,7 +23802,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011339
 Uncertainty: 2.51
@@ -23835,7 +23835,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011339
 Pressure dependence: Rate constant is pressure independent
@@ -23867,7 +23867,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011339
 """,
@@ -23896,7 +23896,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011339
 """,
@@ -23925,7 +23925,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011429
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011429/rk00000001.xml
@@ -23955,7 +23955,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011638
 Pressure dependence: None reported
@@ -23985,7 +23985,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011638
 """,
@@ -24014,7 +24014,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011638
 Uncertainty: 2.51
@@ -24044,7 +24044,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011638
 """,
@@ -24075,7 +24075,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011638
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011638/rk00000002.xml
@@ -24108,7 +24108,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013691
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000001.xml
@@ -24139,7 +24139,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013691
 Uncertainty: 2.0
@@ -24169,7 +24169,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013691
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013691/rk00000001.xml
@@ -24198,7 +24198,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013691
 Uncertainty: 3.1600001
@@ -24228,7 +24228,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013691
 Uncertainty: 10.0
@@ -24260,7 +24260,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013691
 Uncertainty: 1.45
@@ -24295,7 +24295,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013691
 Bath gas: C2H6
@@ -24327,7 +24327,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013691
 Pressure dependence: Rate constant is pressure independent
@@ -24357,7 +24357,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013691
 Pressure dependence: Rate constant is pressure independent
@@ -24390,7 +24390,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013691
 Bath gas: N2
@@ -24420,7 +24420,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000001.xml
@@ -24453,7 +24453,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001845
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001845/rk00000001.xml
@@ -24486,7 +24486,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003205
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003205/rk00000006.xml
@@ -24522,7 +24522,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004969
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004969/rk00000001.xml
@@ -24556,7 +24556,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004970
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004970/rk00000001.xml
@@ -24592,7 +24592,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005689/rk00000002.xml
@@ -24625,7 +24625,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005689
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005689/rk00000003.xml
@@ -24656,7 +24656,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005691
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005691/rk00000001.xml
@@ -24688,7 +24688,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009579
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009579/rk00000001.xml
@@ -24721,7 +24721,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011639
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000006.xml
@@ -24752,7 +24752,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011639
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000007.xml
@@ -24782,7 +24782,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000003.xml
@@ -24813,7 +24813,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000006.xml
@@ -24846,7 +24846,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000010.xml
@@ -24881,7 +24881,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000012.xml
@@ -24916,7 +24916,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000018.xml
@@ -24951,7 +24951,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000019.xml
@@ -24986,7 +24986,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000020.xml
@@ -25021,7 +25021,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000021.xml
@@ -25056,7 +25056,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000023.xml
@@ -25090,7 +25090,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""RRK(M) extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000028.xml
@@ -25120,7 +25120,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000030.xml
@@ -25153,7 +25153,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000031.xml
@@ -25188,7 +25188,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000034.xml
@@ -25221,7 +25221,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000038.xml
@@ -25252,7 +25252,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000039.xml
@@ -25288,7 +25288,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000041.xml
@@ -25321,7 +25321,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000042.xml
@@ -25350,7 +25350,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000043.xml
@@ -25379,7 +25379,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000045.xml
@@ -25410,7 +25410,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00013692
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00013692/rk00000046.xml
@@ -25439,7 +25439,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011639
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011639/rk00000008.xml
@@ -25470,7 +25470,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001347
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001347/rk00000002.xml
@@ -25501,7 +25501,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001360
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001360/rk00000001.xml
@@ -25532,7 +25532,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001676
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001676/rk00000001.xml
@@ -25563,7 +25563,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001691
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001691/rk00000001.xml
@@ -25594,7 +25594,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Uncertainty: 1.0700001
@@ -25626,7 +25626,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Bath gas: H2
@@ -25658,7 +25658,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Experimental procedure: Shock tube
@@ -25692,7 +25692,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Bath gas: N2
@@ -25726,7 +25726,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Uncertainty: 1.4
@@ -25761,7 +25761,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Uncertainty: 1.05
@@ -25796,7 +25796,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Uncertainty: 1.55
@@ -25831,7 +25831,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Bath gas: (CH3)2CO
@@ -25865,7 +25865,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Uncertainty: 1.12
@@ -25898,7 +25898,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Uncertainty: 1.41
@@ -25933,7 +25933,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Uncertainty: 1.26
@@ -25968,7 +25968,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Uncertainty: 1.0700001
@@ -26004,7 +26004,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Bath gas: (CH3)2CO
@@ -26037,7 +26037,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Uncertainty: 1.17
@@ -26070,7 +26070,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Uncertainty: 1.12
@@ -26103,7 +26103,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Uncertainty: 1.12
@@ -26138,7 +26138,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Bath gas: (CH3)2CO
@@ -26172,7 +26172,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Bath gas: CD4
@@ -26203,7 +26203,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 Bath gas: (tert-C4H9O)2
@@ -26236,7 +26236,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 """,
@@ -26265,7 +26265,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001769
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001769/rk00000001.xml
@@ -26294,7 +26294,7 @@ entry(
         url = "http://kinetics.nist.gov/kinetics/Detail?id=2006CAR/FOR1072-1078:2",
     ),
     referenceType = "uncategorized",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001778
 
@@ -26330,7 +26330,7 @@ entry(
         url = "http://kinetics.nist.gov/kinetics/Detail?id=2006CAR/FOR1072-1078:3",
     ),
     referenceType = "uncategorized",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001778
 
@@ -26366,7 +26366,7 @@ entry(
         url = "http://kinetics.nist.gov/kinetics/Detail?id=2006CAR/FOR1072-1078:1",
     ),
     referenceType = "uncategorized",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001778
 
@@ -26402,7 +26402,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001778
 """,
@@ -26431,7 +26431,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001778
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001778/rk00000006.xml
@@ -26461,7 +26461,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001778
 """,
@@ -26490,7 +26490,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001778
 Uncertainty: 1.58
@@ -26522,7 +26522,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001778
 Pressure dependence: None reported
@@ -26558,7 +26558,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001778
 Experimental procedure: Shock tube
@@ -26590,7 +26590,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001778
 Pressure dependence: Rate constant is pressure independent
@@ -26624,7 +26624,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001856
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001856/rk00000001.xml
@@ -26658,7 +26658,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002092
 Uncertainty: 2.0
@@ -26690,7 +26690,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002092
 Bath gas: C2H6
@@ -26724,7 +26724,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002092
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002092/rk00000001.xml
@@ -26758,7 +26758,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002092
 Uncertainty: 2.5
@@ -26788,7 +26788,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002096
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002096/rk00000001.xml
@@ -26819,7 +26819,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002096
 Pressure dependence: Rate constant is pressure independent
@@ -26851,7 +26851,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002096
 Pressure dependence: Rate constant is pressure independent
@@ -26881,7 +26881,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002710
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002710/rk00000001.xml
@@ -26912,7 +26912,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002710
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002710/rk00000001.xml
@@ -26943,7 +26943,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002719
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002719/rk00000001.xml
@@ -26974,7 +26974,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002719
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002719/rk00000001.xml
@@ -27005,7 +27005,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002720
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002720/rk00000001.xml
@@ -27036,7 +27036,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002720
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002720/rk00000001.xml
@@ -27067,7 +27067,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002728
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002728/rk00000001.xml
@@ -27098,7 +27098,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002728
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002728/rk00000001.xml
@@ -27129,7 +27129,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002729
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002729/rk00000001.xml
@@ -27160,7 +27160,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002729
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002729/rk00000001.xml
@@ -27191,7 +27191,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002730
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002730/rk00000001.xml
@@ -27222,7 +27222,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002730
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002730/rk00000001.xml
@@ -27253,7 +27253,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002731
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002731/rk00000001.xml
@@ -27284,7 +27284,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002731
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002731/rk00000001.xml
@@ -27317,7 +27317,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002731
 Bath gas: (n-C3H7)-N=N-(n-C3H7)
@@ -27349,7 +27349,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002732
 Uncertainty: 10.0
@@ -27379,7 +27379,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002732
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002732/rk00000001.xml
@@ -27409,7 +27409,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002733
 Uncertainty: 10.0
@@ -27439,7 +27439,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002733
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002733/rk00000001.xml
@@ -27469,7 +27469,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002740
 Uncertainty: 10.0
@@ -27499,7 +27499,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002740
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002740/rk00000003.xml
@@ -27530,7 +27530,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002740
 Uncertainty: 10.0
@@ -27560,7 +27560,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002766
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002766/rk00000001.xml
@@ -27591,7 +27591,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002767
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002767/rk00000001.xml
@@ -27624,7 +27624,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003005
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003005/rk00000001.xml
@@ -27658,7 +27658,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003005
 Uncertainty: 5.0
@@ -27688,7 +27688,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003016
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003016/rk00000001.xml
@@ -27718,7 +27718,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003032
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003032/rk00000002.xml
@@ -27751,7 +27751,7 @@ entry(
     ),
     referenceType = "uncategorized",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003291
 Pressure dependence: None reported
@@ -27760,7 +27760,7 @@ Excitation technique: Thermal
 Time resolution: By end product analysis
 Analytical technique: Gas chromatography
 
-Heating of the reaction mixtures are achived through CO2-laser induced excitation of SF6 and V-T energy transfer to reactants.Methyl radicals are produced from thermal decomposition of di-tert-butyl-peroxide.Products are analyzed using GC/MS. 
+Heating of the reaction mixtures are achived through CO2-laser induced excitation of SF6 and V-T energy transfer to reactants.Methyl radicals are produced from thermal decomposition of di-tert-butyl-peroxide.Products are analyzed using GC/MS.
 
 Note: iso-butyl product corrected to tert-butyl (Aug 30, 2011)
 """,
@@ -27789,7 +27789,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003291
 """,
@@ -27818,7 +27818,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003291
 Uncertainty: 2.0
@@ -27850,7 +27850,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003291
 Uncertainty: 1.6
@@ -27885,7 +27885,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003291
 Uncertainty: 5.0
@@ -27920,7 +27920,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003291
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003291/rk00000001.xml
@@ -27951,7 +27951,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003291
 Uncertainty: 3.0
@@ -27981,7 +27981,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003292
 """,
@@ -28010,7 +28010,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003292
 Uncertainty: 2.0
@@ -28042,7 +28042,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003292
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003292/rk00000001.xml
@@ -28073,7 +28073,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003292
 Uncertainty: 3.0
@@ -28103,7 +28103,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003317
 Uncertainty: 1.2
@@ -28133,7 +28133,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003317
 """,
@@ -28162,7 +28162,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003317
 Uncertainty: 1.38
@@ -28194,7 +28194,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003317
 Bath gas: He
@@ -28228,7 +28228,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003317
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003317/rk00000001.xml
@@ -28259,7 +28259,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003317
 """,
@@ -28290,7 +28290,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003317
 Bath gas: N2
@@ -28322,7 +28322,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003317
 Uncertainty: 1.23
@@ -28353,7 +28353,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003318
 Uncertainty: 1.2
@@ -28385,7 +28385,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003318
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003318/rk00000001.xml
@@ -28418,7 +28418,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003318
 """,
@@ -28449,7 +28449,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003318
 Bath gas: N2
@@ -28481,7 +28481,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003593
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003593/rk00000001.xml
@@ -28515,7 +28515,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003832
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003832/rk00000001.xml
@@ -28545,7 +28545,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003833
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003833/rk00000001.xml
@@ -28575,7 +28575,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003834
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003834/rk00000001.xml
@@ -28607,7 +28607,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004593
 Uncertainty: 1.26
@@ -28642,7 +28642,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004593
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004593/rk00000002.xml
@@ -28675,7 +28675,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004594
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004594/rk00000001.xml
@@ -28706,7 +28706,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004608
 """,
@@ -28737,7 +28737,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004608
 Bath gas: He
@@ -28771,7 +28771,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004608
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004608/rk00000001.xml
@@ -28804,7 +28804,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004608
 """,
@@ -28835,7 +28835,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004608
 Bath gas: N2
@@ -28867,7 +28867,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004609
 Bath gas: He
@@ -28901,7 +28901,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004609
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004609/rk00000001.xml
@@ -28934,7 +28934,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004609
 """,
@@ -28965,7 +28965,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004609
 Bath gas: N2
@@ -28997,7 +28997,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004743
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004743/rk00000001.xml
@@ -29028,7 +29028,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005291
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005291/rk00000001.xml
@@ -29058,7 +29058,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005292
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005292/rk00000001.xml
@@ -29088,7 +29088,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005293
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005293/rk00000001.xml
@@ -29118,7 +29118,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005641
 Uncertainty: 3.0
@@ -29148,7 +29148,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005641
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005641/rk00000001.xml
@@ -29178,7 +29178,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005641
 Uncertainty: 5.0
@@ -29208,7 +29208,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005641
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005641/rk00000001.xml
@@ -29238,7 +29238,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005655
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005655/rk00000001.xml
@@ -29270,7 +29270,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005669
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005669/rk00000001.xml
@@ -29301,7 +29301,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005669
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005669/rk00000001.xml
@@ -29332,7 +29332,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005671
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005671/rk00000001.xml
@@ -29363,7 +29363,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005671
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005671/rk00000001.xml
@@ -29394,7 +29394,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005672
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005672/rk00000001.xml
@@ -29427,7 +29427,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005825
 Bath gas: Ar
@@ -29461,7 +29461,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005825
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005825/rk00000002.xml
@@ -29495,7 +29495,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005825
 """,
@@ -29526,7 +29526,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005825
 Bath gas: Ar
@@ -29558,7 +29558,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005825
 Bath gas: iso-C4H8
@@ -29588,7 +29588,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006461
 """,
@@ -29617,7 +29617,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006461
 Uncertainty: 3.1600001
@@ -29649,7 +29649,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006461
 Bath gas: Ar
@@ -29684,7 +29684,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006461
 Bath gas: Ar
@@ -29717,7 +29717,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006461
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006461/rk00000002.xml
@@ -29747,7 +29747,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006461
 """,
@@ -29778,7 +29778,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006492
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006492/rk00000003.xml
@@ -29809,7 +29809,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007071
 """,
@@ -29840,7 +29840,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007071
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007071/rk00000001.xml
@@ -29874,7 +29874,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010120
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010120/rk00000001.xml
@@ -29907,7 +29907,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010120
 Uncertainty: 2.0
@@ -29937,7 +29937,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010120
 Uncertainty: 20.0
@@ -29969,7 +29969,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010120
 Bath gas: CH3CH=CH2
@@ -30004,7 +30004,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010120
 Uncertainty: 2.51
@@ -30039,7 +30039,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010128
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010128/rk00000002.xml
@@ -30072,7 +30072,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010128
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010128/rk00000002.xml
@@ -30103,7 +30103,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010128
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010128/rk00000002.xml
@@ -30133,7 +30133,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 Pressure dependence: None reported
@@ -30162,7 +30162,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 """,
@@ -30191,7 +30191,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 """,
@@ -30219,7 +30219,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 Uncertainty: 2.0
@@ -30249,7 +30249,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 """,
@@ -30278,7 +30278,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 """,
@@ -30307,7 +30307,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 Uncertainty: 2.0
@@ -30337,7 +30337,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 Uncertainty: 5.0
@@ -30369,7 +30369,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 Bath gas: N2
@@ -30403,7 +30403,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 Bath gas: N2
@@ -30437,7 +30437,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 Uncertainty: 3.4000001
@@ -30472,7 +30472,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010441/rk00000001.xml
@@ -30505,7 +30505,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010441
 
@@ -30538,7 +30538,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010450
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010450/rk00000001.xml
@@ -30569,7 +30569,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010539
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010539/rk00000001.xml
@@ -30600,7 +30600,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010539
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010539/rk00000001.xml
@@ -30631,7 +30631,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011760
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011760/rk00000001.xml
@@ -30662,7 +30662,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011760
 Uncertainty: 10.0
@@ -30694,7 +30694,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011760
 Bath gas: N2
@@ -30724,7 +30724,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003835
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003835/rk00000001.xml
@@ -30752,7 +30752,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004666
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004666/rk00000002.xml
@@ -30785,7 +30785,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004963
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004963/rk00000001.xml
@@ -30818,7 +30818,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004963
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004963/rk00000002.xml
@@ -30852,7 +30852,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004963
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004963/rk00000003.xml
@@ -30886,7 +30886,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004966
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004966/rk00000001.xml
@@ -30920,7 +30920,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004967
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004967/rk00000001.xml
@@ -30954,7 +30954,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004962
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004962/rk00000001.xml
@@ -30990,7 +30990,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007720
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007720/rk00000001.xml
@@ -31021,7 +31021,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007720
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007720/rk00000002.xml
@@ -31052,7 +31052,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007720
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007720/rk00000004.xml
@@ -31084,7 +31084,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008211
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008211/rk00000002.xml
@@ -31117,7 +31117,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001562
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001562/rk00000001.xml
@@ -31152,7 +31152,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Bond energy-bond order (BEBO)""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001773
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001773/rk00000001.xml
@@ -31182,7 +31182,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""RRK(M) extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001912
 Pressure dependence: Rate constant is high pressure limit
@@ -31214,7 +31214,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001912
 Bath gas: Ar
@@ -31246,7 +31246,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001912
 
@@ -31277,7 +31277,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001912
 Pressure dependence: Rate constant is high pressure limit
@@ -31311,7 +31311,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001912
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001912/rk00000001.xml
@@ -31344,7 +31344,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001912
 Bath gas: Ar
@@ -31377,7 +31377,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001912
 Bath gas: Ar
@@ -31410,7 +31410,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001912
 """,
@@ -31441,7 +31441,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002102
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002102/rk00000001.xml
@@ -31474,7 +31474,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002707
 Uncertainty: 2.0
@@ -31506,7 +31506,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002707
 Bath gas: C3H8
@@ -31540,7 +31540,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002707
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002707/rk00000001.xml
@@ -31573,7 +31573,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002707
 Uncertainty: 1.5
@@ -31605,7 +31605,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002707
 Bath gas: C3H8
@@ -31637,7 +31637,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002716
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002716/rk00000001.xml
@@ -31668,7 +31668,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002717
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002717/rk00000001.xml
@@ -31699,7 +31699,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002734
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002734/rk00000001.xml
@@ -31730,7 +31730,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002735
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002735/rk00000001.xml
@@ -31761,7 +31761,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003004
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003004/rk00000001.xml
@@ -31791,7 +31791,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003004
 Uncertainty: 10.0
@@ -31821,7 +31821,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003004
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003004/rk00000001.xml
@@ -31851,7 +31851,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003275
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003275/rk00000001.xml
@@ -31882,7 +31882,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003275
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003275/rk00000001.xml
@@ -31913,7 +31913,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003276
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003276/rk00000001.xml
@@ -31944,7 +31944,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003276
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003276/rk00000001.xml
@@ -31975,7 +31975,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003287
 Uncertainty: 10.0
@@ -32007,7 +32007,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003287
 Uncertainty: 5.0
@@ -32041,7 +32041,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003287
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003287/rk00000001.xml
@@ -32076,7 +32076,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003287
 Uncertainty: 10.0
@@ -32106,7 +32106,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003288
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003288/rk00000001.xml
@@ -32137,7 +32137,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003288
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003288/rk00000001.xml
@@ -32168,7 +32168,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003298
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003298/rk00000001.xml
@@ -32199,7 +32199,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003298
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003298/rk00000001.xml
@@ -32230,7 +32230,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003299
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003299/rk00000001.xml
@@ -32261,7 +32261,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003299
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003299/rk00000001.xml
@@ -32292,7 +32292,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003300
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003300/rk00000001.xml
@@ -32323,7 +32323,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003300
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003300/rk00000001.xml
@@ -32354,7 +32354,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003301
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003301/rk00000001.xml
@@ -32385,7 +32385,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003301
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003301/rk00000001.xml
@@ -32416,7 +32416,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003302
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003302/rk00000002.xml
@@ -32447,7 +32447,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003303
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003303/rk00000001.xml
@@ -32478,7 +32478,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003313
 Uncertainty: 10.0
@@ -32508,7 +32508,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003313
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003313/rk00000003.xml
@@ -32539,7 +32539,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003313
 Uncertainty: 5.0
@@ -32569,7 +32569,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003329
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003329/rk00000001.xml
@@ -32600,7 +32600,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003330
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003330/rk00000001.xml
@@ -32631,7 +32631,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003823
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003823/rk00000003.xml
@@ -32661,7 +32661,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003824
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003824/rk00000003.xml
@@ -32692,7 +32692,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003871
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003871/rk00000001.xml
@@ -32728,7 +32728,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003940
 Pressure dependence: Rate constant is pressure independent
@@ -32764,7 +32764,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003940
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003940/rk00000003.xml
@@ -32797,7 +32797,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003940
 
@@ -32832,7 +32832,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004604
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004604/rk00000001.xml
@@ -32863,7 +32863,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004605
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004605/rk00000001.xml
@@ -32894,7 +32894,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004932
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004932/rk00000001.xml
@@ -32929,7 +32929,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004961
 Uncertainty: 1.74
@@ -32962,7 +32962,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004961
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004961/rk00000001.xml
@@ -32995,7 +32995,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005282
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005282/rk00000003.xml
@@ -33025,7 +33025,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005283
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005283/rk00000003.xml
@@ -33055,7 +33055,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005285
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005285/rk00000002.xml
@@ -33085,7 +33085,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005285
 """,
@@ -33116,7 +33116,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005362
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005362/rk00000001.xml
@@ -33149,7 +33149,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005638
 Uncertainty: 3.0
@@ -33181,7 +33181,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005638
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005638/rk00000001.xml
@@ -33215,7 +33215,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005638
 Uncertainty: 5.0
@@ -33245,7 +33245,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005638
 """,
@@ -33274,7 +33274,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005652
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005652/rk00000001.xml
@@ -33305,7 +33305,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005653
 Uncertainty: 3.0
@@ -33335,7 +33335,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005653
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005653/rk00000001.xml
@@ -33365,7 +33365,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005653
 Uncertainty: 5.0
@@ -33395,7 +33395,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005653
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005653/rk00000001.xml
@@ -33427,7 +33427,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005864
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005864/rk00000001.xml
@@ -33461,7 +33461,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""RRK(M) extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005864
 """,
@@ -33490,7 +33490,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""RRK(M) extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005864
 """,
@@ -33521,7 +33521,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006060
 Uncertainty: 1.26
@@ -33555,7 +33555,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006060
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006060/rk00000001.xml
@@ -33589,7 +33589,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006097
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006097/rk00000001.xml
@@ -33625,7 +33625,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006481
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006481/rk00000001.xml
@@ -33659,7 +33659,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006488
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006488/rk00000001.xml
@@ -33691,7 +33691,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006488
 Bath gas: O2
@@ -33721,7 +33721,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006488
 Uncertainty: 3.1600001
@@ -33753,7 +33753,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006488
 Bath gas: Ar
@@ -33788,7 +33788,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006488
 Bath gas: N2
@@ -33822,7 +33822,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006488
 Bath gas: He
@@ -33854,7 +33854,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006488
 """,
@@ -33883,7 +33883,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007057
 """,
@@ -33914,7 +33914,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007057
 Uncertainty: 1.4
@@ -33949,7 +33949,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007057
 Bath gas: neo-C5H12
@@ -33983,7 +33983,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007057
 Bath gas: neo-C5H12
@@ -34017,7 +34017,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007057
 Bath gas: neo-C5H12
@@ -34051,7 +34051,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007057
 Bath gas: Ar
@@ -34085,7 +34085,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007057
 Uncertainty: 5.0
@@ -34118,7 +34118,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007057
 Uncertainty: 3.02
@@ -34153,7 +34153,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007057
 Bath gas: neo-C5H12
@@ -34187,7 +34187,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007057
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007057/rk00000004.xml
@@ -34221,7 +34221,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007065
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007065/rk00000001.xml
@@ -34251,7 +34251,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007065
 Uncertainty: 2.0
@@ -34281,7 +34281,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007065
 Uncertainty: 1.2
@@ -34311,7 +34311,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007065
 """,
@@ -34340,7 +34340,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007065
 Uncertainty: 3.1600001
@@ -34372,7 +34372,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007065
 Bath gas: He
@@ -34406,7 +34406,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007065
 Uncertainty: 1.15
@@ -34439,7 +34439,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007065
 """,
@@ -34470,7 +34470,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007065
 Bath gas: N2
@@ -34500,7 +34500,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007065
 """,
@@ -34530,7 +34530,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009651
 Uncertainty: 1.1
@@ -34566,7 +34566,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009651
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009651/rk00000001.xml
@@ -34601,7 +34601,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010815
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010815/rk00000001.xml
@@ -34633,7 +34633,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011731
 Pressure dependence: None reported
@@ -34662,7 +34662,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011731
 Pressure dependence: None reported
@@ -34691,7 +34691,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011731
 """,
@@ -34720,7 +34720,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011731
 """,
@@ -34748,7 +34748,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011731
 Uncertainty: 1.5
@@ -34778,7 +34778,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011731
 """,
@@ -34807,7 +34807,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011731
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011731/rk00000003.xml
@@ -34837,7 +34837,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011731
 """,
@@ -34866,7 +34866,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011731
 Uncertainty: 1.58
@@ -34898,7 +34898,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011731
 Bath gas: N2
@@ -34932,7 +34932,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011731
 Bath gas: N2
@@ -34964,7 +34964,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00012776
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012776/rk00000001.xml
@@ -34995,7 +34995,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00012776
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012776/rk00000001.xml
@@ -35028,7 +35028,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004000
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004000/rk00000001.xml
@@ -35063,7 +35063,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004000
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004000/rk00000002.xml
@@ -35099,7 +35099,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004001
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004001/rk00000001.xml
@@ -35134,7 +35134,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004001
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004001/rk00000002.xml
@@ -35170,7 +35170,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004001
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004001/rk00000003.xml
@@ -35204,7 +35204,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006061
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006061/rk00000001.xml
@@ -35240,7 +35240,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006062
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006062/rk00000001.xml
@@ -35275,7 +35275,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001359
 Uncertainty: 1.74
@@ -35310,7 +35310,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001560
 Bath gas: (C2H5)2O
@@ -35344,7 +35344,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001560
 Bath gas: (C2H5)2O
@@ -35378,7 +35378,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001560
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001560/rk00000001.xml
@@ -35414,7 +35414,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001964
 Experimental procedure: Static or low flow - Data taken vs time
@@ -35449,7 +35449,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001964
 Bath gas: Ar
@@ -35483,7 +35483,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001964
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001964/rk00000001.xml
@@ -35518,7 +35518,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001964
 Uncertainty: 2.0
@@ -35553,7 +35553,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001964
 Bath gas: (CH3)2Hg
@@ -35585,12 +35585,12 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001964
 Pressure dependence: None reported
 
-Ab initio study, using density functional theory (DFT) and transition state theory (TST) coupled with Eckart tunneling correction factors. Geometries are optimized by B3-LYP/6-311G(d,p) geometries, followed by BMK/6-311+G-(3df,2p) single-point energies. 
+Ab initio study, using density functional theory (DFT) and transition state theory (TST) coupled with Eckart tunneling correction factors. Geometries are optimized by B3-LYP/6-311G(d,p) geometries, followed by BMK/6-311+G-(3df,2p) single-point energies.
 
 Ea = 71.8kJ/mol
 DrH = 30.6kJ/mol
@@ -35621,7 +35621,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003271
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003271/rk00000001.xml
@@ -35652,7 +35652,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003271
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003271/rk00000001.xml
@@ -35683,7 +35683,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003272
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003272/rk00000001.xml
@@ -35714,7 +35714,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003272
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003272/rk00000001.xml
@@ -35745,7 +35745,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003281
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003281/rk00000001.xml
@@ -35776,7 +35776,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003282
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003282/rk00000001.xml
@@ -35807,7 +35807,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003283
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003283/rk00000001.xml
@@ -35838,7 +35838,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003283
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003283/rk00000001.xml
@@ -35869,7 +35869,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003284
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003284/rk00000001.xml
@@ -35900,7 +35900,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003284
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003284/rk00000001.xml
@@ -35931,7 +35931,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003307
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003307/rk00000001.xml
@@ -35962,7 +35962,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003308
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003308/rk00000001.xml
@@ -35995,7 +35995,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003729
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003729/rk00000001.xml
@@ -36031,7 +36031,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003753
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003753/rk00000001.xml
@@ -36061,7 +36061,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004242
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004242/rk00000001.xml
@@ -36093,7 +36093,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004844
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004844/rk00000001.xml
@@ -36126,7 +36126,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005240
 Uncertainty: 2.0
@@ -36158,7 +36158,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005240
 Bath gas: Ar
@@ -36192,7 +36192,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005361
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005361/rk00000001.xml
@@ -36225,7 +36225,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005439
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005439/rk00000001.xml
@@ -36255,7 +36255,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005440
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005440/rk00000001.xml
@@ -36286,7 +36286,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005457
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005457/rk00000001.xml
@@ -36322,7 +36322,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005470
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005470/rk00000001.xml
@@ -36357,7 +36357,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005484
 Uncertainty: 1.26
@@ -36392,7 +36392,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005484
 Uncertainty: 2.75
@@ -36424,7 +36424,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005493
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005493/rk00000001.xml
@@ -36454,7 +36454,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005493
 Uncertainty: 1.2
@@ -36484,7 +36484,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005493
 Uncertainty: 3.1600001
@@ -36516,7 +36516,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005493
 Bath gas: Ar
@@ -36551,7 +36551,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005493
 Bath gas: N2
@@ -36585,7 +36585,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005493
 Bath gas: He
@@ -36619,7 +36619,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005493
 Uncertainty: 1.2
@@ -36654,7 +36654,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005493
 Bath gas: N2
@@ -36684,7 +36684,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005493
 """,
@@ -36715,7 +36715,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005544
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005544/rk00000001.xml
@@ -36748,7 +36748,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005634
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005634/rk00000001.xml
@@ -36779,7 +36779,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005634
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005634/rk00000001.xml
@@ -36810,7 +36810,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005677
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005677/rk00000001.xml
@@ -36840,7 +36840,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Other theoretical""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005677
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005677/rk00000001.xml
@@ -36870,7 +36870,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005700
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005700/rk00000001.xml
@@ -36901,7 +36901,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005700
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005700/rk00000001.xml
@@ -36934,7 +36934,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006478
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006478/rk00000001.xml
@@ -36970,7 +36970,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Relative value normalized by a reference value""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006485
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006485/rk00000001.xml
@@ -37015,7 +37015,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Relative value normalized by a reference value""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006485
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006485/rk00000001.xml
@@ -37055,7 +37055,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007055
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007055/rk00000004.xml
@@ -37090,7 +37090,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007610
 Uncertainty: 1.62
@@ -37123,7 +37123,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007610
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007610/rk00000002.xml
@@ -37158,7 +37158,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007794
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007794/rk00000001.xml
@@ -37192,7 +37192,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008152
 Bath gas: CH3OCOOCH3
@@ -37224,7 +37224,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008152
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008152/rk00000001.xml
@@ -37259,7 +37259,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008153
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008153/rk00000001.xml
@@ -37294,7 +37294,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008321
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008321/rk00000001.xml
@@ -37328,7 +37328,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008601
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008601/rk00000001.xml
@@ -37364,7 +37364,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011163
 Bath gas: He
@@ -37394,7 +37394,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011163
 Uncertainty: 2.0
@@ -37426,7 +37426,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011163
 Pressure dependence: None reported
@@ -37464,7 +37464,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011163
 Bath gas: Ar
@@ -37498,7 +37498,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011163
 Bath gas: Ar
@@ -37532,7 +37532,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011163
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011163/rk00000003.xml
@@ -37568,7 +37568,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011163
 Uncertainty: 1.35
@@ -37603,7 +37603,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011163
 Pressure dependence: Rate constant is pressure independent
@@ -37635,7 +37635,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011914
 """,
@@ -37666,7 +37666,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011914
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011914/rk00000006.xml
@@ -37709,7 +37709,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003724
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003724/rk00000001.xml
@@ -37739,7 +37739,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003725
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003725/rk00000001.xml
@@ -37769,7 +37769,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003726
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003726/rk00000001.xml
@@ -37801,7 +37801,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004048
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000001.xml
@@ -37834,7 +37834,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004048
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000003.xml
@@ -37866,7 +37866,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004048
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000004.xml
@@ -37897,7 +37897,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004048
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004048/rk00000005.xml
@@ -37929,7 +37929,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004761
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004761/rk00000001.xml
@@ -37960,7 +37960,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005442
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005442/rk00000001.xml
@@ -37992,7 +37992,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001906
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001906/rk00000001.xml
@@ -38025,7 +38025,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002101
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002101/rk00000001.xml
@@ -38065,7 +38065,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002101
 Uncertainty: 2.0
@@ -38099,7 +38099,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003017
 Bath gas: (tert-C4H9O)2
@@ -38132,7 +38132,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003018
 Bath gas: (tert-C4H9O)2
@@ -38164,7 +38164,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003324
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003324/rk00000001.xml
@@ -38195,7 +38195,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003324
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003324/rk00000001.xml
@@ -38228,7 +38228,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003870
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003870/rk00000001.xml
@@ -38261,7 +38261,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004373
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004373/rk00000002.xml
@@ -38298,7 +38298,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005226
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005226/rk00000001.xml
@@ -38333,7 +38333,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005234
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005234/rk00000002.xml
@@ -38366,7 +38366,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005489
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005489/rk00000002.xml
@@ -38404,7 +38404,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005489
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005489/rk00000002.xml
@@ -38444,7 +38444,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005512
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005512/rk00000001.xml
@@ -38478,7 +38478,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005678
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005678/rk00000001.xml
@@ -38512,7 +38512,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006329
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006329/rk00000001.xml
@@ -38542,7 +38542,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006330
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006330/rk00000001.xml
@@ -38574,7 +38574,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006521
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006521/rk00000002.xml
@@ -38609,7 +38609,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007053
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007053/rk00000001.xml
@@ -38645,7 +38645,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007433
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007433/rk00000001.xml
@@ -38680,7 +38680,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007436
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007436/rk00000001.xml
@@ -38713,7 +38713,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007911
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007911/rk00000001.xml
@@ -38746,7 +38746,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008150
 Bath gas: CH3OCOOCH3
@@ -38778,7 +38778,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008150
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008150/rk00000001.xml
@@ -38812,7 +38812,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009652
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009652/rk00000001.xml
@@ -38849,7 +38849,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006095
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006095/rk00000001.xml
@@ -38884,7 +38884,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006095
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006095/rk00000003.xml
@@ -38920,7 +38920,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006096
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006096/rk00000001.xml
@@ -38955,7 +38955,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006096
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006096/rk00000002.xml
@@ -38990,7 +38990,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006332
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006332/rk00000001.xml
@@ -39020,7 +39020,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006333
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006333/rk00000001.xml
@@ -39052,7 +39052,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007083
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000001.xml
@@ -39087,7 +39087,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007083
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000002.xml
@@ -39122,7 +39122,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007083
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000003.xml
@@ -39153,7 +39153,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007083
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000004.xml
@@ -39185,7 +39185,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007083
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000005.xml
@@ -39216,7 +39216,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007083
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007083/rk00000006.xml
@@ -39248,7 +39248,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007084
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007084/rk00000001.xml
@@ -39283,7 +39283,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007084
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007084/rk00000002.xml
@@ -39314,7 +39314,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007084
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007084/rk00000003.xml
@@ -39346,7 +39346,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007723
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007723/rk00000001.xml
@@ -39381,7 +39381,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007758
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007758/rk00000001.xml
@@ -39412,7 +39412,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00000863
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00000863/rk00000001.xml
@@ -39446,7 +39446,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001774
 Uncertainty: 1.26
@@ -39480,7 +39480,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003202
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003202/rk00000001.xml
@@ -39514,7 +39514,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003305
 Uncertainty: 1.12
@@ -39549,7 +39549,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003305
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003305/rk00000003.xml
@@ -39584,7 +39584,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003306
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003306/rk00000001.xml
@@ -39617,7 +39617,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004430
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004430/rk00000001.xml
@@ -39653,7 +39653,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004434
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004434/rk00000001.xml
@@ -39687,7 +39687,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004599
 Uncertainty: 1.86
@@ -39722,7 +39722,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004599
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004599/rk00000001.xml
@@ -39755,7 +39755,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004600
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004600/rk00000001.xml
@@ -39788,7 +39788,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005469
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005469/rk00000001.xml
@@ -39823,7 +39823,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005579
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005579/rk00000001.xml
@@ -39856,7 +39856,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005579
 """,
@@ -39887,7 +39887,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005579
 Bath gas: N2
@@ -39918,7 +39918,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005834
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005834/rk00000001.xml
@@ -39954,7 +39954,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006530
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006530/rk00000001.xml
@@ -39987,7 +39987,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006974
 """,
@@ -40016,7 +40016,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006974
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006974/rk00000001.xml
@@ -40048,7 +40048,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007606
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007606/rk00000001.xml
@@ -40084,7 +40084,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008063
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008063/rk00000001.xml
@@ -40118,7 +40118,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008065
 """,
@@ -40147,7 +40147,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008065
 Uncertainty: 2.0
@@ -40177,7 +40177,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008065
 Uncertainty: 1.2
@@ -40207,7 +40207,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008065
 """,
@@ -40236,7 +40236,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008065
 Uncertainty: 2.51
@@ -40268,7 +40268,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008065
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008065/rk00000001.xml
@@ -40301,7 +40301,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008065
 """,
@@ -40332,7 +40332,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008065
 Bath gas: N2
@@ -40362,7 +40362,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008065
 """,
@@ -40391,7 +40391,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011159
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011159/rk00000001.xml
@@ -40423,7 +40423,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011903
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011903/rk00000001.xml
@@ -40453,7 +40453,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011903
 Bath gas: N2
@@ -40488,7 +40488,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011903
 Bath gas: N2
@@ -40522,7 +40522,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011910
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011910/rk00000001.xml
@@ -40557,7 +40557,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005578
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005578/rk00000001.xml
@@ -40592,7 +40592,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005578
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005578/rk00000002.xml
@@ -40623,7 +40623,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005578
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005578/rk00000003.xml
@@ -40655,7 +40655,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005581
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005581/rk00000001.xml
@@ -40690,7 +40690,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005581
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005581/rk00000002.xml
@@ -40721,7 +40721,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005581
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005581/rk00000003.xml
@@ -40753,7 +40753,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005582
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005582/rk00000001.xml
@@ -40788,7 +40788,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005582
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005582/rk00000002.xml
@@ -40819,7 +40819,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005582
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005582/rk00000003.xml
@@ -40851,7 +40851,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 Bath gas: N2
 Excitation technique: Thermal
@@ -40884,7 +40884,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007395
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007395/rk00000001.xml
@@ -40915,7 +40915,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007395
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007395/rk00000002.xml
@@ -40947,7 +40947,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007396
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007396/rk00000001.xml
@@ -40978,7 +40978,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007396
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007396/rk00000002.xml
@@ -41009,7 +41009,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007724
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007724/rk00000001.xml
@@ -41044,7 +41044,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008214
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008214/rk00000001.xml
@@ -41078,7 +41078,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Ab initio""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011158
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011158/rk00000001.xml
@@ -41112,7 +41112,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011918
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011918/rk00000001.xml
@@ -41147,7 +41147,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001564
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001564/rk00000001.xml
@@ -41182,7 +41182,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001772
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001772/rk00000001.xml
@@ -41226,7 +41226,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001772
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001772/rk00000001.xml
@@ -41267,7 +41267,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003297
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003297/rk00000001.xml
@@ -41303,7 +41303,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004365
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004365/rk00000001.xml
@@ -41335,7 +41335,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005458
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005458/rk00000001.xml
@@ -41368,7 +41368,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005609
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005609/rk00000001.xml
@@ -41399,7 +41399,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007060
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007060/rk00000001.xml
@@ -41434,7 +41434,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007257
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007257/rk00000001.xml
@@ -41469,7 +41469,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007798
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007798/rk00000001.xml
@@ -41501,7 +41501,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008600
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008600/rk00000001.xml
@@ -41534,7 +41534,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Extensive literature review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010498
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010498/rk00000001.xml
@@ -41566,7 +41566,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00010498
 Bath gas: N2
@@ -41600,7 +41600,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005413
 Uncertainty: 1.26
@@ -41633,7 +41633,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005413
 Uncertainty: 1.5
@@ -41665,7 +41665,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005413
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005413/rk00000001.xml
@@ -41701,7 +41701,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005487
 Uncertainty: 1.1
@@ -41735,7 +41735,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005487
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005487/rk00000001.xml
@@ -41771,7 +41771,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006483
 Uncertainty: 1.2
@@ -41807,7 +41807,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007435
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007435/rk00000001.xml
@@ -41842,7 +41842,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007613
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007613/rk00000001.xml
@@ -41878,7 +41878,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00011834
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00011834/rk00000001.xml
@@ -41911,7 +41911,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006129
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006129/rk00000001.xml
@@ -41941,7 +41941,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006130
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006130/rk00000001.xml
@@ -41971,7 +41971,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006131
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006131/rk00000001.xml
@@ -42001,7 +42001,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006132
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006132/rk00000001.xml
@@ -42033,7 +42033,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005225
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005225/rk00000001.xml
@@ -42065,7 +42065,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005486
 Uncertainty: 1.74
@@ -42101,7 +42101,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007664
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007664/rk00000001.xml

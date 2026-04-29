@@ -19,7 +19,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: VIII <=> X
 """,
@@ -32,7 +32,7 @@ entry(
     kinetics = Arrhenius(A=(1.012e+13, 's^-1'), n=0.1, Ea=(41.203, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: IV <=> B
 """,

@@ -3,23 +3,23 @@
 
 name = "group"
 shortDesc = u""
-longDesc = u""" 
+longDesc = u"""
 All groups are fitted using experimental solute parameter data unless written otherwise.
-See Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+See Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """
 
 entry(
 	index = -1,
 	label = "R",
-	group = 
+	group =
 """
 1 * R ux
 """,
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28,14 +28,14 @@ u"""
 entry(
 	index = 1,
 	label = "C",
-	group = 
+	group =
 """
 1 * C u0
 """,
 	solute = u'Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -44,14 +44,14 @@ u"""
 entry(
 	index = 2,
 	label = "C2tc",
-	group = 
+	group =
 """
 1 * C2tc u0 p1 c-1
 """,
 	solute = u'C2tc-N5tc',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -60,7 +60,7 @@ u"""
 entry(
 	index = 3,
 	label = "C2tc-N5tc",
-	group = 
+	group =
 """
 1 * C2tc u0 p1 c-1 {2,T}
 2   N5tc u0 c+1 {1,T}
@@ -80,7 +80,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -89,14 +89,14 @@ u"""
 entry(
 	index = 4,
 	label = "Cbf",
-	group = 
+	group =
 """
 1 * Cbf u0
 """,
 	solute = u'Cbf-CbCbCbf',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -105,7 +105,7 @@ u"""
 entry(
 	index = 5,
 	label = "Cbf-CbCbCbf",
-	group = 
+	group =
 """
 1 * Cbf u0 {2,B} {3,B} {4,B}
 2   Cb  u0 {1,B}
@@ -127,7 +127,7 @@ entry(
 		A = 373,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -136,7 +136,7 @@ u"""
 entry(
 	index = 6,
 	label = "Cbf-CbCbfCbf",
-	group = 
+	group =
 """
 1 * Cbf u0 {2,B} {3,B} {4,B}
 2   Cb  u0 {1,B}
@@ -158,7 +158,7 @@ entry(
 		A = 74,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -167,7 +167,7 @@ u"""
 entry(
 	index = 7,
 	label = "Cbf-CbfCbfCbf",
-	group = 
+	group =
 """
 1 * Cbf u0 {2,B} {3,B} {4,B}
 2   Cbf u0 {1,B}
@@ -189,7 +189,7 @@ entry(
 		A = 30,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -198,14 +198,14 @@ u"""
 entry(
 	index = 8,
 	label = "Cb",
-	group = 
+	group =
 """
 1 * Cb u0
 """,
 	solute = u'Cb-C',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -214,7 +214,7 @@ u"""
 entry(
 	index = 9,
 	label = "Cb-H",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   H  u0 {1,S}
@@ -234,7 +234,7 @@ entry(
 		A = 4039,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -243,7 +243,7 @@ u"""
 entry(
 	index = 10,
 	label = "Cb-P",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   P  u0 {1,S}
@@ -251,7 +251,7 @@ entry(
 	solute = u'Cb-P5d',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -260,7 +260,7 @@ u"""
 entry(
 	index = 11,
 	label = "Cb-P3s",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,S}
 2   P3s u0 {1,S}
@@ -280,7 +280,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -289,7 +289,7 @@ u"""
 entry(
 	index = 12,
 	label = "Cb-P5d",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,S}
 2   P5d u0 {1,S}
@@ -309,7 +309,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -318,7 +318,7 @@ u"""
 entry(
 	index = 13,
 	label = "Cb-O",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   O  u0 {1,S}
@@ -326,7 +326,7 @@ entry(
 	solute = u'Cb-O2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -335,7 +335,7 @@ u"""
 entry(
 	index = 14,
 	label = "Cb-O2s",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   O2s u0 {1,S}
@@ -355,7 +355,7 @@ entry(
 		A = 1127,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -364,7 +364,7 @@ u"""
 entry(
 	index = 15,
 	label = "Cb-O2rs",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   O2s u0 r1 {1,S}
@@ -384,7 +384,7 @@ entry(
 		A = 193,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -393,7 +393,7 @@ u"""
 entry(
 	index = 16,
 	label = "Cb-S",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   S u0 {1,S}
@@ -401,7 +401,7 @@ entry(
 	solute = u'Cb-S6dd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -410,7 +410,7 @@ u"""
 entry(
 	index = 17,
 	label = "Cb-S2s",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,S}
 2   S2s u0 {1,S}
@@ -430,7 +430,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -439,7 +439,7 @@ u"""
 entry(
 	index = 18,
 	label = "Cb-S2rs",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,S}
 2   S2s u0 r1 {1,S}
@@ -459,7 +459,7 @@ entry(
 		A = 132,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -468,7 +468,7 @@ u"""
 entry(
 	index = 19,
 	label = "Cb-S4d",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,S}
 2   S4d u0 p1 {1,S}
@@ -488,7 +488,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -497,7 +497,7 @@ u"""
 entry(
 	index = 20,
 	label = "Cb-S6dd",
-	group = 
+	group =
 """
 1 * Cb   u0 {2,S}
 2   S6dd u0 {1,S}
@@ -517,7 +517,7 @@ entry(
 		A = 157,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -526,7 +526,7 @@ u"""
 entry(
 	index = 21,
 	label = "Cb-N",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,S}
 2   N   u0 {1,S}
@@ -534,7 +534,7 @@ entry(
 	solute = u'Cb-N3s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -543,7 +543,7 @@ u"""
 entry(
 	index = 22,
 	label = "Cb-N3s",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,S}
 2   N3s u0 {1,S}
@@ -563,7 +563,7 @@ entry(
 		A = 561,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -572,7 +572,7 @@ u"""
 entry(
 	index = 23,
 	label = "Cb-N3rs",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,S}
 2   N3s u0 r1 {1,S}
@@ -592,7 +592,7 @@ entry(
 		A = 254,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -601,7 +601,7 @@ u"""
 entry(
 	index = 24,
 	label = "Cb-N3d",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,S}
 2   N3d u0 {1,S}
@@ -621,7 +621,7 @@ entry(
 		A = 33,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -630,7 +630,7 @@ u"""
 entry(
 	index = 25,
 	label = "Cb-N3rd",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,S}
 2   N3d u0 r1 {1,S}
@@ -650,7 +650,7 @@ entry(
 		A = 128,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -659,7 +659,7 @@ u"""
 entry(
 	index = 26,
 	label = "Cb-N5dc",
-	group = 
+	group =
 """
 1 * Cb   u0 {2,S}
 2   N5dc u0 {1,S}
@@ -679,7 +679,7 @@ entry(
 		A = 308,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -688,7 +688,7 @@ u"""
 entry(
 	index = 27,
 	label = "Cb-N5tc",
-	group = 
+	group =
 """
 1 * Cb   u0 {2,S}
 2   N5tc u0 {1,S}
@@ -708,7 +708,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -717,7 +717,7 @@ u"""
 entry(
 	index = 28,
 	label = "Cb-C",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   C  u0 {1,S}
@@ -725,7 +725,7 @@ entry(
 	solute = u'Cb-Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -734,7 +734,7 @@ u"""
 entry(
 	index = 29,
 	label = "Cb-Cb",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   Cb u0 {1,S}
@@ -754,7 +754,7 @@ entry(
 		A = 398,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -763,7 +763,7 @@ u"""
 entry(
 	index = 30,
 	label = "Cb-Cr",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   C  u0 r1 {1,S}
@@ -783,7 +783,7 @@ entry(
 		A = 715,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -792,7 +792,7 @@ u"""
 entry(
 	index = 31,
 	label = "Cb-Cs",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   Cs u0 {1,S}
@@ -812,7 +812,7 @@ entry(
 		A = 1507,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -821,7 +821,7 @@ u"""
 entry(
 	index = 32,
 	label = "Cb-(Cs-Cb)",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   Cs u0 {1,S} {3,S}
@@ -842,7 +842,7 @@ entry(
 		A = 49,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -851,7 +851,7 @@ u"""
 entry(
 	index = 33,
 	label = "Cb-(Cs-Cr)",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   Cs u0 {1,S} {3,S}
@@ -872,7 +872,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -881,7 +881,7 @@ u"""
 entry(
 	index = 34,
 	label = "Cb-Cds",
-	group = 
+	group =
 """
 1 * Cb      u0 {2,S}
 2   [Cd,CO,CS] u0 {1,S}
@@ -889,7 +889,7 @@ entry(
 	solute = u'Cb-(Cds-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -898,7 +898,7 @@ u"""
 entry(
 	index = 35,
 	label = "Cb-(Cds-O2d)",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   CO u0 {1,S} {3,D}
@@ -919,7 +919,7 @@ entry(
 		A = 334,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -928,7 +928,7 @@ u"""
 entry(
 	index = 36,
 	label = "Cb-(Cds-O2dOs)",
-	group = 
+	group =
 """
 1   CO  u0 {2,S} {3,D} {4,S}
 2 * Cb  u0 {1,S}
@@ -950,7 +950,7 @@ entry(
 		A = 379,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -959,7 +959,7 @@ u"""
 entry(
 	index = 37,
 	label = "Cb-(Cds-Cd)",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   Cd u0 {1,S} {3,D}
@@ -980,7 +980,7 @@ entry(
 		A = 95,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -989,7 +989,7 @@ u"""
 entry(
 	index = 38,
 	label = "Cb-(Cds-N3d)",
-	group = 
+	group =
 """
 1 * Cb   u0 {2,S}
 2   Cd   u0 {1,S} {3,D}
@@ -1010,7 +1010,7 @@ entry(
 		A = 28,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1019,7 +1019,7 @@ u"""
 entry(
 	index = 39,
 	label = "Cb-(Cds-S2d)",
-	group = 
+	group =
 """
 1 * Cb   u0 {2,S}
 2   CS   u0 {1,S} {3,D}
@@ -1040,7 +1040,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1049,7 +1049,7 @@ u"""
 entry(
 	index = 40,
 	label = "Cb-Ct",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   Ct u0 {1,S}
@@ -1057,7 +1057,7 @@ entry(
 	solute = u'Cb-(CtN3t)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1066,7 +1066,7 @@ u"""
 entry(
 	index = 41,
 	label = "Cb-(CtCt)",
-	group = 
+	group =
 """
 1 * Cb u0 {2,S}
 2   Ct u0 {1,S} {3,T}
@@ -1087,7 +1087,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1096,7 +1096,7 @@ u"""
 entry(
 	index = 42,
 	label = "Cb-(CtN3t)",
-	group = 
+	group =
 """
 1 * Cb  u0 {2,S}
 2   Ct  u0 {1,S} {3,T}
@@ -1117,7 +1117,7 @@ entry(
 		A = 54,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1126,14 +1126,14 @@ u"""
 entry(
 	index = 43,
 	label = "Ct",
-	group = 
+	group =
 """
 1 * Ct u0
 """,
 	solute = u'Ct-CtC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1142,7 +1142,7 @@ u"""
 entry(
 	index = 44,
 	label = "Ct-N3tN",
-	group = 
+	group =
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
@@ -1163,7 +1163,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1172,7 +1172,7 @@ u"""
 entry(
 	index = 45,
 	label = "Ct-N3tS",
-	group = 
+	group =
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
@@ -1181,7 +1181,7 @@ entry(
 	solute = u'Ct-N3tS2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1190,7 +1190,7 @@ u"""
 entry(
 	index = 46,
 	label = "Ct-N3tS2s",
-	group = 
+	group =
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
@@ -1211,7 +1211,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1220,7 +1220,7 @@ u"""
 entry(
 	index = 47,
 	label = "Ct-CtH",
-	group = 
+	group =
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
@@ -1241,7 +1241,7 @@ entry(
 		A = 48,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1250,7 +1250,7 @@ u"""
 entry(
 	index = 48,
 	label = "Ct-N3tO",
-	group = 
+	group =
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
@@ -1259,7 +1259,7 @@ entry(
 	solute = u'Ct-N3tOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1268,7 +1268,7 @@ u"""
 entry(
 	index = 49,
 	label = "Ct-N3tOs",
-	group = 
+	group =
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
@@ -1289,7 +1289,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1298,7 +1298,7 @@ u"""
 entry(
 	index = 50,
 	label = "Ct-N3tC",
-	group = 
+	group =
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
@@ -1307,7 +1307,7 @@ entry(
 	solute = u'Ct-N3tCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1316,7 +1316,7 @@ u"""
 entry(
 	index = 51,
 	label = "Ct-N3tCb",
-	group = 
+	group =
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
@@ -1337,7 +1337,7 @@ entry(
 		A = 54,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1346,7 +1346,7 @@ u"""
 entry(
 	index = 52,
 	label = "Ct-N3tCs",
-	group = 
+	group =
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
@@ -1367,7 +1367,7 @@ entry(
 		A = 56,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1376,7 +1376,7 @@ u"""
 entry(
 	index = 53,
 	label = "Ct-N3tCd",
-	group = 
+	group =
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
@@ -1397,7 +1397,7 @@ entry(
 		A = 19,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1406,7 +1406,7 @@ u"""
 entry(
 	index = 54,
 	label = "Ct-N3tCt",
-	group = 
+	group =
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
@@ -1415,7 +1415,7 @@ entry(
 	solute = u'Ct-N3t(CtN3t)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1424,7 +1424,7 @@ u"""
 entry(
 	index = 55,
 	label = "Ct-N3t(CtN3t)",
-	group = 
+	group =
 """
 1 * Ct  u0 {2,T} {3,S}
 2   N3t u0 {1,T}
@@ -1446,7 +1446,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1455,7 +1455,7 @@ u"""
 entry(
 	index = 56,
 	label = "Ct-CtC",
-	group = 
+	group =
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
@@ -1464,7 +1464,7 @@ entry(
 	solute = u'Ct-CtCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1473,7 +1473,7 @@ u"""
 entry(
 	index = 57,
 	label = "Ct-CtCs",
-	group = 
+	group =
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
@@ -1494,7 +1494,7 @@ entry(
 		A = 86,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1503,7 +1503,7 @@ u"""
 entry(
 	index = 58,
 	label = "Ct-CtCds",
-	group = 
+	group =
 """
 1 * Ct      u0 {2,T} {3,S}
 2   Ct      u0 {1,T}
@@ -1512,7 +1512,7 @@ entry(
 	solute = u'Ct-Ct(Cds-Cd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1521,7 +1521,7 @@ u"""
 entry(
 	index = 59,
 	label = "Ct-Ct(Cds-O2d)",
-	group = 
+	group =
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
@@ -1543,7 +1543,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1552,7 +1552,7 @@ u"""
 entry(
 	index = 60,
 	label = "Ct-Ct(Cds-Cd)",
-	group = 
+	group =
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
@@ -1562,7 +1562,7 @@ entry(
 	solute = u'Ct-Ct(Cds-Cds)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1571,7 +1571,7 @@ u"""
 entry(
 	index = 61,
 	label = "Ct-Ct(Cds-Cds)",
-	group = 
+	group =
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
@@ -1593,7 +1593,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1602,7 +1602,7 @@ u"""
 entry(
 	index = 62,
 	label = "Ct-CtCt",
-	group = 
+	group =
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
@@ -1611,7 +1611,7 @@ entry(
 	solute = u'Ct-Ct(CtCt)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1620,7 +1620,7 @@ u"""
 entry(
 	index = 63,
 	label = "Ct-Ct(CtCt)",
-	group = 
+	group =
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
@@ -1642,7 +1642,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1651,7 +1651,7 @@ u"""
 entry(
 	index = 64,
 	label = "Ct-CtCb",
-	group = 
+	group =
 """
 1 * Ct u0 {2,T} {3,S}
 2   Ct u0 {1,T}
@@ -1672,7 +1672,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1681,14 +1681,14 @@ u"""
 entry(
 	index = 65,
 	label = "Cdd",
-	group = 
+	group =
 """
 1 * Cdd u0
 """,
 	solute = u'Cdd-CdCd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1697,7 +1697,7 @@ u"""
 entry(
 	index = 66,
 	label = "Cdd-CdCd",
-	group = 
+	group =
 """
 1 * Cdd u0 {2,D} {3,D}
 2   C   u0 {1,D}
@@ -1706,7 +1706,7 @@ entry(
 	solute = u'Cdd-CdsCds',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1715,7 +1715,7 @@ u"""
 entry(
 	index = 67,
 	label = "Cdd-CdsCds",
-	group = 
+	group =
 """
 1 * Cdd u0 {2,D} {3,D}
 2   Cd  u0 {1,D}
@@ -1736,7 +1736,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1745,7 +1745,7 @@ u"""
 entry(
 	index = 68,
 	label = "Cdd-N3dO2d",
-	group = 
+	group =
 """
 1 * Cdd u0 {2,D} {3,D}
 2   N3d u0 {1,D}
@@ -1766,7 +1766,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1775,7 +1775,7 @@ u"""
 entry(
 	index = 69,
 	label = "Cdd-N3dS",
-	group = 
+	group =
 """
 1 * Cdd u0 {2,D} {3,D}
 2   N3d u0 {1,D}
@@ -1784,7 +1784,7 @@ entry(
 	solute = u'Cdd-N3dS2d',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1793,7 +1793,7 @@ u"""
 entry(
 	index = 70,
 	label = "Cdd-N3dS2d",
-	group = 
+	group =
 """
 1 * Cdd u0 {2,D} {3,D}
 2   N3d u0 {1,D}
@@ -1814,7 +1814,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1823,14 +1823,14 @@ u"""
 entry(
 	index = 71,
 	label = "Cds",
-	group = 
+	group =
 """
 1 * [Cd,CO,CS] u0
 """,
 	solute = u'Cds-Cd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1839,7 +1839,7 @@ u"""
 entry(
 	index = 72,
 	label = "Cds-Od",
-	group = 
+	group =
 """
 1 * CO u0 {2,D}
 2   O  u0 {1,D}
@@ -1847,7 +1847,7 @@ entry(
 	solute = u'Cds-OdCC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1856,7 +1856,7 @@ u"""
 entry(
 	index = 73,
 	label = "Cds-OdNC",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N   u0 {1,S}
@@ -1866,7 +1866,7 @@ entry(
 	solute = u'Cds-OdN3sC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1875,7 +1875,7 @@ u"""
 entry(
 	index = 74,
 	label = "Cds-OdN3sC",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S}
@@ -1885,7 +1885,7 @@ entry(
 	solute = u'Cds-OdN3sCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1894,7 +1894,7 @@ u"""
 entry(
 	index = 75,
 	label = "Crds-OdN3rsCr",
-	group = 
+	group =
 """
 1 * CO  u0 r1 {2,S} {3,S} {4,D}
 2   N3s u0 r1 {1,S}
@@ -1916,7 +1916,7 @@ entry(
 		A = 340,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1925,7 +1925,7 @@ u"""
 entry(
 	index = 76,
 	label = "Cds-OdN3sCb",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S}
@@ -1935,7 +1935,7 @@ entry(
 	solute = u'Cds-Od(N3s-RH)Cb',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1944,7 +1944,7 @@ u"""
 entry(
 	index = 77,
 	label = "Cds-Od(N3s-HH)Cb",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S} {5,S} {6,S}
@@ -1968,7 +1968,7 @@ entry(
 		A = 34,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1977,7 +1977,7 @@ u"""
 entry(
 	index = 78,
 	label = "Cds-Od(N3s-RH)Cb",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S} {5,S} {6,S}
@@ -2001,7 +2001,7 @@ entry(
 		A = 47,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2010,7 +2010,7 @@ u"""
 entry(
 	index = 79,
 	label = "Cds-Od(N3s-RR)Cb",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S} {5,S} {6,S}
@@ -2034,7 +2034,7 @@ entry(
 		A = 37,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2043,7 +2043,7 @@ u"""
 entry(
 	index = 80,
 	label = "Cds-OdN3sCs",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S}
@@ -2053,7 +2053,7 @@ entry(
 	solute = u'Cds-Od(N3s-RH)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2062,7 +2062,7 @@ u"""
 entry(
 	index = 81,
 	label = "Cds-OdN3rsCs",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 r1 {1,S}
@@ -2084,7 +2084,7 @@ entry(
 		A = 46,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2093,7 +2093,7 @@ u"""
 entry(
 	index = 82,
 	label = "Cds-Od(N3s-HH)Cs",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S} {5,S} {6,S}
@@ -2117,7 +2117,7 @@ entry(
 		A = 36,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2126,7 +2126,7 @@ u"""
 entry(
 	index = 83,
 	label = "Cds-Od(N3s-RH)Cs",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S} {5,S} {6,S}
@@ -2150,7 +2150,7 @@ entry(
 		A = 156,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2159,7 +2159,7 @@ u"""
 entry(
 	index = 84,
 	label = "Cds-Od(N3s-RR)Cs",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S} {5,S} {6,S}
@@ -2183,7 +2183,7 @@ entry(
 		A = 57,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2192,7 +2192,7 @@ u"""
 entry(
 	index = 85,
 	label = "Cds-OdN3sCd",
-	group = 
+	group =
 """
 1 * CO            u0 {2,S} {3,S} {4,D}
 2   N3s           u0 {1,S}
@@ -2214,7 +2214,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2223,7 +2223,7 @@ u"""
 entry(
 	index = 86,
 	label = "Cds-OdN3rsCd",
-	group = 
+	group =
 """
 1 * CO            u0 {2,S} {3,S} {4,D}
 2   N3s           u0 r1 {1,S}
@@ -2245,7 +2245,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2254,7 +2254,7 @@ u"""
 entry(
 	index = 87,
 	label = "Cds-OdN3sCrd",
-	group = 
+	group =
 """
 1 * CO            u0 {2,S} {3,S} {4,D}
 2   N3s           u0 {1,S}
@@ -2276,7 +2276,7 @@ entry(
 		A = 70,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2285,7 +2285,7 @@ u"""
 entry(
 	index = 88,
 	label = "Cds-OdN3dC",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3d u0 {1,S}
@@ -2295,7 +2295,7 @@ entry(
 	solute = u'Crds-OdN3rdCr',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2304,7 +2304,7 @@ u"""
 entry(
 	index = 89,
 	label = "Crds-OdN3rdCr",
-	group = 
+	group =
 """
 1 * CO  u0 r1 {2,S} {3,S} {4,D}
 2   N3d u0 r1 {1,S}
@@ -2326,7 +2326,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2335,7 +2335,7 @@ u"""
 entry(
 	index = 90,
 	label = "Cds-OdNH",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N   u0 {1,S}
@@ -2357,7 +2357,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2366,7 +2366,7 @@ u"""
 entry(
 	index = 91,
 	label = "Cds-OdNN",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N   u0 {1,S}
@@ -2376,7 +2376,7 @@ entry(
 	solute = u'Cds-OdN3sN',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2385,7 +2385,7 @@ u"""
 entry(
 	index = 92,
 	label = "Cds-OdN3sN",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S}
@@ -2395,7 +2395,7 @@ entry(
 	solute = u'Cds-OdN3sN3s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2404,7 +2404,7 @@ u"""
 entry(
 	index = 93,
 	label = "Cds-OdN3sN3s",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S}
@@ -2426,7 +2426,7 @@ entry(
 		A = 110,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2435,7 +2435,7 @@ u"""
 entry(
 	index = 94,
 	label = "Crds-OdN3rsN3rs",
-	group = 
+	group =
 """
 1 * CO  u0 r1 {2,S} {3,S} {4,D}
 2   N3s u0 r1 {1,S}
@@ -2457,7 +2457,7 @@ entry(
 		A = 166,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2466,7 +2466,7 @@ u"""
 entry(
 	index = 95,
 	label = "Cds-OdN3rsN3s",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 r1 {1,S}
@@ -2488,7 +2488,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2497,7 +2497,7 @@ u"""
 entry(
 	index = 96,
 	label = "Cds-OdN3sN3d",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   N3s u0 {1,S}
@@ -2507,7 +2507,7 @@ entry(
 	solute = u'Crds-OdN3rsN3rd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2516,7 +2516,7 @@ u"""
 entry(
 	index = 97,
 	label = "Crds-OdN3rsN3rd",
-	group = 
+	group =
 """
 1 * CO  u0 r1 {2,S} {3,S} {4,D}
 2   N3s u0 r1 {1,S}
@@ -2538,7 +2538,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2547,7 +2547,7 @@ u"""
 entry(
 	index = 98,
 	label = "Cds-OdNOs",
-	group = 
+	group =
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -2557,7 +2557,7 @@ entry(
 	solute = u'Cds-Od(N3sCH)Os',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2566,7 +2566,7 @@ u"""
 entry(
 	index = 99,
 	label = "Cds-OdN3rsOs",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   N3s u0 r1 {1,S}
@@ -2588,7 +2588,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2597,7 +2597,7 @@ u"""
 entry(
 	index = 100,
 	label = "Cds-Od(N3sHH)Os",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   N3s u0 {1,S} {5,S} {6,S}
@@ -2621,7 +2621,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2630,7 +2630,7 @@ u"""
 entry(
 	index = 101,
 	label = "Cds-Od(N3sCH)Os",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   N3s u0 {1,S} {5,S} {6,S}
@@ -2654,7 +2654,7 @@ entry(
 		A = 28,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2663,7 +2663,7 @@ u"""
 entry(
 	index = 102,
 	label = "Cds-Od(N3sCC)Os",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   N3s u0 {1,S} {5,S} {6,S}
@@ -2687,7 +2687,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2696,7 +2696,7 @@ u"""
 entry(
 	index = 103,
 	label = "Cds-OdNS",
-	group = 
+	group =
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -2718,7 +2718,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2727,7 +2727,7 @@ u"""
 entry(
 	index = 104,
 	label = "Cds-OdOsH",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -2749,7 +2749,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2758,7 +2758,7 @@ u"""
 entry(
 	index = 105,
 	label = "Cds-OdOsOs",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -2780,7 +2780,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2789,7 +2789,7 @@ u"""
 entry(
 	index = 106,
 	label = "Cds-OdCS",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -2799,7 +2799,7 @@ entry(
 	solute = u'Cds-OdCsSs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2808,7 +2808,7 @@ u"""
 entry(
 	index = 107,
 	label = "Cds-OdCsSs",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -2830,7 +2830,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2839,7 +2839,7 @@ u"""
 entry(
 	index = 108,
 	label = "Cds-OdCH",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -2849,7 +2849,7 @@ entry(
 	solute = u'Cds-OdCsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2858,7 +2858,7 @@ u"""
 entry(
 	index = 109,
 	label = "Cds-OdCsH",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -2880,7 +2880,7 @@ entry(
 		A = 64,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2889,7 +2889,7 @@ u"""
 entry(
 	index = 110,
 	label = "Cds-OdCdsH",
-	group = 
+	group =
 """
 1 * CO      u0 {2,D} {3,S} {4,S}
 2   O2d      u0 {1,D}
@@ -2899,7 +2899,7 @@ entry(
 	solute = u'Cds-O2d(Cds-Cd)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2908,7 +2908,7 @@ u"""
 entry(
 	index = 111,
 	label = "Cds-O2d(Cds-O2d)H",
-	group = 
+	group =
 """
 1 * CO u0 {2,S} {3,D} {4,S}
 2   CO u0 {1,S} {5,D}
@@ -2931,7 +2931,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2940,7 +2940,7 @@ u"""
 entry(
 	index = 112,
 	label = "Cds-O2d(Cds-Cd)H",
-	group = 
+	group =
 """
 1 * CO u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -2951,7 +2951,7 @@ entry(
 	solute = u'Cds-O2d(Cds-Cds)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2960,7 +2960,7 @@ u"""
 entry(
 	index = 113,
 	label = "Cds-O2d(Cds-Cds)H",
-	group = 
+	group =
 """
 1 * CO u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -2983,7 +2983,7 @@ entry(
 		A = 44,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2992,7 +2992,7 @@ u"""
 entry(
 	index = 114,
 	label = "Cds-OdCtH",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3002,7 +3002,7 @@ entry(
 	solute = u'Cds-Od(Ct-(Ct-H))H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3011,7 +3011,7 @@ u"""
 entry(
 	index = 115,
 	label = "Cds-Od(Ct-(Ct-H))H",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3035,7 +3035,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3044,7 +3044,7 @@ u"""
 entry(
 	index = 116,
 	label = "Cds-OdCbH",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3066,7 +3066,7 @@ entry(
 		A = 79,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3075,7 +3075,7 @@ u"""
 entry(
 	index = 117,
 	label = "Cds-OdPOs",
-	group = 
+	group =
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3085,7 +3085,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3094,7 +3094,7 @@ u"""
 entry(
 	index = 118,
 	label = "Cds-OdP5dOs",
-	group = 
+	group =
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3104,7 +3104,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3113,7 +3113,7 @@ u"""
 entry(
 	index = 119,
 	label = "Cds-OdP5d(OsH)",
-	group = 
+	group =
 """
 1 * CO  u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3136,7 +3136,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3145,7 +3145,7 @@ u"""
 entry(
 	index = 120,
 	label = "Cds-OdCOs",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3155,7 +3155,7 @@ entry(
 	solute = u'Cds-OdCsOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3164,7 +3164,7 @@ u"""
 entry(
 	index = 121,
 	label = "Cds-OdCtOs",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3186,7 +3186,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3195,7 +3195,7 @@ u"""
 entry(
 	index = 122,
 	label = "Cds-OdC(OsH)",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   C   u0 {1,S}
@@ -3206,7 +3206,7 @@ entry(
 	solute = u'Cds-OdCs(OsH)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3215,7 +3215,7 @@ u"""
 entry(
 	index = 123,
 	label = "Cds-OdCs(OsH)",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   Cs  u0 {1,S}
@@ -3238,7 +3238,7 @@ entry(
 		A = 280,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3247,7 +3247,7 @@ u"""
 entry(
 	index = 124,
 	label = "Cds-OdCds(OsH)",
-	group = 
+	group =
 """
 1 * CO      u0 {2,S} {3,D} {4,S}
 2   [Cd,CO] u0 {1,S}
@@ -3258,7 +3258,7 @@ entry(
 	solute = u'Cds-Od(Cds-Cd)(OsH)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3267,7 +3267,7 @@ u"""
 entry(
 	index = 125,
 	label = "Cds-Od(Cds-O2d)(OsH)",
-	group = 
+	group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   CO   u0 {1,S} {6,D}
@@ -3291,7 +3291,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3300,7 +3300,7 @@ u"""
 entry(
 	index = 126,
 	label = "Cds-Od(Cds-Cd)(OsH)",
-	group = 
+	group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cd   u0 {1,S} {6,D}
@@ -3324,7 +3324,7 @@ entry(
 		A = 28,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3333,7 +3333,7 @@ u"""
 entry(
 	index = 127,
 	label = "Cds-Od(Crds-Crd)(OsH)",
-	group = 
+	group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cd   u0 r1 {1,S} {6,D}
@@ -3357,7 +3357,7 @@ entry(
 		A = 30,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3366,7 +3366,7 @@ u"""
 entry(
 	index = 128,
 	label = "Cds-Od(Cds-N3d)(OsH)",
-	group = 
+	group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cd   u0 {1,S} {6,D}
@@ -3390,7 +3390,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3399,7 +3399,7 @@ u"""
 entry(
 	index = 129,
 	label = "Cds-OdCb(OsH)",
-	group = 
+	group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cb   u0 {1,S}
@@ -3422,7 +3422,7 @@ entry(
 		A = 194,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3431,7 +3431,7 @@ u"""
 entry(
 	index = 130,
 	label = "Cds-OdCsOs",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3454,7 +3454,7 @@ entry(
 		A = 610,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3463,7 +3463,7 @@ u"""
 entry(
 	index = 131,
 	label = "Crds-OdCrsOrs",
-	group = 
+	group =
 """
 1 * CO  u0 r1 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3486,7 +3486,7 @@ entry(
 		A = 32,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3495,7 +3495,7 @@ u"""
 entry(
 	index = 132,
 	label = "Cds-OdCrsOs",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3518,7 +3518,7 @@ entry(
 		A = 23,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3527,7 +3527,7 @@ u"""
 entry(
 	index = 133,
 	label = "Cds-OdCdsOs",
-	group = 
+	group =
 """
 1 * CO      u0 {2,D} {3,S} {4,S}
 2   O2d      u0 {1,D}
@@ -3538,7 +3538,7 @@ entry(
 	solute = u'Cds-O2d(Cds-Cd)O2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3547,7 +3547,7 @@ u"""
 entry(
 	index = 134,
 	label = "Crds-OdCrdsOrs",
-	group = 
+	group =
 """
 1 * CO      u0 r1 {2,D} {3,S} {4,S}
 2   O2d      u0 {1,D}
@@ -3570,7 +3570,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3579,7 +3579,7 @@ u"""
 entry(
 	index = 135,
 	label = "Cds-OdCrdsOs",
-	group = 
+	group =
 """
 1 * CO      u0 {2,D} {3,S} {4,S}
 2   O2d      u0 {1,D}
@@ -3602,7 +3602,7 @@ entry(
 		A = 51,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3611,7 +3611,7 @@ u"""
 entry(
 	index = 136,
 	label = "Cds-O2d(Cds-O2d)O2s",
-	group = 
+	group =
 """
 1 * CO u0 {2,S} {3,D} {4,S}
 2   CO u0 {1,S} {5,D}
@@ -3635,7 +3635,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3644,7 +3644,7 @@ u"""
 entry(
 	index = 137,
 	label = "Cds-O2d(Cds-Cd)O2s",
-	group = 
+	group =
 """
 1 * CO u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -3656,7 +3656,7 @@ entry(
 	solute = u'Cds-O2d(Cds-Cds)O2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3665,7 +3665,7 @@ u"""
 entry(
 	index = 138,
 	label = "Cds-O2d(Cds-Cds)O2s",
-	group = 
+	group =
 """
 1 * CO u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -3689,7 +3689,7 @@ entry(
 		A = 77,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3698,7 +3698,7 @@ u"""
 entry(
 	index = 139,
 	label = "Cds-OdCbOs",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3721,7 +3721,7 @@ entry(
 		A = 197,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3730,7 +3730,7 @@ u"""
 entry(
 	index = 140,
 	label = "Cds-OdCC",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3740,7 +3740,7 @@ entry(
 	solute = u'Cds-OdCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3749,7 +3749,7 @@ u"""
 entry(
 	index = 141,
 	label = "Cds-OdCsCs",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3771,7 +3771,7 @@ entry(
 		A = 128,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3780,7 +3780,7 @@ u"""
 entry(
 	index = 142,
 	label = "Crds-OdCrsCrs",
-	group = 
+	group =
 """
 1 * CO u0 r1 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3802,7 +3802,7 @@ entry(
 		A = 67,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3811,7 +3811,7 @@ u"""
 entry(
 	index = 143,
 	label = "Cds-OdCrsCrs",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3833,7 +3833,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3842,7 +3842,7 @@ u"""
 entry(
 	index = 144,
 	label = "Cds-OdCrsCs",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -3864,7 +3864,7 @@ entry(
 		A = 73,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3873,7 +3873,7 @@ u"""
 entry(
 	index = 145,
 	label = "Cds-OdCdsCs",
-	group = 
+	group =
 """
 1 * CO      u0 {2,D} {3,S} {4,S}
 2   O2d      u0 {1,D}
@@ -3883,7 +3883,7 @@ entry(
 	solute = u'Cds-O2d(Cds-Cd)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3892,7 +3892,7 @@ u"""
 entry(
 	index = 146,
 	label = "Cds-O2d(Cds-O2d)Cs",
-	group = 
+	group =
 """
 1 * CO u0 {2,S} {3,D} {4,S}
 2   CO u0 {1,S} {5,D}
@@ -3915,7 +3915,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3924,7 +3924,7 @@ u"""
 entry(
 	index = 147,
 	label = "Cds-O2d(Cds-Cd)Cs",
-	group = 
+	group =
 """
 1 * CO u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -3947,7 +3947,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3956,7 +3956,7 @@ u"""
 entry(
 	index = 148,
 	label = "Crds-O2d(Crds-Crd)Crs",
-	group = 
+	group =
 """
 1 * CO u0 r1 {2,S} {3,D} {4,S}
 2   Cd u0 r1 {1,S} {5,D}
@@ -3979,7 +3979,7 @@ entry(
 		A = 93,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3988,7 +3988,7 @@ u"""
 entry(
 	index = 149,
 	label = "Cds-O2d(Crds-Crd)Cs",
-	group = 
+	group =
 """
 1 * CO u0 {2,S} {3,D} {4,S}
 2   Cd u0 r1 {1,S} {5,D}
@@ -4011,7 +4011,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4020,7 +4020,7 @@ u"""
 entry(
 	index = 150,
 	label = "Cds-O2d(Cds-N3d)Cs",
-	group = 
+	group =
 """
 1 * CO u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -4043,7 +4043,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4052,7 +4052,7 @@ u"""
 entry(
 	index = 151,
 	label = "Cds-OdCdsCds",
-	group = 
+	group =
 """
 1 * CO      u0 {2,D} {3,S} {4,S}
 2   O2d      u0 {1,D}
@@ -4062,7 +4062,7 @@ entry(
 	solute = u'Cds-O2d(Cds-Cd)(Cds-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4071,7 +4071,7 @@ u"""
 entry(
 	index = 152,
 	label = "Cds-O2d(Cds-Cd)(Cds-O2d)",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4083,7 +4083,7 @@ entry(
 	solute = u'Crds-O2d(Crds-Cd)(Crds-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4092,7 +4092,7 @@ u"""
 entry(
 	index = 153,
 	label = "Crds-O2d(Crds-Cd)(Crds-O2d)",
-	group = 
+	group =
 """
 1 * CO u0 r1 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4116,7 +4116,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4125,7 +4125,7 @@ u"""
 entry(
 	index = 154,
 	label = "Cds-O2d(Cds-Cd)(Cds-Cd)",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4137,7 +4137,7 @@ entry(
 	solute = u'Crds-O2d(Crds-Cd)(Crds-Cd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4146,7 +4146,7 @@ u"""
 entry(
 	index = 155,
 	label = "Crds-O2d(Crds-Cd)(Crds-Cd)",
-	group = 
+	group =
 """
 1 * CO u0 r1 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4170,7 +4170,7 @@ entry(
 		A = 66,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4179,7 +4179,7 @@ u"""
 entry(
 	index = 156,
 	label = "Cds-O2d(Cds-Cd)(Cds-N3d)",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4203,7 +4203,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4212,7 +4212,7 @@ u"""
 entry(
 	index = 157,
 	label = "Cds-OdCbCs",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4234,7 +4234,7 @@ entry(
 		A = 105,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4243,7 +4243,7 @@ u"""
 entry(
 	index = 158,
 	label = "Crds-OdCbCrs",
-	group = 
+	group =
 """
 1 * CO u0 r1 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4265,7 +4265,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4274,7 +4274,7 @@ u"""
 entry(
 	index = 159,
 	label = "Cds-OdCbCds",
-	group = 
+	group =
 """
 1 * CO      u0 {2,D} {3,S} {4,S}
 2   O2d      u0 {1,D}
@@ -4284,7 +4284,7 @@ entry(
 	solute = u'Cds-OdCb(Cds-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4293,7 +4293,7 @@ u"""
 entry(
 	index = 160,
 	label = "Cds-OdCb(Cds-O2d)",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4316,7 +4316,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4325,7 +4325,7 @@ u"""
 entry(
 	index = 161,
 	label = "Cds-OdCb(Cds-Cd)",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4336,7 +4336,7 @@ entry(
 	solute = u'Crds-OdCb(Crds-Cd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4345,7 +4345,7 @@ u"""
 entry(
 	index = 162,
 	label = "Crds-OdCb(Crds-Cd)",
-	group = 
+	group =
 """
 1 * CO u0 r1 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4368,7 +4368,7 @@ entry(
 		A = 108,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4377,7 +4377,7 @@ u"""
 entry(
 	index = 163,
 	label = "Cds-OdCb(Crds-Cd)",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4400,7 +4400,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4409,7 +4409,7 @@ u"""
 entry(
 	index = 164,
 	label = "Cds-OdCb(Cds-N3d)",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4420,7 +4420,7 @@ entry(
 	solute = u'Crds-OdCb(Crds-N3rd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4429,7 +4429,7 @@ u"""
 entry(
 	index = 165,
 	label = "Crds-OdCb(Crds-N3rd)",
-	group = 
+	group =
 """
 1 * CO u0 r1 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4452,7 +4452,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4461,7 +4461,7 @@ u"""
 entry(
 	index = 166,
 	label = "Cds-OdCbCb",
-	group = 
+	group =
 """
 1 * CO u0 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4483,7 +4483,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4492,7 +4492,7 @@ u"""
 entry(
 	index = 167,
 	label = "Crds-OdCbCb",
-	group = 
+	group =
 """
 1 * CO u0 r1 {2,D} {3,S} {4,S}
 2   O2d u0 {1,D}
@@ -4514,7 +4514,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4523,7 +4523,7 @@ u"""
 entry(
 	index = 168,
 	label = "Cds-Nd",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D}
 2   N  u0 {1,D}
@@ -4531,7 +4531,7 @@ entry(
 	solute = u'Cds-N3dCC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4540,7 +4540,7 @@ u"""
 entry(
 	index = 169,
 	label = "Cds-N3dCC",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -4550,7 +4550,7 @@ entry(
 	solute = u'Cds-N3dCdCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4559,7 +4559,7 @@ u"""
 entry(
 	index = 170,
 	label = "Cds-N3dCbCb",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -4581,7 +4581,7 @@ entry(
 		A = 28,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4590,7 +4590,7 @@ u"""
 entry(
 	index = 171,
 	label = "Cds-N3dCbCs",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -4612,7 +4612,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4621,7 +4621,7 @@ u"""
 entry(
 	index = 172,
 	label = "Crds-N3rdCbCrs",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -4643,7 +4643,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4652,7 +4652,7 @@ u"""
 entry(
 	index = 173,
 	label = "Crds-N3rdCbCs",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -4674,7 +4674,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4683,7 +4683,7 @@ u"""
 entry(
 	index = 174,
 	label = "Cds-N3dCbCd",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -4705,7 +4705,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4714,7 +4714,7 @@ u"""
 entry(
 	index = 175,
 	label = "Cds-N3dCb(Cd-O2d)",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -4736,7 +4736,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4745,7 +4745,7 @@ u"""
 entry(
 	index = 176,
 	label = "Cds-N3dCsCs",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -4767,7 +4767,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4776,7 +4776,7 @@ u"""
 entry(
 	index = 177,
 	label = "Crds-N3rdCrsCs",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -4798,7 +4798,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4807,7 +4807,7 @@ u"""
 entry(
 	index = 178,
 	label = "Crds-N3dCrsCrs",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -4829,7 +4829,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4838,7 +4838,7 @@ u"""
 entry(
 	index = 179,
 	label = "Cds-N3dCdCs",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -4848,7 +4848,7 @@ entry(
 	solute = u'Cds-N3d(Cd-N3d)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4857,7 +4857,7 @@ u"""
 entry(
 	index = 180,
 	label = "Cds-N3d(Cd-N3d)Cs",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -4868,7 +4868,7 @@ entry(
 	solute = u'Crds-N3rd(Crd-N3rd)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4877,7 +4877,7 @@ u"""
 entry(
 	index = 181,
 	label = "Crds-N3rd(Crd-N3rd)Cs",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -4900,7 +4900,7 @@ entry(
 		A = 29,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4909,7 +4909,7 @@ u"""
 entry(
 	index = 182,
 	label = "Cds-N3d(Cd-Cd)Cs",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -4920,7 +4920,7 @@ entry(
 	solute = u'Crds-N3rd(Crd-Crd)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4929,7 +4929,7 @@ u"""
 entry(
 	index = 183,
 	label = "Crds-N3rd(Crd-Crd)Cs",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -4952,7 +4952,7 @@ entry(
 		A = 89,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4961,7 +4961,7 @@ u"""
 entry(
 	index = 184,
 	label = "Cds-N3dCdCd",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -4983,7 +4983,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4992,7 +4992,7 @@ u"""
 entry(
 	index = 185,
 	label = "Crds-N3rdCrdCrd",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5014,7 +5014,7 @@ entry(
 		A = 46,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5023,7 +5023,7 @@ u"""
 entry(
 	index = 186,
 	label = "Crds-N3rdCrdCd",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5045,7 +5045,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5054,7 +5054,7 @@ u"""
 entry(
 	index = 187,
 	label = "Cds-N3dCtC",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5076,7 +5076,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5085,7 +5085,7 @@ u"""
 entry(
 	index = 188,
 	label = "Cds-N3dCO",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5095,7 +5095,7 @@ entry(
 	solute = u'Crds-N3rdCrO',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5104,7 +5104,7 @@ u"""
 entry(
 	index = 189,
 	label = "Crds-N3rdCrO",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5126,7 +5126,7 @@ entry(
 		A = 25,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5135,7 +5135,7 @@ u"""
 entry(
 	index = 190,
 	label = "Crds-N3rdCOr",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5157,7 +5157,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5166,7 +5166,7 @@ u"""
 entry(
 	index = 191,
 	label = "Cds-N3dCS",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5176,7 +5176,7 @@ entry(
 	solute = u'Crds-N3rdCrS',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5185,7 +5185,7 @@ u"""
 entry(
 	index = 192,
 	label = "Crds-N3rdCrS",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5207,7 +5207,7 @@ entry(
 		A = 18,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5216,7 +5216,7 @@ u"""
 entry(
 	index = 193,
 	label = "Crds-N3rdCSr",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5238,7 +5238,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5247,7 +5247,7 @@ u"""
 entry(
 	index = 194,
 	label = "Cds-N3dCH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5257,7 +5257,7 @@ entry(
 	solute = u'Cds-N3dCdH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5266,7 +5266,7 @@ u"""
 entry(
 	index = 195,
 	label = "Cds-N3dCbH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5288,7 +5288,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5297,7 +5297,7 @@ u"""
 entry(
 	index = 196,
 	label = "Crds-N3rdCbH",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5319,7 +5319,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5328,7 +5328,7 @@ u"""
 entry(
 	index = 197,
 	label = "Cds-N3dCdH",
-	group = 
+	group =
 """
 1 * Cd          u0 {2,D} {3,S} {4,S}
 2   N3d         u0 {1,D}
@@ -5338,7 +5338,7 @@ entry(
 	solute = u'Crds-N3rdCrdH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5347,7 +5347,7 @@ u"""
 entry(
 	index = 198,
 	label = "Crds-N3rdCrdH",
-	group = 
+	group =
 """
 1 * Cd          u0 r1 {2,D} {3,S} {4,S}
 2   N3d         u0 r1 {1,D}
@@ -5369,7 +5369,7 @@ entry(
 		A = 334,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5378,7 +5378,7 @@ u"""
 entry(
 	index = 199,
 	label = "Cds-N3dCrdH",
-	group = 
+	group =
 """
 1 * Cd          u0 {2,D} {3,S} {4,S}
 2   N3d         u0 {1,D}
@@ -5400,7 +5400,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5409,7 +5409,7 @@ u"""
 entry(
 	index = 200,
 	label = "Cds-N3dCsH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5419,7 +5419,7 @@ entry(
 	solute = u'Cds-(N3d-(O-H))CsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5428,7 +5428,7 @@ u"""
 entry(
 	index = 201,
 	label = "Crds-N3rdCrsH",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5438,7 +5438,7 @@ entry(
 	solute = u'Crds-N3rdCrdH',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5447,7 +5447,7 @@ u"""
 entry(
 	index = 202,
 	label = "Cds-(N3d-(O-H))CsH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D} {5,S}
@@ -5471,7 +5471,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5480,7 +5480,7 @@ u"""
 entry(
 	index = 203,
 	label = "Cds-N3dNN",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5490,7 +5490,7 @@ entry(
 	solute = u'Cds-N3dN3sN3s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5499,7 +5499,7 @@ u"""
 entry(
 	index = 204,
 	label = "Cds-N3dN3sN3s",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5521,7 +5521,7 @@ entry(
 		A = 28,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5530,7 +5530,7 @@ u"""
 entry(
 	index = 205,
 	label = "Crds-N3rdN3rsN3s",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5552,7 +5552,7 @@ entry(
 		A = 28,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5561,7 +5561,7 @@ u"""
 entry(
 	index = 206,
 	label = "Cds-N3dN3dN3s",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5583,7 +5583,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5592,7 +5592,7 @@ u"""
 entry(
 	index = 207,
 	label = "Crds-N3rdN3rdN3s",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5614,7 +5614,7 @@ entry(
 		A = 53,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5623,7 +5623,7 @@ u"""
 entry(
 	index = 208,
 	label = "Cds-N3dN3sN5dc",
-	group = 
+	group =
 """
 1 * Cd   u0 {2,D} {3,S} {4,S}
 2   N3d  u0 {1,D}
@@ -5633,7 +5633,7 @@ entry(
 	solute = u'Crds-N3rdN3rsN5dc',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5642,7 +5642,7 @@ u"""
 entry(
 	index = 209,
 	label = "Crds-N3rdN3rsN5dc",
-	group = 
+	group =
 """
 1 * Cd   u0 r1 {2,D} {3,S} {4,S}
 2   N3d  u0 r1 {1,D}
@@ -5664,7 +5664,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5673,7 +5673,7 @@ u"""
 entry(
 	index = 210,
 	label = "Cds-N3dN3dN5dc",
-	group = 
+	group =
 """
 1 * Cd   u0 {2,D} {3,S} {4,S}
 2   N3d  u0 {1,D}
@@ -5683,7 +5683,7 @@ entry(
 	solute = u'Crds-N3rdN3rdN5dc',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5692,7 +5692,7 @@ u"""
 entry(
 	index = 211,
 	label = "Crds-N3rdN3rdN5dc",
-	group = 
+	group =
 """
 1 * Cd   u0 r1 {2,D} {3,S} {4,S}
 2   N3d  u0 r1 {1,D}
@@ -5714,7 +5714,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5723,7 +5723,7 @@ u"""
 entry(
 	index = 212,
 	label = "Cds-N3dNC",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5733,7 +5733,7 @@ entry(
 	solute = u'Cds-N3dN3sC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5742,7 +5742,7 @@ u"""
 entry(
 	index = 213,
 	label = "Cds-N3dN3sC",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5764,7 +5764,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5773,7 +5773,7 @@ u"""
 entry(
 	index = 214,
 	label = "Crds-N3rdN3rsCr",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5795,7 +5795,7 @@ entry(
 		A = 49,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5804,7 +5804,7 @@ u"""
 entry(
 	index = 215,
 	label = "Crds-N3rdN3rsC",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5826,7 +5826,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5835,7 +5835,7 @@ u"""
 entry(
 	index = 216,
 	label = "Crds-N3rdN3sCr",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5857,7 +5857,7 @@ entry(
 		A = 23,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5866,7 +5866,7 @@ u"""
 entry(
 	index = 217,
 	label = "Cds-N3dN3dC",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5876,7 +5876,7 @@ entry(
 	solute = u'Crds-N3rdN3rdCr',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5885,7 +5885,7 @@ u"""
 entry(
 	index = 218,
 	label = "Crds-N3rdN3rdCr",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5907,7 +5907,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5916,7 +5916,7 @@ u"""
 entry(
 	index = 219,
 	label = "Crds-N3rdN3rdC",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5938,7 +5938,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5947,7 +5947,7 @@ u"""
 entry(
 	index = 220,
 	label = "Cds-N3dNO",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -5957,7 +5957,7 @@ entry(
 	solute = u'Crds-N3rdNrO',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5966,7 +5966,7 @@ u"""
 entry(
 	index = 221,
 	label = "Crds-N3rdNrO",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -5988,7 +5988,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -5997,7 +5997,7 @@ u"""
 entry(
 	index = 222,
 	label = "Crds-N3rdNOr",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -6019,7 +6019,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6028,7 +6028,7 @@ u"""
 entry(
 	index = 223,
 	label = "Cds-N3dNS",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -6038,7 +6038,7 @@ entry(
 	solute = u'Crds-N3rdNSr',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6047,7 +6047,7 @@ u"""
 entry(
 	index = 224,
 	label = "Crds-N3rdNrS",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -6069,7 +6069,7 @@ entry(
 		A = 23,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6078,7 +6078,7 @@ u"""
 entry(
 	index = 225,
 	label = "Crds-N3rdNSr",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -6100,7 +6100,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6109,7 +6109,7 @@ u"""
 entry(
 	index = 226,
 	label = "Cds-N3dNH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -6119,7 +6119,7 @@ entry(
 	solute = u'Cds-N3dN3sH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6128,7 +6128,7 @@ u"""
 entry(
 	index = 227,
 	label = "Cds-N3dN3sH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -6138,7 +6138,7 @@ entry(
 	solute = u'Crds-N3rdN3rsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6147,7 +6147,7 @@ u"""
 entry(
 	index = 228,
 	label = "Crds-N3rdN3rsH",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -6169,7 +6169,7 @@ entry(
 		A = 100,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6178,7 +6178,7 @@ u"""
 entry(
 	index = 229,
 	label = "Cds-N3dN3dH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -6188,7 +6188,7 @@ entry(
 	solute = u'Crds-N3rdN3rdH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6197,7 +6197,7 @@ u"""
 entry(
 	index = 230,
 	label = "Crds-N3rdN3rdH",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -6219,7 +6219,7 @@ entry(
 		A = 67,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6228,7 +6228,7 @@ u"""
 entry(
 	index = 231,
 	label = "Cds-N3dOH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -6238,7 +6238,7 @@ entry(
 	solute = u'Crds-N3rdOrH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6247,7 +6247,7 @@ u"""
 entry(
 	index = 232,
 	label = "Crds-N3rdOrH",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -6269,7 +6269,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6278,7 +6278,7 @@ u"""
 entry(
 	index = 233,
 	label = "Cds-N3dSS",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -6288,7 +6288,7 @@ entry(
 	solute = u'Crds-N3rdSrS',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6297,7 +6297,7 @@ u"""
 entry(
 	index = 234,
 	label = "Crds-N3rdSrS",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -6319,7 +6319,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6328,7 +6328,7 @@ u"""
 entry(
 	index = 235,
 	label = "Cds-N3dSH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   N3d u0 {1,D}
@@ -6338,7 +6338,7 @@ entry(
 	solute = u'Crds-N3rdSrH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6347,7 +6347,7 @@ u"""
 entry(
 	index = 236,
 	label = "Crds-N3rdSrH",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   N3d u0 r1 {1,D}
@@ -6369,7 +6369,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6378,7 +6378,7 @@ u"""
 entry(
 	index = 237,
 	label = "Cds-N5dc",
-	group = 
+	group =
 """
 1 * Cd   u0 {2,D}
 2   N5dc u0 {1,D}
@@ -6386,7 +6386,7 @@ entry(
 	solute = u'Crds-N5rdc',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6395,7 +6395,7 @@ u"""
 entry(
 	index = 238,
 	label = "Crds-N5rdc",
-	group = 
+	group =
 """
 1 * Cd   u0 r1 {2,D}
 2   N5dc u0 r1 {1,D}
@@ -6415,7 +6415,7 @@ entry(
 		A = 18,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6424,7 +6424,7 @@ u"""
 entry(
 	index = 239,
 	label = "Cds-Cd",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D}
 2   C  u0 {1,D}
@@ -6432,7 +6432,7 @@ entry(
 	solute = u'Cds-CdCC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6441,7 +6441,7 @@ u"""
 entry(
 	index = 240,
 	label = "Cds-CdHH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -6451,7 +6451,7 @@ entry(
 	solute = u'Cds-CdsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6460,7 +6460,7 @@ u"""
 entry(
 	index = 241,
 	label = "Cds-CdsHH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -6482,7 +6482,7 @@ entry(
 		A = 380,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6491,7 +6491,7 @@ u"""
 entry(
 	index = 242,
 	label = "Cds-CrdsHH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -6513,7 +6513,7 @@ entry(
 		A = 42,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6522,7 +6522,7 @@ u"""
 entry(
 	index = 243,
 	label = "Cds-CddHH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
@@ -6532,7 +6532,7 @@ entry(
 	solute = u'Cds-(Cdd-Cd)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6541,7 +6541,7 @@ u"""
 entry(
 	index = 244,
 	label = "Cds-(Cdd-Cd)HH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
@@ -6564,7 +6564,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6573,7 +6573,7 @@ u"""
 entry(
 	index = 245,
 	label = "Cds-CdOsH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -6583,7 +6583,7 @@ entry(
 	solute = u'Cds-CdsOsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6592,7 +6592,7 @@ u"""
 entry(
 	index = 246,
 	label = "Cds-CdsOsH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -6614,7 +6614,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6623,7 +6623,7 @@ u"""
 entry(
 	index = 247,
 	label = "Crds-CrdsOrsH",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -6645,7 +6645,7 @@ entry(
 		A = 93,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6654,7 +6654,7 @@ u"""
 entry(
 	index = 248,
 	label = "Cds-CdOsOs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -6664,7 +6664,7 @@ entry(
 	solute = u'Cds-CdsOsOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6673,7 +6673,7 @@ u"""
 entry(
 	index = 249,
 	label = "Cds-CdsOsOs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -6683,7 +6683,7 @@ entry(
 	solute = u'Crds-CrdsOrsOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6692,7 +6692,7 @@ u"""
 entry(
 	index = 250,
 	label = "Crds-CrdsOrsOs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -6714,7 +6714,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6723,7 +6723,7 @@ u"""
 entry(
 	index = 251,
 	label = "Cds-CdPH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -6733,7 +6733,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6742,7 +6742,7 @@ u"""
 entry(
 	index = 252,
 	label = "Cds-CdP5dH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -6764,7 +6764,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6773,7 +6773,7 @@ u"""
 entry(
 	index = 253,
 	label = "Cds-CdNH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -6783,7 +6783,7 @@ entry(
 	solute = u'Cds-CdN3dH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6792,7 +6792,7 @@ u"""
 entry(
 	index = 254,
 	label = "Cds-CdN3sH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {5,S} {6,S}
 2   Cd  u0 {1,D} {3,S} {4,S}
@@ -6816,7 +6816,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6825,7 +6825,7 @@ u"""
 entry(
 	index = 255,
 	label = "Crds-CrdN3rsH",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {5,S} {6,S}
 2   Cd  u0 r1 {1,D} {3,S} {4,S}
@@ -6849,7 +6849,7 @@ entry(
 		A = 182,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6858,7 +6858,7 @@ u"""
 entry(
 	index = 256,
 	label = "Cds-CdN3dH",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {5,S} {6,S}
 2   Cd  u0 {1,D} {3,S} {4,S}
@@ -6870,7 +6870,7 @@ entry(
 	solute = u'Crds-CrdN3rdH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6879,7 +6879,7 @@ u"""
 entry(
 	index = 257,
 	label = "Crds-CrdN3rdH",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {5,S} {6,S}
 2   Cd  u0 r1 {1,D} {3,S} {4,S}
@@ -6903,7 +6903,7 @@ entry(
 		A = 321,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6912,7 +6912,7 @@ u"""
 entry(
 	index = 258,
 	label = "Cds-CdN5dcH",
-	group = 
+	group =
 """
 1 * Cd   u0 {2,D} {5,S} {6,S}
 2   Cd   u0 {1,D} {3,S} {4,S}
@@ -6936,7 +6936,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6945,7 +6945,7 @@ u"""
 entry(
 	index = 259,
 	label = "Crds-CrdN5rdcH",
-	group = 
+	group =
 """
 1 * Cd   u0 r1 {2,D} {5,S} {6,S}
 2   Cd   u0 r1 {1,D} {3,S} {4,S}
@@ -6969,7 +6969,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6978,7 +6978,7 @@ u"""
 entry(
 	index = 260,
 	label = "Cds-CdNN",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -6988,7 +6988,7 @@ entry(
 	solute = u'Cds-CdN3sN3d',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -6997,7 +6997,7 @@ u"""
 entry(
 	index = 261,
 	label = "Cds-CdN3sN3s",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
@@ -7019,7 +7019,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7028,7 +7028,7 @@ u"""
 entry(
 	index = 262,
 	label = "Cds-CdN3sN3d",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
@@ -7038,7 +7038,7 @@ entry(
 	solute = u'Crds-CrdN3rsN3rd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7047,7 +7047,7 @@ u"""
 entry(
 	index = 263,
 	label = "Crds-CrdN3rsN3rd",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   C   u0 r1 {1,D}
@@ -7069,7 +7069,7 @@ entry(
 		A = 47,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7078,7 +7078,7 @@ u"""
 entry(
 	index = 264,
 	label = "Crds-CrdN3sN3rd",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,D} {3,S} {4,S}
 2   C   u0 r1 {1,D}
@@ -7100,7 +7100,7 @@ entry(
 		A = 23,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7109,7 +7109,7 @@ u"""
 entry(
 	index = 265,
 	label = "Cds-CdN3dN3d",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
@@ -7131,7 +7131,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7140,7 +7140,7 @@ u"""
 entry(
 	index = 266,
 	label = "Cds-CdN3sN5dc",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
@@ -7162,7 +7162,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7171,7 +7171,7 @@ u"""
 entry(
 	index = 267,
 	label = "Cds-CdN3dN5dc",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
@@ -7193,7 +7193,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7202,7 +7202,7 @@ u"""
 entry(
 	index = 268,
 	label = "Cds-CdNO",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
@@ -7212,7 +7212,7 @@ entry(
 	solute = u'Cds-CdN3dO',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7221,7 +7221,7 @@ u"""
 entry(
 	index = 269,
 	label = "Cds-CdN3sO",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
@@ -7243,7 +7243,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7252,7 +7252,7 @@ u"""
 entry(
 	index = 270,
 	label = "Cds-CdN3dO",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
@@ -7274,7 +7274,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7283,7 +7283,7 @@ u"""
 entry(
 	index = 271,
 	label = "Cds-CdN5dcO",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
@@ -7305,7 +7305,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7314,7 +7314,7 @@ u"""
 entry(
 	index = 272,
 	label = "Cds-CdNS",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   C   u0 {1,D}
@@ -7336,7 +7336,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7345,7 +7345,7 @@ u"""
 entry(
 	index = 273,
 	label = "Cds-CdSH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -7355,7 +7355,7 @@ entry(
 	solute = u'Cds-CdsSH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7364,7 +7364,7 @@ u"""
 entry(
 	index = 274,
 	label = "Cds-CdsSH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -7374,7 +7374,7 @@ entry(
 	solute = u'Cds-CdsS2H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7383,7 +7383,7 @@ u"""
 entry(
 	index = 275,
 	label = "Cds-CdsS2H",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -7393,7 +7393,7 @@ entry(
 	solute = u'Crds-CrdsS2rH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7402,7 +7402,7 @@ u"""
 entry(
 	index = 276,
 	label = "Crds-CrdsS2rH",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -7424,7 +7424,7 @@ entry(
 		A = 79,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7433,7 +7433,7 @@ u"""
 entry(
 	index = 277,
 	label = "Cds-CdCH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -7443,7 +7443,7 @@ entry(
 	solute = u'Cds-CdsCsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7452,7 +7452,7 @@ u"""
 entry(
 	index = 278,
 	label = "Cds-CdsCsH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -7474,7 +7474,7 @@ entry(
 		A = 458,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7483,7 +7483,7 @@ u"""
 entry(
 	index = 279,
 	label = "Crds-CrdsCrsH",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -7505,7 +7505,7 @@ entry(
 		A = 231,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7514,7 +7514,7 @@ u"""
 entry(
 	index = 280,
 	label = "Cds-CrdsCsH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -7536,7 +7536,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7545,7 +7545,7 @@ u"""
 entry(
 	index = 281,
 	label = "Cds-CdsCrsH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -7567,7 +7567,7 @@ entry(
 		A = 24,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7576,7 +7576,7 @@ u"""
 entry(
 	index = 282,
 	label = "Cds-CdsCdsH",
-	group = 
+	group =
 """
 1 * Cd      u0 {2,D} {3,S} {4,S}
 2   Cd      u0 {1,D}
@@ -7586,7 +7586,7 @@ entry(
 	solute = u'Cds-Cd(Cd-O2d)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7595,7 +7595,7 @@ u"""
 entry(
 	index = 283,
 	label = "Cds-Cd(Cd-O2d)H",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,S} {4,D}
 2   CO u0 {1,S} {5,D}
@@ -7618,7 +7618,7 @@ entry(
 		A = 126,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7627,7 +7627,7 @@ u"""
 entry(
 	index = 284,
 	label = "Crds-Crd(Crd-O2d)H",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,S} {4,D}
 2   CO u0 r1 {1,S} {5,D}
@@ -7650,7 +7650,7 @@ entry(
 		A = 275,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7659,7 +7659,7 @@ u"""
 entry(
 	index = 285,
 	label = "Cds-Cd(Cd-N3d)H",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,S} {4,D}
 2   Cd u0 {1,S} {5,D}
@@ -7670,7 +7670,7 @@ entry(
 	solute = u'Crds-Crd(Crd-N3rd)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7679,7 +7679,7 @@ u"""
 entry(
 	index = 286,
 	label = "Crds-Crd(Crd-N3rd)H",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,S} {4,D}
 2   Cd u0 r1 {1,S} {5,D}
@@ -7702,7 +7702,7 @@ entry(
 		A = 367,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7711,7 +7711,7 @@ u"""
 entry(
 	index = 287,
 	label = "Cds-Cd(Crd-N3rd)H",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,S} {4,D}
 2   Cd u0 r1 {1,S} {5,D}
@@ -7734,7 +7734,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7743,7 +7743,7 @@ u"""
 entry(
 	index = 288,
 	label = "Cds-Cd(Cd-N5dc)H",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   Cd  u0 {1,S} {5,D}
@@ -7766,7 +7766,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7775,7 +7775,7 @@ u"""
 entry(
 	index = 289,
 	label = "Cds-Cds(Cds-Cd)H",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -7786,7 +7786,7 @@ entry(
 	solute = u'Cds-Cds(Cds-Cds)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7795,7 +7795,7 @@ u"""
 entry(
 	index = 290,
 	label = "Cds-Cds(Cds-Cds)H",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -7818,7 +7818,7 @@ entry(
 		A = 44,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7827,7 +7827,7 @@ u"""
 entry(
 	index = 291,
 	label = "Crds-Crds(Crds-Crds)H",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,D} {4,S}
 2   Cd u0 r1 {1,S} {5,D}
@@ -7850,7 +7850,7 @@ entry(
 		A = 472,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7859,7 +7859,7 @@ u"""
 entry(
 	index = 292,
 	label = "Crds-Crds(Crds-Cds)H",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,D} {4,S}
 2   Cd u0 r1 {1,S} {5,D}
@@ -7882,7 +7882,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7891,7 +7891,7 @@ u"""
 entry(
 	index = 293,
 	label = "Cds-Cds(Crds-Crds)H",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 r1 {1,S} {5,D}
@@ -7914,7 +7914,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7923,7 +7923,7 @@ u"""
 entry(
 	index = 294,
 	label = "Cds-CdsCtH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -7933,7 +7933,7 @@ entry(
 	solute = u'Cds-CdsH(Ct-N3t)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7942,7 +7942,7 @@ u"""
 entry(
 	index = 295,
 	label = "Cds-CdsH(Ct-N3t)",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,S} {3,D} {4,S}
 2   Ct  u0 {1,S} {5,T}
@@ -7965,7 +7965,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -7974,7 +7974,7 @@ u"""
 entry(
 	index = 296,
 	label = "Cds-CdsH(Ct-Ct)",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,S} {3,D} {4,S}
 2   Ct  u0 {1,S} {5,T}
@@ -7997,7 +7997,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8006,7 +8006,7 @@ u"""
 entry(
 	index = 297,
 	label = "Cds-CdsCbH",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -8028,7 +8028,7 @@ entry(
 		A = 80,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8037,7 +8037,7 @@ u"""
 entry(
 	index = 298,
 	label = "Crds-CrdsCbH",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -8059,7 +8059,7 @@ entry(
 		A = 155,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8068,7 +8068,7 @@ u"""
 entry(
 	index = 299,
 	label = "Cds-CddCH",
-	group = 
+	group =
 """
 1 * Cd u0  {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
@@ -8090,7 +8090,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8099,7 +8099,7 @@ u"""
 entry(
 	index = 300,
 	label = "Cds-CdCO",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -8109,7 +8109,7 @@ entry(
 	solute = u'Cds-CdsCdsOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8118,7 +8118,7 @@ u"""
 entry(
 	index = 301,
 	label = "Cds-CdsCdsOs",
-	group = 
+	group =
 """
 1 * Cd      u0 {2,D} {3,S} {4,S}
 2   Cd      u0 {1,D}
@@ -8128,7 +8128,7 @@ entry(
 	solute = u'Cds-Cds(Cds-O2d)O2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8137,7 +8137,7 @@ u"""
 entry(
 	index = 302,
 	label = "Cds-Cds(Cds-O2d)O2s",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   CO u0 {1,S} {5,D}
@@ -8148,7 +8148,7 @@ entry(
 	solute = u'Crds-Crds(Crds-O2d)O2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8157,7 +8157,7 @@ u"""
 entry(
 	index = 303,
 	label = "Crds-Crds(Crds-O2d)O2s",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,D} {4,S}
 2   CO u0 r1 {1,S} {5,D}
@@ -8168,7 +8168,7 @@ entry(
 	solute = u'Crds-Crds(Crds-O2d)(O2s-H)',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8177,7 +8177,7 @@ u"""
 entry(
 	index = 304,
 	label = "Crds-Crds(Crds-O2d)(O2s-H)",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,D} {4,S}
 2   CO u0 r1 {1,S} {5,D}
@@ -8201,7 +8201,7 @@ entry(
 		A = 36,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8210,7 +8210,7 @@ u"""
 entry(
 	index = 305,
 	label = "Crds-Crds(Crds-O2d)(O2s-R)",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,D} {4,S}
 2   CO u0 r1 {1,S} {5,D}
@@ -8234,7 +8234,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8243,7 +8243,7 @@ u"""
 entry(
 	index = 306,
 	label = "Crds-Crds(Cds-O2d)O2rs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,D} {4,S}
 2   CO u0 {1,S} {5,D}
@@ -8266,7 +8266,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8275,7 +8275,7 @@ u"""
 entry(
 	index = 307,
 	label = "Cds-Cds(Cds-N3d)O2s",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -8286,7 +8286,7 @@ entry(
 	solute = u'Cds-Cds(Cds-N3d)(O2s-R)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8295,7 +8295,7 @@ u"""
 entry(
 	index = 308,
 	label = "Cds-Cds(Cds-N3d)(O2s-H)",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -8307,7 +8307,7 @@ entry(
 	solute = u'Crds-Crds(Crds-Nr3d)(O2s-H)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8316,7 +8316,7 @@ u"""
 entry(
 	index = 309,
 	label = "Crds-Crds(Crds-Nr3d)(O2s-H)",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,D} {4,S}
 2   Cd u0 r1 {1,S} {5,D}
@@ -8340,7 +8340,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8349,7 +8349,7 @@ u"""
 entry(
 	index = 310,
 	label = "Cds-Cds(Cds-N3d)(O2s-R)",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -8373,7 +8373,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8382,7 +8382,7 @@ u"""
 entry(
 	index = 311,
 	label = "Cds-Cds(Cds-Cd)O2s",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -8393,7 +8393,7 @@ entry(
 	solute = u'Cds-Cds(Cds-Cds)O2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8402,7 +8402,7 @@ u"""
 entry(
 	index = 312,
 	label = "Cds-Cds(Cds-Cds)O2s",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -8425,7 +8425,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8434,7 +8434,7 @@ u"""
 entry(
 	index = 313,
 	label = "Cds-CdsCbOs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -8444,7 +8444,7 @@ entry(
 	solute = u'Crds-CrdsCbOrs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8453,7 +8453,7 @@ u"""
 entry(
 	index = 314,
 	label = "Crds-CrdsCbOrs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -8475,7 +8475,7 @@ entry(
 		A = 55,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8484,7 +8484,7 @@ u"""
 entry(
 	index = 315,
 	label = "Crds-CrdsCbOs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -8506,7 +8506,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8515,7 +8515,7 @@ u"""
 entry(
 	index = 316,
 	label = "Cds-CdCsOs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,S} {4,D}
 2   Cs u0 {1,S}
@@ -8525,7 +8525,7 @@ entry(
 	solute = u'Cds-CdsCsOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8534,7 +8534,7 @@ u"""
 entry(
 	index = 317,
 	label = "Cds-CdsCsOs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -8556,7 +8556,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8565,7 +8565,7 @@ u"""
 entry(
 	index = 318,
 	label = "Crds-CrdsCsOrs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -8587,7 +8587,7 @@ entry(
 		A = 40,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8596,7 +8596,7 @@ u"""
 entry(
 	index = 319,
 	label = "Cds-CdCtOs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,S} {4,D}
 2   Ct u0 {1,S}
@@ -8606,7 +8606,7 @@ entry(
 	solute = u'Crds-CrdCtOrs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8615,7 +8615,7 @@ u"""
 entry(
 	index = 320,
 	label = "Crds-CrdCtOrs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,S} {4,D}
 2   Ct u0 {1,S}
@@ -8625,7 +8625,7 @@ entry(
 	solute = u'Crds-CrdsCsOrs',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8634,7 +8634,7 @@ u"""
 entry(
 	index = 321,
 	label = "Cds-CdCS",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -8644,7 +8644,7 @@ entry(
 	solute = u'Cds-CdsCsSs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8653,7 +8653,7 @@ u"""
 entry(
 	index = 322,
 	label = "Cds-CdsCsSs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -8663,7 +8663,7 @@ entry(
 	solute = u'Cds-CdsCsS2',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8672,7 +8672,7 @@ u"""
 entry(
 	index = 323,
 	label = "Cds-CdsCsS2",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -8682,7 +8682,7 @@ entry(
 	solute = u'Crds-CrdsCsS2r',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8691,7 +8691,7 @@ u"""
 entry(
 	index = 324,
 	label = "Crds-CrdsCsS2r",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -8713,7 +8713,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8722,7 +8722,7 @@ u"""
 entry(
 	index = 325,
 	label = "Cds-CdsCdsSs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -8732,7 +8732,7 @@ entry(
 	solute = u'Cds-Cds(Cds-O2d)S2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8741,7 +8741,7 @@ u"""
 entry(
 	index = 326,
 	label = "Cds-Cds(Cds-Cd)S2s",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -8764,7 +8764,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8773,7 +8773,7 @@ u"""
 entry(
 	index = 327,
 	label = "Cds-Cds(Cds-O2d)S2s",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   CO u0 {1,S} {5,D}
@@ -8796,7 +8796,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8805,7 +8805,7 @@ u"""
 entry(
 	index = 328,
 	label = "Cds-CdsCS6dd",
-	group = 
+	group =
 """
 1 * Cd   u0 {2,D} {3,S} {4,S}
 2   Cd   u0 {1,D}
@@ -8827,7 +8827,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8836,7 +8836,7 @@ u"""
 entry(
 	index = 329,
 	label = "Cds-CdCC",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -8846,7 +8846,7 @@ entry(
 	solute = u'Cds-CdsCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8855,7 +8855,7 @@ u"""
 entry(
 	index = 330,
 	label = "Cds-CdsCsCs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -8877,7 +8877,7 @@ entry(
 		A = 116,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8886,7 +8886,7 @@ u"""
 entry(
 	index = 331,
 	label = "Crds-CrdsCrsCrs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -8908,7 +8908,7 @@ entry(
 		A = 129,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8917,7 +8917,7 @@ u"""
 entry(
 	index = 332,
 	label = "Crds-CrdsCrsCs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -8939,7 +8939,7 @@ entry(
 		A = 106,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8948,7 +8948,7 @@ u"""
 entry(
 	index = 333,
 	label = "Cds-CrdsCsCs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -8970,7 +8970,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -8979,7 +8979,7 @@ u"""
 entry(
 	index = 334,
 	label = "Cds-CdsCrsCs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -9001,7 +9001,7 @@ entry(
 		A = 85,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9010,7 +9010,7 @@ u"""
 entry(
 	index = 335,
 	label = "Cds-CdsCdsCs",
-	group = 
+	group =
 """
 1 * Cd      u0 {2,D} {3,S} {4,S}
 2   Cd      u0 {1,D}
@@ -9020,7 +9020,7 @@ entry(
 	solute = u'Cds-Cd(Cds-O2d)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9029,7 +9029,7 @@ u"""
 entry(
 	index = 336,
 	label = "Cds-Cd(Cds-O2d)Cs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,S} {4,D}
 2   CO u0 {1,S} {5,D}
@@ -9052,7 +9052,7 @@ entry(
 		A = 47,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9061,7 +9061,7 @@ u"""
 entry(
 	index = 337,
 	label = "Crds-Crd(Crds-O2d)Cs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,S} {4,D}
 2   CO u0 r1 {1,S} {5,D}
@@ -9084,7 +9084,7 @@ entry(
 		A = 33,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9093,7 +9093,7 @@ u"""
 entry(
 	index = 338,
 	label = "Cds-Cd(Cds-N3d)Cs",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   Cd  u0 {1,S} {5,D}
@@ -9104,7 +9104,7 @@ entry(
 	solute = u'Crds-Crd(Crds-N3rd)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9113,7 +9113,7 @@ u"""
 entry(
 	index = 339,
 	label = "Crds-Crd(Crds-N3rd)Cs",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,S} {3,S} {4,D}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -9136,7 +9136,7 @@ entry(
 		A = 65,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9145,7 +9145,7 @@ u"""
 entry(
 	index = 340,
 	label = "Cds-Cds(Cds-Cd)Cs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -9156,7 +9156,7 @@ entry(
 	solute = u'Cds-Cds(Cds-Cds)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9165,7 +9165,7 @@ u"""
 entry(
 	index = 341,
 	label = "Cds-Cds(Cds-Cds)Cs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -9188,7 +9188,7 @@ entry(
 		A = 25,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9197,7 +9197,7 @@ u"""
 entry(
 	index = 342,
 	label = "Crds-Crds(Crds-Crds)Cs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,D} {4,S}
 2   Cd u0 r1 {1,S} {5,D}
@@ -9220,7 +9220,7 @@ entry(
 		A = 172,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9229,7 +9229,7 @@ u"""
 entry(
 	index = 343,
 	label = "Crds-Cds(Crds-Crds)Crs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,D} {4,S}
 2   Cd u0 r1 {1,S} {5,D}
@@ -9252,7 +9252,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9261,7 +9261,7 @@ u"""
 entry(
 	index = 344,
 	label = "Cds-CdsCdsCds",
-	group = 
+	group =
 """
 1 * Cd      u0 {2,D} {3,S} {4,S}
 2   Cd      u0 {1,D}
@@ -9271,7 +9271,7 @@ entry(
 	solute = u'Cds-Cds(Cds-Cd)(Cds-Cd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9280,7 +9280,7 @@ u"""
 entry(
 	index = 345,
 	label = "Cds-Cds(Cds-O2d)(Cds-O2d)",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,S} {4,D}
 2   CO u0 {1,S} {5,D}
@@ -9292,7 +9292,7 @@ entry(
 	solute = u'Crds-Crds(Crds-O2d)(Cds-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9301,7 +9301,7 @@ u"""
 entry(
 	index = 346,
 	label = "Crds-Crds(Crds-O2d)(Cds-O2d)",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,S} {4,D}
 2   CO u0 r1 {1,S} {5,D}
@@ -9325,7 +9325,7 @@ entry(
 		A = 21,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9334,7 +9334,7 @@ u"""
 entry(
 	index = 347,
 	label = "Cds-Cds(Cds-O2d)(Cds-Cd)",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,S} {4,D}
 2   CO u0 {1,S} {6,D}
@@ -9346,7 +9346,7 @@ entry(
 	solute = u'Cds-Cds(Cds-O2d)(Cds-Cds)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9355,7 +9355,7 @@ u"""
 entry(
 	index = 348,
 	label = "Cds-Cds(Cds-O2d)(Cds-Cds)",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,S} {4,D}
 2   CO u0 {1,S} {6,D}
@@ -9367,7 +9367,7 @@ entry(
 	solute = u'Crds-Crds(Cds-O2d)(Crds-Crds)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9376,7 +9376,7 @@ u"""
 entry(
 	index = 349,
 	label = "Crds-Crds(Cds-O2d)(Crds-Crds)",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,S} {4,D}
 2   CO u0 {1,S} {6,D}
@@ -9400,7 +9400,7 @@ entry(
 		A = 73,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9409,7 +9409,7 @@ u"""
 entry(
 	index = 350,
 	label = "Cds-Cds(Cds-O2d)(Cds-N3d)",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   CO  u0 {1,S} {6,D}
@@ -9421,7 +9421,7 @@ entry(
 	solute = u'Crds-Crds(Cds-O2d)(Crds-N3rd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9430,7 +9430,7 @@ u"""
 entry(
 	index = 351,
 	label = "Crds-Crds(Crds-O2d)(Crds-N3rd)",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,S} {3,S} {4,D}
 2   CO  u0 r1 {1,S} {6,D}
@@ -9454,7 +9454,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9463,7 +9463,7 @@ u"""
 entry(
 	index = 352,
 	label = "Crds-Crds(Cds-O2d)(Crds-N3rd)",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,S} {3,S} {4,D}
 2   CO  u0 {1,S} {6,D}
@@ -9487,7 +9487,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9496,7 +9496,7 @@ u"""
 entry(
 	index = 353,
 	label = "Cds-Cds(Cds-N3d)(Cds-N3d)",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   Cd  u0 {1,S} {6,D}
@@ -9520,7 +9520,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9529,7 +9529,7 @@ u"""
 entry(
 	index = 354,
 	label = "Cds-Cds(Cds-Cd)(Cds-N3d)",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   Cd  u0 {1,S} {6,D}
@@ -9541,7 +9541,7 @@ entry(
 	solute = u'Crds-Crds(Crds-Crd)(Crds-N3rd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9550,7 +9550,7 @@ u"""
 entry(
 	index = 355,
 	label = "Crds-Crds(Crds-Crd)(Crds-N3rd)",
-	group = 
+	group =
 """
 1 * Cd  u0 r1 {2,S} {3,S} {4,D}
 2   Cd  u0 r1 {1,S} {6,D}
@@ -9574,7 +9574,7 @@ entry(
 		A = 34,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9583,7 +9583,7 @@ u"""
 entry(
 	index = 356,
 	label = "Cds-Cds(Cds-Cd)(Cds-Cd)",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,S} {4,D}
 2   Cd u0 {1,S} {5,D}
@@ -9595,7 +9595,7 @@ entry(
 	solute = u'Cds-Cds(Cds-Cds)(Cds-Cds)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9604,7 +9604,7 @@ u"""
 entry(
 	index = 357,
 	label = "Cds-Cds(Cds-Cds)(Cds-Cds)",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,S} {4,D}
 2   Cd u0 {1,S} {5,D}
@@ -9628,7 +9628,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9637,7 +9637,7 @@ u"""
 entry(
 	index = 358,
 	label = "Cds-CdsCtCs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -9647,7 +9647,7 @@ entry(
 	solute = u'Cds-CdCs(CtN3t)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9656,7 +9656,7 @@ u"""
 entry(
 	index = 359,
 	label = "Cds-CdCs(CtN3t)",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cd  u0 {1,D} {5,S} {6,S}
@@ -9681,7 +9681,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9690,7 +9690,7 @@ u"""
 entry(
 	index = 360,
 	label = "Cds-CdsCtCds",
-	group = 
+	group =
 """
 1 * Cd      u0 {2,D} {3,S} {4,S}
 2   Cd      u0 {1,D}
@@ -9712,7 +9712,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9721,7 +9721,7 @@ u"""
 entry(
 	index = 361,
 	label = "Cds-CdsCtCt",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -9731,7 +9731,7 @@ entry(
 	solute = u'Cds-Cd(CtN3t)(CtN3t)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9740,7 +9740,7 @@ u"""
 entry(
 	index = 362,
 	label = "Cds-Cd(CtN3t)(CtN3t)",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   Ct  u0 {1,S} {5,T}
@@ -9764,7 +9764,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9773,7 +9773,7 @@ u"""
 entry(
 	index = 363,
 	label = "Cds-CdsCbCs",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -9795,7 +9795,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9804,7 +9804,7 @@ u"""
 entry(
 	index = 364,
 	label = "Crds-CrdsCbCrs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -9826,7 +9826,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9835,7 +9835,7 @@ u"""
 entry(
 	index = 365,
 	label = "Crds-CrdsCbCs",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,D} {3,S} {4,S}
 2   Cd u0 r1 {1,D}
@@ -9857,7 +9857,7 @@ entry(
 		A = 35,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9866,7 +9866,7 @@ u"""
 entry(
 	index = 366,
 	label = "Cds-CdsCbCds",
-	group = 
+	group =
 """
 1 * Cd      u0 {2,D} {3,S} {4,S}
 2   Cd      u0 {1,D}
@@ -9876,7 +9876,7 @@ entry(
 	solute = u'Cds-CdsCb(Cds-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9885,7 +9885,7 @@ u"""
 entry(
 	index = 367,
 	label = "Cds-CdsCb(Cds-O2d)",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   CO u0 {1,S} {5,D}
@@ -9908,7 +9908,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9917,7 +9917,7 @@ u"""
 entry(
 	index = 368,
 	label = "Crds-CrdsCb(Crds-O2d)",
-	group = 
+	group =
 """
 1 * Cd u0 r1 {2,S} {3,D} {4,S}
 2   CO u0 r1 {1,S} {5,D}
@@ -9940,7 +9940,7 @@ entry(
 		A = 39,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9949,7 +9949,7 @@ u"""
 entry(
 	index = 369,
 	label = "Cds-CdsCb(Cds-N3d)",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,S} {3,D} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -9972,7 +9972,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -9981,7 +9981,7 @@ u"""
 entry(
 	index = 370,
 	label = "Cds-Cds(Cds-Cd)Cb",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -9992,7 +9992,7 @@ entry(
 	solute = u'Cds-Cds(Cds-Cds)Cb',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10001,7 +10001,7 @@ u"""
 entry(
 	index = 371,
 	label = "Cds-Cds(Cds-Cds)Cb",
-	group = 
+	group =
 """
 1 * Cd u0 {2,S} {3,D} {4,S}
 2   Cd u0 {1,S} {5,D}
@@ -10024,7 +10024,7 @@ entry(
 		A = 23,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10033,7 +10033,7 @@ u"""
 entry(
 	index = 372,
 	label = "Cds-CdsCbCb",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   Cd u0 {1,D}
@@ -10055,7 +10055,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10064,7 +10064,7 @@ u"""
 entry(
 	index = 373,
 	label = "Cds-CddCC",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D}
@@ -10074,7 +10074,7 @@ entry(
 	solute = u'Cds-(Cdd-Cd)CC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10083,7 +10083,7 @@ u"""
 entry(
 	index = 374,
 	label = "Cds-(Cdd-Cd)CC",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {3,S} {4,S}
 2   Cdd u0 {1,D} {5,D}
@@ -10106,7 +10106,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10115,7 +10115,7 @@ u"""
 entry(
 	index = 375,
 	label = "Cds-CdCN",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {3,S} {4,S}
 2   C  u0 {1,D}
@@ -10125,7 +10125,7 @@ entry(
 	solute = u'Cds-CdCsN3d',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10134,7 +10134,7 @@ u"""
 entry(
 	index = 376,
 	label = "Cds-CdCbN3s",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {5,S} {6,S}
 2   Cd  u0 {1,D} {3,S} {4,S}
@@ -10158,7 +10158,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10167,7 +10167,7 @@ u"""
 entry(
 	index = 377,
 	label = "Cds-CdCsN3s",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {5,S} {6,S}
 2   Cd  u0 {1,D} {3,S} {4,S}
@@ -10191,7 +10191,7 @@ entry(
 		A = 65,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10200,7 +10200,7 @@ u"""
 entry(
 	index = 378,
 	label = "Cds-CdCdsN3s",
-	group = 
+	group =
 """
 1 * Cd         u0 {2,D} {5,S} {6,S}
 2   Cd         u0 {1,D} {3,S} {4,S}
@@ -10212,7 +10212,7 @@ entry(
 	solute = u'Cds-Cd(Cds-O2d)N3s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10221,7 +10221,7 @@ u"""
 entry(
 	index = 379,
 	label = "Cds-Cd(Cds-O2d)N3s",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {5,S} {6,S}
 2   Cd  u0 {1,D} {3,S} {4,S}
@@ -10246,7 +10246,7 @@ entry(
 		A = 53,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10255,7 +10255,7 @@ u"""
 entry(
 	index = 380,
 	label = "Cds-Cd(Cds-N3d)N3s",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {5,S} {6,S}
 2   Cd  u0 {1,D} {3,S} {4,S}
@@ -10280,7 +10280,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10289,7 +10289,7 @@ u"""
 entry(
 	index = 381,
 	label = "Cds-Cd(Cds-Cds)N3s",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {5,S} {6,S}
 2   Cd  u0 {1,D} {3,S} {4,S}
@@ -10314,7 +10314,7 @@ entry(
 		A = 35,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10323,7 +10323,7 @@ u"""
 entry(
 	index = 382,
 	label = "Cds-CdCbN3d",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {5,S} {6,S}
 2   Cd  u0 {1,D} {3,S} {4,S}
@@ -10347,7 +10347,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10356,7 +10356,7 @@ u"""
 entry(
 	index = 383,
 	label = "Cds-CdCsN3d",
-	group = 
+	group =
 """
 1 * Cd  u0 {2,D} {5,S} {6,S}
 2   Cd  u0 {1,D} {3,S} {4,S}
@@ -10380,7 +10380,7 @@ entry(
 		A = 124,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10389,7 +10389,7 @@ u"""
 entry(
 	index = 384,
 	label = "Cds-CdCdsN3d",
-	group = 
+	group =
 """
 1 * Cd         u0 {2,D} {5,S} {6,S}
 2   Cd         u0 {1,D} {3,S} {4,S}
@@ -10413,7 +10413,7 @@ entry(
 		A = 51,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10422,7 +10422,7 @@ u"""
 entry(
 	index = 385,
 	label = "Cds-CdCtN3d",
-	group = 
+	group =
 """
 1 * Cd   u0 {2,D} {5,S} {6,S}
 2   Cd   u0 {1,D} {3,S} {4,S}
@@ -10446,7 +10446,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10455,7 +10455,7 @@ u"""
 entry(
 	index = 386,
 	label = "Cds-CdCN5dc",
-	group = 
+	group =
 """
 1 * Cd   u0 {2,D} {5,S} {6,S}
 2   Cd   u0 {1,D} {3,S} {4,S}
@@ -10479,7 +10479,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10488,7 +10488,7 @@ u"""
 entry(
 	index = 387,
 	label = "Cds-Sd",
-	group = 
+	group =
 """
 1 * CS u0 {2,D}
 2   S  u0 {1,D}
@@ -10496,7 +10496,7 @@ entry(
 	solute = u'Cds-S2dNN',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10505,7 +10505,7 @@ u"""
 entry(
 	index = 388,
 	label = "Cds-S2dNN",
-	group = 
+	group =
 """
 1 * CS u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
@@ -10527,7 +10527,7 @@ entry(
 		A = 19,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10536,7 +10536,7 @@ u"""
 entry(
 	index = 389,
 	label = "Cds-S2dNC",
-	group = 
+	group =
 """
 1 * CS u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
@@ -10558,7 +10558,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10567,7 +10567,7 @@ u"""
 entry(
 	index = 390,
 	label = "Cds-S2dNS",
-	group = 
+	group =
 """
 1 * CS u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
@@ -10589,7 +10589,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10598,7 +10598,7 @@ u"""
 entry(
 	index = 391,
 	label = "Cds-S2dOC",
-	group = 
+	group =
 """
 1 * CS u0 {2,D} {3,S} {4,S}
 2   S2d u0 {1,D}
@@ -10620,7 +10620,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10629,14 +10629,14 @@ u"""
 entry(
 	index = 392,
 	label = "Cs",
-	group = 
+	group =
 """
 1 * Cs u0
 """,
 	solute = u'Cs-CCCC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10645,7 +10645,7 @@ u"""
 entry(
 	index = 393,
 	label = "Cs-P3s",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S}
 2   P3s u0 {1,S}
@@ -10653,7 +10653,7 @@ entry(
 	solute = u'Cs-P3sHHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10662,7 +10662,7 @@ u"""
 entry(
 	index = 394,
 	label = "Cs-P3sHHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P3s u0 {1,S}
@@ -10685,7 +10685,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10694,7 +10694,7 @@ u"""
 entry(
 	index = 395,
 	label = "Cs-P3sRHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P3s u0 {1,S}
@@ -10705,7 +10705,7 @@ entry(
 	solute = u'Cs-P3sCsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10714,7 +10714,7 @@ u"""
 entry(
 	index = 396,
 	label = "Cs-P3sCsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P3s u0 {1,S}
@@ -10725,7 +10725,7 @@ entry(
 	solute = u'Cs-P3sHHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10734,7 +10734,7 @@ u"""
 entry(
 	index = 397,
 	label = "Cs-P5d",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S}
 2   P5d u0 {1,S}
@@ -10742,7 +10742,7 @@ entry(
 	solute = u'Cs-P5dRHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10751,7 +10751,7 @@ u"""
 entry(
 	index = 398,
 	label = "Cs-P5dHHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S}
@@ -10762,7 +10762,7 @@ entry(
 	solute = u'Cs-(P5d-O2d)HHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10771,7 +10771,7 @@ u"""
 entry(
 	index = 399,
 	label = "Cs-(P5d-O2d)HHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S} {6,D}
@@ -10795,7 +10795,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10804,7 +10804,7 @@ u"""
 entry(
 	index = 400,
 	label = "Cs-P5dRHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S}
@@ -10815,7 +10815,7 @@ entry(
 	solute = u'Cs-P5dCHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10824,7 +10824,7 @@ u"""
 entry(
 	index = 401,
 	label = "Cs-P5dNHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S}
@@ -10835,7 +10835,7 @@ entry(
 	solute = u'Cs-P5dN3sHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10844,7 +10844,7 @@ u"""
 entry(
 	index = 402,
 	label = "Cs-P5dN3sHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S}
@@ -10855,7 +10855,7 @@ entry(
 	solute = u'Cs-P5dCsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10864,7 +10864,7 @@ u"""
 entry(
 	index = 403,
 	label = "Cs-P5dCHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S}
@@ -10875,7 +10875,7 @@ entry(
 	solute = u'Cs-P5dCsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10884,7 +10884,7 @@ u"""
 entry(
 	index = 404,
 	label = "Cs-P5dCsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S}
@@ -10907,7 +10907,7 @@ entry(
 		A = 25,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10916,7 +10916,7 @@ u"""
 entry(
 	index = 405,
 	label = "Cs-P5dOsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
@@ -10939,7 +10939,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10948,7 +10948,7 @@ u"""
 entry(
 	index = 407,
 	label = "Cs-P5dOCH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S}
@@ -10971,7 +10971,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -10980,7 +10980,7 @@ u"""
 entry(
 	index = 408,
 	label = "Cs-P5d(O-H)CH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S}
@@ -11004,7 +11004,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11013,7 +11013,7 @@ u"""
 entry(
 	index = 409,
 	label = "Cs-P5dOCC",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d  u0 {1,S}
@@ -11024,7 +11024,7 @@ entry(
 	solute = u'Cs-P5dOCC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11033,7 +11033,7 @@ u"""
 entry(
 	index = 410,
 	label = "Cs-P5dOCC",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S}
@@ -11044,7 +11044,7 @@ entry(
 	solute = u'Cs-P5dOCH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11053,7 +11053,7 @@ u"""
 entry(
 	index = 411,
 	label = "Cs-P5d(O-H)CC",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S}
@@ -11065,7 +11065,7 @@ entry(
 	solute = u'Cs-P5d(O-H)CH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11074,7 +11074,7 @@ u"""
 entry(
 	index = 413,
 	label = "Cs-P5dCCC",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S}
@@ -11085,7 +11085,7 @@ entry(
 	solute = u'Cs-P5dCsCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11094,7 +11094,7 @@ u"""
 entry(
 	index = 414,
 	label = "Cs-P5dCsCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   P5d u0 {1,S}
@@ -11105,7 +11105,7 @@ entry(
 	solute = u'Cs-P5dCsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11114,7 +11114,7 @@ u"""
 entry(
 	index = 415,
 	label = "Cs-NHHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -11125,7 +11125,7 @@ entry(
 	solute = u'Cs-N3sHHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11134,7 +11134,7 @@ u"""
 entry(
 	index = 416,
 	label = "Cs-N3sHHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S}
@@ -11145,7 +11145,7 @@ entry(
 	solute = u'Cs-(N3s-RR)HHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11154,7 +11154,7 @@ u"""
 entry(
 	index = 417,
 	label = "Cs-N3rsHHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 r1 {1,S}
@@ -11177,7 +11177,7 @@ entry(
 		A = 165,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11186,7 +11186,7 @@ u"""
 entry(
 	index = 418,
 	label = "Cs-(N3s-RH)HHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S} {6,S} {7,S}
@@ -11211,7 +11211,7 @@ entry(
 		A = 95,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11220,7 +11220,7 @@ u"""
 entry(
 	index = 419,
 	label = "Cs-(N3s-RR)HHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S} {6,S} {7,S}
@@ -11245,7 +11245,7 @@ entry(
 		A = 257,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11254,7 +11254,7 @@ u"""
 entry(
 	index = 420,
 	label = "Cs-N3dHHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S}
@@ -11265,7 +11265,7 @@ entry(
 	solute = u'Cs-(N3dCd)HHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11274,7 +11274,7 @@ u"""
 entry(
 	index = 421,
 	label = "Cs-(N3dCd)HHH",
-	group = 
+	group =
 """
 1 * Cs       u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d      u0 {1,S} {6,D}
@@ -11298,7 +11298,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11307,7 +11307,7 @@ u"""
 entry(
 	index = 422,
 	label = "Cs-N5cHHH",
-	group = 
+	group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   N    u0 c+1  {1,S}
@@ -11330,7 +11330,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11339,7 +11339,7 @@ u"""
 entry(
 	index = 423,
 	label = "Cs-NNHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -11362,7 +11362,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11371,7 +11371,7 @@ u"""
 entry(
 	index = 424,
 	label = "Cs-NOHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -11382,7 +11382,7 @@ entry(
 	solute = u'Cs-N3sOHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11391,7 +11391,7 @@ u"""
 entry(
 	index = 425,
 	label = "Cs-N3sOHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S}
@@ -11402,7 +11402,7 @@ entry(
 	solute = u'Cs-N3rsOHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11411,7 +11411,7 @@ u"""
 entry(
 	index = 426,
 	label = "Cs-N3rsOHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 r1 {1,S}
@@ -11434,7 +11434,7 @@ entry(
 		A = 45,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11443,7 +11443,7 @@ u"""
 entry(
 	index = 427,
 	label = "Cs-NSHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -11466,7 +11466,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11475,7 +11475,7 @@ u"""
 entry(
 	index = 428,
 	label = "Cs-NCHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -11486,7 +11486,7 @@ entry(
 	solute = u'Cs-NCsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11495,7 +11495,7 @@ u"""
 entry(
 	index = 429,
 	label = "Cs-NCbHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -11518,7 +11518,7 @@ entry(
 		A = 55,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11527,7 +11527,7 @@ u"""
 entry(
 	index = 430,
 	label = "Crs-NrCbHH",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 r1 {1,S}
@@ -11550,7 +11550,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11559,7 +11559,7 @@ u"""
 entry(
 	index = 431,
 	label = "Cs-NrCbHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 r1 {1,S}
@@ -11582,7 +11582,7 @@ entry(
 		A = 34,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11591,7 +11591,7 @@ u"""
 entry(
 	index = 432,
 	label = "Cs-NCsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -11602,7 +11602,7 @@ entry(
 	solute = u'Cs-N3sCsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11611,7 +11611,7 @@ u"""
 entry(
 	index = 433,
 	label = "Cs-N3sCsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S}
@@ -11634,7 +11634,7 @@ entry(
 		A = 421,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11643,7 +11643,7 @@ u"""
 entry(
 	index = 434,
 	label = "Crs-N3rsCrsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 r1 {1,S}
@@ -11666,7 +11666,7 @@ entry(
 		A = 264,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11675,7 +11675,7 @@ u"""
 entry(
 	index = 435,
 	label = "Cs-N3rsCsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 r1 {1,S}
@@ -11698,7 +11698,7 @@ entry(
 		A = 146,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11707,7 +11707,7 @@ u"""
 entry(
 	index = 436,
 	label = "Cs-N3dCHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S}
@@ -11718,7 +11718,7 @@ entry(
 	solute = u'Cs-(N3d-Cd)CsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11727,7 +11727,7 @@ u"""
 entry(
 	index = 437,
 	label = "Cs-(N3d-Nd)CsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S} {6,D}
@@ -11751,7 +11751,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11760,7 +11760,7 @@ u"""
 entry(
 	index = 438,
 	label = "Cs-(N3d-Cd)CsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S} {6,D}
@@ -11784,7 +11784,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11793,7 +11793,7 @@ u"""
 entry(
 	index = 439,
 	label = "Cs-(N3d-Cdd)CsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S} {6,D}
@@ -11817,7 +11817,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11826,7 +11826,7 @@ u"""
 entry(
 	index = 440,
 	label = "Cs-N5cCsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N   u0 c+1 {1,S}
@@ -11849,7 +11849,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11858,7 +11858,7 @@ u"""
 entry(
 	index = 441,
 	label = "Cs-NCdsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   N          u0 {1,S}
@@ -11869,7 +11869,7 @@ entry(
 	solute = u'Cs-N(Cds-Cd)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11878,7 +11878,7 @@ u"""
 entry(
 	index = 442,
 	label = "Cs-N(Cds-O2d)HH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   N          u0 {1,S}
@@ -11901,7 +11901,7 @@ entry(
 		A = 39,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11910,7 +11910,7 @@ u"""
 entry(
 	index = 443,
 	label = "Cs-N(Cds-O2d(OsH))HH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   N          u0 {1,S}
@@ -11935,7 +11935,7 @@ entry(
 		A = 30,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11944,7 +11944,7 @@ u"""
 entry(
 	index = 444,
 	label = "Cs-N(Cds-Cd)HH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   N          u0 {1,S}
@@ -11968,7 +11968,7 @@ entry(
 		A = 39,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -11977,7 +11977,7 @@ u"""
 entry(
 	index = 445,
 	label = "Cs-N(Cds-N3d)HH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   N          u0 {1,S}
@@ -12001,7 +12001,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12010,7 +12010,7 @@ u"""
 entry(
 	index = 446,
 	label = "Cs-NCtHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N   u0 {1,S}
@@ -12033,7 +12033,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12042,7 +12042,7 @@ u"""
 entry(
 	index = 447,
 	label = "Cs-NNCH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -12065,7 +12065,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12074,7 +12074,7 @@ u"""
 entry(
 	index = 448,
 	label = "Cs-NOCH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -12097,7 +12097,7 @@ entry(
 		A = 30,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12106,7 +12106,7 @@ u"""
 entry(
 	index = 449,
 	label = "Cs-NSCH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -12129,7 +12129,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12138,7 +12138,7 @@ u"""
 entry(
 	index = 450,
 	label = "Cs-NCCH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -12161,7 +12161,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12170,7 +12170,7 @@ u"""
 entry(
 	index = 451,
 	label = "Cs-NCsCsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -12181,7 +12181,7 @@ entry(
 	solute = u'Cs-N3sCsCsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12190,7 +12190,7 @@ u"""
 entry(
 	index = 452,
 	label = "Cs-N3sCsCsH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S}
@@ -12213,7 +12213,7 @@ entry(
 		A = 94,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12222,7 +12222,7 @@ u"""
 entry(
 	index = 453,
 	label = "Crs-N3rsCrsCrsH",
-	group = 
+	group =
 """
 1 * Cs  u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 r1 {1,S}
@@ -12245,7 +12245,7 @@ entry(
 		A = 45,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12254,7 +12254,7 @@ u"""
 entry(
 	index = 454,
 	label = "Crs-N3sCrsCrsH",
-	group = 
+	group =
 """
 1 * Cs  u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S}
@@ -12277,7 +12277,7 @@ entry(
 		A = 57,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12286,7 +12286,7 @@ u"""
 entry(
 	index = 455,
 	label = "Crs-N3rsCrsCsH",
-	group = 
+	group =
 """
 1 * Cs  u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 r1 {1,S}
@@ -12309,7 +12309,7 @@ entry(
 		A = 25,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12318,7 +12318,7 @@ u"""
 entry(
 	index = 456,
 	label = "Cs-N3dCsCsH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3d u0 {1,S}
@@ -12341,7 +12341,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12350,7 +12350,7 @@ u"""
 entry(
 	index = 457,
 	label = "Cs-N5dcCsCsH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N5dc u0 {1,S}
@@ -12373,7 +12373,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12382,7 +12382,7 @@ u"""
 entry(
 	index = 458,
 	label = "Cs-NCsCdsH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   N          u0 {1,S}
@@ -12393,7 +12393,7 @@ entry(
 	solute = u'Cs-NCs(Cds-O2d)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12402,7 +12402,7 @@ u"""
 entry(
 	index = 459,
 	label = "Cs-NCs(Cds-O2d)H",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   N          u0 {1,S}
@@ -12425,7 +12425,7 @@ entry(
 		A = 73,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12434,7 +12434,7 @@ u"""
 entry(
 	index = 460,
 	label = "Cs-NCs(Cds-Cd)H",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   N          u0 {1,S}
@@ -12458,7 +12458,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12467,7 +12467,7 @@ u"""
 entry(
 	index = 461,
 	label = "Cs-NOCR",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N   u0 {1,S}
@@ -12490,7 +12490,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12499,7 +12499,7 @@ u"""
 entry(
 	index = 462,
 	label = "Cs-NCCC",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -12510,7 +12510,7 @@ entry(
 	solute = u'Cs-NCsCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12519,7 +12519,7 @@ u"""
 entry(
 	index = 463,
 	label = "Cs-NCsCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -12530,7 +12530,7 @@ entry(
 	solute = u'Cs-N3CsCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12539,7 +12539,7 @@ u"""
 entry(
 	index = 464,
 	label = "Cs-N3CsCsCs",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   [N3s,N3d] u0 {1,S}
@@ -12562,7 +12562,7 @@ entry(
 		A = 44,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12571,7 +12571,7 @@ u"""
 entry(
 	index = 465,
 	label = "Cs-N5dcCsCsCs",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N5dc u0 {1,S}
@@ -12594,7 +12594,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12603,7 +12603,7 @@ u"""
 entry(
 	index = 466,
 	label = "Cs-NCdCbCb",
-	group = 
+	group =
 """
 1 * Cs          u0 {2,S} {3,S} {4,S} {5,S}
 2   N           u0 {1,S}
@@ -12614,7 +12614,7 @@ entry(
 	solute = u'Cs-N3s(Cd-O2d)CbCb',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12623,7 +12623,7 @@ u"""
 entry(
 	index = 467,
 	label = "Cs-N3s(Cd-O2d)CbCb",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   N3s u0 {1,S}
@@ -12646,7 +12646,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12655,7 +12655,7 @@ u"""
 entry(
 	index = 468,
 	label = "Cs-NNNN",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   N  u0 {1,S}
@@ -12666,7 +12666,7 @@ entry(
 	solute = u'Cs-N5dcN5dcN5dcN5dc',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12675,7 +12675,7 @@ u"""
 entry(
 	index = 469,
 	label = "Cs-N5dcN5dcN5dcN5dc",
-	group = 
+	group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   N5dc u0 {1,S}
@@ -12698,7 +12698,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12707,7 +12707,7 @@ u"""
 entry(
 	index = 470,
 	label = "Cs-OsHHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
@@ -12730,7 +12730,7 @@ entry(
 		A = 692,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12739,7 +12739,7 @@ u"""
 entry(
 	index = 471,
 	label = "Cs-OsOsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
@@ -12762,7 +12762,7 @@ entry(
 		A = 36,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12771,7 +12771,7 @@ u"""
 entry(
 	index = 472,
 	label = "Crs-OrsOrsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 r1 {1,S}
@@ -12794,7 +12794,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12803,7 +12803,7 @@ u"""
 entry(
 	index = 473,
 	label = "Cs-OsSHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
@@ -12814,7 +12814,7 @@ entry(
 	solute = u'Cs-OsS2HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12823,7 +12823,7 @@ u"""
 entry(
 	index = 474,
 	label = "Cs-OsS2HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
@@ -12846,7 +12846,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12855,7 +12855,7 @@ u"""
 entry(
 	index = 475,
 	label = "Cs-OsOsOsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
@@ -12866,7 +12866,7 @@ entry(
 	solute = u'Cs-OsOsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12875,7 +12875,7 @@ u"""
 entry(
 	index = 476,
 	label = "Cs-OsOsOsCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
@@ -12886,7 +12886,7 @@ entry(
 	solute = u'Cs-CsCsOsOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12895,7 +12895,7 @@ u"""
 entry(
 	index = 477,
 	label = "Cs-CHHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -12906,7 +12906,7 @@ entry(
 	solute = u'Cs-CsHHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12915,7 +12915,7 @@ u"""
 entry(
 	index = 478,
 	label = "Cs-CsHHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -12938,7 +12938,7 @@ entry(
 		A = 3882,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12947,7 +12947,7 @@ u"""
 entry(
 	index = 479,
 	label = "Cs-CdsHHH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 {1,S}
@@ -12958,7 +12958,7 @@ entry(
 	solute = u'Cs-(Cds-Cd)HHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -12967,7 +12967,7 @@ u"""
 entry(
 	index = 480,
 	label = "Cs-(Cds-O2d)HHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -12991,7 +12991,7 @@ entry(
 		A = 502,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13000,7 +13000,7 @@ u"""
 entry(
 	index = 481,
 	label = "Cs-(Cds-Cd)HHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -13012,7 +13012,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)HHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13021,7 +13021,7 @@ u"""
 entry(
 	index = 482,
 	label = "Cs-(Cds-Cds)HHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -13045,7 +13045,7 @@ entry(
 		A = 615,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13054,7 +13054,7 @@ u"""
 entry(
 	index = 483,
 	label = "Cs-(Cds-Cdd)HHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
@@ -13066,7 +13066,7 @@ entry(
 	solute = u'Cs-(Cds-Cdd-Cd)HHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13075,7 +13075,7 @@ u"""
 entry(
 	index = 484,
 	label = "Cs-(Cds-Cdd-Cd)HHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
@@ -13100,7 +13100,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13109,7 +13109,7 @@ u"""
 entry(
 	index = 485,
 	label = "Cs-(Cd-Nd)HHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
@@ -13133,7 +13133,7 @@ entry(
 		A = 134,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13142,7 +13142,7 @@ u"""
 entry(
 	index = 486,
 	label = "Cs-(Cd-S2d)SHHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
@@ -13166,7 +13166,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13175,7 +13175,7 @@ u"""
 entry(
 	index = 487,
 	label = "Cs-CtHHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
@@ -13186,7 +13186,7 @@ entry(
 	solute = u'Cs-(Ct-Ct)HHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13195,7 +13195,7 @@ u"""
 entry(
 	index = 488,
 	label = "Cs-(Ct-Ct)HHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S} {6,T}
@@ -13219,7 +13219,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13228,7 +13228,7 @@ u"""
 entry(
 	index = 489,
 	label = "Cs-CbHHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -13251,7 +13251,7 @@ entry(
 		A = 808,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13260,7 +13260,7 @@ u"""
 entry(
 	index = 490,
 	label = "Cs-CCHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -13271,7 +13271,7 @@ entry(
 	solute = u'Cs-CsCsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13280,7 +13280,7 @@ u"""
 entry(
 	index = 491,
 	label = "Crs-CrCrHH",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 r1 {1,S}
@@ -13291,7 +13291,7 @@ entry(
 	solute = u'Crs-CrsCrsHH',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13300,7 +13300,7 @@ u"""
 entry(
 	index = 492,
 	label = "Crs-CrsCrsHH",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -13323,7 +13323,7 @@ entry(
 		A = 949,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13332,7 +13332,7 @@ u"""
 entry(
 	index = 493,
 	label = "Crs-CrdsCrsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -13343,7 +13343,7 @@ entry(
 	solute = u'Crs-(Crds-O2d)CrsHH',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13352,7 +13352,7 @@ u"""
 entry(
 	index = 494,
 	label = "Crs-(Crds-Cd)CrsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cd         u0 r1 {1,S} {6,D}
@@ -13376,7 +13376,7 @@ entry(
 		A = 51,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13385,7 +13385,7 @@ u"""
 entry(
 	index = 495,
 	label = "Crs-(Crds-Crd)CrsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cd         u0 r1 {1,S} {6,D}
@@ -13409,7 +13409,7 @@ entry(
 		A = 260,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13418,7 +13418,7 @@ u"""
 entry(
 	index = 496,
 	label = "Crs-(Crds-O2d)CrsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   CO         u0 r1 {1,S} {6,D}
@@ -13442,7 +13442,7 @@ entry(
 		A = 193,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13451,7 +13451,7 @@ u"""
 entry(
 	index = 497,
 	label = "Crs-(Crds-Nd)CrsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cd         u0 r1 {1,S} {6,D}
@@ -13463,7 +13463,7 @@ entry(
 	solute = u'Crs-(Crds-N3d)CrsHH',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13472,7 +13472,7 @@ u"""
 entry(
 	index = 498,
 	label = "Crs-(Crds-Nrd)CrsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cd         u0 r1 {1,S} {6,D}
@@ -13484,7 +13484,7 @@ entry(
 	solute = u'Crs-(Crds-N3rd)CrsHH',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13493,7 +13493,7 @@ u"""
 entry(
 	index = 499,
 	label = "Crs-(Crds-N3rd)CrsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cd         u0 r1 {1,S} {6,D}
@@ -13517,7 +13517,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13526,7 +13526,7 @@ u"""
 entry(
 	index = 500,
 	label = "Crs-(Crds-N3d)CrsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cd         u0 r1 {1,S} {6,D}
@@ -13550,7 +13550,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13559,7 +13559,7 @@ u"""
 entry(
 	index = 501,
 	label = "Crs-CrdsCrdsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -13582,7 +13582,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13591,7 +13591,7 @@ u"""
 entry(
 	index = 502,
 	label = "Crs-CbCrsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb         u0 r1 {1,S}
@@ -13614,7 +13614,7 @@ entry(
 		A = 99,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13623,7 +13623,7 @@ u"""
 entry(
 	index = 503,
 	label = "Crs-CbCrdsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb         u0 r1 {1,S}
@@ -13646,7 +13646,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13655,7 +13655,7 @@ u"""
 entry(
 	index = 504,
 	label = "Crs-CbCbHH",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 r1 {1,S}
@@ -13678,7 +13678,7 @@ entry(
 		A = 18,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13687,7 +13687,7 @@ u"""
 entry(
 	index = 505,
 	label = "Cs-CsCsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -13710,7 +13710,7 @@ entry(
 		A = 2319,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13719,7 +13719,7 @@ u"""
 entry(
 	index = 506,
 	label = "Cs-CdsCsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 {1,S}
@@ -13730,7 +13730,7 @@ entry(
 	solute = u'Cs-(Cds-Cd)CsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13739,7 +13739,7 @@ u"""
 entry(
 	index = 507,
 	label = "Cs-(Cds-O2d)CsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -13763,7 +13763,7 @@ entry(
 		A = 614,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13772,7 +13772,7 @@ u"""
 entry(
 	index = 508,
 	label = "Cs-(Cds-Cd)CsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -13784,7 +13784,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)CsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13793,7 +13793,7 @@ u"""
 entry(
 	index = 509,
 	label = "Cs-(Cds-Cds)CsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -13817,7 +13817,7 @@ entry(
 		A = 446,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13826,7 +13826,7 @@ u"""
 entry(
 	index = 510,
 	label = "Cs-(Cds-Cdd)CsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D}
@@ -13838,7 +13838,7 @@ entry(
 	solute = u'Cs-(Cds-Cdd-Cd)CsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13847,7 +13847,7 @@ u"""
 entry(
 	index = 511,
 	label = "Cs-(Cds-Cdd-Cd)CsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {4,S} {5,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
@@ -13872,7 +13872,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13881,7 +13881,7 @@ u"""
 entry(
 	index = 512,
 	label = "Cs-(Cd-N3d)CsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D} {7,S}
@@ -13906,7 +13906,7 @@ entry(
 		A = 57,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13915,7 +13915,7 @@ u"""
 entry(
 	index = 513,
 	label = "Cs-(Cds-S2d)CsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CS u0 {1,S} {6,D}
@@ -13927,7 +13927,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)CsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13936,7 +13936,7 @@ u"""
 entry(
 	index = 514,
 	label = "Cs-CdsCdsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 {1,S}
@@ -13947,7 +13947,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)(Cds-Cd)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13956,7 +13956,7 @@ u"""
 entry(
 	index = 515,
 	label = "Cs-(Cds-O2d)(Cds-O2d)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -13981,7 +13981,7 @@ entry(
 		A = 30,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -13990,7 +13990,7 @@ u"""
 entry(
 	index = 516,
 	label = "Cs-(Cds-O2d)(Cds-Cd)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {7,D}
@@ -14003,7 +14003,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)(Cds-Cds)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14012,7 +14012,7 @@ u"""
 entry(
 	index = 517,
 	label = "Cs-(Cds-O2d)(Cds-Cds)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {7,D}
@@ -14037,7 +14037,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14046,7 +14046,7 @@ u"""
 entry(
 	index = 518,
 	label = "Cs-(Cds-Cd)(Cds-Cd)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -14059,7 +14059,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)(Cds-Cds)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14068,7 +14068,7 @@ u"""
 entry(
 	index = 519,
 	label = "Cs-(Cds-Cds)(Cds-Cds)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -14093,7 +14093,7 @@ entry(
 		A = 20,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14102,7 +14102,7 @@ u"""
 entry(
 	index = 520,
 	label = "Cs-CtCsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
@@ -14113,7 +14113,7 @@ entry(
 	solute = u'Cs-(Ct-Ct)CsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14122,7 +14122,7 @@ u"""
 entry(
 	index = 521,
 	label = "Cs-(Ct-N3t)CsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S} {6,T}
@@ -14146,7 +14146,7 @@ entry(
 		A = 28,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14155,7 +14155,7 @@ u"""
 entry(
 	index = 522,
 	label = "Cs-(Ct-Ct)CsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S} {6,T}
@@ -14179,7 +14179,7 @@ entry(
 		A = 49,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14188,7 +14188,7 @@ u"""
 entry(
 	index = 523,
 	label = "Cs-CtCdsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct         u0 {1,S}
@@ -14211,7 +14211,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14220,7 +14220,7 @@ u"""
 entry(
 	index = 524,
 	label = "Cs-CtCtHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
@@ -14231,7 +14231,7 @@ entry(
 	solute = u'Cs-(Ct-N3t)(Ct-N3t)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14240,7 +14240,7 @@ u"""
 entry(
 	index = 525,
 	label = "Cs-(Ct-N3t)(Ct-N3t)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S} {6,T}
@@ -14265,7 +14265,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14274,7 +14274,7 @@ u"""
 entry(
 	index = 526,
 	label = "Cs-CbCsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -14297,7 +14297,7 @@ entry(
 		A = 409,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14306,7 +14306,7 @@ u"""
 entry(
 	index = 527,
 	label = "Cs-CbCdsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb         u0 {1,S}
@@ -14317,7 +14317,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)CbHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14326,7 +14326,7 @@ u"""
 entry(
 	index = 528,
 	label = "Cs-(Cds-O2d)CbHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -14350,7 +14350,7 @@ entry(
 		A = 61,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14359,7 +14359,7 @@ u"""
 entry(
 	index = 529,
 	label = "Cs-(Cds-Cd)CbHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -14371,7 +14371,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)CbHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14380,7 +14380,7 @@ u"""
 entry(
 	index = 530,
 	label = "Cs-(Cds-Cds)CbHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -14404,7 +14404,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14413,7 +14413,7 @@ u"""
 entry(
 	index = 531,
 	label = "Cs-(Cds-N3d)CbHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -14437,7 +14437,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14446,7 +14446,7 @@ u"""
 entry(
 	index = 532,
 	label = "Cs-CbCtHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -14469,7 +14469,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14478,7 +14478,7 @@ u"""
 entry(
 	index = 533,
 	label = "Cs-CbCbHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -14501,7 +14501,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14510,7 +14510,7 @@ u"""
 entry(
 	index = 534,
 	label = "Cs-CCCH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -14521,7 +14521,7 @@ entry(
 	solute = u'Cs-CsCsCsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14530,7 +14530,7 @@ u"""
 entry(
 	index = 535,
 	label = "Crs-CrCrCrH",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 r1 {1,S}
@@ -14541,7 +14541,7 @@ entry(
 	solute = u'Crs-CrsCrsCrsH',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14550,7 +14550,7 @@ u"""
 entry(
 	index = 536,
 	label = "Crs-CrsCrsCrsH",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -14573,7 +14573,7 @@ entry(
 		A = 287,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14582,7 +14582,7 @@ u"""
 entry(
 	index = 537,
 	label = "Crs-CrdCrsCrsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -14593,7 +14593,7 @@ entry(
 	solute = u'Crs-(Crd-Cd)CrsCrsH',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14602,7 +14602,7 @@ u"""
 entry(
 	index = 538,
 	label = "Crs-(Crd-Cd)CrsCrsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cd         u0 r1 {1,S} {6,D}
@@ -14626,7 +14626,7 @@ entry(
 		A = 34,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14635,7 +14635,7 @@ u"""
 entry(
 	index = 539,
 	label = "Crs-(Crd-Crd)CrsCrsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cd         u0 r1 {1,S} {6,D}
@@ -14659,7 +14659,7 @@ entry(
 		A = 96,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14668,7 +14668,7 @@ u"""
 entry(
 	index = 540,
 	label = "Crs-(Crd-O2d)CrsCrsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   CO         u0 r1 {1,S} {6,D}
@@ -14692,7 +14692,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14701,7 +14701,7 @@ u"""
 entry(
 	index = 541,
 	label = "Crs-CbCrsCrsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb         u0 r1 {1,S}
@@ -14724,7 +14724,7 @@ entry(
 		A = 36,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14733,7 +14733,7 @@ u"""
 entry(
 	index = 542,
 	label = "Crs-CrdCrdCrsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -14756,7 +14756,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14765,7 +14765,7 @@ u"""
 entry(
 	index = 543,
 	label = "Crs-CbCrdCrsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb         u0 r1 {1,S}
@@ -14788,7 +14788,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14797,7 +14797,7 @@ u"""
 entry(
 	index = 544,
 	label = "Crs-CbCrdCrdH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb         u0 r1 {1,S}
@@ -14820,7 +14820,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14829,7 +14829,7 @@ u"""
 entry(
 	index = 545,
 	label = "Crs-CbCbCrsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb         u0 r1 {1,S}
@@ -14852,7 +14852,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14861,7 +14861,7 @@ u"""
 entry(
 	index = 546,
 	label = "Crs-CrCrCH",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 r1 {1,S}
@@ -14872,7 +14872,7 @@ entry(
 	solute = u'Crs-CrsCrsCsH',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14881,7 +14881,7 @@ u"""
 entry(
 	index = 547,
 	label = "Crs-CrsCrsCsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs         u0 r1 {1,S}
@@ -14904,7 +14904,7 @@ entry(
 		A = 227,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14913,7 +14913,7 @@ u"""
 entry(
 	index = 548,
 	label = "Crs-CrsCrsCdH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs         u0 r1 {1,S}
@@ -14936,7 +14936,7 @@ entry(
 		A = 82,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14945,7 +14945,7 @@ u"""
 entry(
 	index = 549,
 	label = "Crs-CrsCrsCtH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs         u0 r1 {1,S}
@@ -14956,7 +14956,7 @@ entry(
 	solute = u'Crs-CrsCrs(Ct-Ct)H',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14965,7 +14965,7 @@ u"""
 entry(
 	index = 550,
 	label = "Crs-CrsCrs(Ct-N3t)H",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs         u0 r1 {1,S}
@@ -14977,7 +14977,7 @@ entry(
 	solute = u'Cs-(Ct-N3t)CsCsH',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -14986,7 +14986,7 @@ u"""
 entry(
 	index = 551,
 	label = "Crs-CrsCrs(Ct-Ct)H",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs         u0 r1 {1,S}
@@ -14998,7 +14998,7 @@ entry(
 	solute = u'Cs-(Ct-Ct)CsCsH',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15007,7 +15007,7 @@ u"""
 entry(
 	index = 552,
 	label = "Crs-CrdCrsCsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -15030,7 +15030,7 @@ entry(
 		A = 47,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15039,7 +15039,7 @@ u"""
 entry(
 	index = 553,
 	label = "Crs-CrdCrsCdH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -15062,7 +15062,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15071,7 +15071,7 @@ u"""
 entry(
 	index = 554,
 	label = "Crs-CrdCrdCsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -15094,7 +15094,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15103,7 +15103,7 @@ u"""
 entry(
 	index = 555,
 	label = "Crs-CrdCrdCdH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -15126,7 +15126,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15135,7 +15135,7 @@ u"""
 entry(
 	index = 556,
 	label = "Crs-CbCrsCsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb         u0 r1 {1,S}
@@ -15158,7 +15158,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15167,7 +15167,7 @@ u"""
 entry(
 	index = 557,
 	label = "Crs-CbCbCsH",
-	group = 
+	group =
 """
 1 * Cs         u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb         u0 r1 {1,S}
@@ -15190,7 +15190,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15199,7 +15199,7 @@ u"""
 entry(
 	index = 558,
 	label = "Cs-CsCsCsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -15222,7 +15222,7 @@ entry(
 		A = 432,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15231,7 +15231,7 @@ u"""
 entry(
 	index = 559,
 	label = "Cs-CdsCsCsH",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO] u0 {1,S}
@@ -15242,7 +15242,7 @@ entry(
 	solute = u'Cs-(Cds-Cd)CsCsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15251,7 +15251,7 @@ u"""
 entry(
 	index = 560,
 	label = "Cs-(Cds-O2d)CsCsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -15275,7 +15275,7 @@ entry(
 		A = 98,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15284,7 +15284,7 @@ u"""
 entry(
 	index = 561,
 	label = "Cs-(Cds-Cd)CsCsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -15296,7 +15296,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)CsCsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15305,7 +15305,7 @@ u"""
 entry(
 	index = 562,
 	label = "Cs-(Cds-Cds)CsCsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -15329,7 +15329,7 @@ entry(
 		A = 36,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15338,7 +15338,7 @@ u"""
 entry(
 	index = 563,
 	label = "Cs-(CdN3d)CsCsH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd  u0 {1,S} {6,D} {7,S}
@@ -15363,7 +15363,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15372,7 +15372,7 @@ u"""
 entry(
 	index = 564,
 	label = "Cs-CtCsCsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
@@ -15383,7 +15383,7 @@ entry(
 	solute = u'Cs-(Ct-N3t)CsCsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15392,7 +15392,7 @@ u"""
 entry(
 	index = 565,
 	label = "Cs-(Ct-N3t)CsCsH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S} {6,T}
@@ -15416,7 +15416,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15425,7 +15425,7 @@ u"""
 entry(
 	index = 566,
 	label = "Cs-(Ct-Ct)CsCsH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct  u0 {1,S} {6,T}
@@ -15449,7 +15449,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15458,7 +15458,7 @@ u"""
 entry(
 	index = 567,
 	label = "Cs-CbCsCsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -15481,7 +15481,7 @@ entry(
 		A = 95,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15490,7 +15490,7 @@ u"""
 entry(
 	index = 568,
 	label = "Cs-CdsCdsCsH",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO] u0 {1,S}
@@ -15513,7 +15513,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15522,7 +15522,7 @@ u"""
 entry(
 	index = 569,
 	label = "Cs-CbCdsCsH",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
@@ -15533,7 +15533,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)CbCsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15542,7 +15542,7 @@ u"""
 entry(
 	index = 570,
 	label = "Cs-(Cds-O2d)CbCsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -15566,7 +15566,7 @@ entry(
 		A = 28,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15575,7 +15575,7 @@ u"""
 entry(
 	index = 571,
 	label = "Cs-(Cds-Cd)CbCsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -15587,7 +15587,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)CbCsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15596,7 +15596,7 @@ u"""
 entry(
 	index = 572,
 	label = "Cs-(Cds-Cds)CbCsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -15620,7 +15620,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15629,7 +15629,7 @@ u"""
 entry(
 	index = 573,
 	label = "Cs-CbCbCsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -15652,7 +15652,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15661,7 +15661,7 @@ u"""
 entry(
 	index = 574,
 	label = "Cs-CbCdsCdsH",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
@@ -15684,7 +15684,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15693,7 +15693,7 @@ u"""
 entry(
 	index = 575,
 	label = "Cs-CbCbCdsH",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
@@ -15704,7 +15704,7 @@ entry(
 	solute = u'Cs-CbCb(Cds-O2d)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15713,7 +15713,7 @@ u"""
 entry(
 	index = 576,
 	label = "Cs-CbCb(Cds-O2d)H",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -15737,7 +15737,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15746,7 +15746,7 @@ u"""
 entry(
 	index = 577,
 	label = "Cs-CbCbCbH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -15769,7 +15769,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15778,7 +15778,7 @@ u"""
 entry(
 	index = 578,
 	label = "Cs-CCCC",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -15789,7 +15789,7 @@ entry(
 	solute = u'Cs-CsCsCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15798,7 +15798,7 @@ u"""
 entry(
 	index = 579,
 	label = "Crs-CrCrCrCr",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 r1 {1,S}
@@ -15809,7 +15809,7 @@ entry(
 	solute = u'Crs-CbCrsCrsCrs',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15818,7 +15818,7 @@ u"""
 entry(
 	index = 580,
 	label = "Crs-CrsCrsCrsCrs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -15841,7 +15841,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15850,7 +15850,7 @@ u"""
 entry(
 	index = 581,
 	label = "Crs-CbCrsCrsCrs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 r1 {1,S}
@@ -15873,7 +15873,7 @@ entry(
 		A = 20,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15882,7 +15882,7 @@ u"""
 entry(
 	index = 582,
 	label = "Crs-CrdCrsCrsCrs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -15905,7 +15905,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15914,7 +15914,7 @@ u"""
 entry(
 	index = 583,
 	label = "Crs-CbCrdCrsCrs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 r1 {1,S}
@@ -15937,7 +15937,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15946,7 +15946,7 @@ u"""
 entry(
 	index = 584,
 	label = "Crs-CrCrCrC",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 r1 {1,S}
@@ -15957,7 +15957,7 @@ entry(
 	solute = u'Crs-CrsCrsCrsCs',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15966,7 +15966,7 @@ u"""
 entry(
 	index = 585,
 	label = "Crs-CrsCrsCrsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -15989,7 +15989,7 @@ entry(
 		A = 168,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -15998,7 +15998,7 @@ u"""
 entry(
 	index = 586,
 	label = "Crs-CbCrsCrsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 r1 {1,S}
@@ -16021,7 +16021,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16030,7 +16030,7 @@ u"""
 entry(
 	index = 587,
 	label = "Crs-CbCrsCrsCd",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 r1 {1,S}
@@ -16053,7 +16053,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16062,7 +16062,7 @@ u"""
 entry(
 	index = 588,
 	label = "Crs-CbCrdCrsCd",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 r1 {1,S}
@@ -16085,7 +16085,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16094,7 +16094,7 @@ u"""
 entry(
 	index = 589,
 	label = "Crs-CbCbCrsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 r1 {1,S}
@@ -16117,7 +16117,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16126,7 +16126,7 @@ u"""
 entry(
 	index = 590,
 	label = "Crs-CrsCrsCrsCd",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -16137,7 +16137,7 @@ entry(
 	solute = u'Crs-CrsCrsCrs(Cd-O2d)',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16146,7 +16146,7 @@ u"""
 entry(
 	index = 591,
 	label = "Crs-CrsCrsCrs(Cd-O2d)",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -16169,7 +16169,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16178,7 +16178,7 @@ u"""
 entry(
 	index = 592,
 	label = "Crs-CrdCrsCrsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -16189,7 +16189,7 @@ entry(
 	solute = u'Crs-(Crd-O2d)CrsCrsCs',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16198,7 +16198,7 @@ u"""
 entry(
 	index = 593,
 	label = "Crs-(Crd-O2d)CrsCrsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 r1 {1,S}
@@ -16221,7 +16221,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16230,7 +16230,7 @@ u"""
 entry(
 	index = 594,
 	label = "Crs-(Crd-Cd)CrsCrsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 r1 {1,S} {6,D}
@@ -16242,7 +16242,7 @@ entry(
 	solute = u'Crs-(Crd-Crd)CrsCrsCs',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16251,7 +16251,7 @@ u"""
 entry(
 	index = 595,
 	label = "Crs-(Crd-Crd)CrsCrsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 r1 {1,S} {6,D}
@@ -16275,7 +16275,7 @@ entry(
 		A = 86,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16284,7 +16284,7 @@ u"""
 entry(
 	index = 596,
 	label = "Crs-CrdCrdCrsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -16307,7 +16307,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16316,7 +16316,7 @@ u"""
 entry(
 	index = 597,
 	label = "Crs-CrdCrdCbCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -16339,7 +16339,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16348,7 +16348,7 @@ u"""
 entry(
 	index = 598,
 	label = "Crs-CrdCrdCrdCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -16371,7 +16371,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16380,7 +16380,7 @@ u"""
 entry(
 	index = 599,
 	label = "Crs-CrCrCC",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 r1 {1,S}
@@ -16391,7 +16391,7 @@ entry(
 	solute = u'Crs-CrsCrsCsCs',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16400,7 +16400,7 @@ u"""
 entry(
 	index = 600,
 	label = "Crs-CrsCrsCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -16423,7 +16423,7 @@ entry(
 		A = 84,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16432,7 +16432,7 @@ u"""
 entry(
 	index = 601,
 	label = "Crs-CbCrsCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 r1 {1,S}
@@ -16455,7 +16455,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16464,7 +16464,7 @@ u"""
 entry(
 	index = 602,
 	label = "Crs-CrdCrsCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -16487,7 +16487,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16496,7 +16496,7 @@ u"""
 entry(
 	index = 603,
 	label = "Crs-CrdCrdCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -16507,7 +16507,7 @@ entry(
 	solute = u'Crs-(Crd-O2d)(Crd-O2d)CsCs',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16516,7 +16516,7 @@ u"""
 entry(
 	index = 604,
 	label = "Crs-(Crd-O2d)(Crd-O2d)CsCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 r1 {1,S}
@@ -16539,7 +16539,7 @@ entry(
 		A = 46,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16548,7 +16548,7 @@ u"""
 entry(
 	index = 605,
 	label = "Crs-CrdCrdCdCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 r1 {1,S}
@@ -16559,7 +16559,7 @@ entry(
 	solute = u'Crs-(Crd-O2d)(Crd-O2d)CdCs',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16568,7 +16568,7 @@ u"""
 entry(
 	index = 606,
 	label = "Crs-(Crd-O2d)(Crd-O2d)CdCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 r1 {1,S}
@@ -16579,7 +16579,7 @@ entry(
 	solute = u'Crs-(Crd-O2d)(Crd-O2d)CsCs',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16588,7 +16588,7 @@ u"""
 entry(
 	index = 607,
 	label = "Crs-CrsCrsCdCs",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -16611,7 +16611,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16620,7 +16620,7 @@ u"""
 entry(
 	index = 608,
 	label = "Cs-CsCsCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -16643,7 +16643,7 @@ entry(
 		A = 80,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16652,7 +16652,7 @@ u"""
 entry(
 	index = 609,
 	label = "Cs-CdsCsCsCs",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO] u0 {1,S}
@@ -16663,7 +16663,7 @@ entry(
 	solute = u'Cs-(Cds-Cd)CsCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16672,7 +16672,7 @@ u"""
 entry(
 	index = 610,
 	label = "Cs-(Cds-O2d)CsCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -16696,7 +16696,7 @@ entry(
 		A = 20,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16705,7 +16705,7 @@ u"""
 entry(
 	index = 611,
 	label = "Cs-(Cds-Cd)CsCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -16717,7 +16717,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)CsCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16726,7 +16726,7 @@ u"""
 entry(
 	index = 612,
 	label = "Cs-(Cds-Cds)CsCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -16750,7 +16750,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16759,7 +16759,7 @@ u"""
 entry(
 	index = 613,
 	label = "Cs-CtCsCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
@@ -16782,7 +16782,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16791,7 +16791,7 @@ u"""
 entry(
 	index = 614,
 	label = "Cs-CbCsCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -16814,7 +16814,7 @@ entry(
 		A = 67,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16823,7 +16823,7 @@ u"""
 entry(
 	index = 615,
 	label = "Cs-CdsCdsCsCs",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO] u0 {1,S}
@@ -16846,7 +16846,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16855,7 +16855,7 @@ u"""
 entry(
 	index = 616,
 	label = "Cs-CbCtCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -16878,7 +16878,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16887,7 +16887,7 @@ u"""
 entry(
 	index = 617,
 	label = "Cs-CbCbCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -16910,7 +16910,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16919,7 +16919,7 @@ u"""
 entry(
 	index = 618,
 	label = "Cs-CbCdsCdsCs",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
@@ -16930,7 +16930,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)(Cds-Cd)CbCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16939,7 +16939,7 @@ u"""
 entry(
 	index = 619,
 	label = "Cs-(Cds-O2d)(Cds-Cd)CbCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {7,D}
@@ -16952,7 +16952,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)(Cds-Cds)CbCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16961,7 +16961,7 @@ u"""
 entry(
 	index = 620,
 	label = "Cs-(Cds-O2d)(Cds-Cds)CbCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {7,D}
@@ -16974,7 +16974,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)(Crds-Crds)CbCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -16983,7 +16983,7 @@ u"""
 entry(
 	index = 621,
 	label = "Cs-(Cds-O2d)(Crds-Crds)CbCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {7,D}
@@ -16996,7 +16996,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)CbCbCs',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17005,7 +17005,7 @@ u"""
 entry(
 	index = 622,
 	label = "Cs-CbCbCdsCs",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
@@ -17016,7 +17016,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)CbCbCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17025,7 +17025,7 @@ u"""
 entry(
 	index = 623,
 	label = "Cs-(Cds-O2d)CbCbCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -17049,7 +17049,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17058,7 +17058,7 @@ u"""
 entry(
 	index = 624,
 	label = "Cs-CbCbCbCb",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -17081,7 +17081,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17090,7 +17090,7 @@ u"""
 entry(
 	index = 625,
 	label = "Cs-CCCOs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -17101,7 +17101,7 @@ entry(
 	solute = u'Cs-CsCsCsOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17110,7 +17110,7 @@ u"""
 entry(
 	index = 626,
 	label = "Cs-CsCsCsOs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -17121,7 +17121,7 @@ entry(
 	solute = u'Cs-CsCsCs(Os-R)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17130,7 +17130,7 @@ u"""
 entry(
 	index = 627,
 	label = "Cs-CsCsCs(Os-H)",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -17154,7 +17154,7 @@ entry(
 		A = 31,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17163,7 +17163,7 @@ u"""
 entry(
 	index = 628,
 	label = "Crs-CrsCrsCrs(Os-H)",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -17187,7 +17187,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17196,7 +17196,7 @@ u"""
 entry(
 	index = 629,
 	label = "Crs-CrsCrsCs(Os-H)",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -17220,7 +17220,7 @@ entry(
 		A = 19,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17229,7 +17229,7 @@ u"""
 entry(
 	index = 630,
 	label = "Cs-CsCsCs(Os-R)",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -17253,7 +17253,7 @@ entry(
 		A = 39,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17262,7 +17262,7 @@ u"""
 entry(
 	index = 631,
 	label = "Crs-CrsCrsCrs(Ors-R)",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -17286,7 +17286,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17295,7 +17295,7 @@ u"""
 entry(
 	index = 632,
 	label = "Crs-CrsCrsCs(Ors-R)",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -17319,7 +17319,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17328,7 +17328,7 @@ u"""
 entry(
 	index = 633,
 	label = "Crs-CrsCrsCs(Os-R)",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -17352,7 +17352,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17361,7 +17361,7 @@ u"""
 entry(
 	index = 634,
 	label = "Crs-CrsCsCs(Ors-R)",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -17385,7 +17385,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17394,7 +17394,7 @@ u"""
 entry(
 	index = 635,
 	label = "Cs-CdsCsCsOs",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO] u0 {1,S}
@@ -17405,7 +17405,7 @@ entry(
 	solute = u'Cs-CdsCsCs(Os-R)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17414,7 +17414,7 @@ u"""
 entry(
 	index = 636,
 	label = "Cs-CdsCsCs(Os-H)",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO] u0 {1,S}
@@ -17426,7 +17426,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)CsCs(Os-H)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17435,7 +17435,7 @@ u"""
 entry(
 	index = 637,
 	label = "Cs-(Cds-O2d)CsCs(Os-H)",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -17460,7 +17460,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17469,7 +17469,7 @@ u"""
 entry(
 	index = 638,
 	label = "Crs-(Cds-O2d)CrsCrs(Os-H)",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -17494,7 +17494,7 @@ entry(
 		A = 45,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17503,7 +17503,7 @@ u"""
 entry(
 	index = 639,
 	label = "Cs-(Cds-Cd)CsCs(Os-H)",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -17528,7 +17528,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17537,7 +17537,7 @@ u"""
 entry(
 	index = 640,
 	label = "Cs-CdsCsCs(Os-R)",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO] u0 {1,S}
@@ -17549,7 +17549,7 @@ entry(
 	solute = u'Cs-(Cds-Cd)CsCs(Os-R)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17558,7 +17558,7 @@ u"""
 entry(
 	index = 641,
 	label = "Cs-(Cds-O2d)CsCs(Os-R)",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -17583,7 +17583,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17592,7 +17592,7 @@ u"""
 entry(
 	index = 642,
 	label = "Cs-(Cds-Cd)CsCs(Os-R)",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -17617,7 +17617,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17626,7 +17626,7 @@ u"""
 entry(
 	index = 643,
 	label = "Cs-OsCtCsCs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
@@ -17649,7 +17649,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17658,7 +17658,7 @@ u"""
 entry(
 	index = 644,
 	label = "Cs-CbCsCsOs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -17681,7 +17681,7 @@ entry(
 		A = 21,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17690,7 +17690,7 @@ u"""
 entry(
 	index = 645,
 	label = "Cs-CdsCdsCsOs",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO] u0 {1,S}
@@ -17701,7 +17701,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)(Cds-Cd)CsOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17710,7 +17710,7 @@ u"""
 entry(
 	index = 646,
 	label = "Cs-(Cds-O2d)(Cds-Cd)CsOs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {7,D}
@@ -17723,7 +17723,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)(Cds-Cds)CsOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17732,7 +17732,7 @@ u"""
 entry(
 	index = 647,
 	label = "Cs-(Cds-O2d)(Cds-Cds)CsOs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {7,D}
@@ -17757,7 +17757,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17766,7 +17766,7 @@ u"""
 entry(
 	index = 648,
 	label = "Cs-CtCdsCsOs",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct      u0 {1,S}
@@ -17777,7 +17777,7 @@ entry(
 	solute = u'Cs-(Cds-Cd)CtCsOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17786,7 +17786,7 @@ u"""
 entry(
 	index = 649,
 	label = "Cs-(Cds-Cd)CtCsOs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -17798,7 +17798,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)CtCsOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17807,7 +17807,7 @@ u"""
 entry(
 	index = 650,
 	label = "Cs-(Cds-Cds)CtCsOs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -17831,7 +17831,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17840,7 +17840,7 @@ u"""
 entry(
 	index = 651,
 	label = "Cs-CbCdsCsOs",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
@@ -17863,7 +17863,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17872,7 +17872,7 @@ u"""
 entry(
 	index = 652,
 	label = "Cs-CbCbCsOs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -17895,7 +17895,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17904,7 +17904,7 @@ u"""
 entry(
 	index = 653,
 	label = "Cs-CbCbCdsOs",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
@@ -17915,7 +17915,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)CbCbOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17924,7 +17924,7 @@ u"""
 entry(
 	index = 654,
 	label = "Cs-(Cds-O2d)CbCbOs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -17948,7 +17948,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17957,7 +17957,7 @@ u"""
 entry(
 	index = 655,
 	label = "Cs-CbCbCbOs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -17980,7 +17980,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -17989,7 +17989,7 @@ u"""
 entry(
 	index = 656,
 	label = "Cs-CCOsOs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -18000,7 +18000,7 @@ entry(
 	solute = u'Cs-CsCsOsOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18009,7 +18009,7 @@ u"""
 entry(
 	index = 657,
 	label = "Crs-CCOsOs",
-	group = 
+	group =
 """
 1 * Cs  u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 {1,S}
@@ -18020,7 +18020,7 @@ entry(
 	solute = u'Crs-OrsOrsCC',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18029,7 +18029,7 @@ u"""
 entry(
 	index = 658,
 	label = "Crs-OrsOrsCC",
-	group = 
+	group =
 """
 1 * Cs  u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 r1 {1,S}
@@ -18052,7 +18052,7 @@ entry(
 		A = 24,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18061,7 +18061,7 @@ u"""
 entry(
 	index = 659,
 	label = "Crs-CrOrsOsC",
-	group = 
+	group =
 """
 1 * Cs  u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 r1 {1,S}
@@ -18084,7 +18084,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18093,7 +18093,7 @@ u"""
 entry(
 	index = 660,
 	label = "Cs-CsCsOsOs",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -18116,7 +18116,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18125,7 +18125,7 @@ u"""
 entry(
 	index = 661,
 	label = "Cs-COsOsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -18136,7 +18136,7 @@ entry(
 	solute = u'Cs-CsOsOsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18145,7 +18145,7 @@ u"""
 entry(
 	index = 662,
 	label = "Crs-COsOsH",
-	group = 
+	group =
 """
 1 * Cs  u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
@@ -18156,7 +18156,7 @@ entry(
 	solute = u'Crs-CrOrsOsH',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18165,7 +18165,7 @@ u"""
 entry(
 	index = 663,
 	label = "Crs-OrsOrsCH",
-	group = 
+	group =
 """
 1 * Cs  u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   O2s u0 r1 {1,S}
@@ -18188,7 +18188,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18197,7 +18197,7 @@ u"""
 entry(
 	index = 664,
 	label = "Crs-CrOrsOsH",
-	group = 
+	group =
 """
 1 * Cs  u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 r1 {1,S}
@@ -18220,7 +18220,7 @@ entry(
 		A = 42,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18229,7 +18229,7 @@ u"""
 entry(
 	index = 665,
 	label = "Cs-CsOsOsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -18252,7 +18252,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18261,7 +18261,7 @@ u"""
 entry(
 	index = 666,
 	label = "Cs-COsSH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -18272,7 +18272,7 @@ entry(
 	solute = u'Cs-CsOsSH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18281,7 +18281,7 @@ u"""
 entry(
 	index = 667,
 	label = "Cs-CsOsSH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -18292,7 +18292,7 @@ entry(
 	solute = u'Cs-CsOsS2H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18301,7 +18301,7 @@ u"""
 entry(
 	index = 668,
 	label = "Cs-CsOsS2H",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -18324,7 +18324,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18333,7 +18333,7 @@ u"""
 entry(
 	index = 669,
 	label = "Cs-CCOsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -18344,7 +18344,7 @@ entry(
 	solute = u'Cs-CsCsOsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18353,7 +18353,7 @@ u"""
 entry(
 	index = 670,
 	label = "Cs-CsCsOsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -18364,7 +18364,7 @@ entry(
 	solute = u'Cs-CsCs(Os-H)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18373,7 +18373,7 @@ u"""
 entry(
 	index = 671,
 	label = "Cs-CsCs(Os-H)H",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -18397,7 +18397,7 @@ entry(
 		A = 141,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18406,7 +18406,7 @@ u"""
 entry(
 	index = 672,
 	label = "Crs-CrsCrs(Os-H)H",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -18430,7 +18430,7 @@ entry(
 		A = 153,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18439,7 +18439,7 @@ u"""
 entry(
 	index = 673,
 	label = "Cs-CsCs(Os-R)H",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -18463,7 +18463,7 @@ entry(
 		A = 110,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18472,7 +18472,7 @@ u"""
 entry(
 	index = 674,
 	label = "Crs-CrsCrs(Ors-R)H",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -18496,7 +18496,7 @@ entry(
 		A = 35,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18505,7 +18505,7 @@ u"""
 entry(
 	index = 675,
 	label = "Crs-CrsCs(Ors-R)H",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -18529,7 +18529,7 @@ entry(
 		A = 98,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18538,7 +18538,7 @@ u"""
 entry(
 	index = 676,
 	label = "Crs-CrsCrs(Os-R)H",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -18562,7 +18562,7 @@ entry(
 		A = 76,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18571,7 +18571,7 @@ u"""
 entry(
 	index = 677,
 	label = "Cs-CdsCsOsH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 {1,S}
@@ -18582,7 +18582,7 @@ entry(
 	solute = u'Cs-(Cds-Cd)CsOsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18591,7 +18591,7 @@ u"""
 entry(
 	index = 678,
 	label = "Cs-(Cds-O2d)CsOsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -18603,7 +18603,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)Cs(Os-H)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18612,7 +18612,7 @@ u"""
 entry(
 	index = 679,
 	label = "Cs-(Cds-O2d)Cs(Os-H)H",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -18637,7 +18637,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18646,7 +18646,7 @@ u"""
 entry(
 	index = 680,
 	label = "Cs-(Cds-O2d)Cs(Os-R)H",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -18671,7 +18671,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18680,7 +18680,7 @@ u"""
 entry(
 	index = 681,
 	label = "Cs-(Cds-Cd)CsOsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -18692,7 +18692,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)CsOsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18701,7 +18701,7 @@ u"""
 entry(
 	index = 682,
 	label = "Cs-(Cds-Cds)CsOsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -18713,7 +18713,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)Cs(Os-H)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18722,7 +18722,7 @@ u"""
 entry(
 	index = 683,
 	label = "Cs-(Cds-Cds)Cs(Os-H)H",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -18747,7 +18747,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18756,7 +18756,7 @@ u"""
 entry(
 	index = 684,
 	label = "Cs-(Cds-Cds)Cs(Os-R)H",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -18781,7 +18781,7 @@ entry(
 		A = 21,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18790,7 +18790,7 @@ u"""
 entry(
 	index = 685,
 	label = "Cs-CtCsOsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
@@ -18813,7 +18813,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18822,7 +18822,7 @@ u"""
 entry(
 	index = 686,
 	label = "Cs-CbCsOsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -18845,7 +18845,7 @@ entry(
 		A = 39,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18854,7 +18854,7 @@ u"""
 entry(
 	index = 687,
 	label = "Cs-CbCdsOsH",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb      u0 {1,S}
@@ -18865,7 +18865,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)CbOsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18874,7 +18874,7 @@ u"""
 entry(
 	index = 688,
 	label = "Cs-(Cds-O2d)CbOsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -18898,7 +18898,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18907,7 +18907,7 @@ u"""
 entry(
 	index = 689,
 	label = "Cs-CbCbOsH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -18930,7 +18930,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18939,7 +18939,7 @@ u"""
 entry(
 	index = 690,
 	label = "Cs-COsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -18950,7 +18950,7 @@ entry(
 	solute = u'Cs-CsOsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18959,7 +18959,7 @@ u"""
 entry(
 	index = 691,
 	label = "Cs-CsOsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -18970,7 +18970,7 @@ entry(
 	solute = u'Cs-Cs(Os-R)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -18979,7 +18979,7 @@ u"""
 entry(
 	index = 692,
 	label = "Cs-Cs(Os-H)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -19003,7 +19003,7 @@ entry(
 		A = 283,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19012,7 +19012,7 @@ u"""
 entry(
 	index = 693,
 	label = "Cs-Cs(Os-R)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -19036,7 +19036,7 @@ entry(
 		A = 910,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19045,7 +19045,7 @@ u"""
 entry(
 	index = 694,
 	label = "Crs-Crs(Ors-R)HH",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 r1 {1,S}
@@ -19069,7 +19069,7 @@ entry(
 		A = 115,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19078,7 +19078,7 @@ u"""
 entry(
 	index = 695,
 	label = "Cs-CdsOsHH",
-	group = 
+	group =
 """
 1 * Cs      u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO] u0 {1,S}
@@ -19089,7 +19089,7 @@ entry(
 	solute = u'Cs-(Cds-Cd)OsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19098,7 +19098,7 @@ u"""
 entry(
 	index = 696,
 	label = "Cs-(Cds-O2d)OsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -19110,7 +19110,7 @@ entry(
 	solute = u'Cs-(Cds-O2d)(Os-R)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19119,7 +19119,7 @@ u"""
 entry(
 	index = 697,
 	label = "Cs-(Cds-O2d)(Os-H)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -19144,7 +19144,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19153,7 +19153,7 @@ u"""
 entry(
 	index = 698,
 	label = "Cs-(Cds-O2d)(Os-R)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   CO u0 {1,S} {6,D}
@@ -19178,7 +19178,7 @@ entry(
 		A = 66,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19187,7 +19187,7 @@ u"""
 entry(
 	index = 699,
 	label = "Cs-(Cds-Cd)OsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -19199,7 +19199,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)OsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19208,7 +19208,7 @@ u"""
 entry(
 	index = 700,
 	label = "Cs-(Cds-Cds)OsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -19220,7 +19220,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)(Os-R)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19229,7 +19229,7 @@ u"""
 entry(
 	index = 701,
 	label = "Cs-(Cds-Cds)(Os-H)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -19254,7 +19254,7 @@ entry(
 		A = 24,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19263,7 +19263,7 @@ u"""
 entry(
 	index = 702,
 	label = "Cs-(Cds-Cds)(Os-R)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -19288,7 +19288,7 @@ entry(
 		A = 67,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19297,7 +19297,7 @@ u"""
 entry(
 	index = 703,
 	label = "Cs-(Cds-Nd)OsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -19309,7 +19309,7 @@ entry(
 	solute = u'Cs-(Cds-N3d)OsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19318,7 +19318,7 @@ u"""
 entry(
 	index = 704,
 	label = "Cs-(Cds-N3d)OsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -19342,7 +19342,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19351,7 +19351,7 @@ u"""
 entry(
 	index = 705,
 	label = "Cs-CtOsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
@@ -19362,7 +19362,7 @@ entry(
 	solute = u'Cs-Ct(Os-H)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19371,7 +19371,7 @@ u"""
 entry(
 	index = 706,
 	label = "Cs-Ct(Os-H)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
@@ -19395,7 +19395,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19404,7 +19404,7 @@ u"""
 entry(
 	index = 707,
 	label = "Cs-Ct(Os-R)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Ct u0 {1,S}
@@ -19428,7 +19428,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19437,7 +19437,7 @@ u"""
 entry(
 	index = 708,
 	label = "Cs-CbOsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -19448,7 +19448,7 @@ entry(
 	solute = u'Cs-Cb(Os-R)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19457,7 +19457,7 @@ u"""
 entry(
 	index = 709,
 	label = "Cs-Cb(Os-H)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -19481,7 +19481,7 @@ entry(
 		A = 45,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19490,7 +19490,7 @@ u"""
 entry(
 	index = 710,
 	label = "Cs-Cb(Os-R)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -19514,7 +19514,7 @@ entry(
 		A = 46,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19523,7 +19523,7 @@ u"""
 entry(
 	index = 711,
 	label = "Cs-CCCS",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -19546,7 +19546,7 @@ entry(
 		A = 33,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19555,7 +19555,7 @@ u"""
 entry(
 	index = 712,
 	label = "Cs-CCC(S-H)",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -19579,7 +19579,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19588,7 +19588,7 @@ u"""
 entry(
 	index = 713,
 	label = "Cs-CCSS",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -19599,7 +19599,7 @@ entry(
 	solute = u'Cs-CsCsSS',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19608,7 +19608,7 @@ u"""
 entry(
 	index = 714,
 	label = "Cs-CsCsSS",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -19631,7 +19631,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19640,7 +19640,7 @@ u"""
 entry(
 	index = 715,
 	label = "Cs-CCSH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -19663,7 +19663,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19672,7 +19672,7 @@ u"""
 entry(
 	index = 716,
 	label = "Cs-CsCsSH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -19695,7 +19695,7 @@ entry(
 		A = 25,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19704,7 +19704,7 @@ u"""
 entry(
 	index = 717,
 	label = "Cs-CsCs(S-H)H",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -19728,7 +19728,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19737,7 +19737,7 @@ u"""
 entry(
 	index = 718,
 	label = "Cs-CSHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 {1,S}
@@ -19760,7 +19760,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19769,7 +19769,7 @@ u"""
 entry(
 	index = 719,
 	label = "Crs-CrSrHH",
-	group = 
+	group =
 """
 1 * Cs u0 r1 {2,S} {3,S} {4,S} {5,S}
 2   C  u0 r1 {1,S}
@@ -19792,7 +19792,7 @@ entry(
 		A = 24,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19801,7 +19801,7 @@ u"""
 entry(
 	index = 720,
 	label = "Cs-CsSHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -19812,7 +19812,7 @@ entry(
 	solute = u'Cs-CsS2HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19821,7 +19821,7 @@ u"""
 entry(
 	index = 721,
 	label = "Cs-CsS2HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -19844,7 +19844,7 @@ entry(
 		A = 130,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19853,7 +19853,7 @@ u"""
 entry(
 	index = 722,
 	label = "Cs-Cs(S2-H)HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -19877,7 +19877,7 @@ entry(
 		A = 23,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19886,7 +19886,7 @@ u"""
 entry(
 	index = 723,
 	label = "Cs-CsS4HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -19909,7 +19909,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19918,7 +19918,7 @@ u"""
 entry(
 	index = 724,
 	label = "Cs-CsS6HH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cs u0 {1,S}
@@ -19941,7 +19941,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19950,7 +19950,7 @@ u"""
 entry(
 	index = 725,
 	label = "Cs-CdsSsHH",
-	group = 
+	group =
 """
 1 * Cs         u0 {2,S} {3,S} {4,S} {5,S}
 2   [Cd,CO,CS] u0 {1,S}
@@ -19973,7 +19973,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -19982,7 +19982,7 @@ u"""
 entry(
 	index = 726,
 	label = "Cs-(Cds-Cd)SsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -19994,7 +19994,7 @@ entry(
 	solute = u'Cs-(Cds-Cds)SsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20003,7 +20003,7 @@ u"""
 entry(
 	index = 727,
 	label = "Cs-(Cds-Cds)SsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cd u0 {1,S} {6,D}
@@ -20027,7 +20027,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20036,7 +20036,7 @@ u"""
 entry(
 	index = 728,
 	label = "Cs-(Cds-Od)SsHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   CO  u0 {1,S} {6,D}
@@ -20060,7 +20060,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20069,7 +20069,7 @@ u"""
 entry(
 	index = 729,
 	label = "Cs-CbSsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   Cb u0 {1,S}
@@ -20092,7 +20092,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20101,7 +20101,7 @@ u"""
 entry(
 	index = 730,
 	label = "Cs-CS4dHH",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   C   u0 {1,S}
@@ -20124,7 +20124,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20133,7 +20133,7 @@ u"""
 entry(
 	index = 731,
 	label = "Cs-SsHHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   S  u0 {1,S}
@@ -20144,7 +20144,7 @@ entry(
 	solute = u'Cs-S2sHHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20153,7 +20153,7 @@ u"""
 entry(
 	index = 732,
 	label = "Cs-S2sHHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   S2s  u0 {1,S}
@@ -20176,7 +20176,7 @@ entry(
 		A = 55,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20185,7 +20185,7 @@ u"""
 entry(
 	index = 733,
 	label = "Cs-S4HHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   [S4s,S4d,S4b,S4t]  u0 {1,S}
@@ -20208,7 +20208,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20217,7 +20217,7 @@ u"""
 entry(
 	index = 734,
 	label = "Cs-S6HHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   [S6s,S6d,S6dd,S6t,S6td]  u0 {1,S}
@@ -20240,7 +20240,7 @@ entry(
 		A = 29,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20249,7 +20249,7 @@ u"""
 entry(
 	index = 735,
 	label = "Cs-SsSsHH",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
 2   S  u0 {1,S}
@@ -20272,7 +20272,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20281,14 +20281,14 @@ u"""
 entry(
 	index = 736,
 	label = "O",
-	group = 
+	group =
 """
 1 * O u0
 """,
 	solute = u'O2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20297,14 +20297,14 @@ u"""
 entry(
 	index = 737,
 	label = "O2d",
-	group = 
+	group =
 """
 1 * O2d u0
 """,
 	solute = u'O2d-Cd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20313,7 +20313,7 @@ u"""
 entry(
 	index = 738,
 	label = "O2d-Cd",
-	group = 
+	group =
 """
 1 * O2d u0 {2,D}
 2   CO u0 {1,D}
@@ -20333,7 +20333,7 @@ entry(
 		A = 2577,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20342,7 +20342,7 @@ u"""
 entry(
 	index = 739,
 	label = "O2d-Crd",
-	group = 
+	group =
 """
 1 * O2d u0    {2,D}
 2   CO  u0 r1 {1,D}
@@ -20362,7 +20362,7 @@ entry(
 		A = 780,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20371,7 +20371,7 @@ u"""
 entry(
 	index = 740,
 	label = "O2d-Cdd",
-	group = 
+	group =
 """
 1 * O2d u0 {2,D}
 2   Cdd u0 {1,D}
@@ -20391,7 +20391,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20400,7 +20400,7 @@ u"""
 entry(
 	index = 741,
 	label = "O2d-N3d",
-	group = 
+	group =
 """
 1 * O2d  u0 {2,D}
 2   N3d u0 {1,D}
@@ -20420,7 +20420,7 @@ entry(
 		A = 64,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20429,7 +20429,7 @@ u"""
 entry(
 	index = 742,
 	label = "O2d-N5dc",
-	group = 
+	group =
 """
 1 * O2d  u0 {2,D}
 2   N5dc u0 {1,D}
@@ -20449,7 +20449,7 @@ entry(
 		A = 384,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20458,7 +20458,7 @@ u"""
 entry(
 	index = 743,
 	label = "O2d-Sd",
-	group = 
+	group =
 """
 1 * O2d   u0 {2,D}
 2   S     ux {1,D}
@@ -20466,7 +20466,7 @@ entry(
 	solute = u'O2d-S6dd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20475,7 +20475,7 @@ u"""
 entry(
 	index = 744,
 	label = "O2d-S4d",
-	group = 
+	group =
 """
 1 * O2d   u0 {2,D}
 2   S4d   u0 {1,D}
@@ -20495,7 +20495,7 @@ entry(
 		A = 43,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20504,7 +20504,7 @@ u"""
 entry(
 	index = 745,
 	label = "O2d-S6dd",
-	group = 
+	group =
 """
 1 * O2d   u0 {2,D}
 2   S6dd  u0 {1,D}
@@ -20524,7 +20524,7 @@ entry(
 		A = 194,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20533,7 +20533,7 @@ u"""
 entry(
 	index = 746,
 	label = "O2d-P5d",
-	group = 
+	group =
 """
 1 * O2d  u0 {2,D}
 2   P5d  u0 {1,D}
@@ -20553,7 +20553,7 @@ entry(
 		A = 88,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20562,14 +20562,14 @@ u"""
 entry(
 	index = 747,
 	label = "O2s",
-	group = 
+	group =
 """
 1 * O2s u0
 """,
 	solute = u'O2s-CC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20578,7 +20578,7 @@ u"""
 entry(
 	index = 748,
 	label = "O2s-PH",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   P  u0 {1,S}
@@ -20587,7 +20587,7 @@ entry(
 	solute = u'O2s-P5dH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20596,7 +20596,7 @@ u"""
 entry(
 	index = 749,
 	label = "O2s-P5dH",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   P5d u0 {1,S}
@@ -20617,7 +20617,7 @@ entry(
 		A = 33,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20626,7 +20626,7 @@ u"""
 entry(
 	index = 750,
 	label = "O2s-PC",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   P  u0 {1,S}
@@ -20635,7 +20635,7 @@ entry(
 	solute = u'O2s-P5dC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20644,7 +20644,7 @@ u"""
 entry(
 	index = 751,
 	label = "O2s-P3sC",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   P3s u0 {1,S}
@@ -20653,7 +20653,7 @@ entry(
 	solute = u'O2s-P3sCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20662,7 +20662,7 @@ u"""
 entry(
 	index = 752,
 	label = "O2s-P3sCs",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   P3s u0 {1,S}
@@ -20683,7 +20683,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20692,7 +20692,7 @@ u"""
 entry(
 	index = 753,
 	label = "O2s-P5dC",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   P5d u0 {1,S}
@@ -20701,7 +20701,7 @@ entry(
 	solute = u'O2s-P5dCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20710,7 +20710,7 @@ u"""
 entry(
 	index = 754,
 	label = "O2s-P5dCs",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   P5d u0 {1,S}
@@ -20731,7 +20731,7 @@ entry(
 		A = 54,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20740,7 +20740,7 @@ u"""
 entry(
 	index = 755,
 	label = "O2s-P5dCd",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   P5d u0 {1,S}
@@ -20749,7 +20749,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20758,7 +20758,7 @@ u"""
 entry(
 	index = 756,
 	label = "O2s-P5d(Cd-Nd)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   P5d u0 {1,S}
@@ -20780,7 +20780,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20789,7 +20789,7 @@ u"""
 entry(
 	index = 757,
 	label = "O2s-P5dCb",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   P5d u0 {1,S}
@@ -20810,7 +20810,7 @@ entry(
 		A = 20,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20819,7 +20819,7 @@ u"""
 entry(
 	index = 758,
 	label = "O2s-NH",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   N  u0 {1,S}
@@ -20840,7 +20840,7 @@ entry(
 		A = 30,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20849,7 +20849,7 @@ u"""
 entry(
 	index = 759,
 	label = "O2s-NR",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   N  u0 {1,S}
@@ -20858,7 +20858,7 @@ entry(
 	solute = u'O2s-CN',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20867,7 +20867,7 @@ u"""
 entry(
 	index = 760,
 	label = "O2s-CN",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   C  u0 {1,S}
@@ -20876,7 +20876,7 @@ entry(
 	solute = u'O2s-CdN3d',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20885,7 +20885,7 @@ u"""
 entry(
 	index = 761,
 	label = "O2s-CbN3d",
-	group = 
+	group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   N3d u0 {1,S}
@@ -20906,7 +20906,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20915,7 +20915,7 @@ u"""
 entry(
 	index = 762,
 	label = "O2s-CsN3s",
-	group = 
+	group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   N3s u0 {1,S}
@@ -20936,7 +20936,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20945,7 +20945,7 @@ u"""
 entry(
 	index = 763,
 	label = "O2s-CsN3d",
-	group = 
+	group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cs  u0 {1,S}
@@ -20954,7 +20954,7 @@ entry(
 	solute = u'O2s-Cs(N3d-Od)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20963,7 +20963,7 @@ u"""
 entry(
 	index = 764,
 	label = "O2s-Cs(N3d-Od)",
-	group = 
+	group =
 """
 1 * O2s  u0 {2,S} {4,S}
 2   N3d u0 {1,S} {3,D}
@@ -20985,7 +20985,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -20994,7 +20994,7 @@ u"""
 entry(
 	index = 765,
 	label = "O2s-Cs(N3d-Cd)",
-	group = 
+	group =
 """
 1 * O2s  u0 {2,S} {4,S}
 2   N3d u0 {1,S} {3,D}
@@ -21016,7 +21016,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21025,7 +21025,7 @@ u"""
 entry(
 	index = 766,
 	label = "O2s-CdN3d",
-	group = 
+	group =
 """
 1 * O2s        u0 {2,S} {3,S}
 2   [Cd,CO,CS] u0 {1,S}
@@ -21046,7 +21046,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21055,7 +21055,7 @@ u"""
 entry(
 	index = 767,
 	label = "O2s-CsN5dc",
-	group = 
+	group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cs  u0 {1,S}
@@ -21076,7 +21076,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21085,7 +21085,7 @@ u"""
 entry(
 	index = 768,
 	label = "O2s-OsH",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   O2s u0 {1,S}
@@ -21106,7 +21106,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21115,7 +21115,7 @@ u"""
 entry(
 	index = 769,
 	label = "O2s-CH",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   C  u0 {1,S}
@@ -21124,7 +21124,7 @@ entry(
 	solute = u'O2s-CsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21133,7 +21133,7 @@ u"""
 entry(
 	index = 770,
 	label = "O2s-CdsH",
-	group = 
+	group =
 """
 1 * O2s      u0 {2,S} {3,S}
 2   [Cd,CO] u0 {1,S}
@@ -21142,7 +21142,7 @@ entry(
 	solute = u'O2s-(Cds-O2d)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21151,7 +21151,7 @@ u"""
 entry(
 	index = 771,
 	label = "O2s-(Cds-O2d)H",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   CO u0 {1,S} {4,D}
@@ -21173,7 +21173,7 @@ entry(
 		A = 538,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21182,7 +21182,7 @@ u"""
 entry(
 	index = 772,
 	label = "O2s-(Cds-Cd)H",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Cd u0 {1,S} {4,D}
@@ -21204,7 +21204,7 @@ entry(
 		A = 72,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21213,7 +21213,7 @@ u"""
 entry(
 	index = 773,
 	label = "O2s-CsH",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
@@ -21234,7 +21234,7 @@ entry(
 		A = 768,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21243,7 +21243,7 @@ u"""
 entry(
 	index = 774,
 	label = "O2s-CbH",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Cb u0 {1,S}
@@ -21264,7 +21264,7 @@ entry(
 		A = 644,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21273,7 +21273,7 @@ u"""
 entry(
 	index = 775,
 	label = "O2s-OsC",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   O2s u0 {1,S}
@@ -21282,7 +21282,7 @@ entry(
 	solute = u'O2s-OsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21291,7 +21291,7 @@ u"""
 entry(
 	index = 776,
 	label = "O2s-OsCds",
-	group = 
+	group =
 """
 1 * O2s      u0 {2,S} {3,S}
 2   O2s      u0 {1,S}
@@ -21300,7 +21300,7 @@ entry(
 	solute = u'O2s-O2s(Cds-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21309,7 +21309,7 @@ u"""
 entry(
 	index = 777,
 	label = "O2s-O2s(Cds-O2d)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   CO u0 {1,S} {4,D}
@@ -21331,7 +21331,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21340,7 +21340,7 @@ u"""
 entry(
 	index = 778,
 	label = "O2s-OsCs",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   O2s u0 {1,S}
@@ -21361,7 +21361,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21370,7 +21370,7 @@ u"""
 entry(
 	index = 779,
 	label = "O2s-CC",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   C  u0 {1,S}
@@ -21379,7 +21379,7 @@ entry(
 	solute = u'O2s-CsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21388,7 +21388,7 @@ u"""
 entry(
 	index = 780,
 	label = "O2s-CtCb",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Ct u0 {1,S}
@@ -21397,7 +21397,7 @@ entry(
 	solute = u'O2s-(Ct-N3t)Cb',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21406,7 +21406,7 @@ u"""
 entry(
 	index = 781,
 	label = "O2s-(Ct-N3t)Cb",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Ct u0 {1,S} {4,T}
@@ -21428,7 +21428,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21437,7 +21437,7 @@ u"""
 entry(
 	index = 782,
 	label = "O2s-CdsCds",
-	group = 
+	group =
 """
 1 * O2s      u0 {2,S} {3,S}
 2   [Cd,CO] u0 {1,S}
@@ -21446,7 +21446,7 @@ entry(
 	solute = u'O2s-(Cds-Cd)(Cds-Cd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21455,7 +21455,7 @@ u"""
 entry(
 	index = 783,
 	label = "O2s-(Cds-O2d)(Cds-O2d)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   CO u0 {1,S} {4,D}
@@ -21478,7 +21478,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21487,7 +21487,7 @@ u"""
 entry(
 	index = 784,
 	label = "O2s-(Cds-O2d)(Cds-Cd)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   CO u0 {1,S} {5,D}
@@ -21510,7 +21510,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21519,7 +21519,7 @@ u"""
 entry(
 	index = 785,
 	label = "O2s-(Cds-Cd)(Cds-Cd)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Cd u0 {1,S}
@@ -21540,7 +21540,7 @@ entry(
 		A = 72,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21549,7 +21549,7 @@ u"""
 entry(
 	index = 786,
 	label = "O2s-CdsCs",
-	group = 
+	group =
 """
 1 * O2s        u0 {2,S} {3,S}
 2   [Cd,CO,CS] u0 {1,S}
@@ -21558,7 +21558,7 @@ entry(
 	solute = u'O2s-Cs(Cds-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21567,7 +21567,7 @@ u"""
 entry(
 	index = 787,
 	label = "O2s-Cs(Cds-N3d)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Cd u0 {1,S} {4,D}
@@ -21589,7 +21589,7 @@ entry(
 		A = 29,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21598,7 +21598,7 @@ u"""
 entry(
 	index = 788,
 	label = "O2s-Cs(Cds-O2d)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   CO u0 {1,S} {4,D}
@@ -21620,7 +21620,7 @@ entry(
 		A = 1025,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21629,7 +21629,7 @@ u"""
 entry(
 	index = 789,
 	label = "O2s-Cs(Cds-Cd)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Cd u0 {1,S} {4,D}
@@ -21651,7 +21651,7 @@ entry(
 		A = 44,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21660,7 +21660,7 @@ u"""
 entry(
 	index = 790,
 	label = "O2s-Cs(Cds-Sd)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   CS u0 {1,S} {4,D}
@@ -21682,7 +21682,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21691,7 +21691,7 @@ u"""
 entry(
 	index = 791,
 	label = "O2s-CdsCb",
-	group = 
+	group =
 """
 1 * O2s        u0 {2,S} {3,S}
 2   [Cd,CO,CS] u0 {1,S}
@@ -21700,7 +21700,7 @@ entry(
 	solute = u'O2s-Cb(Cds-Cd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21709,7 +21709,7 @@ u"""
 entry(
 	index = 792,
 	label = "O2s-Cb(Cds-N3d)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Cd  u0 {1,S} {4,D}
@@ -21731,7 +21731,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21740,7 +21740,7 @@ u"""
 entry(
 	index = 793,
 	label = "O2s-Cb(Cds-O2d)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   CO u0 {1,S} {4,D}
@@ -21762,7 +21762,7 @@ entry(
 		A = 73,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21771,7 +21771,7 @@ u"""
 entry(
 	index = 794,
 	label = "O2s-Cb(Cds-Cd)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Cd u0 {1,S} {4,D}
@@ -21793,7 +21793,7 @@ entry(
 		A = 101,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21802,7 +21802,7 @@ u"""
 entry(
 	index = 795,
 	label = "O2s-Cb(Cds-Sd)",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   CS u0 {1,S} {4,D}
@@ -21812,7 +21812,7 @@ entry(
 	solute = u'O2s-Cb(Cds-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21821,7 +21821,7 @@ u"""
 entry(
 	index = 796,
 	label = "O2s-CsCs",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
@@ -21842,7 +21842,7 @@ entry(
 		A = 335,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21851,7 +21851,7 @@ u"""
 entry(
 	index = 797,
 	label = "O2rs-CrsCrs",
-	group = 
+	group =
 """
 1 * O2s u0 r1 {2,S} {3,S}
 2   Cs u0 r1 {1,S}
@@ -21872,7 +21872,7 @@ entry(
 		A = 182,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21881,7 +21881,7 @@ u"""
 entry(
 	index = 798,
 	label = "O2s-CsCb",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
@@ -21902,7 +21902,7 @@ entry(
 		A = 461,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21911,7 +21911,7 @@ u"""
 entry(
 	index = 799,
 	label = "O2rs-CrsCb",
-	group = 
+	group =
 """
 1 * O2s u0 r1 {2,S} {3,S}
 2   Cs u0 r1 {1,S}
@@ -21932,7 +21932,7 @@ entry(
 		A = 56,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21941,7 +21941,7 @@ u"""
 entry(
 	index = 800,
 	label = "O2s-CbCb",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   Cb u0 {1,S}
@@ -21962,7 +21962,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -21971,7 +21971,7 @@ u"""
 entry(
 	index = 801,
 	label = "O2rs-CbCb",
-	group = 
+	group =
 """
 1 * O2s u0 r1 {2,S} {3,S}
 2   Cb u0 {1,S}
@@ -21992,7 +21992,7 @@ entry(
 		A = 21,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22001,7 +22001,7 @@ u"""
 entry(
 	index = 802,
 	label = "O2s-CS",
-	group = 
+	group =
 """
 1 * O2s   u0 {2,S} {3,S}
 2   S     ux {1,S}
@@ -22022,7 +22022,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22031,7 +22031,7 @@ u"""
 entry(
 	index = 803,
 	label = "O2s-SH",
-	group = 
+	group =
 """
 1 * O2s   u0 {2,S} {3,S}
 2   S     ux {1,S}
@@ -22040,7 +22040,7 @@ entry(
 	solute = u'O2s-S_DeH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22049,7 +22049,7 @@ u"""
 entry(
 	index = 804,
 	label = "O2s-S_DeH",
-	group = 
+	group =
 """
 1 * O2s   u0 {2,S} {3,S}
 2   [S4d,S6d,S6dd]   ux {1,S}
@@ -22070,7 +22070,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22079,14 +22079,14 @@ u"""
 entry(
 	index = 805,
 	label = "Oc",
-	group = 
+	group =
 """
 1 * O0sc u0 c-1
 """,
 	solute = u'Oc-N5c',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22095,7 +22095,7 @@ u"""
 entry(
 	index = 806,
 	label = "Oc-N5c",
-	group = 
+	group =
 """
 1 * O0sc u0 c-1 {2,S}
 2   [N5sc,N5dc] u0 c+1 {1,S}
@@ -22115,7 +22115,7 @@ entry(
 		A = 400,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22124,14 +22124,14 @@ u"""
 entry(
 	index = 807,
 	label = "S",
-	group = 
+	group =
 """
 1 * S ux
 """,
 	solute = u'S2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22140,14 +22140,14 @@ u"""
 entry(
 	index = 808,
 	label = "S2d",
-	group = 
+	group =
 """
 1 * S2d u0
 """,
 	solute = u'S2d-C',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22156,7 +22156,7 @@ u"""
 entry(
 	index = 809,
 	label = "S2d-C",
-	group = 
+	group =
 """
 1 * S2d u0 {2,D}
 2   C u0 {1,D}
@@ -22176,7 +22176,7 @@ entry(
 		A = 48,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22185,7 +22185,7 @@ u"""
 entry(
 	index = 810,
 	label = "S2d-P",
-	group = 
+	group =
 """
 1 * S2d u0 {2,D}
 2   P u0 {1,D}
@@ -22193,7 +22193,7 @@ entry(
 	solute = u'S2d-P5d',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22202,7 +22202,7 @@ u"""
 entry(
 	index = 811,
 	label = "S2d-P5d",
-	group = 
+	group =
 """
 1 * S2d u0 {2,D}
 2   P5d u0 {1,D}
@@ -22222,7 +22222,7 @@ entry(
 		A = 18,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22231,14 +22231,14 @@ u"""
 entry(
 	index = 812,
 	label = "S2s",
-	group = 
+	group =
 """
 1 * S2s u0
 """,
 	solute = u'S2s-CC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22247,7 +22247,7 @@ u"""
 entry(
 	index = 813,
 	label = "S2s-CH",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   C  u0 {1,S}
@@ -22256,7 +22256,7 @@ entry(
 	solute = u'S2s-CsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22265,7 +22265,7 @@ u"""
 entry(
 	index = 814,
 	label = "S2s-CsH",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
@@ -22286,7 +22286,7 @@ entry(
 		A = 38,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22295,7 +22295,7 @@ u"""
 entry(
 	index = 815,
 	label = "S2s-CdH",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   [Cd,CO,CS] u0 {1,S}
@@ -22316,7 +22316,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22325,7 +22325,7 @@ u"""
 entry(
 	index = 816,
 	label = "S2s-CbH",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   Cb u0 {1,S}
@@ -22346,7 +22346,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22355,7 +22355,7 @@ u"""
 entry(
 	index = 817,
 	label = "S2s-PH",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   P   u0 {1,S}
@@ -22364,7 +22364,7 @@ entry(
 	solute = u'S2s-P5dH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22373,7 +22373,7 @@ u"""
 entry(
 	index = 818,
 	label = "S2s-P5dH",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   P5d u0 {1,S}
@@ -22394,7 +22394,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22403,7 +22403,7 @@ u"""
 entry(
 	index = 819,
 	label = "S2s-PC",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   P   u0 {1,S}
@@ -22412,7 +22412,7 @@ entry(
 	solute = u'S2s-P5dC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22421,7 +22421,7 @@ u"""
 entry(
 	index = 820,
 	label = "S2s-P5dC",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   P5d u0 {1,S}
@@ -22442,7 +22442,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22451,7 +22451,7 @@ u"""
 entry(
 	index = 821,
 	label = "S2s-SS",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   S ux {1,S}
@@ -22460,7 +22460,7 @@ entry(
 	solute = u'S2s-SsSs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22469,7 +22469,7 @@ u"""
 entry(
 	index = 822,
 	label = "S2s-SsSs",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   S2s u0 {1,S}
@@ -22490,7 +22490,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22499,7 +22499,7 @@ u"""
 entry(
 	index = 823,
 	label = "S2s-SC",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   S ux {1,S}
@@ -22508,7 +22508,7 @@ entry(
 	solute = u'S2s-S2sC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22517,7 +22517,7 @@ u"""
 entry(
 	index = 824,
 	label = "S2s-S2sC",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   S2s u0 {1,S}
@@ -22538,7 +22538,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22547,7 +22547,7 @@ u"""
 entry(
 	index = 825,
 	label = "S2s-S46C",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   [S4s,S4d,S4b,S4t,S6d,S6dd,S6t,S6td] u0 {1,S}
@@ -22568,7 +22568,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22577,7 +22577,7 @@ u"""
 entry(
 	index = 826,
 	label = "S2s-NN",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   N  u0 {1,S}
@@ -22586,7 +22586,7 @@ entry(
 	solute = u'S2s-N3dN3d',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22595,7 +22595,7 @@ u"""
 entry(
 	index = 827,
 	label = "S2s-N3dN3d",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   N3d u0 {1,S}
@@ -22616,7 +22616,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22625,7 +22625,7 @@ u"""
 entry(
 	index = 828,
 	label = "S2s-NC",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   N   u0 {1,S}
@@ -22634,7 +22634,7 @@ entry(
 	solute = u'S2s-N3dCd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22643,7 +22643,7 @@ u"""
 entry(
 	index = 829,
 	label = "S2s-N3dCd",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   N3d u0 {1,S}
@@ -22664,7 +22664,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22673,7 +22673,7 @@ u"""
 entry(
 	index = 830,
 	label = "S2s-CC",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   C  u0 {1,S}
@@ -22682,7 +22682,7 @@ entry(
 	solute = u'S2s-CsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22691,7 +22691,7 @@ u"""
 entry(
 	index = 831,
 	label = "S2s-CsCs",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
@@ -22712,7 +22712,7 @@ entry(
 		A = 117,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22721,7 +22721,7 @@ u"""
 entry(
 	index = 832,
 	label = "S2rs-CrsCrs",
-	group = 
+	group =
 """
 1 * S2s u0 r1 {2,S} {3,S}
 2   Cs u0 r1 {1,S}
@@ -22742,7 +22742,7 @@ entry(
 		A = 38,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22751,7 +22751,7 @@ u"""
 entry(
 	index = 833,
 	label = "S2s-CsCd",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
@@ -22772,7 +22772,7 @@ entry(
 		A = 37,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22781,7 +22781,7 @@ u"""
 entry(
 	index = 834,
 	label = "S2s-Cs(C=O)",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
@@ -22803,7 +22803,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22812,7 +22812,7 @@ u"""
 entry(
 	index = 835,
 	label = "S2s-CsCt",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
@@ -22833,7 +22833,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22842,7 +22842,7 @@ u"""
 entry(
 	index = 836,
 	label = "S2s-CsCb",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   Cs u0 {1,S}
@@ -22863,7 +22863,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22872,7 +22872,7 @@ u"""
 entry(
 	index = 837,
 	label = "S2s-CdCd",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   Cd u0 {1,S}
@@ -22881,7 +22881,7 @@ entry(
 	solute = u'S2rs-CrdCrd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22890,7 +22890,7 @@ u"""
 entry(
 	index = 838,
 	label = "S2rs-CrdCrd",
-	group = 
+	group =
 """
 1 * S2s u0 r1 {2,S} {3,S}
 2   Cd u0 r1 {1,S}
@@ -22911,7 +22911,7 @@ entry(
 		A = 59,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22920,7 +22920,7 @@ u"""
 entry(
 	index = 839,
 	label = "S2s-CdCb",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   Cd u0 {1,S}
@@ -22929,7 +22929,7 @@ entry(
 	solute = u'S2rs-CrdCb',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22938,7 +22938,7 @@ u"""
 entry(
 	index = 840,
 	label = "S2rs-CrdCb",
-	group = 
+	group =
 """
 1 * S2s u0 r1 {2,S} {3,S}
 2   Cd u0 r1 {1,S}
@@ -22959,7 +22959,7 @@ entry(
 		A = 55,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22968,7 +22968,7 @@ u"""
 entry(
 	index = 841,
 	label = "S2s-CtCb",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   Ct u0 {1,S}
@@ -22977,7 +22977,7 @@ entry(
 	solute = u'S2s-(Ct-N3t)Cb',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -22986,7 +22986,7 @@ u"""
 entry(
 	index = 842,
 	label = "S2s-(Ct-N3t)Cb",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   Ct u0 {1,S} {4,T}
@@ -23008,7 +23008,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23017,7 +23017,7 @@ u"""
 entry(
 	index = 843,
 	label = "S2s-CbCb",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   Cb u0 {1,S}
@@ -23038,7 +23038,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23047,7 +23047,7 @@ u"""
 entry(
 	index = 844,
 	label = "S2rs-CbCb",
-	group = 
+	group =
 """
 1 * S2s u0 r1 {2,S} {3,S}
 2   Cb u0 {1,S}
@@ -23068,7 +23068,7 @@ entry(
 		A = 74,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23077,7 +23077,7 @@ u"""
 entry(
 	index = 845,
 	label = "S2s-(Cd-S2d)C",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {3,S}
 2   C  u0 {1,S}
@@ -23099,7 +23099,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23108,14 +23108,14 @@ u"""
 entry(
 	index = 846,
 	label = "S4dd",
-	group = 
+	group =
 """
 1 * S4dd  u0
 """,
 	solute = u'S4dd-N3dN3d',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23124,7 +23124,7 @@ u"""
 entry(
 	index = 847,
 	label = "S4dd-N3dN3d",
-	group = 
+	group =
 """
 1 * S4dd  u0 {2,D} {3,D}
 2   N3d   u0 {1,D}
@@ -23145,7 +23145,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23154,14 +23154,14 @@ u"""
 entry(
 	index = 848,
 	label = "S4d",
-	group = 
+	group =
 """
 1 * S4d  u0
 """,
 	solute = u'S4d-Od',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23170,7 +23170,7 @@ u"""
 entry(
 	index = 849,
 	label = "S4d-Od",
-	group = 
+	group =
 """
 1 * S4d u0 p1 {2,D}
 2   O2d ux    {1,D}
@@ -23178,7 +23178,7 @@ entry(
 	solute = u'S4d-OdCC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23187,7 +23187,7 @@ u"""
 entry(
 	index = 850,
 	label = "S4d-OdCC",
-	group = 
+	group =
 """
 1 * S4d  u0 p1 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
@@ -23197,7 +23197,7 @@ entry(
 	solute = u'S4d-OdCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23206,7 +23206,7 @@ u"""
 entry(
 	index = 851,
 	label = "S4d-OdCsCs",
-	group = 
+	group =
 """
 1 * S4d  u0 p1 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
@@ -23228,7 +23228,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23237,7 +23237,7 @@ u"""
 entry(
 	index = 852,
 	label = "S4d-OdCsCb",
-	group = 
+	group =
 """
 1 * S4d  u0 p1 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
@@ -23259,7 +23259,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23268,7 +23268,7 @@ u"""
 entry(
 	index = 853,
 	label = "S4d-OdCbCb",
-	group = 
+	group =
 """
 1 * S4d  u0 p1 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
@@ -23290,7 +23290,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23299,7 +23299,7 @@ u"""
 entry(
 	index = 854,
 	label = "S4d-OdCS",
-	group = 
+	group =
 """
 1 * S4d  u0 p1 {2,D} {3,S} {4,S}
 2   O2d  ux {1,D}
@@ -23321,7 +23321,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23330,14 +23330,14 @@ u"""
 entry(
 	index = 855,
 	label = "S6dd",
-	group = 
+	group =
 """
 1 * S6dd   u0
 """,
 	solute = u'S6dd-OdOd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23346,7 +23346,7 @@ u"""
 entry(
 	index = 856,
 	label = "S6dd-OdOd",
-	group = 
+	group =
 """
 1 * S6dd u0 p0 {2,D} {3,D}
 2   O2d  ux {1,D}
@@ -23355,7 +23355,7 @@ entry(
 	solute = u'S6dd-OdOdCC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23364,7 +23364,7 @@ u"""
 entry(
 	index = 857,
 	label = "S6dd-OdOdCC",
-	group = 
+	group =
 """
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
@@ -23375,7 +23375,7 @@ entry(
 	solute = u'S6dd-OdOdCbCb',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23384,7 +23384,7 @@ u"""
 entry(
 	index = 858,
 	label = "S6dd-OdOdCbCb",
-	group = 
+	group =
 """
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
@@ -23407,7 +23407,7 @@ entry(
 		A = 21,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23416,7 +23416,7 @@ u"""
 entry(
 	index = 859,
 	label = "S6dd-OdOdCrCr",
-	group = 
+	group =
 """
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
@@ -23439,7 +23439,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23448,7 +23448,7 @@ u"""
 entry(
 	index = 860,
 	label = "S6dd-OdOdCsCs",
-	group = 
+	group =
 """
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
@@ -23471,7 +23471,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23480,7 +23480,7 @@ u"""
 entry(
 	index = 861,
 	label = "S6dd-OdOdCsCb",
-	group = 
+	group =
 """
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
@@ -23503,7 +23503,7 @@ entry(
 		A = 19,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23512,7 +23512,7 @@ u"""
 entry(
 	index = 862,
 	label = "S6dd-OdOdCO",
-	group = 
+	group =
 """
 1 * S6dd    u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d     ux {1,D}
@@ -23523,7 +23523,7 @@ entry(
 	solute = u'S6dd-OdOdCbOs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23532,7 +23532,7 @@ u"""
 entry(
 	index = 863,
 	label = "S6dd-OdOdCsOs",
-	group = 
+	group =
 """
 1 * S6dd    u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d     ux {1,D}
@@ -23555,7 +23555,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23564,7 +23564,7 @@ u"""
 entry(
 	index = 864,
 	label = "S6dd-OdOdCbOs",
-	group = 
+	group =
 """
 1 * S6dd    u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d     ux {1,D}
@@ -23587,7 +23587,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23596,7 +23596,7 @@ u"""
 entry(
 	index = 865,
 	label = "S6dd-OdOdNC",
-	group = 
+	group =
 """
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
@@ -23619,7 +23619,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23628,7 +23628,7 @@ u"""
 entry(
 	index = 866,
 	label = "S6dd-OdOdNCb",
-	group = 
+	group =
 """
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
@@ -23651,7 +23651,7 @@ entry(
 		A = 111,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23660,7 +23660,7 @@ u"""
 entry(
 	index = 867,
 	label = "S6dd-OdOdNN",
-	group = 
+	group =
 """
 1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d  ux {1,D}
@@ -23671,7 +23671,7 @@ entry(
 	solute = u'S6dd-OdOdNC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23680,7 +23680,7 @@ u"""
 entry(
 	index = 868,
 	label = "S6dd-OdOdOO",
-	group = 
+	group =
 """
 1 * S6dd    u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d     ux {1,D}
@@ -23703,7 +23703,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23712,7 +23712,7 @@ u"""
 entry(
 	index = 869,
 	label = "S6dd-OdOdON",
-	group = 
+	group =
 """
 1 * S6dd    u0 p0 {2,D} {3,D} {4,S} {5,S}
 2   O2d     ux {1,D}
@@ -23735,7 +23735,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23744,14 +23744,14 @@ u"""
 entry(
 	index = 870,
 	label = "N",
-	group = 
+	group =
 """
 1 * N u0
 """,
 	solute = u'N3s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23760,7 +23760,7 @@ u"""
 entry(
 	index = 871,
 	label = "N1dc",
-	group = 
+	group =
 """
 1 * N1dc u0 p2 {2,D}
 2   R!H ux px {1,D}
@@ -23768,7 +23768,7 @@ entry(
 	solute = u'N1dc-N5ddc',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23777,7 +23777,7 @@ u"""
 entry(
 	index = 872,
 	label = "N1dc-N5ddc",
-	group = 
+	group =
 """
 1 * N1dc u0 p2 {2,D}
 2   N5ddc u0 px {1,D}
@@ -23797,7 +23797,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23806,14 +23806,14 @@ u"""
 entry(
 	index = 873,
 	label = "N3s",
-	group = 
+	group =
 """
 1 * N3s u0
 """,
 	solute = u'N3s-CCH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23822,7 +23822,7 @@ u"""
 entry(
 	index = 874,
 	label = "N3s-CHH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   C   u0 {1,S}
@@ -23832,7 +23832,7 @@ entry(
 	solute = u'N3s-CsHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23841,7 +23841,7 @@ u"""
 entry(
 	index = 875,
 	label = "N3s-CsHH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cs  u0 {1,S}
@@ -23863,7 +23863,7 @@ entry(
 		A = 92,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23872,7 +23872,7 @@ u"""
 entry(
 	index = 876,
 	label = "N3s-CrsHH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cs  u0 r1 {1,S}
@@ -23894,7 +23894,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23903,7 +23903,7 @@ u"""
 entry(
 	index = 877,
 	label = "N3s-CbHH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -23925,7 +23925,7 @@ entry(
 		A = 248,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23934,7 +23934,7 @@ u"""
 entry(
 	index = 878,
 	label = "N3s-CdHH",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   [Cd,CO,CS]  u0 {1,S}
@@ -23944,7 +23944,7 @@ entry(
 	solute = u'N3s-(Cd-O2d)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23953,7 +23953,7 @@ u"""
 entry(
 	index = 879,
 	label = "N3s-(Cd-Cd)HH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -23964,7 +23964,7 @@ entry(
 	solute = u'N3s-(Crd-Crd)HH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -23973,7 +23973,7 @@ u"""
 entry(
 	index = 880,
 	label = "N3s-(Crd-Crd)HH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -23996,7 +23996,7 @@ entry(
 		A = 18,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24005,7 +24005,7 @@ u"""
 entry(
 	index = 881,
 	label = "N3s-(Cd-N3d)HH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -24028,7 +24028,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24037,7 +24037,7 @@ u"""
 entry(
 	index = 882,
 	label = "N3s-(Crd-N3rd)HH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -24060,7 +24060,7 @@ entry(
 		A = 36,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24069,7 +24069,7 @@ u"""
 entry(
 	index = 883,
 	label = "N3s-(Cd-O2d)HH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -24092,7 +24092,7 @@ entry(
 		A = 138,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24101,7 +24101,7 @@ u"""
 entry(
 	index = 884,
 	label = "N3s-(Cd-Sd)HH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CS  u0 {1,S} {5,D}
@@ -24124,7 +24124,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24133,7 +24133,7 @@ u"""
 entry(
 	index = 885,
 	label = "N3s-NHH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N   u0 {1,S}
@@ -24143,7 +24143,7 @@ entry(
 	solute = u'N3s-N3sHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24152,7 +24152,7 @@ u"""
 entry(
 	index = 886,
 	label = "N3s-N3sHH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   H   u0 {1,S}
@@ -24174,7 +24174,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24183,7 +24183,7 @@ u"""
 entry(
 	index = 887,
 	label = "N3s-SHH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   S   u0 {1,S}
@@ -24193,7 +24193,7 @@ entry(
 	solute = u'N3s-S6ddHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24202,7 +24202,7 @@ u"""
 entry(
 	index = 888,
 	label = "N3s-S6ddHH",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   S6dd u0 {1,S}
@@ -24224,7 +24224,7 @@ entry(
 		A = 61,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24233,7 +24233,7 @@ u"""
 entry(
 	index = 889,
 	label = "N3s-NNH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N   u0 {1,S}
@@ -24243,7 +24243,7 @@ entry(
 	solute = u'N3rs-N3rd(Crd-Nd)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24252,7 +24252,7 @@ u"""
 entry(
 	index = 890,
 	label = "N3s-PCH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   P   u0 {1,S}
@@ -24262,7 +24262,7 @@ entry(
 	solute = u'N3s-P5dCH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24271,7 +24271,7 @@ u"""
 entry(
 	index = 891,
 	label = "N3s-P5dCH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   P5d u0 {1,S}
@@ -24293,7 +24293,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24302,7 +24302,7 @@ u"""
 entry(
 	index = 892,
 	label = "N3s-NCH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N   u0 {1,S}
@@ -24312,7 +24312,7 @@ entry(
 	solute = u'N3s-N3dCdH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24321,7 +24321,7 @@ u"""
 entry(
 	index = 893,
 	label = "N3s-N3sCsH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cs  u0 {1,S}
@@ -24343,7 +24343,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24352,7 +24352,7 @@ u"""
 entry(
 	index = 894,
 	label = "N3s-N3sCbH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N3s u0 {1,S}
@@ -24374,7 +24374,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24383,7 +24383,7 @@ u"""
 entry(
 	index = 895,
 	label = "N3s-N3sCdH",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   N3s         u0 {1,S}
@@ -24405,7 +24405,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24414,7 +24414,7 @@ u"""
 entry(
 	index = 896,
 	label = "N3s-N3dCsH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N3d u0 {1,S}
@@ -24424,7 +24424,7 @@ entry(
 	solute = u'N3rs-N3rd(Crd-Cd)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24433,7 +24433,7 @@ u"""
 entry(
 	index = 897,
 	label = "N3s-N3dCbH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N3d u0 {1,S}
@@ -24455,7 +24455,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24464,7 +24464,7 @@ u"""
 entry(
 	index = 898,
 	label = "N3s-N3dCdH",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   N3d         u0 {1,S}
@@ -24474,7 +24474,7 @@ entry(
 	solute = u'N3s-N3d(Cd-O2d)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24483,7 +24483,7 @@ u"""
 entry(
 	index = 899,
 	label = "N3rs-N3rdCrdH",
-	group = 
+	group =
 """
 1 * N3s         u0 r1 {2,S} {3,S} {4,S}
 2   N3d         u0 r1 {1,S}
@@ -24493,7 +24493,7 @@ entry(
 	solute = u'N3rs-N3rd(Crd-O2d)H',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24502,7 +24502,7 @@ u"""
 entry(
 	index = 900,
 	label = "N3rs-N3rd(Crd-O2d)H",
-	group = 
+	group =
 """
 1 * N3s         u0 r1 {2,S} {3,S} {4,S}
 2   N3d         u0 r1 {1,S}
@@ -24524,7 +24524,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24533,7 +24533,7 @@ u"""
 entry(
 	index = 901,
 	label = "N3rs-N3rd(Crd-Cd)H",
-	group = 
+	group =
 """
 1 * N3s         u0 r1 {2,S} {3,S} {4,S}
 2   N3d         u0 r1 {1,S}
@@ -24556,7 +24556,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24565,7 +24565,7 @@ u"""
 entry(
 	index = 902,
 	label = "N3rs-N3rd(Crd-Nd)H",
-	group = 
+	group =
 """
 1 * N3s         u0 r1 {2,S} {3,S} {4,S}
 2   N3d         u0 r1 {1,S}
@@ -24588,7 +24588,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24597,7 +24597,7 @@ u"""
 entry(
 	index = 903,
 	label = "N3s-N3d(Cd-O2d)H",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   N3d         u0 {1,S}
@@ -24619,7 +24619,7 @@ entry(
 		A = 32,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24628,7 +24628,7 @@ u"""
 entry(
 	index = 904,
 	label = "N3s-PCC",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   P   u0 {1,S}
@@ -24650,7 +24650,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24659,7 +24659,7 @@ u"""
 entry(
 	index = 905,
 	label = "N3s-NCC",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N   u0 {1,S}
@@ -24669,7 +24669,7 @@ entry(
 	solute = u'N3s-N3dCC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24678,7 +24678,7 @@ u"""
 entry(
 	index = 906,
 	label = "N3rs-NrCrCr",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   N   u0 r1 {1,S}
@@ -24700,7 +24700,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24709,7 +24709,7 @@ u"""
 entry(
 	index = 907,
 	label = "N3rs-NrCrCb",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   N   u0 r1 {1,S}
@@ -24731,7 +24731,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24740,7 +24740,7 @@ u"""
 entry(
 	index = 908,
 	label = "N3rs-Nr(Crd-O2d)Cb",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   N   u0 r1 {1,S}
@@ -24762,7 +24762,7 @@ entry(
 		A = 20,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24771,7 +24771,7 @@ u"""
 entry(
 	index = 909,
 	label = "N3rs-NrCrC",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   N   u0 r1 {1,S}
@@ -24793,7 +24793,7 @@ entry(
 		A = 45,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24802,7 +24802,7 @@ u"""
 entry(
 	index = 910,
 	label = "N3rs-NCrCr",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   N   u0 {1,S}
@@ -24812,7 +24812,7 @@ entry(
 	solute = u'N3rs-N3dCrCr',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24821,7 +24821,7 @@ u"""
 entry(
 	index = 911,
 	label = "N3rs-N3dCrCr",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   N3d u0 {1,S}
@@ -24843,7 +24843,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24852,7 +24852,7 @@ u"""
 entry(
 	index = 912,
 	label = "N3rs-(N3d-O2d)CrCr",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   N3d u0 {1,S} {5,D}
@@ -24875,7 +24875,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24884,7 +24884,7 @@ u"""
 entry(
 	index = 913,
 	label = "N3rs-N5dcCrCr",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   N5dc u0 {1,S}
@@ -24906,7 +24906,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24915,7 +24915,7 @@ u"""
 entry(
 	index = 914,
 	label = "N3s-N3dCC",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N3d u0 {1,S}
@@ -24925,7 +24925,7 @@ entry(
 	solute = u'N3s-(N3d-O2d)CC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24934,7 +24934,7 @@ u"""
 entry(
 	index = 915,
 	label = "N3s-(N3d-O2d)CC",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N3d u0 {1,S} {5,D}
@@ -24957,7 +24957,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24966,7 +24966,7 @@ u"""
 entry(
 	index = 916,
 	label = "N3s-(N3d-O2d)CsCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N3d u0 {1,S} {5,D}
@@ -24989,7 +24989,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -24998,7 +24998,7 @@ u"""
 entry(
 	index = 917,
 	label = "N3s-(N3d-O2d)CbCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N3d u0 {1,S} {5,D}
@@ -25021,7 +25021,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25030,7 +25030,7 @@ u"""
 entry(
 	index = 918,
 	label = "N3s-(N3d-O2d)CbCb",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N3d u0 {1,S} {5,D}
@@ -25053,7 +25053,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25062,7 +25062,7 @@ u"""
 entry(
 	index = 919,
 	label = "N3s-NNC",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N   u0 {1,S}
@@ -25072,7 +25072,7 @@ entry(
 	solute = u'N3rs-NrNrC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25081,7 +25081,7 @@ u"""
 entry(
 	index = 920,
 	label = "N3rs-NrNrC",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   N   u0 r1 {1,S}
@@ -25091,7 +25091,7 @@ entry(
 	solute = u'N3rs-NrCrC',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25100,7 +25100,7 @@ u"""
 entry(
 	index = 921,
 	label = "N3s-NNO",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   N   u0 {1,S}
@@ -25110,7 +25110,7 @@ entry(
 	solute = u'N3rs-NrNrO',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25119,7 +25119,7 @@ u"""
 entry(
 	index = 922,
 	label = "N3rs-NrNrO",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   N   u0 r1 {1,S}
@@ -25129,7 +25129,7 @@ entry(
 	solute = u'N3rs-N3rdN3rdO',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25138,7 +25138,7 @@ u"""
 entry(
 	index = 923,
 	label = "N3rs-N3rdN3rdO",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   N3d  u0 r1 {1,S}
@@ -25148,7 +25148,7 @@ entry(
 	solute = u'N3rs-N3rdN3rd(O2s-H)',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25157,7 +25157,7 @@ u"""
 entry(
 	index = 924,
 	label = "N3rs-N3rdN3rd(O2s-H)",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   N3d  u0 r1 {1,S}
@@ -25180,7 +25180,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25189,7 +25189,7 @@ u"""
 entry(
 	index = 925,
 	label = "N3s-CCH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   C   u0 {1,S}
@@ -25199,7 +25199,7 @@ entry(
 	solute = u'N3s-CsCsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25208,7 +25208,7 @@ u"""
 entry(
 	index = 926,
 	label = "N3s-CsCsH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cs  u0 {1,S}
@@ -25230,7 +25230,7 @@ entry(
 		A = 108,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25239,7 +25239,7 @@ u"""
 entry(
 	index = 927,
 	label = "N3rs-CrsCrsH",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cs  u0 r1 {1,S}
@@ -25261,7 +25261,7 @@ entry(
 		A = 38,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25270,7 +25270,7 @@ u"""
 entry(
 	index = 928,
 	label = "N3s-CbCsH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -25292,7 +25292,7 @@ entry(
 		A = 30,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25301,7 +25301,7 @@ u"""
 entry(
 	index = 929,
 	label = "N3rs-CbCrsH",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -25323,7 +25323,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25332,7 +25332,7 @@ u"""
 entry(
 	index = 930,
 	label = "N3s-CbCbH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -25354,7 +25354,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25363,7 +25363,7 @@ u"""
 entry(
 	index = 931,
 	label = "N3rs-CbCbH",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -25385,7 +25385,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25394,7 +25394,7 @@ u"""
 entry(
 	index = 932,
 	label = "N3s-CdCsH",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   [Cd,CO,CS]  u0 {1,S}
@@ -25404,7 +25404,7 @@ entry(
 	solute = u'N3s-(Cd-O2d)CsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25413,7 +25413,7 @@ u"""
 entry(
 	index = 933,
 	label = "N3s-(Cd-Cd)CsH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -25436,7 +25436,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25445,7 +25445,7 @@ u"""
 entry(
 	index = 934,
 	label = "N3s-(Cd-N3d)CsH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -25468,7 +25468,7 @@ entry(
 		A = 39,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25477,7 +25477,7 @@ u"""
 entry(
 	index = 935,
 	label = "N3rs-(Crd-N3rd)CrsH",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -25500,7 +25500,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25509,7 +25509,7 @@ u"""
 entry(
 	index = 936,
 	label = "N3s-(Cd-O2d)CsH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -25532,7 +25532,7 @@ entry(
 		A = 236,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25541,7 +25541,7 @@ u"""
 entry(
 	index = 937,
 	label = "N3s-(Cd-Sd)CsH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CS  u0 {1,S} {5,D}
@@ -25564,7 +25564,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25573,7 +25573,7 @@ u"""
 entry(
 	index = 938,
 	label = "N3s-CdCtH",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   [Cd,CO,CS]  u0 {1,S}
@@ -25583,7 +25583,7 @@ entry(
 	solute = u'N3s-(Cd-N3d)CtH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25592,7 +25592,7 @@ u"""
 entry(
 	index = 939,
 	label = "N3s-(Cd-N3d)CtH",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   Cd          u0 {1,S} {5,D}
@@ -25603,7 +25603,7 @@ entry(
 	solute = u'N3s-(Cd-N3d)(Ct-N3t)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25612,7 +25612,7 @@ u"""
 entry(
 	index = 940,
 	label = "N3s-(Cd-N3d)(Ct-N3t)H",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   Cd          u0 {1,S} {5,D}
@@ -25624,7 +25624,7 @@ entry(
 	solute = u'N3s-(Cd-N3d)CsH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25633,7 +25633,7 @@ u"""
 entry(
 	index = 941,
 	label = "N3s-CdCbH",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   [Cd,CO,CS]  u0 {1,S}
@@ -25643,7 +25643,7 @@ entry(
 	solute = u'N3s-(Cd-O2d)CbH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25652,7 +25652,7 @@ u"""
 entry(
 	index = 942,
 	label = "N3s-(Cd-Cd)CbH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -25663,7 +25663,7 @@ entry(
 	solute = u'N3rs-(Crd-Crd)CbH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25672,7 +25672,7 @@ u"""
 entry(
 	index = 943,
 	label = "N3rs-(Crd-Crd)CbH",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -25695,7 +25695,7 @@ entry(
 		A = 40,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25704,7 +25704,7 @@ u"""
 entry(
 	index = 944,
 	label = "N3s-(Crd-Crd)CbH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -25727,7 +25727,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25736,7 +25736,7 @@ u"""
 entry(
 	index = 945,
 	label = "N3s-(Cd-N3d)CbH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -25747,7 +25747,7 @@ entry(
 	solute = u'N3s-(Crd-N3rd)CbH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25756,7 +25756,7 @@ u"""
 entry(
 	index = 946,
 	label = "N3rs-(Crd-N3rd)CbH",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -25779,7 +25779,7 @@ entry(
 		A = 24,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25788,7 +25788,7 @@ u"""
 entry(
 	index = 947,
 	label = "N3s-(Crd-N3rd)CbH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -25811,7 +25811,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25820,7 +25820,7 @@ u"""
 entry(
 	index = 948,
 	label = "N3s-(Cd-O2d)CbH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -25843,7 +25843,7 @@ entry(
 		A = 164,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25852,7 +25852,7 @@ u"""
 entry(
 	index = 949,
 	label = "N3s-(Cd-Sd)CbH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CS  u0 {1,S} {5,D}
@@ -25875,7 +25875,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25884,7 +25884,7 @@ u"""
 entry(
 	index = 950,
 	label = "N3s-CdCdH",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   [Cd,CO,CS]  u0 {1,S}
@@ -25894,7 +25894,7 @@ entry(
 	solute = u'N3s-(Cd-Cd)(Cd-Cd)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25903,7 +25903,7 @@ u"""
 entry(
 	index = 951,
 	label = "N3s-(Cd-Cd)(Cd-Cd)H",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -25915,7 +25915,7 @@ entry(
 	solute = u'N3rs-(Crd-Crd)(Crd-Crd)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25924,7 +25924,7 @@ u"""
 entry(
 	index = 952,
 	label = "N3rs-(Crd-Crd)(Crd-Crd)H",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -25948,7 +25948,7 @@ entry(
 		A = 52,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25957,7 +25957,7 @@ u"""
 entry(
 	index = 953,
 	label = "N3s-(Cd-N3d)(Cd-Cd)H",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -25969,7 +25969,7 @@ entry(
 	solute = u'N3rs-(Crd-N3rd)(Crd-Crd)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -25978,7 +25978,7 @@ u"""
 entry(
 	index = 954,
 	label = "N3rs-(Crd-N3rd)(Crd-Crd)H",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -26002,7 +26002,7 @@ entry(
 		A = 31,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26011,7 +26011,7 @@ u"""
 entry(
 	index = 955,
 	label = "N3s-(Cd-O2d)(Cd-Cd)H",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -26023,7 +26023,7 @@ entry(
 	solute = u'N3rs-(Crd-O2d)(Crd-Crd)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26032,7 +26032,7 @@ u"""
 entry(
 	index = 956,
 	label = "N3rs-(Crd-O2d)(Crd-Crd)H",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   CO  u0 r1 {1,S} {5,D}
@@ -26056,7 +26056,7 @@ entry(
 		A = 25,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26065,7 +26065,7 @@ u"""
 entry(
 	index = 957,
 	label = "N3s-(Cd-O2d)(Crd-Crd)H",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -26089,7 +26089,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26098,7 +26098,7 @@ u"""
 entry(
 	index = 958,
 	label = "N3s-(Cd-Sd)(Cd-Cd)H",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CS  u0 {1,S} {5,D}
@@ -26110,7 +26110,7 @@ entry(
 	solute = u'N3rs-(Crd-Sd)(Crd-Crd)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26119,7 +26119,7 @@ u"""
 entry(
 	index = 959,
 	label = "N3rs-(Crd-Sd)(Crd-Crd)H",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   CS  u0 r1 {1,S} {5,D}
@@ -26143,7 +26143,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26152,7 +26152,7 @@ u"""
 entry(
 	index = 960,
 	label = "N3s-(Cd-O2d)(Cd-O2d)H",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -26164,7 +26164,7 @@ entry(
 	solute = u'N3rs-(Crd-O2d)(Crd-O2d)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26173,7 +26173,7 @@ u"""
 entry(
 	index = 961,
 	label = "N3rs-(Crd-O2d)(Crd-O2d)H",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   CO  u0 r1 {1,S} {5,D}
@@ -26197,7 +26197,7 @@ entry(
 		A = 125,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26206,7 +26206,7 @@ u"""
 entry(
 	index = 962,
 	label = "N3s-(Cd-O2d)(Cd-N3d)H",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -26218,7 +26218,7 @@ entry(
 	solute = u'N3rs-(Crd-O2d)(Crd-N3rd)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26227,7 +26227,7 @@ u"""
 entry(
 	index = 963,
 	label = "N3rs-(Crd-O2d)(Crd-N3rd)H",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   CO  u0 r1 {1,S} {5,D}
@@ -26251,7 +26251,7 @@ entry(
 		A = 18,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26260,7 +26260,7 @@ u"""
 entry(
 	index = 964,
 	label = "N3s-(Cd-O2d)(Crd-N3rd)H",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -26284,7 +26284,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26293,7 +26293,7 @@ u"""
 entry(
 	index = 965,
 	label = "N3s-(Cd-O2d)(Cd-Sd)H",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -26305,7 +26305,7 @@ entry(
 	solute = u'N3rs-(Crd-O2d)(Crd-Sd)H',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26314,7 +26314,7 @@ u"""
 entry(
 	index = 966,
 	label = "N3rs-(Crd-O2d)(Crd-Sd)H",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   CO  u0 r1 {1,S} {5,D}
@@ -26338,7 +26338,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26347,7 +26347,7 @@ u"""
 entry(
 	index = 967,
 	label = "N3s-COH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   C   u0 {1,S}
@@ -26369,7 +26369,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26378,7 +26378,7 @@ u"""
 entry(
 	index = 968,
 	label = "N3s-CSH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   C   u0 {1,S}
@@ -26388,7 +26388,7 @@ entry(
 	solute = u'N3s-CS6ddH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26397,7 +26397,7 @@ u"""
 entry(
 	index = 969,
 	label = "N3s-CS6ddH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   C   u0 {1,S}
@@ -26407,7 +26407,7 @@ entry(
 	solute = u'N3s-CrS6ddH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26416,7 +26416,7 @@ u"""
 entry(
 	index = 970,
 	label = "N3s-CbS6ddH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -26438,7 +26438,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26447,7 +26447,7 @@ u"""
 entry(
 	index = 971,
 	label = "N3s-CrS6ddH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   C   u0 r1 {1,S}
@@ -26457,7 +26457,7 @@ entry(
 	solute = u'N3s-CrdS6ddH',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26466,7 +26466,7 @@ u"""
 entry(
 	index = 972,
 	label = "N3s-CrdS6ddH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S}
@@ -26488,7 +26488,7 @@ entry(
 		A = 25,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26497,7 +26497,7 @@ u"""
 entry(
 	index = 973,
 	label = "N3s-CdS6ddH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   [Cd,CO,CS]  u0 {1,S}
@@ -26507,7 +26507,7 @@ entry(
 	solute = u'N3s-(Cd-O2d)S6ddH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26516,7 +26516,7 @@ u"""
 entry(
 	index = 974,
 	label = "N3s-(Cd-O2d)S6ddH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S}
@@ -26538,7 +26538,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26547,7 +26547,7 @@ u"""
 entry(
 	index = 975,
 	label = "N3s-CsS6ddH",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cs  u0 {1,S}
@@ -26569,7 +26569,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26578,7 +26578,7 @@ u"""
 entry(
 	index = 976,
 	label = "N3s-CCC",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   C   u0 {1,S}
@@ -26588,7 +26588,7 @@ entry(
 	solute = u'N3s-CsCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26597,7 +26597,7 @@ u"""
 entry(
 	index = 977,
 	label = "N3s-CsCsCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cs  u0 {1,S}
@@ -26619,7 +26619,7 @@ entry(
 		A = 151,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26628,7 +26628,7 @@ u"""
 entry(
 	index = 978,
 	label = "N3rs-CrsCrsCrs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cs  u0 r1 {1,S}
@@ -26650,7 +26650,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26659,7 +26659,7 @@ u"""
 entry(
 	index = 979,
 	label = "N3rs-CrsCrsCs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cs  u0 r1 {1,S}
@@ -26681,7 +26681,7 @@ entry(
 		A = 142,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26690,7 +26690,7 @@ u"""
 entry(
 	index = 980,
 	label = "N3s-CbCsCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -26712,7 +26712,7 @@ entry(
 		A = 71,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26721,7 +26721,7 @@ u"""
 entry(
 	index = 981,
 	label = "N3s-CbCdCd",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   [Cd,CO,CS]  u0 {1,S}
@@ -26731,7 +26731,7 @@ entry(
 	solute = u'N3s-Cb(Cd-O2d)(Cd-Cd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26740,7 +26740,7 @@ u"""
 entry(
 	index = 982,
 	label = "N3s-Cb(Cd-O2d)(Cd-Cd)",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   CO   u0 {1,S}
@@ -26751,7 +26751,7 @@ entry(
 	solute = u'N3rs-Cb(Cd-O2d)(Crd-Crd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26760,7 +26760,7 @@ u"""
 entry(
 	index = 983,
 	label = "N3rs-Cb(Cd-O2d)(Crd-Crd)",
-	group = 
+	group =
 """
 1 * N3s  u0 r1 {2,S} {3,S} {4,S}
 2   CO   u0 {1,S}
@@ -26771,7 +26771,7 @@ entry(
 	solute = u'N3rs-(Cd-O2d)CbCrs',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26780,7 +26780,7 @@ u"""
 entry(
 	index = 984,
 	label = "N3s-CbCbCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -26790,7 +26790,7 @@ entry(
 	solute = u'N3rs-CbCbCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26799,7 +26799,7 @@ u"""
 entry(
 	index = 985,
 	label = "N3rs-CbCbCs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -26821,7 +26821,7 @@ entry(
 		A = 26,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26830,7 +26830,7 @@ u"""
 entry(
 	index = 986,
 	label = "N3s-CbCbCd",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   Cb          u0 {1,S}
@@ -26840,7 +26840,7 @@ entry(
 	solute = u'N3s-CbCb(Cd-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26849,7 +26849,7 @@ u"""
 entry(
 	index = 987,
 	label = "N3s-CbCb(Cd-O2d)",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -26872,7 +26872,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26881,7 +26881,7 @@ u"""
 entry(
 	index = 988,
 	label = "N3s-CbCbCb",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -26903,7 +26903,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26912,7 +26912,7 @@ u"""
 entry(
 	index = 989,
 	label = "N3s-CdCsCs",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   [Cd,CO,CS]  u0 {1,S}
@@ -26922,7 +26922,7 @@ entry(
 	solute = u'N3s-(Cd-O2d)CsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26931,7 +26931,7 @@ u"""
 entry(
 	index = 990,
 	label = "N3s-(Cd-N3d)CsCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -26954,7 +26954,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26963,7 +26963,7 @@ u"""
 entry(
 	index = 991,
 	label = "N3rs-(Crd-N3rd)CrsCrs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -26986,7 +26986,7 @@ entry(
 		A = 19,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -26995,7 +26995,7 @@ u"""
 entry(
 	index = 992,
 	label = "N3s-(Crd-N3rd)CsCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -27018,7 +27018,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27027,7 +27027,7 @@ u"""
 entry(
 	index = 993,
 	label = "N3s-(Cd-O2d)CsCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -27050,7 +27050,7 @@ entry(
 		A = 101,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27059,7 +27059,7 @@ u"""
 entry(
 	index = 994,
 	label = "N3rs-(Crd-O2d)CrsCrs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   CO  u0 r1 {1,S} {5,D}
@@ -27082,7 +27082,7 @@ entry(
 		A = 20,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27091,7 +27091,7 @@ u"""
 entry(
 	index = 995,
 	label = "N3rs-(Cd-O2d)CrsCrs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -27114,7 +27114,7 @@ entry(
 		A = 34,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27123,7 +27123,7 @@ u"""
 entry(
 	index = 996,
 	label = "N3rs-(Crd-O2d)CrsCs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   CO  u0 r1 {1,S} {5,D}
@@ -27146,7 +27146,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27155,7 +27155,7 @@ u"""
 entry(
 	index = 997,
 	label = "N3s-(Cd-Cd)CsCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -27166,7 +27166,7 @@ entry(
 	solute = u'N3s-(Crd-Crd)CsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27175,7 +27175,7 @@ u"""
 entry(
 	index = 998,
 	label = "N3rs-(Crd-Crd)CrsCs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -27198,7 +27198,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27207,7 +27207,7 @@ u"""
 entry(
 	index = 999,
 	label = "N3s-(Crd-Crd)CsCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -27230,7 +27230,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27239,7 +27239,7 @@ u"""
 entry(
 	index = 1000,
 	label = "N3s-(Cd-Sd)CsCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CS  u0 {1,S} {5,D}
@@ -27262,7 +27262,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27271,7 +27271,7 @@ u"""
 entry(
 	index = 1001,
 	label = "N3s-CdCbCs",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   [Cd,CO,CS]  u0 {1,S}
@@ -27281,7 +27281,7 @@ entry(
 	solute = u'N3s-(Cd-O2d)CbCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27290,7 +27290,7 @@ u"""
 entry(
 	index = 1002,
 	label = "N3s-(Cd-O2d)CbCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -27313,7 +27313,7 @@ entry(
 		A = 25,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27322,7 +27322,7 @@ u"""
 entry(
 	index = 1003,
 	label = "N3rs-(Crd-O2d)CbCrs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   CO  u0 r1 {1,S} {5,D}
@@ -27345,7 +27345,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27354,7 +27354,7 @@ u"""
 entry(
 	index = 1004,
 	label = "N3rs-(Crd-O2d)CbCs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   CO  u0 r1 {1,S} {5,D}
@@ -27377,7 +27377,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27386,7 +27386,7 @@ u"""
 entry(
 	index = 1005,
 	label = "N3rs-(Cd-O2d)CbCrs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   CO  u0 {1,S} {5,D}
@@ -27409,7 +27409,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27418,7 +27418,7 @@ u"""
 entry(
 	index = 1006,
 	label = "N3s-(Cd-Cd)CbCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -27429,7 +27429,7 @@ entry(
 	solute = u'N3rs-(Crd-Crd)CbCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27438,7 +27438,7 @@ u"""
 entry(
 	index = 1007,
 	label = "N3rs-(Crd-Crd)CbCs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -27461,7 +27461,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27470,7 +27470,7 @@ u"""
 entry(
 	index = 1008,
 	label = "N3s-(Cd-Nd)CbCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cd  u0 {1,S} {5,D}
@@ -27481,7 +27481,7 @@ entry(
 	solute = u'N3rs-(Crd-Nrd)CbCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27490,7 +27490,7 @@ u"""
 entry(
 	index = 1009,
 	label = "N3rs-(Crd-Nrd)CbCs",
-	group = 
+	group =
 """
 1 * N3s u0 r1 {2,S} {3,S} {4,S}
 2   Cd  u0 r1 {1,S} {5,D}
@@ -27513,7 +27513,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27522,7 +27522,7 @@ u"""
 entry(
 	index = 1010,
 	label = "N3s-(Cd-S2d)CbCs",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   CS  u0 {1,S} {5,D}
@@ -27533,7 +27533,7 @@ entry(
 	solute = u'N3s-(Cd-O2d)CbCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27542,7 +27542,7 @@ u"""
 entry(
 	index = 1011,
 	label = "N3s-CdCdCs",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   [Cd,CO,CS]  u0 {1,S}
@@ -27552,7 +27552,7 @@ entry(
 	solute = u'N3s-(Cd-O2d)(Cd-Cd)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27561,7 +27561,7 @@ u"""
 entry(
 	index = 1012,
 	label = "N3s-(Cd-O2d)(Cd-O2d)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   CO   u0 {1,S}
@@ -27571,7 +27571,7 @@ entry(
 	solute = u'N3rs-(Crd-O2d)(Crd-O2d)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27580,7 +27580,7 @@ u"""
 entry(
 	index = 1013,
 	label = "N3rs-(Crd-O2d)(Crd-O2d)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 r1 {2,S} {3,S} {4,S}
 2   CO   u0 r1 {1,S}
@@ -27602,7 +27602,7 @@ entry(
 		A = 56,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27611,7 +27611,7 @@ u"""
 entry(
 	index = 1014,
 	label = "N3rs-(Crd-O2d)(Cd-O2d)Crs",
-	group = 
+	group =
 """
 1 * N3s  u0 r1 {2,S} {3,S} {4,S}
 2   CO   u0 r1 {1,S}
@@ -27633,7 +27633,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27642,7 +27642,7 @@ u"""
 entry(
 	index = 1015,
 	label = "N3s-(Cd-O2d)(Cd-Cd)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   CO   u0 {1,S}
@@ -27653,7 +27653,7 @@ entry(
 	solute = u'N3rs-(Crd-O2d)(Crd-Crd)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27662,7 +27662,7 @@ u"""
 entry(
 	index = 1016,
 	label = "N3rs-(Crd-O2d)(Crd-Crd)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 r1 {2,S} {3,S} {4,S}
 2   CO   u0 r1 {1,S}
@@ -27685,7 +27685,7 @@ entry(
 		A = 62,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27694,7 +27694,7 @@ u"""
 entry(
 	index = 1017,
 	label = "N3s-(Cd-O2d)(Cd-Nd)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   CO   u0 {1,S}
@@ -27705,7 +27705,7 @@ entry(
 	solute = u'N3rs-(Crd-O2d)(Crd-Nrd)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27714,7 +27714,7 @@ u"""
 entry(
 	index = 1018,
 	label = "N3rs-(Crd-O2d)(Crd-Nrd)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 r1 {2,S} {3,S} {4,S}
 2   CO   u0 r1 {1,S}
@@ -27737,7 +27737,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27746,7 +27746,7 @@ u"""
 entry(
 	index = 1019,
 	label = "N3s-(Cd-Cd)(Cd-Cd)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   Cd   u0 {1,S} {6,D}
@@ -27758,7 +27758,7 @@ entry(
 	solute = u'N3rs-(Crd-Crd)(Crd-Crd)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27767,7 +27767,7 @@ u"""
 entry(
 	index = 1020,
 	label = "N3rs-(Crd-Crd)(Crd-Crd)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 r1 {2,S} {3,S} {4,S}
 2   Cd   u0 r1 {1,S} {6,D}
@@ -27791,7 +27791,7 @@ entry(
 		A = 24,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27800,7 +27800,7 @@ u"""
 entry(
 	index = 1021,
 	label = "N3s-(Cd-Cd)(Cd-Nd)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   Cd   u0 {1,S} {6,D}
@@ -27812,7 +27812,7 @@ entry(
 	solute = u'N3rs-(Crd-Crd)(Crd-Nrd)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27821,7 +27821,7 @@ u"""
 entry(
 	index = 1022,
 	label = "N3rs-(Crd-Crd)(Crd-Nrd)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 r1 {2,S} {3,S} {4,S}
 2   Cd   u0 r1 {1,S} {6,D}
@@ -27845,7 +27845,7 @@ entry(
 		A = 46,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27854,7 +27854,7 @@ u"""
 entry(
 	index = 1023,
 	label = "N3s-(Cd-Cd)(Cd-S2d)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   CS   u0 {1,S} {6,D}
@@ -27866,7 +27866,7 @@ entry(
 	solute = u'N3rs-(Crd-Crd)(Crd-S2d)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27875,7 +27875,7 @@ u"""
 entry(
 	index = 1024,
 	label = "N3rs-(Crd-Crd)(Crd-S2d)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 r1 {2,S} {3,S} {4,S}
 2   CS   u0 r1 {1,S} {6,D}
@@ -27887,7 +27887,7 @@ entry(
 	solute = u'N3rs-(Crd-O2d)(Crd-Crd)Cs',
 	dataCount = None,
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27896,7 +27896,7 @@ u"""
 entry(
 	index = 1025,
 	label = "N3s-(Cd-Nd)(Cd-Nd)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   Cd   u0 {1,S} {6,D}
@@ -27908,7 +27908,7 @@ entry(
 	solute = u'N3rs-(Crd-Nrd)(Crd-Nrd)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27917,7 +27917,7 @@ u"""
 entry(
 	index = 1026,
 	label = "N3rs-(Crd-Nrd)(Crd-Nrd)Cs",
-	group = 
+	group =
 """
 1 * N3s  u0 r1 {2,S} {3,S} {4,S}
 2   Cd   u0 r1 {1,S} {6,D}
@@ -27941,7 +27941,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27950,7 +27950,7 @@ u"""
 entry(
 	index = 1027,
 	label = "N3s-CdCdCd",
-	group = 
+	group =
 """
 1 * N3s         u0 {2,S} {3,S} {4,S}
 2   [Cd,CO,CS]  u0 {1,S}
@@ -27972,7 +27972,7 @@ entry(
 		A = 29,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -27981,7 +27981,7 @@ u"""
 entry(
 	index = 1028,
 	label = "N3s-(Cd-O2d)(Cd-Cd)(Cd-Nd)",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   CO   u0 {1,S}
@@ -28005,7 +28005,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28014,7 +28014,7 @@ u"""
 entry(
 	index = 1029,
 	label = "N3s-CCO",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   C   u0 {1,S}
@@ -28024,7 +28024,7 @@ entry(
 	solute = u'N3s-Cb(Cd-O2d)(O-H)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28033,7 +28033,7 @@ u"""
 entry(
 	index = 1030,
 	label = "N3s-CbCd(O-H)",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -28044,7 +28044,7 @@ entry(
 	solute = u'N3s-Cb(Cd-O2d)(O-H)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28053,7 +28053,7 @@ u"""
 entry(
 	index = 1031,
 	label = "N3s-Cb(Cd-O2d)(O-H)",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -28076,7 +28076,7 @@ entry(
 		A = 23,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28085,7 +28085,7 @@ u"""
 entry(
 	index = 1032,
 	label = "N3s-CCS",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   C   u0 {1,S}
@@ -28095,7 +28095,7 @@ entry(
 	solute = u'N3s-CCS6dd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28104,7 +28104,7 @@ u"""
 entry(
 	index = 1033,
 	label = "N3s-CCS4d",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   C   u0 {1,S}
@@ -28114,7 +28114,7 @@ entry(
 	solute = u'N3s-CC(S4d-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28123,7 +28123,7 @@ u"""
 entry(
 	index = 1034,
 	label = "N3s-CC(S4d-O2d)",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   C   u0 {1,S}
@@ -28134,7 +28134,7 @@ entry(
 	solute = u'N3s-CsCs(S4d-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28143,7 +28143,7 @@ u"""
 entry(
 	index = 1035,
 	label = "N3s-CsCs(S4d-O2d)",
-	group = 
+	group =
 """
 1 * N3s u0 {2,S} {3,S} {4,S}
 2   Cs  u0 {1,S}
@@ -28154,7 +28154,7 @@ entry(
 	solute = u'N3s-CsCs(S6dd-O2dO2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28163,7 +28163,7 @@ u"""
 entry(
 	index = 1036,
 	label = "N3s-CCS6dd",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   C    u0 {1,S}
@@ -28173,7 +28173,7 @@ entry(
 	solute = u'N3s-CC(S6dd-O2dO2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28182,7 +28182,7 @@ u"""
 entry(
 	index = 1037,
 	label = "N3s-CC(S6dd-O2dO2d)",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   C    u0 {1,S}
@@ -28194,7 +28194,7 @@ entry(
 	solute = u'N3s-CsCs(S6dd-O2dO2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28203,7 +28203,7 @@ u"""
 entry(
 	index = 1038,
 	label = "N3s-CsCs(S6dd-O2dO2d)",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   Cs   u0 {1,S}
@@ -28227,7 +28227,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28236,7 +28236,7 @@ u"""
 entry(
 	index = 1039,
 	label = "N3s-CsCd(S6dd-O2dO2d)",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   Cs   u0 {1,S}
@@ -28248,7 +28248,7 @@ entry(
 	solute = u'N3s-Cs(Cd-Cd)(S6dd-O2dO2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28257,7 +28257,7 @@ u"""
 entry(
 	index = 1040,
 	label = "N3s-Cs(Cd-Cd)(S6dd-O2dO2d)",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   Cs   u0 {1,S}
@@ -28282,7 +28282,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28291,7 +28291,7 @@ u"""
 entry(
 	index = 1041,
 	label = "N3s-CbCb(S6dd-O2dO2d)",
-	group = 
+	group =
 """
 1 * N3s  u0 {2,S} {3,S} {4,S}
 2   Cb   u0 {1,S}
@@ -28315,7 +28315,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28324,14 +28324,14 @@ u"""
 entry(
 	index = 1042,
 	label = "N3d",
-	group = 
+	group =
 """
 1 * N3d u0
 """,
 	solute = u'N3d-CdC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28340,7 +28340,7 @@ u"""
 entry(
 	index = 1043,
 	label = "N3d-N5ddc",
-	group = 
+	group =
 """
 1 * N3d   u0 {2,D}
 2   N5ddc u0 c+1 {1,D}
@@ -28360,7 +28360,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28369,7 +28369,7 @@ u"""
 entry(
 	index = 1044,
 	label = "N3d-CdH",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28390,7 +28390,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28399,7 +28399,7 @@ u"""
 entry(
 	index = 1045,
 	label = "N3d-CdN",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28408,7 +28408,7 @@ entry(
 	solute = u'N3d-CdN3s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28417,7 +28417,7 @@ u"""
 entry(
 	index = 1046,
 	label = "N3d-CdN3s",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28438,7 +28438,7 @@ entry(
 		A = 103,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28447,7 +28447,7 @@ u"""
 entry(
 	index = 1047,
 	label = "N3d-CdN3d",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28456,7 +28456,7 @@ entry(
 	solute = u'N3rd-CrdN3rd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28465,7 +28465,7 @@ u"""
 entry(
 	index = 1048,
 	label = "N3rd-CrdN3rd",
-	group = 
+	group =
 """
 1 * N3d  u0 r1 {2,D} {3,S}
 2   Cd   u0 r1 {1,D}
@@ -28486,7 +28486,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28495,7 +28495,7 @@ u"""
 entry(
 	index = 1049,
 	label = "N3d-CdO",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28504,7 +28504,7 @@ entry(
 	solute = u'N3d-Cd(O-H)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28513,7 +28513,7 @@ u"""
 entry(
 	index = 1050,
 	label = "N3d-Cd(O-H)",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28535,7 +28535,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28544,7 +28544,7 @@ u"""
 entry(
 	index = 1051,
 	label = "N3d-Cd(O-R)",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28566,7 +28566,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28575,7 +28575,7 @@ u"""
 entry(
 	index = 1052,
 	label = "N3rd-Crd(Or-R)",
-	group = 
+	group =
 """
 1 * N3d  u0 r1 {2,D} {3,S}
 2   Cd   u0 r1 {1,D}
@@ -28597,7 +28597,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28606,7 +28606,7 @@ u"""
 entry(
 	index = 1053,
 	label = "N3d-CdS",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28615,7 +28615,7 @@ entry(
 	solute = u'N3d-CdS2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28624,7 +28624,7 @@ u"""
 entry(
 	index = 1054,
 	label = "N3d-CdS2s",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28633,7 +28633,7 @@ entry(
 	solute = u'N3rd-CrdS2rs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28642,7 +28642,7 @@ u"""
 entry(
 	index = 1055,
 	label = "N3rd-CrdS2rs",
-	group = 
+	group =
 """
 1 * N3d  u0 r1 {2,D} {3,S}
 2   Cd   u0 r1 {1,D}
@@ -28663,7 +28663,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28672,7 +28672,7 @@ u"""
 entry(
 	index = 1056,
 	label = "N3d-CdS6dd",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28693,7 +28693,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28702,7 +28702,7 @@ u"""
 entry(
 	index = 1057,
 	label = "N3d-CdC",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28711,7 +28711,7 @@ entry(
 	solute = u'N3d-CdCd',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28720,7 +28720,7 @@ u"""
 entry(
 	index = 1058,
 	label = "N3d-CdCs",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28741,7 +28741,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28750,7 +28750,7 @@ u"""
 entry(
 	index = 1059,
 	label = "N3rd-CrdCrs",
-	group = 
+	group =
 """
 1 * N3d  u0 r1 {2,D} {3,S}
 2   Cd   u0 r1 {1,D}
@@ -28771,7 +28771,7 @@ entry(
 		A = 42,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28780,7 +28780,7 @@ u"""
 entry(
 	index = 1060,
 	label = "N3d-CdCb",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28789,7 +28789,7 @@ entry(
 	solute = u'N3rd-CrdCb',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28798,7 +28798,7 @@ u"""
 entry(
 	index = 1061,
 	label = "N3rd-CrdCb",
-	group = 
+	group =
 """
 1 * N3d  u0 r1 {2,D} {3,S}
 2   Cd   u0 r1 {1,D}
@@ -28819,7 +28819,7 @@ entry(
 		A = 126,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28828,7 +28828,7 @@ u"""
 entry(
 	index = 1062,
 	label = "N3d-CdCd",
-	group = 
+	group =
 """
 1 * N3d         u0 {2,D} {3,S}
 2   Cd          u0 {1,D}
@@ -28837,7 +28837,7 @@ entry(
 	solute = u'N3d-Cd(Cd-Cd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28846,7 +28846,7 @@ u"""
 entry(
 	index = 1063,
 	label = "N3d-Cd(Cd-O2d)",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28856,7 +28856,7 @@ entry(
 	solute = u'N3rd-Crd(Crd-O2d)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28865,7 +28865,7 @@ u"""
 entry(
 	index = 1064,
 	label = "N3rd-Crd(Crd-O2d)",
-	group = 
+	group =
 """
 1 * N3d   u0 r1 {2,D} {3,S}
 2   Cd    u0 r1 {1,D}
@@ -28887,7 +28887,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28896,7 +28896,7 @@ u"""
 entry(
 	index = 1065,
 	label = "N3d-Cd(Cd-N3d)",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28918,7 +28918,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28927,7 +28927,7 @@ u"""
 entry(
 	index = 1066,
 	label = "N3rd-Crd(Crd-N3rd)",
-	group = 
+	group =
 """
 1 * N3d  u0 r1 {2,D} {3,S}
 2   Cd   u0 r1 {1,D}
@@ -28949,7 +28949,7 @@ entry(
 		A = 138,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28958,7 +28958,7 @@ u"""
 entry(
 	index = 1067,
 	label = "N3d-Cd(Crd-N3rd)",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28980,7 +28980,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28989,7 +28989,7 @@ u"""
 entry(
 	index = 1068,
 	label = "N3d-Cd(Cd-Cd)",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -28999,7 +28999,7 @@ entry(
 	solute = u'N3rd-Crd(Crd-Crd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29008,7 +29008,7 @@ u"""
 entry(
 	index = 1069,
 	label = "N3rd-Crd(Crd-Crd)",
-	group = 
+	group =
 """
 1 * N3d  u0 r1 {2,D} {3,S}
 2   Cd   u0 r1 {1,D}
@@ -29030,7 +29030,7 @@ entry(
 		A = 550,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29039,7 +29039,7 @@ u"""
 entry(
 	index = 1070,
 	label = "N3d-CdCt",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -29048,7 +29048,7 @@ entry(
 	solute = u'N3d-Cd(Ct-N3t)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29057,7 +29057,7 @@ u"""
 entry(
 	index = 1071,
 	label = "N3d-Cd(Ct-N3t)",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cd   u0 {1,D}
@@ -29079,7 +29079,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29088,7 +29088,7 @@ u"""
 entry(
 	index = 1072,
 	label = "N3d-CddC",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cdd  u0 {1,D}
@@ -29097,7 +29097,7 @@ entry(
 	solute = u'N3d-(Cdd-O2d)C',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29106,7 +29106,7 @@ u"""
 entry(
 	index = 1073,
 	label = "N3d-(Cdd-O2d)C",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cdd  u0 {1,D} {4,D}
@@ -29116,7 +29116,7 @@ entry(
 	solute = u'N3d-(Cdd-O2d)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29125,7 +29125,7 @@ u"""
 entry(
 	index = 1074,
 	label = "N3d-(Cdd-O2d)Cs",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cdd  u0 {1,D} {4,D}
@@ -29147,7 +29147,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29156,7 +29156,7 @@ u"""
 entry(
 	index = 1075,
 	label = "N3d-(Cdd-O2d)Cb",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cdd  u0 {1,D} {4,D}
@@ -29178,7 +29178,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29187,7 +29187,7 @@ u"""
 entry(
 	index = 1076,
 	label = "N3d-(Cdd-Sd)C",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cdd  u0 {1,D} {4,D}
@@ -29197,7 +29197,7 @@ entry(
 	solute = u'N3d-(Cdd-S2d)C',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29206,7 +29206,7 @@ u"""
 entry(
 	index = 1077,
 	label = "N3d-(Cdd-S2d)C",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cdd  u0 {1,D} {4,D}
@@ -29216,7 +29216,7 @@ entry(
 	solute = u'N3d-(Cdd-S2d)Cs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29225,7 +29225,7 @@ u"""
 entry(
 	index = 1078,
 	label = "N3d-(Cdd-S2d)Cs",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cdd  u0 {1,D} {4,D}
@@ -29247,7 +29247,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29256,7 +29256,7 @@ u"""
 entry(
 	index = 1079,
 	label = "N3d-(Cdd-S2d)Cb",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   Cdd  u0 {1,D} {4,D}
@@ -29278,7 +29278,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29287,7 +29287,7 @@ u"""
 entry(
 	index = 1080,
 	label = "N3d-N3dN",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   N3d  u0 {1,D}
@@ -29296,7 +29296,7 @@ entry(
 	solute = u'N3d-N3dN3s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29305,7 +29305,7 @@ u"""
 entry(
 	index = 1081,
 	label = "N3d-N3dN3s",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   N3d  u0 {1,D}
@@ -29314,7 +29314,7 @@ entry(
 	solute = u'N3rd-N3rdN3rs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29323,7 +29323,7 @@ u"""
 entry(
 	index = 1082,
 	label = "N3rd-N3rdN3rs",
-	group = 
+	group =
 """
 1 * N3d  u0 r1 {2,D} {3,S}
 2   N3d  u0 r1 {1,D}
@@ -29344,7 +29344,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29353,7 +29353,7 @@ u"""
 entry(
 	index = 1083,
 	label = "N3d-N3dN3d",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   N3d  u0 {1,D}
@@ -29362,7 +29362,7 @@ entry(
 	solute = u'N3d-N3d(N3d-Cd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29371,7 +29371,7 @@ u"""
 entry(
 	index = 1084,
 	label = "N3d-N3d(N3d-Cd)",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   N3d  u0 {1,D}
@@ -29381,7 +29381,7 @@ entry(
 	solute = u'N3rd-N3rd(N3rd-Crd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29390,7 +29390,7 @@ u"""
 entry(
 	index = 1085,
 	label = "N3rd-N3rd(N3rd-Crd)",
-	group = 
+	group =
 """
 1 * N3d  u0 r1 {2,D} {3,S}
 2   N3d  u0 r1 {1,D}
@@ -29412,7 +29412,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29421,7 +29421,7 @@ u"""
 entry(
 	index = 1086,
 	label = "N3d-N3dC",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   N3d  u0 {1,D}
@@ -29430,7 +29430,7 @@ entry(
 	solute = u'N3d-N3dCb',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29439,7 +29439,7 @@ u"""
 entry(
 	index = 1087,
 	label = "N3d-N3dCb",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   N3d  u0 {1,D}
@@ -29460,7 +29460,7 @@ entry(
 		A = 19,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29469,7 +29469,7 @@ u"""
 entry(
 	index = 1088,
 	label = "N3d-N3dCs",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   N3d  u0 {1,D}
@@ -29490,7 +29490,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29499,7 +29499,7 @@ u"""
 entry(
 	index = 1089,
 	label = "N3d-N3dCd",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   N3d  u0 {1,D}
@@ -29520,7 +29520,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29529,7 +29529,7 @@ u"""
 entry(
 	index = 1090,
 	label = "N3d-O2dO",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   O2d  u0 {1,D}
@@ -29550,7 +29550,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29559,7 +29559,7 @@ u"""
 entry(
 	index = 1091,
 	label = "N3d-O2dN",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   O2d  u0 {1,D}
@@ -29568,7 +29568,7 @@ entry(
 	solute = u'N3d-O2dN3s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29577,7 +29577,7 @@ u"""
 entry(
 	index = 1092,
 	label = "N3d-O2dN3s",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   O2d  u0 {1,D}
@@ -29598,7 +29598,7 @@ entry(
 		A = 39,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29607,7 +29607,7 @@ u"""
 entry(
 	index = 1093,
 	label = "N3d-O2dC",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   O2d  u0 {1,D}
@@ -29616,7 +29616,7 @@ entry(
 	solute = u'N3d-O2dCb',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29625,7 +29625,7 @@ u"""
 entry(
 	index = 1094,
 	label = "N3d-O2dCb",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   O2d  u0 {1,D}
@@ -29646,7 +29646,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29655,7 +29655,7 @@ u"""
 entry(
 	index = 1095,
 	label = "N3d-SdS",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   S    u0 {1,D}
@@ -29664,7 +29664,7 @@ entry(
 	solute = u'N3d-S4ddS2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29673,7 +29673,7 @@ u"""
 entry(
 	index = 1096,
 	label = "N3d-S4ddS2s",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   S4dd u0 {1,D}
@@ -29682,7 +29682,7 @@ entry(
 	solute = u'N3d-(S4dd-N3d)S2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29691,7 +29691,7 @@ u"""
 entry(
 	index = 1097,
 	label = "N3d-(S4dd-N3d)S2s",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   S4dd u0 {1,D} {4,D}
@@ -29713,7 +29713,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29722,7 +29722,7 @@ u"""
 entry(
 	index = 1098,
 	label = "N3d-PdP",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   P    u0 {1,D}
@@ -29731,7 +29731,7 @@ entry(
 	solute = u'N3d-P5dP5d',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29740,7 +29740,7 @@ u"""
 entry(
 	index = 1099,
 	label = "N3d-P5dP5d",
-	group = 
+	group =
 """
 1 * N3d  u0 {2,D} {3,S}
 2   P5d  u0 {1,D}
@@ -29761,7 +29761,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29770,7 +29770,7 @@ u"""
 entry(
 	index = 1100,
 	label = "N3t",
-	group = 
+	group =
 """
 1 * N3t  u0 p1 {2,T}
 2   R!H  u0 {1,T}
@@ -29778,7 +29778,7 @@ entry(
 	solute = u'N3t-Ct',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29787,7 +29787,7 @@ u"""
 entry(
 	index = 1101,
 	label = "N3t-Ct",
-	group = 
+	group =
 """
 1 * N3t  u0 p1 {2,T}
 2   Ct   u0 {1,T}
@@ -29807,7 +29807,7 @@ entry(
 		A = 153,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29816,14 +29816,14 @@ u"""
 entry(
 	index = 1102,
 	label = "N5sc",
-	group = 
+	group =
 """
 1 * N5sc u0 p0 c+1
 """,
 	solute = u'N5sc-O0sc',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29832,15 +29832,15 @@ u"""
 entry(
 	index = 1103,
 	label = "N5sc-O0sc",
-	group = 
+	group =
 """
 1 * N5sc u0 p0 c+1 {2,S}
-2   O0sc u0 c-1 {1,S} 
+2   O0sc u0 c-1 {1,S}
 """,
 	solute = u'N5dc-CdO0sc(Crd-Crd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29849,14 +29849,14 @@ u"""
 entry(
 	index = 1104,
 	label = "N5dc",
-	group = 
+	group =
 """
 1 * N5dc u0 c+1
 """,
 	solute = u'N5dc-OdO0scC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29865,7 +29865,7 @@ u"""
 entry(
 	index = 1105,
 	label = "N5dc-OdO0scC",
-	group = 
+	group =
 """
 1 * N5dc u0 c+1 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
@@ -29875,7 +29875,7 @@ entry(
 	solute = u'N5dc-OdO0scCb',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29884,7 +29884,7 @@ u"""
 entry(
 	index = 1106,
 	label = "N5dc-OdO0scCb",
-	group = 
+	group =
 """
 1 * N5dc u0 c+1 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
@@ -29906,7 +29906,7 @@ entry(
 		A = 307,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29915,7 +29915,7 @@ u"""
 entry(
 	index = 1107,
 	label = "N5dc-OdO0scCs",
-	group = 
+	group =
 """
 1 * N5dc u0 c+1 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
@@ -29937,7 +29937,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29946,7 +29946,7 @@ u"""
 entry(
 	index = 1108,
 	label = "N5dc-OdO0scCd",
-	group = 
+	group =
 """
 1 * N5dc        u0 c+1 {2,D} {3,S} {4,S}
 2   O2d         u0 {1,D}
@@ -29956,7 +29956,7 @@ entry(
 	solute = u'N5dc-OdO0sc(Cd-Cd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29965,7 +29965,7 @@ u"""
 entry(
 	index = 1109,
 	label = "N5dc-OdO0sc(Cd-Cd)",
-	group = 
+	group =
 """
 1 * N5dc        u0 c+1 {2,D} {3,S} {4,S}
 2   O2d         u0 {1,D}
@@ -29988,7 +29988,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -29997,7 +29997,7 @@ u"""
 entry(
 	index = 1110,
 	label = "N5dc-OdO0sc(Crd-Crd)",
-	group = 
+	group =
 """
 1 * N5dc        u0 c+1 {2,D} {3,S} {4,S}
 2   O2d         u0 {1,D}
@@ -30020,7 +30020,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30029,7 +30029,7 @@ u"""
 entry(
 	index = 1111,
 	label = "N5dc-OdO0sc(Cd-Nd)",
-	group = 
+	group =
 """
 1 * N5dc        u0 c+1 {2,D} {3,S} {4,S}
 2   O2d         u0 {1,D}
@@ -30040,7 +30040,7 @@ entry(
 	solute = u'N5dc-OdO0sc(Crd-N3rd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30049,7 +30049,7 @@ u"""
 entry(
 	index = 1112,
 	label = "N5dc-OdO0sc(Crd-N3rd)",
-	group = 
+	group =
 """
 1 * N5dc        u0 c+1 {2,D} {3,S} {4,S}
 2   O2d         u0 {1,D}
@@ -30072,7 +30072,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30081,7 +30081,7 @@ u"""
 entry(
 	index = 1113,
 	label = "N5dc-OdO0scO2s",
-	group = 
+	group =
 """
 1 * N5dc u0 c+1 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
@@ -30103,7 +30103,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30112,7 +30112,7 @@ u"""
 entry(
 	index = 1114,
 	label = "N5dc-OdO0scN",
-	group = 
+	group =
 """
 1 * N5dc u0 c+1 {2,D} {3,S} {4,S}
 2   O2d  u0 {1,D}
@@ -30134,7 +30134,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30143,7 +30143,7 @@ u"""
 entry(
 	index = 1115,
 	label = "N5dc-CdO0scC",
-	group = 
+	group =
 """
 1 * N5dc u0 c+1 {2,D} {3,S} {4,S}
 2   Cd   u0 {1,D}
@@ -30165,7 +30165,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30174,7 +30174,7 @@ u"""
 entry(
 	index = 1116,
 	label = "N5dc-CdO0scCd",
-	group = 
+	group =
 """
 1 * N5dc u0 c+1 {2,D} {3,S} {4,S}
 2   Cd   u0 {1,D}
@@ -30184,7 +30184,7 @@ entry(
 	solute = u'N5dc-CdO0sc(Cd-Cd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30193,7 +30193,7 @@ u"""
 entry(
 	index = 1117,
 	label = "N5dc-CdO0sc(Cd-Cd)",
-	group = 
+	group =
 """
 1 * N5dc u0 c+1 {2,D} {3,S} {4,S}
 2   Cd   u0 {1,D}
@@ -30204,7 +30204,7 @@ entry(
 	solute = u'N5dc-CdO0sc(Crd-Crd)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30213,7 +30213,7 @@ u"""
 entry(
 	index = 1118,
 	label = "N5dc-CdO0sc(Crd-Crd)",
-	group = 
+	group =
 """
 1 * N5dc u0 c+1 {2,D} {3,S} {4,S}
 2   Cd   u0 {1,D}
@@ -30236,7 +30236,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""special solvation group with ring""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30245,14 +30245,14 @@ u"""
 entry(
 	index = 1119,
 	label = "N5ddc",
-	group = 
+	group =
 """
 1 * N5ddc u0 p0 c+1
 """,
 	solute = u'N5ddc-N1dcN3d',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30261,7 +30261,7 @@ u"""
 entry(
 	index = 1120,
 	label = "N5ddc-N1dcN3d",
-	group = 
+	group =
 """
 1 * N5ddc u0 p0 c+1 {2,D} {3,D}
 2   N1dc  u0 c-1 {1,D}
@@ -30282,7 +30282,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30291,14 +30291,14 @@ u"""
 entry(
 	index = 1121,
 	label = "N5tc",
-	group = 
+	group =
 """
 1 * N5tc u0 p0 c+1
 """,
 	solute = u'N5tc-C2tcC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30307,7 +30307,7 @@ u"""
 entry(
 	index = 1122,
 	label = "N5tc-C2tcC",
-	group = 
+	group =
 """
 1 * N5tc u0 p0 c+1 {2,T} {3,S}
 2   C2tc u0 c-1 {1,T}
@@ -30316,7 +30316,7 @@ entry(
 	solute = u'N5tc-C2tcCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30325,7 +30325,7 @@ u"""
 entry(
 	index = 1123,
 	label = "N5tc-C2tcCs",
-	group = 
+	group =
 """
 1 * N5tc u0 p0 c+1 {2,T} {3,S}
 2   C2tc u0 c-1 {1,T}
@@ -30346,7 +30346,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30355,7 +30355,7 @@ u"""
 entry(
 	index = 1124,
 	label = "N5tc-C2tcCb",
-	group = 
+	group =
 """
 1 * N5tc u0 p0 c+1 {2,T} {3,S}
 2   C2tc u0 c-1 {1,T}
@@ -30376,7 +30376,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30385,14 +30385,14 @@ u"""
 entry(
 	index = 1125,
 	label = "P",
-	group = 
+	group =
 """
 1 * P u0
 """,
 	solute = u'P3s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30401,14 +30401,14 @@ u"""
 entry(
 	index = 1126,
 	label = "P3s",
-	group = 
+	group =
 """
 1 * P3s u0
 """,
 	solute = u'P3s-CCC',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30417,7 +30417,7 @@ u"""
 entry(
 	index = 1127,
 	label = "P3s-O2sO2sO2s",
-	group = 
+	group =
 """
 1 * P3s u0 {2,S} {3,S} {4,S}
 2   O2s u0 {1,S}
@@ -30439,7 +30439,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30448,7 +30448,7 @@ u"""
 entry(
 	index = 1128,
 	label = "P3s-CCC",
-	group = 
+	group =
 """
 1 * P3s u0 {2,S} {3,S} {4,S}
 2   C   u0 {1,S}
@@ -30458,7 +30458,7 @@ entry(
 	solute = u'P3s-CsCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30467,7 +30467,7 @@ u"""
 entry(
 	index = 1129,
 	label = "P3s-CsCsCs",
-	group = 
+	group =
 """
 1 * P3s u0 {2,S} {3,S} {4,S}
 2   Cs  u0 {1,S}
@@ -30489,7 +30489,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30498,7 +30498,7 @@ u"""
 entry(
 	index = 1130,
 	label = "P3s-CbCbCb",
-	group = 
+	group =
 """
 1 * P3s u0 {2,S} {3,S} {4,S}
 2   Cb  u0 {1,S}
@@ -30520,7 +30520,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30529,14 +30529,14 @@ u"""
 entry(
 	index = 1131,
 	label = "P5d",
-	group = 
+	group =
 """
 1 * P5d u0
 """,
 	solute = u'P5d-O2d',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30545,7 +30545,7 @@ u"""
 entry(
 	index = 1132,
 	label = "P5d-O2d",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D}
 2   O2d u0 {1,D}
@@ -30553,7 +30553,7 @@ entry(
 	solute = u'P5d-O2dO2sO2sO2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30562,7 +30562,7 @@ u"""
 entry(
 	index = 1133,
 	label = "P5d-O2dO2sCH",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30585,7 +30585,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30594,7 +30594,7 @@ u"""
 entry(
 	index = 1134,
 	label = "P5d-O2dO2sO2sH",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30617,7 +30617,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30626,7 +30626,7 @@ u"""
 entry(
 	index = 1135,
 	label = "P5d-O2dNNN",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30637,7 +30637,7 @@ entry(
 	solute = u'P5d-O2dN3sN3sN3s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30646,7 +30646,7 @@ u"""
 entry(
 	index = 1136,
 	label = "P5d-O2dN3sN3sN3s",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30669,7 +30669,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30678,7 +30678,7 @@ u"""
 entry(
 	index = 1137,
 	label = "P5d-O2dCCC",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30689,7 +30689,7 @@ entry(
 	solute = u'P5d-O2dCsCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30698,7 +30698,7 @@ u"""
 entry(
 	index = 1138,
 	label = "P5d-O2dCbCbCb",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30721,7 +30721,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30730,7 +30730,7 @@ u"""
 entry(
 	index = 1139,
 	label = "P5d-O2dCsCsCs",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30753,7 +30753,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30762,7 +30762,7 @@ u"""
 entry(
 	index = 1140,
 	label = "P5d-O2dO2sCC",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30773,7 +30773,7 @@ entry(
 	solute = u'P5d-O2dO2sCsCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30782,7 +30782,7 @@ u"""
 entry(
 	index = 1141,
 	label = "P5d-O2dO2sCbCb",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30805,7 +30805,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30814,7 +30814,7 @@ u"""
 entry(
 	index = 1142,
 	label = "P5d-O2dO2sCbCs",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30837,7 +30837,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30846,7 +30846,7 @@ u"""
 entry(
 	index = 1143,
 	label = "P5d-O2dO2sCsCs",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30869,7 +30869,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30878,7 +30878,7 @@ u"""
 entry(
 	index = 1144,
 	label = "P5d-O2dO2sO2sN",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30889,7 +30889,7 @@ entry(
 	solute = u'P5d-O2dO2sO2sN3s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30898,7 +30898,7 @@ u"""
 entry(
 	index = 1145,
 	label = "P5d-O2dO2sO2sN3s",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30921,7 +30921,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30930,7 +30930,7 @@ u"""
 entry(
 	index = 1146,
 	label = "P5d-O2dO2sO2sC",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30941,7 +30941,7 @@ entry(
 	solute = u'P5d-O2dO2sO2sCs',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30950,7 +30950,7 @@ u"""
 entry(
 	index = 1147,
 	label = "P5d-O2dO2sO2sCs",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -30973,7 +30973,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -30982,7 +30982,7 @@ u"""
 entry(
 	index = 1148,
 	label = "P5d-O2dO2sO2sCd",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -31005,7 +31005,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -31014,7 +31014,7 @@ u"""
 entry(
 	index = 1149,
 	label = "P5d-O2dO2sO2sO2s",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   O2d u0 {1,D}
@@ -31037,7 +31037,7 @@ entry(
 		A = 33,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -31046,7 +31046,7 @@ u"""
 entry(
 	index = 1150,
 	label = "P5d-N3d",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D}
 2   N3d u0 {1,D}
@@ -31054,7 +31054,7 @@ entry(
 	solute = u'P5d-N3dNOO',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -31063,7 +31063,7 @@ u"""
 entry(
 	index = 1151,
 	label = "P5d-N3dNHH",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   N3d u0 {1,D}
@@ -31074,7 +31074,7 @@ entry(
 	solute = u'P5d-N3dN3dHH',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -31083,7 +31083,7 @@ u"""
 entry(
 	index = 1152,
 	label = "P5d-N3dN3dHH",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   N3d u0 {1,D}
@@ -31094,7 +31094,7 @@ entry(
 	solute = u'P5d-N3dN3dO2sO2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -31103,7 +31103,7 @@ u"""
 entry(
 	index = 1153,
 	label = "P5d-N3dNOO",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   N3d u0 {1,D}
@@ -31114,7 +31114,7 @@ entry(
 	solute = u'P5d-N3dNOO',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -31123,7 +31123,7 @@ u"""
 entry(
 	index = 1154,
 	label = "P5d-N3dN3dO2sO2s",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   N3d u0 {1,D}
@@ -31146,7 +31146,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -31155,7 +31155,7 @@ u"""
 entry(
 	index = 1155,
 	label = "P5d-S2d",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D}
 2   S2d u0 {1,D}
@@ -31163,7 +31163,7 @@ entry(
 	solute = u'P5d-S2dO2sO2sO2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -31172,7 +31172,7 @@ u"""
 entry(
 	index = 1156,
 	label = "P5d-S2dO2sO2sS",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   S2d u0 {1,D}
@@ -31183,7 +31183,7 @@ entry(
 	solute = u'P5d-S2dO2sO2sS2s',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -31192,7 +31192,7 @@ u"""
 entry(
 	index = 1157,
 	label = "P5d-S2dO2sO2sS2s",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   S2d u0 {1,D}
@@ -31215,7 +31215,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -31224,7 +31224,7 @@ u"""
 entry(
 	index = 1158,
 	label = "P5d-S2dO2sO2sO2s",
-	group = 
+	group =
 """
 1 * P5d u0 {2,D} {3,S} {4,S} {5,S}
 2   S2d u0 {1,D}
@@ -31247,7 +31247,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,

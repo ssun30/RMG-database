@@ -18,14 +18,14 @@ References
 [7] Ruscic, B.; Berkowitz, J., J. Chem. Phys., 1993, 98, 2568-2579.
 [8] Roy, M.; McMahon, T.B. Org. Mass Spectrom., 1982, 8, 392-395.
 [9] Butler, J.J.; Baer, T., Org. Mass Spectrom., 1983, 18, 248-253.
-[10] Chase, M.W., Jr., NIST-JANAF Thermochemical Tables, Fourth Edition, 
+[10] Chase, M.W., Jr., NIST-JANAF Thermochemical Tables, Fourth Edition,
      J. Phys. Chem. Ref. Data, Monograph 9, 1998, 1-1951.
 [11] Alfassi, Z.B., S-centered radicals. 1999.
 """
 entry(
     index = 0,
     label = "CS2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 S u0 p2 c0 {1,D}
@@ -38,7 +38,7 @@ entry(
         S298 = (56.88,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""All from [10]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -47,7 +47,7 @@ u"""
 entry(
     index = 1,
     label = "CH2CS",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,D}
@@ -62,7 +62,7 @@ entry(
         S298 = (60.69,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -71,7 +71,7 @@ u"""
 entry(
     index = 2,
     label = "H2S",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -84,7 +84,7 @@ entry(
         S298 = (49.18,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""All from [10]""",
-    longDesc = 
+    longDesc =
 u"""
 H298 (updated uncertainty) is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 2008, 29(3-4), 327-352, doi: 10.1080/17415990802047352
 """,
@@ -93,7 +93,7 @@ H298 (updated uncertainty) is taken from Table 7 in P.A. Denis, J. Sulfur Chem. 
 entry(
     index = 3,
     label = "H2S2",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {4,S}
@@ -107,7 +107,7 @@ entry(
         S298 = (60.38,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -116,7 +116,7 @@ u"""
 entry(
     index = 4,
     label = "H2S3",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {4,S}
@@ -131,7 +131,7 @@ entry(
         S298 = (74.73,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -140,7 +140,7 @@ u"""
 entry(
     index = 5,
     label = "CH3SH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 S u0 p2 c0 {1,S} {6,S}
@@ -156,7 +156,7 @@ entry(
         S298 = (61.08,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [1]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -165,7 +165,7 @@ u"""
 entry(
     index = 6,
     label = "CH3SCH3",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -184,7 +184,7 @@ entry(
         S298 = (69.68,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [5]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -193,7 +193,7 @@ u"""
 entry(
     index = 7,
     label = "C2H3SC2H3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,D} {5,S} {6,S}
 2  C u0 p0 c0 {4,D} {5,S} {7,S}
@@ -214,7 +214,7 @@ entry(
         S298 = (81.43,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [5], strong disagreement w/ QM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -223,7 +223,7 @@ u"""
 entry(
     index = 8,
     label = "C2H3SC2H",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {6,S}
 2 C u0 p0 c0 {1,D} {7,S} {8,S}
@@ -242,7 +242,7 @@ entry(
         S298 = (77.79,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -251,7 +251,7 @@ u"""
 entry(
     index = 9,
     label = "C2H3SH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -268,7 +268,7 @@ entry(
         S298 = (68.45,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -277,7 +277,7 @@ u"""
 entry(
     index = 10,
     label = "CH3SC2H3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,D} {4,S} {8,S}
@@ -297,7 +297,7 @@ entry(
         S298 = (75.19,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -306,7 +306,7 @@ u"""
 entry(
     index = 11,
     label = "CH3SC2H",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -324,7 +324,7 @@ entry(
         S298 = (72.66,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -333,7 +333,7 @@ u"""
 entry(
     index = 12,
     label = "HCSSH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 S u0 p2 c0 {1,D}
@@ -348,7 +348,7 @@ entry(
         S298 = (66.82,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -357,7 +357,7 @@ u"""
 entry(
     index = 13,
     label = "HCSSCH3",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {3,S} {7,D} {8,S}
@@ -375,7 +375,7 @@ entry(
         S298 = (75.46,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -384,7 +384,7 @@ u"""
 entry(
     index = 14,
     label = "HCSSC2H3",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -403,7 +403,7 @@ entry(
         S298 = (80.54,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -412,7 +412,7 @@ u"""
 entry(
     index = 15,
     label = "HCSSC2H",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {6,S}
 2 S u0 p2 c0 {1,D}
@@ -429,7 +429,7 @@ entry(
         S298 = (78.43,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -438,7 +438,7 @@ u"""
 entry(
     index = 16,
     label = "HCSSCSH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {6,S}
 2 S u0 p2 c0 {1,D}
@@ -455,7 +455,7 @@ entry(
         S298 = (77.85,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -464,7 +464,7 @@ u"""
 entry(
     index = 17,
     label = "HCSSSH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 S u0 p2 c0 {1,D}
@@ -480,7 +480,7 @@ entry(
         S298 = (76.99,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -489,7 +489,7 @@ u"""
 entry(
     index = 18,
     label = "C2H5SH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -508,7 +508,7 @@ entry(
         S298 = (72.32,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [2]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -517,7 +517,7 @@ u"""
 entry(
     index = 19,
     label = "C2H5SSH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -537,7 +537,7 @@ entry(
         S298 = (83.76,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -546,7 +546,7 @@ u"""
 entry(
     index = 20,
     label = "allylthiol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -566,7 +566,7 @@ entry(
         S298 = (75.8,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -575,7 +575,7 @@ u"""
 entry(
     index = 21,
     label = "prop2yne1thiol",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -593,7 +593,7 @@ entry(
         S298 = (72.76,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -602,7 +602,7 @@ u"""
 entry(
     index = 22,
     label = "SHCH2SH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 S u0 p2 c0 {1,S} {6,S}
@@ -619,7 +619,7 @@ entry(
         S298 = (74.42,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -628,7 +628,7 @@ u"""
 entry(
     index = 23,
     label = "HCSCH2SH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -646,7 +646,7 @@ entry(
         S298 = (75.82,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -655,7 +655,7 @@ u"""
 entry(
     index = 24,
     label = "propane2thiol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -677,7 +677,7 @@ entry(
         S298 = (77.9,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [3]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -686,7 +686,7 @@ u"""
 entry(
     index = 25,
     label = "but1ene3thiol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -709,7 +709,7 @@ entry(
         S298 = (82.42,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -718,7 +718,7 @@ u"""
 entry(
     index = 26,
     label = "but1yne3thiol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -739,7 +739,7 @@ entry(
         S298 = (81.2,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -748,7 +748,7 @@ u"""
 entry(
     index = 27,
     label = "ethane11dithiol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -768,7 +768,7 @@ entry(
         S298 = (81.62,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -777,7 +777,7 @@ u"""
 entry(
     index = 28,
     label = "HCSCHCH3SH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -798,7 +798,7 @@ entry(
         S298 = (82.71,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -807,7 +807,7 @@ u"""
 entry(
     index = 29,
     label = "t_butanethiol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -832,7 +832,7 @@ entry(
         S298 = (83.68,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [4]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -841,7 +841,7 @@ u"""
 entry(
     index = 30,
     label = "CH3CHS",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -858,7 +858,7 @@ entry(
         S298 = (65.42,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""Expt available [9]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -867,7 +867,7 @@ u"""
 entry(
     index = 31,
     label = "propanethial2methyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -890,7 +890,7 @@ entry(
         S298 = (82.97,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -899,7 +899,7 @@ u"""
 entry(
     index = 32,
     label = "propanethial22dimethyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -925,7 +925,7 @@ entry(
         S298 = (87.27,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -934,7 +934,7 @@ u"""
 entry(
     index = 33,
     label = "propene2thiol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -954,7 +954,7 @@ entry(
         S298 = (73.9,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -963,7 +963,7 @@ u"""
 entry(
     index = 34,
     label = "propenethial",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -981,7 +981,7 @@ entry(
         S298 = (68.35,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -990,7 +990,7 @@ u"""
 entry(
     index = 35,
     label = "propynethial",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {5,S}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -1006,7 +1006,7 @@ entry(
         S298 = (68.07,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1015,7 +1015,7 @@ u"""
 entry(
     index = 36,
     label = "ethanedithial",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -1031,7 +1031,7 @@ entry(
         S298 = (68.42,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1040,7 +1040,7 @@ u"""
 entry(
     index = 37,
     label = "propane2thione",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -1060,7 +1060,7 @@ entry(
         S298 = (72.92,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1069,7 +1069,7 @@ u"""
 entry(
     index = 38,
     label = "but3ene2thione",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,D}
@@ -1090,7 +1090,7 @@ entry(
         S298 = (77.86,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1099,7 +1099,7 @@ u"""
 entry(
     index = 39,
     label = "but3yne2thione",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,S} {8,D}
@@ -1118,7 +1118,7 @@ entry(
         S298 = (76.39,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1127,7 +1127,7 @@ u"""
 entry(
     index = 40,
     label = "HCSCSCH3",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,S} {7,D}
@@ -1146,7 +1146,7 @@ entry(
         S298 = (79.42,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1155,7 +1155,7 @@ u"""
 entry(
     index = 41,
     label = "C2HSC2H",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {6,S}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -1172,7 +1172,7 @@ entry(
         S298 = (78.06,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1181,7 +1181,7 @@ u"""
 entry(
     index = 42,
     label = "C2HSH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -1196,7 +1196,7 @@ entry(
         S298 = (63.03,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1205,7 +1205,7 @@ u"""
 entry(
     index = 43,
     label = "C2H3SSH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -1223,7 +1223,7 @@ entry(
         S298 = (78.68,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1232,7 +1232,7 @@ u"""
 entry(
     index = 44,
     label = "CH3SSH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -1249,7 +1249,7 @@ entry(
         S298 = (71.12,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1258,7 +1258,7 @@ u"""
 entry(
     index = 45,
     label = "C2HSSH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,T}
 2 S u0 p2 c0 {1,S} {4,S}
@@ -1274,7 +1274,7 @@ entry(
         S298 = (73.72,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1283,7 +1283,7 @@ u"""
 entry(
     index = 46,
     label = "CH3SC2H5",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -1305,7 +1305,7 @@ entry(
         S298 = (79.71,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [3]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1314,7 +1314,7 @@ u"""
 entry(
     index = 47,
     label = "isopropyl_methyl_sulfide",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -1339,7 +1339,7 @@ entry(
         S298 = (85.25,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [4]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1348,7 +1348,7 @@ u"""
 entry(
     index = 48,
     label = "tertbutyl_methyl_sulfide",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 2  S u0 p2 c0 {1,S} {3,S}
@@ -1376,7 +1376,7 @@ entry(
         S298 = (90.14,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [6]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1385,7 +1385,7 @@ u"""
 entry(
     index = 49,
     label = "allyl_methyl_sulfide",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
@@ -1408,7 +1408,7 @@ entry(
         S298 = (84.06,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1417,7 +1417,7 @@ u"""
 entry(
     index = 50,
     label = "but1ene3thiomethyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -1443,7 +1443,7 @@ entry(
         S298 = (89.92,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1452,7 +1452,7 @@ u"""
 entry(
     index = 51,
     label = "methyl_propargyl_sulfide",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -1473,7 +1473,7 @@ entry(
         S298 = (81.12,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1482,7 +1482,7 @@ u"""
 entry(
     index = 52,
     label = "but1yne3thiomethyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -1506,7 +1506,7 @@ entry(
         S298 = (89.44,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1515,7 +1515,7 @@ u"""
 entry(
     index = 53,
     label = "propene2thiomethyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
@@ -1538,7 +1538,7 @@ entry(
         S298 = (82.87,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1547,7 +1547,7 @@ u"""
 entry(
     index = 54,
     label = "CH3SSCH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -1567,7 +1567,7 @@ entry(
         S298 = (80.48,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [5]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1576,7 +1576,7 @@ u"""
 entry(
     index = 55,
     label = "CH3SSC2H3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,D} {5,S} {9,S}
@@ -1597,7 +1597,7 @@ entry(
         S298 = (85.74,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1606,7 +1606,7 @@ u"""
 entry(
     index = 56,
     label = "CH3SSC2H",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -1625,7 +1625,7 @@ entry(
         S298 = (82.66,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1634,7 +1634,7 @@ u"""
 entry(
     index = 57,
     label = "CH3SSSH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -1652,7 +1652,7 @@ entry(
         S298 = (83.69,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1661,7 +1661,7 @@ u"""
 entry(
     index = 58,
     label = "CH3SSSCH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -1682,7 +1682,7 @@ entry(
         S298 = (91.63,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1691,7 +1691,7 @@ u"""
 entry(
     index = 59,
     label = "CH2S",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 S u0 p2 c0 {1,D}
@@ -1705,7 +1705,7 @@ entry(
         S298 = (56.45,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""Expts available [7] and [8]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1714,7 +1714,7 @@ u"""
 entry(
     index = 60,
     label = "CH3CSSH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,S} {7,D}
@@ -1732,7 +1732,7 @@ entry(
         S298 = (75.41,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1741,7 +1741,7 @@ u"""
 entry(
     index = 61,
     label = "C2H3SC2H5",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -1764,7 +1764,7 @@ entry(
         S298 = (85.05,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1773,7 +1773,7 @@ u"""
 entry(
     index = 62,
     label = "pent1ene3thia4methyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -1799,7 +1799,7 @@ entry(
         S298 = (90.5,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1808,7 +1808,7 @@ u"""
 entry(
     index = 63,
     label = "pent1ene3thia24dimethyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -1837,7 +1837,7 @@ entry(
         S298 = (97.04,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1846,7 +1846,7 @@ u"""
 entry(
     index = 64,
     label = "C2H3SC2CH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {3,D} {5,S} {10,S}
@@ -1868,7 +1868,7 @@ entry(
         S298 = (89.41,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1877,7 +1877,7 @@ u"""
 entry(
     index = 65,
     label = "CH3SC2SH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -1896,7 +1896,7 @@ entry(
         S298 = (83.62,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1905,7 +1905,7 @@ u"""
 entry(
     index = 66,
     label = "penta14diene3thia24dimethyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
@@ -1932,7 +1932,7 @@ entry(
         S298 = (98.26,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1941,7 +1941,7 @@ u"""
 entry(
     index = 67,
     label = "HCSSC2H2SCH3",
-    molecule = 
+    molecule =
 """
 1  S u0 p2 c0 {2,D}
 2  C u0 p0 c0 {1,D} {3,S} {8,S}
@@ -1964,7 +1964,7 @@ entry(
         S298 = (103.09,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1973,7 +1973,7 @@ u"""
 entry(
     index = 68,
     label = "HCSSC2H5",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -1994,7 +1994,7 @@ entry(
         S298 = (84.86,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2003,7 +2003,7 @@ u"""
 entry(
     index = 69,
     label = "CH3CSSC2H5",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -2027,7 +2027,7 @@ entry(
         S298 = (93.04,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2036,7 +2036,7 @@ u"""
 entry(
     index = 70,
     label = "SHCSC2H5",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -2057,7 +2057,7 @@ entry(
         S298 = (83.73,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2066,7 +2066,7 @@ u"""
 entry(
     index = 71,
     label = "pent1ene4methyl3thione",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -2093,7 +2093,7 @@ entry(
         S298 = (93.81,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2102,7 +2102,7 @@ u"""
 entry(
     index = 72,
     label = "but-3-ene-2-thione-3-methyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -2126,7 +2126,7 @@ entry(
         S298 = (85.09,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2135,7 +2135,7 @@ u"""
 entry(
     index = 73,
     label = "prop-2-enethial-2-methyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -2156,7 +2156,7 @@ entry(
         S298 = (76.76,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2165,7 +2165,7 @@ u"""
 entry(
     index = 74,
     label = "pent-1-yne-3-thione",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -2187,7 +2187,7 @@ entry(
         S298 = (88.13,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2196,7 +2196,7 @@ u"""
 entry(
     index = 75,
     label = "C2HSSCSH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {7,S}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -2214,7 +2214,7 @@ entry(
         S298 = (87.92,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2223,7 +2223,7 @@ u"""
 entry(
     index = 76,
     label = "butane-23-dithione",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,D}
 2  C u0 p0 c0 {1,S} {5,S} {6,D}
@@ -2245,7 +2245,7 @@ entry(
         S298 = (89.07,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2254,7 +2254,7 @@ u"""
 entry(
     index = 77,
     label = "tertbutyl_hydrodisulfide",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -2280,7 +2280,7 @@ entry(
         S298 = (90.45,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2289,7 +2289,7 @@ u"""
 entry(
     index = 78,
     label = "methanetrithiol",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 S u0 p2 c0 {1,S} {6,S}
@@ -2307,7 +2307,7 @@ entry(
         S298 = (85.86,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2316,7 +2316,7 @@ u"""
 entry(
     index = 79,
     label = "ethane-111-trithiol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2337,7 +2337,7 @@ entry(
         S298 = (91.05,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2346,7 +2346,7 @@ u"""
 entry(
     index = 80,
     label = "propane-22-dithiol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2369,7 +2369,7 @@ entry(
         S298 = (85.85,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2378,7 +2378,7 @@ u"""
 entry(
     index = 81,
     label = "butane-22-dithiol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -2404,7 +2404,7 @@ entry(
         S298 = (96.07,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2413,7 +2413,7 @@ u"""
 entry(
     index = 82,
     label = "ethane-11-dithiol-1thiomethyl",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -2437,7 +2437,7 @@ entry(
         S298 = (99.23,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2446,7 +2446,7 @@ u"""
 entry(
     index = 83,
     label = "diethyl_disulfide",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
@@ -2472,7 +2472,7 @@ entry(
         S298 = (99.38,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2481,7 +2481,7 @@ u"""
 entry(
     index = 84,
     label = "mercapto_rad",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p2 c0 {2,S}
@@ -2494,7 +2494,7 @@ multiplicity 2
         S298 = (46.76,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""All from [10]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2503,7 +2503,7 @@ u"""
 entry(
     index = 85,
     label = "CH3Sj",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2519,7 +2519,7 @@ multiplicity 2
         S298 = (57.6,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298, S298 from [11]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2528,7 +2528,7 @@ u"""
 entry(
     index = 86,
     label = "C2H3Sj",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -2545,7 +2545,7 @@ multiplicity 2
         S298 = (64.5,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2554,7 +2554,7 @@ u"""
 entry(
     index = 87,
     label = "C2HSj",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p2 c0 {2,S}
@@ -2569,7 +2569,7 @@ multiplicity 2
         S298 = (93.95,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2578,7 +2578,7 @@ u"""
 entry(
     index = 88,
     label = "HCSSj",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p2 c0 {2,S}
@@ -2593,7 +2593,7 @@ multiplicity 2
         S298 = (65.88,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2602,7 +2602,7 @@ u"""
 entry(
     index = 89,
     label = "SHSj",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p2 c0 {2,S}
@@ -2616,7 +2616,7 @@ multiplicity 2
         S298 = (60.88,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""Expt available [11]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2625,7 +2625,7 @@ u"""
 entry(
     index = 90,
     label = "CH3SSj",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2642,7 +2642,7 @@ multiplicity 2
         S298 = (70.82,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""Expts available [11]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2651,7 +2651,7 @@ u"""
 entry(
     index = 91,
     label = "SHSSj",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p2 c0 {2,S}
@@ -2666,7 +2666,7 @@ multiplicity 2
         S298 = (73.78,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2675,7 +2675,7 @@ u"""
 entry(
     index = 92,
     label = "CH2jSH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -2691,7 +2691,7 @@ multiplicity 2
         S298 = (62.58,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2700,7 +2700,7 @@ u"""
 entry(
     index = 93,
     label = "CH3CHjSH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -2719,7 +2719,7 @@ multiplicity 2
         S298 = (71.55,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2728,7 +2728,7 @@ u"""
 entry(
     index = 94,
     label = "C2H3CHjSH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -2748,7 +2748,7 @@ multiplicity 2
         S298 = (76.63,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2757,7 +2757,7 @@ u"""
 entry(
     index = 95,
     label = "C2HCHjSH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p2 c0 {2,S} {5,S}
@@ -2775,7 +2775,7 @@ multiplicity 2
         S298 = (74.46,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2784,7 +2784,7 @@ u"""
 entry(
     index = 96,
     label = "HCSCHjSH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p2 c0 {2,S} {5,S}
@@ -2802,7 +2802,7 @@ multiplicity 2
         S298 = (75.43,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2811,7 +2811,7 @@ u"""
 entry(
     index = 97,
     label = "SHCHjSH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -2828,7 +2828,7 @@ multiplicity 2
         S298 = (74.81,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2837,7 +2837,7 @@ u"""
 entry(
     index = 98,
     label = "isopropyl-2-thiol",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -2859,7 +2859,7 @@ multiplicity 2
         S298 = (82.05,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2868,7 +2868,7 @@ u"""
 entry(
     index = 99,
     label = "but-1-en-3-yl-3-thiol",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -2891,7 +2891,7 @@ multiplicity 2
         S298 = (86.56,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2900,7 +2900,7 @@ u"""
 entry(
     index = 100,
     label = "but-1-yn-3-yl-3-thiol",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
@@ -2921,7 +2921,7 @@ multiplicity 2
         S298 = (84.1,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2930,7 +2930,7 @@ u"""
 entry(
     index = 101,
     label = "propanethial-2-yl-2-thiol",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -2951,7 +2951,7 @@ multiplicity 2
         S298 = (81.62,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2960,7 +2960,7 @@ u"""
 entry(
     index = 102,
     label = "ethanyl-11-dithiol",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -2980,7 +2980,7 @@ multiplicity 2
         S298 = (86.47,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2989,7 +2989,7 @@ u"""
 entry(
     index = 103,
     label = "ethenyl-1-thiol",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -3006,7 +3006,7 @@ multiplicity 2
         S298 = (69.43,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3015,7 +3015,7 @@ u"""
 entry(
     index = 104,
     label = "thioacetyl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3032,7 +3032,7 @@ multiplicity 2
         S298 = (66.09,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3041,7 +3041,7 @@ u"""
 entry(
     index = 105,
     label = "Sjj",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u2 p2 c0
@@ -3053,7 +3053,7 @@ multiplicity 3
         S298 = (40.11,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298, S298, Cp1000, Cp1500 from [10], rest from AGV""",
-    longDesc = 
+    longDesc =
 u"""
 Triplet sulfur
 """,
@@ -3062,7 +3062,7 @@ Triplet sulfur
 entry(
     index = 106,
     label = "ethylthio",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3081,7 +3081,7 @@ multiplicity 2
         S298 = (68.04,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3090,7 +3090,7 @@ u"""
 entry(
     index = 107,
     label = "C2H5SSJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3110,7 +3110,7 @@ multiplicity 2
         S298 = (82,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3119,7 +3119,7 @@ u"""
 entry(
     index = 108,
     label = "propyl-2-thio",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3141,7 +3141,7 @@ multiplicity 2
         S298 = (74.74,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3150,7 +3150,7 @@ u"""
 entry(
     index = 109,
     label = "tert-butylthio",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3175,7 +3175,7 @@ multiplicity 2
         S298 = (80.98,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3184,7 +3184,7 @@ u"""
 entry(
     index = 110,
     label = "CH3SCH2Sj",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -3204,7 +3204,7 @@ multiplicity 2
         S298 = (78.49,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3213,7 +3213,7 @@ u"""
 entry(
     index = 111,
     label = "C2H3CH2Sj",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -3233,7 +3233,7 @@ multiplicity 2
         S298 = (73.16,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3242,7 +3242,7 @@ u"""
 entry(
     index = 112,
     label = "C2H3C2H2Sj",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -3263,7 +3263,7 @@ multiplicity 2
         S298 = (79.5,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3272,7 +3272,7 @@ u"""
 entry(
     index = 113,
     label = "propen-2-thio",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -3292,7 +3292,7 @@ multiplicity 2
         S298 = (73.35,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3301,7 +3301,7 @@ u"""
 entry(
     index = 114,
     label = "CH3SSSj",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p2 c0 {2,S}
@@ -3319,7 +3319,7 @@ multiplicity 2
         S298 = (83.42,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3328,7 +3328,7 @@ u"""
 entry(
     index = 115,
     label = "CH3SCH2j",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -3347,7 +3347,7 @@ multiplicity 2
         S298 = (71.55,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3356,7 +3356,7 @@ u"""
 entry(
     index = 116,
     label = "CH3SSCH2j",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -3376,7 +3376,7 @@ multiplicity 2
         S298 = (83.91,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3385,7 +3385,7 @@ u"""
 entry(
     index = 117,
     label = "SHCH2SCH2j",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -3405,7 +3405,7 @@ multiplicity 2
         S298 = (84.92,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3414,7 +3414,7 @@ u"""
 entry(
     index = 118,
     label = "CH3SCHjCH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -3436,7 +3436,7 @@ multiplicity 2
         S298 = (82.05,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3445,7 +3445,7 @@ u"""
 entry(
     index = 119,
     label = "C2H5SCHjCH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -3470,7 +3470,7 @@ multiplicity 2
         S298 = (91,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3479,7 +3479,7 @@ u"""
 entry(
     index = 120,
     label = "pentan-2-yl-2-methyl-3-thia",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
@@ -3507,7 +3507,7 @@ multiplicity 2
         S298 = (98.08,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3516,7 +3516,7 @@ u"""
 entry(
     index = 121,
     label = "hex-2-yn-4-yl-4-methyl-5-thia",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -3543,7 +3543,7 @@ multiplicity 2
         S298 = (102.15,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3552,7 +3552,7 @@ u"""
 entry(
     index = 122,
     label = "S2JJ",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u1 p2 c0 {2,S}
@@ -3565,7 +3565,7 @@ multiplicity 3
         S298 = (54.54,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""All from [10]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3574,7 +3574,7 @@ u"""
 entry(
     index = 123,
     label = "CS",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,D}
 2 S u0 p2 c0 {1,D}
@@ -3586,7 +3586,7 @@ entry(
         S298 = (50.32,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""All from [10]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3595,7 +3595,7 @@ u"""
 entry(
     index = 124,
     label = "C2H5SC2H5",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
@@ -3620,7 +3620,7 @@ entry(
         S298 = (87.79,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3629,7 +3629,7 @@ u"""
 entry(
     index = 125,
     label = "CH2JCH2SC2H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -3654,7 +3654,7 @@ multiplicity 2
         S298 = (91.95,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3663,7 +3663,7 @@ u"""
 entry(
     index = 126,
     label = "CH2OHSH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -3680,7 +3680,7 @@ entry(
         S298 = (69.96,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3689,7 +3689,7 @@ u"""
 entry(
     index = 127,
     label = "CHCH3OHSH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -3709,7 +3709,7 @@ entry(
         S298 = (77.2,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3718,7 +3718,7 @@ u"""
 entry(
     index = 128,
     label = "CH2OHSJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3735,7 +3735,7 @@ multiplicity 2
         S298 = (66.38,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3744,7 +3744,7 @@ u"""
 entry(
     index = 129,
     label = "CHCH3OHSJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -3764,7 +3764,7 @@ multiplicity 2
         S298 = (75.02,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3773,7 +3773,7 @@ u"""
 entry(
     index = 130,
     label = "CHOHS",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -3788,7 +3788,7 @@ entry(
         S298 = (62.29,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3797,7 +3797,7 @@ u"""
 entry(
     index = 131,
     label = "CHOSH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 S u0 p2 c0 {1,S} {5,S}
@@ -3812,7 +3812,7 @@ entry(
         S298 = (64.46,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3821,7 +3821,7 @@ u"""
 entry(
     index = 132,
     label = "CHOSJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -3836,7 +3836,7 @@ multiplicity 2
         S298 = (64.18,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3845,7 +3845,7 @@ u"""
 entry(
     index = 133,
     label = "COS",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 S u0 p2 c0 {1,D}
@@ -3858,7 +3858,7 @@ entry(
         S298 = (55.34,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3867,7 +3867,7 @@ u"""
 entry(
     index = 134,
     label = "thiophene",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {6,S}
 2 C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -3886,7 +3886,7 @@ entry(
         S298 = (66.58,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3895,7 +3895,7 @@ u"""
 entry(
     index = 135,
     label = "DHTP-2-ol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {5,S} {6,S}
 2  C u0 p0 c0 {1,D} {3,S} {7,S}
@@ -3915,7 +3915,7 @@ entry(
         S298 = (78.06,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3924,7 +3924,7 @@ u"""
 entry(
     index = 136,
     label = "DHTP-3-ol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {6,S}
 2  C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -3944,7 +3944,7 @@ entry(
         S298 = (77.71,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3953,7 +3953,7 @@ u"""
 entry(
     index = 137,
     label = "benzenethial",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {6,B} {9,S}
 2  C u0 p0 c0 {1,B} {3,B} {10,S}
@@ -3977,7 +3977,7 @@ entry(
         S298 = (82.19,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3986,7 +3986,7 @@ u"""
 entry(
     index = 138,
     label = "PhCHOHSH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {6,B} {10,S}
 2  C u0 p0 c0 {1,B} {3,B} {11,S}
@@ -4013,7 +4013,7 @@ entry(
         S298 = (93.55,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4022,7 +4022,7 @@ u"""
 entry(
     index = 139,
     label = "sulfur_trimer",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -4035,7 +4035,7 @@ entry(
         S298 = (63.163,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [10]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4044,7 +4044,7 @@ u"""
 entry(
     index = 140,
     label = "tetrasulfur",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {4,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -4058,7 +4058,7 @@ entry(
         S298 = (71.809,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [10]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4067,7 +4067,7 @@ u"""
 entry(
     index = 141,
     label = "pentasulfur",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {5,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -4082,7 +4082,7 @@ entry(
         S298 = (79.262,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [10]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4091,7 +4091,7 @@ u"""
 entry(
     index = 142,
     label = "hexasulfur",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {6,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -4107,7 +4107,7 @@ entry(
         S298 = (86.894,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [10]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4116,7 +4116,7 @@ u"""
 entry(
     index = 143,
     label = "heptasulfur",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {7,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -4133,7 +4133,7 @@ entry(
         S298 = (95.358,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [10]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4142,7 +4142,7 @@ u"""
 entry(
     index = 144,
     label = "octasulfur",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {8,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -4160,7 +4160,7 @@ entry(
         S298 = (111.205,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298 from [10]""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4169,7 +4169,7 @@ u"""
 entry(
     index = 145,
     label = "propyl_sulfide",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
 2  C u0 p0 c0 {4,S} {6,S} {10,S} {11,S}
@@ -4200,7 +4200,7 @@ entry(
         S298 = (107.16,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4209,7 +4209,7 @@ u"""
 entry(
     index = 146,
     label = "propyl_sulfide_alpha",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
@@ -4240,7 +4240,7 @@ multiplicity 2
         S298 = (111.53,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4249,7 +4249,7 @@ u"""
 entry(
     index = 147,
     label = "C2H5CHS",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -4269,7 +4269,7 @@ entry(
         S298 = (75.97,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4278,7 +4278,7 @@ u"""
 entry(
     index = 148,
     label = "C2H5CHOHSH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -4301,7 +4301,7 @@ entry(
         S298 = (86.26,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4310,7 +4310,7 @@ u"""
 entry(
     index = 149,
     label = "C2H5COHS",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -4331,7 +4331,7 @@ entry(
         S298 = (81,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4340,7 +4340,7 @@ u"""
 entry(
     index = 150,
     label = "C2H5COSH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -4361,7 +4361,7 @@ entry(
         S298 = (82.73,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4370,7 +4370,7 @@ u"""
 entry(
     index = 151,
     label = "C2H5CJOHSH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -4393,7 +4393,7 @@ multiplicity 2
         S298 = (88.1,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4402,7 +4402,7 @@ u"""
 entry(
     index = 152,
     label = "C2H5CHOHSJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -4425,7 +4425,7 @@ multiplicity 2
         S298 = (85.29,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4434,7 +4434,7 @@ u"""
 entry(
     index = 153,
     label = "C2H5COSJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
@@ -4455,7 +4455,7 @@ multiplicity 2
         S298 = (82.55,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4464,7 +4464,7 @@ u"""
 entry(
     index = 154,
     label = "C2H5COHOHSH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
@@ -4488,7 +4488,7 @@ entry(
         S298 = (94.12,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4497,7 +4497,7 @@ u"""
 entry(
     index = 155,
     label = "C3H7SH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -4519,7 +4519,7 @@ entry(
         S298 = (81.48,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4528,7 +4528,7 @@ u"""
 entry(
     index = 156,
     label = "CH3C2H2SH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -4548,7 +4548,7 @@ entry(
         S298 = (77.77,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4557,7 +4557,7 @@ u"""
 entry(
     index = 157,
     label = "C2H5CJS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4577,7 +4577,7 @@ multiplicity 2
         S298 = (77.54,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4586,7 +4586,7 @@ u"""
 entry(
     index = 158,
     label = "C2H4CHS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -4606,7 +4606,7 @@ multiplicity 2
         S298 = (73.29,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4615,7 +4615,7 @@ u"""
 entry(
     index = 159,
     label = "hexyl_sulfide",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {14,S} {15,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {17,S} {18,S}
@@ -4664,7 +4664,7 @@ entry(
         S298 = (163.68,'cal/(mol*K)','+|-',1.78),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4673,7 +4673,7 @@ u"""
 entry(
     index = 160,
     label = "hexyl_sulfide_alpha",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {6,S} {16,S} {17,S}
@@ -4722,7 +4722,7 @@ multiplicity 2
         S298 = (168.05,'cal/(mol*K)','+|-',1.78),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4731,7 +4731,7 @@ u"""
 entry(
     index = 161,
     label = "C5H11CHS",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -4760,7 +4760,7 @@ entry(
         S298 = (104.23,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4769,7 +4769,7 @@ u"""
 entry(
     index = 162,
     label = "C5H11CHOHSH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
@@ -4801,7 +4801,7 @@ entry(
         S298 = (114.52,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4810,7 +4810,7 @@ u"""
 entry(
     index = 163,
     label = "C5H11COHS",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
@@ -4840,7 +4840,7 @@ entry(
         S298 = (109.26,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4849,7 +4849,7 @@ u"""
 entry(
     index = 164,
     label = "C5H11COSH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {12,S} {13,S}
@@ -4879,7 +4879,7 @@ entry(
         S298 = (110.99,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4888,7 +4888,7 @@ u"""
 entry(
     index = 165,
     label = "C5H11CJOHSH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
@@ -4920,7 +4920,7 @@ multiplicity 2
         S298 = (116.36,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4929,7 +4929,7 @@ u"""
 entry(
     index = 166,
     label = "C5H11CHOHSJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
@@ -4961,7 +4961,7 @@ multiplicity 2
         S298 = (113.55,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4970,7 +4970,7 @@ u"""
 entry(
     index = 167,
     label = "C5H11COSJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
@@ -5000,7 +5000,7 @@ multiplicity 2
         S298 = (110.81,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5009,7 +5009,7 @@ u"""
 entry(
     index = 168,
     label = "C5H11COHOHSH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
@@ -5042,7 +5042,7 @@ entry(
         S298 = (122.38,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5051,7 +5051,7 @@ u"""
 entry(
     index = 169,
     label = "C6H13SH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
@@ -5082,7 +5082,7 @@ entry(
         S298 = (109.74,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5091,7 +5091,7 @@ u"""
 entry(
     index = 170,
     label = "hexyl_sulfide_beta",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {20,S} {21,S}
@@ -5140,7 +5140,7 @@ multiplicity 2
         S298 = (169.37,'cal/(mol*K)','+|-',1.78),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5149,7 +5149,7 @@ u"""
 entry(
     index = 171,
     label = "hexyl_sulfide_gamma",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {18,S} {19,S}
@@ -5198,7 +5198,7 @@ multiplicity 2
         S298 = (169.37,'cal/(mol*K)','+|-',1.78),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5207,7 +5207,7 @@ u"""
 entry(
     index = 172,
     label = "hexyl_sulfide_delta",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {18,S} {19,S}
@@ -5256,7 +5256,7 @@ multiplicity 2
         S298 = (169.37,'cal/(mol*K)','+|-',1.78),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5265,7 +5265,7 @@ u"""
 entry(
     index = 173,
     label = "hexyl_sulfide_epsilon",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {20,S} {21,S}
@@ -5314,7 +5314,7 @@ multiplicity 2
         S298 = (169.37,'cal/(mol*K)','+|-',1.78),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5323,7 +5323,7 @@ u"""
 entry(
     index = 174,
     label = "C4H9C2H2SH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -5352,7 +5352,7 @@ entry(
         S298 = (104.63,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5361,7 +5361,7 @@ u"""
 entry(
     index = 175,
     label = "C5H11CJS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -5390,7 +5390,7 @@ multiplicity 2
         S298 = (104.63,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5399,7 +5399,7 @@ u"""
 entry(
     index = 176,
     label = "C5H10CHS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -5428,7 +5428,7 @@ multiplicity 2
         S298 = (104.63,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5437,7 +5437,7 @@ u"""
 entry(
     index = 177,
     label = "C6H13SJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -5468,7 +5468,7 @@ multiplicity 2
         S298 = (105.55,'cal/(mol*K)','+|-',1.39),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5477,7 +5477,7 @@ u"""
 entry(
     index = 178,
     label = "Et2-THT",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -5506,7 +5506,7 @@ entry(
         S298 = (89.79,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5515,7 +5515,7 @@ u"""
 entry(
     index = 179,
     label = "Et2-Thiophene",
-    molecule = 
+    molecule =
 """
 1  S u0 p2 c0 {2,S} {5,S}
 2  C u0 p0 c0 {1,S} {3,D} {6,S}
@@ -5540,7 +5540,7 @@ entry(
         S298 = (87.82,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5549,7 +5549,7 @@ u"""
 entry(
     index = 180,
     label = "Et2-DHT-J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
@@ -5576,7 +5576,7 @@ multiplicity 2
         S298 = (89.89,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5585,7 +5585,7 @@ u"""
 entry(
     index = 181,
     label = "Et2-DHT23",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -5612,7 +5612,7 @@ entry(
         S298 = (88.8,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5621,7 +5621,7 @@ u"""
 entry(
     index = 182,
     label = "Et2-DHT25",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -5648,7 +5648,7 @@ entry(
         S298 = (89.57,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5657,7 +5657,7 @@ u"""
 entry(
     index = 183,
     label = "Vinyl2-DHT-3J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -5682,7 +5682,7 @@ multiplicity 2
         S298 = (84.61,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5691,7 +5691,7 @@ u"""
 entry(
     index = 184,
     label = "Vinyl2-DHT-2J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -5716,7 +5716,7 @@ multiplicity 2
         S298 = (83.69,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5725,7 +5725,7 @@ u"""
 entry(
     index = 185,
     label = "hex-2-ene-1-thiol",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
@@ -5754,7 +5754,7 @@ entry(
         S298 = (104.12,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5763,7 +5763,7 @@ u"""
 entry(
     index = 186,
     label = "hexanethial-4J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
@@ -5792,7 +5792,7 @@ multiplicity 2
         S298 = (107.11,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5801,7 +5801,7 @@ u"""
 entry(
     index = 187,
     label = "C2H5C4H4S",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -5828,7 +5828,7 @@ multiplicity 2
         S298 = (94.55,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5837,7 +5837,7 @@ u"""
 entry(
     index = 188,
     label = "C2H5CJC2H2CS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
@@ -5862,7 +5862,7 @@ multiplicity 2
         S298 = (95.04,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5871,7 +5871,7 @@ u"""
 entry(
     index = 189,
     label = "Et2-THT-5J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -5900,7 +5900,7 @@ multiplicity 2
         S298 = (92.31,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5909,7 +5909,7 @@ u"""
 entry(
     index = 190,
     label = "Et2-TP-5J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -5934,7 +5934,7 @@ multiplicity 2
         S298 = (89.42,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5943,7 +5943,7 @@ u"""
 entry(
     index = 191,
     label = "2-CH2-TP",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -5965,7 +5965,7 @@ multiplicity 2
         S298 = (76.28,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5974,7 +5974,7 @@ u"""
 entry(
     index = 192,
     label = "3-CH2-TP",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -5996,7 +5996,7 @@ multiplicity 2
         S298 = (76.22,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6005,7 +6005,7 @@ u"""
 entry(
     index = 193,
     label = "2-Hexyl-TP",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {4,S} {16,S} {17,S}
@@ -6042,7 +6042,7 @@ entry(
         S298 = (125.5,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6051,7 +6051,7 @@ u"""
 entry(
     index = 194,
     label = "3-Hexyl-TP",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {4,S} {16,S} {17,S}
@@ -6088,7 +6088,7 @@ entry(
         S298 = (125.36,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6097,7 +6097,7 @@ u"""
 entry(
     index = 195,
     label = "2-HexylJ-TP",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
@@ -6134,7 +6134,7 @@ multiplicity 2
         S298 = (123.86,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6143,7 +6143,7 @@ u"""
 entry(
     index = 196,
     label = "3-HexylJ-TP",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
@@ -6180,7 +6180,7 @@ multiplicity 2
         S298 = (124.16,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6189,7 +6189,7 @@ u"""
 entry(
     index = 197,
     label = "S",
-    molecule = 
+    molecule =
 """
 1 S u0 p3 c0
 """,
@@ -6200,7 +6200,7 @@ entry(
         S298 = (40.11,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""H298, S298, Cp1000, Cp1500 from [10], rest from AGV""",
-    longDesc = 
+    longDesc =
 u"""
 Singlet sulfur, thermo data copied from triplet sulfur, likely very incorrect.
 """,
@@ -6209,7 +6209,7 @@ Singlet sulfur, thermo data copied from triplet sulfur, likely very incorrect.
 entry(
     index = 198,
     label = "DMSO4H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p2 c0 {2,D}
@@ -6234,9 +6234,9 @@ multiplicity 2
 	S298 = (95.24,'cal/(mol*K)','+|-',1),
     ),
     shortDesc = u"""Calculated by RJG - cbs-qb3""",
-    longDesc = 
+    longDesc =
 u"""
-Calculated by Ryan Gillis - Sept 2019 cbs-qb3 
+Calculated by Ryan Gillis - Sept 2019 cbs-qb3
 """,
 )
 

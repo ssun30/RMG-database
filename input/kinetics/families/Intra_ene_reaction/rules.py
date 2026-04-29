@@ -19,7 +19,7 @@ entry(
     ),
     rank = 9,
     shortDesc = u"""AG Vandeputte, CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 Rate taken from H shift in ethyleneCPD
 """,

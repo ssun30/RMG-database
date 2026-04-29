@@ -4,14 +4,14 @@
 name = "Roldan_Ir111"
 shortDesc = u""
 longDesc = u"""
-Based primarily on 
+Based primarily on
 "Mechanistic study of hydrazine decomposition on Ir(111)"
 Alberto Roldan et al. Phys.Chem.Chem.Phys., 2020, 22, 3883
 DOI: 10.1039/c9cp06525c
 
 and
 
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -22,15 +22,15 @@ entry(
     index = 2,
     label = "NH3_X <=> NH3 + X",
     kinetics = SurfaceArrhenius(
-        A = (9.53E7, '1/s'),  
+        A = (9.53E7, '1/s'),
         n = 0.0,
-        Ea = (88574.75, 'J/mol'),  
+        Ea = (88574.75, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Surface_Adsorption_vdW""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -47,15 +47,15 @@ entry(
     index = 3,
     label = "N2_X <=> N2 + X",
     kinetics = SurfaceArrhenius(
-        A = (9.52E7, '1/s'),  
+        A = (9.52E7, '1/s'),
         n = 0.0,
-        Ea = (10806.96, 'J/mol'),  
+        Ea = (10806.96, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""Surface_Adsorption_vdW""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -72,15 +72,15 @@ entry(
     index = 4,
     label = "H2_X <=> H2 + X",
     kinetics = SurfaceArrhenius(
-        A = (9.53E7, '1/s'),  
+        A = (9.53E7, '1/s'),
         n = 0.0,
-        Ea = (30972.36, 'J/mol'),  
+        Ea = (30972.36, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""H2 Surface_Adsorption_vdW""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -97,9 +97,9 @@ entry(
     index = 5,
     label = "N2H4_X + X <=> N2H3_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (104209.2, 'J/mol'),  
+        Ea = (104209.2, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -124,9 +124,9 @@ entry(
     index = 6,
     label = "N2H3_X + X <=> NN=[Pt] + H_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (98419.8, 'J/mol'),  
+        Ea = (98419.8, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -147,15 +147,15 @@ This is R6 in Table 3
     facet = "111",
 )
 
-#Skip 7 
+#Skip 7
 
 entry(
     index = 8,
     label = "[Pt]NN[Pt] <=> N2H_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+        A = (1E13, '1/s'),
         n = 0.0,
-        Ea = (67543, 'J/mol'),  
+        Ea = (67543, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -179,9 +179,9 @@ entry(
     index = 10,
     label = "N2H_X + X <=> N2_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (126401.9, 'J/mol'),  
+        Ea = (126401.9, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -206,9 +206,9 @@ entry(
     index = 11,
     label = "N2H4_X + X <=> NH2_X + NH2_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (68507.9, 'J/mol'),  
+        Ea = (68507.9, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -233,9 +233,9 @@ entry(
     index = 12,
     label = "N2H3_X + X <=> NH2_X + NH_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (75262.2, 'J/mol'),  
+        Ea = (75262.2, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -260,9 +260,9 @@ entry(
     index = 13,
     label = "NN=[Pt] + X <=> NH2_X + N_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (70437.7, 'J/mol'),  
+        Ea = (70437.7, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -287,9 +287,9 @@ entry(
     index = 14,
     label = "N2H2_X + X <=> NH_X + NH_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (70437.7, 'J/mol'),  
+        Ea = (70437.7, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -314,9 +314,9 @@ entry(
     index = 15,
     label = "[Pt]NN=[Pt] <=> NH_X + N_X",
     kinetics = SurfaceArrhenius(
-        A = (1E13, '1/s'),  
+        A = (1E13, '1/s'),
         n = 0.0,
-        Ea = (137980.7, 'J/mol'),  
+        Ea = (137980.7, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -338,9 +338,9 @@ entry(
     index = 16,
     label = "N2H4_X + NH2_X <=> N2H3_X + NH3_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (19298, 'J/mol'),  
+        Ea = (19298, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -365,9 +365,9 @@ entry(
     index = 17,
     label = "N2H3_X + NH2_X <=> N2H2_X + NH3_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (22192.7, 'J/mol'),  
+        Ea = (22192.7, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -392,9 +392,9 @@ entry(
     index = 18,
     label = "[Pt]NN[Pt] + NH2_X <=> [Pt]NN=[Pt] + NH3_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (18333.1, 'J/mol'),  
+        Ea = (18333.1, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -419,9 +419,9 @@ entry(
     index = 19,
     label = "N2H3_X + NH2_X <=> NN=[Pt] + NH3_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (35701.3, 'J/mol'),  
+        Ea = (35701.3, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -446,9 +446,9 @@ entry(
     index = 20,
     label = "N2H2_X + NH2_X <=> N2H_X + NH3_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (98419.8, 'J/mol'),  
+        Ea = (98419.8, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -473,9 +473,9 @@ entry(
     index = 21,
     label = "[Pt]NN=[Pt] + NH2_X <=> [Pt]=NN=[Pt] + NH3_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'),  
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
-        Ea = (53069.5, 'J/mol'),  
+        Ea = (53069.5, 'J/mol'),
         Tmin = (200, 'K'),
         Tmax = (3000, 'K'),
     ),
@@ -500,7 +500,7 @@ entry(
     index = 22,
     label = "NH3_X + X <=> NH2_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (1.22E21, 'cm^2/(mol*s)'), 
+        A = (1.22E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (147114.22, 'J/mol'),
         Tmin = (200, 'K'),
@@ -508,7 +508,7 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation_vdW""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -527,7 +527,7 @@ entry(
     index = 23,
     label = "NH2_X + X <=> NH_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (1.43E21, 'cm^2/(mol*s)'), 
+        A = (1.43E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (151612.95, 'J/mol'),
         Tmin = (200, 'K'),
@@ -535,7 +535,7 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -554,7 +554,7 @@ entry(
     index = 24,
     label = "NH_X + X <=> N_X + H_X",
     kinetics = SurfaceArrhenius(
-        A = (2.68E21, 'cm^2/(mol*s)'), 
+        A = (2.68E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (88354.08, 'J/mol'),
         Tmin = (200, 'K'),
@@ -562,7 +562,7 @@ entry(
     ),
     shortDesc = u"""Surface_Dissociation""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -581,7 +581,7 @@ entry(
     index = 25,
     label = "NH2_X + NH2_X <=> NH_X + NH3_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'), 
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (32806.6, 'J/mol'),
         Tmin = (200, 'K'),
@@ -608,7 +608,7 @@ entry(
     index = 26,
     label = "NH_X + NH2_X <=> N_X + NH3_X",
     kinetics = SurfaceArrhenius(
-        A = (3.87E21, 'cm^2/(mol*s)'), 
+        A = (3.87E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (94560.2, 'J/mol'),
         Tmin = (200, 'K'),
@@ -635,7 +635,7 @@ entry(
     index = 27,
     label = "N_X + N_X <=> [Pt]=NN=[Pt]",
     kinetics = SurfaceArrhenius(
-        A = (3.55E21, 'cm^2/(mol*s)'), 
+        A = (3.55E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (187423.24, 'J/mol'),
         Tmin = (200, 'K'),
@@ -643,7 +643,7 @@ entry(
     ),
     shortDesc = u"""Surface_Bidentate_Dissociation""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b
@@ -662,7 +662,7 @@ entry(
     index = 28,
     label = "H_X + H_X <=> H2_X + X",
     kinetics = SurfaceArrhenius(
-        A = (2.42E21, 'cm^2/(mol*s)'), 
+        A = (2.42E21, 'cm^2/(mol*s)'),
         n = 0.0,
         Ea = (60127.72, 'J/mol'),
         Tmin = (200, 'K'),
@@ -670,7 +670,7 @@ entry(
     ),
     shortDesc = u"""""",
     longDesc = u"""
-"Kinetic and mechanistic analysis of NH3 decomposition 
+"Kinetic and mechanistic analysis of NH3 decomposition
 on Ru(0001), Ru(111) and Ir(111) surfaces"
 Alberto Roldan et al. Nanoscale Adv., 2021, 3, 1624
 DOI: 10.1039/d1na00015b

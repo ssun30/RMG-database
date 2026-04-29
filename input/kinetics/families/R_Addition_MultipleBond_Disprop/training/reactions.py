@@ -13,7 +13,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.82969e+15,'m^3/(mol*s)'), n=-2.51461, Ea=(7.6717,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1000,'K'), comment="""Fitted to 50 data points; dA = *|/ 3.36722, dn = +|- 0.167182, dEa = +|- 0.694638 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OC(=O)OC[CH2] + [Li] <=> C=C + [Li]OC(=O)O[Li]
@@ -29,7 +29,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.60363e+10,'m^3/(mol*s)'), n=-1.06749, Ea=(2.37772,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1000,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.80611, dn = +|- 0.142081, dEa = +|- 0.590342 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OC(=O)OC[CH2] + C[CH2] <=> C=C + [Li]OC(=O)OCC

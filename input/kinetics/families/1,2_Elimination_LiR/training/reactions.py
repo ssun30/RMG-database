@@ -13,7 +13,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.59528e+12,'s^-1'), n=0.518458, Ea=(46.6821,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.7137053723954238,B=2.3116450623393274,E=-0.028001584137479975,L=6.399784910596449,A=1.0368467911904864,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]O[CH]O <=> O=[CH] + [Li]O
@@ -51,7 +51,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.8039e+12,'s^-1'), n=0.472198, Ea=(80.6393,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.697605152955986,B=2.4862812293190593,E=-4.1974148204255775,L=2.872587466227873,A=0.9296666032597313,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OC(=O)OC[CH2] <=> [Li]OC[CH2] + O=C=O
@@ -95,7 +95,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.20441e+16,'s^-1'), n=0.126298, Ea=(88.7875,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OC(=O)OC <=> [Li]OC + O=C=O
@@ -129,7 +129,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.67089e+11,'s^-1'), n=0.423598, Ea=(30.5741,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-0.3926746359480871,B=2.430874130082185,E=1.0969664301003625,L=5.26139300991494,A=1.5271891998852951,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OCO <=> [Li]O + C=O
@@ -168,7 +168,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.47928e+13,'s^-1'), n=0.0523532, Ea=(1.77399,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.2544775378071295,B=3.8435703486608483,E=0.6208281974105191,L=9.542895814948176,A=0.874941113523824,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OCF <=> [Li]F + C=O
@@ -206,7 +206,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.03509e+13,'s^-1'), n=-0.00858289, Ea=(0.072948,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.49973283735009,B=-1.363801515776159,E=11.671483182052631,L=9.85481016575309,A=1.7632374622781073,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OCCl <=> [Li]Cl + C=O
@@ -244,7 +244,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(60668.5,'cm^3/(mol*s)'), n=2.48558, Ea=(-44.9325,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-6.237601960913579,B=9.474105452618263,E=1.6329134231750524,L=15.17499274807221,A=3.5783211118513525,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]O[Li] + O=C <=> [Li]OCO[Li]
@@ -283,7 +283,7 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(8.20882e+11,'s^-1'), n=0.349755, Ea=(9.42179,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.7309852404322288,B=2.3232904077453425,E=0.8831500260776306,L=9.72969334125182,A=0.8794516433866466,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]CC <=> C=C + [Li][H]
@@ -323,7 +323,7 @@ entry(
     degeneracy = 3.0,
     kinetics = Arrhenius(A=(1.20406e+11,'s^-1'), n=0.395823, Ea=(4.40595,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.708205772421329,B=2.5356143801240445,E=0.23679859997568953,L=9.472880397262012,A=1.0783864304846873,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]NC <=> N=C + [Li][H]
@@ -362,7 +362,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.54823e+14,'s^-1'), n=0.356617, Ea=(65.3953,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]O[CH]OC <=> O=[CH] + [Li]OC

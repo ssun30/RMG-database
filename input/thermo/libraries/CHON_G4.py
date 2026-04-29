@@ -4,11 +4,11 @@
 name = "CHON_G4"
 shortDesc = "CHON small molecule G4 thermo library"
 longDesc = """
-This library contains over 2000 stochastically generated closed and radical 
-(multiplicity 1 or 2) small molecules (< 6 heavy atoms) comprised of at least 
-1 nitrogen atom with hydrogen, oxygen, and carbon.  Each species was calculated 
+This library contains over 2000 stochastically generated closed and radical
+(multiplicity 1 or 2) small molecules (< 6 heavy atoms) comprised of at least
+1 nitrogen atom with hydrogen, oxygen, and carbon.  Each species was calculated
 using AutoTST's automated thermochemistry workflow as follows:
-1) Systematic conformer generation using dftb with the halorg-0-1 parameter set 
+1) Systematic conformer generation using dftb with the halorg-0-1 parameter set
 (https://www.dftb.org/parameters/download/halorg/halorg-0-1-cc/).
 2) Lowest energy conformer with DFT M062X-D3/JUN-CC-PVTZ using Gaussian 16.
 3) 1D hindered rotors at B3LYP/6-31G(2df,p) in Gaussian 16.
@@ -24,7 +24,7 @@ species.
 entry(
     index = 0,
     label = "NNCDC",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {5,S}
 2  C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -50,7 +50,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60,7 +60,7 @@ entry(
 entry(
     index = 1,
     label = "[O-][NH2+]C#[N+][O-]",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -83,7 +83,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -93,7 +93,7 @@ entry(
 entry(
     index = 2,
     label = "[O-][NH+]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,S} {3,S} {4,S}
@@ -115,7 +115,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -125,7 +125,7 @@ multiplicity 2
 entry(
     index = 3,
     label = "[O-][NH2+][CH]CDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -152,7 +152,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -162,7 +162,7 @@ multiplicity 2
 entry(
     index = 4,
     label = "[O-][NH2+]CN[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -190,7 +190,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -200,7 +200,7 @@ multiplicity 2
 entry(
     index = 5,
     label = "[CH2]NCDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -227,7 +227,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -237,7 +237,7 @@ multiplicity 2
 entry(
     index = 6,
     label = "CNDNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -263,7 +263,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -273,7 +273,7 @@ entry(
 entry(
     index = 7,
     label = "O[N-][N+](DO)O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {6,S}
 2 O u0 p2 c0 {5,S} {7,S}
@@ -296,7 +296,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -306,7 +306,7 @@ entry(
 entry(
     index = 8,
     label = "NDCC(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -336,7 +336,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -346,7 +346,7 @@ entry(
 entry(
     index = 9,
     label = "NCDNCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,D} {6,S}
 2  C u0 p0 c0 {4,D} {5,S} {7,S}
@@ -373,7 +373,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -383,7 +383,7 @@ entry(
 entry(
     index = 10,
     label = "[NH][O]",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -403,7 +403,7 @@ multiplicity 3
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -413,7 +413,7 @@ multiplicity 3
 entry(
     index = 11,
     label = "N[N]CDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
@@ -438,7 +438,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -448,7 +448,7 @@ multiplicity 2
 entry(
     index = 12,
     label = "NNDCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -472,7 +472,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -482,7 +482,7 @@ entry(
 entry(
     index = 13,
     label = "NCCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -510,7 +510,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -520,7 +520,7 @@ entry(
 entry(
     index = 14,
     label = "OCD[N+](O)[O-]",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,S} {7,S}
 2 O u0 p2 c0 {4,S} {8,S}
@@ -544,7 +544,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -554,7 +554,7 @@ entry(
 entry(
     index = 15,
     label = "[O-][NH+]DCDCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {4,S} {5,S}
@@ -577,7 +577,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -587,7 +587,7 @@ multiplicity 2
 entry(
     index = 16,
     label = "CDCCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -612,7 +612,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -622,7 +622,7 @@ entry(
 entry(
     index = 17,
     label = "CN(NDC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {5,S}
@@ -650,7 +650,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -660,7 +660,7 @@ entry(
 entry(
     index = 18,
     label = "[CH2]NDCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -685,7 +685,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -695,7 +695,7 @@ multiplicity 2
 entry(
     index = 19,
     label = "NON(O)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -720,7 +720,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -730,7 +730,7 @@ entry(
 entry(
     index = 20,
     label = "[NH]CDNO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -754,7 +754,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -764,7 +764,7 @@ multiplicity 2
 entry(
     index = 21,
     label = "[CH2]NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -788,7 +788,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -798,7 +798,7 @@ multiplicity 2
 entry(
     index = 22,
     label = "[O-][N+](DN)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
@@ -822,7 +822,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -832,7 +832,7 @@ multiplicity 2
 entry(
     index = 23,
     label = "CC(DC)NO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -860,7 +860,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -870,7 +870,7 @@ entry(
 entry(
     index = 24,
     label = "ODNN(O)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -893,7 +893,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -903,7 +903,7 @@ entry(
 entry(
     index = 25,
     label = "[O-][N+]DCC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -928,7 +928,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -938,7 +938,7 @@ multiplicity 2
 entry(
     index = 26,
     label = "OONDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -961,7 +961,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -971,7 +971,7 @@ entry(
 entry(
     index = 27,
     label = "CDNNNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {6,S}
 2 C u0 p0 c0 {3,D} {7,S} {8,S}
@@ -996,7 +996,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1006,7 +1006,7 @@ entry(
 entry(
     index = 28,
     label = "NCCDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -1035,7 +1035,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1045,7 +1045,7 @@ entry(
 entry(
     index = 29,
     label = "OCCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1070,7 +1070,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1080,7 +1080,7 @@ multiplicity 2
 entry(
     index = 30,
     label = "CDCNC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -1105,7 +1105,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1115,7 +1115,7 @@ entry(
 entry(
     index = 31,
     label = "CDC[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -1140,7 +1140,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1150,7 +1150,7 @@ multiplicity 2
 entry(
     index = 32,
     label = "[O-][NH2+]NNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -1174,7 +1174,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1184,7 +1184,7 @@ entry(
 entry(
     index = 33,
     label = "[CH2]OCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1211,7 +1211,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1221,7 +1221,7 @@ multiplicity 2
 entry(
     index = 34,
     label = "NN[CH]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p1 c0 {2,S} {3,S} {6,S}
@@ -1248,7 +1248,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1258,7 +1258,7 @@ multiplicity 2
 entry(
     index = 35,
     label = "NNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,D}
@@ -1279,7 +1279,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1289,7 +1289,7 @@ entry(
 entry(
     index = 36,
     label = "C(C#C)NDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -1313,7 +1313,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1323,7 +1323,7 @@ entry(
 entry(
     index = 37,
     label = "NO[CH]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {4,S} {5,S}
@@ -1349,7 +1349,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1359,7 +1359,7 @@ multiplicity 2
 entry(
     index = 38,
     label = "CNNNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -1388,7 +1388,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1398,7 +1398,7 @@ entry(
 entry(
     index = 39,
     label = "OCNDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {3,D} {7,S} {8,S}
@@ -1423,7 +1423,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1433,7 +1433,7 @@ entry(
 entry(
     index = 40,
     label = "OON[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -1456,7 +1456,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1466,7 +1466,7 @@ multiplicity 2
 entry(
     index = 41,
     label = "NC(NDC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -1494,7 +1494,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1504,7 +1504,7 @@ entry(
 entry(
     index = 42,
     label = "[O-][N+](D[N])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1528,7 +1528,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1538,7 +1538,7 @@ multiplicity 2
 entry(
     index = 43,
     label = "NC#COO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -1562,7 +1562,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1572,7 +1572,7 @@ entry(
 entry(
     index = 44,
     label = "NDCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 N u0 p1 c0 {1,D} {6,S}
@@ -1594,7 +1594,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1604,7 +1604,7 @@ entry(
 entry(
     index = 45,
     label = "CONDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {5,D} {9,S}
@@ -1631,7 +1631,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1641,7 +1641,7 @@ entry(
 entry(
     index = 46,
     label = "ODCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 C u0 p0 c0 {1,S} {5,T}
@@ -1662,7 +1662,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1672,7 +1672,7 @@ entry(
 entry(
     index = 47,
     label = "OC#CNDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -1696,7 +1696,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1706,7 +1706,7 @@ entry(
 entry(
     index = 48,
     label = "NNDNC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -1730,7 +1730,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1740,7 +1740,7 @@ entry(
 entry(
     index = 49,
     label = "NCDCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -1765,7 +1765,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1775,7 +1775,7 @@ multiplicity 2
 entry(
     index = 50,
     label = "OC(NDN)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2 N u0 p1 c0 {1,S} {5,D}
@@ -1800,7 +1800,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1810,7 +1810,7 @@ entry(
 entry(
     index = 51,
     label = "C#CC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {4,T}
 2 C u0 p0 c0 {3,T} {4,S}
@@ -1831,7 +1831,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1841,7 +1841,7 @@ entry(
 entry(
     index = 52,
     label = "N[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -1863,7 +1863,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1873,7 +1873,7 @@ multiplicity 2
 entry(
     index = 53,
     label = "NCCDCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,D} {8,S}
@@ -1901,7 +1901,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1911,7 +1911,7 @@ entry(
 entry(
     index = 54,
     label = "ONDCNDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,D} {6,S}
 2 C u0 p0 c0 {3,D} {7,S} {8,S}
@@ -1936,7 +1936,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1946,7 +1946,7 @@ entry(
 entry(
     index = 55,
     label = "CNDCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {4,D} {9,S}
@@ -1973,7 +1973,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1983,7 +1983,7 @@ entry(
 entry(
     index = 56,
     label = "[O-][CH][NH+]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
@@ -2008,7 +2008,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2018,7 +2018,7 @@ multiplicity 2
 entry(
     index = 57,
     label = "CONCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {4,D} {9,S}
@@ -2046,7 +2046,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2056,7 +2056,7 @@ entry(
 entry(
     index = 58,
     label = "[NH-][N+]DCC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -2082,7 +2082,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2092,7 +2092,7 @@ multiplicity 2
 entry(
     index = 59,
     label = "CN(NN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {5,S}
@@ -2120,7 +2120,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2130,7 +2130,7 @@ entry(
 entry(
     index = 60,
     label = "[O-][NH2+]C",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2154,7 +2154,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2164,7 +2164,7 @@ entry(
 entry(
     index = 61,
     label = "CNO[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -2190,7 +2190,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2200,7 +2200,7 @@ multiplicity 2
 entry(
     index = 62,
     label = "ONC#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -2223,7 +2223,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2233,7 +2233,7 @@ multiplicity 2
 entry(
     index = 63,
     label = "COO[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -2258,7 +2258,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2268,7 +2268,7 @@ multiplicity 2
 entry(
     index = 64,
     label = "N[CH]NDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {4,S} {5,S}
@@ -2294,7 +2294,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2304,7 +2304,7 @@ multiplicity 2
 entry(
     index = 65,
     label = "NC(NDC)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -2331,7 +2331,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2341,7 +2341,7 @@ entry(
 entry(
     index = 66,
     label = "CC(DO)NN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,D}
@@ -2368,7 +2368,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2378,7 +2378,7 @@ entry(
 entry(
     index = 67,
     label = "CNNNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -2406,7 +2406,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2416,7 +2416,7 @@ entry(
 entry(
     index = 68,
     label = "[O-][NH+]DNNN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -2441,7 +2441,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2451,7 +2451,7 @@ entry(
 entry(
     index = 69,
     label = "NO[CH]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {3,S} {4,S} {5,S}
@@ -2476,7 +2476,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2486,7 +2486,7 @@ multiplicity 2
 entry(
     index = 70,
     label = "C(C#C)NDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -2511,7 +2511,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2521,7 +2521,7 @@ entry(
 entry(
     index = 71,
     label = "[O-][NH2+]C(DN)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -2548,7 +2548,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2558,7 +2558,7 @@ multiplicity 2
 entry(
     index = 72,
     label = "NC(DO)NDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,D}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -2582,7 +2582,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2592,7 +2592,7 @@ entry(
 entry(
     index = 73,
     label = "NNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -2614,7 +2614,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2624,7 +2624,7 @@ entry(
 entry(
     index = 74,
     label = "NN[CH]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -2650,7 +2650,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2660,7 +2660,7 @@ multiplicity 2
 entry(
     index = 75,
     label = "[O-][NH2+]NNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -2685,7 +2685,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2695,7 +2695,7 @@ entry(
 entry(
     index = 76,
     label = "CDNCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
@@ -2720,7 +2720,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2730,7 +2730,7 @@ multiplicity 2
 entry(
     index = 77,
     label = "COCON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -2758,7 +2758,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2768,7 +2768,7 @@ entry(
 entry(
     index = 78,
     label = "CNONDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {4,S} {9,S}
@@ -2795,7 +2795,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2805,7 +2805,7 @@ entry(
 entry(
     index = 79,
     label = "NCOCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,D} {5,S} {10,S}
@@ -2833,7 +2833,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2843,7 +2843,7 @@ entry(
 entry(
     index = 80,
     label = "CC(O)(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2872,7 +2872,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2882,7 +2882,7 @@ entry(
 entry(
     index = 81,
     label = "OOND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -2905,7 +2905,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2915,7 +2915,7 @@ multiplicity 2
 entry(
     index = 82,
     label = "CC(N)(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2945,7 +2945,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2955,7 +2955,7 @@ entry(
 entry(
     index = 83,
     label = "CDNNNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -2979,7 +2979,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2989,7 +2989,7 @@ entry(
 entry(
     index = 84,
     label = "[CH2]NDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {3,S} {4,S} {5,S}
@@ -3013,7 +3013,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3023,7 +3023,7 @@ multiplicity 2
 entry(
     index = 85,
     label = "NCCDCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -3051,7 +3051,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3061,7 +3061,7 @@ entry(
 entry(
     index = 86,
     label = "[O-][N+]#CCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -3085,7 +3085,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3095,7 +3095,7 @@ multiplicity 2
 entry(
     index = 87,
     label = "[O-][NH2+][CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
@@ -3119,7 +3119,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3129,7 +3129,7 @@ multiplicity 2
 entry(
     index = 88,
     label = "CC(DN)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -3156,7 +3156,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3166,7 +3166,7 @@ entry(
 entry(
     index = 89,
     label = "CC([NH2+][O-])C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p0 c+1 {1,S} {6,S} {7,S} {8,S}
@@ -3196,7 +3196,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3206,7 +3206,7 @@ entry(
 entry(
     index = 90,
     label = "CC(DC)NN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -3235,7 +3235,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3245,7 +3245,7 @@ entry(
 entry(
     index = 91,
     label = "[CH2]NN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -3270,7 +3270,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3280,7 +3280,7 @@ multiplicity 2
 entry(
     index = 92,
     label = "CNCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -3309,7 +3309,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3319,7 +3319,7 @@ entry(
 entry(
     index = 93,
     label = "NCCCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -3349,7 +3349,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3359,7 +3359,7 @@ entry(
 entry(
     index = 94,
     label = "NDCC(O)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,D} {7,S}
@@ -3385,7 +3385,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3395,7 +3395,7 @@ entry(
 entry(
     index = 95,
     label = "NNN(O)N",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {5,S}
 2  N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -3422,7 +3422,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3432,7 +3432,7 @@ entry(
 entry(
     index = 96,
     label = "CCCON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -3462,7 +3462,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3472,7 +3472,7 @@ entry(
 entry(
     index = 97,
     label = "[O-][NH2+]NOO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -3497,7 +3497,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3507,7 +3507,7 @@ entry(
 entry(
     index = 98,
     label = "[CH2]NDCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -3533,7 +3533,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3543,7 +3543,7 @@ multiplicity 2
 entry(
     index = 99,
     label = "CN(NDC)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {4,S} {5,S}
@@ -3570,7 +3570,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3580,7 +3580,7 @@ entry(
 entry(
     index = 100,
     label = "[NH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,S} {3,S}
@@ -3600,7 +3600,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3610,7 +3610,7 @@ multiplicity 2
 entry(
     index = 101,
     label = "N[C]DNO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -3634,7 +3634,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3644,7 +3644,7 @@ multiplicity 2
 entry(
     index = 102,
     label = "NNDCN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -3669,7 +3669,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3679,7 +3679,7 @@ entry(
 entry(
     index = 103,
     label = "NCCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -3706,7 +3706,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3716,7 +3716,7 @@ entry(
 entry(
     index = 104,
     label = "NCC(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -3747,7 +3747,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3757,7 +3757,7 @@ entry(
 entry(
     index = 105,
     label = "[O-][NH+]DN[CH]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {4,S} {5,S}
@@ -3783,7 +3783,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3793,7 +3793,7 @@ multiplicity 2
 entry(
     index = 106,
     label = "NNN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -3823,7 +3823,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3833,7 +3833,7 @@ entry(
 entry(
     index = 107,
     label = "[NH]NOO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -3857,7 +3857,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3867,7 +3867,7 @@ multiplicity 2
 entry(
     index = 108,
     label = "N[N]CDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
@@ -3891,7 +3891,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3901,7 +3901,7 @@ multiplicity 2
 entry(
     index = 109,
     label = "NON(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -3930,7 +3930,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3940,7 +3940,7 @@ entry(
 entry(
     index = 110,
     label = "OONC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -3964,7 +3964,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3974,7 +3974,7 @@ entry(
 entry(
     index = 111,
     label = "[O-]N([NH+]DO)N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -3998,7 +3998,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4008,7 +4008,7 @@ entry(
 entry(
     index = 112,
     label = "CO[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -4032,7 +4032,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4042,7 +4042,7 @@ multiplicity 2
 entry(
     index = 113,
     label = "NONC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {6,S}
 2 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -4067,7 +4067,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4077,7 +4077,7 @@ entry(
 entry(
     index = 114,
     label = "[O-][NH2+][CH]CDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
@@ -4103,7 +4103,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4113,7 +4113,7 @@ multiplicity 2
 entry(
     index = 115,
     label = "[O-][NH+]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,S} {3,S} {4,S}
@@ -4136,7 +4136,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4146,7 +4146,7 @@ multiplicity 2
 entry(
     index = 116,
     label = "ODNN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -4173,7 +4173,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4183,7 +4183,7 @@ entry(
 entry(
     index = 117,
     label = "CC(NDC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -4212,7 +4212,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4222,7 +4222,7 @@ entry(
 entry(
     index = 118,
     label = "[CH2]CC#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4247,7 +4247,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4257,7 +4257,7 @@ multiplicity 2
 entry(
     index = 119,
     label = "C[C]DNN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -4283,7 +4283,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4293,7 +4293,7 @@ multiplicity 2
 entry(
     index = 120,
     label = "NCDCDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -4318,7 +4318,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4328,7 +4328,7 @@ entry(
 entry(
     index = 121,
     label = "[NH]NCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -4355,7 +4355,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4365,7 +4365,7 @@ multiplicity 2
 entry(
     index = 122,
     label = "NCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -4389,7 +4389,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4399,7 +4399,7 @@ entry(
 entry(
     index = 123,
     label = "ODCDCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,D}
@@ -4421,7 +4421,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4431,7 +4431,7 @@ entry(
 entry(
     index = 124,
     label = "[O-][NH2+]NCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  N u0 p0 c+1 {3,S} {7,S} {8,S} {9,S}
@@ -4459,7 +4459,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4469,7 +4469,7 @@ entry(
 entry(
     index = 125,
     label = "CDNC(DC)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {5,S}
@@ -4497,7 +4497,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4507,7 +4507,7 @@ entry(
 entry(
     index = 126,
     label = "[N-]([N+]DC)C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -4533,7 +4533,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4543,7 +4543,7 @@ multiplicity 2
 entry(
     index = 127,
     label = "CCDNCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,D} {9,S}
@@ -4571,7 +4571,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4581,7 +4581,7 @@ entry(
 entry(
     index = 128,
     label = "OCDNNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {6,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -4605,7 +4605,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4615,7 +4615,7 @@ entry(
 entry(
     index = 129,
     label = "C[N]CDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -4641,7 +4641,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4651,7 +4651,7 @@ multiplicity 2
 entry(
     index = 130,
     label = "O[N]NDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -4675,7 +4675,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4685,7 +4685,7 @@ multiplicity 2
 entry(
     index = 131,
     label = "NNDCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -4709,7 +4709,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4719,7 +4719,7 @@ multiplicity 2
 entry(
     index = 132,
     label = "CDNC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -4742,7 +4742,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4752,7 +4752,7 @@ entry(
 entry(
     index = 133,
     label = "ONNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -4776,7 +4776,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4786,7 +4786,7 @@ entry(
 entry(
     index = 134,
     label = "NCDCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -4811,7 +4811,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4821,7 +4821,7 @@ entry(
 entry(
     index = 135,
     label = "NCONN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {4,S} {5,S} {10,S}
@@ -4849,7 +4849,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4859,7 +4859,7 @@ entry(
 entry(
     index = 136,
     label = "CONDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -4883,7 +4883,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4893,7 +4893,7 @@ entry(
 entry(
     index = 137,
     label = "NDNNNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -4917,7 +4917,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4927,7 +4927,7 @@ entry(
 entry(
     index = 138,
     label = "C[CH]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -4953,7 +4953,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4963,7 +4963,7 @@ multiplicity 2
 entry(
     index = 139,
     label = "[O-][N+](DC)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
@@ -4988,7 +4988,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4998,7 +4998,7 @@ multiplicity 2
 entry(
     index = 140,
     label = "[O-][NH+]DCC[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -5024,7 +5024,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5034,7 +5034,7 @@ multiplicity 2
 entry(
     index = 141,
     label = "CC(NDO)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -5062,7 +5062,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5072,7 +5072,7 @@ entry(
 entry(
     index = 142,
     label = "OC(D[N])O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -5095,7 +5095,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5105,7 +5105,7 @@ multiplicity 2
 entry(
     index = 143,
     label = "NC(DO)NO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,D}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -5130,7 +5130,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5140,7 +5140,7 @@ entry(
 entry(
     index = 144,
     label = "CNN(O)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -5167,7 +5167,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5177,7 +5177,7 @@ entry(
 entry(
     index = 145,
     label = "[NH]CDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -5199,7 +5199,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5209,7 +5209,7 @@ multiplicity 2
 entry(
     index = 146,
     label = "[O-][NH+]DCO[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -5233,7 +5233,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5243,7 +5243,7 @@ multiplicity 2
 entry(
     index = 147,
     label = "[O-][N+]DCNDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -5266,7 +5266,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5276,7 +5276,7 @@ multiplicity 2
 entry(
     index = 148,
     label = "CO[CH]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -5303,7 +5303,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5313,7 +5313,7 @@ multiplicity 2
 entry(
     index = 149,
     label = "CN[CH]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -5341,7 +5341,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5351,7 +5351,7 @@ multiplicity 2
 entry(
     index = 150,
     label = "[O-][NH2+]CDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -5374,7 +5374,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5384,7 +5384,7 @@ entry(
 entry(
     index = 151,
     label = "CCNDCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -5414,7 +5414,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5424,7 +5424,7 @@ entry(
 entry(
     index = 152,
     label = "NC(DC)NO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,D}
 2  N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -5451,7 +5451,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5461,7 +5461,7 @@ entry(
 entry(
     index = 153,
     label = "N[C]([NH2+][O-])N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -5489,7 +5489,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5499,7 +5499,7 @@ multiplicity 2
 entry(
     index = 154,
     label = "NNNNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -5524,7 +5524,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5534,7 +5534,7 @@ entry(
 entry(
     index = 155,
     label = "CCNCDO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -5562,7 +5562,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5572,7 +5572,7 @@ entry(
 entry(
     index = 156,
     label = "CN(O)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -5597,7 +5597,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5607,7 +5607,7 @@ entry(
 entry(
     index = 157,
     label = "ODNOC#N",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -5628,7 +5628,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5638,7 +5638,7 @@ entry(
 entry(
     index = 158,
     label = "ONNNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -5662,7 +5662,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5672,7 +5672,7 @@ entry(
 entry(
     index = 159,
     label = "CCDCNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -5701,7 +5701,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5711,7 +5711,7 @@ entry(
 entry(
     index = 160,
     label = "C[N]CC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -5740,7 +5740,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5750,7 +5750,7 @@ multiplicity 2
 entry(
     index = 161,
     label = "ONNDCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -5774,7 +5774,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5784,7 +5784,7 @@ entry(
 entry(
     index = 162,
     label = "NOC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -5806,7 +5806,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5816,7 +5816,7 @@ entry(
 entry(
     index = 163,
     label = "OONDCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -5839,7 +5839,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5849,7 +5849,7 @@ entry(
 entry(
     index = 164,
     label = "[O-][NH2+]N(N)C",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -5877,7 +5877,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5887,7 +5887,7 @@ entry(
 entry(
     index = 165,
     label = "NOOCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
 2 C u0 p0 c0 {4,S} {5,D} {8,S}
@@ -5911,7 +5911,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5921,7 +5921,7 @@ entry(
 entry(
     index = 166,
     label = "[CH2]OC#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {4,S} {5,S}
@@ -5944,7 +5944,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5954,7 +5954,7 @@ multiplicity 2
 entry(
     index = 167,
     label = "CCNDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -5980,7 +5980,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5990,7 +5990,7 @@ entry(
 entry(
     index = 168,
     label = "NC#CCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,D} {6,S}
 2 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -6015,7 +6015,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6025,7 +6025,7 @@ entry(
 entry(
     index = 169,
     label = "CNDNC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -6050,7 +6050,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6060,7 +6060,7 @@ entry(
 entry(
     index = 170,
     label = "CNNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -6086,7 +6086,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6096,7 +6096,7 @@ entry(
 entry(
     index = 171,
     label = "OND[C]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,D} {3,S}
@@ -6119,7 +6119,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6129,7 +6129,7 @@ multiplicity 2
 entry(
     index = 172,
     label = "[O-][NH2+]C[C]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -6157,7 +6157,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6167,7 +6167,7 @@ multiplicity 2
 entry(
     index = 173,
     label = "[O-][NH2+]C(DC)N",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -6194,7 +6194,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6204,7 +6204,7 @@ entry(
 entry(
     index = 174,
     label = "[O-][NH+]DCC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 N u0 p0 c+1 {1,D} {6,S} {7,S}
@@ -6228,7 +6228,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6238,7 +6238,7 @@ entry(
 entry(
     index = 175,
     label = "CCC#CN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -6266,7 +6266,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6276,7 +6276,7 @@ entry(
 entry(
     index = 176,
     label = "CD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -6297,7 +6297,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6307,7 +6307,7 @@ multiplicity 2
 entry(
     index = 177,
     label = "[CH2]C(O)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -6334,7 +6334,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6344,7 +6344,7 @@ multiplicity 2
 entry(
     index = 178,
     label = "CNNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -6371,7 +6371,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6381,7 +6381,7 @@ entry(
 entry(
     index = 179,
     label = "NC#CCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
 2 C u0 p0 c0 {4,S} {5,D} {8,S}
@@ -6405,7 +6405,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6415,7 +6415,7 @@ entry(
 entry(
     index = 180,
     label = "NOONO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -6440,7 +6440,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6450,7 +6450,7 @@ entry(
 entry(
     index = 181,
     label = "CCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -6475,7 +6475,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6485,7 +6485,7 @@ entry(
 entry(
     index = 182,
     label = "NOOCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,D} {6,S}
 2 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -6510,7 +6510,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6520,7 +6520,7 @@ entry(
 entry(
     index = 183,
     label = "CN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -6549,7 +6549,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6559,7 +6559,7 @@ entry(
 entry(
     index = 184,
     label = "OOOCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -6583,7 +6583,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6593,7 +6593,7 @@ entry(
 entry(
     index = 185,
     label = "OONDCDO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -6615,7 +6615,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6625,7 +6625,7 @@ entry(
 entry(
     index = 186,
     label = "NNDCCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -6650,7 +6650,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6660,7 +6660,7 @@ entry(
 entry(
     index = 187,
     label = "ONNDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -6683,7 +6683,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6693,7 +6693,7 @@ entry(
 entry(
     index = 188,
     label = "NN(N)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -6719,7 +6719,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6729,7 +6729,7 @@ multiplicity 2
 entry(
     index = 189,
     label = "ONNNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {7,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -6754,7 +6754,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6764,7 +6764,7 @@ entry(
 entry(
     index = 190,
     label = "CN(N)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -6792,7 +6792,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6802,7 +6802,7 @@ multiplicity 2
 entry(
     index = 191,
     label = "NNDNNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -6827,7 +6827,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6837,7 +6837,7 @@ entry(
 entry(
     index = 192,
     label = "CCDCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -6865,7 +6865,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6875,7 +6875,7 @@ entry(
 entry(
     index = 193,
     label = "CCNCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -6904,7 +6904,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6914,7 +6914,7 @@ entry(
 entry(
     index = 194,
     label = "COCCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -6944,7 +6944,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6954,7 +6954,7 @@ entry(
 entry(
     index = 195,
     label = "CN(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -6980,7 +6980,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6990,7 +6990,7 @@ entry(
 entry(
     index = 196,
     label = "CNNDNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {4,S} {9,S}
@@ -7017,7 +7017,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7027,7 +7027,7 @@ entry(
 entry(
     index = 197,
     label = "ODCCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -7051,7 +7051,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7061,7 +7061,7 @@ entry(
 entry(
     index = 198,
     label = "OC([NH2+][O-])O",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {9,S}
 2  O u0 p2 c0 {5,S} {10,S}
@@ -7087,7 +7087,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7097,7 +7097,7 @@ entry(
 entry(
     index = 199,
     label = "[O-][NH2+]CDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -7121,7 +7121,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7131,7 +7131,7 @@ entry(
 entry(
     index = 200,
     label = "CN[CH]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -7158,7 +7158,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7168,7 +7168,7 @@ multiplicity 2
 entry(
     index = 201,
     label = "[O-][NH2+]C(DC)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -7196,7 +7196,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7206,7 +7206,7 @@ multiplicity 2
 entry(
     index = 202,
     label = "OC(DO)CDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,D}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -7230,7 +7230,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7240,7 +7240,7 @@ entry(
 entry(
     index = 203,
     label = "[O-][N+]DCNDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -7264,7 +7264,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7274,7 +7274,7 @@ multiplicity 2
 entry(
     index = 204,
     label = "[NH]CDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -7297,7 +7297,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7307,7 +7307,7 @@ multiplicity 2
 entry(
     index = 205,
     label = "CNN(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -7335,7 +7335,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7345,7 +7345,7 @@ entry(
 entry(
     index = 206,
     label = "[N-]([N+]DO)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p2 c-1 {2,S} {3,S}
@@ -7367,7 +7367,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7377,7 +7377,7 @@ multiplicity 2
 entry(
     index = 207,
     label = "CON(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -7404,7 +7404,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7414,7 +7414,7 @@ entry(
 entry(
     index = 208,
     label = "[O-][N+]DCNC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -7441,7 +7441,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7451,7 +7451,7 @@ multiplicity 2
 entry(
     index = 209,
     label = "CCCCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -7483,7 +7483,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7493,7 +7493,7 @@ entry(
 entry(
     index = 210,
     label = "[O-][NH2+]CDNC",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -7520,7 +7520,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7530,7 +7530,7 @@ entry(
 entry(
     index = 211,
     label = "NC[N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -7556,7 +7556,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7566,7 +7566,7 @@ multiplicity 2
 entry(
     index = 212,
     label = "[NH]C(O)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -7591,7 +7591,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7601,7 +7601,7 @@ multiplicity 2
 entry(
     index = 213,
     label = "NDC[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -7624,7 +7624,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7634,7 +7634,7 @@ multiplicity 2
 entry(
     index = 214,
     label = "N#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -7652,7 +7652,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7662,7 +7662,7 @@ entry(
 entry(
     index = 215,
     label = "[NH]C(DO)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -7685,7 +7685,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7695,7 +7695,7 @@ multiplicity 2
 entry(
     index = 216,
     label = "OCNC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {4,S} {7,S}
@@ -7720,7 +7720,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7730,7 +7730,7 @@ entry(
 entry(
     index = 217,
     label = "ODCONDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -7752,7 +7752,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7762,7 +7762,7 @@ entry(
 entry(
     index = 218,
     label = "ONDNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -7784,7 +7784,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7794,7 +7794,7 @@ entry(
 entry(
     index = 219,
     label = "NDNNNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -7817,7 +7817,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7827,7 +7827,7 @@ entry(
 entry(
     index = 220,
     label = "NCONO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {8,S} {9,S}
@@ -7854,7 +7854,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7864,7 +7864,7 @@ entry(
 entry(
     index = 221,
     label = "CONDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -7887,7 +7887,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7897,7 +7897,7 @@ entry(
 entry(
     index = 222,
     label = "CDNNDCDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {6,S} {7,S}
 2 C u0 p0 c0 {4,D} {8,S} {9,S}
@@ -7922,7 +7922,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7932,7 +7932,7 @@ entry(
 entry(
     index = 223,
     label = "[O-][N+]#CN[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -7957,7 +7957,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7967,7 +7967,7 @@ multiplicity 2
 entry(
     index = 224,
     label = "COOC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -7991,7 +7991,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8001,7 +8001,7 @@ entry(
 entry(
     index = 225,
     label = "[O-][N+]#CO[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {5,S} {6,S}
@@ -8025,7 +8025,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8035,7 +8035,7 @@ multiplicity 2
 entry(
     index = 226,
     label = "CD[C]C#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -8058,7 +8058,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8068,7 +8068,7 @@ multiplicity 2
 entry(
     index = 227,
     label = "CON(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -8098,7 +8098,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8108,7 +8108,7 @@ entry(
 entry(
     index = 228,
     label = "[O-][NH2+]CCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -8135,7 +8135,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8145,7 +8145,7 @@ multiplicity 2
 entry(
     index = 229,
     label = "C[N]CDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -8170,7 +8170,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8180,7 +8180,7 @@ multiplicity 2
 entry(
     index = 230,
     label = "OCDNNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -8203,7 +8203,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8213,7 +8213,7 @@ entry(
 entry(
     index = 231,
     label = "CCC(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -8245,7 +8245,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8255,7 +8255,7 @@ entry(
 entry(
     index = 232,
     label = "ONN(N)N",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {4,S}
 2  N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -8282,7 +8282,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8292,7 +8292,7 @@ entry(
 entry(
     index = 233,
     label = "CNN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {4,S} {12,S} {13,S} {14,S}
@@ -8323,7 +8323,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8333,7 +8333,7 @@ entry(
 entry(
     index = 234,
     label = "[O-][NH2+]NCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  N u0 p0 c+1 {3,S} {7,S} {8,S} {9,S}
@@ -8360,7 +8360,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8370,7 +8370,7 @@ entry(
 entry(
     index = 235,
     label = "NC(DN)C#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -8395,7 +8395,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8405,7 +8405,7 @@ entry(
 entry(
     index = 236,
     label = "C[C]DNO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -8430,7 +8430,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8440,7 +8440,7 @@ multiplicity 2
 entry(
     index = 237,
     label = "[NH]NCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -8466,7 +8466,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8476,7 +8476,7 @@ multiplicity 2
 entry(
     index = 238,
     label = "NOCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,D} {8,S}
@@ -8503,7 +8503,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8513,7 +8513,7 @@ entry(
 entry(
     index = 239,
     label = "CC(NDC)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -8541,7 +8541,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8551,7 +8551,7 @@ entry(
 entry(
     index = 240,
     label = "NCOO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -8576,7 +8576,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8586,7 +8586,7 @@ entry(
 entry(
     index = 241,
     label = "N[C]DCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -8611,7 +8611,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8621,7 +8621,7 @@ multiplicity 2
 entry(
     index = 242,
     label = "[O-][NH2+]CDCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
@@ -8646,7 +8646,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8656,7 +8656,7 @@ multiplicity 2
 entry(
     index = 243,
     label = "ONDCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -8679,7 +8679,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8689,7 +8689,7 @@ entry(
 entry(
     index = 244,
     label = "CNCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -8715,7 +8715,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8725,7 +8725,7 @@ entry(
 entry(
     index = 245,
     label = "[O-][NH+]DCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,D}
@@ -8746,7 +8746,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8756,7 +8756,7 @@ entry(
 entry(
     index = 246,
     label = "[O-][NH2+]C[CH]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -8784,7 +8784,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8794,7 +8794,7 @@ multiplicity 2
 entry(
     index = 247,
     label = "[CH]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,D} {4,S}
@@ -8815,7 +8815,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8825,7 +8825,7 @@ multiplicity 2
 entry(
     index = 248,
     label = "NCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {4,S} {7,S}
@@ -8851,7 +8851,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8861,7 +8861,7 @@ entry(
 entry(
     index = 249,
     label = "NNDNN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -8885,7 +8885,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8895,7 +8895,7 @@ entry(
 entry(
     index = 250,
     label = "ONDC(O)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 N u0 p1 c0 {1,D} {5,S}
@@ -8919,7 +8919,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8929,7 +8929,7 @@ entry(
 entry(
     index = 251,
     label = "NNDNNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -8953,7 +8953,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8963,7 +8963,7 @@ entry(
 entry(
     index = 252,
     label = "OC#CC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -8985,7 +8985,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8995,7 +8995,7 @@ entry(
 entry(
     index = 253,
     label = "[O-][NH+]DNN[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -9020,7 +9020,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9030,7 +9030,7 @@ multiplicity 2
 entry(
     index = 254,
     label = "[N]DNCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -9053,7 +9053,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9063,7 +9063,7 @@ multiplicity 2
 entry(
     index = 255,
     label = "CC#CN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {4,S} {8,S} {9,S}
@@ -9088,7 +9088,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9098,7 +9098,7 @@ entry(
 entry(
     index = 256,
     label = "[O-][NH2+]N([O])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
@@ -9125,7 +9125,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9135,7 +9135,7 @@ multiplicity 2
 entry(
     index = 257,
     label = "CCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9159,7 +9159,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9169,7 +9169,7 @@ multiplicity 2
 entry(
     index = 258,
     label = "[O-][NH+]DCD[C]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -9194,7 +9194,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9204,7 +9204,7 @@ multiplicity 2
 entry(
     index = 259,
     label = "OCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {7,S}
@@ -9227,7 +9227,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9237,7 +9237,7 @@ entry(
 entry(
     index = 260,
     label = "[N-]([NH+]DO)OC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 N u0 p0 c+1 {4,S} {8,D} {9,S}
@@ -9262,7 +9262,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9272,7 +9272,7 @@ entry(
 entry(
     index = 261,
     label = "CC(DC)CN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -9302,7 +9302,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9312,7 +9312,7 @@ entry(
 entry(
     index = 262,
     label = "CN(CDO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -9339,7 +9339,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9349,7 +9349,7 @@ entry(
 entry(
     index = 263,
     label = "CCCNDO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -9377,7 +9377,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9387,7 +9387,7 @@ entry(
 entry(
     index = 264,
     label = "NNCCDO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {4,S} {7,S}
@@ -9414,7 +9414,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9424,7 +9424,7 @@ entry(
 entry(
     index = 265,
     label = "[O-][NH+]([O])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
@@ -9449,7 +9449,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9459,7 +9459,7 @@ multiplicity 2
 entry(
     index = 266,
     label = "[O-][N+]DNCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -9482,7 +9482,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9492,7 +9492,7 @@ multiplicity 2
 entry(
     index = 267,
     label = "NNDC(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {5,D}
@@ -9520,7 +9520,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9530,7 +9530,7 @@ entry(
 entry(
     index = 268,
     label = "[NH-][N+](DO)[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
@@ -9552,7 +9552,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9562,7 +9562,7 @@ multiplicity 2
 entry(
     index = 269,
     label = "[CH2]CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -9588,7 +9588,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9598,7 +9598,7 @@ multiplicity 2
 entry(
     index = 270,
     label = "CDCNNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {6,S}
 2  N u0 p1 c0 {1,S} {5,S} {7,S}
@@ -9625,7 +9625,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9635,7 +9635,7 @@ entry(
 entry(
     index = 271,
     label = "[O-][NH2+][N]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
@@ -9661,7 +9661,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9671,7 +9671,7 @@ multiplicity 2
 entry(
     index = 272,
     label = "[O-][N+]DCDCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,D}
@@ -9694,7 +9694,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9704,7 +9704,7 @@ multiplicity 2
 entry(
     index = 273,
     label = "CDNNC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {6,S}
 2 C u0 p0 c0 {3,D} {7,S} {8,S}
@@ -9729,7 +9729,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9739,7 +9739,7 @@ entry(
 entry(
     index = 274,
     label = "[O-][NH+]DNCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -9765,7 +9765,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9775,7 +9775,7 @@ entry(
 entry(
     index = 275,
     label = "COCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -9800,7 +9800,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9810,7 +9810,7 @@ multiplicity 2
 entry(
     index = 276,
     label = "CNNCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -9839,7 +9839,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9849,7 +9849,7 @@ entry(
 entry(
     index = 277,
     label = "NNOCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -9874,7 +9874,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9884,7 +9884,7 @@ entry(
 entry(
     index = 278,
     label = "CNCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -9910,7 +9910,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9920,7 +9920,7 @@ multiplicity 2
 entry(
     index = 279,
     label = "CC(DO)CN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -9948,7 +9948,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9958,7 +9958,7 @@ entry(
 entry(
     index = 280,
     label = "ONOCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {3,S} {6,D} {7,S}
@@ -9982,7 +9982,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9992,7 +9992,7 @@ entry(
 entry(
     index = 281,
     label = "OOC#N",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -10013,7 +10013,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10023,7 +10023,7 @@ entry(
 entry(
     index = 282,
     label = "CCDC(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
@@ -10053,7 +10053,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10063,7 +10063,7 @@ entry(
 entry(
     index = 283,
     label = "NNDNOO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -10087,7 +10087,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10097,7 +10097,7 @@ entry(
 entry(
     index = 284,
     label = "[CH2]ONO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -10122,7 +10122,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10132,7 +10132,7 @@ multiplicity 2
 entry(
     index = 285,
     label = "CC(NO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -10161,7 +10161,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10171,7 +10171,7 @@ entry(
 entry(
     index = 286,
     label = "[O-][NH2+]N[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
@@ -10195,7 +10195,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10205,7 +10205,7 @@ multiplicity 2
 entry(
     index = 287,
     label = "NCD[C]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -10230,7 +10230,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10240,7 +10240,7 @@ multiplicity 2
 entry(
     index = 288,
     label = "OC(DN)CDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -10264,7 +10264,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10274,7 +10274,7 @@ entry(
 entry(
     index = 289,
     label = "[NH-][N+]DNC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -10299,7 +10299,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10309,7 +10309,7 @@ multiplicity 2
 entry(
     index = 290,
     label = "[O-][NH+](N)N",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -10334,7 +10334,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10344,7 +10344,7 @@ entry(
 entry(
     index = 291,
     label = "ODCC(DO)N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -10368,7 +10368,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10378,7 +10378,7 @@ entry(
 entry(
     index = 292,
     label = "OONNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -10401,7 +10401,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10411,7 +10411,7 @@ entry(
 entry(
     index = 293,
     label = "CNDCDNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -10438,7 +10438,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10448,7 +10448,7 @@ entry(
 entry(
     index = 294,
     label = "NONNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -10472,7 +10472,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10482,7 +10482,7 @@ entry(
 entry(
     index = 295,
     label = "CNON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -10508,7 +10508,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10518,7 +10518,7 @@ entry(
 entry(
     index = 296,
     label = "CCDCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -10546,7 +10546,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10556,7 +10556,7 @@ entry(
 entry(
     index = 297,
     label = "NC(DO)[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -10579,7 +10579,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10589,7 +10589,7 @@ multiplicity 2
 entry(
     index = 298,
     label = "CONDNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -10614,7 +10614,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10624,7 +10624,7 @@ entry(
 entry(
     index = 299,
     label = "NOOOO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -10648,7 +10648,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10658,7 +10658,7 @@ entry(
 entry(
     index = 300,
     label = "NDNCDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -10681,7 +10681,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10691,7 +10691,7 @@ entry(
 entry(
     index = 301,
     label = "NDNCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {6,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -10715,7 +10715,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10725,7 +10725,7 @@ entry(
 entry(
     index = 302,
     label = "NOOON",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
 2 N u0 p1 c0 {4,S} {8,S} {9,S}
@@ -10750,7 +10750,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10760,7 +10760,7 @@ entry(
 entry(
     index = 303,
     label = "CONDNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {4,S} {9,S} {10,S}
@@ -10786,7 +10786,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10796,7 +10796,7 @@ entry(
 entry(
     index = 304,
     label = "NCNDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -10821,7 +10821,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10831,7 +10831,7 @@ entry(
 entry(
     index = 305,
     label = "[O-][NH2+]C(D[CH])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -10859,7 +10859,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10869,7 +10869,7 @@ multiplicity 2
 entry(
     index = 306,
     label = "COC(DC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {4,D} {5,S}
@@ -10897,7 +10897,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10907,7 +10907,7 @@ entry(
 entry(
     index = 307,
     label = "CCC(DN)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -10937,7 +10937,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10947,7 +10947,7 @@ entry(
 entry(
     index = 308,
     label = "CNOO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -10972,7 +10972,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10982,7 +10982,7 @@ entry(
 entry(
     index = 309,
     label = "NONNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {6,S}
 2 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -11007,7 +11007,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11017,7 +11017,7 @@ entry(
 entry(
     index = 310,
     label = "[O-][NH+]DC(O)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -11043,7 +11043,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11053,7 +11053,7 @@ entry(
 entry(
     index = 311,
     label = "OONNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -11077,7 +11077,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11087,7 +11087,7 @@ entry(
 entry(
     index = 312,
     label = "ODCNDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -11109,7 +11109,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11119,7 +11119,7 @@ entry(
 entry(
     index = 313,
     label = "NDCDNC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {4,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -11141,7 +11141,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11151,7 +11151,7 @@ entry(
 entry(
     index = 314,
     label = "NNN[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -11177,7 +11177,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11187,7 +11187,7 @@ multiplicity 2
 entry(
     index = 315,
     label = "NNDCDCDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
 2 C u0 p0 c0 {4,D} {8,S} {9,S}
@@ -11212,7 +11212,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11222,7 +11222,7 @@ entry(
 entry(
     index = 316,
     label = "NON[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -11247,7 +11247,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11257,7 +11257,7 @@ multiplicity 2
 entry(
     index = 317,
     label = "CNCC#N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -11284,7 +11284,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11294,7 +11294,7 @@ entry(
 entry(
     index = 318,
     label = "[CH2]ONN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -11320,7 +11320,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11330,7 +11330,7 @@ multiplicity 2
 entry(
     index = 319,
     label = "NC(C#N)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -11355,7 +11355,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11365,7 +11365,7 @@ entry(
 entry(
     index = 320,
     label = "ON(O)[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -11388,7 +11388,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11398,7 +11398,7 @@ multiplicity 2
 entry(
     index = 321,
     label = "CCDCON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -11426,7 +11426,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11436,7 +11436,7 @@ entry(
 entry(
     index = 322,
     label = "[NH]OCDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -11461,7 +11461,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11471,7 +11471,7 @@ multiplicity 2
 entry(
     index = 323,
     label = "ONOCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {6,S}
 2 C u0 p0 c0 {3,S} {5,D} {7,S}
@@ -11496,7 +11496,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11506,7 +11506,7 @@ entry(
 entry(
     index = 324,
     label = "[CH2]C#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -11528,7 +11528,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11538,7 +11538,7 @@ multiplicity 2
 entry(
     index = 325,
     label = "CCONDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -11565,7 +11565,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11575,7 +11575,7 @@ entry(
 entry(
     index = 326,
     label = "CNNCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -11605,7 +11605,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11615,7 +11615,7 @@ entry(
 entry(
     index = 327,
     label = "CDCND[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -11639,7 +11639,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11649,7 +11649,7 @@ multiplicity 2
 entry(
     index = 328,
     label = "[O-][N+]DCDCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p3 c-1 {3,S}
@@ -11671,7 +11671,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11681,7 +11681,7 @@ multiplicity 2
 entry(
     index = 329,
     label = "NDNOCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,D} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -11704,7 +11704,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11714,7 +11714,7 @@ entry(
 entry(
     index = 330,
     label = "CNOC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -11739,7 +11739,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11749,7 +11749,7 @@ entry(
 entry(
     index = 331,
     label = "ODCNCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 C u0 p0 c0 {1,S} {5,D} {7,S}
@@ -11773,7 +11773,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11783,7 +11783,7 @@ entry(
 entry(
     index = 332,
     label = "N#CNC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 C u0 p0 c0 {1,S} {5,T}
@@ -11805,7 +11805,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11815,7 +11815,7 @@ entry(
 entry(
     index = 333,
     label = "CN[C]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -11842,7 +11842,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11852,7 +11852,7 @@ multiplicity 2
 entry(
     index = 334,
     label = "NC(DO)OO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,D}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -11876,7 +11876,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11886,7 +11886,7 @@ entry(
 entry(
     index = 335,
     label = "[O-][NH2+]NC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -11911,7 +11911,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11921,7 +11921,7 @@ entry(
 entry(
     index = 336,
     label = "[O-][N+]DNCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -11945,7 +11945,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11955,7 +11955,7 @@ multiplicity 2
 entry(
     index = 337,
     label = "NC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -11977,7 +11977,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11987,7 +11987,7 @@ entry(
 entry(
     index = 338,
     label = "CN(C#N)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -12012,7 +12012,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12022,7 +12022,7 @@ entry(
 entry(
     index = 339,
     label = "NNCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -12050,7 +12050,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12060,7 +12060,7 @@ entry(
 entry(
     index = 340,
     label = "CCCNDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -12089,7 +12089,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12099,7 +12099,7 @@ entry(
 entry(
     index = 341,
     label = "[O-][NH+]DC",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -12121,7 +12121,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12131,7 +12131,7 @@ entry(
 entry(
     index = 342,
     label = "[O]ONO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -12154,7 +12154,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12164,7 +12164,7 @@ multiplicity 2
 entry(
     index = 343,
     label = "ONC(DO)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 C u0 p0 c0 {1,S} {4,S} {5,D}
@@ -12188,7 +12188,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12198,7 +12198,7 @@ entry(
 entry(
     index = 344,
     label = "[O-][N+]DNC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -12222,7 +12222,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12232,7 +12232,7 @@ multiplicity 2
 entry(
     index = 345,
     label = "[NH]CCDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -12259,7 +12259,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12269,7 +12269,7 @@ multiplicity 2
 entry(
     index = 346,
     label = "NC(DO)C#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,D}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -12293,7 +12293,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12303,7 +12303,7 @@ entry(
 entry(
     index = 347,
     label = "ONCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -12330,7 +12330,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12340,7 +12340,7 @@ entry(
 entry(
     index = 348,
     label = "[O-][NH+]DCD[C]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {5,S} {6,S}
@@ -12364,7 +12364,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12374,7 +12374,7 @@ multiplicity 2
 entry(
     index = 349,
     label = "NCCDNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,D} {8,S}
@@ -12402,7 +12402,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12412,7 +12412,7 @@ entry(
 entry(
     index = 350,
     label = "ONDC(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -12440,7 +12440,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12450,7 +12450,7 @@ entry(
 entry(
     index = 351,
     label = "[N]DNCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -12472,7 +12472,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12482,7 +12482,7 @@ multiplicity 2
 entry(
     index = 352,
     label = "NNDNNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -12505,7 +12505,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12515,7 +12515,7 @@ entry(
 entry(
     index = 353,
     label = "NCOON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {8,S} {9,S}
@@ -12542,7 +12542,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12552,7 +12552,7 @@ entry(
 entry(
     index = 354,
     label = "NCN(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {5,S}
@@ -12581,7 +12581,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12591,7 +12591,7 @@ entry(
 entry(
     index = 355,
     label = "ONDC(O)N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -12616,7 +12616,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12626,7 +12626,7 @@ entry(
 entry(
     index = 356,
     label = "CNDCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -12653,7 +12653,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12663,7 +12663,7 @@ entry(
 entry(
     index = 357,
     label = "NNDNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -12686,7 +12686,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12696,7 +12696,7 @@ entry(
 entry(
     index = 358,
     label = "NC#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -12718,7 +12718,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12728,7 +12728,7 @@ multiplicity 2
 entry(
     index = 359,
     label = "[O-][NH+]DN[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {4,S} {5,S}
@@ -12751,7 +12751,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12761,7 +12761,7 @@ multiplicity 2
 entry(
     index = 360,
     label = "CNCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -12786,7 +12786,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12796,7 +12796,7 @@ entry(
 entry(
     index = 361,
     label = "[O-][NH+]D[C]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -12821,7 +12821,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12831,7 +12831,7 @@ multiplicity 2
 entry(
     index = 362,
     label = "[O-][NH2+]C[CH]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -12860,7 +12860,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12870,7 +12870,7 @@ multiplicity 2
 entry(
     index = 363,
     label = "[O-][NH+]DCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,D} {4,S} {5,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -12892,7 +12892,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12902,7 +12902,7 @@ entry(
 entry(
     index = 364,
     label = "N[C]DCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -12928,7 +12928,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12938,7 +12938,7 @@ multiplicity 2
 entry(
     index = 365,
     label = "NNDCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -12961,7 +12961,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12971,7 +12971,7 @@ entry(
 entry(
     index = 366,
     label = "[O-][NH+]DCNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 N u0 p0 c+1 {1,D} {6,S} {7,S}
@@ -12995,7 +12995,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13005,7 +13005,7 @@ entry(
 entry(
     index = 367,
     label = "[O-][N+](C)C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -13032,7 +13032,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13042,7 +13042,7 @@ multiplicity 2
 entry(
     index = 368,
     label = "ONDCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -13064,7 +13064,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13074,7 +13074,7 @@ entry(
 entry(
     index = 369,
     label = "NCOCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
@@ -13102,7 +13102,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13112,7 +13112,7 @@ entry(
 entry(
     index = 370,
     label = "ONDNCDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {6,S}
 2 C u0 p0 c0 {1,D} {7,S} {8,S}
@@ -13137,7 +13137,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13147,7 +13147,7 @@ entry(
 entry(
     index = 371,
     label = "CNDNNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -13172,7 +13172,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13182,7 +13182,7 @@ entry(
 entry(
     index = 372,
     label = "N(C#C)CDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -13206,7 +13206,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13216,7 +13216,7 @@ entry(
 entry(
     index = 373,
     label = "[O-][N+](DN)N",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -13239,7 +13239,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13249,7 +13249,7 @@ entry(
 entry(
     index = 374,
     label = "[O-][NH+]DCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
@@ -13271,7 +13271,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13281,7 +13281,7 @@ multiplicity 2
 entry(
     index = 375,
     label = "[N]DCC#C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -13304,7 +13304,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13314,7 +13314,7 @@ multiplicity 2
 entry(
     index = 376,
     label = "[CH2]ONDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {3,S} {5,S} {6,S}
@@ -13339,7 +13339,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13349,7 +13349,7 @@ multiplicity 2
 entry(
     index = 377,
     label = "NONDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {4,D} {7,S} {8,S}
@@ -13373,7 +13373,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13383,7 +13383,7 @@ entry(
 entry(
     index = 378,
     label = "CCONC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -13413,7 +13413,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13423,7 +13423,7 @@ entry(
 entry(
     index = 379,
     label = "[NH]NNO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -13448,7 +13448,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13458,7 +13458,7 @@ multiplicity 2
 entry(
     index = 380,
     label = "CDNCDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -13482,7 +13482,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13492,7 +13492,7 @@ entry(
 entry(
     index = 381,
     label = "[O-][NH+](O)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
@@ -13517,7 +13517,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13527,7 +13527,7 @@ multiplicity 2
 entry(
     index = 382,
     label = "ODN[N-][NH+]DO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,D} {5,S}
 2 N u0 p2 c-1 {1,S} {3,S}
@@ -13549,7 +13549,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13559,7 +13559,7 @@ entry(
 entry(
     index = 383,
     label = "[CH2]ON",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -13583,7 +13583,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13593,7 +13593,7 @@ multiplicity 2
 entry(
     index = 384,
     label = "O[C]DCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -13616,7 +13616,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13626,7 +13626,7 @@ multiplicity 2
 entry(
     index = 385,
     label = "CDNOCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,D} {6,S}
 2 C u0 p0 c0 {4,D} {7,S} {8,S}
@@ -13651,7 +13651,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13661,7 +13661,7 @@ entry(
 entry(
     index = 386,
     label = "[O-][NH2+]CO[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13688,7 +13688,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13698,7 +13698,7 @@ multiplicity 2
 entry(
     index = 387,
     label = "[N-]([NH+]DO)CDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -13723,7 +13723,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13733,7 +13733,7 @@ entry(
 entry(
     index = 388,
     label = "ONCDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -13758,7 +13758,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13768,7 +13768,7 @@ entry(
 entry(
     index = 389,
     label = "[O-][NH2+]CDCC",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -13796,7 +13796,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13806,7 +13806,7 @@ entry(
 entry(
     index = 390,
     label = "NCDC(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -13835,7 +13835,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13845,7 +13845,7 @@ entry(
 entry(
     index = 391,
     label = "[O-][N+]DCCC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -13873,7 +13873,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13883,7 +13883,7 @@ multiplicity 2
 entry(
     index = 392,
     label = "CCCNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -13914,7 +13914,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13924,7 +13924,7 @@ entry(
 entry(
     index = 393,
     label = "CC(C#N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -13951,7 +13951,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13961,7 +13961,7 @@ entry(
 entry(
     index = 394,
     label = "CC(CDO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -13989,7 +13989,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13999,7 +13999,7 @@ entry(
 entry(
     index = 395,
     label = "[O-][NH+]DCC#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -14023,7 +14023,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14033,7 +14033,7 @@ multiplicity 2
 entry(
     index = 396,
     label = "[O-][N+](O)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,S} {3,S} {4,S}
@@ -14057,7 +14057,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14067,7 +14067,7 @@ multiplicity 2
 entry(
     index = 397,
     label = "ONDCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -14090,7 +14090,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14100,7 +14100,7 @@ entry(
 entry(
     index = 398,
     label = "CC(DC)ON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {5,S}
@@ -14128,7 +14128,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14138,7 +14138,7 @@ entry(
 entry(
     index = 399,
     label = "NC([NH2+][O-])N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p0 c+1 {1,S} {6,S} {7,S} {8,S}
@@ -14166,7 +14166,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14176,7 +14176,7 @@ entry(
 entry(
     index = 400,
     label = "COCNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
@@ -14205,7 +14205,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14215,7 +14215,7 @@ entry(
 entry(
     index = 401,
     label = "CNNDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {5,S} {9,S}
@@ -14243,7 +14243,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14253,7 +14253,7 @@ entry(
 entry(
     index = 402,
     label = "NDCC(DN)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -14280,7 +14280,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14290,7 +14290,7 @@ entry(
 entry(
     index = 403,
     label = "CDNCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,D} {8,S}
@@ -14317,7 +14317,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14327,7 +14327,7 @@ entry(
 entry(
     index = 404,
     label = "NN(C#N)N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -14352,7 +14352,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14362,7 +14362,7 @@ entry(
 entry(
     index = 405,
     label = "CNDC(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
@@ -14391,7 +14391,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14401,7 +14401,7 @@ entry(
 entry(
     index = 406,
     label = "[CH2]C(DN)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -14427,7 +14427,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14437,7 +14437,7 @@ multiplicity 2
 entry(
     index = 407,
     label = "CNNOO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -14464,7 +14464,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14474,7 +14474,7 @@ entry(
 entry(
     index = 408,
     label = "[O-][NH2+]OCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {3,S} {7,D} {8,S}
@@ -14498,7 +14498,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14508,7 +14508,7 @@ entry(
 entry(
     index = 409,
     label = "[O-][NH2+][C]DCDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -14534,7 +14534,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14544,7 +14544,7 @@ multiplicity 2
 entry(
     index = 410,
     label = "ON(C#C)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 C u0 p0 c0 {1,S} {5,T}
@@ -14568,7 +14568,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14578,7 +14578,7 @@ entry(
 entry(
     index = 411,
     label = "NNCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -14603,7 +14603,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14613,7 +14613,7 @@ multiplicity 2
 entry(
     index = 412,
     label = "NDNNC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -14637,7 +14637,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14647,7 +14647,7 @@ entry(
 entry(
     index = 413,
     label = "CC(DNO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -14674,7 +14674,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14684,7 +14684,7 @@ entry(
 entry(
     index = 414,
     label = "NOCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
@@ -14708,7 +14708,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14718,7 +14718,7 @@ multiplicity 2
 entry(
     index = 415,
     label = "CNCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -14746,7 +14746,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14756,7 +14756,7 @@ entry(
 entry(
     index = 416,
     label = "CCNDCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -14783,7 +14783,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14793,7 +14793,7 @@ entry(
 entry(
     index = 417,
     label = "NCDCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {6,S}
 2  C u0 p0 c0 {1,D} {5,S} {7,S}
@@ -14820,7 +14820,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14830,7 +14830,7 @@ entry(
 entry(
     index = 418,
     label = "CDNNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -14853,7 +14853,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14863,7 +14863,7 @@ entry(
 entry(
     index = 419,
     label = "ODNC(DO)N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -14886,7 +14886,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14896,7 +14896,7 @@ entry(
 entry(
     index = 420,
     label = "OCDNC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {6,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -14920,7 +14920,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14930,7 +14930,7 @@ entry(
 entry(
     index = 421,
     label = "CC(D[N])O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -14955,7 +14955,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14965,7 +14965,7 @@ multiplicity 2
 entry(
     index = 422,
     label = "NCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -14991,7 +14991,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15001,7 +15001,7 @@ entry(
 entry(
     index = 423,
     label = "NC(DN)NDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -15025,7 +15025,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15035,7 +15035,7 @@ entry(
 entry(
     index = 424,
     label = "[CH2]CNDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -15062,7 +15062,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15072,7 +15072,7 @@ multiplicity 2
 entry(
     index = 425,
     label = "C[CH]C#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -15097,7 +15097,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15107,7 +15107,7 @@ multiplicity 2
 entry(
     index = 426,
     label = "CCD[C]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -15134,7 +15134,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15144,7 +15144,7 @@ multiplicity 2
 entry(
     index = 427,
     label = "C[N]NC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -15172,7 +15172,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15182,7 +15182,7 @@ multiplicity 2
 entry(
     index = 428,
     label = "CC(D[N])N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -15208,7 +15208,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15218,7 +15218,7 @@ multiplicity 2
 entry(
     index = 429,
     label = "[O-][NH2+]CN[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -15245,7 +15245,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15255,7 +15255,7 @@ multiplicity 2
 entry(
     index = 430,
     label = "ODNC(DO)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -15277,7 +15277,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15287,7 +15287,7 @@ entry(
 entry(
     index = 431,
     label = "NCC#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -15312,7 +15312,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15322,7 +15322,7 @@ multiplicity 2
 entry(
     index = 432,
     label = "CDNNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -15344,7 +15344,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15354,7 +15354,7 @@ entry(
 entry(
     index = 433,
     label = "NC#CNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -15379,7 +15379,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15389,7 +15389,7 @@ entry(
 entry(
     index = 434,
     label = "NN(N)N",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {4,S}
 2  N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -15415,7 +15415,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15425,7 +15425,7 @@ entry(
 entry(
     index = 435,
     label = "CNC(DN)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
@@ -15454,7 +15454,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15464,7 +15464,7 @@ entry(
 entry(
     index = 436,
     label = "CNCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -15491,7 +15491,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15501,7 +15501,7 @@ entry(
 entry(
     index = 437,
     label = "NCNNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {5,S} {8,S}
@@ -15529,7 +15529,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15539,7 +15539,7 @@ entry(
 entry(
     index = 438,
     label = "CNNCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -15568,7 +15568,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15578,7 +15578,7 @@ entry(
 entry(
     index = 439,
     label = "[NH-][N+](DO)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -15600,7 +15600,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15610,7 +15610,7 @@ entry(
 entry(
     index = 440,
     label = "ONCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -15635,7 +15635,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15645,7 +15645,7 @@ multiplicity 2
 entry(
     index = 441,
     label = "OCNNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -15672,7 +15672,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15682,7 +15682,7 @@ entry(
 entry(
     index = 442,
     label = "[O-][N+]#CCDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -15706,7 +15706,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15716,7 +15716,7 @@ entry(
 entry(
     index = 443,
     label = "CNNON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -15744,7 +15744,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15754,7 +15754,7 @@ entry(
 entry(
     index = 444,
     label = "CCNDNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -15783,7 +15783,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15793,7 +15793,7 @@ entry(
 entry(
     index = 445,
     label = "[CH2]C(DN)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -15818,7 +15818,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15828,7 +15828,7 @@ multiplicity 2
 entry(
     index = 446,
     label = "NN(CDO)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -15853,7 +15853,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15863,7 +15863,7 @@ entry(
 entry(
     index = 447,
     label = "NN(C#N)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -15887,7 +15887,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15897,7 +15897,7 @@ entry(
 entry(
     index = 448,
     label = "CNNDCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {4,S} {9,S}
@@ -15924,7 +15924,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15934,7 +15934,7 @@ entry(
 entry(
     index = 449,
     label = "NC(D[NH+][O-])[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -15960,7 +15960,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15970,7 +15970,7 @@ multiplicity 2
 entry(
     index = 450,
     label = "OCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -15992,7 +15992,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16002,7 +16002,7 @@ entry(
 entry(
     index = 451,
     label = "NC(DC)CO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -16030,7 +16030,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16040,7 +16040,7 @@ entry(
 entry(
     index = 452,
     label = "CON[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -16066,7 +16066,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16076,7 +16076,7 @@ multiplicity 2
 entry(
     index = 453,
     label = "CCDCCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -16106,7 +16106,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16116,7 +16116,7 @@ entry(
 entry(
     index = 454,
     label = "CNN[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -16143,7 +16143,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16153,7 +16153,7 @@ multiplicity 2
 entry(
     index = 455,
     label = "COCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -16181,7 +16181,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16191,7 +16191,7 @@ entry(
 entry(
     index = 456,
     label = "[O-][NH2+][C](N)C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -16220,7 +16220,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16230,7 +16230,7 @@ multiplicity 2
 entry(
     index = 457,
     label = "[O-][NH2+]CCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  N u0 p0 c+1 {1,S} {7,S} {8,S} {9,S}
@@ -16257,7 +16257,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16267,7 +16267,7 @@ entry(
 entry(
     index = 458,
     label = "OCN(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {5,S}
@@ -16294,7 +16294,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16304,7 +16304,7 @@ entry(
 entry(
     index = 459,
     label = "CNC(O)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -16334,7 +16334,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16344,7 +16344,7 @@ entry(
 entry(
     index = 460,
     label = "NO[C]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
@@ -16369,7 +16369,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16379,7 +16379,7 @@ multiplicity 2
 entry(
     index = 461,
     label = "CCCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -16409,7 +16409,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16419,7 +16419,7 @@ entry(
 entry(
     index = 462,
     label = "[O-][NH2+]C[N]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -16448,7 +16448,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16458,7 +16458,7 @@ multiplicity 2
 entry(
     index = 463,
     label = "NN[C]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -16484,7 +16484,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16494,7 +16494,7 @@ multiplicity 2
 entry(
     index = 464,
     label = "C#CNC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -16517,7 +16517,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16527,7 +16527,7 @@ entry(
 entry(
     index = 465,
     label = "CN[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -16552,7 +16552,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16562,7 +16562,7 @@ multiplicity 2
 entry(
     index = 466,
     label = "CCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -16586,7 +16586,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16596,7 +16596,7 @@ entry(
 entry(
     index = 467,
     label = "CDNOCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {4,D} {6,S} {7,S}
 2 C u0 p0 c0 {3,S} {5,D} {8,S}
@@ -16620,7 +16620,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16630,7 +16630,7 @@ entry(
 entry(
     index = 468,
     label = "ONNC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {7,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -16655,7 +16655,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16665,7 +16665,7 @@ entry(
 entry(
     index = 469,
     label = "CDNCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,D} {6,S}
 2 C u0 p0 c0 {3,D} {7,S} {8,S}
@@ -16690,7 +16690,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16700,7 +16700,7 @@ entry(
 entry(
     index = 470,
     label = "C[C]DCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -16727,7 +16727,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16737,7 +16737,7 @@ multiplicity 2
 entry(
     index = 471,
     label = "NOC(DC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
 2  N u0 p1 c0 {1,S} {8,S} {9,S}
@@ -16764,7 +16764,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16774,7 +16774,7 @@ entry(
 entry(
     index = 472,
     label = "[O-][NH2+]NNN",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -16801,7 +16801,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16811,7 +16811,7 @@ entry(
 entry(
     index = 473,
     label = "ONCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {4,S} {7,S}
@@ -16836,7 +16836,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16846,7 +16846,7 @@ entry(
 entry(
     index = 474,
     label = "CCN(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -16876,7 +16876,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16886,7 +16886,7 @@ entry(
 entry(
     index = 475,
     label = "OCN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -16916,7 +16916,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16926,7 +16926,7 @@ entry(
 entry(
     index = 476,
     label = "CNDNNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -16950,7 +16950,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16960,7 +16960,7 @@ entry(
 entry(
     index = 477,
     label = "CDCDNC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -16983,7 +16983,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16993,7 +16993,7 @@ entry(
 entry(
     index = 478,
     label = "NCOCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
@@ -17022,7 +17022,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17032,7 +17032,7 @@ entry(
 entry(
     index = 479,
     label = "COCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -17060,7 +17060,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17070,7 +17070,7 @@ entry(
 entry(
     index = 480,
     label = "ONDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -17091,7 +17091,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17101,7 +17101,7 @@ entry(
 entry(
     index = 481,
     label = "[O-][NH2+]CDCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -17126,7 +17126,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17136,7 +17136,7 @@ entry(
 entry(
     index = 482,
     label = "OOC(DN)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -17160,7 +17160,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17170,7 +17170,7 @@ entry(
 entry(
     index = 483,
     label = "NC(DC)C#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -17195,7 +17195,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17205,7 +17205,7 @@ entry(
 entry(
     index = 484,
     label = "NNDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -17227,7 +17227,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17237,7 +17237,7 @@ entry(
 entry(
     index = 485,
     label = "[O-][NH+]DCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 N u0 p0 c+1 {1,D} {5,S} {6,S}
@@ -17260,7 +17260,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17270,7 +17270,7 @@ entry(
 entry(
     index = 486,
     label = "NNCOO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -17297,7 +17297,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17307,7 +17307,7 @@ entry(
 entry(
     index = 487,
     label = "ONC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -17330,7 +17330,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17340,7 +17340,7 @@ entry(
 entry(
     index = 488,
     label = "[N-]([NH+]DO)C#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {5,D} {6,S}
 2 N u0 p2 c-1 {1,S} {3,S}
@@ -17363,7 +17363,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17373,7 +17373,7 @@ entry(
 entry(
     index = 489,
     label = "CC(DCDN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -17400,7 +17400,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17410,7 +17410,7 @@ entry(
 entry(
     index = 490,
     label = "[O-][NH2+]N(O)C",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -17437,7 +17437,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17447,7 +17447,7 @@ entry(
 entry(
     index = 491,
     label = "[NH]OO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -17469,7 +17469,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17479,7 +17479,7 @@ multiplicity 2
 entry(
     index = 492,
     label = "[NH]NCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -17503,7 +17503,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17513,7 +17513,7 @@ multiplicity 2
 entry(
     index = 493,
     label = "NCCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -17539,7 +17539,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17549,7 +17549,7 @@ multiplicity 2
 entry(
     index = 494,
     label = "CDNOC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -17572,7 +17572,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17582,7 +17582,7 @@ entry(
 entry(
     index = 495,
     label = "CNDNCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -17609,7 +17609,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17619,7 +17619,7 @@ entry(
 entry(
     index = 496,
     label = "NCDCCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -17647,7 +17647,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17657,7 +17657,7 @@ entry(
 entry(
     index = 497,
     label = "CONO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {3,S} {4,S} {8,S}
@@ -17682,7 +17682,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17692,7 +17692,7 @@ entry(
 entry(
     index = 498,
     label = "NNNDCN",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {4,S} {5,D} {7,S}
@@ -17719,7 +17719,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17729,7 +17729,7 @@ entry(
 entry(
     index = 499,
     label = "CDCCNDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -17756,7 +17756,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17766,7 +17766,7 @@ entry(
 entry(
     index = 500,
     label = "CDCDNCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {4,D} {6,S} {7,S}
 2 C u0 p0 c0 {3,S} {5,D} {8,S}
@@ -17790,7 +17790,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17800,7 +17800,7 @@ entry(
 entry(
     index = 501,
     label = "ONDNC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -17823,7 +17823,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17833,7 +17833,7 @@ entry(
 entry(
     index = 502,
     label = "NC#CNDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {4,S} {6,S} {7,S}
 2 C u0 p0 c0 {3,D} {8,S} {9,S}
@@ -17858,7 +17858,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17868,7 +17868,7 @@ entry(
 entry(
     index = 503,
     label = "CDCC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,D} {7,S}
@@ -17897,7 +17897,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17907,7 +17907,7 @@ entry(
 entry(
     index = 504,
     label = "[O-][NH2+]C(DN)C",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -17934,7 +17934,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17944,7 +17944,7 @@ entry(
 entry(
     index = 505,
     label = "CND[C]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -17969,7 +17969,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17979,7 +17979,7 @@ multiplicity 2
 entry(
     index = 506,
     label = "OONOO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -18003,7 +18003,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18013,7 +18013,7 @@ entry(
 entry(
     index = 507,
     label = "CONDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -18038,7 +18038,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18048,7 +18048,7 @@ entry(
 entry(
     index = 508,
     label = "[O-][NH2+][N]CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -18075,7 +18075,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18085,7 +18085,7 @@ multiplicity 2
 entry(
     index = 509,
     label = "[O-][NH2+][CH]CC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -18115,7 +18115,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18125,7 +18125,7 @@ multiplicity 2
 entry(
     index = 510,
     label = "[O-][NH2+]O[NH2+][O-]",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,S} {4,S} {6,S} {7,S}
 2 N u0 p0 c+1 {3,S} {5,S} {8,S} {9,S}
@@ -18150,7 +18150,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18160,7 +18160,7 @@ entry(
 entry(
     index = 511,
     label = "[CH2]NON",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -18186,7 +18186,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18196,7 +18196,7 @@ multiplicity 2
 entry(
     index = 512,
     label = "[O-][NH+]DC[C]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -18222,7 +18222,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18232,7 +18232,7 @@ multiplicity 2
 entry(
     index = 513,
     label = "NDNNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -18254,7 +18254,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18264,7 +18264,7 @@ entry(
 entry(
     index = 514,
     label = "CC#CNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {3,S} {5,S} {9,S}
@@ -18291,7 +18291,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18301,7 +18301,7 @@ entry(
 entry(
     index = 515,
     label = "[O-][N+]#CC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18326,7 +18326,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18336,7 +18336,7 @@ multiplicity 2
 entry(
     index = 516,
     label = "CC(D[N+][O-])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -18364,7 +18364,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18374,7 +18374,7 @@ multiplicity 2
 entry(
     index = 517,
     label = "CNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -18398,7 +18398,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18408,7 +18408,7 @@ entry(
 entry(
     index = 518,
     label = "CNDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -18432,7 +18432,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18442,7 +18442,7 @@ entry(
 entry(
     index = 519,
     label = "CC(NDN)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -18471,7 +18471,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18481,7 +18481,7 @@ entry(
 entry(
     index = 520,
     label = "[O-][NH+](O)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
@@ -18505,7 +18505,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18515,7 +18515,7 @@ multiplicity 2
 entry(
     index = 521,
     label = "[O-][NH+]DCDNN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {7,S} {8,S}
 2 N u0 p0 c+1 {4,D} {5,S} {6,S}
@@ -18539,7 +18539,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18549,7 +18549,7 @@ entry(
 entry(
     index = 522,
     label = "O[N]CDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -18573,7 +18573,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18583,7 +18583,7 @@ multiplicity 2
 entry(
     index = 523,
     label = "N(C#N)NDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,D}
@@ -18605,7 +18605,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18615,7 +18615,7 @@ entry(
 entry(
     index = 524,
     label = "[N-]([N+]DN)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -18639,7 +18639,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18649,7 +18649,7 @@ multiplicity 2
 entry(
     index = 525,
     label = "NO[CH]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {3,S} {4,S} {5,S}
@@ -18674,7 +18674,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18684,7 +18684,7 @@ multiplicity 2
 entry(
     index = 526,
     label = "[O-][NH2+]CCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -18714,7 +18714,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18724,7 +18724,7 @@ entry(
 entry(
     index = 527,
     label = "CDNCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {3,D} {7,S} {8,S}
@@ -18749,7 +18749,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18759,7 +18759,7 @@ entry(
 entry(
     index = 528,
     label = "[NH]OCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -18785,7 +18785,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18795,7 +18795,7 @@ multiplicity 2
 entry(
     index = 529,
     label = "[O-][NH2+]OCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  N u0 p0 c+1 {4,S} {7,S} {8,S} {9,S}
@@ -18822,7 +18822,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18832,7 +18832,7 @@ entry(
 entry(
     index = 530,
     label = "ONN(O)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -18857,7 +18857,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18867,7 +18867,7 @@ entry(
 entry(
     index = 531,
     label = "OON(O)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -18891,7 +18891,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18901,7 +18901,7 @@ entry(
 entry(
     index = 532,
     label = "[O-][NH2+]C[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -18927,7 +18927,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18937,7 +18937,7 @@ multiplicity 2
 entry(
     index = 533,
     label = "OONO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -18960,7 +18960,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18970,7 +18970,7 @@ entry(
 entry(
     index = 534,
     label = "[O-][NH2+]NO[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -18996,7 +18996,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19006,7 +19006,7 @@ multiplicity 2
 entry(
     index = 535,
     label = "CDCONDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {6,S}
 2 C u0 p0 c0 {1,D} {7,S} {8,S}
@@ -19031,7 +19031,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19041,7 +19041,7 @@ entry(
 entry(
     index = 536,
     label = "[O-][NH+]D[C]NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -19066,7 +19066,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19076,7 +19076,7 @@ multiplicity 2
 entry(
     index = 537,
     label = "NC(DC)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -19101,7 +19101,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19111,7 +19111,7 @@ entry(
 entry(
     index = 538,
     label = "[O-][N+](DO)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
@@ -19134,7 +19134,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19144,7 +19144,7 @@ multiplicity 2
 entry(
     index = 539,
     label = "NCNNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -19173,7 +19173,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19183,7 +19183,7 @@ entry(
 entry(
     index = 540,
     label = "NCNNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -19211,7 +19211,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19221,7 +19221,7 @@ entry(
 entry(
     index = 541,
     label = "[O-][N+]#CC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,T}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -19243,7 +19243,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19253,7 +19253,7 @@ entry(
 entry(
     index = 542,
     label = "[O-][NH2+]OC[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -19279,7 +19279,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19289,7 +19289,7 @@ multiplicity 2
 entry(
     index = 543,
     label = "NC[C]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -19316,7 +19316,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19326,7 +19326,7 @@ multiplicity 2
 entry(
     index = 544,
     label = "NC(DC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,D}
 2  N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -19352,7 +19352,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19362,7 +19362,7 @@ entry(
 entry(
     index = 545,
     label = "[O-][NH2+][CH]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
@@ -19389,7 +19389,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19399,7 +19399,7 @@ multiplicity 2
 entry(
     index = 546,
     label = "CNNC#C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -19426,7 +19426,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19436,7 +19436,7 @@ entry(
 entry(
     index = 547,
     label = "[O-][NH+]D[C]NN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -19462,7 +19462,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19472,7 +19472,7 @@ multiplicity 2
 entry(
     index = 548,
     label = "NN[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -19496,7 +19496,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19506,7 +19506,7 @@ multiplicity 2
 entry(
     index = 549,
     label = "CDCONDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -19530,7 +19530,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19540,7 +19540,7 @@ entry(
 entry(
     index = 550,
     label = "[O-][NH2+]OC",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -19565,7 +19565,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19575,7 +19575,7 @@ entry(
 entry(
     index = 551,
     label = "OON(O)N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -19600,7 +19600,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19610,7 +19610,7 @@ entry(
 entry(
     index = 552,
     label = "[N-]D[C][NH+]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
@@ -19634,7 +19634,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19644,7 +19644,7 @@ multiplicity 2
 entry(
     index = 553,
     label = "[NH]OCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -19669,7 +19669,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19679,7 +19679,7 @@ multiplicity 2
 entry(
     index = 554,
     label = "OC#N",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {4,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -19699,7 +19699,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19709,7 +19709,7 @@ entry(
 entry(
     index = 555,
     label = "[O-][N+]DNNN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -19734,7 +19734,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19744,7 +19744,7 @@ multiplicity 2
 entry(
     index = 556,
     label = "CCNCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
@@ -19776,7 +19776,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19786,7 +19786,7 @@ entry(
 entry(
     index = 557,
     label = "COCDNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
@@ -19814,7 +19814,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19824,7 +19824,7 @@ entry(
 entry(
     index = 558,
     label = "ONN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -19853,7 +19853,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19863,7 +19863,7 @@ entry(
 entry(
     index = 559,
     label = "CNN(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -19892,7 +19892,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19902,7 +19902,7 @@ entry(
 entry(
     index = 560,
     label = "O[N]CDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -19925,7 +19925,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19935,7 +19935,7 @@ multiplicity 2
 entry(
     index = 561,
     label = "[O-][NH+]DCDNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,D} {5,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -19958,7 +19958,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19968,7 +19968,7 @@ entry(
 entry(
     index = 562,
     label = "CCDNNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -19993,7 +19993,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20003,7 +20003,7 @@ entry(
 entry(
     index = 563,
     label = "[N-]([N+]DN)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,S} {4,D}
@@ -20026,7 +20026,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20036,7 +20036,7 @@ multiplicity 2
 entry(
     index = 564,
     label = "CON(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -20064,7 +20064,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20074,7 +20074,7 @@ entry(
 entry(
     index = 565,
     label = "OON(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -20102,7 +20102,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20112,7 +20112,7 @@ entry(
 entry(
     index = 566,
     label = "[O-][N+]#CNC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -20137,7 +20137,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20147,7 +20147,7 @@ entry(
 entry(
     index = 567,
     label = "[N-]([NH+]DO)[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
@@ -20169,7 +20169,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20179,7 +20179,7 @@ multiplicity 2
 entry(
     index = 568,
     label = "C[CH]CDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -20206,7 +20206,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20216,7 +20216,7 @@ multiplicity 2
 entry(
     index = 569,
     label = "NOCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {4,S} {8,S} {9,S}
@@ -20243,7 +20243,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20253,7 +20253,7 @@ entry(
 entry(
     index = 570,
     label = "CNDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -20276,7 +20276,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20286,7 +20286,7 @@ entry(
 entry(
     index = 571,
     label = "CNN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -20311,7 +20311,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20321,7 +20321,7 @@ entry(
 entry(
     index = 572,
     label = "[O-][NH+]DCCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -20346,7 +20346,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20356,7 +20356,7 @@ multiplicity 2
 entry(
     index = 573,
     label = "[O-][NH+]DNN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
 2 N u0 p0 c+1 {3,D} {4,S} {5,S}
@@ -20379,7 +20379,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20389,7 +20389,7 @@ entry(
 entry(
     index = 574,
     label = "NDCDCC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {6,S}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -20413,7 +20413,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20423,7 +20423,7 @@ entry(
 entry(
     index = 575,
     label = "[NH]C(DN)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -20447,7 +20447,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20457,7 +20457,7 @@ multiplicity 2
 entry(
     index = 576,
     label = "OOONDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -20481,7 +20481,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20491,7 +20491,7 @@ entry(
 entry(
     index = 577,
     label = "NDNNDO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,D}
 2 N u0 p1 c0 {3,D} {4,S}
@@ -20512,7 +20512,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20522,7 +20522,7 @@ entry(
 entry(
     index = 578,
     label = "CN(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -20549,7 +20549,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20559,7 +20559,7 @@ entry(
 entry(
     index = 579,
     label = "OC[CH]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -20585,7 +20585,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20595,7 +20595,7 @@ multiplicity 2
 entry(
     index = 580,
     label = "CNNDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -20620,7 +20620,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20630,7 +20630,7 @@ entry(
 entry(
     index = 581,
     label = "CONDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -20654,7 +20654,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20664,7 +20664,7 @@ entry(
 entry(
     index = 582,
     label = "CCDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -20691,7 +20691,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20701,7 +20701,7 @@ entry(
 entry(
     index = 583,
     label = "ODNC#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,D}
@@ -20722,7 +20722,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20732,7 +20732,7 @@ multiplicity 2
 entry(
     index = 584,
     label = "[O-][NH2+][N]CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -20760,7 +20760,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20770,7 +20770,7 @@ multiplicity 2
 entry(
     index = 585,
     label = "CND[C]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -20796,7 +20796,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20806,7 +20806,7 @@ multiplicity 2
 entry(
     index = 586,
     label = "NC(DC)CDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,D}
 2  C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -20833,7 +20833,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20843,7 +20843,7 @@ entry(
 entry(
     index = 587,
     label = "NC(D[NH+][O-])N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,D}
 2  N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -20869,7 +20869,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20879,7 +20879,7 @@ entry(
 entry(
     index = 588,
     label = "NOC#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -20902,7 +20902,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20912,7 +20912,7 @@ multiplicity 2
 entry(
     index = 589,
     label = "[O-][NH+]DC(O)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -20937,7 +20937,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20947,7 +20947,7 @@ multiplicity 2
 entry(
     index = 590,
     label = "ONCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -20974,7 +20974,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20984,7 +20984,7 @@ entry(
 entry(
     index = 591,
     label = "NNC#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -21008,7 +21008,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21018,7 +21018,7 @@ multiplicity 2
 entry(
     index = 592,
     label = "CDCDNCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,D} {6,S}
 2 C u0 p0 c0 {4,D} {7,S} {8,S}
@@ -21043,7 +21043,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21053,7 +21053,7 @@ entry(
 entry(
     index = 593,
     label = "CC(DO)C#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,S} {7,D}
@@ -21077,7 +21077,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21087,7 +21087,7 @@ entry(
 entry(
     index = 594,
     label = "[O-][NH2+]C(DO)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
@@ -21113,7 +21113,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21123,7 +21123,7 @@ multiplicity 2
 entry(
     index = 595,
     label = "ONNDCO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {6,S}
 2 C u0 p0 c0 {3,D} {5,S} {7,S}
@@ -21148,7 +21148,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21158,7 +21158,7 @@ entry(
 entry(
     index = 596,
     label = "ON[CH]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
@@ -21183,7 +21183,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21193,7 +21193,7 @@ multiplicity 2
 entry(
     index = 597,
     label = "[CH2]C(N)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -21221,7 +21221,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21231,7 +21231,7 @@ multiplicity 2
 entry(
     index = 598,
     label = "CONN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {3,S} {4,S} {8,S}
@@ -21257,7 +21257,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21267,7 +21267,7 @@ entry(
 entry(
     index = 599,
     label = "[O-][NH2+]NDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {3,D} {7,S} {8,S}
@@ -21291,7 +21291,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21301,7 +21301,7 @@ entry(
 entry(
     index = 600,
     label = "CNDNCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
@@ -21329,7 +21329,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21339,7 +21339,7 @@ entry(
 entry(
     index = 601,
     label = "[O-][NH2+]CC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p0 c+1 {1,S} {6,S} {7,S} {8,S}
@@ -21364,7 +21364,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21374,7 +21374,7 @@ entry(
 entry(
     index = 602,
     label = "[O-][N+]DCCDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -21400,7 +21400,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21410,7 +21410,7 @@ multiplicity 2
 entry(
     index = 603,
     label = "CCN[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -21438,7 +21438,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21448,7 +21448,7 @@ multiplicity 2
 entry(
     index = 604,
     label = "OC(DO)NDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,D}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -21472,7 +21472,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21482,7 +21482,7 @@ entry(
 entry(
     index = 605,
     label = "CC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,T}
@@ -21504,7 +21504,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21514,7 +21514,7 @@ entry(
 entry(
     index = 606,
     label = "[O-][NH2+]C([NH])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -21543,7 +21543,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21553,7 +21553,7 @@ multiplicity 2
 entry(
     index = 607,
     label = "NNNCDC",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -21581,7 +21581,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21591,7 +21591,7 @@ entry(
 entry(
     index = 608,
     label = "CCNNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -21620,7 +21620,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21630,7 +21630,7 @@ entry(
 entry(
     index = 609,
     label = "ONND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -21654,7 +21654,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21664,7 +21664,7 @@ multiplicity 2
 entry(
     index = 610,
     label = "[NH]NCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -21689,7 +21689,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21699,7 +21699,7 @@ multiplicity 2
 entry(
     index = 611,
     label = "ONNCDC",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -21726,7 +21726,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21736,7 +21736,7 @@ entry(
 entry(
     index = 612,
     label = "NNCON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -21764,7 +21764,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21774,7 +21774,7 @@ entry(
 entry(
     index = 613,
     label = "CNDNOO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -21799,7 +21799,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21809,7 +21809,7 @@ entry(
 entry(
     index = 614,
     label = "[O-][NH+]DNN[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {4,S} {7,S}
@@ -21833,7 +21833,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21843,7 +21843,7 @@ multiplicity 2
 entry(
     index = 615,
     label = "[O-][NH+]([NH])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
@@ -21869,7 +21869,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21879,7 +21879,7 @@ multiplicity 2
 entry(
     index = 616,
     label = "OCCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -21904,7 +21904,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21914,7 +21914,7 @@ entry(
 entry(
     index = 617,
     label = "CN(NO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -21942,7 +21942,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21952,7 +21952,7 @@ entry(
 entry(
     index = 618,
     label = "CNCNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -21983,7 +21983,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21993,7 +21993,7 @@ entry(
 entry(
     index = 619,
     label = "CDCDCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -22017,7 +22017,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22027,7 +22027,7 @@ entry(
 entry(
     index = 620,
     label = "NNCCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -22056,7 +22056,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22066,7 +22066,7 @@ entry(
 entry(
     index = 621,
     label = "NDNOC#N",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {4,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -22088,7 +22088,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22098,7 +22098,7 @@ entry(
 entry(
     index = 622,
     label = "NCONDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -22123,7 +22123,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22133,7 +22133,7 @@ entry(
 entry(
     index = 623,
     label = "CCCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -22160,7 +22160,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22170,7 +22170,7 @@ multiplicity 2
 entry(
     index = 624,
     label = "OCONDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -22194,7 +22194,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22204,7 +22204,7 @@ entry(
 entry(
     index = 625,
     label = "[O-][NH2+][N]CDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
@@ -22229,7 +22229,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22239,7 +22239,7 @@ multiplicity 2
 entry(
     index = 626,
     label = "OC(NDO)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {7,S}
@@ -22263,7 +22263,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22273,7 +22273,7 @@ entry(
 entry(
     index = 627,
     label = "[NH]CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -22297,7 +22297,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22307,7 +22307,7 @@ multiplicity 2
 entry(
     index = 628,
     label = "C[N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -22331,7 +22331,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22341,7 +22341,7 @@ multiplicity 2
 entry(
     index = 629,
     label = "CCDCDNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -22369,7 +22369,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22379,7 +22379,7 @@ entry(
 entry(
     index = 630,
     label = "[O-][NH2+][CH]OC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -22407,7 +22407,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22417,7 +22417,7 @@ multiplicity 2
 entry(
     index = 631,
     label = "[O-][NH+]NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -22441,7 +22441,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22451,7 +22451,7 @@ multiplicity 2
 entry(
     index = 632,
     label = "CONNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {3,S} {4,S} {8,S}
@@ -22476,7 +22476,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22486,7 +22486,7 @@ entry(
 entry(
     index = 633,
     label = "ONDCCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {6,S}
 2 C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -22511,7 +22511,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22521,7 +22521,7 @@ entry(
 entry(
     index = 634,
     label = "CNDCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,D} {5,S} {9,S}
@@ -22548,7 +22548,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22558,7 +22558,7 @@ entry(
 entry(
     index = 635,
     label = "OONDNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -22581,7 +22581,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22591,7 +22591,7 @@ entry(
 entry(
     index = 636,
     label = "NNNDCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -22616,7 +22616,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22626,7 +22626,7 @@ entry(
 entry(
     index = 637,
     label = "NDCCDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -22650,7 +22650,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22660,7 +22660,7 @@ entry(
 entry(
     index = 638,
     label = "[CH]DNCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -22683,7 +22683,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22693,7 +22693,7 @@ multiplicity 2
 entry(
     index = 639,
     label = "NONDNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -22717,7 +22717,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22727,7 +22727,7 @@ entry(
 entry(
     index = 640,
     label = "CNC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -22751,7 +22751,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22761,7 +22761,7 @@ entry(
 entry(
     index = 641,
     label = "NONDCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -22785,7 +22785,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22795,7 +22795,7 @@ entry(
 entry(
     index = 642,
     label = "[CH2]NCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -22823,7 +22823,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22833,7 +22833,7 @@ multiplicity 2
 entry(
     index = 643,
     label = "NND[C]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -22857,7 +22857,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22867,7 +22867,7 @@ multiplicity 2
 entry(
     index = 644,
     label = "CNONN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {5,S} {9,S}
@@ -22895,7 +22895,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22905,7 +22905,7 @@ entry(
 entry(
     index = 645,
     label = "OC(DC)NDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -22929,7 +22929,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22939,7 +22939,7 @@ entry(
 entry(
     index = 646,
     label = "OC#CCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -22963,7 +22963,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22973,7 +22973,7 @@ entry(
 entry(
     index = 647,
     label = "NDCDNCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,D} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -22996,7 +22996,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23006,7 +23006,7 @@ entry(
 entry(
     index = 648,
     label = "[O-]C(D[NH2+])[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -23031,7 +23031,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23041,7 +23041,7 @@ multiplicity 2
 entry(
     index = 649,
     label = "NCDNNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -23066,7 +23066,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23076,7 +23076,7 @@ entry(
 entry(
     index = 650,
     label = "NDCC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,D} {7,S}
@@ -23104,7 +23104,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23114,7 +23114,7 @@ entry(
 entry(
     index = 651,
     label = "[O-][N+]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p3 c-1 {3,S}
@@ -23134,7 +23134,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23144,7 +23144,7 @@ multiplicity 2
 entry(
     index = 652,
     label = "[O-][NH2+]COC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  N u0 p0 c+1 {1,S} {7,S} {8,S} {9,S}
@@ -23172,7 +23172,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23182,7 +23182,7 @@ entry(
 entry(
     index = 653,
     label = "[O-][NH+]DCN[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -23208,7 +23208,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23218,7 +23218,7 @@ multiplicity 2
 entry(
     index = 654,
     label = "OCNCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
@@ -23246,7 +23246,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23256,7 +23256,7 @@ entry(
 entry(
     index = 655,
     label = "[O-][NH2+][CH]NDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -23283,7 +23283,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23293,7 +23293,7 @@ multiplicity 2
 entry(
     index = 656,
     label = "OCDCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -23317,7 +23317,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23327,7 +23327,7 @@ entry(
 entry(
     index = 657,
     label = "NNNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -23351,7 +23351,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23361,7 +23361,7 @@ entry(
 entry(
     index = 658,
     label = "[O-][NH2+]N[CH]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -23388,7 +23388,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23398,7 +23398,7 @@ multiplicity 2
 entry(
     index = 659,
     label = "[O-][NH+]DN[N]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -23424,7 +23424,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23434,7 +23434,7 @@ multiplicity 2
 entry(
     index = 660,
     label = "[O-][NH+]D[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
@@ -23456,7 +23456,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23466,7 +23466,7 @@ multiplicity 2
 entry(
     index = 661,
     label = "[CH2]NNDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -23491,7 +23491,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23501,7 +23501,7 @@ multiplicity 2
 entry(
     index = 662,
     label = "OOCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -23524,7 +23524,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23534,7 +23534,7 @@ entry(
 entry(
     index = 663,
     label = "NDCONDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -23558,7 +23558,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23568,7 +23568,7 @@ entry(
 entry(
     index = 664,
     label = "CNCDCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -23598,7 +23598,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23608,7 +23608,7 @@ entry(
 entry(
     index = 665,
     label = "NCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -23631,7 +23631,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23641,7 +23641,7 @@ multiplicity 2
 entry(
     index = 666,
     label = "CCCDNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -23669,7 +23669,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23679,7 +23679,7 @@ entry(
 entry(
     index = 667,
     label = "OCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -23701,7 +23701,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23711,7 +23711,7 @@ multiplicity 2
 entry(
     index = 668,
     label = "[N-]([NH+]DO)[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {5,D} {6,S}
@@ -23735,7 +23735,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23745,7 +23745,7 @@ multiplicity 2
 entry(
     index = 669,
     label = "[O-][NH2+]OON",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {4,S} {8,S} {9,S}
@@ -23770,7 +23770,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23780,7 +23780,7 @@ entry(
 entry(
     index = 670,
     label = "CNCCDO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -23808,7 +23808,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23818,7 +23818,7 @@ entry(
 entry(
     index = 671,
     label = "NCCNDO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -23845,7 +23845,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23855,7 +23855,7 @@ entry(
 entry(
     index = 672,
     label = "NCCNDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -23883,7 +23883,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23893,7 +23893,7 @@ entry(
 entry(
     index = 673,
     label = "CNCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -23922,7 +23922,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23932,7 +23932,7 @@ entry(
 entry(
     index = 674,
     label = "CDCDC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,D}
 2  N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -23959,7 +23959,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23969,7 +23969,7 @@ entry(
 entry(
     index = 675,
     label = "OCCNDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -23996,7 +23996,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24006,7 +24006,7 @@ entry(
 entry(
     index = 676,
     label = "[O-][NH2+]CC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p0 c+1 {1,S} {6,S} {7,S} {8,S}
@@ -24033,7 +24033,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24043,7 +24043,7 @@ entry(
 entry(
     index = 677,
     label = "CCNOC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -24073,7 +24073,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24083,7 +24083,7 @@ entry(
 entry(
     index = 678,
     label = "CCCDNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -24112,7 +24112,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24122,7 +24122,7 @@ entry(
 entry(
     index = 679,
     label = "C(NDN)CDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {7,D} {8,S}
@@ -24147,7 +24147,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24157,7 +24157,7 @@ entry(
 entry(
     index = 680,
     label = "[O-][NH+]DC([NH])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -24184,7 +24184,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24194,7 +24194,7 @@ multiplicity 2
 entry(
     index = 681,
     label = "CC(DN)NDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,D}
@@ -24221,7 +24221,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24231,7 +24231,7 @@ entry(
 entry(
     index = 682,
     label = "[NH]OOO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -24254,7 +24254,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24264,7 +24264,7 @@ multiplicity 2
 entry(
     index = 683,
     label = "[NH]OC#C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -24287,7 +24287,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24297,7 +24297,7 @@ multiplicity 2
 entry(
     index = 684,
     label = "ONOC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -24320,7 +24320,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24330,7 +24330,7 @@ entry(
 entry(
     index = 685,
     label = "ODC[N-][NH+]DO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,S} {5,D} {6,S}
 2 C u0 p0 c0 {3,S} {4,D} {7,S}
@@ -24353,7 +24353,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24363,7 +24363,7 @@ entry(
 entry(
     index = 686,
     label = "NDCONDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -24386,7 +24386,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24396,7 +24396,7 @@ entry(
 entry(
     index = 687,
     label = "[CH2]CDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -24420,7 +24420,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24430,7 +24430,7 @@ multiplicity 2
 entry(
     index = 688,
     label = "ODNNNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,D}
@@ -24452,7 +24452,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24462,7 +24462,7 @@ entry(
 entry(
     index = 689,
     label = "CC(DC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -24489,7 +24489,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24499,7 +24499,7 @@ entry(
 entry(
     index = 690,
     label = "[O-][NH2+][NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
@@ -24522,7 +24522,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24532,7 +24532,7 @@ multiplicity 2
 entry(
     index = 691,
     label = "[CH2]NNDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -24556,7 +24556,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24566,7 +24566,7 @@ multiplicity 2
 entry(
     index = 692,
     label = "ON[CH]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
@@ -24591,7 +24591,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24601,7 +24601,7 @@ multiplicity 2
 entry(
     index = 693,
     label = "NNNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -24624,7 +24624,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24634,7 +24634,7 @@ entry(
 entry(
     index = 694,
     label = "ODNN(N)N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -24659,7 +24659,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24669,7 +24669,7 @@ entry(
 entry(
     index = 695,
     label = "[O][N-][N+](DO)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
@@ -24692,7 +24692,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24702,7 +24702,7 @@ multiplicity 2
 entry(
     index = 696,
     label = "[O-][NH2+][N-][NH+]DO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
 2 N u0 p0 c+1 {3,S} {7,D} {8,S}
@@ -24726,7 +24726,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24736,7 +24736,7 @@ entry(
 entry(
     index = 697,
     label = "NON(N)N",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {5,S}
 2  N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -24763,7 +24763,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24773,7 +24773,7 @@ entry(
 entry(
     index = 698,
     label = "[N-]([N+]DO)OC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -24798,7 +24798,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24808,7 +24808,7 @@ multiplicity 2
 entry(
     index = 699,
     label = "[O-][N+]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,D} {3,S}
@@ -24829,7 +24829,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24839,7 +24839,7 @@ multiplicity 2
 entry(
     index = 700,
     label = "[O-][N+]#CND[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p3 c-1 {3,S}
@@ -24861,7 +24861,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24871,7 +24871,7 @@ multiplicity 2
 entry(
     index = 701,
     label = "NCDNNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -24895,7 +24895,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24905,7 +24905,7 @@ entry(
 entry(
     index = 702,
     label = "NNN(N)N",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {4,S}
 2  N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -24933,7 +24933,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24943,7 +24943,7 @@ entry(
 entry(
     index = 703,
     label = "OC(DN)C#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -24966,7 +24966,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24976,7 +24976,7 @@ entry(
 entry(
     index = 704,
     label = "CNC#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -25001,7 +25001,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25011,7 +25011,7 @@ multiplicity 2
 entry(
     index = 705,
     label = "ODNNDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -25032,7 +25032,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25042,7 +25042,7 @@ entry(
 entry(
     index = 706,
     label = "OC(DC)NDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -25067,7 +25067,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25077,7 +25077,7 @@ entry(
 entry(
     index = 707,
     label = "CNONO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {4,S} {9,S}
@@ -25104,7 +25104,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25114,7 +25114,7 @@ entry(
 entry(
     index = 708,
     label = "N[CH]CDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {5,S}
@@ -25140,7 +25140,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25150,7 +25150,7 @@ multiplicity 2
 entry(
     index = 709,
     label = "NND[C]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
@@ -25175,7 +25175,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25185,7 +25185,7 @@ multiplicity 2
 entry(
     index = 710,
     label = "NONDNN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
 2 N u0 p1 c0 {4,S} {8,S} {9,S}
@@ -25210,7 +25210,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25220,7 +25220,7 @@ entry(
 entry(
     index = 711,
     label = "NDCCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {7,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -25245,7 +25245,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25255,7 +25255,7 @@ entry(
 entry(
     index = 712,
     label = "[CH2]NCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -25282,7 +25282,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25292,7 +25292,7 @@ multiplicity 2
 entry(
     index = 713,
     label = "NONDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -25315,7 +25315,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25325,7 +25325,7 @@ entry(
 entry(
     index = 714,
     label = "ONDCCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -25349,7 +25349,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25359,7 +25359,7 @@ entry(
 entry(
     index = 715,
     label = "NNNDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -25383,7 +25383,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25393,7 +25393,7 @@ entry(
 entry(
     index = 716,
     label = "[O-][NH2+][N]ON",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -25419,7 +25419,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25429,7 +25429,7 @@ multiplicity 2
 entry(
     index = 717,
     label = "CC(O)(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -25457,7 +25457,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25467,7 +25467,7 @@ entry(
 entry(
     index = 718,
     label = "[O-][NH+]NN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -25492,7 +25492,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25502,7 +25502,7 @@ multiplicity 2
 entry(
     index = 719,
     label = "C[N]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -25527,7 +25527,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25537,7 +25537,7 @@ multiplicity 2
 entry(
     index = 720,
     label = "O[CH]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -25560,7 +25560,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25570,7 +25570,7 @@ multiplicity 2
 entry(
     index = 721,
     label = "CONOC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
@@ -25598,7 +25598,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25608,7 +25608,7 @@ entry(
 entry(
     index = 722,
     label = "[O-][NH2+]NCDC",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -25635,7 +25635,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25645,7 +25645,7 @@ entry(
 entry(
     index = 723,
     label = "[O]NCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -25668,7 +25668,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25678,7 +25678,7 @@ multiplicity 2
 entry(
     index = 724,
     label = "OCND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -25703,7 +25703,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25713,7 +25713,7 @@ multiplicity 2
 entry(
     index = 725,
     label = "CC(N)(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -25745,7 +25745,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25755,7 +25755,7 @@ entry(
 entry(
     index = 726,
     label = "CN(O)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -25782,7 +25782,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25792,7 +25792,7 @@ multiplicity 2
 entry(
     index = 727,
     label = "[O-][NH2+][N]CDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -25818,7 +25818,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25828,7 +25828,7 @@ multiplicity 2
 entry(
     index = 728,
     label = "OCONDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -25853,7 +25853,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25863,7 +25863,7 @@ entry(
 entry(
     index = 729,
     label = "CNOCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {4,S} {9,S}
@@ -25890,7 +25890,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25900,7 +25900,7 @@ entry(
 entry(
     index = 730,
     label = "[O-][NH+]DCNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -25927,7 +25927,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25937,7 +25937,7 @@ entry(
 entry(
     index = 731,
     label = "NCDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -25961,7 +25961,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -25971,7 +25971,7 @@ entry(
 entry(
     index = 732,
     label = "[NH]CC#C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -25996,7 +25996,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26006,7 +26006,7 @@ multiplicity 2
 entry(
     index = 733,
     label = "N[C]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -26030,7 +26030,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26040,7 +26040,7 @@ multiplicity 2
 entry(
     index = 734,
     label = "ONCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {4,S} {7,S}
@@ -26065,7 +26065,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26075,7 +26075,7 @@ entry(
 entry(
     index = 735,
     label = "[O]ONDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,D}
@@ -26097,7 +26097,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26107,7 +26107,7 @@ multiplicity 2
 entry(
     index = 736,
     label = "[O-][NH+]DCOC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,D} {4,S} {8,S}
@@ -26133,7 +26133,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26143,7 +26143,7 @@ entry(
 entry(
     index = 737,
     label = "COCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
@@ -26170,7 +26170,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26180,7 +26180,7 @@ entry(
 entry(
     index = 738,
     label = "[O-][N+]#CNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,T}
 2 N u0 p1 c0 {1,S} {5,D}
@@ -26201,7 +26201,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26211,7 +26211,7 @@ entry(
 entry(
     index = 739,
     label = "NNNDNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -26236,7 +26236,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26246,7 +26246,7 @@ entry(
 entry(
     index = 740,
     label = "OCDCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -26270,7 +26270,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26280,7 +26280,7 @@ entry(
 entry(
     index = 741,
     label = "ONNDNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -26304,7 +26304,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26314,7 +26314,7 @@ entry(
 entry(
     index = 742,
     label = "NONCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -26341,7 +26341,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26351,7 +26351,7 @@ entry(
 entry(
     index = 743,
     label = "NN(O)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -26375,7 +26375,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26385,7 +26385,7 @@ entry(
 entry(
     index = 744,
     label = "ON(O)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -26408,7 +26408,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26418,7 +26418,7 @@ entry(
 entry(
     index = 745,
     label = "CNDNNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {3,S} {5,S} {9,S}
@@ -26445,7 +26445,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26455,7 +26455,7 @@ entry(
 entry(
     index = 746,
     label = "NDO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -26474,7 +26474,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26484,7 +26484,7 @@ entry(
 entry(
     index = 747,
     label = "CDNCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,D} {8,S} {9,S}
@@ -26511,7 +26511,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26521,7 +26521,7 @@ entry(
 entry(
     index = 748,
     label = "CC[CH]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -26550,7 +26550,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26560,7 +26560,7 @@ multiplicity 2
 entry(
     index = 749,
     label = "NCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -26586,7 +26586,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26596,7 +26596,7 @@ entry(
 entry(
     index = 750,
     label = "C[N]C#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -26620,7 +26620,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26630,7 +26630,7 @@ multiplicity 2
 entry(
     index = 751,
     label = "[O-][NH2+][N]NN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {4,S} {5,S} {6,S} {7,S}
@@ -26657,7 +26657,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26667,7 +26667,7 @@ multiplicity 2
 entry(
     index = 752,
     label = "[O-][NH+]ON",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {3,S} {4,S} {5,S}
@@ -26691,7 +26691,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26701,7 +26701,7 @@ multiplicity 2
 entry(
     index = 753,
     label = "CCDNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -26727,7 +26727,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26737,7 +26737,7 @@ entry(
 entry(
     index = 754,
     label = "[CH2]CCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -26764,7 +26764,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26774,7 +26774,7 @@ multiplicity 2
 entry(
     index = 755,
     label = "OC(D[NH+][O-])O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 N u0 p0 c+1 {1,D} {5,S} {6,S}
@@ -26798,7 +26798,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26808,7 +26808,7 @@ entry(
 entry(
     index = 756,
     label = "NCDCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {7,S}
 2  C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -26835,7 +26835,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26845,7 +26845,7 @@ entry(
 entry(
     index = 757,
     label = "CNDC(O)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -26873,7 +26873,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26883,7 +26883,7 @@ entry(
 entry(
     index = 758,
     label = "OCNDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -26908,7 +26908,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26918,7 +26918,7 @@ entry(
 entry(
     index = 759,
     label = "CNCDCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -26946,7 +26946,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26956,7 +26956,7 @@ entry(
 entry(
     index = 760,
     label = "NDCDCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -26979,7 +26979,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -26989,7 +26989,7 @@ entry(
 entry(
     index = 761,
     label = "CDNCDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -27014,7 +27014,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27024,7 +27024,7 @@ entry(
 entry(
     index = 762,
     label = "[O-][C]D[NH+]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
@@ -27048,7 +27048,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27058,7 +27058,7 @@ multiplicity 2
 entry(
     index = 763,
     label = "CNC(DC)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -27086,7 +27086,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27096,7 +27096,7 @@ entry(
 entry(
     index = 764,
     label = "[O-][N+]DCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,D} {3,S}
@@ -27117,7 +27117,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27127,7 +27127,7 @@ multiplicity 2
 entry(
     index = 765,
     label = "NCC(DC)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {5,S}
@@ -27155,7 +27155,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27165,7 +27165,7 @@ entry(
 entry(
     index = 766,
     label = "[O-][NH+]DCDCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 N u0 p0 c+1 {3,D} {6,S} {7,S}
@@ -27189,7 +27189,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27199,7 +27199,7 @@ entry(
 entry(
     index = 767,
     label = "NDNC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -27221,7 +27221,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27231,7 +27231,7 @@ entry(
 entry(
     index = 768,
     label = "[CH2]OCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
@@ -27256,7 +27256,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27266,7 +27266,7 @@ multiplicity 2
 entry(
     index = 769,
     label = "[N-]([NH+]DO)O[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {4,S} {5,D} {6,S}
@@ -27291,7 +27291,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27301,7 +27301,7 @@ multiplicity 2
 entry(
     index = 770,
     label = "ODNC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,T}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -27322,7 +27322,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27332,7 +27332,7 @@ entry(
 entry(
     index = 771,
     label = "CCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -27358,7 +27358,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27368,7 +27368,7 @@ entry(
 entry(
     index = 772,
     label = "NNDCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -27392,7 +27392,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27402,7 +27402,7 @@ entry(
 entry(
     index = 773,
     label = "[O-][N+]#CCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -27428,7 +27428,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27438,7 +27438,7 @@ entry(
 entry(
     index = 774,
     label = "NOCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -27462,7 +27462,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27472,7 +27472,7 @@ entry(
 entry(
     index = 775,
     label = "CC(CDN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -27501,7 +27501,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27511,7 +27511,7 @@ entry(
 entry(
     index = 776,
     label = "[O-][N+](N)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,S} {3,S} {4,S}
@@ -27536,7 +27536,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27546,7 +27546,7 @@ multiplicity 2
 entry(
     index = 777,
     label = "[O-][NH+]DCN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -27570,7 +27570,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27580,7 +27580,7 @@ entry(
 entry(
     index = 778,
     label = "[O-][NH+]DCCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
 2  C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -27606,7 +27606,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27616,7 +27616,7 @@ entry(
 entry(
     index = 779,
     label = "[O-][N+](DC)C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p0 c+1 {1,S} {3,D} {7,S}
@@ -27641,7 +27641,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27651,7 +27651,7 @@ entry(
 entry(
     index = 780,
     label = "C(NDO)CDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -27676,7 +27676,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27686,7 +27686,7 @@ entry(
 entry(
     index = 781,
     label = "NC#CC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -27709,7 +27709,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27719,7 +27719,7 @@ entry(
 entry(
     index = 782,
     label = "ONDNNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -27742,7 +27742,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27752,7 +27752,7 @@ entry(
 entry(
     index = 783,
     label = "CNDNCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,D} {5,S} {9,S}
@@ -27779,7 +27779,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27789,7 +27789,7 @@ entry(
 entry(
     index = 784,
     label = "NCNCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
@@ -27818,7 +27818,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27828,7 +27828,7 @@ entry(
 entry(
     index = 785,
     label = "[O-][NH+]DCO[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -27853,7 +27853,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27863,7 +27863,7 @@ multiplicity 2
 entry(
     index = 786,
     label = "CN(NDO)[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -27888,7 +27888,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27898,7 +27898,7 @@ multiplicity 2
 entry(
     index = 787,
     label = "[O]CNDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -27922,7 +27922,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27932,7 +27932,7 @@ multiplicity 2
 entry(
     index = 788,
     label = "CCN(O)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -27960,7 +27960,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -27970,7 +27970,7 @@ entry(
 entry(
     index = 789,
     label = "[O-][N+](DO)N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 N u0 p0 c+1 {1,S} {3,S} {4,D}
@@ -27992,7 +27992,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28002,7 +28002,7 @@ entry(
 entry(
     index = 790,
     label = "[O-][NH+]D[C]CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -28029,7 +28029,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28039,7 +28039,7 @@ multiplicity 2
 entry(
     index = 791,
     label = "[O-][N+](D[CH])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -28064,7 +28064,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28074,7 +28074,7 @@ multiplicity 2
 entry(
     index = 792,
     label = "CDNONDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {6,S} {7,S}
 2 C u0 p0 c0 {4,D} {8,S} {9,S}
@@ -28099,7 +28099,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28109,7 +28109,7 @@ entry(
 entry(
     index = 793,
     label = "NDCNCDN",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -28135,7 +28135,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28145,7 +28145,7 @@ entry(
 entry(
     index = 794,
     label = "[CH2]NDCDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {3,S} {5,S} {6,S}
@@ -28170,7 +28170,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28180,7 +28180,7 @@ multiplicity 2
 entry(
     index = 795,
     label = "[O-][N+]DNCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -28206,7 +28206,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28216,7 +28216,7 @@ multiplicity 2
 entry(
     index = 796,
     label = "N[CH]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -28241,7 +28241,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28251,7 +28251,7 @@ multiplicity 2
 entry(
     index = 797,
     label = "CCNNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -28282,7 +28282,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28292,7 +28292,7 @@ entry(
 entry(
     index = 798,
     label = "[N-]([NH+]DO)NDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {5,D} {6,S}
 2 N u0 p2 c-1 {1,S} {3,S}
@@ -28315,7 +28315,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28325,7 +28325,7 @@ entry(
 entry(
     index = 799,
     label = "ONNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -28348,7 +28348,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28358,7 +28358,7 @@ entry(
 entry(
     index = 800,
     label = "CC[N]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -28386,7 +28386,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28396,7 +28396,7 @@ multiplicity 2
 entry(
     index = 801,
     label = "[NH]ONO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -28420,7 +28420,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28430,7 +28430,7 @@ multiplicity 2
 entry(
     index = 802,
     label = "CC[N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -28457,7 +28457,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28467,7 +28467,7 @@ multiplicity 2
 entry(
     index = 803,
     label = "[NH]ONN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -28492,7 +28492,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28502,7 +28502,7 @@ multiplicity 2
 entry(
     index = 804,
     label = "N[CH]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -28526,7 +28526,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28536,7 +28536,7 @@ multiplicity 2
 entry(
     index = 805,
     label = "ONNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -28558,7 +28558,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28568,7 +28568,7 @@ entry(
 entry(
     index = 806,
     label = "[O-]N[NH+]DO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 N u0 p0 c+1 {1,S} {4,D} {5,S}
@@ -28590,7 +28590,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28600,7 +28600,7 @@ entry(
 entry(
     index = 807,
     label = "CNDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {3,D} {7,S} {8,S}
@@ -28624,7 +28624,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28634,7 +28634,7 @@ entry(
 entry(
     index = 808,
     label = "CCNC#N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -28661,7 +28661,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28671,7 +28671,7 @@ entry(
 entry(
     index = 809,
     label = "NDCNCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -28696,7 +28696,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28706,7 +28706,7 @@ entry(
 entry(
     index = 810,
     label = "ONC(O)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -28734,7 +28734,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28744,7 +28744,7 @@ entry(
 entry(
     index = 811,
     label = "[O-][NH+]D[C]CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -28770,7 +28770,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28780,7 +28780,7 @@ multiplicity 2
 entry(
     index = 812,
     label = "CCN(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -28809,7 +28809,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28819,7 +28819,7 @@ entry(
 entry(
     index = 813,
     label = "[O-][N+](DO)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -28840,7 +28840,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28850,7 +28850,7 @@ entry(
 entry(
     index = 814,
     label = "[O-][NH2+]CNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  N u0 p0 c+1 {1,S} {7,S} {8,S} {9,S}
@@ -28877,7 +28877,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28887,7 +28887,7 @@ entry(
 entry(
     index = 815,
     label = "OCDC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {4,S}
 2  C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -28914,7 +28914,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28924,7 +28924,7 @@ entry(
 entry(
     index = 816,
     label = "OC(DO)C#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -28946,7 +28946,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28956,7 +28956,7 @@ entry(
 entry(
     index = 817,
     label = "[NH]C#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {3,S} {4,S}
@@ -28977,7 +28977,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -28987,7 +28987,7 @@ multiplicity 2
 entry(
     index = 818,
     label = "NCNCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
@@ -29017,7 +29017,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29027,7 +29027,7 @@ entry(
 entry(
     index = 819,
     label = "[O-][NH2+]C#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,T}
@@ -29049,7 +29049,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29059,7 +29059,7 @@ entry(
 entry(
     index = 820,
     label = "N[C]DCDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
@@ -29084,7 +29084,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29094,7 +29094,7 @@ multiplicity 2
 entry(
     index = 821,
     label = "COC(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -29124,7 +29124,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29134,7 +29134,7 @@ entry(
 entry(
     index = 822,
     label = "[NH-][NH+]DCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
@@ -29157,7 +29157,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29167,7 +29167,7 @@ multiplicity 2
 entry(
     index = 823,
     label = "[O-][NH2+]NCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
@@ -29193,7 +29193,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29203,7 +29203,7 @@ multiplicity 2
 entry(
     index = 824,
     label = "ONDNNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -29225,7 +29225,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29235,7 +29235,7 @@ entry(
 entry(
     index = 825,
     label = "[NH-][N+]DCDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -29259,7 +29259,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29269,7 +29269,7 @@ multiplicity 2
 entry(
     index = 826,
     label = "CCN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -29301,7 +29301,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29311,7 +29311,7 @@ entry(
 entry(
     index = 827,
     label = "OCN(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -29339,7 +29339,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29349,7 +29349,7 @@ entry(
 entry(
     index = 828,
     label = "CNC(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -29380,7 +29380,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29390,7 +29390,7 @@ entry(
 entry(
     index = 829,
     label = "[O-][NH+]DCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 N u0 p0 c+1 {1,D} {5,S} {6,S}
@@ -29413,7 +29413,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29423,7 +29423,7 @@ entry(
 entry(
     index = 830,
     label = "CC(CDN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -29451,7 +29451,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29461,7 +29461,7 @@ entry(
 entry(
     index = 831,
     label = "COCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -29489,7 +29489,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29499,7 +29499,7 @@ entry(
 entry(
     index = 832,
     label = "NOCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {3,S} {4,D} {7,S}
@@ -29522,7 +29522,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29532,7 +29532,7 @@ entry(
 entry(
     index = 833,
     label = "OCD[C]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -29556,7 +29556,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29566,7 +29566,7 @@ multiplicity 2
 entry(
     index = 834,
     label = "[O-][NH2+]CNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  N u0 p0 c+1 {1,S} {7,S} {8,S} {9,S}
@@ -29595,7 +29595,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29605,7 +29605,7 @@ entry(
 entry(
     index = 835,
     label = "[O-][N+]#CC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -29631,7 +29631,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29641,7 +29641,7 @@ multiplicity 2
 entry(
     index = 836,
     label = "NCC(DC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,D}
@@ -29670,7 +29670,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29680,7 +29680,7 @@ entry(
 entry(
     index = 837,
     label = "[O-][NH+]DCDCN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -29705,7 +29705,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29715,7 +29715,7 @@ entry(
 entry(
     index = 838,
     label = "OOOC#N",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -29737,7 +29737,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29747,7 +29747,7 @@ entry(
 entry(
     index = 839,
     label = "CC(DNN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,D} {5,S}
@@ -29774,7 +29774,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29784,7 +29784,7 @@ entry(
 entry(
     index = 840,
     label = "CC(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -29813,7 +29813,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29823,7 +29823,7 @@ entry(
 entry(
     index = 841,
     label = "[O-][N+]DCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,D}
@@ -29845,7 +29845,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29855,7 +29855,7 @@ multiplicity 2
 entry(
     index = 842,
     label = "CNC(DC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {4,S} {5,D}
@@ -29884,7 +29884,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29894,7 +29894,7 @@ entry(
 entry(
     index = 843,
     label = "CN(O)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -29920,7 +29920,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29930,7 +29930,7 @@ multiplicity 2
 entry(
     index = 844,
     label = "CNOON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {4,S} {9,S}
@@ -29957,7 +29957,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -29967,7 +29967,7 @@ entry(
 entry(
     index = 845,
     label = "OCNDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -29991,7 +29991,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30001,7 +30001,7 @@ entry(
 entry(
     index = 846,
     label = "NCC#CN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {8,S} {9,S}
@@ -30028,7 +30028,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30038,7 +30038,7 @@ entry(
 entry(
     index = 847,
     label = "NC(DN)CDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,D}
 2  C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -30065,7 +30065,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30075,7 +30075,7 @@ entry(
 entry(
     index = 848,
     label = "[O-][NH2+][CH]NC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {4,S} {5,S} {6,S} {7,S}
@@ -30104,7 +30104,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30114,7 +30114,7 @@ multiplicity 2
 entry(
     index = 849,
     label = "NNDCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -30137,7 +30137,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30147,7 +30147,7 @@ multiplicity 2
 entry(
     index = 850,
     label = "OOCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -30171,7 +30171,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30181,7 +30181,7 @@ entry(
 entry(
     index = 851,
     label = "CCDNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -30206,7 +30206,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30216,7 +30216,7 @@ entry(
 entry(
     index = 852,
     label = "[O-][NH2+][N]NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -30242,7 +30242,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30252,7 +30252,7 @@ multiplicity 2
 entry(
     index = 853,
     label = "NOCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -30277,7 +30277,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30287,7 +30287,7 @@ entry(
 entry(
     index = 854,
     label = "CC#CCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
@@ -30315,7 +30315,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30325,7 +30325,7 @@ entry(
 entry(
     index = 855,
     label = "CD[C]CDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
@@ -30350,7 +30350,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30360,7 +30360,7 @@ multiplicity 2
 entry(
     index = 856,
     label = "[O-][N+]#CC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -30383,7 +30383,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30393,7 +30393,7 @@ entry(
 entry(
     index = 857,
     label = "NCCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -30418,7 +30418,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30428,7 +30428,7 @@ entry(
 entry(
     index = 858,
     label = "ONDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -30450,7 +30450,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30460,7 +30460,7 @@ entry(
 entry(
     index = 859,
     label = "OCNCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -30487,7 +30487,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30497,7 +30497,7 @@ entry(
 entry(
     index = 860,
     label = "NCDCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {7,S}
 2  C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -30524,7 +30524,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30534,7 +30534,7 @@ entry(
 entry(
     index = 861,
     label = "NDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -30554,7 +30554,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30564,7 +30564,7 @@ entry(
 entry(
     index = 862,
     label = "CNNNDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -30591,7 +30591,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30601,7 +30601,7 @@ entry(
 entry(
     index = 863,
     label = "NCNCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -30629,7 +30629,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30639,7 +30639,7 @@ entry(
 entry(
     index = 864,
     label = "CNC(DO)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -30667,7 +30667,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30677,7 +30677,7 @@ entry(
 entry(
     index = 865,
     label = "NN(O)N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -30702,7 +30702,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30712,7 +30712,7 @@ entry(
 entry(
     index = 866,
     label = "CC([NH])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -30741,7 +30741,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30751,7 +30751,7 @@ multiplicity 2
 entry(
     index = 867,
     label = "[O-][NH2+]ONDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {4,D} {8,S} {9,S}
@@ -30776,7 +30776,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30786,7 +30786,7 @@ entry(
 entry(
     index = 868,
     label = "[O-][N+]#CNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -30808,7 +30808,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30818,7 +30818,7 @@ entry(
 entry(
     index = 869,
     label = "CNCOC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -30848,7 +30848,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30858,7 +30858,7 @@ entry(
 entry(
     index = 870,
     label = "C(C#N)CDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -30882,7 +30882,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30892,7 +30892,7 @@ entry(
 entry(
     index = 871,
     label = "[O-][NH2+][C]DCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {4,S} {5,S} {6,S} {7,S}
@@ -30919,7 +30919,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30929,7 +30929,7 @@ multiplicity 2
 entry(
     index = 872,
     label = "NNCNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -30958,7 +30958,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -30968,7 +30968,7 @@ entry(
 entry(
     index = 873,
     label = "[O-][NH+](O)N",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -30992,7 +30992,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31002,7 +31002,7 @@ entry(
 entry(
     index = 874,
     label = "NDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {4,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -31022,7 +31022,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31032,7 +31032,7 @@ entry(
 entry(
     index = 875,
     label = "[NH]ONDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -31054,7 +31054,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31064,7 +31064,7 @@ multiplicity 2
 entry(
     index = 876,
     label = "ONCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -31088,7 +31088,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31098,7 +31098,7 @@ multiplicity 2
 entry(
     index = 877,
     label = "COON",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {4,S} {8,S} {9,S}
@@ -31123,7 +31123,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31133,7 +31133,7 @@ entry(
 entry(
     index = 878,
     label = "NDCOC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -31157,7 +31157,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31167,7 +31167,7 @@ entry(
 entry(
     index = 879,
     label = "[O-][NH+]DCCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -31195,7 +31195,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31205,7 +31205,7 @@ entry(
 entry(
     index = 880,
     label = "OOCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -31228,7 +31228,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31238,7 +31238,7 @@ multiplicity 2
 entry(
     index = 881,
     label = "ONDCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -31261,7 +31261,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31271,7 +31271,7 @@ entry(
 entry(
     index = 882,
     label = "NONOO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {6,S}
 2 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -31296,7 +31296,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31306,7 +31306,7 @@ entry(
 entry(
     index = 883,
     label = "CNOCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {9,S} {10,S}
 2  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
@@ -31334,7 +31334,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31344,7 +31344,7 @@ entry(
 entry(
     index = 884,
     label = "[CH2]NC#C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -31369,7 +31369,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31379,7 +31379,7 @@ multiplicity 2
 entry(
     index = 885,
     label = "N#CC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,T}
 2 N u0 p1 c0 {4,T}
@@ -31399,7 +31399,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31409,7 +31409,7 @@ entry(
 entry(
     index = 886,
     label = "NNC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -31433,7 +31433,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31443,7 +31443,7 @@ entry(
 entry(
     index = 887,
     label = "ODCDNC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -31465,7 +31465,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31475,7 +31475,7 @@ entry(
 entry(
     index = 888,
     label = "NNCDCDC",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,D} {7,S}
@@ -31502,7 +31502,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31512,7 +31512,7 @@ entry(
 entry(
     index = 889,
     label = "CDCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -31535,7 +31535,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31545,7 +31545,7 @@ entry(
 entry(
     index = 890,
     label = "[CH2]NNO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -31571,7 +31571,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31581,7 +31581,7 @@ multiplicity 2
 entry(
     index = 891,
     label = "NCDNC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -31606,7 +31606,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31616,7 +31616,7 @@ entry(
 entry(
     index = 892,
     label = "[O-][NH+](C)C",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -31643,7 +31643,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31653,7 +31653,7 @@ entry(
 entry(
     index = 893,
     label = "NCO[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -31678,7 +31678,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31688,7 +31688,7 @@ multiplicity 2
 entry(
     index = 894,
     label = "[O-][NH+]CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -31714,7 +31714,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31724,7 +31724,7 @@ multiplicity 2
 entry(
     index = 895,
     label = "CC#CC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -31748,7 +31748,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31758,7 +31758,7 @@ entry(
 entry(
     index = 896,
     label = "[O-][NH+]DC[CH]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -31784,7 +31784,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31794,7 +31794,7 @@ multiplicity 2
 entry(
     index = 897,
     label = "ND[C]CDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -31817,7 +31817,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31827,7 +31827,7 @@ multiplicity 2
 entry(
     index = 898,
     label = "NDCCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -31851,7 +31851,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31861,7 +31861,7 @@ entry(
 entry(
     index = 899,
     label = "CN(CDN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -31889,7 +31889,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31899,7 +31899,7 @@ entry(
 entry(
     index = 900,
     label = "[O-][NH+]DC[N]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -31925,7 +31925,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31935,7 +31935,7 @@ multiplicity 2
 entry(
     index = 901,
     label = "CNNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -31961,7 +31961,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -31971,7 +31971,7 @@ entry(
 entry(
     index = 902,
     label = "NCC[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -31998,7 +31998,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32008,7 +32008,7 @@ multiplicity 2
 entry(
     index = 903,
     label = "CNDCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {3,D} {4,S} {8,S}
@@ -32033,7 +32033,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32043,7 +32043,7 @@ entry(
 entry(
     index = 904,
     label = "CO[N]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -32070,7 +32070,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32080,7 +32080,7 @@ multiplicity 2
 entry(
     index = 905,
     label = "CDCDCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -32104,7 +32104,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32114,7 +32114,7 @@ entry(
 entry(
     index = 906,
     label = "CC(D[NH+][O-])C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -32142,7 +32142,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32152,7 +32152,7 @@ entry(
 entry(
     index = 907,
     label = "[O-][NH2+]NN[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -32179,7 +32179,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32189,7 +32189,7 @@ multiplicity 2
 entry(
     index = 908,
     label = "[O-][N+]#COC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -32213,7 +32213,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32223,7 +32223,7 @@ entry(
 entry(
     index = 909,
     label = "NNC(DC)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
 2  N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -32250,7 +32250,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32260,7 +32260,7 @@ entry(
 entry(
     index = 910,
     label = "CON",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -32284,7 +32284,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32294,7 +32294,7 @@ entry(
 entry(
     index = 911,
     label = "[O-][NH2+]NC",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -32320,7 +32320,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32330,7 +32330,7 @@ entry(
 entry(
     index = 912,
     label = "ODCN(O)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -32354,7 +32354,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32364,7 +32364,7 @@ entry(
 entry(
     index = 913,
     label = "[NH-][NH+]D[C]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {3,S} {5,S}
@@ -32388,7 +32388,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32398,7 +32398,7 @@ multiplicity 2
 entry(
     index = 914,
     label = "[N-]([NH+]DO)CD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
@@ -32423,7 +32423,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32433,7 +32433,7 @@ multiplicity 2
 entry(
     index = 915,
     label = "[O-][NH2+]CD[C]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -32460,7 +32460,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32470,7 +32470,7 @@ multiplicity 2
 entry(
     index = 916,
     label = "OO[N]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -32493,7 +32493,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32503,7 +32503,7 @@ multiplicity 2
 entry(
     index = 917,
     label = "[O-][NH+](N)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
@@ -32529,7 +32529,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32539,7 +32539,7 @@ multiplicity 2
 entry(
     index = 918,
     label = "CDCNCDN",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -32566,7 +32566,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32576,7 +32576,7 @@ entry(
 entry(
     index = 919,
     label = "C[C](N)C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -32605,7 +32605,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32615,7 +32615,7 @@ multiplicity 2
 entry(
     index = 920,
     label = "NDCDCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,D}
@@ -32637,7 +32637,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32647,7 +32647,7 @@ multiplicity 2
 entry(
     index = 921,
     label = "CCCDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -32677,7 +32677,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32687,7 +32687,7 @@ entry(
 entry(
     index = 922,
     label = "NCN(O)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {5,S}
@@ -32714,7 +32714,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32724,7 +32724,7 @@ entry(
 entry(
     index = 923,
     label = "NCNOO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -32751,7 +32751,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32761,7 +32761,7 @@ entry(
 entry(
     index = 924,
     label = "[CH]DCDCNDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -32785,7 +32785,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32795,7 +32795,7 @@ multiplicity 2
 entry(
     index = 925,
     label = "CN(C#C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -32823,7 +32823,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32833,7 +32833,7 @@ entry(
 entry(
     index = 926,
     label = "[O-][NH+]DCDCDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,D} {5,S} {6,S}
 2 C u0 p0 c0 {4,D} {7,S} {8,S}
@@ -32857,7 +32857,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32867,7 +32867,7 @@ entry(
 entry(
     index = 927,
     label = "[O-][NH+]D[C]ON",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -32892,7 +32892,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32902,7 +32902,7 @@ multiplicity 2
 entry(
     index = 928,
     label = "[NH]CNDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -32926,7 +32926,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32936,7 +32936,7 @@ multiplicity 2
 entry(
     index = 929,
     label = "ONCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {5,S} {8,S}
@@ -32963,7 +32963,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -32973,7 +32973,7 @@ entry(
 entry(
     index = 930,
     label = "[NH]CNDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -32998,7 +32998,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33008,7 +33008,7 @@ multiplicity 2
 entry(
     index = 931,
     label = "NNCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -33036,7 +33036,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33046,7 +33046,7 @@ entry(
 entry(
     index = 932,
     label = "CC(DC)NDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -33073,7 +33073,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33083,7 +33083,7 @@ entry(
 entry(
     index = 933,
     label = "NCNON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {5,S} {8,S}
@@ -33111,7 +33111,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33121,7 +33121,7 @@ entry(
 entry(
     index = 934,
     label = "NCN(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {5,S}
@@ -33149,7 +33149,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33159,7 +33159,7 @@ entry(
 entry(
     index = 935,
     label = "CNCDNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
@@ -33188,7 +33188,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33198,7 +33198,7 @@ entry(
 entry(
     index = 936,
     label = "CN([NH])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -33226,7 +33226,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33236,7 +33236,7 @@ multiplicity 2
 entry(
     index = 937,
     label = "[O-][NH2+]CD[C]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -33262,7 +33262,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33272,7 +33272,7 @@ multiplicity 2
 entry(
     index = 938,
     label = "[O-][N+]#CND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,D}
@@ -33295,7 +33295,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33305,7 +33305,7 @@ multiplicity 2
 entry(
     index = 939,
     label = "[O-][N+](DO)[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {4,S}
@@ -33326,7 +33326,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33336,7 +33336,7 @@ multiplicity 2
 entry(
     index = 940,
     label = "[O-][N+]DNNDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -33360,7 +33360,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33370,7 +33370,7 @@ multiplicity 2
 entry(
     index = 941,
     label = "ON[C]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -33395,7 +33395,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33405,7 +33405,7 @@ multiplicity 2
 entry(
     index = 942,
     label = "CC(N)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -33433,7 +33433,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33443,7 +33443,7 @@ multiplicity 2
 entry(
     index = 943,
     label = "NNC(DC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,D}
 2  N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -33471,7 +33471,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33481,7 +33481,7 @@ entry(
 entry(
     index = 944,
     label = "NO[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -33504,7 +33504,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33514,7 +33514,7 @@ multiplicity 2
 entry(
     index = 945,
     label = "CC(O)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -33541,7 +33541,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33551,7 +33551,7 @@ multiplicity 2
 entry(
     index = 946,
     label = "ODCN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -33579,7 +33579,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33589,7 +33589,7 @@ entry(
 entry(
     index = 947,
     label = "CDCDCNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {6,S}
 2 C u0 p0 c0 {3,D} {7,S} {8,S}
@@ -33614,7 +33614,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33624,7 +33624,7 @@ entry(
 entry(
     index = 948,
     label = "[O-][NH2+]NC[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -33651,7 +33651,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33661,7 +33661,7 @@ multiplicity 2
 entry(
     index = 949,
     label = "[O-][NH+]DC[N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -33686,7 +33686,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33696,7 +33696,7 @@ multiplicity 2
 entry(
     index = 950,
     label = "OCNNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -33723,7 +33723,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33733,7 +33733,7 @@ entry(
 entry(
     index = 951,
     label = "[O-]CD[NH+]CN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  N u0 p0 c+1 {1,S} {4,D} {7,S}
@@ -33760,7 +33760,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33770,7 +33770,7 @@ entry(
 entry(
     index = 952,
     label = "CN(CDN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -33797,7 +33797,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33807,7 +33807,7 @@ entry(
 entry(
     index = 953,
     label = "NDCCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -33830,7 +33830,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33840,7 +33840,7 @@ entry(
 entry(
     index = 954,
     label = "ONC(DN)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -33865,7 +33865,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33875,7 +33875,7 @@ entry(
 entry(
     index = 955,
     label = "[O-][NH+]DC[CH]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {5,S}
@@ -33902,7 +33902,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33912,7 +33912,7 @@ multiplicity 2
 entry(
     index = 956,
     label = "NCN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -33943,7 +33943,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33953,7 +33953,7 @@ entry(
 entry(
     index = 957,
     label = "NNC(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -33983,7 +33983,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -33993,7 +33993,7 @@ entry(
 entry(
     index = 958,
     label = "[N-]D[N+]DO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 N u0 p0 c+1 {1,D} {3,D}
@@ -34012,7 +34012,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34022,7 +34022,7 @@ entry(
 entry(
     index = 959,
     label = "NOC(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -34051,7 +34051,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34061,7 +34061,7 @@ entry(
 entry(
     index = 960,
     label = "OC(DN)NDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,D}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -34086,7 +34086,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34096,7 +34096,7 @@ entry(
 entry(
     index = 961,
     label = "CC(NN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -34125,7 +34125,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34135,7 +34135,7 @@ entry(
 entry(
     index = 962,
     label = "CCO[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -34162,7 +34162,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34172,7 +34172,7 @@ multiplicity 2
 entry(
     index = 963,
     label = "[O-][NH+]CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -34197,7 +34197,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34207,7 +34207,7 @@ multiplicity 2
 entry(
     index = 964,
     label = "[O-][NH2+]NO[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
@@ -34232,7 +34232,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34242,7 +34242,7 @@ multiplicity 2
 entry(
     index = 965,
     label = "[CH2]NNN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -34269,7 +34269,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34279,7 +34279,7 @@ multiplicity 2
 entry(
     index = 966,
     label = "NONDCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {5,S} {6,S}
 2 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -34304,7 +34304,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34314,7 +34314,7 @@ entry(
 entry(
     index = 967,
     label = "ODCDC(N)N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -34339,7 +34339,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34349,7 +34349,7 @@ entry(
 entry(
     index = 968,
     label = "NCDCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -34373,7 +34373,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34383,7 +34383,7 @@ multiplicity 2
 entry(
     index = 969,
     label = "NC(CDN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,D} {7,S}
@@ -34410,7 +34410,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34420,7 +34420,7 @@ entry(
 entry(
     index = 970,
     label = "OONDCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {6,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -34444,7 +34444,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34454,7 +34454,7 @@ entry(
 entry(
     index = 971,
     label = "[N]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,D}
@@ -34473,7 +34473,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34483,7 +34483,7 @@ multiplicity 2
 entry(
     index = 972,
     label = "[NH-][N+]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,S} {3,D}
@@ -34505,7 +34505,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34515,7 +34515,7 @@ multiplicity 2
 entry(
     index = 973,
     label = "OND[C]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,D} {3,S}
@@ -34538,7 +34538,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34548,7 +34548,7 @@ multiplicity 2
 entry(
     index = 974,
     label = "OD[C][N-][NH+]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,D} {5,S}
@@ -34571,7 +34571,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34581,7 +34581,7 @@ multiplicity 2
 entry(
     index = 975,
     label = "NONCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {6,S}
 2  N u0 p1 c0 {1,S} {5,S} {7,S}
@@ -34608,7 +34608,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34618,7 +34618,7 @@ entry(
 entry(
     index = 976,
     label = "CNOCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -34647,7 +34647,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34657,7 +34657,7 @@ entry(
 entry(
     index = 977,
     label = "COC(DN)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -34685,7 +34685,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34695,7 +34695,7 @@ entry(
 entry(
     index = 978,
     label = "CCC(DC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -34725,7 +34725,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34735,7 +34735,7 @@ entry(
 entry(
     index = 979,
     label = "CDNND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -34759,7 +34759,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34769,7 +34769,7 @@ multiplicity 2
 entry(
     index = 980,
     label = "CDN[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -34792,7 +34792,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34802,7 +34802,7 @@ multiplicity 2
 entry(
     index = 981,
     label = "ONDCDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -34824,7 +34824,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34834,7 +34834,7 @@ entry(
 entry(
     index = 982,
     label = "[O-][NH2+]NDNN",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {4,S} {8,S} {9,S}
@@ -34859,7 +34859,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34869,7 +34869,7 @@ entry(
 entry(
     index = 983,
     label = "ONONDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {4,D} {7,S} {8,S}
@@ -34894,7 +34894,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34904,7 +34904,7 @@ entry(
 entry(
     index = 984,
     label = "[NH]ONDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -34927,7 +34927,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34937,7 +34937,7 @@ multiplicity 2
 entry(
     index = 985,
     label = "[O-][NH+]DC(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -34964,7 +34964,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -34974,7 +34974,7 @@ entry(
 entry(
     index = 986,
     label = "CC(DN)C#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -34999,7 +34999,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35009,7 +35009,7 @@ entry(
 entry(
     index = 987,
     label = "NDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -35030,7 +35030,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35040,7 +35040,7 @@ entry(
 entry(
     index = 988,
     label = "[O-][NH+](O)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -35063,7 +35063,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35073,7 +35073,7 @@ entry(
 entry(
     index = 989,
     label = "NNCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -35101,7 +35101,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35111,7 +35111,7 @@ entry(
 entry(
     index = 990,
     label = "C(C#N)CDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -35136,7 +35136,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35146,7 +35146,7 @@ entry(
 entry(
     index = 991,
     label = "[O-][NH2+][C]DCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -35172,7 +35172,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35182,7 +35182,7 @@ multiplicity 2
 entry(
     index = 992,
     label = "[NH]NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -35205,7 +35205,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35215,7 +35215,7 @@ multiplicity 2
 entry(
     index = 993,
     label = "[O-][NH+]D[C]NDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {5,S} {6,S}
@@ -35239,7 +35239,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35249,7 +35249,7 @@ multiplicity 2
 entry(
     index = 994,
     label = "NC[CH]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -35276,7 +35276,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35286,7 +35286,7 @@ multiplicity 2
 entry(
     index = 995,
     label = "NCCC#C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -35314,7 +35314,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35324,7 +35324,7 @@ entry(
 entry(
     index = 996,
     label = "NOC#CN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
 2 N u0 p1 c0 {4,S} {8,S} {9,S}
@@ -35349,7 +35349,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35359,7 +35359,7 @@ entry(
 entry(
     index = 997,
     label = "[O-][N+]#CC[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -35383,7 +35383,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35393,7 +35393,7 @@ multiplicity 2
 entry(
     index = 998,
     label = "C[C]DCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -35418,7 +35418,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35428,7 +35428,7 @@ multiplicity 2
 entry(
     index = 999,
     label = "CCDNON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,D} {9,S}
@@ -35455,7 +35455,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35465,7 +35465,7 @@ entry(
 entry(
     index = 1000,
     label = "NDNCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -35489,7 +35489,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35499,7 +35499,7 @@ entry(
 entry(
     index = 1001,
     label = "NCCC#N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -35526,7 +35526,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35536,7 +35536,7 @@ entry(
 entry(
     index = 1002,
     label = "NCC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -35564,7 +35564,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35574,7 +35574,7 @@ multiplicity 2
 entry(
     index = 1003,
     label = "CCC(DO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -35602,7 +35602,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35612,7 +35612,7 @@ entry(
 entry(
     index = 1004,
     label = "CNCCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -35643,7 +35643,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35653,7 +35653,7 @@ entry(
 entry(
     index = 1005,
     label = "CCOCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -35681,7 +35681,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35691,7 +35691,7 @@ entry(
 entry(
     index = 1006,
     label = "NNONDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -35716,7 +35716,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35726,7 +35726,7 @@ entry(
 entry(
     index = 1007,
     label = "ONONDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -35750,7 +35750,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35760,7 +35760,7 @@ entry(
 entry(
     index = 1008,
     label = "[NH]ONDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -35784,7 +35784,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35794,7 +35794,7 @@ multiplicity 2
 entry(
     index = 1009,
     label = "OONCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -35819,7 +35819,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35829,7 +35829,7 @@ entry(
 entry(
     index = 1010,
     label = "ONDCDNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -35852,7 +35852,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35862,7 +35862,7 @@ entry(
 entry(
     index = 1011,
     label = "N[N]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -35886,7 +35886,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35896,7 +35896,7 @@ multiplicity 2
 entry(
     index = 1012,
     label = "COC(DN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {4,S} {5,D}
@@ -35923,7 +35923,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35933,7 +35933,7 @@ entry(
 entry(
     index = 1013,
     label = "NNCDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -35958,7 +35958,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -35968,7 +35968,7 @@ entry(
 entry(
     index = 1014,
     label = "[NH-][N+]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -35991,7 +35991,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36001,7 +36001,7 @@ multiplicity 2
 entry(
     index = 1015,
     label = "NOCDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -36025,7 +36025,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36035,7 +36035,7 @@ entry(
 entry(
     index = 1016,
     label = "NDCNDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -36059,7 +36059,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36069,7 +36069,7 @@ entry(
 entry(
     index = 1017,
     label = "ODNCDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,D}
@@ -36091,7 +36091,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36101,7 +36101,7 @@ entry(
 entry(
     index = 1018,
     label = "CCDCDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,D} {9,S}
@@ -36129,7 +36129,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36139,7 +36139,7 @@ entry(
 entry(
     index = 1019,
     label = "OC(DC)C#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -36163,7 +36163,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36173,7 +36173,7 @@ entry(
 entry(
     index = 1020,
     label = "[O-][NH+]DC[CH]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -36201,7 +36201,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36211,7 +36211,7 @@ multiplicity 2
 entry(
     index = 1021,
     label = "NNC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  N u0 p1 c0 {1,S} {5,S} {7,S}
@@ -36240,7 +36240,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36250,7 +36250,7 @@ entry(
 entry(
     index = 1022,
     label = "[O-][NH2+][N][NH2+][O-]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {4,S} {6,S} {7,S}
@@ -36276,7 +36276,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36286,7 +36286,7 @@ multiplicity 2
 entry(
     index = 1023,
     label = "NNDNCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
 2 C u0 p0 c0 {4,S} {5,D} {8,S}
@@ -36310,7 +36310,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36320,7 +36320,7 @@ entry(
 entry(
     index = 1024,
     label = "[O-][N+]#CCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -36343,7 +36343,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36353,7 +36353,7 @@ multiplicity 2
 entry(
     index = 1025,
     label = "NOC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -36381,7 +36381,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36391,7 +36391,7 @@ entry(
 entry(
     index = 1026,
     label = "[O-][NH+]DNC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -36418,7 +36418,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36428,7 +36428,7 @@ multiplicity 2
 entry(
     index = 1027,
     label = "CO[N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -36453,7 +36453,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36463,7 +36463,7 @@ multiplicity 2
 entry(
     index = 1028,
     label = "CC(N)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -36492,7 +36492,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36502,7 +36502,7 @@ multiplicity 2
 entry(
     index = 1029,
     label = "[O-][NH2+][CH][NH2+][O-]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {3,S} {4,S} {6,S} {7,S}
@@ -36529,7 +36529,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36539,7 +36539,7 @@ multiplicity 2
 entry(
     index = 1030,
     label = "NNDC(O)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -36564,7 +36564,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36574,7 +36574,7 @@ entry(
 entry(
     index = 1031,
     label = "CNNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -36598,7 +36598,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36608,7 +36608,7 @@ entry(
 entry(
     index = 1032,
     label = "[O-][N+]#COO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -36630,7 +36630,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36640,7 +36640,7 @@ entry(
 entry(
     index = 1033,
     label = "CONC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {3,S} {4,S} {8,S}
@@ -36665,7 +36665,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36675,7 +36675,7 @@ entry(
 entry(
     index = 1034,
     label = "NNNN",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {5,S}
 2  N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -36701,7 +36701,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36711,7 +36711,7 @@ entry(
 entry(
     index = 1035,
     label = "OO[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -36734,7 +36734,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36744,7 +36744,7 @@ multiplicity 2
 entry(
     index = 1036,
     label = "[O-][N+]DNNDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p3 c-1 {4,S}
@@ -36767,7 +36767,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36777,7 +36777,7 @@ multiplicity 2
 entry(
     index = 1037,
     label = "ON[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -36801,7 +36801,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36811,7 +36811,7 @@ multiplicity 2
 entry(
     index = 1038,
     label = "NN([NH2+][O-])N",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -36838,7 +36838,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36848,7 +36848,7 @@ entry(
 entry(
     index = 1039,
     label = "[O-][NH2+]NO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -36872,7 +36872,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36882,7 +36882,7 @@ entry(
 entry(
     index = 1040,
     label = "[O-][NH2+]OCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -36908,7 +36908,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36918,7 +36918,7 @@ multiplicity 2
 entry(
     index = 1041,
     label = "NC(DCDO)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -36942,7 +36942,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36952,7 +36952,7 @@ entry(
 entry(
     index = 1042,
     label = "ODCNNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -36975,7 +36975,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36985,7 +36985,7 @@ entry(
 entry(
     index = 1043,
     label = "CC([O])N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -37012,7 +37012,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37022,7 +37022,7 @@ multiplicity 2
 entry(
     index = 1044,
     label = "NDNONDO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {4,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -37044,7 +37044,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37054,7 +37054,7 @@ entry(
 entry(
     index = 1045,
     label = "NCOC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -37079,7 +37079,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37089,7 +37089,7 @@ entry(
 entry(
     index = 1046,
     label = "[O-][N+]#CO[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {5,S}
@@ -37111,7 +37111,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37121,7 +37121,7 @@ multiplicity 2
 entry(
     index = 1047,
     label = "OCOC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -37145,7 +37145,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37155,7 +37155,7 @@ entry(
 entry(
     index = 1048,
     label = "CDNCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,D} {5,S} {6,S}
@@ -37179,7 +37179,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37189,7 +37189,7 @@ multiplicity 2
 entry(
     index = 1049,
     label = "CN(N)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -37216,7 +37216,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37226,7 +37226,7 @@ multiplicity 2
 entry(
     index = 1050,
     label = "CNCDNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -37254,7 +37254,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37264,7 +37264,7 @@ entry(
 entry(
     index = 1051,
     label = "[NH]CNDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -37290,7 +37290,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37300,7 +37300,7 @@ multiplicity 2
 entry(
     index = 1052,
     label = "[O-][NH+]DCND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -37325,7 +37325,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37335,7 +37335,7 @@ multiplicity 2
 entry(
     index = 1053,
     label = "CCCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -37365,7 +37365,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37375,7 +37375,7 @@ entry(
 entry(
     index = 1054,
     label = "[O-][NH+]DCDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,D} {4,S} {5,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -37397,7 +37397,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37407,7 +37407,7 @@ entry(
 entry(
     index = 1055,
     label = "NNCNDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -37434,7 +37434,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37444,7 +37444,7 @@ entry(
 entry(
     index = 1056,
     label = "CNCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -37471,7 +37471,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37481,7 +37481,7 @@ multiplicity 2
 entry(
     index = 1057,
     label = "CN(C#C)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -37508,7 +37508,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37518,7 +37518,7 @@ entry(
 entry(
     index = 1058,
     label = "[O-][NH+]DCDCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,D} {5,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -37541,7 +37541,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37551,7 +37551,7 @@ entry(
 entry(
     index = 1059,
     label = "[O-][NH+]D[C]OC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -37577,7 +37577,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37587,7 +37587,7 @@ multiplicity 2
 entry(
     index = 1060,
     label = "ONCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {4,S} {7,S}
@@ -37612,7 +37612,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37622,7 +37622,7 @@ entry(
 entry(
     index = 1061,
     label = "CNCDNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -37649,7 +37649,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37659,7 +37659,7 @@ entry(
 entry(
     index = 1062,
     label = "NND[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -37681,7 +37681,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37691,7 +37691,7 @@ multiplicity 2
 entry(
     index = 1063,
     label = "NNC(DO)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {4,S} {6,D}
@@ -37716,7 +37716,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37726,7 +37726,7 @@ entry(
 entry(
     index = 1064,
     label = "C[C](N)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -37754,7 +37754,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37764,7 +37764,7 @@ multiplicity 2
 entry(
     index = 1065,
     label = "NDNONDN",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -37787,7 +37787,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37797,7 +37797,7 @@ entry(
 entry(
     index = 1066,
     label = "[O-][NH2+]NN",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -37822,7 +37822,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37832,7 +37832,7 @@ entry(
 entry(
     index = 1067,
     label = "ON[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -37855,7 +37855,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37865,7 +37865,7 @@ multiplicity 2
 entry(
     index = 1068,
     label = "NNDC(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -37894,7 +37894,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37904,7 +37904,7 @@ entry(
 entry(
     index = 1069,
     label = "[O-][NH2+]CD[C]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -37932,7 +37932,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37942,7 +37942,7 @@ multiplicity 2
 entry(
     index = 1070,
     label = "[O-][N+]#CON",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -37965,7 +37965,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -37975,7 +37975,7 @@ entry(
 entry(
     index = 1071,
     label = "NNNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -38000,7 +38000,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38010,7 +38010,7 @@ entry(
 entry(
     index = 1072,
     label = "[O-][NH+]DC[N]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -38037,7 +38037,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38047,7 +38047,7 @@ multiplicity 2
 entry(
     index = 1073,
     label = "CNNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -38072,7 +38072,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38082,7 +38082,7 @@ entry(
 entry(
     index = 1074,
     label = "CO[N]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -38108,7 +38108,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38118,7 +38118,7 @@ multiplicity 2
 entry(
     index = 1075,
     label = "[O-][NH+]DCC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -38145,7 +38145,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38155,7 +38155,7 @@ multiplicity 2
 entry(
     index = 1076,
     label = "NDCN(N)N",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {4,S}
 2  C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -38182,7 +38182,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38192,7 +38192,7 @@ entry(
 entry(
     index = 1077,
     label = "NNDNCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,D} {6,S}
 2 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -38217,7 +38217,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38227,7 +38227,7 @@ entry(
 entry(
     index = 1078,
     label = "NC(O)[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -38252,7 +38252,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38262,7 +38262,7 @@ multiplicity 2
 entry(
     index = 1079,
     label = "[CH2]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -38285,7 +38285,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38295,7 +38295,7 @@ multiplicity 2
 entry(
     index = 1080,
     label = "NCDNC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -38319,7 +38319,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38329,7 +38329,7 @@ entry(
 entry(
     index = 1081,
     label = "NNONN",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {3,S} {5,S} {6,S}
 2  N u0 p1 c0 {4,S} {5,S} {7,S}
@@ -38356,7 +38356,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38366,7 +38366,7 @@ entry(
 entry(
     index = 1082,
     label = "OC(DN)NDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -38389,7 +38389,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38399,7 +38399,7 @@ entry(
 entry(
     index = 1083,
     label = "[O-][NH+]CC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -38426,7 +38426,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38436,7 +38436,7 @@ multiplicity 2
 entry(
     index = 1084,
     label = "NOCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,D} {6,S}
 2 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -38461,7 +38461,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38471,7 +38471,7 @@ entry(
 entry(
     index = 1085,
     label = "NNC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -38494,7 +38494,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38504,7 +38504,7 @@ entry(
 entry(
     index = 1086,
     label = "ODCDNC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -38525,7 +38525,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38535,7 +38535,7 @@ entry(
 entry(
     index = 1087,
     label = "NDCNDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -38558,7 +38558,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38568,7 +38568,7 @@ entry(
 entry(
     index = 1088,
     label = "OCDCNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {7,S}
 2 C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -38593,7 +38593,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38603,7 +38603,7 @@ entry(
 entry(
     index = 1089,
     label = "CCDC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -38631,7 +38631,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38641,7 +38641,7 @@ entry(
 entry(
     index = 1090,
     label = "CCON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -38668,7 +38668,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38678,7 +38678,7 @@ entry(
 entry(
     index = 1091,
     label = "NONCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -38703,7 +38703,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38713,7 +38713,7 @@ entry(
 entry(
     index = 1092,
     label = "[N-]([NH+]DO)O[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {5,D} {6,S}
@@ -38737,7 +38737,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38747,7 +38747,7 @@ multiplicity 2
 entry(
     index = 1093,
     label = "OONCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -38771,7 +38771,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38781,7 +38781,7 @@ entry(
 entry(
     index = 1094,
     label = "N[N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -38804,7 +38804,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38814,7 +38814,7 @@ multiplicity 2
 entry(
     index = 1095,
     label = "CNDCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -38839,7 +38839,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38849,7 +38849,7 @@ multiplicity 2
 entry(
     index = 1096,
     label = "ONDCDCDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -38873,7 +38873,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38883,7 +38883,7 @@ entry(
 entry(
     index = 1097,
     label = "ONOOO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -38907,7 +38907,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38917,7 +38917,7 @@ entry(
 entry(
     index = 1098,
     label = "ONONDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -38940,7 +38940,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38950,7 +38950,7 @@ entry(
 entry(
     index = 1099,
     label = "CCND[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -38976,7 +38976,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -38986,7 +38986,7 @@ multiplicity 2
 entry(
     index = 1100,
     label = "OC(C#N)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {7,S}
@@ -39010,7 +39010,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39020,7 +39020,7 @@ entry(
 entry(
     index = 1101,
     label = "NNONDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -39044,7 +39044,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39054,7 +39054,7 @@ entry(
 entry(
     index = 1102,
     label = "NDCOC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -39077,7 +39077,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39087,7 +39087,7 @@ entry(
 entry(
     index = 1103,
     label = "CNCCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -39117,7 +39117,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39127,7 +39127,7 @@ entry(
 entry(
     index = 1104,
     label = "[O-][NH+]DCCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -39154,7 +39154,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39164,7 +39164,7 @@ entry(
 entry(
     index = 1105,
     label = "[O-][NH+]DCN[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -39189,7 +39189,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39199,7 +39199,7 @@ multiplicity 2
 entry(
     index = 1106,
     label = "[O-][NH+](O)C",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -39224,7 +39224,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39234,7 +39234,7 @@ entry(
 entry(
     index = 1107,
     label = "[O-][NH2+][C]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
@@ -39259,7 +39259,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39269,7 +39269,7 @@ multiplicity 2
 entry(
     index = 1108,
     label = "NDNCNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -39294,7 +39294,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39304,7 +39304,7 @@ entry(
 entry(
     index = 1109,
     label = "NOC#CO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -39328,7 +39328,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39338,7 +39338,7 @@ entry(
 entry(
     index = 1110,
     label = "NNDCOO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {6,S}
 2 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -39363,7 +39363,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39373,7 +39373,7 @@ entry(
 entry(
     index = 1111,
     label = "NC(C#C)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -39400,7 +39400,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39410,7 +39410,7 @@ entry(
 entry(
     index = 1112,
     label = "NCCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -39437,7 +39437,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39447,7 +39447,7 @@ multiplicity 2
 entry(
     index = 1113,
     label = "[O-][NH2+][C]DCC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -39475,7 +39475,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39485,7 +39485,7 @@ multiplicity 2
 entry(
     index = 1114,
     label = "[O-]N[N+](DO)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -39508,7 +39508,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39518,7 +39518,7 @@ entry(
 entry(
     index = 1115,
     label = "[O-][NH+]DCOO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 N u0 p0 c+1 {1,D} {6,S} {7,S}
@@ -39542,7 +39542,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39552,7 +39552,7 @@ entry(
 entry(
     index = 1116,
     label = "[O-][NH+]DC(N)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -39579,7 +39579,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39589,7 +39589,7 @@ multiplicity 2
 entry(
     index = 1117,
     label = "[O-][N+]#CNDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -39612,7 +39612,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39622,7 +39622,7 @@ entry(
 entry(
     index = 1118,
     label = "CNCON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -39651,7 +39651,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39661,7 +39661,7 @@ entry(
 entry(
     index = 1119,
     label = "OCNCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -39689,7 +39689,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39699,7 +39699,7 @@ entry(
 entry(
     index = 1120,
     label = "NC([O])N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -39725,7 +39725,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39735,7 +39735,7 @@ multiplicity 2
 entry(
     index = 1121,
     label = "CNNNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -39763,7 +39763,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39773,7 +39773,7 @@ entry(
 entry(
     index = 1122,
     label = "NCNCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -39802,7 +39802,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39812,7 +39812,7 @@ entry(
 entry(
     index = 1123,
     label = "CNC(DO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -39839,7 +39839,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39849,7 +39849,7 @@ entry(
 entry(
     index = 1124,
     label = "CONNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {3,S} {4,S} {9,S}
@@ -39876,7 +39876,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39886,7 +39886,7 @@ entry(
 entry(
     index = 1125,
     label = "CCC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -39915,7 +39915,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39925,7 +39925,7 @@ multiplicity 2
 entry(
     index = 1126,
     label = "CC(DN)NN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {5,D}
@@ -39953,7 +39953,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -39963,7 +39963,7 @@ entry(
 entry(
     index = 1127,
     label = "CCDNCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -39992,7 +39992,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40002,7 +40002,7 @@ entry(
 entry(
     index = 1128,
     label = "CDNCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {3,D} {7,S} {8,S}
@@ -40027,7 +40027,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40037,7 +40037,7 @@ entry(
 entry(
     index = 1129,
     label = "[O-][N+]DCDNC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -40062,7 +40062,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40072,7 +40072,7 @@ multiplicity 2
 entry(
     index = 1130,
     label = "ONDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -40093,7 +40093,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40103,7 +40103,7 @@ entry(
 entry(
     index = 1131,
     label = "[CH2]N(N)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -40130,7 +40130,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40140,7 +40140,7 @@ multiplicity 2
 entry(
     index = 1132,
     label = "NCNDCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {8,S} {9,S}
@@ -40167,7 +40167,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40177,7 +40177,7 @@ entry(
 entry(
     index = 1133,
     label = "NN(C#C)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -40202,7 +40202,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40212,7 +40212,7 @@ entry(
 entry(
     index = 1134,
     label = "NDCDC(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -40240,7 +40240,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40250,7 +40250,7 @@ entry(
 entry(
     index = 1135,
     label = "NCDCDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,D} {6,S}
 2  C u0 p0 c0 {4,S} {5,D} {7,S}
@@ -40277,7 +40277,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40287,7 +40287,7 @@ entry(
 entry(
     index = 1136,
     label = "CN(ON)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {4,S} {5,S}
@@ -40314,7 +40314,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40324,7 +40324,7 @@ entry(
 entry(
     index = 1137,
     label = "[O-][N+]#CN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -40346,7 +40346,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40356,7 +40356,7 @@ entry(
 entry(
     index = 1138,
     label = "[O-][NH2+][CH]NN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -40384,7 +40384,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40394,7 +40394,7 @@ multiplicity 2
 entry(
     index = 1139,
     label = "NCDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {5,S}
 2  C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -40420,7 +40420,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40430,7 +40430,7 @@ entry(
 entry(
     index = 1140,
     label = "O[N]CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -40455,7 +40455,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40465,7 +40465,7 @@ multiplicity 2
 entry(
     index = 1141,
     label = "CNOOC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -40493,7 +40493,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40503,7 +40503,7 @@ entry(
 entry(
     index = 1142,
     label = "N[N]CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -40529,7 +40529,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40539,7 +40539,7 @@ multiplicity 2
 entry(
     index = 1143,
     label = "[O-][N+]DCDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -40562,7 +40562,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40572,7 +40572,7 @@ multiplicity 2
 entry(
     index = 1144,
     label = "[CH2]CDCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -40599,7 +40599,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40609,7 +40609,7 @@ multiplicity 2
 entry(
     index = 1145,
     label = "CC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -40637,7 +40637,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40647,7 +40647,7 @@ entry(
 entry(
     index = 1146,
     label = "CNC(DC)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
@@ -40677,7 +40677,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40687,7 +40687,7 @@ entry(
 entry(
     index = 1147,
     label = "[N]DCDCNDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -40710,7 +40710,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40720,7 +40720,7 @@ multiplicity 2
 entry(
     index = 1148,
     label = "CDNCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {5,S} {6,S}
 2 C u0 p0 c0 {3,S} {4,D} {7,S}
@@ -40743,7 +40743,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40753,7 +40753,7 @@ entry(
 entry(
     index = 1149,
     label = "[O-][NH2+]CNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  N u0 p0 c+1 {1,S} {7,S} {8,S} {9,S}
@@ -40781,7 +40781,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40791,7 +40791,7 @@ entry(
 entry(
     index = 1150,
     label = "[O-][NH+]DCDCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -40817,7 +40817,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40827,7 +40827,7 @@ entry(
 entry(
     index = 1151,
     label = "CN(CN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -40856,7 +40856,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40866,7 +40866,7 @@ entry(
 entry(
     index = 1152,
     label = "NC(O)(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -40894,7 +40894,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40904,7 +40904,7 @@ entry(
 entry(
     index = 1153,
     label = "[O-][N+]#CCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -40928,7 +40928,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40938,7 +40938,7 @@ entry(
 entry(
     index = 1154,
     label = "[O-][NH2+][NH+]([O])[O-]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {6,S} {7,S}
@@ -40963,7 +40963,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -40973,7 +40973,7 @@ multiplicity 2
 entry(
     index = 1155,
     label = "CDCNDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {6,S}
 2 C u0 p0 c0 {1,D} {7,S} {8,S}
@@ -40998,7 +40998,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41008,7 +41008,7 @@ entry(
 entry(
     index = 1156,
     label = "NC(N)(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -41037,7 +41037,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41047,7 +41047,7 @@ entry(
 entry(
     index = 1157,
     label = "[O-][NH+]DCND[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -41071,7 +41071,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41081,7 +41081,7 @@ multiplicity 2
 entry(
     index = 1158,
     label = "[O-][NH2+]C[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -41108,7 +41108,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41118,7 +41118,7 @@ multiplicity 2
 entry(
     index = 1159,
     label = "[O-][NH+]DCCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 N u0 p0 c+1 {1,D} {5,S} {7,S}
@@ -41142,7 +41142,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41152,7 +41152,7 @@ entry(
 entry(
     index = 1160,
     label = "COC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
@@ -41181,7 +41181,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41191,7 +41191,7 @@ entry(
 entry(
     index = 1161,
     label = "[O-][NH+]DCC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -41219,7 +41219,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41229,7 +41229,7 @@ multiplicity 2
 entry(
     index = 1162,
     label = "CNDNCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {4,S} {8,D} {9,S}
@@ -41254,7 +41254,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41264,7 +41264,7 @@ entry(
 entry(
     index = 1163,
     label = "CC(DO)NDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,S} {8,D}
@@ -41289,7 +41289,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41299,7 +41299,7 @@ entry(
 entry(
     index = 1164,
     label = "[O-][NH2+][C](O)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -41326,7 +41326,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41336,7 +41336,7 @@ multiplicity 2
 entry(
     index = 1165,
     label = "[NH-][N+]DCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,D} {3,S}
@@ -41359,7 +41359,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41369,7 +41369,7 @@ multiplicity 2
 entry(
     index = 1166,
     label = "[O-][N+](DC)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -41392,7 +41392,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41402,7 +41402,7 @@ entry(
 entry(
     index = 1167,
     label = "ONC(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -41432,7 +41432,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41442,7 +41442,7 @@ entry(
 entry(
     index = 1168,
     label = "CNC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -41472,7 +41472,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41482,7 +41482,7 @@ entry(
 entry(
     index = 1169,
     label = "[O-][NH2+]C#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -41505,7 +41505,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41515,7 +41515,7 @@ entry(
 entry(
     index = 1170,
     label = "N[C]DCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -41539,7 +41539,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41549,7 +41549,7 @@ multiplicity 2
 entry(
     index = 1171,
     label = "[O-][NH+]DNND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {5,S} {6,S}
@@ -41573,7 +41573,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41583,7 +41583,7 @@ multiplicity 2
 entry(
     index = 1172,
     label = "ONC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  N u0 p1 c0 {1,S} {5,S} {7,S}
@@ -41610,7 +41610,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41620,7 +41620,7 @@ entry(
 entry(
     index = 1173,
     label = "CCN(O)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -41650,7 +41650,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41660,7 +41660,7 @@ entry(
 entry(
     index = 1174,
     label = "NCC(DO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,D}
@@ -41687,7 +41687,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41697,7 +41697,7 @@ entry(
 entry(
     index = 1175,
     label = "[O-][NH+]D[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
@@ -41718,7 +41718,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41728,7 +41728,7 @@ multiplicity 2
 entry(
     index = 1176,
     label = "NC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -41753,7 +41753,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41763,7 +41763,7 @@ multiplicity 2
 entry(
     index = 1177,
     label = "CDNONDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -41786,7 +41786,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41796,7 +41796,7 @@ entry(
 entry(
     index = 1178,
     label = "[O-][N+](D[CH])O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
@@ -41819,7 +41819,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41829,7 +41829,7 @@ multiplicity 2
 entry(
     index = 1179,
     label = "CNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -41852,7 +41852,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41862,7 +41862,7 @@ entry(
 entry(
     index = 1180,
     label = "CCNC#C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -41890,7 +41890,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41900,7 +41900,7 @@ entry(
 entry(
     index = 1181,
     label = "C[C]([NH2+][O-])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {4,S} {5,S} {6,S} {7,S}
@@ -41930,7 +41930,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41940,7 +41940,7 @@ multiplicity 2
 entry(
     index = 1182,
     label = "CCNNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -41969,7 +41969,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -41979,7 +41979,7 @@ entry(
 entry(
     index = 1183,
     label = "[N-]D[N+]DCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,D} {4,D}
@@ -42000,7 +42000,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42010,7 +42010,7 @@ multiplicity 2
 entry(
     index = 1184,
     label = "CCNNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -42040,7 +42040,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42050,7 +42050,7 @@ entry(
 entry(
     index = 1185,
     label = "[O-][N+]DNCC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -42077,7 +42077,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42087,7 +42087,7 @@ multiplicity 2
 entry(
     index = 1186,
     label = "NCDC(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -42117,7 +42117,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42127,7 +42127,7 @@ entry(
 entry(
     index = 1187,
     label = "[N-]([NH+]DO)NDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,S} {5,D} {6,S}
 2 C u0 p0 c0 {4,D} {7,S} {8,S}
@@ -42151,7 +42151,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42161,7 +42161,7 @@ entry(
 entry(
     index = 1188,
     label = "ONNDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -42185,7 +42185,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42195,7 +42195,7 @@ entry(
 entry(
     index = 1189,
     label = "NOC[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -42220,7 +42220,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42230,7 +42230,7 @@ multiplicity 2
 entry(
     index = 1190,
     label = "CNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,D}
@@ -42252,7 +42252,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42262,7 +42262,7 @@ entry(
 entry(
     index = 1191,
     label = "[O-][N+](D[CH])N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
@@ -42286,7 +42286,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42296,7 +42296,7 @@ multiplicity 2
 entry(
     index = 1192,
     label = "CDNONDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -42320,7 +42320,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42330,7 +42330,7 @@ entry(
 entry(
     index = 1193,
     label = "[CH2]NDCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {5,S} {6,S}
@@ -42354,7 +42354,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42364,7 +42364,7 @@ multiplicity 2
 entry(
     index = 1194,
     label = "[O-][NH2+]N[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
@@ -42389,7 +42389,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42399,7 +42399,7 @@ multiplicity 2
 entry(
     index = 1195,
     label = "CC(D[CH])N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -42426,7 +42426,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42436,7 +42436,7 @@ multiplicity 2
 entry(
     index = 1196,
     label = "[O-][NH2+]CNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p0 c+1 {1,S} {6,S} {7,S} {8,S}
@@ -42461,7 +42461,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42471,7 +42471,7 @@ entry(
 entry(
     index = 1197,
     label = "[O-][N+](DO)C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p0 c+1 {1,S} {6,S} {7,D}
@@ -42494,7 +42494,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42504,7 +42504,7 @@ entry(
 entry(
     index = 1198,
     label = "[O-][NH+]D[C]CC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -42532,7 +42532,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42542,7 +42542,7 @@ multiplicity 2
 entry(
     index = 1199,
     label = "N[C]DCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -42565,7 +42565,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42575,7 +42575,7 @@ multiplicity 2
 entry(
     index = 1200,
     label = "CC(C#C)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -42603,7 +42603,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42613,7 +42613,7 @@ entry(
 entry(
     index = 1201,
     label = "[O-][N+](DC)N",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -42637,7 +42637,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42647,7 +42647,7 @@ entry(
 entry(
     index = 1202,
     label = "CNN[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -42675,7 +42675,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42685,7 +42685,7 @@ multiplicity 2
 entry(
     index = 1203,
     label = "N(C#C)NDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -42708,7 +42708,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42718,7 +42718,7 @@ entry(
 entry(
     index = 1204,
     label = "NC#CC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -42742,7 +42742,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42752,7 +42752,7 @@ entry(
 entry(
     index = 1205,
     label = "[NH-][N+]DCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,S} {3,D}
@@ -42774,7 +42774,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42784,7 +42784,7 @@ multiplicity 2
 entry(
     index = 1206,
     label = "ONDNNDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -42808,7 +42808,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42818,7 +42818,7 @@ entry(
 entry(
     index = 1207,
     label = "[O-][N+](N)C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -42844,7 +42844,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42854,7 +42854,7 @@ multiplicity 2
 entry(
     index = 1208,
     label = "[O-][NH+]DCC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -42879,7 +42879,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42889,7 +42889,7 @@ entry(
 entry(
     index = 1209,
     label = "CCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -42914,7 +42914,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42924,7 +42924,7 @@ entry(
 entry(
     index = 1210,
     label = "[O-][NH+]DCCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -42949,7 +42949,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42959,7 +42959,7 @@ entry(
 entry(
     index = 1211,
     label = "[NH]CNO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -42985,7 +42985,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -42995,7 +42995,7 @@ multiplicity 2
 entry(
     index = 1212,
     label = "CDCNDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -43019,7 +43019,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43029,7 +43029,7 @@ entry(
 entry(
     index = 1213,
     label = "NNDCC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {6,S}
 2 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -43054,7 +43054,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43064,7 +43064,7 @@ entry(
 entry(
     index = 1214,
     label = "NOCDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -43089,7 +43089,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43099,7 +43099,7 @@ entry(
 entry(
     index = 1215,
     label = "[O-][N+]#CCN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -43124,7 +43124,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43134,7 +43134,7 @@ entry(
 entry(
     index = 1216,
     label = "NCDC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {5,S}
 2  C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -43161,7 +43161,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43171,7 +43171,7 @@ entry(
 entry(
     index = 1217,
     label = "NOC(DN)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,D}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -43196,7 +43196,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43206,7 +43206,7 @@ entry(
 entry(
     index = 1218,
     label = "[O-][NH+]CDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,S} {3,S} {5,S}
@@ -43229,7 +43229,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43239,7 +43239,7 @@ multiplicity 2
 entry(
     index = 1219,
     label = "NDNC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {4,S}
 2 N u0 p1 c0 {1,D} {5,S}
@@ -43260,7 +43260,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43270,7 +43270,7 @@ entry(
 entry(
     index = 1220,
     label = "[O-][NH2+]CNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  N u0 p0 c+1 {1,S} {7,S} {8,S} {9,S}
@@ -43297,7 +43297,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43307,7 +43307,7 @@ entry(
 entry(
     index = 1221,
     label = "ODNC#N",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -43327,7 +43327,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43337,7 +43337,7 @@ entry(
 entry(
     index = 1222,
     label = "COCDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,D} {4,S} {9,S}
@@ -43365,7 +43365,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43375,7 +43375,7 @@ entry(
 entry(
     index = 1223,
     label = "CDNCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -43399,7 +43399,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43409,7 +43409,7 @@ entry(
 entry(
     index = 1224,
     label = "[O-][NH+]DCD[NH+][O-]",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,D} {4,S} {6,S}
 2 N u0 p0 c+1 {3,D} {5,S} {7,S}
@@ -43432,7 +43432,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43442,7 +43442,7 @@ entry(
 entry(
     index = 1225,
     label = "NCDCCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {7,S}
 2  C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -43470,7 +43470,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43480,7 +43480,7 @@ entry(
 entry(
     index = 1226,
     label = "N[N]CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -43507,7 +43507,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43517,7 +43517,7 @@ multiplicity 2
 entry(
     index = 1227,
     label = "CNDC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {4,D} {5,S}
@@ -43544,7 +43544,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43554,7 +43554,7 @@ entry(
 entry(
     index = 1228,
     label = "CNCDCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -43581,7 +43581,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43591,7 +43591,7 @@ entry(
 entry(
     index = 1229,
     label = "NCDCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -43616,7 +43616,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43626,7 +43626,7 @@ entry(
 entry(
     index = 1230,
     label = "[O-][NH2+][O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
@@ -43648,7 +43648,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43658,7 +43658,7 @@ multiplicity 2
 entry(
     index = 1231,
     label = "CCCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -43687,7 +43687,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43697,7 +43697,7 @@ entry(
 entry(
     index = 1232,
     label = "[O-][NH2+][N]NC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -43725,7 +43725,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43735,7 +43735,7 @@ multiplicity 2
 entry(
     index = 1233,
     label = "[O-][NH+]OC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -43760,7 +43760,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43770,7 +43770,7 @@ multiplicity 2
 entry(
     index = 1234,
     label = "[O-][NH2+][CH]NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -43797,7 +43797,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43807,7 +43807,7 @@ multiplicity 2
 entry(
     index = 1235,
     label = "NC(DN)CDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -43832,7 +43832,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43842,7 +43842,7 @@ entry(
 entry(
     index = 1236,
     label = "[O-][N+]#CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,T}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -43863,7 +43863,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43873,7 +43873,7 @@ entry(
 entry(
     index = 1237,
     label = "NDCC#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -43896,7 +43896,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43906,7 +43906,7 @@ multiplicity 2
 entry(
     index = 1238,
     label = "CDCN(N)N",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {4,S}
 2  C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -43934,7 +43934,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43944,7 +43944,7 @@ entry(
 entry(
     index = 1239,
     label = "NCCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -43971,7 +43971,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -43981,7 +43981,7 @@ entry(
 entry(
     index = 1240,
     label = "CCDNC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -44006,7 +44006,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44016,7 +44016,7 @@ entry(
 entry(
     index = 1241,
     label = "OND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,D}
@@ -44038,7 +44038,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44048,7 +44048,7 @@ multiplicity 2
 entry(
     index = 1242,
     label = "[C]#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,T}
@@ -44067,7 +44067,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44077,7 +44077,7 @@ multiplicity 2
 entry(
     index = 1243,
     label = "NNCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -44103,7 +44103,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44113,7 +44113,7 @@ multiplicity 2
 entry(
     index = 1244,
     label = "ONDO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {4,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -44133,7 +44133,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44143,7 +44143,7 @@ entry(
 entry(
     index = 1245,
     label = "NCNDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {5,D} {10,S}
@@ -44171,7 +44171,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44181,7 +44181,7 @@ entry(
 entry(
     index = 1246,
     label = "CC(DN)NO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -44208,7 +44208,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44218,7 +44218,7 @@ entry(
 entry(
     index = 1247,
     label = "NDCDC(O)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,D}
@@ -44242,7 +44242,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44252,7 +44252,7 @@ entry(
 entry(
     index = 1248,
     label = "NNDCCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -44279,7 +44279,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44289,7 +44289,7 @@ entry(
 entry(
     index = 1249,
     label = "CCDNCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {9,S} {10,S}
 2  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
@@ -44317,7 +44317,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44327,7 +44327,7 @@ entry(
 entry(
     index = 1250,
     label = "CONNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {3,S} {4,S} {9,S}
@@ -44355,7 +44355,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44365,7 +44365,7 @@ entry(
 entry(
     index = 1251,
     label = "CDCOC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -44389,7 +44389,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44399,7 +44399,7 @@ entry(
 entry(
     index = 1252,
     label = "ON(C#N)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -44422,7 +44422,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44432,7 +44432,7 @@ entry(
 entry(
     index = 1253,
     label = "[O-][NH2+]C(O)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p0 c+1 {1,S} {6,S} {7,S} {8,S}
@@ -44460,7 +44460,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44470,7 +44470,7 @@ entry(
 entry(
     index = 1254,
     label = "N[C](N)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -44497,7 +44497,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44507,7 +44507,7 @@ multiplicity 2
 entry(
     index = 1255,
     label = "[O]ONDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -44530,7 +44530,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44540,7 +44540,7 @@ multiplicity 2
 entry(
     index = 1256,
     label = "[O-][NH+]DCON",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 N u0 p0 c+1 {1,D} {6,S} {7,S}
@@ -44565,7 +44565,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44575,7 +44575,7 @@ entry(
 entry(
     index = 1257,
     label = "CNCOO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -44603,7 +44603,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44613,7 +44613,7 @@ entry(
 entry(
     index = 1258,
     label = "O[C](NDO)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -44637,7 +44637,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44647,7 +44647,7 @@ multiplicity 2
 entry(
     index = 1259,
     label = "[CH2]C(DC)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -44674,7 +44674,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44684,7 +44684,7 @@ multiplicity 2
 entry(
     index = 1260,
     label = "[N-]([NH+]DO)[CH]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {3,S} {4,S} {5,S}
@@ -44709,7 +44709,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44719,7 +44719,7 @@ multiplicity 2
 entry(
     index = 1261,
     label = "CNDC(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -44749,7 +44749,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44759,7 +44759,7 @@ entry(
 entry(
     index = 1262,
     label = "NNCC#C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -44786,7 +44786,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44796,7 +44796,7 @@ entry(
 entry(
     index = 1263,
     label = "O[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,D}
@@ -44818,7 +44818,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44828,7 +44828,7 @@ multiplicity 2
 entry(
     index = 1264,
     label = "NCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -44851,7 +44851,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44861,7 +44861,7 @@ entry(
 entry(
     index = 1265,
     label = "NC(DO)CDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,D}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -44886,7 +44886,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44896,7 +44896,7 @@ entry(
 entry(
     index = 1266,
     label = "[NH]CC#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -44920,7 +44920,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44930,7 +44930,7 @@ multiplicity 2
 entry(
     index = 1267,
     label = "N[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -44953,7 +44953,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44963,7 +44963,7 @@ multiplicity 2
 entry(
     index = 1268,
     label = "[O-][NH+]DCNN",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,D} {5,S}
@@ -44989,7 +44989,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -44999,7 +44999,7 @@ entry(
 entry(
     index = 1269,
     label = "CNCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -45028,7 +45028,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45038,7 +45038,7 @@ entry(
 entry(
     index = 1270,
     label = "[N-]([NH+]DO)CD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {4,D} {6,S}
@@ -45062,7 +45062,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45072,7 +45072,7 @@ multiplicity 2
 entry(
     index = 1271,
     label = "CDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -45094,7 +45094,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45104,7 +45104,7 @@ entry(
 entry(
     index = 1272,
     label = "C#CCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -45128,7 +45128,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45138,7 +45138,7 @@ entry(
 entry(
     index = 1273,
     label = "NCONDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {8,S} {9,S}
@@ -45165,7 +45165,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45175,7 +45175,7 @@ entry(
 entry(
     index = 1274,
     label = "CNOCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {5,S} {9,S}
@@ -45203,7 +45203,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45213,7 +45213,7 @@ entry(
 entry(
     index = 1275,
     label = "[NH-][NH+]DCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {3,S} {5,S}
@@ -45237,7 +45237,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45247,7 +45247,7 @@ multiplicity 2
 entry(
     index = 1276,
     label = "CONON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {4,S} {5,S} {9,S}
@@ -45274,7 +45274,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45284,7 +45284,7 @@ entry(
 entry(
     index = 1277,
     label = "[O-][NH2+][N]OC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {4,S} {5,S} {6,S} {7,S}
@@ -45311,7 +45311,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45321,7 +45321,7 @@ multiplicity 2
 entry(
     index = 1278,
     label = "[O-][NH+]NC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -45347,7 +45347,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45357,7 +45357,7 @@ multiplicity 2
 entry(
     index = 1279,
     label = "CONNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {4,S} {5,S} {9,S}
@@ -45384,7 +45384,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45394,7 +45394,7 @@ entry(
 entry(
     index = 1280,
     label = "C[N]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -45420,7 +45420,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45430,7 +45430,7 @@ multiplicity 2
 entry(
     index = 1281,
     label = "[O-][NH2+][CH]OO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -45456,7 +45456,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45466,7 +45466,7 @@ multiplicity 2
 entry(
     index = 1282,
     label = "[CH]DNCDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -45491,7 +45491,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45501,7 +45501,7 @@ multiplicity 2
 entry(
     index = 1283,
     label = "CNDCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {3,D} {4,S} {8,S}
@@ -45526,7 +45526,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45536,7 +45536,7 @@ entry(
 entry(
     index = 1284,
     label = "CDCDCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -45560,7 +45560,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45570,7 +45570,7 @@ entry(
 entry(
     index = 1285,
     label = "N[CH]CDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {5,S}
@@ -45597,7 +45597,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45607,7 +45607,7 @@ multiplicity 2
 entry(
     index = 1286,
     label = "CC#CNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -45631,7 +45631,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45641,7 +45641,7 @@ entry(
 entry(
     index = 1287,
     label = "[O-][NH2+]CO[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -45667,7 +45667,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45677,7 +45677,7 @@ multiplicity 2
 entry(
     index = 1288,
     label = "[O-][NH2+]C#CN",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {4,S} {8,S} {9,S}
@@ -45702,7 +45702,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45712,7 +45712,7 @@ entry(
 entry(
     index = 1289,
     label = "NON(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {5,S}
@@ -45740,7 +45740,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45750,7 +45750,7 @@ entry(
 entry(
     index = 1290,
     label = "[O-][N+]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -45772,7 +45772,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45782,7 +45782,7 @@ multiplicity 2
 entry(
     index = 1291,
     label = "[NH]COO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -45807,7 +45807,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45817,7 +45817,7 @@ multiplicity 2
 entry(
     index = 1292,
     label = "NNN(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -45846,7 +45846,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45856,7 +45856,7 @@ entry(
 entry(
     index = 1293,
     label = "NCC(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -45888,7 +45888,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45898,7 +45898,7 @@ entry(
 entry(
     index = 1294,
     label = "OC(DN)C#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 C u0 p0 c0 {1,S} {5,T}
@@ -45922,7 +45922,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45932,7 +45932,7 @@ entry(
 entry(
     index = 1295,
     label = "NNCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -45958,7 +45958,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -45968,7 +45968,7 @@ entry(
 entry(
     index = 1296,
     label = "CDCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -45991,7 +45991,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46001,7 +46001,7 @@ entry(
 entry(
     index = 1297,
     label = "[O-][NH2+]CC[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -46029,7 +46029,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46039,7 +46039,7 @@ multiplicity 2
 entry(
     index = 1298,
     label = "CC(DO)N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,S} {7,D}
@@ -46064,7 +46064,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46074,7 +46074,7 @@ entry(
 entry(
     index = 1299,
     label = "[O-][NH2+][CH]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
@@ -46099,7 +46099,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46109,7 +46109,7 @@ multiplicity 2
 entry(
     index = 1300,
     label = "OC(D[NH+][O-])[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -46133,7 +46133,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46143,7 +46143,7 @@ multiplicity 2
 entry(
     index = 1301,
     label = "[O-][NH2+]NC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -46172,7 +46172,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46182,7 +46182,7 @@ multiplicity 2
 entry(
     index = 1302,
     label = "[O-][NH2+]CND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -46209,7 +46209,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46219,7 +46219,7 @@ multiplicity 2
 entry(
     index = 1303,
     label = "C#COC#N",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {4,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -46241,7 +46241,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46251,7 +46251,7 @@ entry(
 entry(
     index = 1304,
     label = "CC[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -46278,7 +46278,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46288,7 +46288,7 @@ multiplicity 2
 entry(
     index = 1305,
     label = "[NH]OC#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -46310,7 +46310,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46320,7 +46320,7 @@ multiplicity 2
 entry(
     index = 1306,
     label = "ONOC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -46344,7 +46344,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46354,7 +46354,7 @@ entry(
 entry(
     index = 1307,
     label = "CNCDCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -46382,7 +46382,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46392,7 +46392,7 @@ entry(
 entry(
     index = 1308,
     label = "CDNNCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -46417,7 +46417,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46427,7 +46427,7 @@ entry(
 entry(
     index = 1309,
     label = "NC(DN)CO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {5,D}
@@ -46454,7 +46454,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46464,7 +46464,7 @@ entry(
 entry(
     index = 1310,
     label = "CCCDNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -46494,7 +46494,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46504,7 +46504,7 @@ entry(
 entry(
     index = 1311,
     label = "CCNON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -46533,7 +46533,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46543,7 +46543,7 @@ entry(
 entry(
     index = 1312,
     label = "NCC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -46572,7 +46572,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46582,7 +46582,7 @@ entry(
 entry(
     index = 1313,
     label = "NDNN(O)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,D}
@@ -46606,7 +46606,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46616,7 +46616,7 @@ entry(
 entry(
     index = 1314,
     label = "[O-][N+](DC)N[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
@@ -46641,7 +46641,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46651,7 +46651,7 @@ multiplicity 2
 entry(
     index = 1315,
     label = "NC(D[N])N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -46676,7 +46676,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46686,7 +46686,7 @@ multiplicity 2
 entry(
     index = 1316,
     label = "NCCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -46715,7 +46715,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46725,7 +46725,7 @@ entry(
 entry(
     index = 1317,
     label = "CNCCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -46755,7 +46755,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46765,7 +46765,7 @@ entry(
 entry(
     index = 1318,
     label = "[O-][NH+]DCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {4,S} {5,S}
@@ -46788,7 +46788,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46798,7 +46798,7 @@ multiplicity 2
 entry(
     index = 1319,
     label = "[O-][NH2+]CN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p0 c+1 {1,S} {6,S} {7,S} {8,S}
@@ -46824,7 +46824,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46834,7 +46834,7 @@ entry(
 entry(
     index = 1320,
     label = "OCCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
@@ -46862,7 +46862,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46872,7 +46872,7 @@ entry(
 entry(
     index = 1321,
     label = "[O-][NH2+]CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p0 c+1 {1,S} {6,S} {7,S} {8,S}
@@ -46897,7 +46897,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46907,7 +46907,7 @@ entry(
 entry(
     index = 1322,
     label = "NC(D[N])O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -46931,7 +46931,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46941,7 +46941,7 @@ multiplicity 2
 entry(
     index = 1323,
     label = "[N-]([NH+]DO)[C]DC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {5,D} {6,S}
@@ -46966,7 +46966,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -46976,7 +46976,7 @@ multiplicity 2
 entry(
     index = 1324,
     label = "CC(DCO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -47004,7 +47004,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47014,7 +47014,7 @@ entry(
 entry(
     index = 1325,
     label = "[N-]([NH+]DO)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,D} {5,S}
 2 N u0 p2 c-1 {1,S} {3,S}
@@ -47036,7 +47036,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47046,7 +47046,7 @@ entry(
 entry(
     index = 1326,
     label = "CC(DN)NDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -47071,7 +47071,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47081,7 +47081,7 @@ entry(
 entry(
     index = 1327,
     label = "NCC(O)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
@@ -47109,7 +47109,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47119,7 +47119,7 @@ entry(
 entry(
     index = 1328,
     label = "CCNOO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -47147,7 +47147,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47157,7 +47157,7 @@ entry(
 entry(
     index = 1329,
     label = "CNCDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -47186,7 +47186,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47196,7 +47196,7 @@ entry(
 entry(
     index = 1330,
     label = "[NH-]CD[N+]DCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {5,S} {6,S}
 2 C u0 p0 c0 {3,D} {4,S} {7,S}
@@ -47221,7 +47221,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47231,7 +47231,7 @@ entry(
 entry(
     index = 1331,
     label = "ON([NH2+][O-])O",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -47256,7 +47256,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47266,7 +47266,7 @@ entry(
 entry(
     index = 1332,
     label = "OC(DN)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -47289,7 +47289,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47299,7 +47299,7 @@ entry(
 entry(
     index = 1333,
     label = "[O-][NH2+]OC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -47326,7 +47326,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47336,7 +47336,7 @@ multiplicity 2
 entry(
     index = 1334,
     label = "[O-][NH2+]CDN[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -47363,7 +47363,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47373,7 +47373,7 @@ multiplicity 2
 entry(
     index = 1335,
     label = "[CH2]NNDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -47399,7 +47399,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47409,7 +47409,7 @@ multiplicity 2
 entry(
     index = 1336,
     label = "NC(DO)N[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -47434,7 +47434,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47444,7 +47444,7 @@ multiplicity 2
 entry(
     index = 1337,
     label = "[O-][NH2+]NC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -47472,7 +47472,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47482,7 +47482,7 @@ multiplicity 2
 entry(
     index = 1338,
     label = "ONC[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -47507,7 +47507,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47517,7 +47517,7 @@ multiplicity 2
 entry(
     index = 1339,
     label = "[O-][NH2+][CH]NDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -47543,7 +47543,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47553,7 +47553,7 @@ multiplicity 2
 entry(
     index = 1340,
     label = "NNC[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -47579,7 +47579,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47589,7 +47589,7 @@ multiplicity 2
 entry(
     index = 1341,
     label = "NNNDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -47614,7 +47614,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47624,7 +47624,7 @@ entry(
 entry(
     index = 1342,
     label = "[O-][NH+]DN[N]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -47649,7 +47649,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47659,7 +47659,7 @@ multiplicity 2
 entry(
     index = 1343,
     label = "[O-][NH2+]CON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  N u0 p0 c+1 {1,S} {7,S} {8,S} {9,S}
@@ -47686,7 +47686,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47696,7 +47696,7 @@ entry(
 entry(
     index = 1344,
     label = "CN(NDN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -47723,7 +47723,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47733,7 +47733,7 @@ entry(
 entry(
     index = 1345,
     label = "[C]#CC#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,T}
@@ -47754,7 +47754,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47764,7 +47764,7 @@ multiplicity 2
 entry(
     index = 1346,
     label = "CDCNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -47788,7 +47788,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47798,7 +47798,7 @@ entry(
 entry(
     index = 1347,
     label = "NNCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {4,S} {7,S}
@@ -47825,7 +47825,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47835,7 +47835,7 @@ entry(
 entry(
     index = 1348,
     label = "NDNN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -47863,7 +47863,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47873,7 +47873,7 @@ entry(
 entry(
     index = 1349,
     label = "CC(DN)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -47899,7 +47899,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47909,7 +47909,7 @@ multiplicity 2
 entry(
     index = 1350,
     label = "CNONC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -47938,7 +47938,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47948,7 +47948,7 @@ entry(
 entry(
     index = 1351,
     label = "[NH-]CDCD[NH+]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -47972,7 +47972,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -47982,7 +47982,7 @@ multiplicity 2
 entry(
     index = 1352,
     label = "CC(DO)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -48007,7 +48007,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48017,7 +48017,7 @@ multiplicity 2
 entry(
     index = 1353,
     label = "CC#CNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -48042,7 +48042,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48052,7 +48052,7 @@ entry(
 entry(
     index = 1354,
     label = "NCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -48076,7 +48076,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48086,7 +48086,7 @@ multiplicity 2
 entry(
     index = 1355,
     label = "[O-][NH2+]C#CO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -48110,7 +48110,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48120,7 +48120,7 @@ entry(
 entry(
     index = 1356,
     label = "[O-][N+]#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,T}
@@ -48140,7 +48140,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48150,7 +48150,7 @@ multiplicity 2
 entry(
     index = 1357,
     label = "NC(NDN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -48177,7 +48177,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48187,7 +48187,7 @@ entry(
 entry(
     index = 1358,
     label = "NNDC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -48212,7 +48212,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48222,7 +48222,7 @@ multiplicity 2
 entry(
     index = 1359,
     label = "NONDCDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
 2 C u0 p0 c0 {4,D} {8,S} {9,S}
@@ -48247,7 +48247,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48257,7 +48257,7 @@ entry(
 entry(
     index = 1360,
     label = "[CH2]NCC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -48286,7 +48286,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48296,7 +48296,7 @@ multiplicity 2
 entry(
     index = 1361,
     label = "CNC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -48321,7 +48321,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48331,7 +48331,7 @@ entry(
 entry(
     index = 1362,
     label = "[O-][N+](DN)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
@@ -48354,7 +48354,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48364,7 +48364,7 @@ multiplicity 2
 entry(
     index = 1363,
     label = "CCDCDNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,D} {9,S}
@@ -48391,7 +48391,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48401,7 +48401,7 @@ entry(
 entry(
     index = 1364,
     label = "[O-][NH2+][CH]ON",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -48428,7 +48428,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48438,7 +48438,7 @@ multiplicity 2
 entry(
     index = 1365,
     label = "NNOCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {3,S} {4,S} {8,S}
@@ -48465,7 +48465,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48475,7 +48475,7 @@ entry(
 entry(
     index = 1366,
     label = "[O-][NH2+]NCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -48500,7 +48500,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48510,7 +48510,7 @@ entry(
 entry(
     index = 1367,
     label = "CC(DN)ON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,D}
@@ -48537,7 +48537,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48547,7 +48547,7 @@ entry(
 entry(
     index = 1368,
     label = "[O-][NH2+]CD[NH+][O-]",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -48572,7 +48572,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48582,7 +48582,7 @@ entry(
 entry(
     index = 1369,
     label = "CN(C)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -48611,7 +48611,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48621,7 +48621,7 @@ multiplicity 2
 entry(
     index = 1370,
     label = "NDNOC#C",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -48644,7 +48644,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48654,7 +48654,7 @@ entry(
 entry(
     index = 1371,
     label = "[O-][NH+](N)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
@@ -48679,7 +48679,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48689,7 +48689,7 @@ multiplicity 2
 entry(
     index = 1372,
     label = "[O-][NH2+][C]D[NH+][O-]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
@@ -48714,7 +48714,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48724,7 +48724,7 @@ multiplicity 2
 entry(
     index = 1373,
     label = "[O-][NH+]DCNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -48749,7 +48749,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48759,7 +48759,7 @@ entry(
 entry(
     index = 1374,
     label = "[O-][NH2+]NDCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  N u0 p0 c+1 {4,S} {8,S} {9,S} {10,S}
@@ -48786,7 +48786,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48796,7 +48796,7 @@ entry(
 entry(
     index = 1375,
     label = "CNCNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -48826,7 +48826,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48836,7 +48836,7 @@ entry(
 entry(
     index = 1376,
     label = "NOND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -48860,7 +48860,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48870,7 +48870,7 @@ multiplicity 2
 entry(
     index = 1377,
     label = "CN[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -48896,7 +48896,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48906,7 +48906,7 @@ multiplicity 2
 entry(
     index = 1378,
     label = "[O-][NH+]DCDCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {5,S} {6,S}
@@ -48930,7 +48930,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48940,7 +48940,7 @@ multiplicity 2
 entry(
     index = 1379,
     label = "NCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,D} {6,S}
@@ -48962,7 +48962,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -48972,7 +48972,7 @@ entry(
 entry(
     index = 1380,
     label = "NCNDNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {8,S} {9,S}
@@ -48999,7 +48999,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49009,7 +49009,7 @@ entry(
 entry(
     index = 1381,
     label = "NC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -49035,7 +49035,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49045,7 +49045,7 @@ entry(
 entry(
     index = 1382,
     label = "NNNCDN",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -49072,7 +49072,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49082,7 +49082,7 @@ entry(
 entry(
     index = 1383,
     label = "CONCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
@@ -49111,7 +49111,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49121,7 +49121,7 @@ entry(
 entry(
     index = 1384,
     label = "CCNNDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -49149,7 +49149,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49159,7 +49159,7 @@ entry(
 entry(
     index = 1385,
     label = "CCDNNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,D} {9,S}
@@ -49186,7 +49186,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49196,7 +49196,7 @@ entry(
 entry(
     index = 1386,
     label = "CC(DN)CO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -49224,7 +49224,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49234,7 +49234,7 @@ entry(
 entry(
     index = 1387,
     label = "N#CCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,T}
@@ -49257,7 +49257,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49267,7 +49267,7 @@ entry(
 entry(
     index = 1388,
     label = "[O-][N+]DCCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -49292,7 +49292,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49302,7 +49302,7 @@ multiplicity 2
 entry(
     index = 1389,
     label = "ONONO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {6,S}
 2 N u0 p1 c0 {3,S} {5,S} {7,S}
@@ -49327,7 +49327,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49337,7 +49337,7 @@ entry(
 entry(
     index = 1390,
     label = "CDNN(O)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -49362,7 +49362,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49372,7 +49372,7 @@ entry(
 entry(
     index = 1391,
     label = "OC(DO)NDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,D}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -49395,7 +49395,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49405,7 +49405,7 @@ entry(
 entry(
     index = 1392,
     label = "CONC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -49432,7 +49432,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49442,7 +49442,7 @@ entry(
 entry(
     index = 1393,
     label = "[CH2]CDNO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -49467,7 +49467,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49477,7 +49477,7 @@ multiplicity 2
 entry(
     index = 1394,
     label = "[CH]DCC#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -49500,7 +49500,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49510,7 +49510,7 @@ multiplicity 2
 entry(
     index = 1395,
     label = "NC#CNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -49533,7 +49533,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49543,7 +49543,7 @@ entry(
 entry(
     index = 1396,
     label = "CCNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -49571,7 +49571,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49581,7 +49581,7 @@ entry(
 entry(
     index = 1397,
     label = "CND[C]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -49608,7 +49608,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49618,7 +49618,7 @@ multiplicity 2
 entry(
     index = 1398,
     label = "NCDNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -49642,7 +49642,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49652,7 +49652,7 @@ entry(
 entry(
     index = 1399,
     label = "NN(NDN)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -49677,7 +49677,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49687,7 +49687,7 @@ entry(
 entry(
     index = 1400,
     label = "[O-][NH2+]C(DN)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -49712,7 +49712,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49722,7 +49722,7 @@ entry(
 entry(
     index = 1401,
     label = "N[N]NN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -49748,7 +49748,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49758,7 +49758,7 @@ multiplicity 2
 entry(
     index = 1402,
     label = "[O-][NH2+][CH]CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -49786,7 +49786,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49796,7 +49796,7 @@ multiplicity 2
 entry(
     index = 1403,
     label = "NNDCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -49820,7 +49820,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49830,7 +49830,7 @@ entry(
 entry(
     index = 1404,
     label = "[O-][NH2+][N]CC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -49859,7 +49859,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49869,7 +49869,7 @@ multiplicity 2
 entry(
     index = 1405,
     label = "NCDCDNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -49894,7 +49894,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49904,7 +49904,7 @@ entry(
 entry(
     index = 1406,
     label = "OOONDN",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -49927,7 +49927,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49937,7 +49937,7 @@ entry(
 entry(
     index = 1407,
     label = "[NH-][NH+]DN[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,D} {4,S} {5,S}
@@ -49962,7 +49962,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -49972,7 +49972,7 @@ multiplicity 2
 entry(
     index = 1408,
     label = "[O-][NH+]DC[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -49996,7 +49996,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50006,7 +50006,7 @@ multiplicity 2
 entry(
     index = 1409,
     label = "CN(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -50034,7 +50034,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50044,7 +50044,7 @@ entry(
 entry(
     index = 1410,
     label = "[N]DCCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -50067,7 +50067,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50077,7 +50077,7 @@ multiplicity 2
 entry(
     index = 1411,
     label = "NOONDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -50101,7 +50101,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50111,7 +50111,7 @@ entry(
 entry(
     index = 1412,
     label = "[O-][NH2+]CC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -50141,7 +50141,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50151,7 +50151,7 @@ multiplicity 2
 entry(
     index = 1413,
     label = "NC(DO)N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -50175,7 +50175,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50185,7 +50185,7 @@ entry(
 entry(
     index = 1414,
     label = "[O-][NH+]DNC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 N u0 p0 c+1 {3,D} {7,S} {8,S}
@@ -50209,7 +50209,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50219,7 +50219,7 @@ entry(
 entry(
     index = 1415,
     label = "N[C](NDO)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -50244,7 +50244,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50254,7 +50254,7 @@ multiplicity 2
 entry(
     index = 1416,
     label = "NDCDCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -50277,7 +50277,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50287,7 +50287,7 @@ entry(
 entry(
     index = 1417,
     label = "[O-][N+]#CNN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -50311,7 +50311,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50321,7 +50321,7 @@ entry(
 entry(
     index = 1418,
     label = "NNOO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -50345,7 +50345,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50355,7 +50355,7 @@ entry(
 entry(
     index = 1419,
     label = "CC(NDN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -50382,7 +50382,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50392,7 +50392,7 @@ entry(
 entry(
     index = 1420,
     label = "[NH]CCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -50419,7 +50419,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50429,7 +50429,7 @@ multiplicity 2
 entry(
     index = 1421,
     label = "OOCNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -50454,7 +50454,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50464,7 +50464,7 @@ entry(
 entry(
     index = 1422,
     label = "CNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -50490,7 +50490,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50500,7 +50500,7 @@ entry(
 entry(
     index = 1423,
     label = "COCDNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {5,D} {9,S}
@@ -50527,7 +50527,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50537,7 +50537,7 @@ entry(
 entry(
     index = 1424,
     label = "[O-][NH2+]CCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -50565,7 +50565,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50575,7 +50575,7 @@ entry(
 entry(
     index = 1425,
     label = "CNN(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
@@ -50605,7 +50605,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50615,7 +50615,7 @@ entry(
 entry(
     index = 1426,
     label = "OCC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -50644,7 +50644,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50654,7 +50654,7 @@ entry(
 entry(
     index = 1427,
     label = "OCDNCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 C u0 p0 c0 {3,S} {6,D} {7,S}
@@ -50678,7 +50678,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50688,7 +50688,7 @@ entry(
 entry(
     index = 1428,
     label = "[O-][NH+]DN[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,D} {4,S} {5,S}
@@ -50712,7 +50712,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50722,7 +50722,7 @@ multiplicity 2
 entry(
     index = 1429,
     label = "[O-][NH2+]NND[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
@@ -50747,7 +50747,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50757,7 +50757,7 @@ multiplicity 2
 entry(
     index = 1430,
     label = "CON(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
@@ -50786,7 +50786,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50796,7 +50796,7 @@ entry(
 entry(
     index = 1431,
     label = "CCNCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
@@ -50827,7 +50827,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50837,7 +50837,7 @@ entry(
 entry(
     index = 1432,
     label = "[O-][N+]DNNC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -50863,7 +50863,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50873,7 +50873,7 @@ multiplicity 2
 entry(
     index = 1433,
     label = "CCC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,S} {8,S}
@@ -50903,7 +50903,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50913,7 +50913,7 @@ entry(
 entry(
     index = 1434,
     label = "ONN(O)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -50940,7 +50940,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50950,7 +50950,7 @@ entry(
 entry(
     index = 1435,
     label = "NDNNCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -50974,7 +50974,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -50984,7 +50984,7 @@ entry(
 entry(
     index = 1436,
     label = "[O-][NH+]D[C]NC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -51011,7 +51011,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51021,7 +51021,7 @@ multiplicity 2
 entry(
     index = 1437,
     label = "[O-][NH2+]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,S} {3,S} {4,S}
@@ -51042,7 +51042,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51052,7 +51052,7 @@ multiplicity 2
 entry(
     index = 1438,
     label = "C#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -51071,7 +51071,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51081,7 +51081,7 @@ entry(
 entry(
     index = 1439,
     label = "NC(DN)OO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -51106,7 +51106,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51116,7 +51116,7 @@ entry(
 entry(
     index = 1440,
     label = "[O-][N+]#CC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 N u0 p0 c+1 {1,T} {4,S}
@@ -51137,7 +51137,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51147,7 +51147,7 @@ entry(
 entry(
     index = 1441,
     label = "N#COC#N",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -51168,7 +51168,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51178,7 +51178,7 @@ entry(
 entry(
     index = 1442,
     label = "NC[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -51204,7 +51204,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51214,7 +51214,7 @@ multiplicity 2
 entry(
     index = 1443,
     label = "CN[N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -51240,7 +51240,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51250,7 +51250,7 @@ multiplicity 2
 entry(
     index = 1444,
     label = "[O-][NH2+][CH]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
@@ -51276,7 +51276,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51286,7 +51286,7 @@ multiplicity 2
 entry(
     index = 1445,
     label = "[O-][NH2+]NND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -51312,7 +51312,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51322,7 +51322,7 @@ multiplicity 2
 entry(
     index = 1446,
     label = "NC[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -51347,7 +51347,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51357,7 +51357,7 @@ multiplicity 2
 entry(
     index = 1447,
     label = "[O]OC#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -51378,7 +51378,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51388,7 +51388,7 @@ multiplicity 2
 entry(
     index = 1448,
     label = "CC(CO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -51418,7 +51418,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51428,7 +51428,7 @@ entry(
 entry(
     index = 1449,
     label = "[O-][NH2+]CDCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -51454,7 +51454,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51464,7 +51464,7 @@ multiplicity 2
 entry(
     index = 1450,
     label = "[O-][NH2+]OCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -51492,7 +51492,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51502,7 +51502,7 @@ entry(
 entry(
     index = 1451,
     label = "[O-][NH2+]OO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -51525,7 +51525,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51535,7 +51535,7 @@ entry(
 entry(
     index = 1452,
     label = "COND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -51560,7 +51560,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51570,7 +51570,7 @@ multiplicity 2
 entry(
     index = 1453,
     label = "CCNCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {5,S} {11,S} {12,S}
@@ -51600,7 +51600,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51610,7 +51610,7 @@ entry(
 entry(
     index = 1454,
     label = "ONO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -51632,7 +51632,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51642,7 +51642,7 @@ entry(
 entry(
     index = 1455,
     label = "[O-][NH+]DCDNC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 N u0 p0 c+1 {4,D} {8,S} {9,S}
@@ -51667,7 +51667,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51677,7 +51677,7 @@ entry(
 entry(
     index = 1456,
     label = "CCDNNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,D} {9,S}
@@ -51704,7 +51704,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51714,7 +51714,7 @@ entry(
 entry(
     index = 1457,
     label = "[N-]([N+]DN)C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -51739,7 +51739,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51749,7 +51749,7 @@ multiplicity 2
 entry(
     index = 1458,
     label = "[O-][NH2+]CCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -51778,7 +51778,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51788,7 +51788,7 @@ entry(
 entry(
     index = 1459,
     label = "[N-]([N+]DO)CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -51813,7 +51813,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51823,7 +51823,7 @@ multiplicity 2
 entry(
     index = 1460,
     label = "CNDCDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {4,D} {8,S} {9,S}
@@ -51848,7 +51848,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51858,7 +51858,7 @@ entry(
 entry(
     index = 1461,
     label = "OOCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -51882,7 +51882,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51892,7 +51892,7 @@ entry(
 entry(
     index = 1462,
     label = "[O-][N+]#CNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -51915,7 +51915,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51925,7 +51925,7 @@ entry(
 entry(
     index = 1463,
     label = "[NH]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -51946,7 +51946,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51956,7 +51956,7 @@ multiplicity 2
 entry(
     index = 1464,
     label = "NOCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -51981,7 +51981,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51991,7 +51991,7 @@ entry(
 entry(
     index = 1465,
     label = "CC(NDN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -52019,7 +52019,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52029,7 +52029,7 @@ entry(
 entry(
     index = 1466,
     label = "N[C](NDO)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -52055,7 +52055,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52065,7 +52065,7 @@ multiplicity 2
 entry(
     index = 1467,
     label = "COCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {3,S} {4,D} {8,S}
@@ -52090,7 +52090,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52100,7 +52100,7 @@ entry(
 entry(
     index = 1468,
     label = "CNDC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -52126,7 +52126,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52136,7 +52136,7 @@ multiplicity 2
 entry(
     index = 1469,
     label = "NC(DO)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -52159,7 +52159,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52169,7 +52169,7 @@ entry(
 entry(
     index = 1470,
     label = "[N-]([NH+]DO)[N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {5,D} {6,S}
@@ -52193,7 +52193,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52203,7 +52203,7 @@ multiplicity 2
 entry(
     index = 1471,
     label = "[O-][NH2+]NDN[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -52229,7 +52229,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52239,7 +52239,7 @@ multiplicity 2
 entry(
     index = 1472,
     label = "[O-][NH+]DC[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -52264,7 +52264,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52274,7 +52274,7 @@ multiplicity 2
 entry(
     index = 1473,
     label = "OOONDO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -52296,7 +52296,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52306,7 +52306,7 @@ entry(
 entry(
     index = 1474,
     label = "NNOOO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -52331,7 +52331,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52341,7 +52341,7 @@ entry(
 entry(
     index = 1475,
     label = "CNNDCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {4,S} {9,S}
@@ -52368,7 +52368,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52378,7 +52378,7 @@ entry(
 entry(
     index = 1476,
     label = "[O-][NH2+][CH]CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -52407,7 +52407,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52417,7 +52417,7 @@ multiplicity 2
 entry(
     index = 1477,
     label = "NNDCNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {6,S}
 2 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -52442,7 +52442,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52452,7 +52452,7 @@ entry(
 entry(
     index = 1478,
     label = "N[N]NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
@@ -52477,7 +52477,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52487,7 +52487,7 @@ multiplicity 2
 entry(
     index = 1479,
     label = "NNC#CO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -52512,7 +52512,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52522,7 +52522,7 @@ entry(
 entry(
     index = 1480,
     label = "CCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -52549,7 +52549,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52559,7 +52559,7 @@ entry(
 entry(
     index = 1481,
     label = "ONC#CO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -52583,7 +52583,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52593,7 +52593,7 @@ entry(
 entry(
     index = 1482,
     label = "O[N]NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -52617,7 +52617,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52627,7 +52627,7 @@ multiplicity 2
 entry(
     index = 1483,
     label = "ONDNC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -52649,7 +52649,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52659,7 +52659,7 @@ entry(
 entry(
     index = 1484,
     label = "NC#CNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -52683,7 +52683,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52693,7 +52693,7 @@ entry(
 entry(
     index = 1485,
     label = "[CH2]CDNN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -52719,7 +52719,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52729,7 +52729,7 @@ multiplicity 2
 entry(
     index = 1486,
     label = "CCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -52756,7 +52756,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52766,7 +52766,7 @@ entry(
 entry(
     index = 1487,
     label = "CDNN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -52795,7 +52795,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52805,7 +52805,7 @@ entry(
 entry(
     index = 1488,
     label = "CDCCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -52833,7 +52833,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52843,7 +52843,7 @@ entry(
 entry(
     index = 1489,
     label = "[O]CC#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -52866,7 +52866,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52876,7 +52876,7 @@ multiplicity 2
 entry(
     index = 1490,
     label = "[O-][N+]DCCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -52900,7 +52900,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52910,7 +52910,7 @@ multiplicity 2
 entry(
     index = 1491,
     label = "CC(OO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -52938,7 +52938,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52948,7 +52948,7 @@ entry(
 entry(
     index = 1492,
     label = "CN([NH2+][O-])C",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -52977,7 +52977,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -52987,7 +52987,7 @@ entry(
 entry(
     index = 1493,
     label = "CCDNNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,D} {9,S}
@@ -53015,7 +53015,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53025,7 +53025,7 @@ entry(
 entry(
     index = 1494,
     label = "O[N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,S} {3,S}
@@ -53047,7 +53047,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53057,7 +53057,7 @@ multiplicity 2
 entry(
     index = 1495,
     label = "ONNCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -53082,7 +53082,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53092,7 +53092,7 @@ entry(
 entry(
     index = 1496,
     label = "CC(DN)CN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -53121,7 +53121,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53131,7 +53131,7 @@ entry(
 entry(
     index = 1497,
     label = "CDNOC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -53155,7 +53155,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53165,7 +53165,7 @@ entry(
 entry(
     index = 1498,
     label = "NC(O)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -53190,7 +53190,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53200,7 +53200,7 @@ entry(
 entry(
     index = 1499,
     label = "CCNNDO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -53227,7 +53227,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53237,7 +53237,7 @@ entry(
 entry(
     index = 1500,
     label = "CONCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -53265,7 +53265,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53275,7 +53275,7 @@ entry(
 entry(
     index = 1501,
     label = "OCNDNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -53300,7 +53300,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53310,7 +53310,7 @@ entry(
 entry(
     index = 1502,
     label = "ONC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -53332,7 +53332,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53342,7 +53342,7 @@ entry(
 entry(
     index = 1503,
     label = "[N-]([NH+]DO)C#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,D} {5,S}
 2 N u0 p2 c-1 {1,S} {3,S}
@@ -53364,7 +53364,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53374,7 +53374,7 @@ entry(
 entry(
     index = 1504,
     label = "[O-][N+]DCDCC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -53400,7 +53400,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53410,7 +53410,7 @@ multiplicity 2
 entry(
     index = 1505,
     label = "COCNDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -53437,7 +53437,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53447,7 +53447,7 @@ entry(
 entry(
     index = 1506,
     label = "[CH]DCCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -53472,7 +53472,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53482,7 +53482,7 @@ multiplicity 2
 entry(
     index = 1507,
     label = "ONC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  N u0 p1 c0 {1,S} {5,S} {7,S}
@@ -53510,7 +53510,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53520,7 +53520,7 @@ entry(
 entry(
     index = 1508,
     label = "CNC(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -53552,7 +53552,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53562,7 +53562,7 @@ entry(
 entry(
     index = 1509,
     label = "CCN(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -53593,7 +53593,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53603,7 +53603,7 @@ entry(
 entry(
     index = 1510,
     label = "ONDNCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,D} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -53626,7 +53626,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53636,7 +53636,7 @@ entry(
 entry(
     index = 1511,
     label = "OOC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -53663,7 +53663,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53673,7 +53673,7 @@ entry(
 entry(
     index = 1512,
     label = "[O-][NH2+]CND[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -53699,7 +53699,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53709,7 +53709,7 @@ multiplicity 2
 entry(
     index = 1513,
     label = "[O-][NH+]DC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -53734,7 +53734,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53744,7 +53744,7 @@ multiplicity 2
 entry(
     index = 1514,
     label = "CDCDNC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -53768,7 +53768,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53778,7 +53778,7 @@ entry(
 entry(
     index = 1515,
     label = "NCC(DN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,D}
@@ -53806,7 +53806,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53816,7 +53816,7 @@ entry(
 entry(
     index = 1516,
     label = "[O-][NH2+]CN[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -53845,7 +53845,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53855,7 +53855,7 @@ multiplicity 2
 entry(
     index = 1517,
     label = "[O-][NH2+]CO[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -53883,7 +53883,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53893,7 +53893,7 @@ multiplicity 2
 entry(
     index = 1518,
     label = "[O-][NH2+]NNC",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -53921,7 +53921,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53931,7 +53931,7 @@ entry(
 entry(
     index = 1519,
     label = "NCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -53955,7 +53955,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53965,7 +53965,7 @@ entry(
 entry(
     index = 1520,
     label = "NONDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -53987,7 +53987,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -53997,7 +53997,7 @@ entry(
 entry(
     index = 1521,
     label = "NDCDCDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -54019,7 +54019,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54029,7 +54029,7 @@ entry(
 entry(
     index = 1522,
     label = "CCONO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -54057,7 +54057,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54067,7 +54067,7 @@ entry(
 entry(
     index = 1523,
     label = "[O-][NH+](C)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
@@ -54094,7 +54094,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54104,7 +54104,7 @@ multiplicity 2
 entry(
     index = 1524,
     label = "NNNC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -54129,7 +54129,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54139,7 +54139,7 @@ entry(
 entry(
     index = 1525,
     label = "NDCNNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {5,S}
@@ -54163,7 +54163,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54173,7 +54173,7 @@ entry(
 entry(
     index = 1526,
     label = "ODNONDO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {5,S}
 2 O u0 p2 c0 {4,D}
@@ -54194,7 +54194,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54204,7 +54204,7 @@ entry(
 entry(
     index = 1527,
     label = "ONNC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -54228,7 +54228,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54238,7 +54238,7 @@ entry(
 entry(
     index = 1528,
     label = "NOC(DO)N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,D}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -54263,7 +54263,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54273,7 +54273,7 @@ entry(
 entry(
     index = 1529,
     label = "NC(O)(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -54300,7 +54300,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54310,7 +54310,7 @@ entry(
 entry(
     index = 1530,
     label = "NO[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -54334,7 +54334,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54344,7 +54344,7 @@ multiplicity 2
 entry(
     index = 1531,
     label = "ONCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -54367,7 +54367,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54377,7 +54377,7 @@ entry(
 entry(
     index = 1532,
     label = "[NH]N(O)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -54401,7 +54401,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54411,7 +54411,7 @@ multiplicity 2
 entry(
     index = 1533,
     label = "[O-][NH2+]C[N]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -54439,7 +54439,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54449,7 +54449,7 @@ multiplicity 2
 entry(
     index = 1534,
     label = "N[CH]NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {5,S}
@@ -54475,7 +54475,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54485,7 +54485,7 @@ multiplicity 2
 entry(
     index = 1535,
     label = "NN[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -54510,7 +54510,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54520,7 +54520,7 @@ multiplicity 2
 entry(
     index = 1536,
     label = "C#CNC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -54544,7 +54544,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54554,7 +54554,7 @@ entry(
 entry(
     index = 1537,
     label = "NN[N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -54579,7 +54579,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54589,7 +54589,7 @@ multiplicity 2
 entry(
     index = 1538,
     label = "NCCCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -54620,7 +54620,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54630,7 +54630,7 @@ entry(
 entry(
     index = 1539,
     label = "[N-]([NH+]DO)CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 N u0 p0 c+1 {3,S} {7,D} {8,S}
@@ -54655,7 +54655,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54665,7 +54665,7 @@ entry(
 entry(
     index = 1540,
     label = "COC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
@@ -54693,7 +54693,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54703,7 +54703,7 @@ entry(
 entry(
     index = 1541,
     label = "CNDCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -54728,7 +54728,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54738,7 +54738,7 @@ entry(
 entry(
     index = 1542,
     label = "[O-][NH2+]CCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  N u0 p0 c+1 {1,S} {7,S} {8,S} {9,S}
@@ -54766,7 +54766,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54776,7 +54776,7 @@ entry(
 entry(
     index = 1543,
     label = "OCN(O)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -54804,7 +54804,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54814,7 +54814,7 @@ entry(
 entry(
     index = 1544,
     label = "CNC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -54843,7 +54843,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54853,7 +54853,7 @@ entry(
 entry(
     index = 1545,
     label = "NCDCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -54878,7 +54878,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54888,7 +54888,7 @@ entry(
 entry(
     index = 1546,
     label = "NDCC(DN)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -54913,7 +54913,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54923,7 +54923,7 @@ entry(
 entry(
     index = 1547,
     label = "ODNCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,D}
@@ -54946,7 +54946,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54956,7 +54956,7 @@ entry(
 entry(
     index = 1548,
     label = "CCNDNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -54984,7 +54984,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -54994,7 +54994,7 @@ entry(
 entry(
     index = 1549,
     label = "[O-][N+]#CCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -55017,7 +55017,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55027,7 +55027,7 @@ entry(
 entry(
     index = 1550,
     label = "CNNOC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
@@ -55056,7 +55056,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55066,7 +55066,7 @@ entry(
 entry(
     index = 1551,
     label = "[O-][NH2+][C]DCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
@@ -55090,7 +55090,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55100,7 +55100,7 @@ multiplicity 2
 entry(
     index = 1552,
     label = "CC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -55127,7 +55127,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55137,7 +55137,7 @@ entry(
 entry(
     index = 1553,
     label = "NCNNDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -55164,7 +55164,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55174,7 +55174,7 @@ entry(
 entry(
     index = 1554,
     label = "CNNCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -55202,7 +55202,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55212,7 +55212,7 @@ entry(
 entry(
     index = 1555,
     label = "CNDCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {4,D} {9,S}
@@ -55239,7 +55239,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55249,7 +55249,7 @@ entry(
 entry(
     index = 1556,
     label = "CDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {5,S}
 2 C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -55270,7 +55270,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55280,7 +55280,7 @@ entry(
 entry(
     index = 1557,
     label = "[O-][CH]CD[NH2+]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -55305,7 +55305,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55315,7 +55315,7 @@ multiplicity 2
 entry(
     index = 1558,
     label = "ONCDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -55339,7 +55339,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55349,7 +55349,7 @@ entry(
 entry(
     index = 1559,
     label = "NCDCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {4,S} {6,S}
@@ -55374,7 +55374,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55384,7 +55384,7 @@ entry(
 entry(
     index = 1560,
     label = "CN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -55407,7 +55407,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55417,7 +55417,7 @@ entry(
 entry(
     index = 1561,
     label = "N[C](O)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -55442,7 +55442,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55452,7 +55452,7 @@ multiplicity 2
 entry(
     index = 1562,
     label = "NNDCDNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -55476,7 +55476,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55486,7 +55486,7 @@ entry(
 entry(
     index = 1563,
     label = "NND[C]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -55510,7 +55510,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55520,7 +55520,7 @@ multiplicity 2
 entry(
     index = 1564,
     label = "[NH-][NH+]DC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -55546,7 +55546,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55556,7 +55556,7 @@ multiplicity 2
 entry(
     index = 1565,
     label = "CNC(DN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -55584,7 +55584,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55594,7 +55594,7 @@ entry(
 entry(
     index = 1566,
     label = "COONDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -55619,7 +55619,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55629,7 +55629,7 @@ entry(
 entry(
     index = 1567,
     label = "NCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -55653,7 +55653,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55663,7 +55663,7 @@ entry(
 entry(
     index = 1568,
     label = "[N-]DCD[NH2+]",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,D}
@@ -55684,7 +55684,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55694,7 +55694,7 @@ entry(
 entry(
     index = 1569,
     label = "CC(D[N])C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -55721,7 +55721,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55731,7 +55731,7 @@ multiplicity 2
 entry(
     index = 1570,
     label = "[CH2]N(O)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -55757,7 +55757,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55767,7 +55767,7 @@ multiplicity 2
 entry(
     index = 1571,
     label = "NN(CDC)O",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {5,S}
 2  C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -55794,7 +55794,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55804,7 +55804,7 @@ entry(
 entry(
     index = 1572,
     label = "ND[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,D} {3,S}
@@ -55824,7 +55824,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55834,7 +55834,7 @@ multiplicity 2
 entry(
     index = 1573,
     label = "[O-][NH+](O)[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
@@ -55857,7 +55857,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55867,7 +55867,7 @@ multiplicity 2
 entry(
     index = 1574,
     label = "C[N]NN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -55894,7 +55894,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55904,7 +55904,7 @@ multiplicity 2
 entry(
     index = 1575,
     label = "CNC#CN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {4,S} {9,S}
@@ -55931,7 +55931,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55941,7 +55941,7 @@ entry(
 entry(
     index = 1576,
     label = "[N-]([NH2+])NC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -55968,7 +55968,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -55978,7 +55978,7 @@ multiplicity 2
 entry(
     index = 1577,
     label = "C[N]NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -56004,7 +56004,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56014,7 +56014,7 @@ multiplicity 2
 entry(
     index = 1578,
     label = "[CH2]N(O)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -56039,7 +56039,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56049,7 +56049,7 @@ multiplicity 2
 entry(
     index = 1579,
     label = "[CH2]CNDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -56075,7 +56075,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56085,7 +56085,7 @@ multiplicity 2
 entry(
     index = 1580,
     label = "ODNC(DO)C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,S} {7,D}
@@ -56109,7 +56109,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56119,7 +56119,7 @@ entry(
 entry(
     index = 1581,
     label = "CND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -56143,7 +56143,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56153,7 +56153,7 @@ multiplicity 2
 entry(
     index = 1582,
     label = "O[N]C#C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,S} {3,S}
@@ -56176,7 +56176,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56186,7 +56186,7 @@ multiplicity 2
 entry(
     index = 1583,
     label = "OCDNC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -56209,7 +56209,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56219,7 +56219,7 @@ entry(
 entry(
     index = 1584,
     label = "NCNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -56244,7 +56244,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56254,7 +56254,7 @@ entry(
 entry(
     index = 1585,
     label = "COONN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {3,S} {5,S} {9,S}
@@ -56281,7 +56281,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56291,7 +56291,7 @@ entry(
 entry(
     index = 1586,
     label = "[O-][NH+]DCDC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -56317,7 +56317,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56327,7 +56327,7 @@ multiplicity 2
 entry(
     index = 1587,
     label = "CDCN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -56357,7 +56357,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56367,7 +56367,7 @@ entry(
 entry(
     index = 1588,
     label = "CNC(DN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {9,S}
@@ -56394,7 +56394,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56404,7 +56404,7 @@ entry(
 entry(
     index = 1589,
     label = "COONDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -56428,7 +56428,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56438,7 +56438,7 @@ entry(
 entry(
     index = 1590,
     label = "NNDCDNN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
 2 N u0 p1 c0 {4,S} {8,S} {9,S}
@@ -56463,7 +56463,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56473,7 +56473,7 @@ entry(
 entry(
     index = 1591,
     label = "ONDCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,D}
@@ -56495,7 +56495,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56505,7 +56505,7 @@ multiplicity 2
 entry(
     index = 1592,
     label = "N[C](O)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -56531,7 +56531,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56541,7 +56541,7 @@ multiplicity 2
 entry(
     index = 1593,
     label = "[O-][NH2+]C(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p0 c+1 {1,S} {6,S} {7,S} {8,S}
@@ -56570,7 +56570,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56580,7 +56580,7 @@ entry(
 entry(
     index = 1594,
     label = "[O-][NH2+]NDC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {4,S} {5,S} {6,S} {7,S}
@@ -56607,7 +56607,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56617,7 +56617,7 @@ multiplicity 2
 entry(
     index = 1595,
     label = "CDNNDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {5,S} {6,S}
 2 C u0 p0 c0 {4,D} {7,S} {8,S}
@@ -56641,7 +56641,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56651,7 +56651,7 @@ entry(
 entry(
     index = 1596,
     label = "CNCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -56680,7 +56680,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56690,7 +56690,7 @@ entry(
 entry(
     index = 1597,
     label = "NDCDCCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -56714,7 +56714,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56724,7 +56724,7 @@ entry(
 entry(
     index = 1598,
     label = "OOCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {6,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -56748,7 +56748,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56758,7 +56758,7 @@ entry(
 entry(
     index = 1599,
     label = "COC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -56781,7 +56781,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56791,7 +56791,7 @@ entry(
 entry(
     index = 1600,
     label = "ONCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {7,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -56816,7 +56816,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56826,7 +56826,7 @@ entry(
 entry(
     index = 1601,
     label = "CCNDCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -56854,7 +56854,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56864,7 +56864,7 @@ entry(
 entry(
     index = 1602,
     label = "CNDCNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {3,S} {4,S} {9,S}
@@ -56892,7 +56892,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56902,7 +56902,7 @@ entry(
 entry(
     index = 1603,
     label = "OCNNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {4,S} {7,S}
@@ -56927,7 +56927,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56937,7 +56937,7 @@ entry(
 entry(
     index = 1604,
     label = "ODCOC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -56959,7 +56959,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -56969,7 +56969,7 @@ entry(
 entry(
     index = 1605,
     label = "NOCCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -56997,7 +56997,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57007,7 +57007,7 @@ entry(
 entry(
     index = 1606,
     label = "CNNCDO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -57034,7 +57034,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57044,7 +57044,7 @@ entry(
 entry(
     index = 1607,
     label = "NDNNC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -57067,7 +57067,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57077,7 +57077,7 @@ entry(
 entry(
     index = 1608,
     label = "CNDC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {4,S} {5,D}
@@ -57105,7 +57105,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57115,7 +57115,7 @@ entry(
 entry(
     index = 1609,
     label = "[O-][N+]#CCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -57137,7 +57137,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57147,7 +57147,7 @@ entry(
 entry(
     index = 1610,
     label = "CCNDNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -57174,7 +57174,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57184,7 +57184,7 @@ entry(
 entry(
     index = 1611,
     label = "[O]OCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -57207,7 +57207,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57217,7 +57217,7 @@ multiplicity 2
 entry(
     index = 1612,
     label = "[O-][NH2+][C]DCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -57242,7 +57242,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57252,7 +57252,7 @@ multiplicity 2
 entry(
     index = 1613,
     label = "CNNDCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -57281,7 +57281,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57291,7 +57291,7 @@ entry(
 entry(
     index = 1614,
     label = "NDCC(DN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,D}
 2  C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -57317,7 +57317,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57327,7 +57327,7 @@ entry(
 entry(
     index = 1615,
     label = "[O-][NH2+]C(N)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -57356,7 +57356,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57366,7 +57366,7 @@ multiplicity 2
 entry(
     index = 1616,
     label = "CN(OO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -57393,7 +57393,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57403,7 +57403,7 @@ entry(
 entry(
     index = 1617,
     label = "NCDCDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -57427,7 +57427,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57437,7 +57437,7 @@ entry(
 entry(
     index = 1618,
     label = "CNDCDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -57461,7 +57461,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57471,7 +57471,7 @@ entry(
 entry(
     index = 1619,
     label = "CNC(O)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -57499,7 +57499,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57509,7 +57509,7 @@ entry(
 entry(
     index = 1620,
     label = "[O]CCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -57534,7 +57534,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57544,7 +57544,7 @@ multiplicity 2
 entry(
     index = 1621,
     label = "CC(C#N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -57572,7 +57572,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57582,7 +57582,7 @@ entry(
 entry(
     index = 1622,
     label = "NCCCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -57612,7 +57612,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57622,7 +57622,7 @@ entry(
 entry(
     index = 1623,
     label = "[O-][N+](O)C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -57647,7 +57647,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57657,7 +57657,7 @@ multiplicity 2
 entry(
     index = 1624,
     label = "C[C](NDO)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -57683,7 +57683,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57693,7 +57693,7 @@ multiplicity 2
 entry(
     index = 1625,
     label = "[N-]([NH+]DO)CDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
 2 N u0 p0 c+1 {3,S} {6,D} {7,S}
@@ -57717,7 +57717,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57727,7 +57727,7 @@ entry(
 entry(
     index = 1626,
     label = "ONCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -57751,7 +57751,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57761,7 +57761,7 @@ entry(
 entry(
     index = 1627,
     label = "NO[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -57784,7 +57784,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57794,7 +57794,7 @@ multiplicity 2
 entry(
     index = 1628,
     label = "NCDC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {4,S}
 2  C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -57822,7 +57822,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57832,7 +57832,7 @@ entry(
 entry(
     index = 1629,
     label = "[O-][NH2+]CDCN",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -57859,7 +57859,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57869,7 +57869,7 @@ entry(
 entry(
     index = 1630,
     label = "[O-][NH2+]C[N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -57896,7 +57896,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57906,7 +57906,7 @@ multiplicity 2
 entry(
     index = 1631,
     label = "CCCNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -57938,7 +57938,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57948,7 +57948,7 @@ entry(
 entry(
     index = 1632,
     label = "[O-][N+]DCCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -57975,7 +57975,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -57985,7 +57985,7 @@ multiplicity 2
 entry(
     index = 1633,
     label = "CN(CO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -58014,7 +58014,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58024,7 +58024,7 @@ entry(
 entry(
     index = 1634,
     label = "NOC(DO)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,D}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -58048,7 +58048,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58058,7 +58058,7 @@ entry(
 entry(
     index = 1635,
     label = "NDCNNDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {7,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -58083,7 +58083,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58093,7 +58093,7 @@ entry(
 entry(
     index = 1636,
     label = "NDCDCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -58116,7 +58116,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58126,7 +58126,7 @@ entry(
 entry(
     index = 1637,
     label = "NONDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -58149,7 +58149,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58159,7 +58159,7 @@ entry(
 entry(
     index = 1638,
     label = "CCONN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -58188,7 +58188,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58198,7 +58198,7 @@ entry(
 entry(
     index = 1639,
     label = "NCN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -58223,7 +58223,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58233,7 +58233,7 @@ entry(
 entry(
     index = 1640,
     label = "[N]DCC#N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -58255,7 +58255,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58265,7 +58265,7 @@ multiplicity 2
 entry(
     index = 1641,
     label = "[CH2]ONDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {5,S} {6,S}
@@ -58289,7 +58289,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58299,7 +58299,7 @@ multiplicity 2
 entry(
     index = 1642,
     label = "NCC(DN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {5,D}
@@ -58326,7 +58326,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58336,7 +58336,7 @@ entry(
 entry(
     index = 1643,
     label = "OOCDNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {6,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -58360,7 +58360,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58370,7 +58370,7 @@ entry(
 entry(
     index = 1644,
     label = "ONDNCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -58394,7 +58394,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58404,7 +58404,7 @@ entry(
 entry(
     index = 1645,
     label = "NOCDNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,D} {6,S}
 2 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -58429,7 +58429,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58439,7 +58439,7 @@ entry(
 entry(
     index = 1646,
     label = "[O-][N+](DN)C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p0 c+1 {1,S} {3,D} {7,S}
@@ -58463,7 +58463,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58473,7 +58473,7 @@ entry(
 entry(
     index = 1647,
     label = "CCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -58498,7 +58498,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58508,7 +58508,7 @@ entry(
 entry(
     index = 1648,
     label = "[O-][NH+]DCNDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 N u0 p0 c+1 {1,D} {6,S} {7,S}
@@ -58533,7 +58533,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58543,7 +58543,7 @@ entry(
 entry(
     index = 1649,
     label = "NNDCDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {4,D} {7,S} {8,S}
@@ -58567,7 +58567,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58577,7 +58577,7 @@ entry(
 entry(
     index = 1650,
     label = "CC(CDC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -58607,7 +58607,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58617,7 +58617,7 @@ entry(
 entry(
     index = 1651,
     label = "ONDCDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -58640,7 +58640,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58650,7 +58650,7 @@ entry(
 entry(
     index = 1652,
     label = "[CH]DNC#C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,D}
@@ -58673,7 +58673,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58683,7 +58683,7 @@ multiplicity 2
 entry(
     index = 1653,
     label = "[O-][NH2+]C[CH]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -58713,7 +58713,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58723,7 +58723,7 @@ multiplicity 2
 entry(
     index = 1654,
     label = "[O-][NH+]D[C]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -58747,7 +58747,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58757,7 +58757,7 @@ multiplicity 2
 entry(
     index = 1655,
     label = "OCCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -58785,7 +58785,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58795,7 +58795,7 @@ entry(
 entry(
     index = 1656,
     label = "[O-][NH+]DCDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,D} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -58818,7 +58818,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58828,7 +58828,7 @@ entry(
 entry(
     index = 1657,
     label = "[O-][NH2+][N+](DC)[O-]",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p0 c+1 {1,S} {3,D} {7,S}
@@ -58853,7 +58853,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58863,7 +58863,7 @@ entry(
 entry(
     index = 1658,
     label = "[O-][NH2+]NO[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -58890,7 +58890,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58900,7 +58900,7 @@ multiplicity 2
 entry(
     index = 1659,
     label = "NC(DCDN)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -58925,7 +58925,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58935,7 +58935,7 @@ entry(
 entry(
     index = 1660,
     label = "NCD[C]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -58960,7 +58960,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -58970,7 +58970,7 @@ multiplicity 2
 entry(
     index = 1661,
     label = "NNC(DN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,D}
 2  N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -58997,7 +58997,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59007,7 +59007,7 @@ entry(
 entry(
     index = 1662,
     label = "[O-][NH2+]NN[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -59035,7 +59035,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59045,7 +59045,7 @@ multiplicity 2
 entry(
     index = 1663,
     label = "NOO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -59067,7 +59067,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59077,7 +59077,7 @@ entry(
 entry(
     index = 1664,
     label = "NOC(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -59107,7 +59107,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59117,7 +59117,7 @@ entry(
 entry(
     index = 1665,
     label = "NNC(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -59148,7 +59148,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59158,7 +59158,7 @@ entry(
 entry(
     index = 1666,
     label = "NCN(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -59188,7 +59188,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59198,7 +59198,7 @@ entry(
 entry(
     index = 1667,
     label = "CNDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {4,D} {8,S}
@@ -59224,7 +59224,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59234,7 +59234,7 @@ entry(
 entry(
     index = 1668,
     label = "NDCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 N u0 p1 c0 {1,D} {6,S}
@@ -59256,7 +59256,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59266,7 +59266,7 @@ entry(
 entry(
     index = 1669,
     label = "CN(CDC)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {5,S}
@@ -59294,7 +59294,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59304,7 +59304,7 @@ entry(
 entry(
     index = 1670,
     label = "NCCON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -59333,7 +59333,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59343,7 +59343,7 @@ entry(
 entry(
     index = 1671,
     label = "NNC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {4,S} {7,S}
@@ -59371,7 +59371,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59381,7 +59381,7 @@ entry(
 entry(
     index = 1672,
     label = "[O-][N+](DO)N[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {6,S}
@@ -59404,7 +59404,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59414,7 +59414,7 @@ multiplicity 2
 entry(
     index = 1673,
     label = "NOC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -59441,7 +59441,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59451,7 +59451,7 @@ entry(
 entry(
     index = 1674,
     label = "CC(DC)CDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -59479,7 +59479,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59489,7 +59489,7 @@ entry(
 entry(
     index = 1675,
     label = "NDCN(O)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -59514,7 +59514,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59524,7 +59524,7 @@ entry(
 entry(
     index = 1676,
     label = "NNCCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -59553,7 +59553,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59563,7 +59563,7 @@ entry(
 entry(
     index = 1677,
     label = "CCCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -59593,7 +59593,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59603,7 +59603,7 @@ entry(
 entry(
     index = 1678,
     label = "[O-][NH+]DN",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
 2 N u0 p1 c0 {1,D} {5,S}
@@ -59624,7 +59624,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59634,7 +59634,7 @@ entry(
 entry(
     index = 1679,
     label = "NO[N]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -59658,7 +59658,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59668,7 +59668,7 @@ multiplicity 2
 entry(
     index = 1680,
     label = "[O-][N+]DNN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -59691,7 +59691,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59701,7 +59701,7 @@ multiplicity 2
 entry(
     index = 1681,
     label = "[N-]([NH+]DO)OO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {5,D} {6,S}
 2 N u0 p2 c-1 {1,S} {3,S}
@@ -59724,7 +59724,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59734,7 +59734,7 @@ entry(
 entry(
     index = 1682,
     label = "NC(DO)C#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -59757,7 +59757,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59767,7 +59767,7 @@ entry(
 entry(
     index = 1683,
     label = "[NH]CCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -59793,7 +59793,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59803,7 +59803,7 @@ multiplicity 2
 entry(
     index = 1684,
     label = "ONCCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -59831,7 +59831,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59841,7 +59841,7 @@ entry(
 entry(
     index = 1685,
     label = "C[CH]NO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -59868,7 +59868,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59878,7 +59878,7 @@ multiplicity 2
 entry(
     index = 1686,
     label = "CN[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -59904,7 +59904,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59914,7 +59914,7 @@ multiplicity 2
 entry(
     index = 1687,
     label = "[O-][N+]DNCDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -59939,7 +59939,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59949,7 +59949,7 @@ multiplicity 2
 entry(
     index = 1688,
     label = "[O-][NH2+]NC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -59973,7 +59973,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -59983,7 +59983,7 @@ entry(
 entry(
     index = 1689,
     label = "CO[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -60008,7 +60008,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60018,7 +60018,7 @@ multiplicity 2
 entry(
     index = 1690,
     label = "[O-][NH2+][N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
@@ -60042,7 +60042,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60052,7 +60052,7 @@ multiplicity 2
 entry(
     index = 1691,
     label = "CC(DO)N[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -60078,7 +60078,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60088,7 +60088,7 @@ multiplicity 2
 entry(
     index = 1692,
     label = "NNCDCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -60115,7 +60115,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60125,7 +60125,7 @@ entry(
 entry(
     index = 1693,
     label = "[N-]([NH+]DO)C[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -60150,7 +60150,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60160,7 +60160,7 @@ multiplicity 2
 entry(
     index = 1694,
     label = "NONN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -60185,7 +60185,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60195,7 +60195,7 @@ entry(
 entry(
     index = 1695,
     label = "CDCNNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -60220,7 +60220,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60230,7 +60230,7 @@ entry(
 entry(
     index = 1696,
     label = "[NH]OCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -60254,7 +60254,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60264,7 +60264,7 @@ multiplicity 2
 entry(
     index = 1697,
     label = "NNOCDC",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {4,D} {5,S} {7,S}
@@ -60291,7 +60291,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60301,7 +60301,7 @@ entry(
 entry(
     index = 1698,
     label = "[NH-][N+](DO)N[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
@@ -60325,7 +60325,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60335,7 +60335,7 @@ multiplicity 2
 entry(
     index = 1699,
     label = "CCONDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -60363,7 +60363,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60373,7 +60373,7 @@ entry(
 entry(
     index = 1700,
     label = "NOCON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {4,S} {8,S} {9,S}
@@ -60400,7 +60400,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60410,7 +60410,7 @@ entry(
 entry(
     index = 1701,
     label = "[O-][NH+]DC(O)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -60436,7 +60436,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60446,7 +60446,7 @@ multiplicity 2
 entry(
     index = 1702,
     label = "[O-][N+]DC(N)C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -60473,7 +60473,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60483,7 +60483,7 @@ multiplicity 2
 entry(
     index = 1703,
     label = "[N-]([NH+]DO)O[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,D} {5,S}
@@ -60506,7 +60506,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60516,7 +60516,7 @@ multiplicity 2
 entry(
     index = 1704,
     label = "CNCC#C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -60544,7 +60544,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60554,7 +60554,7 @@ entry(
 entry(
     index = 1705,
     label = "NDNC(DN)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {5,D}
@@ -60578,7 +60578,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60588,7 +60588,7 @@ entry(
 entry(
     index = 1706,
     label = "[CH2]ONC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -60615,7 +60615,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60625,7 +60625,7 @@ multiplicity 2
 entry(
     index = 1707,
     label = "[O-][NH+]D[C]CDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
@@ -60650,7 +60650,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60660,7 +60660,7 @@ multiplicity 2
 entry(
     index = 1708,
     label = "C[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -60684,7 +60684,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60694,7 +60694,7 @@ multiplicity 2
 entry(
     index = 1709,
     label = "C(C#N)NDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -60718,7 +60718,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60728,7 +60728,7 @@ entry(
 entry(
     index = 1710,
     label = "NC(DO)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -60752,7 +60752,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60762,7 +60762,7 @@ multiplicity 2
 entry(
     index = 1711,
     label = "NNNNO",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -60789,7 +60789,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60799,7 +60799,7 @@ entry(
 entry(
     index = 1712,
     label = "NC(DN)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -60824,7 +60824,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60834,7 +60834,7 @@ multiplicity 2
 entry(
     index = 1713,
     label = "NNDCDCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -60858,7 +60858,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60868,7 +60868,7 @@ entry(
 entry(
     index = 1714,
     label = "NC(CDC)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -60896,7 +60896,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60906,7 +60906,7 @@ entry(
 entry(
     index = 1715,
     label = "[N-]DCD[N+]D[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {3,D}
@@ -60928,7 +60928,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60938,7 +60938,7 @@ multiplicity 2
 entry(
     index = 1716,
     label = "[CH2]CNN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -60966,7 +60966,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -60976,7 +60976,7 @@ multiplicity 2
 entry(
     index = 1717,
     label = "[O-][N+]#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -60996,7 +60996,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61006,7 +61006,7 @@ entry(
 entry(
     index = 1718,
     label = "NDCDNC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -61029,7 +61029,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61039,7 +61039,7 @@ entry(
 entry(
     index = 1719,
     label = "OC(DN)CDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,D}
 2  C u0 p0 c0 {1,S} {3,D} {6,S}
@@ -61065,7 +61065,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61075,7 +61075,7 @@ entry(
 entry(
     index = 1720,
     label = "[NH-][N+]DNO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,D} {4,S}
@@ -61098,7 +61098,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61108,7 +61108,7 @@ multiplicity 2
 entry(
     index = 1721,
     label = "[O-][NH2+]C(D[CH])N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -61135,7 +61135,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61145,7 +61145,7 @@ multiplicity 2
 entry(
     index = 1722,
     label = "CCC(DN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -61174,7 +61174,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61184,7 +61184,7 @@ entry(
 entry(
     index = 1723,
     label = "[O-][NH+]DC(O)N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -61209,7 +61209,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61219,7 +61219,7 @@ entry(
 entry(
     index = 1724,
     label = "OONNDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {6,S}
 2 C u0 p0 c0 {3,D} {7,S} {8,S}
@@ -61244,7 +61244,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61254,7 +61254,7 @@ entry(
 entry(
     index = 1725,
     label = "CNDCDNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -61279,7 +61279,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61289,7 +61289,7 @@ entry(
 entry(
     index = 1726,
     label = "CONDNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -61316,7 +61316,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61326,7 +61326,7 @@ entry(
 entry(
     index = 1727,
     label = "CCDCNDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -61353,7 +61353,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61363,7 +61363,7 @@ entry(
 entry(
     index = 1728,
     label = "NCNDCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {8,S} {9,S}
@@ -61390,7 +61390,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61400,7 +61400,7 @@ entry(
 entry(
     index = 1729,
     label = "ONNOO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {7,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -61425,7 +61425,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61435,7 +61435,7 @@ entry(
 entry(
     index = 1730,
     label = "C[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -61458,7 +61458,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61468,7 +61468,7 @@ multiplicity 2
 entry(
     index = 1731,
     label = "OCDCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -61491,7 +61491,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61501,7 +61501,7 @@ multiplicity 2
 entry(
     index = 1732,
     label = "[N-]([NH+]DO)C#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,D} {5,S}
@@ -61524,7 +61524,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61534,7 +61534,7 @@ multiplicity 2
 entry(
     index = 1733,
     label = "CCC(DN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -61562,7 +61562,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61572,7 +61572,7 @@ entry(
 entry(
     index = 1734,
     label = "CNO[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -61597,7 +61597,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61607,7 +61607,7 @@ multiplicity 2
 entry(
     index = 1735,
     label = "[NH-][N+]DNN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -61631,7 +61631,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61641,7 +61641,7 @@ multiplicity 2
 entry(
     index = 1736,
     label = "[O-][NH+](N)C",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -61667,7 +61667,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61677,7 +61677,7 @@ entry(
 entry(
     index = 1737,
     label = "NND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -61700,7 +61700,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61710,7 +61710,7 @@ multiplicity 2
 entry(
     index = 1738,
     label = "[CH2]CNO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -61737,7 +61737,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61747,7 +61747,7 @@ multiplicity 2
 entry(
     index = 1739,
     label = "NNDCDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -61770,7 +61770,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61780,7 +61780,7 @@ entry(
 entry(
     index = 1740,
     label = "CC(DN)[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -61807,7 +61807,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61817,7 +61817,7 @@ multiplicity 2
 entry(
     index = 1741,
     label = "NNNNN",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -61845,7 +61845,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61855,7 +61855,7 @@ entry(
 entry(
     index = 1742,
     label = "NOCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
@@ -61880,7 +61880,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61890,7 +61890,7 @@ multiplicity 2
 entry(
     index = 1743,
     label = "[O-][NH+]D[C]CDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,D} {4,S} {6,S}
@@ -61914,7 +61914,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61924,7 +61924,7 @@ multiplicity 2
 entry(
     index = 1744,
     label = "C(C#N)NDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,D}
@@ -61947,7 +61947,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61957,7 +61957,7 @@ entry(
 entry(
     index = 1745,
     label = "CO[CH]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -61983,7 +61983,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -61993,7 +61993,7 @@ multiplicity 2
 entry(
     index = 1746,
     label = "NDNC(DN)N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -62018,7 +62018,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62028,7 +62028,7 @@ entry(
 entry(
     index = 1747,
     label = "[O-][C]D[NH2+]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
@@ -62050,7 +62050,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62060,7 +62060,7 @@ multiplicity 2
 entry(
     index = 1748,
     label = "CCDC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -62089,7 +62089,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62099,7 +62099,7 @@ entry(
 entry(
     index = 1749,
     label = "CDNNC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -62123,7 +62123,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62133,7 +62133,7 @@ entry(
 entry(
     index = 1750,
     label = "[O-][NH+]DNCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -62160,7 +62160,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62170,7 +62170,7 @@ entry(
 entry(
     index = 1751,
     label = "OCND[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -62194,7 +62194,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62204,7 +62204,7 @@ multiplicity 2
 entry(
     index = 1752,
     label = "[NH]OCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
@@ -62227,7 +62227,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62237,7 +62237,7 @@ multiplicity 2
 entry(
     index = 1753,
     label = "NONO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -62261,7 +62261,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62271,7 +62271,7 @@ entry(
 entry(
     index = 1754,
     label = "NNCDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -62299,7 +62299,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62309,7 +62309,7 @@ entry(
 entry(
     index = 1755,
     label = "[O-][N+]DCDCDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -62333,7 +62333,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62343,7 +62343,7 @@ multiplicity 2
 entry(
     index = 1756,
     label = "[O-][NH2+][N]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {4,S} {5,S} {6,S}
@@ -62368,7 +62368,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62378,7 +62378,7 @@ multiplicity 2
 entry(
     index = 1757,
     label = "NNDC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,D}
 2  N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -62405,7 +62405,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62415,7 +62415,7 @@ entry(
 entry(
     index = 1758,
     label = "CN[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -62440,7 +62440,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62450,7 +62450,7 @@ multiplicity 2
 entry(
     index = 1759,
     label = "C[CH]NN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -62478,7 +62478,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62488,7 +62488,7 @@ multiplicity 2
 entry(
     index = 1760,
     label = "[N-]([NH+]DO)ON",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {7,S} {8,S}
 2 N u0 p0 c+1 {4,S} {5,D} {6,S}
@@ -62512,7 +62512,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62522,7 +62522,7 @@ entry(
 entry(
     index = 1761,
     label = "[NH]CCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -62547,7 +62547,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62557,7 +62557,7 @@ multiplicity 2
 entry(
     index = 1762,
     label = "[O-][NH+]DO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
 2 O u0 p3 c-1 {1,S}
@@ -62577,7 +62577,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62587,7 +62587,7 @@ entry(
 entry(
     index = 1763,
     label = "CN(C#N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -62614,7 +62614,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62624,7 +62624,7 @@ entry(
 entry(
     index = 1764,
     label = "NNC(O)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -62651,7 +62651,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62661,7 +62661,7 @@ entry(
 entry(
     index = 1765,
     label = "[O-][NH+]DCD[C]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -62687,7 +62687,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62697,7 +62697,7 @@ multiplicity 2
 entry(
     index = 1766,
     label = "NCCOO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -62725,7 +62725,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62735,7 +62735,7 @@ entry(
 entry(
     index = 1767,
     label = "[CH]DCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,D}
@@ -62757,7 +62757,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62767,7 +62767,7 @@ multiplicity 2
 entry(
     index = 1768,
     label = "CN(CDC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -62796,7 +62796,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62806,7 +62806,7 @@ entry(
 entry(
     index = 1769,
     label = "[CH]DCDCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,D}
@@ -62829,7 +62829,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62839,7 +62839,7 @@ multiplicity 2
 entry(
     index = 1770,
     label = "CON[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -62866,7 +62866,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62876,7 +62876,7 @@ multiplicity 2
 entry(
     index = 1771,
     label = "[N]DCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,D}
@@ -62896,7 +62896,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62906,7 +62906,7 @@ multiplicity 2
 entry(
     index = 1772,
     label = "CNDCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {3,D} {4,S} {8,S}
@@ -62931,7 +62931,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62941,7 +62941,7 @@ entry(
 entry(
     index = 1773,
     label = "NNDNNDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {6,S} {7,S}
 2 C u0 p0 c0 {4,D} {8,S} {9,S}
@@ -62966,7 +62966,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -62976,7 +62976,7 @@ entry(
 entry(
     index = 1774,
     label = "NDCN(C)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -63005,7 +63005,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63015,7 +63015,7 @@ entry(
 entry(
     index = 1775,
     label = "NON",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -63038,7 +63038,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63048,7 +63048,7 @@ entry(
 entry(
     index = 1776,
     label = "C[C](O)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -63075,7 +63075,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63085,7 +63085,7 @@ multiplicity 2
 entry(
     index = 1777,
     label = "[O-][NH2+]CDC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -63113,7 +63113,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63123,7 +63123,7 @@ multiplicity 2
 entry(
     index = 1778,
     label = "[O-][NH2+]CC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -63152,7 +63152,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63162,7 +63162,7 @@ multiplicity 2
 entry(
     index = 1779,
     label = "ONDCC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {6,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -63186,7 +63186,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63196,7 +63196,7 @@ entry(
 entry(
     index = 1780,
     label = "CNC[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -63223,7 +63223,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63233,7 +63233,7 @@ multiplicity 2
 entry(
     index = 1781,
     label = "CNCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -63260,7 +63260,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63270,7 +63270,7 @@ entry(
 entry(
     index = 1782,
     label = "[O-][NH+]D[C]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {4,S} {5,S}
@@ -63293,7 +63293,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63303,7 +63303,7 @@ multiplicity 2
 entry(
     index = 1783,
     label = "NCDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -63326,7 +63326,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63336,7 +63336,7 @@ entry(
 entry(
     index = 1784,
     label = "NNN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -63360,7 +63360,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63370,7 +63370,7 @@ entry(
 entry(
     index = 1785,
     label = "NC(DN)C#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -63394,7 +63394,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63404,7 +63404,7 @@ entry(
 entry(
     index = 1786,
     label = "NOCCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -63432,7 +63432,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63442,7 +63442,7 @@ entry(
 entry(
     index = 1787,
     label = "CCOCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {5,S} {11,S} {12,S}
@@ -63472,7 +63472,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63482,7 +63482,7 @@ entry(
 entry(
     index = 1788,
     label = "[N-]([N+]DC)O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -63506,7 +63506,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63516,7 +63516,7 @@ multiplicity 2
 entry(
     index = 1789,
     label = "[O-][NH+]DCN[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p1 c0 {2,S} {4,S} {6,S}
@@ -63543,7 +63543,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63553,7 +63553,7 @@ multiplicity 2
 entry(
     index = 1790,
     label = "NC(D[CH])N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -63579,7 +63579,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63589,7 +63589,7 @@ multiplicity 2
 entry(
     index = 1791,
     label = "CCC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -63620,7 +63620,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63630,7 +63630,7 @@ entry(
 entry(
     index = 1792,
     label = "[O-][NH+]DCO[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -63656,7 +63656,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63666,7 +63666,7 @@ multiplicity 2
 entry(
     index = 1793,
     label = "[O-][NH2+]OC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -63694,7 +63694,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63704,7 +63704,7 @@ multiplicity 2
 entry(
     index = 1794,
     label = "[O-][NH3+]",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p3 c-1 {1,S}
@@ -63725,7 +63725,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63735,7 +63735,7 @@ entry(
 entry(
     index = 1795,
     label = "CC(CN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -63765,7 +63765,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63775,7 +63775,7 @@ entry(
 entry(
     index = 1796,
     label = "NN[CH]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -63801,7 +63801,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63811,7 +63811,7 @@ multiplicity 2
 entry(
     index = 1797,
     label = "CDNNDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -63835,7 +63835,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63845,7 +63845,7 @@ entry(
 entry(
     index = 1798,
     label = "[O-][NH2+]C(DN)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -63871,7 +63871,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63881,7 +63881,7 @@ multiplicity 2
 entry(
     index = 1799,
     label = "CC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -63907,7 +63907,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63917,7 +63917,7 @@ multiplicity 2
 entry(
     index = 1800,
     label = "NCNC#C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {4,S} {8,S}
@@ -63944,7 +63944,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63954,7 +63954,7 @@ entry(
 entry(
     index = 1801,
     label = "NC(DN)N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -63979,7 +63979,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -63989,7 +63989,7 @@ entry(
 entry(
     index = 1802,
     label = "[O-][NH2+]N[N]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -64017,7 +64017,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64027,7 +64027,7 @@ multiplicity 2
 entry(
     index = 1803,
     label = "NCCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -64056,7 +64056,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64066,7 +64066,7 @@ entry(
 entry(
     index = 1804,
     label = "NOOO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -64089,7 +64089,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64099,7 +64099,7 @@ entry(
 entry(
     index = 1805,
     label = "NO[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -64121,7 +64121,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64131,7 +64131,7 @@ multiplicity 2
 entry(
     index = 1806,
     label = "N[CH]CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -64159,7 +64159,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64169,7 +64169,7 @@ multiplicity 2
 entry(
     index = 1807,
     label = "CNN(O)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
@@ -64198,7 +64198,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64208,7 +64208,7 @@ entry(
 entry(
     index = 1808,
     label = "OCC(O)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -64236,7 +64236,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64246,7 +64246,7 @@ entry(
 entry(
     index = 1809,
     label = "CON(O)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -64274,7 +64274,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64284,7 +64284,7 @@ entry(
 entry(
     index = 1810,
     label = "C[CH]ON",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -64311,7 +64311,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64321,7 +64321,7 @@ multiplicity 2
 entry(
     index = 1811,
     label = "NOCNO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {5,S} {8,S}
@@ -64348,7 +64348,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64358,7 +64358,7 @@ entry(
 entry(
     index = 1812,
     label = "CNC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -64386,7 +64386,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64396,7 +64396,7 @@ multiplicity 2
 entry(
     index = 1813,
     label = "[O-][N+]DCNDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
@@ -64421,7 +64421,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64431,7 +64431,7 @@ multiplicity 2
 entry(
     index = 1814,
     label = "CNDCCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
@@ -64460,7 +64460,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64470,7 +64470,7 @@ entry(
 entry(
     index = 1815,
     label = "COC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -64497,7 +64497,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64507,7 +64507,7 @@ multiplicity 2
 entry(
     index = 1816,
     label = "[O-][NH2+]CDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -64532,7 +64532,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64542,7 +64542,7 @@ entry(
 entry(
     index = 1817,
     label = "CCNDCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -64570,7 +64570,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64580,7 +64580,7 @@ entry(
 entry(
     index = 1818,
     label = "NN(NDO)O",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -64604,7 +64604,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64614,7 +64614,7 @@ entry(
 entry(
     index = 1819,
     label = "NC(N)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -64641,7 +64641,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64651,7 +64651,7 @@ multiplicity 2
 entry(
     index = 1820,
     label = "NC(O)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -64677,7 +64677,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64687,7 +64687,7 @@ multiplicity 2
 entry(
     index = 1821,
     label = "CNNDNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -64715,7 +64715,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64725,7 +64725,7 @@ entry(
 entry(
     index = 1822,
     label = "NNNON",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {6,S}
 2  N u0 p1 c0 {1,S} {5,S} {7,S}
@@ -64752,7 +64752,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64762,7 +64762,7 @@ entry(
 entry(
     index = 1823,
     label = "[NH-]CD[N+]D[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -64786,7 +64786,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64796,7 +64796,7 @@ multiplicity 2
 entry(
     index = 1824,
     label = "[NH]NNDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -64820,7 +64820,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64830,7 +64830,7 @@ multiplicity 2
 entry(
     index = 1825,
     label = "CCNCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -64860,7 +64860,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64870,7 +64870,7 @@ entry(
 entry(
     index = 1826,
     label = "NC[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -64894,7 +64894,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64904,7 +64904,7 @@ multiplicity 2
 entry(
     index = 1827,
     label = "NNNNDC",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {6,S}
 2  N u0 p1 c0 {1,S} {5,S} {7,S}
@@ -64931,7 +64931,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64941,7 +64941,7 @@ entry(
 entry(
     index = 1828,
     label = "NDCCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -64965,7 +64965,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -64975,7 +64975,7 @@ multiplicity 2
 entry(
     index = 1829,
     label = "CN(O)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -65002,7 +65002,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65012,7 +65012,7 @@ entry(
 entry(
     index = 1830,
     label = "C[N]CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -65039,7 +65039,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65049,7 +65049,7 @@ multiplicity 2
 entry(
     index = 1831,
     label = "COOCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
@@ -65077,7 +65077,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65087,7 +65087,7 @@ entry(
 entry(
     index = 1832,
     label = "ODNCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,D}
@@ -65108,7 +65108,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65118,7 +65118,7 @@ entry(
 entry(
     index = 1833,
     label = "NC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -65145,7 +65145,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65155,7 +65155,7 @@ entry(
 entry(
     index = 1834,
     label = "NDNCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -65177,7 +65177,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65187,7 +65187,7 @@ entry(
 entry(
     index = 1835,
     label = "CDCDNNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -65211,7 +65211,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65221,7 +65221,7 @@ entry(
 entry(
     index = 1836,
     label = "CC(ON)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -65249,7 +65249,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65259,7 +65259,7 @@ entry(
 entry(
     index = 1837,
     label = "[O-][NH2+]C[C]DO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -65285,7 +65285,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65295,7 +65295,7 @@ multiplicity 2
 entry(
     index = 1838,
     label = "NDCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -65317,7 +65317,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65327,7 +65327,7 @@ entry(
 entry(
     index = 1839,
     label = "CNNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -65355,7 +65355,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65365,7 +65365,7 @@ entry(
 entry(
     index = 1840,
     label = "NO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -65386,7 +65386,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65396,7 +65396,7 @@ entry(
 entry(
     index = 1841,
     label = "NN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -65418,7 +65418,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65428,7 +65428,7 @@ entry(
 entry(
     index = 1842,
     label = "NDCDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 N u0 p1 c0 {1,D} {5,S}
@@ -65449,7 +65449,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65459,7 +65459,7 @@ entry(
 entry(
     index = 1843,
     label = "[O-][NH2+]C[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -65486,7 +65486,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65496,7 +65496,7 @@ multiplicity 2
 entry(
     index = 1844,
     label = "[O-][NH2+]C(DC)C",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -65524,7 +65524,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65534,7 +65534,7 @@ entry(
 entry(
     index = 1845,
     label = "NC(DC)NDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -65559,7 +65559,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65569,7 +65569,7 @@ entry(
 entry(
     index = 1846,
     label = "[O-][NH+]DCC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 N u0 p0 c+1 {1,D} {5,S} {6,S}
@@ -65592,7 +65592,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65602,7 +65602,7 @@ entry(
 entry(
     index = 1847,
     label = "CDNN(N)N",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {5,S}
 2  N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -65629,7 +65629,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65639,7 +65639,7 @@ entry(
 entry(
     index = 1848,
     label = "NDNC#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,D} {3,S}
@@ -65661,7 +65661,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65671,7 +65671,7 @@ multiplicity 2
 entry(
     index = 1849,
     label = "CCNDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -65698,7 +65698,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65708,7 +65708,7 @@ entry(
 entry(
     index = 1850,
     label = "CNDNC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -65732,7 +65732,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65742,7 +65742,7 @@ entry(
 entry(
     index = 1851,
     label = "NNDCDCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {5,S} {6,S}
 2 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -65767,7 +65767,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65777,7 +65777,7 @@ entry(
 entry(
     index = 1852,
     label = "CDCDNNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -65800,7 +65800,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65810,7 +65810,7 @@ entry(
 entry(
     index = 1853,
     label = "NDNCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -65833,7 +65833,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65843,7 +65843,7 @@ entry(
 entry(
     index = 1854,
     label = "CNDC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -65870,7 +65870,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65880,7 +65880,7 @@ multiplicity 2
 entry(
     index = 1855,
     label = "[CH2]CON",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -65907,7 +65907,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65917,7 +65917,7 @@ multiplicity 2
 entry(
     index = 1856,
     label = "C[N]CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -65945,7 +65945,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65955,7 +65955,7 @@ multiplicity 2
 entry(
     index = 1857,
     label = "NNDCCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {6,S}
 2  C u0 p0 c0 {1,S} {5,D} {7,S}
@@ -65982,7 +65982,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -65992,7 +65992,7 @@ entry(
 entry(
     index = 1858,
     label = "CCCDCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -66020,7 +66020,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66030,7 +66030,7 @@ entry(
 entry(
     index = 1859,
     label = "ONNDCDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
 2 C u0 p0 c0 {4,D} {7,S} {8,S}
@@ -66055,7 +66055,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66065,7 +66065,7 @@ entry(
 entry(
     index = 1860,
     label = "NOC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -66088,7 +66088,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66098,7 +66098,7 @@ entry(
 entry(
     index = 1861,
     label = "OONDCDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -66122,7 +66122,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66132,7 +66132,7 @@ entry(
 entry(
     index = 1862,
     label = "NDCNC#C",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {7,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -66157,7 +66157,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66167,7 +66167,7 @@ entry(
 entry(
     index = 1863,
     label = "ODNOC#C",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -66189,7 +66189,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66199,7 +66199,7 @@ entry(
 entry(
     index = 1864,
     label = "[NH]NNDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -66222,7 +66222,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66232,7 +66232,7 @@ multiplicity 2
 entry(
     index = 1865,
     label = "CC(DCDC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {5,D}
@@ -66260,7 +66260,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66270,7 +66270,7 @@ entry(
 entry(
     index = 1866,
     label = "[CH]DCDNNDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,D} {3,S}
@@ -66293,7 +66293,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66303,7 +66303,7 @@ multiplicity 2
 entry(
     index = 1867,
     label = "NNND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -66328,7 +66328,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66338,7 +66338,7 @@ multiplicity 2
 entry(
     index = 1868,
     label = "[O-][NH2+]C(DO)N",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,S} {7,D}
@@ -66363,7 +66363,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66373,7 +66373,7 @@ entry(
 entry(
     index = 1869,
     label = "CDCCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -66401,7 +66401,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66411,7 +66411,7 @@ entry(
 entry(
     index = 1870,
     label = "CN[CH]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -66440,7 +66440,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66450,7 +66450,7 @@ multiplicity 2
 entry(
     index = 1871,
     label = "CCNDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -66479,7 +66479,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66489,7 +66489,7 @@ entry(
 entry(
     index = 1872,
     label = "NCDNCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {4,D} {8,S}
@@ -66516,7 +66516,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66526,7 +66526,7 @@ entry(
 entry(
     index = 1873,
     label = "CNDCCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -66554,7 +66554,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66564,7 +66564,7 @@ entry(
 entry(
     index = 1874,
     label = "N[CH]CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -66591,7 +66591,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66601,7 +66601,7 @@ multiplicity 2
 entry(
     index = 1875,
     label = "CC(NDO)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -66628,7 +66628,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66638,7 +66638,7 @@ entry(
 entry(
     index = 1876,
     label = "CCND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -66665,7 +66665,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66675,7 +66675,7 @@ multiplicity 2
 entry(
     index = 1877,
     label = "[O-][NH2+]CDNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -66700,7 +66700,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66710,7 +66710,7 @@ entry(
 entry(
     index = 1878,
     label = "NCCNN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -66740,7 +66740,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66750,7 +66750,7 @@ entry(
 entry(
     index = 1879,
     label = "NC(DN)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -66774,7 +66774,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66784,7 +66784,7 @@ entry(
 entry(
     index = 1880,
     label = "[N-]([NH+]DO)NO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 N u0 p0 c+1 {3,S} {6,D} {7,S}
@@ -66808,7 +66808,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66818,7 +66818,7 @@ entry(
 entry(
     index = 1881,
     label = "[O-][NH2+]C[NH2+][O-]",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p0 c+1 {1,S} {6,S} {8,S} {9,S}
@@ -66845,7 +66845,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66855,7 +66855,7 @@ entry(
 entry(
     index = 1882,
     label = "CDNNDCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -66878,7 +66878,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66888,7 +66888,7 @@ entry(
 entry(
     index = 1883,
     label = "CONDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {4,D} {8,S} {9,S}
@@ -66913,7 +66913,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66923,7 +66923,7 @@ entry(
 entry(
     index = 1884,
     label = "CDNC#N",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 N u0 p1 c0 {1,D} {3,S}
@@ -66945,7 +66945,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66955,7 +66955,7 @@ entry(
 entry(
     index = 1885,
     label = "NOCDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {6,S}
 2  C u0 p0 c0 {1,D} {5,S} {7,S}
@@ -66982,7 +66982,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -66992,7 +66992,7 @@ entry(
 entry(
     index = 1886,
     label = "NCC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -67017,7 +67017,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67027,7 +67027,7 @@ entry(
 entry(
     index = 1887,
     label = "CDNC(DC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
 2  N u0 p1 c0 {1,S} {8,S} {9,S}
@@ -67054,7 +67054,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67064,7 +67064,7 @@ entry(
 entry(
     index = 1888,
     label = "[O-][NH2+]NCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -67093,7 +67093,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67103,7 +67103,7 @@ entry(
 entry(
     index = 1889,
     label = "NC(D[CH])O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -67128,7 +67128,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67138,7 +67138,7 @@ multiplicity 2
 entry(
     index = 1890,
     label = "CNC[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -67167,7 +67167,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67177,7 +67177,7 @@ multiplicity 2
 entry(
     index = 1891,
     label = "[N-]([N+]DC)N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -67202,7 +67202,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67212,7 +67212,7 @@ multiplicity 2
 entry(
     index = 1892,
     label = "N(C#N)CDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -67235,7 +67235,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67245,7 +67245,7 @@ entry(
 entry(
     index = 1893,
     label = "CCDNCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,D} {9,S}
@@ -67272,7 +67272,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67282,7 +67282,7 @@ entry(
 entry(
     index = 1894,
     label = "OCDNNDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {5,S} {6,S}
 2 C u0 p0 c0 {4,D} {7,S} {8,S}
@@ -67307,7 +67307,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67317,7 +67317,7 @@ entry(
 entry(
     index = 1895,
     label = "CC(NDC)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -67347,7 +67347,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67357,7 +67357,7 @@ entry(
 entry(
     index = 1896,
     label = "OCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -67380,7 +67380,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67390,7 +67390,7 @@ entry(
 entry(
     index = 1897,
     label = "NNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,S} {6,S}
@@ -67413,7 +67413,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67423,7 +67423,7 @@ entry(
 entry(
     index = 1898,
     label = "NCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -67447,7 +67447,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67457,7 +67457,7 @@ entry(
 entry(
     index = 1899,
     label = "ODCC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  N u0 p1 c0 {1,S} {8,S} {9,S}
@@ -67484,7 +67484,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67494,7 +67494,7 @@ entry(
 entry(
     index = 1900,
     label = "[O-][NH+]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -67518,7 +67518,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67528,7 +67528,7 @@ multiplicity 2
 entry(
     index = 1901,
     label = "NO[N]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -67552,7 +67552,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67562,7 +67562,7 @@ multiplicity 2
 entry(
     index = 1902,
     label = "NNCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -67586,7 +67586,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67596,7 +67596,7 @@ entry(
 entry(
     index = 1903,
     label = "[O-][NH+]DC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -67620,7 +67620,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67630,7 +67630,7 @@ multiplicity 2
 entry(
     index = 1904,
     label = "OONC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -67653,7 +67653,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67663,7 +67663,7 @@ entry(
 entry(
     index = 1905,
     label = "[O-]N([NH+]DO)C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,S} {7,S}
@@ -67688,7 +67688,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67698,7 +67698,7 @@ entry(
 entry(
     index = 1906,
     label = "CNDNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -67722,7 +67722,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67732,7 +67732,7 @@ entry(
 entry(
     index = 1907,
     label = "NONC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {3,S} {6,S} {7,S}
@@ -67756,7 +67756,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67766,7 +67766,7 @@ entry(
 entry(
     index = 1908,
     label = "CCOON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -67794,7 +67794,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67804,7 +67804,7 @@ entry(
 entry(
     index = 1909,
     label = "NCC(N)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -67834,7 +67834,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67844,7 +67844,7 @@ entry(
 entry(
     index = 1910,
     label = "[O-][NH+]DN[CH]C",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -67871,7 +67871,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67881,7 +67881,7 @@ multiplicity 2
 entry(
     index = 1911,
     label = "NCDNCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,D} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -67906,7 +67906,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67916,7 +67916,7 @@ entry(
 entry(
     index = 1912,
     label = "[O-][NH+]DNN[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
@@ -67942,7 +67942,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67952,7 +67952,7 @@ multiplicity 2
 entry(
     index = 1913,
     label = "CC(DCN)O",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {5,S}
@@ -67980,7 +67980,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -67990,7 +67990,7 @@ entry(
 entry(
     index = 1914,
     label = "[CH2]NDCC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -68017,7 +68017,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68027,7 +68027,7 @@ multiplicity 2
 entry(
     index = 1915,
     label = "[O-][NH2+]NDC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
@@ -68053,7 +68053,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68063,7 +68063,7 @@ multiplicity 2
 entry(
     index = 1916,
     label = "CC(DN)CDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {5,D}
@@ -68091,7 +68091,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68101,7 +68101,7 @@ entry(
 entry(
     index = 1917,
     label = "NC#CO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -68124,7 +68124,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68134,7 +68134,7 @@ entry(
 entry(
     index = 1918,
     label = "NNCDNN",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {3,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,D} {7,S}
@@ -68161,7 +68161,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68171,7 +68171,7 @@ entry(
 entry(
     index = 1919,
     label = "NOCO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -68196,7 +68196,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68206,7 +68206,7 @@ entry(
 entry(
     index = 1920,
     label = "OCCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -68234,7 +68234,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68244,7 +68244,7 @@ entry(
 entry(
     index = 1921,
     label = "C[CH]CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -68273,7 +68273,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68283,7 +68283,7 @@ multiplicity 2
 entry(
     index = 1922,
     label = "[O-][NH+]DCCD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -68309,7 +68309,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68319,7 +68319,7 @@ multiplicity 2
 entry(
     index = 1923,
     label = "CNCNDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -68347,7 +68347,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68357,7 +68357,7 @@ entry(
 entry(
     index = 1924,
     label = "NCCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -68386,7 +68386,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68396,7 +68396,7 @@ entry(
 entry(
     index = 1925,
     label = "CN(NDO)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {4,S}
@@ -68421,7 +68421,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68431,7 +68431,7 @@ entry(
 entry(
     index = 1926,
     label = "OONDO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -68452,7 +68452,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68462,7 +68462,7 @@ entry(
 entry(
     index = 1927,
     label = "OC[C]DN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -68487,7 +68487,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68497,7 +68497,7 @@ multiplicity 2
 entry(
     index = 1928,
     label = "CC(DN)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -68523,7 +68523,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68533,7 +68533,7 @@ entry(
 entry(
     index = 1929,
     label = "NN(O)[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -68558,7 +68558,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68568,7 +68568,7 @@ multiplicity 2
 entry(
     index = 1930,
     label = "[O-][NH2+]OND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -68593,7 +68593,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68603,7 +68603,7 @@ multiplicity 2
 entry(
     index = 1931,
     label = "[O-][N+]DCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -68626,7 +68626,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68636,7 +68636,7 @@ multiplicity 2
 entry(
     index = 1932,
     label = "NDCOCDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,D} {5,S}
 2 C u0 p0 c0 {3,S} {6,D} {7,S}
@@ -68660,7 +68660,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68670,7 +68670,7 @@ entry(
 entry(
     index = 1933,
     label = "[O-][NH2+]CD[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}
@@ -68695,7 +68695,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68705,7 +68705,7 @@ multiplicity 2
 entry(
     index = 1934,
     label = "CDCCD[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -68730,7 +68730,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68740,7 +68740,7 @@ multiplicity 2
 entry(
     index = 1935,
     label = "NCOCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {8,S} {9,S}
@@ -68767,7 +68767,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68777,7 +68777,7 @@ entry(
 entry(
     index = 1936,
     label = "CC(O)(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -68807,7 +68807,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68817,7 +68817,7 @@ entry(
 entry(
     index = 1937,
     label = "CC(N)(N)C",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -68848,7 +68848,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68858,7 +68858,7 @@ entry(
 entry(
     index = 1938,
     label = "[N-]DCD[NH+]CDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,D} {5,S}
 2 C u0 p0 c0 {1,S} {3,D} {6,S}
@@ -68882,7 +68882,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68892,7 +68892,7 @@ entry(
 entry(
     index = 1939,
     label = "NC(NDO)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -68917,7 +68917,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68927,7 +68927,7 @@ entry(
 entry(
     index = 1940,
     label = "CNDCON",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,D} {5,S} {9,S}
@@ -68954,7 +68954,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68964,7 +68964,7 @@ entry(
 entry(
     index = 1941,
     label = "NC(DO)NDC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,D}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -68989,7 +68989,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -68999,7 +68999,7 @@ entry(
 entry(
     index = 1942,
     label = "NNDC",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -69022,7 +69022,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69032,7 +69032,7 @@ entry(
 entry(
     index = 1943,
     label = "CCCC#N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -69060,7 +69060,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69070,7 +69070,7 @@ entry(
 entry(
     index = 1944,
     label = "NOC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -69096,7 +69096,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69106,7 +69106,7 @@ multiplicity 2
 entry(
     index = 1945,
     label = "NNC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -69133,7 +69133,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69143,7 +69143,7 @@ multiplicity 2
 entry(
     index = 1946,
     label = "OCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {7,S}
@@ -69166,7 +69166,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69176,7 +69176,7 @@ entry(
 entry(
     index = 1947,
     label = "[O-][N+](D[N])O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
@@ -69198,7 +69198,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69208,7 +69208,7 @@ multiplicity 2
 entry(
     index = 1948,
     label = "CDCDCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -69231,7 +69231,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69241,7 +69241,7 @@ entry(
 entry(
     index = 1949,
     label = "N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 H u0 p0 c0 {1,S}
@@ -69261,7 +69261,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69271,7 +69271,7 @@ entry(
 entry(
     index = 1950,
     label = "[O-][NH2+]N",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,S} {7,S}
@@ -69294,7 +69294,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69304,7 +69304,7 @@ entry(
 entry(
     index = 1951,
     label = "CNDCDCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {5,D} {9,S}
@@ -69331,7 +69331,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69341,7 +69341,7 @@ entry(
 entry(
     index = 1952,
     label = "OC#CNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -69363,7 +69363,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69373,7 +69373,7 @@ entry(
 entry(
     index = 1953,
     label = "OCDCDNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -69397,7 +69397,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69407,7 +69407,7 @@ entry(
 entry(
     index = 1954,
     label = "C[N]OO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -69432,7 +69432,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69442,7 +69442,7 @@ multiplicity 2
 entry(
     index = 1955,
     label = "CONCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  N u0 p1 c0 {3,S} {4,S} {9,S}
@@ -69469,7 +69469,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69479,7 +69479,7 @@ entry(
 entry(
     index = 1956,
     label = "[NH-][N+]DCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -69504,7 +69504,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69514,7 +69514,7 @@ multiplicity 2
 entry(
     index = 1957,
     label = "ONDCNDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -69537,7 +69537,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69547,7 +69547,7 @@ entry(
 entry(
     index = 1958,
     label = "[CH]DNNDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {4,D}
@@ -69570,7 +69570,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69580,7 +69580,7 @@ multiplicity 2
 entry(
     index = 1959,
     label = "NDNNDCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -69603,7 +69603,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69613,7 +69613,7 @@ entry(
 entry(
     index = 1960,
     label = "[CH2]CCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -69642,7 +69642,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69652,7 +69652,7 @@ multiplicity 2
 entry(
     index = 1961,
     label = "NDNNDCDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -69674,7 +69674,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69684,7 +69684,7 @@ entry(
 entry(
     index = 1962,
     label = "NCCDCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -69711,7 +69711,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69721,7 +69721,7 @@ entry(
 entry(
     index = 1963,
     label = "ONDCNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {6,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -69745,7 +69745,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69755,7 +69755,7 @@ entry(
 entry(
     index = 1964,
     label = "CNDCCDC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {4,D} {9,S}
@@ -69783,7 +69783,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69793,7 +69793,7 @@ entry(
 entry(
     index = 1965,
     label = "[NH-][N+]DCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -69817,7 +69817,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69827,7 +69827,7 @@ multiplicity 2
 entry(
     index = 1966,
     label = "O[CH]CDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {5,S}
@@ -69852,7 +69852,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69862,7 +69862,7 @@ multiplicity 2
 entry(
     index = 1967,
     label = "C[N]ON",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -69888,7 +69888,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69898,7 +69898,7 @@ multiplicity 2
 entry(
     index = 1968,
     label = "OC#CNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,T}
 2 N u0 p1 c0 {1,S} {5,D}
@@ -69921,7 +69921,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69931,7 +69931,7 @@ entry(
 entry(
     index = 1969,
     label = "NNDNC#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -69954,7 +69954,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69964,7 +69964,7 @@ entry(
 entry(
     index = 1970,
     label = "[O-][NH2+]O",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -69986,7 +69986,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -69996,7 +69996,7 @@ entry(
 entry(
     index = 1971,
     label = "[O-][N+](D[N])N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {5,S} {6,S}
@@ -70019,7 +70019,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70029,7 +70029,7 @@ multiplicity 2
 entry(
     index = 1972,
     label = "NDCC#C",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -70052,7 +70052,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70062,7 +70062,7 @@ entry(
 entry(
     index = 1973,
     label = "CONDCC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -70090,7 +70090,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70100,7 +70100,7 @@ entry(
 entry(
     index = 1974,
     label = "CNNNC",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -70130,7 +70130,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70140,7 +70140,7 @@ entry(
 entry(
     index = 1975,
     label = "OCNDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -70164,7 +70164,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70174,7 +70174,7 @@ entry(
 entry(
     index = 1976,
     label = "NDCCCDN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -70201,7 +70201,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70211,7 +70211,7 @@ entry(
 entry(
     index = 1977,
     label = "NCDNOO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {6,S}
 2 N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -70236,7 +70236,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70246,7 +70246,7 @@ entry(
 entry(
     index = 1978,
     label = "NCND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -70272,7 +70272,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70282,7 +70282,7 @@ multiplicity 2
 entry(
     index = 1979,
     label = "CNND[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -70307,7 +70307,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70317,7 +70317,7 @@ multiplicity 2
 entry(
     index = 1980,
     label = "NNNCO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -70345,7 +70345,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70355,7 +70355,7 @@ entry(
 entry(
     index = 1981,
     label = "CNONDO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {1,S} {3,S} {8,S}
@@ -70380,7 +70380,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70390,7 +70390,7 @@ entry(
 entry(
     index = 1982,
     label = "[O-][N+]#CC#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p3 c-1 {2,S}
@@ -70412,7 +70412,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70422,7 +70422,7 @@ multiplicity 2
 entry(
     index = 1983,
     label = "NDCOCDN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,D} {6,S}
 2 C u0 p0 c0 {3,S} {5,D} {7,S}
@@ -70447,7 +70447,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70457,7 +70457,7 @@ entry(
 entry(
     index = 1984,
     label = "CC(DN)O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -70482,7 +70482,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70492,7 +70492,7 @@ entry(
 entry(
     index = 1985,
     label = "[O-][N+]DCN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -70516,7 +70516,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70526,7 +70526,7 @@ multiplicity 2
 entry(
     index = 1986,
     label = "OONDN",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -70548,7 +70548,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70558,7 +70558,7 @@ entry(
 entry(
     index = 1987,
     label = "NCCCDO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -70586,7 +70586,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70596,7 +70596,7 @@ entry(
 entry(
     index = 1988,
     label = "CNND[CH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -70622,7 +70622,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70632,7 +70632,7 @@ multiplicity 2
 entry(
     index = 1989,
     label = "CNCNDO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -70659,7 +70659,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70669,7 +70669,7 @@ entry(
 entry(
     index = 1990,
     label = "[CH2]C#CN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -70694,7 +70694,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70704,7 +70704,7 @@ multiplicity 2
 entry(
     index = 1991,
     label = "[N-]([N+](DO)N)[O]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
@@ -70728,7 +70728,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70738,7 +70738,7 @@ multiplicity 2
 entry(
     index = 1992,
     label = "NOCN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  N u0 p1 c0 {1,S} {7,S} {8,S}
@@ -70764,7 +70764,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70774,7 +70774,7 @@ entry(
 entry(
     index = 1993,
     label = "CND[N]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -70797,7 +70797,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70807,7 +70807,7 @@ multiplicity 2
 entry(
     index = 1994,
     label = "NC#CN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
 2 N u0 p1 c0 {4,S} {7,S} {8,S}
@@ -70831,7 +70831,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70841,7 +70841,7 @@ entry(
 entry(
     index = 1995,
     label = "ONCDNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {7,S}
 2 N u0 p1 c0 {1,S} {4,S} {6,S}
@@ -70866,7 +70866,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70876,7 +70876,7 @@ entry(
 entry(
     index = 1996,
     label = "OO[CH]NDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {5,S}
@@ -70900,7 +70900,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70910,7 +70910,7 @@ multiplicity 2
 entry(
     index = 1997,
     label = "[N]DCDCDO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,D}
@@ -70931,7 +70931,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70941,7 +70941,7 @@ multiplicity 2
 entry(
     index = 1998,
     label = "[O-][NH2+]NOC",
-    molecule = 
+    molecule =
 """
 1  N u0 p0 c+1 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -70968,7 +70968,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -70978,7 +70978,7 @@ entry(
 entry(
     index = 1999,
     label = "[O-][NH+]DNC[NH]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -71004,7 +71004,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -71014,7 +71014,7 @@ multiplicity 2
 entry(
     index = 2000,
     label = "CDNC#[C]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -71037,7 +71037,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -71047,7 +71047,7 @@ multiplicity 2
 entry(
     index = 2001,
     label = "CDCC(DC)N",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,D}
 2  C u0 p0 c0 {1,S} {5,D} {6,S}
@@ -71075,7 +71075,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -71085,7 +71085,7 @@ entry(
 entry(
     index = 2002,
     label = "NDCDNNDO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {4,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -71107,7 +71107,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -71117,7 +71117,7 @@ entry(
 entry(
     index = 2003,
     label = "[CH2]NCDN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
@@ -71143,7 +71143,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -71153,7 +71153,7 @@ multiplicity 2
 entry(
     index = 2004,
     label = "CNDNN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2 N u0 p1 c0 {4,S} {8,S} {9,S}
@@ -71178,7 +71178,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -71188,7 +71188,7 @@ entry(
 entry(
     index = 2005,
     label = "NNCDN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {5,S}
 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -71213,7 +71213,7 @@ entry(
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -71223,7 +71223,7 @@ entry(
 entry(
     index = 2006,
     label = "NO[N]N",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {3,S} {5,S} {6,S}
@@ -71248,7 +71248,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -71258,7 +71258,7 @@ multiplicity 2
 entry(
     index = 2007,
     label = "[O-][NH2+][CH]CDC",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  N u0 p0 c+1 {2,S} {5,S} {6,S} {7,S}
@@ -71286,7 +71286,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -71296,7 +71296,7 @@ multiplicity 2
 entry(
     index = 2008,
     label = "CC(D[NH+][O-])[CH2]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -71324,7 +71324,7 @@ multiplicity 2
     reference = 'AUTOTST Thermojob G4 calculation with 1D Hindered Rotors',
     referenceType = "Theory",
     shortDesc = """G4/1D HR""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -71334,7 +71334,7 @@ multiplicity 2
 entry(
     index = 2009,
     label = "CC([N+](DO)[O-])([N+](DO)[O-])[N+](DO)[O-]",
-    molecule = 
+    molecule =
 """
 1  O u0 p3 c-1 {7,S}
 2  O u0 p3 c-1 {8,S}
@@ -71364,7 +71364,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -16.76 kcal/mol
 S298: 98.49 cal/mol/K
@@ -71396,7 +71396,7 @@ HarmonicOscillator
 entry(
     index = 2010,
     label = "OCC(N)(C)C",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {17,S}
 2  N u0 p1 c0 {3,S} {15,S} {16,S}
@@ -71429,7 +71429,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -67.29 kcal/mol
 S298: 82.00 cal/mol/K
@@ -71464,7 +71464,7 @@ HarmonicOscillator
 entry(
     index = 2011,
     label = "N#CCCDCCC#N",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {7,T}
 2  N u0 p1 c0 {8,T}
@@ -71494,7 +71494,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 65.52 kcal/mol
 S298: 88.90 cal/mol/K
@@ -71526,7 +71526,7 @@ HarmonicOscillator
 entry(
     index = 2012,
     label = "CC(OCCN)O",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {6,S}
 2  O u0 p2 c0 {4,S} {18,S}
@@ -71560,7 +71560,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -98.69 kcal/mol
 S298: 92.47 cal/mol/K
@@ -71596,7 +71596,7 @@ HarmonicOscillator
 entry(
     index = 2013,
     label = "NCC(O)(C)C",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {17,S}
 2  N u0 p1 c0 {4,S} {15,S} {16,S}
@@ -71629,7 +71629,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -68.96 kcal/mol
 S298: 82.63 cal/mol/K
@@ -71664,7 +71664,7 @@ HarmonicOscillator
 entry(
     index = 2014,
     label = "CC(C(N)C)O",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {17,S}
 2  N u0 p1 c0 {3,S} {15,S} {16,S}
@@ -71697,7 +71697,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -66.33 kcal/mol
 S298: 82.74 cal/mol/K
@@ -71732,7 +71732,7 @@ HarmonicOscillator
 entry(
     index = 2015,
     label = "NCCCCO",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {6,S} {17,S}
 2  N u0 p1 c0 {5,S} {15,S} {16,S}
@@ -71765,7 +71765,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -57.13 kcal/mol
 S298: 86.54 cal/mol/K
@@ -71800,7 +71800,7 @@ HarmonicOscillator
 entry(
     index = 2016,
     label = "NC(DO)CDC",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,D}
 2  N u0 p1 c0 {3,S} {7,S} {8,S}
@@ -71826,7 +71826,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -31.39 kcal/mol
 S298: 71.63 cal/mol/K
@@ -71854,7 +71854,7 @@ HarmonicOscillator
 entry(
     index = 2017,
     label = "[O-][N+](DO)OOC(DO)C",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {8,S}
 2  O u0 p2 c0 {1,S} {6,S}
@@ -71881,7 +71881,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -59.93 kcal/mol
 S298: 90.79 cal/mol/K
@@ -71910,7 +71910,7 @@ HarmonicOscillator
 entry(
     index = 2018,
     label = "CC(CCN)O",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {17,S}
 2  N u0 p1 c0 {5,S} {15,S} {16,S}
@@ -71943,7 +71943,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -61.36 kcal/mol
 S298: 85.57 cal/mol/K
@@ -71978,7 +71978,7 @@ HarmonicOscillator
 entry(
     index = 2019,
     label = "CCC(CO)N",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,S} {17,S}
 2  N u0 p1 c0 {3,S} {15,S} {16,S}
@@ -72011,7 +72011,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -58.95 kcal/mol
 S298: 85.78 cal/mol/K
@@ -72046,7 +72046,7 @@ HarmonicOscillator
 entry(
     index = 2020,
     label = "CC(DC)C#N",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {5,T}
 2  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
@@ -72072,7 +72072,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 35.35 kcal/mol
 S298: 72.86 cal/mol/K
@@ -72100,7 +72100,7 @@ HarmonicOscillator
 entry(
     index = 2021,
     label = "N#CC(C#N)(C#N)C#N",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {6,T}
 2 N u0 p1 c0 {7,T}
@@ -72125,7 +72125,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: 162.82 kcal/mol
 S298: 85.14 cal/mol/K
@@ -72152,7 +72152,7 @@ HarmonicOscillator
 entry(
     index = 2022,
     label = "CN(CCN(C)C)C",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {3,S} {5,S} {8,S}
 2  N u0 p1 c0 {4,S} {6,S} {7,S}
@@ -72192,7 +72192,7 @@ entry(
     reference = 'G4 / RRHO',
     referenceType = "Theory",
     shortDesc = """G4 / RRHO""",
-    longDesc = 
+    longDesc =
 """
 H298: -3.79 kcal/mol
 S298: 95.59 cal/mol/K

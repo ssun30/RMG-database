@@ -8,14 +8,14 @@ Calculated at the CBS-QB3 level
 
 Citation:
 
-Aaron G. Vandeputte, Shamel S. Merchant, Marko R. Djokic, Kevin M. Van Geem, 
-Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in the 
+Aaron G. Vandeputte, Shamel S. Merchant, Marko R. Djokic, Kevin M. Van Geem,
+Guy B. Marin, William H. Green, "Detailed study of cyclopentadiene pyrolysis in the
 presence of ethene: realistic pathways from C5H5 to naphthalene." (2016)
 """
 entry(
     index = 0,
     label = "prod_31",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
@@ -34,7 +34,7 @@ multiplicity 2
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -43,7 +43,7 @@ u"""
 entry(
     index = 1,
     label = "prod_32",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
@@ -62,7 +62,7 @@ multiplicity 2
 """,
     thermo = None,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -71,7 +71,7 @@ u"""
 entry(
     index = 2,
     label = "prod_1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -97,7 +97,7 @@ multiplicity 2
         S298 = (86,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -106,7 +106,7 @@ u"""
 entry(
     index = 3,
     label = "prod_2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
@@ -132,7 +132,7 @@ multiplicity 2
         S298 = (79.74,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -141,7 +141,7 @@ u"""
 entry(
     index = 4,
     label = "prod_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -165,7 +165,7 @@ entry(
         S298 = (75.64,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -174,7 +174,7 @@ u"""
 entry(
     index = 5,
     label = "prod_4",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
@@ -203,7 +203,7 @@ multiplicity 2
         S298 = (92.36,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -212,7 +212,7 @@ u"""
 entry(
     index = 6,
     label = "prod_5",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -239,7 +239,7 @@ entry(
         S298 = (84,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -248,7 +248,7 @@ u"""
 entry(
     index = 7,
     label = "prod_6",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
@@ -277,7 +277,7 @@ multiplicity 2
         S298 = (92.82,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -286,7 +286,7 @@ u"""
 entry(
     index = 8,
     label = "prod_7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
@@ -312,7 +312,7 @@ multiplicity 2
         S298 = (87.95,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -321,7 +321,7 @@ u"""
 entry(
     index = 9,
     label = "prod_8",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {9,S} {10,S}
@@ -347,7 +347,7 @@ multiplicity 2
         S298 = (78.86,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -356,7 +356,7 @@ u"""
 entry(
     index = 10,
     label = "prod_9",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -380,7 +380,7 @@ entry(
         S298 = (75.03,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -389,7 +389,7 @@ u"""
 entry(
     index = 11,
     label = "prod_10",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
@@ -418,7 +418,7 @@ multiplicity 2
         S298 = (95.42,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -427,7 +427,7 @@ u"""
 entry(
     index = 12,
     label = "prod_11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {5,S} {6,S} {10,S} {11,S}
@@ -456,7 +456,7 @@ multiplicity 2
         S298 = (88.44,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -465,7 +465,7 @@ u"""
 entry(
     index = 13,
     label = "prod_12",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
 2  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
@@ -492,7 +492,7 @@ entry(
         S298 = (81.84,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -501,7 +501,7 @@ u"""
 entry(
     index = 14,
     label = "prod_13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -528,7 +528,7 @@ multiplicity 2
         S298 = (88.38,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -537,7 +537,7 @@ u"""
 entry(
     index = 15,
     label = "prod_14",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -564,7 +564,7 @@ multiplicity 2
         S298 = (81.92,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -573,7 +573,7 @@ u"""
 entry(
     index = 16,
     label = "prod_15",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {3,S} {6,D}
@@ -598,7 +598,7 @@ entry(
         S298 = (78.99,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -607,7 +607,7 @@ u"""
 entry(
     index = 17,
     label = "prod_16",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {7,S} {8,S} {9,S} {10,S}
@@ -634,7 +634,7 @@ multiplicity 2
         S298 = (92.79,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -643,7 +643,7 @@ u"""
 entry(
     index = 18,
     label = "prod_17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {8,S} {9,S}
@@ -670,7 +670,7 @@ multiplicity 2
         S298 = (82.26,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -679,7 +679,7 @@ u"""
 entry(
     index = 19,
     label = "prod_18",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,D} {5,S}
@@ -704,7 +704,7 @@ entry(
         S298 = (79.52,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -713,7 +713,7 @@ u"""
 entry(
     index = 20,
     label = "prod_19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -739,7 +739,7 @@ multiplicity 2
         S298 = (92.15,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -748,7 +748,7 @@ u"""
 entry(
     index = 21,
     label = "prod_20",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
@@ -777,7 +777,7 @@ multiplicity 2
         S298 = (100.36,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -786,7 +786,7 @@ u"""
 entry(
     index = 22,
     label = "prod_21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -809,7 +809,7 @@ multiplicity 2
         S298 = (82.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -818,7 +818,7 @@ u"""
 entry(
     index = 23,
     label = "prod_22",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -841,7 +841,7 @@ multiplicity 2
         S298 = (70.98,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -850,7 +850,7 @@ u"""
 entry(
     index = 24,
     label = "prod_23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -871,7 +871,7 @@ multiplicity 2
         S298 = (78.08,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -880,7 +880,7 @@ u"""
 entry(
     index = 25,
     label = "prod_24",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -901,7 +901,7 @@ multiplicity 2
         S298 = (68.17,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -910,7 +910,7 @@ u"""
 entry(
     index = 26,
     label = "prod_25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
@@ -934,7 +934,7 @@ multiplicity 2
         S298 = (86.34,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -943,7 +943,7 @@ u"""
 entry(
     index = 27,
     label = "prod_26",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
@@ -967,7 +967,7 @@ multiplicity 2
         S298 = (76.12,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -976,7 +976,7 @@ u"""
 entry(
     index = 28,
     label = "prod_27",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
@@ -1000,7 +1000,7 @@ multiplicity 2
         S298 = (83.64,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1009,7 +1009,7 @@ u"""
 entry(
     index = 29,
     label = "prod_28",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
@@ -1033,7 +1033,7 @@ multiplicity 2
         S298 = (76.34,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1042,7 +1042,7 @@ u"""
 entry(
     index = 30,
     label = "prod_29",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
@@ -1066,7 +1066,7 @@ multiplicity 2
         S298 = (85.4,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1075,7 +1075,7 @@ u"""
 entry(
     index = 31,
     label = "prod_30",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -1099,7 +1099,7 @@ multiplicity 2
         S298 = (77.3,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1108,7 +1108,7 @@ u"""
 entry(
     index = 32,
     label = "prod_33",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -1132,7 +1132,7 @@ multiplicity 2
         S298 = (74.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

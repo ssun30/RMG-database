@@ -4,7 +4,7 @@
 name = "1,3_Insertion_ROR/rules"
 shortDesc = u""
 longDesc = u"""
-561 - 570 Some of the tortional motions in the alkyl part of the 
+561 - 570 Some of the tortional motions in the alkyl part of the
 
 transition states are treated as free rotations as they are relatively loose TSs.
 """

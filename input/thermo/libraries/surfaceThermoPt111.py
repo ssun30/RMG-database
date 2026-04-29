@@ -7,10 +7,10 @@ shortDesc = u"Surface adsorbates on Pt(111)"
 longDesc = u"""
 Surface species adsorbed on Pt(111). The thermochemistry of all adsorbates with up to 2 heavy atoms was calculated by Katrin Blondal at Brown University around 2018,
 based on DFT calculations by Jelena Jelic at KIT. See https://doi.org/10.1021/acs.iecr.9b01464 for the details on the computational methods as well as the results.
-This database was extended with DFT calculations for larger adsorbates by Bjarne Kreitz (Brown University).  
-The computational methods for the extension are explained in detail in https://doi.org/10.1021/acscatal.2c03378. If you use this database in your work, please cite the publications mentioned above. 
+This database was extended with DFT calculations for larger adsorbates by Bjarne Kreitz (Brown University).
+The computational methods for the extension are explained in detail in https://doi.org/10.1021/acscatal.2c03378. If you use this database in your work, please cite the publications mentioned above.
 Note: X indicates a bond to the surface. It is always on the left hand site of an atom that is bonded to the surface e.g. XCCH2 it means that C is bonded to the surface.
-If the X is on the right hand side and at the end of a label, it means that this species is physisorbed. 
+If the X is on the right hand side and at the end of a label, it means that this species is physisorbed.
 """
 
 entry(
@@ -302,7 +302,7 @@ entry(
         Tmin = (298.0, 'K'),
         Tmax = (2000.0, 'K'),
     ),
-    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb). 
+    longDesc = u"""Calculated by Katrin Blondal at Brown University using statistical mechanics (file: compute_NASA_for_Pt-adsorbates.ipynb).
             Based on DFT calculations by Jelena Jelic at KIT.
             DFT binding energy: -0.698 eV.
             Linear scaling parameters: ref_adatom_O = -3.586 eV, psi = 1.09537 eV, gamma_O(X) = 0.500.""",
@@ -727,7 +727,7 @@ entry(
     label = "NNX",
     molecule =
 """
-1 X  u0 p0 c0 
+1 X  u0 p0 c0
 2 N  u0 p1 c0 {3,T}
 3 N  u0 p1 c0 {2,T}
 """,
@@ -2862,7 +2862,7 @@ entry(
     molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {4,S}
-2  O u0 p2 c0 {1,D} 
+2  O u0 p2 c0 {1,D}
 3  O u0 p2 c0 {1,S} {5,S}
 4  O u0 p2 c0 {1,S} {6,S}
 5  X u0 p0 c0 {3,S}
@@ -2878,13 +2878,13 @@ entry(
         Tmin=(298, 'K'),
         Tmax=(2000, 'K'),
     ),
-    longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py). 
-        		Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso 
-        		using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage) 
+    longDesc=u"""Calculated by Bjarne Kreitz at Brown University using statistical mechanics (file: ThermoPt111.py).
+        		Based on DFT calculations by Bjarne Kreitz from Brown University. DFT calculations were performed with Quantum Espresso
+        		using PAW pseudopotentials and the BEEF-vdW functional for an optimized 3x3 supercell (1/9ML coverage)
         		following the procedure outlined by Blondal et al (DOI:10.1021/acs.iecr.9b01464). The following settings were applied:
         		kpoints=(5x5x1), 4 layers (2 bottom layers fixed), ecutwfc=60 Ry, smearing='mazari-vanderbilt', mixing_mode='local-TF',
-        		fmax=2.5e-2. DFT binding energy: -3.027 eV. 
-        		The two lowest frequencies, 89.5 and 92.5 cm-1, where replaced by the 2D gas model. 
+        		fmax=2.5e-2. DFT binding energy: -3.027 eV.
+        		The two lowest frequencies, 89.5 and 92.5 cm-1, where replaced by the 2D gas model.
         		The heat of formation of CO3 was corrected by +0.41 eV since the BEEF-vdW functional overestimates the binding energy (see SI of DOI:10.1039/c0ee00071j)""",
     metal="Pt",
     facet="111",
@@ -3682,7 +3682,7 @@ entry(
     molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
-2 C u0 p0 c0 {1,D} {3,D} 
+2 C u0 p0 c0 {1,D} {3,D}
 3 C u0 p0 c0 {2,D} {6,S} {7,S}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
@@ -4129,7 +4129,7 @@ entry(
 7 H u0 p0 c0 {3,S}
 8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {2,S}
-10 X u0 p0 c0 
+10 X u0 p0 c0
 """,
     thermo = NASA(
         polynomials = [
@@ -4193,9 +4193,9 @@ entry(
 1 C u0 p0 c0 {7,D} {2,S} {4,S}
 2 C u0 p0 c0 {8,S} {1,S} {3,S} {5,S}
 3 C u0 p0 c0 {9,D} {2,S} {6,S}
-4 H u0 p0 c0 {1,S} 
-5 H u0 p0 c0 {2,S} 
-6 H u0 p0 c0 {3,S} 
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {3,S}
 7 X u0 p0 c0 {1,D}
 8 X u0 p0 c0 {2,S}
 9 X u0 p0 c0 {3,D}
@@ -4227,9 +4227,9 @@ entry(
 1 C u0 p0 c0 {7,D} {2,S} {4,S}
 2 C u0 p0 c0 {1,S} {3,D} {5,S}
 3 C u0 p0 c0 {8,S} {2,D} {6,S}
-4 H u0 p0 c0 {1,S} 
-5 H u0 p0 c0 {2,S} 
-6 H u0 p0 c0 {3,S} 
+4 H u0 p0 c0 {1,S}
+5 H u0 p0 c0 {2,S}
+6 H u0 p0 c0 {3,S}
 7 X u0 p0 c0 {1,D}
 8 X u0 p0 c0 {3,S}
 """,
@@ -4431,7 +4431,7 @@ entry(
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {3,S}
 7 H u0 p0 c0 {3,S}
-8 X u0 p0 c0 
+8 X u0 p0 c0
 """,
     thermo = NASA(
         polynomials = [
@@ -4524,9 +4524,9 @@ entry(
     label = "XCXCCH3",
     molecule =
 """
-1 C u0 p0 c0 {2,S} {7,T} 
+1 C u0 p0 c0 {2,S} {7,T}
 2 C u0 p0 c0 {1,S} {8,D} {3,S}
-3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S} 
+3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 4 H u0 p0 c0 {3,S}
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {3,S}
@@ -4561,7 +4561,7 @@ entry(
 """
 1 C u0 p0 c0 {2,S} {8,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {9,S} {3,D}
-3 C u0 p0 c0 {2,D} {6,S} {7,S} 
+3 C u0 p0 c0 {2,D} {6,S} {7,S}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {3,S}
@@ -4595,7 +4595,7 @@ entry(
 """
 1 C u0 p0 c0 {8,T} {2,S}
 2 C u0 p0 c0 {1,S} {9,S} {3,S} {4,S}
-3 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S} 
+3 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 4 H u0 p0 c0 {2,S}
 5 H u0 p0 c0 {3,S}
 6 H u0 p0 c0 {3,S}
@@ -4662,7 +4662,7 @@ entry(
     molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {8,S}
-2 C u0 p0 c0 {1,D} {3,S} {9,S}  
+2 C u0 p0 c0 {1,D} {3,S} {9,S}
 3 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {3,S}
@@ -4705,7 +4705,7 @@ entry(
 8 H u0 p0 c0 {3,S}
 9 H u0 p0 c0 {3,S}
 10 H u0 p0 c0 {4,S}
-11 X u0 p0 c0 
+11 X u0 p0 c0
 """,
     thermo = NASA(
         polynomials = [
@@ -4832,7 +4832,7 @@ entry(
 """
 1 C u0 p0 c0 {2,S} {4,S} {6,D}
 2 C u0 p0 c0 {1,S} {3,D} {5,S}
-3 O u0 p2 c0 {2,D} 
+3 O u0 p2 c0 {2,D}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {2,S}
 6 X u0 p0 c0 {1,D}
@@ -4896,13 +4896,13 @@ entry(
     molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 O u0 p2 c0 {1,S} {6,S} 
+2 O u0 p2 c0 {1,S} {6,S}
 3 O u0 p2 c0 {1,S} {7,S}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}
 6 H u0 p0 c0 {2,S}
 7 H u0 p0 c0 {3,S}
-8 X u0 p0 c0 
+8 X u0 p0 c0
 """,
     thermo = NASA(
         polynomials = [
@@ -4931,7 +4931,7 @@ entry(
     molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-2 O u0 p2 c0 {1,S} {7,S} 
+2 O u0 p2 c0 {1,S} {7,S}
 3 O u0 p2 c0 {1,S} {6,S}
 4 H u0 p0 c0 {1,S}
 5 H u0 p0 c0 {1,S}

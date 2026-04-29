@@ -6,8 +6,8 @@ shortDesc = u"G3(MP2,CC)//B3LYP"
 longDesc = u"""
 Phenyl radical + acetylene PES calculated using G3(MP2,CC)//B3LYP + TST. Taken from:
 
-Mebel, A. M.; Georgievskii, Y.; Jasper, A. W.; Klippenstein, S. J., 
-Temperature- and pressure-dependent rate coefficients for the HACA pathways from benzene to naphthalene. 
+Mebel, A. M.; Georgievskii, Y.; Jasper, A. W.; Klippenstein, S. J.,
+Temperature- and pressure-dependent rate coefficients for the HACA pathways from benzene to naphthalene.
 Proc. Combust. Inst. 2017, 36, 919-926.
 """
 entry(

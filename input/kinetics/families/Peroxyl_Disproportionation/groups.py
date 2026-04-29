@@ -29,7 +29,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *1 O u0 {3,S} {4,S}
 2 *3 O u0 {5,S} {6,S}
@@ -44,7 +44,7 @@ entry(
 entry(
     index = 1,
     label = "Root_Ext-5R-R",
-    group = 
+    group =
 """
 1 *1 O   u0 {3,S} {4,S}
 2 *3 O   u0 {5,S} {6,S}
@@ -60,7 +60,7 @@ entry(
 entry(
     index = 2,
     label = "Root_Ext-5R-R_7R!H->C",
-    group = 
+    group =
 """
 1 *1 O u0 {3,S} {4,S}
 2 *3 O u0 {5,S} {6,S}
@@ -76,7 +76,7 @@ entry(
 entry(
     index = 3,
     label = "Root_Ext-5R-R_7R!H->C_7C-inRing",
-    group = 
+    group =
 """
 1 *1 O u0 {3,S} {4,S}
 2 *3 O u0 {5,S} {6,S}
@@ -92,7 +92,7 @@ entry(
 entry(
     index = 4,
     label = "Root_Ext-5R-R_7R!H->C_7C-inRing_Ext-7C-R_Ext-8R!H-R_Ext-8R!H-R",
-    group = 
+    group =
 """
 1 *1 O   u0 r0 {3,S} {4,S}
 2 *3 O   u0 r0 {5,S} {6,S}
@@ -110,7 +110,7 @@ entry(
 entry(
     index = 5,
     label = "Root_Ext-5R-R_7R!H->C_N-7C-inRing",
-    group = 
+    group =
 """
 1 *1 O u0 {3,S} {4,S}
 2 *3 O u0 {5,S} {6,S}
@@ -126,7 +126,7 @@ entry(
 entry(
     index = 6,
     label = "Root_Ext-5R-R_7R!H->C_N-7C-inRing_Ext-5R-R",
-    group = 
+    group =
 """
 1 *1 O   u0 {3,S} {4,S}
 2 *3 O   u0 {5,S} {6,S}
@@ -143,7 +143,7 @@ entry(
 entry(
     index = 7,
     label = "Root_Ext-5R-R_N-7R!H->C",
-    group = 
+    group =
 """
 1 *1 O                      u0 {3,S} {4,S}
 2 *3 O                      u0 {5,S} {6,S}
@@ -159,7 +159,7 @@ entry(
 entry(
     index = 8,
     label = "Root_Ext-3R-R",
-    group = 
+    group =
 """
 1 *1 O     u0 {3,S} {4,S}
 2 *3 O     u0 {5,S} {6,S}
@@ -175,7 +175,7 @@ entry(
 entry(
     index = 9,
     label = "Root_Ext-3R-R_5R->C",
-    group = 
+    group =
 """
 1 *1 O     u0 r0 {3,S} {4,S}
 2 *3 O     u0 r0 {5,S} {6,S}
@@ -191,7 +191,7 @@ entry(
 entry(
     index = 10,
     label = "Root_Ext-3R-R_N-5R->C",
-    group = 
+    group =
 """
 1 *1 O     u0 r0 {3,S} {4,S}
 2 *3 O     u0 r0 {5,S} {6,S}

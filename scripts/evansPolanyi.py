@@ -36,10 +36,10 @@ def get_reaction_for_entry(entry, database):
         product.generate_resonance_structures()
         product.thermo = generate_thermo_data(product, database)
         reaction.products.append(product)
-    
+
     reaction.kinetics = entry.data
     reaction.degeneracy = entry.item.degeneracy
-    
+
     return reaction
 
 ################################################################################
@@ -82,7 +82,7 @@ def fit_evans_polanyi(dHrxn, Ea):
     x, residues, rank, s = numpy.linalg.lstsq(A, b, rcond=None)
     Hmin = -x[1] / x[0]
     Hmax = x[1] / (1 - x[0])
-    
+
     # Compute sample standard deviation and standard error
     stdev = 0.0; error = 0.0; count = 0
     for H, E in zip(dHrxn, Ea):
@@ -97,7 +97,7 @@ def fit_evans_polanyi(dHrxn, Ea):
             stdev += (E0 - E)**2
         count += 1
     stdev = math.sqrt(stdev / (count - 1))
-    
+
     dHrxn1 = numpy.arange(min(dHrxn), max(dHrxn), 0.1, numpy.float64)
     Ea1 = []
     for H in dHrxn1:
@@ -117,12 +117,12 @@ def generate_evans_polanyi_plot(depository, database):
     Generate an Evans-Polanyi plot for the entries in the given `depository`
     of the loaded `database`.
     """
-    
+
     fig = pylab.figure(figsize=(6,5))
-        
+
     Ea = []; dHrxn = []; reactions = []
     entries = list(depository.entries.values())
-    
+
     for entry in entries:
         if isinstance(entry.data, Arrhenius):
 
@@ -131,7 +131,7 @@ def generate_evans_polanyi_plot(depository, database):
             reactions.append(reaction)
             Ea.append(reaction.kinetics.Ea.value / 1000.)
             dHrxn.append(reaction.get_enthalpy_of_reaction(298) / 1000.)
-            
+
     xEP, stdevEP, dHrxnEP, EaEP = fit_evans_polanyi(dHrxn, Ea)
 
     print()
@@ -148,7 +148,7 @@ def generate_evans_polanyi_plot(depository, database):
     pylab.plot(dHrxnEP, EaEP, color='red', linestyle='solid', linewidth=2)
     pylab.plot(dHrxnEP, EaEP + 1.96 * stdevEP, color='red', linestyle='dashed', linewidth=1)
     pylab.plot(dHrxnEP, EaEP - 1.96 * stdevEP, color='red', linestyle='dashed', linewidth=1)
-    
+
     pylab.xlabel('Enthalpy of reaction at 298 K (kJ/mol)')
     pylab.ylabel('Arrhenius activation energy (kJ/mol)')
     pylab.xlim(-350,350)
@@ -156,7 +156,7 @@ def generate_evans_polanyi_plot(depository, database):
     pylab.minorticks_on()
 
     fig.subplots_adjust(left=0.14, bottom=0.1, top=0.95, right=0.95, wspace=0.20, hspace=0.20)
-    
+
     def on_pick(event):
         print('Pick')
         thisline = event.artist
@@ -183,14 +183,14 @@ def generate_evans_polanyi_plot(depository, database):
 if __name__ == '__main__':
 
     import argparse
-    
+
     parser = argparse.ArgumentParser()
     parser.add_argument('kinetics_family', metavar='<family>', type=str, nargs=1, help='the family to use')
     parser.add_argument('kinetics_depository', metavar='<kinetics_depository>', type=str, nargs='+',
                         help='the kineticsDepository to use, e.g., training, NIST')
-    
+
     args = parser.parse_args()
-    
+
     print('Loading RMG database...')
     from rmgpy.data.rmg import RMGDatabase
     from rmgpy import settings

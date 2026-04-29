@@ -13,7 +13,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8089.06,'cm^3/(mol*s)'), n=2.74525, Ea=(36.8683,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.10307, dn = +|- 0.0128876, dEa = +|- 0.0701337 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [CH3] + CC(O)Br <=> CBr + C[CH]O
@@ -26,7 +26,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.82335e+09,'cm^3/(mol*s)'), n=1.55333, Ea=(-0.0243267,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0154, dn = +|- 0.00200734, dEa = +|- 0.0109239 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [H] + CDCOBr <=> Br + CDC[O]
@@ -39,7 +39,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(71360.1,'cm^3/(mol*s)'), n=2.71607, Ea=(61.4249,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.11667, dn = +|- 0.0144981, dEa = +|- 0.078898 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [CH3] + CDC(C)Br <=> CBr + CD[C]C
@@ -52,7 +52,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.49752e+08,'cm^3/(mol*s)'), n=1.64303, Ea=(27.2099,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05278, dn = +|- 0.006758, dEa = +|- 0.0367768 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [H] + O[CH]Br <=> Br + [CH]O
@@ -65,7 +65,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.70556e+09,'cm^3/(mol*s)'), n=1.56225, Ea=(0.960606,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01989, dn = +|- 0.00258766, dEa = +|- 0.0140819 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [H] + COBr <=> Br + C[O]
@@ -78,7 +78,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.71066e+08,'cm^3/(mol*s)'), n=1.71693, Ea=(17.9864,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08099, dn = +|- 0.0102314, dEa = +|- 0.055679 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [H] + ClCBr <=> Br + [CH2]Cl
@@ -91,7 +91,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(5568.38,'cm^3/(mol*s)'), n=2.8146, Ea=(38.4395,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07781, dn = +|- 0.00984477, dEa = +|- 0.0535749 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [CH3] + ClCBr <=> CBr + [CH2]Cl
@@ -104,7 +104,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(16992.4,'cm^3/(mol*s)'), n=2.72405, Ea=(61.5439,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.10261, dn = +|- 0.012833, dEa = +|- 0.0698367 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [CH3] + O[CH]Br <=> CBr + [CH]O
@@ -117,7 +117,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.97056e+08,'cm^3/(mol*s)'), n=1.64084, Ea=(25.8924,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04947, dn = +|- 0.0063437, dEa = +|- 0.0345222 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [H] + C[CH]Br <=> Br + [CH]C
@@ -130,7 +130,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.79761e+08,'cm^3/(mol*s)'), n=1.67816, Ea=(44.0004,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06021, dn = +|- 0.00768142, dEa = +|- 0.041802 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [H] + O[C](O)Br <=> Br + O[C]O
@@ -143,7 +143,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6841.22,'cm^3/(mol*s)'), n=2.86155, Ea=(40.7809,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0622, dn = +|- 0.0079277, dEa = +|- 0.0431423 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [CH3] + CDCDCBr <=> CBr + C#C[CH2]
@@ -156,7 +156,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.62575e+09,'cm^3/(mol*s)'), n=1.23946, Ea=(58.7276,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07686, dn = +|- 0.0097281, dEa = +|- 0.05294 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [H] + CD[C]Br <=> Br + [C]DC
@@ -169,7 +169,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(29124.5,'cm^3/(mol*s)'), n=2.69164, Ea=(59.2465,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.12363, dn = +|- 0.0153138, dEa = +|- 0.0833369 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [CH3] + C[CH]Br <=> CBr + [CH]C
@@ -182,7 +182,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(74186.8,'cm^3/(mol*s)'), n=2.6667, Ea=(80.1698,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.12924, dn = +|- 0.0159688, dEa = +|- 0.0869015 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [CH3] + O[C](O)Br <=> CBr + O[C]O
@@ -196,7 +196,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(24450.5,'cm^3/(mol*s)'), n=2.62586, Ea=(61.1657,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.13841, dn = +|- 0.017031, dEa = +|- 0.0926819 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [CH3] + C[C](O)Br <=> CBr + C[C]O
@@ -209,7 +209,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.50121e+08,'cm^3/(mol*s)'), n=1.74726, Ea=(21.8677,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09108, dn = +|- 0.0114517, dEa = +|- 0.0623198 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [H] + CC(C)CBr <=> Br + [CH2]C(C)C
@@ -222,7 +222,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.05119e+08,'cm^3/(mol*s)'), n=1.83231, Ea=(22.8571,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.12299, dn = +|- 0.0152394, dEa = +|- 0.0829323 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [H] + CBr <=> Br + [CH3]
@@ -235,7 +235,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.15712e+10,'cm^3/(mol*s)'), n=0.78916, Ea=(20.2164,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.10457, dn = +|- 0.013066, dEa = +|- 0.0711049 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [H] + CCCBr <=> Br + [CH2]CC
@@ -248,7 +248,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(249400,'cm^3/(mol*s)'), n=1.79792, Ea=(41.307,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0848, dn = +|- 0.0106935, dEa = +|- 0.0581936 kJ/mol"""),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_abstraction
 Original entry: [CH3] + OCBr <=> CBr + [CH2]O
@@ -262,7 +262,7 @@ entry(
     kinetics = Arrhenius(A=(2.28e+11,'cm^3/(mol*s)'), n=1, Ea=(440,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is H + BR2 <=> HBR + BR""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: 2-BTP
 Original entry: H + BR2 <=> HBR + BR
@@ -276,7 +276,7 @@ entry(
     kinetics = Arrhenius(A=(5.11e+13,'cm^3/(mol*s)'), n=0, Ea=(5840,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is H + CH3BR <=> HBR + CH3""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: 2-BTP
 Original entry: H + CH3BR <=> HBR + CH3
@@ -290,7 +290,7 @@ entry(
     kinetics = Arrhenius(A=(1.21e+13,'cm^3/(mol*s)'), n=0, Ea=(-390,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is BR2 + CH3 <=> BR + CH3BR""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: 2-BTP
 Original entry: BR2 + CH3 <=> BR + CH3BR
@@ -304,7 +304,7 @@ entry(
     kinetics = Arrhenius(A=(2.4e+13,'cm^3/(mol*s)'), n=0, Ea=(-572,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is BR2 + C2H3 <=> BR + C2H3BR""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: 2-BTP
 Original entry: BR2 + C2H3 <=> BR + C2H3BR
@@ -318,7 +318,7 @@ entry(
     kinetics = Arrhenius(A=(1.57e+13,'cm^3/(mol*s)'), n=0, Ea=(-820,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is BR2 + C2H5 <=> BR + C2H5BR""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: 2-BTP
 Original entry: BR2 + C2H5 <=> BR + C2H5BR
@@ -332,7 +332,7 @@ entry(
     kinetics = Arrhenius(A=(1.21e+12,'cm^3/(mol*s)'), n=0, Ea=(240,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is BR2 + CF3 <=> BR + CF3BR""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: 2-BTP
 Original entry: BR2 + CF3 <=> BR + CF3BR
@@ -346,7 +346,7 @@ entry(
     kinetics = Arrhenius(A=(9e+12,'cm^3/(mol*s)'), n=0, Ea=(13510,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is O + CF3BR <=> BRO + CF3""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: 2-BTP
 Original entry: O + CF3BR <=> BRO + CF3
@@ -360,7 +360,7 @@ entry(
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(13500,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is CH3BR + O <=> CH3 + BRO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: 2-BTP
 Original entry: CH3BR + O <=> CH3 + BRO
@@ -374,7 +374,7 @@ entry(
     kinetics = Arrhenius(A=(5e+09,'cm^3/(mol*s)'), n=0, Ea=(10200,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is BR + CH2BR <=> BR2 + CH2""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: 2-BTP
 Original entry: BR + CH2BR <=> BR2 + CH2
@@ -388,7 +388,7 @@ entry(
     kinetics = Arrhenius(A=(1e+13,'cm^3/(mol*s)'), n=0, Ea=(18000,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is OH + CF3BR <=> CF3 + BROH""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: 2-BTP
 Original entry: OH + CF3BR <=> CF3 + BROH
@@ -402,7 +402,7 @@ entry(
     kinetics = Arrhenius(A=(3e+12,'cm^3/(mol*s)'), n=0, Ea=(26000,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is C2H3BR + OH <=> C2H3 + BROH""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: 2-BTP
 Original entry: C2H3BR + OH <=> C2H3 + BROH
@@ -416,7 +416,7 @@ entry(
     kinetics = Arrhenius(A=(2e+13,'cm^3/(mol*s)'), n=0, Ea=(15000,'cal/mol'), T0=(1,'K')),
     rank = 10,
     shortDesc = """The chemkin file reaction is C2H5BR + OH <=> C2H5 + BROH""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: 2-BTP
 Original entry: C2H5BR + OH <=> C2H5 + BROH
@@ -430,7 +430,7 @@ entry(
     kinetics = Arrhenius(A=(8.1e+13,'cm^3/(mol*s)'), n=0, Ea=(25167,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is CF2BRCL + BR <=> CF2CL + BR2""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: CF2BRCL + BR <=> CF2CL + BR2
@@ -444,7 +444,7 @@ entry(
     kinetics = Arrhenius(A=(8.1e+13,'cm^3/(mol*s)'), n=0, Ea=(25167,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is CF2BRCL + CL <=> CF2CL + BRCL""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: CF2BRCL + CL <=> CF2CL + BRCL
@@ -458,7 +458,7 @@ entry(
     kinetics = Arrhenius(A=(2.3e+12,'cm^3/(mol*s)'), n=0, Ea=(695,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is CF2BR + BR2 <=> CF2BR2 + BR""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: CF2BR + BR2 <=> CF2BR2 + BR
@@ -472,7 +472,7 @@ entry(
     kinetics = Arrhenius(A=(3.7e+14,'cm^3/(mol*s)'), n=0, Ea=(6165,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is BR + BRCL <=> CL + BR2""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: BR + BRCL <=> CL + BR2
@@ -486,7 +486,7 @@ entry(
     kinetics = Arrhenius(A=(7.2e+13,'cm^3/(mol*s)'), n=0, Ea=(854,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is O + BROH <=> OH + BRO""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: O + BROH <=> OH + BRO
@@ -500,7 +500,7 @@ Original entry: O + BROH <=> OH + BRO
 #     kinetics = Arrhenius(A=(0.91,'cm^3/(mol*s)'), n=0, Ea=(2087,'cal/mol'), T0=(1,'K')),
 #     rank = 3,
 #     shortDesc = """The chemkin file reaction is BRCL + CH3 <=> CH3BR + CL""",
-#     longDesc = 
+#     longDesc =
 # """
 # Training reaction from kinetics library: CF2BrCl
 # Original entry: BRCL + CH3 <=> CH3BR + CL
@@ -514,7 +514,7 @@ entry(
     kinetics = Arrhenius(A=(9.04e+11,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is BRCL + OH <=> BROH + CL""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: BRCL + OH <=> BROH + CL
@@ -528,7 +528,7 @@ entry(
     kinetics = Arrhenius(A=(8164.39,'cm^3/(mol*s)'), n=1.90059, Ea=(34.8483,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03906, dn = +|- 0.00503368, dEa = +|- 0.0273931 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FCC(F)Br + [CH2]F <=> F[CH]CF + FCBr
@@ -557,7 +557,7 @@ entry(
     kinetics = Arrhenius(A=(3010.22,'cm^3/(mol*s)'), n=2.08084, Ea=(18.6135,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0283, dn = +|- 0.00366696, dEa = +|- 0.0199555 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)Br + CD[C]C <=> F[CH]F + CDC(C)Br
@@ -587,7 +587,7 @@ entry(
     kinetics = Arrhenius(A=(29.0405,'cm^3/(mol*s)'), n=2.92564, Ea=(32.027,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01628, dn = +|- 0.00212125, dEa = +|- 0.0115438 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)Br + C[CH]C <=> F[CH]F + CC(C)Br
@@ -619,7 +619,7 @@ entry(
     kinetics = Arrhenius(A=(5.44736e+08,'cm^3/(mol*s)'), n=1.68578, Ea=(11.5533,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07457, dn = +|- 0.00944869, dEa = +|- 0.0514194 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [H] + CC(C)(Br)CF <=> Br + C[C](C)CF
@@ -651,7 +651,7 @@ entry(
     kinetics = Arrhenius(A=(5.90348e+08,'cm^3/(mol*s)'), n=1.65419, Ea=(17.1566,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06749, dn = +|- 0.00858016, dEa = +|- 0.0466929 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(Cl)C(F)(F)Br + [H] <=> Br + F[C](F)C(F)(F)Cl
@@ -677,7 +677,7 @@ entry(
     kinetics = Arrhenius(A=(586.117,'cm^3/(mol*s)'), n=3.12075, Ea=(32.0311,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04189, dn = +|- 0.00539196, dEa = +|- 0.0293429 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(Cl)C(F)(F)Br + F[C](F)F <=> FC(F)(F)Br + F[C](F)C(F)(F)Cl
@@ -706,7 +706,7 @@ entry(
     kinetics = Arrhenius(A=(58602.2,'cm^3/(mol*s)'), n=1.72086, Ea=(30.653,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08491, dn = +|- 0.0107071, dEa = +|- 0.0582678 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(F)Br + C[CH2] <=> F[C](F)F + CCBr
@@ -735,7 +735,7 @@ entry(
     kinetics = Arrhenius(A=(86.845,'cm^3/(mol*s)'), n=3.24053, Ea=(40.4303,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06873, dn = +|- 0.00873259, dEa = +|- 0.0475224 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: F[CH]F + ClCCBr <=> FC(F)Br + [CH2]CCl
@@ -764,7 +764,7 @@ entry(
     kinetics = Arrhenius(A=(762.873,'cm^3/(mol*s)'), n=3.1179, Ea=(30.4436,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04141, dn = +|- 0.00533126, dEa = +|- 0.0290125 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(Br)C(F)(F)Br + F[C](F)F <=> FC(F)(F)Br + F[C](F)C(F)(F)Br
@@ -793,7 +793,7 @@ entry(
     kinetics = Arrhenius(A=(8.90982e+08,'cm^3/(mol*s)'), n=1.65484, Ea=(30.45,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05692, dn = +|- 0.00727358, dEa = +|- 0.0395826 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [H] + CDC(Br)C(F)(F)F <=> Br + CD[C]C(F)(F)F
@@ -820,7 +820,7 @@ entry(
     kinetics = Arrhenius(A=(172.463,'cm^3/(mol*s)'), n=3.11892, Ea=(30.7055,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0425, dn = +|- 0.00546859, dEa = +|- 0.0297599 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(Br)Br + F[C](F)Cl <=> FC(F)(Cl)Br + F[C](F)Br
@@ -846,7 +846,7 @@ entry(
     kinetics = Arrhenius(A=(746.917,'cm^3/(mol*s)'), n=2.18514, Ea=(42.3788,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05271, dn = +|- 0.00674926, dEa = +|- 0.0367292 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: F[CH]Br + ClCBr <=> FC(Br)Br + [CH2]Cl
@@ -872,7 +872,7 @@ entry(
     kinetics = Arrhenius(A=(969316,'cm^3/(mol*s)'), n=1.73772, Ea=(31.5183,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09859, dn = +|- 0.0123528, dEa = +|- 0.0672237 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(Br)Br + [CH3] <=> F[CH]Br + CBr
@@ -898,7 +898,7 @@ entry(
     kinetics = Arrhenius(A=(278.642,'cm^3/(mol*s)'), n=3.1149, Ea=(23.7221,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03931, dn = +|- 0.00506557, dEa = +|- 0.0275666 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(Br)Br + F[C](F)F <=> FC(F)(F)Br + F[C](F)Br
@@ -924,7 +924,7 @@ entry(
     kinetics = Arrhenius(A=(17849.2,'cm^3/(mol*s)'), n=1.86732, Ea=(29.8155,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04898, dn = +|- 0.00628265, dEa = +|- 0.03419 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(Br)Br + [CH2]F <=> F[CH]Br + FCBr
@@ -950,7 +950,7 @@ entry(
     kinetics = Arrhenius(A=(536.535,'cm^3/(mol*s)'), n=2.88999, Ea=(31.7139,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0386, dn = +|- 0.00497619, dEa = +|- 0.0270803 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(Br)CCl + [CH2]F <=> F[CH]CCl + FCBr
@@ -979,7 +979,7 @@ entry(
     kinetics = Arrhenius(A=(212.992,'cm^3/(mol*s)'), n=2.83406, Ea=(38.7396,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06105, dn = +|- 0.00778563, dEa = +|- 0.0423691 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)Br + [CH2]CF <=> F[CH]F + FCCBr
@@ -1008,7 +1008,7 @@ entry(
     kinetics = Arrhenius(A=(9.10139e+08,'cm^3/(mol*s)'), n=1.66953, Ea=(15.6858,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06744, dn = +|- 0.00857452, dEa = +|- 0.0466622 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(Br)Br + [H] <=> Br + F[CH]Br
@@ -1031,7 +1031,7 @@ entry(
     kinetics = Arrhenius(A=(9.43579e+08,'cm^3/(mol*s)'), n=1.62342, Ea=(14.4047,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05329, dn = +|- 0.00682123, dEa = +|- 0.0371209 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(Cl)Br + [H] <=> Br + F[C](F)Cl
@@ -1054,7 +1054,7 @@ entry(
     kinetics = Arrhenius(A=(3044.71,'cm^3/(mol*s)'), n=2.97709, Ea=(17.0548,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.00181, dn = +|- 0.000237097, dEa = +|- 0.00129027 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(F)Br + [CH]DC <=> F[C](F)F + CDCBr
@@ -1081,7 +1081,7 @@ entry(
     kinetics = Arrhenius(A=(2665.1,'cm^3/(mol*s)'), n=3.02759, Ea=(21.2447,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.01438, dn = +|- 0.00187528, dEa = +|- 0.0102052 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(F)Br + CD[C]C(F)(F)F <=> F[C](F)F + CDC(Br)C(F)(F)F
@@ -1111,7 +1111,7 @@ entry(
     kinetics = Arrhenius(A=(33938,'cm^3/(mol*s)'), n=2.67089, Ea=(25.7849,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.11494, dn = +|- 0.0142947, dEa = +|- 0.0777911 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(Cl)Br + [CH3] <=> CBr + F[C](F)Cl
@@ -1137,7 +1137,7 @@ entry(
     kinetics = Arrhenius(A=(66786.7,'cm^3/(mol*s)'), n=1.64401, Ea=(7.72206,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04581, dn = +|- 0.0058851, dEa = +|- 0.0320265 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [O]Br + F[C](F)Cl <=> FC(F)(Cl)Br + [O]
@@ -1160,7 +1160,7 @@ entry(
     kinetics = Arrhenius(A=(1.31827e+09,'cm^3/(mol*s)'), n=1.65584, Ea=(16.5217,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06821, dn = +|- 0.00866868, dEa = +|- 0.0471746 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(Br)C(F)(F)Br + [H] <=> Br + F[C](F)C(F)(F)Br
@@ -1186,7 +1186,7 @@ entry(
     kinetics = Arrhenius(A=(654.249,'cm^3/(mol*s)'), n=2.92288, Ea=(42.8924,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0316, dn = +|- 0.0040868, dEa = +|- 0.0222402 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: C[CH2] + FCBr <=> CCBr + [CH2]F
@@ -1216,7 +1216,7 @@ entry(
     kinetics = Arrhenius(A=(6.9838e+08,'cm^3/(mol*s)'), n=1.68119, Ea=(16.5265,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07305, dn = +|- 0.00926235, dEa = +|- 0.0504054 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(Cl)Br + [H] <=> Br + F[CH]Cl
@@ -1240,7 +1240,7 @@ entry(
     kinetics = Arrhenius(A=(36695,'cm^3/(mol*s)'), n=2.78053, Ea=(-4.68964,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08837, dn = +|- 0.0111256, dEa = +|- 0.0605451 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: OBr + [CH3] <=> [OH] + CBr
@@ -1265,7 +1265,7 @@ entry(
     kinetics = Arrhenius(A=(124.757,'cm^3/(mol*s)'), n=3.19274, Ea=(34.6101,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05432, dn = +|- 0.00694908, dEa = +|- 0.0378166 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: F[CH]F + BrCBr <=> FC(F)Br + [CH2]Br
@@ -1292,7 +1292,7 @@ entry(
     kinetics = Arrhenius(A=(2.39048e+10,'cm^3/(mol*s)'), n=1.10058, Ea=(3.20685,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.03651, dn = +|- 0.00471129, dEa = +|- 0.0256386 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [H] + [O]Br <=> Br + [O]
@@ -1313,7 +1313,7 @@ entry(
     kinetics = Arrhenius(A=(78.772,'cm^3/(mol*s)'), n=3.16729, Ea=(21.8627,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05192, dn = +|- 0.00665035, dEa = +|- 0.0361909 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: CD[C]C + FCBr <=> CDC(C)Br + [CH2]F
@@ -1344,7 +1344,7 @@ entry(
     kinetics = Arrhenius(A=(8.98897e+08,'cm^3/(mol*s)'), n=1.67337, Ea=(17.4172,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0734, dn = +|- 0.00930592, dEa = +|- 0.0506425 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: CC(F)(F)Br + [H] <=> Br + C[C](F)F
@@ -1371,7 +1371,7 @@ entry(
     kinetics = Arrhenius(A=(2.1918e+08,'cm^3/(mol*s)'), n=1.64765, Ea=(24.1967,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05647, dn = +|- 0.00721707, dEa = +|- 0.039275 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [H] + C[C](C)Br <=> Br + C[C]C
@@ -1400,7 +1400,7 @@ entry(
     kinetics = Arrhenius(A=(17615.5,'cm^3/(mol*s)'), n=2.67281, Ea=(29.2981,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.11395, dn = +|- 0.0141778, dEa = +|- 0.0771552 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(Br)Br + [CH3] <=> CBr + F[C](F)Br
@@ -1427,7 +1427,7 @@ entry(
     kinetics = Arrhenius(A=(4.01227e+08,'cm^3/(mol*s)'), n=1.6928, Ea=(14.428,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08012, dn = +|- 0.0101259, dEa = +|- 0.055105 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(Br)CCl + [H] <=> Br + F[CH]CCl
@@ -1454,7 +1454,7 @@ entry(
     kinetics = Arrhenius(A=(10506.2,'cm^3/(mol*s)'), n=2.7954, Ea=(47.0911,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09358, dn = +|- 0.0117533, dEa = +|- 0.063961 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: CC(C)Br + [CH3] <=> C[CH]C + CBr
@@ -1487,7 +1487,7 @@ entry(
     kinetics = Arrhenius(A=(544.314,'cm^3/(mol*s)'), n=2.81735, Ea=(38.2912,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06112, dn = +|- 0.0077936, dEa = +|- 0.0424125 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)Br + C[CH2] <=> F[CH]F + CCBr
@@ -1517,7 +1517,7 @@ entry(
     kinetics = Arrhenius(A=(1.1581e+09,'cm^3/(mol*s)'), n=1.60333, Ea=(14.9526,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04394, dn = +|- 0.00564944, dEa = +|- 0.030744 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)(Br)Br + [H] <=> Br + F[C](F)Br
@@ -1541,7 +1541,7 @@ entry(
     kinetics = Arrhenius(A=(3.53002e+08,'cm^3/(mol*s)'), n=1.6735, Ea=(20.6842,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0692, dn = +|- 0.00879114, dEa = +|- 0.0478411 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)Br + [H] <=> Br + F[CH]F
@@ -1565,7 +1565,7 @@ entry(
     kinetics = Arrhenius(A=(45587.3,'cm^3/(mol*s)'), n=2.62423, Ea=(42.4771,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.13168, dn = +|- 0.0162523, dEa = +|- 0.0884446 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [CH3] + FC(F)(F)Br <=> CBr + F[C](F)F
@@ -1592,7 +1592,7 @@ entry(
     kinetics = Arrhenius(A=(1.0787e+09,'cm^3/(mol*s)'), n=1.7149, Ea=(17.3615,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08042, dn = +|- 0.0101622, dEa = +|- 0.0553021 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: BrCBr + [H] <=> Br + [CH2]Br
@@ -1616,7 +1616,7 @@ entry(
     kinetics = Arrhenius(A=(1.34604e+08,'cm^3/(mol*s)'), n=1.65014, Ea=(32.1137,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05114, dn = +|- 0.00655201, dEa = +|- 0.0356558 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [CH2]Br + [H] <=> [CH2] + Br
@@ -1639,7 +1639,7 @@ entry(
     kinetics = Arrhenius(A=(3792.02,'cm^3/(mol*s)'), n=2.31694, Ea=(-2.64737,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05842, dn = +|- 0.00745944, dEa = +|- 0.040594 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [O]Br + C[CH2] <=> [O] + CCBr
@@ -1666,7 +1666,7 @@ entry(
     kinetics = Arrhenius(A=(2.26115e+10,'cm^3/(mol*s)'), n=1.0253, Ea=(7.57907,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.00977, dn = +|- 0.0012773, dEa = +|- 0.006951 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: ClBr + [O] <=> [O]Br + [Cl]
@@ -1687,7 +1687,7 @@ entry(
     kinetics = Arrhenius(A=(4.02859e+08,'cm^3/(mol*s)'), n=1.71519, Ea=(26.2766,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0804, dn = +|- 0.0101603, dEa = +|- 0.0552921 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: CDC(C)Br + [H] <=> Br + CD[C]C
@@ -1715,7 +1715,7 @@ entry(
     kinetics = Arrhenius(A=(6.84364e+08,'cm^3/(mol*s)'), n=1.64514, Ea=(6.52837,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06064, dn = +|- 0.00773462, dEa = +|- 0.0420915 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [H] + CC(C)(Br)CBr <=> Br + C[C](C)CBr
@@ -1748,7 +1748,7 @@ entry(
     kinetics = Arrhenius(A=(205.056,'cm^3/(mol*s)'), n=2.81796, Ea=(42.2401,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07093, dn = +|- 0.00900307, dEa = +|- 0.0489944 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(Cl)Br + [CH2]Br <=> F[CH]Cl + BrCBr
@@ -1775,7 +1775,7 @@ entry(
     kinetics = Arrhenius(A=(7.8008e+08,'cm^3/(mol*s)'), n=1.73104, Ea=(30.5243,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0785, dn = +|- 0.00992891, dEa = +|- 0.0540327 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [H] + CDCBr <=> Br + [CH]DC
@@ -1800,7 +1800,7 @@ entry(
     kinetics = Arrhenius(A=(5.06769e+08,'cm^3/(mol*s)'), n=1.76845, Ea=(19.2025,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0973, dn = +|- 0.0121989, dEa = +|- 0.0663859 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [H] + CCBr <=> Br + C[CH2]
@@ -1827,7 +1827,7 @@ entry(
     kinetics = Arrhenius(A=(423.303,'cm^3/(mol*s)'), n=3.19649, Ea=(26.9362,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05861, dn = +|- 0.00748319, dEa = +|- 0.0407233 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: CBr + [CH]DCC <=> [CH3] + CCDCBr
@@ -1858,7 +1858,7 @@ entry(
     kinetics = Arrhenius(A=(100.514,'cm^3/(mol*s)'), n=3.04176, Ea=(46.6893,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.00697, dn = +|- 0.000912501, dEa = +|- 0.0049658 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: CBr + C[CH2] <=> [CH3] + CCBr
@@ -1888,7 +1888,7 @@ entry(
     kinetics = Arrhenius(A=(27055.4,'cm^3/(mol*s)'), n=2.71539, Ea=(45.3987,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.10821, dn = +|- 0.0134993, dEa = +|- 0.0734629 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FC(F)Br + [CH3] <=> F[CH]F + CBr
@@ -1915,7 +1915,7 @@ entry(
     kinetics = Arrhenius(A=(8.74403e+08,'cm^3/(mol*s)'), n=1.67238, Ea=(15.7484,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06849, dn = +|- 0.00870329, dEa = +|- 0.047363 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [H] + CC(C)(F)Br <=> Br + C[C](C)F
@@ -1945,7 +1945,7 @@ entry(
     kinetics = Arrhenius(A=(3.84224e+08,'cm^3/(mol*s)'), n=1.70269, Ea=(14.8001,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08005, dn = +|- 0.0101174, dEa = +|- 0.0550585 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: FCC(F)Br + [H] <=> Br + F[CH]CF
@@ -1972,7 +1972,7 @@ entry(
     kinetics = Arrhenius(A=(3.99317e+10,'cm^3/(mol*s)'), n=1.02274, Ea=(10.4443,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.00901, dn = +|- 0.00117892, dEa = +|- 0.00641564 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [O] + BrBr <=> [O]Br + [Br]
@@ -1993,7 +1993,7 @@ entry(
     kinetics = Arrhenius(A=(3.48676e+09,'cm^3/(mol*s)'), n=1.56674, Ea=(1.03064,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.02146, dn = +|- 0.00278924, dEa = +|- 0.0151789 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [H] + OBr <=> Br + [OH]
@@ -2015,7 +2015,7 @@ entry(
     kinetics = Arrhenius(A=(2164.02,'cm^3/(mol*s)'), n=3.18899, Ea=(28.382,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.05315, dn = +|- 0.00680414, dEa = +|- 0.0370279 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: CBr + [CH]DC <=> [CH3] + CDCBr
@@ -2043,7 +2043,7 @@ entry(
     kinetics = Arrhenius(A=(1.34913e+09,'cm^3/(mol*s)'), n=1.64247, Ea=(20.7613,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.06244, dn = +|- 0.00795771, dEa = +|- 0.0433056 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [H] + FC(F)(F)Br <=> Br + F[C](F)F
@@ -2067,7 +2067,7 @@ entry(
     kinetics = Arrhenius(A=(3.81135e+11,'cm^3/(mol*s)'), n=0.513067, Ea=(0.995124,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.00484, dn = +|- 0.000634686, dEa = +|- 0.00345394 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: ClBr + [H] <=> Br + [Cl]
@@ -2088,7 +2088,7 @@ entry(
     kinetics = Arrhenius(A=(3.49197e+08,'cm^3/(mol*s)'), n=1.7256, Ea=(21.4225,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.08513, dn = +|- 0.0107334, dEa = +|- 0.0584105 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [H] + FCBr <=> Br + [CH2]F
@@ -2112,7 +2112,7 @@ entry(
     kinetics = Arrhenius(A=(2.13795e+09,'cm^3/(mol*s)'), n=1.58633, Ea=(2.31841,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.02389, dn = +|- 0.00310214, dEa = +|- 0.0168817 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: CCOBr + [H] <=> Br + CC[O]
@@ -2140,7 +2140,7 @@ entry(
     kinetics = Arrhenius(A=(54.6688,'cm^3/(mol*s)'), n=3.05096, Ea=(43.8864,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.0079, dn = +|- 0.00103425, dEa = +|- 0.00562837 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [CH2]CC + CBr <=> CCCBr + [CH3]
@@ -2173,7 +2173,7 @@ entry(
     kinetics = Arrhenius(A=(2.57257e+07,'cm^3/(mol*s)'), n=1.87634, Ea=(-2.06137,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.04568, dn = +|- 0.00586811, dEa = +|- 0.031934 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: [OH] + BrBr <=> OBr + [Br]
@@ -2195,7 +2195,7 @@ entry(
     kinetics = Arrhenius(A=(11790.3,'cm^3/(mol*s)'), n=2.75736, Ea=(45.9815,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09856, dn = +|- 0.0123497, dEa = +|- 0.0672065 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)/ma-def2-tzvpp//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/Br_Abstraction
 Original entry: CC(F)Br + [CH3] <=> C[CH]F + CBr

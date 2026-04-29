@@ -24,7 +24,7 @@ boundaryAtoms = ["*1", "*3"]
 entry(
     index = 0,
     label = "1,3-butadiene_backbone",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,D}
 2 *2 Cd u0 {1,D} {3,S}
@@ -37,7 +37,7 @@ entry(
 entry(
     index = 1,
     label = "C=C_1",
-    group = 
+    group =
 """
 1 *1 C u0
 """,
@@ -47,7 +47,7 @@ entry(
 entry(
     index = 2,
     label = "C=C_2",
-    group = 
+    group =
 """
 1 *3 C u0
 """,
@@ -57,7 +57,7 @@ entry(
 entry(
     index = 3,
     label = "CdH2_1",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -69,7 +69,7 @@ entry(
 entry(
     index = 4,
     label = "CdH(C)_1",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -81,7 +81,7 @@ entry(
 entry(
     index = 5,
     label = "Cd(C)C_1",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,S} {3,S}
 2    C  u0 {1,S}
@@ -93,7 +93,7 @@ entry(
 entry(
     index = 6,
     label = "CddC_1",
-    group = 
+    group =
 """
 1 *1 Cdd u0 {2,D}
 2    C   u0 {1,D}
@@ -104,7 +104,7 @@ entry(
 entry(
     index = 7,
     label = "CdH2_2",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -116,7 +116,7 @@ entry(
 entry(
     index = 8,
     label = "CdH(C)_2",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -128,7 +128,7 @@ entry(
 entry(
     index = 9,
     label = "Cd(C)C_2",
-    group = 
+    group =
 """
 1 *3 Cd u0 {2,S} {3,S}
 2    C  u0 {1,S}
@@ -140,7 +140,7 @@ entry(
 entry(
     index = 10,
     label = "CddC_2",
-    group = 
+    group =
 """
 1 *3 Cdd u0 {2,D}
 2    C   u0 {1,D}
@@ -166,7 +166,7 @@ L1: C=C_2
 
 forbidden(
     label = "resonant_radical_1",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,D}
 2 *2 Cd  u0 {1,D} {3,S} {5,S}
@@ -175,7 +175,7 @@ forbidden(
 5    R!H u1 {2,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid this family from reacting a resonant radical, to prevent redundancy with Intra_R_Add_Endo or Exocyclic
 """,
@@ -183,7 +183,7 @@ Forbid this family from reacting a resonant radical, to prevent redundancy with 
 
 forbidden(
     label = "resonant_radical_2",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,D}
 2 *2 Cd  u0 {1,D} {3,S}
@@ -192,7 +192,7 @@ forbidden(
 5    R!H u1 {3,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid this family from reacting a resonant radical, to prevent redundancy with Intra_R_Add_Endo or Exocyclic
 """,
@@ -200,7 +200,7 @@ Forbid this family from reacting a resonant radical, to prevent redundancy with 
 
 forbidden(
     label = "resonant_radical_3",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,D}
 2 *2 Cd  u0 {1,D} {3,S} {5,S}
@@ -211,7 +211,7 @@ forbidden(
 7    R!H u1 {6,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid this family from reacting a resonant radical, to prevent redundancy with Intra_R_Add_Endo or Exocyclic
 """,
@@ -219,7 +219,7 @@ Forbid this family from reacting a resonant radical, to prevent redundancy with 
 
 forbidden(
     label = "resonant_radical_4",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,D}
 2 *2 Cd  u0 {1,D} {3,S}
@@ -230,7 +230,7 @@ forbidden(
 7    R!H u1 {6,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid this family from reacting a resonant radical, to prevent redundancy with Intra_R_Add_Endo or Exocyclic
 """,
@@ -238,7 +238,7 @@ Forbid this family from reacting a resonant radical, to prevent redundancy with 
 
 forbidden(
     label = "resonant_radical_5",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,D} {5,[S,D]}
 2 *2 Cd  u0 {1,D} {3,S}
@@ -247,7 +247,7 @@ forbidden(
 5    R!H u1 {1,[S,D]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid this family from reacting a resonant radical, to prevent redundancy with Intra_R_Add_Endo or Exocyclic
 """,
@@ -255,7 +255,7 @@ Forbid this family from reacting a resonant radical, to prevent redundancy with 
 
 forbidden(
     label = "resonant_radical_6",
-    group = 
+    group =
 """
 1 *1 C   u0 {2,D}
 2 *2 Cd  u0 {1,D} {3,S}
@@ -264,7 +264,7 @@ forbidden(
 5    R!H u1 {4,[S,D]}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid this family from reacting a resonant radical, to prevent redundancy with Intra_R_Add_Endo or Exocyclic
 """,

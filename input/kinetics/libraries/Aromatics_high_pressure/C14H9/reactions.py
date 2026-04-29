@@ -21,7 +21,7 @@ entry(
         Ea = (3.4, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/HACA_Liu_1_highP
 """,
@@ -32,7 +32,7 @@ entry(
     label = "N1-CS13(3) <=> N2-CS24(4) + H(6)",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(111000, 's^-1'), n=1.036, Ea=(40.6, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/HACA_Liu_1_highP
 """,
@@ -43,7 +43,7 @@ entry(
     label = "N1-CS13(3) <=> N1-CS20(5)",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.23e+06, 's^-1'), n=0, Ea=(3.7, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/HACA_Liu_1_highP
 """,
@@ -54,7 +54,7 @@ entry(
     label = "N2-CS10(7) + C2H2(2) <=> N2-CS17(8)",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(29800, 'cm^3/(mol*s)'), n=2.528, Ea=(4.4, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/HACA_Liu_2_highP
 """,
@@ -65,7 +65,7 @@ entry(
     label = "N2-CS17(8) <=> N2-CS24(4) + H(6)",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(192000, 's^-1'), n=0.991, Ea=(35.9, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/HACA_Liu_2_highP
 """,
@@ -76,7 +76,7 @@ entry(
     label = "N2-CS17(8) <=> N2-CS44(9)",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(803000, 's^-1'), n=0, Ea=(4.5, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/HACA_Liu_2_highP
 """,
@@ -92,7 +92,7 @@ entry(
         Ea = (3.6, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/HACA_Liu_3_highP
 """,
@@ -103,7 +103,7 @@ entry(
     label = "C14H9(11) <=> C14H8(12) + H(6)",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(27600, 's^-1'), n=1.108, Ea=(38.7, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/HACA_Liu_3_highP
 """,
@@ -114,7 +114,7 @@ entry(
     label = "C14H9(11) <=> C14H9(13)",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.16e+06, 's^-1'), n=0, Ea=(5, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: PAH_formation/HACA_Liu_3_highP
 """,

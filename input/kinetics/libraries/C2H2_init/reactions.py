@@ -66,7 +66,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -124,7 +124,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -182,7 +182,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -358,7 +358,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -416,7 +416,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -474,7 +474,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -591,7 +591,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -649,7 +649,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -825,7 +825,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -883,7 +883,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -941,7 +941,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -1117,7 +1117,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -1293,7 +1293,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -1351,7 +1351,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -1409,7 +1409,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -1762,7 +1762,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -1820,7 +1820,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -1878,7 +1878,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -1996,7 +1996,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -2114,7 +2114,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -2232,7 +2232,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -2350,7 +2350,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -2468,7 +2468,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -2581,7 +2581,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -2699,7 +2699,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -2817,7 +2817,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -2935,7 +2935,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -3053,7 +3053,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -3171,7 +3171,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -3284,7 +3284,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -3521,7 +3521,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -3639,7 +3639,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -3757,7 +3757,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -4589,7 +4589,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
@@ -4707,7 +4707,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
 Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory

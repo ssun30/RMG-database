@@ -21,7 +21,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Review and estimation based on experimental results""",
-    longDesc = 
+    longDesc =
 u"""
 p. 519
 R. Atkinson, D.L. Baulch, R.A. Cox, R.F. Hampson, J.A. Kerr, J. Troe,
@@ -38,7 +38,7 @@ entry(
     kinetics = Arrhenius(A=(3.01e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""FFCM-1""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from the FFCM-1 library
 """,
@@ -51,7 +51,7 @@ entry(
     kinetics = Arrhenius(A=(5.12e+13, 'cm^3/(mol*s)'), n=0, Ea=(1690, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
     shortDesc = u"""Review and estimation based on experimental results""",
-    longDesc = 
+    longDesc =
 u"""
 p. 1147, rxn (15,3)
 W. Tsang and R. F. Hampson
@@ -74,7 +74,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Shock Tube""",
-    longDesc = 
+    longDesc =
 u"""
 p. 4131, Table 1, rxn [16]
 reported at 1005 K (value is anyway T-independent)
@@ -96,7 +96,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Review and estimation based on experimental results""",
-    longDesc = 
+    longDesc =
 u"""
 p. 1246, rxn (24,15)
 W. Tsang and R. F. Hampson
@@ -117,7 +117,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Review and estimation based on experimental results""",
-    longDesc = 
+    longDesc =
 u"""
 p. 1151, rxn (15,15 a)
 W. Tsang and R. F. Hampson
@@ -133,7 +133,7 @@ entry(
     kinetics = Arrhenius(A=(9.033e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""JetSurF2.0""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from the JetSurF2.0 library
 """,
@@ -146,7 +146,7 @@ entry(
     kinetics = Arrhenius(A=(6e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""JetSurF2.0""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from the JetSurF2.0 library
 """,
@@ -159,7 +159,7 @@ entry(
     kinetics = Arrhenius(A=(1.2e+14, 'cm^3/(mol*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""JetSurF2.0""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from the JetSurF2.0 library
 """,
@@ -179,7 +179,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Shock Tube""",
-    longDesc = 
+    longDesc =
 u"""
 p. 4180, Table 2, rxn 1
 J. Dammeier , M. Colberg, G. Friedrichs,
@@ -206,7 +206,7 @@ entry(
     ),
     rank = 1,
     shortDesc = u"""Shock Tube""",
-    longDesc = 
+    longDesc =
 u"""
 p. 463, Table II, rxn 2
 C-Y. Lin, H-T. Wang, M.C. Lin, C.F. Melius,

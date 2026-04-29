@@ -8,7 +8,7 @@ Foundational Fuel Chemistry Model Version 1.0 (excited species removed)
 http://web.stanford.edu/group/haiwanglab/FFCM1/pages/FFCM1.html
 
 FFCM-1
-H2/CO/C1 reaction model - Chemkin form - version v1.0c 
+H2/CO/C1 reaction model - Chemkin form - version v1.0c
 Release date: 05/31/3016.
 
 G. P. Smith, Y. Tao, and H. Wang, Foundational Fuel Chemistry Model Version 1.0 (FFCM-1),
@@ -30,7 +30,7 @@ CH*               EG4/09C   1H   1    0    0G   200.000  6000.000 1000.        1
 entry(
     index = 0,
     label = "Ar",
-    molecule = 
+    molecule =
 """
 1 Ar u0 p4 c0
 """,
@@ -43,7 +43,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Argon
@@ -55,7 +55,7 @@ Reference element
 entry(
     index = 1,
     label = "He",
-    molecule = 
+    molecule =
 """
 1 He u0 p1 c0
 """,
@@ -68,7 +68,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Helium
@@ -80,7 +80,7 @@ Reference element
 entry(
     index = 2,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -94,7 +94,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Nitrogen
@@ -106,7 +106,7 @@ Reference element
 entry(
     index = 3,
     label = "H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -120,7 +120,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Hydrogen
@@ -132,7 +132,7 @@ Reference element
 entry(
     index = 4,
     label = "H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -146,7 +146,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Atomic hydrogen
@@ -158,7 +158,7 @@ CAS: 12385-13-6
 entry(
     index = 5,
     label = "O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -172,7 +172,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Atomic oxygen
@@ -184,7 +184,7 @@ CAS:17778-80-2
 entry(
     index = 6,
     label = "O2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -199,7 +199,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Molecular oxygen
@@ -211,7 +211,7 @@ Reference element
 entry(
     index = 7,
     label = "OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -226,7 +226,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Hydroxyl radical
@@ -238,7 +238,7 @@ CAS: 3352-57-6
 entry(
     index = 8,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -253,7 +253,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Water(v)
@@ -265,7 +265,7 @@ CAS: 7732-18-5
 entry(
     index = 9,
     label = "HO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -281,10 +281,10 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
-Perhydroxyl radical 
+Perhydroxyl radical
 CAS: 3170-83-0
 12.271 +- 0.157 kJ/mol ATcT 31.01.2011
 """,
@@ -293,7 +293,7 @@ CAS: 3170-83-0
 entry(
     index = 10,
     label = "H2O2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -309,7 +309,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 8/03""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Hydrogen peroxide
@@ -321,7 +321,7 @@ CAS 7722-84-1
 entry(
     index = 11,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
@@ -335,7 +335,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""RUS 79""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Carbon monoxide
@@ -347,7 +347,7 @@ CAS 630-08-0
 entry(
     index = 12,
     label = "CO2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 O u0 p2 c0 {1,D}
@@ -362,7 +362,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Carbon dioxide
@@ -374,7 +374,7 @@ CAS 124-38-9
 entry(
     index = 13,
     label = "C(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p1 c0
@@ -388,7 +388,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Carbon atom
@@ -400,7 +400,7 @@ CAS 7440-44-0
 entry(
     index = 14,
     label = "CH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p1 c0 {2,S}
@@ -415,7 +415,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU3/03""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Methylidyne
@@ -427,7 +427,7 @@ CAS 3315-37-5
 entry(
     index = 15,
     label = "CH2(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -443,10 +443,10 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU3/03""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
-Methylene radical 
+Methylene radical
 CAS 2465-56-7
 391.458 +- 0.133 kJ/mol ATcT 31.01.2011
 """,
@@ -455,7 +455,7 @@ CAS 2465-56-7
 entry(
     index = 16,
     label = "CH2(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -470,7 +470,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU3/03""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Methylene radical excited
@@ -482,7 +482,7 @@ CAS 2465-56-7
 entry(
     index = 17,
     label = "CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -499,7 +499,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU0702""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Methyl radical
@@ -511,7 +511,7 @@ CAS 2229-07-4
 entry(
     index = 18,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -528,10 +528,10 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g 8/99""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
-Methane 
+Methane
 CAS 74-82-8
 -74.5335 +- 0.0554 kJ/mol ATcT 31.01.2011
 """,
@@ -540,7 +540,7 @@ CAS 74-82-8
 entry(
     index = 19,
     label = "HCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -556,7 +556,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 5/03""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Formyl radical  HC=O
@@ -568,7 +568,7 @@ CAS 2597-44-6
 entry(
     index = 20,
     label = "CH2O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -584,7 +584,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Formaldehyde
@@ -596,7 +596,7 @@ CAS 50-00-0
 entry(
     index = 21,
     label = "CH2OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -614,7 +614,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU2/03""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Hydroxymethyl radical
@@ -626,7 +626,7 @@ CAS 2597-43-5
 entry(
     index = 22,
     label = "CH3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -644,7 +644,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU1/03""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Methoxy radical
@@ -656,7 +656,7 @@ CAS 2143-68-2
 entry(
     index = 23,
     label = "CH3OH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -674,7 +674,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T06/02""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Methanol
@@ -686,7 +686,7 @@ CAS 67-56-1
 entry(
     index = 24,
     label = "C2H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,T}
@@ -702,7 +702,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 5/10""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Ethynyl radical
@@ -714,7 +714,7 @@ CAS 2122-48-7
 entry(
     index = 25,
     label = "C2H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -730,7 +730,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Ethyne, Acetylene
@@ -742,7 +742,7 @@ CAS: 74-86-2
 entry(
     index = 26,
     label = "C2H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -760,7 +760,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""ATcT/A""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Vinyl radical H2C=CH*
@@ -772,7 +772,7 @@ CAS: 2669-89-8
 entry(
     index = 27,
     label = "C2H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -790,7 +790,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g 1/00""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Ethene, ethylene
@@ -802,7 +802,7 @@ CAS: 74-85-1
 entry(
     index = 28,
     label = "C2H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -822,7 +822,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU1/07""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Ethyl radical CH3CH2
@@ -834,7 +834,7 @@ CAS:2025-56-1
 entry(
     index = 29,
     label = "C2H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -854,7 +854,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Ethane
@@ -866,7 +866,7 @@ CAS: 74-84-0
 entry(
     index = 30,
     label = "HCCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,T} {4,S}
@@ -883,7 +883,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 4/09""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Ketenyl radical
@@ -895,7 +895,7 @@ CAS: 51095-15-9
 entry(
     index = 31,
     label = "CH2CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,D}
@@ -912,7 +912,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""g 4/02""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Ketene H2C=C=O
@@ -924,7 +924,7 @@ CAS: 463-51-4
 entry(
     index = 32,
     label = "CH2CHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -943,7 +943,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T04/06""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Vinoxy radical, CH2=CH-O
@@ -955,7 +955,7 @@ No ATcT value, G3B3 +- 8 kJ/mol
 entry(
     index = 33,
     label = "CH3CHO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -974,9 +974,9 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
-Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012 
+Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Acetaldehyde
 CAS: 75-07-0
 -165.374 +- 0.307 kJ/mol ATcT 31.01.2011
@@ -986,7 +986,7 @@ CAS: 75-07-0
 entry(
     index = 34,
     label = "CH3CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1005,7 +1005,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU2/03""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Acetyl radical   CH3-C=O
@@ -1017,7 +1017,7 @@ CAS: 3170-69-2
 entry(
     index = 35,
     label = "H2CC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p1 c0 {1,D}
@@ -1033,7 +1033,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L12/89""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012 no newer NASA polynom
 Vinylidene
@@ -1045,7 +1045,7 @@ kk:1
 entry(
     index = 36,
     label = "HOCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -1062,7 +1062,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""ATcT/A""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Carboxyl radical
@@ -1074,7 +1074,7 @@ CAS 2564-86-5
 entry(
     index = 37,
     label = "CH3O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1093,7 +1093,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T04/10""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Methylperoxide radical
@@ -1105,7 +1105,7 @@ CAS: 2143-58-0
 entry(
     index = 38,
     label = "CH3O2H",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -1124,7 +1124,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""A 7/05""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Methylperoxide
@@ -1136,7 +1136,7 @@ CAS: 3031-73-0
 entry(
     index = 39,
     label = "C2H5OH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1157,7 +1157,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Ethanol
@@ -1169,7 +1169,7 @@ CAS: 64-17-5
 entry(
     index = 40,
     label = "CH3OCH3",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -1190,7 +1190,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T03/10""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Dimethyl ether
@@ -1202,7 +1202,7 @@ CAS: 115-10-6
 entry(
     index = 41,
     label = "CH2CH2OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1223,7 +1223,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T05/11""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 2-Hydroxylethyl
@@ -1235,7 +1235,7 @@ CAS: 4422-54-2
 entry(
     index = 42,
     label = "CH3CHOH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1256,7 +1256,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T06/11""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 1-Hydroxylethyl
@@ -1268,7 +1268,7 @@ CAS: 2348-46-1
 entry(
     index = 43,
     label = "CH3CH2O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1289,7 +1289,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T06/11""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Ethyl oxide radical
@@ -1301,7 +1301,7 @@ CAS: 2154-50-9
 entry(
     index = 44,
     label = "CH3OCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -1322,7 +1322,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""A10/04""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 CH2-O-CH3 radical
@@ -1334,7 +1334,7 @@ CAS: 16520-04-0
 entry(
     index = 45,
     label = "CH2OCH2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -1353,7 +1353,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Oxirane, cyc-(CH2)2O, Ethylene oxide
@@ -1365,7 +1365,7 @@ CAS: 75-21-8
 entry(
     index = 46,
     label = "C2H3OH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -1384,7 +1384,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T03/10""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Vinyl Alcohol
@@ -1396,7 +1396,7 @@ CAS: 557-75-5
 entry(
     index = 47,
     label = "C2H3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1415,7 +1415,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""A 1/05""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Oxirane (ethylene oxide) radical
@@ -1427,7 +1427,7 @@ No ATcT value, G3B3 +- 8 kJ/mol
 entry(
     index = 48,
     label = "HCCOH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -1444,7 +1444,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T12/09""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Ethynol, Hydroxyacetylene
@@ -1456,7 +1456,7 @@ CAS: 32038-79-2
 entry(
     index = 49,
     label = "C2O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,D}
@@ -1472,7 +1472,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 8/11""",
-    longDesc = 
+    longDesc =
 u"""
 Goos-Burcat-Ruscic-thermodatabase; Y. Tao 25.05.2012
 Carbon oxide

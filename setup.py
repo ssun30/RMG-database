@@ -43,7 +43,7 @@ scripts = [
 
 scripts = ['scripts/' + scriptName for scriptName in scripts]
 
-# Initiate the installation and/or build 
+# Initiate the installation and/or build
 setup(
     name='RMG-database',
     version='3.2.0',

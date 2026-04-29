@@ -28,7 +28,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *1 Cdd            u0 {2,D} {3,D}
 2 *2 O2d            u0 {1,D}
@@ -42,7 +42,7 @@ entry(
 entry(
     index = 1,
     label = "Root_5CbCdCsHN->Cs",
-    group = 
+    group =
 """
 1 *1 Cdd            u0 {2,D} {3,D}
 2 *2 O2d            u0 {1,D}
@@ -56,7 +56,7 @@ entry(
 entry(
     index = 2,
     label = "Root_5CbCdCsHN->Cs_4CbCdCsHN->Cs",
-    group = 
+    group =
 """
 1 *1 Cdd u0 {2,D} {3,D}
 2 *2 O2d u0 {1,D}
@@ -70,7 +70,7 @@ entry(
 entry(
     index = 3,
     label = "Root_5CbCdCsHN->Cs_N-4CbCdCsHN->Cs",
-    group = 
+    group =
 """
 1 *1 Cdd   u0 {2,D} {3,D}
 2 *2 O2d   u0 {1,D}
@@ -84,7 +84,7 @@ entry(
 entry(
     index = 4,
     label = "Root_N-5CbCdCsHN->Cs",
-    group = 
+    group =
 """
 1 *1 Cdd            u0 {2,D} {3,D}
 2 *2 O2d            u0 {1,D}
@@ -98,7 +98,7 @@ entry(
 entry(
     index = 5,
     label = "Root_N-5CbCdCsHN->Cs_4CbCdCsHN->H",
-    group = 
+    group =
 """
 1 *1 Cdd         u0 {2,D} {3,D}
 2 *2 O2d         u0 {1,D}
@@ -112,7 +112,7 @@ entry(
 entry(
     index = 6,
     label = "Root_N-5CbCdCsHN->Cs_4CbCdCsHN->H_5CbCdHN->Cd",
-    group = 
+    group =
 """
 1 *1 Cdd u0 {2,D} {3,D}
 2 *2 O2d u0 {1,D}
@@ -126,7 +126,7 @@ entry(
 entry(
     index = 7,
     label = "Root_N-5CbCdCsHN->Cs_4CbCdCsHN->H_5CbCdHN->Cd_Ext-5Cd-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1 *1 Cdd u0 r0 {2,D} {3,D}
 2 *2 O2d u0 {1,D}
@@ -142,7 +142,7 @@ entry(
 entry(
     index = 8,
     label = "Root_N-5CbCdCsHN->Cs_4CbCdCsHN->H_N-5CbCdHN->Cd",
-    group = 
+    group =
 """
 1 *1 Cdd u0 r0 {2,D} {3,D}
 2 *2 O2d u0 {1,D}
@@ -156,7 +156,7 @@ entry(
 entry(
     index = 9,
     label = "Root_N-5CbCdCsHN->Cs_N-4CbCdCsHN->H",
-    group = 
+    group =
 """
 1 *1 Cdd u0 {2,D} {3,D}
 2 *2 O2d u0 {1,D}
@@ -170,7 +170,7 @@ entry(
 entry(
     index = 10,
     label = "Root_N-5CbCdCsHN->Cs_N-4CbCdCsHN->H_Ext-4CsN-R",
-    group = 
+    group =
 """
 1 *1 Cdd u0 {2,D} {3,D}
 2 *2 O2d u0 {1,D}
@@ -185,7 +185,7 @@ entry(
 entry(
     index = 11,
     label = "Root_N-5CbCdCsHN->Cs_N-4CbCdCsHN->H_Ext-4CsN-R_Ext-4CsN-R",
-    group = 
+    group =
 """
 1 *1 Cdd u0 {2,D} {3,D}
 2 *2 O2d u0 {1,D}

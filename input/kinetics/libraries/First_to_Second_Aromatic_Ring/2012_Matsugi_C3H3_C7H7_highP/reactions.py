@@ -8,7 +8,7 @@ Benzyl + Propargyl radical recombination PES, calculated using CASPT2/cc-pVTZ//B
 
 Taken from:
 
-Matsugi, A.; Miyoshi, A., Computational study on the recombination reaction between benzyl and propargyl radicals. 
+Matsugi, A.; Miyoshi, A., Computational study on the recombination reaction between benzyl and propargyl radicals.
 Int. J. Chem. Kinet. 2012, 44, 206-218.
 """
 entry(

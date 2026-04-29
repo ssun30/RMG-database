@@ -12,7 +12,7 @@ entry(
     group = "OR{R!H!Val7x0, R!H!Val7x1, R!H!Val7x2_trip, R!H!Val7x3_quart}",
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21,13 +21,13 @@ entry(
 entry(
     index = 1,
     label = "R!H!Val7x0",
-    group = 
+    group =
 """
 1 * R!H!Val7 u0
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -36,13 +36,13 @@ entry(
 entry(
     index = 2,
     label = "C_R0",
-    group = 
+    group =
 """
 1 * C u0
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -51,7 +51,7 @@ entry(
 entry(
     index = 3,
     label = "RsCH3",
-    group = 
+    group =
 """
 1 * C        u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H!Val7 ux {1,S}
@@ -71,9 +71,9 @@ entry(
         symmetry = 6,
     ),
     shortDesc = """Alkane end group""",
-    longDesc = 
+    longDesc =
 """
-Goldsmith. (2010). Predicting Combustion Properties of Hydrocarbon Fuel Mixtures. (Doctoral dissertation). 
+Goldsmith. (2010). Predicting Combustion Properties of Hydrocarbon Fuel Mixtures. (Doctoral dissertation).
 pg 125 Retrieved from http://web.mit.edu/cfgold/www/Homepage/Thesis_files/Thesis.pdf
 
 (2750, 2850, 3), 	#C-H stretch
@@ -88,7 +88,7 @@ pg 125 Retrieved from http://web.mit.edu/cfgold/www/Homepage/Thesis_files/Thesis
 entry(
     index = 4,
     label = "Cs-halhalhalCs_42",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -110,7 +110,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -119,7 +119,7 @@ entry(
 entry(
     index = 5,
     label = "Cs-F1sF1sF1sCs_42",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -141,7 +141,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -150,7 +150,7 @@ entry(
 entry(
     index = 6,
     label = "Cs-F1sF1sF1sCs_86",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -172,7 +172,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -181,7 +181,7 @@ entry(
 entry(
     index = 7,
     label = "Cs-Br1sBr1sBr1sCs_236",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -203,7 +203,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -212,7 +212,7 @@ entry(
 entry(
     index = 8,
     label = "Cs-Br1sBr1sBr1sCs_284",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -234,7 +234,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -243,7 +243,7 @@ entry(
 entry(
     index = 9,
     label = "Cs-Cl1sCl1sCl1sCs_377",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -265,7 +265,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -274,7 +274,7 @@ entry(
 entry(
     index = 10,
     label = "Cs-Cl1sCl1sCl1sCs_396",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -296,7 +296,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -305,7 +305,7 @@ entry(
 entry(
     index = 11,
     label = "Cs-Br1sF1sF1sCs_530",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -327,7 +327,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -336,7 +336,7 @@ entry(
 entry(
     index = 12,
     label = "Cs-Br1sF1sF1sCs_599",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -358,7 +358,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -367,7 +367,7 @@ entry(
 entry(
     index = 13,
     label = "Cs-Br1sCl1sCl1sCs_546",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -389,7 +389,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -398,7 +398,7 @@ entry(
 entry(
     index = 14,
     label = "Cs-Br1sCl1sCl1sCs_601",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -420,7 +420,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -429,7 +429,7 @@ entry(
 entry(
     index = 15,
     label = "Cs-Br1sCl1sF1sCs_580",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -451,7 +451,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -460,7 +460,7 @@ entry(
 entry(
     index = 16,
     label = "Cs-Br1sCl1sF1sCs_569",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -482,7 +482,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -491,7 +491,7 @@ entry(
 entry(
     index = 17,
     label = "Cs-Br1sBr1sF1sCs_586",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -513,7 +513,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -522,7 +522,7 @@ entry(
 entry(
     index = 18,
     label = "Cs-Br1sBr1sF1sCs_561",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -544,7 +544,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -553,7 +553,7 @@ entry(
 entry(
     index = 19,
     label = "Cs-Br1sBr1sCl1sCs_588",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -575,7 +575,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -584,7 +584,7 @@ entry(
 entry(
     index = 20,
     label = "Cs-Br1sBr1sCl1sCs_611",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -606,7 +606,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -615,7 +615,7 @@ entry(
 entry(
     index = 21,
     label = "Cs-Cl1sF1sF1sCs_603",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -637,7 +637,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -646,7 +646,7 @@ entry(
 entry(
     index = 22,
     label = "Cs-Cl1sF1sF1sCs_568",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -668,7 +668,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -677,7 +677,7 @@ entry(
 entry(
     index = 23,
     label = "Cs-Cl1sCl1sF1sCs_651",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -699,7 +699,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -708,7 +708,7 @@ entry(
 entry(
     index = 24,
     label = "Cs-Cl1sCl1sF1sCs_647",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -730,7 +730,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -739,7 +739,7 @@ entry(
 entry(
     index = 25,
     label = "Cs-halCsHH_48",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -761,7 +761,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -770,7 +770,7 @@ entry(
 entry(
     index = 26,
     label = "Cs-F1sCsHH_48",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -792,7 +792,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -801,7 +801,7 @@ entry(
 entry(
     index = 27,
     label = "Cs-F1sCsHH_67",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -823,7 +823,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -832,7 +832,7 @@ entry(
 entry(
     index = 28,
     label = "Cs-Br1sCsHH_219",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -854,7 +854,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -863,7 +863,7 @@ entry(
 entry(
     index = 29,
     label = "Cs-Br1sCsHH_222",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -885,7 +885,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -894,7 +894,7 @@ entry(
 entry(
     index = 30,
     label = "Cs-Cl1sCsHH_365",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -916,7 +916,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -925,7 +925,7 @@ entry(
 entry(
     index = 31,
     label = "Cs-Cl1sCsHH_373",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -947,7 +947,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -956,7 +956,7 @@ entry(
 entry(
     index = 32,
     label = "Cs-halhalCsH_52",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -978,7 +978,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -987,7 +987,7 @@ entry(
 entry(
     index = 33,
     label = "Cs-F1sF1sCsH_52",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -1009,7 +1009,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1018,7 +1018,7 @@ entry(
 entry(
     index = 34,
     label = "Cs-F1sF1sCsH_84",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -1040,7 +1040,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1049,7 +1049,7 @@ entry(
 entry(
     index = 35,
     label = "Cs-Br1sBr1sCsH_215",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1071,7 +1071,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1080,7 +1080,7 @@ entry(
 entry(
     index = 36,
     label = "Cs-Br1sBr1sCsH_237",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1102,7 +1102,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1111,7 +1111,7 @@ entry(
 entry(
     index = 37,
     label = "Cs-Cl1sCl1sCsH_371",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -1133,7 +1133,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1142,7 +1142,7 @@ entry(
 entry(
     index = 38,
     label = "Cs-Cl1sCl1sCsH_374",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -1164,7 +1164,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1173,7 +1173,7 @@ entry(
 entry(
     index = 39,
     label = "Cs-Br1sF1sCsH_533",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1195,7 +1195,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1204,7 +1204,7 @@ entry(
 entry(
     index = 40,
     label = "Cs-Br1sF1sCsH_541",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1226,7 +1226,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1235,7 +1235,7 @@ entry(
 entry(
     index = 41,
     label = "Cs-Br1sCl1sCsH_536",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1257,7 +1257,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1266,7 +1266,7 @@ entry(
 entry(
     index = 42,
     label = "Cs-Br1sCl1sCsH_562",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1288,7 +1288,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1297,7 +1297,7 @@ entry(
 entry(
     index = 43,
     label = "Cs-Cl1sF1sCsH_544",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -1319,7 +1319,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1328,7 +1328,7 @@ entry(
 entry(
     index = 44,
     label = "Cs-Cl1sF1sCsH_564",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -1350,7 +1350,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1359,7 +1359,7 @@ entry(
 entry(
     index = 45,
     label = "Cs-halO2sHH_57",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -1381,7 +1381,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1390,7 +1390,7 @@ entry(
 entry(
     index = 46,
     label = "Cs-F1sO2sHH_57",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -1412,7 +1412,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1421,7 +1421,7 @@ entry(
 entry(
     index = 47,
     label = "Cs-F1sO2sHH_184",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -1444,7 +1444,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1453,7 +1453,7 @@ entry(
 entry(
     index = 48,
     label = "Cs-Br1sO2sHH_235",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1475,7 +1475,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1484,7 +1484,7 @@ entry(
 entry(
     index = 49,
     label = "Cs-Br1sO2sHH_278",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1507,7 +1507,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1516,7 +1516,7 @@ entry(
 entry(
     index = 50,
     label = "Cs-Cl1sO2sHH_409",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -1538,7 +1538,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1547,7 +1547,7 @@ entry(
 entry(
     index = 51,
     label = "Cs-Cl1sO2sHH_525",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -1570,7 +1570,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1579,7 +1579,7 @@ entry(
 entry(
     index = 52,
     label = "Cs-halhalhalO2s_58",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -1601,7 +1601,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1610,7 +1610,7 @@ entry(
 entry(
     index = 53,
     label = "Cs-F1sF1sF1sO2s_58",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -1632,7 +1632,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1641,7 +1641,7 @@ entry(
 entry(
     index = 54,
     label = "Cs-F1sF1sF1sO2s_197",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -1664,7 +1664,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1673,7 +1673,7 @@ entry(
 entry(
     index = 55,
     label = "Cs-Br1sBr1sBr1sO2s_251",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1695,7 +1695,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1704,7 +1704,7 @@ entry(
 entry(
     index = 56,
     label = "Cs-Cl1sCl1sCl1sO2s_390",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -1726,7 +1726,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1735,7 +1735,7 @@ entry(
 entry(
     index = 57,
     label = "Cs-Cl1sCl1sCl1sO2s_515",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -1758,7 +1758,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1767,7 +1767,7 @@ entry(
 entry(
     index = 58,
     label = "Cs-Br1sF1sF1sO2s_531",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1789,7 +1789,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1798,7 +1798,7 @@ entry(
 entry(
     index = 59,
     label = "Cs-Br1sBr1sF1sO2s_559",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1820,7 +1820,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1829,7 +1829,7 @@ entry(
 entry(
     index = 60,
     label = "Cs-Cl1sCl1sF1sO2s_572",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -1851,7 +1851,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1860,7 +1860,7 @@ entry(
 entry(
     index = 61,
     label = "Cs-Br1sCl1sCl1sO2s_596",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1882,7 +1882,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1891,7 +1891,7 @@ entry(
 entry(
     index = 62,
     label = "Cs-Br1sCl1sF1sO2s_615",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -1913,7 +1913,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1922,7 +1922,7 @@ entry(
 entry(
     index = 63,
     label = "Cs-Cl1sF1sF1sO2s_626",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -1944,7 +1944,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1953,7 +1953,7 @@ entry(
 entry(
     index = 64,
     label = "Cs-Cl1sF1sF1sO2s_630",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -1976,7 +1976,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -1985,7 +1985,7 @@ entry(
 entry(
     index = 65,
     label = "Cs-Br1sBr1sCl1sO2s_636",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2007,7 +2007,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2016,7 +2016,7 @@ entry(
 entry(
     index = 66,
     label = "Cs-halhalhalCd_59",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -2038,7 +2038,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2047,7 +2047,7 @@ entry(
 entry(
     index = 67,
     label = "Cs-F1sF1sF1sCd_59",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -2069,7 +2069,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2078,7 +2078,7 @@ entry(
 entry(
     index = 68,
     label = "Cs-F1sF1sF1sCd_135",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -2101,7 +2101,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2110,7 +2110,7 @@ entry(
 entry(
     index = 69,
     label = "Cs-Br1sBr1sBr1sCd_265",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2133,7 +2133,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2142,7 +2142,7 @@ entry(
 entry(
     index = 70,
     label = "Cs-Br1sBr1sBr1sCd_318",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2165,7 +2165,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2174,7 +2174,7 @@ entry(
 entry(
     index = 71,
     label = "Cs-Cl1sCl1sCl1sCd_383",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -2196,7 +2196,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2205,7 +2205,7 @@ entry(
 entry(
     index = 72,
     label = "Cs-Cl1sCl1sCl1sCd_462",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -2228,7 +2228,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2237,7 +2237,7 @@ entry(
 entry(
     index = 73,
     label = "Cs-Br1sCl1sF1sCd_542",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2259,7 +2259,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2268,7 +2268,7 @@ entry(
 entry(
     index = 74,
     label = "Cs-Br1sCl1sF1sCd_656",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2291,7 +2291,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2300,7 +2300,7 @@ entry(
 entry(
     index = 75,
     label = "Cs-Cl1sCl1sF1sCd_548",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -2322,7 +2322,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2331,7 +2331,7 @@ entry(
 entry(
     index = 76,
     label = "Cs-Cl1sCl1sF1sCd_668",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -2354,7 +2354,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2363,7 +2363,7 @@ entry(
 entry(
     index = 77,
     label = "Cs-Br1sF1sF1sCd_553",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2385,7 +2385,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2394,7 +2394,7 @@ entry(
 entry(
     index = 78,
     label = "Cs-Br1sF1sF1sCd_534",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2417,7 +2417,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2426,7 +2426,7 @@ entry(
 entry(
     index = 79,
     label = "Cs-Br1sCl1sCl1sCd_578",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2448,7 +2448,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2457,7 +2457,7 @@ entry(
 entry(
     index = 80,
     label = "Cs-Br1sCl1sCl1sCd_692",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2480,7 +2480,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2489,7 +2489,7 @@ entry(
 entry(
     index = 81,
     label = "Cs-Br1sBr1sCl1sCd_591",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2511,7 +2511,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2520,7 +2520,7 @@ entry(
 entry(
     index = 82,
     label = "Cs-Br1sBr1sCl1sCd_649",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2543,7 +2543,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2552,7 +2552,7 @@ entry(
 entry(
     index = 83,
     label = "Cs-Br1sBr1sF1sCd_623",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2574,7 +2574,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2583,7 +2583,7 @@ entry(
 entry(
     index = 84,
     label = "Cs-Br1sBr1sF1sCd_639",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2606,7 +2606,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2615,7 +2615,7 @@ entry(
 entry(
     index = 85,
     label = "Cs-Cl1sF1sF1sCd_633",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -2637,7 +2637,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2646,7 +2646,7 @@ entry(
 entry(
     index = 86,
     label = "Cs-Cl1sF1sF1sCd_677",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -2669,7 +2669,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2678,7 +2678,7 @@ entry(
 entry(
     index = 87,
     label = "Cs-halhalCtH_69",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -2700,7 +2700,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2709,7 +2709,7 @@ entry(
 entry(
     index = 88,
     label = "Cs-F1sF1sCtH_69",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -2731,7 +2731,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2740,7 +2740,7 @@ entry(
 entry(
     index = 89,
     label = "Cs-Br1sBr1sCtH_299",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2762,7 +2762,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2771,7 +2771,7 @@ entry(
 entry(
     index = 90,
     label = "Cs-Cl1sCl1sCtH_420",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -2793,7 +2793,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2802,7 +2802,7 @@ entry(
 entry(
     index = 91,
     label = "Cs-Cl1sF1sCtH_538",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -2824,7 +2824,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2833,7 +2833,7 @@ entry(
 entry(
     index = 92,
     label = "Cs-Br1sCl1sCtH_579",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2855,7 +2855,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2864,7 +2864,7 @@ entry(
 entry(
     index = 93,
     label = "Cs-Br1sF1sCtH_660",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -2886,7 +2886,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2895,7 +2895,7 @@ entry(
 entry(
     index = 94,
     label = "Cs-halhalO2sH_70",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -2917,7 +2917,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2926,7 +2926,7 @@ entry(
 entry(
     index = 95,
     label = "Cs-F1sF1sO2sH_70",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -2948,7 +2948,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2957,7 +2957,7 @@ entry(
 entry(
     index = 96,
     label = "Cs-F1sF1sO2sH_174",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -2980,7 +2980,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -2989,7 +2989,7 @@ entry(
 entry(
     index = 97,
     label = "Cs-Br1sBr1sO2sH_248",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -3011,7 +3011,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3020,7 +3020,7 @@ entry(
 entry(
     index = 98,
     label = "Cs-Cl1sCl1sO2sH_393",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -3042,7 +3042,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3051,7 +3051,7 @@ entry(
 entry(
     index = 99,
     label = "Cs-Cl1sCl1sO2sH_484",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -3074,7 +3074,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3083,7 +3083,7 @@ entry(
 entry(
     index = 100,
     label = "Cs-Cl1sF1sO2sH_540",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -3105,7 +3105,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3114,7 +3114,7 @@ entry(
 entry(
     index = 101,
     label = "Cs-Cl1sF1sO2sH_704",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -3137,7 +3137,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3146,7 +3146,7 @@ entry(
 entry(
     index = 102,
     label = "Cs-Br1sF1sO2sH_589",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -3168,7 +3168,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3177,7 +3177,7 @@ entry(
 entry(
     index = 103,
     label = "Cs-Br1sCl1sO2sH_597",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -3199,7 +3199,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3208,7 +3208,7 @@ entry(
 entry(
     index = 104,
     label = "Cs-halCtHH_72",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -3230,7 +3230,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3239,7 +3239,7 @@ entry(
 entry(
     index = 105,
     label = "Cs-F1sCtHH_72",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -3261,7 +3261,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3270,7 +3270,7 @@ entry(
 entry(
     index = 106,
     label = "Cs-Br1sCtHH_269",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -3292,7 +3292,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3301,7 +3301,7 @@ entry(
 entry(
     index = 107,
     label = "Cs-Cl1sCtHH_405",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -3323,7 +3323,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3332,7 +3332,7 @@ entry(
 entry(
     index = 108,
     label = "Cs-halCdHH_75",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -3354,7 +3354,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3363,7 +3363,7 @@ entry(
 entry(
     index = 109,
     label = "Cs-F1sCdHH_75",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -3385,7 +3385,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3394,7 +3394,7 @@ entry(
 entry(
     index = 110,
     label = "Cs-F1sCdHH_95",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -3417,7 +3417,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3426,7 +3426,7 @@ entry(
 entry(
     index = 111,
     label = "Cs-Br1sCdHH_228",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -3448,7 +3448,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3457,7 +3457,7 @@ entry(
 entry(
     index = 112,
     label = "Cs-Br1sCdHH_282",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -3480,7 +3480,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3489,7 +3489,7 @@ entry(
 entry(
     index = 113,
     label = "Cs-Cl1sCdHH_375",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -3511,7 +3511,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3520,7 +3520,7 @@ entry(
 entry(
     index = 114,
     label = "Cs-Cl1sCdHH_394",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -3543,7 +3543,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3552,7 +3552,7 @@ entry(
 entry(
     index = 115,
     label = "Cs-halhalhalCO_94",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -3574,7 +3574,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3583,7 +3583,7 @@ entry(
 entry(
     index = 116,
     label = "Cs-F1sF1sF1sCO_94",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -3605,7 +3605,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3614,7 +3614,7 @@ entry(
 entry(
     index = 117,
     label = "Cs-F1sF1sF1sCO_172",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -3636,7 +3636,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3645,7 +3645,7 @@ entry(
 entry(
     index = 118,
     label = "Cs-Br1sBr1sBr1sCO_341",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -3667,7 +3667,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3676,7 +3676,7 @@ entry(
 entry(
     index = 119,
     label = "Cs-Br1sBr1sBr1sCO_348",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -3698,7 +3698,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3707,7 +3707,7 @@ entry(
 entry(
     index = 120,
     label = "Cs-Cl1sCl1sCl1sCO_471",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -3729,7 +3729,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3738,7 +3738,7 @@ entry(
 entry(
     index = 121,
     label = "Cs-Cl1sCl1sCl1sCO_505",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -3760,7 +3760,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3769,7 +3769,7 @@ entry(
 entry(
     index = 122,
     label = "Cs-Br1sBr1sF1sCO_556",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -3791,7 +3791,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3800,7 +3800,7 @@ entry(
 entry(
     index = 123,
     label = "Cs-Br1sBr1sF1sCO_735",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -3822,7 +3822,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3831,7 +3831,7 @@ entry(
 entry(
     index = 124,
     label = "Cs-Cl1sCl1sF1sCO_583",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -3853,7 +3853,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3862,7 +3862,7 @@ entry(
 entry(
     index = 125,
     label = "Cs-Cl1sCl1sF1sCO_694",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -3884,7 +3884,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3893,7 +3893,7 @@ entry(
 entry(
     index = 126,
     label = "Cs-Br1sBr1sCl1sCO_618",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -3915,7 +3915,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3924,7 +3924,7 @@ entry(
 entry(
     index = 127,
     label = "Cs-Br1sBr1sCl1sCO_627",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -3946,7 +3946,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3955,7 +3955,7 @@ entry(
 entry(
     index = 128,
     label = "Cs-Cl1sF1sF1sCO_622",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -3977,7 +3977,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -3986,7 +3986,7 @@ entry(
 entry(
     index = 129,
     label = "Cs-Cl1sF1sF1sCO_570",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -4008,7 +4008,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4017,7 +4017,7 @@ entry(
 entry(
     index = 130,
     label = "Cs-Br1sCl1sCl1sCO_652",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4039,7 +4039,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4048,7 +4048,7 @@ entry(
 entry(
     index = 131,
     label = "Cs-Br1sCl1sCl1sCO_700",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4070,7 +4070,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4079,7 +4079,7 @@ entry(
 entry(
     index = 132,
     label = "Cs-Br1sF1sF1sCO_658",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4101,7 +4101,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4110,7 +4110,7 @@ entry(
 entry(
     index = 133,
     label = "Cs-Br1sF1sF1sCO_741",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4132,7 +4132,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4141,7 +4141,7 @@ entry(
 entry(
     index = 134,
     label = "Cs-Br1sCl1sF1sCO_714",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4163,7 +4163,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4172,7 +4172,7 @@ entry(
 entry(
     index = 135,
     label = "Cs-Br1sCl1sF1sCO_712",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4194,7 +4194,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4203,7 +4203,7 @@ entry(
 entry(
     index = 136,
     label = "Cs-halhalCdH_97",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -4225,7 +4225,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4234,7 +4234,7 @@ entry(
 entry(
     index = 137,
     label = "Cs-F1sF1sCdH_97",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -4256,7 +4256,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4265,7 +4265,7 @@ entry(
 entry(
     index = 138,
     label = "Cs-F1sF1sCdH_109",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -4288,7 +4288,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4297,7 +4297,7 @@ entry(
 entry(
     index = 139,
     label = "Cs-Br1sBr1sCdH_229",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4319,7 +4319,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4328,7 +4328,7 @@ entry(
 entry(
     index = 140,
     label = "Cs-Br1sBr1sCdH_298",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4351,7 +4351,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4360,7 +4360,7 @@ entry(
 entry(
     index = 141,
     label = "Cs-Cl1sCl1sCdH_367",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -4382,7 +4382,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4391,7 +4391,7 @@ entry(
 entry(
     index = 142,
     label = "Cs-Cl1sCl1sCdH_426",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -4414,7 +4414,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4423,7 +4423,7 @@ entry(
 entry(
     index = 143,
     label = "Cs-Br1sF1sCdH_535",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4445,7 +4445,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4454,7 +4454,7 @@ entry(
 entry(
     index = 144,
     label = "Cs-Br1sF1sCdH_585",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4477,7 +4477,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4486,7 +4486,7 @@ entry(
 entry(
     index = 145,
     label = "Cs-Br1sCl1sCdH_551",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4508,7 +4508,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4517,7 +4517,7 @@ entry(
 entry(
     index = 146,
     label = "Cs-Br1sCl1sCdH_646",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4540,7 +4540,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4549,7 +4549,7 @@ entry(
 entry(
     index = 147,
     label = "Cs-Cl1sF1sCdH_563",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -4571,7 +4571,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4580,7 +4580,7 @@ entry(
 entry(
     index = 148,
     label = "Cs-Cl1sF1sCdH_624",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -4603,7 +4603,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4612,7 +4612,7 @@ entry(
 entry(
     index = 149,
     label = "Cs-halhalCOH_133",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -4634,7 +4634,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4643,7 +4643,7 @@ entry(
 entry(
     index = 150,
     label = "Cs-F1sF1sCOH_133",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -4665,7 +4665,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4674,7 +4674,7 @@ entry(
 entry(
     index = 151,
     label = "Cs-F1sF1sCOH_191",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -4696,7 +4696,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4705,7 +4705,7 @@ entry(
 entry(
     index = 152,
     label = "Cs-Br1sBr1sCOH_256",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4727,7 +4727,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4736,7 +4736,7 @@ entry(
 entry(
     index = 153,
     label = "Cs-Br1sBr1sCOH_356",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4758,7 +4758,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4767,7 +4767,7 @@ entry(
 entry(
     index = 154,
     label = "Cs-Cl1sCl1sCOH_418",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -4789,7 +4789,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4798,7 +4798,7 @@ entry(
 entry(
     index = 155,
     label = "Cs-Cl1sCl1sCOH_495",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -4820,7 +4820,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4829,7 +4829,7 @@ entry(
 entry(
     index = 156,
     label = "Cs-Cl1sF1sCOH_574",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -4851,7 +4851,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4860,7 +4860,7 @@ entry(
 entry(
     index = 157,
     label = "Cs-Cl1sF1sCOH_605",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -4882,7 +4882,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4891,7 +4891,7 @@ entry(
 entry(
     index = 158,
     label = "Cs-Br1sF1sCOH_612",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4913,7 +4913,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4922,7 +4922,7 @@ entry(
 entry(
     index = 159,
     label = "Cs-Br1sF1sCOH_736",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4944,7 +4944,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4953,7 +4953,7 @@ entry(
 entry(
     index = 160,
     label = "Cs-Br1sCl1sCOH_632",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -4975,7 +4975,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -4984,7 +4984,7 @@ entry(
 entry(
     index = 161,
     label = "Cs-Br1sCl1sCOH_716",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -5006,7 +5006,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5015,7 +5015,7 @@ entry(
 entry(
     index = 162,
     label = "Cs-halCOHH_138",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -5037,7 +5037,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5046,7 +5046,7 @@ entry(
 entry(
     index = 163,
     label = "Cs-F1sCOHH_138",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -5068,7 +5068,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5077,7 +5077,7 @@ entry(
 entry(
     index = 164,
     label = "Cs-F1sCOHH_182",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -5099,7 +5099,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5108,7 +5108,7 @@ entry(
 entry(
     index = 165,
     label = "Cs-Br1sCOHH_301",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -5130,7 +5130,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5139,7 +5139,7 @@ entry(
 entry(
     index = 166,
     label = "Cs-Br1sCOHH_347",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -5161,7 +5161,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5170,7 +5170,7 @@ entry(
 entry(
     index = 167,
     label = "Cs-Cl1sCOHH_401",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -5192,7 +5192,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5201,7 +5201,7 @@ entry(
 entry(
     index = 168,
     label = "Cs-Cl1sCOHH_498",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -5223,7 +5223,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5232,7 +5232,7 @@ entry(
 entry(
     index = 169,
     label = "Cs-halhalhalCt_158",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -5254,7 +5254,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5263,7 +5263,7 @@ entry(
 entry(
     index = 170,
     label = "Cs-F1sF1sF1sCt_158",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -5285,7 +5285,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5294,7 +5294,7 @@ entry(
 entry(
     index = 171,
     label = "Cs-Br1sBr1sBr1sCt_303",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -5316,7 +5316,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5325,7 +5325,7 @@ entry(
 entry(
     index = 172,
     label = "Cs-Cl1sCl1sCl1sCt_387",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -5347,7 +5347,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5356,7 +5356,7 @@ entry(
 entry(
     index = 173,
     label = "Cs-Br1sCl1sF1sCt_547",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -5378,7 +5378,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5387,7 +5387,7 @@ entry(
 entry(
     index = 174,
     label = "Cs-Br1sBr1sCl1sCt_555",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -5409,7 +5409,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5418,7 +5418,7 @@ entry(
 entry(
     index = 175,
     label = "Cs-Cl1sCl1sF1sCt_557",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -5440,7 +5440,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5449,7 +5449,7 @@ entry(
 entry(
     index = 176,
     label = "Cs-Br1sF1sF1sCt_642",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -5471,7 +5471,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5480,7 +5480,7 @@ entry(
 entry(
     index = 177,
     label = "Cs-Br1sBr1sF1sCt_653",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -5502,7 +5502,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5511,7 +5511,7 @@ entry(
 entry(
     index = 178,
     label = "Cs-Br1sCl1sCl1sCt_661",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -5533,7 +5533,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5542,7 +5542,7 @@ entry(
 entry(
     index = 179,
     label = "Cs-Cl1sF1sF1sCt_687",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -5564,7 +5564,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5573,7 +5573,7 @@ entry(
 entry(
     index = 180,
     label = "Cs-halC2sHH_177",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -5594,7 +5594,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5603,7 +5603,7 @@ entry(
 entry(
     index = 181,
     label = "Cs-F1sC2sHH_177",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -5624,7 +5624,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5633,7 +5633,7 @@ entry(
 entry(
     index = 182,
     label = "Cs-Br1sC2sHH_350",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -5653,7 +5653,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5662,7 +5662,7 @@ entry(
 entry(
     index = 183,
     label = "Cs-Cl1sC2sHH_521",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -5682,7 +5682,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5691,7 +5691,7 @@ entry(
 entry(
     index = 184,
     label = "Cs-halhalC2sH_183",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -5710,7 +5710,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5719,7 +5719,7 @@ entry(
 entry(
     index = 185,
     label = "Cs-F1sF1sC2sH_183",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -5738,7 +5738,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5747,7 +5747,7 @@ entry(
 entry(
     index = 186,
     label = "Cs-Br1sBr1sC2sH_332",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -5767,7 +5767,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5776,7 +5776,7 @@ entry(
 entry(
     index = 187,
     label = "Cs-Cl1sCl1sC2sH_496",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -5795,7 +5795,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5804,7 +5804,7 @@ entry(
 entry(
     index = 188,
     label = "Cs-halhalhalC2s_194",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -5823,7 +5823,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5832,7 +5832,7 @@ entry(
 entry(
     index = 189,
     label = "Cs-F1sF1sF1sC2s_194",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -5851,7 +5851,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5860,7 +5860,7 @@ entry(
 entry(
     index = 190,
     label = "Cs-Cl1sCl1sCl1sC2s_507",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -5879,7 +5879,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5888,7 +5888,7 @@ entry(
 entry(
     index = 191,
     label = "RdCH2",
-    group = 
+    group =
 """
 1 * C        u0 {2,D} {3,S} {4,S}
 2   R!H!Val7 ux {1,D}
@@ -5906,7 +5906,7 @@ entry(
         symmetry = 2,
     ),
     shortDesc = """Alkene end group""",
-    longDesc = 
+    longDesc =
 """
 (2950, 3100, 2),	#C-H stretch
 (1330, 1430, 1),	#R-C-H scissor
@@ -5919,7 +5919,7 @@ entry(
 entry(
     index = 192,
     label = "Cd-halCdH_45",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
@@ -5938,7 +5938,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5947,7 +5947,7 @@ entry(
 entry(
     index = 193,
     label = "Cd-F1sCdH_45",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -5966,7 +5966,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -5975,7 +5975,7 @@ entry(
 entry(
     index = 194,
     label = "Cd-F1sCdH_85",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -5993,7 +5993,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6002,7 +6002,7 @@ entry(
 entry(
     index = 195,
     label = "Cd-Br1sCdH_225",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -6021,7 +6021,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6030,7 +6030,7 @@ entry(
 entry(
     index = 196,
     label = "Cd-Br1sCdH_289",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -6048,7 +6048,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6057,7 +6057,7 @@ entry(
 entry(
     index = 197,
     label = "Cd-Br1sCdH_362",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -6076,7 +6076,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6085,7 +6085,7 @@ entry(
 entry(
     index = 198,
     label = "Cd-Cl1sCdH_372",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -6104,7 +6104,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6113,7 +6113,7 @@ entry(
 entry(
     index = 199,
     label = "Cd-Cl1sCdH_386",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -6131,7 +6131,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6140,7 +6140,7 @@ entry(
 entry(
     index = 200,
     label = "Cd-halhalCd_54",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
@@ -6159,7 +6159,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6168,7 +6168,7 @@ entry(
 entry(
     index = 201,
     label = "Cd-F1sF1sCd_54",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -6187,7 +6187,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6196,7 +6196,7 @@ entry(
 entry(
     index = 202,
     label = "Cd-F1sF1sCd_78",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -6214,7 +6214,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6223,7 +6223,7 @@ entry(
 entry(
     index = 203,
     label = "Cd-Br1sBr1sCd_254",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -6242,7 +6242,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6251,7 +6251,7 @@ entry(
 entry(
     index = 204,
     label = "Cd-Br1sBr1sCd_220",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -6269,7 +6269,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6278,7 +6278,7 @@ entry(
 entry(
     index = 205,
     label = "Cd-Cl1sCl1sCd_399",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -6297,7 +6297,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6306,7 +6306,7 @@ entry(
 entry(
     index = 206,
     label = "Cd-Cl1sCl1sCd_423",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -6324,7 +6324,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6333,7 +6333,7 @@ entry(
 entry(
     index = 207,
     label = "Cd-Cl1sF1sCd_527",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -6352,7 +6352,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6361,7 +6361,7 @@ entry(
 entry(
     index = 208,
     label = "Cd-Cl1sF1sCd_529",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -6379,7 +6379,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6388,7 +6388,7 @@ entry(
 entry(
     index = 209,
     label = "Cd-Br1sCl1sCd_539",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -6407,7 +6407,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6416,7 +6416,7 @@ entry(
 entry(
     index = 210,
     label = "Cd-Br1sCl1sCd_549",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -6434,7 +6434,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6443,7 +6443,7 @@ entry(
 entry(
     index = 211,
     label = "Cd-Br1sF1sCd_550",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -6462,7 +6462,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6471,7 +6471,7 @@ entry(
 entry(
     index = 212,
     label = "Cd-Br1sF1sCd_558",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -6489,7 +6489,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6498,7 +6498,7 @@ entry(
 entry(
     index = 213,
     label = "CO-halO2dH_82",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
@@ -6517,7 +6517,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6526,7 +6526,7 @@ entry(
 entry(
     index = 214,
     label = "CO-F1sO2dH_82",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -6545,7 +6545,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6554,7 +6554,7 @@ entry(
 entry(
     index = 215,
     label = "CO-Cl1sO2dH_526",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -6573,7 +6573,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6582,7 +6582,7 @@ entry(
 entry(
     index = 216,
     label = "Cd-halhalCdd_130",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
@@ -6601,7 +6601,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6610,7 +6610,7 @@ entry(
 entry(
     index = 217,
     label = "Cd-F1sF1sCdd_130",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -6629,7 +6629,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6638,7 +6638,7 @@ entry(
 entry(
     index = 218,
     label = "Cd-Br1sBr1sCdd_243",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -6657,7 +6657,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6666,7 +6666,7 @@ entry(
 entry(
     index = 219,
     label = "Cd-Cl1sCl1sCdd_376",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -6684,7 +6684,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6693,7 +6693,7 @@ entry(
 entry(
     index = 220,
     label = "Cd-Br1sCl1sCdd_537",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -6711,7 +6711,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6720,7 +6720,7 @@ entry(
 entry(
     index = 221,
     label = "Cd-Br1sF1sCdd_571",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -6738,7 +6738,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6747,7 +6747,7 @@ entry(
 entry(
     index = 222,
     label = "Cd-Cl1sF1sCdd_614",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -6766,7 +6766,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6775,7 +6775,7 @@ entry(
 entry(
     index = 223,
     label = "Cd-halCddH_136",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
@@ -6793,7 +6793,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6802,7 +6802,7 @@ entry(
 entry(
     index = 224,
     label = "Cd-F1sCddH_136",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -6820,7 +6820,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6829,7 +6829,7 @@ entry(
 entry(
     index = 225,
     label = "Cd-Br1sCddH_276",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -6847,7 +6847,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6856,7 +6856,7 @@ entry(
 entry(
     index = 226,
     label = "Cd-Cl1sCddH_458",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -6874,7 +6874,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6883,7 +6883,7 @@ entry(
 entry(
     index = 227,
     label = "CO-halhalO2d_188",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
@@ -6902,7 +6902,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6911,7 +6911,7 @@ entry(
 entry(
     index = 228,
     label = "CO-F1sF1sO2d_188",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -6930,7 +6930,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6939,7 +6939,7 @@ entry(
 entry(
     index = 229,
     label = "CO-Br1sBr1sO2d_302",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -6958,7 +6958,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6967,7 +6967,7 @@ entry(
 entry(
     index = 230,
     label = "CO-Cl1sCl1sO2d_516",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -6986,7 +6986,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -6995,7 +6995,7 @@ entry(
 entry(
     index = 231,
     label = "CO-Br1sF1sO2d_669",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -7014,7 +7014,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7023,7 +7023,7 @@ entry(
 entry(
     index = 232,
     label = "CO-Br1sCl1sO2d_679",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -7042,7 +7042,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7051,7 +7051,7 @@ entry(
 entry(
     index = 233,
     label = "CO-Cl1sF1sO2d_726",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -7070,7 +7070,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7079,7 +7079,7 @@ entry(
 entry(
     index = 234,
     label = "Cd-halC2dH_457",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
@@ -7098,7 +7098,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7107,7 +7107,7 @@ entry(
 entry(
     index = 235,
     label = "Cd-Cl1sC2dH_457",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -7126,7 +7126,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7135,7 +7135,7 @@ entry(
 entry(
     index = 236,
     label = "CtCH",
-    group = 
+    group =
 """
 1 * C        u0 {2,T} {3,S}
 2   C        ux {1,T}
@@ -7150,7 +7150,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """Alkyne end group""",
-    longDesc = 
+    longDesc =
 """
 (750, 770, 2),		#R-C-H bend
 (3350, 3450, 1),	#C-H stretch
@@ -7161,7 +7161,7 @@ entry(
 entry(
     index = 237,
     label = "Ct-halCt_39",
-    group = 
+    group =
 """
 1 * Ct   u0 {2,S} {3,T}
 2   Val7 u0 {1,S}
@@ -7176,7 +7176,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7185,7 +7185,7 @@ entry(
 entry(
     index = 238,
     label = "Ct-F1sCt_39",
-    group = 
+    group =
 """
 1 * Ct  u0 {2,S} {3,T}
 2   F1s u0 {1,S}
@@ -7200,7 +7200,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7209,7 +7209,7 @@ entry(
 entry(
     index = 239,
     label = "Ct-Br1sCt_259",
-    group = 
+    group =
 """
 1 * Ct   u0 {2,S} {3,T}
 2   Br1s u0 {1,S}
@@ -7224,7 +7224,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7233,7 +7233,7 @@ entry(
 entry(
     index = 240,
     label = "Ct-Cl1sCt_380",
-    group = 
+    group =
 """
 1 * Ct   u0 {2,S} {3,T}
 2   Cl1s u0 {1,S}
@@ -7248,7 +7248,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7257,7 +7257,7 @@ entry(
 entry(
     index = 241,
     label = "RsCH2sR",
-    group = 
+    group =
 """
 1 * C        u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H!Val7 ux {1,S}
@@ -7277,7 +7277,7 @@ entry(
         symmetry = 4,
     ),
     shortDesc = """separated carbon with two single bonds""",
-    longDesc = 
+    longDesc =
 """
 (2750, 2850, 2),	#C-H stretch
 (1425, 1450, 1),	#H-C-H scissor
@@ -7291,7 +7291,7 @@ entry(
 entry(
     index = 242,
     label = "Cs-halhalCsCs_40",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -7312,7 +7312,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7321,7 +7321,7 @@ entry(
 entry(
     index = 243,
     label = "Cs-F1sF1sCsCs_40",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -7342,7 +7342,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7351,7 +7351,7 @@ entry(
 entry(
     index = 244,
     label = "Cs-F1sF1sCsCs_41",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -7372,7 +7372,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7381,7 +7381,7 @@ entry(
 entry(
     index = 245,
     label = "Cs-Br1sBr1sCsCs_217",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -7402,7 +7402,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7411,7 +7411,7 @@ entry(
 entry(
     index = 246,
     label = "Cs-Br1sBr1sCsCs_271",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -7432,7 +7432,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7441,7 +7441,7 @@ entry(
 entry(
     index = 247,
     label = "Cs-Br1sBr1sCsCs_353",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -7459,7 +7459,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7468,7 +7468,7 @@ entry(
 entry(
     index = 248,
     label = "Cs-Cl1sCl1sCsCs_378",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -7489,7 +7489,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7498,7 +7498,7 @@ entry(
 entry(
     index = 249,
     label = "Cs-Cl1sCl1sCsCs_364",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -7519,7 +7519,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7528,7 +7528,7 @@ entry(
 entry(
     index = 250,
     label = "Cs-Br1sCl1sCsCs_543",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -7549,7 +7549,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7558,7 +7558,7 @@ entry(
 entry(
     index = 251,
     label = "Cs-Br1sCl1sCsCs_532",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -7579,7 +7579,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7588,7 +7588,7 @@ entry(
 entry(
     index = 252,
     label = "Cs-Br1sF1sCsCs_565",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -7609,7 +7609,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7618,7 +7618,7 @@ entry(
 entry(
     index = 253,
     label = "Cs-Br1sF1sCsCs_648",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -7639,7 +7639,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7648,7 +7648,7 @@ entry(
 entry(
     index = 254,
     label = "Cs-Cl1sF1sCsCs_613",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -7669,7 +7669,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7678,7 +7678,7 @@ entry(
 entry(
     index = 255,
     label = "Cs-Cl1sF1sCsCs_609",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -7699,7 +7699,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7708,7 +7708,7 @@ entry(
 entry(
     index = 256,
     label = "Cs-halhalO2sCs_47",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -7729,7 +7729,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7738,7 +7738,7 @@ entry(
 entry(
     index = 257,
     label = "Cs-F1sF1sO2sCs_47",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -7759,7 +7759,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7768,7 +7768,7 @@ entry(
 entry(
     index = 258,
     label = "Cs-F1sF1sO2sCs_121",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -7789,7 +7789,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7798,7 +7798,7 @@ entry(
 entry(
     index = 259,
     label = "Cs-F1sF1sO2sCs_134",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -7820,7 +7820,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7829,7 +7829,7 @@ entry(
 entry(
     index = 260,
     label = "Cs-Br1sBr1sO2sCs_234",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -7850,7 +7850,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7859,7 +7859,7 @@ entry(
 entry(
     index = 261,
     label = "Cs-Br1sBr1sO2sCs_300",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -7880,7 +7880,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7889,7 +7889,7 @@ entry(
 entry(
     index = 262,
     label = "Cs-Br1sBr1sO2sCs_309",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -7910,7 +7910,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7919,7 +7919,7 @@ entry(
 entry(
     index = 263,
     label = "Cs-Cl1sCl1sO2sCs_379",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -7940,7 +7940,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7949,7 +7949,7 @@ entry(
 entry(
     index = 264,
     label = "Cs-Cl1sCl1sO2sCs_414",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -7971,7 +7971,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -7980,7 +7980,7 @@ entry(
 entry(
     index = 265,
     label = "Cs-Cl1sCl1sO2sCs_415",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -8001,7 +8001,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8010,7 +8010,7 @@ entry(
 entry(
     index = 266,
     label = "Cs-Br1sCl1sO2sCs_552",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8031,7 +8031,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8040,7 +8040,7 @@ entry(
 entry(
     index = 267,
     label = "Cs-Br1sCl1sO2sCs_625",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8061,7 +8061,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8070,7 +8070,7 @@ entry(
 entry(
     index = 268,
     label = "Cs-Br1sCl1sO2sCs_725",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8088,7 +8088,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8097,7 +8097,7 @@ entry(
 entry(
     index = 269,
     label = "Cs-Br1sF1sO2sCs_584",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8118,7 +8118,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8127,7 +8127,7 @@ entry(
 entry(
     index = 270,
     label = "Cs-Br1sF1sO2sCs_619",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8148,7 +8148,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8157,7 +8157,7 @@ entry(
 entry(
     index = 271,
     label = "Cs-Cl1sF1sO2sCs_592",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -8178,7 +8178,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8187,7 +8187,7 @@ entry(
 entry(
     index = 272,
     label = "Cs-Cl1sF1sO2sCs_595",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -8208,7 +8208,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8217,7 +8217,7 @@ entry(
 entry(
     index = 273,
     label = "Cs-Cl1sF1sO2sCs_690",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -8239,7 +8239,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8248,7 +8248,7 @@ entry(
 entry(
     index = 274,
     label = "Cs-halhalCsCd_55",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -8269,7 +8269,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8278,7 +8278,7 @@ entry(
 entry(
     index = 275,
     label = "Cs-F1sF1sCsCd_55",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -8299,7 +8299,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8308,7 +8308,7 @@ entry(
 entry(
     index = 276,
     label = "Cs-F1sF1sCsCd_120",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -8330,7 +8330,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8339,7 +8339,7 @@ entry(
 entry(
     index = 277,
     label = "Cs-F1sF1sCdCs_53",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -8361,7 +8361,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8370,7 +8370,7 @@ entry(
 entry(
     index = 278,
     label = "Cs-Br1sBr1sCsCd_286",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8392,7 +8392,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8401,7 +8401,7 @@ entry(
 entry(
     index = 279,
     label = "Cs-Br1sBr1sCsCd_293",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8423,7 +8423,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8432,7 +8432,7 @@ entry(
 entry(
     index = 280,
     label = "Cs-Br1sBr1sCdCs_581",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8453,7 +8453,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8462,7 +8462,7 @@ entry(
 entry(
     index = 281,
     label = "Cs-Cl1sCl1sCsCd_370",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -8483,7 +8483,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8492,7 +8492,7 @@ entry(
 entry(
     index = 282,
     label = "Cs-Cl1sCl1sCsCd_385",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -8514,7 +8514,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8523,7 +8523,7 @@ entry(
 entry(
     index = 283,
     label = "Cs-Cl1sCl1sCdCs_493",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -8545,7 +8545,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8554,7 +8554,7 @@ entry(
 entry(
     index = 284,
     label = "Cs-Cl1sF1sCsCd_582",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -8575,7 +8575,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8584,7 +8584,7 @@ entry(
 entry(
     index = 285,
     label = "Cs-Cl1sF1sCdCs_634",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -8606,7 +8606,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8615,7 +8615,7 @@ entry(
 entry(
     index = 286,
     label = "Cs-Cl1sF1sCsCd_560",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -8637,7 +8637,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8646,7 +8646,7 @@ entry(
 entry(
     index = 287,
     label = "Cs-Br1sF1sCsCd_604",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8667,7 +8667,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8676,7 +8676,7 @@ entry(
 entry(
     index = 288,
     label = "Cs-Br1sF1sCsCd_703",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8698,7 +8698,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8707,7 +8707,7 @@ entry(
 entry(
     index = 289,
     label = "Cs-Br1sF1sCdCs_734",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8727,7 +8727,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8736,7 +8736,7 @@ entry(
 entry(
     index = 290,
     label = "Cs-Br1sCl1sCsCd_617",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8757,7 +8757,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8766,7 +8766,7 @@ entry(
 entry(
     index = 291,
     label = "Cs-Br1sCl1sCsCd_635",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8788,7 +8788,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8797,7 +8797,7 @@ entry(
 entry(
     index = 292,
     label = "Cs-Br1sCl1sCdCs_686",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8817,7 +8817,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8826,7 +8826,7 @@ entry(
 entry(
     index = 293,
     label = "Cs-halCsCOH_61",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -8847,7 +8847,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8856,7 +8856,7 @@ entry(
 entry(
     index = 294,
     label = "Cs-F1sCsCOH_61",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -8877,7 +8877,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8886,7 +8886,7 @@ entry(
 entry(
     index = 295,
     label = "Cs-F1sCsCOH_89",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -8907,7 +8907,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8916,7 +8916,7 @@ entry(
 entry(
     index = 296,
     label = "Cs-F1sCsCOH_49",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -8937,7 +8937,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8946,7 +8946,7 @@ entry(
 entry(
     index = 297,
     label = "Cs-Br1sCsCOH_267",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8967,7 +8967,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -8976,7 +8976,7 @@ entry(
 entry(
     index = 298,
     label = "Cs-Br1sCsCOH_313",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -8997,7 +8997,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9006,7 +9006,7 @@ entry(
 entry(
     index = 299,
     label = "Cs-Br1sCsCOH_316",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -9027,7 +9027,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9036,7 +9036,7 @@ entry(
 entry(
     index = 300,
     label = "Cs-Cl1sCsCOH_425",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -9057,7 +9057,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9066,7 +9066,7 @@ entry(
 entry(
     index = 301,
     label = "Cs-Cl1sCsCOH_467",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -9087,7 +9087,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9096,7 +9096,7 @@ entry(
 entry(
     index = 302,
     label = "Cs-Cl1sCsCOH_486",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -9117,7 +9117,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9126,7 +9126,7 @@ entry(
 entry(
     index = 303,
     label = "Cs-halO2sCsH_65",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -9147,7 +9147,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9156,7 +9156,7 @@ entry(
 entry(
     index = 304,
     label = "Cs-F1sO2sCsH_65",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -9177,7 +9177,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9186,7 +9186,7 @@ entry(
 entry(
     index = 305,
     label = "Cs-F1sO2sCsH_106",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -9208,7 +9208,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9217,7 +9217,7 @@ entry(
 entry(
     index = 306,
     label = "Cs-F1sO2sCsH_131",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -9238,7 +9238,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9247,7 +9247,7 @@ entry(
 entry(
     index = 307,
     label = "Cs-Br1sO2sCsH_231",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -9268,7 +9268,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9277,7 +9277,7 @@ entry(
 entry(
     index = 308,
     label = "Cs-Br1sO2sCsH_233",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -9299,7 +9299,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9308,7 +9308,7 @@ entry(
 entry(
     index = 309,
     label = "Cs-Br1sO2sCsH_266",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -9329,7 +9329,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9338,7 +9338,7 @@ entry(
 entry(
     index = 310,
     label = "Cs-Cl1sO2sCsH_428",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -9359,7 +9359,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9368,7 +9368,7 @@ entry(
 entry(
     index = 311,
     label = "Cs-Cl1sO2sCsH_429",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -9390,7 +9390,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9399,7 +9399,7 @@ entry(
 entry(
     index = 312,
     label = "Cs-Cl1sO2sCsH_398",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -9420,7 +9420,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9429,7 +9429,7 @@ entry(
 entry(
     index = 313,
     label = "Cs-halhalO2sO2s_79",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -9450,7 +9450,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9459,7 +9459,7 @@ entry(
 entry(
     index = 314,
     label = "Cs-F1sF1sO2sO2s_79",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -9480,7 +9480,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9489,7 +9489,7 @@ entry(
 entry(
     index = 315,
     label = "Cs-F1sF1sO2sO2s_93",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -9511,7 +9511,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9520,7 +9520,7 @@ entry(
 entry(
     index = 316,
     label = "Cs-Br1sBr1sO2sO2s_241",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -9541,7 +9541,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9550,7 +9550,7 @@ entry(
 entry(
     index = 317,
     label = "Cs-Cl1sCl1sO2sO2s_430",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -9571,7 +9571,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9580,7 +9580,7 @@ entry(
 entry(
     index = 318,
     label = "Cs-Br1sF1sO2sO2s_594",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -9601,7 +9601,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9610,7 +9610,7 @@ entry(
 entry(
     index = 319,
     label = "Cs-Br1sCl1sO2sO2s_616",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -9631,7 +9631,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9640,7 +9640,7 @@ entry(
 entry(
     index = 320,
     label = "Cs-Cl1sF1sO2sO2s_629",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -9661,7 +9661,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9670,7 +9670,7 @@ entry(
 entry(
     index = 321,
     label = "Cs-halCsCsH_88",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -9691,7 +9691,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9700,7 +9700,7 @@ entry(
 entry(
     index = 322,
     label = "Cs-F1sCsCsH_88",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -9721,7 +9721,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9730,7 +9730,7 @@ entry(
 entry(
     index = 323,
     label = "Cs-F1sCsCsH_74",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -9751,7 +9751,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9760,7 +9760,7 @@ entry(
 entry(
     index = 324,
     label = "Cs-Br1sCsCsH_218",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -9781,7 +9781,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9790,7 +9790,7 @@ entry(
 entry(
     index = 325,
     label = "Cs-Br1sCsCsH_268",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -9811,7 +9811,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9820,7 +9820,7 @@ entry(
 entry(
     index = 326,
     label = "Cs-Cl1sCsCsH_369",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -9841,7 +9841,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9850,7 +9850,7 @@ entry(
 entry(
     index = 327,
     label = "Cs-Cl1sCsCsH_397",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -9871,7 +9871,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9880,7 +9880,7 @@ entry(
 entry(
     index = 328,
     label = "Cs-halO2sCOH_104",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -9901,7 +9901,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9910,7 +9910,7 @@ entry(
 entry(
     index = 329,
     label = "Cs-F1sO2sCOH_104",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -9931,7 +9931,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9940,7 +9940,7 @@ entry(
 entry(
     index = 330,
     label = "Cs-F1sO2sCOH_149",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -9961,7 +9961,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -9970,7 +9970,7 @@ entry(
 entry(
     index = 331,
     label = "Cs-F1sO2sCOH_173",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -9992,7 +9992,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10001,7 +10001,7 @@ entry(
 entry(
     index = 332,
     label = "Cs-Br1sO2sCOH_325",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10022,7 +10022,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10031,7 +10031,7 @@ entry(
 entry(
     index = 333,
     label = "Cs-Br1sO2sCOH_339",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10049,7 +10049,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10058,7 +10058,7 @@ entry(
 entry(
     index = 334,
     label = "Cs-Br1sO2sCOH_246",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10079,7 +10079,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10088,7 +10088,7 @@ entry(
 entry(
     index = 335,
     label = "Cs-Cl1sO2sCOH_511",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -10109,7 +10109,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10118,7 +10118,7 @@ entry(
 entry(
     index = 336,
     label = "Cs-Cl1sO2sCOH_520",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -10139,7 +10139,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10148,7 +10148,7 @@ entry(
 entry(
     index = 337,
     label = "Cs-Cl1sO2sCOH_460",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -10170,7 +10170,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10179,7 +10179,7 @@ entry(
 entry(
     index = 338,
     label = "Cs-halhalO2sCd_107",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -10200,7 +10200,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10209,7 +10209,7 @@ entry(
 entry(
     index = 339,
     label = "Cs-F1sF1sO2sCd_107",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -10230,7 +10230,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10239,7 +10239,7 @@ entry(
 entry(
     index = 340,
     label = "Cs-F1sF1sO2sCd_125",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -10260,7 +10260,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10269,7 +10269,7 @@ entry(
 entry(
     index = 341,
     label = "Cs-F1sF1sO2sCd_126",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -10291,7 +10291,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10300,7 +10300,7 @@ entry(
 entry(
     index = 342,
     label = "Cs-Br1sBr1sO2sCd_227",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10322,7 +10322,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10331,7 +10331,7 @@ entry(
 entry(
     index = 343,
     label = "Cs-Br1sBr1sO2sCd_344",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10353,7 +10353,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10362,7 +10362,7 @@ entry(
 entry(
     index = 344,
     label = "Cs-Br1sBr1sO2sCd_698",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10380,7 +10380,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10389,7 +10389,7 @@ entry(
 entry(
     index = 345,
     label = "Cs-Cl1sCl1sO2sCd_427",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -10410,7 +10410,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10419,7 +10419,7 @@ entry(
 entry(
     index = 346,
     label = "Cs-Cl1sCl1sO2sCd_431",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -10441,7 +10441,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10450,7 +10450,7 @@ entry(
 entry(
     index = 347,
     label = "Cs-Cl1sCl1sO2sCd_485",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -10471,7 +10471,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10480,7 +10480,7 @@ entry(
 entry(
     index = 348,
     label = "Cs-Br1sF1sO2sCd_528",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10501,7 +10501,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10510,7 +10510,7 @@ entry(
 entry(
     index = 349,
     label = "Cs-Br1sF1sO2sCd_673",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10532,7 +10532,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10541,7 +10541,7 @@ entry(
 entry(
     index = 350,
     label = "Cs-Br1sF1sO2sCd_705",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10551,7 +10551,7 @@ entry(
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10560,7 +10560,7 @@ entry(
 entry(
     index = 351,
     label = "Cs-Br1sCl1sO2sCd_600",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10581,7 +10581,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10590,7 +10590,7 @@ entry(
 entry(
     index = 352,
     label = "Cs-Br1sCl1sO2sCd_637",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10612,7 +10612,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10621,7 +10621,7 @@ entry(
 entry(
     index = 353,
     label = "Cs-Cl1sF1sO2sCd_665",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -10642,7 +10642,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10651,7 +10651,7 @@ entry(
 entry(
     index = 354,
     label = "Cs-Cl1sF1sO2sCd_682",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -10673,7 +10673,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10682,7 +10682,7 @@ entry(
 entry(
     index = 355,
     label = "Cs-Cl1sF1sO2sCd_644",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -10700,7 +10700,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10709,7 +10709,7 @@ entry(
 entry(
     index = 356,
     label = "Cs-halCsCdH_108",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -10730,7 +10730,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10739,7 +10739,7 @@ entry(
 entry(
     index = 357,
     label = "Cs-F1sCsCdH_108",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -10760,7 +10760,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10769,7 +10769,7 @@ entry(
 entry(
     index = 358,
     label = "Cs-F1sCdCsH_50",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -10791,7 +10791,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10800,7 +10800,7 @@ entry(
 entry(
     index = 359,
     label = "Cs-F1sCsCdH_77",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -10822,7 +10822,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10831,7 +10831,7 @@ entry(
 entry(
     index = 360,
     label = "Cs-Br1sCsCdH_226",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10852,7 +10852,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10861,7 +10861,7 @@ entry(
 entry(
     index = 361,
     label = "Cs-Br1sCsCdH_320",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10882,7 +10882,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10891,7 +10891,7 @@ entry(
 entry(
     index = 362,
     label = "Cs-Br1sCdCsH_355",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -10912,7 +10912,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10921,7 +10921,7 @@ entry(
 entry(
     index = 363,
     label = "Cs-Cl1sCsCdH_410",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -10942,7 +10942,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10951,7 +10951,7 @@ entry(
 entry(
     index = 364,
     label = "Cs-Cl1sCsCdH_472",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -10973,7 +10973,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -10982,7 +10982,7 @@ entry(
 entry(
     index = 365,
     label = "Cs-Cl1sCdCsH_474",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -11004,7 +11004,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11013,7 +11013,7 @@ entry(
 entry(
     index = 366,
     label = "Cs-halO2sO2sH_111",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -11034,7 +11034,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11043,7 +11043,7 @@ entry(
 entry(
     index = 367,
     label = "Cs-F1sO2sO2sH_111",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -11064,7 +11064,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11073,7 +11073,7 @@ entry(
 entry(
     index = 368,
     label = "Cs-F1sO2sO2sH_139",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -11095,7 +11095,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11104,7 +11104,7 @@ entry(
 entry(
     index = 369,
     label = "Cs-Br1sO2sO2sH_249",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -11125,7 +11125,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11134,7 +11134,7 @@ entry(
 entry(
     index = 370,
     label = "Cs-Br1sO2sO2sH_322",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -11153,7 +11153,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11162,7 +11162,7 @@ entry(
 entry(
     index = 371,
     label = "Cs-Cl1sO2sO2sH_389",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -11183,7 +11183,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11192,7 +11192,7 @@ entry(
 entry(
     index = 372,
     label = "Cs-Cl1sO2sO2sH_469",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -11213,7 +11213,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11222,7 +11222,7 @@ entry(
 entry(
     index = 373,
     label = "Cs-halhalCsCt_124",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -11243,7 +11243,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11252,7 +11252,7 @@ entry(
 entry(
     index = 374,
     label = "Cs-F1sF1sCsCt_124",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -11273,7 +11273,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11282,7 +11282,7 @@ entry(
 entry(
     index = 375,
     label = "Cs-F1sF1sCsCt_154",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -11303,7 +11303,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11312,7 +11312,7 @@ entry(
 entry(
     index = 376,
     label = "Cs-Br1sBr1sCsCt_315",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -11333,7 +11333,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11342,7 +11342,7 @@ entry(
 entry(
     index = 377,
     label = "Cs-Br1sBr1sCsCt_721",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -11360,7 +11360,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11369,7 +11369,7 @@ entry(
 entry(
     index = 378,
     label = "Cs-Cl1sCl1sCsCt_403",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -11390,7 +11390,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11399,7 +11399,7 @@ entry(
 entry(
     index = 379,
     label = "Cs-Cl1sCl1sCsCt_476",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -11420,7 +11420,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11429,7 +11429,7 @@ entry(
 entry(
     index = 380,
     label = "Cs-Cl1sF1sCsCt_608",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -11450,7 +11450,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11459,7 +11459,7 @@ entry(
 entry(
     index = 381,
     label = "Cs-Cl1sF1sCsCt_655",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -11480,7 +11480,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11489,7 +11489,7 @@ entry(
 entry(
     index = 382,
     label = "Cs-Br1sF1sCsCt_640",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -11510,7 +11510,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11519,7 +11519,7 @@ entry(
 entry(
     index = 383,
     label = "Cs-Br1sF1sCsCt_638",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -11540,7 +11540,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11549,7 +11549,7 @@ entry(
 entry(
     index = 384,
     label = "Cs-Br1sCl1sCsCt_672",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -11570,7 +11570,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11579,7 +11579,7 @@ entry(
 entry(
     index = 385,
     label = "Cs-Br1sCl1sCsCt_699",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -11599,7 +11599,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11608,7 +11608,7 @@ entry(
 entry(
     index = 386,
     label = "Cs-halCsCtH_128",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -11629,7 +11629,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11638,7 +11638,7 @@ entry(
 entry(
     index = 387,
     label = "Cs-F1sCsCtH_128",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -11659,7 +11659,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11668,7 +11668,7 @@ entry(
 entry(
     index = 388,
     label = "Cs-F1sCsCtH_163",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -11689,7 +11689,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11698,7 +11698,7 @@ entry(
 entry(
     index = 389,
     label = "Cs-Br1sCsCtH_272",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -11719,7 +11719,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11728,7 +11728,7 @@ entry(
 entry(
     index = 390,
     label = "Cs-Br1sCsCtH_290",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -11749,7 +11749,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11758,7 +11758,7 @@ entry(
 entry(
     index = 391,
     label = "Cs-Cl1sCsCtH_438",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -11779,7 +11779,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11788,7 +11788,7 @@ entry(
 entry(
     index = 392,
     label = "Cs-Cl1sCsCtH_439",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -11809,7 +11809,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11818,7 +11818,7 @@ entry(
 entry(
     index = 393,
     label = "Cs-halO2sCdH_137",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -11839,7 +11839,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11848,7 +11848,7 @@ entry(
 entry(
     index = 394,
     label = "Cs-F1sO2sCdH_137",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -11869,7 +11869,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11878,7 +11878,7 @@ entry(
 entry(
     index = 395,
     label = "Cs-F1sO2sCdH_161",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -11899,7 +11899,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11908,7 +11908,7 @@ entry(
 entry(
     index = 396,
     label = "Cs-F1sO2sCdH_129",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -11930,7 +11930,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11939,7 +11939,7 @@ entry(
 entry(
     index = 397,
     label = "Cs-Br1sO2sCdH_261",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -11960,7 +11960,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11969,7 +11969,7 @@ entry(
 entry(
     index = 398,
     label = "Cs-Br1sO2sCdH_304",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -11990,7 +11990,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -11999,7 +11999,7 @@ entry(
 entry(
     index = 399,
     label = "Cs-Br1sO2sCdH_360",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12020,7 +12020,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12029,7 +12029,7 @@ entry(
 entry(
     index = 400,
     label = "Cs-Cl1sO2sCdH_468",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -12050,7 +12050,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12059,7 +12059,7 @@ entry(
 entry(
     index = 401,
     label = "Cs-Cl1sO2sCdH_477",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -12080,7 +12080,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12089,7 +12089,7 @@ entry(
 entry(
     index = 402,
     label = "Cs-Cl1sO2sCdH_463",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -12111,7 +12111,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12120,7 +12120,7 @@ entry(
 entry(
     index = 403,
     label = "Cs-halhalCsCO_157",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -12141,7 +12141,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12150,7 +12150,7 @@ entry(
 entry(
     index = 404,
     label = "Cs-F1sF1sCsCO_157",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -12171,7 +12171,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12180,7 +12180,7 @@ entry(
 entry(
     index = 405,
     label = "Cs-F1sF1sCsCO_185",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -12201,7 +12201,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12210,7 +12210,7 @@ entry(
 entry(
     index = 406,
     label = "Cs-F1sF1sCsCO_145",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -12231,7 +12231,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12240,7 +12240,7 @@ entry(
 entry(
     index = 407,
     label = "Cs-Br1sBr1sCsCO_255",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12261,7 +12261,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12270,7 +12270,7 @@ entry(
 entry(
     index = 408,
     label = "Cs-Br1sBr1sCsCO_710",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12290,7 +12290,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12299,7 +12299,7 @@ entry(
 entry(
     index = 409,
     label = "Cs-Br1sBr1sCsCO_250",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12320,7 +12320,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12329,7 +12329,7 @@ entry(
 entry(
     index = 410,
     label = "Cs-Cl1sCl1sCsCO_452",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -12350,7 +12350,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12359,7 +12359,7 @@ entry(
 entry(
     index = 411,
     label = "Cs-Cl1sCl1sCsCO_453",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -12380,7 +12380,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12389,7 +12389,7 @@ entry(
 entry(
     index = 412,
     label = "Cs-Cl1sCl1sCsCO_443",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -12410,7 +12410,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12419,7 +12419,7 @@ entry(
 entry(
     index = 413,
     label = "Cs-Cl1sF1sCsCO_607",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -12440,7 +12440,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12449,7 +12449,7 @@ entry(
 entry(
     index = 414,
     label = "Cs-Cl1sF1sCsCO_695",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -12470,7 +12470,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12479,7 +12479,7 @@ entry(
 entry(
     index = 415,
     label = "Cs-Cl1sF1sCsCO_722",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -12500,7 +12500,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12509,7 +12509,7 @@ entry(
 entry(
     index = 416,
     label = "Cs-Br1sCl1sCsCO_645",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12530,7 +12530,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12539,7 +12539,7 @@ entry(
 entry(
     index = 417,
     label = "Cs-Br1sCl1sCsCO_675",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12560,7 +12560,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12569,7 +12569,7 @@ entry(
 entry(
     index = 418,
     label = "Cs-Br1sCl1sCsCO_576",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12589,7 +12589,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12598,7 +12598,7 @@ entry(
 entry(
     index = 419,
     label = "Cs-Br1sF1sCsCO_684",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12619,7 +12619,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12628,7 +12628,7 @@ entry(
 entry(
     index = 420,
     label = "Cs-Br1sF1sCsCO_697",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12649,7 +12649,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12658,7 +12658,7 @@ entry(
 entry(
     index = 421,
     label = "Cs-Br1sF1sCsCO_643",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12679,7 +12679,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12688,7 +12688,7 @@ entry(
 entry(
     index = 422,
     label = "Cs-halCsC2sH_160",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -12706,7 +12706,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12715,7 +12715,7 @@ entry(
 entry(
     index = 423,
     label = "Cs-F1sCsC2sH_160",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -12733,7 +12733,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12742,7 +12742,7 @@ entry(
 entry(
     index = 424,
     label = "Cs-Br1sCsC2sH_363",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12760,7 +12760,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12769,7 +12769,7 @@ entry(
 entry(
     index = 425,
     label = "Cs-Cl1sCsC2sH_508",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -12787,7 +12787,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12796,7 +12796,7 @@ entry(
 entry(
     index = 426,
     label = "Cs-halhalO2sCO_165",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -12817,7 +12817,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12826,7 +12826,7 @@ entry(
 entry(
     index = 427,
     label = "Cs-F1sF1sO2sCO_165",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -12847,7 +12847,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12856,7 +12856,7 @@ entry(
 entry(
     index = 428,
     label = "Cs-F1sF1sO2sCO_199",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -12877,7 +12877,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12886,7 +12886,7 @@ entry(
 entry(
     index = 429,
     label = "Cs-F1sF1sO2sCO_164",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -12904,7 +12904,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12913,7 +12913,7 @@ entry(
 entry(
     index = 430,
     label = "Cs-Br1sBr1sO2sCO_244",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12934,7 +12934,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12943,7 +12943,7 @@ entry(
 entry(
     index = 431,
     label = "Cs-Br1sBr1sO2sCO_334",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -12964,7 +12964,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -12973,7 +12973,7 @@ entry(
 entry(
     index = 432,
     label = "Cs-Cl1sCl1sO2sCO_447",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -12994,7 +12994,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13003,7 +13003,7 @@ entry(
 entry(
     index = 433,
     label = "Cs-Cl1sCl1sO2sCO_513",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -13021,7 +13021,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13030,7 +13030,7 @@ entry(
 entry(
     index = 434,
     label = "Cs-Cl1sCl1sO2sCO_524",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -13051,7 +13051,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13060,7 +13060,7 @@ entry(
 entry(
     index = 435,
     label = "Cs-Br1sF1sO2sCO_621",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -13081,7 +13081,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13090,7 +13090,7 @@ entry(
 entry(
     index = 436,
     label = "Cs-Br1sF1sO2sCO_680",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -13111,7 +13111,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13120,7 +13120,7 @@ entry(
 entry(
     index = 437,
     label = "Cs-Br1sCl1sO2sCO_641",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -13141,7 +13141,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13150,7 +13150,7 @@ entry(
 entry(
     index = 438,
     label = "Cs-Br1sCl1sO2sCO_631",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -13171,7 +13171,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13180,7 +13180,7 @@ entry(
 entry(
     index = 439,
     label = "Cs-Cl1sF1sO2sCO_666",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -13201,7 +13201,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13210,7 +13210,7 @@ entry(
 entry(
     index = 440,
     label = "Cs-Cl1sF1sO2sCO_715",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -13220,7 +13220,7 @@ entry(
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13229,7 +13229,7 @@ entry(
 entry(
     index = 441,
     label = "Cs-Cl1sF1sO2sCO_720",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -13250,7 +13250,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13259,7 +13259,7 @@ entry(
 entry(
     index = 442,
     label = "Cs-halO2sCtH_169",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -13280,7 +13280,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13289,7 +13289,7 @@ entry(
 entry(
     index = 443,
     label = "Cs-F1sO2sCtH_169",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -13310,7 +13310,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13319,7 +13319,7 @@ entry(
 entry(
     index = 444,
     label = "Cs-F1sO2sCtH_143",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -13341,7 +13341,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13350,7 +13350,7 @@ entry(
 entry(
     index = 445,
     label = "Cs-Br1sO2sCtH_317",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -13371,7 +13371,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13380,7 +13380,7 @@ entry(
 entry(
     index = 446,
     label = "Cs-Br1sO2sCtH_340",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -13402,7 +13402,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13411,7 +13411,7 @@ entry(
 entry(
     index = 447,
     label = "Cs-Cl1sO2sCtH_465",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -13432,7 +13432,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13441,7 +13441,7 @@ entry(
 entry(
     index = 448,
     label = "Cs-Cl1sO2sCtH_413",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -13463,7 +13463,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13472,7 +13472,7 @@ entry(
 entry(
     index = 449,
     label = "Cs-halhalO2sCt_170",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -13493,7 +13493,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13502,7 +13502,7 @@ entry(
 entry(
     index = 450,
     label = "Cs-F1sF1sO2sCt_170",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -13523,7 +13523,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13532,7 +13532,7 @@ entry(
 entry(
     index = 451,
     label = "Cs-F1sF1sO2sCt_87",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -13554,7 +13554,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13563,7 +13563,7 @@ entry(
 entry(
     index = 452,
     label = "Cs-Br1sBr1sO2sCt_294",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -13584,7 +13584,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13593,7 +13593,7 @@ entry(
 entry(
     index = 453,
     label = "Cs-Cl1sCl1sO2sCt_470",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -13614,7 +13614,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13623,7 +13623,7 @@ entry(
 entry(
     index = 454,
     label = "Cs-Cl1sCl1sO2sCt_522",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -13641,7 +13641,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13650,7 +13650,7 @@ entry(
 entry(
     index = 455,
     label = "Cs-Br1sCl1sO2sCt_650",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -13671,7 +13671,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13680,7 +13680,7 @@ entry(
 entry(
     index = 456,
     label = "Cs-Cl1sF1sO2sCt_663",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -13701,7 +13701,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13710,7 +13710,7 @@ entry(
 entry(
     index = 457,
     label = "Cs-Br1sF1sO2sCt_676",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -13731,7 +13731,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13740,7 +13740,7 @@ entry(
 entry(
     index = 458,
     label = "Cs-halhalCsC2s_181",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -13758,7 +13758,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13767,7 +13767,7 @@ entry(
 entry(
     index = 459,
     label = "Cs-F1sF1sCsC2s_181",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -13785,7 +13785,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13794,7 +13794,7 @@ entry(
 entry(
     index = 460,
     label = "Cs-Cl1sCl1sCsC2s_500",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -13812,7 +13812,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13821,7 +13821,7 @@ entry(
 entry(
     index = 461,
     label = "Aldehyde",
-    group = 
+    group =
 """
 1 * C        u0 {2,D} {3,S} {4,S}
 2   O        ux {1,D}
@@ -13840,7 +13840,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """carbon with double bond to oxygen and single bond to R""",
-    longDesc = 
+    longDesc =
 """
 (2695, 2870, 1),	#C-H stretch
 (700, 800, 1),		#R-C-H bend
@@ -13853,7 +13853,7 @@ entry(
 entry(
     index = 462,
     label = "CO-halO2dCs_90",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
@@ -13871,7 +13871,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13880,7 +13880,7 @@ entry(
 entry(
     index = 463,
     label = "CO-F1sO2dCs_90",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -13898,7 +13898,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13907,7 +13907,7 @@ entry(
 entry(
     index = 464,
     label = "CO-F1sO2dCs_116",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -13925,7 +13925,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13934,7 +13934,7 @@ entry(
 entry(
     index = 465,
     label = "CO-Br1sO2dCs_239",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -13952,7 +13952,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13961,7 +13961,7 @@ entry(
 entry(
     index = 466,
     label = "CO-Br1sO2dCs_279",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -13979,7 +13979,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -13988,7 +13988,7 @@ entry(
 entry(
     index = 467,
     label = "CO-Br1sO2dCs_335",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -14004,7 +14004,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14013,7 +14013,7 @@ entry(
 entry(
     index = 468,
     label = "CO-Cl1sO2dCs_444",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -14031,7 +14031,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14040,7 +14040,7 @@ entry(
 entry(
     index = 469,
     label = "CO-Cl1sO2dCs_475",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -14058,7 +14058,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14067,7 +14067,7 @@ entry(
 entry(
     index = 470,
     label = "CO-halO2dCd_100",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
@@ -14085,7 +14085,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14094,7 +14094,7 @@ entry(
 entry(
     index = 471,
     label = "CO-F1sO2dCd_100",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -14112,7 +14112,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14121,7 +14121,7 @@ entry(
 entry(
     index = 472,
     label = "CO-F1sO2dCd_122",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -14140,7 +14140,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14149,7 +14149,7 @@ entry(
 entry(
     index = 473,
     label = "CO-Br1sO2dCd_281",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -14167,7 +14167,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14176,7 +14176,7 @@ entry(
 entry(
     index = 474,
     label = "CO-Br1sO2dCd_314",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -14195,7 +14195,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14204,7 +14204,7 @@ entry(
 entry(
     index = 475,
     label = "CO-Cl1sO2dCd_454",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -14222,7 +14222,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14231,7 +14231,7 @@ entry(
 entry(
     index = 476,
     label = "CO-Cl1sO2dCd_466",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -14250,7 +14250,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14259,7 +14259,7 @@ entry(
 entry(
     index = 477,
     label = "CO-halO2sO2d_103",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
@@ -14277,7 +14277,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14286,7 +14286,7 @@ entry(
 entry(
     index = 478,
     label = "CO-F1sO2sO2d_103",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -14304,7 +14304,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14313,7 +14313,7 @@ entry(
 entry(
     index = 479,
     label = "CO-F1sO2sO2d_195",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -14332,7 +14332,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14341,7 +14341,7 @@ entry(
 entry(
     index = 480,
     label = "CO-Br1sO2sO2d_287",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -14359,7 +14359,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14368,7 +14368,7 @@ entry(
 entry(
     index = 481,
     label = "CO-Cl1sO2sO2d_445",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -14386,7 +14386,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14395,7 +14395,7 @@ entry(
 entry(
     index = 482,
     label = "CO-halO2dC2s_155",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
@@ -14413,7 +14413,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14422,7 +14422,7 @@ entry(
 entry(
     index = 483,
     label = "CO-F1sO2dC2s_155",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -14440,7 +14440,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14449,7 +14449,7 @@ entry(
 entry(
     index = 484,
     label = "CO-halO2dCO_159",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
@@ -14467,7 +14467,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14476,7 +14476,7 @@ entry(
 entry(
     index = 485,
     label = "CO-F1sO2dCO_159",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -14494,7 +14494,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14503,7 +14503,7 @@ entry(
 entry(
     index = 486,
     label = "CO-F1sO2dCO_190",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -14521,7 +14521,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14530,7 +14530,7 @@ entry(
 entry(
     index = 487,
     label = "CO-Br1sO2dCO_311",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -14548,7 +14548,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14557,7 +14557,7 @@ entry(
 entry(
     index = 488,
     label = "CO-Br1sO2dCO_345",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -14575,7 +14575,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14584,7 +14584,7 @@ entry(
 entry(
     index = 489,
     label = "CO-Cl1sO2dCO_497",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -14602,7 +14602,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14611,7 +14611,7 @@ entry(
 entry(
     index = 490,
     label = "CO-Cl1sO2dCO_499",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -14629,7 +14629,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14638,7 +14638,7 @@ entry(
 entry(
     index = 491,
     label = "CO-halO2dCt_192",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
@@ -14656,7 +14656,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14665,7 +14665,7 @@ entry(
 entry(
     index = 492,
     label = "CO-F1sO2dCt_192",
-    group = 
+    group =
 """
 1 * CO  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -14683,7 +14683,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14692,7 +14692,7 @@ entry(
 entry(
     index = 493,
     label = "CO-Br1sO2dCt_330",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -14710,7 +14710,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14719,7 +14719,7 @@ entry(
 entry(
     index = 494,
     label = "CO-Cl1sO2dCt_412",
-    group = 
+    group =
 """
 1 * CO   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -14737,7 +14737,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14746,7 +14746,7 @@ entry(
 entry(
     index = 495,
     label = "Ketene",
-    group = 
+    group =
 """
 1 * Cdd u0 {2,D} {3,D}
 2   O2d u0 {1,D}
@@ -14761,7 +14761,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """carbon with one carbon double bond and one oxygen double bond""",
-    longDesc = 
+    longDesc =
 """
 (2110, 2130, 1),	#OdC stretch
 (495, 530, 1),		#OdCdC bend
@@ -14772,7 +14772,7 @@ entry(
 entry(
     index = 496,
     label = "Cumulene",
-    group = 
+    group =
 """
 1 * C u0 {2,D} {3,D}
 2   C ux {1,D}
@@ -14786,7 +14786,7 @@ entry(
         symmetry = 2,
     ),
     shortDesc = """Carbon with two double bonds to carbons""",
-    longDesc = 
+    longDesc =
 """
 (540, 610, 2),	#C-C-C scissor
 (1970, 2140, 1),#C-C-C asymmetric
@@ -14796,7 +14796,7 @@ entry(
 entry(
     index = 497,
     label = "CdCHsR",
-    group = 
+    group =
 """
 1 * C        u0 {2,D} {3,S} {4,S}
 2   C        ux {1,D}
@@ -14814,7 +14814,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """carbon with a double bond to carbon and a single bond to R""",
-    longDesc = 
+    longDesc =
 """
 (2995, 3025, 1),	#C-H stretch
 (975, 1000, 1),		#R-C-H bend
@@ -14827,7 +14827,7 @@ entry(
 entry(
     index = 498,
     label = "Cd-halCdCt_44",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
@@ -14845,7 +14845,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14854,7 +14854,7 @@ entry(
 entry(
     index = 499,
     label = "Cd-F1sCdCt_44",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -14872,7 +14872,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14881,7 +14881,7 @@ entry(
 entry(
     index = 500,
     label = "Cd-F1sCtCd_96",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -14898,7 +14898,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14907,7 +14907,7 @@ entry(
 entry(
     index = 501,
     label = "Cd-Br1sCdCt_277",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -14925,7 +14925,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14934,7 +14934,7 @@ entry(
 entry(
     index = 502,
     label = "Cd-Br1sCtCd_295",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -14951,7 +14951,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14960,7 +14960,7 @@ entry(
 entry(
     index = 503,
     label = "Cd-Cl1sCdCt_488",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -14978,7 +14978,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -14987,7 +14987,7 @@ entry(
 entry(
     index = 504,
     label = "Cd-Cl1sCtCd_489",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -15004,7 +15004,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15013,7 +15013,7 @@ entry(
 entry(
     index = 505,
     label = "Cd-halCsCd_56",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
@@ -15031,7 +15031,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15040,7 +15040,7 @@ entry(
 entry(
     index = 506,
     label = "Cd-F1sCsCd_56",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -15058,7 +15058,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15067,7 +15067,7 @@ entry(
 entry(
     index = 507,
     label = "Cd-F1sCdCs_76",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -15085,7 +15085,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15094,7 +15094,7 @@ entry(
 entry(
     index = 508,
     label = "Cd-F1sCsCd_118",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -15111,7 +15111,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15120,7 +15120,7 @@ entry(
 entry(
     index = 509,
     label = "Cd-Br1sCsCd_224",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -15138,7 +15138,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15147,7 +15147,7 @@ entry(
 entry(
     index = 510,
     label = "Cd-Br1sCsCd_253",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -15164,7 +15164,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15173,7 +15173,7 @@ entry(
 entry(
     index = 511,
     label = "Cd-Br1sCdCs_263",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -15191,7 +15191,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15200,7 +15200,7 @@ entry(
 entry(
     index = 512,
     label = "Cd-Cl1sCsCd_411",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -15218,7 +15218,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15227,7 +15227,7 @@ entry(
 entry(
     index = 513,
     label = "Cd-Cl1sCsCd_432",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -15244,7 +15244,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15253,7 +15253,7 @@ entry(
 entry(
     index = 514,
     label = "Cd-Cl1sCdCs_433",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -15271,7 +15271,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15280,7 +15280,7 @@ entry(
 entry(
     index = 515,
     label = "Cd-halO2sCd_81",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
@@ -15298,7 +15298,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15307,7 +15307,7 @@ entry(
 entry(
     index = 516,
     label = "Cd-F1sO2sCd_81",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -15325,7 +15325,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15334,7 +15334,7 @@ entry(
 entry(
     index = 517,
     label = "Cd-F1sO2sCd_71",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -15351,7 +15351,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15360,7 +15360,7 @@ entry(
 entry(
     index = 518,
     label = "Cd-Br1sO2sCd_252",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -15378,7 +15378,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15387,7 +15387,7 @@ entry(
 entry(
     index = 519,
     label = "Cd-Br1sO2sCd_258",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -15404,7 +15404,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15413,7 +15413,7 @@ entry(
 entry(
     index = 520,
     label = "Cd-Cl1sO2sCd_384",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -15431,7 +15431,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15440,7 +15440,7 @@ entry(
 entry(
     index = 521,
     label = "Cd-Cl1sO2sCd_436",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -15457,7 +15457,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15466,7 +15466,7 @@ entry(
 entry(
     index = 522,
     label = "Cd-Cl1sO2sCd_512",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -15482,7 +15482,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15491,7 +15491,7 @@ entry(
 entry(
     index = 523,
     label = "Cd-halCdCd_91",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
@@ -15509,7 +15509,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15518,7 +15518,7 @@ entry(
 entry(
     index = 524,
     label = "Cd-F1sCdCd_91",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -15536,7 +15536,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15545,7 +15545,7 @@ entry(
 entry(
     index = 525,
     label = "Cd-F1sCdCd_92",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -15563,7 +15563,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15572,7 +15572,7 @@ entry(
 entry(
     index = 526,
     label = "Cd-F1sCdCd_127",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -15591,7 +15591,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15600,7 +15600,7 @@ entry(
 entry(
     index = 527,
     label = "Cd-Br1sCdCd_285",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -15618,7 +15618,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15627,7 +15627,7 @@ entry(
 entry(
     index = 528,
     label = "Cd-Br1sCdCd_292",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -15646,7 +15646,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15655,7 +15655,7 @@ entry(
 entry(
     index = 529,
     label = "Cd-Br1sCdCd_270",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -15673,7 +15673,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15682,7 +15682,7 @@ entry(
 entry(
     index = 530,
     label = "Cd-Cl1sCdCd_402",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -15700,7 +15700,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15709,7 +15709,7 @@ entry(
 entry(
     index = 531,
     label = "Cd-Cl1sCdCd_422",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -15728,7 +15728,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15737,7 +15737,7 @@ entry(
 entry(
     index = 532,
     label = "Cd-Cl1sCdCd_440",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -15755,7 +15755,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15764,7 +15764,7 @@ entry(
 entry(
     index = 533,
     label = "Cd-halCOCd_99",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
@@ -15782,7 +15782,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15791,7 +15791,7 @@ entry(
 entry(
     index = 534,
     label = "Cd-F1sCOCd_99",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -15809,7 +15809,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15818,7 +15818,7 @@ entry(
 entry(
     index = 535,
     label = "Cd-F1sCOCd_179",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -15835,7 +15835,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15844,7 +15844,7 @@ entry(
 entry(
     index = 536,
     label = "Cd-F1sCdCO_180",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -15861,7 +15861,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15870,7 +15870,7 @@ entry(
 entry(
     index = 537,
     label = "Cd-Br1sCOCd_280",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -15888,7 +15888,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15897,7 +15897,7 @@ entry(
 entry(
     index = 538,
     label = "Cd-Br1sCdCO_329",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -15915,7 +15915,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15924,7 +15924,7 @@ entry(
 entry(
     index = 539,
     label = "Cd-Br1sCOCd_349",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -15941,7 +15941,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15950,7 +15950,7 @@ entry(
 entry(
     index = 540,
     label = "Cd-Cl1sCOCd_451",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -15968,7 +15968,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -15977,7 +15977,7 @@ entry(
 entry(
     index = 541,
     label = "Cd-Cl1sCdCO_473",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -15995,7 +15995,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16004,7 +16004,7 @@ entry(
 entry(
     index = 542,
     label = "Cd-Cl1sCOCd_487",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -16021,7 +16021,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16030,7 +16030,7 @@ entry(
 entry(
     index = 543,
     label = "Cd-halCsCdd_141",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
@@ -16048,7 +16048,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16057,7 +16057,7 @@ entry(
 entry(
     index = 544,
     label = "Cd-F1sCsCdd_141",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -16075,7 +16075,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16084,7 +16084,7 @@ entry(
 entry(
     index = 545,
     label = "Cd-F1sCsCdd_150",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -16102,7 +16102,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16111,7 +16111,7 @@ entry(
 entry(
     index = 546,
     label = "Cd-Br1sCsCdd_247",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -16129,7 +16129,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16138,7 +16138,7 @@ entry(
 entry(
     index = 547,
     label = "Cd-Br1sCsCdd_620",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -16156,7 +16156,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16165,7 +16165,7 @@ entry(
 entry(
     index = 548,
     label = "Cd-Cl1sCsCdd_421",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -16183,7 +16183,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16192,7 +16192,7 @@ entry(
 entry(
     index = 549,
     label = "Cd-Cl1sCsCdd_503",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -16210,7 +16210,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16219,7 +16219,7 @@ entry(
 entry(
     index = 550,
     label = "Cd-halO2sCdd_153",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Val7 u0 {1,S}
@@ -16236,7 +16236,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16245,7 +16245,7 @@ entry(
 entry(
     index = 551,
     label = "Cd-F1sO2sCdd_153",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,S} {4,D}
 2   F1s u0 {1,S}
@@ -16262,7 +16262,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16271,7 +16271,7 @@ entry(
 entry(
     index = 552,
     label = "Cd-Br1sO2sCdd_291",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Br1s u0 {1,S}
@@ -16288,7 +16288,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16297,7 +16297,7 @@ entry(
 entry(
     index = 553,
     label = "Cd-Cl1sO2sCdd_408",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,S} {4,D}
 2   Cl1s u0 {1,S}
@@ -16314,7 +16314,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16323,7 +16323,7 @@ entry(
 entry(
     index = 554,
     label = "Cd-halCdC2s_175",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Val7 u0 {1,S}
@@ -16340,7 +16340,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16349,7 +16349,7 @@ entry(
 entry(
     index = 555,
     label = "Cd-F1sCdC2s_175",
-    group = 
+    group =
 """
 1 * Cd  u0 {2,S} {3,D} {4,S}
 2   F1s u0 {1,S}
@@ -16366,7 +16366,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16375,7 +16375,7 @@ entry(
 entry(
     index = 556,
     label = "Cd-Br1sCdC2s_296",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Br1s u0 {1,S}
@@ -16392,7 +16392,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16401,7 +16401,7 @@ entry(
 entry(
     index = 557,
     label = "Cd-Cl1sCdC2s_482",
-    group = 
+    group =
 """
 1 * Cd   u0 {2,S} {3,D} {4,S}
 2   Cl1s u0 {1,S}
@@ -16418,7 +16418,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16427,7 +16427,7 @@ entry(
 entry(
     index = 558,
     label = "CtCsR",
-    group = 
+    group =
 """
 1 * C        u0 {2,T} {3,S}
 2   C        ux {1,T}
@@ -16441,7 +16441,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """carbon with one triplet bond and one single bond""",
-    longDesc = 
+    longDesc =
 """
 (2100, 2250, 1),	#CtC stretch
 (500, 550, 1),		#CtC-C bend
@@ -16451,7 +16451,7 @@ entry(
 entry(
     index = 559,
     label = "RsCHsR2",
-    group = 
+    group =
 """
 1 * C        u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H!Val7 ux {1,S}
@@ -16469,7 +16469,7 @@ entry(
         symmetry = 6,
     ),
     shortDesc = """carbon with three single bonds""",
-    longDesc = 
+    longDesc =
 """
 (1380, 1390, 2),	#R-C-H bend
 (370, 380, 2),		#C-C-C scissor
@@ -16481,7 +16481,7 @@ entry(
 entry(
     index = 560,
     label = "Cs-halO2sO2sCs_62",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -16501,7 +16501,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16510,7 +16510,7 @@ entry(
 entry(
     index = 561,
     label = "Cs-F1sO2sO2sCs_62",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -16530,7 +16530,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16539,7 +16539,7 @@ entry(
 entry(
     index = 562,
     label = "Cs-F1sO2sO2sCs_114",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -16560,7 +16560,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16569,7 +16569,7 @@ entry(
 entry(
     index = 563,
     label = "Cs-F1sO2sO2sCs_147",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -16589,7 +16589,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16598,7 +16598,7 @@ entry(
 entry(
     index = 564,
     label = "Cs-Br1sO2sO2sCs_260",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -16618,7 +16618,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16627,7 +16627,7 @@ entry(
 entry(
     index = 565,
     label = "Cs-Br1sO2sO2sCs_681",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -16647,7 +16647,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16656,7 +16656,7 @@ entry(
 entry(
     index = 566,
     label = "Cs-Cl1sO2sO2sCs_435",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -16676,7 +16676,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16685,7 +16685,7 @@ entry(
 entry(
     index = 567,
     label = "Cs-Cl1sO2sO2sCs_659",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -16703,7 +16703,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16712,7 +16712,7 @@ entry(
 entry(
     index = 568,
     label = "Cs-Cl1sO2sO2sCs_391",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -16732,7 +16732,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16741,7 +16741,7 @@ entry(
 entry(
     index = 569,
     label = "Cs-halO2sCsCs_63",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -16761,7 +16761,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16770,7 +16770,7 @@ entry(
 entry(
     index = 570,
     label = "Cs-F1sO2sCsCs_63",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -16790,7 +16790,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16799,7 +16799,7 @@ entry(
 entry(
     index = 571,
     label = "Cs-F1sO2sCsCs_152",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -16819,7 +16819,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16828,7 +16828,7 @@ entry(
 entry(
     index = 572,
     label = "Cs-F1sO2sCsCs_51",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -16849,7 +16849,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16858,7 +16858,7 @@ entry(
 entry(
     index = 573,
     label = "Cs-Br1sO2sCsCs_275",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -16878,7 +16878,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16887,7 +16887,7 @@ entry(
 entry(
     index = 574,
     label = "Cs-Br1sO2sCsCs_351",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -16907,7 +16907,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16916,7 +16916,7 @@ entry(
 entry(
     index = 575,
     label = "Cs-Br1sO2sCsCs_358",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -16937,7 +16937,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16946,7 +16946,7 @@ entry(
 entry(
     index = 576,
     label = "Cs-Cl1sO2sCsCs_459",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -16966,7 +16966,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -16975,7 +16975,7 @@ entry(
 entry(
     index = 577,
     label = "Cs-Cl1sO2sCsCs_464",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -16996,7 +16996,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17005,7 +17005,7 @@ entry(
 entry(
     index = 578,
     label = "Cs-Cl1sO2sCsCs_417",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -17025,7 +17025,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17034,7 +17034,7 @@ entry(
 entry(
     index = 579,
     label = "Cs-halCsCsCs_123",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -17054,7 +17054,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17063,7 +17063,7 @@ entry(
 entry(
     index = 580,
     label = "Cs-F1sCsCsCs_123",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -17083,7 +17083,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17092,7 +17092,7 @@ entry(
 entry(
     index = 581,
     label = "Cs-F1sCsCsCs_105",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -17112,7 +17112,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17121,7 +17121,7 @@ entry(
 entry(
     index = 582,
     label = "Cs-Br1sCsCsCs_307",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -17141,7 +17141,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17150,7 +17150,7 @@ entry(
 entry(
     index = 583,
     label = "Cs-Br1sCsCsCs_326",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -17170,7 +17170,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17179,7 +17179,7 @@ entry(
 entry(
     index = 584,
     label = "Cs-Cl1sCsCsCs_395",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -17199,7 +17199,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17208,7 +17208,7 @@ entry(
 entry(
     index = 585,
     label = "Cs-Cl1sCsCsCs_406",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -17228,7 +17228,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17237,7 +17237,7 @@ entry(
 entry(
     index = 586,
     label = "CdCsR2",
-    group = 
+    group =
 """
 1 * C        u0 {2,D} {3,S} {4,S}
 2   C        ux {1,D}
@@ -17254,7 +17254,7 @@ entry(
         symmetry = 2,
     ),
     shortDesc = """carbon with one carbon double bond and two single bonds""",
-    longDesc = 
+    longDesc =
 """
 (325, 375, 1),	#R-C-R scissor
 (415, 465, 1),	#CdC-R scissor
@@ -17266,7 +17266,7 @@ entry(
 entry(
     index = 587,
     label = "Ketone",
-    group = 
+    group =
 """
 1 * C u0 {2,D} {3,S} {4,S}
 2   O u0 {1,D}
@@ -17283,7 +17283,7 @@ entry(
         symmetry = 2,
     ),
     shortDesc = """carbon with one oxygen double bond and two single bonds""",
-    longDesc = 
+    longDesc =
 """
 (365, 385, 1),	#R-C-R scissor
 (505, 600, 1),	#OdC-R scissor
@@ -17295,7 +17295,7 @@ entry(
 entry(
     index = 588,
     label = "CsCsC3",
-    group = 
+    group =
 """
 1 * C u0 {2,S} {3,S} {4,S} {5,S}
 2   C ux {1,S}
@@ -17312,7 +17312,7 @@ entry(
         symmetry = 12,
     ),
     shortDesc = """carbon with four single bonds to carbon""",
-    longDesc = 
+    longDesc =
 """
 (350, 400, 2),	#C-C-C scissor
 (1190, 1240, 2),#C-C-C bend
@@ -17323,7 +17323,7 @@ entry(
 entry(
     index = 589,
     label = "C2s-halCs_64",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -17338,7 +17338,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17347,7 +17347,7 @@ entry(
 entry(
     index = 590,
     label = "C2s-F1sCs_64",
-    group = 
+    group =
 """
 1 * C2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -17362,7 +17362,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17371,7 +17371,7 @@ entry(
 entry(
     index = 591,
     label = "C2s-Br1sCs_333",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -17386,7 +17386,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17395,7 +17395,7 @@ entry(
 entry(
     index = 592,
     label = "C2s-Cl1sCs_455",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -17410,7 +17410,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17419,7 +17419,7 @@ entry(
 entry(
     index = 593,
     label = "Cs-halHHH_98",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -17442,7 +17442,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17451,7 +17451,7 @@ entry(
 entry(
     index = 594,
     label = "Cs-F1sHHH_98",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -17474,7 +17474,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17483,7 +17483,7 @@ entry(
 entry(
     index = 595,
     label = "Cs-Br1sHHH_342",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -17506,7 +17506,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17515,7 +17515,7 @@ entry(
 entry(
     index = 596,
     label = "Cs-Cl1sHHH_502",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -17538,7 +17538,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17547,7 +17547,7 @@ entry(
 entry(
     index = 597,
     label = "C2s-halCO_156",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -17561,7 +17561,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17570,7 +17570,7 @@ entry(
 entry(
     index = 598,
     label = "C2s-F1sCO_156",
-    group = 
+    group =
 """
 1 * C2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -17584,7 +17584,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17593,7 +17593,7 @@ entry(
 entry(
     index = 599,
     label = "Cs-halhalhalH_168",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -17616,7 +17616,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17625,7 +17625,7 @@ entry(
 entry(
     index = 600,
     label = "Cs-F1sF1sF1sH_168",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -17648,7 +17648,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17657,7 +17657,7 @@ entry(
 entry(
     index = 601,
     label = "Cs-Br1sBr1sBr1sH_361",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -17680,7 +17680,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17689,7 +17689,7 @@ entry(
 entry(
     index = 602,
     label = "Cs-Cl1sCl1sCl1sH_519",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -17712,7 +17712,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17721,7 +17721,7 @@ entry(
 entry(
     index = 603,
     label = "Cs-Cl1sCl1sF1sH_657",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -17744,7 +17744,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17753,7 +17753,7 @@ entry(
 entry(
     index = 604,
     label = "Cs-Br1sCl1sCl1sH_670",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -17776,7 +17776,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17785,7 +17785,7 @@ entry(
 entry(
     index = 605,
     label = "Cs-Cl1sF1sF1sH_671",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -17808,7 +17808,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17817,7 +17817,7 @@ entry(
 entry(
     index = 606,
     label = "Cs-Br1sBr1sCl1sH_685",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -17840,7 +17840,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17849,7 +17849,7 @@ entry(
 entry(
     index = 607,
     label = "Cs-Br1sBr1sF1sH_723",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -17872,7 +17872,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17881,7 +17881,7 @@ entry(
 entry(
     index = 608,
     label = "Cs-Br1sF1sF1sH_724",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -17904,7 +17904,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17913,7 +17913,7 @@ entry(
 entry(
     index = 609,
     label = "Cs-Br1sCl1sF1sH_729",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -17936,7 +17936,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17945,7 +17945,7 @@ entry(
 entry(
     index = 610,
     label = "C2s-halCt_171",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -17959,7 +17959,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17968,7 +17968,7 @@ entry(
 entry(
     index = 611,
     label = "C2s-F1sCt_171",
-    group = 
+    group =
 """
 1 * C2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -17982,7 +17982,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -17991,7 +17991,7 @@ entry(
 entry(
     index = 612,
     label = "C2s-halCd_176",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -18006,7 +18006,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18015,7 +18015,7 @@ entry(
 entry(
     index = 613,
     label = "C2s-F1sCd_176",
-    group = 
+    group =
 """
 1 * C2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -18030,7 +18030,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18039,7 +18039,7 @@ entry(
 entry(
     index = 614,
     label = "C2s-Br1sCd_297",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -18054,7 +18054,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18063,7 +18063,7 @@ entry(
 entry(
     index = 615,
     label = "C2s-Cl1sCd_483",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -18078,7 +18078,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18087,7 +18087,7 @@ entry(
 entry(
     index = 616,
     label = "C2s-halO2s_178",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -18101,7 +18101,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18110,7 +18110,7 @@ entry(
 entry(
     index = 617,
     label = "C2s-F1sO2s_178",
-    group = 
+    group =
 """
 1 * C2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -18124,7 +18124,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18133,7 +18133,7 @@ entry(
 entry(
     index = 618,
     label = "C2s-Br1sO2s_319",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -18147,7 +18147,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18156,7 +18156,7 @@ entry(
 entry(
     index = 619,
     label = "C2s-Cl1sO2s_461",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -18170,7 +18170,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18179,7 +18179,7 @@ entry(
 entry(
     index = 620,
     label = "Cs-halhalhalhal_186",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -18202,7 +18202,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18211,7 +18211,7 @@ entry(
 entry(
     index = 621,
     label = "Cs-F1sF1sF1sF1s_186",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -18234,7 +18234,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18243,7 +18243,7 @@ entry(
 entry(
     index = 622,
     label = "Cs-Br1sBr1sBr1sBr1s_238",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18266,7 +18266,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18275,7 +18275,7 @@ entry(
 entry(
     index = 623,
     label = "Cs-Cl1sCl1sCl1sCl1s_518",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -18298,7 +18298,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18307,7 +18307,7 @@ entry(
 entry(
     index = 624,
     label = "Cs-Cl1sCl1sF1sF1s_593",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -18330,7 +18330,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18339,7 +18339,7 @@ entry(
 entry(
     index = 625,
     label = "Cs-Br1sCl1sCl1sCl1s_674",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18362,7 +18362,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18371,7 +18371,7 @@ entry(
 entry(
     index = 626,
     label = "Cs-Br1sBr1sCl1sCl1s_689",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18394,7 +18394,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18403,7 +18403,7 @@ entry(
 entry(
     index = 627,
     label = "Cs-Br1sBr1sBr1sF1s_691",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18426,7 +18426,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18435,7 +18435,7 @@ entry(
 entry(
     index = 628,
     label = "Cs-Br1sF1sF1sF1s_693",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18458,7 +18458,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18467,7 +18467,7 @@ entry(
 entry(
     index = 629,
     label = "Cs-Cl1sCl1sCl1sF1s_696",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -18490,7 +18490,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18499,7 +18499,7 @@ entry(
 entry(
     index = 630,
     label = "Cs-Br1sCl1sCl1sF1s_709",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18522,7 +18522,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18531,7 +18531,7 @@ entry(
 entry(
     index = 631,
     label = "Cs-Br1sBr1sF1sF1s_711",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18554,7 +18554,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18563,7 +18563,7 @@ entry(
 entry(
     index = 632,
     label = "Cs-Cl1sF1sF1sF1s_713",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -18586,7 +18586,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18595,7 +18595,7 @@ entry(
 entry(
     index = 633,
     label = "Cs-Br1sBr1sCl1sF1s_732",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18618,7 +18618,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18627,7 +18627,7 @@ entry(
 entry(
     index = 634,
     label = "Cs-Br1sBr1sBr1sCl1s_733",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18650,7 +18650,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18659,7 +18659,7 @@ entry(
 entry(
     index = 635,
     label = "Cs-Br1sCl1sF1sF1s_738",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18682,7 +18682,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18691,7 +18691,7 @@ entry(
 entry(
     index = 636,
     label = "Cs-halhalHH_193",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Val7 u0 {1,S}
@@ -18714,7 +18714,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18723,7 +18723,7 @@ entry(
 entry(
     index = 637,
     label = "Cs-F1sF1sHH_193",
-    group = 
+    group =
 """
 1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -18746,7 +18746,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18755,7 +18755,7 @@ entry(
 entry(
     index = 638,
     label = "Cs-Br1sBr1sHH_305",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18778,7 +18778,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18787,7 +18787,7 @@ entry(
 entry(
     index = 639,
     label = "Cs-Cl1sCl1sHH_510",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -18810,7 +18810,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18819,7 +18819,7 @@ entry(
 entry(
     index = 640,
     label = "Cs-Br1sCl1sHH_688",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18842,7 +18842,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18851,7 +18851,7 @@ entry(
 entry(
     index = 641,
     label = "Cs-Cl1sF1sHH_701",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Cl1s u0 {1,S}
@@ -18874,7 +18874,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18883,7 +18883,7 @@ entry(
 entry(
     index = 642,
     label = "Cs-Br1sF1sHH_708",
-    group = 
+    group =
 """
 1 * Cs   u0 {2,S} {3,S} {4,S} {5,S}
 2   Br1s u0 {1,S}
@@ -18906,7 +18906,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18915,7 +18915,7 @@ entry(
 entry(
     index = 643,
     label = "C2s-halhal_327",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -18930,7 +18930,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18939,7 +18939,7 @@ entry(
 entry(
     index = 644,
     label = "C2s-Br1sBr1s_327",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -18954,7 +18954,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18963,7 +18963,7 @@ entry(
 entry(
     index = 645,
     label = "C2s-Cl1sCl1s_523",
-    group = 
+    group =
 """
 1 * C2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -18978,7 +18978,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -18987,7 +18987,7 @@ entry(
 entry(
     index = 646,
     label = "C2sc-halCsCsc_739",
-    group = 
+    group =
 """
 1 * C2sc u0 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -19010,7 +19010,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19019,7 +19019,7 @@ entry(
 entry(
     index = 647,
     label = "C2sc-Cl1sCsCsc_739",
-    group = 
+    group =
 """
 1 * C2sc u0 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -19042,7 +19042,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19051,7 +19051,7 @@ entry(
 entry(
     index = 648,
     label = "Csc-halO2sC2sc_740",
-    group = 
+    group =
 """
 1 * Csc  u0 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -19074,7 +19074,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19083,7 +19083,7 @@ entry(
 entry(
     index = 649,
     label = "Csc-Br1sO2sC2sc_740",
-    group = 
+    group =
 """
 1 * Csc  u0 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -19106,7 +19106,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19115,13 +19115,13 @@ entry(
 entry(
     index = 650,
     label = "O_R0",
-    group = 
+    group =
 """
 1 * O u0
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19130,7 +19130,7 @@ entry(
 entry(
     index = 651,
     label = "Alcohol",
-    group = 
+    group =
 """
 1 * O        u0 {2,S} {3,S}
 2   C        ux {1,S}
@@ -19145,7 +19145,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """Oxygen with a single bond to hydrogen and another single bond to carbon""",
-    longDesc = 
+    longDesc =
 """
 (3580, 3650, 1),	#O-H stretch
 (1210, 1345, 1),	#R-O-H bend
@@ -19156,7 +19156,7 @@ entry(
 entry(
     index = 652,
     label = "O2s-halCs_37",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -19170,7 +19170,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19179,7 +19179,7 @@ entry(
 entry(
     index = 653,
     label = "O2s-F1sCs_37",
-    group = 
+    group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -19193,7 +19193,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19202,7 +19202,7 @@ entry(
 entry(
     index = 654,
     label = "O2s-Br1sCs_221",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -19216,7 +19216,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19225,7 +19225,7 @@ entry(
 entry(
     index = 655,
     label = "O2s-Br1sCs_727",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -19239,7 +19239,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19248,7 +19248,7 @@ entry(
 entry(
     index = 656,
     label = "O2s-Cl1sCs_388",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -19262,7 +19262,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19271,7 +19271,7 @@ entry(
 entry(
     index = 657,
     label = "O2s-Cl1sCs_667",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -19286,7 +19286,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19295,7 +19295,7 @@ entry(
 entry(
     index = 658,
     label = "O2s-halCd_80",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -19309,7 +19309,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19318,7 +19318,7 @@ entry(
 entry(
     index = 659,
     label = "O2s-F1sCd_80",
-    group = 
+    group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -19332,7 +19332,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19341,7 +19341,7 @@ entry(
 entry(
     index = 660,
     label = "O2s-Br1sCd_242",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -19355,7 +19355,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19364,7 +19364,7 @@ entry(
 entry(
     index = 661,
     label = "O2s-Cl1sCd_382",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -19378,7 +19378,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19387,7 +19387,7 @@ entry(
 entry(
     index = 662,
     label = "O2s-Cl1sCd_517",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -19402,7 +19402,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19411,7 +19411,7 @@ entry(
 entry(
     index = 663,
     label = "O2s-halCO_102",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -19425,7 +19425,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19434,7 +19434,7 @@ entry(
 entry(
     index = 664,
     label = "O2s-F1sCO_102",
-    group = 
+    group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -19448,7 +19448,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19457,7 +19457,7 @@ entry(
 entry(
     index = 665,
     label = "O2s-Br1sCO_306",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -19471,7 +19471,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19480,7 +19480,7 @@ entry(
 entry(
     index = 666,
     label = "O2s-Br1sCO_328",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -19494,7 +19494,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19503,7 +19503,7 @@ entry(
 entry(
     index = 667,
     label = "O2s-Cl1sCO_478",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -19517,7 +19517,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19526,7 +19526,7 @@ entry(
 entry(
     index = 668,
     label = "O2s-Cl1sCO_509",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -19540,7 +19540,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19549,7 +19549,7 @@ entry(
 entry(
     index = 669,
     label = "O2s-halCt_144",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -19563,7 +19563,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19572,7 +19572,7 @@ entry(
 entry(
     index = 670,
     label = "O2s-F1sCt_144",
-    group = 
+    group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -19586,7 +19586,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19595,7 +19595,7 @@ entry(
 entry(
     index = 671,
     label = "O2s-Br1sCt_346",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -19609,7 +19609,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19618,7 +19618,7 @@ entry(
 entry(
     index = 672,
     label = "O2s-Cl1sCt_448",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -19632,7 +19632,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19641,7 +19641,7 @@ entry(
 entry(
     index = 673,
     label = "Ether",
-    group = 
+    group =
 """
 1 * O u0 {2,S} {3,S}
 2   C u2 {1,S}
@@ -19654,7 +19654,7 @@ entry(
         symmetry = 2,
     ),
     shortDesc = """oxygen with two single carbon bonds""",
-    longDesc = 
+    longDesc =
 """
 (350, 500, 1),	#C-O-C scissor
 """,
@@ -19663,7 +19663,7 @@ entry(
 entry(
     index = 674,
     label = "COOH",
-    group = 
+    group =
 """
 1 * O        u0 {2,S} {3,S}
 2   O        u0 {1,S} {4,S}
@@ -19681,7 +19681,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """Peroxide""",
-    longDesc = 
+    longDesc =
 """
 (3580, 3650, 1),	#O-H stretch
 (1300, 1320, 1),	#O-O-H bend
@@ -19694,7 +19694,7 @@ entry(
 entry(
     index = 675,
     label = "COOC",
-    group = 
+    group =
 """
 1 * O u0 {2,S} {3,S}
 2   O u0 {1,S} {4,S}
@@ -19709,7 +19709,7 @@ entry(
         symmetry = 2,
     ),
     shortDesc = """peroxide""",
-    longDesc = 
+    longDesc =
 """
 (350, 500, 1),	#C-O-O scissor
 (795, 815, 1),	#O-O stretch
@@ -19719,7 +19719,7 @@ entry(
 entry(
     index = 676,
     label = "Peroxy",
-    group = 
+    group =
 """
 1 * O u0 {2,S} {3,S}
 2   C ux {1,S}
@@ -19734,7 +19734,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """Oxygen single bonded to one carbon and one oxygen""",
-    longDesc = 
+    longDesc =
 """
 (470, 515, 1),	#C-O-O scissor
 (1100, 1170, 1),#O-O stretch
@@ -19745,7 +19745,7 @@ entry(
 entry(
     index = 677,
     label = "O2s-halO2s_46",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -19760,7 +19760,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19769,7 +19769,7 @@ entry(
 entry(
     index = 678,
     label = "O2s-F1sO2s_46",
-    group = 
+    group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -19784,7 +19784,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19793,7 +19793,7 @@ entry(
 entry(
     index = 679,
     label = "O2s-F1sO2s_187",
-    group = 
+    group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -19808,7 +19808,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19817,7 +19817,7 @@ entry(
 entry(
     index = 680,
     label = "O2s-Br1sO2s_230",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -19832,7 +19832,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19841,7 +19841,7 @@ entry(
 entry(
     index = 681,
     label = "O2s-Cl1sO2s_437",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -19856,7 +19856,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19865,7 +19865,7 @@ entry(
 entry(
     index = 682,
     label = "O2s-halH_132",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -19880,7 +19880,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19889,7 +19889,7 @@ entry(
 entry(
     index = 683,
     label = "O2s-F1sH_132",
-    group = 
+    group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -19904,7 +19904,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19913,7 +19913,7 @@ entry(
 entry(
     index = 684,
     label = "O2s-Br1sH_337",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -19928,7 +19928,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19937,7 +19937,7 @@ entry(
 entry(
     index = 685,
     label = "O2s-Cl1sH_504",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -19952,7 +19952,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19961,7 +19961,7 @@ entry(
 entry(
     index = 686,
     label = "O2s-halhal_196",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -19976,7 +19976,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -19985,7 +19985,7 @@ entry(
 entry(
     index = 687,
     label = "O2s-F1sF1s_196",
-    group = 
+    group =
 """
 1 * O2s u0 {2,S} {3,S}
 2   F1s u0 {1,S}
@@ -20000,7 +20000,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20009,7 +20009,7 @@ entry(
 entry(
     index = 688,
     label = "O2s-Br1sBr1s_359",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -20024,7 +20024,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20033,7 +20033,7 @@ entry(
 entry(
     index = 689,
     label = "O2s-Cl1sCl1s_492",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -20048,7 +20048,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20057,7 +20057,7 @@ entry(
 entry(
     index = 690,
     label = "O2s-Br1sF1s_702",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -20072,7 +20072,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20081,7 +20081,7 @@ entry(
 entry(
     index = 691,
     label = "O2s-Cl1sF1s_707",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -20096,7 +20096,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20105,7 +20105,7 @@ entry(
 entry(
     index = 692,
     label = "O2s-Br1sCl1s_717",
-    group = 
+    group =
 """
 1 * O2s  u0 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -20120,7 +20120,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20129,13 +20129,13 @@ entry(
 entry(
     index = 693,
     label = "N_R0",
-    group = 
+    group =
 """
 1 * N u0
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20144,7 +20144,7 @@ entry(
 entry(
     index = 694,
     label = "Amine_pri",
-    group = 
+    group =
 """
 1 * N        u0 {2,S} {3,S} {4,S}
 2   C        u0 {1,S}
@@ -20162,7 +20162,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (3330, 3550, 1), # asymmetric NH2 stretch, primary amines
 (3250, 3450, 1), # symmetric NH2 stretch, primary amines
@@ -20175,7 +20175,7 @@ entry(
 entry(
     index = 695,
     label = "Amide_pri",
-    group = 
+    group =
 """
 1 * N        u0 {2,S} {5,S} {6,S}
 2   CO       u0 {1,S} {3,S} {4,D}
@@ -20199,7 +20199,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (3480, 3540, 1), # asymmetric N-H stretch, (free) primary amides
 (3380, 3420, 1), # symmetric N-H stretch, (free) primary amides
@@ -20216,7 +20216,7 @@ entry(
 entry(
     index = 696,
     label = "Amine_sec",
-    group = 
+    group =
 """
 1 * N        u0 {2,S} {3,S} {4,S}
 2   C        u0 {1,S}
@@ -20232,7 +20232,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (3400, 3450, 1), # , secondary amines
 (1490, 1580, 1), # , secondary amines
@@ -20243,7 +20243,7 @@ entry(
 entry(
     index = 697,
     label = "Amide_sec",
-    group = 
+    group =
 """
 1 * N        u0 {2,S} {5,S} {6,S}
 2   CO       u0 {1,S} {3,S} {4,D}
@@ -20263,7 +20263,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (3420, 3460, 1), # N-H stretch, trans form (in dilute solution)
 (1510, 1550, 1), # amide II band, trans form (in dilute solution)
@@ -20276,7 +20276,7 @@ entry(
 entry(
     index = 698,
     label = "Imide",
-    group = 
+    group =
 """
 1 * N        u0 {2,S} {3,S} {6,S}
 2   [H,Val7] u0 {1,S}
@@ -20298,7 +20298,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (3200, 3280, 1), # N-H stretch, Imides (solid phase)
 (1670, 1740, 1), # C=O stretch, amide I band, Imides (solid phase)
@@ -20311,7 +20311,7 @@ entry(
 entry(
     index = 699,
     label = "Amine_ter",
-    group = 
+    group =
 """
 1 * N u0 {2,S} {3,S} {4,S}
 2   C u0 {1,S}
@@ -20325,7 +20325,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20334,7 +20334,7 @@ entry(
 entry(
     index = 700,
     label = "Amide_ter",
-    group = 
+    group =
 """
 1 * N  u0 {2,S} {5,S} {6,S}
 2   CO u0 {1,S} {3,S} {4,D}
@@ -20354,7 +20354,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (1630, 1670, 1), # C=O stretch, tertiary amides (dilute solution or solid phase)
 (700, 870, 1), # asymmetric CNC stretch, tertiary amides
@@ -20367,7 +20367,7 @@ entry(
 entry(
     index = 701,
     label = "Nitrile",
-    group = 
+    group =
 """
 1 * N u0 {2,T}
 2   C u0 {1,T} {3,S}
@@ -20382,7 +20382,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """N triple bonded to a carbon and single bonded to another carbon""",
-    longDesc = 
+    longDesc =
 """
 (2230, 2260, 1), # C#N stretching, saturated aliphatic nitriles
 (340, 390, 1),   # C#N deformation, aliphatic nitriles
@@ -20393,7 +20393,7 @@ entry(
 entry(
     index = 702,
     label = "Nitroso",
-    group = 
+    group =
 """
 1 * N        u0 {2,D} {3,S}
 2   O        u0 {1,D}
@@ -20407,7 +20407,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (1330, 1425, 1), # aliphatic compounds
 (1320, 1345, 1), # aliphatic compounds
@@ -20417,7 +20417,7 @@ entry(
 entry(
     index = 703,
     label = "Nitro",
-    group = 
+    group =
 """
 1 * N5dc     u0 {2,D} {3,S} {4,S}
 2   O        u0 {1,D}
@@ -20435,7 +20435,7 @@ entry(
         symmetry = 2,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (1545, 1555, 1), # asymmetric NO2 stretch, saturated primary and secondary aliphatic nitro compounds
 (1360, 1385, 1), # symmetric NO2 stretch, saturated primary and secondary aliphatic nitro compounds
@@ -20449,7 +20449,7 @@ entry(
 entry(
     index = 704,
     label = "Nitrates",
-    group = 
+    group =
 """
 1 * N5dc u0 {2,D} {3,S} {4,S}
 2   O    u0 {1,D}
@@ -20468,7 +20468,7 @@ entry(
         symmetry = 2,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (1615, 1660, 1), # asymmetric NO2 stretch, Nitrates, -ONO2
 (1250, 1300, 1), # symmetric NO2 stretch, Nitrates, -ONO2
@@ -20482,7 +20482,7 @@ entry(
 entry(
     index = 705,
     label = "Nitrites",
-    group = 
+    group =
 """
 1 * N u0 {2,D} {3,S}
 2   O u0 {1,D}
@@ -20499,7 +20499,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 (3220, 3360, 1), # Overtones of N=O stretch, nitrite compounds
 (1650, 1680, 1), # N=O stretch, nitrites, trans form
@@ -20511,13 +20511,13 @@ entry(
 entry(
     index = 706,
     label = "R!H!Val7x1",
-    group = 
+    group =
 """
 1 * R!H!Val7 u1
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20526,13 +20526,13 @@ entry(
 entry(
     index = 707,
     label = "C_R1",
-    group = 
+    group =
 """
 1 * C u1
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20541,7 +20541,7 @@ entry(
 entry(
     index = 708,
     label = "RsCH2r",
-    group = 
+    group =
 """
 1 * C        u1 {2,S} {3,S} {4,S}
 2   R!H!Val7 ux {1,S}
@@ -20559,7 +20559,7 @@ entry(
         symmetry = 2,
     ),
     shortDesc = """Carbon radical with one single bond""",
-    longDesc = 
+    longDesc =
 """
 (3000, 3100, 2),	#C-H stretch
 (415, 465, 1),		#R-C-H swing
@@ -20572,7 +20572,7 @@ entry(
 entry(
     index = 709,
     label = "Cs-halCsH_38",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -20590,7 +20590,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20599,7 +20599,7 @@ entry(
 entry(
     index = 710,
     label = "Cs-F1sCsH_38",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -20617,7 +20617,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20626,7 +20626,7 @@ entry(
 entry(
     index = 711,
     label = "Cs-Br1sCsH_240",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -20644,7 +20644,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20653,7 +20653,7 @@ entry(
 entry(
     index = 712,
     label = "Cs-Cl1sCsH_366",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -20671,7 +20671,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20680,7 +20680,7 @@ entry(
 entry(
     index = 713,
     label = "Cs-halhalCs_43",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -20698,7 +20698,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20707,7 +20707,7 @@ entry(
 entry(
     index = 714,
     label = "Cs-F1sF1sCs_43",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -20725,7 +20725,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20734,7 +20734,7 @@ entry(
 entry(
     index = 715,
     label = "Cs-Br1sBr1sCs_245",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -20752,7 +20752,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20761,7 +20761,7 @@ entry(
 entry(
     index = 716,
     label = "Cs-Cl1sCl1sCs_392",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -20779,7 +20779,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20788,7 +20788,7 @@ entry(
 entry(
     index = 717,
     label = "Cs-Cl1sF1sCs_554",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -20806,7 +20806,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20815,7 +20815,7 @@ entry(
 entry(
     index = 718,
     label = "Cs-Br1sF1sCs_577",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -20833,7 +20833,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20842,7 +20842,7 @@ entry(
 entry(
     index = 719,
     label = "Cs-Br1sCl1sCs_598",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -20860,7 +20860,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20869,7 +20869,7 @@ entry(
 entry(
     index = 720,
     label = "Cs-halCdH_60",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -20888,7 +20888,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20897,7 +20897,7 @@ entry(
 entry(
     index = 721,
     label = "Cs-F1sCdH_60",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -20916,7 +20916,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20925,7 +20925,7 @@ entry(
 entry(
     index = 722,
     label = "Cs-Br1sCdH_264",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -20944,7 +20944,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20953,7 +20953,7 @@ entry(
 entry(
     index = 723,
     label = "Cs-Cl1sCdH_368",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -20972,7 +20972,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -20981,7 +20981,7 @@ entry(
 entry(
     index = 724,
     label = "Cs-halO2sH_66",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -20999,7 +20999,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21008,7 +21008,7 @@ entry(
 entry(
     index = 725,
     label = "Cs-F1sO2sH_66",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -21026,7 +21026,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21035,7 +21035,7 @@ entry(
 entry(
     index = 726,
     label = "Cs-Br1sO2sH_216",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21053,7 +21053,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21062,7 +21062,7 @@ entry(
 entry(
     index = 727,
     label = "Cs-Cl1sO2sH_404",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -21080,7 +21080,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21089,7 +21089,7 @@ entry(
 entry(
     index = 728,
     label = "Cs-halhalO2s_83",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -21107,7 +21107,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21116,7 +21116,7 @@ entry(
 entry(
     index = 729,
     label = "Cs-F1sF1sO2s_83",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -21134,7 +21134,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21143,7 +21143,7 @@ entry(
 entry(
     index = 730,
     label = "Cs-Br1sBr1sO2s_262",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21161,7 +21161,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21170,7 +21170,7 @@ entry(
 entry(
     index = 731,
     label = "Cs-Cl1sCl1sO2s_381",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -21188,7 +21188,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21197,7 +21197,7 @@ entry(
 entry(
     index = 732,
     label = "Cs-Cl1sF1sO2s_567",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -21215,7 +21215,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21224,7 +21224,7 @@ entry(
 entry(
     index = 733,
     label = "Cs-Br1sCl1sO2s_575",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21242,7 +21242,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21251,7 +21251,7 @@ entry(
 entry(
     index = 734,
     label = "Cs-Br1sF1sO2s_590",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21269,7 +21269,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21278,7 +21278,7 @@ entry(
 entry(
     index = 735,
     label = "Cs-halhalCd_101",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -21297,7 +21297,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21306,7 +21306,7 @@ entry(
 entry(
     index = 736,
     label = "Cs-F1sF1sCd_101",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -21325,7 +21325,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21334,7 +21334,7 @@ entry(
 entry(
     index = 737,
     label = "Cs-Br1sBr1sCd_273",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21353,7 +21353,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21362,7 +21362,7 @@ entry(
 entry(
     index = 738,
     label = "Cs-Cl1sCl1sCd_400",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -21381,7 +21381,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21390,7 +21390,7 @@ entry(
 entry(
     index = 739,
     label = "Cs-Br1sCl1sCd_545",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21409,7 +21409,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21418,7 +21418,7 @@ entry(
 entry(
     index = 740,
     label = "Cs-Cl1sF1sCd_566",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -21437,7 +21437,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21446,7 +21446,7 @@ entry(
 entry(
     index = 741,
     label = "Cs-Br1sF1sCd_573",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21465,7 +21465,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21474,7 +21474,7 @@ entry(
 entry(
     index = 742,
     label = "Cs-halhalCO_117",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -21492,7 +21492,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21501,7 +21501,7 @@ entry(
 entry(
     index = 743,
     label = "Cs-F1sF1sCO_117",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -21519,7 +21519,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21528,7 +21528,7 @@ entry(
 entry(
     index = 744,
     label = "Cs-Br1sBr1sCO_288",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21546,7 +21546,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21555,7 +21555,7 @@ entry(
 entry(
     index = 745,
     label = "Cs-Cl1sCl1sCO_442",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -21573,7 +21573,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21582,7 +21582,7 @@ entry(
 entry(
     index = 746,
     label = "Cs-Cl1sF1sCO_587",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -21600,7 +21600,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21609,7 +21609,7 @@ entry(
 entry(
     index = 747,
     label = "Cs-Br1sCl1sCO_606",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21627,7 +21627,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21636,7 +21636,7 @@ entry(
 entry(
     index = 748,
     label = "Cs-Br1sF1sCO_662",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21654,7 +21654,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21663,7 +21663,7 @@ entry(
 entry(
     index = 749,
     label = "Cs-halhalCt_140",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -21681,7 +21681,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21690,7 +21690,7 @@ entry(
 entry(
     index = 750,
     label = "Cs-F1sF1sCt_140",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -21708,7 +21708,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21717,7 +21717,7 @@ entry(
 entry(
     index = 751,
     label = "Cs-Br1sBr1sCt_308",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21735,7 +21735,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21744,7 +21744,7 @@ entry(
 entry(
     index = 752,
     label = "Cs-Cl1sCl1sCt_450",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -21762,7 +21762,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21771,7 +21771,7 @@ entry(
 entry(
     index = 753,
     label = "Cs-Cl1sF1sCt_610",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -21789,7 +21789,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21798,7 +21798,7 @@ entry(
 entry(
     index = 754,
     label = "Cs-Br1sCl1sCt_628",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21816,7 +21816,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21825,7 +21825,7 @@ entry(
 entry(
     index = 755,
     label = "Cs-Br1sF1sCt_664",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21843,7 +21843,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21852,7 +21852,7 @@ entry(
 entry(
     index = 756,
     label = "Cs-halCOH_146",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -21870,7 +21870,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21879,7 +21879,7 @@ entry(
 entry(
     index = 757,
     label = "Cs-F1sCOH_146",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -21897,7 +21897,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21906,7 +21906,7 @@ entry(
 entry(
     index = 758,
     label = "Cs-Br1sCOH_338",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -21924,7 +21924,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21933,7 +21933,7 @@ entry(
 entry(
     index = 759,
     label = "Cs-Cl1sCOH_419",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -21951,7 +21951,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21960,7 +21960,7 @@ entry(
 entry(
     index = 760,
     label = "Cs-halCtH_162",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -21978,7 +21978,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -21987,7 +21987,7 @@ entry(
 entry(
     index = 761,
     label = "Cs-F1sCtH_162",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -22005,7 +22005,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22014,7 +22014,7 @@ entry(
 entry(
     index = 762,
     label = "Cs-Br1sCtH_324",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -22032,7 +22032,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22041,7 +22041,7 @@ entry(
 entry(
     index = 763,
     label = "Cs-Cl1sCtH_446",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -22059,7 +22059,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22068,7 +22068,7 @@ entry(
 entry(
     index = 764,
     label = "RdCHr",
-    group = 
+    group =
 """
 1 * C        u1 {2,D} {3,S}
 2   R!H!Val7 ux {1,D}
@@ -22084,7 +22084,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """carbon radical with one single bond""",
-    longDesc = 
+    longDesc =
 """
 (3115, 3125, 1),	#C-H stretch
 (620, 680, 1),		#CdC-H bend
@@ -22096,7 +22096,7 @@ entry(
 entry(
     index = 765,
     label = "Cd-halCd_113",
-    group = 
+    group =
 """
 1 * Cd   u1 {2,S} {3,D}
 2   Val7 u0 {1,S}
@@ -22111,7 +22111,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22120,7 +22120,7 @@ entry(
 entry(
     index = 766,
     label = "Cd-F1sCd_113",
-    group = 
+    group =
 """
 1 * Cd  u1 {2,S} {3,D}
 2   F1s u0 {1,S}
@@ -22135,7 +22135,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22144,7 +22144,7 @@ entry(
 entry(
     index = 767,
     label = "Cd-Br1sCd_232",
-    group = 
+    group =
 """
 1 * Cd   u1 {2,S} {3,D}
 2   Br1s u0 {1,S}
@@ -22159,7 +22159,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22168,7 +22168,7 @@ entry(
 entry(
     index = 768,
     label = "Cd-Cl1sCd_416",
-    group = 
+    group =
 """
 1 * Cd   u1 {2,S} {3,D}
 2   Cl1s u0 {1,S}
@@ -22183,7 +22183,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22192,7 +22192,7 @@ entry(
 entry(
     index = 769,
     label = "Cd-halCdd_151",
-    group = 
+    group =
 """
 1 * Cd   u1 {2,S} {3,D}
 2   Val7 u0 {1,S}
@@ -22207,7 +22207,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22216,7 +22216,7 @@ entry(
 entry(
     index = 770,
     label = "Cd-F1sCdd_151",
-    group = 
+    group =
 """
 1 * Cd  u1 {2,S} {3,D}
 2   F1s u0 {1,S}
@@ -22231,7 +22231,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22240,7 +22240,7 @@ entry(
 entry(
     index = 771,
     label = "Cd-Br1sCdd_283",
-    group = 
+    group =
 """
 1 * Cd   u1 {2,S} {3,D}
 2   Br1s u0 {1,S}
@@ -22255,7 +22255,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22264,7 +22264,7 @@ entry(
 entry(
     index = 772,
     label = "Cd-Cl1sCdd_480",
-    group = 
+    group =
 """
 1 * Cd   u1 {2,S} {3,D}
 2   Cl1s u0 {1,S}
@@ -22279,7 +22279,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22288,7 +22288,7 @@ entry(
 entry(
     index = 773,
     label = "CO-halO2d_198",
-    group = 
+    group =
 """
 1 * CO   u1 {2,S} {3,D}
 2   Val7 u0 {1,S}
@@ -22303,7 +22303,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22312,7 +22312,7 @@ entry(
 entry(
     index = 774,
     label = "CO-F1sO2d_198",
-    group = 
+    group =
 """
 1 * CO  u1 {2,S} {3,D}
 2   F1s u0 {1,S}
@@ -22327,7 +22327,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22336,7 +22336,7 @@ entry(
 entry(
     index = 775,
     label = "CO-Cl1sO2d_491",
-    group = 
+    group =
 """
 1 * CO   u1 {2,S} {3,D}
 2   Cl1s u0 {1,S}
@@ -22351,7 +22351,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22360,14 +22360,14 @@ entry(
 entry(
     index = 776,
     label = "CtCr",
-    group = 
+    group =
 """
 1 * C u1 {2,T}
 2   C ux {1,T}
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22376,7 +22376,7 @@ entry(
 entry(
     index = 777,
     label = "RsCHrsR",
-    group = 
+    group =
 """
 1 * C        u1 {2,S} {3,S} {4,S}
 2   R!H!Val7 ux {1,S}
@@ -22393,7 +22393,7 @@ entry(
         symmetry = 2,
     ),
     shortDesc = """carbon radical with two single bonds""",
-    longDesc = 
+    longDesc =
 """
 (3000, 3050, 1),	#C-H stretch
 (390, 425, 1),		#R-C-H bend
@@ -22405,7 +22405,7 @@ entry(
 entry(
     index = 778,
     label = "Cs-halCsCt_68",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -22422,7 +22422,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22431,7 +22431,7 @@ entry(
 entry(
     index = 779,
     label = "Cs-F1sCsCt_68",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -22448,7 +22448,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22457,7 +22457,7 @@ entry(
 entry(
     index = 780,
     label = "Cs-Br1sCsCt_274",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -22474,7 +22474,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22483,7 +22483,7 @@ entry(
 entry(
     index = 781,
     label = "Cs-Cl1sCsCt_449",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -22500,7 +22500,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22509,7 +22509,7 @@ entry(
 entry(
     index = 782,
     label = "Cs-halCsCs_73",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -22526,7 +22526,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22535,7 +22535,7 @@ entry(
 entry(
     index = 783,
     label = "Cs-F1sCsCs_73",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -22552,7 +22552,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22561,7 +22561,7 @@ entry(
 entry(
     index = 784,
     label = "Cs-Br1sCsCs_223",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -22578,7 +22578,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22587,7 +22587,7 @@ entry(
 entry(
     index = 785,
     label = "Cs-Cl1sCsCs_407",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -22604,7 +22604,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22613,7 +22613,7 @@ entry(
 entry(
     index = 786,
     label = "Cs-halO2sCs_110",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -22630,7 +22630,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22639,7 +22639,7 @@ entry(
 entry(
     index = 787,
     label = "Cs-F1sO2sCs_110",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -22656,7 +22656,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22665,7 +22665,7 @@ entry(
 entry(
     index = 788,
     label = "Cs-Br1sO2sCs_257",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -22682,7 +22682,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22691,7 +22691,7 @@ entry(
 entry(
     index = 789,
     label = "Cs-Cl1sO2sCs_441",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -22708,7 +22708,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22717,7 +22717,7 @@ entry(
 entry(
     index = 790,
     label = "Cs-halCsCd_112",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -22734,7 +22734,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22743,7 +22743,7 @@ entry(
 entry(
     index = 791,
     label = "Cs-F1sCsCd_112",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -22760,7 +22760,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22769,7 +22769,7 @@ entry(
 entry(
     index = 792,
     label = "Cs-Cl1sCsCd_501",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -22786,7 +22786,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22795,7 +22795,7 @@ entry(
 entry(
     index = 793,
     label = "Cs-Br1sCsCd_728",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -22811,7 +22811,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22820,7 +22820,7 @@ entry(
 entry(
     index = 794,
     label = "Cs-halCsCO_115",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -22837,7 +22837,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22846,7 +22846,7 @@ entry(
 entry(
     index = 795,
     label = "Cs-F1sCsCO_115",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -22863,7 +22863,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22872,7 +22872,7 @@ entry(
 entry(
     index = 796,
     label = "Cs-Br1sCsCO_310",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -22889,7 +22889,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22898,7 +22898,7 @@ entry(
 entry(
     index = 797,
     label = "Cs-Cl1sCsCO_481",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -22915,7 +22915,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22924,7 +22924,7 @@ entry(
 entry(
     index = 798,
     label = "Cs-halO2sO2s_142",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -22941,7 +22941,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22950,7 +22950,7 @@ entry(
 entry(
     index = 799,
     label = "Cs-F1sO2sO2s_142",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -22967,7 +22967,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -22976,7 +22976,7 @@ entry(
 entry(
     index = 800,
     label = "Cs-Br1sO2sO2s_343",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -22993,7 +22993,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23002,7 +23002,7 @@ entry(
 entry(
     index = 801,
     label = "Cs-Cl1sO2sO2s_434",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -23019,7 +23019,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23028,7 +23028,7 @@ entry(
 entry(
     index = 802,
     label = "Cs-halO2sCO_148",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -23045,7 +23045,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23054,7 +23054,7 @@ entry(
 entry(
     index = 803,
     label = "Cs-F1sO2sCO_148",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -23071,7 +23071,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23080,7 +23080,7 @@ entry(
 entry(
     index = 804,
     label = "Cs-Br1sO2sCO_321",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -23097,7 +23097,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23106,7 +23106,7 @@ entry(
 entry(
     index = 805,
     label = "Cs-Cl1sO2sCO_514",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -23123,7 +23123,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23132,7 +23132,7 @@ entry(
 entry(
     index = 806,
     label = "OdCrsR",
-    group = 
+    group =
 """
 1 * C        u1 {2,D} {3,S}
 2   O        u0 {1,D}
@@ -23147,7 +23147,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """carbon radical with one oxygen double bond and one single bond""",
-    longDesc = 
+    longDesc =
 """
 (1850, 1860, 1),	#OdC stretch
 (440, 470, 1),		#OdC-R bend
@@ -23158,7 +23158,7 @@ entry(
 entry(
     index = 807,
     label = "CdCrsR",
-    group = 
+    group =
 """
 1 * C        u1 {2,D} {3,S}
 2   C        ux {1,D}
@@ -23172,7 +23172,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """carbon radical with one carbon double bond and one single bond""",
-    longDesc = 
+    longDesc =
 """
 (1670, 1700, 1),	#CdC stretch
 (300, 440, 1),		#CdC-R bend
@@ -23182,7 +23182,7 @@ entry(
 entry(
     index = 808,
     label = "RsCrsR2",
-    group = 
+    group =
 """
 1 * C        u1 {2,S} {3,S} {4,S}
 2   R!H!Val7 ux {1,S}
@@ -23197,7 +23197,7 @@ entry(
         symmetry = 6,
     ),
     shortDesc = """carbon radical with three single bonds""",
-    longDesc = 
+    longDesc =
 """
 (360, 370, 2),	#C-C-C scissor
 (300, 400, 1),	#Umbrella
@@ -23207,7 +23207,7 @@ entry(
 entry(
     index = 809,
     label = "Cs-halhalH_119",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -23226,7 +23226,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23235,7 +23235,7 @@ entry(
 entry(
     index = 810,
     label = "Cs-F1sF1sH_119",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -23254,7 +23254,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23263,7 +23263,7 @@ entry(
 entry(
     index = 811,
     label = "Cs-Br1sBr1sH_312",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -23282,7 +23282,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23291,7 +23291,7 @@ entry(
 entry(
     index = 812,
     label = "Cs-Cl1sCl1sH_490",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -23310,7 +23310,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23319,7 +23319,7 @@ entry(
 entry(
     index = 813,
     label = "Cs-Cl1sF1sH_602",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -23338,7 +23338,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23347,7 +23347,7 @@ entry(
 entry(
     index = 814,
     label = "Cs-Br1sCl1sH_718",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -23366,7 +23366,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23375,7 +23375,7 @@ entry(
 entry(
     index = 815,
     label = "Cs-Br1sF1sH_737",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -23394,7 +23394,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23403,7 +23403,7 @@ entry(
 entry(
     index = 816,
     label = "Cs-halHH_166",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -23422,7 +23422,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23431,7 +23431,7 @@ entry(
 entry(
     index = 817,
     label = "Cs-F1sHH_166",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -23450,7 +23450,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23459,7 +23459,7 @@ entry(
 entry(
     index = 818,
     label = "Cs-Br1sHH_357",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -23478,7 +23478,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23487,7 +23487,7 @@ entry(
 entry(
     index = 819,
     label = "Cs-Cl1sHH_479",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -23506,7 +23506,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23515,7 +23515,7 @@ entry(
 entry(
     index = 820,
     label = "Cs-halhalhal_189",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Val7 u0 {1,S}
@@ -23534,7 +23534,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23543,7 +23543,7 @@ entry(
 entry(
     index = 821,
     label = "Cs-F1sF1sF1s_189",
-    group = 
+    group =
 """
 1 * Cs  u1 {2,S} {3,S} {4,S}
 2   F1s u0 {1,S}
@@ -23562,7 +23562,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23571,7 +23571,7 @@ entry(
 entry(
     index = 822,
     label = "Cs-Br1sBr1sBr1s_323",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -23590,7 +23590,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23599,7 +23599,7 @@ entry(
 entry(
     index = 823,
     label = "Cs-Cl1sCl1sCl1s_456",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -23618,7 +23618,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23627,7 +23627,7 @@ entry(
 entry(
     index = 824,
     label = "Cs-Br1sCl1sF1s_654",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -23646,7 +23646,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23655,7 +23655,7 @@ entry(
 entry(
     index = 825,
     label = "Cs-Br1sBr1sF1s_678",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -23674,7 +23674,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23683,7 +23683,7 @@ entry(
 entry(
     index = 826,
     label = "Cs-Br1sF1sF1s_683",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -23702,7 +23702,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23711,7 +23711,7 @@ entry(
 entry(
     index = 827,
     label = "Cs-Br1sBr1sCl1s_706",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -23730,7 +23730,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23739,7 +23739,7 @@ entry(
 entry(
     index = 828,
     label = "Cs-Cl1sF1sF1s_719",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -23758,7 +23758,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23767,7 +23767,7 @@ entry(
 entry(
     index = 829,
     label = "Cs-Cl1sCl1sF1s_730",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Cl1s u0 {1,S}
@@ -23786,7 +23786,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23795,7 +23795,7 @@ entry(
 entry(
     index = 830,
     label = "Cs-Br1sCl1sCl1s_731",
-    group = 
+    group =
 """
 1 * Cs   u1 {2,S} {3,S} {4,S}
 2   Br1s u0 {1,S}
@@ -23814,7 +23814,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23823,13 +23823,13 @@ entry(
 entry(
     index = 831,
     label = "O_R1",
-    group = 
+    group =
 """
 1 * O u1
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23838,14 +23838,14 @@ entry(
 entry(
     index = 832,
     label = "Oxy",
-    group = 
+    group =
 """
 1 * O u1 {2,S}
 2   C ux {1,S}
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23854,7 +23854,7 @@ entry(
 entry(
     index = 833,
     label = "O2s-hal_167",
-    group = 
+    group =
 """
 1 * O2s  u1 {2,S}
 2   Val7 u0 {1,S}
@@ -23866,7 +23866,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23875,7 +23875,7 @@ entry(
 entry(
     index = 834,
     label = "O2s-F1s_167",
-    group = 
+    group =
 """
 1 * O2s u1 {2,S}
 2   F1s u0 {1,S}
@@ -23887,7 +23887,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23896,7 +23896,7 @@ entry(
 entry(
     index = 835,
     label = "O2s-Br1s_352",
-    group = 
+    group =
 """
 1 * O2s  u1 {2,S}
 2   Br1s u0 {1,S}
@@ -23908,7 +23908,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23917,7 +23917,7 @@ entry(
 entry(
     index = 836,
     label = "O2s-Cl1s_494",
-    group = 
+    group =
 """
 1 * O2s  u1 {2,S}
 2   Cl1s u0 {1,S}
@@ -23929,7 +23929,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23938,13 +23938,13 @@ entry(
 entry(
     index = 837,
     label = "R!H!Val7x2_trip",
-    group = 
+    group =
 """
 1 * R!H!Val7 u2
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23953,13 +23953,13 @@ entry(
 entry(
     index = 838,
     label = "C_R2",
-    group = 
+    group =
 """
 1 * C u2
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23968,7 +23968,7 @@ entry(
 entry(
     index = 839,
     label = "RsCHrr",
-    group = 
+    group =
 """
 1 * C        u2 {2,S} {3,S}
 2   R!H!Val7 ux {1,S}
@@ -23976,7 +23976,7 @@ entry(
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -23985,7 +23985,7 @@ entry(
 entry(
     index = 840,
     label = "Cs-halCt_331",
-    group = 
+    group =
 """
 1 * Cs   u2 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -23999,7 +23999,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24008,7 +24008,7 @@ entry(
 entry(
     index = 841,
     label = "Cs-Br1sCt_331",
-    group = 
+    group =
 """
 1 * Cs   u2 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -24022,7 +24022,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24031,7 +24031,7 @@ entry(
 entry(
     index = 842,
     label = "Cs-Cl1sCt_506",
-    group = 
+    group =
 """
 1 * Cs   u2 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -24045,7 +24045,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24054,7 +24054,7 @@ entry(
 entry(
     index = 843,
     label = "Cs-halCO_336",
-    group = 
+    group =
 """
 1 * Cs   u2 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -24068,7 +24068,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24077,7 +24077,7 @@ entry(
 entry(
     index = 844,
     label = "Cs-Br1sCO_336",
-    group = 
+    group =
 """
 1 * Cs   u2 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -24091,7 +24091,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24100,7 +24100,7 @@ entry(
 entry(
     index = 845,
     label = "Cs-Cl1sCO_424",
-    group = 
+    group =
 """
 1 * Cs   u2 {2,S} {3,S}
 2   Cl1s u0 {1,S}
@@ -24114,7 +24114,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24123,7 +24123,7 @@ entry(
 entry(
     index = 846,
     label = "Cs-halCs_354",
-    group = 
+    group =
 """
 1 * Cs   u2 {2,S} {3,S}
 2   Val7 u0 {1,S}
@@ -24145,7 +24145,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24154,7 +24154,7 @@ entry(
 entry(
     index = 847,
     label = "Cs-Br1sCs_354",
-    group = 
+    group =
 """
 1 * Cs   u2 {2,S} {3,S}
 2   Br1s u0 {1,S}
@@ -24176,7 +24176,7 @@ entry(
         symmetry = 1,
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24185,14 +24185,14 @@ entry(
 entry(
     index = 848,
     label = "RdCrr",
-    group = 
+    group =
 """
 1 * C        u2 {2,D}
 2   R!H!Val7 u2 {1,D}
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24201,7 +24201,7 @@ entry(
 entry(
     index = 849,
     label = "RsCrrsR",
-    group = 
+    group =
 """
 1 * C        u2 {2,S} {3,S}
 2   R!H!Val7 ux {1,S}
@@ -24209,7 +24209,7 @@ entry(
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -24218,13 +24218,13 @@ entry(
 entry(
     index = 850,
     label = "R!H!Val7x3_quart",
-    group = 
+    group =
 """
 1 * R!H!Val7 u3
 """,
     statmech = None,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,

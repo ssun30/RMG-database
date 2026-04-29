@@ -25,7 +25,7 @@ entry(
         Ea = (50.3, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -41,7 +41,7 @@ entry(
         Ea = (6.1, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [59]
 """,
@@ -57,7 +57,7 @@ entry(
         Ea = (4.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [65], activation energy estimated
 """,
@@ -76,7 +76,7 @@ entry(
         ),
         efficiencies = {'N#N': 1.3, 'O': 10},
     ),
-    longDesc = 
+    longDesc =
 u"""
 [56]
 """,
@@ -93,7 +93,7 @@ entry(
         Ea = (3.05, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -109,7 +109,7 @@ entry(
         Ea = (76.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -125,7 +125,7 @@ entry(
         Ea = (23.8, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -141,7 +141,7 @@ entry(
         Ea = (48.3, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [66]
 """,
@@ -158,7 +158,7 @@ entry(
         Ea = (107.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [67]
 """,
@@ -193,7 +193,7 @@ entry(
         ),
         efficiencies = {'N#N': 1.5, 'O': 10},
     ),
-    longDesc = 
+    longDesc =
 u"""
 [68]
 """,
@@ -209,7 +209,7 @@ entry(
         Ea = (0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [69]
 """,
@@ -241,7 +241,7 @@ entry(
         Ea = (3.05, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [39,70]
 """,
@@ -257,7 +257,7 @@ entry(
         Ea = (4.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [71], activation energy estimated
 """,
@@ -274,7 +274,7 @@ entry(
         Ea = (0.92, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -290,7 +290,7 @@ entry(
         Ea = (1.56, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -306,7 +306,7 @@ entry(
         Ea = (-0.34, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -323,7 +323,7 @@ entry(
         Ea = (0.05, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -339,7 +339,7 @@ entry(
         Ea = (10.4, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -355,7 +355,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 rate constant estimated
 """,
@@ -371,7 +371,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [35]
 """,
@@ -387,7 +387,7 @@ entry(
         Ea = (5.34, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [35]
 """,
@@ -403,7 +403,7 @@ entry(
         Ea = (0.3, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [35]
 """,
@@ -420,7 +420,7 @@ entry(
         Ea = (1.59, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [35]
 """,
@@ -437,7 +437,7 @@ entry(
         Ea = (-0.05, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [35]
 """,
@@ -454,7 +454,7 @@ entry(
         Ea = (3.17, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -470,7 +470,7 @@ entry(
         Ea = (3.75, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 Typo in paper (HOSO, not HOSHO)
@@ -487,7 +487,7 @@ entry(
         Ea = (0.47, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -503,7 +503,7 @@ entry(
         Ea = (10, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 rate constant estimated
 """,
@@ -520,7 +520,7 @@ entry(
         Ea = (75.2, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -537,7 +537,7 @@ entry(
         Ea = (54.5, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -554,7 +554,7 @@ entry(
         Ea = (86.5, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -571,7 +571,7 @@ entry(
         Ea = (71.7, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -588,7 +588,7 @@ entry(
         Ea = (119.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [35]
 """,
@@ -605,7 +605,7 @@ entry(
         Ea = (50.9, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [35]
 """,
@@ -621,7 +621,7 @@ entry(
         Ea = (-1.9, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -637,7 +637,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 rate constant estimated
 """,
@@ -653,7 +653,7 @@ entry(
         Ea = (1.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [39]
 """,
@@ -670,7 +670,7 @@ entry(
         Ea = (18.9, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [35]
 """,
@@ -687,7 +687,7 @@ entry(
         Ea = (29.9, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [35]
 """,
@@ -704,7 +704,7 @@ entry(
         Ea = (106.3, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -721,7 +721,7 @@ entry(
         Ea = (54.9, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -737,7 +737,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 rate constant estimated
 """,
@@ -753,7 +753,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 rate constant estimated
 """,
@@ -769,7 +769,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 rate constant estimated
 """,
@@ -785,7 +785,7 @@ entry(
         Ea = (0.656, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [39]
 """,
@@ -802,7 +802,7 @@ entry(
         Ea = (73.8, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -819,7 +819,7 @@ entry(
         Ea = (59.5, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 QRRK estimate for 300-1500 K, 1 atm [45]
 """,
@@ -835,7 +835,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 rate constant estimated
 """,
@@ -851,7 +851,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 rate constant estimated
 """,
@@ -867,7 +867,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 rate constant estimated
 """,
@@ -884,7 +884,7 @@ entry(
         Ea = (66.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [72,73]
 """,
@@ -900,7 +900,7 @@ entry(
         Ea = (0.7, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [74]
 """,
@@ -916,7 +916,7 @@ entry(
         Ea = (2.84, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [39,75]
 """,
@@ -932,7 +932,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [76]
 """,
@@ -948,7 +948,7 @@ entry(
         Ea = (15.1, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [77]
 """,
@@ -964,7 +964,7 @@ entry(
         Ea = (24.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [77]
 """,
@@ -980,7 +980,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [69,75]
 """,
@@ -996,7 +996,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 rate constant estimated
 """,
@@ -1012,7 +1012,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 rate constant estimated
 """,
@@ -1028,7 +1028,7 @@ entry(
         Ea = (10.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 rate constant estimated
 """,
@@ -1044,12 +1044,12 @@ entry(
         Ea = (10.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [69]
 alongd comments:
 - ref [69] is: DeMore, W. B., M. J. Molina, S. P. Sander, D. M. Golden, R. F. Hampson, M. J. Kurylo, C. J. Howard, and A. R. Ravishankara. "JPL Publication 87-41." Pasadena, CA (1987): 1.
-- an updated rate is available in the GlarborgH2S library taken from: Sendt K Haynes BS Proc Combust Inst 2007, 31, 257-265 
+- an updated rate is available in the GlarborgH2S library taken from: Sendt K Haynes BS Proc Combust Inst 2007, 31, 257-265
 """,
 )
 
@@ -1063,7 +1063,7 @@ entry(
         Ea = (-1.4, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [39,70]
 """,
@@ -1079,7 +1079,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [39]
 """,
@@ -1095,7 +1095,7 @@ entry(
         Ea = (27.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [78]
 """,
@@ -1111,7 +1111,7 @@ entry(
         Ea = (0.0, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 [39]
 """,

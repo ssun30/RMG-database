@@ -12,7 +12,7 @@ largely estimated by Franklin Goldsmith
 entry(
     index = 1,
     label = "*",
-    molecule = 
+    molecule =
 """
 1 X u0 p0 c0
 """,
@@ -39,7 +39,7 @@ entry(
 entry(
     index = 2,
     label = "H*",
-    molecule =  
+    molecule =
 """
 1 H u0 p0 {2,S}
 2 X u0 p0 {1,S}
@@ -67,11 +67,11 @@ entry(
 entry(
     index = 3,
     label = "C*",
-    molecule =  
+    molecule =
 """
 1 C u0 p0 {2,Q}
 2 X u0 p0 {1,Q}
-""", 
+""",
 #    thermo = ThermoData(
 #        Tdata = ([300,400,500,600,800,1000,1500],'K'),
 #        Cpdata = ([4.04, 4.73, 5.12, 5.35, 5.60, 5.73, 5.85],'cal/(mol*K)'),
@@ -96,7 +96,7 @@ entry(
 entry(
     index = 4,
     label = "O*",
-    molecule =  
+    molecule =
 """
 1 O u0 p2 {2,D}
 2 X u0 p0 {1,D}
@@ -124,7 +124,7 @@ entry(
 entry(
     index = 5,
     label = "H2*",
-    molecule =  
+    molecule =
 """
 1 H u0 p0 {2,S} {3,vdW}
 2 H u0 p0 {1,S}
@@ -147,7 +147,7 @@ entry(
 entry(
     index = 6,
     label = "CH*",
-    molecule =  
+    molecule =
 """
 1 C u0 p0 {2,S} {3,T}
 2 H u0 p0 {1,S}
@@ -170,7 +170,7 @@ entry(
 entry(
     index = 7,
     label = "CH2*",
-    molecule =  
+    molecule =
 """
 1 C u0 p0 {2,S} {3,S} {4,D}
 2 H u0 p0 {1,S}
@@ -200,7 +200,7 @@ entry(
 entry(
     index = 8,
     label = "CH3*",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 {1,S}
@@ -231,7 +231,7 @@ entry(
 entry(
     index = 9,
     label = "CH4*",
-    molecule =  
+    molecule =
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S} {6,vdW}
 2 H u0 p0 {1,S}
@@ -258,7 +258,7 @@ entry(
 entry(
     index = 10,
     label = "OH*",
-    molecule =  
+    molecule =
 """
 1 O u0 p2 {2,S} {3,S}
 2 H u0 p0 {1,S}
@@ -281,7 +281,7 @@ entry(
 entry(
     index = 11,
     label = "H2O*",
-    molecule =  
+    molecule =
 """
 1 O u0 p2 {2,S} {3,S} {4,vdW}
 2 H u0 p0 {1,S}
@@ -305,11 +305,11 @@ entry(
 entry(
     index = 12,
     label = "CO*",
-    molecule =  
+    molecule =
 """
 1 C u0 p0 {2,D} {3,D}
-2 O u0 p2 {1,D} 
-3 X u0 p0 {1,D} 
+2 O u0 p2 {1,D}
+3 X u0 p0 {1,D}
 """,
     thermo = NASA(
         polynomials = [
@@ -329,7 +329,7 @@ entry(
 entry(
     index = 13,
     label = "HCO*",
-    molecule =  
+    molecule =
 """
 1 C u0 p0 {2,D} {3,S} {4,S}
 2 O u0 p2 {1,D}
@@ -357,7 +357,7 @@ H--C--O
 entry(
     index = 14,
     label = "COH*",
-    molecule =  
+    molecule =
 """
 1 C u0 p0 {2,S} {4,T}
 2 O u0 p2 {1,S} {3,S}
@@ -381,7 +381,7 @@ entry(
 entry(
     index = 15,
     label = "CH2O*",
-    molecule =  
+    molecule =
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 {1,S} {6,S}
@@ -407,7 +407,7 @@ entry(
 entry(
     index = 16,
     label = "CHOH*",
-    molecule =  
+    molecule =
 """
 1 C u0 p0 {2,S} {3,S} {5,D}
 2 O u0 p2 {1,S} {4,S}
@@ -432,7 +432,7 @@ entry(
 entry(
     index = 17,
     label = "CH3O*",
-    molecule =  
+    molecule =
 """
 1 O u0 p2 {2,S} {6,S}
 2 C u0 p0 {1,S} {3,S} {4,S} {5,S}
@@ -458,7 +458,7 @@ entry(
 entry(
     index = 18,
     label = "CH2OH*",
-    molecule =  
+    molecule =
 """
 1 C u0 p0 {2,S} {3,S} {4,S} {6,S}
 2 H u0 p0 {1,S}
@@ -484,7 +484,7 @@ entry(
 entry(
     index = 19,
     label = "CH3OH*",
-    molecule =  
+    molecule =
 """
 1 O u0 p2 {2,S} {3,S} {7,vdW}
 2 C u0 p0 {1,S} {4,S} {5,S} {6,S}
@@ -512,7 +512,7 @@ entry(
 entry(
     index = 20,
     label = "CO2*",
-    molecule =  
+    molecule =
 """
 1 C u0 p0 {2,D} {3,D} {4,vdW}
 2 O u0 p2 {1,D}
@@ -536,7 +536,7 @@ entry(
 entry(
     index = 21,
     label = "HOCO*",
-    molecule =  
+    molecule =
 """
 1 C u0 p0 {2,D} {3,S} {5,S}
 2 O u0 p2 {1,D}

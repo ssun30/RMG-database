@@ -3,23 +3,23 @@
 
 name = "longDistanceInteraction_cyclic"
 shortDesc = u""
-longDesc = u""" 
+longDesc = u"""
 All groups are fitted using experimental solute parameter data unless written otherwise.
-See Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+See Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """
 
 entry(
 	index = -1,
 	label = "R",
-	group = 
+	group =
 """
 1 *1 R u0
 """,
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28,7 +28,7 @@ u"""
 entry(
 	index = 1,
 	label = "aromatic-ortho",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B}
 2 *2 Cb u0 {1,B}
@@ -36,7 +36,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -45,7 +45,7 @@ u"""
 entry(
 	index = 2,
 	label = "o_OH",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -55,7 +55,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -64,7 +64,7 @@ u"""
 entry(
 	index = 3,
 	label = "o_OH_OH",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {5,S}
@@ -88,7 +88,7 @@ entry(
 		A = 45,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -97,7 +97,7 @@ u"""
 entry(
 	index = 4,
 	label = "o_OH_MeO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {5,S}
@@ -124,7 +124,7 @@ entry(
 		A = 27,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -133,7 +133,7 @@ u"""
 entry(
 	index = 5,
 	label = "o_OH_CHO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {5,S}
@@ -158,7 +158,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -167,7 +167,7 @@ u"""
 entry(
 	index = 6,
 	label = "o_CHO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -178,7 +178,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -187,7 +187,7 @@ u"""
 entry(
 	index = 7,
 	label = "o_CHO_CHO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {5,S}
@@ -213,7 +213,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -222,7 +222,7 @@ u"""
 entry(
 	index = 8,
 	label = "o_CHO_CH3",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {6,S}
@@ -249,7 +249,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -258,7 +258,7 @@ u"""
 entry(
 	index = 9,
 	label = "o_CHO_MeO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {6,S}
@@ -286,7 +286,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -295,7 +295,7 @@ u"""
 entry(
 	index = 10,
 	label = "o_vinyl",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -308,7 +308,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -317,7 +317,7 @@ u"""
 entry(
 	index = 11,
 	label = "o_vinyl_CH3",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {8,S}
@@ -346,7 +346,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -355,7 +355,7 @@ u"""
 entry(
 	index = 12,
 	label = "o_MeO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -368,7 +368,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -377,7 +377,7 @@ u"""
 entry(
 	index = 13,
 	label = "o_MeO_MeO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {8,S}
@@ -407,7 +407,7 @@ entry(
 		A = 37,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -416,7 +416,7 @@ u"""
 entry(
 	index = 14,
 	label = "o_CH3",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B}
@@ -428,7 +428,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -437,7 +437,7 @@ u"""
 entry(
 	index = 15,
 	label = "o_CH3_CH3",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {7,S}
@@ -465,7 +465,7 @@ entry(
 		A = 83,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -474,7 +474,7 @@ u"""
 entry(
 	index = 16,
 	label = "o_CH3_C2H5",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {3,S}
 2 *2 Cb u0 {1,B} {7,S}
@@ -505,7 +505,7 @@ entry(
 		A = 14,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -514,7 +514,7 @@ u"""
 entry(
 	index = 17,
 	label = "aromatic-meta",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B}
 2    Cb u0 {1,B} {3,B}
@@ -523,7 +523,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -532,7 +532,7 @@ u"""
 entry(
 	index = 18,
 	label = "m_CHO_CHO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {4,S}
 2    Cb u0 {1,B} {3,B}
@@ -547,7 +547,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -556,7 +556,7 @@ u"""
 entry(
 	index = 19,
 	label = "aromatic-para",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B}
 2    Cb u0 {1,B} {3,B}
@@ -566,7 +566,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -575,7 +575,7 @@ u"""
 entry(
 	index = 20,
 	label = "p_OH",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -587,7 +587,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -596,7 +596,7 @@ u"""
 entry(
 	index = 21,
 	label = "p_OH_OH",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -622,7 +622,7 @@ entry(
 		A = 20,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -631,7 +631,7 @@ u"""
 entry(
 	index = 22,
 	label = "p_OH_MeO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -660,7 +660,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -669,7 +669,7 @@ u"""
 entry(
 	index = 23,
 	label = "p_OH_CHO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -696,7 +696,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -705,7 +705,7 @@ u"""
 entry(
 	index = 24,
 	label = "p_MeO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -720,7 +720,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -729,7 +729,7 @@ u"""
 entry(
 	index = 25,
 	label = "p_MeO_MeO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -761,7 +761,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -770,7 +770,7 @@ u"""
 entry(
 	index = 26,
 	label = "p_MeO_CHO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -800,7 +800,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -809,7 +809,7 @@ u"""
 entry(
 	index = 27,
 	label = "p_CHO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -822,7 +822,7 @@ entry(
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -831,7 +831,7 @@ u"""
 entry(
 	index = 28,
 	label = "p_CHO_CHO",
-	group = 
+	group =
 """
 1 *1 Cb u0 {2,B} {5,S}
 2    Cb u0 {1,B} {3,B}
@@ -859,7 +859,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,

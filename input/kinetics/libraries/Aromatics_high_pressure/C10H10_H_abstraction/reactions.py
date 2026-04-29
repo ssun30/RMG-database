@@ -12,7 +12,7 @@ entry(
     label = "C10H10-1 + H <=> C10H9-1 + H2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.442, 'cm^3/(mol*s)'), n=4.34, Ea=(-1.4, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -28,7 +28,7 @@ entry(
         Ea = (0.7, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -44,7 +44,7 @@ entry(
         Ea = (-0.45, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -55,7 +55,7 @@ entry(
     label = "C10H10-2 + H <=> C10H9-2 + H2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.788, 'cm^3/(mol*s)'), n=4.34, Ea=(-0.4, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -66,7 +66,7 @@ entry(
     label = "C10H10-2 + CH3 <=> C10H9-2 + CH4",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.0424, 'cm^3/(mol*s)'), n=4.34, Ea=(1.7, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -82,7 +82,7 @@ entry(
         Ea = (-0.485, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -93,7 +93,7 @@ entry(
     label = "C10H10-3 + H <=> C10H9-3 + H2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.221, 'cm^3/(mol*s)'), n=4.34, Ea=(-1.4, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -109,7 +109,7 @@ entry(
         Ea = (0.7, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -125,7 +125,7 @@ entry(
         Ea = (-0.45, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -136,7 +136,7 @@ entry(
     label = "C10H10-4 + H <=> C10H9-4 + H2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.845, 'cm^3/(mol*s)'), n=4.34, Ea=(-0.35, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -152,7 +152,7 @@ entry(
         Ea = (6.21, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -168,7 +168,7 @@ entry(
         Ea = (-2.88, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -179,7 +179,7 @@ entry(
     label = "C10H10-4 + H <=> C10H9-5 + H2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3.53, 'cm^3/(mol*s)'), n=3.85, Ea=(4.794, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -195,7 +195,7 @@ entry(
         Ea = (6.61, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -211,7 +211,7 @@ entry(
         Ea = (0.933, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -222,7 +222,7 @@ entry(
     label = "C10H10-4 + H <=> C10H9-6 + H2",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.065, 'cm^3/(mol*s)'), n=3.85, Ea=(3.502, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -238,7 +238,7 @@ entry(
         Ea = (6.61, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,
@@ -254,7 +254,7 @@ entry(
         Ea = (0.933, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: First_to_Second_Aromatic_Ring/H_abstraction
 """,

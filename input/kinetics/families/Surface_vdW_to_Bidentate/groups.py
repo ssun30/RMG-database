@@ -4,7 +4,7 @@
 name = "Surface_vdW_to_Bidentate/groups"
 shortDesc = u""
 longDesc = u"""
-If a vdW adsorbate has an internal double or a triple bond, reduce the bond order and make it bidentate. 
+If a vdW adsorbate has an internal double or a triple bond, reduce the bond order and make it bidentate.
 
  *1#*2                   *1==*2
    :            ---->     |  |

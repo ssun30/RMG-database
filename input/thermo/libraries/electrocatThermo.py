@@ -63,8 +63,8 @@ entry(
 1 H u0 p0 c+1
 """,
     thermo = ThermoData(
-        Tdata=([300,400,500,600,800,1000,1500],'K'), 
-        Cpdata=([3.4475,3.4875,3.497,3.5045,3.5405,3.6095,3.86],'cal/(mol*K)'), 
+        Tdata=([300,400,500,600,800,1000,1500],'K'),
+        Cpdata=([3.4475,3.4875,3.497,3.5045,3.5405,3.6095,3.86],'cal/(mol*K)'),
         H298=(0,'kcal/mol'), S298=(15.6165,'cal/(mol*K)','+|-',0.0007),
         comment = '1/2 free energy of H2(g)')
 )
@@ -79,16 +79,16 @@ entry(
 3 O u0 p2 c0 {1,S} {2,S}
 4 H u0 p0 c+1
 """,
-    thermo = ThermoData(Tdata=([300,400,500,600,800,1000,1500],'K'), 
-        Cpdata=([11.4855,11.6675,11.876,12.1285,12.7355,13.3755,14.879],'cal/(mol*K)'), 
-        H298=(-57.797,'kcal/mol'), S298=(60.7005,'cal/(mol*K)','+|-',0.0007), 
+    thermo = ThermoData(Tdata=([300,400,500,600,800,1000,1500],'K'),
+        Cpdata=([11.4855,11.6675,11.876,12.1285,12.7355,13.3755,14.879],'cal/(mol*K)'),
+        H298=(-57.797,'kcal/mol'), S298=(60.7005,'cal/(mol*K)','+|-',0.0007),
         comment="""1/2 free energy of H2(g) + H2O(g)""")
 )
 
 entry(
     index = 5,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -101,7 +101,7 @@ entry(
         S298 = (45.084,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -113,7 +113,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 # entry(
 #     index = 4,
 #     label = "CO2X",
-#     molecule = 
+#     molecule =
 # """
 # 1 C u0 p0 {2,D} {3,D}
 # 2 O u0 p2 {1,D}
@@ -127,7 +127,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 #         S298 = (28.54,'cal/(mol*K)'),
 #     ),
 #     shortDesc = u"""""",
-#     longDesc = 
+#     longDesc =
 # u"""
 
 # """,
@@ -138,7 +138,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 # entry(
 #     index = 6,
 #     label = "O=CX-CX=O",
-#     molecule = 
+#     molecule =
 # """
 # 1 C u0 p0 c0 {2,S} {3,D} {5,S}
 # 2 C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -154,7 +154,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 #         S298 = (49.17,'cal/(mol*K)'),
 #     ),
 #     shortDesc = u"""""",
-#     longDesc = 
+#     longDesc =
 # u"""
 # OCCO from primary thermo library + Thermo group additivity estimation: adsorptionPt111(C-*R2C-*R2)
 

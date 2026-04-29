@@ -9,7 +9,7 @@ longDesc = u"""
 entry(
     index = 0,
     label = "H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -21,7 +21,7 @@ entry(
         S298 = (31.233,'cal/(mol*K)','+|-',0.0007),
     ),
     shortDesc = u"""library value for H2""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -30,7 +30,7 @@ u"""
 entry(
     index = 1,
     label = "H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -42,7 +42,7 @@ multiplicity 2
         S298 = (27.419,'cal/(mol*K)','+|-',0.0005),
     ),
     shortDesc = u"""library value for H radical""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -51,7 +51,7 @@ u"""
 entry(
     index = 2,
     label = "O2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -64,7 +64,7 @@ multiplicity 3
         S298 = (49.0236,'cal/(mol*K)'),
     ),
     shortDesc = u"""from GRI-Mech 3.0""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -73,7 +73,7 @@ u"""
 entry(
     index = 3,
     label = "O2(S)",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 O u0 p2 c0 {1,D}
@@ -85,7 +85,7 @@ entry(
         S298 = (49.0236,'cal/(mol*K)'),
     ),
     shortDesc = u"""from absorption energy""",
-    longDesc = 
+    longDesc =
 u"""
 H298 taken from absorption energy: 7882 cm^-1 = 22.54 kcal/mol
 S and Cp taken from the values for triplet O2
@@ -96,7 +96,7 @@ ref: David R. Kearns, Physical and chemical properties of singlet molecular oxyg
 entry(
     index = 4,
     label = "CO3s1",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -110,7 +110,7 @@ entry(
         S298 = (61.28,'cal/(mol*K)'),
     ),
     shortDesc = u"""Mebel et al (2004) http:""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -119,7 +119,7 @@ u"""
 entry(
     index = 5,
     label = "CO3t1",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -134,7 +134,7 @@ multiplicity 3
         S298 = (64.53,'cal/(mol*K)'),
     ),
     shortDesc = u"""Mebel et al (2004) http:""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -143,7 +143,7 @@ u"""
 entry(
     index = 6,
     label = "CO3t2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u1 p0 c0 {2,S} {3,D}
@@ -158,7 +158,7 @@ multiplicity 3
         S298 = (67.06,'cal/(mol*K)'),
     ),
     shortDesc = u"""Mebel et al (2004) http:""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -167,7 +167,7 @@ u"""
 entry(
     index = 7,
     label = "cyclopropene12diyl",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -183,7 +183,7 @@ multiplicity 3
         S298 = (59.26,'cal/(mol*K)'),
     ),
     shortDesc = u"""doi:10.1016/j.chemphys.2008.01.057 and doi:10.1021/jp003224c""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -192,7 +192,7 @@ u"""
 entry(
     index = 8,
     label = "cyclopropynylidyne",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,T} {3,S}
@@ -207,7 +207,7 @@ multiplicity 2
         S298 = (57.47,'cal/(mol*K)'),
     ),
     shortDesc = u"""doi:10.1016/j.chemphys.2008.01.057 and doi:10.1021/jp003224c""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -216,7 +216,7 @@ u"""
 entry(
     index = 9,
     label = "OCCO(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -230,7 +230,7 @@ entry(
         S298 = (90.63,'cal/(mol*K)'),
     ),
     shortDesc = u"""QCI""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -239,7 +239,7 @@ u"""
 entry(
     index = 10,
     label = "OCCO",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u0 p0 c0 {2,T} {3,S}
@@ -254,7 +254,7 @@ multiplicity 3
         S298 = (61.18,'cal/(mol*K)'),
     ),
     shortDesc = u"""QCI""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -263,7 +263,7 @@ u"""
 entry(
     index = 11,
     label = "C3H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {3,S} {5,S}
@@ -278,7 +278,7 @@ entry(
         S298 = (56.44,'cal/(mol*K)'),
     ),
     shortDesc = u"""Burcat's recommended value for 16165-40-5: C3H2 CYCLOPROPENYLIDENE BI-RADICAL SINGLET on 3/25/2011 (MRH converted from NASA-7 to RMG format)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -287,7 +287,7 @@ u"""
 entry(
     index = 12,
     label = "S2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u1 p2 c0 {2,S}
@@ -300,7 +300,7 @@ multiplicity 3
         S298 = (54.54,'cal/(mol*K)'),
     ),
     shortDesc = u"""from Chase thermo database""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -309,7 +309,7 @@ u"""
 entry(
     index = 13,
     label = "S2(S)",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,D}
 2 S u0 p2 c0 {1,D}
@@ -321,7 +321,7 @@ entry(
         S298 = (53.78,'cal/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3 value A.G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -330,7 +330,7 @@ u"""
 entry(
     index = 14,
     label = "HCS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -344,7 +344,7 @@ multiplicity 2
         S298 = (56.37,'cal/(mol*K)'),
     ),
     shortDesc = u"""NIST value + B3LYP/cbsb7 entropy and heat cap A.G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -353,7 +353,7 @@ u"""
 entry(
     index = 15,
     label = "Ar",
-    molecule = 
+    molecule =
 """
 1 Ar u0 p4 c0
 """,
@@ -366,7 +366,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat Thermo Data""",
-    longDesc = 
+    longDesc =
 u"""
 Ar HF298=0.  REF=C.E. Moore 'Atomic Energy Levels' NSRDS-NBS 35 (1971) p.211
 """,
@@ -375,7 +375,7 @@ Ar HF298=0.  REF=C.E. Moore 'Atomic Energy Levels' NSRDS-NBS 35 (1971) p.211
 entry(
     index = 16,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -389,7 +389,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat Thermo Data""",
-    longDesc = 
+    longDesc =
 u"""
 N2  HF298= 0.0 KJ  REF=TSIV  Max Lst Sq Error Cp @ 6000 K 0.29%
 """,
@@ -398,7 +398,7 @@ N2  HF298= 0.0 KJ  REF=TSIV  Max Lst Sq Error Cp @ 6000 K 0.29%
 entry(
     index = 17,
     label = "He",
-    molecule = 
+    molecule =
 """
 1 He u0 p1 c0
 """,
@@ -411,7 +411,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat Thermo Data""",
-    longDesc = 
+    longDesc =
 u"""
 McBride, Heimel, Ehlers & Gordon "Thermodynamic Properties to 6000 K", 1963.
 """,
@@ -420,7 +420,7 @@ McBride, Heimel, Ehlers & Gordon "Thermodynamic Properties to 6000 K", 1963.
 entry(
     index = 18,
     label = "C(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p2 c0
 """,
@@ -431,7 +431,7 @@ entry(
         S298 = (33.393,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -442,7 +442,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 19,
     label = "C(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p1 c0
@@ -454,7 +454,7 @@ multiplicity 3
         S298 = (35.576,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -465,7 +465,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 20,
     label = "CH2(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -478,7 +478,7 @@ entry(
         S298 = (45.197,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -489,7 +489,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 21,
     label = "CH2(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -503,7 +503,7 @@ multiplicity 3
         S298 = (46.636,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -514,7 +514,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 22,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -529,7 +529,7 @@ entry(
         S298 = (44.473,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -540,7 +540,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 23,
     label = "NH(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 N u2 p1 c0 {2,S}
@@ -553,7 +553,7 @@ multiplicity 3
         S298 = (43.265,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -564,7 +564,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 24,
     label = "NH2(D)",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,S} {3,S}
@@ -578,7 +578,7 @@ multiplicity 2
         S298 = (46.516,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -589,7 +589,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 25,
     label = "NH3",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 H u0 p0 c0 {1,S}
@@ -603,7 +603,7 @@ entry(
         S298 = (45.986,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -614,7 +614,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 26,
     label = "O(S)",
-    molecule = 
+    molecule =
 """
 1 O u0 p3 c0
 """,
@@ -625,7 +625,7 @@ entry(
         S298 = (34.25,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -636,7 +636,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 27,
     label = "O(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -648,7 +648,7 @@ multiplicity 3
         S298 = (38.49,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -659,7 +659,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 28,
     label = "OH(D)",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -672,7 +672,7 @@ multiplicity 2
         S298 = (43.958,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -683,7 +683,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 29,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -696,7 +696,7 @@ entry(
         S298 = (45.084,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298: ATcT version 1.110
 level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
@@ -707,7 +707,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 entry(
     index = 30,
     label = "Cl2",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 Cl u0 p3 c0 {1,S}
@@ -721,11 +721,11 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat Thermo Data""",
-    longDesc = 
+    longDesc =
 u"""
 Burcat Thermo Data
 
-REFERENCE ELEMENT REF=Gurvich 1989 V1 py.1 p.177 HF298=0.00 kcal Max Lst 
+REFERENCE ELEMENT REF=Gurvich 1989 V1 py.1 p.177 HF298=0.00 kcal Max Lst
 Sq Error Cp @ 6000 **1.26%** (Cp @ 700 K 0.08%)
 """,
 )
@@ -733,7 +733,7 @@ Sq Error Cp @ 6000 **1.26%** (Cp @ 700 K 0.08%)
 entry(
     index = 31,
     label = "Cl",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Cl u1 p3 c0
@@ -747,7 +747,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat Thermo Data""",
-    longDesc = 
+    longDesc =
 u"""
 Burcat Thermo Data
 
@@ -759,7 +759,7 @@ HF298=121.302+/-0.008 kJ HF0=119.633+/- 0.008 kJ  REF=JANAF  {HF298=121.302
 entry(
     index = 32,
     label = "HCl",
-    molecule = 
+    molecule =
 """
 1 Cl u0 p3 c0 {2,S}
 2 H  u0 p0 c0 {1,S}
@@ -773,12 +773,12 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat Thermo Data""",
-    longDesc = 
+    longDesc =
 u"""
 Burcat Thermo Data
 
 HYDROCHLORIC ACID CALCULATED FROM ORIGINAL TABLES  REF=Gurvich 1989
-HF298=-92.31 kJ {HF298=-92.17+/-0.006 kJ   REF=ATcT C}  Max Lst Sq Error Cp @ 
+HF298=-92.31 kJ {HF298=-92.17+/-0.006 kJ   REF=ATcT C}  Max Lst Sq Error Cp @
 6000 K 0.17%
 """,
 )
@@ -786,7 +786,7 @@ HF298=-92.31 kJ {HF298=-92.17+/-0.006 kJ   REF=ATcT C}  Max Lst Sq Error Cp @
 entry(
     index = 33,
     label = "Ne",
-    molecule = 
+    molecule =
 """
 1 Ne u0 p4 c0
 """,
@@ -799,7 +799,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""Burcat Thermo Data""",
-    longDesc = 
+    longDesc =
 u"""
 McBride, Heimel, Ehlers & Gordon, "Thermodynamic Properties to 6000 K", 1963.
 """,
@@ -808,7 +808,7 @@ McBride, Heimel, Ehlers & Gordon, "Thermodynamic Properties to 6000 K", 1963.
 entry(
     index = 34,
     label = "ONHN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p3 c-1 {2,S}
@@ -828,7 +828,7 @@ multiplicity 2
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = u"""CBS-QB3""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -837,7 +837,7 @@ u"""
 entry(
     index = 35,
     label = "O3",
-    molecule = 
+    molecule =
 """
 1 O u0 p3 c-1 {2,S}
 2 O u0 p1 c+1 {1,S} {3,D}
@@ -852,7 +852,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Ozone
 Taken from the GlarborgH2S thermo library,
@@ -863,7 +863,7 @@ in agreement with the data by Burcat et al. (H298 = 34.10 kcal/mol in GlarborgH2
 entry(
     index = 36,
     label = "SO(S)",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,D}
 2 O u0 p2 c0 {1,D}
@@ -875,7 +875,7 @@ entry(
         S298 = (53.01,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 H298 taken from absorption energy of O2: 7882 cm^-1 = 22.54 kcal/mol, and was added to H298 of SO(T)
 S and Cp taken from the values for triplet SO
@@ -887,7 +887,7 @@ Laboratories, Livermore, California, 1991
 entry(
     index = 37,
     label = "HF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -904,7 +904,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = u"""71STUPRO JANAF 2nd ed. (1971)""",
-    longDesc = 
+    longDesc =
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -920,7 +920,7 @@ http://dx.doi.org/10.6028/NBS.NSRDS.37
 entry(
     index = 38,
     label = "F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u1 p3 c0
@@ -937,7 +937,7 @@ multiplicity 2
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = u"""71STUPRO JANAF 2nd ed. (1971)""",
-    longDesc = 
+    longDesc =
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -955,7 +955,7 @@ The data pre-date 1954.
 entry(
     index = 39,
     label = "Br2",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {2,S}
 2 Br u0 p3 c0 {1,S}
@@ -972,7 +972,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """Burcat""",
-    longDesc = 
+    longDesc =
 """
 BrBr
 7726-95-6
@@ -987,7 +987,7 @@ Max Lst Sq Error Cp @ 6000 K 0.36 %.
 entry(
     index = 40,
     label = "HBr",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {2,S}
 2 H  u0 p0 c0 {1,S}
@@ -1004,14 +1004,14 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """Burcat""",
-    longDesc = 
+    longDesc =
 """
 From Burcat's thermo http://garfield.chem.elte.hu/Burcat/BURCAT.THR
 which has been matched to ATcT version 1.112 Core ARGONNE 4.2.2011
 10035-10-6
 HBr HYDROBROMIC ACID CALCULATED FROM ORIGINAL TABLES  REF=Shenyavskaya & Yougman
 JPCRD 33,(2004),923  HF298=-35.85+/-0.15 kJ  REF=ATcT C  {HF298=-36.05+/-0.15 kJ
-REF=Ruscic ATcT D;  HF298=-36.29+/-0.16 kJ  REF=Gurvich 89}  Max Lst Sq Error Cp 
+REF=Ruscic ATcT D;  HF298=-36.29+/-0.16 kJ  REF=Gurvich 89}  Max Lst Sq Error Cp
 @ 6000 K 0.33%
 """,
 )
@@ -1019,7 +1019,7 @@ REF=Ruscic ATcT D;  HF298=-36.29+/-0.16 kJ  REF=Gurvich 89}  Max Lst Sq Error Cp
 entry(
     index = 41,
     label = "Br",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u1 p3 c0
@@ -1036,7 +1036,7 @@ multiplicity 2
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = """Burcat""",
-    longDesc = 
+    longDesc =
 """
 From Burcat's thermo http://garfield.chem.elte.hu/Burcat/BURCAT.THR
 which has been matched to ATcT version 1.112 Core ARGONNE 4.2.2011
@@ -1049,7 +1049,7 @@ BR   Calculated by Ruscic ATcT C  HF298=111.852+/-0.06 kJ  REF=ATcT C
 entry(
     index = 42,
     label = "F2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 F u0 p3 c0 {1,S}
@@ -1066,7 +1066,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = u"""71STUPRO JANAF 2nd ed. (1971)""",
-    longDesc = 
+    longDesc =
 u"""
 71STUPRO
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1084,7 +1084,7 @@ http://dx.doi.org/10.6028/NBS.NSRDS.37
 entry(
     index = 43,
     label = "NOJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -1097,7 +1097,7 @@ multiplicity 2
         S298 = (49.02,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1106,7 +1106,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 44,
     label = "NO2J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,D} {3,S}
@@ -1120,7 +1120,7 @@ multiplicity 2
         S298 = (57.31,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1129,7 +1129,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 45,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
@@ -1141,7 +1141,7 @@ entry(
         S298 = (47.2,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1150,7 +1150,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 46,
     label = "OCCCO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,D}
 2 O u0 p2 c0 {5,D}
@@ -1167,7 +1167,7 @@ entry(
         Tmax = (3000, 'K'),
     ),
     shortDesc = u"""G4 calculation""",
-    longDesc = 
+    longDesc =
 u"""
 # Coordinates for 1 in Input Orientation (angstroms):
 #   O    0.0883   -2.4210    0.0000

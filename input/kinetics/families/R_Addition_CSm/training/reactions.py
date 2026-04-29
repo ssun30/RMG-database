@@ -21,7 +21,7 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CSm;Y_rad
 """,
@@ -41,7 +41,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Guessed from CO+H_rad""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CSm;H_rad
 """,
@@ -61,7 +61,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC CBS-QB3 calc (using methyl group), HO Approx""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CSm;C_methyl
 """,
@@ -81,7 +81,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CAC CBS-QB3 calc (using ethyl group), HO approx""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CSm;CH2CH3
 """,

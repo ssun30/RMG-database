@@ -40,7 +40,7 @@ entry(
 entry(
     index = 1,
     label = "linear_1_3_hexadien_5_yne",
-    group = 
+    group =
 """
 1  *3 Cd u0 {2,S} {3,D} {8,S}
 2  *2 Cd u0 {1,S} {4,D} {7,S}

@@ -9,7 +9,7 @@ Done by B. Buesser using DFT and CCSDTF12 using or deriving bond additvity corre
 entry(
     index = 0,
     label = "CH2(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -22,7 +22,7 @@ entry(
         S298 = (45.19,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -31,7 +31,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 1,
     label = "CH2(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -45,7 +45,7 @@ multiplicity 3
         S298 = (46.64,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -54,7 +54,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 2,
     label = "CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -69,7 +69,7 @@ multiplicity 2
         S298 = (46.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -78,7 +78,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 3,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -93,7 +93,7 @@ entry(
         S298 = (44.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -102,7 +102,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 4,
     label = "OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -115,7 +115,7 @@ multiplicity 2
         S298 = (43.96,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC ===
 ! NOTE THAT multiplicity = 4 because we do not account for the spin orbit coupling; hence 2 for spin degeneracy and 2 for spatial degeneracy.
@@ -125,7 +125,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC ===
 entry(
     index = 5,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -138,7 +138,7 @@ entry(
         S298 = (45.08,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -147,7 +147,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 6,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
@@ -159,7 +159,7 @@ entry(
         S298 = (47.2,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -168,7 +168,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 7,
     label = "HCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -182,7 +182,7 @@ multiplicity 2
         S298 = (52.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -191,7 +191,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 8,
     label = "CH2O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -205,7 +205,7 @@ entry(
         S298 = (52.23,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -214,7 +214,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 9,
     label = "HCOH(S)",
-    molecule = 
+    molecule =
 """
 1 O u0 p1 c+1 {2,D} {4,S}
 2 C u0 p1 c-1 {1,D} {3,S}
@@ -228,7 +228,7 @@ entry(
         S298 = (53.75,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -237,7 +237,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 10,
     label = "CH3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -253,7 +253,7 @@ multiplicity 2
         S298 = (54.47,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -262,7 +262,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 11,
     label = "CH2OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -278,7 +278,7 @@ multiplicity 2
         S298 = (58.18,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -287,7 +287,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 12,
     label = "CH3OH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -303,7 +303,7 @@ entry(
         S298 = (57.4,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -312,7 +312,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 13,
     label = "HO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -326,7 +326,7 @@ multiplicity 2
         S298 = (54.68,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -335,7 +335,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 14,
     label = "HOOH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -349,7 +349,7 @@ entry(
         S298 = (55.93,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -358,7 +358,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 15,
     label = "CO2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 O u0 p2 c0 {1,D}
@@ -371,7 +371,7 @@ entry(
         S298 = (51.07,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -380,7 +380,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 16,
     label = "HOCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,D}
@@ -395,7 +395,7 @@ multiplicity 2
         S298 = (60.25,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -404,7 +404,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 17,
     label = "formyloxy",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -419,7 +419,7 @@ multiplicity 2
         S298 = (61.15,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -428,7 +428,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 18,
     label = "formic_acid",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -443,7 +443,7 @@ entry(
         S298 = (59.54,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -452,7 +452,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 19,
     label = "CH3OO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -469,7 +469,7 @@ multiplicity 2
         S298 = (64.49,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -478,7 +478,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 20,
     label = "CH3OOH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -495,7 +495,7 @@ entry(
         S298 = (62.98,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -504,7 +504,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 21,
     label = "HC2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,T}
@@ -518,7 +518,7 @@ multiplicity 2
         S298 = (51.43,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -527,7 +527,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 22,
     label = "C2H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -541,7 +541,7 @@ entry(
         S298 = (47.81,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -550,7 +550,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 23,
     label = "H2CC(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p1 c0 {1,D}
@@ -564,7 +564,7 @@ entry(
         S298 = (53.15,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -573,7 +573,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 24,
     label = "C2H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -589,7 +589,7 @@ multiplicity 2
         S298 = (55.86,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -598,7 +598,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 25,
     label = "CCH3",
-    molecule = 
+    molecule =
 """
 multiplicity 4
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -614,7 +614,7 @@ multiplicity 4
         S298 = (55.71,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -623,7 +623,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 26,
     label = "C2H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -639,7 +639,7 @@ entry(
         S298 = (52.33,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -648,7 +648,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 27,
     label = "CHCH3(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p1 c0 {1,S} {6,S}
@@ -664,7 +664,7 @@ entry(
         S298 = (89.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -673,7 +673,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 28,
     label = "C2H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -691,7 +691,7 @@ multiplicity 2
         S298 = (59.19,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -700,7 +700,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 29,
     label = "C2H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -718,7 +718,7 @@ entry(
         S298 = (54.85,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -727,7 +727,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 30,
     label = "C2O(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,D}
@@ -741,7 +741,7 @@ multiplicity 3
         S298 = (55.88,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -750,7 +750,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 31,
     label = "HCCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {4,S}
@@ -765,7 +765,7 @@ multiplicity 2
         S298 = (58.85,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -774,7 +774,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 32,
     label = "HCN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,T}
 2 H u0 p0 c0 {1,S}
@@ -787,7 +787,7 @@ entry(
         S298 = (48.09,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -796,7 +796,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 33,
     label = "HNC",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,T}
 2 H u0 p0 c0 {1,S}
@@ -809,7 +809,7 @@ entry(
         S298 = (48.94,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -818,7 +818,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 34,
     label = "HNCO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 C u0 p0 c0 {1,D} {4,D}
@@ -832,7 +832,7 @@ entry(
         S298 = (57.02,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -841,7 +841,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 35,
     label = "HOCN",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -855,7 +855,7 @@ entry(
         S298 = (57.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -864,7 +864,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 36,
     label = "HCNO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 N u0 p0 c+1 {1,T} {4,S}
@@ -878,7 +878,7 @@ entry(
         S298 = (56.02,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -887,7 +887,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 37,
     label = "HONC",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 N u0 p0 c+1 {1,S} {4,T}
@@ -901,7 +901,7 @@ entry(
         S298 = (59.45,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -910,7 +910,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 38,
     label = "HNCNJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,D} {3,S}
@@ -925,7 +925,7 @@ multiplicity 2
         S298 = (58.97,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -934,7 +934,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 39,
     label = "CH_NO2_3",
-    molecule = 
+    molecule =
 """
 1  H u0 p0 c0 {2,S}
 2  C u0 p0 c0 {1,S} {3,S} {6,S} {9,S}
@@ -955,7 +955,7 @@ entry(
         S298 = (97.8,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -964,7 +964,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 40,
     label = "CH2NJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -979,7 +979,7 @@ multiplicity 2
         S298 = (53.54,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -988,7 +988,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 41,
     label = "HCNHJ_cis",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -1003,7 +1003,7 @@ multiplicity 2
         S298 = (54.74,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1012,7 +1012,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 42,
     label = "CH2NOJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u0 p0 c0 {3,S}
@@ -1028,7 +1028,7 @@ multiplicity 2
         S298 = (60.57,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 """,
@@ -1037,7 +1037,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 entry(
     index = 43,
     label = "CH2NO2J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u0 p0 c0 {3,S}
@@ -1054,7 +1054,7 @@ multiplicity 2
         S298 = (64.37,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine rotor fit
 """,
@@ -1063,7 +1063,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine roto
 entry(
     index = 44,
     label = "CH2NN",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {3,S}
 2 H u0 p0 c0 {3,S}
@@ -1078,7 +1078,7 @@ entry(
         S298 = (57.82,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1087,7 +1087,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 45,
     label = "CH2_NO2_2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {3,S}
 2 H u0 p0 c0 {3,S}
@@ -1106,7 +1106,7 @@ entry(
         S298 = (82.87,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1115,7 +1115,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 46,
     label = "CH3NJJ",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1131,7 +1131,7 @@ multiplicity 3
         S298 = (54.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1140,7 +1140,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 47,
     label = "CH3NO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {6,D}
@@ -1156,7 +1156,7 @@ entry(
         S298 = (62.7,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1165,7 +1165,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 48,
     label = "HOCHNH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -1181,7 +1181,7 @@ entry(
         S298 = (60.45,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1190,7 +1190,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 49,
     label = "CH3NO2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p0 c+1 {1,S} {6,D} {7,S}
@@ -1207,7 +1207,7 @@ entry(
         S298 = (65.74,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1216,7 +1216,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 50,
     label = "CH3ONO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -1233,7 +1233,7 @@ entry(
         S298 = (69.74,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1242,7 +1242,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 51,
     label = "CH3ONO2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -1260,7 +1260,7 @@ entry(
         S298 = (72.17,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1269,7 +1269,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 52,
     label = "CH3NNJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1286,7 +1286,7 @@ multiplicity 2
         S298 = (63.52,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1295,7 +1295,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 53,
     label = "CH2NNHJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {4,S} {5,S}
@@ -1312,7 +1312,7 @@ multiplicity 2
         S298 = (96.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1321,7 +1321,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 54,
     label = "CH3NHJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1338,7 +1338,7 @@ multiplicity 2
         S298 = (58.86,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1347,7 +1347,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 55,
     label = "CH2NH2J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -1364,7 +1364,7 @@ multiplicity 2
         S298 = (58.64,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1373,7 +1373,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 56,
     label = "CH3NH2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -1390,7 +1390,7 @@ entry(
         S298 = (57.94,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1399,7 +1399,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 57,
     label = "CH3NHNH2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -1418,7 +1418,7 @@ entry(
         S298 = (66.04,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1427,7 +1427,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 58,
     label = "CNJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,T}
@@ -1440,7 +1440,7 @@ multiplicity 2
         S298 = (48.37,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1449,7 +1449,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 59,
     label = "NCOJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,T} {3,S}
@@ -1463,7 +1463,7 @@ multiplicity 2
         S298 = (54.14,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1472,7 +1472,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 60,
     label = "CNNJJ",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 N u0 p0 c+1 {2,T} {3,S}
@@ -1486,7 +1486,7 @@ multiplicity 3
         S298 = (55.44,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1495,7 +1495,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 61,
     label = "NCNJJ",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u0 p0 c0 {2,D} {3,D}
@@ -1509,7 +1509,7 @@ multiplicity 3
         S298 = (53.91,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1518,7 +1518,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 62,
     label = "C_NO2_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {8,S} {11,S}
 2  N u0 p0 c+1 {1,S} {3,D} {4,S}
@@ -1541,7 +1541,7 @@ entry(
         S298 = (102,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1550,7 +1550,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 63,
     label = "HCCNJJ",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 H u0 p0 c0 {2,S}
@@ -1565,7 +1565,7 @@ multiplicity 3
         S298 = (59.29,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1574,7 +1574,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 64,
     label = "CH2CNJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -1590,7 +1590,7 @@ multiplicity 2
         S298 = (59.32,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1599,7 +1599,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 65,
     label = "CH2NCJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -1615,7 +1615,7 @@ multiplicity 2
         S298 = (59.93,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1624,7 +1624,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 66,
     label = "CH3CN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,T}
@@ -1640,7 +1640,7 @@ entry(
         S298 = (57.99,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1649,7 +1649,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 67,
     label = "CH3NC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 N u0 p0 c+1 {1,S} {6,T}
@@ -1665,7 +1665,7 @@ entry(
         S298 = (58.79,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1674,7 +1674,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 68,
     label = "C2H5NO2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  H u0 p0 c0 {1,S}
@@ -1694,7 +1694,7 @@ entry(
         S298 = (75.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1703,7 +1703,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 69,
     label = "C2H5NNN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1723,7 +1723,7 @@ multiplicity 2
         S298 = (75.69,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1732,7 +1732,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 70,
     label = "CH3_2_NNO2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -1754,7 +1754,7 @@ entry(
         S298 = (114.26,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, one rigid rotor
 """,
@@ -1763,7 +1763,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, one rigid r
 entry(
     index = 71,
     label = "CH3NHCH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  H u0 p0 c0 {1,S}
@@ -1783,7 +1783,7 @@ entry(
         S298 = (65.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1792,7 +1792,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 72,
     label = "N_CH3_2_NH2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {9,S}
 2  H u0 p0 c0 {1,S}
@@ -1814,7 +1814,7 @@ entry(
         S298 = (73.18,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1823,7 +1823,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 73,
     label = "NCCN",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -1837,7 +1837,7 @@ entry(
         S298 = (57.22,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1846,7 +1846,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 74,
     label = "NO2CCNO2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {6,S}
@@ -1864,7 +1864,7 @@ entry(
         S298 = (87.93,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1873,7 +1873,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 75,
     label = "HCCCN",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -1888,7 +1888,7 @@ entry(
         S298 = (59.4,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1897,7 +1897,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 76,
     label = "C3H7CN",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  H u0 p0 c0 {1,S}
@@ -1919,7 +1919,7 @@ entry(
         S298 = (78.68,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1928,7 +1928,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 77,
     label = "C4H9NO2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  H u0 p0 c0 {1,S}
@@ -1954,7 +1954,7 @@ entry(
         S298 = (95.2,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1963,7 +1963,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 78,
     label = "HONO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -1977,7 +1977,7 @@ entry(
         S298 = (59.89,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -1986,7 +1986,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 79,
     label = "NO2OH",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -2001,7 +2001,7 @@ entry(
         S298 = (63.76,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2010,7 +2010,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 80,
     label = "NHJJ",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 H u0 p0 c0 {2,S}
@@ -2023,7 +2023,7 @@ multiplicity 3
         S298 = (43.27,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2032,7 +2032,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 81,
     label = "NH2J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u0 p0 c0 {3,S}
@@ -2046,7 +2046,7 @@ multiplicity 2
         S298 = (46.52,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2055,7 +2055,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 82,
     label = "NH2OJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -2070,7 +2070,7 @@ multiplicity 2
         S298 = (62.54,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2079,7 +2079,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 83,
     label = "NH3",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {3,S}
 2 H u0 p0 c0 {3,S}
@@ -2093,7 +2093,7 @@ entry(
         S298 = (45.99,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2102,7 +2102,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 84,
     label = "NH2OH",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {3,S}
 2 H u0 p0 c0 {3,S}
@@ -2117,7 +2117,7 @@ entry(
         S298 = (56.05,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2126,7 +2126,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 85,
     label = "NOJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -2139,7 +2139,7 @@ multiplicity 2
         S298 = (49.02,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2148,7 +2148,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 86,
     label = "NO2J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p0 c+1 {2,D} {3,S}
@@ -2162,7 +2162,7 @@ multiplicity 2
         S298 = (57.31,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2171,7 +2171,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 87,
     label = "NO3J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
@@ -2186,7 +2186,7 @@ multiplicity 2
         S298 = (62.57,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2195,7 +2195,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 88,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -2207,7 +2207,7 @@ entry(
         S298 = (45.75,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2216,7 +2216,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 89,
     label = "NNHJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u0 p0 c0 {2,S}
@@ -2230,7 +2230,7 @@ multiplicity 2
         S298 = (53.59,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2239,7 +2239,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 90,
     label = "HNNH",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -2253,7 +2253,7 @@ entry(
         S298 = (52.1,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2262,7 +2262,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 91,
     label = "NH2NO2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p0 c+1 {1,S} {5,D} {6,S}
@@ -2278,7 +2278,7 @@ entry(
         S298 = (63.58,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine rotor fit
 """,
@@ -2287,7 +2287,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine roto
 entry(
     index = 92,
     label = "NH2NHJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -2303,7 +2303,7 @@ multiplicity 2
         S298 = (56.51,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, rigid scan
 """,
@@ -2312,7 +2312,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, rigid scan
 entry(
     index = 93,
     label = "NH2NH2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 H u0 p0 c0 {1,S}
@@ -2328,7 +2328,7 @@ entry(
         S298 = (56.84,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2337,7 +2337,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 94,
     label = "N2O",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,D} {3,D}
 2 N u0 p2 c-1 {1,D}
@@ -2350,7 +2350,7 @@ entry(
         S298 = (52.59,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2359,7 +2359,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 95,
     label = "NO2NO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
 2 N u0 p1 c0 {1,S} {5,D}
@@ -2374,7 +2374,7 @@ entry(
         S298 = (71.97,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2383,7 +2383,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 96,
     label = "NO2NO2",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
 2 N u0 p0 c+1 {1,S} {5,D} {6,S}
@@ -2399,7 +2399,7 @@ entry(
         S298 = (73.98,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2408,7 +2408,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 97,
     label = "NO2ONO2",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {3,S} {4,D} {5,S}
 2 N u0 p0 c+1 {3,S} {6,D} {7,S}
@@ -2425,7 +2425,7 @@ entry(
         S298 = (84.17,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2434,7 +2434,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 98,
     label = "NNNJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,D}
@@ -2448,7 +2448,7 @@ multiplicity 2
         S298 = (52.64,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2457,7 +2457,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 99,
     label = "HNNN",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -2471,7 +2471,7 @@ entry(
         S298 = (57.18,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2480,7 +2480,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 100,
     label = "NO2ONO",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {4,D} {5,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -2496,7 +2496,7 @@ entry(
         S298 = (76.44,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2505,7 +2505,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 101,
     label = "NNH2(S)",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,S} {4,D}
 2 H u0 p0 c0 {1,S}
@@ -2519,7 +2519,7 @@ entry(
         S298 = (52.09,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2528,7 +2528,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 102,
     label = "HNOHJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u1 p1 c0 {2,S} {3,S}
@@ -2543,7 +2543,7 @@ multiplicity 2
         S298 = (55.78,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2552,7 +2552,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 103,
     label = "NOHJJ",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u0 p2 c0 {2,S} {3,S}
@@ -2566,7 +2566,7 @@ multiplicity 3
         S298 = (55.14,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2575,7 +2575,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 104,
     label = "HNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 H u0 p0 c0 {1,S}
@@ -2588,7 +2588,7 @@ entry(
         S298 = (52.71,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2597,7 +2597,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 105,
     label = "N_CH3_3",
-    molecule = 
+    molecule =
 """
 1  N u0 p1 c0 {2,S} {6,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -2620,7 +2620,7 @@ entry(
         S298 = (70.34,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2629,7 +2629,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 106,
     label = "CNOJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {3,D}
@@ -2643,7 +2643,7 @@ multiplicity 2
         S298 = (55.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2652,7 +2652,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 107,
     label = "CH2NH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 N u0 p1 c0 {1,D} {5,S}
@@ -2667,7 +2667,7 @@ entry(
         S298 = (54.25,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2676,7 +2676,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 108,
     label = "ONNO_cis",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -2690,7 +2690,7 @@ entry(
         S298 = (63.86,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2699,7 +2699,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 109,
     label = "ONNOJJ_cis",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 N u0 p1 c0 {2,D} {3,S}
@@ -2714,7 +2714,7 @@ multiplicity 3
         S298 = (69.6,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 """,
@@ -2723,7 +2723,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 entry(
     index = 110,
     label = "HCNN",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -2738,7 +2738,7 @@ multiplicity 2
         S298 = (58.8,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2747,7 +2747,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 111,
     label = "ONOONO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -2763,7 +2763,7 @@ entry(
         S298 = (76.59,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no O-O rotor
 """,
@@ -2772,7 +2772,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no O-O roto
 entry(
     index = 112,
     label = "HNO2",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {3,D} {4,S}
 2 H u0 p0 c0 {1,S}
@@ -2786,7 +2786,7 @@ entry(
         S298 = (58.29,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2795,7 +2795,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 113,
     label = "HNO2JJ",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -2810,7 +2810,7 @@ multiplicity 3
         S298 = (61.74,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, MOLPRO NoSym
 """,
@@ -2819,7 +2819,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, MOLPRO NoSy
 entry(
     index = 114,
     label = "ONOOH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -2834,7 +2834,7 @@ entry(
         S298 = (69.93,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2843,7 +2843,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 115,
     label = "ONONO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 N u0 p1 c0 {1,S} {4,D}
@@ -2858,7 +2858,7 @@ entry(
         S298 = (69.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2867,7 +2867,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 116,
     label = "NO2OOH",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -2883,7 +2883,7 @@ entry(
         S298 = (72.62,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2892,7 +2892,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 117,
     label = "ONOOJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,D}
@@ -2907,7 +2907,7 @@ multiplicity 2
         S298 = (70.59,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//PBEPBE/6-311++g(d,p) + BAC, bad geometry, no rotors
 """,
@@ -2916,7 +2916,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//PBEPBE/6-311++g(d,p) + BAC, bad geomet
 entry(
     index = 118,
     label = "NO2OOJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
@@ -2932,7 +2932,7 @@ multiplicity 2
         S298 = (72.78,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//PBEPBE/6-311++g(d,p) + BAC, bad geometry
 """,
@@ -2941,7 +2941,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//PBEPBE/6-311++g(d,p) + BAC, bad geomet
 entry(
     index = 119,
     label = "HNOO",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 N u1 p1 c0 {2,S} {3,S}
@@ -2956,7 +2956,7 @@ multiplicity 3
         S298 = (66.33,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -2965,7 +2965,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 120,
     label = "NH2OOH",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -2981,7 +2981,7 @@ entry(
         S298 = (64.58,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, NH2 rotor rigid scan
 """,
@@ -2990,7 +2990,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, NH2 rotor r
 entry(
     index = 121,
     label = "CH3N(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -3005,7 +3005,7 @@ entry(
         S298 = (54.66,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3014,7 +3014,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 122,
     label = "NH2OOJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -3030,7 +3030,7 @@ multiplicity 2
         S298 = (66.06,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3039,7 +3039,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 123,
     label = "NCNO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -3053,7 +3053,7 @@ entry(
         S298 = (64.55,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 """,
@@ -3062,7 +3062,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, no rotors
 entry(
     index = 124,
     label = "HONNOH",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -3078,7 +3078,7 @@ entry(
         S298 = (65.75,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3087,7 +3087,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 125,
     label = "HNOHOH",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -3103,7 +3103,7 @@ entry(
         S298 = (63.43,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3112,7 +3112,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 126,
     label = "HNC(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 N u0 p1 c0 {2,S} {3,D}
@@ -3126,7 +3126,7 @@ multiplicity 3
         S298 = (54.32,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3135,7 +3135,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 127,
     label = "HNCJJ(S",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,D}
 2 H u0 p0 c0 {1,S}
@@ -3148,7 +3148,7 @@ entry(
         S298 = (48.94,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3157,7 +3157,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 128,
     label = "HCNOJJ",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u1 p0 c0 {2,D} {3,S}
@@ -3172,7 +3172,7 @@ multiplicity 3
         S298 = (62.37,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3181,7 +3181,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 129,
     label = "NCCOJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,T}
@@ -3196,7 +3196,7 @@ multiplicity 2
         S298 = (65.16,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3205,7 +3205,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 130,
     label = "HNNOH",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,D} {3,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -3220,7 +3220,7 @@ entry(
         S298 = (61.24,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3229,7 +3229,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 131,
     label = "ONOONO2",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,S} {5,D} {6,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -3246,7 +3246,7 @@ entry(
         S298 = (84.3,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3255,7 +3255,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 132,
     label = "NO2OONO2",
-    molecule = 
+    molecule =
 """
 1 N u0 p0 c+1 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -3273,7 +3273,7 @@ entry(
         S298 = (85.26,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3282,7 +3282,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 133,
     label = "CH3NNN",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -3299,7 +3299,7 @@ entry(
         S298 = (67.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3308,7 +3308,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 134,
     label = "HNNNH2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {4,S} {5,S}
 2 N u0 p1 c0 {1,S} {3,D}
@@ -3324,7 +3324,7 @@ entry(
         S298 = (59.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine rotor fit
 """,
@@ -3333,7 +3333,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, cosine roto
 entry(
     index = 135,
     label = "NH2NHOJ",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
@@ -3350,7 +3350,7 @@ multiplicity 2
         S298 = (64.2,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3359,7 +3359,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 136,
     label = "CH3C_NO2_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -3383,7 +3383,7 @@ entry(
         S298 = (98.37,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3392,7 +3392,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 137,
     label = "CH3NONOCH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -3414,7 +3414,7 @@ entry(
         S298 = (79.86,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, not N=N rotor
 """,
@@ -3423,7 +3423,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC, not N=N rot
 entry(
     index = 138,
     label = "CH_NO2_2J",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -3442,7 +3442,7 @@ multiplicity 2
         S298 = (85.95,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3451,7 +3451,7 @@ level of theory: CCSD(T)F12A/cc-pVDZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 139,
     label = "NH2NO",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,S} {3,S} {4,S}
 2 N u0 p1 c0 {1,S} {5,D}
@@ -3466,7 +3466,7 @@ entry(
         S298 = (59.74,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,
@@ -3475,7 +3475,7 @@ level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 entry(
     index = 140,
     label = "NNOJJ",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 N u0 p1 c0 {2,D} {3,S}
@@ -3489,7 +3489,7 @@ multiplicity 3
         S298 = (59.97,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 level of theory: CCSD(T)F12A/cc-pVTZ-F12//B3LYP/6-311++g(d,p) + BAC
 """,

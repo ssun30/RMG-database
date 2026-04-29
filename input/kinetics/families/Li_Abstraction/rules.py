@@ -14,7 +14,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 2 training reactions at node Root
 Total Standard Deviation in ln(k): 7.562664269461141""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 2 training reactions at node Root
 Total Standard Deviation in ln(k): 7.562664269461141
@@ -29,7 +29,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_2ClF->F
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_2ClF->F
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -44,7 +44,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-2ClF->F
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-2ClF->F
 Total Standard Deviation in ln(k): 11.540182761524994

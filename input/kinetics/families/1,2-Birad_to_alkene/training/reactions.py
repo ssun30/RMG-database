@@ -14,7 +14,7 @@ entry(
     reversible = False,
     kinetics = Arrhenius(A=(1e+10, 's^-1'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     rank = 1,
-    longDesc = 
+    longDesc =
 u"""
 taken from:
 F.B. Wampler, K. Otsuka, J.G. Calvert, E.K. Damon, Int. J. Chem. Kin., 1973, 5(4), 669-690, doi: 10.1002/kin.550050417
@@ -39,7 +39,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""see description above""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_12_00
 """,
@@ -60,7 +60,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""see description above""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_12_10
 """,
@@ -81,7 +81,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""see description above""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_12_30
 """,
@@ -102,7 +102,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""see description above""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_12_40
 """,
@@ -123,7 +123,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""see description above""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_12_01
 """,
@@ -144,7 +144,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""see description above""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_12_03
 """,
@@ -165,7 +165,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""see description above""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_12_04
 """,
@@ -186,7 +186,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""see description above""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_12_13
 """,
@@ -207,7 +207,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""see description above""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_12_31
 """,

@@ -43,7 +43,7 @@ entry(
     index = 4,
     label = "O2 + DMSO2H <=> DMSO2 + OOH",
     degeneracy = 2,
-    kinetics = Arrhenius(A=(6.80e+2, 'cm^3/(mol*s)'), n=2.54, Ea=(9.81, 'kJ/mol'), T0=(1, 'K')), 
+    kinetics = Arrhenius(A=(6.80e+2, 'cm^3/(mol*s)'), n=2.54, Ea=(9.81, 'kJ/mol'), T0=(1, 'K')),
     longDesc =
 u"""
 Calculation by Ryan Gillis in July 2019
@@ -54,10 +54,10 @@ entry(
     index = 5,
     label = "OH + DMSO  <=> DMSO2H",
     degeneracy = 1,
-   kinetics = Arrhenius(A=(7.23e+12, 'cm^3/(mol*s)'), n=0, Ea=(3, 'kJ/mol'), T0=(1, 'K')), 
+   kinetics = Arrhenius(A=(7.23e+12, 'cm^3/(mol*s)'), n=0, Ea=(3, 'kJ/mol'), T0=(1, 'K')),
     longDesc =
 u"""
-#Analogy to... 
+#Analogy to...
 
 Author(s):   Fulle, D.; Hamann, H.F.; Hippler, H.
 Title:   The Pressure and Temperature Dependence of the Recombination Reaction HO· + SO2 + M → HOSO2· + M
@@ -72,7 +72,7 @@ entry(
     kinetics = Arrhenius(A=(1.14E+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
     longDesc =
 u"""
-#Analogy to... 
+#Analogy to...
 
 Author(s):   Koch, L.C.; Marshall, P.; Ravishankara, A.R.
 Title:   An investigation of the reaction of CH3S with CO
@@ -210,7 +210,7 @@ entry(
     kinetics = Arrhenius(A=(1.547E+12, 'cm^3/(mol*s)'), n=0, Ea=(5.4, 'kJ/mol'), T0=(1, 'K')),
     longDesc =
 u"""
-Frank, A.J.; Turecek, F., Methylsulfonyl and Methoxysulfinyl Radicals and Cations in the Gas Phase. A Variable-Time and Photoexcitation Neutralization-Reionization Mass Spectrometric and ab Initio/RRKM Study, 
+Frank, A.J.; Turecek, F., Methylsulfonyl and Methoxysulfinyl Radicals and Cations in the Gas Phase. A Variable-Time and Photoexcitation Neutralization-Reionization Mass Spectrometric and ab Initio/RRKM Study,
 """,
 )
 
@@ -221,7 +221,7 @@ entry(
     kinetics = Arrhenius(A=(2.14e+11, 's^-1'), n=0, Ea=(118.9, 'kJ/mol'), T0=(1, 'K')),
     longDesc =
 u"""
-Devush, S.S.; Prisyazhnyuk, Z.P.; Koval'skaya, A.M., Kinetics of the thermal gas phase decomposition of C1-C4 organic peracids, 1983 
+Devush, S.S.; Prisyazhnyuk, Z.P.; Koval'skaya, A.M., Kinetics of the thermal gas phase decomposition of C1-C4 organic peracids, 1983
 """,
 )
 
@@ -240,7 +240,7 @@ entry(
     index = 20,
     label = "DMS + OOH <=> DMSO + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(5.08e-04, 'cm^3/(mol*s)'), n=4.13, Ea=(51.58, 'kJ/mol'), T0=(1, 'K')), 
+    kinetics = Arrhenius(A=(5.08e-04, 'cm^3/(mol*s)'), n=4.13, Ea=(51.58, 'kJ/mol'), T0=(1, 'K')),
     longDesc =
 u"""
 Calculation by Ryan Gillis in Sept 2019 - CBS-QB3
@@ -251,7 +251,7 @@ entry(
     index = 21,
     label = "DMSO + OOH <=> DMSO2 + OH",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(8.03e-01, 'cm^3/(mol*s)'), n=3.12, Ea=(36.24, 'kJ/mol'), T0=(1, 'K')), 
+    kinetics = Arrhenius(A=(8.03e-01, 'cm^3/(mol*s)'), n=3.12, Ea=(36.24, 'kJ/mol'), T0=(1, 'K')),
     longDesc =
 u"""
 Calculation by Ryan Gillis in Sept 2019 - CBS-QB3

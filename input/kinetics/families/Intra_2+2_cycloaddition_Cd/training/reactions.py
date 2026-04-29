@@ -19,7 +19,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: II <=> III
 """,
@@ -37,7 +37,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 Calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,

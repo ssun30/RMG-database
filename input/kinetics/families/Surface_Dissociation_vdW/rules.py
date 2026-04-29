@@ -42,7 +42,7 @@ entry(
     shortDesc = u"""Default""",
     longDesc = u"""
 BEP relation for all metals and facets from Wang et al. "Universal transition state scaling relations for (de)hydrogenation over transition metals", Physical chemistry chemical physics, 2011, 13, 20760-20765, DOI:10.1039/c1cp20547a.
-Technically this is a relation for dissociative adsorption. 
+Technically this is a relation for dissociative adsorption.
 """
 )
 
@@ -101,7 +101,7 @@ entry(
 E0 and alpha are taken from Table 5 for all metals from Sutton and Vlachos, "Ethanol Activation on closed-packed surfaces", Industrial & Engineering Chemistry Research, 2015, 54, 4213-4225, DOI: 10.1021/ie5043374.
 Pre-exponential coefficient is calculated from 1e13 s^-1 (standard guess from transition state theory) divided by 2.39e-9 mol cm^-2 (surface site density of Pt(111)
 
-BK: This group is symmetrical, and RMG matches this node from both directions. Thus, a reaction degeneracy of 2 is applied, and the pre-exponential coefficient A is doubled. 
+BK: This group is symmetrical, and RMG matches this node from both directions. Thus, a reaction degeneracy of 2 is applied, and the pre-exponential coefficient A is doubled.
 We divided the pre-exponential coefficient by a factor of 2 so that RMG predicts the correct rate.
     """
 )

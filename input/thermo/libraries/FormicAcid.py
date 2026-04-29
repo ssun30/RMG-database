@@ -9,7 +9,7 @@ Thermodynamic properties are calculated at the CCSD(T)-F12/cc-pVTZ-F12//B2PLYP-D
 entry(
     index = 0,
     label = "DHC",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {5,S}
 2 O u0 p1 c+1 {3,D} {4,S}
@@ -29,7 +29,7 @@ entry(
         CpInf = (103.931,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-O': 2, 'C-O': 2}
 1D rotors:
@@ -51,7 +51,7 @@ H      -0.50625500    2.25078100    0.11425000
 entry(
     index = 1,
     label = "O=C1OOO1",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,S} {5,S}
 2 O u0 p2 c0 {3,S} {5,S}
@@ -71,7 +71,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 2, 'C=O': 1, 'O-O': 2}
 
@@ -89,7 +89,7 @@ O      -0.42337200   -0.73821500   -1.09821000
 entry(
     index = 2,
     label = "[O]C[=O]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {4,S} {5,S}
@@ -110,7 +110,7 @@ multiplicity 2
         CpInf = (103.931,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'C-O': 2, 'H-O': 1}
 1D rotors:
@@ -131,7 +131,7 @@ H       1.28435300    0.55021700    0.55973900
 entry(
     index = 3,
     label = "[O]OC[=O]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
@@ -153,7 +153,7 @@ multiplicity 2
         CpInf = (124.717,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'O-O': 1, 'C-O': 2, 'H-O': 1}
 1D rotors:
@@ -176,7 +176,7 @@ H      -1.88307700    0.84402600   -0.39292900
 entry(
     index = 4,
     label = "O[C]1OOO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {5,S}
@@ -198,7 +198,7 @@ multiplicity 2
         CpInf = (128.874,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'O-O': 2, 'C-O': 3, 'H-O': 1}
 1D rotors:
@@ -220,7 +220,7 @@ H       1.98655100   -0.34677900   -0.14790000
 entry(
     index = 5,
     label = "[C]1OO1",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u0 p2 c0 {2,S} {3,S}
@@ -239,7 +239,7 @@ multiplicity 3
         CpInf = (58.2013,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 2, 'O-O': 1}
 
@@ -255,7 +255,7 @@ O       0.98080500   -0.08937200    0.06382500
 entry(
     index = 6,
     label = "[O][C]1OO1",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u0 p2 c0 {2,S} {4,S}
@@ -275,7 +275,7 @@ multiplicity 3
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 3, 'O-O': 1}
 
@@ -292,7 +292,7 @@ O      -1.97269600   -0.20964100   -0.05671800
 entry(
     index = 7,
     label = "[O]C1[O]OO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {5,S}
@@ -314,7 +314,7 @@ multiplicity 2
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 4, 'H-O': 1, 'O-O': 1}
 1D rotors:
@@ -336,7 +336,7 @@ H       1.75345400   -0.06844100    0.06428200
 entry(
     index = 8,
     label = "[O]C1OO1",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -357,7 +357,7 @@ multiplicity 2
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 3, 'O-O': 1, 'C-H': 1}
 
@@ -375,7 +375,7 @@ H       0.43413300    1.02117600   -0.28168700
 entry(
     index = 9,
     label = "O[CH]O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {3,S} {5,S}
@@ -397,7 +397,7 @@ multiplicity 2
         CpInf = (128.874,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-O': 2, 'C-O': 2, 'C-H': 1}
 1D rotors:
@@ -420,7 +420,7 @@ H      -0.17687700    2.14325200    0.47561800
 entry(
     index = 10,
     label = "CH2O3[20]",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,D}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -441,7 +441,7 @@ entry(
         CpInf = (124.717,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'H-O': 2, 'C-O': 2}
 1D rotors:
@@ -464,7 +464,7 @@ H       1.49362800   -0.57146800   -0.49371100
 entry(
     index = 11,
     label = "C2H4O3[183]",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {5,S}
 2 O u0 p2 c0 {4,S} {9,S}
@@ -488,7 +488,7 @@ entry(
         CpInf = (203.705,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'H-O': 1, 'C-H': 3, 'C-O': 3}
 1D rotors:
@@ -515,7 +515,7 @@ H      -0.10633500    0.87990500    1.74773400
 entry(
     index = 12,
     label = "CH2O4[194]",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {5,D}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -537,7 +537,7 @@ entry(
         CpInf = (149.66,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C=O': 1, 'O-O': 1, 'H-O': 2, 'C-O': 2}
 1D rotors:
@@ -562,7 +562,7 @@ H      -1.47982300    0.99058700   -0.35171900
 entry(
     index = 13,
     label = "[O]C[[O]]O[222]",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u0 p2 c0 {4,S} {6,S}
@@ -584,7 +584,7 @@ multiplicity 3
         CpInf = (133.032,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-O': 1, 'C-H': 1, 'C-O': 3}
 1D rotors:
@@ -606,7 +606,7 @@ H       1.54993300    0.25726300    0.10679800
 entry(
     index = 14,
     label = "OC1OO1[239]",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -627,7 +627,7 @@ entry(
         CpInf = (128.874,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'O-O': 1, 'H-O': 1, 'C-H': 1, 'C-O': 3}
 1D rotors:
@@ -649,7 +649,7 @@ H      -0.76467500    1.21808600    0.00780500
 entry(
     index = 15,
     label = "[O]O[C]1OO1[268]",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u0 p2 c0 {2,S} {5,S}
@@ -670,7 +670,7 @@ multiplicity 3
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'O-O': 2, 'C-O': 3}
 1D rotors:
@@ -691,7 +691,7 @@ O      -1.32875700    0.72020600    0.15758300
 entry(
     index = 16,
     label = "OC1[O]OO1[283]",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {3,S}
@@ -713,7 +713,7 @@ entry(
         CpInf = (149.66,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'O-O': 1, 'H-O': 2, 'C-O': 4}
 1D rotors:
@@ -737,7 +737,7 @@ H      -1.24779400    1.48451300   -0.18685900
 entry(
     index = 17,
     label = "O1OC12OO2[297]",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {5,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -757,7 +757,7 @@ entry(
         CpInf = (108.088,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'O-O': 2, 'C-O': 4}
 
@@ -775,7 +775,7 @@ O      -1.08799500    0.52569800    0.58288500
 entry(
     index = 18,
     label = "O[C][O]O[18]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {4,S} {5,S}
@@ -798,7 +798,7 @@ multiplicity 2
         CpInf = (149.66,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-O': 3, 'C-O': 3}
 1D rotors:
@@ -823,7 +823,7 @@ H      -1.28529800   -1.18686500    0.74238500
 entry(
     index = 19,
     label = "[CH]1OO1[168]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -843,7 +843,7 @@ multiplicity 2
         CpInf = (83.1447,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-O': 2, 'C-H': 1, 'O-O': 1}
 
@@ -860,7 +860,7 @@ H       1.25294500    0.00736100   -0.11713600
 entry(
     index = 20,
     label = "CH2O4[297]",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u0 p2 c0 {5,S} {6,S}
@@ -883,7 +883,7 @@ multiplicity 3
         CpInf = (157.975,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'H-O': 2, 'C-O': 4}
 1D rotors:
@@ -907,7 +907,7 @@ H       0.71053500   -0.66552700   -1.48436800
 entry(
     index = 21,
     label = "O[C]1OO1[262]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -928,7 +928,7 @@ multiplicity 2
         CpInf = (103.931,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 lot: qbs
 Bond corrections: {'O-O': 1, 'C-O': 3, 'H-O': 1}
@@ -950,7 +950,7 @@ H       1.42219500   -0.00452400   -0.44992500
 entry(
     index = 22,
     label = "OO[C]1OO1[266]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {5,S}
@@ -972,7 +972,7 @@ multiplicity 2
         CpInf = (128.874,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 lot: qbs
 Bond corrections: {'O-O': 2, 'C-O': 3, 'H-O': 1}

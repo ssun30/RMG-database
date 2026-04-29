@@ -32,7 +32,7 @@ boundaryAtoms = ["*1", "*2"]
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *1 C  u0 {2,S} {5,S}
 2 *2 Cd u0 {1,S} {3,D}

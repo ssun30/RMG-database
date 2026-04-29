@@ -21,7 +21,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Frey et al [192]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: carbene;mb_db_unsub
 """,
@@ -40,9 +40,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Gaedtke et al [194]""",
-    longDesc = 
+    longDesc =
 u"""
-[194] Gaedtke, H. Symp. Int. Combust. Proc. 1973, 14, 295. 
+[194] Gaedtke, H. Symp. Int. Combust. Proc. 1973, 14, 295.
 Excitation: direct photolysis, analysis: UV-Vis absorption, Pressure 0.1 - 1000 atm. O + C2H4 --> Oxirane
 
 Converted to training reaction from rate rule: o_atom_singlet;mb_db_unsub
@@ -62,9 +62,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Gaedtke et al [194]""",
-    longDesc = 
+    longDesc =
 u"""
-[194] Gaedtke, H. Symp. Int. Combust. Proc. 1973, 14, 295. 
+[194] Gaedtke, H. Symp. Int. Combust. Proc. 1973, 14, 295.
 Excitation: direct photolysis, analysis: UV-Vis absorption, Pressure 0.1 - 1000 atm. O + CH3CH=CH2 --> methyloxirane
 
 Converted to training reaction from rate rule: o_atom_singlet;mb_db_monosub_Nd
@@ -85,7 +85,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Smith [196]""",
-    longDesc = 
+    longDesc =
 u"""
 [196] Smith, I.W.M. Trans. Faraday Soc. 1968, 64, 378.
 Data derived from fitting to a complex mechanism. Excitation: flash photolysis, analysis : UV-Vis absorption. Pressure 0.13 atm
@@ -109,10 +109,10 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Cvetanovic [197]""",
-    longDesc = 
+    longDesc =
 u"""
 [197] Cvetanovic, R. J. Chem. Phys. 1959, 30, 19.
-Relative value measured (O + (Z)-2-C4H8 --> cis-2,3-dimethyloxirane/O + C2H4 = Oxirane --> 2.2E+01) 
+Relative value measured (O + (Z)-2-C4H8 --> cis-2,3-dimethyloxirane/O + C2H4 = Oxirane --> 2.2E+01)
 
 Pressure 0.39 atm. Excitation : sensitized photolysis, analysis :GC.
 
@@ -133,10 +133,10 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Cvetanovic [197]""",
-    longDesc = 
+    longDesc =
 u"""
 [197] Cvetanovic, R. J. Chem. Phys. 1959, 30, 19.
-Relative value measured (O + (CH3)2C=C(CH3)2 --> tetramethyl-oxirane/O + iso-C4H8 --> 2,2-Dimethyloxirane = 4.18)  
+Relative value measured (O + (CH3)2C=C(CH3)2 --> tetramethyl-oxirane/O + iso-C4H8 --> 2,2-Dimethyloxirane = 4.18)
 
 Pressure 0.39 atm. Excitation : sensitized photolysis, analysis :GC.
 
@@ -158,7 +158,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Polino [carbene,acetylene]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: carbene;mb_tb_unsub
 """,
@@ -178,7 +178,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Polino [carbene,propyne]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: carbene;mb_tb_monosub_Nd
 """,
@@ -198,7 +198,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Polino [carbene,propene]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: carbene;mb_db_monosub_Nd
 """,
@@ -218,7 +218,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Polino [carbene,propadiene]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: carbene;mb_db_dbSub
 """,
@@ -238,7 +238,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Polino [carbene,2-butyne]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: carbene;mb_tb_disub_twoNd
 """,
@@ -258,7 +258,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Polino [carbene,1,3-butadiene]""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: carbene;mb_db_monosub_De
 """,

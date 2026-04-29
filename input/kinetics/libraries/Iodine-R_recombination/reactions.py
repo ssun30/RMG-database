@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 name = "R_Recombination kinetic parameters for iodine-containing species"
-shortDesc = u""" 
+shortDesc = u"""
 (see Table S2 of Supplementary material of Buras et al., Phys. Chem. Chem. Phys., 2018, 20, 13191-13214
 DOI: 10.1039/C8CP01159A)
 longDesc = u"""

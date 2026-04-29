@@ -29,7 +29,7 @@ boundaryAtoms = ["*1", "*2"]
 entry(
     index = 0,
     label = "C=C=C-C=C",
-    group = 
+    group =
 """
 1 *4 Cd  u0 {2,S} {4,D}
 2 *3 Cd  u0 {1,S} {5,D}
@@ -43,7 +43,7 @@ entry(
 entry(
     index = 1,
     label = "C=C=C_End",
-    group = 
+    group =
 """
 1 *1 C u0
 """,
@@ -53,7 +53,7 @@ entry(
 entry(
     index = 2,
     label = "C-C=C_End",
-    group = 
+    group =
 """
 1 *2 C u0
 """,
@@ -63,7 +63,7 @@ entry(
 entry(
     index = 3,
     label = "C=C=CdH2",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -75,7 +75,7 @@ entry(
 entry(
     index = 4,
     label = "C=C=CdHC",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -87,7 +87,7 @@ entry(
 entry(
     index = 5,
     label = "C=C=Cd(C)C",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,S} {3,S}
 2    C  u0 {1,S}
@@ -99,7 +99,7 @@ entry(
 entry(
     index = 6,
     label = "C=C=CddC",
-    group = 
+    group =
 """
 1 *1 Cdd u0 {2,D}
 2    C   u0 {1,D}
@@ -110,7 +110,7 @@ entry(
 entry(
     index = 7,
     label = "C-C=CdH2",
-    group = 
+    group =
 """
 1 *2 Cd u0 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -122,7 +122,7 @@ entry(
 entry(
     index = 8,
     label = "C-C=CdHC",
-    group = 
+    group =
 """
 1 *2 Cd u0 {2,S} {3,S}
 2    H  u0 {1,S}
@@ -134,7 +134,7 @@ entry(
 entry(
     index = 9,
     label = "C-C=Cd(C)C",
-    group = 
+    group =
 """
 1 *2 Cd u0 {2,S} {3,S}
 2    C  u0 {1,S}
@@ -146,7 +146,7 @@ entry(
 entry(
     index = 10,
     label = "C-C=CddC",
-    group = 
+    group =
 """
 1 *2 Cdd u0 {2,D}
 2    C   u0 {1,D}

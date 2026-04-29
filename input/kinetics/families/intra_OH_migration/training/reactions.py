@@ -21,7 +21,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OOH_S;C_rad_out_2H
 """,
@@ -41,7 +41,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R2OOH_S;C_rad_out_H/NonDeC
 """,
@@ -61,7 +61,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OOH_SS;C_rad_out_2H
 """,
@@ -81,7 +81,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OOH_SS;C_rad_out_H/NonDeC
 """,
@@ -101,7 +101,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R3OOH_SS;C_rad_out_Cs2
 """,
@@ -121,7 +121,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OOH_SSS;C_rad_out_2H
 """,
@@ -141,7 +141,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OOH_SSS;C_rad_out_H/NonDeC
 """,
@@ -161,7 +161,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations (Catherina Wijaya). Treatment of hindered rotor included; hindered rotor PES are done at B3LYP/6-31g(d) level.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: R4OOH_SSS;C_rad_out_Cs2
 """,

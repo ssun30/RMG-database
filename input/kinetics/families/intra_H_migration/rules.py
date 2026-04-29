@@ -34,7 +34,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
@@ -53,7 +53,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
@@ -72,7 +72,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,
@@ -91,7 +91,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Sumathy B3LYP/CCPVDZ calculations""",
-    longDesc = 
+    longDesc =
 u"""
 Sumathy B3LYP/CCPVDZ calculations (hindered rotor potential barrier calculations at B3LYP/6-31G(d'))
 """,

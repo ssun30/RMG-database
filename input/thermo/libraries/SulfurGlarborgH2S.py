@@ -14,7 +14,7 @@ DOI: 10.1002/kin.21055
 entry(
     index = 0,
     label = "SO",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u1 p2 c0 {2,S}
@@ -29,7 +29,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 tpis89
 GBR 1509
@@ -40,7 +40,7 @@ GBR 1509
 entry(
     index = 1,
     label = "SO2",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,D} {3,D}
 2 O u0 p2 c0 {1,D}
@@ -55,7 +55,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 tpis89
 -70.95  59.29
@@ -66,7 +66,7 @@ GBR1509
 entry(
     index = 2,
     label = "S",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u2 p2 c0
@@ -80,7 +80,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 J 9/82
 66.19/40.11
@@ -91,7 +91,7 @@ GBR 1509
 entry(
     index = 3,
     label = "O3",
-    molecule = 
+    molecule =
 """
 1 O u0 p3 c-1 {2,S}
 2 O u0 p1 c+1 {1,S} {3,D}
@@ -106,7 +106,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 121286
 """,
@@ -115,7 +115,7 @@ u"""
 entry(
     index = 4,
     label = "SO(S)",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,D}
 2 O u0 p2 c0 {1,D}
@@ -129,7 +129,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Zhou: G3
 21.51  53.01
@@ -139,7 +139,7 @@ Zhou: G3
 entry(
     index = 5,
     label = "HSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p1 c0 {2,S} {3,D}
@@ -155,7 +155,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 T04/07
 GBR 1509
@@ -166,7 +166,7 @@ GBR 1509
 entry(
     index = 6,
     label = "HOS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -182,7 +182,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 T04/07
 GBR 1509
@@ -193,7 +193,7 @@ GBR 1509
 entry(
     index = 7,
     label = "HSOH",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -209,7 +209,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 -28.52  58.66
 GLABOZ96
@@ -220,7 +220,7 @@ Zhou - Leeds University
 entry(
     index = 8,
     label = "HOSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -235,7 +235,7 @@ multiplicity 2
         S298 = (67.48,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 DAGGLA03 GOUMAr99
 DAG/GLA03 GOU/MAr99
@@ -246,7 +246,7 @@ DAG/GLA03 GOU/MAr99
 entry(
     index = 9,
     label = "HSO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p0 c0 {2,S} {3,D} {4,D}
@@ -261,7 +261,7 @@ multiplicity 2
         S298 = (63.01,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01 GOU/MAr99
 Zhou - Leeds University
@@ -272,7 +272,7 @@ Zhou - Leeds University
 entry(
     index = 10,
     label = "H2SO",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -286,7 +286,7 @@ entry(
         S298 = (57.27,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01   BOZ/R
 -11.26/57.26
@@ -296,7 +296,7 @@ ALZ/GLA01   BOZ/R
 entry(
     index = 11,
     label = "HOSHO",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,S} {3,D} {4,S}
 2 O u0 p2 c0 {1,S} {5,S}
@@ -311,7 +311,7 @@ entry(
         S298 = (64.49,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01   BOZ/R
 -64.50/64.48
@@ -321,7 +321,7 @@ ALZ/GLA01   BOZ/R
 entry(
     index = 12,
     label = "HOSO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -337,7 +337,7 @@ multiplicity 2
         S298 = (70.73,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Zhou - Leeds University
 -88.67  70.73
@@ -347,7 +347,7 @@ Zhou - Leeds University
 entry(
     index = 13,
     label = "O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -361,7 +361,7 @@ multiplicity 3
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 120186
 LI/DRY04 (v6.1)
@@ -371,7 +371,7 @@ LI/DRY04 (v6.1)
 entry(
     index = 14,
     label = "S2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 S u1 p2 c0 {2,S}
@@ -386,7 +386,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 tpis89
 Zhou - Burcat
@@ -397,7 +397,7 @@ Zhou - Burcat
 entry(
     index = 15,
     label = "SH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p2 c0 {2,S}
@@ -412,7 +412,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 34.23  46.73
 Zhou: R.C. Shiell, X.K. Hu, Q.J. Hu, J.W. Hepburn, J. Phys. Chem. A 104 (2000) 4339-4342.
@@ -422,7 +422,7 @@ Zhou: R.C. Shiell, X.K. Hu, Q.J. Hu, J.W. Hepburn, J. Phys. Chem. A 104 (2000) 4
 entry(
     index = 16,
     label = "H2S",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -437,7 +437,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 g 4/01
 GBR 1509
@@ -448,7 +448,7 @@ GBR 1509
 entry(
     index = 17,
     label = "HSS",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u1 p1 c0 {2,D} {3,S}
@@ -462,9 +462,9 @@ multiplicity 2
         S298 = (60.95,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
-Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186; 
+Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
 K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 25.84  60.94
 """,
@@ -473,7 +473,7 @@ K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 entry(
     index = 18,
     label = "HSSH",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {4,S}
@@ -487,7 +487,7 @@ entry(
         S298 = (61.62,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
 K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
@@ -498,7 +498,7 @@ K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 entry(
     index = 19,
     label = "SO3",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 S u0 p0 c0 {1,D} {3,D} {4,D}
@@ -514,7 +514,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 tpis89
 -94.61  61.30
@@ -525,7 +525,7 @@ GBR 1509
 entry(
     index = 20,
     label = "S2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 S u0 p1 c0 {1,D} {3,D}
@@ -540,7 +540,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
 K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
@@ -551,7 +551,7 @@ K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 entry(
     index = 21,
     label = "HSSO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p2 c0 {2,S} {4,S}
@@ -566,7 +566,7 @@ multiplicity 2
         S298 = (68.61,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Zhou: PhD; L.A. Curtiss, K. RaghavachAri, P.C. Redfern, V.
 Rassolov, J.A. Pople, J. Chem. Phys. 109 (1998) 7764-7776
@@ -577,7 +577,7 @@ Rassolov, J.A. Pople, J. Chem. Phys. 109 (1998) 7764-7776
 entry(
     index = 22,
     label = "VDW1",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 S u0 p1 c0 {1,D} {3,D}
@@ -595,10 +595,10 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 VDW of H2O.SO2
-Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186; 
+Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
 K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 -131.26  82.88
 """,
@@ -607,7 +607,7 @@ K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 entry(
     index = 23,
     label = "HSSO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p0 c0 {2,D} {3,D} {4,D}
@@ -623,7 +623,7 @@ multiplicity 2
         S298 = (73.62,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Zhou: PhD; L.A. Curtiss, K. RaghavachAri, P.C. Redfern, V.
 Rassolov, J.A. Pople, J. Chem. Phys. 109 (1998) 7764-7776
@@ -634,7 +634,7 @@ Rassolov, J.A. Pople, J. Chem. Phys. 109 (1998) 7764-7776
 entry(
     index = 24,
     label = "SSO2",
-    molecule = 
+    molecule =
 """
 1 S u0 p0 c0 {2,D} {3,D} {4,D}
 2 S u0 p2 c0 {1,D}
@@ -650,7 +650,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 1511
 pw PM 1511
@@ -660,7 +660,7 @@ pw PM 1511
 entry(
     index = 25,
     label = "HSOO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 S u0 p2 c0 {2,S} {4,S}
@@ -677,7 +677,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Zhou: C. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A 113 (2009) 2975-2981.
 32.29  67.63
@@ -687,7 +687,7 @@ Zhou: C. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A 113 (2009) 2975-2981.
 entry(
     index = 26,
     label = "S3",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,D} {3,D}
 2 S u0 p2 c0 {1,D}
@@ -702,7 +702,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 tpis89
 Zhou - Burcat
@@ -713,7 +713,7 @@ Zhou - Burcat
 entry(
     index = 27,
     label = "S4",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {4,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -729,7 +729,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 tpis89
 Zhou - Burcat
@@ -740,7 +740,7 @@ Zhou - Burcat
 entry(
     index = 28,
     label = "S5",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {5,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -757,7 +757,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 tpis89
 Zhou - Burcat
@@ -768,7 +768,7 @@ Zhou - Burcat
 entry(
     index = 29,
     label = "S6",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {6,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -786,7 +786,7 @@ entry(
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 tpis89
 Zhou - Burcat
@@ -797,7 +797,7 @@ Zhou - Burcat
 entry(
     index = 30,
     label = "S7",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {7,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -816,7 +816,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 tpis89
 Zhou - Burcat
@@ -827,7 +827,7 @@ Zhou - Burcat
 entry(
     index = 31,
     label = "S8",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {8,S}
 2 S u0 p2 c0 {1,S} {3,S}
@@ -847,7 +847,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 tpis89
 Zhou - Burcat
@@ -858,7 +858,7 @@ Zhou - Burcat
 entry(
     index = 32,
     label = "OSSO",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c0 {2,D} {3,D}
 2 S u0 p1 c0 {1,D} {4,D}
@@ -872,7 +872,7 @@ entry(
         S298 = (71.34,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Zhou: PhD; L.A. Curtiss, K. RaghavachAri, P.C. Redfern, V.
 Rassolov, J.A. Pople, J. Chem. Phys. 109 (1998) 7764-7776
@@ -883,7 +883,7 @@ Rassolov, J.A. Pople, J. Chem. Phys. 109 (1998) 7764-7776
 entry(
     index = 33,
     label = "H2S3O",
-    molecule = 
+    molecule =
 """
 1 S u0 p1 c+1 {2,S} {3,S} {4,S}
 2 S u0 p2 c0 {1,S} {5,S}
@@ -901,9 +901,9 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
-Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186; 
+Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
 ! K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 -17.86  80.56
 """,
@@ -912,7 +912,7 @@ Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
 entry(
     index = 34,
     label = "HSSSOH",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 S u0 p2 c0 {1,S} {4,S}
@@ -930,7 +930,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
 K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
@@ -941,7 +941,7 @@ K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 entry(
     index = 35,
     label = "H2S2O2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {5,S}
 2 S u0 p1 c0 {1,S} {3,S} {4,D}
@@ -959,9 +959,9 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
-Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186; 
+Zhou - K. Sendt, B.S. Haynes, J. Phys. Chem. A 109 (2005) 8180 to 8186;
 K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 -69.74  77.82
 """,
@@ -970,7 +970,7 @@ K. Sendt, M. Jazbec, B.S. Haynes, Proc. Combust. Inst. 29 (2003) 2439-2446.
 entry(
     index = 36,
     label = "HOCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {4,S}
@@ -987,7 +987,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 CLR est L 7/88
 CLR est based on CO2 data and SANDIA
@@ -999,7 +999,7 @@ S298= 60.00 cal/mol/K
 entry(
     index = 37,
     label = "HOSOH",
-    molecule = 
+    molecule =
 """
 1 S u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -1014,7 +1014,7 @@ entry(
         S298 = (64.94,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 ALZ/GLA01  BOZ/R
 """,
@@ -1023,7 +1023,7 @@ ALZ/GLA01  BOZ/R
 entry(
     index = 38,
     label = "H2SO4",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 S u0 p0 c0 {1,D} {3,D} {4,S} {5,S}
@@ -1042,7 +1042,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Burcat
 """,

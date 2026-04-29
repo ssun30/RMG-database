@@ -16,7 +16,7 @@ entry(
     label = "A55(2) <=> S0(3) + H(1)",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.374e+10, 's^-1'), n=0.942, Ea=(34.424, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: C10H11_miss
 """,

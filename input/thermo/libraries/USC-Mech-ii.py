@@ -37,7 +37,7 @@ The reaction model was subject to validation tests against reliable H2/CO/C1-C4 
 entry(
     index = 0,
     label = "AR",
-    molecule = 
+    molecule =
 """
 1 Ar u0 p4 c0
 """,
@@ -50,7 +50,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""120186""",
-    longDesc = 
+    longDesc =
 u"""
 120186
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -62,7 +62,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 1,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -76,7 +76,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""121286""",
-    longDesc = 
+    longDesc =
 u"""
 121286
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -88,7 +88,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 2,
     label = "H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -102,7 +102,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 7/88.
 [H]
@@ -113,7 +113,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 3,
     label = "O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -127,7 +127,7 @@ multiplicity 3
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 1/90""",
-    longDesc = 
+    longDesc =
 u"""
 L 1/90.
 [O]
@@ -138,7 +138,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 4,
     label = "OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -153,7 +153,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""S 9/01""",
-    longDesc = 
+    longDesc =
 u"""
 S 9/01.
 [OH]
@@ -164,7 +164,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 5,
     label = "HO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -180,7 +180,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 5/89""",
-    longDesc = 
+    longDesc =
 u"""
 L 5/89.
 [O]O
@@ -191,7 +191,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 6,
     label = "H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -205,7 +205,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS78""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS78.
 [H][H]
@@ -216,7 +216,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 7,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -231,7 +231,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/89""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/89.
 O
@@ -242,7 +242,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 8,
     label = "H2O2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -258,7 +258,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 7/88.
 OO
@@ -269,7 +269,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 9,
     label = "O2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -284,7 +284,7 @@ multiplicity 3
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS89""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS89.
 [O][O]
@@ -295,7 +295,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 10,
     label = "C(T)",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p1 c0
@@ -309,7 +309,7 @@ multiplicity 3
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L11/88""",
-    longDesc = 
+    longDesc =
 u"""
 L11/88.
 [C]
@@ -320,7 +320,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 11,
     label = "CH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p1 c0 {2,S}
@@ -335,7 +335,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS79""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS79.
 [CH]
@@ -346,7 +346,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 12,
     label = "CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -362,7 +362,7 @@ multiplicity 3
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L S/93""",
-    longDesc = 
+    longDesc =
 u"""
 L S/93.
 [CH2]
@@ -373,7 +373,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 13,
     label = "CH2*",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -388,7 +388,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L S/93""",
-    longDesc = 
+    longDesc =
 u"""
 L S/93.
 singlet[CH2]
@@ -399,7 +399,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 14,
     label = "CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -416,7 +416,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L11/89""",
-    longDesc = 
+    longDesc =
 u"""
 L11/89.
 [CH3]
@@ -427,7 +427,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 15,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -444,7 +444,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 C
@@ -455,7 +455,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 16,
     label = "HCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -471,7 +471,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L12/89""",
-    longDesc = 
+    longDesc =
 u"""
 L12/89.
 [CH]=O
@@ -482,7 +482,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 17,
     label = "CH2O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -498,7 +498,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 C=O
@@ -509,7 +509,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 18,
     label = "CH3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -527,7 +527,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU1/03""",
-    longDesc = 
+    longDesc =
 u"""
 IU1/03.
 C[O]
@@ -538,7 +538,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 19,
     label = "CH2OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -556,7 +556,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU2/03""",
-    longDesc = 
+    longDesc =
 u"""
 IU2/03.
 [CH2]O
@@ -567,7 +567,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 20,
     label = "CH3OH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -585,7 +585,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 CO
@@ -596,7 +596,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 21,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
@@ -610,7 +610,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS79""",
-    longDesc = 
+    longDesc =
 u"""
 TPIS79.
 [C]=O
@@ -621,7 +621,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 22,
     label = "CO2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -636,7 +636,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 7/88.
 O=C=O
@@ -647,7 +647,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 23,
     label = "C2O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u1 p0 c0 {2,T}
@@ -663,7 +663,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""RUS 79""",
-    longDesc = 
+    longDesc =
 u"""
 RUS 79.
 [C]#C[O]
@@ -674,7 +674,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 24,
     label = "C2H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,T}
@@ -690,7 +690,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 L 1/91.
 [C]#C
@@ -701,7 +701,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 25,
     label = "C2H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -717,7 +717,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 L 1/91.
 C#C
@@ -728,7 +728,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 26,
     label = "H2CC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p1 c0 {1,D}
@@ -744,7 +744,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L12/89""",
-    longDesc = 
+    longDesc =
 u"""
 L12/89.
 singlet [C]=C
@@ -759,7 +759,7 @@ Corrected from Triplet to Singlet state:
 entry(
     index = 27,
     label = "C2H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -777,7 +777,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 2/92""",
-    longDesc = 
+    longDesc =
 u"""
 L 2/92.
 [CH]=C
@@ -788,7 +788,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 28,
     label = "C2H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -806,7 +806,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 L 1/91.
 C=C
@@ -817,7 +817,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 29,
     label = "C2H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -837,7 +837,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L12/92""",
-    longDesc = 
+    longDesc =
 u"""
 L12/92.
 [CH2]C
@@ -848,7 +848,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 30,
     label = "C2H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -868,7 +868,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 CC
@@ -879,7 +879,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 31,
     label = "HCCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {4,S}
@@ -896,7 +896,7 @@ multiplicity 2
         Tmax = (4000,'K'),
     ),
     shortDesc = u"""SRIC91""",
-    longDesc = 
+    longDesc =
 u"""
 SRIC91
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -908,7 +908,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 32,
     label = "HCCOH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -925,7 +925,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""SRI91""",
-    longDesc = 
+    longDesc =
 u"""
 SRI91
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -937,7 +937,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 33,
     label = "CH2CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,D}
@@ -954,7 +954,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""D05/90""",
-    longDesc = 
+    longDesc =
 u"""
 D05/90.
 C=C=O
@@ -965,7 +965,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 34,
     label = "CH3CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -984,7 +984,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 9/92""",
-    longDesc = 
+    longDesc =
 u"""
 T 9/92.
 C[C]=O
@@ -995,7 +995,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 35,
     label = "CH2CHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {4,S} {5,S}
@@ -1014,7 +1014,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""D05/83""",
-    longDesc = 
+    longDesc =
 u"""
 D05/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1026,7 +1026,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 36,
     label = "CH2OCH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1045,7 +1045,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""A12/04""",
-    longDesc = 
+    longDesc =
 u"""
 A12/04
 Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -1057,7 +1057,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 37,
     label = "CH3CHO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -1076,7 +1076,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/88.
 CC=O
@@ -1087,7 +1087,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 38,
     label = "CH2OCH2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -1106,7 +1106,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""T 6/92""",
-    longDesc = 
+    longDesc =
 u"""
 T 6/92
 Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -1118,7 +1118,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 39,
     label = "C3H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,T} {4,S}
@@ -1137,7 +1137,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 5/97""",
-    longDesc = 
+    longDesc =
 u"""
 T 5/97.
 C#C[CH2]
@@ -1148,7 +1148,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 40,
     label = "pC3H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -1167,7 +1167,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 2/90""",
-    longDesc = 
+    longDesc =
 u"""
 T 2/90.
 C#CC
@@ -1178,7 +1178,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 41,
     label = "aC3H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -1197,7 +1197,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 8/89""",
-    longDesc = 
+    longDesc =
 u"""
 L 8/89.
 C=C=C
@@ -1208,7 +1208,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 42,
     label = "cC3H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,D} {6,S}
@@ -1227,7 +1227,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T12/81""",
-    longDesc = 
+    longDesc =
 u"""
 T12/81
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1239,7 +1239,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 43,
     label = "aC3H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -1260,7 +1260,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""PD5/98""",
-    longDesc = 
+    longDesc =
 u"""
 PD5/98
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1272,7 +1272,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 44,
     label = "CH3CCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -1293,7 +1293,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""PD5/98""",
-    longDesc = 
+    longDesc =
 u"""
 PD5/98
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1305,7 +1305,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 45,
     label = "CH3CHCH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1326,7 +1326,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""PD5/98""",
-    longDesc = 
+    longDesc =
 u"""
 PD5/98
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1338,7 +1338,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 46,
     label = "C3H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 C u0 p0 c0 {1,D} {3,S} {6,S}
@@ -1359,7 +1359,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""120186""",
-    longDesc = 
+    longDesc =
 u"""
 120186
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1371,7 +1371,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 47,
     label = "nC3H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1394,7 +1394,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1406,7 +1406,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 48,
     label = "iC3H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -1429,7 +1429,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1441,7 +1441,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 49,
     label = "C3H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -1464,7 +1464,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1476,7 +1476,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 50,
     label = "CH2CHCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -1496,7 +1496,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1508,7 +1508,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 51,
     label = "C2H3CHO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,S} {7,S}
@@ -1528,7 +1528,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1540,7 +1540,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 52,
     label = "CH3CHOCH2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -1562,7 +1562,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""T 6/92""",
-    longDesc = 
+    longDesc =
 u"""
 T 6/92
 Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -1574,7 +1574,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 53,
     label = "CH3CH2CHO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1596,7 +1596,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1608,7 +1608,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 54,
     label = "CH3COCH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -1630,7 +1630,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 5/92""",
-    longDesc = 
+    longDesc =
 u"""
 T 5/92.
 CC(C)=O
@@ -1641,7 +1641,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 55,
     label = "C4H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {5,S}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -1659,7 +1659,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 D11/99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1671,7 +1671,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 56,
     label = "nC4H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -1691,7 +1691,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1703,7 +1703,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 57,
     label = "iC4H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -1723,7 +1723,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1735,7 +1735,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 58,
     label = "C4H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {5,S}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -1755,7 +1755,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1767,7 +1767,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 59,
     label = "nC4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -1789,7 +1789,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1801,7 +1801,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 60,
     label = "iC4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -1823,7 +1823,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1835,7 +1835,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 61,
     label = "C4H5-2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -1857,7 +1857,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 H6W/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1869,7 +1869,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 62,
     label = "c-C4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -1891,7 +1891,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""PUPM3""",
-    longDesc = 
+    longDesc =
 u"""
 PUPM3
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1903,7 +1903,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 63,
     label = "C4H6",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
 2  C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -1925,7 +1925,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 H6W/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1937,7 +1937,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 64,
     label = "C4H612",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -1959,7 +1959,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""A 8/83""",
-    longDesc = 
+    longDesc =
 u"""
 A 8/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1971,7 +1971,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 65,
     label = "C4H6-2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -1993,7 +1993,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""A 8/83""",
-    longDesc = 
+    longDesc =
 u"""
 A 8/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2005,7 +2005,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 66,
     label = "C4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -2029,7 +2029,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2041,7 +2041,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 67,
     label = "iC4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -2065,7 +2065,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2077,7 +2077,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 68,
     label = "C4H81",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -2101,7 +2101,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 6/83""",
-    longDesc = 
+    longDesc =
 u"""
 T 6/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2113,7 +2113,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 69,
     label = "C4H82",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -2137,7 +2137,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 6/83""",
-    longDesc = 
+    longDesc =
 u"""
 T 6/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2149,7 +2149,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 70,
     label = "iC4H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -2173,7 +2173,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 6/83""",
-    longDesc = 
+    longDesc =
 u"""
 T 6/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2185,7 +2185,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 71,
     label = "pC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -2211,7 +2211,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2223,7 +2223,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 72,
     label = "sC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -2249,7 +2249,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T07/95""",
-    longDesc = 
+    longDesc =
 u"""
 T07/95.
 C[CH]CC
@@ -2260,7 +2260,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 73,
     label = "iC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2286,7 +2286,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2298,7 +2298,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 74,
     label = "tC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -2324,7 +2324,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2336,7 +2336,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 75,
     label = "C4H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -2362,7 +2362,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2374,7 +2374,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 76,
     label = "iC4H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2400,7 +2400,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 P11/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2412,7 +2412,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 77,
     label = "H2C4O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -2431,7 +2431,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2443,7 +2443,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 78,
     label = "C4H4O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,D} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -2464,7 +2464,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T03/97""",
-    longDesc = 
+    longDesc =
 u"""
 T03/97.
 c1ccoc1
@@ -2475,7 +2475,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 79,
     label = "CH2CHCHCHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -2498,7 +2498,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2510,7 +2510,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 80,
     label = "CH3CHCHCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -2533,7 +2533,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 USC/07
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2545,7 +2545,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 81,
     label = "C2H3CHOCH2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -2568,7 +2568,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""A 8/83""",
-    longDesc = 
+    longDesc =
 u"""
 A 8/83
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2580,7 +2580,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 82,
     label = "C4H6O23",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -2603,7 +2603,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 3/97""",
-    longDesc = 
+    longDesc =
 u"""
 T 3/97.
 C1=COCC1
@@ -2614,7 +2614,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 83,
     label = "CH3CHCHCHO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -2637,7 +2637,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""T 5/92""",
-    longDesc = 
+    longDesc =
 u"""
 T 5/92
 Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -2649,7 +2649,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 84,
     label = "C4H6O25",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
@@ -2672,7 +2672,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 3/97""",
-    longDesc = 
+    longDesc =
 u"""
 T 3/97.
 C1=CCOC1
@@ -2683,7 +2683,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 85,
     label = "C5H4O",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,D}
 2  C u0 p0 c0 {1,D} {3,S} {6,S}
@@ -2705,7 +2705,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 8/99""",
-    longDesc = 
+    longDesc =
 u"""
 T 8/99.
 O=C1C=CC=C1
@@ -2716,7 +2716,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 86,
     label = "C5H5O(1,3)",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -2740,7 +2740,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""DU0997""",
-    longDesc = 
+    longDesc =
 u"""
 DU0997
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2752,7 +2752,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 87,
     label = "C5H5O(2,4)",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -2776,7 +2776,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D 9/97""",
-    longDesc = 
+    longDesc =
 u"""
 D 9/97
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2788,7 +2788,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 88,
     label = "C5H4OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {3,S} {6,S}
@@ -2812,7 +2812,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 8/99""",
-    longDesc = 
+    longDesc =
 u"""
 T 8/99.
 OC1=CC=C[CH]1
@@ -2823,7 +2823,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 89,
     label = "C5H5OH",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {6,S} {8,S}
@@ -2847,7 +2847,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""HWZD99""",
-    longDesc = 
+    longDesc =
 u"""
 HWZD99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2859,7 +2859,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 90,
     label = "C5H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {5,S} {6,S}
@@ -2882,7 +2882,7 @@ multiplicity 2
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""T12/89""",
-    longDesc = 
+    longDesc =
 u"""
 T12/89
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2894,7 +2894,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 91,
     label = "C5H6",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {5,S} {6,S}
 2  C u0 p0 c0 {1,D} {3,S} {7,S}
@@ -2917,7 +2917,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 1/90""",
-    longDesc = 
+    longDesc =
 u"""
 T 1/90.
 C1=CCC=C1
@@ -2928,7 +2928,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 92,
     label = "lC5H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {6,S} {7,S}
@@ -2953,7 +2953,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""HWZD99""",
-    longDesc = 
+    longDesc =
 u"""
 HWZD99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2965,7 +2965,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 93,
     label = "C6H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {7,S}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -2985,7 +2985,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 D11/99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2997,7 +2997,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 94,
     label = "C6H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {7,S}
@@ -3019,7 +3019,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 H6W/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3031,7 +3031,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 95,
     label = "l-C6H4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,T} {7,S}
 2  C u0 p0 c0 {1,T} {3,S}
@@ -3053,7 +3053,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 H6W/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3065,7 +3065,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 96,
     label = "o-C6H4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -3087,7 +3087,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 D11/99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3099,7 +3099,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 97,
     label = "C6H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {3,B} {8,S}
@@ -3123,7 +3123,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 D11/99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3135,7 +3135,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 98,
     label = "C6H6",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
 2  C u0 p0 c0 {1,B} {3,B} {8,S}
@@ -3159,7 +3159,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 D11/99
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3171,7 +3171,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 99,
     label = "C6H5CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
@@ -3198,7 +3198,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T08/90""",
-    longDesc = 
+    longDesc =
 u"""
 T08/90.
 [CH2]c1ccccc1
@@ -3209,7 +3209,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 100,
     label = "C6H5CH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,B} {4,B}
@@ -3236,7 +3236,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 6/87""",
-    longDesc = 
+    longDesc =
 u"""
 L 6/87.
 Cc1ccccc1
@@ -3247,7 +3247,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 101,
     label = "C6H5C2H",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
 2  C u0 p0 c0 {1,B} {4,B} {9,S}
@@ -3273,7 +3273,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 H6W/94
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3285,7 +3285,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 102,
     label = "C6H5O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u1 p2 c0 {3,S}
@@ -3310,7 +3310,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T05/02""",
-    longDesc = 
+    longDesc =
 u"""
 T05/02.
 O=C1C=C[CH]C=C1
@@ -3321,7 +3321,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 103,
     label = "C6H5OH",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,B} {4,B}
@@ -3346,7 +3346,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""L 4/84""",
-    longDesc = 
+    longDesc =
 u"""
 L 4/84
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3358,7 +3358,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 104,
     label = "C6H4O2",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,D}
 2  C u0 p0 c0 {1,D} {3,S} {8,S}
@@ -3382,7 +3382,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""PUML96""",
-    longDesc = 
+    longDesc =
 u"""
 PUML96
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3394,7 +3394,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 105,
     label = "C6H5CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p2 c0 {8,D}
@@ -3420,7 +3420,7 @@ multiplicity 2
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""EST/BUR P 1/93""",
-    longDesc = 
+    longDesc =
 u"""
 EST/BUR P 1/93
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3432,7 +3432,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 106,
     label = "C6H5CHO",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {8,D}
 2  C u0 p0 c0 {3,B} {4,B} {8,S}
@@ -3458,7 +3458,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""L 3/86""",
-    longDesc = 
+    longDesc =
 u"""
 L 3/86
 Low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -3470,7 +3470,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 107,
     label = "C6H5CH2OH",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {16,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -3498,7 +3498,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 7/87""",
-    longDesc = 
+    longDesc =
 u"""
 L 7/87.
 OCc1ccccc1
@@ -3509,7 +3509,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 108,
     label = "OC6H4CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u1 p2 c0 {6,S}
@@ -3537,7 +3537,7 @@ multiplicity 2
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""EST/BUR P 1/93""",
-    longDesc = 
+    longDesc =
 u"""
 EST/BUR P 1/93
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3549,7 +3549,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 109,
     label = "HOC6H4CH3",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,S} {16,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -3577,7 +3577,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""AVG CRESOL6/87""",
-    longDesc = 
+    longDesc =
 u"""
 AVG CRESOL6/87.
 Cc1cccc(O)c1
@@ -3588,7 +3588,7 @@ Imported from USC-Mech ii thermdat.txt.
 entry(
     index = 110,
     label = "C6H4CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
@@ -3615,7 +3615,7 @@ multiplicity 2
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""P 1/93""",
-    longDesc = 
+    longDesc =
 u"""
 P 1/93
 Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.

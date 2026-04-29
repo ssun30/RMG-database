@@ -6,7 +6,7 @@ shortDesc = u"Toluene formation from phenyl+CH3 and benzyl+H"
 longDesc = u"""
 On the formation and decomposition of C7H8
 Stephen J. Klippenstein, Lawrence B. Harding, Yuri Georgievskii
-Proceedings of the Combustion Institute 31 (2007) 221–229 
+Proceedings of the Combustion Institute 31 (2007) 221–229
 
 The kinetics of reactions on the C7H8 surface were studied with state-of-the-art ab initio transition state theory (TST) and master equation methodologies. A priori predictions of the capture rate for C6H5+ CH3 and for C7H7 + H are obtained from direct VRC-TST simulations. These simulations
 employ small basis set CASPT2 interaction energies coupled with one-dimensional reaction path correctionsbased on higher level simulations for related reactions.

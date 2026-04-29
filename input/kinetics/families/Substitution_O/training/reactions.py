@@ -14,7 +14,7 @@ entry(
     kinetics = Arrhenius(A=(39.0416,'cm^3/(mol*s)'), n=4.3597, Ea=(79.9065,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);HJ
 """,
@@ -27,7 +27,7 @@ entry(
     kinetics = Arrhenius(A=(5567.88,'cm^3/(mol*s)'), n=3.20344, Ea=(85.6473,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CsHH);HJ
 """,
@@ -40,7 +40,7 @@ entry(
     kinetics = Arrhenius(A=(114441,'cm^3/(mol*s)'), n=2.92889, Ea=(90.8706,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CsCsH);HJ
 """,
@@ -53,7 +53,7 @@ entry(
     kinetics = Arrhenius(A=(1.20136e+07,'cm^3/(mol*s)'), n=2.47266, Ea=(89.8552,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CsCsCs);HJ
 """,
@@ -66,7 +66,7 @@ entry(
     kinetics = Arrhenius(A=(211470,'cm^3/(mol*s)'), n=2.48131, Ea=(120.285,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCds(H);HJ
 """,
@@ -79,7 +79,7 @@ entry(
     kinetics = Arrhenius(A=(1.77054e+06,'cm^3/(mol*s)'), n=2.2995, Ea=(113.405,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCds(Cs);HJ
 """,
@@ -92,7 +92,7 @@ entry(
     kinetics = Arrhenius(A=(8.34234,'cm^3/(mol*s)'), n=3.69086, Ea=(61.9265,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CdHH);HJ
 """,
@@ -105,7 +105,7 @@ entry(
     kinetics = Arrhenius(A=(86.3518,'cm^3/(mol*s)'), n=3.29954, Ea=(64.6742,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CdCsH);HJ
 """,
@@ -118,7 +118,7 @@ entry(
     kinetics = Arrhenius(A=(61645,'cm^3/(mol*s)'), n=2.05568, Ea=(74.4647,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CdCsCs);HJ
 """,
@@ -131,7 +131,7 @@ entry(
     kinetics = Arrhenius(A=(389.816,'cm^3/(mol*s)'), n=3.3844, Ea=(66.7277,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CtHH);HJ
 """,
@@ -144,7 +144,7 @@ entry(
     kinetics = Arrhenius(A=(135928,'cm^3/(mol*s)'), n=2.59024, Ea=(68.9055,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CtCsH);HJ
 """,
@@ -157,7 +157,7 @@ entry(
     kinetics = Arrhenius(A=(178246,'cm^3/(mol*s)'), n=2.81287, Ea=(69.5929,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CtCsCs);HJ
 """,
@@ -170,7 +170,7 @@ entry(
     kinetics = Arrhenius(A=(67650,'cm^3/(mol*s)'), n=2.90685, Ea=(101.985,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cs(HHH);HJ
 """,
@@ -183,7 +183,7 @@ entry(
     kinetics = Arrhenius(A=(552923,'cm^3/(mol*s)'), n=2.23663, Ea=(97.3621,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cs(CsHH);HJ
 """,
@@ -196,7 +196,7 @@ entry(
     kinetics = Arrhenius(A=(7919.31,'cm^3/(mol*s)'), n=2.85451, Ea=(95.9839,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cs(CsCsH);HJ
 """,
@@ -209,7 +209,7 @@ entry(
     kinetics = Arrhenius(A=(5310.83,'cm^3/(mol*s)'), n=3.32233, Ea=(88.664,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cs(CsCsCs);HJ
 """,
@@ -222,7 +222,7 @@ entry(
     kinetics = Arrhenius(A=(5.84382e+09,'cm^3/(mol*s)'), n=0.40855, Ea=(127.023,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cds(H);HJ
 """,
@@ -235,7 +235,7 @@ entry(
     kinetics = Arrhenius(A=(2.01997e+11,'cm^3/(mol*s)'), n=0.59721, Ea=(131.953,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cds(Cs);HJ
 """,
@@ -248,7 +248,7 @@ entry(
     kinetics = Arrhenius(A=(0.271178,'cm^3/(mol*s)'), n=4.39592, Ea=(62.1119,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cs(CdHH);HJ
 """,
@@ -261,7 +261,7 @@ entry(
     kinetics = Arrhenius(A=(39.8648,'cm^3/(mol*s)'), n=3.10695, Ea=(62.7219,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cs(CdCsH);HJ
 """,
@@ -274,7 +274,7 @@ entry(
     kinetics = Arrhenius(A=(7.27488,'cm^3/(mol*s)'), n=3.93967, Ea=(78.0237,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cs(CdCsCs);HJ
 """,
@@ -287,7 +287,7 @@ entry(
     kinetics = Arrhenius(A=(74.6326,'cm^3/(mol*s)'), n=3.47951, Ea=(70.5619,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cs(CtHH);HJ
 """,
@@ -300,7 +300,7 @@ entry(
     kinetics = Arrhenius(A=(2084.17,'cm^3/(mol*s)'), n=2.71832, Ea=(76.1191,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cs(CtCsH);HJ
 """,
@@ -313,7 +313,7 @@ entry(
     kinetics = Arrhenius(A=(3599.97,'cm^3/(mol*s)'), n=3.2324, Ea=(75.3174,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cs(CtCsCs);HJ
 """,
@@ -326,7 +326,7 @@ entry(
     kinetics = Arrhenius(A=(8855.14,'cm^3/(mol*s)'), n=2.87556, Ea=(93.3065,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CsHH)Cs(HHH);HJ
 """,
@@ -339,7 +339,7 @@ entry(
     kinetics = Arrhenius(A=(4.31229,'cm^3/(mol*s)'), n=3.87313, Ea=(95.0496,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CsCsH)Cs(HHH);HJ
 """,
@@ -352,7 +352,7 @@ entry(
     kinetics = Arrhenius(A=(1.02268,'cm^3/(mol*s)'), n=4.01774, Ea=(90.42,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CsCsCs)Cs(HHH);HJ
 """,
@@ -365,7 +365,7 @@ entry(
     kinetics = Arrhenius(A=(20.283,'cm^3/(mol*s)'), n=3.09138, Ea=(103.903,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cds(H)Cs(HHH);HJ
 """,
@@ -378,7 +378,7 @@ entry(
     kinetics = Arrhenius(A=(12.5685,'cm^3/(mol*s)'), n=3.66046, Ea=(109.67,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cds(Cs)Cs(HHH);HJ
 """,
@@ -391,7 +391,7 @@ entry(
     kinetics = Arrhenius(A=(131.885,'cm^3/(mol*s)'), n=3.52145, Ea=(91.5283,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CdHH)Cs(HHH);HJ
 """,
@@ -404,7 +404,7 @@ entry(
     kinetics = Arrhenius(A=(0.0459721,'cm^3/(mol*s)'), n=4.358, Ea=(87.2916,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CdCsH)Cs(HHH);HJ
 """,
@@ -417,7 +417,7 @@ entry(
     kinetics = Arrhenius(A=(0.000646694,'cm^3/(mol*s)'), n=4.90628, Ea=(102.846,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CdCsCs)Cs(HHH);HJ
 """,
@@ -430,7 +430,7 @@ entry(
     kinetics = Arrhenius(A=(0.731898,'cm^3/(mol*s)'), n=4.2888, Ea=(92.6869,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CtCsH)Cs(HHH);HJ
 """,
@@ -443,7 +443,7 @@ entry(
     kinetics = Arrhenius(A=(39.3494,'cm^3/(mol*s)'), n=4.19271, Ea=(170.476,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CsHH);CsJ-HHH
 """,
@@ -456,7 +456,7 @@ entry(
     kinetics = Arrhenius(A=(1798.65,'cm^3/(mol*s)'), n=3.18285, Ea=(168.367,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CsCsH);CsJ-HHH
 """,
@@ -469,7 +469,7 @@ entry(
     kinetics = Arrhenius(A=(747648,'cm^3/(mol*s)'), n=2.3481, Ea=(172.012,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CsCsCs);CsJ-HHH
 """,
@@ -482,7 +482,7 @@ entry(
     kinetics = Arrhenius(A=(3250.38,'cm^3/(mol*s)'), n=3.24041, Ea=(208.587,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCds(H);CsJ-HHH
 """,
@@ -495,7 +495,7 @@ entry(
     kinetics = Arrhenius(A=(3.51813e+06,'cm^3/(mol*s)'), n=1.59641, Ea=(201.206,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCds(Cs);CsJ-HHH
 """,
@@ -508,7 +508,7 @@ entry(
     kinetics = Arrhenius(A=(0.0537217,'cm^3/(mol*s)'), n=3.93783, Ea=(133.915,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CdHH);CsJ-HHH
 """,
@@ -521,7 +521,7 @@ entry(
     kinetics = Arrhenius(A=(1.29521e-08,'cm^3/(mol*s)'), n=5.86437, Ea=(159.665,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CdCsH);CsJ-HHH
 """,
@@ -534,7 +534,7 @@ entry(
     kinetics = Arrhenius(A=(3.49022e-09,'cm^3/(mol*s)'), n=6.15234, Ea=(161.614,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CdCsCs);CsJ-HHH
 """,
@@ -547,7 +547,7 @@ entry(
     kinetics = Arrhenius(A=(401.198,'cm^3/(mol*s)'), n=3.12619, Ea=(139.187,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CtHH);CsJ-HHH
 """,
@@ -560,7 +560,7 @@ entry(
     kinetics = Arrhenius(A=(2115.14,'cm^3/(mol*s)'), n=3.15487, Ea=(141.462,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CtCsH);CsJ-HHH
 """,
@@ -573,7 +573,7 @@ entry(
     kinetics = Arrhenius(A=(76057.9,'cm^3/(mol*s)'), n=1.88123, Ea=(139.096,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(CtCsCs);CsJ-HHH
 """,
@@ -586,7 +586,7 @@ entry(
     kinetics = Arrhenius(A=(2.56874e+08,'cm^3/(mol*s)'), n=1.83697, Ea=(19.9718,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HOs(H);HJ
 """,
@@ -599,7 +599,7 @@ entry(
     kinetics = Arrhenius(A=(8.01017e+06,'cm^3/(mol*s)'), n=1.98323, Ea=(28.3773,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)O2s(H);HJ
 """,
@@ -612,7 +612,7 @@ entry(
     kinetics = Arrhenius(A=(6.59061e+07,'cm^3/(mol*s)'), n=1.81476, Ea=(18.9999,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HOs(Cs);HJ
 """,
@@ -625,7 +625,7 @@ entry(
     kinetics = Arrhenius(A=(1.4055e+11,'cm^3/(mol*s)'), n=0.29359, Ea=(26.5261,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)O2s(Cs);HJ
 """,
@@ -638,7 +638,7 @@ entry(
     kinetics = Arrhenius(A=(89119.8,'cm^3/(mol*s)'), n=2.58699, Ea=(41.2803,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HOs(H);CsJ-HHH
 """,
@@ -651,7 +651,7 @@ entry(
     kinetics = Arrhenius(A=(26526.7,'cm^3/(mol*s)'), n=2.4453, Ea=(40.8852,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HOs(Cs);CsJ-HHH
 """,
@@ -664,7 +664,7 @@ entry(
     kinetics = Arrhenius(A=(20989.5,'cm^3/(mol*s)'), n=2.47358, Ea=(57.1003,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)O2s(H);CsJ-HHH
 """,
@@ -677,7 +677,7 @@ entry(
     kinetics = Arrhenius(A=(2.5992e+07,'cm^3/(mol*s)'), n=1.07449, Ea=(53.6899,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)O2s(Cs);CsJ-HHH
 """,
@@ -690,7 +690,7 @@ entry(
     kinetics = Arrhenius(A=(3.73772e+06,'cm^3/(mol*s)'), n=2.13626, Ea=(37.1751,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -705,7 +705,7 @@ entry(
     kinetics = Arrhenius(A=(7.17266e+08,'cm^3/(mol*s)'), n=1.4407, Ea=(18.1507,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -720,7 +720,7 @@ entry(
     kinetics = Arrhenius(A=(2.95051e+06,'cm^3/(mol*s)'), n=2.54316, Ea=(36.5109,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -735,7 +735,7 @@ entry(
     kinetics = Arrhenius(A=(9.56529e+07,'cm^3/(mol*s)'), n=2.045, Ea=(32.2283,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -750,7 +750,7 @@ entry(
     kinetics = Arrhenius(A=(1.2409e+06,'cm^3/(mol*s)'), n=2.35959, Ea=(37.3413,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -765,7 +765,7 @@ entry(
     kinetics = Arrhenius(A=(7.95424e+06,'cm^3/(mol*s)'), n=2.71236, Ea=(38.1455,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -780,7 +780,7 @@ entry(
     kinetics = Arrhenius(A=(1119.49,'cm^3/(mol*s)'), n=3.06029, Ea=(58.0576,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -795,7 +795,7 @@ entry(
     kinetics = Arrhenius(A=(17942.7,'cm^3/(mol*s)'), n=2.60187, Ea=(35.1911,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -810,7 +810,7 @@ entry(
     kinetics = Arrhenius(A=(152659,'cm^3/(mol*s)'), n=2.22409, Ea=(58.7609,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -825,7 +825,7 @@ entry(
     kinetics = Arrhenius(A=(101433,'cm^3/(mol*s)'), n=2.72306, Ea=(57.6936,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -840,7 +840,7 @@ entry(
     kinetics = Arrhenius(A=(26016.1,'cm^3/(mol*s)'), n=2.61392, Ea=(62.8261,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -855,7 +855,7 @@ entry(
     kinetics = Arrhenius(A=(98402.5,'cm^3/(mol*s)'), n=2.87073, Ea=(58.3526,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -870,7 +870,7 @@ entry(
     kinetics = Arrhenius(A=(0.0141707,'cm^3/(mol*s)'), n=5.12614, Ea=(187.817,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;CsJ-HHH
 """,
@@ -883,7 +883,7 @@ entry(
     kinetics = Arrhenius(A=(0.905842,'cm^3/(mol*s)'), n=3.53834, Ea=(186.248,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;CsJ-CsHH
 """,
@@ -896,7 +896,7 @@ entry(
     kinetics = Arrhenius(A=(4.8163e-05,'cm^3/(mol*s)'), n=5.13525, Ea=(183.95,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;CsJ-CsCsH
 """,
@@ -909,7 +909,7 @@ entry(
     kinetics = Arrhenius(A=(1.37409e-05,'cm^3/(mol*s)'), n=5.03769, Ea=(174.549,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;CsJ-CsCsCs
 """,
@@ -922,7 +922,7 @@ entry(
     kinetics = Arrhenius(A=(0.029503,'cm^3/(mol*s)'), n=4.11084, Ea=(158.494,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;CdsJ-H
 """,
@@ -935,7 +935,7 @@ entry(
     kinetics = Arrhenius(A=(0.028266,'cm^3/(mol*s)'), n=4.04095, Ea=(155.106,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;CdsJ-Cs
 """,
@@ -948,7 +948,7 @@ entry(
     kinetics = Arrhenius(A=(0.00134884,'cm^3/(mol*s)'), n=4.79715, Ea=(226.202,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;CsJ-CdHH
 """,
@@ -961,7 +961,7 @@ entry(
     kinetics = Arrhenius(A=(0.000213922,'cm^3/(mol*s)'), n=4.07435, Ea=(213.908,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;CsJ-CdCsH
 """,
@@ -974,7 +974,7 @@ entry(
     kinetics = Arrhenius(A=(1.07987e-05,'cm^3/(mol*s)'), n=4.75792, Ea=(225.972,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;CsJ-CdCsCs
 """,
@@ -987,7 +987,7 @@ entry(
     kinetics = Arrhenius(A=(0.00180117,'cm^3/(mol*s)'), n=4.62782, Ea=(219.844,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;CsJ-CtHH
 """,
@@ -1000,7 +1000,7 @@ entry(
     kinetics = Arrhenius(A=(0.000533538,'cm^3/(mol*s)'), n=4.5494, Ea=(213.231,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;CsJ-CtCsH
 """,
@@ -1013,7 +1013,7 @@ entry(
     kinetics = Arrhenius(A=(1.83141e-06,'cm^3/(mol*s)'), n=5.48115, Ea=(209.73,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;CsJ-CtCsCs
 """,
@@ -1026,7 +1026,7 @@ entry(
     kinetics = Arrhenius(A=(2.02386e-06,'cm^3/(mol*s)'), n=5.80487, Ea=(174.909,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;CsJ-HHH
 """,
@@ -1039,7 +1039,7 @@ entry(
     kinetics = Arrhenius(A=(8.43164e-05,'cm^3/(mol*s)'), n=4.81746, Ea=(177.51,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;CsJ-CsHH
 """,
@@ -1052,7 +1052,7 @@ entry(
     kinetics = Arrhenius(A=(2.62031e-09,'cm^3/(mol*s)'), n=6.05127, Ea=(172.031,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;CsJ-CsCsH
 """,
@@ -1065,7 +1065,7 @@ entry(
     kinetics = Arrhenius(A=(4.95558e-11,'cm^3/(mol*s)'), n=6.18012, Ea=(165.796,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;CsJ-CsCsCs
 """,
@@ -1078,7 +1078,7 @@ entry(
     kinetics = Arrhenius(A=(0.0166055,'cm^3/(mol*s)'), n=3.78744, Ea=(137.831,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;CdsJ-H
 """,
@@ -1091,7 +1091,7 @@ entry(
     kinetics = Arrhenius(A=(0.00341995,'cm^3/(mol*s)'), n=3.88799, Ea=(141.357,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;CdsJ-Cs
 """,
@@ -1104,7 +1104,7 @@ entry(
     kinetics = Arrhenius(A=(3.53604e-08,'cm^3/(mol*s)'), n=6.23988, Ea=(204.751,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;CsJ-CdHH
 """,
@@ -1117,7 +1117,7 @@ entry(
     kinetics = Arrhenius(A=(1.44203e-07,'cm^3/(mol*s)'), n=4.39147, Ea=(197.003,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;CsJ-CdCsH
 """,
@@ -1130,7 +1130,7 @@ entry(
     kinetics = Arrhenius(A=(2.78109e-13,'cm^3/(mol*s)'), n=7.37017, Ea=(209.585,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;CsJ-CdCsCs
 """,
@@ -1143,7 +1143,7 @@ entry(
     kinetics = Arrhenius(A=(1.01409e-07,'cm^3/(mol*s)'), n=5.81184, Ea=(202.721,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;CsJ-CtHH
 """,
@@ -1156,7 +1156,7 @@ entry(
     kinetics = Arrhenius(A=(1.75102e-08,'cm^3/(mol*s)'), n=5.1553, Ea=(197.022,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;CsJ-CtCsH
 """,
@@ -1169,7 +1169,7 @@ entry(
     kinetics = Arrhenius(A=(3.82635e-11,'cm^3/(mol*s)'), n=6.50124, Ea=(198.253,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;CsJ-CtCsCs
 """,
@@ -1182,7 +1182,7 @@ entry(
     kinetics = Arrhenius(A=(3.01263e-06,'cm^3/(mol*s)'), n=5.88794, Ea=(180.765,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CsHH)H;CsJ-HHH
 """,
@@ -1195,7 +1195,7 @@ entry(
     kinetics = Arrhenius(A=(1.23057e-06,'cm^3/(mol*s)'), n=5.62998, Ea=(185.928,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CsCsH)H;CsJ-HHH
 """,
@@ -1208,7 +1208,7 @@ entry(
     kinetics = Arrhenius(A=(3.02826e-06,'cm^3/(mol*s)'), n=5.07693, Ea=(190.768,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CsCsCs)H;CsJ-HHH
 """,
@@ -1221,7 +1221,7 @@ entry(
     kinetics = Arrhenius(A=(1.49946e-07,'cm^3/(mol*s)'), n=5.60717, Ea=(185.794,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cds(H)H;CsJ-HHH
 """,
@@ -1234,7 +1234,7 @@ entry(
     kinetics = Arrhenius(A=(4.83798e-09,'cm^3/(mol*s)'), n=5.97622, Ea=(183.902,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cds(Cs)H;CsJ-HHH
 """,
@@ -1247,7 +1247,7 @@ entry(
     kinetics = Arrhenius(A=(3.1701e-05,'cm^3/(mol*s)'), n=4.92691, Ea=(174.219,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CdHH)H;CsJ-HHH
 """,
@@ -1260,7 +1260,7 @@ entry(
     kinetics = Arrhenius(A=(2.30403e-08,'cm^3/(mol*s)'), n=5.77538, Ea=(181.145,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CdCsH)H;CsJ-HHH
 """,
@@ -1273,7 +1273,7 @@ entry(
     kinetics = Arrhenius(A=(1.76943e-10,'cm^3/(mol*s)'), n=6.31699, Ea=(187.173,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CdCsCs)H;CsJ-HHH
 """,
@@ -1286,7 +1286,7 @@ entry(
     kinetics = Arrhenius(A=(1.04813e-07,'cm^3/(mol*s)'), n=5.68858, Ea=(176.718,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(CtCsH)H;CsJ-HHH
 """,
@@ -1299,7 +1299,7 @@ entry(
     kinetics = Arrhenius(A=(17.6374,'cm^3/(mol*s)'), n=3.76118, Ea=(163.166,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);CsJ-CsHH
 """,
@@ -1312,7 +1312,7 @@ entry(
     kinetics = Arrhenius(A=(0.00208552,'cm^3/(mol*s)'), n=4.62276, Ea=(153.536,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);CsJ-CsCsH
 """,
@@ -1325,7 +1325,7 @@ entry(
     kinetics = Arrhenius(A=(0.002356,'cm^3/(mol*s)'), n=4.14669, Ea=(148.795,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);CsJ-CsCsCs
 """,
@@ -1338,7 +1338,7 @@ entry(
     kinetics = Arrhenius(A=(1.24935,'cm^3/(mol*s)'), n=4.10349, Ea=(138.885,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);CdsJ-H
 """,
@@ -1351,7 +1351,7 @@ entry(
     kinetics = Arrhenius(A=(154.741,'cm^3/(mol*s)'), n=2.57143, Ea=(134.996,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);CdsJ-Cs
 """,
@@ -1364,7 +1364,7 @@ entry(
     kinetics = Arrhenius(A=(0.0239308,'cm^3/(mol*s)'), n=4.27768, Ea=(190.279,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);CsJ-CdHH
 """,
@@ -1377,7 +1377,7 @@ entry(
     kinetics = Arrhenius(A=(8.84018e-11,'cm^3/(mol*s)'), n=5.87274, Ea=(200.988,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);CsJ-CdCsH
 """,
@@ -1390,7 +1390,7 @@ entry(
     kinetics = Arrhenius(A=(1.68446e-15,'cm^3/(mol*s)'), n=8.08814, Ea=(205.211,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);CsJ-CdCsCs
 """,
@@ -1403,7 +1403,7 @@ entry(
     kinetics = Arrhenius(A=(5.10728,'cm^3/(mol*s)'), n=3.60317, Ea=(184.393,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);CsJ-CtHH
 """,
@@ -1416,7 +1416,7 @@ entry(
     kinetics = Arrhenius(A=(0.0228734,'cm^3/(mol*s)'), n=4.3476, Ea=(177.877,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);CsJ-CtCsH
 """,
@@ -1429,7 +1429,7 @@ entry(
     kinetics = Arrhenius(A=(0.00215301,'cm^3/(mol*s)'), n=3.78307, Ea=(171.323,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);CsJ-CtCsCs
 """,
@@ -1442,7 +1442,7 @@ entry(
     kinetics = Arrhenius(A=(29042.8,'cm^3/(mol*s)'), n=2.91678, Ea=(303.816,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;OsJ-H
 """,
@@ -1455,7 +1455,7 @@ entry(
     kinetics = Arrhenius(A=(11.0699,'cm^3/(mol*s)'), n=3.50482, Ea=(276.306,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;OsJ-H
 """,
@@ -1468,7 +1468,7 @@ entry(
     kinetics = Arrhenius(A=(1122.24,'cm^3/(mol*s)'), n=3.18249, Ea=(324.558,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HH;OsJ-Cs
 """,
@@ -1481,7 +1481,7 @@ entry(
     kinetics = Arrhenius(A=(1.05378,'cm^3/(mol*s)'), n=3.66741, Ea=(299.373,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)H;OsJ-Cs
 """,
@@ -1494,7 +1494,7 @@ entry(
     kinetics = Arrhenius(A=(27760.5,'cm^3/(mol*s)'), n=2.90036, Ea=(215.201,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);OsJ-H
 """,
@@ -1507,7 +1507,7 @@ entry(
     kinetics = Arrhenius(A=(1244.45,'cm^3/(mol*s)'), n=3.04659, Ea=(238.532,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-HCs(HHH);OsJ-Cs
 """,
@@ -1520,7 +1520,7 @@ entry(
     kinetics = Arrhenius(A=(4.65288e+07,'cm^3/(mol*s)'), n=1.47906, Ea=(218.997,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cs(HHH);OsJ-H
 """,
@@ -1533,7 +1533,7 @@ entry(
     kinetics = Arrhenius(A=(234442,'cm^3/(mol*s)'), n=1.9322, Ea=(240.048,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: O-Cs(HHH)Cs(HHH);OsJ-Cs
 """,
@@ -1546,7 +1546,7 @@ entry(
     kinetics = Arrhenius(A=(0.00278991,'cm^3/(mol*s)'), n=4.75128, Ea=(254.174,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -1561,7 +1561,7 @@ entry(
     kinetics = Arrhenius(A=(0.0267498,'cm^3/(mol*s)'), n=4.5091, Ea=(365.521,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -1576,7 +1576,7 @@ entry(
     kinetics = Arrhenius(A=(0.000781287,'cm^3/(mol*s)'), n=5.15922, Ea=(250.967,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -1591,7 +1591,7 @@ entry(
     kinetics = Arrhenius(A=(1.54686e-05,'cm^3/(mol*s)'), n=5.55622, Ea=(343.153,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -1606,7 +1606,7 @@ entry(
     kinetics = Arrhenius(A=(2.47435e-05,'cm^3/(mol*s)'), n=5.26357, Ea=(275.524,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -1621,7 +1621,7 @@ entry(
     kinetics = Arrhenius(A=(2.92558e-06,'cm^3/(mol*s)'), n=5.89053, Ea=(273.758,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -1636,7 +1636,7 @@ entry(
     kinetics = Arrhenius(A=(0.376691,'cm^3/(mol*s)'), n=4.46709, Ea=(201.048,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -1651,7 +1651,7 @@ entry(
     kinetics = Arrhenius(A=(0.00368718,'cm^3/(mol*s)'), n=4.90384, Ea=(274.65,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -1666,7 +1666,7 @@ entry(
     kinetics = Arrhenius(A=(1.37223,'cm^3/(mol*s)'), n=3.91986, Ea=(222.936,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -1681,7 +1681,7 @@ entry(
     kinetics = Arrhenius(A=(13.1108,'cm^3/(mol*s)'), n=3.71859, Ea=(284.305,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -1696,7 +1696,7 @@ entry(
     kinetics = Arrhenius(A=(21552.6,'cm^3/(mol*s)'), n=2.45745, Ea=(202.083,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -1711,7 +1711,7 @@ entry(
     kinetics = Arrhenius(A=(0.0036016,'cm^3/(mol*s)'), n=5.31614, Ea=(66.9829,'kJ/mol'), T0=(1,'K'), Tmin=(500,'K'), Tmax=(2000,'K')),
     rank = 6,
     shortDesc = """CB0-QB3 (1DHR)/UCCSD(T)-F12/vdz-f12""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -1725,7 +1725,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(0.00266112,'cm^3/(mol*s)'), n=4.54216, Ea=(65.2952,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OC + C[CH2] <=> [Li] + COCC
@@ -1764,7 +1764,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.03649e+11,'cm^3/(mol*s)'), n=0.812216, Ea=(-21.6525,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.6576610150461983,B=2.4435784684265482,E=0.404796645816695,L=7.698368077501874,A=0.9750486732350473,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]O + [H] <=> [Li] + O
@@ -1800,7 +1800,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.47113e+11,'cm^3/(mol*s)'), n=0.774968, Ea=(-24.6724,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.4067121409688057,B=1.4628968939845368,E=0.9656443938025181,L=7.661570379273675,A=0.443175955652443,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OC + [H] <=> [Li] + CO
@@ -1840,7 +1840,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.07712e+06,'cm^3/(mol*s)'), n=2.28023, Ea=(85.5904,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.4173362998736376,B=2.357499252462657,E=0.5167298959343533,L=7.9017680525604375,A=1.0064038665607862,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]O + [CH3] <=> [Li] + CO
@@ -1879,7 +1879,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(26.5507,'cm^3/(mol*s)'), n=3.72095, Ea=(84.1068,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.9913576154323054,B=3.1755887609180435,E=-0.2623364392566645,L=7.244831699370673,A=0.5572363451823703,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]O + C[CH2] <=> [Li] + CCO
@@ -1921,7 +1921,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(6.77483e+09,'cm^3/(mol*s)'), n=1.18598, Ea=(-23.16,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=-8.623486006056842,B=14.917486429580572,E=-5.719694357458241,L=40.120001635540106,A=-6.502228345652631,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OCC + [H] <=> [Li] + CCO
@@ -1964,7 +1964,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(3026.56,'cm^3/(mol*s)'), n=2.80221, Ea=(80.834,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.223920620501668,B=0.8264175269682525,E=0.40415741933873844,L=5.605210034978575,A=0.4397271958947774,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OC + [CH3] <=> [Li] + COC
@@ -2006,7 +2006,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.09569,'cm^3/(mol*s)'), n=3.2546, Ea=(82.2788,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.091886494292463,B=0.5254418313743373,E=1.2963729646265112,L=5.721969023897385,A=0.6575614317431779,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OCC + [CH3] <=> [Li] + COCC

@@ -19,7 +19,7 @@ entry(
     rank = 0,
     shortDesc = u"""Default""",
     longDesc = u"""
-Pre-exponential value and E0 are from R6b in Table 2 of "Automatic mechanism generation involving 
+Pre-exponential value and E0 are from R6b in Table 2 of "Automatic mechanism generation involving
 kinetics of surface reactions with bidentate adsorbates"
 Authors:  B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith
 doi:10.1039/d3dd00184a

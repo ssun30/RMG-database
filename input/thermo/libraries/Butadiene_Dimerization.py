@@ -22,7 +22,7 @@ Disclaimer: The number of significant figures displayed does not reflect the acc
 entry(
     index = 1,
     label = "BD",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {5,S} {6,S}
 2  C u0 p0 c0 {1,D} {3,S} {7,S}
@@ -56,7 +56,7 @@ entry(
         CpInf = (228.648, 'J/(mol*K)'),
     ),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -65,7 +65,7 @@ library value for butadiene dimerization reactions calculated by Duminda Ranasin
 entry(
     index = 2,
     label = "CB",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {4,S} {5,S}
 2  C u0 p0 c0 {1,D} {3,S} {6,S}
@@ -98,7 +98,7 @@ entry(
         CpInf = (232.805, 'J/(mol*K)'),
     ),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -107,7 +107,7 @@ library value for butadiene dimerization reactions calculated by Duminda Ranasin
 entry(
     index = 3,
     label = "DVCB",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {9,S} {10,S}
 2  C u0 p0 c0 {1,D} {3,S} {11,S}
@@ -150,7 +150,7 @@ entry(
         CpInf = (473.925, 'J/(mol*K)'),
     ),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -159,7 +159,7 @@ library value for butadiene dimerization reactions calculated by Duminda Ranasin
 entry(
     index = 4,
     label = "COD",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
@@ -202,7 +202,7 @@ entry(
         CpInf = (482.239, 'J/(mol*K)'),
     ),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -211,7 +211,7 @@ library value for butadiene dimerization reactions calculated by Duminda Ranasin
 entry(
     index = 5,
     label = "VCH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {9,S} {10,S}
 2  C u0 p0 c0 {1,D} {3,S} {11,S}
@@ -254,7 +254,7 @@ entry(
         CpInf = (478.082, 'J/(mol*K)'),
     ),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -263,7 +263,7 @@ library value for butadiene dimerization reactions calculated by Duminda Ranasin
 entry(
     index = 6,
     label = "DVT",
-    molecule = 
+    molecule =
 """
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
 2  H u0 p0 c0 {1,S}
@@ -306,7 +306,7 @@ entry(
         CpInf = (482.239, 'J/(mol*K)'),
     ),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,

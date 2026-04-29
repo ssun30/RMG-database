@@ -26,7 +26,7 @@ boundaryAtoms = ["*1", "*2"]
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *2 R!H u1
 2 *1 R!H u1
@@ -37,7 +37,7 @@ entry(
 entry(
     index = 1,
     label = "Root_1R!H->C",
-    group = 
+    group =
 """
 1 *2 C u1
 2 *1 C u1
@@ -48,7 +48,7 @@ entry(
 entry(
     index = 2,
     label = "Root_1R!H->C_Ext-2R!H-R_Ext-2R!H-R",
-    group = 
+    group =
 """
 1 *2 C   u1 r0
 2 *1 C   u1 r0 {3,[S,D,T,B]} {4,[S,D,T,B]}
@@ -61,7 +61,7 @@ entry(
 entry(
     index = 3,
     label = "Root_1R!H->C_Ext-2R!H-R_Ext-3R!H-R_Ext-3R!H-R_Ext-2R!H-R",
-    group = 
+    group =
 """
 1 *2 C u1 {3,S}
 2 *1 C u1 {5,S}
@@ -75,7 +75,7 @@ entry(
 entry(
     index = 4,
     label = "Root_1R!H->C_Ext-2R!H-R_Ext-3R!H-R_Ext-3R!H-R_Ext-2R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 C   u1 r0 {3,S}
 2 *1 C   u1 r0 {5,S}
@@ -90,7 +90,7 @@ entry(
 entry(
     index = 5,
     label = "Root_N-1R!H->C",
-    group = 
+    group =
 """
 1 *2 [O,Cl,N,S,Si] u1 r0
 2 *1 R!H           u1 r0
@@ -111,13 +111,13 @@ L1: Root
 
 forbidden(
     label = "RR_d",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,D}
 2 *2 R!H u1 {1,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -125,13 +125,13 @@ forbidden(
 
 forbidden(
     label = "RR_s",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,S}
 2 *2 R!H u1 {1,S}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,
@@ -139,13 +139,13 @@ forbidden(
 
 forbidden(
     label = "RR_t",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,T}
 2 *2 R!H u1 {1,T}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,

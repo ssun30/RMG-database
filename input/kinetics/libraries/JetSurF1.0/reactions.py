@@ -12,8 +12,8 @@ H. Wang, S. S. Vasu, D. F. Davidson, R. K. Hanson, H. Pitsch, C. T. Bowman, A. K
 C. K. Law, W. Tsang, N. P. Cernansky, D. L. Miller, A. Violi, R. P. Lindstedt,
 A high-temperature chemical kinetic model of n-alkane oxidation, JetSurF version 1.0
 September 15, 2009 (http://web.stanford.edu/group/haiwanglab/JetSurF/JetSurF1.0/index.html).
- 
- 
+
+
 The following reactions involve excited CH and OH species, which currently cannot be represented in RMG.
 In order to compare RMG's predictions with experimental results of excited CH or OH,
 it is advised to append the following reactions to the final Chemkin file.
@@ -63,7 +63,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI3.0 * 1.00',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0 * 1.00
 """,
@@ -80,7 +80,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI3.0 * 1.19',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0 * 1.19
 """,
@@ -97,7 +97,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI3.0 * 0.80',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0 * 0.80
 """,
@@ -112,7 +112,7 @@ entry(
         efficiencies = {'[H][H]': 0, 'O=C=O': 0, 'O': 0, '[Ar]': 0.63},
         comment = 'GRI3.0 * 1.11',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0 * 1.11
 """,
@@ -129,7 +129,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI3.0 * 1.78\nHE/0.63/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0 * 1.78
 He/0.63/
@@ -147,7 +147,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI3.0',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0
 """,
@@ -164,7 +164,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI3.0 * 0.94',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0 * 0.94
 """,
@@ -179,7 +179,7 @@ entry(
         efficiencies = {'[C-]#[O+]': 1.75, '[H][H]': 2, 'O=C=O': 3.6, 'O': 6.3, '[Ar]': 0.38},
         comment = 'GRI3.0',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0
 """,
@@ -194,7 +194,7 @@ entry(
         efficiencies = {'[C-]#[O+]': 1.75, '[H][H]': 2, 'O=C=O': 3.6, 'O': 12, '[Ar]': 0.7},
         comment = 'GRI3.0 * 2.00\nHE/0.38/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0 * 2.00
 He/0.38/
@@ -210,7 +210,7 @@ entry(
         efficiencies = {'[C-]#[O+]': 1.75, '[H][H]': 2.4, 'O=C=O': 3.6, 'O': 15.4, '[Ar]': 0.83},
         comment = '86TSA/HAM * 2.00\nHE/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM * 2.00
 He/0.7/
@@ -235,7 +235,7 @@ entry(
         efficiencies = {'[C-]#[O+]': 1.09, '[O][O]': 0.85, 'O=C=O': 2.18, 'O': 11.89, '[Ar]': 0.4},
         comment = 'GRI3.0\nHE/0.83/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0
 He/0.83/
@@ -253,7 +253,7 @@ entry(
         T0 = (1, 'K'),
         comment = '00 TROE - Based on M=N2 * 1.10\nHE/0.46/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 00 TROE - Based on M=N2 * 1.10
 He/0.46/
@@ -279,7 +279,7 @@ entry(
         efficiencies = {'[C-]#[O+]': 1.75, '[H][H]': 2, 'O=C=O': 3.6, 'O': 6, '[Ar]': 0.7},
         comment = '00MIC/SUT * 0.80',
     ),
-    longDesc = 
+    longDesc =
 u"""
 00MIC/SUT * 0.80
 """,
@@ -296,7 +296,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88ZEL/EWI * 1.50\nFit 88ZEL/EWI and 92BAU/COB\nH2O=6xN2 88ZEL/EWI\nHE/0.7/\nReactions of HO2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88ZEL/EWI * 1.50
 Fit 88ZEL/EWI and 92BAU/COB
@@ -317,7 +317,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI3.0',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0
 """,
@@ -334,7 +334,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99MUE/KIM * 1.06',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99MUE/KIM * 1.06
 """,
@@ -420,7 +420,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Wang07\nReactions of H2O2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Wang07
 Reactions of H2O2
@@ -438,7 +438,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI3.0 * 0.50',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0 * 0.50
 """,
@@ -455,7 +455,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -500,7 +500,7 @@ entry(
         efficiencies = {'[C-]#[O+]': 1.75, '[H][H]': 2, 'O=C=O': 3.6, 'O': 12, '[Ar]': 0.7},
         comment = 'Refit95HIP/NEU\n2.2E14 MAX K\nReactions of CO/CO2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Refit95HIP/NEU
 2.2E14 MAX K
@@ -543,7 +543,7 @@ entry(
         T0 = (1, 'K'),
         comment = '06JOS/WANG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 06JOS/WANG
 """,
@@ -560,7 +560,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM * 0.44',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM * 0.44
 """,
@@ -577,7 +577,7 @@ entry(
         T0 = (1, 'K'),
         comment = '07YOU/WANG\nReactions of HCO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 07YOU/WANG
 Reactions of HCO
@@ -595,7 +595,7 @@ entry(
         T0 = (1, 'K'),
         comment = '02FRI/DAV * 1.00',
     ),
-    longDesc = 
+    longDesc =
 u"""
 02FRI/DAV * 1.00
 """,
@@ -612,7 +612,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI3.0',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0
 """,
@@ -629,7 +629,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI3.0',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI3.0
 """,
@@ -649,7 +649,7 @@ entry(
         efficiencies = {'[C-]#[O+]': 1.75, '[H][H]': 2, 'O=C=O': 3.6, 'O': 0},
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -666,7 +666,7 @@ entry(
         T0 = (1, 'K'),
         comment = '02FRI/DAV * 2.00',
     ),
-    longDesc = 
+    longDesc =
 u"""
 02FRI/DAV * 2.00
 """,
@@ -683,7 +683,7 @@ entry(
         T0 = (1, 'K'),
         comment = '12xM * 2.00',
     ),
-    longDesc = 
+    longDesc =
 u"""
 12xM * 2.00
 """,
@@ -713,7 +713,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '96HSU/MEB\n---- End of Optimized H2/O2 mechanism ----\nReactions of CO/CO2 (See the H2/CO model above for additional reactions)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HSU/MEB
 ---- End of Optimized H2/O2 mechanism ----
@@ -732,7 +732,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI\nReactions of C',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of C
@@ -750,7 +750,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -767,7 +767,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI\nReactions of CH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of CH
@@ -785,7 +785,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -802,7 +802,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -819,7 +819,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -836,7 +836,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -853,7 +853,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -878,7 +878,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -895,7 +895,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -925,7 +925,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'GRI\nReactions of HCO (See the H2/CO model above for additional reactions)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of HCO (See the H2/CO model above for additional reactions)
@@ -951,7 +951,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'GRI\nReactions of CH2(triplet)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of CH2(triplet)
@@ -969,7 +969,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -986,7 +986,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1003,7 +1003,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1020,7 +1020,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1037,7 +1037,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1054,7 +1054,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI##',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI##
 """,
@@ -1071,7 +1071,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI##',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI##
 """,
@@ -1088,7 +1088,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1113,7 +1113,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1130,7 +1130,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1147,7 +1147,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1164,7 +1164,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI\nReactions of CH2(singlet)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of CH2(singlet)
@@ -1182,7 +1182,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1199,7 +1199,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1216,7 +1216,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1233,7 +1233,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1250,7 +1250,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1267,7 +1267,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1284,7 +1284,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1301,7 +1301,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1326,7 +1326,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5},
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1343,7 +1343,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1360,7 +1360,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1377,7 +1377,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1394,7 +1394,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1424,7 +1424,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5},
         comment = 'GRI\nReactions of CH2O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of CH2O
@@ -1455,7 +1455,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5},
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1472,7 +1472,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1489,7 +1489,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1506,7 +1506,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1523,7 +1523,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1540,7 +1540,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1557,7 +1557,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1587,7 +1587,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'GRI\nReactions of CH3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of CH3
@@ -1605,7 +1605,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1630,7 +1630,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5},
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1647,7 +1647,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1664,7 +1664,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1681,7 +1681,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1698,7 +1698,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1715,7 +1715,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1732,7 +1732,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1749,7 +1749,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1766,7 +1766,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1783,7 +1783,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1800,7 +1800,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1817,7 +1817,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1834,7 +1834,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1851,7 +1851,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1881,7 +1881,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1898,7 +1898,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1915,7 +1915,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1932,7 +1932,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -1957,7 +1957,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5},
         comment = '86TSA/HAM\nReactions of CH3O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 Reactions of CH3O
@@ -1975,7 +1975,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -1992,7 +1992,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2009,7 +2009,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2026,7 +2026,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2043,7 +2043,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2060,7 +2060,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2077,7 +2077,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2102,7 +2102,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5},
         comment = 'GRI\nReactions of CH2OH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of CH2OH
@@ -2120,7 +2120,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2137,7 +2137,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2154,7 +2154,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2171,7 +2171,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2188,7 +2188,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2205,7 +2205,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2222,7 +2222,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI\nReactions of CH4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of CH4
@@ -2240,7 +2240,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2257,7 +2257,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2274,7 +2274,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2291,7 +2291,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2308,7 +2308,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2325,7 +2325,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2342,7 +2342,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM\nReactions of CH3OH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 Reactions of CH3OH
@@ -2360,7 +2360,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2377,7 +2377,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2394,7 +2394,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2411,7 +2411,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2428,7 +2428,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2445,7 +2445,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2462,7 +2462,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2487,7 +2487,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'GRI\nReactions of C2H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of C2H
@@ -2505,7 +2505,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2522,7 +2522,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2539,7 +2539,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2556,7 +2556,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2573,7 +2573,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI\nReactions of C2O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of C2O
@@ -2591,7 +2591,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92MIL/MEL',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92MIL/MEL
 """,
@@ -2608,7 +2608,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92MIL/MEL',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92MIL/MEL
 """,
@@ -2625,7 +2625,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92MIL/MEL',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92MIL/MEL
 """,
@@ -2642,7 +2642,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92MIL/MEL\nReactions of HCCO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92MIL/MEL
 Reactions of HCCO
@@ -2660,7 +2660,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2677,7 +2677,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2694,7 +2694,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2711,7 +2711,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2728,7 +2728,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2745,7 +2745,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2766,7 +2766,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 2.5, 'C#C': 2.5},
         comment = '92MIL/MEL\nReactions of C2H2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92MIL/MEL
 Reactions of C2H2
@@ -2792,7 +2792,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3, '[Ar]': 0.7},
         comment = '99LAS/WAN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99LAS/WAN
 """,
@@ -2809,7 +2809,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96KNY/SLA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96KNY/SLA
 """,
@@ -2826,7 +2826,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2843,7 +2843,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI (0.2 branching ratio)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI (0.2 branching ratio)
 """,
@@ -2860,7 +2860,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI (0.8 branching ratio)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI (0.8 branching ratio)
 """,
@@ -2877,7 +2877,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2894,7 +2894,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2911,7 +2911,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2928,7 +2928,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -2945,7 +2945,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -2962,7 +2962,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88BOH/TEM; 86FRA/BHA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88BOH/TEM; 86FRA/BHA
 """,
@@ -2979,7 +2979,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -3009,7 +3009,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 2.5, 'C#C': 2.5},
         comment = '91SHI/MIC, 92KOS/FUK, 93FAR/MOR',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91SHI/MIC, 92KOS/FUK, 93FAR/MOR
 """,
@@ -3039,7 +3039,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 2.5, 'C#C': 2.5},
         comment = '92WAN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92WAN
 """,
@@ -3056,7 +3056,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92WAN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92WAN
 """,
@@ -3073,7 +3073,7 @@ entry(
         T0 = (1, 'K'),
         comment = '89MIL/BOW; 83HOM/WEL\nC2H2+CH3 = pC3H4+H                           4.50E+06     1.86    11600.0  !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 89MIL/BOW; 83HOM/WEL
 C2H2+CH3 = pC3H4+H                           4.50E+06     1.86    11600.0  !99DAV/LAW RRKM 0.1 atm
@@ -3091,7 +3091,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\nC2H2+CH3 = pC3H4+H                           2.07E+10     0.85    14415.0  !99DAV/LAW RRKM 2 atm\nC2H2+CH3 = pC3H4+H                           2.51E+11     0.56    15453.0  !99DAV/LAW RRKM 5 atm\nC2H2+CH3 = pC3H4+H                           1.10E+12     0.39    16200.0  !99DAV/LAW RRKM 10 atm\nC2H2+CH3 = pC3H4+H                           2.10E+12     0.37    18100.0  !99DAV/LAW RRKM 100 atm\nC2H2+CH3 = aC3H4+H                           2.40E+09     0.91    20700.0  !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 C2H2+CH3 = pC3H4+H                           2.07E+10     0.85    14415.0  !99DAV/LAW RRKM 2 atm
@@ -3113,7 +3113,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\nC2H2+CH3 = aC3H4+H                           1.33E+10     0.75    22811.0  !99DAV/LAW RRKM 2 atm\nC2H2+CH3 = aC3H4+H                           9.20E+10     0.54    23950.0  !99DAV/LAW RRKM 5 atm\nC2H2+CH3 = aC3H4+H                           5.10E+11     0.35    25000.0  !99DAV/LAW RRKM 10 atm\nC2H2+CH3 = aC3H4+H                           7.30E+12     0.11    28500.0  !99DAV/LAW RRKM 100 atm\nC2H2+CH3 = CH3CCH2                           6.80E+20    -4.16    18000.0  !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 C2H2+CH3 = aC3H4+H                           1.33E+10     0.75    22811.0  !99DAV/LAW RRKM 2 atm
@@ -3135,7 +3135,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\nC2H2+CH3 = CH3CCH2                           6.00E+23    -4.60    19571.0  !99DAV/LAW RRKM 2 atm\nC2H2+CH3 = CH3CCH2                           7.31E+25    -5.06    21150.0  !99DAV/LAW RRKM 5 atm\nC2H2+CH3 = CH3CCH2                           9.30E+27    -5.55    22900.0  !99DAV/LAW RRKM 10 atm\nC2H2+CH3 = CH3CCH2                           3.80E+36    -7.58    31300.0  !99DAV/LAW RRKM 100 atm\nC2H2+CH3 = CH3CHCH                           1.40E+32    -7.14    10000.0  !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 C2H2+CH3 = CH3CCH2                           6.00E+23    -4.60    19571.0  !99DAV/LAW RRKM 2 atm
@@ -3157,7 +3157,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\nC2H2+CH3 = CH3CHCH                           2.40E+38    -8.21    17100.0  !99DAV/LAW RRKM 10 atm\nC2H2+CH3 = CH3CHCH                           1.40E+39    -8.06    20200.0  !99DAV/LAW RRKM 100 atm\nC2H2+CH3 = aC3H5                             8.20E+53    -13.32   33200.0  !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 C2H2+CH3 = CH3CHCH                           2.40E+38    -8.21    17100.0  !99DAV/LAW RRKM 10 atm
@@ -3177,7 +3177,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\nC2H2+CH3 = aC3H5                             3.64E+52    -12.46   36127.0  !99DAV/LAW RRKM 2 atm\nC2H2+CH3 = aC3H5                             1.04E+51    -11.89   36476.0  !99DAV/LAW RRKM 5 atm\nC2H2+CH3 = aC3H5                             4.40E+49    -11.40   36700.0  !99DAV/LAW RRKM 10 atm\nC2H2+CH3 = aC3H5                             3.80E+44     -9.63   37600.0  !99DAV/LAW RRKM 100 atm\nReactions of Vinylidene',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 C2H2+CH3 = aC3H5                             3.64E+52    -12.46   36127.0  !99DAV/LAW RRKM 2 atm
@@ -3199,7 +3199,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -3216,7 +3216,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -3246,7 +3246,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3},
         comment = '99LAS/WAN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99LAS/WAN
 """,
@@ -3263,7 +3263,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99LAS/WAN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99LAS/WAN
 """,
@@ -3293,7 +3293,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3, '[Ar]': 0.7},
         comment = 'Estimated\nReactions of CH2CO/HCCOH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 Reactions of CH2CO/HCCOH
@@ -3311,7 +3311,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'calculated RRKM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 calculated RRKM
 """,
@@ -3328,7 +3328,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -3345,7 +3345,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'calculated RRKM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 calculated RRKM
 """,
@@ -3362,7 +3362,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -3379,7 +3379,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -3396,7 +3396,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -3426,7 +3426,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3, '[Ar]': 0.7},
         comment = 'GRI\nReactions of C2H3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of C2H3
@@ -3444,7 +3444,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI1.2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI1.2
 """,
@@ -3461,7 +3461,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -3478,7 +3478,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -3495,7 +3495,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -3512,7 +3512,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -3529,7 +3529,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -3546,7 +3546,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96MEB/DIA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96MEB/DIA
 """,
@@ -3563,7 +3563,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96MEB/DIA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96MEB/DIA
 """,
@@ -3580,7 +3580,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96MEB/DIA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96MEB/DIA
 """,
@@ -3597,7 +3597,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -3614,7 +3614,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -3631,7 +3631,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -3648,7 +3648,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -3673,7 +3673,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3, '[Ar]': 0.7},
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -3690,7 +3690,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -3707,7 +3707,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM\nC2H3 + C2H2 = C4H4 + H                       7.20E+13     -0.48    6100.   !   10 Torr RRKM WAN/FRE\nC2H3 + C2H2 = C4H4 + H                       5.00E+14     -0.71    6700.   !   20 Torr RRKM WAN/FRE\nC2H3 + C2H2 = C4H4 + H                       4.60E+16     -1.25    8400.   !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 C2H3 + C2H2 = C4H4 + H                       7.20E+13     -0.48    6100.   !   10 Torr RRKM WAN/FRE
@@ -3727,7 +3727,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nC2H3 + C2H2 = C4H4 + H                       4.90E+16     -1.13   11800.   ! 7600 Torr RRKM WAN/FRE\nC2H3 + C2H2 = nC4H5                          1.10E+31     -7.14    5600.   !   10 Torr RRKM WAN/FRE\nC2H3 + C2H2 = nC4H5                          1.10E+32     -7.33    6200.   !   20 Torr RRKM WAN/FRE\nC2H3 + C2H2 = nC4H5                          2.40E+31     -6.95    5600.   !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 C2H3 + C2H2 = C4H4 + H                       4.90E+16     -1.13   11800.   ! 7600 Torr RRKM WAN/FRE
@@ -3748,7 +3748,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nC2H3 + C2H2 = nC4H5                          8.10E+37     -8.09   13400.   ! 7600 Torr RRKM WAN/FRE\nC2H3 + C2H2 = iC4H5                          5.00E+34     -8.42    7900.   !   10 Torr RRKM WAN/FRE\nC2H3 + C2H2 = iC4H5                          2.10E+36     -8.78    9100.   !   20 Torr RRKM WAN/FRE\nC2H3 + C2H2 = iC4H5                          1.00E+37     -8.77    9800.   !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 C2H3 + C2H2 = nC4H5                          8.10E+37     -8.09   13400.   ! 7600 Torr RRKM WAN/FRE
@@ -3769,7 +3769,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nC2H3 + C2H2 = iC4H5                          5.10E+53    -12.64   28800.   ! 7600 Torr RRKM WAN/FRE\nC2H3 + C2H3 = C4H6                           7.00E+57    -13.82   17629.   ! RRKM 20 Torr  WAN/FRE\nC2H3 + C2H3 = C4H6                           1.50E+52    -11.97   16056.   ! RRKM 90 Torr  WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 C2H3 + C2H2 = iC4H5                          5.10E+53    -12.64   28800.   ! 7600 Torr RRKM WAN/FRE
@@ -3789,7 +3789,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'RRKM 760 Torr WAN/FRE\nC2H3 + C2H3 = iC4H5 + H                      1.50E+30     -4.95   12958.   ! RRKM 20 Torr  WAN/FRE\nC2H3 + C2H3 = iC4H5 + H                      7.20E+28     -4.49   14273.   ! RRKM 90 Torr  WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 RRKM 760 Torr WAN/FRE
 C2H3 + C2H3 = iC4H5 + H                      1.50E+30     -4.95   12958.   ! RRKM 20 Torr  WAN/FRE
@@ -3808,7 +3808,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'RRKM 760 Torr WAN/FRE\nC2H3 + C2H3 = nC4H5 + H                      1.10E+24     -3.28   12395.   ! RRKM 20 Torr  WAN/FRE\nC2H3 + C2H3 = nC4H5 + H                      4.60E+24     -3.38   14650.   ! RRKM 90 Torr  WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 RRKM 760 Torr WAN/FRE
 C2H3 + C2H3 = nC4H5 + H                      1.10E+24     -3.28   12395.   ! RRKM 20 Torr  WAN/FRE
@@ -3827,7 +3827,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'RRKM 760 Torr WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 RRKM 760 Torr WAN/FRE
 """,
@@ -3844,7 +3844,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'NIST DB\nReactions of CH2CHO\nCH2CHO = CH3+CO                              2.340E+43  -10.099   45600.00 !RRKM 0.026 atm\nCH2CHO = CH3+CO                              7.200E+42   -9.521   47000.00 !RRKM 0.5 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 NIST DB
 Reactions of CH2CHO
@@ -3872,7 +3872,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3},
         comment = 'RRKM 1 atm\nCH2CHO = CH3+CO                              1.200E+37   -7.456   46100.00 !RRKM 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 RRKM 1 atm
 CH2CHO = CH3+CO                              1.200E+37   -7.456   46100.00 !RRKM 10 atm
@@ -3890,7 +3890,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Calculated RRKM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Calculated RRKM
 """,
@@ -3907,7 +3907,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -3924,7 +3924,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -3941,7 +3941,7 @@ entry(
         T0 = (1, 'K'),
         comment = '82MIL/MIT',
     ),
-    longDesc = 
+    longDesc =
 u"""
 82MIL/MIT
 """,
@@ -3958,7 +3958,7 @@ entry(
         T0 = (1, 'K'),
         comment = '82MIL/MIT',
     ),
-    longDesc = 
+    longDesc =
 u"""
 82MIL/MIT
 """,
@@ -3975,7 +3975,7 @@ entry(
         T0 = (1, 'K'),
         comment = '82MIL/MIT',
     ),
-    longDesc = 
+    longDesc =
 u"""
 82MIL/MIT
 """,
@@ -3992,7 +3992,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92BAU/COB',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92BAU/COB
 """,
@@ -4022,7 +4022,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3, '[Ar]': 0.7},
         comment = '92BAU/COB\nReactions of CH3CO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92BAU/COB
 Reactions of CH3CO
@@ -4048,7 +4048,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3},
         comment = 'kinf, RRKM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 kinf, RRKM
 """,
@@ -4065,7 +4065,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -4082,7 +4082,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -4099,7 +4099,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92BAU/COB',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92BAU/COB
 """,
@@ -4116,7 +4116,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM; 92BAU/COB',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM; 92BAU/COB
 """,
@@ -4133,7 +4133,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -4150,7 +4150,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -4167,7 +4167,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -4192,7 +4192,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, 'C=C': 3, 'C#C': 3},
         comment = '86TSA/HAM\nReactions of CH3CHO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 Reactions of CH3CHO
@@ -4210,7 +4210,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS1, RRKM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS1, RRKM
 """,
@@ -4227,7 +4227,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92BAU/COB',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92BAU/COB
 """,
@@ -4244,7 +4244,7 @@ entry(
         T0 = (1, 'K'),
         comment = '67LAM/CHR',
     ),
-    longDesc = 
+    longDesc =
 u"""
 67LAM/CHR
 """,
@@ -4261,7 +4261,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92BAU/COB',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92BAU/COB
 """,
@@ -4278,7 +4278,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92BAU/COB',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92BAU/COB
 """,
@@ -4295,7 +4295,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92BAU/COB',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92BAU/COB
 """,
@@ -4312,7 +4312,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'NIST DB',
     ),
-    longDesc = 
+    longDesc =
 u"""
 NIST DB
 """,
@@ -4329,7 +4329,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92BAU/COB\nReactions of CH2OCH2 (ethylene oxide)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92BAU/COB
 Reactions of CH2OCH2 (ethylene oxide)
@@ -4347,7 +4347,7 @@ entry(
         T0 = (1, 'K'),
         comment = '83LIF/BEN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 83LIF/BEN
 """,
@@ -4364,7 +4364,7 @@ entry(
         T0 = (1, 'K'),
         comment = '83LIF/BEN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 83LIF/BEN
 """,
@@ -4381,7 +4381,7 @@ entry(
         T0 = (1, 'K'),
         comment = '83LIF/BEN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 83LIF/BEN
 """,
@@ -4398,7 +4398,7 @@ entry(
         T0 = (1, 'K'),
         comment = '83LIF/BEN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 83LIF/BEN
 """,
@@ -4415,7 +4415,7 @@ entry(
         T0 = (1, 'K'),
         comment = '83LIF/BEN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 83LIF/BEN
 """,
@@ -4432,7 +4432,7 @@ entry(
         T0 = (1, 'K'),
         comment = '83LIF/BEN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 83LIF/BEN
 """,
@@ -4449,7 +4449,7 @@ entry(
         T0 = (1, 'K'),
         comment = '78BOG/HAN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 78BOG/HAN
 """,
@@ -4466,7 +4466,7 @@ entry(
         T0 = (1, 'K'),
         comment = '84BOL/KEE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 84BOL/KEE
 """,
@@ -4481,7 +4481,7 @@ entry(
         efficiencies = {},
         comment = '84BOL/KEE\nReactions of CH2OCH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 84BOL/KEE
 Reactions of CH2OCH
@@ -4497,7 +4497,7 @@ entry(
         efficiencies = {},
         comment = '84BOL/KEE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 84BOL/KEE
 """,
@@ -4512,7 +4512,7 @@ entry(
         efficiencies = {},
         comment = '96WUR/McG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96WUR/McG
 """,
@@ -4537,7 +4537,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '83LIF/BEN\nReactions of C2H4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 83LIF/BEN
 Reactions of C2H4
@@ -4568,7 +4568,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'GRI###',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI###
 """,
@@ -4585,7 +4585,7 @@ entry(
         T0 = (1, 'K'),
         comment = '04-MIL-KLI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 04-MIL-KLI
 """,
@@ -4602,7 +4602,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96KNY/BEN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96KNY/BEN
 """,
@@ -4619,7 +4619,7 @@ entry(
         T0 = (1, 'K'),
         comment = '87MAH/MAR',
     ),
-    longDesc = 
+    longDesc =
 u"""
 87MAH/MAR
 """,
@@ -4636,7 +4636,7 @@ entry(
         T0 = (1, 'K'),
         comment = '87MAH/MAR',
     ),
-    longDesc = 
+    longDesc =
 u"""
 87MAH/MAR
 """,
@@ -4653,7 +4653,7 @@ entry(
         T0 = (1, 'K'),
         comment = '87MAH/MAR',
     ),
-    longDesc = 
+    longDesc =
 u"""
 87MAH/MAR
 """,
@@ -4670,7 +4670,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88LIU/MUL1',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88LIU/MUL1
 """,
@@ -4687,7 +4687,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -4704,7 +4704,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -4721,7 +4721,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -4738,7 +4738,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -4755,7 +4755,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -4772,7 +4772,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -4789,7 +4789,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -4806,7 +4806,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'KP',
     ),
-    longDesc = 
+    longDesc =
 u"""
 KP
 """,
@@ -4823,7 +4823,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -4840,7 +4840,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM\nC2H4+C2H3 = C4H7                             1.21E+05     2.33    3680.0   !97WAN/FRE RRKM kinf\nC2H4+C2H3 = C4H7                             1.23E+35    -7.76    9930.0   !97WAN/FRE RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 C2H4+C2H3 = C4H7                             1.21E+05     2.33    3680.0   !97WAN/FRE RRKM kinf
@@ -4859,7 +4859,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE RRKM 1 atm\nC2H4+C2H3 = C4H7                             2.99E+36    -7.40   15480.0   !97WAN/FRE RRKM 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE RRKM 1 atm
 C2H4+C2H3 = C4H7                             2.99E+36    -7.40   15480.0   !97WAN/FRE RRKM 10 atm
@@ -4890,7 +4890,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '92BAU/COB\nReactions of C2H5',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92BAU/COB
 Reactions of C2H5
@@ -4908,7 +4908,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -4925,7 +4925,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -4942,7 +4942,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -4959,7 +4959,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -4976,7 +4976,7 @@ entry(
         T0 = (1, 'K'),
         comment = '90BOZ/DEA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 90BOZ/DEA
 """,
@@ -4993,7 +4993,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -5010,7 +5010,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -5027,7 +5027,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -5052,7 +5052,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '86TSA/HAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 """,
@@ -5077,7 +5077,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -5094,7 +5094,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM\nC2H5+C2H3 = aC3H5+CH3                        8.00E+25  -3.46    11775.0    !86TSA/HAM RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM
 C2H5+C2H3 = aC3H5+CH3                        8.00E+25  -3.46    11775.0    !86TSA/HAM RRKM 0.1 atm
@@ -5112,7 +5112,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86TSA/HAM RRKM 1 atm\nC2H5+C2H3 = aC3H5+CH3                        3.90E+29  -4.24    22311.0    !86TSA/HAM RRKM 10 atm\nReactions of C2H6',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86TSA/HAM RRKM 1 atm
 C2H5+C2H3 = aC3H5+CH3                        3.90E+29  -4.24    22311.0    !86TSA/HAM RRKM 10 atm
@@ -5131,7 +5131,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -5148,7 +5148,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -5165,7 +5165,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -5182,7 +5182,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 """,
@@ -5199,7 +5199,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'GRI\nReactions of C3H2\nC2H2 + CH = C3H2 + H                         3.00E+13    0.0        0.\nC3H2 + O = C2H2 + CO                         6.80E+13    0.0        0.\nC3H2 + OH = HCO + C2H2                       6.80E+13    0.0        0.\nC3H2 + O2 = HCCO + H + CO                    2.00E+12    0.0     1000.\nC3H2 + CH = C4H2 + H                         5.00E+13    0.0        0.\nC3H2 + CH2 = nC4H3 + H                       5.00E+13    0.0        0.\nC3H2 + CH3 = C4H4 + H                        5.00E+12    0.0        0.\nC3H2 + HCCO = nC4H3 + CO                     1.00E+13    0.0        0.\nC3H2 + H = C3H3\t                      1.00E+13    0.0        0.\nC3H3 + H = C3H2 + H2                         5.00E+13    0.0     1000.\nC3H3 + OH = C3H2 + H2O                       2.00E+13    0.0        0.\nC4H2 + O = C3H2 + CO                         2.70E+13    0.0     1720.\nC6H3 + O2 => CO + C3H2 + HCCO                5.00E+11    0.0        0.\nReactions of C3H3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 GRI
 Reactions of C3H2
@@ -5231,7 +5231,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -5248,7 +5248,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -5265,7 +5265,7 @@ entry(
         T0 = (1, 'K'),
         comment = '89MIL/BOW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 89MIL/BOW
 """,
@@ -5282,7 +5282,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88SLA/GUT',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88SLA/GUT
 """,
@@ -5299,7 +5299,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -5316,7 +5316,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW
 """,
@@ -5333,7 +5333,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW
 """,
@@ -5350,7 +5350,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -5367,7 +5367,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -5384,7 +5384,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -5401,7 +5401,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -5426,7 +5426,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '92MIL/MEL',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92MIL/MEL
 """,
@@ -5443,7 +5443,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -5461,7 +5461,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99MOS/LIN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99MOS/LIN
 """,
@@ -5479,7 +5479,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -5496,7 +5496,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -5513,7 +5513,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97JON/BAC',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97JON/BAC
 """,
@@ -5530,7 +5530,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C3H3+C4H4\nReactions of aC3H4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C3H3+C4H4
 Reactions of aC3H4
@@ -5548,7 +5548,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW\naC3H4+H = CH3CHCH                            1.10E+30   -6.52   15200.0    !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW
 aC3H4+H = CH3CHCH                            1.10E+30   -6.52   15200.0    !99DAV/LAW RRKM 0.1 atm
@@ -5566,7 +5566,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\naC3H4+H = CH3CHCH                            2.60E+31   -6.23   18700.0    !99DAV/LAW RRKM 10 atm\naC3H4+H = CH3CHCH                            3.20E+31   -5.88   21500.0    !99DAV/LAW RRKM 100 atm\naC3H4+H = CH3CCH2                            9.20E+38   -8.65    7000.0    !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 aC3H4+H = CH3CHCH                            2.60E+31   -6.23   18700.0    !99DAV/LAW RRKM 10 atm
@@ -5586,7 +5586,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\naC3H4+H = CH3CCH2                            8.47E+43   -9.59   12462.0    !99DAV/LAW RRKM 2 atm\naC3H4+H = CH3CCH2                            6.98E+44   -9.70   14032.0    !99DAV/LAW RRKM 5 atm\naC3H4+H = CH3CCH2                            1.50E+45   -9.69   15100.0    !99DAV/LAW RRKM 10 atm\naC3H4+H = CH3CCH2                            1.80E+43   -8.78   16800.0    !99DAV/LAW RRKM 100 atm\naC3H4+H = aC3H5                              9.60E+61  -14.67   26000.0    !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 aC3H4+H = CH3CCH2                            8.47E+43   -9.59   12462.0    !99DAV/LAW RRKM 2 atm
@@ -5608,7 +5608,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\naC3H4+H = aC3H5                              3.78E+57  -12.98   26785.0    !99DAV/LAW RRKM 2 atm\naC3H4+H = aC3H5                              7.34E+54  -12.09   26187.0    !99DAV/LAW RRKM 5 atm\naC3H4+H = aC3H5                              2.40E+52  -11.30   25400.0    !99DAV/LAW RRKM 10 atm\naC3H4+H = aC3H5                              6.90E+41   -8.06   21300.0    !99DAV/LAW RRKM 100 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 aC3H4+H = aC3H5                              3.78E+57  -12.98   26785.0    !99DAV/LAW RRKM 2 atm
@@ -5629,7 +5629,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98DAV/LAW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98DAV/LAW
 """,
@@ -5646,7 +5646,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -5663,7 +5663,7 @@ entry(
         T0 = (1, 'K'),
         comment = '87WU/KER',
     ),
-    longDesc = 
+    longDesc =
 u"""
 87WU/KER
 """,
@@ -5680,7 +5680,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'PW P',
     ),
-    longDesc = 
+    longDesc =
 u"""
 PW P
 """,
@@ -5697,7 +5697,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE\nReactions of pC3H4\npC3H4 = cC3H4                                1.73E+12   0.31    60015.0    !99DAV/LAW RRKM kinf\npC3H4 = cC3H4                                3.40E+46 -10.97    68900.0    !99DAV/LAW RRKM 0.1 atm\npC3H4 = cC3H4                                2.84E+45 -10.45    69284.0    !99DAV/LAW RRKM 0.4 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 Reactions of pC3H4
@@ -5718,7 +5718,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\npC3H4 = cC3H4                                5.47E+42  -9.43    69089.0    !99DAV/LAW RRKM 2 atm\npC3H4 = cC3H4                                3.92E+40  -8.69    68706.0    !99DAV/LAW RRKM 5 atm\npC3H4 = cC3H4                                5.30E+38  -8.06    68300.0    !99DAV/LAW RRKM 10 atm\npC3H4 = cC3H4                                2.80E+31  -5.69    66400.0    !99DAV/LAW RRKM 100 atm\npC3H4 = aC3H4                                6.40E+61 -14.59    88200.0    !99DAV/LAW RRKM 0.1 atm\npC3H4 = aC3H4                                5.81E+62 -14.63    91211.0    !99DAV/LAW RRKM 0.4 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 pC3H4 = cC3H4                                5.47E+42  -9.43    69089.0    !99DAV/LAW RRKM 2 atm
@@ -5741,7 +5741,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\npC3H4 = aC3H4                                7.64E+59 -13.59    91817.0    !99DAV/LAW RRKM 2 atm\npC3H4 = aC3H4                                3.12E+58 -13.07    92680.0    !99DAV/LAW RRKM 5 atm\npC3H4 = aC3H4                                1.90E+57 -12.62    93300.0    !99DAV/LAW RRKM 10 atm\npC3H4 = aC3H4                                1.40E+52 -10.86    95400.0    !99DAV/LAW RRKM 100 atm\npC3H4+H = aC3H4+H                            2.30E+15  -0.26     7600.0    !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 pC3H4 = aC3H4                                7.64E+59 -13.59    91817.0    !99DAV/LAW RRKM 2 atm
@@ -5763,7 +5763,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\npC3H4+H = aC3H4+H                            1.50E+18  -1.00    10756.0    !99DAV/LAW RRKM 2 atm\npC3H4+H = aC3H4+H                            1.93E+18  -1.01    11523.0    !99DAV/LAW RRKM 5 atm\npC3H4+H = aC3H4+H                            3.10E+22  -2.18    14800.0    !99DAV/LAW RRKM 10 atm\npC3H4+H = aC3H4+H                            6.40E+27  -3.58    21200.0    !99DAV/LAW RRKM 100 atm\npC3H4+H = CH3CCH2                            4.60E+44 -10.21    10200.0    !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 pC3H4+H = aC3H4+H                            1.50E+18  -1.00    10756.0    !99DAV/LAW RRKM 2 atm
@@ -5785,7 +5785,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\npC3H4+H = CH3CCH2                            5.04E+47 -10.61    14707.0    !99DAV/LAW RRKM 2 atm\npC3H4+H = CH3CCH2                            9.62E+47 -10.55    15910.0    !99DAV/LAW RRKM 5 atm\npC3H4+H = CH3CCH2                            7.00E+47 -10.40    16600.0    !99DAV/LAW RRKM 10 atm\npC3H4+H = CH3CCH2                            3.20E+44  -9.11    17400.0    !99DAV/LAW RRKM 100 atm\npC3H4+H = CH3CHCH                            1.00E+25 -5.00      1800.0    !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 pC3H4+H = CH3CCH2                            5.04E+47 -10.61    14707.0    !99DAV/LAW RRKM 2 atm
@@ -5807,7 +5807,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\npC3H4+H = CH3CHCH                            1.00E+34 -6.88      8900.0    !99DAV/LAW RRKM 10 atm\npC3H4+H = CH3CHCH                            9.70E+37 -7.63     13800.0    !99DAV/LAW RRKM 100 atm\npC3H4+H = aC3H5                              1.10E+60 -14.56    28100.0    !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 pC3H4+H = CH3CHCH                            1.00E+34 -6.88      8900.0    !99DAV/LAW RRKM 10 atm
@@ -5827,7 +5827,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\npC3H4+H = aC3H5                              3.04E+60 -14.19    32642.0    !99DAV/LAW RRKM 2 atm\npC3H4+H = aC3H5                              9.02E+59 -13.89    33953.0    !99DAV/LAW RRKM 5 atm\npC3H4+H = aC3H5                              2.20E+59 -13.61    34900.0    !99DAV/LAW RRKM 10 atm\npC3H4+H = aC3H5                              1.60E+55 -12.07    37500.0    !99DAV/LAW RRKM 100 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 pC3H4+H = aC3H5                              3.04E+60 -14.19    32642.0    !99DAV/LAW RRKM 2 atm
@@ -5848,7 +5848,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -5865,7 +5865,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -5882,7 +5882,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96ADU/BLU#',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96ADU/BLU#
 """,
@@ -5899,7 +5899,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96ADU/BLU#',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96ADU/BLU#
 """,
@@ -5916,7 +5916,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98DAV/LAW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98DAV/LAW
 """,
@@ -5933,7 +5933,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -5950,7 +5950,7 @@ entry(
         T0 = (1, 'K'),
         comment = '87WU/KER\nReactions of cC3H4\ncC3H4 = aC3H4                                1.98E+12   0.56    42240.0    !99DAV/LAW RRKM kinf\ncC3H4 = aC3H4                                2.30E+39  -8.81    47800.0    !99DAV/LAW RRKM 0.1 atm\ncC3H4 = aC3H4                                7.59E+40  -9.07    48831.0    !99DAV/LAW RRKM 0.4 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 87WU/KER
 Reactions of cC3H4
@@ -5979,7 +5979,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '99DAV/LAW RRKM 1 atm\ncC3H4 = aC3H4                                8.81E+41  -9.15    50073.0    !99DAV/LAW RRKM 2 atm\ncC3H4 = aC3H4                                4.33E+41  -8.93    50475.0    !99DAV/LAW RRKM 5 atm\ncC3H4 = aC3H4                                7.20E+40  -8.60    50600.0    !99DAV/LAW RRKM 10 atm\ncC3H4 = aC3H4                                1.60E+35  -6.64    49500.0    !99DAV/LAW RRKM 100 atm\nReactions of allyl',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 cC3H4 = aC3H4                                8.81E+41  -9.15    50073.0    !99DAV/LAW RRKM 2 atm
@@ -6001,7 +6001,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6018,7 +6018,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6035,7 +6035,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA\naC3H5+OH = C2H3CHO+H+H                       5.30E+37  -6.71    29306.0    !91TSA RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 aC3H5+OH = C2H3CHO+H+H                       5.30E+37  -6.71    29306.0    !91TSA RRKM 0.1 atm
@@ -6053,7 +6053,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA RRKM 1 atm\naC3H5+OH = C2H3CHO+H+H                       1.60E+20  -1.56    26330.0    !91TSA RRKM 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA RRKM 1 atm
 aC3H5+OH = C2H3CHO+H+H                       1.60E+20  -1.56    26330.0    !91TSA RRKM 10 atm
@@ -6071,7 +6071,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6088,7 +6088,7 @@ entry(
         T0 = (1, 'K'),
         comment = '93BOZ/DEA RRKM 1 atm\naC3H5+O2 = aC3H4+HO2                         2.18E+21  -2.85    30755.0    !93BOZ/DEA RRKM 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 93BOZ/DEA RRKM 1 atm
 aC3H5+O2 = aC3H4+HO2                         2.18E+21  -2.85    30755.0    !93BOZ/DEA RRKM 10 atm
@@ -6106,7 +6106,7 @@ entry(
         T0 = (1, 'K'),
         comment = '93BOZ/DEA RRKM 1 atm\naC3H5+O2 = CH3CO+CH2O                        7.14E+15  -1.21    21046.0    !93BOZ/DEA RRKM 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 93BOZ/DEA RRKM 1 atm
 aC3H5+O2 = CH3CO+CH2O                        7.14E+15  -1.21    21046.0    !93BOZ/DEA RRKM 10 atm
@@ -6124,7 +6124,7 @@ entry(
         T0 = (1, 'K'),
         comment = '93BOZ/DEA RRKM 1 atm\naC3H5+O2 = C2H3CHO+OH                        2.47E+13  -0.45    23017.0    !93BOZ/DEA RRKM 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 93BOZ/DEA RRKM 1 atm
 aC3H5+O2 = C2H3CHO+OH                        2.47E+13  -0.45    23017.0    !93BOZ/DEA RRKM 10 atm
@@ -6142,7 +6142,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92BAU/COB',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92BAU/COB
 """,
@@ -6159,7 +6159,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92BAU/COB',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92BAU/COB
 """,
@@ -6189,7 +6189,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6206,7 +6206,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6223,7 +6223,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA !\naC3H5 = CH3CCH2                              3.90E+59 -15.42    75400.0    !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA !
 aC3H5 = CH3CCH2                              3.90E+59 -15.42    75400.0    !99DAV/LAW RRKM 0.1 atm
@@ -6241,7 +6241,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\naC3H5 = CH3CCH2                              4.80E+55 -13.59    75949.0    !99DAV/LAW RRKM 2 atm\naC3H5 = CH3CCH2                              4.86E+53 -12.81    75883.0    !99DAV/LAW RRKM 5 atm\naC3H5 = CH3CCH2                              6.40E+51 -12.12    75700.0    !99DAV/LAW RRKM 10 atm\naC3H5 = CH3CCH2                              2.80E+43  -9.27    74000.0    !99DAV/LAW RRKM 100 atm\naC3H5 = CH3CHCH                              1.30E+55 -14.53    73800.0    !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 aC3H5 = CH3CCH2                              4.80E+55 -13.59    75949.0    !99DAV/LAW RRKM 2 atm
@@ -6263,7 +6263,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\naC3H5 = CH3CHCH                              9.70E+48 -11.73    73700.0    !99DAV/LAW RRKM 10 atm\naC3H5 = CH3CHCH                              4.86E+44 -9.84     73400.0    !99DAV/LAW RRKM 100 atm\naC3H5+C2H2 = C5H6+H                          3.97E+14  0.00  0  24892.0    !91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 aC3H5 = CH3CHCH                              9.70E+48 -11.73    73700.0    !99DAV/LAW RRKM 10 atm
@@ -6283,7 +6283,7 @@ entry(
         T0 = (1, 'K'),
         comment = '90DEAN\nReactions of CH3CCH2\nCH3CCH2 = CH3CHCH                            1.60E+44 -12.16    52200.0    !99DAV/LAW RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 90DEAN
 Reactions of CH3CCH2
@@ -6302,7 +6302,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW RRKM 1 atm\nCH3CCH2 = CH3CHCH                            5.10E+52 -13.37    57200.0    !99DAV/LAW RRKM 10 atm\nCH3CCH2 = CH3CHCH                            5.80E+51 -12.43    59200.0    !99DAV/LAW RRKM 100 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW RRKM 1 atm
 CH3CCH2 = CH3CHCH                            5.10E+52 -13.37    57200.0    !99DAV/LAW RRKM 10 atm
@@ -6321,7 +6321,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW
 """,
@@ -6338,7 +6338,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -6355,7 +6355,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -6372,7 +6372,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW
 """,
@@ -6389,7 +6389,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -6406,7 +6406,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -6423,7 +6423,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99DAV/LAW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99DAV/LAW
 """,
@@ -6440,7 +6440,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'PW P\nReactions of CH3CHCH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 PW P
 Reactions of CH3CHCH
@@ -6458,7 +6458,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= CH3CCH2+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = CH3CCH2+H
 """,
@@ -6475,7 +6475,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -6492,7 +6492,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -6509,7 +6509,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= CH3CCH2+O2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = CH3CCH2+O2
 """,
@@ -6526,7 +6526,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= CH3CCH2+HO2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = CH3CCH2+HO2
 """,
@@ -6543,7 +6543,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= CH3CCH2+HCO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = CH3CCH2+HCO
 """,
@@ -6573,7 +6573,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '= CH3CCH2+CH3\nReactions of C3H6',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = CH3CCH2+CH3
 Reactions of C3H6
@@ -6604,7 +6604,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6621,7 +6621,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA\nC3H6+H = C2H4+CH3                            8.80E+16  -1.05     6461.0    !91TSA RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 C3H6+H = C2H4+CH3                            8.80E+16  -1.05     6461.0    !91TSA RRKM 0.1 atm
@@ -6639,7 +6639,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA RRKM 1 atm\nC3H6+H = C2H4+CH3                            3.30E+24  -3.04    15610.0    !91TSA RRKM 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA RRKM 1 atm
 C3H6+H = C2H4+CH3                            3.30E+24  -3.04    15610.0    !91TSA RRKM 10 atm
@@ -6657,7 +6657,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6674,7 +6674,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6691,7 +6691,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6708,7 +6708,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6725,7 +6725,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6742,7 +6742,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6759,7 +6759,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6776,7 +6776,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6793,7 +6793,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6810,7 +6810,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6827,7 +6827,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6844,7 +6844,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6861,7 +6861,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6878,7 +6878,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6895,7 +6895,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6912,7 +6912,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6929,7 +6929,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91TSA
 """,
@@ -6946,7 +6946,7 @@ entry(
         T0 = (1, 'K'),
         comment = '85BAL/HIS\nReactions of C2H3CHO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 85BAL/HIS
 Reactions of C2H3CHO
@@ -6964,7 +6964,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C2H4+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C2H4+H
 """,
@@ -6981,7 +6981,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= CH2O+O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = CH2O+O
 """,
@@ -6998,7 +6998,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C2H4+O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C2H4+O
 """,
@@ -7015,7 +7015,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= CH2O+OH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = CH2O+OH
 """,
@@ -7032,7 +7032,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -7049,7 +7049,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C2H4+C2H3\nReactions of CH2CHCO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C2H4+C2H3
 Reactions of CH2CHCO
@@ -7067,7 +7067,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -7084,7 +7084,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated\nReactions of CH3CHOCH2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 Reactions of CH3CHOCH2
@@ -7102,7 +7102,7 @@ entry(
         T0 = (1, 'K'),
         comment = '77FLO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 77FLO
 """,
@@ -7119,7 +7119,7 @@ entry(
         T0 = (1, 'K'),
         comment = '94LIF/TAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 94LIF/TAM
 """,
@@ -7136,7 +7136,7 @@ entry(
         T0 = (1, 'K'),
         comment = '94LIF/TAM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 94LIF/TAM
 """,
@@ -7153,7 +7153,7 @@ entry(
         T0 = (1, 'K'),
         comment = '77FLO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 77FLO
 """,
@@ -7178,7 +7178,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '94LIF/TAM\nReactions of iC3H7',
     ),
-    longDesc = 
+    longDesc =
 u"""
 94LIF/TAM
 Reactions of iC3H7
@@ -7196,7 +7196,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA\niC3H7+H = CH3+C2H5                           5.90E+23  -2.81    10009.0    !88TSA RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 iC3H7+H = CH3+C2H5                           5.90E+23  -2.81    10009.0    !88TSA RRKM 0.1 atm
@@ -7214,7 +7214,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA RRKM 1 atm\niC3H7+H = CH3+C2H5                           4.00E+24  -2.83    17542.0    !88TSA RRKM 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA RRKM 1 atm
 iC3H7+H = CH3+C2H5                           4.00E+24  -2.83    17542.0    !88TSA RRKM 10 atm
@@ -7232,7 +7232,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7249,7 +7249,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7266,7 +7266,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7283,7 +7283,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7300,7 +7300,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7317,7 +7317,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7342,7 +7342,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '88TSA\nReactions of nC3H7',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 Reactions of nC3H7
@@ -7360,7 +7360,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA\nnC3H7+H = C2H5+CH3                           3.40E+18  -1.33     5386.0    !88TSA RRKM 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 nC3H7+H = C2H5+CH3                           3.40E+18  -1.33     5386.0    !88TSA RRKM 0.1 atm
@@ -7378,7 +7378,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA RRKM 1 atm\nnC3H7+H = C2H5+CH3                           3.10E+27  -3.59    19059.0    !88TSA RRKM 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA RRKM 1 atm
 nC3H7+H = C2H5+CH3                           3.10E+27  -3.59    19059.0    !88TSA RRKM 10 atm
@@ -7396,7 +7396,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7413,7 +7413,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7430,7 +7430,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7447,7 +7447,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7464,7 +7464,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7481,7 +7481,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7498,7 +7498,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA\nReactions of C3H8',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 Reactions of C3H8
@@ -7516,7 +7516,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7533,7 +7533,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7550,7 +7550,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7567,7 +7567,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7584,7 +7584,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7601,7 +7601,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7618,7 +7618,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7635,7 +7635,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7652,7 +7652,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7669,7 +7669,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7686,7 +7686,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 """,
@@ -7703,7 +7703,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88TSA\nReactions of C4H2\nC4H2 + H = nC4H3                             1.70E+49 -11.67   12804.0     !   20 Torr RRKM WAN/FRE\nC4H2 + H = nC4H3                             3.30E+50 -11.80   15010.0     !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88TSA
 Reactions of C4H2
@@ -7723,7 +7723,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nC4H2 + H = iC4H3                             4.30E+45 -10.15   13250.0     !   20 Torr RRKM WAN/FRE\nC4H2 + H = iC4H3                             2.60E+46 -10.15   15500.0     !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 C4H2 + H = iC4H3                             4.30E+45 -10.15   13250.0     !   20 Torr RRKM WAN/FRE
@@ -7742,7 +7742,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 """,
@@ -7759,7 +7759,7 @@ entry(
         T0 = (1, 'K'),
         comment = '84PER',
     ),
-    longDesc = 
+    longDesc =
 u"""
 84PER
 """,
@@ -7776,7 +7776,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C2H2 + C2H\nC4H2 + C2H = C6H3                            1.10E+30   -6.30   2790.0     !   20 Torr RRKM WAN/FRE\nC4H2 + C2H = C6H3                            1.30E+30   -6.12   2510.0     !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C2H2 + C2H
 C4H2 + C2H = C6H3                            1.10E+30   -6.30   2790.0     !   20 Torr RRKM WAN/FRE
@@ -7795,7 +7795,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nReactions of H2C4O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 Reactions of H2C4O
@@ -7813,7 +7813,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92MIL/MEL',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92MIL/MEL
 """,
@@ -7830,7 +7830,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92MIL/MEL\nReactions of nC4H3\nnC4H3 = iC4H3                                3.70E+61  -15.81  54890.0     !   20 Torr RRKM WAN/FRE\nnC4H3 = iC4H3                                1.00E+51  -12.45  51000.0     !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92MIL/MEL
 Reactions of nC4H3
@@ -7850,7 +7850,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nnC4H3 + H = iC4H3 + H                        2.40E+11    0.79   2410.0     !   20 Torr RRKM WAN/FRE\nnC4H3 + H = iC4H3 + H                        9.20E+11    0.63   2990.0     !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 nC4H3 + H = iC4H3 + H                        2.40E+11    0.79   2410.0     !   20 Torr RRKM WAN/FRE
@@ -7869,7 +7869,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nnC4H3 + H = C2H2 + H2CC                      1.60E+19   -1.60   2220.0     !   20 Torr RRKM WAN/FRE\nnC4H3 + H = C2H2 + H2CC                      1.30E+20   -1.85   2960.0     !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 nC4H3 + H = C2H2 + H2CC                      1.60E+19   -1.60   2220.0     !   20 Torr RRKM WAN/FRE
@@ -7888,7 +7888,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nnC4H3 + H = C4H4                             1.10E+42   -9.65   7000.0     !   20 Torr RRKM WAN/FRE\nnC4H3 + H = C4H4                             1.10E+42   -9.65   7000.0     !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 nC4H3 + H = C4H4                             1.10E+42   -9.65   7000.0     !   20 Torr RRKM WAN/FRE
@@ -7907,7 +7907,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 """,
@@ -7924,7 +7924,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= 0.5*C2H3+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = 0.5*C2H3+H
 """,
@@ -7941,7 +7941,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= 0.5*C2H3+OH\nnC4H3 + C2H2 = l-C6H4 + H                    1.40E+15   -0.81  10000.      !   10 Torr RRKM WAN/FRE\nnC4H3 + C2H2 = l-C6H4 + H                    3.70E+16   -1.21  11100.      !   20 Torr RRKM WAN/FRE\nnC4H3 + C2H2 = l-C6H4 + H                    1.80E+19   -1.95  13200.      !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = 0.5*C2H3+OH
 nC4H3 + C2H2 = l-C6H4 + H                    1.40E+15   -0.81  10000.      !   10 Torr RRKM WAN/FRE
@@ -7961,7 +7961,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nnC4H3 + C2H2 = l-C6H4 + H                    1.20E+17   -1.28  13700.      ! 7600 Torr RRKM WAN/FRE\nnC4H3 + C2H2 = C6H5                          1.40E+67  -17.42  23000.      !   10 Torr RRKM WAN/FRE\nnC4H3 + C2H2 = C6H5                          2.30E+68  -17.65  24400.      !   20 Torr RRKM WAN/FRE\nnC4H3 + C2H2 = C6H5                          9.80E+68  -17.58  26500.      !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 nC4H3 + C2H2 = l-C6H4 + H                    1.20E+17   -1.28  13700.      ! 7600 Torr RRKM WAN/FRE
@@ -7982,7 +7982,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nnC4H3 + C2H2 = C6H5                          1.90E+63  -15.25  30600.      ! 7600 Torr RRKM WAN/FRE\nnC4H3 + C2H2 = o-C6H4 + H                    9.20E+33   -6.57  15900.      !   10 Torr RRKM WAN/FRE\nnC4H3 + C2H2 = o-C6H4 + H                    1.90E+36   -7.21  17900.      !   20 Torr RRKM WAN/FRE\nnC4H3 + C2H2 = o-C6H4 + H                    3.50E+41   -8.63  23000.      !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 nC4H3 + C2H2 = C6H5                          1.90E+63  -15.25  30600.      ! 7600 Torr RRKM WAN/FRE
@@ -8003,7 +8003,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nnC4H3 + C2H2 = o-C6H4 + H                    3.10E+49  -10.59  37700.      ! 7600 Torr RRKM WAN/FRE\nReactions of iC4H3\niC4H3 + H = C2H2 + H2CC                      2.40E+19   -1.60   2800.0     !   20 Torr RRKM WAN/FRE\niC4H3 + H = C2H2 + H2CC                      3.70E+22   -2.50   5140.0     !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 nC4H3 + C2H2 = o-C6H4 + H                    3.10E+49  -10.59  37700.      ! 7600 Torr RRKM WAN/FRE
@@ -8024,7 +8024,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\niC4H3 + H = C4H4                             4.20E+44  -10.27   7890.0     !   20 Torr RRKM WAN/FRE\niC4H3 + H = C4H4                             5.30E+46  -10.68   9270.0     !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 iC4H3 + H = C4H4                             4.20E+44  -10.27   7890.0     !   20 Torr RRKM WAN/FRE
@@ -8043,7 +8043,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 """,
@@ -8060,7 +8060,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C2H3+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C2H3+H
 """,
@@ -8077,7 +8077,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C2H3+OH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C2H3+OH
 """,
@@ -8094,7 +8094,7 @@ entry(
         T0 = (1, 'K'),
         comment = '89SLA/BER\nReactions of C4H4\nC4H4 + H = nC4H5                             1.20E+51  -12.57    12300.    !   10 Torr RRKM WAN/FRE\nC4H4 + H = nC4H5                             4.20E+50  -12.34    12500.    !   20 Torr RRKM WAN/FRE\nC4H4 + H = nC4H5                             1.10E+50  -11.94    13400.    !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 89SLA/BER
 Reactions of C4H4
@@ -8115,7 +8115,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nC4H4 + H = nC4H5                             6.20E+45  -10.08    15800.    ! 7600 Torr RRKM WAN/FRE\nC4H4 + H = iC4H5                             6.10E+53  -13.19    14200.    !   10 Torr RRKM WAN/FRE\nC4H4 + H = iC4H5                             9.60E+52  -12.85    14300.    !   20 Torr RRKM WAN/FRE\nC4H4 + H = iC4H5                             2.10E+52  -12.44    15500.    !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 C4H4 + H = nC4H5                             6.20E+45  -10.08    15800.    ! 7600 Torr RRKM WAN/FRE
@@ -8136,7 +8136,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nC4H4 + H = iC4H5                             1.50E+48  -10.58    18800.    ! 7600 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 C4H4 + H = iC4H5                             1.50E+48  -10.58    18800.    ! 7600 Torr RRKM WAN/FRE
@@ -8154,7 +8154,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8171,7 +8171,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8188,7 +8188,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8205,7 +8205,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8222,7 +8222,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C4H6+O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C4H6+O
 """,
@@ -8239,7 +8239,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C2H+C2H4\nReactions of nC4H5\nnC4H5 = iC4H5                                2.40E+60 -16.08     47500.    !   10 Torr RRKM WAN/FRE\nnC4H5 = iC4H5                                1.30E+62 -16.38     49600.    !   20 Torr RRKM WAN/FRE\nnC4H5 = iC4H5                                4.90E+66 -17.26     55400.    !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C2H+C2H4
 Reactions of nC4H5
@@ -8260,7 +8260,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nnC4H5 = iC4H5                                2.00E+60 -14.46     58600.    ! 7600 Torr RRKM WAN/FRE\nnC4H5 + H = iC4H5 + H                        1.00E+36  -6.26     17486.    ! RRKM 20 Torr  WAN/FRE\nnC4H5 + H = iC4H5 + H                        1.00E+34  -5.61     18476.    ! RRKM 90 Torr  WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 nC4H5 = iC4H5                                2.00E+60 -14.46     58600.    ! 7600 Torr RRKM WAN/FRE
@@ -8280,7 +8280,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'RRKM 760 Torr WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 RRKM 760 Torr WAN/FRE
 """,
@@ -8297,7 +8297,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8314,7 +8314,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8331,7 +8331,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8348,7 +8348,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8365,7 +8365,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8382,7 +8382,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -8399,7 +8399,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C2H3+O2=>CH2CHO+O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C2H3+O2=>CH2CHO+O
 """,
@@ -8416,7 +8416,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C2H3+O2=>HCO+CH2O\nnC4H5 + C2H2 = C6H6 + H                      2.10E+15     -1.07    4800.  !   10 Torr RRKM WAN/FRE\nnC4H5 + C2H2 = C6H6 + H                      2.10E+15     -1.07    4800.  !   20 Torr RRKM WAN/FRE\nnC4H5 + C2H2 = C6H6 + H                      2.10E+15     -1.07    4800.  !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C2H3+O2=>HCO+CH2O
 nC4H5 + C2H2 = C6H6 + H                      2.10E+15     -1.07    4800.  !   10 Torr RRKM WAN/FRE
@@ -8436,7 +8436,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM WAN/FRE\nnC4H5 + C2H2 = C6H6 + H                      1.60E+18     -1.88    7400.  ! 7600 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM WAN/FRE
 nC4H5 + C2H2 = C6H6 + H                      1.60E+18     -1.88    7400.  ! 7600 Torr RRKM WAN/FRE
@@ -8454,7 +8454,7 @@ entry(
         T0 = (1, 'K'),
         comment = '89WES/DEA\nnC4H5+C4H4 =C6H5C2H3+H                       3.16E+11   0.0        600.    !84COL/BIT\nReactions of iC4H5',
     ),
-    longDesc = 
+    longDesc =
 u"""
 89WES/DEA
 nC4H5+C4H4 =C6H5C2H3+H                       3.16E+11   0.0        600.    !84COL/BIT
@@ -8473,7 +8473,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8490,7 +8490,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -8507,7 +8507,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8524,7 +8524,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8541,7 +8541,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -8558,7 +8558,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8575,7 +8575,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -8592,7 +8592,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C4H5-2+O2\niC4H5+C4H4 =C6H5C2H3+H                       5.000E+14  0.0      25000.    !Estimated\nReactions of C4H5-2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C4H5-2+O2
 iC4H5+C4H4 =C6H5C2H3+H                       5.000E+14  0.0      25000.    !Estimated
@@ -8611,7 +8611,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC4H5=>iC4H5',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC4H5=>iC4H5
 """,
@@ -8628,7 +8628,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC4H5+H=>iC4H5+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC4H5+H=>iC4H5+H
 """,
@@ -8645,7 +8645,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -8662,7 +8662,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92SLA/BEN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92SLA/BEN
 """,
@@ -8679,7 +8679,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -8696,7 +8696,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated\nReactions of 1,3-C4H6\nC4H6 = iC4H5 + H                             8.20E+51 -10.92    118409.    ! RRKM 20 Torr  WAN/FRE\nC4H6 = iC4H5 + H                             3.30E+45  -8.95    115934.    ! RRKM 90 Torr  WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 Reactions of 1,3-C4H6
@@ -8716,7 +8716,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'RRKM 760 Torr WAN/FRE\nC4H6 = nC4H5 + H                             3.50E+61 -13.87    129677.    ! RRKM 20 Torr  WAN/FRE\nC4H6 = nC4H5 + H                             8.50E+54 -11.78    127472.    ! RRKM 90 Torr  WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 RRKM 760 Torr WAN/FRE
 C4H6 = nC4H5 + H                             3.50E+61 -13.87    129677.    ! RRKM 20 Torr  WAN/FRE
@@ -8735,7 +8735,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'RRKM 760 Torr WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 RRKM 760 Torr WAN/FRE
 """,
@@ -8752,7 +8752,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96HID/HIG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HID/HIG
 """,
@@ -8769,7 +8769,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C2H4+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C2H4+H
 """,
@@ -8786,7 +8786,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated\nC2H4 + C2H3 = C4H6 + H                       7.40E+14  -0.66    8420.0     !   20 Torr RRKM WAN/FRE\nC2H4 + C2H3 = C4H6 + H                       1.90E+17  -1.32   10600.0     !   90 Torr RRKM WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 C2H4 + C2H3 = C4H6 + H                       7.40E+14  -0.66    8420.0     !   20 Torr RRKM WAN/FRE
@@ -8805,7 +8805,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE 1 atm\nC4H6+H = C2H4+C2H3                           5.45E+30  -4.51     21877.    !97WAN/FRE 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE 1 atm
 C4H6+H = C2H4+C2H3                           5.45E+30  -4.51     21877.    !97WAN/FRE 10 atm
@@ -8823,7 +8823,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -8840,7 +8840,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -8857,7 +8857,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C2h4+O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C2h4+O
 """,
@@ -8874,7 +8874,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C2h4+O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C2h4+O
 """,
@@ -8891,7 +8891,7 @@ entry(
         T0 = (1, 'K'),
         comment = '93ADU/FON#',
     ),
-    longDesc = 
+    longDesc =
 u"""
 93ADU/FON#
 """,
@@ -8908,7 +8908,7 @@ entry(
         T0 = (1, 'K'),
         comment = '93ADU/FON#',
     ),
-    longDesc = 
+    longDesc =
 u"""
 93ADU/FON#
 """,
@@ -8925,7 +8925,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88LIU/MUL',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88LIU/MUL
 """,
@@ -8942,7 +8942,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -8959,7 +8959,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -8976,7 +8976,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -8993,7 +8993,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96HID/HIG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HID/HIG
 """,
@@ -9010,7 +9010,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96HID/HIG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HID/HIG
 """,
@@ -9027,7 +9027,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96HID/HIG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HID/HIG
 """,
@@ -9044,7 +9044,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96HID/HIG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HID/HIG
 """,
@@ -9061,7 +9061,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96HID/HIG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HID/HIG
 """,
@@ -9078,7 +9078,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96HID/HIG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HID/HIG
 """,
@@ -9095,7 +9095,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -9112,7 +9112,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -9129,7 +9129,7 @@ entry(
         T0 = (1, 'K'),
         comment = '95LEU/LIN\nReactions of 1,2-C4H6',
     ),
-    longDesc = 
+    longDesc =
 u"""
 95LEU/LIN
 Reactions of 1,2-C4H6
@@ -9147,7 +9147,7 @@ entry(
         T0 = (1, 'K'),
         comment = '95LEU/LIN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 95LEU/LIN
 """,
@@ -9164,7 +9164,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -9181,7 +9181,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C3H6+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C3H6+H
 """,
@@ -9198,7 +9198,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -9215,7 +9215,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -9232,7 +9232,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88KER/SIN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88KER/SIN
 """,
@@ -9249,7 +9249,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C3H6+O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C3H6+O
 """,
@@ -9266,7 +9266,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C3H6+O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C3H6+O
 """,
@@ -9283,7 +9283,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C3H6+OH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C3H6+OH
 """,
@@ -9300,7 +9300,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96HID/HIG\nReactions of C4H6-2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HID/HIG
 Reactions of C4H6-2
@@ -9318,7 +9318,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96HID/HIG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HID/HIG
 """,
@@ -9335,7 +9335,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96HID/HIG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HID/HIG
 """,
@@ -9352,7 +9352,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -9369,7 +9369,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C3H6+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C3H6+H
 """,
@@ -9386,7 +9386,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96HID/HIG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HID/HIG
 """,
@@ -9403,7 +9403,7 @@ entry(
         T0 = (1, 'K'),
         comment = '96HID/HIG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 96HID/HIG
 """,
@@ -9420,7 +9420,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated\nReactions of C4H6O isomers',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 Reactions of C4H6O isomers
@@ -9438,7 +9438,7 @@ entry(
         T0 = (1, 'K'),
         comment = '76CRA/LUT',
     ),
-    longDesc = 
+    longDesc =
 u"""
 76CRA/LUT
 """,
@@ -9455,7 +9455,7 @@ entry(
         T0 = (1, 'K'),
         comment = '89LIF/BID',
     ),
-    longDesc = 
+    longDesc =
 u"""
 89LIF/BID
 """,
@@ -9472,7 +9472,7 @@ entry(
         T0 = (1, 'K'),
         comment = '89LIF/BID',
     ),
-    longDesc = 
+    longDesc =
 u"""
 89LIF/BID
 """,
@@ -9489,7 +9489,7 @@ entry(
         T0 = (1, 'K'),
         comment = '89LIF/BID',
     ),
-    longDesc = 
+    longDesc =
 u"""
 89LIF/BID
 """,
@@ -9506,7 +9506,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86LIF/BID1\nReactions of C4H4O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86LIF/BID1
 Reactions of C4H4O
@@ -9524,7 +9524,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86LIF/BID2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86LIF/BID2
 """,
@@ -9541,7 +9541,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86LIF/BID2\nReactions of CH3CHCHCHO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86LIF/BID2
 Reactions of CH3CHCHCHO
@@ -9559,7 +9559,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= HCCCHO=>C2H2+CO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = HCCCHO=>C2H2+CO
 """,
@@ -9576,7 +9576,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C3H6+H=>aC3H5+H2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C3H6+H=>aC3H5+H2
 """,
@@ -9593,7 +9593,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -9610,7 +9610,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C3H6+H=>C2H4+CH3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C3H6+H=>C2H4+CH3
 """,
@@ -9627,7 +9627,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C3H6+H=>C2H4+CH3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C3H6+H=>C2H4+CH3
 """,
@@ -9644,7 +9644,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C3H6+CH3=>aC3H5+CH4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C3H6+CH3=>aC3H5+CH4
 """,
@@ -9661,7 +9661,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -9678,7 +9678,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=C3H6+C2H3=>aC3H5+C2H4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =C3H6+C2H3=>aC3H5+C2H4
 """,
@@ -9695,7 +9695,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated\nReactions of CH3CHCHCO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 Reactions of CH3CHCHCO
@@ -9713,7 +9713,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -9730,7 +9730,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated\nReactions of CH2CHCHCHO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 Reactions of CH2CHCHCHO
@@ -9748,7 +9748,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -9765,7 +9765,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated\nReactions of C4H7',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 Reactions of C4H7
@@ -9791,7 +9791,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '97WAN/FRE\nC4H7 = C4H6+H                                1.85E+48 -10.50     51770.0   !97WAN/FRE 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 C4H7 = C4H6+H                                1.85E+48 -10.50     51770.0   !97WAN/FRE 10 atm
@@ -9809,7 +9809,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+H
 """,
@@ -9826,7 +9826,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -9843,7 +9843,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+H
 """,
@@ -9860,7 +9860,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -9877,7 +9877,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HO2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HO2
 """,
@@ -9894,7 +9894,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HCO',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HCO
 """,
@@ -9919,7 +9919,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '= nC3H7+CH3\nReaction of iC4H7 2-methylpropen-3-yl',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+CH3
 Reaction of iC4H7 2-methylpropen-3-yl
@@ -9937,7 +9937,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(aC3H5+H) TS5 600cm-1\niC4H7+H = CH3CCH2+CH3                        2.20E+51  -9.98     37730.0   ! =(aC3H5+H) TS5 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(aC3H5+H) TS5 600cm-1
 iC4H7+H = CH3CCH2+CH3                        2.20E+51  -9.98     37730.0   ! =(aC3H5+H) TS5 0.1 atm
@@ -9955,7 +9955,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(aC3H5+H) TS5 1 atm\niC4H7+H = CH3CCH2+CH3                        3.40E+32  -4.46     33760.0   ! =(aC3H5+H) TS5 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(aC3H5+H) TS5 1 atm
 iC4H7+H = CH3CCH2+CH3                        3.40E+32  -4.46     33760.0   ! =(aC3H5+H) TS5 10 atm
@@ -9973,7 +9973,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -10003,7 +10003,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'Estimated\nReactions of 1-butene',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 Reactions of 1-butene
@@ -10034,7 +10034,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H6+H) TS5 600 cm-1',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H) TS5 600 cm-1
 """,
@@ -10051,7 +10051,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+H) TS5 600 cm-1',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H) TS5 600 cm-1
 """,
@@ -10068,7 +10068,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C3H6+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C3H6+H
 """,
@@ -10085,7 +10085,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -10102,7 +10102,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= (C3H8+H)/2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = (C3H8+H)/2
 """,
@@ -10143,7 +10143,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91KO/ADU',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91KO/ADU
 """,
@@ -10160,7 +10160,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+OH)
 """,
@@ -10177,7 +10177,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -10194,7 +10194,7 @@ entry(
         T0 = (1, 'K'),
         comment = '89WAL',
     ),
-    longDesc = 
+    longDesc =
 u"""
 89WAL
 """,
@@ -10224,7 +10224,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)\nReactions of 2-butene',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 Reactions of 2-butene
@@ -10242,7 +10242,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+H=iC3H7) TS5 600cm-1',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H=iC3H7) TS5 600cm-1
 """,
@@ -10259,7 +10259,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+H)*2 TS5 k(a)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H)*2 TS5 k(a)
 """,
@@ -10276,7 +10276,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+O)*2 TS5 k(a+b)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+O)*2 TS5 k(a+b)
 """,
@@ -10293,7 +10293,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+OH)*2 TS5',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+OH)*2 TS5
 """,
@@ -10310,7 +10310,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -10327,7 +10327,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+HO2)*2 TS5',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+HO2)*2 TS5
 """,
@@ -10357,7 +10357,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H6+CH3)*2 TS5 k(c)\nReactions of i-butene',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+CH3)*2 TS5 k(c)
 Reactions of i-butene
@@ -10375,7 +10375,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+H=nC3H7) TS5 600 cm-1',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H=nC3H7) TS5 600 cm-1
 """,
@@ -10392,7 +10392,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC4H10+H)*2/3 TS4\niC4H8+H = C3H6+CH3                           8.80E+16  -1.05      6461.0   ! =(iC4H8+H) TS5 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC4H10+H)*2/3 TS4
 iC4H8+H = C3H6+CH3                           8.80E+16  -1.05      6461.0   ! =(iC4H8+H) TS5 0.1 atm
@@ -10410,7 +10410,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC4H8+H) TS5 1 atm\niC4H8+H = C3H6+CH3                           3.30E+24  -3.04     15610.0   ! =(iC4H8+H) TS5 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC4H8+H) TS5 1 atm
 iC4H8+H = C3H6+CH3                           3.30E+24  -3.04     15610.0   ! =(iC4H8+H) TS5 10 atm
@@ -10428,7 +10428,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+O) TS5',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+O) TS5
 """,
@@ -10445,7 +10445,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+O) TS5 k(c)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+O) TS5 k(c)
 """,
@@ -10462,7 +10462,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC4H10+O)*2/3 TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC4H10+O)*2/3 TS4
 """,
@@ -10479,7 +10479,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC4H10+OH)*2/3 TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC4H10+OH)*2/3 TS4
 """,
@@ -10496,7 +10496,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC4H10+HO2)*2/3 TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC4H10+HO2)*2/3 TS4
 """,
@@ -10513,7 +10513,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC4H10+O2)*2/3 TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC4H10+O2)*2/3 TS4
 """,
@@ -10530,7 +10530,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC4H10+CH3)*2/3 TS4\nReactions of 1-butyl',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC4H10+CH3)*2/3 TS4
 Reactions of 1-butyl
@@ -10556,7 +10556,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'KP, P',
     ),
-    longDesc = 
+    longDesc =
 u"""
 KP, P
 """,
@@ -10573,7 +10573,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H) TS3 600 cm-1\npC4H9+H = C2H5+C2H5                          3.40E+18  -1.33       5386.0  ! =(nC3H7+H) TS3 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H) TS3 600 cm-1
 pC4H9+H = C2H5+C2H5                          3.40E+18  -1.33       5386.0  ! =(nC3H7+H) TS3 0.1 atm
@@ -10591,7 +10591,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H) TS3 1 atm\npC4H9+H = C2H5+C2H5                          3.10E+27  -3.59      19059.0  ! =(nC3H7+H) TS3 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H) TS3 1 atm
 pC4H9+H = C2H5+C2H5                          3.10E+27  -3.59      19059.0  ! =(nC3H7+H) TS3 10 atm
@@ -10609,7 +10609,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H) TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H) TS4
 """,
@@ -10626,7 +10626,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O) TS3 ka+kb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O) TS3 ka+kb
 """,
@@ -10643,7 +10643,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+OH) TS3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+OH) TS3
 """,
@@ -10660,7 +10660,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'BB75',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BB75
 """,
@@ -10677,7 +10677,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HO2) TS3 ?',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HO2) TS3 ?
 """,
@@ -10694,7 +10694,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HCO) TS3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HCO) TS3
 """,
@@ -10719,7 +10719,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(nC3H7+CH3) TS3\nReactions of 2-butyl',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+CH3) TS3
 Reactions of 2-butyl
@@ -10745,7 +10745,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'TS5 600cm-1',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS5 600cm-1
 """,
@@ -10762,7 +10762,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H) TS3 600 cm-1\nsC4H9+H = C2H5+C2H5                          5.90E+23  -2.81     10009.0   ! =(iC3H7+H) TS3 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H) TS3 600 cm-1
 sC4H9+H = C2H5+C2H5                          5.90E+23  -2.81     10009.0   ! =(iC3H7+H) TS3 0.1 atm
@@ -10780,7 +10780,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H) TS3 1 atm\nsC4H9+H = C2H5+C2H5                          4.00E+24  -2.83     17542.0   ! =(iC3H7+H) TS3 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H) TS3 1 atm
 sC4H9+H = C2H5+C2H5                          4.00E+24  -2.83     17542.0   ! =(iC3H7+H) TS3 10 atm
@@ -10798,7 +10798,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H) TS3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H) TS3
 """,
@@ -10815,7 +10815,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)*2/3 TS3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)*2/3 TS3
 """,
@@ -10832,7 +10832,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O) TS3 ka+kb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O) TS3 ka+kb
 """,
@@ -10849,7 +10849,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+OH) TS3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+OH) TS3
 """,
@@ -10866,7 +10866,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+OH)*2/3 TS3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+OH)*2/3 TS3
 """,
@@ -10883,7 +10883,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'BB75',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BB75
 """,
@@ -10900,7 +10900,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'BB75',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BB75
 """,
@@ -10917,7 +10917,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HO2) TS3 ?',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HO2) TS3 ?
 """,
@@ -10934,7 +10934,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HCO) TS3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HCO) TS3
 """,
@@ -10951,7 +10951,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+CH3) TS3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+CH3) TS3
 """,
@@ -10976,7 +10976,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(iC3H7+CH3)*2/3 TS3\nReactions of i-butyl',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+CH3)*2/3 TS3
 Reactions of i-butyl
@@ -11002,7 +11002,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'TS5 600cm-1',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS5 600cm-1
 """,
@@ -11019,7 +11019,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4, 600cm-1\niC4H9+H = iC3H7+CH3                          1.10E+32  -5.04     16760.0   ! TS4 eq 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4, 600cm-1
 iC4H9+H = iC3H7+CH3                          1.10E+32  -5.04     16760.0   ! TS4 eq 0.1 atm
@@ -11037,7 +11037,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4 eq 1 atm\niC4H9+H = iC3H7+CH3                          1.35E+40  -7.02     31000.0   ! TS4 eq 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4 eq 1 atm
 iC4H9+H = iC3H7+CH3                          1.35E+40  -7.02     31000.0   ! TS4 eq 10 atm
@@ -11055,7 +11055,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11072,7 +11072,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11089,7 +11089,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11106,7 +11106,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11123,7 +11123,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4 ?',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4 ?
 """,
@@ -11140,7 +11140,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11165,7 +11165,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'TS4\nReactions of t-butyl',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 Reactions of t-butyl
@@ -11190,7 +11190,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'TS4 600cm-1',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4 600cm-1
 """,
@@ -11207,7 +11207,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4, 600cm-1\ntC4H9+H = iC3H7+CH3                          2.80E+34  -5.69     20500.0   ! TS4 eq 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4, 600cm-1
 tC4H9+H = iC3H7+CH3                          2.80E+34  -5.69     20500.0   ! TS4 eq 0.1 atm
@@ -11225,7 +11225,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4 eq 1 atm\ntC4H9+H = iC3H7+CH3                          2.60E+36  -6.12     25640.0   ! TS4 eq 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4 eq 1 atm
 tC4H9+H = iC3H7+CH3                          2.60E+36  -6.12     25640.0   ! TS4 eq 10 atm
@@ -11243,7 +11243,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11260,7 +11260,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11277,7 +11277,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11294,7 +11294,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11311,7 +11311,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11328,7 +11328,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11345,7 +11345,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11362,7 +11362,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11379,7 +11379,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=C3H8+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =C3H8+H
 """,
@@ -11396,7 +11396,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=C3H8+O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =C3H8+O
 """,
@@ -11413,7 +11413,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=C3H8+OH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =C3H8+OH
 """,
@@ -11438,7 +11438,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'TS1 kinf\nReactions of n-butane\nkinf : TS3 recommendation\nko: scaled such that Pr(nC3H7+CH3) = Pr(C2H5+CH3)  500cm-1\nFc: assumed equal to Fc(C2H5+CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS1 kinf
 Reactions of n-butane
@@ -11467,7 +11467,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'kinf: -0.5 T power = CH3+C2H5, kinf(300K) = TS1 recommendation\nko: scaled such that Pr(C2H5+C2H5) = Pr(CH3+C2H5) at (T,P), 500 cm-1\nFc: assumed equal to Fc(CH3+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 kinf: -0.5 T power = CH3+C2H5, kinf(300K) = TS1 recommendation
 ko: scaled such that Pr(C2H5+C2H5) = Pr(CH3+C2H5) at (T,P), 500 cm-1
@@ -11493,7 +11493,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H scaled to BBW at 753K)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H scaled to BBW at 753K)
 """,
@@ -11510,7 +11510,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H scaled to BBW at 753K)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H scaled to BBW at 753K)
 """,
@@ -11527,7 +11527,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86/CW
 """,
@@ -11544,7 +11544,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86/CW
 """,
@@ -11561,7 +11561,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91Coh
 """,
@@ -11578,7 +11578,7 @@ entry(
         T0 = (1, 'K'),
         comment = '91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 91Coh
 """,
@@ -11595,7 +11595,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2) TS3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2) TS3
 """,
@@ -11612,7 +11612,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2 TS3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2 TS3
 """,
@@ -11629,7 +11629,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2) TS3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2) TS3
 """,
@@ -11646,7 +11646,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2 TS3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2 TS3
 """,
@@ -11663,7 +11663,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3) TS3 see notes',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3) TS3 see notes
 """,
@@ -11688,7 +11688,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)*2 TS3 see notes\nReactions of i-butane',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2 TS3 see notes
 Reactions of i-butane
@@ -11706,7 +11706,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4, 600cm-1',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4, 600cm-1
 """,
@@ -11723,7 +11723,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11740,7 +11740,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11757,7 +11757,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11774,7 +11774,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11791,7 +11791,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11808,7 +11808,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11825,7 +11825,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11842,7 +11842,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11859,7 +11859,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11876,7 +11876,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11893,7 +11893,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 """,
@@ -11910,7 +11910,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'TS4\nReactions of C6H2\nC6H2 + H = C6H3                              4.30E+45 -10.15    13250.0    !   20 Torr 97WAN/FRE\nC6H2 + H = C6H3                              2.60E+46 -10.15    15500.0    !   90 Torr 97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 TS4
 Reactions of C6H2
@@ -11930,7 +11930,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr 97WAN/FRE\nReactions of C6H3\nC6H3 + H = C4H2 + C2H2                       2.40E+19  -1.60     2800.0    !   20 Torr RRKM 97WAN/FRE\nC6H3 + H = C4H2 + C2H2                       3.70E+22  -2.50     5140.0    !   90 Torr RRKM 97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr 97WAN/FRE
 Reactions of C6H3
@@ -11950,7 +11950,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM 97WAN/FRE\nC6H3 + H = l-C6H4                            4.20E+44 -10.27     7890.0    !   20 Torr RRKM 97WAN/FRE\nC6H3 + H = l-C6H4                            5.30E+46 -10.68     9270.0    !   90 Torr RRKM 97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM 97WAN/FRE
 C6H3 + H = l-C6H4                            4.20E+44 -10.27     7890.0    !   20 Torr RRKM 97WAN/FRE
@@ -11969,7 +11969,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM 97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM 97WAN/FRE
 """,
@@ -11986,7 +11986,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 """,
@@ -12003,7 +12003,7 @@ entry(
         T0 = (1, 'K'),
         comment = '97WAN/FRE\nl-C6H4 + H = C6H5                            4.40E+74 -19.09    25800.     !   10 Torr RRKM 97WAN/FRE\nl-C6H4 + H = C6H5                            3.60E+77 -20.09    28100.     !   20 Torr RRKM 97WAN/FRE\nl-C6H4 + H = C6H5                            4.70E+78 -20.10    29500.     !   90 Torr RRKM 97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97WAN/FRE
 l-C6H4 + H = C6H5                            4.40E+74 -19.09    25800.     !   10 Torr RRKM 97WAN/FRE
@@ -12023,7 +12023,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM 97WAN/FRE\nl-C6H4 + H = C6H5                            3.90E+69 -16.63    34100.     ! 7600 Torr RRKM 97WAN/FRE\nl-C6H4 + H = o-C6H4+ H                       8.70E+45  -9.61    22300.     !   10 Torr RRKM 97WAN/FRE\nl-C6H4 + H = o-C6H4+ H                       2.20E+47  -9.98    24000.     !   20 Torr RRKM 97WAN/FRE\nl-C6H4 + H = o-C6H4+ H                       9.70E+48 -10.37    27000.     !   90 Torr RRKM 97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM 97WAN/FRE
 l-C6H4 + H = C6H5                            3.90E+69 -16.63    34100.     ! 7600 Torr RRKM 97WAN/FRE
@@ -12044,7 +12044,7 @@ entry(
         T0 = (1, 'K'),
         comment = '760 Torr RRKM 97WAN/FRE\nl-C6H4 + H = o-C6H4+ H                       5.70E+55 -11.98    41900.     ! 7600 Torr RRKM 97WAN/FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 760 Torr RRKM 97WAN/FRE
 l-C6H4 + H = o-C6H4+ H                       5.70E+55 -11.98    41900.     ! 7600 Torr RRKM 97WAN/FRE
@@ -12062,7 +12062,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= C4H4+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = C4H4+H
 """,
@@ -12079,7 +12079,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'see notes\nC4H2 + C2H2 = o-C6H4                         1.40E+07   1.453    25407     ! kinf 300-2500 K, 83 kcal/mol, rot',
     ),
-    longDesc = 
+    longDesc =
 u"""
 see notes
 C4H2 + C2H2 = o-C6H4                         1.40E+07   1.453    25407     ! kinf 300-2500 K, 83 kcal/mol, rot
@@ -12097,7 +12097,7 @@ entry(
         T0 = (1, 'K'),
         comment = '5 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 5 atm
 """,
@@ -12114,7 +12114,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated\n*****************************************************************************\nThe following is the ring destruction sybmodel\n*****************************************************************************\nReactions of toluene (C6H5CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 *****************************************************************************
@@ -12135,7 +12135,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99-TOK-LIN (added 5/2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99-TOK-LIN (added 5/2)
 """,
@@ -12152,7 +12152,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98-ENG-FIT',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-ENG-FIT
 """,
@@ -12169,7 +12169,7 @@ entry(
         T0 = (1, 'K'),
         comment = '05-VAS-DAV',
     ),
-    longDesc = 
+    longDesc =
 u"""
 05-VAS-DAV
 """,
@@ -12186,7 +12186,7 @@ entry(
         T0 = (1, 'K'),
         comment = '5/6 * c6h6+oh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 5/6 * c6h6+oh
 """,
@@ -12203,7 +12203,7 @@ entry(
         T0 = (1, 'K'),
         comment = '90-HIP-REI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 90-HIP-REI
 """,
@@ -12220,7 +12220,7 @@ entry(
         T0 = (1, 'K'),
         comment = '01-TOK-LIN (added 5/2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 01-TOK-LIN (added 5/2)
 """,
@@ -12237,7 +12237,7 @@ entry(
         T0 = (1, 'K'),
         comment = '82-NIC-GUM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 82-NIC-GUM
 """,
@@ -12254,7 +12254,7 @@ entry(
         T0 = (1, 'K'),
         comment = '76-KER-PAR',
     ),
-    longDesc = 
+    longDesc =
 u"""
 76-KER-PAR
 """,
@@ -12271,7 +12271,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88-FAH-STE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88-FAH-STE
 """,
@@ -12288,7 +12288,7 @@ entry(
         T0 = (1, 'K'),
         comment = '94-BAULCH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 94-BAULCH
 """,
@@ -12313,7 +12313,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5},
         comment = '94-BAULCH\nReactions of benzyl radical (C6H5CH2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 94-BAULCH
 Reactions of benzyl radical (C6H5CH2)
@@ -12331,7 +12331,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'kinf (assumed, reduced from 2.6E14)\nk0 (RRKM)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 kinf (assumed, reduced from 2.6E14)
 k0 (RRKM)
@@ -12349,7 +12349,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'RRKM at 1 atm,',
     ),
-    longDesc = 
+    longDesc =
 u"""
 RRKM at 1 atm,
 """,
@@ -12366,7 +12366,7 @@ entry(
         T0 = (1, 'K'),
         comment = '(90a-HIP-REI)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 (90a-HIP-REI)
 """,
@@ -12383,7 +12383,7 @@ entry(
         T0 = (1, 'K'),
         comment = '90a-HIP-REI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 90a-HIP-REI
 """,
@@ -12400,7 +12400,7 @@ entry(
         T0 = (1, 'K'),
         comment = '90a-HIP-REI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 90a-HIP-REI
 """,
@@ -12417,7 +12417,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92-EMD-BRE, est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92-EMD-BRE, est.
 """,
@@ -12434,7 +12434,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92-EMD-BRE, est.\nReactions of benzyl alcohol (C6H5CH2OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92-EMD-BRE, est.
 Reactions of benzyl alcohol (C6H5CH2OH)
@@ -12452,7 +12452,7 @@ entry(
         T0 = (1, 'K'),
         comment = '90a-HIP-REI',
     ),
-    longDesc = 
+    longDesc =
 u"""
 90a-HIP-REI
 """,
@@ -12469,7 +12469,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92-EMD-BRE, est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92-EMD-BRE, est.
 """,
@@ -12486,7 +12486,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92-EMD-BRE, est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92-EMD-BRE, est.
 """,
@@ -12503,7 +12503,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92-EMD-BRE, est.\nReactions of benzaldehyde (C6H5CHO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92-EMD-BRE, est.
 Reactions of benzaldehyde (C6H5CHO)
@@ -12521,7 +12521,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est.
 """,
@@ -12538,7 +12538,7 @@ entry(
         T0 = (1, 'K'),
         comment = '86-GRE,Eamodified',
     ),
-    longDesc = 
+    longDesc =
 u"""
 86-GRE,Eamodified
 """,
@@ -12555,7 +12555,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est. Tsang',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est. Tsang
 """,
@@ -12572,7 +12572,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est.,(CH3CHO+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est.,(CH3CHO+OH)
 """,
@@ -12589,7 +12589,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est.,(CH3CHO+H).',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est.,(CH3CHO+H).
 """,
@@ -12606,7 +12606,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est.,(C6H5CH3 + H = C6H6 + CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est.,(C6H5CH3 + H = C6H6 + CH3)
 """,
@@ -12623,7 +12623,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est.,(CH3CHO+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est.,(CH3CHO+O)
 """,
@@ -12640,7 +12640,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est.(C6H5CHO + CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est.(C6H5CHO + CH3)
 """,
@@ -12657,7 +12657,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est.(CH3CHO+CH3).',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est.(CH3CHO+CH3).
 """,
@@ -12674,7 +12674,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est.(C6H5CH3+C6H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est.(C6H5CH3+C6H5)
 """,
@@ -12699,7 +12699,7 @@ entry(
         efficiencies = {'[C-]#[O+]': 1.5, 'C': 2, '[H][H]': 2, 'O=C=O': 2, 'O': 6},
         comment = 'est.(CH3CO+H2O2 = CH3CHO+HO2)\nReactions of cresoxy radical (OC6H4CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est.(CH3CO+H2O2 = CH3CHO+HO2)
 Reactions of cresoxy radical (OC6H4CH3)
@@ -12717,7 +12717,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated (C6H5O + H -> C6H5OH) / 2.5\n96-DAV-WAN, 97-WAN-FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated (C6H5O + H -> C6H5OH) / 2.5
 96-DAV-WAN, 97-WAN-FRE
@@ -12735,7 +12735,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est, =(C6H5CH3+H=C6H6+CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est, =(C6H5CH3+H=C6H6+CH3)
 """,
@@ -12752,7 +12752,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est.\nReactions of cresol (HOC6H5CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est.
 Reactions of cresol (HOC6H5CH3)
@@ -12770,7 +12770,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88-He-MAL',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88-He-MAL
 """,
@@ -12787,7 +12787,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88-He-MAL',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88-He-MAL
 """,
@@ -12804,7 +12804,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88-He-MAL',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88-He-MAL
 """,
@@ -12821,7 +12821,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92-EMD-BRE, est.\nReaction of benzoyl radical (C6H5CO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92-EMD-BRE, est.
 Reaction of benzoyl radical (C6H5CO)
@@ -12847,7 +12847,7 @@ entry(
         efficiencies = {'[C-]#[O+]': 1.5, 'C': 2, '[H][H]': 2, 'O=C=O': 2, 'O': 6},
         comment = '00-NAM-LIN (rep 5/1)\nReactions of benzene (C6H6)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 00-NAM-LIN (rep 5/1)
 Reactions of benzene (C6H6)
@@ -12865,7 +12865,7 @@ entry(
         T0 = (1, 'K'),
         comment = '(HW, RRKM)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 (HW, RRKM)
 """,
@@ -12882,7 +12882,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fit,AJ',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Fit,AJ
 """,
@@ -12899,7 +12899,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92BAU/COB',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92BAU/COB
 """,
@@ -12916,7 +12916,7 @@ entry(
         T0 = (1, 'K'),
         comment = '50% split 82-NIC-GUM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 50% split 82-NIC-GUM
 """,
@@ -12933,7 +12933,7 @@ entry(
         T0 = (1, 'K'),
         comment = '50% split based on McKinnon',
     ),
-    longDesc = 
+    longDesc =
 u"""
 50% split based on McKinnon
 """,
@@ -12958,7 +12958,7 @@ entry(
         efficiencies = {'[C-]#[O+]': 1.5, 'C': 2, '[H][H]': 2, 'O=C=O': 2, 'O': 6},
         comment = '97-MEB-LIN\nReactions of phenyl radical (C6H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 97-MEB-LIN
 Reactions of phenyl radical (C6H5)
@@ -12976,7 +12976,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'RRKM 00-HAI-FRE',
     ),
-    longDesc = 
+    longDesc =
 u"""
 RRKM 00-HAI-FRE
 """,
@@ -12993,7 +12993,7 @@ entry(
         T0 = (1, 'K'),
         comment = '01-MEB-LIN 1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 01-MEB-LIN 1 atm
 """,
@@ -13010,7 +13010,7 @@ entry(
         T0 = (1, 'K'),
         comment = '94-FRA-HER',
     ),
-    longDesc = 
+    longDesc =
 u"""
 94-FRA-HER
 """,
@@ -13027,7 +13027,7 @@ entry(
         T0 = (1, 'K'),
         comment = '94-FRA-HER',
     ),
-    longDesc = 
+    longDesc =
 u"""
 94-FRA-HER
 """,
@@ -13044,7 +13044,7 @@ entry(
         T0 = (1, 'K'),
         comment = '94-FRA-HER',
     ),
-    longDesc = 
+    longDesc =
 u"""
 94-FRA-HER
 """,
@@ -13061,7 +13061,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est.
 """,
@@ -13078,7 +13078,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est.
 """,
@@ -13095,7 +13095,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated, 10/01',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated, 10/01
 """,
@@ -13112,7 +13112,7 @@ entry(
         T0 = (1, 'K'),
         comment = '99-TOK-LIN (added 5/1)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 99-TOK-LIN (added 5/1)
 """,
@@ -13129,7 +13129,7 @@ entry(
         T0 = (1, 'K'),
         comment = '01-PAR-LIN (added 5/2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 01-PAR-LIN (added 5/2)
 """,
@@ -13146,7 +13146,7 @@ entry(
         T0 = (1, 'K'),
         comment = '00-CHO-LIN (added 5/1)\nC6H5 + C6H5 = BIPHENYL                       3.800E+31  -5.750    7950.00  !  97-WAN-FRE,  20 torr\nC6H5 + C6H5 = BIPHENYL                       6.100E+25  -4.000    5590.00  !  97-WAN-FRE,  90 torr\nC6H5 + C6H5 = BIPHENYL                       2.000E+19  -2.050    2900.00  !  97-WAN-FRE, 760 torr\nC6H6 + C6H5 = BIPHENYL+H                     5.600E+12  -0.074    7550.00  !  97-WAN-FRE,  20 torr\nC6H6 + C6H5 = BIPHENYL+H                     1.500E+14  -0.450    8915.00  !  97-WAN-FRE,  90 torr\nC6H6 + C6H5 = BIPHENYL+H                     1.100E+23  -2.920   15890.00  !  97-WAN-FRE, 760 torr\nReactions of benzoquinone (p-C6H4O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 00-CHO-LIN (added 5/1)
 C6H5 + C6H5 = BIPHENYL                       3.800E+31  -5.750    7950.00  !  97-WAN-FRE,  20 torr
@@ -13170,7 +13170,7 @@ entry(
         T0 = (1, 'K'),
         comment = '94-FRA-HER',
     ),
-    longDesc = 
+    longDesc =
 u"""
 94-FRA-HER
 """,
@@ -13188,7 +13188,7 @@ u"""
 #        T0 = (1, 'K'),
 #        comment = 'est. HW k = kinf[C6H6 + H]',
 #    ),
-#    longDesc = 
+#    longDesc =
 #u"""
 #est. HW k = kinf[C6H6 + H]
 #""",
@@ -13205,7 +13205,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est. HW, ??\nReactions of phenoxy radical (C6H5O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est. HW, ??
 Reactions of phenoxy radical (C6H5O)
@@ -13223,7 +13223,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'added 9/25',
     ),
-    longDesc = 
+    longDesc =
 u"""
 added 9/25
 """,
@@ -13240,7 +13240,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'added 9/25',
     ),
-    longDesc = 
+    longDesc =
 u"""
 added 9/25
 """,
@@ -13257,7 +13257,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'DAVIS, RRKM 1 atm (Ea reduced by 1.5 kcal/mol = change in hf,ch65O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 DAVIS, RRKM 1 atm (Ea reduced by 1.5 kcal/mol = change in hf,ch65O)
 """,
@@ -13274,7 +13274,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'MEB-LIN-95 (added 9/23)\nReactions of phenol (C6H5OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 MEB-LIN-95 (added 9/23)
 Reactions of phenol (C6H5OH)
@@ -13292,7 +13292,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98-HOR-FRA (added 9/25)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-HOR-FRA (added 9/25)
 """,
@@ -13309,7 +13309,7 @@ entry(
         T0 = (1, 'K'),
         comment = '90-KNI-KOC',
     ),
-    longDesc = 
+    longDesc =
 u"""
 90-KNI-KOC
 """,
@@ -13326,7 +13326,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88-He-MAL',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88-He-MAL
 """,
@@ -13343,7 +13343,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92-EMD-BRE, est. as 1/6 of CH3C6H4CH3 + O from 82-NIC-GUM',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92-EMD-BRE, est. as 1/6 of CH3C6H4CH3 + O from 82-NIC-GUM
 """,
@@ -13360,7 +13360,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92-EMD-BRE, est. from phenol + OH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92-EMD-BRE, est. from phenol + OH
 """,
@@ -13377,7 +13377,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92-EMD-BRE, est. from phenol + OH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92-EMD-BRE, est. from phenol + OH
 """,
@@ -13394,7 +13394,7 @@ entry(
         T0 = (1, 'K'),
         comment = '88-FAH-STE\nReactions of cyclopentadiene (C5H6)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 88-FAH-STE
 Reactions of cyclopentadiene (C5H6)
@@ -13412,7 +13412,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98-ZHO-BOZ',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-ZHO-BOZ
 """,
@@ -13429,7 +13429,7 @@ entry(
         T0 = (1, 'K'),
         comment = '02-MOS-LIN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 02-MOS-LIN
 """,
@@ -13446,7 +13446,7 @@ entry(
         T0 = (1, 'K'),
         comment = '02-MOS-LIN',
     ),
-    longDesc = 
+    longDesc =
 u"""
 02-MOS-LIN
 """,
@@ -13487,7 +13487,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98-ZHO-BOZ, C5H5O1_2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-ZHO-BOZ, C5H5O1_2
 """,
@@ -13504,7 +13504,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98-ZHO-BOZ',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-ZHO-BOZ
 """,
@@ -13521,7 +13521,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98-ZHO-BOZ est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-ZHO-BOZ est.
 """,
@@ -13538,7 +13538,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98-ZHO-BOZ est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-ZHO-BOZ est.
 """,
@@ -13555,7 +13555,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98-ZHO-BOZ est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-ZHO-BOZ est.
 """,
@@ -13572,7 +13572,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98-ZHO-BOZ est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-ZHO-BOZ est.
 """,
@@ -13597,7 +13597,7 @@ entry(
         efficiencies = {'[C-]#[O+]': 1.5, 'C': 2, '[H][H]': 2, 'O=C=O': 2, 'O': 6},
         comment = '98-ZHO-BOZ est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-ZHO-BOZ est.
 """,
@@ -13614,7 +13614,7 @@ entry(
         T0 = (1, 'K'),
         comment = '92-EMD-BRE, est., 94-FRA-HER\n96-DAV-WAN, 97-WAN-FRE\nReactions of cyclopentadienyl radical (C5H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 92-EMD-BRE, est., 94-FRA-HER
 96-DAV-WAN, 97-WAN-FRE
@@ -13633,7 +13633,7 @@ entry(
         T0 = (1, 'K'),
         comment = '10/18',
     ),
-    longDesc = 
+    longDesc =
 u"""
 10/18
 """,
@@ -13650,7 +13650,7 @@ entry(
         T0 = (1, 'K'),
         comment = '10/18',
     ),
-    longDesc = 
+    longDesc =
 u"""
 10/18
 """,
@@ -13667,7 +13667,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98-ZHO-BOZ',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-ZHO-BOZ
 """,
@@ -13684,7 +13684,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'ZHO-BOZ-98 added 10/08',
     ),
-    longDesc = 
+    longDesc =
 u"""
 ZHO-BOZ-98 added 10/08
 """,
@@ -13701,7 +13701,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98-ZHO-BOZ',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-ZHO-BOZ
 """,
@@ -13718,7 +13718,7 @@ entry(
         T0 = (1, 'K'),
         comment = '10/18',
     ),
-    longDesc = 
+    longDesc =
 u"""
 10/18
 """,
@@ -13766,7 +13766,7 @@ entry(
         T0 = (1, 'K'),
         comment = '98-ZHO-BOZ, 2-C5H5OH',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98-ZHO-BOZ, 2-C5H5OH
 """,
@@ -13783,7 +13783,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'RRKM 1 atm\nC5H5 + C5H5 = C10H8 + 2H                     6.430E+12   0.000    4000.00  ! 98-KER-KIE (added 5/12)\nReactions of cyclopentadienols (1,3-, 2,4- and 1,4-C5H5OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 RRKM 1 atm
 C5H5 + C5H5 = C10H8 + 2H                     6.430E+12   0.000    4000.00  ! 98-KER-KIE (added 5/12)
@@ -13802,7 +13802,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'as C6H5OH + H = C6H5O + H2 + 3 kcal/mol E barrier',
     ),
-    longDesc = 
+    longDesc =
 u"""
 as C6H5OH + H = C6H5O + H2 + 3 kcal/mol E barrier
 """,
@@ -13819,7 +13819,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est. C5H6 + H = C5H5 + H2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est. C5H6 + H = C5H5 + H2
 """,
@@ -13836,7 +13836,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'as C6H5OH + OH = C6H5O + H2O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 as C6H5OH + OH = C6H5O + H2O
 """,
@@ -13853,7 +13853,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est. C5H6 + OH = C5H5 + H2O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est. C5H6 + OH = C5H5 + H2O
 """,
@@ -13870,7 +13870,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'est. HW\nReactions of C5H5O(2,4)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 est. HW
 Reactions of C5H5O(2,4)
@@ -13888,7 +13888,7 @@ entry(
         T0 = (1, 'K'),
         comment = '(est. HW)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 (est. HW)
 """,
@@ -13905,7 +13905,7 @@ entry(
         T0 = (1, 'K'),
         comment = '(est. HW)\nReactions of C5H5O(1,3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 (est. HW)
 Reactions of C5H5O(1,3)
@@ -13923,7 +13923,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est. HW, see notes',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est. HW, see notes
 """,
@@ -13940,7 +13940,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est. (very rough) from C6H5O',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est. (very rough) from C6H5O
 """,
@@ -13957,7 +13957,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est. HW\nReactions of cyclopentadienone (C5H4O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est. HW
 Reactions of cyclopentadienone (C5H4O)
@@ -13975,7 +13975,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est. EBG',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est. EBG
 """,
@@ -13992,7 +13992,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'RRKM (10/18)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 RRKM (10/18)
 """,
@@ -14009,7 +14009,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est. HW = C6H6 + H kinf, possiblly too large',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est. HW = C6H6 + H kinf, possiblly too large
 """,
@@ -14026,7 +14026,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est. HW = C4H6 + O\nRactions of c-C4H5',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est. HW = C4H6 + O
 Ractions of c-C4H5
@@ -14044,7 +14044,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est. HW, fast c-C4H6 -> C4H6 - Lifshitz',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est. HW, fast c-C4H6 -> C4H6 - Lifshitz
 """,
@@ -14061,7 +14061,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est. HW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est. HW
 """,
@@ -14078,7 +14078,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est. HW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est. HW
 """,
@@ -14095,7 +14095,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est. HW, C3H5+O2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est. HW, C3H5+O2
 """,
@@ -14112,7 +14112,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est. HW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est. HW
 """,
@@ -14129,7 +14129,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est. HW\nReactions of 1,4-pentadien-3-yl (l-C5H7)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est. HW
 Reactions of 1,4-pentadien-3-yl (l-C5H7)
@@ -14147,7 +14147,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est.
 """,
@@ -14164,7 +14164,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Est.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est.
 """,
@@ -14189,7 +14189,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'Est.\nReactions of 1-penten-X-yl radicals\nPXC5H9 = C5H8-13+H                                2.48E+53  -12.30    52000.0   ! =(C4H7)\nPXC5H9 = C5H8-13+H                                1.85E+48  -10.50    51770.0   ! =(C4H7)10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Est.
 Reactions of 1-penten-X-yl radicals
@@ -14209,7 +14209,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=nC3H7+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =nC3H7+H
 """,
@@ -14226,7 +14226,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated\nPXC5H9+H = C5H8-13+H2                             1.80E+12    0.00        0.0   != nC3H7+H\nPXC5H9+O2 = C5H8-13+HO2                           1.00E+11    0.00        0.0   !Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 PXC5H9+H = C5H8-13+H2                             1.80E+12    0.00        0.0   != nC3H7+H
@@ -14245,7 +14245,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HO2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HO2
 """,
@@ -14262,7 +14262,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HCO\nPXC5H9+CH3 = C5H8-13+CH4                          1.10E+13    0.00        0.0   != nC3H7+CH3',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HCO
 PXC5H9+CH3 = C5H8-13+CH4                          1.10E+13    0.00        0.0   != nC3H7+CH3
@@ -14280,7 +14280,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -14297,7 +14297,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -14314,7 +14314,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -14331,7 +14331,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -14348,7 +14348,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -14365,7 +14365,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -14382,7 +14382,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -14399,7 +14399,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -14416,7 +14416,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS\nReactions of C5H10\nC5H10+H(+M) = PXC5H11(+M)                    1.33E+13    0.00     3260.7   ! =(C3H6+H) !BS\nLOW  / 6.26E+38   -6.66     7000.0   /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC5H10+H(+M) = SXC5H11(+M)                    1.33E+13    0.00     1559.8   ! =(C3H6+H) !BS\nLOW  / 8.70E+42   -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 Reactions of C5H10
@@ -14442,7 +14442,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -14459,7 +14459,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -14476,7 +14476,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H)
 """,
@@ -14493,7 +14493,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -14510,7 +14510,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+H)
 """,
@@ -14527,7 +14527,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H) !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H) !BS
 """,
@@ -14544,7 +14544,7 @@ entry(
         T0 = (1, 'K'),
         comment = '05/TO-BU  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 05/TO-BU  !BS
 """,
@@ -14585,7 +14585,7 @@ entry(
         T0 = (1, 'K'),
         comment = '(C4H81+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 (C4H81+O)
 """,
@@ -14602,7 +14602,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+OH)
 """,
@@ -14619,7 +14619,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -14636,7 +14636,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+HO2)
 """,
@@ -14661,7 +14661,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)\nBeta-scission Reactions of pentyl radicals',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 Beta-scission Reactions of pentyl radicals
@@ -14687,7 +14687,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '98TSA !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98TSA !BS
 """,
@@ -14712,7 +14712,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '98TSA !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98TSA !BS
 """,
@@ -14737,7 +14737,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '98TSA !BS\nReactions of SXC5H11\nC3H6+C2H5 = SXC5H11                    3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 98TSA !BS
 Reactions of SXC5H11
@@ -14756,7 +14756,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC5H11+H = nC3H7+C2H5                       5.90E+23   -2.81  10009.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC5H11+H = nC3H7+C2H5                       5.90E+23   -2.81  10009.0  ! =(iC3H7+H)
@@ -14774,7 +14774,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC5H11+H = nC3H7+C2H5                       4.00E+24   -2.83  17542.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC5H11+H = nC3H7+C2H5                       4.00E+24   -2.83  17542.0  ! =(iC3H7+H)
@@ -14792,7 +14792,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 """,
@@ -14809,7 +14809,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O)
 """,
@@ -14826,7 +14826,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+OH)
 """,
@@ -14843,7 +14843,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 """,
@@ -14860,7 +14860,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HO2)
 """,
@@ -14877,7 +14877,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HCO)
 """,
@@ -14902,7 +14902,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(iC3H7+CH3)\nReactions of S2XC5H11\nC4H81+CH3(+M)= S2XC5H11(+M)               1.70E+11    0.00   7403.6  ! =(C3H6+CH3) !BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nS2XC5H11+O2 = C5H10+HO2                       1.30E+11    0.00      0.0  ! =(iC3H7+O2)\nReactions of PXC5H11\nC2H4+nC3H7 = PXC5H11                         3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+CH3)
 Reactions of S2XC5H11
@@ -14927,7 +14927,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)\nPXC5H11+H = nC3H7+C2H5                       3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 PXC5H11+H = nC3H7+C2H5                       3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm
@@ -14945,7 +14945,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)  1 atm\nPXC5H11+H = nC3H7+C2H5                       3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)  1 atm
 PXC5H11+H = nC3H7+C2H5                       3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm
@@ -14963,7 +14963,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 """,
@@ -14980,7 +14980,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O)
 """,
@@ -14997,7 +14997,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+OH)
 """,
@@ -15014,7 +15014,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O2)
 """,
@@ -15031,7 +15031,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HO2)
 """,
@@ -15048,7 +15048,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HCO)
 """,
@@ -15065,7 +15065,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+CH3)\nReactions of NC5H12',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+CH3)
 Reactions of NC5H12
@@ -15083,7 +15083,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(CH3+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(CH3+C2H5)
 """,
@@ -15100,7 +15100,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -15117,7 +15117,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)
 """,
@@ -15134,7 +15134,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2
 """,
@@ -15151,7 +15151,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)   EDames
 """,
@@ -15168,7 +15168,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 86/CW
 """,
@@ -15185,7 +15185,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 86/CW
 """,
@@ -15202,7 +15202,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 86/CW
 """,
@@ -15219,7 +15219,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 91Coh
 """,
@@ -15236,7 +15236,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 91Coh
 """,
@@ -15253,7 +15253,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 91Coh
 """,
@@ -15270,7 +15270,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -15287,7 +15287,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2
 """,
@@ -15304,7 +15304,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)  EDames
 """,
@@ -15321,7 +15321,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)
 """,
@@ -15338,7 +15338,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2
 """,
@@ -15355,7 +15355,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2) EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2) EDames
 """,
@@ -15372,7 +15372,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 """,
@@ -15389,7 +15389,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2
 """,
@@ -15414,7 +15414,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3) EDames\nReactions of 1-hexen-X-yl radicals\nPXC6H11 = C6H10-13+H                              2.48E+53  -12.30  52000.0  !=(C4H7)\nPXC6H11 = C6H10-13+H                              1.85E+48  -10.50  51770.0  !=(C4H7) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3) EDames
 Reactions of 1-hexen-X-yl radicals
@@ -15434,7 +15434,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+H
 """,
@@ -15451,7 +15451,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H7+H)\nPXC6H11+H = C6H10-13+H2                           1.80E+12    0.00      0.0  != nC3H7+H\nPXC6H11+O2 = C6H10-13+HO2                         1.00E+11    0.00      0.0  !=(C4H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H7+H)
 PXC6H11+H = C6H10-13+H2                           1.80E+12    0.00      0.0  != nC3H7+H
@@ -15470,7 +15470,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HO2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HO2
 """,
@@ -15487,7 +15487,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HCO\nPXC6H11+CH3 = C6H10-13+CH4                        1.10E+13    0.00      0.0  != nC3H7+CH3\nAlternative\nC2H4+aC3H5 = PXC5H9                            3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HCO
 PXC6H11+CH3 = C6H10-13+CH4                        1.10E+13    0.00      0.0  != nC3H7+CH3
@@ -15507,7 +15507,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15524,7 +15524,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15541,7 +15541,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15558,7 +15558,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15575,7 +15575,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15592,7 +15592,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15609,7 +15609,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15626,7 +15626,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15643,7 +15643,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15660,7 +15660,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15677,7 +15677,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15694,7 +15694,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15711,7 +15711,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15728,7 +15728,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15745,7 +15745,7 @@ entry(
         T0 = (1, 'K'),
         comment = '05/TOU-BU  !BS\nReactions of C6H12\nC6H12+H(+M) = PXC6H13(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC6H12+H(+M) = SXC6H13(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 05/TOU-BU  !BS
 Reactions of C6H12
@@ -15771,7 +15771,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15788,7 +15788,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -15805,7 +15805,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H)
 """,
@@ -15822,7 +15822,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -15839,7 +15839,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+H)
 """,
@@ -15856,7 +15856,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H) !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H) !BS
 """,
@@ -15873,7 +15873,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H) !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H) !BS
 """,
@@ -15890,7 +15890,7 @@ entry(
         T0 = (1, 'K'),
         comment = '05/TO-BU  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 05/TO-BU  !BS
 """,
@@ -15931,7 +15931,7 @@ entry(
         T0 = (1, 'K'),
         comment = '(C4H81+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 (C4H81+O)
 """,
@@ -15948,7 +15948,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+OH)
 """,
@@ -15965,7 +15965,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -15982,7 +15982,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+HO2)
 """,
@@ -16007,7 +16007,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)\nReactions of PXC6H13\nC2H4+pC4H9 = PXC6H13                         3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nPXC6H13+H(+M) = NC6H14(+M)                   3.60E+13    0.00      0.0  ! =(nC3H7+H)    !BS\nLOW  / 3.01E+48  -9.32   5833.6      /\nTROE / 0.498  1314.0  1314.0 50000.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nBeta-scission Reactions of hexyl radicals',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 Reactions of PXC6H13
@@ -16039,7 +16039,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '07TSA !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 07TSA !B
 """,
@@ -16064,7 +16064,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '07TSA !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 07TSA !B
 """,
@@ -16089,7 +16089,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '07TSA !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 07TSA !B
 """,
@@ -16106,7 +16106,7 @@ entry(
         T0 = (1, 'K'),
         comment = '07TSA !B\nPXC6H13+H = pC4H9+C2H5                       3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 07TSA !B
 PXC6H13+H = pC4H9+C2H5                       3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm
@@ -16124,7 +16124,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)  1 atm\nPXC6H13+H = pC4H9+C2H5                       3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)  1 atm
 PXC6H13+H = pC4H9+C2H5                       3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm
@@ -16142,7 +16142,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 """,
@@ -16159,7 +16159,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O)
 """,
@@ -16176,7 +16176,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+OH)
 """,
@@ -16193,7 +16193,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O2)
 """,
@@ -16210,7 +16210,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HO2)
 """,
@@ -16227,7 +16227,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HCO)
 """,
@@ -16252,7 +16252,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(nC3H7+CH3)\nReactions of SXC6H13\nC3H6+nC3H7 = SXC6H13                    3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+CH3)
 Reactions of SXC6H13
@@ -16271,7 +16271,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC6H13+H = pC4H9+C2H5                       5.90E+23   -2.81  10009.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC6H13+H = pC4H9+C2H5                       5.90E+23   -2.81  10009.0  ! =(iC3H7+H)
@@ -16289,7 +16289,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC6H13+H = pC4H9+C2H5                       4.00E+24   -2.83  17542.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC6H13+H = pC4H9+C2H5                       4.00E+24   -2.83  17542.0  ! =(iC3H7+H)
@@ -16307,7 +16307,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 """,
@@ -16324,7 +16324,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O)
 """,
@@ -16341,7 +16341,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+OH)
 """,
@@ -16358,7 +16358,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 """,
@@ -16375,7 +16375,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HO2)
 """,
@@ -16392,7 +16392,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HCO)
 """,
@@ -16409,7 +16409,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+CH3)\nReactions of S2XC6H13\nC2H5+C4H81 = S2XC6H13                       3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!B\nC5H10+CH3(+M)= S2XC6H13(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)   !B\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+CH3)
 Reactions of S2XC6H13
@@ -16432,7 +16432,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of NC6H14',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of NC6H14
@@ -16450,7 +16450,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(CH3+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(CH3+C2H5)
 """,
@@ -16467,7 +16467,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -16484,7 +16484,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -16501,7 +16501,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)
 """,
@@ -16518,7 +16518,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2
 """,
@@ -16535,7 +16535,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2   EDames
 """,
@@ -16552,7 +16552,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 86/CW
 """,
@@ -16569,7 +16569,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 86/CW
 """,
@@ -16586,7 +16586,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 86/CW
 """,
@@ -16603,7 +16603,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 91Coh
 """,
@@ -16620,7 +16620,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 91Coh
 """,
@@ -16637,7 +16637,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 91Coh
 """,
@@ -16654,7 +16654,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -16671,7 +16671,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2
 """,
@@ -16688,7 +16688,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2  EDames
 """,
@@ -16705,7 +16705,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)
 """,
@@ -16722,7 +16722,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2
 """,
@@ -16739,7 +16739,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2 EDames
 """,
@@ -16756,7 +16756,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 """,
@@ -16773,7 +16773,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2
 """,
@@ -16798,7 +16798,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)*2 EDames\nReactions of PXC7H13\nPXC7H13 = C7H12+H                              2.48E+53  -12.30  52000.0  !=(C4H7)\nPXC7H13 = C7H12+H                              1.85E+48  -10.50  51770.0  !=(C4H7) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2 EDames
 Reactions of PXC7H13
@@ -16818,7 +16818,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+H
 """,
@@ -16835,7 +16835,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H7+H)\nPXC7H13+H = C7H12+H2                           1.80E+12    0.00      0.0  != nC3H7+H\nPXC7H13+O2 = C7H12+HO2                         1.00E+11    0.00      0.0  !=(C4H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H7+H)
 PXC7H13+H = C7H12+H2                           1.80E+12    0.00      0.0  != nC3H7+H
@@ -16854,7 +16854,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HO2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HO2
 """,
@@ -16871,7 +16871,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HCO\nPXC7H13+CH3 = C7H12+CH4                        1.10E+13    0.00      0.0  != nC3H7+CH3\nAlternative',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HCO
 PXC7H13+CH3 = C7H12+CH4                        1.10E+13    0.00      0.0  != nC3H7+CH3
@@ -16890,7 +16890,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H4+C2H5)*2\nReactions of C7H14\nC7H14+H(+M) = PXC7H15(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !B\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC7H14+H(+M) = SXC7H15(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !B\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H4+C2H5)*2
 Reactions of C7H14
@@ -16916,7 +16916,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -16933,7 +16933,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -16950,7 +16950,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H)
 """,
@@ -16967,7 +16967,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -16984,7 +16984,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+H)
 """,
@@ -17025,7 +17025,7 @@ entry(
         T0 = (1, 'K'),
         comment = '(C4H81+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 (C4H81+O)
 """,
@@ -17042,7 +17042,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+OH)
 """,
@@ -17059,7 +17059,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -17076,7 +17076,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+HO2)
 """,
@@ -17101,7 +17101,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)\nReactions of PXC7H15\nC2H4+PXC5H11 = PXC7H15                       3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!B\nBeta-scission Reactions of heptyl radicals',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 Reactions of PXC7H15
@@ -17129,7 +17129,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '08TSAa !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08TSAa !B
 """,
@@ -17154,7 +17154,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '08TSAa !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08TSAa !B
 """,
@@ -17179,7 +17179,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '08TSAa !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08TSAa !B
 """,
@@ -17204,7 +17204,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '08TSAa !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08TSAa !B
 """,
@@ -17229,7 +17229,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '08TSAa !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08TSAa !B
 """,
@@ -17246,7 +17246,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)\nPXC7H15+H = PXC5H11+C2H5                     3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 PXC7H15+H = PXC5H11+C2H5                     3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm
@@ -17264,7 +17264,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)  1 atm\nPXC7H15+H = PXC5H11+C2H5                     3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)  1 atm
 PXC7H15+H = PXC5H11+C2H5                     3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm
@@ -17282,7 +17282,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 """,
@@ -17299,7 +17299,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O)
 """,
@@ -17316,7 +17316,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+OH)
 """,
@@ -17333,7 +17333,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O2)
 """,
@@ -17350,7 +17350,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HO2)
 """,
@@ -17367,7 +17367,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HCO)
 """,
@@ -17384,7 +17384,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+CH3)\nReactions of SXC7H15\npC4H9+C3H6 = SXC7H15                        3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !B\nSXC7H15+H(+M) = NC7H16(+M)                   2.40E+13    0.00      0.0  ! =(iC3H7+H)     !B\nLOW  / 1.70E+58 -12.08  11263.7      /\nTROE / 0.649  1213.1  1213.1 13369.7 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nSXC7H15+H = PXC5H11+C2H5                     5.90E+23   -2.81  10009.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+CH3)
 Reactions of SXC7H15
@@ -17408,7 +17408,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC7H15+H = PXC5H11+C2H5                     4.00E+24   -2.83  17542.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC7H15+H = PXC5H11+C2H5                     4.00E+24   -2.83  17542.0  ! =(iC3H7+H)
@@ -17426,7 +17426,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 """,
@@ -17443,7 +17443,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O)
 """,
@@ -17460,7 +17460,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+OH)
 """,
@@ -17477,7 +17477,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 """,
@@ -17494,7 +17494,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HO2)
 """,
@@ -17511,7 +17511,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HCO)
 """,
@@ -17528,7 +17528,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+CH3)\nReactions of S2XC7H15\nnC3H7+C4H81 = S2XC7H15                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !B\nC6H12+CH3(+M)= S2XC7H15(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)    !B\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+CH3)
 Reactions of S2XC7H15
@@ -17551,7 +17551,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of S3XC7H15\nC2H5+C5H10 = S3XC7H15                       3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of S3XC7H15
@@ -17570,7 +17570,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of NC7H16',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of NC7H16
@@ -17588,7 +17588,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(CH3+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(CH3+C2H5)
 """,
@@ -17605,7 +17605,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -17622,7 +17622,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -17639,7 +17639,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)
 """,
@@ -17656,7 +17656,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2
 """,
@@ -17673,7 +17673,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2   EDames
 """,
@@ -17690,7 +17690,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)     EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)     EDames
 """,
@@ -17707,7 +17707,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 86/CW
 """,
@@ -17724,7 +17724,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 86/CW
 """,
@@ -17741,7 +17741,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 86/CW
 """,
@@ -17758,7 +17758,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 86/CW
 """,
@@ -17775,7 +17775,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 91Coh
 """,
@@ -17792,7 +17792,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 91Coh
 """,
@@ -17809,7 +17809,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 91Coh
 """,
@@ -17826,7 +17826,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!B 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !B 91Coh
 """,
@@ -17843,7 +17843,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -17860,7 +17860,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2
 """,
@@ -17877,7 +17877,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2  EDames
 """,
@@ -17894,7 +17894,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)    EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)    EDames
 """,
@@ -17911,7 +17911,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)
 """,
@@ -17928,7 +17928,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2
 """,
@@ -17945,7 +17945,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2 EDames
 """,
@@ -17962,7 +17962,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)   EDames
 """,
@@ -17979,7 +17979,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 """,
@@ -17996,7 +17996,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2
 """,
@@ -18013,7 +18013,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2 EDames
 """,
@@ -18038,7 +18038,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)   EDames\nReactions of PXC8H15\nPXC8H15 = C8H14+H                              2.48E+53  -12.30  52000.0  !=(C4H7)\nPXC8H15 = C8H14+H                              1.85E+48  -10.50  51770.0  !=(C4H7) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)   EDames
 Reactions of PXC8H15
@@ -18058,7 +18058,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+H
 """,
@@ -18075,7 +18075,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H7+H)\nPXC8H15+H = C8H14+H2                           1.80E+12    0.00      0.0  != nC3H7+H\nPXC8H15+O2 = C8H14+HO2                         1.00E+11    0.00      0.0  !=(C4H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H7+H)
 PXC8H15+H = C8H14+H2                           1.80E+12    0.00      0.0  != nC3H7+H
@@ -18094,7 +18094,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HO2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HO2
 """,
@@ -18111,7 +18111,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HCO\nPXC8H15+CH3 = C8H14+CH4                        1.10E+13    0.00      0.0  != nC3H7+CH3\nAlternative',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HCO
 PXC8H15+CH3 = C8H14+CH4                        1.10E+13    0.00      0.0  != nC3H7+CH3
@@ -18130,7 +18130,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H4+C2H5)*2\nReactions of C8H16\nC8H16+H(+M) = PXC8H17(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !B\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC8H16+H(+M) = SXC8H17(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !B\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H4+C2H5)*2
 Reactions of C8H16
@@ -18156,7 +18156,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -18173,7 +18173,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -18190,7 +18190,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H)
 """,
@@ -18207,7 +18207,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -18224,7 +18224,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+H)
 """,
@@ -18265,7 +18265,7 @@ entry(
         T0 = (1, 'K'),
         comment = '(C4H81+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 (C4H81+O)
 """,
@@ -18282,7 +18282,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+OH)
 """,
@@ -18299,7 +18299,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -18316,7 +18316,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+HO2)
 """,
@@ -18341,7 +18341,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)\nReactions of PXC8H17\nC2H4+PXC6H13 = PXC8H17                       3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!B\nBeta-scission Reactions of octyl radicals',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 Reactions of PXC8H17
@@ -18369,7 +18369,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '08TSAb !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08TSAb !B
 """,
@@ -18394,7 +18394,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '08TSAb !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08TSAb !B
 """,
@@ -18419,7 +18419,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '08TSAb !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08TSAb !B
 """,
@@ -18444,7 +18444,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '08TSAb !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08TSAb !B
 """,
@@ -18469,7 +18469,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '08TSAb !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08TSAb !B
 """,
@@ -18494,7 +18494,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '08TSAb !B',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08TSAb !B
 """,
@@ -18511,7 +18511,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)\nPXC8H17+H = PXC6H13+C2H5                     3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 PXC8H17+H = PXC6H13+C2H5                     3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm
@@ -18529,7 +18529,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)  1 atm\nPXC8H17+H = PXC6H13+C2H5                     3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)  1 atm
 PXC8H17+H = PXC6H13+C2H5                     3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm
@@ -18547,7 +18547,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 """,
@@ -18564,7 +18564,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O)
 """,
@@ -18581,7 +18581,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+OH)
 """,
@@ -18598,7 +18598,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O2)
 """,
@@ -18615,7 +18615,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HO2)
 """,
@@ -18632,7 +18632,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HCO)
 """,
@@ -18657,7 +18657,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(nC3H7+CH3)\nReactions of SXC8H17\nPXC5H11+C3H6 = SXC8H17                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+CH3)
 Reactions of SXC8H17
@@ -18676,7 +18676,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC8H17+H = PXC6H13+C2H5                     5.90E+23   -2.81  10009.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC8H17+H = PXC6H13+C2H5                     5.90E+23   -2.81  10009.0  ! =(iC3H7+H)
@@ -18694,7 +18694,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC8H17+H = PXC6H13+C2H5                     4.00E+24   -2.83  17542.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC8H17+H = PXC6H13+C2H5                     4.00E+24   -2.83  17542.0  ! =(iC3H7+H)
@@ -18712,7 +18712,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 """,
@@ -18729,7 +18729,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O)
 """,
@@ -18746,7 +18746,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+OH)
 """,
@@ -18763,7 +18763,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 """,
@@ -18780,7 +18780,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HO2)
 """,
@@ -18797,7 +18797,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HCO)
 """,
@@ -18814,7 +18814,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+CH3)\nReactions of S2XC8H17\npC4H9+C4H81 = S2XC8H17                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2\nC7H14+CH3(+M)= S2XC8H17(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+CH3)
 Reactions of S2XC8H17
@@ -18837,7 +18837,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of S3XC8H17\nnC3H7+C5H10 = S3XC8H17                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2\nC6H12+C2H5 = S3XC8H17                       3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of S3XC8H17
@@ -18857,7 +18857,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of NC8H18',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of NC8H18
@@ -18875,7 +18875,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(CH3+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(CH3+C2H5)
 """,
@@ -18892,7 +18892,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -18909,7 +18909,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -18926,7 +18926,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -18943,7 +18943,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)
 """,
@@ -18960,7 +18960,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2
 """,
@@ -18977,7 +18977,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2    EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2    EDames
 """,
@@ -18994,7 +18994,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2    EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2    EDames
 """,
@@ -19011,7 +19011,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW
 """,
@@ -19028,7 +19028,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW
 """,
@@ -19045,7 +19045,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW
 """,
@@ -19062,7 +19062,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW
 """,
@@ -19079,7 +19079,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -19096,7 +19096,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -19113,7 +19113,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -19130,7 +19130,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -19147,7 +19147,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -19164,7 +19164,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2
 """,
@@ -19181,7 +19181,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2   EDames
 """,
@@ -19198,7 +19198,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2   EDames
 """,
@@ -19215,7 +19215,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)
 """,
@@ -19232,7 +19232,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2
 """,
@@ -19249,7 +19249,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2  EDames
 """,
@@ -19266,7 +19266,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2  EDames
 """,
@@ -19283,7 +19283,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 """,
@@ -19300,7 +19300,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2
 """,
@@ -19317,7 +19317,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2  EDames
 """,
@@ -19342,7 +19342,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)*2  EDames\nReactions of PXC9H17\nPXC9H17 = C9H16+H                              2.48E+53  -12.30  52000.0  !=(C4H7)\nPXC9H17 = C9H16+H                              1.85E+48  -10.50  51770.0  !=(C4H7) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2  EDames
 Reactions of PXC9H17
@@ -19362,7 +19362,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+H
 """,
@@ -19379,7 +19379,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H7+H)\nPXC9H17+H = C9H16+H2                           1.80E+12    0.00      0.0  != nC3H7+H\nPXC9H17+O2 = C9H16+HO2                         1.00E+11    0.00      0.0  !=(C4H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H7+H)
 PXC9H17+H = C9H16+H2                           1.80E+12    0.00      0.0  != nC3H7+H
@@ -19398,7 +19398,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HO2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HO2
 """,
@@ -19415,7 +19415,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HCO\nPXC9H17+CH3 = C9H16+CH4                        1.10E+13    0.00      0.0  != nC3H7+CH3\nAlternative',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HCO
 PXC9H17+CH3 = C9H16+CH4                        1.10E+13    0.00      0.0  != nC3H7+CH3
@@ -19434,7 +19434,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H4+C2H5)*2\nReactions of C9H18\nC9H18+H(+M) = PXC9H19(+M)                    1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC9H18+H(+M) = SXC9H19(+M)                    1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H4+C2H5)*2
 Reactions of C9H18
@@ -19460,7 +19460,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -19477,7 +19477,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -19494,7 +19494,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H)
 """,
@@ -19511,7 +19511,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -19528,7 +19528,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+H)
 """,
@@ -19569,7 +19569,7 @@ entry(
         T0 = (1, 'K'),
         comment = '(C4H81+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 (C4H81+O)
 """,
@@ -19586,7 +19586,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+OH)
 """,
@@ -19603,7 +19603,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -19620,7 +19620,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+HO2)
 """,
@@ -19645,7 +19645,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)\nReactions of PXC9H19\nC2H4+PXC7H15 = PXC9H19                       3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !BS\nBeta-scission Reactions of nonyl radicals',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 Reactions of PXC9H19
@@ -19673,7 +19673,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -19698,7 +19698,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -19723,7 +19723,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -19748,7 +19748,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -19773,7 +19773,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -19798,7 +19798,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -19823,7 +19823,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb * 2 !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb * 2 !BS
 """,
@@ -19840,7 +19840,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)\nPXC9H19+H = PXC7H15+C2H5                     3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 PXC9H19+H = PXC7H15+C2H5                     3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm
@@ -19858,7 +19858,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)  1 atm\nPXC9H19+H = PXC7H15+C2H5                     3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)  1 atm
 PXC9H19+H = PXC7H15+C2H5                     3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm
@@ -19876,7 +19876,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 """,
@@ -19893,7 +19893,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O)
 """,
@@ -19910,7 +19910,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+OH)
 """,
@@ -19927,7 +19927,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O2)
 """,
@@ -19944,7 +19944,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HO2)
 """,
@@ -19961,7 +19961,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HCO)
 """,
@@ -19986,7 +19986,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(nC3H7+CH3)\nReactions of SXC9H19\nC3H6+PXC6H13 = SXC9H19                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+CH3)
 Reactions of SXC9H19
@@ -20005,7 +20005,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC9H19+H = PXC7H15+C2H5                     5.90E+23   -2.81  10009.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC9H19+H = PXC7H15+C2H5                     5.90E+23   -2.81  10009.0  ! =(iC3H7+H)
@@ -20023,7 +20023,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC9H19+H = PXC7H15+C2H5                     4.00E+24   -2.83  17542.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC9H19+H = PXC7H15+C2H5                     4.00E+24   -2.83  17542.0  ! =(iC3H7+H)
@@ -20041,7 +20041,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 """,
@@ -20058,7 +20058,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O)
 """,
@@ -20075,7 +20075,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+OH)
 """,
@@ -20092,7 +20092,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 """,
@@ -20109,7 +20109,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HO2)
 """,
@@ -20126,7 +20126,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HCO)
 """,
@@ -20143,7 +20143,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+CH3)\nReactions of S2XC9H19\nPXC5H11+C4H81 = S2XC9H19                    3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC8H16+CH3(+M)= S2XC9H19(+M)                 1.70E+11    0.00   7403.6  ! =(C3H6+CH3)!BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+CH3)
 Reactions of S2XC9H19
@@ -20166,7 +20166,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of S3XC9H19\npC4H9+C5H10 = S3XC9H19                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC7H14+C2H5 = S3XC9H19                       3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of S3XC9H19
@@ -20186,7 +20186,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of S4XC9H19\nnC3H7+C6H12 = S4XC9H19                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of S4XC9H19
@@ -20205,7 +20205,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of NC9H20',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of NC9H20
@@ -20223,7 +20223,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(CH3+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(CH3+C2H5)
 """,
@@ -20240,7 +20240,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -20257,7 +20257,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -20274,7 +20274,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -20291,7 +20291,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)
 """,
@@ -20308,7 +20308,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2
 """,
@@ -20325,7 +20325,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2   EDames
 """,
@@ -20342,7 +20342,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2   EDames
 """,
@@ -20359,7 +20359,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)     EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)     EDames
 """,
@@ -20376,7 +20376,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -20393,7 +20393,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -20410,7 +20410,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -20427,7 +20427,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -20444,7 +20444,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -20461,7 +20461,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -20478,7 +20478,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -20495,7 +20495,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -20512,7 +20512,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -20529,7 +20529,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -20546,7 +20546,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -20563,7 +20563,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2
 """,
@@ -20580,7 +20580,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2  EDames
 """,
@@ -20597,7 +20597,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2  EDames
 """,
@@ -20614,7 +20614,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)    EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)    EDames
 """,
@@ -20631,7 +20631,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)
 """,
@@ -20648,7 +20648,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2
 """,
@@ -20665,7 +20665,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2 EDames
 """,
@@ -20682,7 +20682,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2 EDames
 """,
@@ -20699,7 +20699,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)   EDames
 """,
@@ -20716,7 +20716,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 """,
@@ -20733,7 +20733,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2
 """,
@@ -20750,7 +20750,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2 EDames
 """,
@@ -20767,7 +20767,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2 EDames
 """,
@@ -20792,7 +20792,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)   EDames\nReactions of PXC10H19\nPXC10H19 = C10H18+H                            2.48E+53  -12.30  52000.0  !=(C4H7)\nPXC10H19 = C10H18+H                            1.85E+48  -10.50  51770.0  !=(C4H7) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)   EDames
 Reactions of PXC10H19
@@ -20812,7 +20812,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+H
 """,
@@ -20829,7 +20829,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H7+H)\nPXC10H19+H = C10H18+H2                         1.80E+12    0.00      0.0  != nC3H7+H\nPXC10H19+O2 = C10H18+HO2                       1.00E+11    0.00      0.0  !=(C4H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H7+H)
 PXC10H19+H = C10H18+H2                         1.80E+12    0.00      0.0  != nC3H7+H
@@ -20848,7 +20848,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HO2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HO2
 """,
@@ -20865,7 +20865,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HCO\nPXC10H19+CH3 = C10H18+CH4                      1.10E+13    0.00      0.0  != nC3H7+CH3\nAlternative',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HCO
 PXC10H19+CH3 = C10H18+CH4                      1.10E+13    0.00      0.0  != nC3H7+CH3
@@ -20884,7 +20884,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H4+C2H5)*2\nReactions of C10H20\nC10H20+H(+M) = PXC10H21(+M)                  1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC10H20+H(+M) = SXC10H21(+M)                  1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H4+C2H5)*2
 Reactions of C10H20
@@ -20910,7 +20910,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -20927,7 +20927,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -20944,7 +20944,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H)
 """,
@@ -20961,7 +20961,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -20978,7 +20978,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+H)
 """,
@@ -21019,7 +21019,7 @@ entry(
         T0 = (1, 'K'),
         comment = '(C4H81+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 (C4H81+O)
 """,
@@ -21036,7 +21036,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+OH)
 """,
@@ -21053,7 +21053,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -21070,7 +21070,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+HO2)
 """,
@@ -21095,7 +21095,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)\nReactions of PXC10H21\nC2H4+PXC8H17 = PXC10H21                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nBeta-scission Reactions of decyl radicals',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 Reactions of PXC10H21
@@ -21123,7 +21123,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -21148,7 +21148,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -21173,7 +21173,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -21198,7 +21198,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -21223,7 +21223,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -21248,7 +21248,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -21273,7 +21273,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -21298,7 +21298,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -21315,7 +21315,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)\nPXC10H21+H = PXC8H17+C2H5                    3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 PXC10H21+H = PXC8H17+C2H5                    3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm
@@ -21333,7 +21333,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)  1 atm\nPXC10H21+H = PXC8H17+C2H5                    3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)  1 atm
 PXC10H21+H = PXC8H17+C2H5                    3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm
@@ -21351,7 +21351,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 """,
@@ -21368,7 +21368,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O)
 """,
@@ -21385,7 +21385,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+OH)
 """,
@@ -21402,7 +21402,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O2)
 """,
@@ -21419,7 +21419,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HO2)
 """,
@@ -21436,7 +21436,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HCO)
 """,
@@ -21461,7 +21461,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(nC3H7+CH3)\nReactions of SXC10H21\nC3H6+PXC7H15 = SXC10H21                     3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+CH3)
 Reactions of SXC10H21
@@ -21480,7 +21480,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC10H21+H = PXC8H17+C2H5                    5.90E+23   -2.81  10009.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC10H21+H = PXC8H17+C2H5                    5.90E+23   -2.81  10009.0  ! =(iC3H7+H)
@@ -21498,7 +21498,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC10H21+H = PXC8H17+C2H5                    4.00E+24   -2.83  17542.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC10H21+H = PXC8H17+C2H5                    4.00E+24   -2.83  17542.0  ! =(iC3H7+H)
@@ -21516,7 +21516,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 """,
@@ -21533,7 +21533,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O)
 """,
@@ -21550,7 +21550,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+OH)
 """,
@@ -21567,7 +21567,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 """,
@@ -21584,7 +21584,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HO2)
 """,
@@ -21601,7 +21601,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HCO)
 """,
@@ -21618,7 +21618,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+CH3)\nReactions of S2XC10H21\nPXC6H13+C4H81 = S2XC10H21                   3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC9H18+CH3(+M)= S2XC10H21(+M)                1.70E+11    0.00   7403.6  ! =(C3H6+CH3)!BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+CH3)
 Reactions of S2XC10H21
@@ -21641,7 +21641,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of S3XC10H21\nPXC5H11+C5H10 = S3XC10H21                   3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC8H16+C2H5=S3XC10H21                        3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of S3XC10H21
@@ -21661,7 +21661,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of S4XC10H21\npC4H9+C6H12 = S4XC10H21                     3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC7H14+nC3H7 = S4XC10H21                     3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of S4XC10H21
@@ -21681,7 +21681,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of NC10H22',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of NC10H22
@@ -21699,7 +21699,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(CH3+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(CH3+C2H5)
 """,
@@ -21716,7 +21716,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -21733,7 +21733,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -21750,7 +21750,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -21767,7 +21767,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -21784,7 +21784,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)
 """,
@@ -21801,7 +21801,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2
 """,
@@ -21818,7 +21818,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2    EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2    EDames
 """,
@@ -21835,7 +21835,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2    EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2    EDames
 """,
@@ -21852,7 +21852,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2    EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2    EDames
 """,
@@ -21869,7 +21869,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -21886,7 +21886,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -21903,7 +21903,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -21920,7 +21920,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -21937,7 +21937,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -21954,7 +21954,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -21971,7 +21971,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -21988,7 +21988,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -22005,7 +22005,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -22022,7 +22022,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh
 """,
@@ -22039,7 +22039,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -22056,7 +22056,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2
 """,
@@ -22073,7 +22073,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2   EDames
 """,
@@ -22090,7 +22090,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2   EDames
 """,
@@ -22107,7 +22107,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2   EDames
 """,
@@ -22124,7 +22124,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)
 """,
@@ -22141,7 +22141,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2
 """,
@@ -22158,7 +22158,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2  EDames
 """,
@@ -22175,7 +22175,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2  EDames
 """,
@@ -22192,7 +22192,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2  EDames
 """,
@@ -22209,7 +22209,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 """,
@@ -22226,7 +22226,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2
 """,
@@ -22243,7 +22243,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2  EDames
 """,
@@ -22260,7 +22260,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2  EDames
 """,
@@ -22285,7 +22285,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)*2  EDames\nReactions of PXC11H21\nPXC11H21 = C11H20+H                            2.48E+53  -12.30  52000.0  !=(C4H7)\nPXC11H21 = C11H20+H                            1.85E+48  -10.50  51770.0  !=(C4H7) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2  EDames
 Reactions of PXC11H21
@@ -22305,7 +22305,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+H
 """,
@@ -22322,7 +22322,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H7+H)\nPXC11H21+H = C11H20+H2                         1.80E+12    0.00      0.0  != nC3H7+H\nPXC11H21+O2 = C11H20+HO2                       1.00E+11    0.00      0.0  !=(C4H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H7+H)
 PXC11H21+H = C11H20+H2                         1.80E+12    0.00      0.0  != nC3H7+H
@@ -22341,7 +22341,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HO2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HO2
 """,
@@ -22358,7 +22358,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HCO\nPXC11H21+CH3 = C11H20+CH4                      1.10E+13    0.00      0.0  != nC3H7+CH3\nAlternative',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HCO
 PXC11H21+CH3 = C11H20+CH4                      1.10E+13    0.00      0.0  != nC3H7+CH3
@@ -22377,7 +22377,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H4+C2H5)*2\nReactions of C11H22\nC11H22+H(+M) = PXC11H23(+M)                  1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC11H22+H(+M) = SXC11H23(+M)                  1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H4+C2H5)*2
 Reactions of C11H22
@@ -22403,7 +22403,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -22420,7 +22420,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -22437,7 +22437,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H)
 """,
@@ -22454,7 +22454,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -22471,7 +22471,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+H)
 """,
@@ -22512,7 +22512,7 @@ entry(
         T0 = (1, 'K'),
         comment = '(C4H81+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 (C4H81+O)
 """,
@@ -22529,7 +22529,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+OH)
 """,
@@ -22546,7 +22546,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -22563,7 +22563,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+HO2)
 """,
@@ -22588,7 +22588,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)\nReactions of PXC11H23\nC2H4+PXC9H19 = PXC11H23                      3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nBeta-scission Reactions of undecyl radicals',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 Reactions of PXC11H23
@@ -22616,7 +22616,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -22641,7 +22641,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -22666,7 +22666,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -22691,7 +22691,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -22716,7 +22716,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -22741,7 +22741,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -22766,7 +22766,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -22791,7 +22791,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -22816,7 +22816,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb * 2 !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb * 2 !BS
 """,
@@ -22833,7 +22833,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)\nPXC11H23+H = PXC9H19+C2H5                    3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 PXC11H23+H = PXC9H19+C2H5                    3.40E+18   -1.33    5386.0 ! =(nC3H7+H) 0.1 atm
@@ -22851,7 +22851,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)  1 atm\nPXC11H23+H = PXC9H19+C2H5                    3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)  1 atm
 PXC11H23+H = PXC9H19+C2H5                    3.10E+27   -3.59   19059.0 ! =(nC3H7+H) 10 atm
@@ -22869,7 +22869,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 """,
@@ -22886,7 +22886,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O)
 """,
@@ -22903,7 +22903,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+OH)
 """,
@@ -22920,7 +22920,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+O2)
 """,
@@ -22937,7 +22937,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HO2)
 """,
@@ -22954,7 +22954,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+HCO)
 """,
@@ -22979,7 +22979,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(nC3H7+CH3)\nReactions of SXC11H23\nPXC8H17+C3H6 = SXC11H23                     3.00E+11    0.00   7300.0!BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+CH3)
 Reactions of SXC11H23
@@ -22998,7 +22998,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC11H23+H = PXC9H19+C2H5                    5.90E+23   -2.81  10009.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC11H23+H = PXC9H19+C2H5                    5.90E+23   -2.81  10009.0  ! =(iC3H7+H)
@@ -23016,7 +23016,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC11H23+H = PXC9H19+C2H5                    4.00E+24   -2.83  17542.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC11H23+H = PXC9H19+C2H5                    4.00E+24   -2.83  17542.0  ! =(iC3H7+H)
@@ -23034,7 +23034,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 """,
@@ -23051,7 +23051,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O)
 """,
@@ -23068,7 +23068,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+OH)
 """,
@@ -23085,7 +23085,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 """,
@@ -23102,7 +23102,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HO2)
 """,
@@ -23119,7 +23119,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HCO)
 """,
@@ -23136,7 +23136,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+CH3)\nReactions of S2XC11H23\nPXC7H15+C4H81 = S2XC11H23                   3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC10H20+CH3(+M)= S2XC11H23(+M)               1.70E+11    0.00   7403.6  ! =(C3H6+CH3)!BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+CH3)
 Reactions of S2XC11H23
@@ -23159,7 +23159,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of S3XC11H23\nPXC6H13+C5H10 = S3XC11H23                   3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !BS\nC9H18+C2H5=S3XC11H23                        3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of S3XC11H23
@@ -23179,7 +23179,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of S4XC11H23\nPXC5H11+C6H12 = S4XC11H23                   3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !BS\nC8H16+nC3H7 = S4XC11H23                     3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of S4XC11H23
@@ -23199,7 +23199,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of S5XC11H23\npC4H9+C7H14 = S5XC11H23                     3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of S5XC11H23
@@ -23218,7 +23218,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of NC11H24',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of NC11H24
@@ -23236,7 +23236,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(CH3+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(CH3+C2H5)
 """,
@@ -23253,7 +23253,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -23270,7 +23270,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -23287,7 +23287,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -23304,7 +23304,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -23321,7 +23321,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)
 """,
@@ -23338,7 +23338,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2
 """,
@@ -23355,7 +23355,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2   EDames
 """,
@@ -23372,7 +23372,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2   EDames
 """,
@@ -23389,7 +23389,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)*2   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)*2   EDames
 """,
@@ -23406,7 +23406,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)     EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)     EDames
 """,
@@ -23423,7 +23423,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -23440,7 +23440,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -23457,7 +23457,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -23474,7 +23474,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -23491,7 +23491,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -23508,7 +23508,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -23525,7 +23525,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh (decane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh (decane)
 """,
@@ -23542,7 +23542,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh (decane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh (decane)
 """,
@@ -23559,7 +23559,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh (decane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh (decane)
 """,
@@ -23576,7 +23576,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh (decane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh (decane)
 """,
@@ -23593,7 +23593,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh (decane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh (decane)
 """,
@@ -23610,7 +23610,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh (decane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh (decane)
 """,
@@ -23627,7 +23627,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -23644,7 +23644,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2
 """,
@@ -23661,7 +23661,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2  EDames
 """,
@@ -23678,7 +23678,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2  EDames
 """,
@@ -23695,7 +23695,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)*2  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)*2  EDames
 """,
@@ -23712,7 +23712,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)    EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)    EDames
 """,
@@ -23729,7 +23729,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)
 """,
@@ -23746,7 +23746,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2
 """,
@@ -23763,7 +23763,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2 EDames
 """,
@@ -23780,7 +23780,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2 EDames
 """,
@@ -23797,7 +23797,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)*2 EDames
 """,
@@ -23814,7 +23814,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)   EDames
 """,
@@ -23831,7 +23831,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 """,
@@ -23848,7 +23848,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2
 """,
@@ -23865,7 +23865,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2 EDames
 """,
@@ -23882,7 +23882,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2 EDames
 """,
@@ -23899,7 +23899,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3)*2 EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)*2 EDames
 """,
@@ -23924,7 +23924,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)   EDames\nReactions of PXC12H23\nPXC12H23 = C12H22+H                            2.48E+53  -12.30  52000.0  !=(C4H7)\nPXC12H23 = C12H22+H                            1.85E+48  -10.50  51770.0  !=(C4H7) 10 atm',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)   EDames
 Reactions of PXC12H23
@@ -23944,7 +23944,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+H',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+H
 """,
@@ -23961,7 +23961,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H7+H)\nPXC12H23+H = C12H22+H2                         1.80E+12    0.00      0.0  != nC3H7+H\nPXC12H23+O2 = C12H22+HO2                       1.00E+11    0.00      0.0  !=(C4H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H7+H)
 PXC12H23+H = C12H22+H2                         1.80E+12    0.00      0.0  != nC3H7+H
@@ -23980,7 +23980,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HO2',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HO2
 """,
@@ -23997,7 +23997,7 @@ entry(
         T0 = (1, 'K'),
         comment = '= nC3H7+HCO\nPXC12H23+CH3 = C12H22+CH4                      1.10E+13    0.00      0.0  != nC3H7+CH3\nAlternative',
     ),
-    longDesc = 
+    longDesc =
 u"""
 = nC3H7+HCO
 PXC12H23+CH3 = C12H22+CH4                      1.10E+13    0.00      0.0  != nC3H7+CH3
@@ -24016,7 +24016,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H4+C2H5)*2\nReactions of C12H24\nC12H24+H(+M) = PXC12H25(+M)                  1.33E+13    0.00   3260.7  ! =(C3H6+H) !BS\nLOW  / 6.26E+38  -6.66   7000.0      /\nTROE / 1.000  1000.0  1310.0 48097.0 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/\nC12H24+H(+M) = SXC12H25(+M)                  1.33E+13    0.00   1559.8  ! =(C3H6+H) !BS\nLOW  / 8.70E+42  -7.50   4721.8      /\nTROE / 1.000  1000.0   645.4  6844.3 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H4+C2H5)*2
 Reactions of C12H24
@@ -24042,7 +24042,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -24059,7 +24059,7 @@ entry(
         T0 = (1, 'K'),
         comment = '08/TSAwip  !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 08/TSAwip  !BS
 """,
@@ -24076,7 +24076,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H6+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H6+H)
 """,
@@ -24093,7 +24093,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Estimated',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Estimated
 """,
@@ -24110,7 +24110,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+H)
 """,
@@ -24151,7 +24151,7 @@ entry(
         T0 = (1, 'K'),
         comment = '(C4H81+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 (C4H81+O)
 """,
@@ -24168,7 +24168,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+OH)
 """,
@@ -24185,7 +24185,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -24202,7 +24202,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C4H81+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C4H81+HO2)
 """,
@@ -24227,7 +24227,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(C3H8+CH3)\nReactions of PXC12H25\nC2H4+PXC10H21 = PXC12H25                     3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nBeta-scission Reactions of dodecyl radicals',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3)
 Reactions of PXC12H25
@@ -24255,7 +24255,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -24280,7 +24280,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -24305,7 +24305,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -24330,7 +24330,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -24355,7 +24355,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -24380,7 +24380,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -24405,7 +24405,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -24430,7 +24430,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -24455,7 +24455,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -24480,7 +24480,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'From 08TSAb !BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 From 08TSAb !BS
 """,
@@ -24497,7 +24497,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(nC3H7+H)\nReactions of SXC12H25\nC3H6+PXC9H19 = SXC12H25                    3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2  !BS\nS4XC12H25 = PXC12H25                        2.00E+11    0.00   18117.0 !\nSXC12H25+H = PXC10H21+C2H5                   5.90E+23   -2.81  10009.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(nC3H7+H)
 Reactions of SXC12H25
@@ -24518,7 +24518,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)\nSXC12H25+H = PXC10H21+C2H5                   4.00E+24   -2.83  17542.0  ! =(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 SXC12H25+H = PXC10H21+C2H5                   4.00E+24   -2.83  17542.0  ! =(iC3H7+H)
@@ -24536,7 +24536,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+H)
 """,
@@ -24553,7 +24553,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O)
 """,
@@ -24570,7 +24570,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+OH)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+OH)
 """,
@@ -24587,7 +24587,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 """,
@@ -24604,7 +24604,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HO2)
 """,
@@ -24621,7 +24621,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+HCO)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+HCO)
 """,
@@ -24638,7 +24638,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+CH3)\nReactions of S2XC12H25\nC4H81+PXC8H17 = S2XC12H25                  3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2 !BS\nC11H22+CH3(+M) = S2XC12H25(+M)             1.70E+11    0.00   7403.6  ! =(C3H6+CH3) !BS\nLOW  / 2.31E+28  -4.27   1831.0      /\nTROE / 0.565 60000.0   534.2  3007.2 /\nH2/2/ H2O/6/ CH4/2/ CO/1.5/ CO2/2/ C2H6/3/ Ar/0.7/',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+CH3)
 Reactions of S2XC12H25
@@ -24661,7 +24661,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of S3XC12H25\nC5H10+PXC7H15 = S3XC12H25                  3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC10H20+C2H5 = S3XC12H25                    3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of S3XC12H25
@@ -24681,7 +24681,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of S4XC12H25\nC6H12+PXC6H13 = S4XC12H25                  3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC9H18+nC3H7 = S4XC12H25                    3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of S4XC12H25
@@ -24701,7 +24701,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(iC3H7+O2)\nReactions of S5XC12H25\nC7H14+PXC5H11 = S5XC12H25                  3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS\nC8H16+pC4H9 = S5XC12H25                    3.00E+11    0.00   7300.0  ! =(C2H4+C2H5)*2!BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 Reactions of S5XC12H25
@@ -24729,7 +24729,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = '=(iC3H7+O2)\nH_1,2 shift:\nPXC12H25 = SXC12H25                         3.56E+10     0.88  39000.0!BS\nPXC11H23 = SXC11H23                         3.56E+10     0.88  39000.0!BS\nPXC10H21 = SXC10H21                         3.56E+10     0.88  39000.0!BS\nPXC9H19 = SXC9H19                           3.56E+10     0.88  39000.0!BS\nPXC8H17 = SXC8H17\t\t\t     3.56E+10     0.88  39000.0!BS\nPXC7H15 = SXC7H15\t\t\t     3.56E+10     0.88  39000.0!BS\nPXC6H13 = SXC6H13\t\t\t     3.56E+10     0.88  39000.0!BS\nPXC5H11 = SXC5H11\t\t\t     3.56E+10     0.88  39000.0!BS\nH_1,3 shift:\nPXC12H25 = S2XC12H25\t                     3.80E+10     0.67  37500.0!BS\nPXC11H23 = S2XC11H23\t\t             3.80E+10     0.67  37500.0!BS\nPXC10H21 = S2XC10H21\t\t             3.80E+10     0.67  37500.0!BS\nPXC9H19 = S2XC9H19\t\t             3.80E+10     0.67  37500.0!BS\nPXC8H17 = S2XC8H17\t\t             3.80E+10     0.67  37500.0!BS\nPXC7H15 = S2XC7H15\t\t             3.80E+10     0.67  37500.0!BS\nPXC6H13 = S2XC6H13\t\t             3.80E+10     0.67  37500.0!BS\nPXC5H11 = S2XC5H11\t\t             3.80E+10     0.67  37500.0!BS\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nPrimary -> Secondary H_1,4 shift: !\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(iC3H7+O2)
 H_1,2 shift:
@@ -24775,7 +24775,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -24800,7 +24800,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -24826,7 +24826,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -24852,7 +24852,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -24877,7 +24877,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -24902,7 +24902,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAa',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAa
 """,
@@ -24927,7 +24927,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 07TSA',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 07TSA
 """,
@@ -24952,7 +24952,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 98TSA\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nPrimary -> Secondary H_1,5 shift: !\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 98TSA
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -24980,7 +24980,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25006,7 +25006,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25031,7 +25031,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25057,7 +25057,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25082,7 +25082,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25107,7 +25107,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAa',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAa
 """,
@@ -25132,7 +25132,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 07TSA\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nPrimary -> Secondary H_1,6 shift !\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 07TSA
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -25160,7 +25160,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25186,7 +25186,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25212,7 +25212,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25237,7 +25237,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25262,7 +25262,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25287,7 +25287,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAa\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nSecondary -> Secondary H_1,4 shift !\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAa
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -25316,7 +25316,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25341,7 +25341,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25366,7 +25366,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25391,7 +25391,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25417,7 +25417,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25442,7 +25442,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25468,7 +25468,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25493,7 +25493,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25518,7 +25518,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25543,7 +25543,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25568,7 +25568,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25594,7 +25594,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAa\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nSecondary -> Secondary H_1,5 shift !\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAa
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -25623,7 +25623,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25648,7 +25648,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25673,7 +25673,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25698,7 +25698,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25723,7 +25723,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25749,7 +25749,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25775,7 +25775,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25800,7 +25800,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 """,
@@ -25825,7 +25825,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS 08TSAb\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\nSecondary -> Secondary H_1,6 shift !\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS 08TSAb
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -25854,7 +25854,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS Est (see notes)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS Est (see notes)
 """,
@@ -25879,7 +25879,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS Est (see notes)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS Est (see notes)
 """,
@@ -25905,7 +25905,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS Est (see notes)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS Est (see notes)
 """,
@@ -25930,7 +25930,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS Est (see notes)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS Est (see notes)
 """,
@@ -25956,7 +25956,7 @@ entry(
         efficiencies = {'C': 2, 'O=C=O': 2, 'CC': 3, 'O': 6, '[H][H]': 2, '[C-]#[O+]': 1.5, '[Ar]': 0.7},
         comment = 'BS Est (see notes)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS Est (see notes)
 """,
@@ -25973,7 +25973,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'BS Est (see notes)\nReactions of NC12H26',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS Est (see notes)
 Reactions of NC12H26
@@ -25991,7 +25991,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(CH3+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(CH3+C2H5)
 """,
@@ -26008,7 +26008,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -26025,7 +26025,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -26042,7 +26042,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -26059,7 +26059,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -26076,7 +26076,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C2H5+C2H5)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C2H5+C2H5)
 """,
@@ -26093,7 +26093,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)
 """,
@@ -26110,7 +26110,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)   EDames
 """,
@@ -26127,7 +26127,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)   EDames
 """,
@@ -26144,7 +26144,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)   EDames
 """,
@@ -26161,7 +26161,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)   EDames
 """,
@@ -26178,7 +26178,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+H)   EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+H)   EDames
 """,
@@ -26195,7 +26195,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -26212,7 +26212,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -26229,7 +26229,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -26246,7 +26246,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -26263,7 +26263,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -26280,7 +26280,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 86/CW (octane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 86/CW (octane)
 """,
@@ -26297,7 +26297,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh (decane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh (decane)
 """,
@@ -26314,7 +26314,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh (decane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh (decane)
 """,
@@ -26331,7 +26331,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh (decane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh (decane)
 """,
@@ -26348,7 +26348,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh (decane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh (decane)
 """,
@@ -26365,7 +26365,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh (decane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh (decane)
 """,
@@ -26382,7 +26382,7 @@ entry(
         T0 = (1, 'K'),
         comment = '!BS 91Coh (decane)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 !BS 91Coh (decane)
 """,
@@ -26399,7 +26399,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)
 """,
@@ -26416,7 +26416,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)  EDames
 """,
@@ -26433,7 +26433,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)  EDames
 """,
@@ -26450,7 +26450,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)  EDames
 """,
@@ -26467,7 +26467,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)  EDames
 """,
@@ -26484,7 +26484,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+O2)  EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+O2)  EDames
 """,
@@ -26501,7 +26501,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2)',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2)
 """,
@@ -26518,7 +26518,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2) EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2) EDames
 """,
@@ -26535,7 +26535,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2) EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2) EDames
 """,
@@ -26552,7 +26552,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2) EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2) EDames
 """,
@@ -26569,7 +26569,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2) EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2) EDames
 """,
@@ -26586,7 +26586,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+HO2) EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+HO2) EDames
 """,
@@ -26603,7 +26603,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3) EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3) EDames
 """,
@@ -26620,7 +26620,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3) EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3) EDames
 """,
@@ -26637,7 +26637,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3) EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3) EDames
 """,
@@ -26654,7 +26654,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3) EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3) EDames
 """,
@@ -26671,7 +26671,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3) EDames',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3) EDames
 """,
@@ -26688,7 +26688,7 @@ entry(
         T0 = (1, 'K'),
         comment = '=(C3H8+CH3) EDames\nLow T of C12',
     ),
-    longDesc = 
+    longDesc =
 u"""
 =(C3H8+CH3) EDames
 Low T of C12
@@ -26706,7 +26706,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS
 """,
@@ -26723,7 +26723,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS
 """,
@@ -26740,7 +26740,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS
 """,
@@ -26757,7 +26757,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS
 """,
@@ -26774,7 +26774,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS
 """,
@@ -26793,7 +26793,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS
 """,
@@ -26833,7 +26833,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'BS',
     ),
-    longDesc = 
+    longDesc =
 u"""
 BS
 """,

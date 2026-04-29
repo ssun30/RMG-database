@@ -31,7 +31,7 @@ Overall time since project initiation: 00:00:01
 entry(
     index = 0,
     label = "s3_5_7_ane_0",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {10,S}
 2  C u0 p0 c0 {3,S} {6,S} {7,S} {11,S}
@@ -71,7 +71,7 @@ entry(
         CpInf = (606.956,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-H': 16, 'C-C': 10}
 
@@ -109,7 +109,7 @@ H      -1.57367300    0.10374000   -2.04958400
 entry(
     index = 1,
     label = "s3_5_7_ane_1",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {5,S} {7,S} {8,S} {12,S}
 2  C u0 p0 c0 {4,S} {5,S} {9,S} {13,S}
@@ -152,7 +152,7 @@ entry(
         CpInf = (677.629,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 11, 'C-H': 18}
 1D rotors:
@@ -196,7 +196,7 @@ H      -2.11939200   -0.16934700   -1.99602000
 entry(
     index = 2,
     label = "s3_5_7_ane_2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {8,S} {13,S}
 2  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
@@ -239,7 +239,7 @@ entry(
         CpInf = (677.629,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 11, 'C-H': 18}
 1D rotors:
@@ -283,7 +283,7 @@ H       1.99382500   -1.97676800   -2.21675300
 entry(
     index = 3,
     label = "s3_5_7_ane_3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {10,S}
 2  C u0 p0 c0 {3,S} {6,S} {7,S} {11,S}
@@ -326,7 +326,7 @@ entry(
         CpInf = (677.629,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 11, 'C-H': 18}
 1D rotors:
@@ -370,7 +370,7 @@ H       1.88312800   -1.27180300    0.78365800
 entry(
     index = 4,
     label = "s3_5_7_ane_4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {12,S}
@@ -413,7 +413,7 @@ entry(
         CpInf = (677.629,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 11, 'C-H': 18}
 1D rotors:
@@ -457,7 +457,7 @@ H      -0.38926500   -0.25478500   -2.32067100
 entry(
     index = 5,
     label = "s3_5_7_ane_5",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {13,S}
 2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
@@ -500,7 +500,7 @@ entry(
         CpInf = (677.629,'J/(mol*K)'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 Bond corrections: {'C-C': 11, 'C-H': 18}
 1D rotors:

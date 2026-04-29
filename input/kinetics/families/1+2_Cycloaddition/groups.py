@@ -36,7 +36,7 @@ entry(
 entry(
     index = 2,
     label = "o_atom_singlet",
-    group = 
+    group =
 """
 1 *3 O u0 p3 c0
 """,
@@ -46,7 +46,7 @@ entry(
 entry(
     index = 3,
     label = "S_atom_singlet",
-    group = 
+    group =
 """
 1 *3 S u0 p3 c0
 """,
@@ -56,7 +56,7 @@ entry(
 entry(
     index = 4,
     label = "carbene",
-    group = 
+    group =
 """
 1 *3 C u0 p1 {2,S} {3,S}
 2    H u0 {1,S}
@@ -68,7 +68,7 @@ entry(
 entry(
     index = 5,
     label = "me_carbene",
-    group = 
+    group =
 """
 1    Cs u0 {2,S} {3,S} {4,S} {5,S}
 2 *3 C  u0 p1 {1,S} {6,S}
@@ -83,7 +83,7 @@ entry(
 entry(
     index = 6,
     label = "ph_carbene",
-    group = 
+    group =
 """
 1 *3 C  u0 p1 {2,S} {3,S}
 2    Cb u0 {1,S} {4,B} {5,B}
@@ -100,7 +100,7 @@ entry(
 entry(
     index = 7,
     label = "dime_carbene",
-    group = 
+    group =
 """
 1    Cs u0 {3,S} {4,S} {5,S} {6,S}
 2    Cs u0 {3,S} {7,S} {8,S} {9,S}
@@ -118,7 +118,7 @@ entry(
 entry(
     index = 8,
     label = "imidogen_singlet",
-    group = 
+    group =
 """
 1 *3 N1s u0 p2 {2,S}
 2    H   u0 {1,S}
@@ -129,7 +129,7 @@ entry(
 entry(
     index = 9,
     label = "mb_carbonyl",
-    group = 
+    group =
 """
 1 *1 [CO,CS,Cdd,N] u0 {2,D}
 2 *2 [O,N,S]       u0 {1,D}
@@ -140,7 +140,7 @@ entry(
 entry(
     index = 10,
     label = "mb_carbonyl_2H",
-    group = 
+    group =
 """
 1 *1 CO u0 {2,D} {3,S} {4,S}
 2 *2 O  u0 {1,D}
@@ -153,7 +153,7 @@ entry(
 entry(
     index = 11,
     label = "mb_carbonyl_HNd",
-    group = 
+    group =
 """
 1 *1 CO     u0 {2,D} {3,S} {4,S}
 2 *2 O      u0 {1,D}
@@ -166,7 +166,7 @@ entry(
 entry(
     index = 12,
     label = "mb_carbonyl_HDe",
-    group = 
+    group =
 """
 1 *1 CO            u0 {2,D} {3,S} {4,S}
 2 *2 O             u0 {1,D}
@@ -179,7 +179,7 @@ entry(
 entry(
     index = 13,
     label = "mb_carbonyl_NdNd",
-    group = 
+    group =
 """
 1 *1 CO     u0 {2,D} {3,S} {4,S}
 2 *2 O      u0 {1,D}
@@ -192,7 +192,7 @@ entry(
 entry(
     index = 14,
     label = "mb_carbonyl_NdDe",
-    group = 
+    group =
 """
 1 *1 CO            u0 {2,D} {3,S} {4,S}
 2 *2 O             u0 {1,D}
@@ -205,7 +205,7 @@ entry(
 entry(
     index = 15,
     label = "mb_carbonyl_DeDe",
-    group = 
+    group =
 """
 1 *1 CO            u0 {2,D} {3,S} {4,S}
 2 *2 O             u0 {1,D}
@@ -218,7 +218,7 @@ entry(
 entry(
     index = 16,
     label = "mb_Scarbonyl_2H",
-    group = 
+    group =
 """
 1 *1 CS u0 {2,D} {3,S} {4,S}
 2 *2 S  u0 {1,D}
@@ -231,7 +231,7 @@ entry(
 entry(
     index = 17,
     label = "mb_Scarbonyl_HNd",
-    group = 
+    group =
 """
 1 *1 CS       u0 {2,D} {3,S} {4,S}
 2 *2 S        u0 {1,D}
@@ -244,7 +244,7 @@ entry(
 entry(
     index = 18,
     label = "mb_Scarbonyl_HDe",
-    group = 
+    group =
 """
 1 *1 CS               u0 {2,D} {3,S} {4,S}
 2 *2 S                u0 {1,D}
@@ -257,7 +257,7 @@ entry(
 entry(
     index = 19,
     label = "mb_Scarbonyl_NdNd",
-    group = 
+    group =
 """
 1 *1 CS       u0 {2,D} {3,S} {4,S}
 2 *2 S        u0 {1,D}
@@ -270,7 +270,7 @@ entry(
 entry(
     index = 20,
     label = "mb_Scarbonyl_NdDe",
-    group = 
+    group =
 """
 1 *1 CS               u0 {2,D} {3,S} {4,S}
 2 *2 S                u0 {1,D}
@@ -283,7 +283,7 @@ entry(
 entry(
     index = 21,
     label = "mb_Scarbonyl_DeDe",
-    group = 
+    group =
 """
 1 *1 CS               u0 {2,D} {3,S} {4,S}
 2 *2 S                u0 {1,D}
@@ -296,7 +296,7 @@ entry(
 entry(
     index = 22,
     label = "mb_db",
-    group = 
+    group =
 """
 1 *1 [Cd,Cdd,N] u0 {2,D}
 2 *2 [Cd,Cdd,N] u0 {1,D}
@@ -307,7 +307,7 @@ entry(
 entry(
     index = 23,
     label = "mb_db_dbSub",
-    group = 
+    group =
 """
 1 *1 Cdd      u0 {2,D} {3,D}
 2 *2 Cd       u0 {1,D}
@@ -319,7 +319,7 @@ entry(
 entry(
     index = 24,
     label = "mb_db_unsub",
-    group = 
+    group =
 """
 1 *1 Cd u0 {2,D} {3,S} {4,S}
 2 *2 Cd u0 {1,D} {5,S} {6,S}
@@ -334,7 +334,7 @@ entry(
 entry(
     index = 25,
     label = "mb_db_monosub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -349,7 +349,7 @@ entry(
 entry(
     index = 26,
     label = "mb_db_monosub_Nd",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -364,7 +364,7 @@ entry(
 entry(
     index = 27,
     label = "mb_db_monosub_De",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -379,7 +379,7 @@ entry(
 entry(
     index = 28,
     label = "mb_db_onecdisub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -394,7 +394,7 @@ entry(
 entry(
     index = 29,
     label = "mb_db_onecdisub_Nd",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -409,7 +409,7 @@ entry(
 entry(
     index = 30,
     label = "mb_db_onecdisub_oneDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -424,7 +424,7 @@ entry(
 entry(
     index = 31,
     label = "mb_db_onecdisub_twoDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -439,7 +439,7 @@ entry(
 entry(
     index = 32,
     label = "mb_db_twocdisub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -454,7 +454,7 @@ entry(
 entry(
     index = 33,
     label = "mb_db_twocdisub_Nd",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -469,7 +469,7 @@ entry(
 entry(
     index = 34,
     label = "mb_db_twocdisub_oneDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -484,7 +484,7 @@ entry(
 entry(
     index = 35,
     label = "mb_db_twocdisub_twoDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -499,7 +499,7 @@ entry(
 entry(
     index = 36,
     label = "mb_db_trisub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -514,7 +514,7 @@ entry(
 entry(
     index = 37,
     label = "mb_db_trisub_Nd",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -529,7 +529,7 @@ entry(
 entry(
     index = 38,
     label = "mb_db_trisub_oneMDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -544,7 +544,7 @@ entry(
 entry(
     index = 39,
     label = "mb_db_trisub_oneDDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -559,7 +559,7 @@ entry(
 entry(
     index = 40,
     label = "mb_db_trisub_onectwoDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -574,7 +574,7 @@ entry(
 entry(
     index = 41,
     label = "mb_db_trisub_twoctwoDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -589,7 +589,7 @@ entry(
 entry(
     index = 42,
     label = "mb_db_trisub_threeDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -604,7 +604,7 @@ entry(
 entry(
     index = 43,
     label = "mb_db_tetrasub",
-    group = 
+    group =
 """
 1 *1 Cd  u0 {2,D} {3,S} {4,S}
 2 *2 Cd  u0 {1,D} {5,S} {6,S}
@@ -619,7 +619,7 @@ entry(
 entry(
     index = 44,
     label = "mb_db_tetrasub_Nd",
-    group = 
+    group =
 """
 1 *1 Cd       u0 {2,D} {3,S} {4,S}
 2 *2 Cd       u0 {1,D} {5,S} {6,S}
@@ -634,7 +634,7 @@ entry(
 entry(
     index = 45,
     label = "mb_db_tetrasub_oneDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -649,7 +649,7 @@ entry(
 entry(
     index = 46,
     label = "mb_db_tetrasub_onectwoDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -664,7 +664,7 @@ entry(
 entry(
     index = 47,
     label = "mb_db_tetrasub_twoctwoDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -679,7 +679,7 @@ entry(
 entry(
     index = 48,
     label = "mb_db_tetrasub_threeDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -694,7 +694,7 @@ entry(
 entry(
     index = 49,
     label = "mb_db_tetrasub_fourDe",
-    group = 
+    group =
 """
 1 *1 Cd               u0 {2,D} {3,S} {4,S}
 2 *2 Cd               u0 {1,D} {5,S} {6,S}
@@ -709,7 +709,7 @@ entry(
 entry(
     index = 50,
     label = "mb_tb",
-    group = 
+    group =
 """
 1 *1 [Ct,N] u0 {2,T}
 2 *2 [Ct,N] u0 {1,T}
@@ -720,7 +720,7 @@ entry(
 entry(
     index = 51,
     label = "mb_tb_unsub",
-    group = 
+    group =
 """
 1 *1 Ct u0 {2,T} {3,S}
 2 *2 Ct u0 {1,T} {4,S}
@@ -733,7 +733,7 @@ entry(
 entry(
     index = 52,
     label = "mb_tb_monosub",
-    group = 
+    group =
 """
 1 *1 Ct  u0 {2,T} {3,S}
 2 *2 Ct  u0 {1,T} {4,S}
@@ -746,7 +746,7 @@ entry(
 entry(
     index = 53,
     label = "mb_tb_monosub_Nd",
-    group = 
+    group =
 """
 1 *1 Ct           u0 {2,T} {3,S}
 2 *2 Ct           u0 {1,T} {4,S}
@@ -759,7 +759,7 @@ entry(
 entry(
     index = 54,
     label = "mb_tb_disub",
-    group = 
+    group =
 """
 1 *1 Ct  u0 {2,T} {3,S}
 2 *2 Ct  u0 {1,T} {4,S}
@@ -772,7 +772,7 @@ entry(
 entry(
     index = 55,
     label = "mb_tb_disub_twoNd",
-    group = 
+    group =
 """
 1 *1 Ct           u0 {2,T} {3,S}
 2 *2 Ct           u0 {1,T} {4,S}
@@ -845,12 +845,12 @@ L1: multiplebond
 
 forbidden(
     label = "O0sc",
-    group = 
+    group =
 """
 1 *3 O0sc u0 p3 c-1
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 This will form unreasonable structures such as C=N + C1[O-](N1)[N+]#N <=> C1[O-](N1)[N+]#N
 """,

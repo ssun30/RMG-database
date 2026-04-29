@@ -14,7 +14,7 @@ entry(
     kinetics = Arrhenius(A=(8.067e+10,'s^-1'), n=0.649, Ea=(8.03,'kcal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = """Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry: A <=> IV
 """,
@@ -27,7 +27,7 @@ entry(
     kinetics = Arrhenius(A=(1.454e+12,'s^-1'), n=0.178, Ea=(0.205,'kcal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = """Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry: IX <=> VII
 """,
@@ -40,7 +40,7 @@ entry(
     kinetics = Arrhenius(A=(1.865e+11,'s^-1'), n=0.577, Ea=(29.169,'kcal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = """Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry: X <=> IX
 """,
@@ -53,7 +53,7 @@ entry(
     kinetics = Arrhenius(A=(3.355e+12,'s^-1'), n=0.294, Ea=(35.954,'kcal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = """Training reaction from kinetics library: 2003_Miller_Propargyl_Recomb_High_P""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry: X <=> XI
 """,

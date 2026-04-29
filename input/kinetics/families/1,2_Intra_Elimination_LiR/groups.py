@@ -28,7 +28,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *1 R!H u[0,1] {2,[S,D,B]} {4,S}
 2 *2 R!H u[0,1] r1 {1,[S,D,B]} {3,S}
@@ -41,7 +41,7 @@ entry(
 entry(
     index = 1,
     label = "Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R",
-    group = 
+    group =
 """
 1 *1 O   u[0,1] {2,[S,D,B]} {4,S}
 2 *2 C   u[0,1] r1 {1,[S,D,B]} {3,S} {5,[S,D,T,B,Q]}
@@ -57,7 +57,7 @@ entry(
 entry(
     index = 2,
     label = "Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R_Ext-6R!H-R",
-    group = 
+    group =
 """
 1 *1 O   u[0,1] {2,[S,D,B]} {4,S}
 2 *2 C   u[0,1] r1 {1,[S,D,B]} {3,S} {5,S}
@@ -74,7 +74,7 @@ entry(
 entry(
     index = 3,
     label = "Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R_2R!H-u0",
-    group = 
+    group =
 """
 1 *1 O   u[0,1] {2,[S,D,B]} {4,S}
 2 *2 C   u0     r1 {1,[S,D,B]} {3,S} {5,[S,D,T,B,Q]}
@@ -90,7 +90,7 @@ entry(
 entry(
     index = 4,
     label = "Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R_N-2R!H-u0",
-    group = 
+    group =
 """
 1 *1 O   u[0,1] {2,[S,D,B]} {4,S}
 2 *2 C   u1     r1 {1,[S,D,B]} {3,S} {5,[S,D,T,B,Q]}

@@ -9,7 +9,7 @@ longDesc = u"""
    ||                        |
    *2  + *4H+ + *e-  ---->  *2
     :                        |
-  ~*3~                     ~*3~   
+  ~*3~                     ~*3~
 
 The rate, which should be in mol/m2/s,
 will be given by k * (mol/m2) * (mol/m3) * 1
@@ -38,8 +38,8 @@ entry(
     group =
 """
 1 *1 R!H u0 {2,[D,T]}
-2 *2 R!H u0 {1,[D,T]} 
-3 *3 Xv u0 
+2 *2 R!H u0 {1,[D,T]}
+3 *3 Xv u0
 """,
     kinetics = None,
 )
@@ -111,7 +111,7 @@ L1: Adsorbate
         L3: O=C=OX
     L2: ORX
     L2: NRX
-    
+
 L1: Proton
 """
 )

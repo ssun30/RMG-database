@@ -13,7 +13,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(7.79548e+09,'s^-1'), n=0.676137, Ea=(127.392,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.9429002183123382,B=0.4142522035781646,E=0.9271382422782674,L=0.5080999191526422,A=1.2701035125702795,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OC[CH2] <=> [Li] + O1CC1
@@ -53,7 +53,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.41052e+13,'s^-1'), n=-0.0966111, Ea=(37.9728,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=0.7063184659079954,B=0.6546888841685338,E=1.4167685288377097,L=7.086460323740072,A=0.6763993010322846,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]NCCC[CH2] <=> [Li] + N1CCCC1
@@ -103,7 +103,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(685907,'s^-1'), n=0.809304, Ea=(91.8794,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.8745309700808286,B=0.6489379258617733,E=0.27349172242979114,L=6.280608540134562,A=0.35178208431790287,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OCCCCC[CH2] <=> [Li] + O1CCCCCC1
@@ -160,7 +160,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.68382e+12,'s^-1'), n=-0.0538311, Ea=(99.5874,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.975919765798433,B=0.5933221434562257,E=0.10249027371088437,L=4.734916369654065,A=0.4382337255257122,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [Li]OCCC[CH2] <=> [Li] + O1CCCC1
@@ -209,7 +209,7 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(6.40229e+07,'cm^3/(mol*s)'), n=2.08453, Ea=(2.45304,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.0971475333838443,B=1.0651724160645786,E=2.8149716305609487,L=7.643459730707861,A=0.5170156663408971,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: O=C1OCCO1 + [Li] <=> [Li]OC(=O)OC[CH2]

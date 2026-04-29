@@ -8,12 +8,12 @@ PES calculated using G3(MP2,CC)//B3LYP with RRHO/1DHR TST for rates.
 
 Most calculations are from  2012 Kislov et al.:
 
-Kislov, V. V.; Mebel, A. M.; Aguilera-Iparraguirre, J.; Green, W. H., 
-Reaction of Phenyl Radical with Propylene as a Possible Source of Indene 
-and Other Polycyclic Aromatic Hydrocarbons: An Ab Initio/RRKM-ME Study. 
+Kislov, V. V.; Mebel, A. M.; Aguilera-Iparraguirre, J.; Green, W. H.,
+Reaction of Phenyl Radical with Propylene as a Possible Source of Indene
+and Other Polycyclic Aromatic Hydrocarbons: An Ab Initio/RRKM-ME Study.
 J. Phys. Chem. A 2012, 116, 4176-4191.
 
-"Aromatic-catalyzed" 1,2-H-migration pathway to Benzyl Radical + Ethene calculated 
+"Aromatic-catalyzed" 1,2-H-migration pathway to Benzyl Radical + Ethene calculated
 using the same level of theory.
 
 """

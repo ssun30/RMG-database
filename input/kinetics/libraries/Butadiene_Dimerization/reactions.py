@@ -26,7 +26,7 @@ entry(
         T0 = (1, 'K')
     ),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -42,7 +42,7 @@ entry(
         Ea = (102.12, 'kJ/mol'),
         T0 = (1, 'K')),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -59,7 +59,7 @@ entry(
         T0 = (1, 'K')
     ),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -75,7 +75,7 @@ entry(
         Ea = (52.0893, 'kJ/mol'),
         T0 = (1, 'K')),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -91,7 +91,7 @@ entry(
         Ea = (12.5388, 'kJ/mol'),
         T0 = (1, 'K')),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -107,7 +107,7 @@ entry(
         Ea = (25.7391, 'kJ/mol'),
         T0 = (1, 'K')),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,
@@ -124,7 +124,7 @@ entry(
         T0 = (1, 'K')
     ),
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,

@@ -14,7 +14,7 @@ entry(
     reversible = False,
     kinetics = Arrhenius(A=(4.5e+10, 's^-1'), n=0, Ea=(397, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
-    longDesc = 
+    longDesc =
 u"""
 taken from:
 R. Atkinson, D.L. Baulch, R.A. Cox, R.F. Hampson, J.A. Kerr, J. Troe,
@@ -37,7 +37,7 @@ entry(
     reversible = False,
     kinetics = Arrhenius(A=(2.5e+17, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     rank = 1,
-    longDesc = 
+    longDesc =
 u"""
 taken from:
 H2S oxidation at high pressures

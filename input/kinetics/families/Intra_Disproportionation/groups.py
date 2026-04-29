@@ -32,7 +32,7 @@ entry(
 entry(
     index = 1,
     label = "Y_rad",
-    group = 
+    group =
 """
 1 *1 R!H u1
 """,
@@ -43,7 +43,7 @@ entry(
 entry(
     index = 2,
     label = "XH_Rrad",
-    group = 
+    group =
 """
 1 *3 R!H u1 {2,S}
 2 *2 R!H u0 {1,S} {3,S}
@@ -56,7 +56,7 @@ entry(
 entry(
     index = 3,
     label = "R2radExo",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,B]}
 2 *2 R!H u0 {1,[S,D,B]} {3,S} {4,S}
@@ -71,14 +71,14 @@ entry(
     label = "R3",
     group = "OR{R3radExo}",
     kinetics = None,
-    longDesc = 
+    longDesc =
 u"""
 Aaron Vandeputte notes:
 It is assumed that the other radical site (#3) is not a member of the TS ring; we may eventually want to consider the possibility
-for the radical site being in the TS ring, which in certain cases, may give rise to multiple transition states for the same reaction; 
-I expect that the number of cases that would be encountered where this reaction would not occur at all due to neglecting this would be small; 
+for the radical site being in the TS ring, which in certain cases, may give rise to multiple transition states for the same reaction;
+I expect that the number of cases that would be encountered where this reaction would not occur at all due to neglecting this would be small;
 UPDATE: 2,5-pentdiyl radical to 1-pentene can only occur when radical site is included in ring, so maybe this is more important than I thought
-UPDATE2: I will consider possibility of Endo case, except for R3radEndo in which case the 2 rads are adjacent to each other, but I will assume 
+UPDATE2: I will consider possibility of Endo case, except for R3radEndo in which case the 2 rads are adjacent to each other, but I will assume
 the rate rules are the same as for the probably more typical exo case (2nd radical site not a part of ring)
 """,
 )
@@ -86,7 +86,7 @@ the rate rules are the same as for the probably more typical exo case (2nd radic
 entry(
     index = 5,
     label = "R3radExo",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
 2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B]}
@@ -107,7 +107,7 @@ entry(
 entry(
     index = 7,
     label = "R4radEndo",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
 2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
@@ -121,7 +121,7 @@ entry(
 entry(
     index = 8,
     label = "R4radExo",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
 2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
@@ -143,7 +143,7 @@ entry(
 entry(
     index = 10,
     label = "R5radEndo",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
 2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
@@ -158,7 +158,7 @@ entry(
 entry(
     index = 11,
     label = "R5radExo",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
 2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
@@ -181,7 +181,7 @@ entry(
 entry(
     index = 13,
     label = "R6radEndo",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
 2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
@@ -197,7 +197,7 @@ entry(
 entry(
     index = 14,
     label = "R6radExo",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
 2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
@@ -221,7 +221,7 @@ entry(
 entry(
     index = 16,
     label = "R7radEndo",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
 2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
@@ -238,7 +238,7 @@ entry(
 entry(
     index = 17,
     label = "R7radExo",
-    group = 
+    group =
 """
 1 *1 R!H u1 {2,[S,D,B,T]}
 2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
@@ -256,7 +256,7 @@ entry(
 entry(
     index = 18,
     label = "Y_rad_NDe",
-    group = 
+    group =
 """
 1 *1 R!H          u1 {2,S}
 2    [Cs,O2s,S2s] u0 {1,S}
@@ -267,7 +267,7 @@ entry(
 entry(
     index = 19,
     label = "Y_rad_De",
-    group = 
+    group =
 """
 1 *1 R!H                  u1 {2,[S,D]}
 2    [Cd,Cdd,Ct,CO,CS,Cb] u0 {1,[S,D]}
@@ -278,7 +278,7 @@ entry(
 entry(
     index = 20,
     label = "XH_Rrad_NDe",
-    group = 
+    group =
 """
 1 *3 R!H          u1 {2,S} {4,S}
 2 *2 R!H          u0 {1,S} {3,S}
@@ -291,7 +291,7 @@ entry(
 entry(
     index = 21,
     label = "XH_Rrad_De",
-    group = 
+    group =
 """
 1 *3 R!H                  u1 {2,S} {4,[S,D]}
 2 *2 R!H                  u0 {1,S} {3,S}
@@ -330,7 +330,7 @@ L1: XH_Rrad
 
 forbidden(
     label = "fused5rings_1",
-    group = 
+    group =
 """
 1 C u1 {2,S} {5,S}
 2 C u0 {1,S} {3,S}
@@ -342,7 +342,7 @@ forbidden(
 8 C u0 {4,S} {7,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -350,7 +350,7 @@ u"""
 
 forbidden(
     label = "fused5rings_2",
-    group = 
+    group =
 """
 1 C u1 {2,S} {5,S}
 2 C u0 {1,S} {3,S}
@@ -362,7 +362,7 @@ forbidden(
 8 C u0 {4,S} {7,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -370,7 +370,7 @@ u"""
 
 forbidden(
     label = "fused5rings_3",
-    group = 
+    group =
 """
 1 C u1 {2,S} {5,S}
 2 C u0 {1,S} {3,S}
@@ -382,7 +382,7 @@ forbidden(
 8 C u1 {4,S} {7,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -390,7 +390,7 @@ u"""
 
 forbidden(
     label = "fused5rings_4",
-    group = 
+    group =
 """
 1 C u0 {2,S} {5,S}
 2 C u1 {1,S} {3,S}
@@ -402,7 +402,7 @@ forbidden(
 8 C u0 {4,S} {7,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

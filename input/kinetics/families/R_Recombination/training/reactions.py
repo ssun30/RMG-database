@@ -14,7 +14,7 @@ entry(
     kinetics = Arrhenius(A=(1.09e+14, 's^-1'), n=0.25, Ea=(33.3, 'kcal/mol'), T0=(1, 'K')),
     rank = 10,
     shortDesc = u"""Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 High-Pressure Rate Rules for Alkyl + O2 Reactions. 1. The Dissociation, Concerted Elimination, and Isomerization Channels of the Alkyl Peroxy Radical
 Stephanie M. Villano, Lam K. Huynh, Hans-Heinrich Carstensen, and Anthony M. Dean
@@ -32,7 +32,7 @@ entry(
     kinetics = Arrhenius(A=(9.49e+21, 's^-1'), n=-2.41, Ea=(35.8, 'kcal/mol'), T0=(1, 'K')),
     rank = 10,
     shortDesc = u"""Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 High-Pressure Rate Rules for Alkyl + O2 Reactions. 1. The Dissociation, Concerted Elimination, and Isomerization Channels of the Alkyl Peroxy Radical
 Stephanie M. Villano, Lam K. Huynh, Hans-Heinrich Carstensen, and Anthony M. Dean
@@ -50,7 +50,7 @@ entry(
     kinetics = Arrhenius(A=(1.52e+23, 's^-1'), n=-2.71, Ea=(36.4, 'kcal/mol'), T0=(1, 'K')),
     rank = 10,
     shortDesc = u"""Method CBS-QB3 w/ 1-d Hindered rotor corrections""",
-    longDesc = 
+    longDesc =
 u"""
 High-Pressure Rate Rules for Alkyl + O2 Reactions. 1. The Dissociation, Concerted Elimination, and Isomerization Channels of the Alkyl Peroxy Radical
 Stephanie M. Villano, Lam K. Huynh, Hans-Heinrich Carstensen, and Anthony M. Dean
@@ -73,9 +73,9 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""CBS-QB3 w/ 1-d HR""",
-    longDesc = 
+    longDesc =
 u"""
-Reference: Low-Temperature Combustion Chemistry of n-Butanol: Principal Oxidation Pathways of Hydroxybutyl Radicals 
+Reference: Low-Temperature Combustion Chemistry of n-Butanol: Principal Oxidation Pathways of Hydroxybutyl Radicals
 DOI: 10.1021/jp403792t
 """,
 )
@@ -106,7 +106,7 @@ entry(
     referenceType = "experiment",
     rank = 10,
     shortDesc = u"""High or low pressure extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 Bath gas: N2
 Excitation technique: Flash photolysis (laser or conventional)
@@ -140,7 +140,7 @@ entry(
     referenceType = "experiment",
     rank = 10,
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 Uncertainty: 3.0
 Bath gas: NO2
@@ -174,7 +174,7 @@ entry(
     referenceType = "experiment",
     rank = 10,
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 Pressure dependence: Rate constant is high pressure limit
 Experimental procedure: Static or low flow - Data taken vs time
@@ -198,7 +198,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: vinylCPD_H""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: ethyl + CPDyl <=> ethylCPD
 """,
@@ -218,7 +218,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 R.S. Zhu, P. Raghunath, M.C. Lin, J. Phys. Chem. A, 2013, 117, 7308-7313, doi: 10.1021/jp401148q
 p. 7311
@@ -251,7 +251,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CASPT2/cc-pvdz""",
-    longDesc = 
+    longDesc =
 u"""
 S.J. Klippenstein, Y. Georgievskiia, L.B. Hardingb
 Predictive theory for the combination kinetics of two alkyl radicals
@@ -274,7 +274,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CASPT2/cc-pvdz""",
-    longDesc = 
+    longDesc =
 u"""
 S.J. Klippenstein, Y. Georgievskiia, L.B. Hardingb
 Predictive theory for the combination kinetics of two alkyl radicals
@@ -297,7 +297,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""CASPT2/cc-pvdz""",
-    longDesc = 
+    longDesc =
 u"""
 S.J. Klippenstein, Y. Georgievskiia, L.B. Hardingb
 Predictive theory for the combination kinetics of two alkyl radicals
@@ -326,7 +326,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -352,7 +352,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -378,7 +378,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -404,7 +404,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -430,7 +430,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -456,7 +456,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-f12//B2PLYPD3/aug-cc-pVDZ
 """,
@@ -474,7 +474,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: 2009_Sharma_C5H5_CH3_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: R4 + H <=> C5H5CH3-5
 """,
@@ -494,7 +494,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 R.S. Zhu, P. Raghunath, M.C. Lin, J. Phys. Chem. A, 2013, 117, 7308-7313, doi: 10.1021/jp401148q
 p. 7311
@@ -518,7 +518,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 See Table 1 on p. 2397 in L.V Moskaleva, M.C. Lin, Proceedings of the Combustion Institute, 2000, 28(2), 2393-2401, doi: 10.1016/S0082-0784(00)80652-9
 Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
@@ -539,7 +539,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primarySulfurLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 A. Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999, 103(51), 11328-11335 doi: 10.1021/jp9924070
 Table 7 on p. 11333
@@ -567,7 +567,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 R.S. Zhu, M.C. Lin, J. Chem. Phys., 2003, 119, 10667, doi: 10.1063/1.1619373
 
@@ -575,7 +575,7 @@ Lindemann expression given, only k_inf taken here:
     kinetics = Lindemann(
         arrheniusHigh = Arrhenius(A=(1.03e+14, 'cm^3/(mol*s)'), n=-0.24, Ea=(-200, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K')),
         arrheniusLow = Arrhenius(A=(1.14e+50, 'cm^6/(mol^2*s)'), n=-12.3, Ea=(1163, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(2000, 'K'))),
-        
+
 A low T (200-400 K) kinetics from a different source is:
     kinetics = Arrhenius(
         A = (2.41e+07, 'm^3/(mol*s)'),
@@ -611,7 +611,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 P. Raghunath, N.T. Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6
 p. 264
@@ -641,7 +641,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 S.J. Klippenstein, L.B. Harding, Proc. Comb. Inst., 2009, 32, 149-155, doi: 10.1016/j.proci.2008.06.135
 Table 2, p. 154
@@ -667,7 +667,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Training reaction from kinetics library: primaryNitrogenLibrary""",
-    longDesc = 
+    longDesc =
 u"""
 S.J. Klippenstein, L.B. Harding, Proc. Comb. Inst., 2009, 32, 149-155, doi: 10.1016/j.proci.2008.06.135
 Table 2, p. 154
@@ -693,7 +693,7 @@ entry(
     ),
     rank = 9,
     shortDesc = u"""QRRK""",
-    longDesc = 
+    longDesc =
 u"""
 J.W. Bozzeli, A.M Dean, J. Phys. Chem., 1989, 93, 1058-1065, doi: 10.1021/j100340a009
 Table 1, k1
@@ -715,7 +715,7 @@ entry(
     ),
     rank = 9,
     shortDesc = u"""QRRK""",
-    longDesc = 
+    longDesc =
 u"""
 J.W. Bozzeli, A.M Dean, J. Phys. Chem., 1989, 93, 1058-1065, doi: 10.1021/j100340a009
 Table 1, k1
@@ -732,7 +732,7 @@ entry(
         T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(2500, 'K')),
     rank = 4,
     shortDesc = u"""QRRK""",
-    longDesc = 
+    longDesc =
 u"""
 P. Zhang, S.J. Klippenstein, H. Sun, C.K. Law, Proc. Comb. Inst., 2011, 33(1), 425-432, doi: 10.1016/j.proci.2010.05.010
 (-R1)
@@ -748,7 +748,7 @@ entry(
         T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(2500, 'K')),
     rank = 4,
     shortDesc = u"""QRRK""",
-    longDesc = 
+    longDesc =
 u"""
 P. Zhang, S.J. Klippenstein, H. Sun, C.K. Law, Proc. Comb. Inst., 2011, 33(1), 425-432, doi: 10.1016/j.proci.2010.05.010
 (-R2)
@@ -768,7 +768,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Sendt2009b""",
-    longDesc = 
+    longDesc =
 u"""
 C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2009, 113, 8299-8306, doi: 10.1021/jp903185k
 Table 1, R2
@@ -788,7 +788,7 @@ entry(
     ),
     rank = 4,
     shortDesc = u"""Sendt2009b""",
-    longDesc = 
+    longDesc =
 u"""
 C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2009, 113, 8299-8306, doi: 10.1021/jp903185k
 Table 1, R3
@@ -803,7 +803,7 @@ entry(
     kinetics = Arrhenius(A=(1.89e+16, 's^-1'), n=-0.28, Ea=(68.378, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2016_Mebel_C10H9_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W111 <=> P114 + H
 """,
@@ -821,7 +821,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H3 + C7H7 <=> W1
 """,
@@ -839,7 +839,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C3H3 + C7H7 <=> W2
 """,
@@ -852,7 +852,7 @@ entry(
     kinetics = Arrhenius(A=(9.431e+15, 's^-1'), n=-0.34, Ea=(77.615, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W10 <=> P5 + H
 """,
@@ -865,7 +865,7 @@ entry(
     kinetics = Arrhenius(A=(5.081e+15, 's^-1'), n=-0.263, Ea=(86.584, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W17 <=> P9 + H
 """,
@@ -878,7 +878,7 @@ entry(
     kinetics = Arrhenius(A=(2.899e+16, 's^-1'), n=-0.42, Ea=(88.738, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: First_to_Second_Aromatic_Ring/2012_Matsugi_C3H3_C7H7_highP""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W17 <=> P10 + H
 """,
@@ -891,7 +891,7 @@ entry(
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl_16 + C3H3_9 <=> C9H8_20
 """,
@@ -904,7 +904,7 @@ entry(
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: phenyl_16 + C3H3_9 <=> C9H8_21
 """,
@@ -917,7 +917,7 @@ entry(
     kinetics = Arrhenius(A=(1e+13, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: kislovB""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: C9H7_19 + H_15 <=> indene_25
 """,
@@ -943,7 +943,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 approximate QCISD(T,Full)/6-311&&G(3df,2pd)//B3LYP
 """,
@@ -969,7 +969,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 approximate QCISD(T,Full)/6-311&&G(3df,2pd)//B3LYP
 """,
@@ -995,7 +995,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 9,
-    longDesc = 
+    longDesc =
 u"""
 CASPT2/cc-pvdz (VRC-TST)
 """,
@@ -1021,7 +1021,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 9,
-    longDesc = 
+    longDesc =
 u"""
 CASPT2/cc-pvdz (VRC-TST)
 """,
@@ -1047,7 +1047,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 9,
-    longDesc = 
+    longDesc =
 u"""
 CASPT2/cc-pvdz (VRC-TST)
 """,
@@ -1073,7 +1073,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 9,
-    longDesc = 
+    longDesc =
 u"""
 CASPT2/cc-pvdz (VRC-TST)
 """,
@@ -1099,7 +1099,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 9,
-    longDesc = 
+    longDesc =
 u"""
 CASPT2/cc-pvdz (VRC-TST)
 """,
@@ -1125,7 +1125,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
 """,
@@ -1151,7 +1151,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
 """,
@@ -1177,7 +1177,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 4,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)-F12/cc-pVTZ-F12//QCISD/6-311++G(2df,2p)
 """,
@@ -1203,7 +1203,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
 """,
@@ -1229,7 +1229,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
 """,
@@ -1255,7 +1255,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
 """,
@@ -1281,7 +1281,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 u"""
 CCSD(T)/aug-cc-pvdz//B3LYP/6-31G* (VRC-TST)
 """,
@@ -1301,7 +1301,7 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Y_rad;Y_rad
 """,
@@ -1321,7 +1321,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Dingle et al. [167]""",
-    longDesc = 
+    longDesc =
 u"""
 [167] Dingle, J.R.; Le Roy, D.J.; J. Chem. Phys. 1950, 18, 1632.
 
@@ -1349,7 +1349,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Takahashi et al. [168] Transition state theory.""",
-    longDesc = 
+    longDesc =
 u"""
 [168] Takahashi, J.; Momose, T.; Shida, T. Bull. Chem. Soc. Jpn. 1994, 67, 74.
 
@@ -1376,7 +1376,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Sillensen et al [169]""",
-    longDesc = 
+    longDesc =
 u"""
 [169] Sillesen , A.; Ratajczak, E.; Pagsberg, P. Chem. Phys. Lett. 1993, 201, 171.
 Data derived from fitting to a complex mechanism. Excitation: radiolysis, analysis: IR absroption. Pressure 0.10 bar
@@ -1404,7 +1404,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Warnatz [134] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [134] Warnatz, J. Rate coefficeints in the C/H/O system. In Combustion Chemistry, 1984; pp 197.
 
@@ -1425,7 +1425,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Fahr et al. [171]""",
-    longDesc = 
+    longDesc =
 u"""
 [171] Fahr, A.; Laufer, A.; Klein, R.; Braun, W. J. Phys. Chem. 1991, 95, 3218.
 Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Pressure 0.13 atm. Original uncertainty 4.8E+13
@@ -1453,7 +1453,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 H + C2H --> C2H2
@@ -1490,13 +1490,13 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Davis et al. [172] Ackermann et al. [173] Emdee et al. [172b]""",
-    longDesc = 
+    longDesc =
 u"""
 [172] Davis, S. G.; Wang, H.; Brezinsky K.; Law C. K. Symp. Int. Combust. Proc. 1996, 26, 1025.
 (1000-1200K, excitation : thermal, pressure 1.0 atm)
 
-[173] Ackerman, L.; Hippler, H.; Pagsberg, P.; Reihs, C.; Troe, J. J. Phys. Chem. 1990, 94, 5247. 
-(300K, absolute value measured directly, excitation : flash photolysis, analysis : VIS-UV absorption, pressure 0.01-0.99 atm) 
+[173] Ackerman, L.; Hippler, H.; Pagsberg, P.; Reihs, C.; Troe, J. J. Phys. Chem. 1990, 94, 5247.
+(300K, absolute value measured directly, excitation : flash photolysis, analysis : VIS-UV absorption, pressure 0.01-0.99 atm)
 
 [172b] Emdee, J. L., Brezinsky, K., and Glassman, I., J. Phys. Chem. 96:21512161 (1992) DOI: 10.1021/j100184a025
 H + phenyl --> benzene (R1 in [172]) (Reaction 1 in [172b])
@@ -1523,10 +1523,10 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsuboi et al. [174]""",
-    longDesc = 
+    longDesc =
 u"""
 [174] Tsuboi, T.; Katoh, M.; Kikuchi, S.; Hashimoto, K. Jpn J. Appl. Phys. 1981, 20, 985.
-Data is estimated. Pressure 7.0 atm. 
+Data is estimated. Pressure 7.0 atm.
 
 H + HCO (+M) --> H2CO (+M) (Rxn -9)
 
@@ -1551,9 +1551,9 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Cobos et al. [106]""",
-    longDesc = 
+    longDesc =
 u"""
-[106] Cobos, C. J.; Troe, J. J. Chem. Phys. 1985, 83, 1010. 
+[106] Cobos, C. J.; Troe, J. J. Chem. Phys. 1985, 83, 1010.
 Transition State Theory
 
 H + OH --> H2O
@@ -1576,10 +1576,10 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Pesa et al. [175]""",
-    longDesc = 
+    longDesc =
 u"""
 [175] Pesa, M. ; Pilling, M. J.; Robertson, S. H.; Wardlaw. J. Phys. Chem. A 1998, 102, 8526.
-Canonical Flexible Transition State Theory 
+Canonical Flexible Transition State Theory
 
 CH3 + CH3 --> C2H6 (Same as 438) (Rxn. R1)
 
@@ -1604,7 +1604,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [94] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [94] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Frank, P.; Hayman, G.; Just, T.; Kerr, J. A.;
 Murrells, T.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
@@ -1644,19 +1644,19 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [176] RRK(M) extrapolation.""",
-    longDesc = 
+    longDesc =
 u"""
-[176] Tsang, W. Combust. Flame 1989, 78, 71. 
-RRK(M) extrapolation. 
+[176] Tsang, W. Combust. Flame 1989, 78, 71.
+RRK(M) extrapolation.
 
-CH3 + iso-C3H7 --> iso-C4H10 
+CH3 + iso-C3H7 --> iso-C4H10
 
-Verified by Greg Magoon; high-pressure rate constants are reported here; 
-I don't immediately see an explicit temperature range for the polynomial fits, 
-but the domain of the graphs agrees pretty well with the range in the rateLibrary 
-(though the graphs seem to go slightly higher, to 2000 K); the abstract says 
-"from room to combustion temperatures", so if anything, the range specified in 
-the rateLibrary is probably too narrow; minor: I calculate 1.1E-9*6.022141E23=6.624E14, 
+Verified by Greg Magoon; high-pressure rate constants are reported here;
+I don't immediately see an explicit temperature range for the polynomial fits,
+but the domain of the graphs agrees pretty well with the range in the rateLibrary
+(though the graphs seem to go slightly higher, to 2000 K); the abstract says
+"from room to combustion temperatures", so if anything, the range specified in
+the rateLibrary is probably too narrow; minor: I calculate 1.1E-9*6.022141E23=6.624E14,
 but rateLibrary has slightly different value of 6.64E14
 
 Converted to training reaction from rate rule: C_methyl;C_rad/H/NonDeC
@@ -1677,13 +1677,13 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J. Phys. Chem. Ref. Data 1990, 19, 1.
 
 CH3 + tert-C4H9 --> neo-C5H12
 
-pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 44,16.
 Verified by Karma James
@@ -1726,7 +1726,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Fahr et al. [171]""",
-    longDesc = 
+    longDesc =
 u"""
 [171] Fahr, A.; Laufer, A.; Klein, R.; Braun, W. J. Phys. Chem. 1991, 95, 3218.
 Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Pressure 0.13 atm. Original Uncertainty 1.8E+13
@@ -1754,10 +1754,10 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Tokmakov et al. [177]""",
-    longDesc = 
+    longDesc =
 u"""
 [177] Tokmakov, I. V.; Park, J.; Gheyas, S. I.; Lin, M. C. J. Phys. Chem. A. 1999, 103, 3636.
-Data Derived from detailed balance/reverse rate. Uncertainty 8.0E-2. 
+Data Derived from detailed balance/reverse rate. Uncertainty 8.0E-2.
 
 CH3 + phenyl --> C6H5CH3 (Rxn. 2) (cf. #444, below)
 
@@ -1782,10 +1782,10 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
-CH3 + HCO --> CH3CHO 
+CH3 + HCO --> CH3CHO
 
 pg 1095, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 16,15.
 
@@ -1816,10 +1816,10 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Hassinen et al [179]""",
-    longDesc = 
+    longDesc =
 u"""
 [179] Hassinen, E.; Kalliorinne, K; Koskikallio, J. Int. J. Chem. Kinet. 1990, 22, 741
-Data derived from fitting to a complex mechanism. Excitation : direct photolysis, analysis : GC. Pressure 96? and 99 kPa with He, 5.5 kPa and 25 kPa with CO2. 
+Data derived from fitting to a complex mechanism. Excitation : direct photolysis, analysis : GC. Pressure 96? and 99 kPa with He, 5.5 kPa and 25 kPa with CO2.
 
 CH3CO. + .CH3 --> (CH3)2CO (Rxn. 6)
 
@@ -1844,7 +1844,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [94] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [94] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Frank, P.; Hayman, G.; Just, T.; Kerr, J. A.;
 Murrells, T.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
@@ -1883,7 +1883,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH3 + CH3O --> (CH3)2O
@@ -1917,19 +1917,19 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Baulch et al. [95] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[95] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Esser, C.; Frank, P.; Just, T.; Kerr, 
+[95] Baulch, D. L.; Cobos, C. J.; Cox, R. A.; Esser, C.; Frank, P.; Just, T.; Kerr,
 J. A.; Pilling, M. J.; Troe, J.; Walker, R. W.; Warnatz, J. J. Phys. Chem. Ref. Data 1992, 21, 411.
 
-.C2H5 + .C2H5 --> n-C4H10 
+.C2H5 + .C2H5 --> n-C4H10
 
 pg.707: Discussion on evaluated data
 
 C2H5+C2H5 --> nC4H10: "The preferred rate coefficient is the mean of the results of
 
 Parkes and Quinn, Adachi et al., Demissy and Lesclaux, Pacey and Wimalasena,
-Munk et al., Arthur, and Anastasi and Arthur which are all in substantial 
+Munk et al., Arthur, and Anastasi and Arthur which are all in substantial
 agreement."
 MRH 31-Aug-2009
 
@@ -1951,7 +1951,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 C2H5 + iso-C3H7 --> iso-C5H12
@@ -1986,14 +1986,14 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 C2H5 + tert-C4H9 --> (CH3)3CCH2CH3
 
 //DOES NOT MATCH! Reference: A = 9.6E+12, E0 = 0, n = -0.75, Database: A = 6.91E+14, E0 = 0, n = -0.75
 
-//pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+//pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 //Index of Reactions and Summary of Recommended Rate Expressions. No. 44,17.
 
@@ -2033,7 +2033,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H5 + HCO --> C2H5CHO
@@ -2066,7 +2066,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H5 + CH3CO --> C2H5COCH3
@@ -2099,10 +2099,10 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Fagerstrom et al. [180]""",
-    longDesc = 
+    longDesc =
 u"""
 [180] Fagerstrom, K.; Lund, A.; Mahmoud, G.; Jodkowski, J. T.; Ratajczak, E. Chem. Phys. Lett. 1993, 208, 321
-Excitation : radiolysis, analysis : VIS-UV absorption. Pressure 0.25-0.99 bar SF6. Original Uncertainty 1.0E+13. 
+Excitation : radiolysis, analysis : VIS-UV absorption. Pressure 0.25-0.99 bar SF6. Original Uncertainty 1.0E+13.
 
 C2H5 + OH (+M) --> C2H5OH (+M) (Rxn. 1a)
 
@@ -2126,7 +2126,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 Iso-C3H7 + iso-C3H7 --> (CH3)2CHCH(CH3)2
@@ -2166,14 +2166,14 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Iso-C3H7 + tert-C4H9 --> 2,2,3-trimethyl-butane
 
 //DOES NOT MATCH! Reference: A = 7.83E+12, E0 = 0, n = -1.1, Database: A = 4.12E+15, E0 = 0, n = -1.1
 
-//pg 8, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+//pg 8, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 //Index of Reactions and Summary of Recommended Rate Expressions. No. 44,42.
 
@@ -2211,7 +2211,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 Iso-C3H7 + CH3CO --> iso-C3H7COCH3
@@ -2228,7 +2228,7 @@ pg. 943: Discussion on evaluated data
 
 Entry 42,22: No data available at the time.  Author uses the geometrical mean rule
 
-(for the rxns i-C3H7+i-C3H7-->adduct and CH3CO+CH3CO-->adduct) to obtain 
+(for the rxns i-C3H7+i-C3H7-->adduct and CH3CO+CH3CO-->adduct) to obtain
 recommended rate coefficient expression
 MRH 30-Aug-2009
 
@@ -2250,7 +2250,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [91] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [91] Tsang, W. J. Phys. Chem. Ref. Data 1988, 17, 887.
 Iso-C3H7 + CH3O --> i-C3H7OCH3
@@ -2284,14 +2284,14 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Tert-C4H9 + tert- C4H9 --> (CH3)3CC(CH3)3
 
 //DOES NOT MATCH! Reference: A = 2.4E+12, E0 = 0, n = -1.5, Database: A = 1.24E+16, E0 = 0, n = -1.5
 
-//pg 8, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+//pg 8, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 //Index of Reactions and Summary of Recommended Rate Expressions. No. 44,44.
 
@@ -2328,12 +2328,12 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Tert-C4H9 + HCO --> tert-C4H9CHO
 
-pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 44,15.
 
@@ -2364,14 +2364,14 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Tert-C4H9 + CH3CO --> tert-C4H9COCH3
 
 //DOES NOT MATCH! Reference: A = 1.08E+13, E0 = 0, n = -0.75, Database: A = 7.75E+14, E0 = 0, n = -0.75
 
-//pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+//pg 7, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 //Index of Reactions and Summary of Recommended Rate Expressions. No. 44,22.
 
@@ -2409,12 +2409,12 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [92] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [92] Tsang, W. J Phys. Chem. Ref. Data 1990, 19, 1.
 Tert-C4H9 + CH3O --> tert-C4H9OCH3
 
-pg 8, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane. 
+pg 8, Chemical Kinetic Database For Combustion Chemistry, Part 4 - Isobutane.
 
 Index of Reactions and Summary of Recommended Rate Expressions. No. 44,24.
 
@@ -2444,10 +2444,10 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Fahr et al. [171]""",
-    longDesc = 
+    longDesc =
 u"""
 [171] Fahr, A.; Laufer, A.; Klein, R.; Braun, W. J. Phys. Chem. 1991, 95, 3218.
-Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Original Uncertainty 1.2E+13. 
+Absolute value measured directly. Excitation: flash photolysis, analysis : Vis-UV absorption. Original Uncertainty 1.2E+13.
 
 C2H3 + C2H3 --> (E)-CH2=CHCH=CH2 (Rxn. IIC)
 
@@ -2471,10 +2471,10 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Duran et al. [165]""",
-    longDesc = 
+    longDesc =
 u"""
 [165] Duran, R. P.; Amorebieta, V. T.; Colussi, A. J. J. Phys. Chem. 1988, 92, 636.
-Ab initio. Pressure 0.10-1.0 atm. 
+Ab initio. Pressure 0.10-1.0 atm.
 
 C2H3 +.C2H --> CH2=CHC=CH (Rxn. 25)
 
@@ -2499,7 +2499,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 C2H3 + HCO --> CH2=CHCHO
@@ -2533,10 +2533,10 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Heckmann et al. [124]""",
-    longDesc = 
+    longDesc =
 u"""
 [124] Heckmann, E.; Hippler, H.; Troe, J. Symp. Int. Combust. Proc.1996, 26, 543.
-Absolute value measured directly. Excitation : thermal, analysis : Vis-UV absorption. 
+Absolute value measured directly. Excitation : thermal, analysis : Vis-UV absorption.
 
 Phenyl + Phenyl --> Biphenyl
 
@@ -2557,12 +2557,12 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Stoeckel et al. [182]""",
-    longDesc = 
+    longDesc =
 u"""
 [182] Stoeckel, F.; Schuh, M. D.; Goldstein, N.; Atkinson, G.H. Chem. Phys. 1985, 95, 135
 Absolute value measured directly. Excitation : flash photolysis, abalysis : VIS-UV absorption. Original uncertainty 1.2E+13. Pressure: 10 Torr (this is total pressure; see p. 141)
 
-HCO + HCO --> (CHO)2 
+HCO + HCO --> (CHO)2
 
 ***NHP***
 Verified by Greg Magoon: the existing k in the rateLibrary appeared to be off by a factor of two, since the paper uses d[HCO]/dt=-k*[HCO]^2; they report k=(5+/-2)*10^-11 molecules^-1*cm^3/s (references 9, 19, and 20 in this paper could have better data); I think in rateLibrary, we should have half of this (2.5 +/- 1), so I have changed the value in the rateLibrary accordingly (with 2nd opinion to confirm from MRH)
@@ -2585,7 +2585,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 HCO + CH3CO --> CH3COCHO
@@ -2619,7 +2619,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH3CO + CH3CO --> (CH3CO)2
@@ -2652,14 +2652,14 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""DeMore et al. [183] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
-[183] DeMore, W. B.; Sander, S. P.; Golden, D. M.; Hampson, R. F.; Kurylo, M.J.; 
+[183] DeMore, W. B.; Sander, S. P.; Golden, D. M.; Hampson, R. F.; Kurylo, M.J.;
 Howard, C. J.; Ravishankara, A. R.; Kolb, C. E.; Molina, M .J. JPL publication 97-4 1997, 1.
 
-(Rate constant is high pressure limit, original uncertainty 6.0E+12) 
+(Rate constant is high pressure limit, original uncertainty 6.0E+12)
 
-[97] Atkinson, R.; Baulch, D. L.; Cox, R. A.; Hampson, R. F., jr.; Kerr, J. A.; Rossi, M. J.; Troe, J. 
+[97] Atkinson, R.; Baulch, D. L.; Cox, R. A.; Hampson, R. F., jr.; Kerr, J. A.; Rossi, M. J.; Troe, J.
 
 J. Phys. Chem. Ref. Data 1997, 26, 1329
 
@@ -2696,7 +2696,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang [89] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [89] Tsang, W.; Hampson, R. F. J. Phys. Chem. Ref. Data 1986, 15, 1087.
 CH3O + CH3O --> CH3OOCH3
@@ -2731,9 +2731,9 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation.""",
-    longDesc = 
+    longDesc =
 u"""
-[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253. 
+[8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation, based on half that recommended by Allara and Shaw [146] for H (rad) and R (rad) recombination reactions
 
 Converted to training reaction from rate rule: H_rad;Cs_rad
@@ -2754,7 +2754,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation, based on recommendations of Tsang [92] for CH3 + tC4H9
@@ -2777,7 +2777,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation based on half Tsang's [91] recommendation for CH3 + iC3H7
@@ -2800,7 +2800,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
 Curran's estimation for neoC5H11 + iC3H7, similar to tC4H9 + iC4H9
@@ -2823,10 +2823,10 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [8] estimation.""",
-    longDesc = 
+    longDesc =
 u"""
 [8] Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. Combust. Flame 2002, 129, 253.
-Curran's estimation based on Tsang's [92] reccomendation for tC4H9 Curran's estimation. About a factor of 2 slower than other 
+Curran's estimation based on Tsang's [92] reccomendation for tC4H9 Curran's estimation. About a factor of 2 slower than other
 
 values from literature for smaller alkyl, based upon the consideration that rate constants decrease with the increasing size of R radical.
 
@@ -2848,10 +2848,10 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran's [159] estimation.""",
-    longDesc = 
+    longDesc =
 u"""
 [159] Curran, H.J.; Pitz, W.J.; Westbrook, C.K.; Dagaut, P.; Boettner, J.-C.; Cathonnet, M. Int. J. Chem. Kinet. 1998, 30, 229.
-Curran's estimation in DME modeling for ketohydroperoxide decomposition 
+Curran's estimation in DME modeling for ketohydroperoxide decomposition
 
 Apparently the number comes from estimate for reverse of Rxn. 337: HO2CH2OCHO -> .OCH2OCHO + .OH (2E13) (p. 234); reverse of Rxn. 191 (p. 238) would also be informative, but it doesn't seem to be disucussed in paper
 Verified by Greg Magoon; it is not immediately clear whether this rate constant is for high pressure limit, but based on other references to high pressure limit in the paper, I suspect that it is a high pressure limit value
@@ -2876,7 +2876,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Duchovic et al. [142] RRK(M) extrapolation. Probably could do better.""",
-    longDesc = 
+    longDesc =
 u"""
 [142] Duchovic,R.J; Pettigrew,J D; Welling B; Shipchandler,T. *J. Chem Phys.* **105**, 10367 (1996) http://dx.doi.org/10.1063/1.472992
 
@@ -2884,34 +2884,34 @@ RRK(M) extrapolation. H + O2 --> OH + O
 
 C.D.W. divided rate expression by 2, to get rate of addition per site.
 
-Values (4.395E+10	1.00	0	0.45) confirmed to fit table (divided by 2) 
+Values (4.395E+10	1.00	0	0.45) confirmed to fit table (divided by 2)
 by rwest@mit.edu  7-Sep-2009
 
-Agreement with experimental data from Cobos et al. 
+Agreement with experimental data from Cobos et al.
 (C. J. Cobos, H. Hippler, and J. Troe, *J. Phys. Chem.* 89, 342, 1985)
-was promising **at low pressures**, but 
-"Significant deviations are observed between theory and experiment as the 
+was promising **at low pressures**, but
+"Significant deviations are observed between theory and experiment as the
 high-pressure limit is approached."
-    
+
 E.g., at 298 K
 
-    "However, the value of 
+    "However, the value of
     the high-pressure limit rate coefficient at 298.15 K for the
-    termolecular process computed with TST, model I, and 
-    model II does not agree with the estimated high-pressure 
-    limit value of Cobos et al. at that temperature. TST, 
-    model I, and model II agree with one another, predicting a 
-    value of Log10(k)=-10.7 where the value of the limiting 
-    high-pressure rate coefficient k=2E-11 cm3/molecule/s at 298.15 K, 
-    while Cobos et al. estimate a value of Log10(k)=-10.12 
+    termolecular process computed with TST, model I, and
+    model II does not agree with the estimated high-pressure
+    limit value of Cobos et al. at that temperature. TST,
+    model I, and model II agree with one another, predicting a
+    value of Log10(k)=-10.7 where the value of the limiting
+    high-pressure rate coefficient k=2E-11 cm3/molecule/s at 298.15 K,
+    while Cobos et al. estimate a value of Log10(k)=-10.12
     (that is, k=7.5E-11 cm3/molecule/s)"
-    
-The calculations used the *ab initio* PES of Walch et al., which was the best available in 1991.
-(63) Walch, S. P.; Rohlfing, C. M.; Melius, C. F.; Bauschlicher, C. W. J. Chem. Phys. 1988, 88, 6273. 
-(64) Walch, S. P.; Rohlfing, C. M. J. Chem. Phys. 1989, 91, 2373. 
-(67) Walch, S. P.; Duchovic, R. J. J. Chem. Phys. 1991, 94, 7068. 
 
-Many extensions and improvements are suggested for future work, which may well 
+The calculations used the *ab initio* PES of Walch et al., which was the best available in 1991.
+(63) Walch, S. P.; Rohlfing, C. M.; Melius, C. F.; Bauschlicher, C. W. J. Chem. Phys. 1988, 88, 6273.
+(64) Walch, S. P.; Rohlfing, C. M. J. Chem. Phys. 1989, 91, 2373.
+(67) Walch, S. P.; Duchovic, R. J. J. Chem. Phys. 1991, 94, 7068.
+
+Many extensions and improvements are suggested for future work, which may well
 have happened since the paper was published in 1996. Revision of this rate is recommended.
 
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
@@ -2934,7 +2934,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: SsJ-S2s;C_methyl
 """,
@@ -2954,7 +2954,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: SsJ-Cs;SsJ-Cs
 """,
@@ -2974,7 +2974,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_rad/H2/S;H_rad
 """,
@@ -2994,7 +2994,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K) (n-butyl not methyl)""",
-    longDesc = 
+    longDesc =
 u"""
 We are using a primary R. radical as a methyl radical. The rate comes from n-butyl.
 
@@ -3009,23 +3009,23 @@ Rates measurement of **n-butyl** + O2 at 300 K. High pressure limit from flash p
 C.D.W. divided rate expression by 2, to get rate of addition rate per site,
 giving  (2.260.42)E12 cm3/mole/sec.
 
-    Rate constants for the reaction of four different butyl radicals with molecular oxygen 
-    have been measured **at room temperature**. The radicals were generated by flash photolysis 
-    and their time decay was followed with a photoionization mass spectrometer. The radical 
-    concentrations were kept low to avoid complications from radicalradical reactions. 
-    Radical lifetimes were long, up to 50 msec, thus assuring that thermalized radicals were being studied. 
-    
+    Rate constants for the reaction of four different butyl radicals with molecular oxygen
+    have been measured **at room temperature**. The radicals were generated by flash photolysis
+    and their time decay was followed with a photoionization mass spectrometer. The radical
+    concentrations were kept low to avoid complications from radicalradical reactions.
+    Radical lifetimes were long, up to 50 msec, thus assuring that thermalized radicals were being studied.
+
     The rate constants, in units of 10E11 cm3/molecule/sec, are:
-    
+
      * **n-butyl (0.750.14); (gives (2.260.42)E12 cm3/mole/sec when divided by 2 to get rate per site)**
      * s-butyl (1.660.22); (gives (5.000.66)E12 cm3/mole/sec when divided by 2 to get rate per site)
      * t-butyl (2.340.39); (gives (7.051.17)E12 cm3/mole/sec when divided by 2 to get rate per site)
      * 3-hydroxy s-butyl (2.81.8). (gives (8.435.42)E12 cm3/mole/sec when divided by 2 to get rate per site)
-     
-    No pressure dependence of the rate constants was observed over the range 1 to 4 Torr. 
+
+    No pressure dependence of the rate constants was observed over the range 1 to 4 Torr.
 
 Because radical addition to a double bond is probably barrierless, the temperature range 300-1500K
-has been assigned although the rate was only measured at 300K. 
+has been assigned although the rate was only measured at 300K.
 rwest@mit.edu  7-Sep-2009
 
 Moved from R_Addition_MultipleBond on 3-Jun-2010, JDM.
@@ -3048,7 +3048,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: SsJ-H;H_rad
 """,
@@ -3068,7 +3068,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
-    longDesc = 
+    longDesc =
 u"""
 [8]   Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. *Combust. Flame* 2002, 129, 253-280. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
@@ -3077,26 +3077,26 @@ In their study modelling iso-octane oxidation, Curran et al [8] chose to use the
 [143] Lenhardt, T.M.; McDade, C.E.; Bayes, K.D.; *J. Chem. Phys.* 1980, 72,304 http://dx.doi.org/10.1063/1.438848
 
 Rates measurement of **n-butyl** + O2 at 300 K. High pressure limit from flash photolysis experiments.
-C.D.W. divided rate expression by 2, to get rate of addition rate per site, 
+C.D.W. divided rate expression by 2, to get rate of addition rate per site,
 giving  (2.260.42)E12 cm3/mole/sec.
 
-    Rate constants for the reaction of four different butyl radicals with molecular oxygen 
-    have been measured **at room temperature**. The radicals were generated by flash photolysis 
-    and their time decay was followed with a photoionization mass spectrometer. The radical 
-    concentrations were kept low to avoid complications from radicalradical reactions. 
-    Radical lifetimes were long, up to 50 msec, thus assuring that thermalized radicals were being studied. 
-    
+    Rate constants for the reaction of four different butyl radicals with molecular oxygen
+    have been measured **at room temperature**. The radicals were generated by flash photolysis
+    and their time decay was followed with a photoionization mass spectrometer. The radical
+    concentrations were kept low to avoid complications from radicalradical reactions.
+    Radical lifetimes were long, up to 50 msec, thus assuring that thermalized radicals were being studied.
+
     The rate constants, in units of 10E11 cm3/molecule/sec, are:
-    
+
      * n-butyl (0.750.14); (gives (2.260.42)E12 cm3/mole/sec when divided by 2 to get rate per site)
      * s-butyl (1.660.22); (gives (5.000.66)E12 cm3/mole/sec when divided by 2 to get rate per site)
      * t-butyl (2.340.39); (gives (7.051.17)E12 cm3/mole/sec when divided by 2 to get rate per site)
      * 3-hydroxy s-butyl (2.81.8). (gives (8.435.42)E12 cm3/mole/sec when divided by 2 to get rate per site)
-     
-    No pressure dependence of the rate constants was observed over the range 1 to 4 Torr. 
+
+    No pressure dependence of the rate constants was observed over the range 1 to 4 Torr.
 
 Because radical addition to a double bond is probably barrierless, the temperature range 300-1500K
-has been assigned although the rate was only measured at 300K. 
+has been assigned although the rate was only measured at 300K.
 
 rwest@mit.edu  7-Sep-2009
 
@@ -3120,7 +3120,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A.G. Vandeputte""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: SsJ-S2s;C_rad/Cs3
 """,
@@ -3140,7 +3140,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8]. (Estimated at 300K)""",
-    longDesc = 
+    longDesc =
 u"""
 Lenhardt [143] measured (10.01.3)E12 cm3/mole/sec (at 300K, high pressure limit, from flash photolysis experiments.)
 Atkinson [96], in their review, recommend 6.62E12 cm3/mole/sec. (according to Curran [8]).
@@ -3154,7 +3154,7 @@ The uncertainty of 1E12 cm3/mole/sec was estimated from these values
  * [143] Lenhardt,T.M.;McDade,C.E.;Bayes,K.D.; *J. Chem Phys* 1980, 72,304 http://dx.doi.org/10.1063/1.438848
 
 Because radical addition to a double bond is probably barrierless, the temperature range 300-1500K
-has been assigned although the rate was only measured/estimated at 300K. 
+has been assigned although the rate was only measured/estimated at 300K.
 
 rwest@mit.edu  7-Sep-2009
 
@@ -3178,7 +3178,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A.G. Vandeputte, calculated""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: SsJ-Cs;C_rad/H2/Cs
 """,
@@ -3198,7 +3198,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Curran et al. [8] From Lenhardt et al. [143]. (Measured at 300K)""",
-    longDesc = 
+    longDesc =
 u"""
 [8]   Curran, H.J.; Gaffuri, P.; Pit z, W.J.; Westbrook, C.K. *Combust. Flame* 2002, 129, 253-280. http://dx.doi.org/10.1016/S0010-2180(01)00373-X
 
@@ -3207,26 +3207,26 @@ In their study modelling iso-octane oxidation, Curran et al [8] chose to use the
 [143] Lenhardt, T.M.; McDade, C.E.; Bayes, K.D.; *J. Chem. Phys.* 1980, 72,304 http://dx.doi.org/10.1063/1.438848
 
 Rates measurement of **t-butyl** + O2 at 300 K. High pressure limit from flash photolysis experiments.
-C.D.W. divided rate expression by 2, to get rate of addition rate per site, 
+C.D.W. divided rate expression by 2, to get rate of addition rate per site,
 giving  (7.051.17)E12 cm3/mole/sec.
 
-    Rate constants for the reaction of four different butyl radicals with molecular oxygen 
-    have been measured **at room temperature**. The radicals were generated by flash photolysis 
-    and their time decay was followed with a photoionization mass spectrometer. The radical 
-    concentrations were kept low to avoid complications from radicalradical reactions. 
-    Radical lifetimes were long, up to 50 msec, thus assuring that thermalized radicals were being studied. 
-    
+    Rate constants for the reaction of four different butyl radicals with molecular oxygen
+    have been measured **at room temperature**. The radicals were generated by flash photolysis
+    and their time decay was followed with a photoionization mass spectrometer. The radical
+    concentrations were kept low to avoid complications from radicalradical reactions.
+    Radical lifetimes were long, up to 50 msec, thus assuring that thermalized radicals were being studied.
+
     The rate constants, in units of 10E11 cm3/molecule/sec, are:
-    
+
      * n-butyl (0.750.14); (gives (2.260.42)E12 cm3/mole/sec when divided by 2 to get rate per site)
      * s-butyl (1.660.22); (gives (5.000.66)E12 cm3/mole/sec when divided by 2 to get rate per site)
      * **t-butyl (2.340.39); (gives (7.051.17)E12 cm3/mole/sec when divided by 2 to get rate per site)**
      * 3-hydroxy s-butyl (2.81.8). (gives (8.435.42)E12 cm3/mole/sec when divided by 2 to get rate per site)
-     
-    No pressure dependence of the rate constants was observed over the range 1 to 4 Torr. 
+
+    No pressure dependence of the rate constants was observed over the range 1 to 4 Torr.
 
 Because radical addition to a double bond is probably barrierless, the temperature range 300-1500K
-has been assigned although the rate was only measured at 300K. 
+has been assigned although the rate was only measured at 300K.
 
 rwest@mit.edu  7-Sep-2009
 
@@ -3250,7 +3250,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A.G. Vandeputte, calculated""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: SsJ-Cs;C_methyl
 """,
@@ -3270,7 +3270,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Bozzelli et al. [144] RRKM extrapolation ( adjusted to match data).""",
-    longDesc = 
+    longDesc =
 u"""
 [144] Bozzelli,J.W. J phys. Chem 1993, 97,4427.
 RRKM extrapolation (adjusted to match data).O2 +CH = CH2CHOO. C.D.W. divided rate expression by 2, to get rate of addition per site
@@ -3295,7 +3295,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""A.G. Vandeputte, calculated""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: SsJ-Cs;C_rad/Cs3
 """,
@@ -3315,7 +3315,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Yu, T. and Lin, M.C. [145]""",
-    longDesc = 
+    longDesc =
 u"""
 [145] Yu,T.; Lin, M.C.J. Am. Chem.Soc.1994,116,9571.
 O2+ phenyl --> phenyl dioxy. Absolute value measured directly. Pressure 0.03-0.11 atm. Excitation: Flash photolysis, analysis: Vis- UV absorption. C.D.W. divided rate epxression by 2, to get rate of addition per site
@@ -3340,7 +3340,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Bozzelli et al. [144] RRKM extrapolation.""",
-    longDesc = 
+    longDesc =
 u"""
 [144] Bozzelli,J.W. J Phys. Chem. 1993, 97 , 4427.
 RRKM extrapolation. O2 +HCO -->HC(O)O2. C.D.W. divided rate expression by 2, to get rate of addition per site
@@ -3365,7 +3365,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Atkinson et al [96] literature review.""",
-    longDesc = 
+    longDesc =
 u"""
 [96] Atkinson,R; Baulch,D. L.; Cox R.A.;Hampson,R.F.,Jr.;Kerr,J.A;Rossi,M.J.;Troe,J.J Phys. Chem. Ref. Data 1997,26,521.
 literature review. Rate constant is high pressure limit. O2+ CH3CO --> CH3C(O)OO C.D.W. divided rate expression by 2, to get rate of addition per site
@@ -3390,7 +3390,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Harding et al. (2007HAR/KLI3789-3801), value devided by 2 to account for two addition sites""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H_rad;C_rad/H2/Cd
 """,
@@ -3410,7 +3410,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Estimated by 495""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H_rad;C_rad/H/OneDeC
 """,
@@ -3430,7 +3430,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Estimated by 495""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H_rad;C_rad/OneDe
 """,
@@ -3450,7 +3450,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Estimated by 495""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H_rad;C_rad/TwoDe
 """,
@@ -3470,7 +3470,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_rad/H2/Cd;C_rad/H2/Cd
 """,
@@ -3490,7 +3490,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_rad/H2/Cd;C_rad/H2/Cs
 """,
@@ -3510,7 +3510,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_rad/H2/Cd;C_methyl
 """,
@@ -3530,7 +3530,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_rad/H2/Cd;C_rad/H/NonDeC
 """,
@@ -3550,7 +3550,7 @@ entry(
     ),
     rank = 10,
     shortDesc = u"""Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_rad/H2/Cd;C_rad/Cs3
 """,
@@ -3570,7 +3570,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""Better estimate then averaging out, Tsang (1991) Chemical kinetic data base for combustion chemistry. Part V. Propene Literature review""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_rad/H2/Cd;C_rad/H/CdCd
 """,
@@ -3590,7 +3590,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""2007GEO/MIL4259-4268""",
-    longDesc = 
+    longDesc =
 u"""
 A. G. Vandeputte
 Some estimated values for propyne recombination reactions
@@ -3613,7 +3613,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""1987WU/KER6291""",
-    longDesc = 
+    longDesc =
 u"""
 Estimated value, agrees with 1987WU/KER6291
 
@@ -3635,7 +3635,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""A. G. Vandeputte estimated value""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: Cd_allenic;H_rad
 """,
@@ -3655,7 +3655,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""From 2001 Roy IJCK high-P value""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_rad_cyclopentadiene;H_rad
 """,
@@ -3675,7 +3675,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""Sharma J. Phys. Chem. A 113 8871 - 8882 (2009)""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_rad_cyclopentadiene;C_methyl
 """,
@@ -3695,7 +3695,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""A. G. Vandeputte estimated value""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: C_rad_cyclopentadiene;C_rad_cyclopentadiene
 """,
@@ -3715,7 +3715,7 @@ entry(
     ),
     rank = 11,
     shortDesc = u"""A. G. Vandeputte estimated value""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H_rad;C_rad/H/CdCd
 """,
@@ -3735,7 +3735,7 @@ entry(
     ),
     rank = 2,
     shortDesc = u"""Experimental, J. Hahn, K. Luther and J. Troe""",
-    longDesc = 
+    longDesc =
 u"""
 J. Hahn, K. Luther and J. Troe
 Experimental and theoretical study of the temperature and pressure dependences of the recombination reactions O + NO2 (+M) = NO2 (+M) and NO2 + NO3 (+M) = N2O5 (+M)
@@ -3776,7 +3776,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""J. Troe""",
-    longDesc = 
+    longDesc =
 u"""
 J. Troe
 Analysis of the temperature and pressure dependence of the reaction HO + NO2 + M = HONO2 + M
@@ -3817,7 +3817,7 @@ entry(
     ),
     rank = 6,
     shortDesc = u"""GA Jonas x 3 for spinorbit""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: H_rad;SsJ-H
 """,
@@ -3843,7 +3843,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 3,
-    longDesc = 
+    longDesc =
 u"""
 VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtained from CCSD(T)-F12/VDZ-F12, MP2-F12/VDZ-F12 and MP2-F12/VTZ-F12
 E = E(CCSD(T)−F12/VDZ−F12) + E(MP2−F12/VTZ−F12) − E(MP2−F12/VDZ−F12)
@@ -3870,7 +3870,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 3,
-    longDesc = 
+    longDesc =
 u"""
 VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtained from CCSD(T)-F12/VDZ-F12, MP2-F12/VDZ-F12 and MP2-F12/VTZ-F12
 E = E(CCSD(T)−F12/VDZ−F12) + E(MP2−F12/VTZ−F12) − E(MP2−F12/VDZ−F12)
@@ -3897,7 +3897,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 3,
-    longDesc = 
+    longDesc =
 u"""
 VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtained from CCSD(T)-F12/VDZ-F12, MP2-F12/VDZ-F12 and MP2-F12/VTZ-F12
 E = E(CCSD(T)−F12/VDZ−F12) + E(MP2−F12/VTZ−F12) − E(MP2−F12/VDZ−F12)
@@ -3924,7 +3924,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 3,
-    longDesc = 
+    longDesc =
 u"""
 VRC-TST, the CCSD(T)/CBS limit for the quartet state interaction energy is obtained from CCSD(T)-F12/VDZ-F12, MP2-F12/VDZ-F12 and MP2-F12/VTZ-F12
 E = E(CCSD(T)−F12/VDZ−F12) + E(MP2−F12/VTZ−F12) − E(MP2−F12/VDZ−F12)
@@ -3951,7 +3951,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 3,
-    longDesc = 
+    longDesc =
 u"""
 CASPT2(2e,2o)/cc-pvdz (VRC-TST)
 """,
@@ -3977,7 +3977,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 3,
-    longDesc = 
+    longDesc =
 u"""
 CASPT2(2e,2o)/cc-pvdz (VRC-TST)
 """,
@@ -4003,7 +4003,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 3,
-    longDesc = 
+    longDesc =
 u"""
 CASPT2(2e,2o)/cc-pvdz (VRC-TST)
 """,
@@ -4029,7 +4029,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 3,
-    longDesc = 
+    longDesc =
 u"""
 CASPT2(2e,2o)/cc-pvdz (VRC-TST)
 """,
@@ -4079,7 +4079,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4104,7 +4104,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4129,7 +4129,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4154,7 +4154,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4179,7 +4179,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4204,7 +4204,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4229,7 +4229,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4254,7 +4254,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4279,7 +4279,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4304,7 +4304,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4329,7 +4329,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4354,7 +4354,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11817',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4379,7 +4379,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4404,7 +4404,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4429,7 +4429,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4454,7 +4454,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4479,7 +4479,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4504,7 +4504,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4529,7 +4529,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4554,7 +4554,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4579,7 +4579,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4604,7 +4604,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.6b11472',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Electronic structure calculations carried out at the G3(CCSD,MP2)//B3LYP/6-311G(d,p) level of theory. No hindered rotors were considered.
 """,
@@ -4629,7 +4629,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are with VRC-TST by using Variflex code. The dissociation potential function is calculated to cover the range of C−C separations varying from 1.54 to 5.10 Å at the CASPT2(2e,2o)/6-31+G(d,p)//CAS(2e,2o)/6-31+G-(d,p) level.
 """,
@@ -4654,7 +4654,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are with VRC-TST by using Variflex code. The dissociation potential function is calculated to cover the range of C−C separations varying from 1.54 to 5.10 Å at the CASPT2(2e,2o)/6-31+G(d,p)//CAS(2e,2o)/6-31+G-(d,p) level.
 """,
@@ -4679,7 +4679,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are with VRC-TST by using Variflex code. The dissociation potential function is calculated to cover the range of C−C separations varying from 1.54 to 5.10 Å at the CASPT2(2e,2o)/6-31+G(d,p)//CAS(2e,2o)/6-31+G-(d,p) level.
 """,
@@ -4704,7 +4704,7 @@ entry(
         url = 'https://pubs.acs.org/doi/10.1021/acs.jpca.5b02013',
     ),
     rank = 6,
-    longDesc = 
+    longDesc =
 u"""
 Species are optimized and calculated by the CBS-QB3 method, no hindered rotors considered. Rates are with VRC-TST by using Variflex code. The dissociation potential function is calculated to cover the range of C−C separations varying from 1.54 to 5.10 Å at the CASPT2(2e,2o)/6-31+G(d,p)//CAS(2e,2o)/6-31+G-(d,p) level.
 """,

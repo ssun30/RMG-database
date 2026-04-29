@@ -16,7 +16,7 @@ September 15, 2009 (http://web.stanford.edu/group/haiwanglab/JetSurF/JetSurF1.0/
 entry(
     index = 0,
     label = "Ar",
-    molecule = 
+    molecule =
 """
 1 Ar u0 p4 c0
 """,
@@ -29,7 +29,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""120186""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -38,7 +38,7 @@ u"""
 entry(
     index = 1,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -52,7 +52,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""121286""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -61,7 +61,7 @@ u"""
 entry(
     index = 2,
     label = "He",
-    molecule = 
+    molecule =
 """
 1 He u0 p1 c0
 """,
@@ -74,7 +74,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L10/90""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -83,7 +83,7 @@ u"""
 entry(
     index = 3,
     label = "H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -97,7 +97,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -106,7 +106,7 @@ u"""
 entry(
     index = 4,
     label = "O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -120,7 +120,7 @@ multiplicity 3
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 1/90""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -129,7 +129,7 @@ u"""
 entry(
     index = 5,
     label = "OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -144,7 +144,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""S 9/01""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -153,7 +153,7 @@ u"""
 entry(
     index = 6,
     label = "HO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -169,7 +169,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 5/89""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -178,7 +178,7 @@ u"""
 entry(
     index = 7,
     label = "H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -192,7 +192,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS78""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -201,7 +201,7 @@ u"""
 entry(
     index = 8,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -216,7 +216,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/89""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -225,7 +225,7 @@ u"""
 entry(
     index = 9,
     label = "H2O2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -241,7 +241,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -250,7 +250,7 @@ u"""
 entry(
     index = 10,
     label = "O2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -265,7 +265,7 @@ multiplicity 3
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS89""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -274,7 +274,7 @@ u"""
 entry(
     index = 11,
     label = "C",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p1 c0
@@ -288,7 +288,7 @@ multiplicity 3
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L11/88""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -297,7 +297,7 @@ u"""
 entry(
     index = 12,
     label = "CH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p1 c0 {2,S}
@@ -312,7 +312,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS79""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -321,7 +321,7 @@ u"""
 entry(
     index = 13,
     label = "CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -337,7 +337,7 @@ multiplicity 3
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L S/93""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -346,7 +346,7 @@ u"""
 entry(
     index = 14,
     label = "CH2(S)",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -361,7 +361,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L S/93""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -370,7 +370,7 @@ u"""
 entry(
     index = 15,
     label = "CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -387,7 +387,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L11/89""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -396,7 +396,7 @@ u"""
 entry(
     index = 16,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -413,7 +413,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -422,7 +422,7 @@ u"""
 entry(
     index = 17,
     label = "HCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -438,7 +438,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L12/89""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -447,7 +447,7 @@ u"""
 entry(
     index = 18,
     label = "CH2O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 O u0 p2 c0 {1,D}
@@ -463,7 +463,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -472,7 +472,7 @@ u"""
 entry(
     index = 19,
     label = "CH3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -490,7 +490,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU1/03""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -499,7 +499,7 @@ u"""
 entry(
     index = 20,
     label = "CH2OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -517,7 +517,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""IU2/03""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -526,7 +526,7 @@ u"""
 entry(
     index = 21,
     label = "CH3OH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 O u0 p2 c0 {1,S} {6,S}
@@ -544,7 +544,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -553,7 +553,7 @@ u"""
 entry(
     index = 22,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
@@ -567,7 +567,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""TPIS79""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -576,7 +576,7 @@ u"""
 entry(
     index = 23,
     label = "CO2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 O u0 p2 c0 {1,D}
@@ -591,7 +591,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 7/88""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -600,7 +600,7 @@ u"""
 entry(
     index = 24,
     label = "C2O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u0 p0 c0 {2,D} {3,D}
@@ -616,7 +616,7 @@ multiplicity 3
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""RUS 79""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -625,7 +625,7 @@ u"""
 entry(
     index = 25,
     label = "C2H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,T}
@@ -641,7 +641,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -650,7 +650,7 @@ u"""
 entry(
     index = 26,
     label = "C2H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -666,7 +666,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -675,7 +675,7 @@ u"""
 entry(
     index = 27,
     label = "H2CC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p1 c0 {1,D}
@@ -691,7 +691,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L12/89""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -700,7 +700,7 @@ u"""
 entry(
     index = 28,
     label = "C2H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {3,S}
@@ -718,7 +718,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 2/92""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -727,7 +727,7 @@ u"""
 entry(
     index = 29,
     label = "C2H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -745,7 +745,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 1/91""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -754,7 +754,7 @@ u"""
 entry(
     index = 30,
     label = "C2H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -774,7 +774,7 @@ multiplicity 2
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L12/92""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -783,7 +783,7 @@ u"""
 entry(
     index = 31,
     label = "C2H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -803,7 +803,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -812,7 +812,7 @@ u"""
 entry(
     index = 32,
     label = "HCCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,T} {4,S}
@@ -829,7 +829,7 @@ multiplicity 2
         Tmax = (4000,'K'),
     ),
     shortDesc = u"""SRIC91""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -838,7 +838,7 @@ u"""
 entry(
     index = 33,
     label = "HCCOH",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -855,7 +855,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""SRI91""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -864,7 +864,7 @@ u"""
 entry(
     index = 34,
     label = "CH2CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,D}
@@ -881,7 +881,7 @@ entry(
         Tmax = (3500,'K'),
     ),
     shortDesc = u"""D05/90""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -890,7 +890,7 @@ u"""
 entry(
     index = 35,
     label = "CH3CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -909,7 +909,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 9/92""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -918,7 +918,7 @@ u"""
 entry(
     index = 36,
     label = "CH2CHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -937,7 +937,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""D05/83""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -946,7 +946,7 @@ u"""
 entry(
     index = 37,
     label = "CH2OCH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -965,7 +965,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""A12/04""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -974,7 +974,7 @@ u"""
 entry(
     index = 38,
     label = "CH3CHO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,D} {7,S}
@@ -993,7 +993,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 8/88""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1002,7 +1002,7 @@ u"""
 entry(
     index = 39,
     label = "CH2OCH2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -1021,7 +1021,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""T 6/92""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1030,7 +1030,7 @@ u"""
 entry(
     index = 40,
     label = "C3H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {4,S} {5,S}
@@ -1049,7 +1049,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 5/97""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1058,7 +1058,7 @@ u"""
 entry(
     index = 41,
     label = "pC3H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -1077,7 +1077,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 2/90""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1086,7 +1086,7 @@ u"""
 entry(
     index = 42,
     label = "aC3H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -1105,7 +1105,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 8/89""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1114,7 +1114,7 @@ u"""
 entry(
     index = 43,
     label = "cC3H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,D} {6,S}
@@ -1133,7 +1133,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T12/81""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1142,7 +1142,7 @@ u"""
 entry(
     index = 44,
     label = "aC3H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -1163,7 +1163,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""PD5/98""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1172,7 +1172,7 @@ u"""
 entry(
     index = 45,
     label = "CH3CCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -1193,7 +1193,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""PD5/98""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1202,7 +1202,7 @@ u"""
 entry(
     index = 46,
     label = "CH3CHCH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -1223,7 +1223,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""PD5/98""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1232,7 +1232,7 @@ u"""
 entry(
     index = 47,
     label = "C3H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
 2 C u0 p0 c0 {1,D} {3,S} {6,S}
@@ -1253,7 +1253,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""120186""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1262,7 +1262,7 @@ u"""
 entry(
     index = 48,
     label = "nC3H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1285,7 +1285,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1294,7 +1294,7 @@ u"""
 entry(
     index = 49,
     label = "iC3H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -1317,7 +1317,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1326,7 +1326,7 @@ u"""
 entry(
     index = 50,
     label = "C3H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -1349,7 +1349,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1358,7 +1358,7 @@ u"""
 entry(
     index = 51,
     label = "CH2CHCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -1378,7 +1378,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T05/99""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1387,7 +1387,7 @@ u"""
 entry(
     index = 52,
     label = "C2H3CHO",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
 2 C u0 p0 c0 {1,D} {3,S} {7,S}
@@ -1407,7 +1407,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1416,7 +1416,7 @@ u"""
 entry(
     index = 53,
     label = "CH3CHOCH2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -1438,7 +1438,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""T 6/92""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1447,7 +1447,7 @@ u"""
 entry(
     index = 54,
     label = "CH3CH2CHO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1469,7 +1469,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1478,7 +1478,7 @@ u"""
 entry(
     index = 55,
     label = "CH3COCH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
@@ -1500,7 +1500,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 5/92""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1509,7 +1509,7 @@ u"""
 entry(
     index = 56,
     label = "C4H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {5,S}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -1527,7 +1527,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1536,7 +1536,7 @@ u"""
 entry(
     index = 57,
     label = "nC4H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -1556,7 +1556,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1565,7 +1565,7 @@ u"""
 entry(
     index = 58,
     label = "iC4H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -1585,7 +1585,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1594,7 +1594,7 @@ u"""
 entry(
     index = 59,
     label = "C4H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {5,S}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -1614,7 +1614,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1623,7 +1623,7 @@ u"""
 entry(
     index = 60,
     label = "nC4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -1645,7 +1645,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1654,7 +1654,7 @@ u"""
 entry(
     index = 61,
     label = "iC4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -1676,7 +1676,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1685,7 +1685,7 @@ u"""
 entry(
     index = 62,
     label = "C4H5-2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -1707,7 +1707,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1716,7 +1716,7 @@ u"""
 entry(
     index = 63,
     label = "c-C4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -1738,7 +1738,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""PUPM3""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1747,7 +1747,7 @@ u"""
 entry(
     index = 64,
     label = "C4H6",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
 2  C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -1769,7 +1769,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1778,7 +1778,7 @@ u"""
 entry(
     index = 65,
     label = "C4H612",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -1800,7 +1800,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""A 8/83""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1809,7 +1809,7 @@ u"""
 entry(
     index = 66,
     label = "C4H6-2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -1831,7 +1831,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""A 8/83""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1840,7 +1840,7 @@ u"""
 entry(
     index = 67,
     label = "C4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -1864,7 +1864,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1873,7 +1873,7 @@ u"""
 entry(
     index = 68,
     label = "iC4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -1897,7 +1897,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1906,7 +1906,7 @@ u"""
 entry(
     index = 69,
     label = "C4H81",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -1930,7 +1930,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 6/83""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1939,7 +1939,7 @@ u"""
 entry(
     index = 70,
     label = "C4H82",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -1963,7 +1963,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 6/83""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1972,7 +1972,7 @@ u"""
 entry(
     index = 71,
     label = "iC4H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -1996,7 +1996,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 6/83""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2005,7 +2005,7 @@ u"""
 entry(
     index = 72,
     label = "pC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -2031,7 +2031,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2040,7 +2040,7 @@ u"""
 entry(
     index = 73,
     label = "sC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -2066,7 +2066,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2075,7 +2075,7 @@ u"""
 entry(
     index = 74,
     label = "iC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2101,7 +2101,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2110,7 +2110,7 @@ u"""
 entry(
     index = 75,
     label = "tC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -2136,7 +2136,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2145,7 +2145,7 @@ u"""
 entry(
     index = 76,
     label = "C4H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -2171,7 +2171,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2180,7 +2180,7 @@ u"""
 entry(
     index = 77,
     label = "iC4H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2206,7 +2206,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""P11/94""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2215,7 +2215,7 @@ u"""
 entry(
     index = 78,
     label = "H2C4O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {6,S} {7,S}
 2 C u0 p0 c0 {1,D} {3,D}
@@ -2234,7 +2234,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2243,7 +2243,7 @@ u"""
 entry(
     index = 79,
     label = "C4H4O",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {5,D} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -2264,7 +2264,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T03/97""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2273,7 +2273,7 @@ u"""
 entry(
     index = 80,
     label = "CH2CHCHCHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {3,S} {5,S}
@@ -2296,7 +2296,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2305,7 +2305,7 @@ u"""
 entry(
     index = 81,
     label = "CH3CHCHCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -2328,7 +2328,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""USC/07""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2337,7 +2337,7 @@ u"""
 entry(
     index = 82,
     label = "C2H3CHOCH2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -2360,7 +2360,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""A 8/83""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2369,7 +2369,7 @@ u"""
 entry(
     index = 83,
     label = "C4H6O23",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -2392,7 +2392,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 3/97""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2401,7 +2401,7 @@ u"""
 entry(
     index = 84,
     label = "CH3CHCHCHO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -2424,7 +2424,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""T 5/92""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2433,7 +2433,7 @@ u"""
 entry(
     index = 85,
     label = "C4H6O25",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
@@ -2456,7 +2456,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""T 3/97""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2465,7 +2465,7 @@ u"""
 entry(
     index = 86,
     label = "C5H4O",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,D}
 2  C u0 p0 c0 {1,D} {3,S} {6,S}
@@ -2487,7 +2487,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 8/99""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2496,7 +2496,7 @@ u"""
 entry(
     index = 87,
     label = "C5H5O(1,3)",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -2520,7 +2520,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""DU0997""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2529,7 +2529,7 @@ u"""
 entry(
     index = 88,
     label = "C5H5O(2,4)",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -2553,7 +2553,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D 9/97""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2562,7 +2562,7 @@ u"""
 entry(
     index = 89,
     label = "C5H4OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {3,S} {6,S}
@@ -2586,7 +2586,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 8/99""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2595,7 +2595,7 @@ u"""
 entry(
     index = 90,
     label = "C5H5OH",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {6,S} {8,S}
@@ -2619,7 +2619,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""HWZD99""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2628,7 +2628,7 @@ u"""
 entry(
     index = 91,
     label = "C5H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {5,S} {6,S}
@@ -2651,7 +2651,7 @@ multiplicity 2
         Tmax = (2000,'K'),
     ),
     shortDesc = u"""T12/89""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2660,7 +2660,7 @@ u"""
 entry(
     index = 92,
     label = "C5H6",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {5,S} {6,S}
 2  C u0 p0 c0 {1,D} {3,S} {7,S}
@@ -2683,7 +2683,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T 1/90""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2692,7 +2692,7 @@ u"""
 entry(
     index = 93,
     label = "lC5H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {3,S} {7,S}
@@ -2717,7 +2717,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""HWZD99""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2726,7 +2726,7 @@ u"""
 entry(
     index = 94,
     label = "cC5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
@@ -2753,7 +2753,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T03/97""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2762,7 +2762,7 @@ u"""
 entry(
     index = 95,
     label = "cC5H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -2787,7 +2787,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T03/97""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2796,7 +2796,7 @@ u"""
 entry(
     index = 96,
     label = "C6H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {7,S}
 2 C u0 p0 c0 {1,T} {3,S}
@@ -2816,7 +2816,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2825,7 +2825,7 @@ u"""
 entry(
     index = 97,
     label = "C6H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,D} {7,S}
@@ -2847,7 +2847,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2856,7 +2856,7 @@ u"""
 entry(
     index = 98,
     label = "l-C6H4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {7,S}
 2  C u0 p0 c0 {1,D} {8,S} {9,S}
@@ -2878,7 +2878,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2887,7 +2887,7 @@ u"""
 entry(
     index = 99,
     label = "o-C6H4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {8,S}
 2  C u0 p0 c0 {1,S} {4,D} {7,S}
@@ -2909,7 +2909,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2918,7 +2918,7 @@ u"""
 entry(
     index = 100,
     label = "C6H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {3,B} {8,S}
@@ -2942,7 +2942,7 @@ multiplicity 2
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2951,7 +2951,7 @@ u"""
 entry(
     index = 101,
     label = "C6H6",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
 2  C u0 p0 c0 {1,B} {3,B} {8,S}
@@ -2975,7 +2975,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""D11/99""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2984,7 +2984,7 @@ u"""
 entry(
     index = 102,
     label = "C6H5CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
@@ -3011,7 +3011,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T08/90""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3020,7 +3020,7 @@ u"""
 entry(
     index = 103,
     label = "C6H5CH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,B} {4,B}
@@ -3047,7 +3047,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 6/87""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3056,7 +3056,7 @@ u"""
 entry(
     index = 104,
     label = "C6H5C2H",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
 2  C u0 p0 c0 {1,B} {4,B} {9,S}
@@ -3082,7 +3082,7 @@ entry(
         Tmax = (3000,'K'),
     ),
     shortDesc = u"""H6W/94""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3091,7 +3091,7 @@ u"""
 entry(
     index = 105,
     label = "C6H5O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
@@ -3116,7 +3116,7 @@ multiplicity 2
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T05/02""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3125,7 +3125,7 @@ u"""
 entry(
     index = 106,
     label = "C6H5OH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
 2  C u0 p0 c0 {1,B} {4,B} {8,S}
@@ -3150,7 +3150,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""L 4/84""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3159,7 +3159,7 @@ u"""
 entry(
     index = 107,
     label = "C6H4O2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,D}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -3183,7 +3183,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""PUML96""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3192,7 +3192,7 @@ u"""
 entry(
     index = 108,
     label = "C6H5CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
@@ -3218,7 +3218,7 @@ multiplicity 2
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""EST/BUR P 1/93""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3227,7 +3227,7 @@ u"""
 entry(
     index = 109,
     label = "C6H5CHO",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {3,B} {7,S}
 2  C u0 p0 c0 {1,B} {4,B} {8,S}
@@ -3253,7 +3253,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""L 3/86""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3262,7 +3262,7 @@ u"""
 entry(
     index = 110,
     label = "C6H5CH2OH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,B} {4,B}
@@ -3290,7 +3290,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""L 7/87""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3299,7 +3299,7 @@ u"""
 entry(
     index = 111,
     label = "OC6H4CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
@@ -3327,7 +3327,7 @@ multiplicity 2
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""EST/BUR P 1/93""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3336,7 +3336,7 @@ u"""
 entry(
     index = 112,
     label = "HOC6H4CH3",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {4,B} {5,B}
@@ -3364,7 +3364,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""AVG CRESOL6/87""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3373,7 +3373,7 @@ u"""
 entry(
     index = 113,
     label = "C6H4CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
@@ -3400,7 +3400,7 @@ multiplicity 2
         Tmax = (2500,'K'),
     ),
     shortDesc = u"""P 1/93""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3409,7 +3409,7 @@ u"""
 entry(
     index = 114,
     label = "NC12H26",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
@@ -3459,7 +3459,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3468,7 +3468,7 @@ u"""
 entry(
     index = 115,
     label = "PXC12H25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {9,S} {15,S} {16,S}
@@ -3518,7 +3518,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3527,7 +3527,7 @@ u"""
 entry(
     index = 116,
     label = "SXC12H25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {15,S} {16,S}
@@ -3577,7 +3577,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3586,7 +3586,7 @@ u"""
 entry(
     index = 117,
     label = "C12H24",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
 2  C u0 p0 c0 {1,S} {3,S} {16,S} {17,S}
@@ -3634,7 +3634,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3643,7 +3643,7 @@ u"""
 entry(
     index = 118,
     label = "PXC12H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -3691,7 +3691,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3700,7 +3700,7 @@ u"""
 entry(
     index = 119,
     label = "NC11H24",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
@@ -3747,7 +3747,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3756,7 +3756,7 @@ u"""
 entry(
     index = 120,
     label = "PXC11H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {8,S} {14,S} {15,S}
@@ -3803,7 +3803,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3812,7 +3812,7 @@ u"""
 entry(
     index = 121,
     label = "SXC11H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {14,S} {15,S}
@@ -3859,7 +3859,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3868,7 +3868,7 @@ u"""
 entry(
     index = 122,
     label = "C11H22",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
 2  C u0 p0 c0 {1,S} {3,S} {15,S} {16,S}
@@ -3913,7 +3913,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3922,7 +3922,7 @@ u"""
 entry(
     index = 123,
     label = "PXC11H21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -3967,7 +3967,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3976,7 +3976,7 @@ u"""
 entry(
     index = 124,
     label = "NC10H22",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
@@ -4020,7 +4020,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4029,7 +4029,7 @@ u"""
 entry(
     index = 125,
     label = "PXC10H21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {13,S} {14,S}
@@ -4073,7 +4073,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4082,7 +4082,7 @@ u"""
 entry(
     index = 126,
     label = "SXC10H21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {13,S} {14,S}
@@ -4126,7 +4126,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4135,7 +4135,7 @@ u"""
 entry(
     index = 127,
     label = "C10H20",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
 2  C u0 p0 c0 {1,S} {3,S} {14,S} {15,S}
@@ -4177,7 +4177,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4186,7 +4186,7 @@ u"""
 entry(
     index = 128,
     label = "PXC10H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -4228,7 +4228,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4237,7 +4237,7 @@ u"""
 entry(
     index = 129,
     label = "NC9H20",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
@@ -4278,7 +4278,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4287,7 +4287,7 @@ u"""
 entry(
     index = 130,
     label = "PXC9H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {12,S} {13,S}
@@ -4328,7 +4328,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4337,7 +4337,7 @@ u"""
 entry(
     index = 131,
     label = "SXC9H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {12,S} {13,S}
@@ -4378,7 +4378,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4387,7 +4387,7 @@ u"""
 entry(
     index = 132,
     label = "C9H18",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
 2  C u0 p0 c0 {1,S} {3,S} {13,S} {14,S}
@@ -4426,7 +4426,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4435,7 +4435,7 @@ u"""
 entry(
     index = 133,
     label = "PXC9H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -4474,7 +4474,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 3/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4483,7 +4483,7 @@ u"""
 entry(
     index = 134,
     label = "NC8H18",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
@@ -4521,7 +4521,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4530,7 +4530,7 @@ u"""
 entry(
     index = 135,
     label = "PXC8H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
@@ -4568,7 +4568,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4577,7 +4577,7 @@ u"""
 entry(
     index = 136,
     label = "SXC8H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {11,S} {12,S}
@@ -4615,7 +4615,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4624,7 +4624,7 @@ u"""
 entry(
     index = 137,
     label = "C8H16",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
 2  C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
@@ -4660,7 +4660,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4669,7 +4669,7 @@ u"""
 entry(
     index = 138,
     label = "PXC8H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -4705,7 +4705,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4714,7 +4714,7 @@ u"""
 entry(
     index = 139,
     label = "NC7H16",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
@@ -4749,7 +4749,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4758,7 +4758,7 @@ u"""
 entry(
     index = 140,
     label = "PXC7H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
@@ -4793,7 +4793,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4802,7 +4802,7 @@ u"""
 entry(
     index = 141,
     label = "SXC7H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
@@ -4837,7 +4837,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4846,7 +4846,7 @@ u"""
 entry(
     index = 142,
     label = "C7H14",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
@@ -4879,7 +4879,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4888,7 +4888,7 @@ u"""
 entry(
     index = 143,
     label = "PXC7H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -4921,7 +4921,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4930,7 +4930,7 @@ u"""
 entry(
     index = 144,
     label = "NC6H14",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
@@ -4962,7 +4962,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -4971,7 +4971,7 @@ u"""
 entry(
     index = 145,
     label = "PXC6H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -5003,7 +5003,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5012,7 +5012,7 @@ u"""
 entry(
     index = 146,
     label = "SXC6H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -5044,7 +5044,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5053,7 +5053,7 @@ u"""
 entry(
     index = 147,
     label = "C6H12",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
@@ -5083,7 +5083,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5092,7 +5092,7 @@ u"""
 entry(
     index = 148,
     label = "PXC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -5122,7 +5122,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5131,7 +5131,7 @@ u"""
 entry(
     index = 149,
     label = "SXC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
@@ -5161,7 +5161,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5170,7 +5170,7 @@ u"""
 entry(
     index = 150,
     label = "S2XC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
@@ -5200,7 +5200,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5209,7 +5209,7 @@ u"""
 entry(
     index = 151,
     label = "SAXC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
@@ -5239,7 +5239,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5248,7 +5248,7 @@ u"""
 entry(
     index = 152,
     label = "cC6H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
@@ -5278,7 +5278,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5287,7 +5287,7 @@ u"""
 entry(
     index = 153,
     label = "cC6H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -5315,7 +5315,7 @@ entry(
         Tmax = (6000,'K'),
     ),
     shortDesc = u"""T03/97""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5324,7 +5324,7 @@ u"""
 entry(
     index = 154,
     label = "SAXC6H11-3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
@@ -5354,7 +5354,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5363,7 +5363,7 @@ u"""
 entry(
     index = 155,
     label = "cC5H9CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -5393,7 +5393,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5402,7 +5402,7 @@ u"""
 entry(
     index = 156,
     label = "CH2C5H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -5430,7 +5430,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5439,7 +5439,7 @@ u"""
 entry(
     index = 157,
     label = "m1C5H81",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -5469,7 +5469,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5478,7 +5478,7 @@ u"""
 entry(
     index = 158,
     label = "CH3cC5H83",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
@@ -5508,7 +5508,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5517,7 +5517,7 @@ u"""
 entry(
     index = 159,
     label = "C6H10-13",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -5545,7 +5545,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5554,7 +5554,7 @@ u"""
 entry(
     index = 160,
     label = "NC5H12",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -5583,7 +5583,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5592,7 +5592,7 @@ u"""
 entry(
     index = 161,
     label = "PXC5H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -5621,7 +5621,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5630,7 +5630,7 @@ u"""
 entry(
     index = 162,
     label = "SXC5H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -5659,7 +5659,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5668,7 +5668,7 @@ u"""
 entry(
     index = 163,
     label = "C5H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -5695,7 +5695,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5704,7 +5704,7 @@ u"""
 entry(
     index = 164,
     label = "PXC5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -5731,7 +5731,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5740,7 +5740,7 @@ u"""
 entry(
     index = 165,
     label = "SXC5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
@@ -5767,7 +5767,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5776,7 +5776,7 @@ u"""
 entry(
     index = 166,
     label = "SAXC5H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
@@ -5803,7 +5803,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5812,7 +5812,7 @@ u"""
 entry(
     index = 167,
     label = "CH2C4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
@@ -5839,7 +5839,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5848,7 +5848,7 @@ u"""
 entry(
     index = 168,
     label = "C5H8-13",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -5873,7 +5873,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5882,7 +5882,7 @@ u"""
 entry(
     index = 169,
     label = "C5H8-14",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -5907,7 +5907,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""8/29/ 8 G""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5916,7 +5916,7 @@ u"""
 entry(
     index = 170,
     label = "S2XC12H25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {6,S} {15,S} {16,S}
@@ -5966,7 +5966,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -5975,7 +5975,7 @@ u"""
 entry(
     index = 171,
     label = "S3XC12H25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {17,S} {18,S}
@@ -6025,7 +6025,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6034,7 +6034,7 @@ u"""
 entry(
     index = 172,
     label = "S4XC12H25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {19,S} {20,S}
@@ -6084,7 +6084,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6093,7 +6093,7 @@ u"""
 entry(
     index = 173,
     label = "S5XC12H25",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
@@ -6143,7 +6143,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6152,7 +6152,7 @@ u"""
 entry(
     index = 174,
     label = "S2XC11H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {14,S} {15,S}
@@ -6199,7 +6199,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6208,7 +6208,7 @@ u"""
 entry(
     index = 175,
     label = "S3XC11H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {16,S} {17,S}
@@ -6255,7 +6255,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6264,7 +6264,7 @@ u"""
 entry(
     index = 176,
     label = "S4XC11H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {18,S} {19,S}
@@ -6311,7 +6311,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6320,7 +6320,7 @@ u"""
 entry(
     index = 177,
     label = "S5XC11H23",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {14,S} {15,S}
@@ -6367,7 +6367,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/22/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6376,7 +6376,7 @@ u"""
 entry(
     index = 178,
     label = "S2XC10H21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
@@ -6420,7 +6420,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6429,7 +6429,7 @@ u"""
 entry(
     index = 179,
     label = "S3XC10H21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {15,S} {16,S}
@@ -6473,7 +6473,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6482,7 +6482,7 @@ u"""
 entry(
     index = 180,
     label = "S4XC10H21",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
@@ -6526,7 +6526,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6535,7 +6535,7 @@ u"""
 entry(
     index = 181,
     label = "S2XC9H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
@@ -6576,7 +6576,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6585,7 +6585,7 @@ u"""
 entry(
     index = 182,
     label = "S3XC9H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {14,S} {15,S}
@@ -6626,7 +6626,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6635,7 +6635,7 @@ u"""
 entry(
     index = 183,
     label = "S4XC9H19",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {12,S} {13,S}
@@ -6676,7 +6676,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6685,7 +6685,7 @@ u"""
 entry(
     index = 184,
     label = "S2XC8H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
@@ -6723,7 +6723,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6732,7 +6732,7 @@ u"""
 entry(
     index = 185,
     label = "S3XC8H17",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {11,S} {12,S}
@@ -6770,7 +6770,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6779,7 +6779,7 @@ u"""
 entry(
     index = 186,
     label = "S2XC7H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
@@ -6814,7 +6814,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6823,7 +6823,7 @@ u"""
 entry(
     index = 187,
     label = "S3XC7H15",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {8,S} {9,S}
@@ -6858,7 +6858,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6867,7 +6867,7 @@ u"""
 entry(
     index = 188,
     label = "S2XC6H13",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
@@ -6899,7 +6899,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6908,7 +6908,7 @@ u"""
 entry(
     index = 189,
     label = "S2XC5H11",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -6937,7 +6937,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""1/ 2/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -6946,7 +6946,7 @@ u"""
 entry(
     index = 190,
     label = "PC12H25O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {10,S} {16,S} {17,S}
@@ -6998,7 +6998,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""7/23/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7007,7 +7007,7 @@ u"""
 entry(
     index = 191,
     label = "P12OOHX2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {7,S} {17,S} {18,S}
@@ -7059,7 +7059,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""7/23/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7068,7 +7068,7 @@ u"""
 entry(
     index = 192,
     label = "SOO12OOH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u1 p2 c0 {2,S}
@@ -7122,7 +7122,7 @@ multiplicity 2
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""7/23/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -7131,7 +7131,7 @@ u"""
 entry(
     index = 193,
     label = "OC12OOH",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {16,S} {17,S} {18,S}
 2  C u0 p0 c0 {1,S} {3,S} {19,S} {20,S}
@@ -7182,7 +7182,7 @@ entry(
         Tmax = (5000,'K'),
     ),
     shortDesc = u"""7/23/ 7 THERM""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

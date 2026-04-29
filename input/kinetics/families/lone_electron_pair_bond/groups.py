@@ -32,7 +32,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "N3sRRR",
-    group = 
+    group =
 """
 1 *1 N3s u0 p1 {2,S} {3,S} {4,S}
 2    R   u0 {1,S}
@@ -45,7 +45,7 @@ entry(
 entry(
     index = 1,
     label = "O_atom_singlet",
-    group = 
+    group =
 """
 1 *2 O u0 p3 c0
 """,

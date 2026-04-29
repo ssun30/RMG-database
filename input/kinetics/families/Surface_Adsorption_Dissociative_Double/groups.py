@@ -134,7 +134,7 @@ entry(
  """
  multiplicity [1]
  1 *2 C  u0 p0 c0 {2,D}
- 2 *3 C  u0 p0 c0 {1,D} 
+ 2 *3 C  u0 p0 c0 {1,D}
  """,
      kinetics = None,
 )

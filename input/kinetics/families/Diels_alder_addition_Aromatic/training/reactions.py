@@ -22,7 +22,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 6,
-    longDesc = 
+    longDesc =
 """
 uCCSD(T) with Dunning's correclation-consistent polarized double basis set (cc-pVDZ), TST.
 """,
@@ -43,7 +43,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 6,
-    longDesc = 
+    longDesc =
 """
 uCCSD(T) with Dunning's correclation-consistent polarized double basis set (cc-pVDZ), TST.
 """,
@@ -55,7 +55,7 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(16.92,'cm^3/(mol*s)'), n=2.6, Ea=(42.193,'kcal/mol'), T0=(1,'K')),
     rank = 8,
-    longDesc = 
+    longDesc =
 """
 V. V. Kislov, N. I. Islamova, A. M. Kolker, S. H. Lin, and A. M. Mebel;
 Hydrogen Abstraction Acetylene Addition and Diels-Alder Mechanisms of PAH Formation: A Detailed Study Using First Principles Calculations;
@@ -70,7 +70,7 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(43.24,'cm^3/(mol*s)'), n=2.58, Ea=(41.945,'kcal/mol'), T0=(1,'K')),
     rank = 8,
-    longDesc = 
+    longDesc =
 """
 V. V. Kislov, N. I. Islamova, A. M. Kolker, S. H. Lin, and A. M. Mebel;
 Hydrogen Abstraction Acetylene Addition and Diels-Alder Mechanisms of PAH Formation: A Detailed Study Using First Principles Calculations;
@@ -94,7 +94,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 CBS-QB3 calculation by MLIU
 M. Liu, T. -C. Chu, A. Jocher, M. C. Smith, I, Lengyel, and W. H. Green;
@@ -118,7 +118,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 CBS-QB3 calculation by MLIU
 M. Liu, T. -C. Chu, A. Jocher, M. C. Smith, I, Lengyel, and W. H. Green;
@@ -142,7 +142,7 @@ entry(
     ),
     referenceType = "theory",
     rank = 5,
-    longDesc = 
+    longDesc =
 """
 CBS-QB3 calculation by MLIU
 M. Liu, T. -C. Chu, A. Jocher, M. C. Smith, I, Lengyel, and W. H. Green;

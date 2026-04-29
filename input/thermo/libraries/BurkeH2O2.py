@@ -13,7 +13,7 @@ DOI: 10.1002/kin.20603
 entry(
     index = 0,
     label = "H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -25,7 +25,7 @@ multiplicity 2
         S298 = (27.39,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
-    longDesc = 
+    longDesc =
 u"""
 H                120186 H  1                G   298.00   5000.00  1000.00      1
  0.02500000E+02 0.00000000E+00 0.00000000E+00 0.00000000E+00 0.00000000E+00    2
@@ -37,7 +37,7 @@ H                120186 H  1                G   298.00   5000.00  1000.00      1
 entry(
     index = 1,
     label = "H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -49,7 +49,7 @@ entry(
         S298 = (31.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
-    longDesc = 
+    longDesc =
 u"""
 H2               121286 H  2                G   298.00   5000.00  1000.00      1
  0.02991423E+02 0.07000644E-02-0.05633829E-06-0.09231578E-10 0.01582752E-13    2
@@ -61,7 +61,7 @@ H2               121286 H  2                G   298.00   5000.00  1000.00      1
 entry(
     index = 2,
     label = "O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -73,7 +73,7 @@ multiplicity 3
         S298 = (38.46,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
-    longDesc = 
+    longDesc =
 u"""
 O                120186 O  1                G   298.00   5000.00  1000.00      1
  0.02542060E+02-0.02755062E-03-0.03102803E-07 0.04551067E-10-0.04368052E-14    2
@@ -85,7 +85,7 @@ O                120186 O  1                G   298.00   5000.00  1000.00      1
 entry(
     index = 3,
     label = "OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -98,7 +98,7 @@ multiplicity 2
         S298 = (43.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 OH               S 9/01 O   1H   1          G   200.000  6000.000 1000.00      1
  2.86472886E+00 1.05650448E-03-2.59082758E-07 3.05218674E-11-1.33195876E-15    2
@@ -110,7 +110,7 @@ OH               S 9/01 O   1H   1          G   200.000  6000.000 1000.00      1
 entry(
     index = 4,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -123,7 +123,7 @@ entry(
         S298 = (45.1,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
-    longDesc = 
+    longDesc =
 u"""
 H2O              20387  H   2O   1          G   298.00   5000.00  1000.00      1
  0.02672146E+02 0.03056293E-01-0.08730260E-05 0.01200996E-08-0.06391618E-13    2
@@ -135,7 +135,7 @@ H2O              20387  H   2O   1          G   298.00   5000.00  1000.00      1
 entry(
     index = 5,
     label = "O2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -148,7 +148,7 @@ multiplicity 3
         S298 = (49,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
-    longDesc = 
+    longDesc =
 u"""
 O2               121386 O  2                G   298.00   5000.00  1000.00      1
  0.03697578E+02 0.06135197E-02-0.01258842E-05 0.01775281E-09-0.01136435E-13    2
@@ -160,7 +160,7 @@ O2               121386 O  2                G   298.00   5000.00  1000.00      1
 entry(
     index = 6,
     label = "HO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -174,7 +174,7 @@ multiplicity 2
         S298 = (54.75,'cal/(mol*K)'),
     ),
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 HO2              L 5/89 H   1O   2          G   200.000  3500.000  1000.000    1
  4.01721090E+00 2.23982013E-03-6.33658150E-07 1.14246370E-10-1.07908535E-14    2
@@ -186,7 +186,7 @@ HO2              L 5/89 H   1O   2          G   200.000  3500.000  1000.000    1
 entry(
     index = 7,
     label = "H2O2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -200,7 +200,7 @@ entry(
         S298 = (55.65,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
-    longDesc = 
+    longDesc =
 u"""
 H2O2             120186 H   2O   2          G   298.00   5000.00  1000.00      1
  0.04573167E+02 0.04336136E-01-0.01474689E-04 0.02348904E-08-0.01431654E-12    2
@@ -212,7 +212,7 @@ H2O2             120186 H   2O   2          G   298.00   5000.00  1000.00      1
 entry(
     index = 8,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c-1 {2,T}
 2 O u0 p1 c+1 {1,T}
@@ -224,7 +224,7 @@ entry(
         S298 = (47.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
-    longDesc = 
+    longDesc =
 u"""
 CO               121286 C   1O   1          G   298.00   5000.00  1000.00      1
  0.03025078E+02 0.01442689E-01-0.05630828E-05 0.01018581E-08-0.06910952E-13    2
@@ -236,7 +236,7 @@ CO               121286 C   1O   1          G   298.00   5000.00  1000.00      1
 entry(
     index = 9,
     label = "CO2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,D}
 2 O u0 p2 c0 {1,D}
@@ -249,7 +249,7 @@ entry(
         S298 = (51.08,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
-    longDesc = 
+    longDesc =
 u"""
 CO2              121286 C   1O   2          G   298.00   5000.00  1000.00      1
  0.04453623E+02 0.03140169E-01-0.01278411E-04 0.02393997E-08-0.01669033E-12    2
@@ -261,7 +261,7 @@ CO2              121286 C   1O   2          G   298.00   5000.00  1000.00      1
 entry(
     index = 10,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -273,7 +273,7 @@ entry(
         S298 = (45.77,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
-    longDesc = 
+    longDesc =
 u"""
 N2               121286 N  2                G   298.00   5000.00  1000.00      1
  0.02926640E+02 0.01487977E-01-0.05684761E-05 0.01009704E-08-0.06753351E-13    2
@@ -285,7 +285,7 @@ N2               121286 N  2                G   298.00   5000.00  1000.00      1
 entry(
     index = 11,
     label = "Ar",
-    molecule = 
+    molecule =
 """
 1 Ar u0 p4 c0
 """,
@@ -296,7 +296,7 @@ entry(
         S298 = (36.98,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
-    longDesc = 
+    longDesc =
 u"""
 Ar               120186 Ar  1               G   298.00   5000.00  1000.00      1
  0.02500000E+02 0.00000000E+00 0.00000000E+00 0.00000000E+00 0.00000000E+00    2
@@ -308,7 +308,7 @@ Ar               120186 Ar  1               G   298.00   5000.00  1000.00      1
 entry(
     index = 12,
     label = "He",
-    molecule = 
+    molecule =
 """
 1 He u0 p1 c0
 """,
@@ -319,7 +319,7 @@ entry(
         S298 = (30.12,'cal/(mol*K)'),
     ),
     shortDesc = u"""Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.""",
-    longDesc = 
+    longDesc =
 u"""
 He               120186 He  1               G   298.00   5000.00  1000.00      1
  0.02500000E+02 0.00000000E+00 0.00000000E+00 0.00000000E+00 0.00000000E+00    2

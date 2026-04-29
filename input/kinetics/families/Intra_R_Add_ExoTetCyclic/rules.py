@@ -18,7 +18,7 @@ entry(
         Tmax = (1500, 'K'),
     ),
     rank = 0,
-    longDesc = 
+    longDesc =
 u"""
 The kinetics for head nodes of this family have been copied from "Cyclic_Ether_Formation" family,
 "Cyclic_Ether_Formation" is a special case of "Intra_R_Add_ExoTetcyclic" family, to make this reaction family possible.

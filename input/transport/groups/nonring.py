@@ -17,7 +17,7 @@ The Tb contributions are from table 13.
 entry(
     index = 0,
     label = "R",
-    group = 
+    group =
 """
 1 * R ux
 """,
@@ -29,7 +29,7 @@ entry(
 entry(
     index = 0,
     label = "C_centered",
-    group = 
+    group =
 """
 1 * C ux
 """,
@@ -41,7 +41,7 @@ entry(
 entry(
     index = 1,
     label = "CsH3R",
-    group = 
+    group =
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H u0 {1,S}
@@ -63,7 +63,7 @@ entry(
 entry(
     index = 2,
     label = "CsH2R2",
-    group = 
+    group =
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H u0 {1,S}
@@ -85,7 +85,7 @@ entry(
 entry(
     index = 3,
     label = "CsHR3",
-    group = 
+    group =
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H u0 {1,S}
@@ -107,7 +107,7 @@ entry(
 entry(
     index = 4,
     label = "CsR4",
-    group = 
+    group =
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
 2   R!H u0 {1,S}
@@ -129,7 +129,7 @@ entry(
 entry(
     index = 5,
     label = "CsF",
-    group = 
+    group =
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -151,7 +151,7 @@ entry(
 entry(
     index = 6,
     label = "CsF2",
-    group = 
+    group =
 """
 1 * C   u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -173,7 +173,7 @@ entry(
 entry(
     index = 7,
     label = "CsF3",
-    group = 
+    group =
 """
 1 * C    u0 {2,S} {3,S} {4,S} {5,S}
 2   F1s u0 {1,S}
@@ -195,7 +195,7 @@ entry(
 entry(
     index = 8,
     label = "CdH2R",
-    group = 
+    group =
 """
 1 * C   u0 {2,D} {3,S} {4,S}
 2   R!H u0 {1,D}
@@ -216,7 +216,7 @@ entry(
 entry(
     index = 9,
     label = "CdR3",
-    group = 
+    group =
 """
 1 * C   u0 {2,D} {3,S} {4,S}
 2   R!H u0 {1,D}
@@ -237,7 +237,7 @@ entry(
 entry(
     index = 10,
     label = "Ketone_Ccentered",
-    group = 
+    group =
 """
 1 * C   u0 {2,D} {3,S} {4,S}
 2   O   u0 {1,D}
@@ -258,7 +258,7 @@ entry(
 entry(
     index = 11,
     label = "Acid_Ccentered",
-    group = 
+    group =
 """
 1 * C   u0 {2,D} {3,S} {4,S}
 2   O   u0 {1,D}
@@ -280,7 +280,7 @@ entry(
 entry(
     index = 12,
     label = "Ester_Ccentered",
-    group = 
+    group =
 """
 1 * C   u0 {2,D} {3,S} {4,S}
 2   O   u0 {1,D}
@@ -302,7 +302,7 @@ entry(
 entry(
     index = 13,
     label = "CdHR2",
-    group = 
+    group =
 """
 1 * C   u0 {2,D} {3,S} {4,S}
 2   R!H u0 {1,D}
@@ -323,7 +323,7 @@ entry(
 entry(
     index = 14,
     label = "Aldehyde_Ccentered",
-    group = 
+    group =
 """
 1 * C   u0 {2,D} {3,S} {4,S}
 2   O   u0 {1,D}
@@ -344,7 +344,7 @@ entry(
 entry(
     index = 15,
     label = "CddR2",
-    group = 
+    group =
 """
 1 * C   u0 {2,D} {3,D}
 2   R!H u0 {1,D}
@@ -364,7 +364,7 @@ entry(
 entry(
     index = 16,
     label = "CtHR",
-    group = 
+    group =
 """
 1 * C   u0 {2,T} {3,S}
 2   R!H u0 {1,T}
@@ -384,7 +384,7 @@ entry(
 entry(
     index = 17,
     label = "CtR2",
-    group = 
+    group =
 """
 1 * C   u0 {2,T} {3,S}
 2   R!H u0 {1,T}
@@ -404,7 +404,7 @@ entry(
 entry(
     index = 18,
     label = "O_centered",
-    group = 
+    group =
 """
 1 * O ux
 """,
@@ -416,7 +416,7 @@ entry(
 entry(
     index = 19,
     label = "Alcohol",
-    group = 
+    group =
 """
 1 * O   u0 {2,S} {3,S}
 2   R!H u0 {1,S}
@@ -436,7 +436,7 @@ entry(
 entry(
     index = 20,
     label = "Phenol",
-    group = 
+    group =
 """
 1 * O  u0 {2,S} {3,S}
 2   Cb u0 {1,S}
@@ -456,7 +456,7 @@ entry(
 entry(
     index = 21,
     label = "Acid_Ocentered1",
-    group = 
+    group =
 """
 1 * O   u0 {2,S} {3,S}
 2   H   u0 {1,S}
@@ -478,7 +478,7 @@ entry(
 entry(
     index = 22,
     label = "Ether",
-    group = 
+    group =
 """
 1 * O   u0 {2,S} {3,S}
 2   R!H u0 {1,S}
@@ -498,7 +498,7 @@ entry(
 entry(
     index = 23,
     label = "Ester_Ocentered1",
-    group = 
+    group =
 """
 1 * O   u0 {2,S} {3,S}
 2   R!H u0 {1,S}
@@ -520,7 +520,7 @@ entry(
 entry(
     index = 24,
     label = "Od",
-    group = 
+    group =
 """
 1 * O   u0 {2,D}
 2   R!H u0 {1,D}
@@ -539,7 +539,7 @@ entry(
 entry(
     index = 25,
     label = "Ketone_Ocentered",
-    group = 
+    group =
 """
 1 * O   u0 {2,D}
 2   C   u0 {1,D} {3,S} {4,S}
@@ -560,7 +560,7 @@ entry(
 entry(
     index = 26,
     label = "Aldehyde_Ocentered",
-    group = 
+    group =
 """
 1 * O   u0 {2,D}
 2   C   u0 {1,D} {3,S} {4,S}
@@ -581,7 +581,7 @@ entry(
 entry(
     index = 27,
     label = "Acid_Ocentered2",
-    group = 
+    group =
 """
 1 * O   u0 {2,D}
 2   C   u0 {1,D} {3,S} {4,S}
@@ -603,7 +603,7 @@ entry(
 entry(
     index = 28,
     label = "Ester_Ocentered2",
-    group = 
+    group =
 """
 1 * O   u0 {2,D}
 2   C   u0 {1,D} {3,S} {4,S}
@@ -625,7 +625,7 @@ entry(
 entry(
     index = 29,
     label = "S_centered",
-    group = 
+    group =
 """
 1 * S ux
 """,
@@ -637,7 +637,7 @@ entry(
 entry(
     index = 30,
     label = "Thiol",
-    group = 
+    group =
 """
 1 * S   u0 {2,S} {3,S}
 2   R!H u0 {1,S}
@@ -657,7 +657,7 @@ entry(
 entry(
     index = 31,
     label = "Thioether",
-    group = 
+    group =
 """
 1 * S   u0 {2,S} {3,S}
 2   R!H u0 {1,S}
@@ -677,7 +677,7 @@ entry(
 entry(
     index = 32,
     label = "F",
-    group = 
+    group =
 """
 1 * F1s  u0
 """,
@@ -695,7 +695,7 @@ entry(
 entry(
     index = 33,
     label = "F-Cs",
-    group = 
+    group =
 """
 1 * F1s  u0 {2,S}
 2   Cs   u0 {1,S} {3,S} {4,S} {5,S}
@@ -717,7 +717,7 @@ entry(
 entry(
     index = 34,
     label = "Cl",
-    group = 
+    group =
 """
 1 * Cl1s  u0
 """,
@@ -735,7 +735,7 @@ entry(
 entry(
     index = 35,
     label = "Br",
-    group = 
+    group =
 """
 1 * Br1s  u0
 """,

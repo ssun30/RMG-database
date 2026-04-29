@@ -6,7 +6,7 @@ shortDesc = u"Naphthyl radical vinylacetylene addition"
 longDesc = u"""
 Low-temperature formation of polycyclic aromatic hydrocarbons in Titan’s atmosphere
 Long Zhao et al.
-Nature Astronomy, volume 2, 973–979 (2018) 
+Nature Astronomy, volume 2, 973–979 (2018)
 
 Calculated at the G3(MP2,CC)//B3LYP/6-311G(d,p) level of theory, no hindered rotors calculated
 Te-Chun Chu calculated the inertia of rotors and used the rotor energy from Mebel et al. (2017) phenyl+vinylacetylene paper.
@@ -25,7 +25,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.84941, dn = +|- 0.0763826, dEa = +|- 0.532971 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.84941, dn = +|- 0.0763826, dEa = +|- 0.532971 kJ/mol
@@ -43,7 +43,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.07109, dn = +|- 0.00853172, dEa = +|- 0.0595314 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.07109, dn = +|- 0.00853172, dEa = +|- 0.0595314 kJ/mol
@@ -61,7 +61,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 4.10758, dn = +|- 0.17551, dEa = +|- 1.22465 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 4.10758, dn = +|- 0.17551, dEa = +|- 1.22465 kJ/mol
@@ -79,7 +79,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 3.60256, dn = +|- 0.159213, dEa = +|- 1.11094 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 3.60256, dn = +|- 0.159213, dEa = +|- 1.11094 kJ/mol
@@ -97,7 +97,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.28731, dn = +|- 0.031374, dEa = +|- 0.218917 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.28731, dn = +|- 0.031374, dEa = +|- 0.218917 kJ/mol
@@ -115,7 +115,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 12.8, dn = +|- 0.316707, dEa = +|- 2.20987 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 12.8, dn = +|- 0.316707, dEa = +|- 2.20987 kJ/mol
@@ -133,7 +133,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 71.0501, dn = +|- 0.529622, dEa = +|- 3.69552 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 71.0501, dn = +|- 0.529622, dEa = +|- 3.69552 kJ/mol
@@ -151,7 +151,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.71047, dn = +|- 0.0666804, dEa = +|- 0.465273 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.71047, dn = +|- 0.0666804, dEa = +|- 0.465273 kJ/mol
@@ -169,7 +169,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.72662, dn = +|- 0.0678477, dEa = +|- 0.473418 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.72662, dn = +|- 0.0678477, dEa = +|- 0.473418 kJ/mol
@@ -187,7 +187,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.01308, dn = +|- 0.00161423, dEa = +|- 0.0112636 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.01308, dn = +|- 0.00161423, dEa = +|- 0.0112636 kJ/mol
@@ -205,7 +205,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.38058, dn = +|- 0.0400636, dEa = +|- 0.27955 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.38058, dn = +|- 0.0400636, dEa = +|- 0.27955 kJ/mol
@@ -223,7 +223,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 23.3558, dn = +|- 0.391416, dEa = +|- 2.73117 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 23.3558, dn = +|- 0.391416, dEa = +|- 2.73117 kJ/mol
@@ -241,7 +241,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.31416, dn = +|- 0.0339385, dEa = +|- 0.236811 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.31416, dn = +|- 0.0339385, dEa = +|- 0.236811 kJ/mol
@@ -259,7 +259,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.09723, dn = +|- 0.0115265, dEa = +|- 0.0804279 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.09723, dn = +|- 0.0115265, dEa = +|- 0.0804279 kJ/mol
@@ -277,7 +277,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.19668, dn = +|- 0.0223051, dEa = +|- 0.155637 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.19668, dn = +|- 0.0223051, dEa = +|- 0.155637 kJ/mol
@@ -295,7 +295,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 43.8537, dn = +|- 0.46968, dEa = +|- 3.27727 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 43.8537, dn = +|- 0.46968, dEa = +|- 3.27727 kJ/mol
@@ -313,7 +313,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.08287, dn = +|- 0.00988981, dEa = +|- 0.0690076 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.08287, dn = +|- 0.00988981, dEa = +|- 0.0690076 kJ/mol
@@ -331,7 +331,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 29.007, dn = +|- 0.418335, dEa = +|- 2.919 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 29.007, dn = +|- 0.418335, dEa = +|- 2.919 kJ/mol
@@ -349,7 +349,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.40323, dn = +|- 0.0420848, dEa = +|- 0.293653 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.40323, dn = +|- 0.0420848, dEa = +|- 0.293653 kJ/mol
@@ -367,7 +367,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.01562, dn = +|- 0.00192579, dEa = +|- 0.0134375 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.01562, dn = +|- 0.00192579, dEa = +|- 0.0134375 kJ/mol
@@ -385,7 +385,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.07591, dn = +|- 0.00908974, dEa = +|- 0.063425 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.07591, dn = +|- 0.00908974, dEa = +|- 0.063425 kJ/mol
@@ -403,7 +403,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.84167, dn = +|- 0.0758614, dEa = +|- 0.529335 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.84167, dn = +|- 0.0758614, dEa = +|- 0.529335 kJ/mol
@@ -421,7 +421,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 3.46608, dn = +|- 0.154416, dEa = +|- 1.07746 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 3.46608, dn = +|- 0.154416, dEa = +|- 1.07746 kJ/mol
@@ -439,7 +439,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.26576, dn = +|- 0.0292768, dEa = +|- 0.204283 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.26576, dn = +|- 0.0292768, dEa = +|- 0.204283 kJ/mol
@@ -457,7 +457,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 10.0389, dn = +|- 0.286522, dEa = +|- 1.99925 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 10.0389, dn = +|- 0.286522, dEa = +|- 1.99925 kJ/mol
@@ -475,7 +475,7 @@ entry(
         T0 = (1, 'K'),
         comment = 'Fitted to 11 data points; dA = *|/ 1.719, dn = +|- 0.0672987, dEa = +|- 0.469587 kJ/mol',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 Fitted to 11 data points; dA = *|/ 1.719, dn = +|- 0.0672987, dEa = +|- 0.469587 kJ/mol

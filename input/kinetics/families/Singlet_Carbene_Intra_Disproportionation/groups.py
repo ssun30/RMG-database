@@ -29,7 +29,7 @@ boundaryAtoms = ["*1", "*2"]
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *2 C u0 {2,S} {3,[S,D]}
 2 *3 H u0 {1,S}
@@ -41,7 +41,7 @@ entry(
 entry(
     index = 1,
     label = "Root_Ext-3C-R_Ext-4R!H-R_Sp-4R!H-1C",
-    group = 
+    group =
 """
 1 *2 C u0 {2,S} {3,[S,D]} {4,S}
 2 *3 H u0 {1,S}
@@ -54,7 +54,7 @@ entry(
 entry(
     index = 2,
     label = "Root_Ext-3C-R_Ext-4R!H-R_Sp-4R!H-1C_Ext-4R!H-R_Ext-4R!H-R",
-    group = 
+    group =
 """
 1 *2 C   u0 r1 {2,S} {3,[S,D]} {4,S}
 2 *3 H   u0 {1,S}
@@ -69,7 +69,7 @@ entry(
 entry(
     index = 3,
     label = "Root_Ext-3C-R_Ext-4R!H-R_N-Sp-4R!H-1C",
-    group = 
+    group =
 """
 1 *2 C u0 {2,S} {3,S} {4,[B,D,T]}
 2 *3 H u0 {1,S}
@@ -82,7 +82,7 @@ entry(
 entry(
     index = 4,
     label = "Root_Ext-3C-R_Ext-4R!H-R_N-Sp-4R!H-1C_Ext-4R!H-R_Ext-5R!H-R_Ext-5R!H-R_Sp-6R!H-5R!H",
-    group = 
+    group =
 """
 1 *2 C u0 r1 {2,S} {3,S} {4,[B,D,T]}
 2 *3 H u0 r0 {1,S}
@@ -97,7 +97,7 @@ entry(
 entry(
     index = 5,
     label = "Root_Ext-3C-R_Ext-4R!H-R_N-Sp-4R!H-1C_Ext-4R!H-R_Ext-5R!H-R_Ext-5R!H-R_N-Sp-6R!H-5R!H",
-    group = 
+    group =
 """
 1 *2 C u0 r1 {2,S} {3,S} {4,[B,D,T]}
 2 *3 H u0 r0 {1,S}

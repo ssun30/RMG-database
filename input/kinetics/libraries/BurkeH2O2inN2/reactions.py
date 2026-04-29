@@ -126,7 +126,7 @@ entry(
         efficiencies = {'[H][H]': 3, 'O': 0, '[C-]#[O+]': 1.9, 'O=C=O': 3.8, '[O][O]': 1.5, '[He]': 1.1, 'N#N': 2},
     ),
     shortDesc = u"""Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)""",
-    longDesc = 
+    longDesc =
 u"""
 Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)
 Rate constant is for Ar with efficiencies from Michael et al., J. Phys. Chem. A, 106 (2002)
@@ -155,7 +155,7 @@ entry(
         efficiencies = {'[H][H]': 2, '[O][O]': 0.78, '[C-]#[O+]': 1.9, 'O=C=O': 3.8, 'O': 14, '[He]': 0.8, '[Ar]': 0.67},
     ),
     shortDesc = u"""MAIN BATH GAS IS N2""",
-    longDesc = 
+    longDesc =
 u"""
 High-pressure limit from Troe, Proc. Comb. Inst. 28:1463-1469 (2000)
 Low-pressure limit from Michael et al., J. Phys. Chem. A 106:5297-5313
@@ -169,7 +169,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.75e+06, 'cm^3/(mol*s)'), n = 2.09, Ea = (-1451, 'cal/mol'), T0 = (1, 'K')),
     shortDesc = u"""Michael et al., Proc. Comb. Inst. 28:1471 (2000)""",
-    longDesc = 
+    longDesc =
 u"""
 Scaled by 0.75
 Originally: 3.659E+06 2.09 -1.451E+03
@@ -190,7 +190,7 @@ entry(
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.85e+10, 'cm^3/(mol*s)'), n = 1, Ea = (-723.93, 'cal/mol'), T0 = (1, 'K')),
     shortDesc = u"""Fernandez-Ramos and Varandas, J. Phys. Chem. A 106:4077-4083 (2002)""",
-    longDesc = 
+    longDesc =
 u"""
 Scaled by 0.60
 Originally: 4.750E+10 1.00 -7.2393E+02
@@ -232,7 +232,7 @@ entry(
         efficiencies = {'[H][H]': 3.7, 'O': 7.5, '[O][O]': 1.2, 'N#N': 1.5, '[C-]#[O+]': 2.8, 'OO': 7.7, 'O=C=O': 1.6, '[He]': 0.65},
     ),
     shortDesc = u"""Troe, Combust. Flame, 158:594-601 (2011)""",
-    longDesc = 
+    longDesc =
 u"""
 Rate constant is for Ar
 Efficiencies for H2 and CO taken from Li et al., Int. J. Chem. Kinet. 36:566-575 (2004)

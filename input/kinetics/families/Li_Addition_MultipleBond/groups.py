@@ -28,7 +28,7 @@ recipe(actions=[
 entry(
     index = 0,
     label = "Root",
-    group = 
+    group =
 """
 1 *1 R!H u0 {2,[B,D,T]}
 2 *2 R!H u0 {1,[B,D,T]}
@@ -40,7 +40,7 @@ entry(
 entry(
     index = 1,
     label = "Root_1R!H->C",
-    group = 
+    group =
 """
 1 *1 C  u0 r0 {2,D}
 2 *2 C  u0 {1,D}
@@ -52,7 +52,7 @@ entry(
 entry(
     index = 2,
     label = "Root_N-1R!H->C",
-    group = 
+    group =
 """
 1 *1 [S,F,I,O,Si,Br,Li,P,Cl,N] u0 {2,[B,D,T]}
 2 *2 C                         u0 {1,[B,D,T]}
@@ -64,7 +64,7 @@ entry(
 entry(
     index = 3,
     label = "Root_N-1R!H->C_1BrClFILiNOPSSi->O",
-    group = 
+    group =
 """
 1 *1 O  u0 {2,D}
 2 *2 C  u0 {1,D}
@@ -76,7 +76,7 @@ entry(
 entry(
     index = 4,
     label = "Root_N-1R!H->C_1BrClFILiNOPSSi->O_2R!H-inRing",
-    group = 
+    group =
 """
 1 *1 O  u0 r0 {2,D}
 2 *2 C  u0 r1 {1,D}
@@ -88,7 +88,7 @@ entry(
 entry(
     index = 5,
     label = "Root_N-1R!H->C_1BrClFILiNOPSSi->O_N-2R!H-inRing",
-    group = 
+    group =
 """
 1 *1 O  u0 r0 {2,D}
 2 *2 C  u0 r0 {1,D}
@@ -100,7 +100,7 @@ entry(
 entry(
     index = 6,
     label = "Root_N-1R!H->C_N-1BrClFILiNOPSSi->O",
-    group = 
+    group =
 """
 1 *1 N  u0 {2,[B,D,T]}
 2 *2 C  u0 {1,[B,D,T]}
@@ -123,13 +123,13 @@ L1: Root
 
 forbidden(
     label = "O2d",
-    group = 
+    group =
 """
 1 *1 O u0 {2,D}
 2 *2 O u0 {1,D}
 """,
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 
 """,

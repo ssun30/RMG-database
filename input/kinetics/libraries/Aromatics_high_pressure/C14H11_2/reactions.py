@@ -22,7 +22,7 @@ entry(
         Ea = (2.566, 'kcal/mol'),
         T0 = (1, 'K'),
     ),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -33,7 +33,7 @@ entry(
     label = "C14H11_15 <=> C14H11_16",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.394e+11, 's^-1'), n=0.284, Ea=(33.179, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -44,7 +44,7 @@ entry(
     label = "C14H11_16 <=> C14H11_17",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.147e+11, 's^-1'), n=0.279, Ea=(29.795, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -55,7 +55,7 @@ entry(
     label = "C14H11_17 <=> C14H11_18",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.959e+12, 's^-1'), n=0.27, Ea=(38.03, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -66,7 +66,7 @@ entry(
     label = "C14H11_18 <=> C14H11_19",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(9.811e+10, 's^-1'), n=0.147, Ea=(3.523, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,
@@ -77,7 +77,7 @@ entry(
     label = "C14H11_19 <=> C14H10_20 + H",
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8.006e+09, 's^-1'), n=1.036, Ea=(18.831, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 Originally from reaction library: Unclassified
 """,

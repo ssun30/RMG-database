@@ -15,7 +15,7 @@ It is recommended for fluorinated and chlorinated hydrocarbons
 entry(
     index = 0,
     label = "HF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -32,7 +32,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """71STUPRO""",
-    longDesc = 
+    longDesc =
 """
 71STUPRO
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -44,7 +44,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 1,
     label = "F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u1 p3 c0
@@ -61,7 +61,7 @@ multiplicity 2
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = """71STUPRO""",
-    longDesc = 
+    longDesc =
 """
 71STUPRO
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -73,7 +73,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 2,
     label = "F2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 F u0 p3 c0 {1,S}
@@ -90,7 +90,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """71STUPRO""",
-    longDesc = 
+    longDesc =
 """
 71STUPRO
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -102,7 +102,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 3,
     label = "CH3F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -122,7 +122,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """78KOL74CHEROD""",
-    longDesc = 
+    longDesc =
 """
 78KOL74CHEROD
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -134,7 +134,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 4,
     label = "CH2F2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {3,S}
@@ -154,7 +154,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """78KOL74CHEROD""",
-    longDesc = 
+    longDesc =
 """
 78KOL74CHEROD
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -166,7 +166,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 5,
     label = "CHF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -186,7 +186,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """78KOL74CHEROD""",
-    longDesc = 
+    longDesc =
 """
 78KOL74CHEROD
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -198,7 +198,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 6,
     label = "CF4",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -218,7 +218,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """78KOL74CHEROD""",
-    longDesc = 
+    longDesc =
 """
 78KOL74CHEROD
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -230,7 +230,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 7,
     label = "CF3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -250,7 +250,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = """82MCMGOL71STU""",
-    longDesc = 
+    longDesc =
 """
 82MCMGOL71STU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -262,7 +262,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 8,
     label = "CHF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -282,7 +282,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = """82MCMGOL96ZAC""",
-    longDesc = 
+    longDesc =
 """
 82MCMGOL96ZAC
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -294,7 +294,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 9,
     label = "CH2F",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {2,S}
@@ -314,7 +314,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = """82MCMGOL96ZAC""",
-    longDesc = 
+    longDesc =
 """
 82MCMGOL96ZAC
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -326,7 +326,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 10,
     label = "CHF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {2,S}
 2 C u0 p1 c0 {1,S} {3,S}
@@ -344,7 +344,7 @@ entry(
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = """84PRINIL71STU""",
-    longDesc = 
+    longDesc =
 """
 84PRINIL71STU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -356,7 +356,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 11,
     label = "CF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {3,S}
@@ -374,7 +374,7 @@ entry(
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = """78ROD71STUPRO""",
-    longDesc = 
+    longDesc =
 """
 78ROD71STUPRO
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -386,7 +386,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 12,
     label = "CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {2,S}
@@ -404,7 +404,7 @@ multiplicity 2
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """91GURVEY71STU""",
-    longDesc = 
+    longDesc =
 """
 91GURVEY71STU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -416,7 +416,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 13,
     label = "CF3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -437,7 +437,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """82BATWAL96ZAC""",
-    longDesc = 
+    longDesc =
 """
 82BATWAL96ZAC
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -449,7 +449,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 14,
     label = "CH3-CH2F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -472,7 +472,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """75CHEROD""",
-    longDesc = 
+    longDesc =
 """
 75CHEROD
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -484,7 +484,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 15,
     label = "CH3-CHF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -507,7 +507,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """75CHEROD""",
-    longDesc = 
+    longDesc =
 """
 75CHEROD
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -519,7 +519,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 16,
     label = "CH3-CF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -542,7 +542,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """75CHEROD""",
-    longDesc = 
+    longDesc =
 """
 75CHEROD
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -554,7 +554,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 17,
     label = "CH2F-CHF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {5,S}
@@ -577,7 +577,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """68LACSKI96ZAC""",
-    longDesc = 
+    longDesc =
 """
 68LACSKI96ZAC
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -589,7 +589,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 18,
     label = "CH2F-CF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {6,S}
@@ -612,7 +612,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """75CHEROD""",
-    longDesc = 
+    longDesc =
 """
 75CHEROD
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -624,7 +624,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 19,
     label = "CHF2-CHF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -647,7 +647,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """95BURZAC96ZAC""",
-    longDesc = 
+    longDesc =
 """
 95BURZAC96ZAC
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -659,7 +659,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 20,
     label = "CHF2-CF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {6,S}
 2 F u0 p3 c0 {6,S}
@@ -682,7 +682,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """75CHEROD""",
-    longDesc = 
+    longDesc =
 """
 75CHEROD
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -694,7 +694,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 21,
     label = "CF3-CF3",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {7,S}
 2 F u0 p3 c0 {7,S}
@@ -717,7 +717,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """75CHEROD""",
-    longDesc = 
+    longDesc =
 """
 75CHEROD
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -729,7 +729,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 22,
     label = "CH3-CHF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -752,7 +752,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """95BURZAC90CHE""",
-    longDesc = 
+    longDesc =
 """
 95BURZAC90CHE
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -764,7 +764,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 23,
     label = "CH3-CF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -787,7 +787,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """78ROD90CHERAU""",
-    longDesc = 
+    longDesc =
 """
 78ROD90CHERAU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -799,7 +799,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 24,
     label = "CH2F-CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {2,S}
@@ -822,7 +822,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """90CHERAU""",
-    longDesc = 
+    longDesc =
 """
 90CHERAU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -834,7 +834,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 25,
     label = "CH2F-CHF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -857,7 +857,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """95BURZAC91CHE""",
-    longDesc = 
+    longDesc =
 """
 95BURZAC91CHE
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -869,7 +869,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 26,
     label = "CH2F-CF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -892,7 +892,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """91CHERAU""",
-    longDesc = 
+    longDesc =
 """
 91CHERAU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -904,7 +904,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 27,
     label = "CHF2-CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -927,7 +927,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """90CHERAU""",
-    longDesc = 
+    longDesc =
 """
 90CHERAU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -939,7 +939,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 28,
     label = "CHF2-CHF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -962,7 +962,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """91CHERAU""",
-    longDesc = 
+    longDesc =
 """
 91CHERAU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -974,7 +974,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 29,
     label = "CHF2-CF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -997,7 +997,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """95BURZAC91CHE""",
-    longDesc = 
+    longDesc =
 """
 95BURZAC91CHE
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1009,7 +1009,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 30,
     label = "CF3-CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -1032,7 +1032,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """78ROD90CHERAU""",
-    longDesc = 
+    longDesc =
 """
 78ROD90CHERAU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1044,7 +1044,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 31,
     label = "CF3-CHF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -1067,7 +1067,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """95BURZAC91CHE""",
-    longDesc = 
+    longDesc =
 """
 95BURZAC91CHE
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1079,7 +1079,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 32,
     label = "CF3-CF2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {6,S}
@@ -1102,7 +1102,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """78ROD91CHERAU""",
-    longDesc = 
+    longDesc =
 """
 78ROD91CHERAU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1114,7 +1114,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 33,
     label = "C2HF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 C u0 p0 c0 {3,T} {4,S}
@@ -1133,7 +1133,7 @@ entry(
         CpInf = (87.302,'J/mol/K'),
     ),
     shortDesc = """71STUPRO""",
-    longDesc = 
+    longDesc =
 """
 71STUPRO
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1145,7 +1145,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 34,
     label = "C2F2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {4,S}
@@ -1164,7 +1164,7 @@ entry(
         CpInf = (87.302,'J/mol/K'),
     ),
     shortDesc = """71STUPRO""",
-    longDesc = 
+    longDesc =
 """
 71STUPRO
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1176,7 +1176,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 35,
     label = "CHFCO",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 O u0 p2 c0 {4,D}
@@ -1196,7 +1196,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """96ZACWES""",
-    longDesc = 
+    longDesc =
 """
 96ZACWES
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1208,7 +1208,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 36,
     label = "CF2CO",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -1228,7 +1228,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """96ZACWES""",
-    longDesc = 
+    longDesc =
 """
 96ZACWES
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1240,7 +1240,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 37,
     label = "CFCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -1260,7 +1260,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = """96ZACWES""",
-    longDesc = 
+    longDesc =
 """
 96ZACWES
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1272,7 +1272,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 38,
     label = "CF3COF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {6,S}
 2 F u0 p3 c0 {6,S}
@@ -1294,7 +1294,7 @@ entry(
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """hynes""",
-    longDesc = 
+    longDesc =
 """
 hynes
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1306,7 +1306,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 39,
     label = "CF3CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {5,S}
@@ -1328,7 +1328,7 @@ multiplicity 2
         CpInf = (128.874,'J/mol/K'),
     ),
     shortDesc = """NIST""",
-    longDesc = 
+    longDesc =
 """
 NIST
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1340,7 +1340,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 40,
     label = "CF3CHO",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -1362,7 +1362,7 @@ entry(
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """NIST""",
-    longDesc = 
+    longDesc =
 """
 NIST
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1374,7 +1374,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 41,
     label = "CH2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 C u2 p0 c0 {2,S} {3,S}
@@ -1393,7 +1393,7 @@ multiplicity 3
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = """L S/93""",
-    longDesc = 
+    longDesc =
 """
 L S/93.
 [CH2]
@@ -1404,7 +1404,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 42,
     label = "AR",
-    molecule = 
+    molecule =
 """
 1 Ar u0 p4 c0
 """,
@@ -1420,7 +1420,7 @@ entry(
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = """120186""",
-    longDesc = 
+    longDesc =
 """
 120186
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1432,7 +1432,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 43,
     label = "N2",
-    molecule = 
+    molecule =
 """
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
@@ -1449,7 +1449,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """121286""",
-    longDesc = 
+    longDesc =
 """
 121286
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -1461,7 +1461,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 44,
     label = "H2",
-    molecule = 
+    molecule =
 """
 1 H u0 p0 c0 {2,S}
 2 H u0 p0 c0 {1,S}
@@ -1478,7 +1478,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """TPIS78""",
-    longDesc = 
+    longDesc =
 """
 TPIS78.
 [H][H]
@@ -1489,7 +1489,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 45,
     label = "H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 H u1 p0 c0
@@ -1506,7 +1506,7 @@ multiplicity 2
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = """L 7/88""",
-    longDesc = 
+    longDesc =
 """
 L 7/88.
 [H]
@@ -1517,7 +1517,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 46,
     label = "O2",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u1 p2 c0 {2,S}
@@ -1535,7 +1535,7 @@ multiplicity 3
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """TPIS89""",
-    longDesc = 
+    longDesc =
 """
 TPIS89.
 [O][O]
@@ -1546,7 +1546,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 47,
     label = "O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u2 p2 c0
@@ -1563,7 +1563,7 @@ multiplicity 3
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = """L 1/90""",
-    longDesc = 
+    longDesc =
 """
 L 1/90.
 [O]
@@ -1574,7 +1574,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 48,
     label = "H2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -1592,7 +1592,7 @@ entry(
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = """L 8/89""",
-    longDesc = 
+    longDesc =
 """
 L 8/89.
 O
@@ -1603,7 +1603,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 49,
     label = "OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -1621,7 +1621,7 @@ multiplicity 2
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """S 9/01""",
-    longDesc = 
+    longDesc =
 """
 S 9/01.
 [OH]
@@ -1632,7 +1632,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 50,
     label = "H2O2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 O u0 p2 c0 {1,S} {4,S}
@@ -1651,7 +1651,7 @@ entry(
         CpInf = (78.9875,'J/mol/K'),
     ),
     shortDesc = """L 7/88""",
-    longDesc = 
+    longDesc =
 """
 L 7/88.
 OO
@@ -1662,7 +1662,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 51,
     label = "HO2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -1681,7 +1681,7 @@ multiplicity 2
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = """L 5/89""",
-    longDesc = 
+    longDesc =
 """
 L 5/89.
 [O]O
@@ -1692,7 +1692,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 52,
     label = "CO",
-    molecule = 
+    molecule =
 """
 1 O u0 p1 c+1 {2,T}
 2 C u0 p1 c-1 {1,T}
@@ -1709,7 +1709,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """TPIS79""",
-    longDesc = 
+    longDesc =
 """
 TPIS79.
 [C-]#[O+]
@@ -1720,7 +1720,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 53,
     label = "CO2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 O u0 p2 c0 {3,D}
@@ -1738,7 +1738,7 @@ entry(
         CpInf = (62.3585,'J/mol/K'),
     ),
     shortDesc = """L 7/88""",
-    longDesc = 
+    longDesc =
 """
 L 7/88.
 O=C=O
@@ -1749,7 +1749,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 54,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -1769,7 +1769,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """L 8/88""",
-    longDesc = 
+    longDesc =
 """
 L 8/88.
 C
@@ -1780,7 +1780,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 55,
     label = "CH3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p0 c0 {2,S} {3,S} {4,S}
@@ -1800,7 +1800,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = """L11/89""",
-    longDesc = 
+    longDesc =
 """
 L11/89.
 [CH3]
@@ -1811,7 +1811,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 56,
     label = "C",
-    molecule = 
+    molecule =
 """
 1 C u0 p2 c0
 """,
@@ -1827,7 +1827,7 @@ entry(
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = """L11/88""",
-    longDesc = 
+    longDesc =
 """
 L11/88.
 [C]
@@ -1838,7 +1838,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 57,
     label = "CH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u1 p1 c0 {2,S}
@@ -1856,7 +1856,7 @@ multiplicity 2
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """TPIS79""",
-    longDesc = 
+    longDesc =
 """
 TPIS79.
 [CH]
@@ -1867,7 +1867,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 58,
     label = "CH3OH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -1888,7 +1888,7 @@ entry(
         CpInf = (128.874,'J/mol/K'),
     ),
     shortDesc = """L 8/88""",
-    longDesc = 
+    longDesc =
 """
 L 8/88.
 CO
@@ -1899,7 +1899,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 59,
     label = "C2H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1922,7 +1922,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """L 8/88""",
-    longDesc = 
+    longDesc =
 """
 L 8/88.
 CC
@@ -1933,7 +1933,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 60,
     label = "C2H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -1956,7 +1956,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """L12/92""",
-    longDesc = 
+    longDesc =
 """
 L12/92.
 C[CH2]
@@ -1967,7 +1967,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 61,
     label = "C2H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -1988,7 +1988,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = """L 1/91""",
-    longDesc = 
+    longDesc =
 """
 L 1/91.
 C=C
@@ -1999,7 +1999,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 62,
     label = "C2H",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,T} {3,S}
@@ -2018,7 +2018,7 @@ multiplicity 2
         CpInf = (62.3585,'J/mol/K'),
     ),
     shortDesc = """L 1/91""",
-    longDesc = 
+    longDesc =
 """
 L 1/91.
 [C]#C
@@ -2029,7 +2029,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 63,
     label = "C3H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -2055,7 +2055,7 @@ entry(
         CpInf = (249.434,'J/mol/K'),
     ),
     shortDesc = """P11/94""",
-    longDesc = 
+    longDesc =
 """
 P11/94
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2067,7 +2067,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 64,
     label = "C2H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -2086,7 +2086,7 @@ entry(
         CpInf = (87.302,'J/mol/K'),
     ),
     shortDesc = """L 1/91""",
-    longDesc = 
+    longDesc =
 """
 L 1/91.
 C#C
@@ -2097,7 +2097,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 65,
     label = "C2H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
@@ -2118,7 +2118,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """L 2/92""",
-    longDesc = 
+    longDesc =
 """
 L 2/92.
 [CH]=C
@@ -2129,7 +2129,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 66,
     label = "CH3O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {2,S}
@@ -2150,7 +2150,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """IU1/03""",
-    longDesc = 
+    longDesc =
 """
 IU1/03.
 C[O]
@@ -2161,7 +2161,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 67,
     label = "CH2OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {5,S}
@@ -2182,7 +2182,7 @@ multiplicity 2
         CpInf = (103.931,'J/mol/K'),
     ),
     shortDesc = """IU2/03""",
-    longDesc = 
+    longDesc =
 """
 IU2/03.
 [CH2]O
@@ -2193,7 +2193,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 68,
     label = "CH2F-CH2F",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {4,S}
@@ -2216,7 +2216,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """95BURZAC96ZAC""",
-    longDesc = 
+    longDesc =
 """
 95BURZAC96ZAC
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2228,7 +2228,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 69,
     label = "CH2O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,D}
 2 C u0 p0 c0 {1,D} {3,S} {4,S}
@@ -2247,7 +2247,7 @@ entry(
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = """L 8/88""",
-    longDesc = 
+    longDesc =
 """
 L 8/88.
 C=O
@@ -2258,7 +2258,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 70,
     label = "HCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,D}
@@ -2277,7 +2277,7 @@ multiplicity 2
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = """L12/89""",
-    longDesc = 
+    longDesc =
 """
 L12/89.
 [CH]=O
@@ -2288,7 +2288,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 71,
     label = "CF3CHCH2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -2312,7 +2312,7 @@ entry(
         CpInf = (203.705,'J/mol/K'),
     ),
     shortDesc = """*** C3HFx ***""",
-    longDesc = 
+    longDesc =
 """
 *** C3HFx ***
 CF3CHCH2                H   3C   3F   3    0g    300.00   5000.00 1000.00      1
@@ -2327,7 +2327,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 72,
     label = "C3H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -2351,7 +2351,7 @@ entry(
         CpInf = (203.705,'J/mol/K'),
     ),
     shortDesc = """120186""",
-    longDesc = 
+    longDesc =
 """
 120186
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2363,7 +2363,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 73,
     label = "HCCOH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -2383,7 +2383,7 @@ entry(
         CpInf = (103.931,'J/mol/K'),
     ),
     shortDesc = """SRI91""",
-    longDesc = 
+    longDesc =
 """
 SRI91
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2395,7 +2395,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 74,
     label = "CH3CCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -2419,7 +2419,7 @@ multiplicity 2
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """PD5/98""",
-    longDesc = 
+    longDesc =
 """
 PD5/98
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2431,7 +2431,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 75,
     label = "HCCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {3,D}
@@ -2451,7 +2451,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = """SRIC91""",
-    longDesc = 
+    longDesc =
 """
 SRIC91
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2463,7 +2463,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 76,
     label = "CH3CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {3,D}
@@ -2485,7 +2485,7 @@ multiplicity 2
         CpInf = (128.874,'J/mol/K'),
     ),
     shortDesc = """T 9/92""",
-    longDesc = 
+    longDesc =
 """
 T 9/92.
 C[C]=O
@@ -2496,7 +2496,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 77,
     label = "CH2CO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -2516,7 +2516,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """D05/90""",
-    longDesc = 
+    longDesc =
 """
 D05/90.
 C=C=O
@@ -2527,7 +2527,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 78,
     label = "CH2CHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {3,D}
@@ -2549,7 +2549,7 @@ multiplicity 2
         CpInf = (128.874,'J/mol/K'),
     ),
     shortDesc = """D05/83""",
-    longDesc = 
+    longDesc =
 """
 D05/83
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2561,7 +2561,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 79,
     label = "CH3CHO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {3,D}
 2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -2583,7 +2583,7 @@ entry(
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """L 8/88""",
-    longDesc = 
+    longDesc =
 """
 L 8/88.
 CC=O
@@ -2594,7 +2594,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 80,
     label = "CF3CCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -2618,7 +2618,7 @@ multiplicity 2
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """CF3CCH2                 H   2C   3F   3    0g    300.00   5000.00 1000.00      1""",
-    longDesc = 
+    longDesc =
 """
 CF3CCH2                 H   2C   3F   3    0g    300.00   5000.00 1000.00      1
 1.23019497E+01 9.51096222E-03-3.81477953E-06 6.95310445E-10-4.74033015E-14    2
@@ -2632,7 +2632,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 81,
     label = "CF3CCH",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -2654,7 +2654,7 @@ entry(
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 C#CC(F)(F)F
@@ -2665,7 +2665,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 82,
     label = "CF3COCH3",
-    molecule = 
+    molecule =
 """
 1  F u0 p3 c0 {6,S}
 2  F u0 p3 c0 {6,S}
@@ -2690,7 +2690,7 @@ entry(
         CpInf = (224.491,'J/mol/K'),
     ),
     shortDesc = """*** C2HOFx ***""",
-    longDesc = 
+    longDesc =
 """
 *** C2HOFx ***
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2702,7 +2702,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 83,
     label = "BR2",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {2,S}
 2 Br u0 p3 c0 {1,S}
@@ -2719,7 +2719,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """J12/61""",
-    longDesc = 
+    longDesc =
 """
 J12/61
 BR2               J12/61BR  20   00   00   0G   300.00   5000.00  1000.00      1
@@ -2734,7 +2734,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 84,
     label = "CF3BR",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {5,S}
 2 F  u0 p3 c0 {5,S}
@@ -2754,7 +2754,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """0""",
-    longDesc = 
+    longDesc =
 """
 0
 CF3BR                  0C   1F   3BR  1    0G   300.000  4000.000 1000.00      1
@@ -2769,7 +2769,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 85,
     label = "H2CC",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p1 c0 {1,D}
@@ -2788,7 +2788,7 @@ entry(
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = """L12/89""",
-    longDesc = 
+    longDesc =
 """
 L12/89.
 [C]=C
@@ -2799,7 +2799,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 86,
     label = "CH2OCH2",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {3,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -2821,7 +2821,7 @@ entry(
         CpInf = (157.975,'J/mol/K'),
     ),
     shortDesc = """T 6/92""",
-    longDesc = 
+    longDesc =
 """
 T 6/92
 _low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -2833,7 +2833,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 87,
     label = "nC3H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -2859,7 +2859,7 @@ multiplicity 2
         CpInf = (224.491,'J/mol/K'),
     ),
     shortDesc = """P11/94""",
-    longDesc = 
+    longDesc =
 """
 P11/94
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2871,7 +2871,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 88,
     label = "CH2*",
-    molecule = 
+    molecule =
 """
 1 C u0 p1 c0 {2,S} {3,S}
 2 H u0 p0 c0 {1,S}
@@ -2889,7 +2889,7 @@ entry(
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = """L S/93""",
-    longDesc = 
+    longDesc =
 """
 L S/93.
 Duplicate of species CH2 (i.e. same molecular structure according to RMG)
@@ -2901,7 +2901,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 89,
     label = "C4H612",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -2926,7 +2926,7 @@ entry(
         CpInf = (228.648,'J/mol/K'),
     ),
     shortDesc = """A 8/83""",
-    longDesc = 
+    longDesc =
 """
 A 8/83
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2938,7 +2938,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 90,
     label = "C5H5OH",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {12,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
@@ -2965,7 +2965,7 @@ entry(
         CpInf = (278.535,'J/mol/K'),
     ),
     shortDesc = """HWZD99""",
-    longDesc = 
+    longDesc =
 """
 HWZD99
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -2977,7 +2977,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 91,
     label = "C2O",
-    molecule = 
+    molecule =
 """
 multiplicity 3
 1 O u0 p2 c0 {2,D}
@@ -2996,7 +2996,7 @@ multiplicity 3
         CpInf = (62.3585,'J/mol/K'),
     ),
     shortDesc = """RUS 79""",
-    longDesc = 
+    longDesc =
 """
 RUS 79.
 [C]=C=O
@@ -3007,7 +3007,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 92,
     label = "CH3CHCH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -3031,7 +3031,7 @@ multiplicity 2
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """PD5/98""",
-    longDesc = 
+    longDesc =
 """
 PD5/98
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3043,7 +3043,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 93,
     label = "C2H3CHOCH2",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {3,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
@@ -3069,7 +3069,7 @@ entry(
         CpInf = (253.591,'J/mol/K'),
     ),
     shortDesc = """A 8/83""",
-    longDesc = 
+    longDesc =
 """
 A 8/83
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3081,7 +3081,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 94,
     label = "C4H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -3110,7 +3110,7 @@ entry(
         CpInf = (320.107,'J/mol/K'),
     ),
     shortDesc = """P11/94""",
-    longDesc = 
+    longDesc =
 """
 P11/94
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3122,7 +3122,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 95,
     label = "CH3CHOCH2",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {3,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -3147,7 +3147,7 @@ entry(
         CpInf = (228.648,'J/mol/K'),
     ),
     shortDesc = """T 6/92""",
-    longDesc = 
+    longDesc =
 """
 T 6/92
 _low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -3159,7 +3159,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 96,
     label = "C4H81",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -3186,7 +3186,7 @@ entry(
         CpInf = (274.378,'J/mol/K'),
     ),
     shortDesc = """T 6/83""",
-    longDesc = 
+    longDesc =
 """
 T 6/83
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3198,7 +3198,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 97,
     label = "pC3H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -3220,7 +3220,7 @@ entry(
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """T 2/90""",
-    longDesc = 
+    longDesc =
 """
 T 2/90.
 C#CC
@@ -3231,7 +3231,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 98,
     label = "CH3CH2CHO",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,D}
 2  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -3256,7 +3256,7 @@ entry(
         CpInf = (224.491,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3268,7 +3268,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 99,
     label = "l-C6H4",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,D} {3,S} {7,S}
 2  C u0 p0 c0 {1,D} {8,S} {9,S}
@@ -3293,7 +3293,7 @@ entry(
         CpInf = (224.491,'J/mol/K'),
     ),
     shortDesc = """H6W/94""",
-    longDesc = 
+    longDesc =
 """
 H6W/94
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3305,7 +3305,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 # entry(
 #     index = 100,
 #     label = "C3H3",
-#     molecule = 
+#     molecule =
 # """
 # multiplicity 2
 # 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -3327,7 +3327,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 #         CpInf = (133.032,'J/mol/K'),
 #     ),
 #     shortDesc = """T 5/97""",
-#     longDesc = 
+#     longDesc =
 # """
 # T 5/97.
 # [CH]=C=C
@@ -3338,7 +3338,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 101,
     label = "aC3H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -3360,7 +3360,7 @@ entry(
         CpInf = (157.975,'J/mol/K'),
     ),
     shortDesc = """L 8/89""",
-    longDesc = 
+    longDesc =
 """
 L 8/89.
 C=C=C
@@ -3371,7 +3371,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 102,
     label = "aC3H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {4,S}
@@ -3395,7 +3395,7 @@ multiplicity 2
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """PD5/98""",
-    longDesc = 
+    longDesc =
 """
 PD5/98
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3407,7 +3407,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 103,
     label = "CH3CHCHCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p2 c0 {5,D}
@@ -3433,7 +3433,7 @@ multiplicity 2
         CpInf = (224.491,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3445,7 +3445,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 104,
     label = "pC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -3474,7 +3474,7 @@ multiplicity 2
         CpInf = (295.164,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3486,7 +3486,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 105,
     label = "C4H82",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -3513,7 +3513,7 @@ entry(
         CpInf = (274.378,'J/mol/K'),
     ),
     shortDesc = """T 6/83""",
-    longDesc = 
+    longDesc =
 """
 T 6/83
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3525,7 +3525,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 106,
     label = "cC3H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,D} {6,S}
@@ -3547,7 +3547,7 @@ entry(
         CpInf = (157.975,'J/mol/K'),
     ),
     shortDesc = """T12/81""",
-    longDesc = 
+    longDesc =
 """
 T12/81
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3559,7 +3559,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 107,
     label = "CH2OCH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {3,S}
@@ -3581,7 +3581,7 @@ multiplicity 2
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = """A12/04""",
-    longDesc = 
+    longDesc =
 """
 A12/04
 _low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -3593,7 +3593,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 108,
     label = "CH2CHCHCHO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p2 c0 {5,D}
@@ -3619,7 +3619,7 @@ multiplicity 2
         CpInf = (224.491,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3631,7 +3631,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 109,
     label = "C4H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -3654,7 +3654,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3666,7 +3666,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 110,
     label = "iC3H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -3692,7 +3692,7 @@ multiplicity 2
         CpInf = (224.491,'J/mol/K'),
     ),
     shortDesc = """P11/94""",
-    longDesc = 
+    longDesc =
 """
 P11/94
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3704,7 +3704,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 111,
     label = "C4H6O25",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,S} {3,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
@@ -3730,7 +3730,7 @@ entry(
         CpInf = (257.749,'J/mol/K'),
     ),
     shortDesc = """T 3/97""",
-    longDesc = 
+    longDesc =
 """
 T 3/97.
 C1=CCOC1
@@ -3741,7 +3741,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 112,
     label = "C4H6O23",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,S} {5,S}
 2  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
@@ -3767,7 +3767,7 @@ entry(
         CpInf = (257.749,'J/mol/K'),
     ),
     shortDesc = """T 3/97""",
-    longDesc = 
+    longDesc =
 """
 T 3/97.
 C1=COCC1
@@ -3778,7 +3778,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 113,
     label = "C6H4O2",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {3,D}
 2  O u0 p2 c0 {6,D}
@@ -3805,7 +3805,7 @@ entry(
         CpInf = (282.692,'J/mol/K'),
     ),
     shortDesc = """PUML96""",
-    longDesc = 
+    longDesc =
 """
 PUML96
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3817,7 +3817,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 114,
     label = "C6H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -3840,7 +3840,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """D11/99""",
-    longDesc = 
+    longDesc =
 """
 D11/99
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3852,7 +3852,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 115,
     label = "c-C4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -3877,7 +3877,7 @@ multiplicity 2
         CpInf = (207.862,'J/mol/K'),
     ),
     shortDesc = """PUPM3""",
-    longDesc = 
+    longDesc =
 """
 PUPM3
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3889,7 +3889,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 116,
     label = "H2C4O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {5,D}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -3911,7 +3911,7 @@ entry(
         CpInf = (157.975,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3923,7 +3923,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 117,
     label = "C5H4O",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {2,D}
 2  C u0 p0 c0 {1,D} {3,S} {6,S}
@@ -3948,7 +3948,7 @@ entry(
         CpInf = (232.805,'J/mol/K'),
     ),
     shortDesc = """T 8/99""",
-    longDesc = 
+    longDesc =
 """
 T 8/99.
 O=C1C=CC=C1
@@ -3959,7 +3959,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 118,
     label = "C4H6-2",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -3984,7 +3984,7 @@ entry(
         CpInf = (224.491,'J/mol/K'),
     ),
     shortDesc = """A 8/83""",
-    longDesc = 
+    longDesc =
 """
 A 8/83
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -3996,7 +3996,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 # entry(
 #     index = 119,
 #     label = "C5H6",
-#     molecule = 
+#     molecule =
 # """
 # 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 # 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -4022,7 +4022,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 #         CpInf = (257.749,'J/mol/K'),
 #     ),
 #     shortDesc = """T 1/90""",
-#     longDesc = 
+#     longDesc =
 # """
 # T 1/90.
 # C1=CCC=C1
@@ -4033,7 +4033,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 120,
     label = "C5H5O(2,4)",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u1 p2 c0 {2,S}
@@ -4060,7 +4060,7 @@ multiplicity 2
         CpInf = (257.749,'J/mol/K'),
     ),
     shortDesc = """D 9/97""",
-    longDesc = 
+    longDesc =
 """
 D 9/97
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4072,7 +4072,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 121,
     label = "CH2CHCO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {4,D}
@@ -4095,7 +4095,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """T05/99""",
-    longDesc = 
+    longDesc =
 """
 T05/99.
 C=C[C]=O
@@ -4106,7 +4106,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 122,
     label = "CH3COCH3",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {4,D}
 2  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -4131,7 +4131,7 @@ entry(
         CpInf = (224.491,'J/mol/K'),
     ),
     shortDesc = """T 5/92""",
-    longDesc = 
+    longDesc =
 """
 T 5/92.
 CC(C)=O
@@ -4142,7 +4142,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 # entry(
 #     index = 123,
 #     label = "o-C6H4",
-#     molecule = 
+#     molecule =
 # """
 # 1  C u0 p0 c0 {2,S} {3,D} {7,S}
 # 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -4167,7 +4167,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 #         CpInf = (232.805,'J/mol/K'),
 #     ),
 #     shortDesc = """D11/99""",
-#     longDesc = 
+#     longDesc =
 # """
 # D11/99
 # _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4179,7 +4179,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 124,
     label = "C2H3CHO",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,D}
 2 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -4202,7 +4202,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4214,7 +4214,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 125,
     label = "iC4H10",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -4243,7 +4243,7 @@ entry(
         CpInf = (320.107,'J/mol/K'),
     ),
     shortDesc = """P11/94""",
-    longDesc = 
+    longDesc =
 """
 P11/94
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4255,7 +4255,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 126,
     label = "iC4H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {5,S} {6,S}
@@ -4278,7 +4278,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4290,7 +4290,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 127,
     label = "iC4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,D} {4,S} {5,S}
@@ -4315,7 +4315,7 @@ multiplicity 2
         CpInf = (203.705,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4327,7 +4327,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 128,
     label = "iC4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
@@ -4354,7 +4354,7 @@ multiplicity 2
         CpInf = (249.434,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4366,7 +4366,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 129,
     label = "iC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
@@ -4395,7 +4395,7 @@ multiplicity 2
         CpInf = (295.164,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4407,7 +4407,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 130,
     label = "iC4H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -4434,7 +4434,7 @@ entry(
         CpInf = (274.378,'J/mol/K'),
     ),
     shortDesc = """T 6/83""",
-    longDesc = 
+    longDesc =
 """
 T 6/83
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4446,7 +4446,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 # entry(
 #     index = 131,
 #     label = "C6H5O",
-#     molecule = 
+#     molecule =
 # """
 # multiplicity 2
 # 1  O u0 p2 c0 {3,D}
@@ -4474,7 +4474,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 #         CpInf = (282.692,'J/mol/K'),
 #     ),
 #     shortDesc = """T05/02""",
-#     longDesc = 
+#     longDesc =
 # """
 # T05/02.
 # O=C1[CH]C=CC=C1
@@ -4485,7 +4485,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 132,
     label = "C5H5O(1,3)",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p2 c0 {4,D}
@@ -4512,7 +4512,7 @@ multiplicity 2
         CpInf = (257.749,'J/mol/K'),
     ),
     shortDesc = """DU0997""",
-    longDesc = 
+    longDesc =
 """
 DU0997
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4524,7 +4524,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 # entry(
 #     index = 133,
 #     label = "C6H5CH2",
-#     molecule = 
+#     molecule =
 # """
 # multiplicity 2
 # 1  C u0 p0 c0 {2,S} {3,S} {7,D}
@@ -4554,7 +4554,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 #         CpInf = (328.422,'J/mol/K'),
 #     ),
 #     shortDesc = """T08/90""",
-#     longDesc = 
+#     longDesc =
 # """
 # T08/90.
 # C=C1[CH]C=CC=C1
@@ -4565,7 +4565,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 134,
     label = "lC5H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,D} {3,S} {7,S}
@@ -4593,7 +4593,7 @@ multiplicity 2
         CpInf = (274.378,'J/mol/K'),
     ),
     shortDesc = """HWZD99""",
-    longDesc = 
+    longDesc =
 """
 HWZD99
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4605,7 +4605,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 135,
     label = "sC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
@@ -4634,7 +4634,7 @@ multiplicity 2
         CpInf = (295.164,'J/mol/K'),
     ),
     shortDesc = """P11/94""",
-    longDesc = 
+    longDesc =
 """
 P11/94
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4646,7 +4646,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 136,
     label = "tC4H9",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
@@ -4675,7 +4675,7 @@ multiplicity 2
         CpInf = (295.164,'J/mol/K'),
     ),
     shortDesc = """P11/94""",
-    longDesc = 
+    longDesc =
 """
 P11/94
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4687,7 +4687,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 137,
     label = "C4H5-2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
@@ -4712,7 +4712,7 @@ multiplicity 2
         CpInf = (199.547,'J/mol/K'),
     ),
     shortDesc = """H6W/94""",
-    longDesc = 
+    longDesc =
 """
 H6W/94
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4724,7 +4724,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 138,
     label = "C6H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {4,D} {7,S}
@@ -4749,7 +4749,7 @@ multiplicity 2
         CpInf = (199.547,'J/mol/K'),
     ),
     shortDesc = """H6W/94""",
-    longDesc = 
+    longDesc =
 """
 H6W/94
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4761,7 +4761,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 # entry(
 #     index = 139,
 #     label = "OC6H4CH3",
-#     molecule = 
+#     molecule =
 # """
 # multiplicity 2
 # 1  O u0 p2 c0 {8,D}
@@ -4792,7 +4792,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 #         CpInf = (353.365,'J/mol/K'),
 #     ),
 #     shortDesc = """EST/BUR P 1/93""",
-#     longDesc = 
+#     longDesc =
 # """
 # EST/BUR P 1/93
 # _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4804,7 +4804,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 140,
     label = "nC4H3",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -4827,7 +4827,7 @@ multiplicity 2
         CpInf = (153.818,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4839,7 +4839,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 141,
     label = "nC4H5",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 C u0 p0 c0 {2,S} {3,D} {5,S}
@@ -4864,7 +4864,7 @@ multiplicity 2
         CpInf = (203.705,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4876,7 +4876,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 # entry(
 #     index = 142,
 #     label = "C5H5",
-#     molecule = 
+#     molecule =
 # """
 # multiplicity 2
 # 1  C u1 p0 c0 {2,S} {5,S} {6,S}
@@ -4902,7 +4902,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 #         CpInf = (232.805,'J/mol/K'),
 #     ),
 #     shortDesc = """T12/89""",
-#     longDesc = 
+#     longDesc =
 # """
 # T12/89
 # _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4914,7 +4914,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 143,
     label = "C4H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,T}
 2 C u0 p0 c0 {1,S} {4,T}
@@ -4935,7 +4935,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = """D11/99""",
-    longDesc = 
+    longDesc =
 """
 D11/99
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4947,7 +4947,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 144,
     label = "C4H7",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
@@ -4974,7 +4974,7 @@ multiplicity 2
         CpInf = (249.434,'J/mol/K'),
     ),
     shortDesc = """USC/07""",
-    longDesc = 
+    longDesc =
 """
 USC/07
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -4986,7 +4986,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 145,
     label = "C4H6",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
 2  C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -5011,7 +5011,7 @@ entry(
         CpInf = (228.648,'J/mol/K'),
     ),
     shortDesc = """H6W/94""",
-    longDesc = 
+    longDesc =
 """
 H6W/94
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5023,7 +5023,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 146,
     label = "C4H4O",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {4,S} {5,S}
 2 C u0 p0 c0 {3,S} {4,D} {6,S}
@@ -5047,7 +5047,7 @@ entry(
         CpInf = (207.862,'J/mol/K'),
     ),
     shortDesc = """T03/97""",
-    longDesc = 
+    longDesc =
 """
 T03/97.
 C1=COC=C1
@@ -5058,7 +5058,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 147,
     label = "C5H4OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p2 c0 {2,S} {11,S}
@@ -5085,7 +5085,7 @@ multiplicity 2
         CpInf = (253.591,'J/mol/K'),
     ),
     shortDesc = """T 8/99""",
-    longDesc = 
+    longDesc =
 """
 T 8/99.
 OC1=CC=C[CH]1
@@ -5096,7 +5096,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 148,
     label = "CH3CHCHCHO",
-    molecule = 
+    molecule =
 """
 1  O u0 p2 c0 {5,D}
 2  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
@@ -5122,7 +5122,7 @@ entry(
         CpInf = (249.434,'J/mol/K'),
     ),
     shortDesc = """T 5/92""",
-    longDesc = 
+    longDesc =
 """
 T 5/92
 _low T polynomial Tmin changed from 298.15 to 298.0 K when importing to RMG.
@@ -5134,7 +5134,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 149,
     label = "C6H5CO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p2 c0 {8,D}
@@ -5163,7 +5163,7 @@ multiplicity 2
         CpInf = (303.478,'J/mol/K'),
     ),
     shortDesc = """EST/BUR P 1/93""",
-    longDesc = 
+    longDesc =
 """
 EST/BUR P 1/93
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5175,7 +5175,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 150,
     label = "CHF:CF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {5,S}
@@ -5196,7 +5196,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = """91GURVEY69STU""",
-    longDesc = 
+    longDesc =
 """
 91GURVEY69STU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5208,7 +5208,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 151,
     label = "C2H5OH",
-    molecule = 
+    molecule =
 """
 1 O u0 p2 c0 {2,S} {9,S}
 2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -5232,7 +5232,7 @@ entry(
         CpInf = (199.547,'J/mol/K'),
     ),
     shortDesc = """L 8/88""",
-    longDesc = 
+    longDesc =
 """
 L 8/88.
 CCO
@@ -5243,7 +5243,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 152,
     label = "C2H4OH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {2,S} {8,S}
@@ -5267,7 +5267,7 @@ multiplicity 2
         CpInf = (174.604,'J/mol/K'),
     ),
     shortDesc = """T 4/83""",
-    longDesc = 
+    longDesc =
 """
 T 4/83
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5279,7 +5279,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 153,
     label = "CH2:CHF",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 C u0 p0 c0 {3,D} {4,S} {5,S}
@@ -5300,7 +5300,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = """91GURVEY92DAU""",
-    longDesc = 
+    longDesc =
 """
 91GURVEY92DAU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5312,7 +5312,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 154,
     label = "CH3CHOH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u0 p2 c0 {3,S} {8,S}
@@ -5336,7 +5336,7 @@ multiplicity 2
         CpInf = (174.604,'J/mol/K'),
     ),
     shortDesc = """T 4/83""",
-    longDesc = 
+    longDesc =
 """
 T 4/83
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5348,7 +5348,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 155,
     label = "CH3CH2O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 O u1 p2 c0 {3,S}
@@ -5372,7 +5372,7 @@ multiplicity 2
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """T11/82""",
-    longDesc = 
+    longDesc =
 """
 T11/82
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5384,7 +5384,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 156,
     label = "CH2:CF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -5405,7 +5405,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = """91GURVEY69STU""",
-    longDesc = 
+    longDesc =
 """
 91GURVEY69STU
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5417,7 +5417,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 157,
     label = "CF2:CF2",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {5,S}
 2 F u0 p3 c0 {5,S}
@@ -5438,7 +5438,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = """71STUPRO""",
-    longDesc = 
+    longDesc =
 """
 71STUPRO
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5450,7 +5450,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 158,
     label = "BR",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u1 p3 c0
@@ -5467,7 +5467,7 @@ multiplicity 2
         CpInf = (20.7862,'J/mol/K'),
     ),
     shortDesc = """J 6/74""",
-    longDesc = 
+    longDesc =
 """
 J 6/74
 BR                J 6/74BR  1    0    0    0G   300.00   5000.00  1000.00      1
@@ -5482,7 +5482,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 159,
     label = "CH2:CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -5503,7 +5503,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """96ZACWES""",
-    longDesc = 
+    longDesc =
 """
 96ZACWES
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5515,7 +5515,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 160,
     label = "HBR",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {2,S}
 2 H  u0 p0 c0 {1,S}
@@ -5532,7 +5532,7 @@ entry(
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """J 9/65""",
-    longDesc = 
+    longDesc =
 """
 J 9/65
 HBR               J 9/65H   1BR  1    0    0G   300.00   5000.00  1000.00      1
@@ -5547,7 +5547,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 161,
     label = "BRO",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {2,S}
@@ -5565,7 +5565,7 @@ multiplicity 2
         CpInf = (37.4151,'J/mol/K'),
     ),
     shortDesc = """BRO       82WAG/EVA     BR  1O   1    0    0G   300.00   2000.00   593.00      1""",
-    longDesc = 
+    longDesc =
 """
 BRO       82WAG/EVA     BR  1O   1    0    0G   300.00   2000.00   593.00      1
 0.38423535E+01 0.29818127E-03-0.10111621E-08-0.45536224E-11-0.12545159E-14    2
@@ -5579,7 +5579,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 162,
     label = "BROH",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {2,S}
 2 O  u0 p2 c0 {1,S} {3,S}
@@ -5597,7 +5597,7 @@ entry(
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = """Burc""",
-    longDesc = 
+    longDesc =
 """
 Burc
 BROH      76BEN         H   1BR  1O   1    0G   300.00   2000.00   895.00      1
@@ -5612,7 +5612,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 163,
     label = "CF2:CF",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {4,S}
@@ -5633,7 +5633,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """96ZACWES""",
-    longDesc = 
+    longDesc =
 """
 96ZACWES
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5645,7 +5645,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 164,
     label = "CF2:O",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {4,S}
 2 F u0 p3 c0 {4,S}
@@ -5664,7 +5664,7 @@ entry(
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = """71STUPRO""",
-    longDesc = 
+    longDesc =
 """
 71STUPRO
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5676,7 +5676,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 165,
     label = "CF2:CH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -5697,7 +5697,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """96ZACWES""",
-    longDesc = 
+    longDesc =
 """
 96ZACWES
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5709,7 +5709,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 166,
     label = "CF:O",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -5728,7 +5728,7 @@ multiplicity 2
         CpInf = (58.2013,'J/mol/K'),
     ),
     shortDesc = """71STUPRO""",
-    longDesc = 
+    longDesc =
 """
 71STUPRO
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5740,7 +5740,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 167,
     label = "CH3BR",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {2,S}
 2 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
@@ -5760,7 +5760,7 @@ entry(
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """CH3BR     DIPPR         C   1H   3BR  1    0G   300.00   3000.00  1100.00      1""",
-    longDesc = 
+    longDesc =
 """
 CH3BR     DIPPR         C   1H   3BR  1    0G   300.00   3000.00  1100.00      1
 0.26622491E+01 0.10938679E-01-0.49091741E-05 0.97218827E-09-0.69039725E-13    2
@@ -5774,7 +5774,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 168,
     label = "C2H5BR",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {3,S}
 2 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
@@ -5797,7 +5797,7 @@ entry(
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """C2H5BR    DIPPR         C   2H   5BR  1    0G   300.00   3000.00  1140.00      1""",
-    longDesc = 
+    longDesc =
 """
 C2H5BR    DIPPR         C   2H   5BR  1    0G   300.00   3000.00  1140.00      1
 0.10484190E+01 0.25329179E-01-0.13151664E-04 0.28967557E-08-0.22319548E-12    2
@@ -5811,7 +5811,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 169,
     label = "CHF:O",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 O u0 p2 c0 {3,D}
@@ -5830,7 +5830,7 @@ entry(
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = """71STUPRO""",
-    longDesc = 
+    longDesc =
 """
 71STUPRO
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5842,7 +5842,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 170,
     label = "HOC2H4O2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  O u0 p2 c0 {3,S} {4,S}
@@ -5868,7 +5868,7 @@ multiplicity 2
         CpInf = (220.334,'J/mol/K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [O]OCCO
@@ -5879,7 +5879,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 171,
     label = "CH2BR",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {2,S}
@@ -5899,7 +5899,7 @@ multiplicity 2
         CpInf = (83.1447,'J/mol/K'),
     ),
     shortDesc = """MCMGOLest""",
-    longDesc = 
+    longDesc =
 """
 MCMGOLest
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5911,7 +5911,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 172,
     label = "CHF:CHF[Z]",
-    molecule = 
+    molecule =
 """
 1 F u0 p3 c0 {3,S}
 2 F u0 p3 c0 {4,S}
@@ -5932,7 +5932,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = """82STAVOY95ZA""",
-    longDesc = 
+    longDesc =
 """
 82STAVOY95ZA
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -5944,7 +5944,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 173,
     label = "C2H3BR",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {3,S}
 2 C  u0 p0 c0 {3,D} {4,S} {5,S}
@@ -5965,7 +5965,7 @@ entry(
         CpInf = (133.032,'J/mol/K'),
     ),
     shortDesc = """CH2:CHBR  DIPPR         C   2H   3BR  1    0G   300.00   3000.00  1100.00      1""",
-    longDesc = 
+    longDesc =
 """
 CH2:CHBR  DIPPR         C   2H   3BR  1    0G   300.00   3000.00  1100.00      1
 0.48816714E+01 0.11872023E-01-0.54511750E-05 0.10926716E-08-0.77674167E-13    2
@@ -5987,7 +5987,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 174,
     label = "CHF:CH[Z]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {2,S}
@@ -6008,7 +6008,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """96ZACWES""",
-    longDesc = 
+    longDesc =
 """
 96ZACWES
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6020,7 +6020,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 175,
     label = "CHF:CF[Z]",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 F u0 p3 c0 {3,S}
@@ -6041,7 +6041,7 @@ multiplicity 2
         CpInf = (108.088,'J/mol/K'),
     ),
     shortDesc = """96ZACWES""",
-    longDesc = 
+    longDesc =
 """
 96ZACWES
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
@@ -6053,7 +6053,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 176,
     label = "BTP",
-    molecule = 
+    molecule =
 """
 1 Br u0 p3 c0 {6,S}
 2 F  u0 p3 c0 {5,S}
@@ -6077,7 +6077,7 @@ entry(
         CpInf = (203.705,'J/mol/K'),
     ),
     shortDesc = """BTP                     H   2C   3F   3BR  1g    300.00   5000.00 1000.00      1 Hf -143.7,db""",
-    longDesc = 
+    longDesc =
 """
 BTP                     H   2C   3F   3BR  1g    300.00   5000.00 1000.00      1 Hf -143.7,db
 1.46667151E+01 1.01380748E-02-4.06918919E-06 7.42198345E-10-5.06305036E-14    2
@@ -6092,7 +6092,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 177,
     label = "CF3CBRCH",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1 Br u0 p3 c0 {6,S}
@@ -6116,7 +6116,7 @@ multiplicity 2
         CpInf = (178.761,'J/mol/K'),
     ),
     shortDesc = """""",
-    longDesc = 
+    longDesc =
 """
 _low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
 [CH]=C(Br)C(F)(F)F
@@ -6127,7 +6127,7 @@ _imported from 2-BTP/2-BTP_thermo.txt.
 entry(
     index = 178,
     label = "CF3CHBRCH2",
-    molecule = 
+    molecule =
 """
 multiplicity 2
 1  Br u0 p3 c0 {5,S}
@@ -6153,7 +6153,7 @@ multiplicity 2
         CpInf = (224.491,'J/mol/K'),
     ),
     shortDesc = """*** CHBrx ***""",
-    longDesc = 
+    longDesc =
 """
 *** CHBrx ***
 C2H3BR                  H   3C   2Br  1    0g    300.00   5000.00 1000.00      1

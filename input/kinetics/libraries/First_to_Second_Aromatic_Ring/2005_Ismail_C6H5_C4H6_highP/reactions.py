@@ -8,9 +8,9 @@ Phenyl radical + 1,3-butadiene PES calculated using B3LYP + TST.
 
 Taken from:
 
-Ismail, H.; Park, J.; Wong, B. M.; Green Jr, W. H.; Lin, M. C., 
-A theoretical and experimental kinetic study of phenyl radical addition to butadiene. 
-Proc. Combust. Inst. 2005, 30, 1049-1056. 
+Ismail, H.; Park, J.; Wong, B. M.; Green Jr, W. H.; Lin, M. C.,
+A theoretical and experimental kinetic study of phenyl radical addition to butadiene.
+Proc. Combust. Inst. 2005, 30, 1049-1056.
 """
 entry(
     index = 1,

@@ -31,7 +31,7 @@ entry(
     ),
     referenceType = "review",
     shortDesc = u"""Experimental value and limited review""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Uncertainty: 3.1600001
@@ -64,7 +64,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""RRK(M) extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Bath gas: Kr
@@ -96,7 +96,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""High or low pressure extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Bath gas: Kr
@@ -130,7 +130,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""High or low pressure extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Bath gas: Kr
@@ -164,7 +164,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Bath gas: Ar
@@ -202,7 +202,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Bath gas: Ar
@@ -236,7 +236,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Uncertainty: 3.1600001
@@ -271,7 +271,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Bath gas: Ar
@@ -305,7 +305,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Bath gas: Ar
@@ -339,7 +339,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Bath gas: Ar
@@ -373,7 +373,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Bath gas: Ar
@@ -407,7 +407,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Bath gas: He
@@ -441,7 +441,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Bath gas: Cyclohexene
@@ -475,7 +475,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 Bath gas: H2O
@@ -509,7 +509,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00005509
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00005509/rk00000001.xml
@@ -544,7 +544,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007814
 Bath gas: Ar
@@ -578,7 +578,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007814
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007814/rk00000001.xml
@@ -613,7 +613,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007816
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007816/rk00000001.xml
@@ -648,7 +648,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007816
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007816/rk00000001.xml
@@ -683,7 +683,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002185
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002185/rk00000001.xml
@@ -719,7 +719,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002185
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00002185/rk00000001.xml
@@ -754,7 +754,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00002185
 Uncertainty: 1.12
@@ -789,7 +789,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004731
 Bath gas: 1,3-Butadiene
@@ -823,7 +823,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004731
 Bath gas: 1,3-Butadiene
@@ -857,7 +857,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004731
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004731/rk00000001.xml
@@ -892,7 +892,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004731
 Uncertainty: 3.1600001
@@ -924,7 +924,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004731
 Uncertainty: 1.55
@@ -959,7 +959,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004731
 Bath gas: Ar
@@ -991,7 +991,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from detailed balance/reverse rate""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004731
 Bath gas: 4-Vinylcyclohexene
@@ -1023,7 +1023,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004734
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004734/rk00000001.xml
@@ -1058,7 +1058,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009910
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009910/rk00000001.xml
@@ -1093,7 +1093,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015550
 Uncertainty: 1.05
@@ -1127,7 +1127,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015550
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015550/rk00000001.xml
@@ -1162,7 +1162,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015551
 Uncertainty: 1.05
@@ -1196,7 +1196,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015551
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015551/rk00000001.xml
@@ -1231,7 +1231,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015551
 Bath gas: 1,3-Cyclohexadiene
@@ -1265,7 +1265,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015551
 Uncertainty: 1.0700001
@@ -1300,7 +1300,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003841
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003841/rk00000001.xml
@@ -1335,7 +1335,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004794
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004794/rk00000001.xml
@@ -1370,7 +1370,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004843
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004843/rk00000001.xml
@@ -1405,7 +1405,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007108
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007108/rk00000001.xml
@@ -1441,7 +1441,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00009426
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009426/rk00000001.xml
@@ -1477,7 +1477,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016017
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016017/rk00000001.xml
@@ -1512,7 +1512,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016017
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016017/rk00000001.xml
@@ -1548,7 +1548,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016994
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016994/rk00000001.xml
@@ -1583,7 +1583,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016995
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016995/rk00000001.xml
@@ -1618,7 +1618,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016995
 Uncertainty: 1.12
@@ -1653,7 +1653,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004737
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004737/rk00000001.xml
@@ -1689,7 +1689,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004843
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004843/rk00000002.xml
@@ -1725,7 +1725,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016478
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016478/rk00000003.xml
@@ -1761,7 +1761,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016991
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016991/rk00000001.xml
@@ -1796,7 +1796,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016992
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00016992/rk00000001.xml
@@ -1831,7 +1831,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00016992
 Uncertainty: 1.0700001
@@ -1866,7 +1866,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00007902
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00007902/rk00000001.xml
@@ -1902,7 +1902,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008812
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008812/rk00000001.xml
@@ -1937,7 +1937,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008812
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008812/rk00000002.xml

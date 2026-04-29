@@ -40,5 +40,3 @@ entry(
 Higher up rule Root_Ext-3R-R_5R!H->C in 1,2_Elimination_LiR
 """,
 )
-
-   

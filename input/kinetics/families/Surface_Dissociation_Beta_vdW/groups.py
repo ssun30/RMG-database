@@ -11,7 +11,7 @@ Surface bond fission of one species into two adsorbates. The bond fission occurs
   |             ---->    :      |
 ~*4~ + ~*5~~           ~*4~ + ~*5~~
 
-The rate should be in mol/m2/s, so k should be in (m2/mol/s). 
+The rate should be in mol/m2/s, so k should be in (m2/mol/s).
 """
 
 template(reactants=["Combined", "VacantSite"], products=["Adsorbate1","Adsorbate2"], ownReverse=False)

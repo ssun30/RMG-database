@@ -35,7 +35,7 @@ entry(
 entry(
     index = 2,
     label = "Y_12_00",
-    group = 
+    group =
 """
 1 *1 Cs u1 {2,S} {3,S} {4,S}
 2 *2 Cs u1 {1,S} {5,S} {6,S}
@@ -50,7 +50,7 @@ entry(
 entry(
     index = 3,
     label = "Y_12_10",
-    group = 
+    group =
 """
 1 *1 Cs       u1 {2,S} {3,S} {4,S}
 2 *2 Cs       u1 {1,S} {5,S} {6,S}
@@ -72,7 +72,7 @@ entry(
 entry(
     index = 5,
     label = "Y_12_20a",
-    group = 
+    group =
 """
 1 *1 Cs           u1 {2,S} {3,S} {4,S}
 2 *2 Cs           u1 {1,S} {5,S} {6,S}
@@ -87,7 +87,7 @@ entry(
 entry(
     index = 6,
     label = "Y_12_20b",
-    group = 
+    group =
 """
 1 *1 Cs           u1 {2,S} {3,S} {4,S}
 2 *2 Cs           u1 {1,S} {5,S} {6,S}
@@ -102,7 +102,7 @@ entry(
 entry(
     index = 7,
     label = "Y_12_30",
-    group = 
+    group =
 """
 1 *1 Cs           u1 {2,S} {3,S} {4,S}
 2 *2 Cs           u1 {1,S} {5,S} {6,S}
@@ -117,7 +117,7 @@ entry(
 entry(
     index = 8,
     label = "Y_12_40",
-    group = 
+    group =
 """
 1 *1 Cs           u1 {2,S} {3,S} {4,S}
 2 *2 Cs           u1 {1,S} {5,S} {6,S}
@@ -132,7 +132,7 @@ entry(
 entry(
     index = 9,
     label = "Y_12_01",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -154,7 +154,7 @@ entry(
 entry(
     index = 11,
     label = "Y_12_02a",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -169,7 +169,7 @@ entry(
 entry(
     index = 12,
     label = "Y_12_02b",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -184,7 +184,7 @@ entry(
 entry(
     index = 13,
     label = "Y_12_03",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -199,7 +199,7 @@ entry(
 entry(
     index = 14,
     label = "Y_12_04",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -221,7 +221,7 @@ entry(
 entry(
     index = 16,
     label = "Y_12_11a",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -236,7 +236,7 @@ entry(
 entry(
     index = 17,
     label = "Y_12_11b",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -258,7 +258,7 @@ entry(
 entry(
     index = 19,
     label = "Y_12_12a",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -273,7 +273,7 @@ entry(
 entry(
     index = 20,
     label = "Y_12_12b",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -295,7 +295,7 @@ entry(
 entry(
     index = 22,
     label = "Y_12_21a",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -310,7 +310,7 @@ entry(
 entry(
     index = 23,
     label = "Y_12_21b",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -332,7 +332,7 @@ entry(
 entry(
     index = 25,
     label = "Y_12_22a",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -347,7 +347,7 @@ entry(
 entry(
     index = 26,
     label = "Y_12_22b",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -362,7 +362,7 @@ entry(
 entry(
     index = 27,
     label = "Y_12_13",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -377,7 +377,7 @@ entry(
 entry(
     index = 28,
     label = "Y_12_31",
-    group = 
+    group =
 """
 1 *1 Cs               u1 {2,S} {3,S} {4,S}
 2 *2 Cs               u1 {1,S} {5,S} {6,S}
@@ -392,7 +392,7 @@ entry(
 entry(
     index = 29,
     label = "NOS",
-    group = 
+    group =
 """
 1 *1 [N,O,S]   u1 c0 {2,[S,D]}
 2 *2 [N,O,S,C] u1 c0 {1,[S,D]}
@@ -403,7 +403,7 @@ entry(
 entry(
     index = 30,
     label = "N",
-    group = 
+    group =
 """
 1 *1 N u1 c0 {2,[S,D]}
 2 *2 N u1 c0 {1,[S,D]}
@@ -414,7 +414,7 @@ entry(
 entry(
     index = 31,
     label = "N3s",
-    group = 
+    group =
 """
 1 *1 N3s u1 p1 c0 {2,S}
 2 *2 N3s u1 p1 c0 {1,S}
@@ -425,7 +425,7 @@ entry(
 entry(
     index = 32,
     label = "N3d",
-    group = 
+    group =
 """
 1 *1 N3d u1 p1 c0 {2,D}
 2 *2 N3d u1 p1 c0 {1,D}
@@ -436,7 +436,7 @@ entry(
 entry(
     index = 33,
     label = "S",
-    group = 
+    group =
 """
 1 *1 S     u1 c0 {2,[S,D]}
 2 *2 [S,O] u1 c0 {1,[S,D]}
@@ -447,7 +447,7 @@ entry(
 entry(
     index = 34,
     label = "SX2",
-    group = 
+    group =
 """
 1 *1 S4d                        u1 p1 c0 {2,S} {3,D}
 2 *2 [S2s,O2s]                  u1 p2 c0 {1,S}
@@ -459,7 +459,7 @@ entry(
 entry(
     index = 35,
     label = "SO2",
-    group = 
+    group =
 """
 1 *1 S4d u1 p1 c0 {2,S} {3,D}
 2 *2 O2s u1 p2 c0 {1,S}
@@ -471,7 +471,7 @@ entry(
 entry(
     index = 36,
     label = "SX3",
-    group = 
+    group =
 """
 1 *1 S6dd                       u1 p0 c0 {2,S} {3,D} {4,D}
 2 *2 [S2s,O2s]                  u1 p2 c0 {1,S}
@@ -484,7 +484,7 @@ entry(
 entry(
     index = 37,
     label = "SO3",
-    group = 
+    group =
 """
 1 *1 S6dd u1 p0 c0 {2,S} {3,D} {4,D}
 2 *2 O2s  u1 p2 c0 {1,S}
@@ -539,13 +539,13 @@ L1: Y_12birad
 
 forbidden(
     label = "O2",
-    group = 
+    group =
 """
 1 *1 O2s u1 p2 c0 {2,S}
 2 *2 O2s u1 p2 c0 {1,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 The ground state of these three isoelectrinic structures (O2, S2, SO) is the triplet form,
 hence they behave differently than this family
@@ -554,13 +554,13 @@ hence they behave differently than this family
 
 forbidden(
     label = "S2",
-    group = 
+    group =
 """
 1 *1 S2s u1 p2 c0 {2,S}
 2 *2 S2s u1 p2 c0 {1,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -568,13 +568,13 @@ u"""
 
 forbidden(
     label = "SO",
-    group = 
+    group =
 """
 1 *1 S2s u1 p2 c0 {2,S}
 2 *2 O2s u1 p2 c0 {1,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

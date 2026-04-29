@@ -15,7 +15,7 @@ entry(
     kinetics = Arrhenius(A=(7.179e+07, 's^-1'), n=1.101, Ea=(27.148, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C6H5_C4H4_all_TST_rates""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W1 <=> W14
 """,
@@ -29,7 +29,7 @@ entry(
     kinetics = Arrhenius(A=(7.809e+07, 's^-1'), n=1.057, Ea=(15.061, 'kcal/mol'), T0=(1, 'K')),
     rank = 5,
     shortDesc = u"""Training reaction from kinetics library: C6H5_C4H4_all_TST_rates""",
-    longDesc = 
+    longDesc =
 u"""
 Taken from entry: W14 <=> W1
 """,

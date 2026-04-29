@@ -25,7 +25,7 @@ entry(
     label = "thiophene <=> IM4",
     degeneracy = 1,
     kinetics = Arrhenius(A=(184000, 's^-1'), n=0.65, Ea=(86.88, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 thiophene = IM3        2.35E05    0.75    86.11    0.0    0.0    0.0
 """,
@@ -57,7 +57,7 @@ entry(
     label = "IM2 <=> IM6",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.73e+17, 's^-1'), n=0.58, Ea=(61.23, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 IM2 = IM2a            3.15E12    -0.03    6.03    0.0    0.0    0.0
 """,
@@ -89,7 +89,7 @@ entry(
     label = "IM10 <=> IM11",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.9e+12, 's^-1'), n=0.29, Ea=(15.56, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 IM3 = IM8a            3.46E19    0.59    13.39    0.0    0.0    0.0
 IM8 = IM8a            2.34E12    -0.09    3.68    0.0    0.0    0.0
@@ -112,7 +112,7 @@ entry(
     label = "IM4 <=> IM8",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.58e+11, 's^-1'), n=0.68, Ea=(45.27, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 IM4 = IM4a            1.24E12    0.02    2.07    0.0    0.0    0.0
 """,

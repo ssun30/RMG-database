@@ -14,7 +14,7 @@ entry(
     kinetics = Arrhenius(A=(1.547e+23,'cm^3/(mol*s)'), n=-4.5, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 5,
     shortDesc = """Training reaction from kinetics library: CurranPentane""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry CH3OCH2O2 + CH3OCH2O2 <=> O2 + CH3OCH2O + CH3OCH2O
 which is based on an Arrhenius fit of rate parameters in the NIST database
@@ -31,7 +31,7 @@ entry(
     kinetics = Arrhenius(A=(1.4e+16,'cm^3/(mol*s)'), n=-1.61, Ea=(1860,'cal/mol'), T0=(1,'K')),
     rank = 1,
     shortDesc = """Training reaction from kinetics library: CurranPentane""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry CH3O2 + CH3O2 <=> O2 + CH3O + CH3O
 which is based on the experimental rate from Lightfoot et al. in J. Chem. Soc. Faraday Trans. (1991)
@@ -48,7 +48,7 @@ entry(
     kinetics = Arrhenius(A=(2.9e+11,'cm^3/(mol*s)'), n=-0.27, Ea=(408,'cal/mol'), T0=(1,'K')),
     rank = 1,
     shortDesc = """Training reaction from kinetics library: Klippenstein_Glarborg2016""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry CH3CH2OO + CH3CH2OO <=> CH3CH2O + CH3CH2O + O2
 which is based on a fitted expression combining rates from Fenter et al. in J. Phys. Chem. 1993
@@ -64,7 +64,7 @@ entry(
     kinetics = Arrhenius(A=(1.1e+12,'cm^3/(mol*s)'), n=0, Ea=(-1000,'cal/mol'), T0=(1,'K')),
     rank = 1,
     shortDesc = """Training reaction from kinetics library: Klippenstein_Glarborg2016""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry CH3C(O)OO + CH3OO <=> CH3C(O)O + CH3O + O2
 which is based on the experimental rates from Atkinson et al. in Atmos. Chem. Phys. (2006)
@@ -79,7 +79,7 @@ entry(
     kinetics = Arrhenius(A=(1.9e+11,'cm^3/(mol*s)'), n=0, Ea=(-1950,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """Training reaction from kinetics library: Klippenstein_Glarborg2016""",
-    longDesc = 
+    longDesc =
 """
 Taken from entry CH3C(O)OO + HO2 <=> CH3C(O)O + OH + O2
 which is based on the experimental rate from Gross et al. in J. Phys. Chem. (2014)
@@ -95,9 +95,9 @@ entry(
     kinetics = Arrhenius(A=(1.6e+12,'cm^3/(mol*s)'), n=0, Ea=(31.4,'kJ/mol'), T0=(1,'K'), Tmin=(243,'K'), Tmax=(293,'K')),
     rank = 1,
     shortDesc = """Table 2.9 from Denisov et al. (1999)""",
-    longDesc = 
+    longDesc =
 """
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
@@ -111,9 +111,9 @@ entry(
     kinetics = Arrhenius(A=(2e+12,'cm^3/(mol*s)'), n=0, Ea=(37.7,'kJ/mol'), T0=(1,'K'), Tmin=(303,'K'), Tmax=(329,'K')),
     rank = 1,
     shortDesc = """Table 2.9 from Denisov et al. (1999)""",
-    longDesc = 
+    longDesc =
 """
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
@@ -127,9 +127,9 @@ entry(
     kinetics = Arrhenius(A=(1.6e+12,'cm^3/(mol*s)'), n=0, Ea=(25.1,'kJ/mol'), T0=(1,'K'), Tmin=(164,'K'), Tmax=(243,'K')),
     rank = 2,
     shortDesc = """Table 2.9 from Denisov et al. (1999)""",
-    longDesc = 
+    longDesc =
 """
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043

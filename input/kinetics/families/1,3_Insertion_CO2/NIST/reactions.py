@@ -31,7 +31,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001636
 Pressure dependence: Rate constant is pressure dependent
@@ -71,7 +71,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001636
 Pressure dependence: Rate constant is pressure dependent
@@ -111,7 +111,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001636
 Bath gas: HCOOH
@@ -145,7 +145,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001636
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001636/rk00000001.xml
@@ -178,7 +178,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001636
 Pressure dependence: Rate constant is high pressure limit
@@ -212,7 +212,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Derived from fitting to a complex mechanism""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001645
 Uncertainty: 1.86
@@ -247,7 +247,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""High or low pressure extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001645
 Uncertainty: 2.0
@@ -281,7 +281,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001645
 Uncertainty: 1.41
@@ -316,7 +316,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001645
 Bath gas: CH3CH=CH2
@@ -349,7 +349,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001645
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00001645/rk00000001.xml
@@ -382,7 +382,7 @@ entry(
     ),
     referenceType = "theory",
     shortDesc = u"""Transition state theory""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00001645
 """,
@@ -412,7 +412,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00003987
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00003987/rk00000001.xml
@@ -446,7 +446,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008316
 Excitation technique: Thermal
@@ -478,7 +478,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008316
 Excitation technique: Thermal
@@ -509,7 +509,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008316
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008316/rk00000001.xml
@@ -544,7 +544,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00006301
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00006301/rk00000001.xml
@@ -578,7 +578,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00012860
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012860/rk00000001.xml
@@ -611,7 +611,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00014891
 Bath gas: He
@@ -642,7 +642,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00014891
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00014891/rk00000001.xml
@@ -674,7 +674,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015735
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015735/rk00000001.xml
@@ -706,7 +706,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00012640
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000001.xml
@@ -740,7 +740,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00012640
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00012640/rk00000002.xml
@@ -773,7 +773,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""High or low pressure extrapolation""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00004480
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00004480/rk00000001.xml
@@ -806,7 +806,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015737
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015737/rk00000001.xml
@@ -841,7 +841,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00008130
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00008130/rk00000001.xml
@@ -881,7 +881,7 @@ entry(
     ),
     referenceType = "experiment",
     shortDesc = u"""Absolute value measured directly""",
-    longDesc = 
+    longDesc =
 u"""
 PrIMe Reaction: r00015736
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00015736/rk00000001.xml

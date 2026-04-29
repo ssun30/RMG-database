@@ -9,7 +9,7 @@ longDesc = u"""
 entry(
     index = 0,
     label = "R",
-    group = 
+    group =
 """
 1 * R u0
 """,
@@ -20,7 +20,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""dummy root""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -29,7 +29,7 @@ u"""
 entry(
     index = 10,
     label = "ketene",
-    group = 
+    group =
 """
 1 * C u0 {2,D} {3,S} {4,S}
 2   C u0 {1,D} {5,D}
@@ -44,7 +44,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""All the corrections from this family are from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -53,7 +53,7 @@ u"""
 entry(
     index = 13,
     label = "ketene_2C-C",
-    group = 
+    group =
 """
 1 * C       u0 {2,D} {3,S} {4,S}
 2   C       u0 {1,D} {5,D}
@@ -70,7 +70,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NN2 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -79,7 +79,7 @@ u"""
 entry(
     index = 11,
     label = "ketene_1C-C_1C-H",
-    group = 
+    group =
 """
 1 * C       u0 {2,D} {3,S} {4,S}
 2   C       u0 {1,D} {5,D}
@@ -98,7 +98,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NN1 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -107,7 +107,7 @@ u"""
 entry(
     index = 14,
     label = "biketene",
-    group = 
+    group =
 """
 1    C   u0 {2,S} {3,S} {4,S} {5,S}
 2    C   u0 {1,S} {6,D}
@@ -127,7 +127,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NN3 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -136,7 +136,7 @@ u"""
 entry(
     index = 12,
     label = "ketene_2C-H",
-    group = 
+    group =
 """
 1  * C u0 {2,D} {3,S} {4,S}
 2    C u0 {1,D} {5,D}
@@ -157,7 +157,7 @@ entry(
         S298 = (0,'cal/(mol*K)'),
     ),
     shortDesc = u"""This is correction NN0 from Sumathi & Green, J. Phys. Chem. A, 2002, 106, 7937-7949""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,

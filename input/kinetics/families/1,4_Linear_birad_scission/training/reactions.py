@@ -19,7 +19,7 @@ entry(
         T0 = (1, 'K')),
     rank = 5,
     shortDesc = u"""Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7""",
-    longDesc = 
+    longDesc =
 u"""
 calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
 """,

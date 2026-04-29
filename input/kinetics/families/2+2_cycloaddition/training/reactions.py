@@ -12,7 +12,7 @@ entry(
     degeneracy = 2.0,
     kinetics = Arrhenius(A=(4.66e+06,'cm^3/(mol*s)','*|/',5), n=1.65, Ea=(226.564,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: db_2H;mb_OC
 """,
@@ -25,7 +25,7 @@ entry(
     kinetics = Arrhenius(A=(0.2319,'cm^3/(mol*s)','*|/',5), n=3.416, Ea=(322.616,'kJ/mol'), T0=(1,'K'), Tmin=(600,'K'), Tmax=(2000,'K')),
     rank = 11,
     shortDesc = """MRH CBS-QB3 calculations with 1d h.r. corrections""",
-    longDesc = 
+    longDesc =
 """
 MRH CBS-QB3 calculations for the reverse of the reaction sequence *CH2-cycle(CH-CH2-O-O) => *CH2-O-O-CH=CH2 ==> CH2O + CH2CHO
 
@@ -62,11 +62,11 @@ entry(
     kinetics = Arrhenius(A=(1.05605e+06,'cm^3/(mol*s)'), n=1.86, Ea=(232.9,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 11,
     shortDesc = """Converted to training reaction from rate rule: db;doublebond""",
-    longDesc = 
+    longDesc =
 """
-Kinetics fitted from reverse direction using rate of 
+Kinetics fitted from reverse direction using rate of
 
-C3H6O <=> C2H4 + CH2O, low or high pressure extrapolation with thermal excitation technique, taken from 
+C3H6O <=> C2H4 + CH2O, low or high pressure extrapolation with thermal excitation technique, taken from
 
 Zalotai, L. et al, Kinetics of gas phase decomposition of oxetan and oxetan-2,2-d2, Int. J. Chem. Kinet., 15, 505, 1983
 http://kinetics.nist.gov/kinetics/Detail?id=1983ZAL/HUN505:1

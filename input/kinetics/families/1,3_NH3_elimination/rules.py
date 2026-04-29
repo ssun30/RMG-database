@@ -14,7 +14,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 4 training reactions at node Root
 Total Standard Deviation in ln(k): 7.858554474439377""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 4 training reactions at node Root
 Total Standard Deviation in ln(k): 7.858554474439377
@@ -29,7 +29,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 3 training reactions at node Root_Sp-3R!H-2R!H
 Total Standard Deviation in ln(k): 2.905743140982356""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 3 training reactions at node Root_Sp-3R!H-2R!H
 Total Standard Deviation in ln(k): 2.905743140982356
@@ -44,7 +44,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_N-Sp-3R!H-2R!H
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_N-Sp-3R!H-2R!H
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -59,7 +59,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_Sp-3R!H-2R!H_Ext-3R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_Sp-3R!H-2R!H_Ext-3R!H-R
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -74,7 +74,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_Sp-3R!H-2R!H_2R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_Sp-3R!H-2R!H_2R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994
@@ -89,7 +89,7 @@ entry(
     rank = 11,
     shortDesc = """BM rule fitted to 1 training reactions at node Root_Sp-3R!H-2R!H_N-2R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994""",
-    longDesc = 
+    longDesc =
 """
 BM rule fitted to 1 training reactions at node Root_Sp-3R!H-2R!H_N-2R!H->C
 Total Standard Deviation in ln(k): 11.540182761524994

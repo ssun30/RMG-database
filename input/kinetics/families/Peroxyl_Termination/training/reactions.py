@@ -68,7 +68,7 @@ entry(
     shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
     longDesc =
 u"""
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
@@ -85,7 +85,7 @@ entry(
     shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
     longDesc =
 u"""
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
@@ -102,7 +102,7 @@ entry(
     shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
     longDesc =
 u"""
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
@@ -119,7 +119,7 @@ entry(
     shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
     longDesc =
 u"""
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
@@ -136,7 +136,7 @@ entry(
     shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
     longDesc =
 u"""
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
@@ -154,7 +154,7 @@ entry(
     shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
     longDesc =
 u"""
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
@@ -172,7 +172,7 @@ entry(
     shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
     longDesc =
 u"""
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
@@ -190,7 +190,7 @@ entry(
     shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
     longDesc =
 u"""
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
@@ -208,7 +208,7 @@ entry(
     shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
     longDesc =
 u"""
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043
@@ -226,7 +226,7 @@ entry(
     shortDesc = u"""Table 2.9 from Denisov et al. (1999)""",
     longDesc =
 u"""
-Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants, 
+Based on Table 2.9 (experimental rates) from Handbook of Antioxidants: Bond Dissociation Energies, Rate Constants,
 Activation Energies, and Enthalpies of Reactions, Second Edition by Evgeny T. Denisov, Taissa Denisova (1999).
 ISBN 9780849390043 - CAT# 9004
 https://www.crcpress.com/Handbook-of-Antioxidants-Bond-Dissociation-Energies-Rate-Constants-Activation/Denisov-Denisova/p/book/9780849390043

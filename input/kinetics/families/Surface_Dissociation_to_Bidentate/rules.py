@@ -8,7 +8,7 @@ longDesc = u"""
 
 entry(
     index = 1,
-    label = "Combined;VacantSite1;VacantSite2", 
+    label = "Combined;VacantSite1;VacantSite2",
     kinetics = SurfaceArrheniusBEP(
         A = (1.41E22, 'm^4/(mol^2*s)'),
         n = 0.0,
@@ -23,7 +23,7 @@ entry(
 A and n factors are from the average rates of training reactions 1-2 and reverse of 3-4, and alpha and E0 are BEP
 parameters from training reactions 1-2 and reverse of 3-4.
 
-Details on the computational method to derive the rate constants for the BEP relation are provided in "Automatic mechanism generation involving 
+Details on the computational method to derive the rate constants for the BEP relation are provided in "Automatic mechanism generation involving
 kinetics of surface reactions with bidentate adsorbates" by B. Kreitz, K. Blöndal, K. Badger, R. H. West and C. F. Goldsmith, Digital Discovery, 2024, 3, 173
 doi:10.1039/d3dd00184a
 """

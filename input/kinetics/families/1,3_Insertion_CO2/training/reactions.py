@@ -14,7 +14,7 @@ entry(
     kinetics = Arrhenius(A=(1.51e+09,'cm^3/(mol*s)'), n=1.23, Ea=(309.198,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 5,
     shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 """
 Degeneracy not recalculated
 
@@ -29,7 +29,7 @@ entry(
     kinetics = Arrhenius(A=(36240,'cm^3/(mol*s)'), n=2.83, Ea=(331.373,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 5,
     shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: CO2_Cdd;C_methane
 """,
@@ -42,7 +42,7 @@ entry(
     kinetics = Arrhenius(A=(130800,'cm^3/(mol*s)'), n=2.56, Ea=(320.494,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 5,
     shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: CO2_Cdd;C_pri/NonDeC
 """,
@@ -55,7 +55,7 @@ entry(
     kinetics = Arrhenius(A=(424000,'cm^3/(mol*s)'), n=2.13, Ea=(322.168,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 5,
     shortDesc = """[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: CO2_Cdd;C/H2/NonDeC
 """,
@@ -68,7 +68,7 @@ entry(
     kinetics = Arrhenius(A=(292,'cm^3/(mol*s)'), n=3.13, Ea=(493.712,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(1500,'K')),
     rank = 10,
     shortDesc = """Aaron Vandeputte calculation for methylpropanate using BMK/CBSB7""",
-    longDesc = 
+    longDesc =
 """
 Converted to training reaction from rate rule: CO2_Od;C_methyl_C_pri
 """,
@@ -81,7 +81,7 @@ entry(
     kinetics = Arrhenius(A=(2.04107e-05,'cm^3/(mol*s)'), n=5.03741, Ea=(330.096,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.75369, dn = +|- 0.0745346, dEa = +|- 0.384339 kJ/mol"""),
     rank = 4,
     shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
 """
 Original entry: p001956_0 + p010048_1 <=> r001958
 Calculated by Kevin Spiekermann
@@ -98,7 +98,7 @@ entry(
     kinetics = Arrhenius(A=(0.00462404,'cm^3/(mol*s)'), n=4.43694, Ea=(287.389,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.15053, dn = +|- 0.0186065, dEa = +|- 0.0959448 kJ/mol"""),
     rank = 4,
     shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
 """
 Original entry: p002395_0 + p010048_1 <=> r002395
 Calculated by Kevin Spiekermann
@@ -115,7 +115,7 @@ entry(
     kinetics = Arrhenius(A=(0.0798156,'cm^3/(mol*s)'), n=3.39053, Ea=(304.609,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(2000,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.33054, dn = +|- 0.0378939, dEa = +|- 0.195401 kJ/mol"""),
     rank = 4,
     shortDesc = """CCSD(T)-F12a/cc-pVDZ-F12//wB97X-D3/def2-TZVP""",
-    longDesc = 
+    longDesc =
 """
 Original entry: p010048_0 + p010048_1 <=> r010048
 Calculated by Kevin Spiekermann

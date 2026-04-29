@@ -4,8 +4,8 @@
 name = "Surface_Adsorption_Bidentate/groups"
 shortDesc = u""
 longDesc = u"""
-Bidentate adsorption of a gas-phase species onto the surface. 
-The multiple-bond in the gas-phase species is decrease; 
+Bidentate adsorption of a gas-phase species onto the surface.
+The multiple-bond in the gas-phase species is decrease;
 the atoms at either end are each singled bonded to the surface.
 
  *1=*2                *1-*2
@@ -81,7 +81,7 @@ forbidden(
     shortDesc = u"""""",
     longDesc =
 u"""
-The adsorbing molecule should not have a charge on the surface. 
+The adsorbing molecule should not have a charge on the surface.
 I've written it specifically for the case of CO adsorption for now.
 
 e.g. this is not allowed:
@@ -102,7 +102,7 @@ forbidden(
     shortDesc = u"""""",
     longDesc =
 u"""
-The adsorbing molecule should not have a charge on the surface. 
+The adsorbing molecule should not have a charge on the surface.
 I've written it specifically for the case of CO adsorption for now.
 e.g. this is not allowed:
 

@@ -87,7 +87,7 @@ entry(
     label = "H2S + CH2O <=> CH2OHSH",
     degeneracy = 1,
     kinetics = Arrhenius(A=(50.2, 'cm^3/(mol*s)'), n=3.01, Ea=(38.7, 'kcal/mol'), T0=(1, 'K')),
-    longDesc = 
+    longDesc =
 u"""
 3rd pathway, form aldehyde from first product (reverse)
 """,
@@ -105,7 +105,7 @@ entry(
     label = "CO + H2O <=> CO2 + H2",
     degeneracy = 1,
     kinetics = Arrhenius(A=(5000, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kcal/mol'), T0=(1, 'K')),
-	longDesc = 
+	longDesc =
 u"""
 Approximate water-gas shift reaction
 """,

@@ -8,7 +8,7 @@ Foundational Fuel Chemistry Model Version 1.0 (excited species removed)
 http://web.stanford.edu/group/haiwanglab/FFCM1/pages/FFCM1.html
 
 FFCM-1
-H2/CO/C1 reaction model - Chemkin form - version v1.0c 
+H2/CO/C1 reaction model - Chemkin form - version v1.0c
 Release date: 05/31/3016.
 
 G. P. Smith, Y. Tao, and H. Wang, Foundational Fuel Chemistry Model Version 1.0 (FFCM-1),
@@ -2452,7 +2452,7 @@ entry(
         efficiencies = {'[H][H]': 2.00, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'C#C': 3.00, 'C=C': 3.00, 'CC': 3.00},
         comment = 'Warning: SRI parameters from chemkin file ignored on import.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Warning: SRI parameters from chemkin file ignored on import.
 """,
@@ -2474,7 +2474,7 @@ entry(
         efficiencies = {'[H][H]': 2.00, 'O': 6.00, '[C-]#[O+]': 1.50, 'O=C=O': 2.00, 'C': 2.00, 'C=O': 2.50, 'CO': 3.00, 'C#C': 3.00, 'C=C': 3.00, 'CC': 3.00},
         comment = 'Warning: SRI parameters from chemkin file ignored on import.',
     ),
-    longDesc = 
+    longDesc =
 u"""
 Warning: SRI parameters from chemkin file ignored on import.
 """,

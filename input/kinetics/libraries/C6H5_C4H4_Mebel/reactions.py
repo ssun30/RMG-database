@@ -89,7 +89,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 1375 K with MAE of 1.9%, 4.6%
 fit btw. 500 and 1650 K with MAE of 2.8%, 6.0%
@@ -156,7 +156,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 800 K with MAE of 4.3%, 7.4%
 fit btw. 500 and 1000 K with MAE of 1.6%, 2.7%
@@ -238,7 +238,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 1250 K with MAE of 0.7%, 2.6%
 fit btw. 500 and 1375 K with MAE of 1.6%, 3.8%
@@ -320,7 +320,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 1250 K with MAE of 0.5%, 1.5%
 fit btw. 500 and 1500 K with MAE of 3.0%, 7.7%
@@ -392,7 +392,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 800 K with MAE of 7.9%, 13.7%
 fit btw. 500 and 1000 K with MAE of 2.4%, 5.5%
@@ -474,7 +474,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 1125 K with MAE of 1.1%, 2.5%
 fit btw. 500 and 1375 K with MAE of 3.1%, 6.3%
@@ -556,7 +556,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 2500 K with MAE of 2.0%, 5.3%
 fit btw. 600 and 2500 K with MAE of 7.5%, 17.2%
@@ -676,7 +676,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 2500 K with MAE of 0.9%, 2.7% from P2
 fit btw. 500 and 2500 K with MAE of 1.2%, 3.1% from P3
@@ -762,7 +762,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 2500 K with MAE of 5.0%, 18.5%
 fit btw. 500 and 2500 K with MAE of 6.7%, 16.3%
@@ -844,7 +844,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 2500 K with MAE of 2.8%, 10.3%
 fit btw. 500 and 2500 K with MAE of 8.8%, 18.5%
@@ -916,7 +916,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 2500 K with MAE of 9.8%, 18.0%
 fit btw. 500 and 2500 K with MAE of 1.4%, 3.9%
@@ -1046,7 +1046,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 1125 K with MAE of 0.3%, 0.8% from P2
 fit btw. 500 and 1125 K with MAE of 0.7%, 1.3% from P3
@@ -1180,7 +1180,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 2500 K with MAE of 1.5%, 2.7% from P2
 fit btw. 500 and 2500 K with MAE of 1.3%, 2.0% from P3
@@ -1266,7 +1266,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 1375 K with MAE of 2.2%, 6.2%
 fit btw. 500 and 1650 K with MAE of 3.2%, 8.6%
@@ -1348,7 +1348,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 2500 K with MAE of 0.7%, 1.2%
 fit btw. 500 and 2500 K with MAE of 3.5%, 7.6%
@@ -1425,7 +1425,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 2500 K with MAE of 1.1%, 2.6%
 fit btw. 500 and 2500 K with MAE of 1.7%, 3.3%
@@ -1507,7 +1507,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 1250 K with MAE of 0.8%, 1.3%
 fit btw. 500 and 1375 K with MAE of 1.6%, 3.1%
@@ -1589,7 +1589,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 1250 K with MAE of 1.1%, 2.4%
 fit btw. 500 and 1500 K with MAE of 5.1%, 20.8%
@@ -1671,7 +1671,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 2500 K with MAE of 6.0%, 22.1%
 fit btw. 600 and 2500 K with MAE of 9.0%, 24.4%
@@ -1796,7 +1796,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 2500 K with MAE of 6.8%, 24.2% from P3
 fit btw. 500 and 2500 K with MAE of 1.8%, 6.8% from P2
@@ -1882,7 +1882,7 @@ entry(
             ),
         ],
     ),
-    longDesc = 
+    longDesc =
 u"""
 fit btw. 500 and 2500 K with MAE of 2.6%, 9.1%
 fit btw. 500 and 2500 K with MAE of 11.0%, 21.9%

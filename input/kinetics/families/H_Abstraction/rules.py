@@ -14,7 +14,7 @@ or in a section(s) titled 'General'
 .. [MRHCBSQB3RRHO] M.R. Harper (mrharper_at_mit_dot_edu or michael.harper.jr_at_gmail_dot_com)
 The geometries of all reactants, products, and the transition state were optimized using the CBS-QB3 calculations.  The zero-point
 energy is that computed by the CBS-QB3 calculations.  The frequencies were computed with B3LYP/CBSB7.
-In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the 
+In computing k(T), an asymmetric tunneling correction was employed, the calculated frequencies were scaled by 0.99, and the
 temperatures used were: 300, 331, 370, 419, 482, 568, 692, 885, 1227, 2000 (evenly spaced on inverse temperature scale).
 
 .. [Tsang1990] W. Tsang; "Chemical kinetic database for combustion chemistry. Part IV. Isobutane" J. Phys. Chem. Ref. Data 19 (1990) 1-68
@@ -34,13 +34,13 @@ entry(
     ),
     rank = 0,
     shortDesc = u"""Default""",
-    longDesc = 
+    longDesc =
 u"""
-If a biradical CH2JJ can abstract from RCH4 to make RCH3J and CH3J 
-then a Y_rad CH3J should be able to abstract from RCH3J which means X_H needs 
+If a biradical CH2JJ can abstract from RCH4 to make RCH3J and CH3J
+then a Y_rad CH3J should be able to abstract from RCH3J which means X_H needs
 to include Xrad_H. I.e. you can abstract from a radical. To make this possible
 a head node has been created X_H_or_Xrad_H which is a union of X_H and Xrad_H.
-The kinetics for it have just been copied from X_H and are only defined for 
+The kinetics for it have just been copied from X_H and are only defined for
 abstraction by Y_rad_birad. I.e. the top level very approximate guess.
 
 Do better kinetics for this exist? Do we in fact use the reverse kinetics anyway?

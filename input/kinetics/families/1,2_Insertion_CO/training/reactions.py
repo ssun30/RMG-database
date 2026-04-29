@@ -21,7 +21,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Some of the tortional motions in the alkyl part of the
 transition states are treated as free rotations as they are relatively loose TSs.
@@ -44,7 +44,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Some of the tortional motions in the alkyl part of the
 transition states are treated as free rotations as they are relatively loose TSs.
@@ -67,7 +67,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Some of the tortional motions in the alkyl part of the
 transition states are treated as free rotations as they are relatively loose TSs.
@@ -90,7 +90,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Some of the tortional motions in the alkyl part of the
 transition states are treated as free rotations as they are relatively loose TSs.
@@ -113,7 +113,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Some of the tortional motions in the alkyl part of the
 transition states are treated as free rotations as they are relatively loose TSs.
@@ -136,7 +136,7 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""[87]CBS-QB3 calculations from Sumathi 2003.""",
-    longDesc = 
+    longDesc =
 u"""
 Converted to training reaction from rate rule: CO;C/H/Cs3
 """,
@@ -156,9 +156,9 @@ entry(
     ),
     rank = 5,
     shortDesc = u"""CBS-QB3 calculations by Franklin, 2010""",
-    longDesc = 
+    longDesc =
 u"""
-CBS-QB3 calculations by CFG, Jan 2010 
+CBS-QB3 calculations by CFG, Jan 2010
 Methyl group was hindered rotor. ester CO bond also a rotor.
 
 Converted to training reaction from rate rule: CO;CsO_H

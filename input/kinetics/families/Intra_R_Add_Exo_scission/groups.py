@@ -22,7 +22,7 @@ boundaryAtoms = ["*1", "*2"]
 entry(
     index = 0,
     label = "Rn-Cs-Cb",
-    group = 
+    group =
 """
 1 *1 C  u1 {2,S}
 2 *3 C  u0 {1,S} {3,S}
@@ -34,7 +34,7 @@ entry(
 entry(
     index = 1,
     label = "rad",
-    group = 
+    group =
 """
 1 *1 C u1
 """,
@@ -44,7 +44,7 @@ entry(
 entry(
     index = 2,
     label = "Cs-Cb",
-    group = 
+    group =
 """
 1 *3 C  u0 {2,S}
 2 *2 Cb u0 {1,S}
@@ -55,7 +55,7 @@ entry(
 entry(
     index = 3,
     label = "rad-Ct",
-    group = 
+    group =
 """
 1 *1 C  u1 {2,S}
 2    Ct u0 {1,S}
@@ -66,7 +66,7 @@ entry(
 entry(
     index = 4,
     label = "rad-HH",
-    group = 
+    group =
 """
 1 *1 C u1 {2,S} {3,S}
 2    H u0 {1,S}
@@ -87,7 +87,7 @@ L1: Cs-Cb
 
 forbidden(
     label = "1H_naphthalene_1",
-    group = 
+    group =
 """
 1  *1 Cs u1 {2,S} {10,S}
 2     Cd u0 {1,S} {3,D}
@@ -101,7 +101,7 @@ forbidden(
 10 *3 C  u0 {1,S} {9,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a 1H_naphthalene radical  from isomerizing to benzofulvenyl radical in one step using this family. No transition state was
 found for such a reaction.
@@ -110,7 +110,7 @@ found for such a reaction.
 
 forbidden(
     label = "1H_naphthalene_2",
-    group = 
+    group =
 """
 1  *1 Cs u1 {2,S} {10,S}
 2     Cd u0 {1,S} {3,D}
@@ -124,7 +124,7 @@ forbidden(
 10 *3 C  u0 {1,S} {9,S}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a 1H_naphthalene radical  from isomerizing to benzofulvenyl radical in one step using this family. No transition state was
 found for such a reaction.
@@ -133,7 +133,7 @@ found for such a reaction.
 
 forbidden(
     label = "Benzofulvenyl_1",
-    group = 
+    group =
 """
 1  *1 C  u1 {2,S}
 2  *3 Cs u0 {1,S} {3,S} {10,S}
@@ -147,7 +147,7 @@ forbidden(
 10 *2 Cb u0 {2,S} {5,B} {9,B}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a benzofulvenyl radical  from isomerizing to 1H_naphthalene in one step using this family. No transition state was
 found for such a reaction.
@@ -156,7 +156,7 @@ found for such a reaction.
 
 forbidden(
     label = "Benzofulvenyl_2",
-    group = 
+    group =
 """
 1  *1 C  u1 {2,S}
 2  *3 Cs u0 {1,S} {3,S} {10,S}
@@ -170,7 +170,7 @@ forbidden(
 10 *2 Cb u0 {2,S} {5,B} {9,B}
 """,
     shortDesc = u"""""",
-    longDesc = 
+    longDesc =
 u"""
 Forbid a benzofulvenyl radical  from isomerizing to 1H_naphthalene in one step using this family. No transition state was
 found for such a reaction.

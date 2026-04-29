@@ -3,23 +3,23 @@
 
 name = "ring"
 shortDesc = u""
-longDesc = u""" 
+longDesc = u"""
 All groups are fitted using experimental solute parameter data unless written otherwise.
-See Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H., 
+See Chung, Y., Vermeire, F. H., Wu, H., Walker, P. J., Abraham, M. H.,
 & Green, W. H. (2022). J. Chem. Inf. Model, 62(3), 433-446.
 """
 
 entry(
 	index = 1,
 	label = "Ring",
-	group = 
+	group =
 """
 1 * R u0
 """,
 	solute = None,
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -28,14 +28,14 @@ u"""
 entry(
 	index = 2,
 	label = "Aromatic",
-	group = 
+	group =
 """
 1 * Cb u0
 """,
 	solute = u'Benzene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -44,7 +44,7 @@ u"""
 entry(
 	index = 3,
 	label = "Benzene",
-	group = 
+	group =
 """
 1 * Cb u0 {2,B} {6,B}
 2   Cb u0 {1,B} {3,B}
@@ -68,7 +68,7 @@ entry(
 		A = 3192,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -77,7 +77,7 @@ u"""
 entry(
 	index = 4,
 	label = "ThreeMember",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D,T]} {3,[S,D]}
 2   R!H u0 {1,[S,D,T]} {3,[S,D]}
@@ -86,7 +86,7 @@ entry(
 	solute = u'Cyclopropane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -95,7 +95,7 @@ u"""
 entry(
 	index = 5,
 	label = "Cyclopropane",
-	group = 
+	group =
 """
 1 * Cs u0 {2,S} {3,S}
 2   Cs u0 {1,S} {3,S}
@@ -116,7 +116,7 @@ entry(
 		A = 46,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -125,7 +125,7 @@ u"""
 entry(
 	index = 6,
 	label = "Ethylene_oxide",
-	group = 
+	group =
 """
 1 * O2s    u0 {2,S} {3,S}
 2   [Cs,N] u0 {1,S} {3,S}
@@ -146,7 +146,7 @@ entry(
 		A = 21,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -155,7 +155,7 @@ u"""
 entry(
 	index = 7,
 	label = "Ethyleneimine",
-	group = 
+	group =
 """
 1 * N       u0 {2,S} {3,S}
 2   [Cs,N,S]  u0 {1,S} {3,S}
@@ -176,7 +176,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -185,7 +185,7 @@ u"""
 entry(
 	index = 8,
 	label = "FourMember",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D]} {4,[S,D]}
 2   R!H u0 {1,[S,D]} {3,[S,D]}
@@ -195,7 +195,7 @@ entry(
 	solute = u'Cyclobutane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -204,7 +204,7 @@ u"""
 entry(
 	index = 9,
 	label = "Cyclobutane",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {4,S}
 2   C  u0 {1,S} {3,S}
@@ -226,7 +226,7 @@ entry(
 		A = 21,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -235,7 +235,7 @@ u"""
 entry(
 	index = 10,
 	label = "Oxetane",
-	group = 
+	group =
 """
 1 * O2s  u0 {2,S} {4,S}
 2   C    u0 {1,S} {3,S}
@@ -257,7 +257,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -266,7 +266,7 @@ u"""
 entry(
 	index = 11,
 	label = "Beta-Propiolactone",
-	group = 
+	group =
 """
 1 * O2s      u0 {2,S} {4,S}
 2   C        u0 {1,S} {3,S}
@@ -288,7 +288,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -297,7 +297,7 @@ u"""
 entry(
 	index = 12,
 	label = "Azetidine",
-	group = 
+	group =
 """
 1 * N       u0 {4,S} {2,S}
 2   [Cs,N,O,S]  u0 {1,S} {3,S}
@@ -319,7 +319,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -328,7 +328,7 @@ u"""
 entry(
 	index = 13,
 	label = "FiveMember",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D,T]} {5,[S,D]}
 2   R!H u0 {1,[S,D,T]} {3,[S,D]}
@@ -339,7 +339,7 @@ entry(
 	solute = u'Cyclopentane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -348,7 +348,7 @@ u"""
 entry(
 	index = 14,
 	label = "five-0double",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {5,S}
 2   R!H u0 {1,S} {3,S}
@@ -371,7 +371,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -380,7 +380,7 @@ u"""
 entry(
 	index = 15,
 	label = "Cyclopentane",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {5,S}
 2   C  u0 {1,S} {3,S}
@@ -403,7 +403,7 @@ entry(
 		A = 74,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -412,7 +412,7 @@ u"""
 entry(
 	index = 16,
 	label = "Cyclopentanone",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {5,S}
 2   Cs  u0 {1,S} {3,S}
@@ -435,7 +435,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -444,7 +444,7 @@ u"""
 entry(
 	index = 17,
 	label = "Cyclopentanol",
-	group = 
+	group =
 """
 1 * Cs       u0 {2,S} {5,S} {6,S}
 2   [Cs,Cb]  u0 {1,S} {3,S}
@@ -469,7 +469,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -478,7 +478,7 @@ u"""
 entry(
 	index = 18,
 	label = "methylenecyclopentane",
-	group = 
+	group =
 """
 1 * Cd     u0 {2,S} {5,S} {6,D}
 2   Cs     u0 {1,S} {3,S}
@@ -502,7 +502,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -511,7 +511,7 @@ u"""
 entry(
 	index = 19,
 	label = "Tetrahydrofuran",
-	group = 
+	group =
 """
 1 * O  u0 {2,S} {5,S}
 2   C  u0 {1,S} {3,S}
@@ -534,7 +534,7 @@ entry(
 		A = 38,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -543,7 +543,7 @@ u"""
 entry(
 	index = 20,
 	label = "butyrolactone",
-	group = 
+	group =
 """
 1   CO   u0 {2,S} {5,S}
 2 * O2s  u0 {1,S} {3,S}
@@ -566,7 +566,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -575,7 +575,7 @@ u"""
 entry(
 	index = 21,
 	label = "Pyrrolidine",
-	group = 
+	group =
 """
 1 * N  u0 {2,S} {5,S}
 2   C  u0 {1,S} {3,S}
@@ -586,7 +586,7 @@ entry(
 	solute = u'Pyrrolidine(N-R)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -595,7 +595,7 @@ u"""
 entry(
 	index = 22,
 	label = "Pyrrolidine(N-H)",
-	group = 
+	group =
 """
 1 * N  u0 {2,S} {5,S} {6,S}
 2   C  u0 {1,S} {3,S}
@@ -619,7 +619,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -628,7 +628,7 @@ u"""
 entry(
 	index = 23,
 	label = "Pyrrolidine(N-R)",
-	group = 
+	group =
 """
 1 * N    u0 {2,S} {5,S} {6,S}
 2   C    u0 {1,S} {3,S}
@@ -652,7 +652,7 @@ entry(
 		A = 32,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -661,7 +661,7 @@ u"""
 entry(
 	index = 24,
 	label = "1,3-Dioxolane",
-	group = 
+	group =
 """
 1 * C      u0 {2,S} {5,S}
 2   O      u0 {1,S} {3,S}
@@ -684,7 +684,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -693,7 +693,7 @@ u"""
 entry(
 	index = 25,
 	label = "thiolane",
-	group = 
+	group =
 """
 1 * S u0 {2,S} {5,S}
 2   C u0 {1,S} {3,S}
@@ -716,7 +716,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -725,7 +725,7 @@ u"""
 entry(
 	index = 26,
 	label = "Imidazolidine",
-	group = 
+	group =
 """
 1 * N u0 {2,S} {5,S}
 2   C u0 {1,S} {3,S}
@@ -736,7 +736,7 @@ entry(
 	solute = u'imidazolidine-2,4-dione',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -745,7 +745,7 @@ u"""
 entry(
 	index = 27,
 	label = "imidazolidine-2,4-dione",
-	group = 
+	group =
 """
 1 * N  u0 {2,S} {5,S}
 2   CO u0 {1,S} {3,S}
@@ -768,7 +768,7 @@ entry(
 		A = 17,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -777,7 +777,7 @@ u"""
 entry(
 	index = 28,
 	label = "five-1double",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {5,S}
 2   R!H u0 {1,S} {3,D}
@@ -800,7 +800,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -809,7 +809,7 @@ u"""
 entry(
 	index = 29,
 	label = "Cyclopentene",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {5,S}
 2   C  u0 {1,S} {3,D}
@@ -832,7 +832,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -841,7 +841,7 @@ u"""
 entry(
 	index = 30,
 	label = "2-pyrroline",
-	group = 
+	group =
 """
 1 * N  u0 {2,S} {5,S}
 2   C  u0 {1,S} {3,D}
@@ -864,7 +864,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -873,7 +873,7 @@ u"""
 entry(
 	index = 31,
 	label = "3-pyrroline",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {5,S}
 2   C  u0 {1,S} {3,D}
@@ -896,7 +896,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -905,7 +905,7 @@ u"""
 entry(
 	index = 32,
 	label = "2-pyrazoline",
-	group = 
+	group =
 """
 1 * N  u0 {2,S} {5,S}
 2   N  u0 {1,S} {3,D}
@@ -928,7 +928,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -937,7 +937,7 @@ u"""
 entry(
 	index = 33,
 	label = "2-imidazoline",
-	group = 
+	group =
 """
 1 * N  u0 {2,S} {5,S}
 2   C  u0 {1,S} {3,D}
@@ -960,7 +960,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -969,7 +969,7 @@ u"""
 entry(
 	index = 34,
 	label = "five-N1NC=CC1",
-	group = 
+	group =
 """
 1 * N  u0 {2,S} {5,S}
 2   C  u0 {1,S} {3,D}
@@ -992,7 +992,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1001,7 +1001,7 @@ u"""
 entry(
 	index = 35,
 	label = "2,5-Dihydrofuran",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {5,S}
 2   C  u0 {1,S} {3,D}
@@ -1012,7 +1012,7 @@ entry(
 	solute = u'5H-furan-2-one',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1021,7 +1021,7 @@ u"""
 entry(
 	index = 36,
 	label = "5H-furan-2-one",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {5,S}
 2   C  u0 {1,S} {3,D}
@@ -1044,7 +1044,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1053,7 +1053,7 @@ u"""
 entry(
 	index = 37,
 	label = "five-2double",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {5,S}
 2   R!H u0 {1,S} {3,D}
@@ -1064,7 +1064,7 @@ entry(
 	solute = u'Furan',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1073,7 +1073,7 @@ u"""
 entry(
 	index = 38,
 	label = "Cyclopentadiene",
-	group = 
+	group =
 """
 1 * C     u0 {2,S} {5,S}
 2   Cd    u0 {1,S} {3,D}
@@ -1096,7 +1096,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1105,7 +1105,7 @@ u"""
 entry(
 	index = 39,
 	label = "Furan",
-	group = 
+	group =
 """
 1 * O      u0 {2,S} {5,S}
 2   Cd     u0 {1,S} {3,D}
@@ -1128,7 +1128,7 @@ entry(
 		A = 61,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1137,7 +1137,7 @@ u"""
 entry(
 	index = 40,
 	label = "1H-Pyrrole",
-	group = 
+	group =
 """
 1 * N      u0 {2,S} {5,S}
 2   Cd     u0 {1,S} {3,D}
@@ -1160,7 +1160,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1169,7 +1169,7 @@ u"""
 entry(
 	index = 41,
 	label = "Thiophene",
-	group = 
+	group =
 """
 1 * S    u0 {2,S} {5,S}
 2   Cd   u0 {1,S} {3,D}
@@ -1192,7 +1192,7 @@ entry(
 		A = 21,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1201,7 +1201,7 @@ u"""
 entry(
 	index = 42,
 	label = "Pyrazole",
-	group = 
+	group =
 """
 1 * N      u0 {2,S} {5,S}
 2   N      u0 {1,S} {3,D}
@@ -1224,7 +1224,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1233,7 +1233,7 @@ u"""
 entry(
 	index = 43,
 	label = "Imidazole",
-	group = 
+	group =
 """
 1 * N      u0 {2,S} {5,S}
 2   Cd     u0 {1,S} {3,D}
@@ -1256,7 +1256,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1265,7 +1265,7 @@ u"""
 entry(
 	index = 44,
 	label = "2-Nitroimidazole",
-	group = 
+	group =
 """
 1 * N      u0 {2,S} {5,S}
 2   Cd     u0 {1,S} {3,D} {6,S}
@@ -1291,7 +1291,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1300,7 +1300,7 @@ u"""
 entry(
 	index = 45,
 	label = "1,2,4-Triazole",
-	group = 
+	group =
 """
 1 * N      u0 {2,S} {5,S}
 2   N      u0 {1,S} {3,D}
@@ -1323,7 +1323,7 @@ entry(
 		A = 22,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1332,7 +1332,7 @@ u"""
 entry(
 	index = 46,
 	label = "Tetrazole",
-	group = 
+	group =
 """
 1 * N      u0 {2,S} {5,S}
 2   N      u0 {1,S} {3,D}
@@ -1355,7 +1355,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1364,7 +1364,7 @@ u"""
 entry(
 	index = 47,
 	label = "2H-Tetrazole",
-	group = 
+	group =
 """
 1 * N      u0 {2,S} {5,S}
 2   N      u0 {1,S} {3,D}
@@ -1387,7 +1387,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1396,7 +1396,7 @@ u"""
 entry(
 	index = 48,
 	label = "Oxazole",
-	group = 
+	group =
 """
 1 * O      u0 {2,S} {5,S}
 2   Cd     u0 {1,S} {3,D}
@@ -1419,7 +1419,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1428,7 +1428,7 @@ u"""
 entry(
 	index = 49,
 	label = "Isoxazole",
-	group = 
+	group =
 """
 1 * O      u0 {2,S} {5,S}
 2   N      u0 {1,S} {3,D}
@@ -1451,7 +1451,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1460,7 +1460,7 @@ u"""
 entry(
 	index = 50,
 	label = "Thiazole",
-	group = 
+	group =
 """
 1 * S      u0 {2,S} {5,S}
 2   Cd     u0 {1,S} {3,D}
@@ -1483,7 +1483,7 @@ entry(
 		A = 29,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1492,7 +1492,7 @@ u"""
 entry(
 	index = 51,
 	label = "1,2,4-Thiadiazole",
-	group = 
+	group =
 """
 1 * S      u0 {2,S} {5,S}
 2   N      u0 {1,S} {3,D}
@@ -1515,7 +1515,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1524,7 +1524,7 @@ u"""
 entry(
 	index = 52,
 	label = "1,3,4-Thiadiazole",
-	group = 
+	group =
 """
 1 * S      u0 {2,S} {5,S}
 2   Cd     u0 {1,S} {3,D}
@@ -1547,7 +1547,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1556,7 +1556,7 @@ u"""
 entry(
 	index = 53,
 	label = "SixMember",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D,T]} {6,[S,D]}
 2   R!H u0 {1,[S,D,T]} {3,[S,D]}
@@ -1568,7 +1568,7 @@ entry(
 	solute = u'Cyclohexane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1577,7 +1577,7 @@ u"""
 entry(
 	index = 54,
 	label = "six-0double",
-	group = 
+	group =
 """
 1 * R!H  u0 {2,S} {6,S}
 2   R!H  u0 {1,S} {3,S}
@@ -1601,7 +1601,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1610,7 +1610,7 @@ u"""
 entry(
 	index = 55,
 	label = "Cyclohexane",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {6,S}
 2   C  u0 {1,S} {3,S}
@@ -1634,7 +1634,7 @@ entry(
 		A = 150,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1643,7 +1643,7 @@ u"""
 entry(
 	index = 56,
 	label = "Cyclohexanone",
-	group = 
+	group =
 """
 1 * CO u0 {2,S} {6,S}
 2   C  u0 {1,S} {3,S}
@@ -1667,7 +1667,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1676,7 +1676,7 @@ u"""
 entry(
 	index = 57,
 	label = "Cyclohexanol",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {6,S} {7,S}
 2   Cs  u0 {1,S} {3,S}
@@ -1702,7 +1702,7 @@ entry(
 		A = 21,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1711,7 +1711,7 @@ u"""
 entry(
 	index = 58,
 	label = "N-Cyclohexylacetamide",
-	group = 
+	group =
 """
 1 * Cs  u0 {2,S} {6,S} {7,S}
 2   Cs  u0 {1,S} {3,S}
@@ -1742,7 +1742,7 @@ entry(
 		A = 12,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1751,7 +1751,7 @@ u"""
 entry(
 	index = 59,
 	label = "1,3-Dioxane",
-	group = 
+	group =
 """
 1   O2s u0 {2,S} {6,S}
 2 * Cs u0 {1,S} {3,S}
@@ -1775,7 +1775,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1784,7 +1784,7 @@ u"""
 entry(
 	index = 60,
 	label = "1,4-Dioxane",
-	group = 
+	group =
 """
 1   Cs u0 {2,S} {6,S}
 2   Cs u0 {1,S} {3,S}
@@ -1808,7 +1808,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1817,7 +1817,7 @@ u"""
 entry(
 	index = 61,
 	label = "1,3,5-Trioxane",
-	group = 
+	group =
 """
 1   Cs u0 {2,S} {6,S}
 2   O2s u0 {1,S} {3,S}
@@ -1841,7 +1841,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1850,7 +1850,7 @@ u"""
 entry(
 	index = 62,
 	label = "Oxane",
-	group = 
+	group =
 """
 1 * C   u0 {2,S} {6,S}
 2   O2s u0 {1,S} {3,S}
@@ -1874,7 +1874,7 @@ entry(
 		A = 44,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1883,7 +1883,7 @@ u"""
 entry(
 	index = 63,
 	label = "4-Hydroxyoxan-2-one",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {6,S}
 2   O2s u0 {1,S} {3,S}
@@ -1909,7 +1909,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1918,7 +1918,7 @@ u"""
 entry(
 	index = 64,
 	label = "Piperidine",
-	group = 
+	group =
 """
 1 * N  u0 {2,S} {6,S}
 2   C  u0 {1,S} {3,S}
@@ -1930,7 +1930,7 @@ entry(
 	solute = u'Piperidine(N-R)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1939,7 +1939,7 @@ u"""
 entry(
 	index = 65,
 	label = "Piperidine(N-H)",
-	group = 
+	group =
 """
 1 * N  u0 {2,S} {6,S} {7,S}
 2   C  u0 {1,S} {3,S}
@@ -1964,7 +1964,7 @@ entry(
 		A = 21,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -1973,7 +1973,7 @@ u"""
 entry(
 	index = 66,
 	label = "Piperidine(N-R)",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S} {7,S}
 2   C   u0 {1,S} {3,S}
@@ -1998,7 +1998,7 @@ entry(
 		A = 53,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2007,7 +2007,7 @@ u"""
 entry(
 	index = 67,
 	label = "1-Piperidinecarboxaldehyde",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S} {7,S}
 2   C   u0 {1,S} {3,S}
@@ -2032,7 +2032,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2041,7 +2041,7 @@ u"""
 entry(
 	index = 68,
 	label = "Piperidine-2,6-dione",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S} {7,S}
 2   CO  u0 {1,S} {3,S}
@@ -2066,7 +2066,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2075,7 +2075,7 @@ u"""
 entry(
 	index = 69,
 	label = "Piperazine",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S}
 2   C   u0 {1,S} {3,S}
@@ -2087,7 +2087,7 @@ entry(
 	solute = u'Piperazine(N-R,N-R)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2096,7 +2096,7 @@ u"""
 entry(
 	index = 70,
 	label = "Piperazine(N-H,N-H)",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S} {7,S}
 2   C   u0 {1,S} {3,S}
@@ -2122,7 +2122,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2131,7 +2131,7 @@ u"""
 entry(
 	index = 71,
 	label = "Piperazine(N-H,N-R)",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S} {7,S}
 2   C   u0 {1,S} {3,S}
@@ -2157,7 +2157,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2166,7 +2166,7 @@ u"""
 entry(
 	index = 72,
 	label = "Piperazine(N-R,N-R)",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S} {7,S}
 2   C   u0 {1,S} {3,S}
@@ -2192,7 +2192,7 @@ entry(
 		A = 45,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2201,7 +2201,7 @@ u"""
 entry(
 	index = 73,
 	label = "Morpholine",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S}
 2   C   u0 {1,S} {3,S}
@@ -2213,7 +2213,7 @@ entry(
 	solute = u'Morpholine(N-R)',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2222,7 +2222,7 @@ u"""
 entry(
 	index = 74,
 	label = "Morpholine(N-H)",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S} {7,S}
 2   C   u0 {1,S} {3,S}
@@ -2247,7 +2247,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2256,7 +2256,7 @@ u"""
 entry(
 	index = 75,
 	label = "Morpholine(N-R)",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S} {7,S}
 2   C   u0 {1,S} {3,S}
@@ -2281,7 +2281,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2290,7 +2290,7 @@ u"""
 entry(
 	index = 76,
 	label = "1,3-Diazinane",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S}
 2   C   u0 {1,S} {3,S}
@@ -2302,7 +2302,7 @@ entry(
 	solute = u'1,3-Diazinane-2,4,6-trione',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2311,7 +2311,7 @@ u"""
 entry(
 	index = 77,
 	label = "1,3-Diazinane-2,4,6-trione",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S}
 2   CO  u0 {1,S} {3,S}
@@ -2335,7 +2335,7 @@ entry(
 		A = 56,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2344,7 +2344,7 @@ u"""
 entry(
 	index = 78,
 	label = "2-Sulfanylidene-1,3-diazinane-4,6-dione",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S}
 2   CS  u0 {1,S} {3,S}
@@ -2368,7 +2368,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2377,7 +2377,7 @@ u"""
 entry(
 	index = 79,
 	label = "1,3,5-Triazinane",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S}
 2   C   u0 {1,S} {3,S}
@@ -2401,7 +2401,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2410,7 +2410,7 @@ u"""
 entry(
 	index = 80,
 	label = "1,3,2-Dioxaphosphorinane",
-	group = 
+	group =
 """
 1 * P   u0 {2,S} {6,S}
 2   O   u0 {1,S} {3,S}
@@ -2422,7 +2422,7 @@ entry(
 	solute = u'1,3,2-Dioxaphosphorinane-2-oxide',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2431,7 +2431,7 @@ u"""
 entry(
 	index = 81,
 	label = "1,3,2-Dioxaphosphorinane-2-oxide",
-	group = 
+	group =
 """
 1 * P5d u0 {2,S} {6,S} {7,D}
 2   O   u0 {1,S} {3,S}
@@ -2456,7 +2456,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2465,7 +2465,7 @@ u"""
 entry(
 	index = 82,
 	label = "six-1double",
-	group = 
+	group =
 """
 1   R!H  u0 {2,S} {6,S}
 2 * R!H  u0 {1,S} {3,D}
@@ -2489,7 +2489,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2498,7 +2498,7 @@ u"""
 entry(
 	index = 83,
 	label = "Cyclohexene",
-	group = 
+	group =
 """
 1   C  u0 {2,S} {6,S}
 2   C  u0 {1,S} {3,S}
@@ -2522,7 +2522,7 @@ entry(
 		A = 67,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2531,7 +2531,7 @@ u"""
 entry(
 	index = 84,
 	label = "Tetrahydropyrimidine",
-	group = 
+	group =
 """
 1   N  u0 {2,S} {6,S}
 2   C  u0 {1,S} {3,S}
@@ -2543,7 +2543,7 @@ entry(
 	solute = u'Uracil',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2552,7 +2552,7 @@ u"""
 entry(
 	index = 85,
 	label = "Uracil",
-	group = 
+	group =
 """
 1   N  u0 {2,S} {6,S}
 2   CO u0 {1,S} {3,S}
@@ -2576,7 +2576,7 @@ entry(
 		A = 61,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2585,7 +2585,7 @@ u"""
 entry(
 	index = 86,
 	label = "1,2,3,6-Tetrahydropyridine",
-	group = 
+	group =
 """
 1   N   u0 {2,S} {6,S}
 2   C   u0 {1,S} {3,S}
@@ -2609,7 +2609,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2618,7 +2618,7 @@ u"""
 entry(
 	index = 87,
 	label = "1,4,5,6-Tetrahydropyridazine",
-	group = 
+	group =
 """
 1   C   u0 {2,S} {6,S}
 2   N3s u0 {1,S} {3,S}
@@ -2630,7 +2630,7 @@ entry(
 	solute = u'4,5-Dihydro-2H-pyridazin-3-one',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2639,7 +2639,7 @@ u"""
 entry(
 	index = 88,
 	label = "4,5-Dihydro-2H-pyridazin-3-one",
-	group = 
+	group =
 """
 1   CO  u0 {2,S} {6,S}
 2   N3s u0 {1,S} {3,S}
@@ -2663,7 +2663,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2672,7 +2672,7 @@ u"""
 entry(
 	index = 89,
 	label = "six-2double-1,3",
-	group = 
+	group =
 """
 1 * R!H  u0 {2,S} {6,S}
 2   R!H  u0 {1,S} {3,D}
@@ -2684,7 +2684,7 @@ entry(
 	solute = u'1,3-Cyclohexadiene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2693,7 +2693,7 @@ u"""
 entry(
 	index = 90,
 	label = "1,3-Cyclohexadiene",
-	group = 
+	group =
 """
 1 * C   u0 {2,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
@@ -2717,7 +2717,7 @@ entry(
 		A = 9,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2726,7 +2726,7 @@ u"""
 entry(
 	index = 91,
 	label = "1,2-Dihydropyridine",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
@@ -2750,7 +2750,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2759,7 +2759,7 @@ u"""
 entry(
 	index = 92,
 	label = "2,3-Dihydropyridine",
-	group = 
+	group =
 """
 1 * C   u0 {2,S} {6,S}
 2   N   u0 {1,S} {3,D}
@@ -2771,7 +2771,7 @@ entry(
 	solute = u'1,2-Dihydropyridine',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2780,7 +2780,7 @@ u"""
 entry(
 	index = 93,
 	label = "1,2-Dihydropyrimidine",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
@@ -2792,7 +2792,7 @@ entry(
 	solute = u'1H-Pyrimidin-2-one',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2801,7 +2801,7 @@ u"""
 entry(
 	index = 94,
 	label = "1H-Pyrimidin-2-one",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
@@ -2825,7 +2825,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2834,7 +2834,7 @@ u"""
 entry(
 	index = 95,
 	label = "N1C=NC=CC1",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
@@ -2846,7 +2846,7 @@ entry(
 	solute = u'3H-Pyrimidin-4-one',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2855,7 +2855,7 @@ u"""
 entry(
 	index = 96,
 	label = "3H-Pyrimidin-4-one",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
@@ -2879,7 +2879,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2888,7 +2888,7 @@ u"""
 entry(
 	index = 97,
 	label = "six-2double-1,4",
-	group = 
+	group =
 """
 1 * R!H  u0 {2,S} {6,S}
 2   R!H  u0 {1,S} {3,D}
@@ -2900,7 +2900,7 @@ entry(
 	solute = u'1,4-Dihydropyridine',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2909,7 +2909,7 @@ u"""
 entry(
 	index = 98,
 	label = "1,4-Cyclohexadiene",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {6,S}
 2   Cd u0 {1,S} {3,D}
@@ -2933,7 +2933,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2942,7 +2942,7 @@ u"""
 entry(
 	index = 99,
 	label = "p-Benzoquinone",
-	group = 
+	group =
 """
 1 * CO  u0 {2,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
@@ -2966,7 +2966,7 @@ entry(
 		A = 11,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -2975,7 +2975,7 @@ u"""
 entry(
 	index = 100,
 	label = "1,4-Dihydropyridine",
-	group = 
+	group =
 """
 1 * N  u0 {2,S} {6,S}
 2   Cd u0 {1,S} {3,D}
@@ -2999,7 +2999,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3008,7 +3008,7 @@ u"""
 entry(
 	index = 101,
 	label = "3,4-Dihydroxypyridine",
-	group = 
+	group =
 """
 1 * N   u0 {2,S} {6,S}
 2   Cd  u0 {1,S} {3,D}
@@ -3034,7 +3034,7 @@ entry(
 		A = 18,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3043,7 +3043,7 @@ u"""
 entry(
 	index = 102,
 	label = "4H-Pyran",
-	group = 
+	group =
 """
 1 * O  u0 {2,S} {6,S}
 2   Cd u0 {1,S} {3,D}
@@ -3067,7 +3067,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3076,7 +3076,7 @@ u"""
 entry(
 	index = 103,
 	label = "3-Hydroxypyran-4-one",
-	group = 
+	group =
 """
 1 * O  u0 {2,S} {6,S}
 2   Cd u0 {1,S} {3,D}
@@ -3102,7 +3102,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3111,7 +3111,7 @@ u"""
 entry(
 	index = 104,
 	label = "six-3double",
-	group = 
+	group =
 """
 1 * R!H  u0 {2,D} {6,S}
 2   R!H  u0 {1,D} {3,S}
@@ -3123,7 +3123,7 @@ entry(
 	solute = u'Pyridine',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3132,7 +3132,7 @@ u"""
 entry(
 	index = 105,
 	label = "Pyridine",
-	group = 
+	group =
 """
 1 * N   u0 {2,D} {6,S}
 2   C   u0 {1,D} {3,S}
@@ -3156,7 +3156,7 @@ entry(
 		A = 226,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3165,7 +3165,7 @@ u"""
 entry(
 	index = 106,
 	label = "Pyridine-N-oxide",
-	group = 
+	group =
 """
 1 * N5dc  u0 {2,D} {6,S} {7,S}
 2   C     u0 {1,D} {3,S}
@@ -3190,7 +3190,7 @@ entry(
 		A = 13,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3199,7 +3199,7 @@ u"""
 entry(
 	index = 107,
 	label = "Isonicotinamide",
-	group = 
+	group =
 """
 1 * N   u0 {2,D} {6,S}
 2   C   u0 {1,D} {3,S}
@@ -3225,7 +3225,7 @@ entry(
 		A = 35,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3234,7 +3234,7 @@ u"""
 entry(
 	index = 108,
 	label = "NicotinicAcidEster",
-	group = 
+	group =
 """
 1 * N   u0 {2,D} {6,S}
 2   C   u0 {1,D} {3,S}
@@ -3260,7 +3260,7 @@ entry(
 		A = 10,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3269,7 +3269,7 @@ u"""
 entry(
 	index = 109,
 	label = "Pyridazine",
-	group = 
+	group =
 """
 1 * N   u0 {2,D} {6,S}
 2   C   u0 {1,D} {3,S}
@@ -3293,7 +3293,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3302,7 +3302,7 @@ u"""
 entry(
 	index = 110,
 	label = "Pyrimidine",
-	group = 
+	group =
 """
 1 * N   u0 {2,D} {6,S}
 2   C   u0 {1,D} {3,S}
@@ -3326,7 +3326,7 @@ entry(
 		A = 49,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3335,7 +3335,7 @@ u"""
 entry(
 	index = 111,
 	label = "Pyrazine",
-	group = 
+	group =
 """
 1 * N   u0 {2,D} {6,S}
 2   C   u0 {1,D} {3,S}
@@ -3359,7 +3359,7 @@ entry(
 		A = 53,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3368,7 +3368,7 @@ u"""
 entry(
 	index = 112,
 	label = "1,3,5-Triazine",
-	group = 
+	group =
 """
 1 * N   u0 {2,D} {6,S}
 2   C   u0 {1,D} {3,S}
@@ -3380,7 +3380,7 @@ entry(
 	solute = u'2-Methylsulfanyl-1,3,5-triazine',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3389,7 +3389,7 @@ u"""
 entry(
 	index = 113,
 	label = "2-Methylsulfanyl-1,3,5-triazine",
-	group = 
+	group =
 """
 1 * N   u0 {2,D} {6,S}
 2   C   u0 {1,D} {3,S} {7,S}
@@ -3415,7 +3415,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3424,7 +3424,7 @@ u"""
 entry(
 	index = 114,
 	label = "2-Methoxy-1,3,5-triazine",
-	group = 
+	group =
 """
 1 * N   u0 {2,D} {6,S}
 2   C   u0 {1,D} {3,S} {7,S}
@@ -3450,7 +3450,7 @@ entry(
 		A = 7,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3459,7 +3459,7 @@ u"""
 entry(
 	index = 115,
 	label = "SevenMember",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D,T]} {7,[S,D]}
 2   R!H u0 {1,[S,D,T]} {3,[S,D]}
@@ -3472,7 +3472,7 @@ entry(
 	solute = u'Cycloheptane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3481,7 +3481,7 @@ u"""
 entry(
 	index = 116,
 	label = "seven-0double",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {7,S}
 2   R!H u0 {1,S} {3,S}
@@ -3506,7 +3506,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3515,7 +3515,7 @@ u"""
 entry(
 	index = 117,
 	label = "Cycloheptane",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {7,S}
 2   C  u0 {1,S} {3,S}
@@ -3540,7 +3540,7 @@ entry(
 		A = 16,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3549,7 +3549,7 @@ u"""
 entry(
 	index = 118,
 	label = "Oxepane",
-	group = 
+	group =
 """
 1 * O2s u0 {2,S} {7,S}
 2   C   u0 {1,S} {3,S}
@@ -3574,7 +3574,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3583,7 +3583,7 @@ u"""
 entry(
 	index = 119,
 	label = "seven-0double_N",
-	group = 
+	group =
 """
 1 * N  u0 {2,S} {7,S}
 2   C  u0 {1,S} {3,S}
@@ -3608,7 +3608,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3617,7 +3617,7 @@ u"""
 entry(
 	index = 120,
 	label = "seven-1double",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {7,S}
 2   R!H u0 {1,S} {3,S}
@@ -3642,7 +3642,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3651,7 +3651,7 @@ u"""
 entry(
 	index = 121,
 	label = "Cycloheptene",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {7,S}
 2   C  u0 {1,S} {3,S}
@@ -3676,7 +3676,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3685,7 +3685,7 @@ u"""
 entry(
 	index = 122,
 	label = "seven-2double-1,3",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {7,S}
 2   R!H u0 {1,S} {3,S}
@@ -3710,7 +3710,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3719,7 +3719,7 @@ u"""
 entry(
 	index = 123,
 	label = "seven-3double-1,3,5",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {7,S}
 2   R!H u0 {1,S} {3,D}
@@ -3732,7 +3732,7 @@ entry(
 	solute = u'1,3,5-Cycloheptatriene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3741,7 +3741,7 @@ u"""
 entry(
 	index = 124,
 	label = "1,3,5-Cycloheptatriene",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {7,S}
 2   Cd u0 {1,S} {3,D}
@@ -3766,7 +3766,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3775,7 +3775,7 @@ u"""
 entry(
 	index = 125,
 	label = "EightMember",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D]} {8,[S,D]}
 2   R!H u0 {1,[S,D]} {3,[S,D]}
@@ -3789,7 +3789,7 @@ entry(
 	solute = u'Cyclooctane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3798,7 +3798,7 @@ u"""
 entry(
 	index = 126,
 	label = "eight-0double",
-	group = 
+	group =
 """
 1 * R!H u0 {2,S} {8,S}
 2   R!H u0 {1,S} {3,S}
@@ -3812,7 +3812,7 @@ entry(
 	solute = u'Cyclooctane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3821,7 +3821,7 @@ u"""
 entry(
 	index = 127,
 	label = "Cyclooctane",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {8,S}
 2   C  u0 {1,S} {3,S}
@@ -3847,7 +3847,7 @@ entry(
 		A = 15,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3856,7 +3856,7 @@ u"""
 entry(
 	index = 128,
 	label = "Azocane",
-	group = 
+	group =
 """
 1 * N  u0 {2,S} {8,S}
 2   C  u0 {1,S} {3,S}
@@ -3882,7 +3882,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3891,7 +3891,7 @@ u"""
 entry(
 	index = 129,
 	label = "Octasulfur",
-	group = 
+	group =
 """
 1 * S2s u0 {2,S} {8,S}
 2   S2s u0 {1,S} {3,S}
@@ -3917,7 +3917,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3926,7 +3926,7 @@ u"""
 entry(
 	index = 130,
 	label = "eight-1double",
-	group = 
+	group =
 """
 1 * R!H  u0 {2,D} {8,S}
 2   R!H  u0 {1,D} {3,S}
@@ -3940,7 +3940,7 @@ entry(
 	solute = u'Cyclooctene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3949,7 +3949,7 @@ u"""
 entry(
 	index = 131,
 	label = "Cyclooctene",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {8,S}
 2   Cd u0 {1,D} {3,S}
@@ -3975,7 +3975,7 @@ entry(
 		A = 2,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -3984,7 +3984,7 @@ u"""
 entry(
 	index = 132,
 	label = "eight-2double-1,3",
-	group = 
+	group =
 """
 1 * R!H u0 {2,D} {8,S}
 2   R!H u0 {1,D} {3,S}
@@ -3998,7 +3998,7 @@ entry(
 	solute = u'1,3-cyclooctadiene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4007,7 +4007,7 @@ u"""
 entry(
 	index = 133,
 	label = "1,3-cyclooctadiene",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {8,S}
 2   Cd u0 {1,D} {3,S}
@@ -4021,7 +4021,7 @@ entry(
 	solute = u'1,5-cyclooctadiene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4030,7 +4030,7 @@ u"""
 entry(
 	index = 134,
 	label = "eight-2double-1,5",
-	group = 
+	group =
 """
 1 * R!H u0 {2,D} {8,S}
 2   R!H u0 {1,D} {3,S}
@@ -4044,7 +4044,7 @@ entry(
 	solute = u'1,5-cyclooctadiene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4053,7 +4053,7 @@ u"""
 entry(
 	index = 135,
 	label = "1,5-cyclooctadiene",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {8,S}
 2   Cd u0 {1,D} {3,S}
@@ -4079,7 +4079,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4088,7 +4088,7 @@ u"""
 entry(
 	index = 136,
 	label = "eight-4double",
-	group = 
+	group =
 """
 1 * R!H u0 {2,D} {8,S}
 2   R!H u0 {1,D} {3,S}
@@ -4102,7 +4102,7 @@ entry(
 	solute = u'Cyclooctatetraene',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4111,7 +4111,7 @@ u"""
 entry(
 	index = 137,
 	label = "Cyclooctatetraene",
-	group = 
+	group =
 """
 1 * Cd u0 {2,D} {8,S}
 2   Cd u0 {1,D} {3,S}
@@ -4137,7 +4137,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4146,7 +4146,7 @@ u"""
 entry(
 	index = 138,
 	label = "NineMember",
-	group = 
+	group =
 """
 1 * R!H u0 {2,[S,D]} {9,[S,D]}
 2   R!H u0 {1,[S,D]} {3,[S,D]}
@@ -4161,7 +4161,7 @@ entry(
 	solute = u'Cyclononane',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4170,7 +4170,7 @@ u"""
 entry(
 	index = 139,
 	label = "Cyclononane",
-	group = 
+	group =
 """
 1 * C  u0 {2,S} {9,S}
 2   C  u0 {1,S} {3,S}
@@ -4197,7 +4197,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4206,7 +4206,7 @@ u"""
 entry(
 	index = 140,
 	label = "TenMember",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D]} {10,[S,D]}
 2    R!H u0 {1,[S,D]} {3,[S,D]}
@@ -4234,7 +4234,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4243,7 +4243,7 @@ u"""
 entry(
 	index = 141,
 	label = "Cyclodecane",
-	group = 
+	group =
 """
 1  * C  u0 {2,S} {10,S}
 2    C  u0 {1,S} {3,S}
@@ -4271,7 +4271,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4280,7 +4280,7 @@ u"""
 entry(
 	index = 142,
 	label = "ElevenMember",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D]} {11,[S,D]}
 2    R!H u0 {1,[S,D]} {3,[S,D]}
@@ -4309,7 +4309,7 @@ entry(
 		A = 6,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4318,7 +4318,7 @@ u"""
 entry(
 	index = 143,
 	label = "TwelveMember",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D]} {12,[S,D]}
 2    R!H u0 {1,[S,D]} {3,[S,D]}
@@ -4348,7 +4348,7 @@ entry(
 		A = 8,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4357,7 +4357,7 @@ u"""
 entry(
 	index = 144,
 	label = "ThirteenMember",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D]} {13,[S,D]}
 2    R!H u0 {1,[S,D]} {3,[S,D]}
@@ -4388,7 +4388,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4397,7 +4397,7 @@ u"""
 entry(
 	index = 145,
 	label = "FourteenMember",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D]} {14,[S,D]}
 2    R!H u0 {1,[S,D]} {3,[S,D]}
@@ -4429,7 +4429,7 @@ entry(
 		A = 5,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4438,7 +4438,7 @@ u"""
 entry(
 	index = 146,
 	label = "FifteenMember",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D]} {15,[S,D]}
 2    R!H u0 {1,[S,D]} {3,[S,D]}
@@ -4471,7 +4471,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4480,7 +4480,7 @@ u"""
 entry(
 	index = 147,
 	label = "SixteenMember",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D]} {16,[S,D]}
 2    R!H u0 {1,[S,D]} {3,[S,D]}
@@ -4514,7 +4514,7 @@ entry(
 		A = 4,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4523,7 +4523,7 @@ u"""
 entry(
 	index = 148,
 	label = "EighteenMember",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D]} {18,[S,D]}
 2    R!H u0 {1,[S,D]} {3,[S,D]}
@@ -4559,7 +4559,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4568,7 +4568,7 @@ u"""
 entry(
 	index = 149,
 	label = "TwentyfourMember",
-	group = 
+	group =
 """
 1  * R!H u0 {2,[S,D]} {24,[S,D]}
 2    R!H u0 {1,[S,D]} {3,[S,D]}
@@ -4610,7 +4610,7 @@ entry(
 		A = 3,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4619,7 +4619,7 @@ u"""
 entry(
 	index = 150,
 	label = "ThirtythreeMember",
-	group = 
+	group =
 """
 1  * R!H u0 {13,[S,D]} {14,[S,D]}
 2  R!H u0 {15,[S,D]} {16,[S,D]}
@@ -4658,7 +4658,7 @@ entry(
 	solute = u'Cyclosporin',
 	dataCount = None,
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,
@@ -4667,7 +4667,7 @@ u"""
 entry(
 	index = 151,
 	label = "Cyclosporin",
-	group = 
+	group =
 """
 1  O u0 {34,D}
 2  O u0 {35,D}
@@ -4729,7 +4729,7 @@ entry(
 		A = 1,
 	),
 	shortDesc = u"""""",
-	longDesc = 
+	longDesc =
 u"""
 
 """,

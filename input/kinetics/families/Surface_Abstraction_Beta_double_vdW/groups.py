@@ -13,7 +13,7 @@ Surface abstraction of one atom to another adsorbate. The bond fission occurs no
 
 The rate, which should be in mol/m2/s,
 will be given by k * (mol/m2) * (mol/m2)
-so k should be in (m2/mol/s). 
+so k should be in (m2/mol/s).
 """
 
 template(reactants=["Abstracting", "Donating"], products=["Adsorbate2","Adsorbate3"], ownReverse=False)
@@ -50,7 +50,7 @@ entry(
     group =
 """
 1 *6 Xo  u0 {2,S}
-2 *4 R!H u0 px cx {1,S}	
+2 *4 R!H u0 px cx {1,S}
 """,
     kinetics = None,
 )

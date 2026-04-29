@@ -411,7 +411,7 @@ entry(
     kinetics = Arrhenius(A=(1.15503,'cm^3/(mol*s)'), n=3.92844, Ea=(168.206,'kJ/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """M062X-D3/Jun-cc-pvtz Gaussian16""",
-    longDesc = 
+    longDesc =
 """
 Fitted to 50 data points; dA = *|/ 1.53415, dn = +|- 0.0562276, dEa = +|- 0.305988 kJ/mol
 """,
@@ -424,7 +424,7 @@ entry(
     kinetics = Arrhenius(A=(0.0375687,'cm^3/(mol*s)'), n=4.39321, Ea=(182.09,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.15085, dn = +|- 0.100619, dEa = +|- 0.547566 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [CH]DO + FCF <=> ODCF + [CH2]F
@@ -450,7 +450,7 @@ entry(
     kinetics = Arrhenius(A=(0.000376675,'cm^3/(mol*s)'), n=5.08404, Ea=(91.8634,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 13.599, dn = +|- 0.342901, dEa = +|- 1.86606 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [H] + CF <=> F + [CH3]
@@ -474,7 +474,7 @@ entry(
     kinetics = Arrhenius(A=(0.000369729,'cm^3/(mol*s)'), n=5.13872, Ea=(109.875,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 17.0502, dn = +|- 0.372615, dEa = +|- 2.02776 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [H] + CC(F)F <=> F + C[CH]F
@@ -501,7 +501,7 @@ entry(
     kinetics = Arrhenius(A=(2.80067e-14,'cm^3/(mol*s)'), n=8.17077, Ea=(92.4857,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 166.8, dn = +|- 0.672245, dEa = +|- 3.65833 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: ODC(F)C(F)(F)F + [H] <=> F + OD[C]C(F)(F)F
@@ -527,7 +527,7 @@ entry(
     kinetics = Arrhenius(A=(3.57367e-05,'cm^3/(mol*s)'), n=5.32561, Ea=(91.9755,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 17.9751, dn = +|- 0.379556, dEa = +|- 2.06553 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [H] + FCCl <=> F + [CH2]Cl
@@ -551,7 +551,7 @@ entry(
     kinetics = Arrhenius(A=(9.5246,'cm^3/(mol*s)'), n=3.31308, Ea=(11.0929,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.1113, dn = +|- 0.0138643, dEa = +|- 0.075449 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: OF + C[CH2] <=> [OH] + CCF
@@ -579,7 +579,7 @@ entry(
     kinetics = Arrhenius(A=(5.87291e+10,'cm^3/(mol*s)'), n=0.785655, Ea=(4.07732,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09714, dn = +|- 0.0121793, dEa = +|- 0.066279 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: FF + [H] <=> F + [F]
@@ -600,7 +600,7 @@ entry(
     kinetics = Arrhenius(A=(0.219252,'cm^3/(mol*s)'), n=3.91175, Ea=(165.902,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.52273, dn = +|- 0.0552462, dEa = +|- 0.300648 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: OCF + [CH2]F <=> FCF + [CH2]O
@@ -628,7 +628,7 @@ entry(
     kinetics = Arrhenius(A=(0.0262173,'cm^3/(mol*s)'), n=4.12499, Ea=(167.866,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.66336, dn = +|- 0.0668515, dEa = +|- 0.363804 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: CC[CH]F + FCF <=> CCC(F)F + [CH2]F
@@ -661,7 +661,7 @@ entry(
     kinetics = Arrhenius(A=(6.14275e-06,'cm^3/(mol*s)'), n=5.65601, Ea=(111.137,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 25.4504, dn = +|- 0.425242, dEa = +|- 2.31415 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: FCF + [H] <=> F + [CH2]F
@@ -685,7 +685,7 @@ entry(
     kinetics = Arrhenius(A=(0.117844,'cm^3/(mol*s)'), n=4.09338, Ea=(156.788,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.64434, dn = +|- 0.0653408, dEa = +|- 0.355582 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: CF + [CH2]F <=> [CH3] + FCF
@@ -712,7 +712,7 @@ entry(
     kinetics = Arrhenius(A=(28.2278,'cm^3/(mol*s)'), n=3.44719, Ea=(10.5481,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.16431, dn = +|- 0.0199864, dEa = +|- 0.108765 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [CH]DC + COF <=> CDCF + C[O]
@@ -741,7 +741,7 @@ entry(
     kinetics = Arrhenius(A=(0.0632707,'cm^3/(mol*s)'), n=4.09227, Ea=(155.795,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.59478, dn = +|- 0.0613198, dEa = +|- 0.3337 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: OCF + F[CH]F <=> FC(F)F + [CH2]O
@@ -769,7 +769,7 @@ entry(
     kinetics = Arrhenius(A=(0.0411856,'cm^3/(mol*s)'), n=4.0381, Ea=(156.944,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.58012, dn = +|- 0.0601061, dEa = +|- 0.327095 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: OCF + C[CH]F <=> CC(F)F + [CH2]O
@@ -800,7 +800,7 @@ entry(
     kinetics = Arrhenius(A=(0.00518265,'cm^3/(mol*s)'), n=4.74784, Ea=(92.3732,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 10.6934, dn = +|- 0.311322, dEa = +|- 1.6942 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: CCF + [H] <=> F + C[CH2]
@@ -827,7 +827,7 @@ entry(
     kinetics = Arrhenius(A=(41.1983,'cm^3/(mol*s)'), n=3.20075, Ea=(2.44607,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07615, dn = +|- 0.00964146, dEa = +|- 0.0524685 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: OOF + C[CH]C <=> CC(C)F + [O]O
@@ -858,7 +858,7 @@ entry(
     kinetics = Arrhenius(A=(2.3778e-06,'cm^3/(mol*s)'), n=5.81354, Ea=(130.881,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 33.1148, dn = +|- 0.459828, dEa = +|- 2.50236 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [H] + FC(F)F <=> F + F[CH]F
@@ -882,7 +882,7 @@ entry(
     kinetics = Arrhenius(A=(0.0331829,'cm^3/(mol*s)'), n=4.48236, Ea=(100.723,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 8.92149, dn = +|- 0.28752, dEa = +|- 1.56468 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: OCF + [H] <=> F + [CH2]O
@@ -907,7 +907,7 @@ entry(
     kinetics = Arrhenius(A=(1.95992,'cm^3/(mol*s)'), n=3.05765, Ea=(179.705,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.65026, dn = +|- 0.0658128, dEa = +|- 0.358151 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: ODC(F)C(F)(F)F + F[C](F)C(F)(F)F <=> FC(F)(F)C(F)(F)F + OD[C]C(F)(F)F
@@ -938,7 +938,7 @@ entry(
     kinetics = Arrhenius(A=(0.0408532,'cm^3/(mol*s)'), n=4.28624, Ea=(147.449,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.72705, dn = +|- 0.0717881, dEa = +|- 0.390668 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: CF + F[CH]F <=> [CH3] + FC(F)F
@@ -965,7 +965,7 @@ entry(
     kinetics = Arrhenius(A=(4986.4,'cm^3/(mol*s)'), n=3.19625, Ea=(104.62,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.366, dn = +|- 0.0409756, dEa = +|- 0.222988 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [OH] + COF <=> OF + C[O]
@@ -990,7 +990,7 @@ entry(
     kinetics = Arrhenius(A=(9337.54,'cm^3/(mol*s)'), n=2.7407, Ea=(1.59476,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.07704, dn = +|- 0.00975049, dEa = +|- 0.0530618 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: OD[C]F + FF <=> ODC(F)F + [F]
@@ -1013,7 +1013,7 @@ entry(
     kinetics = Arrhenius(A=(0.0780562,'cm^3/(mol*s)'), n=3.96948, Ea=(152.853,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.56523, dn = +|- 0.0588623, dEa = +|- 0.320327 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [CH2]F + CCCF <=> FCF + [CH2]CC
@@ -1046,7 +1046,7 @@ entry(
     kinetics = Arrhenius(A=(0.206542,'cm^3/(mol*s)'), n=3.97927, Ea=(151.975,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.58146, dn = +|- 0.0602183, dEa = +|- 0.327706 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [CH2]F + FCCF <=> FCF + [CH2]CF
@@ -1076,7 +1076,7 @@ entry(
     kinetics = Arrhenius(A=(576.508,'cm^3/(mol*s)'), n=2.8908, Ea=(21.561,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.16878, dn = +|- 0.0204899, dEa = +|- 0.111505 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [CH2]O + [O]F <=> OCF + [O]
@@ -1100,7 +1100,7 @@ entry(
     kinetics = Arrhenius(A=(0.135777,'cm^3/(mol*s)'), n=3.96896, Ea=(156.525,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.57046, dn = +|- 0.0593008, dEa = +|- 0.322713 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [CH2]F + CCF <=> FCF + C[CH2]
@@ -1130,7 +1130,7 @@ entry(
     kinetics = Arrhenius(A=(1.08514e-36,'cm^3/(mol*s)'), n=14.3629, Ea=(28.7199,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1087.21, dn = +|- 0.918527, dEa = +|- 4.99859 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST m062x/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [H] + F[C]F <=> F + [C]F
@@ -1151,7 +1151,7 @@ entry(
     kinetics = Arrhenius(A=(1.04105e+06,'cm^3/(mol*s)'), n=2.3137, Ea=(11.5771,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.40006, dn = +|- 0.0442111, dEa = +|- 0.240595 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [H] + COF <=> F + C[O]
@@ -1176,7 +1176,7 @@ entry(
     kinetics = Arrhenius(A=(34.878,'cm^3/(mol*s)'), n=3.33904, Ea=(-1.9829,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09217, dn = +|- 0.0115834, dEa = +|- 0.0630363 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: OF + C[C]O <=> [OH] + C[C](O)F
@@ -1204,7 +1204,7 @@ entry(
     kinetics = Arrhenius(A=(1.06547e-07,'cm^3/(mol*s)'), n=6.28933, Ea=(117.804,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 49.9733, dn = +|- 0.513892, dEa = +|- 2.79658 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: FC(F)(F)C(F)(F)F + [H] <=> F + F[C](F)C(F)(F)F
@@ -1231,7 +1231,7 @@ entry(
     kinetics = Arrhenius(A=(166.381,'cm^3/(mol*s)'), n=3.31384, Ea=(-1.84829,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09474, dn = +|- 0.0118927, dEa = +|- 0.0647194 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: OF + C[C](C)C <=> [OH] + CC(C)(C)F
@@ -1265,7 +1265,7 @@ entry(
     kinetics = Arrhenius(A=(8.19658,'cm^3/(mol*s)'), n=3.30549, Ea=(14.6127,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.11724, dn = +|- 0.0145653, dEa = +|- 0.0792638 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [CH2]Cl + COF <=> FCCl + C[O]
@@ -1293,7 +1293,7 @@ entry(
     kinetics = Arrhenius(A=(4.12044,'cm^3/(mol*s)'), n=3.28057, Ea=(144.222,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.6656, dn = +|- 0.0670282, dEa = +|- 0.364765 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: CF + F[C](F)F <=> FC(F)(F)F + [CH3]
@@ -1320,7 +1320,7 @@ entry(
     kinetics = Arrhenius(A=(2.33328e-05,'cm^3/(mol*s)'), n=5.5678, Ea=(144.463,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 29.9881, dn = +|- 0.446798, dEa = +|- 2.43146 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [H] + FC(F)(F)F <=> F + F[C](F)F
@@ -1344,7 +1344,7 @@ entry(
     kinetics = Arrhenius(A=(0.0380839,'cm^3/(mol*s)'), n=4.48675, Ea=(158.561,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 2.17165, dn = +|- 0.101884, dEa = +|- 0.554448 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [CH]DO + CF <=> ODCF + [CH3]
@@ -1370,7 +1370,7 @@ entry(
     kinetics = Arrhenius(A=(0.700958,'cm^3/(mol*s)'), n=3.85832, Ea=(170.202,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.5478, dn = +|- 0.0573912, dEa = +|- 0.312321 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: FCC(F)F + [CH2]F <=> F[CH]CF + FCF
@@ -1400,7 +1400,7 @@ entry(
     kinetics = Arrhenius(A=(3.20903,'cm^3/(mol*s)'), n=3.28294, Ea=(7.36724,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.09983, dn = +|- 0.0125013, dEa = +|- 0.0680315 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [CH2]CC + COF <=> CCCF + C[O]
@@ -1434,7 +1434,7 @@ entry(
     kinetics = Arrhenius(A=(0.0911574,'cm^3/(mol*s)'), n=4.14961, Ea=(160.609,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.82008, dn = +|- 0.078681, dEa = +|- 0.428179 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [CH]DO + CCF <=> ODCF + C[CH2]
@@ -1463,7 +1463,7 @@ entry(
     kinetics = Arrhenius(A=(2.47232,'cm^3/(mol*s)'), n=3.97637, Ea=(171.25,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.56352, dn = +|- 0.0587191, dEa = +|- 0.319547 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: ODC(F)C(F)(F)F + F[C](F)F <=> FC(F)(F)F + OD[C]C(F)(F)F
@@ -1492,7 +1492,7 @@ entry(
     kinetics = Arrhenius(A=(178.698,'cm^3/(mol*s)'), n=3.25898, Ea=(11.1651,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.10437, dn = +|- 0.0130431, dEa = +|- 0.0709798 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: OOF + [CH2] <=> [O]O + [CH2]F
@@ -1517,7 +1517,7 @@ entry(
     kinetics = Arrhenius(A=(5.94205e-06,'cm^3/(mol*s)'), n=5.8457, Ea=(129.318,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 34.1016, dn = +|- 0.463686, dEa = +|- 2.52336 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: ODC(F)F + [H] <=> OD[C]F + F
@@ -1540,7 +1540,7 @@ entry(
     kinetics = Arrhenius(A=(996.795,'cm^3/(mol*s)'), n=2.97758, Ea=(41.2332,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.22333, dn = +|- 0.0264834, dEa = +|- 0.144122 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: [CH2] + [O]F <=> [CH2]F + [O]
@@ -1563,7 +1563,7 @@ entry(
     kinetics = Arrhenius(A=(6.5029e+08,'cm^3/(mol*s)'), n=1.25799, Ea=(20.8614,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.43321, dn = +|- 0.0472857, dEa = +|- 0.257327 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST ccsd(t)-f12/cc-pvdz-f12//M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: FCl + [H] <=> F + [Cl]
@@ -1584,7 +1584,7 @@ entry(
     kinetics = Arrhenius(A=(4.09875,'cm^3/(mol*s)'), n=3.8806, Ea=(187.286,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 1.49477, dn = +|- 0.0528108, dEa = +|- 0.287394 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: FC(F)(F)C(F)(F)F + F[C](F)F <=> FC(F)(F)F + F[C](F)C(F)(F)F
@@ -1613,7 +1613,7 @@ entry(
     kinetics = Arrhenius(A=(7.71142e-06,'cm^3/(mol*s)'), n=5.47558, Ea=(94.535,'kJ/mol'), T0=(1,'K'), Tmin=(298,'K'), Tmax=(2500,'K'), comment="""Fitted to 50 data points; dA = *|/ 23.6983, dn = +|- 0.415871, dEa = +|- 2.26315 kJ/mol"""),
     rank = 3,
     shortDesc = """AutoTST M062X-D3/jun-cc-pVTZ""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: autotst/F_Abstraction
 Original entry: FC(Cl)(Cl)Cl + [H] <=> F + Cl[C](Cl)Cl

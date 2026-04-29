@@ -28,7 +28,7 @@ entry(
     referenceType = "theory",
     rank = 4,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,
@@ -55,7 +55,7 @@ entry(
     referenceType = "theory",
     rank = 4,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,
@@ -82,7 +82,7 @@ entry(
     referenceType = "theory",
     rank = 4,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,
@@ -109,7 +109,7 @@ entry(
     referenceType = "theory",
     rank = 4,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,
@@ -136,7 +136,7 @@ entry(
     referenceType = "theory",
     rank = 4,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,
@@ -163,7 +163,7 @@ entry(
     referenceType = "theory",
     rank = 4,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,
@@ -190,7 +190,7 @@ entry(
     referenceType = "theory",
     rank = 4,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,
@@ -217,7 +217,7 @@ entry(
     referenceType = "theory",
     rank = 4,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,
@@ -244,7 +244,7 @@ entry(
     referenceType = "theory",
     rank = 4,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,
@@ -271,7 +271,7 @@ entry(
     referenceType = "theory",
     rank = 4,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,
@@ -298,7 +298,7 @@ entry(
     referenceType = "theory",
     rank = 4,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,
@@ -325,7 +325,7 @@ entry(
     referenceType = "theory",
     rank = 4,
     shortDesc = u"""VTST calculations at CCSD(T)/CBS//CASPT2/cc-pVDZ level""",
-    longDesc = 
+    longDesc =
 u"""
 Quantum chemistry calculations at the CCSD(T)/CBS//CASPT2/cc-pVDZ level with hindered rotor corrections. A-factor error is estimated by source.
 """,

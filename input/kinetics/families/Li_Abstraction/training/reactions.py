@@ -13,7 +13,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(4.14134e+06,'cm^3/(mol*s)'), n=2.18948, Ea=(140.779,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=1.8681935378213759,B=2.373498032935028,E=0.32859248603303737,L=5.004153890392606,A=0.8849787213003473,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [CH3] + [Li]F <=> [Li] + CF
@@ -51,7 +51,7 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.57736e+07,'cm^3/(mol*s)'), n=1.91726, Ea=(119.96,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'), solute=SoluteData(S=2.40096476096442,B=0.7611537028291462,E=0.36695032193123533,L=5.182274882516309,A=0.578711830957878,comment='')),
     rank = 3,
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: LithiumPrimaryKinetics
 Original entry: [CH3] + [Li]Cl <=> [Li] + CCl

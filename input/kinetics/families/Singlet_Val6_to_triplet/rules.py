@@ -12,7 +12,7 @@ entry(
     kinetics = ArrheniusEP(A=(4.5e+10, 's^-1'), n=0, alpha=0, E0=(1661.05, 'J/mol')),
     rank = 1,
     shortDesc = u"""Default""",
-    longDesc = 
+    longDesc =
 u"""
 taken from:
 R. Atkinson, D.L. Baulch, R.A. Cox, R.F. Hampson, J.A. Kerr, J. Troe,

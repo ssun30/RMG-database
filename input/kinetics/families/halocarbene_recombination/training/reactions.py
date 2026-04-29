@@ -15,9 +15,9 @@ entry(
     kinetics = Arrhenius(A=(2.1e+13,'cm^3/(mol*s)'), n=-0.207, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is CF3-CF2 <=> CF2 + CF3""",
-    longDesc = 
+    longDesc =
 """
-Experimental and Quantum Chemical Study of the Reaction CF2 + CH3 ↔ CF2CH3 → CH2CF2 + H:  
+Experimental and Quantum Chemical Study of the Reaction CF2 + CH3 ↔ CF2CH3 → CH2CF2 + H: 
 A Key Mechanism in the Reaction between Methane and Fluorocarbons
 https://doi.org/10.1021/ie060221z
 https://kinetics.nist.gov/kinetics/Detail?id=2006YU/MAC3758-3762:1
@@ -25,8 +25,8 @@ https://kinetics.nist.gov/kinetics/Detail?id=2006YU/MAC3758-3762:1
 CF2 + CH3 -> CF2CH3 -> CF2=CH2 + H
 
 PES calculated at the G3 level of theory
-The authors investigated the potential energy surface for the reaction via both density functional and MP2 methods. 
-They conclude that CF2CH3 is formed as an intermediate but undergoes essentially no stabilization 
+The authors investigated the potential energy surface for the reaction via both density functional and MP2 methods.
+They conclude that CF2CH3 is formed as an intermediate but undergoes essentially no stabilization
 under the reported conditions. We will make the intermediate CF2CH3 and let RMG decide via the PDEP module whether or not
 to skip the well
 """,
@@ -38,7 +38,7 @@ entry(
     kinetics = Arrhenius(A=(2.75e+06,'cm^3/(mol*s)'), n=-0.32, Ea=(7696,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is CF2 + H <=> CHF2""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: CF2 + H <=> CHF2
@@ -52,7 +52,7 @@ entry(
     kinetics = Arrhenius(A=(4.27e+15,'s^-1'), n=0, Ea=(56240,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is CF3-CF2 <=> CF2 + CF3""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: CF3-CF2 <=> CF2 + CF3
@@ -66,7 +66,7 @@ entry(
     kinetics = Arrhenius(A=(1.58e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is CCL2 + CL <=> CCL3""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: CCL2 + CL <=> CCL3
@@ -80,7 +80,7 @@ entry(
     kinetics = Arrhenius(A=(1e+14,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is CCL2 + H <=> CHCL2""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: CCL2 + H <=> CHCL2
@@ -94,7 +94,7 @@ entry(
     kinetics = Arrhenius(A=(1.6e+13,'cm^3/(mol*s)'), n=0, Ea=(0,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is CFCL + CL <=> CFCL2""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: CFCL + CL <=> CFCL2
@@ -108,7 +108,7 @@ entry(
     kinetics = Arrhenius(A=(3e+15,'s^-1'), n=0, Ea=(79000,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is CF3CCL2 <=> CF3 + CCL2""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: CF3CCL2 <=> CF3 + CCL2
@@ -122,7 +122,7 @@ entry(
     kinetics = Arrhenius(A=(4.27e+15,'s^-1'), n=0, Ea=(56240,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is C2F4CL <=> CF2 + CF2CL""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: C2F4CL <=> CF2 + CF2CL
@@ -136,7 +136,7 @@ entry(
     kinetics = Arrhenius(A=(4.27e+15,'s^-1'), n=0, Ea=(56240,'cal/mol'), T0=(1,'K')),
     rank = 3,
     shortDesc = """The chemkin file reaction is C2F4BR <=> CF2 + CF2BR""",
-    longDesc = 
+    longDesc =
 """
 Training reaction from kinetics library: CF2BrCl
 Original entry: C2F4BR <=> CF2 + CF2BR

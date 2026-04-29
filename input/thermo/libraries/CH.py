@@ -14,7 +14,7 @@ Contains molecules with only carbon and hydrogen
 entry(
     index = 0,
     label = "CH4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -29,7 +29,7 @@ entry(
         S298 = (44.595,'cal/(mol*K)'),
     ),
     shortDesc = u"""methane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -38,7 +38,7 @@ u"""
 entry(
     index = 1,
     label = "C2H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {4,S}
@@ -52,7 +52,7 @@ entry(
         S298 = (48,'cal/(mol*K)'),
     ),
     shortDesc = u"""acetylene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -61,7 +61,7 @@ u"""
 entry(
     index = 2,
     label = "C2H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {4,S}
 2 C u0 p0 c0 {1,D} {5,S} {6,S}
@@ -77,7 +77,7 @@ entry(
         S298 = (52.379,'cal/(mol*K)'),
     ),
     shortDesc = u"""ethylene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -86,7 +86,7 @@ u"""
 entry(
     index = 3,
     label = "C2H6",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 H u0 p0 c0 {1,S}
@@ -104,7 +104,7 @@ entry(
         S298 = (54.832,'cal/(mol*K)'),
     ),
     shortDesc = u"""ethane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -113,7 +113,7 @@ u"""
 entry(
     index = 4,
     label = "C3H4a",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,T}
@@ -130,7 +130,7 @@ entry(
         S298 = (59.36,'cal/(mol*K)'),
     ),
     shortDesc = u"""methylacetylene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -139,7 +139,7 @@ u"""
 entry(
     index = 5,
     label = "C3H4b",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {3,D} {4,S} {5,S}
 2 C u0 p0 c0 {3,D} {6,S} {7,S}
@@ -156,7 +156,7 @@ entry(
         S298 = (58.238,'cal/(mol*K)'),
     ),
     shortDesc = u"""allene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -165,7 +165,7 @@ u"""
 entry(
     index = 6,
     label = "C3H6a",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -184,7 +184,7 @@ entry(
         S298 = (56.845,'cal/(mol*K)'),
     ),
     shortDesc = u"""cyclopropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -193,7 +193,7 @@ u"""
 entry(
     index = 7,
     label = "C3H6b",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2 C u0 p0 c0 {1,S} {3,D} {7,S}
@@ -212,7 +212,7 @@ entry(
         S298 = (63.738,'cal/(mol*K)'),
     ),
     shortDesc = u"""propylene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -221,7 +221,7 @@ u"""
 entry(
     index = 8,
     label = "C3H8",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  H u0 p0 c0 {1,S}
@@ -242,7 +242,7 @@ entry(
         S298 = (64.589,'cal/(mol*K)'),
     ),
     shortDesc = u"""propane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -251,7 +251,7 @@ u"""
 entry(
     index = 9,
     label = "C4H2",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,T} {3,S}
 2 C u0 p0 c0 {1,T} {5,S}
@@ -267,7 +267,7 @@ entry(
         S298 = (59.719,'cal/(mol*K)'),
     ),
     shortDesc = u"""biacetylene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -276,7 +276,7 @@ u"""
 entry(
     index = 10,
     label = "C4H4",
-    molecule = 
+    molecule =
 """
 1 C u0 p0 c0 {2,D} {3,S} {5,S}
 2 C u0 p0 c0 {1,D} {6,S} {7,S}
@@ -294,7 +294,7 @@ entry(
         S298 = (66.823,'cal/(mol*K)'),
     ),
     shortDesc = u"""vinylacetylene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -303,7 +303,7 @@ u"""
 entry(
     index = 11,
     label = "C4H6a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -323,7 +323,7 @@ entry(
         S298 = (62.625,'cal/(mol*K)'),
     ),
     shortDesc = u"""cyclobutene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -332,7 +332,7 @@ u"""
 entry(
     index = 12,
     label = "C4H6b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -352,7 +352,7 @@ entry(
         S298 = (67.674,'cal/(mol*K)'),
     ),
     shortDesc = u"""dimethylacetylene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -361,7 +361,7 @@ u"""
 entry(
     index = 13,
     label = "C4H6c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -381,7 +381,7 @@ entry(
         S298 = (69.357,'cal/(mol*K)'),
     ),
     shortDesc = u"""ethylacetylene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -390,7 +390,7 @@ u"""
 entry(
     index = 14,
     label = "C4H6d",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -410,7 +410,7 @@ entry(
         S298 = (69.918,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,2-butadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -419,7 +419,7 @@ u"""
 entry(
     index = 15,
     label = "C4H6e",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,D} {5,S}
 2  C u0 p0 c0 {1,S} {4,D} {6,S}
@@ -439,7 +439,7 @@ entry(
         S298 = (66.631,'cal/(mol*K)'),
     ),
     shortDesc = u"""butadiene (1,3 butadiene)""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -448,7 +448,7 @@ u"""
 entry(
     index = 16,
     label = "C4H8a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -470,7 +470,7 @@ entry(
         S298 = (68.284,'cal/(mol*K)'),
     ),
     shortDesc = u"""methylcyclopropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -479,7 +479,7 @@ u"""
 entry(
     index = 17,
     label = "C4H8b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -501,7 +501,7 @@ entry(
         S298 = (63.315,'cal/(mol*K)'),
     ),
     shortDesc = u"""cyclobutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -510,7 +510,7 @@ u"""
 entry(
     index = 18,
     label = "C4H8c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -532,7 +532,7 @@ entry(
         S298 = (73.574,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-butene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -541,7 +541,7 @@ u"""
 entry(
     index = 19,
     label = "C4H8d",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
@@ -563,7 +563,7 @@ entry(
         S298 = (71.609,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-butene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -572,7 +572,7 @@ u"""
 entry(
     index = 20,
     label = "C4H8g",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
@@ -594,7 +594,7 @@ entry(
         S298 = (70.047,'cal/(mol*K)'),
     ),
     shortDesc = u"""isobutene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -603,7 +603,7 @@ u"""
 entry(
     index = 21,
     label = "C4H10a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -627,7 +627,7 @@ entry(
         S298 = (72.741,'cal/(mol*K)'),
     ),
     shortDesc = u"""butane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -636,7 +636,7 @@ u"""
 entry(
     index = 22,
     label = "C4H10b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -660,7 +660,7 @@ entry(
         S298 = (70.577,'cal/(mol*K)'),
     ),
     shortDesc = u"""isobutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -669,7 +669,7 @@ u"""
 entry(
     index = 23,
     label = "C5H6a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -690,7 +690,7 @@ entry(
         S298 = (65.519,'cal/(mol*K)'),
     ),
     shortDesc = u"""cyclopentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -699,7 +699,7 @@ u"""
 entry(
     index = 24,
     label = "C5H6b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {4,S}
@@ -720,7 +720,7 @@ entry(
         S298 = (66.879,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-methyl-1-butene-3-yne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -729,7 +729,7 @@ u"""
 entry(
     index = 25,
     label = "C5H6c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,D} {5,S} {9,S}
@@ -750,7 +750,7 @@ entry(
         S298 = (74.895,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-pentene-3-yne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -759,7 +759,7 @@ u"""
 entry(
     index = 26,
     label = "C5H6d",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,D} {8,S}
@@ -780,7 +780,7 @@ entry(
         S298 = (73.292,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-pentene-4-yne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -789,7 +789,7 @@ u"""
 entry(
     index = 27,
     label = "C5H6e",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -810,7 +810,7 @@ entry(
         S298 = (71.688,'cal/(mol*K)'),
     ),
     shortDesc = u"""cis-3-penteN-1-yne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -819,7 +819,7 @@ u"""
 entry(
     index = 28,
     label = "C5H8a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -842,7 +842,7 @@ entry(
         S298 = (67.571,'cal/(mol*K)'),
     ),
     shortDesc = u"""spiropentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -851,7 +851,7 @@ u"""
 entry(
     index = 29,
     label = "C5H8b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -874,7 +874,7 @@ entry(
         S298 = (69.656,'cal/(mol*K)'),
     ),
     shortDesc = u"""cyclopentene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -883,7 +883,7 @@ u"""
 entry(
     index = 30,
     label = "C5H8c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {4,D}
@@ -906,7 +906,7 @@ entry(
         S298 = (75.265,'cal/(mol*K)'),
     ),
     shortDesc = u"""isoprene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -915,7 +915,7 @@ u"""
 entry(
     index = 31,
     label = "C5H8d",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -938,7 +938,7 @@ entry(
         S298 = (76.868,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-methyl-1,2-butadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -947,7 +947,7 @@ u"""
 entry(
     index = 32,
     label = "C5H8e",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -970,7 +970,7 @@ entry(
         S298 = (80.075,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,2-pentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -979,7 +979,7 @@ u"""
 entry(
     index = 33,
     label = "C5H8g",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,D} {9,S}
@@ -1002,7 +1002,7 @@ entry(
         S298 = (75.505,'cal/(mol*K)'),
     ),
     shortDesc = u"""trans-1,3-pentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1011,7 +1011,7 @@ u"""
 entry(
     index = 34,
     label = "C5H8h",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,D} {8,S}
@@ -1034,7 +1034,7 @@ entry(
         S298 = (79.833,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,4-pentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1043,7 +1043,7 @@ u"""
 entry(
     index = 35,
     label = "C5H8i",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -1066,7 +1066,7 @@ entry(
         S298 = (78.712,'cal/(mol*K)'),
     ),
     shortDesc = u"""2,3-pentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1075,7 +1075,7 @@ u"""
 entry(
     index = 36,
     label = "C5H8j",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -1098,7 +1098,7 @@ entry(
         S298 = (78.887,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-pentyne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1107,7 +1107,7 @@ u"""
 entry(
     index = 37,
     label = "C5H8k",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -1130,7 +1130,7 @@ entry(
         S298 = (72.876,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-pentyne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1139,7 +1139,7 @@ u"""
 entry(
     index = 38,
     label = "C5H8l",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -1162,7 +1162,7 @@ entry(
         S298 = (76.467,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-methyl-1-butyne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1171,7 +1171,7 @@ u"""
 entry(
     index = 39,
     label = "C5H10a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -1196,7 +1196,7 @@ entry(
         S298 = (73.551,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,1-dimethylcyclopropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1205,7 +1205,7 @@ u"""
 entry(
     index = 40,
     label = "C5H10c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
@@ -1230,7 +1230,7 @@ entry(
         S298 = (75.715,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,trans-2-dimethylcyclopropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1239,7 +1239,7 @@ u"""
 entry(
     index = 41,
     label = "C5H10d",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -1264,7 +1264,7 @@ entry(
         S298 = (79.003,'cal/(mol*K)'),
     ),
     shortDesc = u"""ethylcyclopropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1273,7 +1273,7 @@ u"""
 entry(
     index = 42,
     label = "C5H10e",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -1298,7 +1298,7 @@ entry(
         S298 = (70.506,'cal/(mol*K)'),
     ),
     shortDesc = u"""methylcyclobutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1307,7 +1307,7 @@ u"""
 entry(
     index = 43,
     label = "C5H10f",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -1332,7 +1332,7 @@ entry(
         S298 = (69.946,'cal/(mol*K)'),
     ),
     shortDesc = u"""cyclopentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1341,7 +1341,7 @@ u"""
 entry(
     index = 44,
     label = "C5H10g",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -1366,7 +1366,7 @@ entry(
         S298 = (82.929,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-pentene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1375,7 +1375,7 @@ u"""
 entry(
     index = 45,
     label = "C5H10j",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -1400,7 +1400,7 @@ entry(
         S298 = (82.047,'cal/(mol*K)'),
     ),
     shortDesc = u"""trans-2-pentene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1409,7 +1409,7 @@ u"""
 entry(
     index = 46,
     label = "C5H10k",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -1434,7 +1434,7 @@ entry(
         S298 = (81.166,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-methyl-1-butene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1443,7 +1443,7 @@ u"""
 entry(
     index = 47,
     label = "C5H10l",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -1468,7 +1468,7 @@ entry(
         S298 = (79.963,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-methyl-1-butene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1477,7 +1477,7 @@ u"""
 entry(
     index = 48,
     label = "C5H10m",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -1502,7 +1502,7 @@ entry(
         S298 = (80.926,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-methyl-2-butene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1511,7 +1511,7 @@ u"""
 entry(
     index = 49,
     label = "C5H12a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
@@ -1538,7 +1538,7 @@ entry(
         S298 = (83.459,'cal/(mol*K)'),
     ),
     shortDesc = u"""pentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1547,7 +1547,7 @@ u"""
 entry(
     index = 50,
     label = "C5H12b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
 2  C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
@@ -1574,7 +1574,7 @@ entry(
         S298 = (82.177,'cal/(mol*K)'),
     ),
     shortDesc = u"""isopentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1583,7 +1583,7 @@ u"""
 entry(
     index = 51,
     label = "C5H12c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -1610,7 +1610,7 @@ entry(
         S298 = (73.118,'cal/(mol*K)'),
     ),
     shortDesc = u"""neopentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1619,7 +1619,7 @@ u"""
 entry(
     index = 52,
     label = "C6H6",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,B} {6,B} {7,S}
 2  C u0 p0 c0 {1,B} {3,B} {8,S}
@@ -1641,7 +1641,7 @@ entry(
         S298 = (64.325,'cal/(mol*K)'),
     ),
     shortDesc = u"""benzene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1650,7 +1650,7 @@ u"""
 entry(
     index = 53,
     label = "C6H8a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -1674,7 +1674,7 @@ entry(
         S298 = (72.469,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,3-cyclohexadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1683,7 +1683,7 @@ u"""
 entry(
     index = 54,
     label = "C6H8b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -1707,7 +1707,7 @@ entry(
         S298 = (76.236,'cal/(mol*K)'),
     ),
     shortDesc = u"""methylcyclopentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1716,7 +1716,7 @@ u"""
 entry(
     index = 55,
     label = "C6H8c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {6,S} {9,S} {10,S}
@@ -1740,7 +1740,7 @@ entry(
         S298 = (74.714,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,4-cyclohexadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1749,7 +1749,7 @@ u"""
 entry(
     index = 56,
     label = "C6H10a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {11,S} {12,S}
@@ -1775,7 +1775,7 @@ entry(
         S298 = (77.969,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-methylcyclopentene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1784,7 +1784,7 @@ u"""
 entry(
     index = 57,
     label = "C6H10b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -1810,7 +1810,7 @@ entry(
         S298 = (79.012,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-methylcyclopentene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1819,7 +1819,7 @@ u"""
 entry(
     index = 58,
     label = "C6H10c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -1845,7 +1845,7 @@ entry(
         S298 = (78.611,'cal/(mol*K)'),
     ),
     shortDesc = u"""4-methylcyclopentene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1854,7 +1854,7 @@ u"""
 entry(
     index = 59,
     label = "C6H10d",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -1880,7 +1880,7 @@ entry(
         S298 = (74.202,'cal/(mol*K)'),
     ),
     shortDesc = u"""cyclohexene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1889,7 +1889,7 @@ u"""
 entry(
     index = 60,
     label = "C6H10e",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -1915,7 +1915,7 @@ entry(
         S298 = (88.451,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,2-hexadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1924,7 +1924,7 @@ u"""
 entry(
     index = 61,
     label = "C6H10f",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -1950,7 +1950,7 @@ entry(
         S298 = (90.457,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,cis-3-hexadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1959,7 +1959,7 @@ u"""
 entry(
     index = 62,
     label = "C6H10h",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
@@ -1985,7 +1985,7 @@ entry(
         S298 = (88.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,4-hexadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -1994,7 +1994,7 @@ u"""
 entry(
     index = 63,
     label = "C6H10k",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -2020,7 +2020,7 @@ entry(
         S298 = (89.11,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,5-hexadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2029,7 +2029,7 @@ u"""
 entry(
     index = 64,
     label = "C6H10l",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -2055,7 +2055,7 @@ entry(
         S298 = (87.979,'cal/(mol*K)'),
     ),
     shortDesc = u"""2,3-hexadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2064,7 +2064,7 @@ u"""
 entry(
     index = 65,
     label = "C6H10p",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
@@ -2090,7 +2090,7 @@ entry(
         S298 = (85.261,'cal/(mol*K)'),
     ),
     shortDesc = u"""trans-2,trans-4-hexadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2099,7 +2099,7 @@ u"""
 entry(
     index = 66,
     label = "C6H10q",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -2125,7 +2125,7 @@ entry(
         S298 = (87.458,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-methyl-1,2-pentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2134,7 +2134,7 @@ u"""
 entry(
     index = 67,
     label = "C6H10r",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -2160,7 +2160,7 @@ entry(
         S298 = (85.702,'cal/(mol*K)'),
     ),
     shortDesc = u"""4-methyl-1,2-pentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2169,7 +2169,7 @@ u"""
 entry(
     index = 68,
     label = "C6H10s",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
@@ -2195,7 +2195,7 @@ entry(
         S298 = (88.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-methyl-1,3-pentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2204,7 +2204,7 @@ u"""
 entry(
     index = 69,
     label = "C6H10t",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
@@ -2230,7 +2230,7 @@ entry(
         S298 = (89.462,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-methyl-1,cis-3-pentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2239,7 +2239,7 @@ u"""
 entry(
     index = 70,
     label = "C6H10x",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
@@ -2265,7 +2265,7 @@ entry(
         S298 = (89.462,'cal/(mol*K)'),
     ),
     shortDesc = u"""4-methyl-1,3-pentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2274,7 +2274,7 @@ u"""
 entry(
     index = 71,
     label = "C6H10y",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
 2  C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
@@ -2300,7 +2300,7 @@ entry(
         S298 = (89.934,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-methyl-1,4-pentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2309,7 +2309,7 @@ u"""
 entry(
     index = 72,
     label = "C6H10z",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -2335,7 +2335,7 @@ entry(
         S298 = (88.652,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-methyl-1,4-pentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2344,7 +2344,7 @@ u"""
 entry(
     index = 73,
     label = "C6H10aa",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
@@ -2370,7 +2370,7 @@ entry(
         S298 = (86.984,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-methyl-2,3-pentadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2379,7 +2379,7 @@ u"""
 entry(
     index = 74,
     label = "C6H10bb",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -2405,7 +2405,7 @@ entry(
         S298 = (89.934,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-ethyl-1,3-butadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2414,7 +2414,7 @@ u"""
 entry(
     index = 75,
     label = "C6H10cc",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
@@ -2440,7 +2440,7 @@ entry(
         S298 = (81.333,'cal/(mol*K)'),
     ),
     shortDesc = u"""2,3-dimethyl-1,3-butadiene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2449,7 +2449,7 @@ u"""
 entry(
     index = 76,
     label = "C6H10dd",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -2475,7 +2475,7 @@ entry(
         S298 = (88.226,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-hexyne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2484,7 +2484,7 @@ u"""
 entry(
     index = 77,
     label = "C6H10ee",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
@@ -2510,7 +2510,7 @@ entry(
         S298 = (89.133,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-hexyne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2519,7 +2519,7 @@ u"""
 entry(
     index = 78,
     label = "C6H10ff",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
@@ -2545,7 +2545,7 @@ entry(
         S298 = (87.426,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-hexyne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2554,7 +2554,7 @@ u"""
 entry(
     index = 79,
     label = "C6H10gg",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -2580,7 +2580,7 @@ entry(
         S298 = (87.024,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-methyl-1-pentyne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2589,7 +2589,7 @@ u"""
 entry(
     index = 80,
     label = "C6H10hh",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -2615,7 +2615,7 @@ entry(
         S298 = (85.341,'cal/(mol*K)'),
     ),
     shortDesc = u"""4-methyl-1-pentyne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2624,7 +2624,7 @@ u"""
 entry(
     index = 81,
     label = "C6H10ii",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -2650,7 +2650,7 @@ entry(
         S298 = (86.303,'cal/(mol*K)'),
     ),
     shortDesc = u"""4-methyl-2-pentyne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2659,7 +2659,7 @@ u"""
 entry(
     index = 82,
     label = "C6H10jj",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -2685,7 +2685,7 @@ entry(
         S298 = (80.21,'cal/(mol*K)'),
     ),
     shortDesc = u"""3,3-dimethyl-1-butyne""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2694,7 +2694,7 @@ u"""
 entry(
     index = 83,
     label = "C6H12a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
@@ -2722,7 +2722,7 @@ entry(
         S298 = (89.8,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-methyl-1-ethylcyclopropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2731,7 +2731,7 @@ u"""
 entry(
     index = 84,
     label = "C6H12c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {5,S} {7,S}
@@ -2759,7 +2759,7 @@ entry(
         S298 = (86.995,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-methyl-trans-2-ethylcyclopropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2768,7 +2768,7 @@ u"""
 entry(
     index = 85,
     label = "C6H12d",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
@@ -2796,7 +2796,7 @@ entry(
         S298 = (54.769,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,1,2-trimethylcyclopropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2805,7 +2805,7 @@ u"""
 entry(
     index = 86,
     label = "C6H12e",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {6,S} {8,S}
@@ -2833,7 +2833,7 @@ entry(
         S298 = (-2.427,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,cis-2,cis-3-trimethylcyclopropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2842,7 +2842,7 @@ u"""
 entry(
     index = 87,
     label = "C6H12g",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -2870,7 +2870,7 @@ entry(
         S298 = (91.885,'cal/(mol*K)'),
     ),
     shortDesc = u"""propylcyclopropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2879,7 +2879,7 @@ u"""
 entry(
     index = 88,
     label = "C6H12h",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
@@ -2907,7 +2907,7 @@ entry(
         S298 = (90.442,'cal/(mol*K)'),
     ),
     shortDesc = u"""isopropylcyclopropane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2916,7 +2916,7 @@ u"""
 entry(
     index = 89,
     label = "C6H12i",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
 2  C u0 p0 c0 {1,S} {4,S} {7,S} {8,S}
@@ -2944,7 +2944,7 @@ entry(
         S298 = (71.203,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,1-dimethylcyclobutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2953,7 +2953,7 @@ u"""
 entry(
     index = 90,
     label = "C6H12j",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {6,S} {8,S}
@@ -2981,7 +2981,7 @@ entry(
         S298 = (91.324,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,cis-2-dimethylcyclobutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -2990,7 +2990,7 @@ u"""
 entry(
     index = 91,
     label = "C6H12l",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
 2  C u0 p0 c0 {3,S} {4,S} {6,S} {8,S}
@@ -3018,7 +3018,7 @@ entry(
         S298 = (74.731,'cal/(mol*K)'),
     ),
     shortDesc = u"""1,cis-3-dimethylcyclobutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3027,7 +3027,7 @@ u"""
 entry(
     index = 92,
     label = "C6H12n",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
@@ -3055,7 +3055,7 @@ entry(
         S298 = (81.705,'cal/(mol*K)'),
     ),
     shortDesc = u"""ethylcyclobutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3064,7 +3064,7 @@ u"""
 entry(
     index = 93,
     label = "C6H12o",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
 2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
@@ -3092,7 +3092,7 @@ entry(
         S298 = (81.225,'cal/(mol*K)'),
     ),
     shortDesc = u"""methylcyclopentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3101,7 +3101,7 @@ u"""
 entry(
     index = 94,
     label = "C6H12p",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
@@ -3129,7 +3129,7 @@ entry(
         S298 = (71.044,'cal/(mol*K)'),
     ),
     shortDesc = u"""cyclohexane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3138,7 +3138,7 @@ u"""
 entry(
     index = 95,
     label = "C6H12q",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
@@ -3166,7 +3166,7 @@ entry(
         S298 = (91.723,'cal/(mol*K)'),
     ),
     shortDesc = u"""1-hexene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3175,7 +3175,7 @@ u"""
 entry(
     index = 96,
     label = "C6H12r",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
@@ -3203,7 +3203,7 @@ entry(
         S298 = (89.568,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-hexene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3212,7 +3212,7 @@ u"""
 entry(
     index = 97,
     label = "C6H12u",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {6,S} {9,S} {10,S}
@@ -3240,7 +3240,7 @@ entry(
         S298 = (89.568,'cal/(mol*K)'),
     ),
     shortDesc = u"""hex-3-ene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3249,7 +3249,7 @@ u"""
 entry(
     index = 98,
     label = "C6H12x",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
@@ -3277,7 +3277,7 @@ entry(
         S298 = (91.242,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-methyl-1-pentene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3286,7 +3286,7 @@ u"""
 entry(
     index = 99,
     label = "C6H12y",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -3314,7 +3314,7 @@ entry(
         S298 = (90.118,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-methyl-1-pentene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3323,7 +3323,7 @@ u"""
 entry(
     index = 100,
     label = "C6H12aa",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -3351,7 +3351,7 @@ entry(
         S298 = (89.569,'cal/(mol*K)'),
     ),
     shortDesc = u"""4-methyl-2-pentene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3360,7 +3360,7 @@ u"""
 entry(
     index = 101,
     label = "C6H12dd",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -3388,7 +3388,7 @@ entry(
         S298 = (90.601,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-methyl-2-pentene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3397,7 +3397,7 @@ u"""
 entry(
     index = 102,
     label = "C6H12ee",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
@@ -3425,7 +3425,7 @@ entry(
         S298 = (90.601,'cal/(mol*K)'),
     ),
     shortDesc = u"""cis-3-methyl-2-pentene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3434,7 +3434,7 @@ u"""
 entry(
     index = 103,
     label = "C6H12gg",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {8,S} {9,S} {10,S}
@@ -3462,7 +3462,7 @@ entry(
         S298 = (89.076,'cal/(mol*K)'),
     ),
     shortDesc = u"""2,3-dimethyl-1-butene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3471,7 +3471,7 @@ u"""
 entry(
     index = 104,
     label = "C6H12hh",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
 2  C u0 p0 c0 {5,S} {10,S} {11,S} {12,S}
@@ -3499,7 +3499,7 @@ entry(
         S298 = (87.155,'cal/(mol*K)'),
     ),
     shortDesc = u"""2,3-dimethyl-2-butene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3508,7 +3508,7 @@ u"""
 entry(
     index = 105,
     label = "C6H12ii",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
@@ -3536,7 +3536,7 @@ entry(
         S298 = (81.703,'cal/(mol*K)'),
     ),
     shortDesc = u"""3,3-dimethyl-1-butene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3545,7 +3545,7 @@ u"""
 entry(
     index = 106,
     label = "C6H12jj",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
 2  C u0 p0 c0 {4,S} {5,S} {9,S} {10,S}
@@ -3573,7 +3573,7 @@ entry(
         S298 = (90.119,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-ethyl-1-butene""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3582,7 +3582,7 @@ u"""
 entry(
     index = 107,
     label = "C6H14a",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {9,S} {10,S}
 2  C u0 p0 c0 {1,S} {4,S} {11,S} {12,S}
@@ -3612,7 +3612,7 @@ entry(
         S298 = (92.894,'cal/(mol*K)'),
     ),
     shortDesc = u"""hexane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3621,7 +3621,7 @@ u"""
 entry(
     index = 108,
     label = "C6H14b",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
@@ -3651,7 +3651,7 @@ entry(
         S298 = (85.6,'cal/(mol*K)'),
     ),
     shortDesc = u"""2,2-dimethylbutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3660,7 +3660,7 @@ u"""
 entry(
     index = 109,
     label = "C6H14c",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {6,S} {8,S}
@@ -3690,7 +3690,7 @@ entry(
         S298 = (87.444,'cal/(mol*K)'),
     ),
     shortDesc = u"""2,3-dimethylbutane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3699,7 +3699,7 @@ u"""
 entry(
     index = 110,
     label = "C6H14d",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {4,S} {5,S} {7,S}
 2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
@@ -3729,7 +3729,7 @@ entry(
         S298 = (90.97,'cal/(mol*K)'),
     ),
     shortDesc = u"""2-methylpentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
@@ -3738,7 +3738,7 @@ u"""
 entry(
     index = 111,
     label = "C6H14e",
-    molecule = 
+    molecule =
 """
 1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
 2  C u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
@@ -3768,7 +3768,7 @@ entry(
         S298 = (91.532,'cal/(mol*K)'),
     ),
     shortDesc = u"""3-methylpentane""",
-    longDesc = 
+    longDesc =
 u"""
 
 """,
